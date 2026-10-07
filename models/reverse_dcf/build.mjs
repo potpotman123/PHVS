@@ -58,6 +58,7 @@ e.getRange('I6:I18').format.columnWidth=36;e.getRange('J6:J18').format.columnWid
 note(e,'C20','Closest supplied PTs to spot: Wolfe $42, BofA/Guggenheim $44, KBC $49, Wedbush $50. Guggenheim has the fullest lower-PT revenue path.');
 note(e,'C21','Preserve all brokers. Do not average parameters across different valuation methods or count two Leerink notes as independent views.');
 const years=Array.from({length:11},(_,i)=>2026+i);
+const forecastYears=Array.from({length:30},(_,i)=>2026+i);
 band(e,23,'Guggenheim printed forecasts (EUR millions)');setrow(e,24,'Calendar year',years);
 const ir=[0,54.385,109.336,219.809,303.809,416.439,502.326,589.094,676.751,765.304,854.760];
 const xr=[0,0,64.981,146.126,220.893,289.175,350.867,405.859,454.041,495.304,529.535];
@@ -92,6 +93,27 @@ note(e,'C72','RBC 124314632 p1: modeled ~30% out-year Orladeyo erosion; ~$400–
 note(e,'C73','Evercore 124342693 pp1–2: illustrative reverse BCRX DCF at $8.40; Orladeyo $685m peak2027 to ~$550m2037; paid patients ~1,200 to ~700.');
 note(e,'C74','These are broker scenarios, not observed patient losses or a one-for-one source of PHVS revenue. Evercore printed margin summaries differ.');
 e.freezePanes.freezeRows(6);
+band(e,77,'Post-generic revenue evidence and calibration');
+e.getRange('C78:H78').values=[['Kuvan worldwide', 'Year', 'USD m','Retained vs2020','Annual change','Status']];
+const kuvan=[[2019,463.4],[2020,457.7],[2021,285.776],[2022,227.577],[2023,180.767],[2024,121]];
+kuvan.forEach(([y,v],i)=>{const r=79+i;val(e,`C${r}`,'Kuvan');val(e,`D${r}`,y);val(e,`E${r}`,v);formula(e,`F${r}`,`=E${r}/$E$80`);if(i)formula(e,`G${r}`,`=E${r}/E${r-1}-1`);val(e,`H${r}`,i===1?'US generic entry Oct2020':i===5?'Rounded company release':'Reported');});
+e.getRange('F79:G84').setNumberFormat(pct);
+val(e,'C86','Kuvan2021–24 annual revenue change');formula(e,'E86','=(E84/E81)^(1/3)-1');e.getRange('E86').setNumberFormat(pct);
+note(e,'C88','2020 anchor includes3 months of US generic exposure; global sales mix regions with different entry dates. Not a clean US-only cohort.');
+note(e,'C89','2019/2020: BioMarin2020 10-K. 2021–23: BioMarin2023 10-K note12. 2024 rounded to nearest USD m.');
+note(e,'C90','https://investors.biomarin.com/files/doc_financials/2020/q4/BMRN-BioMarin-Pharmaceutical-Inc-10-K-2021-02-26-pdf_.pdf');
+note(e,'C91','https://www.sec.gov/Archives/edgar/data/1048477/000104847724000016/bmrn-20231231.htm');
+note(e,'C92','https://www.biomarin.com/news/press-releases/biomarin-reports-fourth-quarter-and-full-year-2024-results-sets-full-year-2025-guidance/');
+band(e,94,'Cross-checks: distinct populations, not pooled');
+e.getRange('C95:H98').values=[['Brand','Year','Revenue m','Currency','Annual change','Coverage'],['Xenazine',2015,2201,'DKK',null,'Lundbeck product revenue'],['Xenazine',2016,1571,'DKK',null,'First full year after Q3 2015 entry'],['Xenazine',2017,1049,'DKK',null,'New branded competition also possible']];
+formula(e,'G97','=E97/E96-1');formula(e,'G98','=E98/E97-1');e.getRange('G97:G98').setNumberFormat(pct);
+e.getRange('C100:H102').values=[['Brand','Year','Revenue m','Currency','Annual change','Coverage'],['Orfadin',2020,665,'SEK',null,'Sobi worldwide; already post-entry'],['Orfadin',2021,459,'SEK',null,'Generic competition and pricing erosion']];
+formula(e,'G102','=E102/E101-1');e.getRange('G102').setNumberFormat(pct);
+note(e,'C104','https://www.lundbeck.com/content/dam/lundbeck-com/masters/global-site/global-site/investors/reports-and-presentations-/2016/Q4-2016-release.pdf');
+note(e,'C105','https://www.lundbeck.com/content/dam/lundbeck-com/masters/global-site/global-site/investors/reports-and-presentations-/2017/Q4-2017-release.pdf');
+note(e,'C106','https://www.sobi.com/sites/sobi/files/pr/202202097528-1.pdf');
+note(e,'C108','PHVS FY2025 filing: patents expire23-Nov-2038 or later. Generic-entry year is a scenario, not a confirmed date.');
+note(e,'C109','https://ir.pharvaris.com/static-files/3b559ad8-d06e-4bd4-8273-d52c044c1ecd');
 
 const a=sheets.Inputs;
 note(a,'C4','Blue/amber cells are editable. This is a normalized, conditional DCF, not a replication of Guggenheim or a consensus model.');
@@ -111,8 +133,8 @@ const entries=[
  [18,'Source IR PoS (for basis2 de-risking)',.90,pct,'Used only to unweight already risk-adjusted source revenue'],
  [19,'Source XR PoS (for basis2 de-risking)',.90,pct,'Used only to unweight already risk-adjusted source revenue'],
  [20,'Discount rate',.125,pct,'Guggenheim p1; common discount rate for skeleton'],
- [21,'Terminal growth rate',-.05,pct,'Guggenheim p1; negative-growth perpetuity beyond2036'],
- [22,'Terminal value: 1 include / 0 exclude',1,'0','Zero switches off terminal value; do not confuse g0% with no terminal value'],
+ [21,'Long-run annual revenue change',null,pct,'Kuvan2021–24 CAGR proxy. Applied after erosion year4; continued extrapolation is assumed'],
+ [22,'Residual value after2055: 1 yes / 0 no',1,'0','Zero excludes2056 onward, while retaining explicit cash flows through2055'],
  [23,'Cash tax rate',.15,pct,'Guggenheim p1; normalized tax subtraction'],
  [24,'First cash-tax year',2031,'0','Broker stated tax start; explicit NOL schedule not available'],
  [25,'COGS / revenue',.10,pct,'Derived from Guggenheim p2 forecast COGS and sales'],
@@ -150,31 +172,47 @@ note(a,'C50','Shared costs deducted once and not PoS-weighted. No failure-state 
 note(a,'C51','PoS weights expected revenue. Success-case revenue is the appropriate comparator to approved-drug actual sales.');
 note(a,'C52','A single scale preserves the chosen ramp shape. It does not independently identify launch speed, peak sales or product mix.');
 a.freezePanes.freezeRows(4);
+band(a,53,'Generic-entry timing and revenue retained');
+input(a,'E54',2039,'0');val(a,'C54','IR first full generic-exposed year');note(a,'G54','Scenario after Nov2038 patent date; no extension assumed. Entry can differ from patent expiry');
+input(a,'E55',2039,'0');val(a,'C55','XR first full generic-exposed year');note(a,'G55','Independent input; formulation patents could change entry timing, not established here');
+for(let i=0;i<4;i++){val(a,`C${56+i}`,`Revenue retained in exposure year${i+1}`);formula(a,`E${56+i}`,`='Street evidence'!F${81+i}`);a.getRange(`E${56+i}`).setNumberFormat(pct);note(a,`G${56+i}`,'Kuvan global proxy vs2020 anchor; replace formula only for an explicit scenario');}
+formula(a,'E21',"='Street evidence'!E86");a.getRange('E21').setNumberFormat(pct);
+note(a,'C61','2037 until generic entry: revenue held flat at2036 levels. No assumed growth extension.');
+note(a,'C62','After both face generics, shared costs/capex/depreciation follow average retained revenue with a one-year lag (assumption).');
+note(a,'C63','Explicit forecast ends2055; residual2056 onward is a declining perpetuity after revenue and costs reach a common decline rate.');
+note(a,'C64','E21 and E56:E59 are source-linked scenario drivers. Source observations remain intact on Street evidence.');
+for(const r of [54,55])a.getRange(`E${r}`).dataValidation={rule:{type:'whole',operator:'between',formula1:2037,formula2:2050}};
 
 const d=sheets.DCF;
+title(d,'DCF','AH',110);
 note(d,'C4','EUR millions. Year-end discounting. 2026 costs prorated from valuation date; elapsed cash burn is reflected in cash once.');
-setrow(d,5,'Calendar year',years);d.freezePanes.freezeRows(5);d.freezePanes.freezeColumns(4);
+setrow(d,5,'Calendar year',forecastYears);d.freezePanes.freezeRows(5);d.freezePanes.freezeColumns(4);
 const lab={6:'Years to cash flow',7:'Year fraction included',10:'Reported IR reference revenue',11:'Reported XR reference revenue',12:'Success-case IR reference revenue',13:'Success-case XR reference revenue',15:'COGS / revenue',16:'Cash tax rate',18:'R&D cash expense',19:'G&A cash expense',20:'Capex',21:'Depreciation',22:'Shared operating cost',30:'IR expected revenue per1x ramp',31:'XR expected revenue per1x ramp',32:'IR contribution before shared costs',33:'XR contribution before shared costs',34:'IR change in working capital per1x',35:'XR change in working capital per1x',36:'IR after-tax cash-flow coefficient',37:'XR after-tax cash-flow coefficient',38:'Fixed-cost cash-flow coefficient',39:'Discount factor',40:'PV IR coefficient',41:'PV XR coefficient',42:'PV fixed coefficient'};
 for(const [r,l] of Object.entries(lab))val(d,`C${r}`,l);
-years.forEach((y,i)=>{const c=col(i+5),prev=col(i+4);const f={
+for(const [r,label] of [[24,'IR full generic-exposed years'],[25,'XR full generic-exposed years'],[26,'IR retained revenue / plateau'],[27,'XR retained revenue / plateau'],[28,'Shared cost retention factor']])val(d,`C${r}`,label);
+forecastYears.forEach((y,i)=>{const c=col(i+5),prev=col(i+4);const f={
 6:`=MAX(0,(DATE(${c}5,12,31)-Inputs!$E$8)/365.25)`,
 7:`=IF(${c}5=YEAR(Inputs!$E$8),MAX(0,(DATE(${c}5,12,31)-Inputs!$E$8)/365.25),IF(${c}5<YEAR(Inputs!$E$8),0,1))`,
-10:`=Inputs!${c}43`,11:`=Inputs!${c}44`,
+10:i<11?`=Inputs!${c}43`:`=$O$10*${c}26`,11:i<11?`=Inputs!${c}44`:`=$O$11*${c}27`,
 12:`=IF(Inputs!$E$15=1,${c}10,${c}10/Inputs!$E$18)`,13:`=IF(Inputs!$E$15=1,${c}11,${c}11/Inputs!$E$19)`,
 15:'=Inputs!$E$25',16:`=IF(${c}5>=Inputs!$E$24,Inputs!$E$23,0)`,
-18:`=Inputs!${c}46*${c}7`,19:`=Inputs!${c}47*${c}7`,20:`=Inputs!$E$27*${c}7`,21:`=Inputs!$E$28*${c}7`,22:`=SUM(${c}18:${c}19)`,
+18:`=Inputs!${i<11?c:'$O$'}46*${c}7*${c}28`,19:`=Inputs!${i<11?c:'$O$'}47*${c}7*${c}28`,20:`=Inputs!$E$27*${c}7*${c}28`,21:`=Inputs!$E$28*${c}7*${c}28`,22:`=SUM(${c}18:${c}19)`,
+24:`=MAX(0,${c}5-Inputs!$E$54+1)`,25:`=MAX(0,${c}5-Inputs!$E$55+1)`,
+26:`=IF(${c}24=0,1,IF(${c}24<=4,INDEX(Inputs!$E$56:$E$59,${c}24),Inputs!$E$59*(1+Inputs!$E$21)^(${c}24-4)))`,
+27:`=IF(${c}25=0,1,IF(${c}25<=4,INDEX(Inputs!$E$56:$E$59,${c}25),Inputs!$E$59*(1+Inputs!$E$21)^(${c}25-4)))`,
+28:i?`=IF(${c}5<=MAX(Inputs!$E$54:$E$55),1,AVERAGE(${prev}26:${prev}27))`:'=1',
 30:`=${c}12*Inputs!$E$16`,31:`=${c}13*Inputs!$E$17`,32:`=${c}30*(1-${c}15)`,33:`=${c}31*(1-${c}15)`,
 34:`=Inputs!$E$26*(${c}30-${i?prev+'30':'0'})`,35:`=Inputs!$E$26*(${c}31-${i?prev+'31':'0'})`,
 36:`=${c}32*(1-${c}16)-${c}34`,37:`=${c}33*(1-${c}16)-${c}35`,38:`=-${c}22*(1-${c}16)+${c}21*${c}16-${c}20`,
 39:`=1/(1+Inputs!$E$20)^${c}6`,40:`=${c}36*${c}39`,41:`=${c}37*${c}39`,42:`=${c}38*${c}39`};
 for(const[r,x]of Object.entries(f))formula(d,`${c}${r}`,x);
 });
-d.getRange('E15:O16').setNumberFormat(pct);d.getRange('E39:O39').setNumberFormat('0.000x');
+d.getRange('E15:AH16').setNumberFormat(pct);d.getRange('E26:AH28').setNumberFormat(pct);d.getRange('E39:AH39').setNumberFormat('0.000x');
 band(d,45,'Reverse valuation solve');
 const solver={
-48:['IR rNPV coefficient','=SUM(E40:O40)+IF(Inputs!$E$22=1,O36*(1+Inputs!$E$21)/(Inputs!$E$20-Inputs!$E$21)*O39,0)'],
-49:['XR rNPV coefficient','=SUM(E41:O41)+IF(Inputs!$E$22=1,O37*(1+Inputs!$E$21)/(Inputs!$E$20-Inputs!$E$21)*O39,0)'],
-50:['PV of shared costs','=SUM(E42:O42)+IF(Inputs!$E$22=1,O38*(1+Inputs!$E$21)/(Inputs!$E$20-Inputs!$E$21)*O39,0)'],
+48:['IR rNPV coefficient','=SUM(E40:AH40)+IF(Inputs!$E$22=1,AH36*(1+Inputs!$E$21)/(Inputs!$E$20-Inputs!$E$21)*AH39,0)'],
+49:['XR rNPV coefficient','=SUM(E41:AH41)+IF(Inputs!$E$22=1,AH37*(1+Inputs!$E$21)/(Inputs!$E$20-Inputs!$E$21)*AH39,0)'],
+50:['PV of shared costs','=SUM(E42:AH42)+IF(Inputs!$E$22=1,AH38*(1+Inputs!$E$21)/(Inputs!$E$20-Inputs!$E$21)*AH39,0)'],
 51:['Target equity PV, EUR','=Inputs!E6*Inputs!E30/Inputs!E29/(1+Inputs!E20)^Inputs!E7'],
 52:['Estimated cash at valuation','=Inputs!E37'],53:['Other assets rNPV','=Inputs!E36'],54:['Debt','=Inputs!E35'],
 55:['Required product contribution PV','=E51-E52-E53+E54-E50'],
@@ -189,13 +227,13 @@ note(d,'G57','Mode2 holds IR at1x; mode3 holds XR at1x. A negative scale is not 
 band(d,62,'Solved cash flow and valuation');
 const finalLabels={64:'IR success-case revenue',65:'XR success-case revenue',66:'IR probability-weighted revenue',67:'XR probability-weighted revenue',68:'Total probability-weighted revenue',69:'COGS',70:'R&D',71:'G&A / commercial overhead',72:'Depreciation',73:'EBIT',74:'Cash taxes (no refunds)',75:'NOPAT',76:'Add depreciation',77:'Less capex',78:'Working capital balance',79:'Change in working capital',80:'Unlevered free cash flow',81:'Discount factor',82:'PV free cash flow'};
 for(const[r,l]of Object.entries(finalLabels))val(d,`C${r}`,l);
-years.forEach((_,i)=>{const c=col(i+5),p=col(i+4);const f={64:`=${c}12*$E$57`,65:`=${c}13*$E$58`,66:`=${c}64*Inputs!$E$16`,67:`=${c}65*Inputs!$E$17`,68:`=SUM(${c}66:${c}67)`,69:`=${c}68*${c}15`,70:`=${c}18`,71:`=${c}19`,72:`=${c}21`,73:`=${c}68-SUM(${c}69:${c}72)`,74:`=MAX(0,${c}73)*${c}16`,75:`=${c}73-${c}74`,76:`=${c}72`,77:`=${c}20`,78:`=${c}68*Inputs!$E$26`,79:`=${c}78-${i?p+'78':'0'}`,80:`=${c}75+${c}76-${c}77-${c}79`,81:`=${c}39`,82:`=${c}80*${c}81`};for(const[r,x]of Object.entries(f))formula(d,`${c}${r}`,x);});
-const result={86:['PV explicit cash flows','=SUM(E82:O82)'],87:['Terminal value at2036','=IF(Inputs!E22=1,O80*(1+Inputs!E21)/(Inputs!E20-Inputs!E21),0)'],88:['PV terminal value','=E87*O81'],89:['Enterprise value incl other assets','=SUM(E86,E88,E53)'],90:['Equity value, EUR','=E89+E52-E54'],91:['Present value per share, USD','=E90*Inputs!E29/Inputs!E30'],92:['Value at selected target horizon, USD','=E91*(1+Inputs!E20)^Inputs!E7'],93:['Reconciliation to selected price','=E92-Inputs!E6']};
+forecastYears.forEach((_,i)=>{const c=col(i+5),p=col(i+4);const f={64:`=${c}12*$E$57`,65:`=${c}13*$E$58`,66:`=${c}64*Inputs!$E$16`,67:`=${c}65*Inputs!$E$17`,68:`=SUM(${c}66:${c}67)`,69:`=${c}68*${c}15`,70:`=${c}18`,71:`=${c}19`,72:`=${c}21`,73:`=${c}68-SUM(${c}69:${c}72)`,74:`=MAX(0,${c}73)*${c}16`,75:`=${c}73-${c}74`,76:`=${c}72`,77:`=${c}20`,78:`=${c}68*Inputs!$E$26`,79:`=${c}78-${i?p+'78':'0'}`,80:`=${c}75+${c}76-${c}77-${c}79`,81:`=${c}39`,82:`=${c}80*${c}81`};for(const[r,x]of Object.entries(f))formula(d,`${c}${r}`,x);});
+const result={86:['PV explicit cash flows through2055','=SUM(E82:AH82)'],87:['Residual value at2055','=IF(Inputs!E22=1,AH80*(1+Inputs!E21)/(Inputs!E20-Inputs!E21),0)'],88:['PV residual2056 onward','=E87*AH81'],89:['Enterprise value incl other assets','=SUM(E86,E88,E53)'],90:['Equity value, EUR','=E89+E52-E54'],91:['Present value per share, USD','=E90*Inputs!E29/Inputs!E30'],92:['Value at selected target horizon, USD','=E91*(1+Inputs!E20)^Inputs!E7'],93:['Reconciliation to selected price','=E92-Inputs!E6']};
 for(const[r,[l,f]]of Object.entries(result)){val(d,`C${r}`,l);formula(d,`E${r}`,f);}d.getRange('E91:E93').setNumberFormat(price);
 band(d,96,'Model checks');
 val(d,'C97','Nonnegative revenue scales');formula(d,'E97','=IF(MIN(E57:E58)>=0,"PASS","FAIL: negative ramp")');
 val(d,'C98','Reprices selected target');formula(d,'E98','=IF(ABS(E93)<0.000001,"PASS","FAIL: tax / solve domain")');
-val(d,'C99','Terminal discount condition');formula(d,'E99','=IF(OR(Inputs!E22=0,Inputs!E20>Inputs!E21),"PASS","FAIL: discount <= growth")');
+val(d,'C99','Terminal rate and timing conditions');formula(d,'E99','=IF(AND(Inputs!E21>-1,Inputs!E21<0,Inputs!E20>Inputs!E21,MIN(Inputs!E54:E55)>=2037,MAX(Inputs!E54:E55)<=2050),"PASS","FAIL: tail assumptions")');
 val(d,'C100','Probability basis confirmed');formula(d,'E100','=IF(Inputs!E38=1,"Confirmed by user","UNCONFIRMED")');
 note(d,'C102','Solver assumes taxable-year profits. If losses occur after tax start, no-refund taxes break the affine solve; failed reconciliation is visible.');
 note(d,'C103','No NOL roll-forward. No future financing or failure-state operating savings. Correlated approval risks are not assumed independent.');
@@ -209,7 +247,7 @@ val(s,'C7','Target horizon, years');formula(s,'E7','=Inputs!E7');
 val(s,'C8','IR / XR PoS');formula(s,'E8','=Inputs!E16');formula(s,'F8','=Inputs!E17');s.getRange('E8:F8').setNumberFormat(pct);
 val(s,'C9','IR / XR revenue scale');formula(s,'E9','=DCF!E57');formula(s,'F9','=DCF!E58');s.getRange('E9:F9').setNumberFormat('0.000x');
 val(s,'C10','Source probability basis');formula(s,'E10','=IF(Inputs!E15=1,"Assume success-case","Assume risk-adjusted")');
-val(s,'C11','Model result status');formula(s,'E11','=IF(OR(DCF!E97<>"PASS",DCF!E98<>"PASS",DCF!E99<>"PASS"),"INVALID: inspect DCF checks",IF(Inputs!E38=0,"Conditional: basis unconfirmed","Conditional on chosen assumptions"))');
+val(s,'C11','Model result status');formula(s,'E11','=IF(OR(MIN(DCF!E57:E58)<0,ABS(DCF!E93)>0.000001,Inputs!E21<=-1,Inputs!E21>=0,MIN(Inputs!E54:E55)<2037,MAX(Inputs!E54:E55)>2050),"INVALID: inspect assumptions",IF(Inputs!E38=0,"Conditional: basis unconfirmed","Conditional on chosen assumptions"))');
 note(s,'C13','Change Inputs E5 for spot versus PT, E14 for which product scales, and E15 for source revenue probability basis.');
 band(s,15,'SOTP at the selected target horizon','J');
 s.getRange('C16:F16').values=[['Component',null,'EUR m PV','USD / share']];
@@ -221,11 +259,14 @@ val(s,'C25','Published Guggenheim PT');formula(s,'E25','=Inputs!E10');s.getRange
 note(s,'C26','The source PT is not forced to match: costs, timing, taxes and probability basis differ.');
 band(s,28,'Required success-case sales (USD millions)','J');
 s.getRange('C29:H29').values=[['Calendar year',null,'IR','XR','Combined','Risk-weighted combined']];
-for(let i=0;i<10;i++){let r=30+i,c=col(6+i);val(s,`C${r}`,2027+i);formula(s,`E${r}`,`=DCF!${c}64*Inputs!$E$29`);formula(s,`F${r}`,`=DCF!${c}65*Inputs!$E$29`);formula(s,`G${r}`,`=SUM(E${r}:F${r})`);formula(s,`H${r}`,`=DCF!${c}68*Inputs!$E$29`);}
-note(s,'C41','2036 is the last explicit year, not an independently established peak year. All sales are worldwide net revenue.');
-note(s,'C42','Approved-drug launch comparisons use success-case sales. Discounted / PoS-weighted revenue is not actual commercial revenue.');
-const chart=s.charts.add('line',s.getRange('C29:C39').offset(0,0).resize(11,1));
-chart.setData([s.getRange('C29:C39'),s.getRange('E29:E39'),s.getRange('F29:F39')]);
+for(let i=0;i<29;i++){let r=30+i,c=col(6+i);val(s,`C${r}`,2027+i);formula(s,`E${r}`,`=DCF!${c}64*Inputs!$E$29`);formula(s,`F${r}`,`=DCF!${c}65*Inputs!$E$29`);formula(s,`G${r}`,`=SUM(E${r}:F${r})`);formula(s,`H${r}`,`=DCF!${c}68*Inputs!$E$29`);}
+note(s,'C60','2036 ramp is held flat until generic exposure. Post-entry retention is a Kuvan proxy; entry timing and cost response are assumptions.');
+note(s,'C61','Perpetuity has no end date. Years2056 onward are valued at end2055, after the explicit erosion schedule.');
+band(s,63,'Revenue totals and residual value','J');
+for(const[r,label,f]of [[65,'Peak combined worldwide sales, USD m','=MAX(G30:G58)'],[66,'Cumulative sales2027–2036, USD m','=SUM(G30:G39)'],[67,'Cumulative sales2027–2055, USD m','=SUM(G30:G58)'],[68,'Cumulative sales2056 onward, USD m','=IF(Inputs!E21<0,G58*(1+Inputs!E21)/(-Inputs!E21),NA())'],[69,'Lifetime cumulative sales, USD m','=SUM(E67:E68)'],[71,'PV residual2056 onward, EUR m','=DCF!E88'],[72,'Residual / equity value','=DCF!E88/DCF!E90'],[73,'IR / XR first exposure year','=Inputs!E54']]){val(s,`C${r}`,label);formula(s,`E${r}`,f);}
+s.getRange('E72').setNumberFormat('0.000%');formula(s,'F73','=Inputs!E55');s.getRange('E73:F73').setNumberFormat('0');
+note(s,'C75','Cumulative sales are undiscounted success-case revenues, not cash flow or value. Lifetime tail assumes continuing decline.');
+const chart=s.charts.add('line',[s.getRange('C29:C58'),s.getRange('E29:E58'),s.getRange('F29:F58')]);
 chart.title='Required worldwide sales ($m)';chart.setPosition('K6','S24');chart.titleTextStyle.typeface='Arial';chart.titleTextStyle.fontSize=12;
 chart.xAxis={axisType:'textAxis',textStyle:{typeface:'Arial',fontSize:10}};chart.yAxis={numberFormatCode:'$#,##0',numberFormatSourceLinked:false,textStyle:{typeface:'Arial',fontSize:10}};
 chart.legend={position:'bottom',textStyle:{typeface:'Arial',fontSize:10}};
@@ -256,25 +297,28 @@ lc.xAxis={axisType:'textAxis',textStyle:{typeface:'Arial',fontSize:10}};lc.yAxis
 lc.series.items.forEach((x,i)=>{x.line={fill:['#8B9099','#A36C28'][i],style:i?'solid':'dashed',width:2};});
 
 // Output views keep formula results dark. Finance colors apply to the working tabs.
-for(const n of ['Reverse SOTP','Launch comparison'])sheets[n].getRange('E6:O43').format.font.color='#172B4D';
+for(const n of ['Reverse SOTP','Launch comparison'])sheets[n].getRange('E6:O75').format.font.color='#172B4D';
+a.getRange('E42:O42').setNumberFormat('0');d.getRange('E5:AH5').setNumberFormat('0');
+e.getRange('C106:O110').format.font={name:'Arial',size:10,color:grey};
 s.getRange('I6').format.font.color=green;
 s.getRange('E11').conditionalFormats.add('containsText',{text:'INVALID',format:{fill:'#FEE4E2',font:{color:'#B42318',bold:true}}});
 for(const sh of [s,a,d,l,e]){
  for(const r of [2,4])sh.getRange(`C${r}`).format.wrapText=false;
 }
 wb.recalculate();
-const snapshot=()=>({target:a.getRange('E6').values[0][0],irScale:d.getRange('E57').values[0][0],xrScale:d.getRange('E58').values[0][0],price:d.getRange('E92').values[0][0],gap:d.getRange('E93').values[0][0],baseline:d.getRange('E59').values[0][0],sales:s.getRange('E30:H39').values});
+const snapshot=()=>({target:a.getRange('E6').values[0][0],irScale:d.getRange('E57').values[0][0],xrScale:d.getRange('E58').values[0][0],price:d.getRange('E92').values[0][0],gap:d.getRange('E93').values[0][0],baseline:d.getRange('E59').values[0][0],sales:s.getRange('E30:H58').values,tailGrowth:a.getRange('E21').values[0][0],totals:s.getRange('E65:E72').values,tailPV:d.getRange('E88').values[0][0]});
 const base=snapshot();
 const tests=[];
-for(const [cell,value,desc] of [['E5',2,'Broker target'],['E14',2,'XR-only solve'],['E15',2,'Already weighted source basis'],['E22',0,'No terminal value']]){
+for(const [cell,value,desc] of [['E5',2,'Broker target'],['E14',2,'XR-only solve'],['E15',2,'Already weighted source basis'],['E22',0,'No residual after2055'],['E54',2042,'Delayed IR entry'],['E55',2042,'Delayed XR entry'],['E54',2037,'Earlier IR entry']]){
  const old=a.getRange(cell).values[0][0];val(a,cell,value);wb.recalculate();const x=snapshot();tests.push({desc,...x});if(Math.abs(x.gap)>1e-6)throw new Error('Repricing failed '+desc);val(a,cell,old);wb.recalculate();
 }
+for(const rate of [-.10,-.40]){const f=a.getRange('E21').formulas[0][0];val(a,'E21',rate);wb.recalculate();const x=snapshot();tests.push({desc:`Annual tail change ${rate}`,...x});if(Math.abs(x.gap)>1e-6)throw new Error('Tail sensitivity repricing');formula(a,'E21',f);wb.recalculate();}
 const old=a.getRange('E11').values[0][0];val(a,'E5',3);val(a,'E11',0);wb.recalculate();const invalid=snapshot();if(d.getRange('E97').values[0][0]==='PASS'&&d.getRange('E98').values[0][0]==='PASS')throw new Error('Zero-target boundary was not flagged');val(a,'E11',old);val(a,'E5',1);wb.recalculate();
 if(Math.abs(base.gap)>1e-6)throw new Error('Base repricing failed');
 const errors=await wb.inspect({kind:'match',searchTerm:'#REF!|#DIV/0!|#VALUE!|#NAME\\?|#N/A|#NUM!|#NULL!|#SPILL!|#CALC!',options:{useRegex:true,maxResults:20},summary:'Formula error scan'});
 await fs.writeFile(qa+'/formula_scan.json',errors.ndjson);
 await fs.writeFile(root+'/models/reverse_dcf/verification.json',JSON.stringify({base,tests,invalid,engine:'Artifact Tool; native Excel not exercised'},null,2));
-const regions={'Reverse SOTP':'C2:S42','Inputs':'C2:O38','DCF':'C45:O100','Launch comparison':'C2:R52','Street evidence':'C6:K18'};
+const regions={'Reverse SOTP':'C2:S75','Inputs':'C41:O64','DCF':'O5:Y28','Launch comparison':'C2:R52','Street evidence':'C77:K109'};
 for(const[n,range]of Object.entries(regions)){const blob=await wb.render({sheetName:n,range,scale:1.5,format:'png'});await fs.writeFile(qa+'/'+n.replaceAll(' ','_')+'.png',new Uint8Array(await blob.arrayBuffer()));}
 const file=await SpreadsheetFile.exportXlsx(wb);await file.save(out+'/PHVS_reverse_SOTP_DCF.xlsx');
 console.log(JSON.stringify({base,tests:tests.map(t=>({desc:t.desc,price:t.price,irScale:t.irScale,xrScale:t.xrScale})),formulaScan:errors.ndjson,output:out+'/PHVS_reverse_SOTP_DCF.xlsx'},null,2));

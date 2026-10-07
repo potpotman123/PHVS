@@ -3,21 +3,29 @@
   "checks": [
     [
       "spot",
-      0.8415788911630935,
-      0.8415788911630936
+      0.9867680610981089,
+      0.9867680610981091
     ],
     [
       "broker",
-      0.9664930499742235,
-      0.9664930499742235
+      1.1378597886305557,
+      1.1378597886305561
     ],
     [
       "no_terminal",
-      1.2817728731210574,
-      1.2817728731210571
+      0.986861586209167,
+      0.9868615862091672
     ]
   ],
   "cached_formula_errors": 0,
   "native_linked_charts": 2,
-  "native_Excel_execution": "not performed"
+  "native_Excel_execution": "not performed",
+  "500_year_tail_matches_perpetuity": true,
+  "retained_revenue_years_1_to_4": [
+    0.6243740441337121,
+    0.4972187022066856,
+    0.39494647148787415,
+    0.26436530478479353
+  ],
+  "long_run_annual_change": -0.24909233225475447
 }

@@ -16,7 +16,12 @@ Inputs E5: 1 = $31.83 spot snapshot; 2 = Guggenheim $44 PT; 3 = custom price.
 E14: scale both products together, XR alone with IR fixed, or IR alone with XR fixed.
 E15: treat source revenues as success-case or as already probability weighted.
 E16/E17: approval probabilities. Defaults90%/90% from Guggenheim p1.
-E20–E22: discount rate, terminal growth and terminal-value toggle.
+E20–E22: discount rate, annual revenue tail change and residual-value toggle.
+E54/E55: first full generic-exposed year for IR/XR independently (default2039).
+E56:E59: revenue retained in exposure years1–4, source-linked to Kuvan observations.
+E21: subsequent annual revenue change, source-linked to Kuvan2021–24 CAGR.
+Changing a linked driver to an assumption does not overwrite the observed data.
+E22=0 excludes2056 onward only, not all post-expiry cash flows.
 E38 stays0 until the source revenue probability basis has been verified.
 Use the source-shaped path as a starting scenario. Editing annual source data or
 costs is possible; changes need their own evidence and justification.
@@ -29,8 +34,9 @@ Review targeted valuation, commercial and financial sections, not legal appendic
 
 Twelve distinct PHVS broker targets span$42–65. Closest lower targets are Wolfe42,
 BofA44, Guggenheim44, KBC49 and Wedbush50. Guggenheim provides the most usable
-separate revenue path among these lower-target reports. Its parameters remain
-together; missing inputs are explicitly assumed, not borrowed as fake consensus.
+separate revenue path among these lower-target reports. Its early revenue and PoS
+assumptions remain together; the subsequent user-requested patent erosion model
+replaces its terminal-growth convention. This is not the broker's complete model.
 All12 brokers remain in Street evidence; absence of numerical PoS is marked n.a.
 
 Guggenheim124306319 pp1–3:90%/90%PoS,12.5%WACC,-5%terminal growth,15%tax starting2031.
@@ -76,30 +82,79 @@ Shared costs are deducted once and not PoS-weighted. This is an expected-revenue
 skeleton, not a full success/failure-state rNPV; taxes on expected profits are not
 necessarily expected taxes. No joint IR/XR approval-independence assumption is made.
 A full scenario tree is needed to value failure-state savings and state taxes.
-No NOL roll-forward, future financing, dilution schedule, explicit LOE erosion,
+No NOL roll-forward, future financing, dilution schedule,
 territorial economics, cohort switching or IR/XR rescue-use interaction is modeled.
 AAE/other pipeline value is set to an explicit zero scenario, not found valueless.
-Reported R&D and G&A used through2030; held flat thereafter as an assumption.
+Reported R&D and G&A used through2030; held flat until both products face generics.
+Thereafter R&D/G&A/capex/depreciation follow the mean IR/XR revenue retention factors
+with a one-year lag. This is an assumed asset-runoff cost response, not observed PHVS
+cost behavior or a forecast for an indefinitely reinvesting pharmaceutical company.
 FX1.16USD/EUR, WC5%of sales, annual capex and depreciationEUR0.6m are assumptions.
 76.125m diluted shares are Guggenheim's projection, not reported70.204506m basic shares.
-The perpetual decline applies to2036 FCF;2036 is not an independently inferred peak.
+The explicit forecast now extends through2055. Revenue plateaus at2036 levels until
+the assumed entry dates, then declines. Once all components share the same mature
+decline rate, end2055 residual value=2056 FCF/(discount rate minus annual change).
+Perpetuity means an infinite horizon, not30 or50 years. Its present value is finite.
+The2055 cutoff is for explicit spreadsheet presentation; it is not a cash-flow stop.
+Undiscounted lifetime sales also include the geometric revenue sum from2056 onward.
+
+POST-GENERIC EVIDENCE AND CALIBRATION — 7 OCTOBER EXTENSION
+Kuvan (sapropterin, PKU) is the main oral rare-disease small-molecule proxy. Reported
+worldwide revenueUSDm:2019 463.4;2020 457.7;2021 285.776;2022 227.577;2023 180.767;
+2024 approximately121. US generic entry occurred October2020.2020 is a transition
+anchor, not a completely unexposed baseline; relative to2019, retention would be
+slightly lower. Geographic timing, alternative therapies and pricing confound a
+pure generic effect. This is a revenue proxy, not a causal or US-only estimate.
+First four retained-revenue factors=2021–24 sales/2020 sales:62.44/49.72/39.49/26.44%.
+Subsequent annual decline24.91%=(121/285.776)^(1/3)-1. That observed interval supports
+a sensitivity anchor; continuing it indefinitely is an assumption, not an observation.
+Source URLs and formulas are on Street evidence rows77–92.
+
+Cross-checks, not pooled: Lundbeck's Xenazine product revenueDKKm2201 in2015,
+1571 in2016 and1049 in2017 (28.6% and33.2% annual declines); generic entryQ3 2015
+makes2015 partly exposed. Its reports distinguish US geographic sales from total
+product revenue; the model uses the consistent total-product series. FX, distribution
+economics and subsequent branded competition limit comparisons. Orfadin worldwide
+revenueSEKm665 in2020 to459 in2021 (-31.0%); both are already post-entry years, so
+this is corroboration of continuing erosion, not an initial generic-entry curve.
+Firazyr is a peptide injectable, so it is not used as a small-molecule oral analogue.
+Orfadin and Xenazine lack a clean matched full four-year cohort in this bounded pass.
+
+Patent timing: indexed FY2025 PHVS annual-report disclosure says patents expire
+November23,2038 or later. Default2039 is an explicitly assumed first full exposed
+year. It is not a confirmed generic launch, legal opinion or guarantee of protection.
+Full current PDF retrieval failed; the indexed primary excerpt was recovered, not
+a full claim-by-claim patent audit. Patent extensions, later formulation claims,
+litigation and territory-specific protection are unresolved. The2038 partial-year
+generic stub is omitted by the annual convention. Source URL is retained in row109.
+Entry years may differ for IR/XR.2037–2050 is the supported input domain so the tail
+is fully in its mature decline phase by2055. No delayed-entry benefit is assumed by
+default. These timing assumptions require a separate IP audit before pitch use.
 
 INITIAL CONDITIONAL RESULTS
-Using default assumptions, the$31.83 spot requires0.84158x both reference ramps.
-The$44 one-year PT requires0.96649x; normalized1x reference present value is$41.06
-(one-year equivalent$46.20). These are different horizons, not a hidden mismatch.
+Using the updated erosion assumptions, the$31.83 spot requires0.98677x both ramps.
+The$44 one-year PT requires1.13786x; normalized1x present value is$32.47.
 At spot, required success-case worldwide sales:
 Year       IR USDm      XR USDm       Total USDm
-2027          53.1          0.0             53.1
-2028         106.7         63.4            170.2
-2030         296.6        215.6            512.2
-2033         575.1        396.2            971.3
-2036         834.4        516.9          1,351.4
-Hold IR at1x instead: required XR scale0.59411x. Turn terminal value off: required
-common scale1.28177x. These demonstrate underidentification and valuation sensitivity.
+2027          62.3          0.0             62.3
+2028         125.2         74.4            199.5
+2030         347.8        252.8            600.6
+2033         674.3        464.6          1,138.9
+2036         978.4        606.1          1,584.5
+2037–38 repeat2036;2039 first erosion year combined989.3;2055 combined10.1.
+Cumulative2027–36:$8.526bn;2027–55:$15.750bn; lifetime:$15.780bn. All are undiscounted
+success-case worldwide revenues, not equity values. At$44 future PT, peak$1.827bn,
+2027–36 cumulative$9.832bn and lifetime$18.196bn.
+The old5%cash-flow tail yielded$1.351bn required peak; that case is superseded,
+not a directly comparable post-patent curve. It remains recoverable in Git1676752.
+Residual cash-flow PV from2056 onward isEUR0.296m,0.0142%of equity value. Removing
+only that residual raises required peak to$1.58468bn. Post2036 cash flows have moved
+into explicit years; the tiny residual does NOT mean all distant cash flows vanished.
+Tail-decline sensitivities:10%annual erosion needs$1.555bn peak;40%needs$1.598bn.
+Delay IR entry to2042 alone:$1.492bn peak; delay XR alone:$1.536bn. All else fixed.
 
-XR first full calendar years2029–32 require$142.7/215.6/282.3/342.5m versus observed
-Orladeyo2021–24$122.6/251.6/326.0/437.7m: ratios1.16/0.86/0.87/0.78x. Launch months,
+XR first full calendar years2029–32 require$167.3/252.8/331.0/401.6m versus observed
+Orladeyo2021–24$122.6/251.6/326.0/437.7m. Launch months,
 prices, territories and competition differ. This is not a causal efficacy premium
 or calibrated second-oral adoption discount. US paid volumes must be separated next.
 Ekterly$49.1m reflects roughly six commercial months in2025; PHVS2027 calendar sales
@@ -117,9 +172,11 @@ PHVS capture: price, new users, other competitors and free/paid shifts intervene
 
 VERIFICATION AND LIMITS
 Artifact Tool recalculation: base, broker target, XR-only, source-basis change and
-no-terminal scenarios reprice within1e-6. A zero-target boundary flags invalidity.
+no-residual, entry-date and tail-rate scenarios reprice within1e-6. A zero-target
+boundary flags invalidity.
 Independent Python year-by-year cash flow plus bisection matches spot, PT and no-TV
-solutions within1e-9. Exported caches contain no cell errors; two native charts
+solutions within1e-9. A500-year cash-flow sum matches the residual perpetuity formula.
+Exported caches contain no cell errors; two native charts
 retain formula bindings. All five worksheet previews visually reviewed; overlapping
 notes/charts corrected. Native Microsoft Excel recalculation was not exercised.
 verification.json and independent_verification.json retain results.
@@ -128,6 +185,8 @@ NEXT DECISION
 The skeleton can enter scenario analysis now; inferred investor adoption beliefs
 cannot. Highest-value next work: explicit net-price/territory/paid-patient bridge,
 then compare required paid adoption to observed launch cohorts and plausible switch
-stocks. Stress costs, funding and patent erosion before inferring an efficacy premium.
+stocks. Refine effective generic-entry timing, cost runoff and funding before
+inferring an efficacy premium. Additional weak analogue searches were stopped once
+Kuvan's usable series and two cross-checks were established; no paid data or agents.
 Additional broad searching or Monte Carlo before resolving these definitions would
 add apparent precision. Patient forum / expanded adoption work remains deferred.
