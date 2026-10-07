@@ -1,6 +1,35 @@
 PHVS reverse SOTP / DCF skeleton — 7 October 2026
 
 POST-GENERIC CALIBRATION AUDIT (subsequent research, same date)
+LATEST: Workbook now implements50/50 study-informed / Kuvan P x Q scenario.
+The prior limitation described below is superseded. Appendix recovered via browser.
+Inputs66–88 holds the build; DCF112–119 shows separate IR/XR calendar paths.
+Health Affairs appendix pp8–9, S-4/S-5:452 formulation-specific drug definitions,
+same paper as271-compound analysis. Brand net-price labels64 at year-1 and
+88/112/128/138 at years1–4; brand30-day Rx100 at year-1 and24/13/9/8 at years1–4.
+Source labels visually checked; preserved on Street evidence112–120 and local PDF
+research/raw/Health_Affairs_2026_00257_appendix.pdf.
+
+Study R=(P/64)*(Q/100):33/22.75/18/17.25%. This is a SYNTHETIC scenario, not
+measured average revenue: separate pooled averages omit covariance and have
+different surviving samples. Kuvan revenue retains62.44/49.72/39.49/26.44%.
+Rare-disease net P is assumed flat (Inputs E75:H75); Q is implied from revenue/P.
+Do not combine worldwide net revenue with Medicare Q. Changing rare P reallocates
+P/Q while preserving the observed revenue anchor; it does not change that revenue.
+
+Blend R=.5*study R+.5*Kuvan R; blend Q=.5*study Q+.5*rare Q; effective P=R/Q.
+Revenue retention47.72/36.24/28.75/21.84%; P110.41/115.54/118.56/126.86%;
+Q43.22/31.36/24.25/17.22%. Indexed, not absolute dose/patient estimates. IR Q is
+paid doses; XR Q is paid treatment-years. Same proxy, independent entry dates.
+US/global transfer and partial Kuvan anchor remain limitations. After year4,
+P is flat and existing24.91% annual revenue runoff is assigned to Q (assumed).
+
+New spot case: peakUSD1,622.77m; cumulative2027–36USD8,732.00m; lifetime
+USD15,229.46m; scale1.010578. Blend endpoints, rare P change, identities and
+independent cash-flow solve pass.2 native charts retained; native Excel untested.
+Earlier numerical results and Kuvan-only descriptions below are historical.
+
+PREVIOUS AUDIT STATUS (superseded):
 The saved workbook's Kuvan-based erosion inputs remain a provisional scenario,
 not a validated PHVS central estimate. Broader pooled studies support substantial
 brand-volume erosion with potentially stable/rising branded prices. They do not
@@ -27,7 +56,7 @@ E15: treat source revenues as success-case or as already probability weighted.
 E16/E17: approval probabilities. Defaults90%/90% from Guggenheim p1.
 E20–E22: discount rate, annual revenue tail change and residual-value toggle.
 E54/E55: first full generic-exposed year for IR/XR independently (default2039).
-E56:E59: revenue retained in exposure years1–4, source-linked to Kuvan observations.
+E56:E59: revenue retained in exposure years1–4, linked to the50/50 P/Q build.
 E21: subsequent annual revenue change, source-linked to Kuvan2021–24 CAGR.
 Changing a linked driver to an assumption does not overwrite the observed data.
 E22=0 excludes2056 onward only, not all post-expiry cash flows.

@@ -112,6 +112,18 @@ Formula recalculation, scenario repricing, independent cash-flow bisection, nati
 
 ## Reference pitches and historical provenance
 
+LATEST50/50 implementation: Health Affairs appendix recovered via browser;
+S-4/S-5 pp8–9 give rounded net-price and volume labels for452 formulation-specific
+drug definitions in the same271-compound paper. Workbook now uses50% synthetic
+study P x Q and50% Kuvan revenue. The former is an assumed representative path,
+not measured mean revenue (pooled means/covariance and sample differences).
+Kuvan net P assumed flat, Q implied; CMS gross P/Q not substituted for global net.
+Inputs66–88 owns build; DCF112–119 shows IR/XR indices; entry dates independent.
+Revenue retention47.72/36.24/28.75/21.84%; post-year4 P flat,24.91% annual runoff
+assigned to Q. Peak requirement at31.83spotUSD1.623bn;2027–36 cumulative8.732bn.
+Independent valuation and P/Q checks pass. Earlier blocked/Kuvan-only notes below
+are superseded; full caveats in models/reverse_dcf/README.txt.
+
 Subsequent user choice: combine the271-compound study with rare-disease analogues.
 Working specification is50% study brand-only net-spending retention /50% Kuvan
 revenue retention, with25/75 and endpoints as sensitivity weights (assumptions).

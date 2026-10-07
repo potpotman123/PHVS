@@ -22,6 +22,14 @@ def n(tab, cell):
     return float(tabs[tab][cell].find('m:v',ns).text)
 
 a = lambda r: n('Inputs', 'E'+str(r))
+assert a(67) == .5
+for i, (pidx, qidx, rare_rev) in enumerate(zip([88,112,128,138],[24,13,9,8],[285.776,227.577,180.767,121])):
+    c = chr(69+i)
+    study_r = (pidx/64)*(qidx/100)
+    rare_r = rare_rev/457.7
+    expected_r = .5*study_r+.5*rare_r
+    assert abs(a(56+i)-expected_r)<1e-12
+    assert abs(n('Inputs',c+'79')*n('Inputs',c+'80')-expected_r)<1e-12
 ir = [n('Street evidence', chr(69+i)+'25') for i in range(11)]
 xr = [n('Street evidence', chr(69+i)+'26') for i in range(11)]
 rd = [n('Inputs',chr(69+i)+'46') for i in range(11)]

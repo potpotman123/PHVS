@@ -1,5 +1,13 @@
 PHVS: post-generic analogue and price/volume audit — 7 October 2026
 
+LATEST IMPLEMENTATION (supersedes extraction limitation below)
+Recovered appendix via publisher browser download. Figures S-4/S-5, pp8–9,
+provide numerical P/Q labels for452 formulation-specific drug definitions in
+the same study. Workbook implements50/50. The study half is synthetic P x Q,
+NOT observed mean revenue. Kuvan half assumes flat net P with Q implied from
+revenue. Xenazine/Orfadin remain cross-checks. See model README for assumptions.
+This differs from the earlier proposed observed-revenue blend and is labeled.
+
 USER-SELECTED COMBINED APPROACH — subsequent update, 7 October
 Use both the271-compound study and the rare-disease analogues. Proposed working
 central scenario:50% weight on study brand-only net-spending retention and50% on

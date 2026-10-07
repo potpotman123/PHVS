@@ -114,6 +114,15 @@ note(e,'C105','https://www.lundbeck.com/content/dam/lundbeck-com/masters/global-
 note(e,'C106','https://www.sobi.com/sites/sobi/files/pr/202202097528-1.pdf');
 note(e,'C108','PHVS FY2025 filing: patents expire23-Nov-2038 or later. Generic-entry year is a scenario, not a confirmed date.');
 note(e,'C109','https://ir.pharvaris.com/static-files/3b559ad8-d06e-4bd4-8273-d52c044c1ecd');
+band(e,112,'Health Affairs appendix: formulation-specific analysis (452 drug definitions)');
+setrow(e,113,'Years relative to generic entry',[-1,0,1,2,3,4]);
+setrow(e,114,'Brand net-price index (rounded labels)',[64,71,88,112,128,138]);
+setrow(e,115,'Brand 30-day Rx index (rounded labels)',[100,73,24,13,9,8]);
+note(e,'C117','Appendix pp8–9, Figures S-4/S-5; same study as271-compound analysis, but formulations/routes separated.');
+note(e,'C118','Price index is relative to pre-entry RETAIL price; divide by64 for net-price retention. Year0 is partial exposure.');
+note(e,'C119','Pooled P x pooled Q is a synthetic scenario, not measured mean revenue; samples/weights and covariance differ.');
+note(e,'C120','https://www.healthaffairs.org/doi/suppl/10.1377/hlthaff.2026.00257/suppl_file/2026-00257_suppl_appendix.pdf');
+e.getRange('C112:O120').format.font.name='Arial';e.getRange('C113:O120').format.rowHeight=22;
 
 const a=sheets.Inputs;
 note(a,'C4','Blue/amber cells are editable. This is a normalized, conditional DCF, not a replication of Guggenheim or a consensus model.');
@@ -175,12 +184,40 @@ a.freezePanes.freezeRows(4);
 band(a,53,'Generic-entry timing and revenue retained');
 input(a,'E54',2039,'0');val(a,'C54','IR first full generic-exposed year');note(a,'G54','Scenario after Nov2038 patent date; no extension assumed. Entry can differ from patent expiry');
 input(a,'E55',2039,'0');val(a,'C55','XR first full generic-exposed year');note(a,'G55','Independent input; formulation patents could change entry timing, not established here');
-for(let i=0;i<4;i++){val(a,`C${56+i}`,`Revenue retained in exposure year${i+1}`);formula(a,`E${56+i}`,`='Street evidence'!F${81+i}`);a.getRange(`E${56+i}`).setNumberFormat(pct);note(a,`G${56+i}`,'Kuvan global proxy vs2020 anchor; replace formula only for an explicit scenario');}
+for(let i=0;i<4;i++){val(a,`C${56+i}`,`Revenue retained in exposure year${i+1}`);formula(a,`E${56+i}`,`=${col(5+i)}78`);a.getRange(`E${56+i}`).setNumberFormat(pct);note(a,`G${56+i}`,'50/50 study-informed synthetic P x Q and Kuvan revenue; see build below');}
 formula(a,'E21',"='Street evidence'!E86");a.getRange('E21').setNumberFormat(pct);
 note(a,'C61','2037 until generic entry: revenue held flat at2036 levels. No assumed growth extension.');
 note(a,'C62','After both face generics, shared costs/capex/depreciation follow average retained revenue with a one-year lag (assumption).');
 note(a,'C63','Explicit forecast ends2055; residual2056 onward is a declining perpetuity after revenue and costs reach a common decline rate.');
-note(a,'C64','E21 and E56:E59 are source-linked scenario drivers. Source observations remain intact on Street evidence.');
+note(a,'C64','E56:E59 use the P x Q blend below. E21 controls later volume runoff with net price held at year4.');
+band(a,66,'50/50 post-generic P x Q scenario (pre-entry = 100%)');
+val(a,'C67','Study weight / rare-disease weight');input(a,'E67',.5,pct);formula(a,'F67','=1-E67');a.getRange('F67').setNumberFormat(pct);
+note(a,'G67','User-selected50/50. Rare-disease numeric anchor: Kuvan; Xenazine/Orfadin remain cross-checks.');
+setrow(a,69,'Full post-entry year',[1,2,3,4]);
+for(const [r,label] of [[70,'Study: net-price index'],[71,'Study: branded volume index'],[72,'Study: synthetic revenue index'],[74,'Kuvan: observed revenue index'],[75,'Rare disease: assumed net-price index'],[76,'Rare disease: implied volume index'],[78,'Blended revenue index'],[79,'Blended volume index'],[80,'Effective blended net-price index'],[81,'Revenue less P x Q']])val(a,`C${r}`,label);
+for(let i=0;i<4;i++){
+ const c=col(5+i),src=col(7+i);
+ formula(a,`${c}70`,`='Street evidence'!${src}114/'Street evidence'!$E$114`);
+ formula(a,`${c}71`,`='Street evidence'!${src}115/'Street evidence'!$E$115`);
+ formula(a,`${c}72`,`=${c}70*${c}71`);
+ formula(a,`${c}74`,`='Street evidence'!F${81+i}`);
+ input(a,`${c}75`,1,pct);
+ formula(a,`${c}76`,`=${c}74/${c}75`);
+ formula(a,`${c}78`,`=$E$67*${c}72+$F$67*${c}74`);
+ formula(a,`${c}79`,`=$E$67*${c}71+$F$67*${c}76`);
+ formula(a,`${c}80`,`=${c}78/${c}79`);
+ formula(a,`${c}81`,`=${c}78-${c}79*${c}80`);
+}
+a.getRange('E70:H80').setNumberFormat(pct);a.getRange('E81:H81').setNumberFormat('0.0000');
+cfError(a,'E81:H81','ABS(E81)>0.000001');
+a.getRange('E67').dataValidation={rule:{type:'decimal',operator:'between',formula1:0,formula2:1}};
+a.getRange('E75:H75').dataValidation={rule:{type:'decimal',operator:'greaterThan',formula1:0}};
+note(a,'C83','Study P x Q is synthetic; it does not recover average manufacturer revenue from drug-level observations.');
+note(a,'C84','Kuvan net price is assumed flat. Implied Q reconciles revenue; it is NOT observed worldwide volume.');
+note(a,'C85','Effective blended P = blended revenue / blended Q. Do not multiply two simple50/50 averages.');
+note(a,'C86','After year4: price held flat; E21 annual revenue decline assigned to volume. This tail is an assumption.');
+note(a,'C87','IR: Q indexes paid doses. XR: Q indexes paid treatment-years. Absolute prices/patient counts remain uncalibrated.');
+note(a,'C88','Same normalized erosion scenario for both formulations; entry dates stay independent. US/global transfer is assumed.');
 for(const r of [54,55])a.getRange(`E${r}`).dataValidation={rule:{type:'whole',operator:'between',formula1:2037,formula2:2050}};
 
 const d=sheets.DCF;
@@ -207,6 +244,20 @@ forecastYears.forEach((y,i)=>{const c=col(i+5),prev=col(i+4);const f={
 39:`=1/(1+Inputs!$E$20)^${c}6`,40:`=${c}36*${c}39`,41:`=${c}37*${c}39`,42:`=${c}38*${c}39`};
 for(const[r,x]of Object.entries(f))formula(d,`${c}${r}`,x);
 });
+band(d,112,'Price and volume decomposition (normalized to pre-entry levels)','AH');
+setrow(d,113,'Calendar year',forecastYears);d.getRange('E113:AH113').setNumberFormat('0');
+d.getRange('C113:AH119').format.font={name:'Arial',size:10,color:'#172B4D'};
+for(const[r,label]of [[114,'IR net-price index'],[115,'IR paid-dose volume index'],[116,'XR net-price index'],[117,'XR treatment-year volume index'],[118,'IR revenue-retention reconciliation'],[119,'XR revenue-retention reconciliation']])val(d,`C${r}`,label);
+forecastYears.forEach((y,i)=>{const c=col(5+i);
+ formula(d,`${c}114`,`=IF(${c}24=0,1,INDEX(Inputs!$E$80:$H$80,1,MIN(4,${c}24)))`);
+ formula(d,`${c}115`,`=${c}26/${c}114`);
+ formula(d,`${c}116`,`=IF(${c}25=0,1,INDEX(Inputs!$E$80:$H$80,1,MIN(4,${c}25)))`);
+ formula(d,`${c}117`,`=${c}27/${c}116`);
+ formula(d,`${c}118`,`=${c}26-${c}114*${c}115`);
+ formula(d,`${c}119`,`=${c}27-${c}116*${c}117`);
+});
+d.getRange('E114:AH117').setNumberFormat(pct);d.getRange('E118:AH119').setNumberFormat('0.0000');
+cfError(d,'E118:AH119','ABS(E118)>0.000001');
 d.getRange('E15:AH16').setNumberFormat(pct);d.getRange('E26:AH28').setNumberFormat(pct);d.getRange('E39:AH39').setNumberFormat('0.000x');
 band(d,45,'Reverse valuation solve');
 const solver={
@@ -260,7 +311,7 @@ note(s,'C26','The source PT is not forced to match: costs, timing, taxes and pro
 band(s,28,'Required success-case sales (USD millions)','J');
 s.getRange('C29:H29').values=[['Calendar year',null,'IR','XR','Combined','Risk-weighted combined']];
 for(let i=0;i<29;i++){let r=30+i,c=col(6+i);val(s,`C${r}`,2027+i);formula(s,`E${r}`,`=DCF!${c}64*Inputs!$E$29`);formula(s,`F${r}`,`=DCF!${c}65*Inputs!$E$29`);formula(s,`G${r}`,`=SUM(E${r}:F${r})`);formula(s,`H${r}`,`=DCF!${c}68*Inputs!$E$29`);}
-note(s,'C60','2036 ramp is held flat until generic exposure. Post-entry retention is a Kuvan proxy; entry timing and cost response are assumptions.');
+note(s,'C60','Post-entry:50/50 study-informed P x Q / Kuvan scenario. Prices and volumes are indexed; see Inputs66–88.');
 note(s,'C61','Perpetuity has no end date. Years2056 onward are valued at end2055, after the explicit erosion schedule.');
 band(s,63,'Revenue totals and residual value','J');
 for(const[r,label,f]of [[65,'Peak combined worldwide sales, USD m','=MAX(G30:G58)'],[66,'Cumulative sales2027–2036, USD m','=SUM(G30:G39)'],[67,'Cumulative sales2027–2055, USD m','=SUM(G30:G58)'],[68,'Cumulative sales2056 onward, USD m','=IF(Inputs!E21<0,G58*(1+Inputs!E21)/(-Inputs!E21),NA())'],[69,'Lifetime cumulative sales, USD m','=SUM(E67:E68)'],[71,'PV residual2056 onward, EUR m','=DCF!E88'],[72,'Residual / equity value','=DCF!E88/DCF!E90'],[73,'IR / XR first exposure year','=Inputs!E54']]){val(s,`C${r}`,label);formula(s,`E${r}`,f);}
@@ -318,7 +369,10 @@ if(Math.abs(base.gap)>1e-6)throw new Error('Base repricing failed');
 const errors=await wb.inspect({kind:'match',searchTerm:'#REF!|#DIV/0!|#VALUE!|#NAME\\?|#N/A|#NUM!|#NULL!|#SPILL!|#CALC!',options:{useRegex:true,maxResults:20},summary:'Formula error scan'});
 await fs.writeFile(qa+'/formula_scan.json',errors.ndjson);
 await fs.writeFile(root+'/models/reverse_dcf/verification.json',JSON.stringify({base,tests,invalid,engine:'Artifact Tool; native Excel not exercised'},null,2));
-const regions={'Reverse SOTP':'C2:S75','Inputs':'C41:O64','DCF':'O5:Y28','Launch comparison':'C2:R52','Street evidence':'C77:K109'};
+for(const [cell,v] of [['E67',0],['E67',1],['E75',1.2]]){const before=a.getRange(cell).values[0][0];val(a,cell,v);wb.recalculate();const x=snapshot();if(Math.abs(x.gap)>1e-6)throw new Error('P x Q sensitivity failed');tests.push({desc:`P x Q input ${cell}=${v}`,...x});val(a,cell,before);wb.recalculate();}
+for(const row of a.getRange('E81:H81').values)for(const v of row)if(Math.abs(v)>1e-9)throw new Error('P x Q reconciliation failed');
+await fs.writeFile(root+'/models/reverse_dcf/verification.json',JSON.stringify({base,tests,invalid,pxq:a.getRange('E69:H81').values,engine:'Artifact Tool; native Excel not exercised'},null,2));
+const regions={'Reverse SOTP':'C2:S75','Inputs':'C66:O88','DCF':'C112:W119','Street evidence':'C112:O120'};
 for(const[n,range]of Object.entries(regions)){const blob=await wb.render({sheetName:n,range,scale:1.5,format:'png'});await fs.writeFile(qa+'/'+n.replaceAll(' ','_')+'.png',new Uint8Array(await blob.arrayBuffer()));}
 const file=await SpreadsheetFile.exportXlsx(wb);await file.save(out+'/PHVS_reverse_SOTP_DCF.xlsx');
 console.log(JSON.stringify({base,tests:tests.map(t=>({desc:t.desc,price:t.price,irScale:t.irScale,xrScale:t.xrScale})),formulaScan:errors.ndjson,output:out+'/PHVS_reverse_SOTP_DCF.xlsx'},null,2));
