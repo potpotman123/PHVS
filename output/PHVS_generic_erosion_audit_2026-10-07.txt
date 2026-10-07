@@ -1,0 +1,110 @@
+PHVS: post-generic analogue and price/volume audit — 7 October 2026
+
+DECISION
+Use pooled small-molecule evidence as the broad benchmark, with matched rare-disease
+cases as modifiers. The existing Kuvan-only curve is a provisional scenario, not a
+validated PHVS base case. No workbook inputs changed in this audit: the recovered
+pooled evidence does not identify a matched annual manufacturer-net-revenue curve.
+
+AUDIT OF THE THREE CASES
+Kuvan is useful as a chronic rare-disease oral analogue, more relevant to XR than
+attack-driven IR. Its worldwide 2020–24 revenue series mixes territories and generic
+entry timing; 2020 already contains US generic exposure. Competing therapies and
+changes in treatment mix can also affect sales. It cannot isolate generic causality.
+Keep it as an observed branded-revenue scenario, with limited transferability.
+Source: https://www.sec.gov/Archives/edgar/data/1048477/000104847724000016/bmrn-20231231.htm
+
+Xenazine offers a specialty oral comparison but its 2015 anchor is partly exposed.
+Austedo's April 2017 approval introduces branded competition into later declines.
+Its commercial setting therefore does not establish a pure generic erosion curve.
+Keep as corroboration, not an independent clean estimate of the same parameter.
+Sources: https://www.lundbeck.com/content/dam/lundbeck-com/masters/global-site/global-site/investors/reports-and-presentations-/2016/Q4-2016-release.pdf
+https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=383212
+
+Orfadin is the weakest clean calibration. Sobi reported 2017 sales SEK862m versus
+770m while generic competition increased; North American growth was mainly driven
+by 20mg and oral-suspension launches. Its later 2020–21 decline is not an entry-year
+experiment. Use it to examine formulation protection, not to set generic attrition.
+An XR label alone does not establish similar protection for deucrictibant.
+Source: https://www.sobi.com/sites/default/files/pr/2017_Q4_sobi_presentation.pdf (slide17)
+
+POOLED BENCHMARKS — DIFFERENT ENDPOINTS, NOT THREE INDEPENDENT REVENUE CURVES
+Grabowski et al. (2021) examined 356 NMEs with initial generic entry during 1995–2019.
+For the 2017–19 entry cohort, average branded unit share after one year was 23%
+overall and 18% for products with pre-entry sales above $250m in 2008 dollars.
+These are market shares, not retention of starting brand volume or revenue. The
+total market can change; 356 is the full study sample, not the recent cohort size.
+Source: https://www.tandfonline.com/doi/pdf/10.1080/13696998.2021.1952795
+
+A 2025 observational study covers 530 US active substances. Generic volume share
+averaged 90% after five generic competitors entered. US originator prices did not
+show the same downward association with competitor counts as generics. Its price
+data omit confidential rebates; competitor count is not elapsed time.
+Source: https://bmjpublichealth.bmj.com/content/3/2/e002535
+
+Health Affairs (5 October 2026) studies 271 small-molecule compounds with first
+generic entry in 2011–23 using Part D claims and confidential rebate information.
+It reports >90% average loss of branded prescriptions after entry and a doubling
+of brand net prices between post-entry years1 and4. This supports separate P/Q
+assumptions, not a universal brand-price cut. Its 57% decline in total net spending
+includes generics and authorized generics: it is not originator revenue erosion.
+Source: https://www.healthaffairs.org/doi/10.1377/hlthaff.2026.00257
+Applicability limits: Medicare population, pooled formulations, changing follow-up
+sample and weighted normalized averages. Never multiply separately pooled average
+price and volume paths as though that equals average molecule revenue. Proprietary
+rebate inputs cannot be reproduced from public CMS spending files.
+
+PUBLIC PRICE × QUANTITY CHECK
+CMS annual Part D data, 2020→2024, brand rows with manufacturer='Overall':
+                 Gross spending USDm    Dosage units       Gross USD/raw unit
+Kuvan            30.638 → 3.461          346,710 → 40,740   88.37 → 84.95
+Xenazine         22.369 → 5.647          108,586 → 18,942   206.00 → 298.14
+Orfadin           0.112 → 0.243            1,125 → 2,430    99.28 → 99.91
+
+Derived change: Kuvan spend -88.7%, units -88.2%, unit-spend -3.9%; Xenazine spend
+-74.8%, units -82.6%, unit-spend +44.7%; Orfadin spend +117.4%, units +116.0%,
+unit-spend +0.6%. These are descriptive decompositions of gross claims spending.
+They are NOT manufacturer net-price estimates or clean causal generic effects.
+Form/strength mix matters. Orfadin has only49 claims in2024 and suppressed patient
+counts; exclude it from quantitative generalization. Kuvan2024 has27 beneficiaries,
+Xenazine23: these Medicare samples do not represent national rare-disease markets.
+The CMS weighted unit metric differs from raw spending/units; the latter is used
+here so P×Q reconciles exactly. No patient-days or national volume are inferred.
+Source and methodology: https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-part-d-spending-by-drug
+Exact source rows, annual observations, file hash and checks are in
+research/loe_pxq_evidence_2026-10-07.json; reproducible extraction in loe_pxq_audit.py.
+
+HOW TO BUILD THE EVENT-ALIGNED PANEL
+Define the target as originator net-revenue retention after actual substitutable
+generic launch, by geography and formulation. Patent expiry and FDA approval are
+not equivalent to commercial generic entry. Normalize each product to its last
+unexposed four quarters; retain the partial-entry year separately.
+
+Use a prespecified broad oral small-molecule cohort, then compare subgroups by
+pre-entry dollar sales, entrant count, chronic versus episodic dosing, formulation
+barriers and distribution. Rare disease alone is insufficient matching. Exclude
+or flag divestitures, changing territorial rights, new indications, replacement
+formulations and major new branded competition. Maintain an inclusion/exclusion
+ledger before examining outcomes to limit selection by attractive-looking curves.
+
+For each molecule compute annual net-revenue retention first; summarize medians,
+quartiles and equal-weight means with sample counts. Report sales-weighted means
+separately. Use balanced-follow-up sensitivity and leave-one-out checks. Do not
+splice countries, infer unavailable prices, or treat a missing report as zero.
+
+Model brand revenue as branded standardized volume × realized net price. Model
+branded volume as total molecule demand × retained brand share. Add authorized-
+generic royalties/profits separately only if PHVS has such economics. Use product-
+specific evidence for any price/volume correlation; absent that, scenarios remain
+assumptions. IR and XR require separate entry dates and formulation assessments.
+
+STOPPING POINT / MODEL READINESS
+This bounded pass recovered aggregate research and a public P×Q check without paid
+data or bulk company scraping. It did not construct a new many-product manufacturer
+revenue panel. Published pooled evidence is sufficient to reject the presumption
+that rare-disease brand revenue must decline mainly through price cuts; it cannot
+yet supply an exact PHVS annual erosion curve. The existing Kuvan case can remain
+a sensitivity, but should not be promoted to a calibrated central estimate.
+Further collection is justified if erosion sensitivity changes the investment
+conclusion; then a matched product-level panel is preferable to a larger unfiltered
+average. No new model valuation, price target or perpetual decline is asserted.

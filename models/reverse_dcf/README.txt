@@ -1,5 +1,14 @@
 PHVS reverse SOTP / DCF skeleton — 7 October 2026
 
+POST-GENERIC CALIBRATION AUDIT (subsequent research, same date)
+The saved workbook's Kuvan-based erosion inputs remain a provisional scenario,
+not a validated PHVS central estimate. Broader pooled studies support substantial
+brand-volume erosion with potentially stable/rising branded prices. They do not
+provide an interchangeable manufacturer-net-revenue curve. The audit did not
+change workbook values. See output/PHVS_generic_erosion_audit_2026-10-07.txt and
+research/loe_pxq_evidence_2026-10-07.json for analogue limitations, Medicare gross
+price/quantity checks and the proposed event-aligned aggregation method.
+
 PURPOSE AND OUTPUT
 Estimate the conditional IR and XR revenue paths supporting a selected stock price
 or sell-side target, holding approval probabilities and other assumptions fixed.
