@@ -112,6 +112,13 @@ Formula recalculation, scenario repricing, independent cash-flow bisection, nati
 
 ## Reference pitches and historical provenance
 
+IR launch comparison implemented on workbook Launch comparison55–76: Ekterly
+Q3 2025 13.7m, Q4~35.4m derived, Q1 2026 39.2m; cumulative88.3mUSD. Annualized
+Q1run rate156.8m is an arithmetic benchmark, not annual actual/guidance. PHVS
+IR2027–31 forecasts shown separately;2028first full calendar after launch.
+Ratios to fixedQ1run rate are not age-matched ramps. Bounded search did not recover
+later Ekterly actuals. No alteration to IR/XR mix or valuation assumptions.
+
 LATEST50/50 implementation: Health Affairs appendix recovered via browser;
 S-4/S-5 pp8–9 give rounded net-price and volume labels for452 formulation-specific
 drug definitions in the same271-compound paper. Workbook now uses50% synthetic

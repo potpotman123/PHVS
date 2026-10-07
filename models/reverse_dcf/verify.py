@@ -22,6 +22,10 @@ def n(tab, cell):
     return float(tabs[tab][cell].find('m:v',ns).text)
 
 a = lambda r: n('Inputs', 'E'+str(r))
+assert abs(n('Launch comparison','E58')-35.4)<1e-10
+assert abs(n('Launch comparison','F59')-88.3)<1e-10
+assert abs(n('Launch comparison','E61')-156.8)<1e-10
+assert abs(n('Launch comparison','H67')-n('Launch comparison','E67')/156.8)<1e-10
 assert a(67) == .5
 for i, (pidx, qidx, rare_rev) in enumerate(zip([88,112,128,138],[24,13,9,8],[285.776,227.577,180.767,121])):
     c = chr(69+i)

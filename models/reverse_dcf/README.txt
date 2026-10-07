@@ -1,5 +1,16 @@
 PHVS reverse SOTP / DCF skeleton — 7 October 2026
 
+IR LAUNCH COMPARISON UPDATE
+Launch comparison55–76 now shows Ekterly Q3 2025USD13.7m, Q4~35.4m (derived
+from rounded FY49.1 lessQ3), Q1 2026USD39.2m; cumulative88.3m over~9 commercial
+months. Q1 annualized156.8m is arithmetic, not guidance or full-year actual.
+PHVS IR2027–31 solved/reference and Wedbush forecasts are shown separately.
+2027 is the launch calendar year,2028 the first subsequent full calendar year.
+Annual PHVS / Ekterly Q1 run-rate ratios are NOT age-matched launch comparisons.
+No2026 full-year actual or later Ekterly trajectory was recovered in bounded search.
+Source dates/geography/rounding retained in Street evidence123–131. The existing
+IR/XR mix, valuation and post-generic50/50 assumptions are unchanged.
+
 POST-GENERIC CALIBRATION AUDIT (subsequent research, same date)
 LATEST: Workbook now implements50/50 study-informed / Kuvan P x Q scenario.
 The prior limitation described below is superseded. Appendix recovered via browser.

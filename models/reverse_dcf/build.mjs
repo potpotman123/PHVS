@@ -123,6 +123,14 @@ note(e,'C118','Price index is relative to pre-entry RETAIL price; divide by64 fo
 note(e,'C119','Pooled P x pooled Q is a synthetic scenario, not measured mean revenue; samples/weights and covariance differ.');
 note(e,'C120','https://www.healthaffairs.org/doi/suppl/10.1377/hlthaff.2026.00257/suppl_file/2026-00257_suppl_appendix.pdf');
 e.getRange('C112:O120').format.font.name='Arial';e.getRange('C113:O120').format.rowHeight=22;
+band(e,123,'Ekterly launch actuals: global net product revenue, USD millions');
+val(e,'C124','Q3 2025 (US launch July7)');val(e,'E124',13.7);
+val(e,'C125','Q4 2025 (derived, rounded inputs)');formula(e,'E125','=E57-E124');
+val(e,'C126','Q1 2026 (reported)');val(e,'E126',39.2);
+note(e,'C128','Q3 source: https://ir.kalvista.com/node/12456/html; Q1 source: https://ir.kalvista.com/node/12821/html');
+note(e,'C129','Q4 derived from rounded49.1 launch-period revenue less13.7; approximately35.4. Not January preliminary35.0.');
+note(e,'C130','Q1 is product revenue only; excludes collaboration revenue. Germany launch Q4 changes geographic mix.');
+note(e,'C131','Bounded search7-Oct-2026 recovered throughQ1 only; later values unverified, not assumed zero.');
 
 const a=sheets.Inputs;
 note(a,'C4','Blue/amber cells are editable. This is a normalized, conditional DCF, not a replication of Guggenheim or a consensus model.');
@@ -333,7 +341,7 @@ note(l,'C13','Orladeyo launched Dec2020: actuals2021–2024. XR reference first 
 note(l,'C14','Different launch months, prices, geographic rollout and competitive markets limit like-for-like inference.');
 band(l,17,'Early acute launch comparison','K');
 val(l,'C19','Ekterly Jul7–Dec31 2025, global');formula(l,'E19',"='Street evidence'!E57");
-val(l,'C20','Solved IR full calendar2027');formula(l,'E20','=DCF!F64*Inputs!E29');
+val(l,'C20','Solved IR launch calendar2027');formula(l,'E20','=DCF!F64*Inputs!E29');
 val(l,'C21','Guggenheim IR2027 success-case basis');formula(l,'E21','=DCF!F12*Inputs!E29');
 val(l,'C22','Wedbush IR2027 forecast, USD');formula(l,'E22',"='Street evidence'!E62");
 note(l,'C24','Ekterly observation is ~6 commercial months. PHVS2027 is a calendar forecast with uncertain launch month; no precise ramp ratio is asserted.');
@@ -346,6 +354,23 @@ const lc=l.charts.add('line',[l.getRange('C7:C11'),l.getRange('E7:E11'),l.getRan
 lc.title='XR requirement versus Orladeyo ($m)';lc.setPosition('J35','R52');lc.titleTextStyle.typeface='Arial';lc.titleTextStyle.fontSize=12;
 lc.xAxis={axisType:'textAxis',textStyle:{typeface:'Arial',fontSize:10}};lc.yAxis={numberFormatCode:'$#,##0',numberFormatSourceLinked:false,textStyle:{typeface:'Arial',fontSize:10}};lc.legend={position:'bottom',textStyle:{typeface:'Arial',fontSize:10}};
 lc.series.items.forEach((x,i)=>{x.line={fill:['#8B9099','#A36C28'][i],style:i?'solid':'dashed',width:2};});
+band(l,55,'IR launch benchmark: Ekterly actuals (USD millions)','K');
+l.getRange('C56:H56').values=[['Calendar quarter',null,'Net sales','Cumulative','QoQ growth','Status']];
+['Q3 2025','Q4 2025','Q1 2026'].forEach((label,i)=>{const r=57+i;val(l,`C${r}`,label);formula(l,`E${r}`,`='Street evidence'!E${124+i}`);formula(l,`F${r}`,`=SUM($E$57:E${r})`);if(i)formula(l,`G${r}`,`=E${r}/E${r-1}-1`);val(l,`H${r}`,i===1?'Derived':'Reported');});
+l.getRange('G57:G59').setNumberFormat(pct);
+val(l,'C61','Q1 2026 annualized run rate');formula(l,'E61','=E59*4');note(l,'G61','Arithmetic benchmark only; not2026 guidance or actual full-year revenue');
+note(l,'C62','Cumulative throughMar2026 covers ~9 commercial months. Eight-month FY2025 accounting period had ~6 months of sales.');
+band(l,64,'IR forecast requirement versus early observed run rate','K');
+l.getRange('C65:H65').values=[['PHVS calendar / launch phase',null,'Solved IR','Source IR','Wedbush IR','Vs Q1 run rate']];
+for(let i=0;i<5;i++){const r=66+i,c=col(6+i),src=col(5+i);val(l,`C${r}`,`${2027+i}: ${i===0?'launch calendar year':'full calendar year '+i}`);formula(l,`E${r}`,`=DCF!${c}64*Inputs!$E$29`);formula(l,`F${r}`,`=DCF!${c}12*Inputs!$E$29`);formula(l,`G${r}`,`='Street evidence'!${src}62`);if(i)formula(l,`H${r}`,`=E${r}/$E$61`);else val(l,`H${r}`,'n.a.');}
+l.getRange('H67:H70').setNumberFormat('0.00x');
+l.getRange('H66').format.horizontalAlignment='right';l.getRange('H57:H59').format.horizontalAlignment='right';
+note(l,'C72','2028 is the first full calendar after modeled2027 launch; not necessarily the first12 commercial months.');
+note(l,'C73','Ratios compare annual PHVS forecasts with a fixed Q1 Ekterly run rate, NOT age-matched annual actuals.');
+note(l,'C74','Later Ekterly annual revenue is unknown here; do not interpret the widening ratio as required market-share outperformance.');
+note(l,'C75','IR net price, stocking/refills, attack use, coverage and geography can all change revenue without equivalent patient growth.');
+note(l,'C76','Wedbush values are a separate broker scenario, with uncertain probability basis; not an alternative solve at this target.');
+l.getRange('C55:R76').format.font.name='Arial';l.getRange('C55:R76').format.rowHeight=23;
 
 // Output views keep formula results dark. Finance colors apply to the working tabs.
 for(const n of ['Reverse SOTP','Launch comparison'])sheets[n].getRange('E6:O75').format.font.color='#172B4D';
@@ -372,7 +397,7 @@ await fs.writeFile(root+'/models/reverse_dcf/verification.json',JSON.stringify({
 for(const [cell,v] of [['E67',0],['E67',1],['E75',1.2]]){const before=a.getRange(cell).values[0][0];val(a,cell,v);wb.recalculate();const x=snapshot();if(Math.abs(x.gap)>1e-6)throw new Error('P x Q sensitivity failed');tests.push({desc:`P x Q input ${cell}=${v}`,...x});val(a,cell,before);wb.recalculate();}
 for(const row of a.getRange('E81:H81').values)for(const v of row)if(Math.abs(v)>1e-9)throw new Error('P x Q reconciliation failed');
 await fs.writeFile(root+'/models/reverse_dcf/verification.json',JSON.stringify({base,tests,invalid,pxq:a.getRange('E69:H81').values,engine:'Artifact Tool; native Excel not exercised'},null,2));
-const regions={'Reverse SOTP':'C2:S75','Inputs':'C66:O88','DCF':'C112:W119','Street evidence':'C112:O120'};
+const regions={'Launch comparison':'C55:R76','Street evidence':'C123:O131'};
 for(const[n,range]of Object.entries(regions)){const blob=await wb.render({sheetName:n,range,scale:1.5,format:'png'});await fs.writeFile(qa+'/'+n.replaceAll(' ','_')+'.png',new Uint8Array(await blob.arrayBuffer()));}
 const file=await SpreadsheetFile.exportXlsx(wb);await file.save(out+'/PHVS_reverse_SOTP_DCF.xlsx');
 console.log(JSON.stringify({base,tests:tests.map(t=>({desc:t.desc,price:t.price,irScale:t.irScale,xrScale:t.xrScale})),formulaScan:errors.ndjson,output:out+'/PHVS_reverse_SOTP_DCF.xlsx'},null,2));
