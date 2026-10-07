@@ -10,6 +10,8 @@ The strongest long case is a convenient oral treatment with compelling attack co
 
 ## Clinical audit and corrections
 
+[Culper-method follow-up](output/PHVS_Culper_method_audit_2026-10-07.txt): early 2024 announcements match the eventual pivotal primary endpoints. CHAPTER-3 Amendment 1.5 nevertheless explicitly changed intercurrent-event handling and one endpoint’s testing hierarchy; RAPIDe-3 changed planned LTP mix and clarified qualification/retraining. Exact prior-version redlines and numerical impact remain unresolved. These are diligence leads, not a demonstrated manipulation case.
+
 Latest: [cross-trial clinical audit](output/PHVS_cross_trial_clinical_audit_2026-10-07.txt) and [reproducible arithmetic](output/PHVS_cross_trial_arithmetic_2026-10-07.json). Commercial efficacy assumptions are pending this audit's unresolved comparability questions.
 
 **Material correction:** Ekterly's published placebo initial-relief median of 6.72 hours is not the FDA-revised result. FDA moved missing-assessment censoring from time zero to 12 hours; its placebo median was not estimable, and sebetralstat 600 mg median was 1.99 hours. Thus the earlier “PHVS placebo takes over twice as long” concern is not established on aligned regulatory analyses. Both drugs retain evidence of efficacy against placebo; comparative superiority remains unresolved.

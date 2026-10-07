@@ -1,0 +1,72 @@
+CULPER'S PRAX METHODS APPLIED TO PHARVARIS
+7 October 2026 | Follow-up to cross-trial clinical audit
+
+CONCLUSION
+The reviewed evidence does not establish a Culper-style manufactured-efficacy case against PHVS. The headline primary endpoints were publicly specified well before the pivotal readouts. However, the amendment records disclose consequential changes deserving exact before/after checks: CHAPTER-3 changed intercurrent-event handling and an endpoint's position in its testing hierarchy; RAPIDe-3 changed its planned background-prophylaxis mix and clarified attack qualification and patient-reported assessment procedures. These are documented diligence leads, not evidence that the changes inflated efficacy.
+
+The appropriate statistical framing is affirmative evidence of benefit versus placebo, with unresolved magnitude of benefit versus competitors. Failing to prove fraud or inferiority is not itself evidence of efficacy; randomized trial results supply that evidence. Conversely, a positive headline does not validate every analysis choice.
+
+WHAT CULPER ACTUALLY DID
+The 20 November 2025 PRAX report built a linked argument around an interim futility recommendation, a late change in primary assessment time, strongly differential discontinuation, assumptions for unobserved outcomes, and an allegedly insufficient sensitivity analysis. It attempted to show both a motive/opportunity for favorable analysis and a quantitative dependence of the result on that analysis. Allegations about intent and predicted FDA rejection remain Culper's views.
+
+Primary-source checks strengthen some underlying facts: Praxis's own October 16 presentation, slide8, records a February2025 IDMC futility recommendation and a September2025 primary-endpoint change from Day84 to Day56. Its contemporaneous 8-K reports Study1 discontinuation of83/233 active patients (35.6%) versus13/234 placebo (5.6%), drug-related adverse-event discontinuation of63/233 versus4/234, and a tested missing-outcome shift of2.5points. These facts support scrutiny, not an automatic regulatory-failure prediction.
+
+Do not copy three statistical shortcuts from the report. MAR does not require equal dropout rates; it concerns whether missingness depends on unobserved outcomes after conditioning on observed information. MMRM is an estimation method and need not literally fill a spreadsheet with invented patient values. Also, a threshold for meaningful change within one patient is not automatically the minimum required between-group average difference. Aggregate extrapolations holding uncertainty fixed cannot reproduce the trial's full tipping-point analysis. A prespecified sensitivity range should be clinically justified; neither half a standard deviation nor any other universal multiple establishes robustness in every disease. The useful method is to test assumptions, not repeat confident quotations about inevitable FDA rejection.
+
+PHVS FINDINGS AND TESTS
+
+1. Primary-endpoint chronology: evidence against a late rescue of the headline endpoint.
+RAPIDe-3's January5,2024 business update, before announced initiation, specified PGI-C at least a little better at two consecutive timepoints within12hours. The March18,2024 design announcement repeated it. The December3,2025 result uses that endpoint. CHAPTER-3's November13,2024 update specified time-normalized investigator-confirmed attacks over24weeks before the announced start; its September8,2026 readout uses the same overall measure and duration. This is a substantive disconfirmation of a PRAX-like late shift from a less favorable timepoint.
+Limits: matching headline definitions does not establish an unchanged final SAP, missingness rules, estimand, hierarchy, or population. Public announcements are not full dated protocol histories. Complete original-to-final redlines were not recovered in this bounded pass.
+
+2. CHAPTER-3 amendment: a concrete analytical change, not yet quantified.
+The public EU/CH Amendment1.5 of19May2025, appendixpp81–82, records changes to intercurrent events and corresponding data handling in13.5.1/13.5.2 and a change to the testing hierarchy in13.11. Both are attributed to regulatory request in the sponsor document. This supports neither a claim of FDA endorsement specifically nor a claim of sponsor manipulation.
+Intercurrent events are things occurring after randomization that affect interpretation, such as stopping drug or switching prevention. Current primary rules retain outcomes after ordinary discontinuation, noncompliance or prohibited medication, but assign an unfavorable post-switch rate after stopping and beginning alternative prophylaxis. This could protect against crediting the study drug for improvement caused by the replacement treatment. Its effect depends on how many patients switched, which arm, when, and the exact assigned rate. A negative-binomial supplementary analysis, overdispersion-scaled Poisson uncertainty, multiple imputation and tipping-point analyses are prespecified.
+Testing order controls which secondary claims remain confirmatory after earlier tests. A changed hierarchy can matter, but it is not synonymous with a changed primary endpoint. Needed: Amendment1.4 and prior US versions, final SAP, reason/timing of each change, blinded-data access records, and results under both old and final rules. The retrieved1.5 document is region-specific, so do not assume it alone captures every global amendment. No interim analysis was planned in that version.
+Assessment: high-priority unresolved diligence item; no demonstrated inflation.
+
+3. RAPIDe-3 population and assessment amendments: real changes with competing explanations.
+Appendixpp89–92 records May19,2024 Amendment2.0 revising targeted long-term-prophylaxis enrollment to approximately30% globally and50% in the US/Puerto Rico. Actual randomized LTP use was31/134,23.1%. These are targets rather than proof that a fixed quota was violated. Background prevention can change the attacks that break through, so require treatment effects by LTP status/class and actual primary-analysis population. Inclusion may also improve real-world applicability; it need not favor the experimental arm.
+October28,2024 Amendment3.0 clarified attack qualification, electronic assessment retraining/repeat assessments, and altered the attenuated-androgen exclusion. January2025 amendments expanded normal-C1-inhibitor eligibility and restricted trial treatment of nonsevere laryngeal attacks to adults, citing pediatric-regulator feedback. Need exact redlines, implementation dates and enrolled/treated counts by version. In particular, determine whether retraining corrected instrument misunderstanding prospectively or could affect previously recorded values; the amendment summary does not show retroactive editing.
+Assessment: examine selection, interaction and measurement effects; no evidence of outcome-driven enrichment or edited results.
+
+4. Attrition: the PRAX analogy currently fails for RAPIDe-3.
+134randomized versus88paired is not35% adverse-event dropout. Recovered CTIS disposition attributes35 of46 incomplete cases to sponsor closure after sufficient information and11 to other reasons; no AE or lack-of-efficacy discontinuations were recorded. There were113participants treating201attacks, including25single-attack participants. The concern remaining is the paired-only primary estimand and possible informative noncompletion. Compare all-treated SEAS, first-period-only and paired results; tabulate first treatment, response and reason for missing the next attack. Do not assign all46 missing second attacks a hypothetical failure and present that as a valid crossover reanalysis.
+CHAPTER-3's topline reports one AE-related treatment discontinuation per arm, but this does not establish total attrition or missing follow-up. Obtain full disposition before concluding it has negligible missingness. No PRAX-sized active/placebo dropout disparity is demonstrated by the recovered PHVS evidence.
+
+5. Missingness and tipping points: transferable method, different data structure.
+For IR, separate missing diary observations, conventional rescue, no qualifying attack, administrative closure and missing second periods. Only then assess conservative failure coding and treatment-policy results. For XR, tabulate missing days/person-time by arm and reason, retained outcomes after discontinuation, and replacement-prophylaxis switches. Test a clinically grounded range of postdiscontinuation rates, including return toward baseline or an appropriate placebo reference, and display where the conclusion changes. Report assumptions for both arms, not just an arbitrarily chosen penalty to active patients.
+Available aggregate summaries cannot reproduce these analyses. No numerical tipping point was invented. A protocol promising sensitivity analyses is evidence of planning, not evidence that the final result survived them.
+
+6. Earlier trials and replication: avoid a false failed-phase2 analogy.
+Existing source review records positive primary results for RAPIDe-1 and CHAPTER-1, unlike Culper's account of PRAX Essential1. The acute endpoint did evolve between trials: RAPIDe-1 used four-hour symptom-score change; RAPIDe-3 used time to PGI-C relief. Changing the question prospectively for a new trial is different from changing it late within an ongoing trial. It still warrants validating the instrument and checking consistency of secondary outcomes. The PHVS US clinical holds were described as nonclinical toxicology-related; they must not be relabeled as human efficacy futility recommendations. Lifting a hold is not proof of final safety or approval.
+
+7. Operational confounders and presentation checks.
+Reviewed fluid/food rules: RAPIDe-3 imposes no general food/fluid restriction and records timing; CHAPTER-3 generally permits food/fluid except relevant CYP3A4 inhibitors such as grapefruit. No coffee/caffeine intervention was identified in these protocols or the supplied Culper report. This limited text check is not an audit of adherence or site conduct. If 'coffee' referred to a different report, that allegation is not established here.
+Other useful checks: site/region concentration, diary timestamps and late entry, investigator rejection of reported attacks, treatment guesses or unblinding, background-drug changes, second-dose/rescue timing, and adverse-event collection windows. We lack the operational records to quantify most of these. A unusual site or missing appendix would be a lead requiring validation, not proof of misconduct.
+
+NEXT EVIDENCE AND STOPPING RULE
+The highest-value next work is the exact CHAPTER-3 old/new analytical redline and RAPIDe-3 old/new qualification/LTP redline, followed by outcomes reanalyzed under both versions. Acquire original/global/regional protocols, dated final SAPs and the specified sensitivity/disposition tables through public registry versions or sponsor-provided documents. No outreach or paid access has been performed. This pass establishes specific changes but does not claim a complete version-history reconstruction.
+A credible negative thesis would require evidence that a change occurred with access to informative data and materially improved the result, or that reasonable missingness assumptions erase the effect. The current evidence does not meet that standard. Existing commercial work should therefore continue to accommodate a genuinely effective and potentially differentiated product.
+
+PROVENANCE
+Culper report, supplied by user, especiallypp2–3,8–14:
+https://culperresearch.com/wp-content/uploads/2025/11/Culper_PRAX_11-20-2025.pdf
+Local research/raw/culper_prax_2025-11-20.pdf and .txt. Method reviewed; no complete PRAX regulatory-outcome investigation.
+Praxis original disclosure,16October2025:
+https://www.sec.gov/Archives/edgar/data/1689548/000168954825000100/prax-20251016.htm
+Praxis timeline,slide8:
+https://www.sec.gov/Archives/edgar/data/1689548/000168954825000100/e3_toplinexfinaloctober2.htm
+RAPIDe-3 early specification,5January2024:
+https://ir.pharvaris.com/news-releases/news-release-details/pharvaris-provides-business-update-and-outlines-2024-strategic
+CHAPTER-3 early specification,13November2024:
+https://www.sec.gov/Archives/edgar/data/1830487/000095017024126327/phvs-ex99_1.htm
+RAPIDe-3 protocol Amendment4.1,17January2025,pp71–74,89–92; existing local research/raw/rapide3_ctis_protocol.pdf:
+https://euclinicaltrials.eu/ctis-public/view/2023-507268-37-00?lang=en
+CHAPTER-3 protocol Amendment1.5,19May2025,pp65–71,81–82; existing local research/raw/cross_trial_audit/chapter3_ctis_protocol.pdf:
+https://euclinicaltrials.eu/ctis-public/view/2024-516247-62-00?lang=en
+Method reference: National Research Council, Principles and Methods of Sensitivity Analyses:
+https://www.ncbi.nlm.nih.gov/books/NBK209895/
+Ratitch et al2013 abstract supports assumption-based sensitivity analyses; full claimed half-SD dispute not independently adjudicated here:
+https://pubmed.ncbi.nlm.nih.gov/23292975/
+Earlier PHVS sources and disposition: research/clinical.txt and output/RAPIDe-3_granular_data_audit_2026-10-06.txt.
