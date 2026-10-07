@@ -1,0 +1,79 @@
+CHAPTER-3 ANALYTICAL AMENDMENT INVESTIGATION
+7 October 2026
+
+Finding: The amendment is real, but public evidence does not establish that it inflated efficacy. Recovered chronology weakens a last-minute primary-endpoint-switch narrative. The change in treatment-switch handling is a more consequential unresolved question than the testing-order change. Exact old/new analytical redline and numerical impact could not be established from available public documents.
+
+WHAT WAS CHECKED
+Reused the full CTIS protocol Amendment1.5 (19May2025), particularly13.5.1,13.5.2,13.10,13.11 and appendixpp81–82. Inspected CTIS application details, the current document list and English synopsis; reviewed ClinicalTrials.gov's version history and original October31,2024 record; conducted targeted searches for preceding protocol versions; checked EMA's own instructions on historical-document access. No sponsor contact, paid collection, confidential access or patient-level reanalysis was performed.
+
+CHRONOLOGY: DIFFERENT DATES MEAN DIFFERENT THINGS
+08July2024: Original protocol date listed on current protocol cover.
+26August2024: US-specific Amendment1.1.
+04October2024: CTIS initial application submitted.
+31October2024: First qualifying ClinicalTrials.gov record; publicly posted01November. Primary outcome already investigator-confirmed attacks per4weeks during24weeks of treatment.
+01December2024: Actual global start listed in the February2026 registry record. This is a study-start field, not patient-by-patient dosing evidence.
+18December2024: US-specific Amendment1.2.
+16January2025: EU-specific Amendment1.3.
+05February2025: EU-specific Amendment1.4.
+12February2025 onward: Initial EU country authorizations; Germany's shown21May2025. Conditions and dates vary by country.
+10March2025: Earliest EU start displayed by CTIS.
+19May2025: EU/CH Amendment1.5 date. Appendix explicitly identifies changes to intercurrent-event handling and one endpoint's testing hierarchy, attributed to regulatory request.
+16June2025: CTIS SM-2 substantial-modification submission.
+03–10October2025: Country authorization dates displayed for SM-2. No publicly recovered document conclusively maps every analytical change in1.5 to SM-2; this is a candidate association, not proven identity.
+13/17July2026: Non-substantial modifications listed in CTIS. Their content was not recovered; they must not be assumed to concern efficacy analyses.
+22July2026: CTIS global trial end.
+08September2026: Public topline results.
+
+The May document predates topline by nearly16months, but follows study start. Therefore it was neither demonstrated to be fully pre-enrollment nor shown to be a last-minute reaction to final results. Document dating does not establish database-lock timing, availability of blinded aggregate information, unblinded access, or global implementation. Regional version differences also matter. The protocol specifies no planned interim analysis; this is not independent proof that no informative data were accessible during amendments.
+
+THE ACTUAL REVISED RULE
+The primary outcome remains the rate of investigator-confirmed attacks over24weeks. The protocol separates:
+A. Stop study drug without switching prophylaxis: retain collected outcomes after discontinuation.
+B. Stop study drug and switch to another long-term HAE preventive treatment: assign an unfavorable attack rate from that event through week24.
+C. Use prohibited medication, including prohibited prophylaxis: retain collected outcomes.
+D. Noncompliance: retain collected outcomes.
+This changes the question being estimated: the analysis partly incorporates inability to remain on the assigned prevention regimen. For binary response endpoints, a switch following discontinuation makes the participant a nonresponder. Exact implementation of the unfavorable numerical rate is not supplied in the public protocol. The final SAP remains necessary.
+
+Important distinctions:
+- Retaining outcomes after stopping treatment can prevent an analysis from showing only the experience of patients who tolerate/stay on treatment.
+- Penalizing switches can prevent the assigned drug from receiving credit for attacks prevented by replacement prophylaxis.
+- Neither is automatically conservative for the between-arm comparison. If placebo patients disproportionately switch to effective prophylaxis, replacing their improved observed outcomes with a high assigned attack rate can increase the apparent advantage of deucrictibant. If active patients disproportionately switch, the same rule can reduce its advantage. Different questions (assigned-regimen success versus outcomes regardless of subsequent treatment) can reasonably give different answers.
+- The apparent distinction between stopping-and-switching (B) and prohibited prophylaxis without stopping (C) needs clarification. The latter could retain outcomes affected by another preventive drug. The case-classification rules and actual number of occurrences matter.
+- If nobody experienced a affected event, that component of the rule would have no numerical impact. We do not know that count.
+
+WHAT A VALID IMPACT TEST REQUIRES
+For each arm: number of discontinuations with and without switching, dates, subsequent therapies, observed attacks and observation days before/after each event, missingness, exact assigned rate, and its contribution to the modeled estimate. Then compare the specified composite analysis against a treatment-policy analysis retaining outcomes and the original analysis rules. Keep the same population, follow-up, covariates and uncertainty method. A simple difference between two headline means cannot reconstruct the adjusted rate-ratio model. No unsupported numerical impact or tipping point has been calculated.
+
+TESTING-HIERARCHY CHANGE
+Current order begins with total attacks, on-demand-treated attacks, moderate/severe attacks,50/70/90% responders, attack-free patients, then severe attacks; symptom-free time and QoL follow. The original October2024 registry lists severe attacks before responder outcomes. This is a clue that severe attacks may have moved later, but a registry listing order is not proof of an original multiplicity-testing hierarchy. The old protocol/SAP is required to confirm which endpoint moved.
+
+A later position for a difficult endpoint can preserve confirmatory status for earlier secondary endpoints if that endpoint fails. It cannot by itself change the primary attack-rate estimate or its p-value: the primary test is first in the revised hierarchy. If every endpoint in both relevant sequences passes its required threshold with unchanged analyses, simply reordering a fixed testing sequence would not change which ones pass. Sponsor topline says all secondary efficacy endpoints were met, but the full final table and statistical hierarchy remain needed to verify that claim's scope.
+
+WHY THE EXACT REDLINE REMAINS UNAVAILABLE
+The CTIS public document list exposes one full protocol, currently1.5. Downloaded English synopsis is also1.5, not an earlier version and contains no historical analysis rules. EMA Sponsor Handbook version6.4, printedp77, explicitly says older document versions cannot be downloaded from the public CTIS website. The secure sponsor workspace has version access; we did not attempt to access it.
+ClinicalTrials.gov lists12versions through12February2026. Its change log does not flag outcome-measure changes; direct inspection of version1 confirms the primary endpoint. It does not disclose intercurrent-event algorithms or a formal testing hierarchy. Its latest public entry also predates completed-trial results, so absence of a registry change cannot certify the final SAP. Targeted web searches did not locate Amendment1.4 or the US protocol/SAP text. Repeating broad searches would not resolve this specific access limitation reliably.
+
+JUDGMENT AND PRECISE REMAINING REQUEST
+Do not turn this amendment into a bearish model input yet. The primary endpoint did not demonstrably move, the revised approach has defensible clinical purposes, and no quantitative benefit from the revision is established. Preserve the possible treatment-switch effect as an open issue. Timing is more reassuring than a pre-readout endpoint switch, but is not sufficient to close the issue.
+The minimum document/data request is:
+1. Protocol1.4 versus1.5 redline, original/global and US analytical sections, final dated SAP, and identification of the requesting regulator.
+2. Exact changed endpoint position, previous/current hierarchy and final results under each.
+3. Exact post-switch assigned-rate definition, counts and dates of each intercurrent event by arm, and comparative results under original, final composite and treatment-policy rules.
+4. Timing of approval, implementation, SAP finalization, database lock and data access; rationale for any July2026 non-substantial changes affecting analysis, if applicable.
+These requests are drafted for diligence; none has been sent.
+
+SOURCES
+Protocol and synopsis, CTIS Trial Documents; application chronology through Applications/+INFO:
+https://euclinicaltrials.eu/ctis-public/view/2024-516247-62-00?lang=en
+Local protocol: research/raw/cross_trial_audit/chapter3_ctis_protocol.pdf
+Local synopsis: research/raw/cross_trial_audit/D1_Protocol_synopsis_IE_2024-516247-62.pdf
+Original registration,31October2024:
+https://clinicaltrials.gov/study/NCT06669754?tab=history&a=1#version-content-panel
+Full version history:
+https://clinicaltrials.gov/study/NCT06669754?tab=history
+Latest downloaded API snapshot: research/raw/cross_trial_audit/NCT06669754.json
+EMA handbook, version6.4, printedp77:
+https://www.ema.europa.eu/system/files/documents/other/sponsor-handbook-v-64_clean-version_20260716-en.pdf
+Topline and prior contextual source trail:
+https://ir.pharvaris.com/node/12691/html
+output/PHVS_Culper_method_audit_2026-10-07.txt

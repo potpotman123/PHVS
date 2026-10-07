@@ -92,5 +92,14 @@
     "bytes": 17436,
     "sha256": "1141dc893cbf6143e4e22a50f15adce2c68cd560d58946da335a66a4a41156f3",
     "retrieved_date": "2026-10-07"
+  },
+  {
+    "file": "D1_Protocol_synopsis_IE_2024-516247-62.pdf",
+    "url": "https://euclinicaltrials.eu/ctis-public/view/2024-516247-62-00?lang=en",
+    "download_label": "D1_Protocol_synopsis_IE_2024-516247-62",
+    "version": "1.5 dated 19 May 2025",
+    "retrieved_date": "2026-10-07",
+    "bytes": 172594,
+    "sha256": "10638e9aed089cb4d093c2c031279d8d995b4d8a17fc636aabb8eef00659c0bb"
   }
 ]

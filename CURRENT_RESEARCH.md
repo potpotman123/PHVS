@@ -10,6 +10,8 @@ The strongest long case is a convenient oral treatment with compelling attack co
 
 ## Clinical audit and corrections
 
+[CHAPTER-3 amendment investigation](output/CHAPTER3_analytical_amendment_investigation_2026-10-07.txt): original October2024 registration confirms unchanged headline primary endpoint. Exact pre-amendment analytical rules remain unavailable; EMA confirms public CTIS cannot provide prior document versions. Revised switch-to-prophylaxis penalty can favor either arm depending on switches, timing and assigned rates. A possible severe-attack hierarchy move is an inference from registry ordering, not a verified old/new redline. No efficacy inflation established.
+
 [Culper-method follow-up](output/PHVS_Culper_method_audit_2026-10-07.txt): early 2024 announcements match the eventual pivotal primary endpoints. CHAPTER-3 Amendment 1.5 nevertheless explicitly changed intercurrent-event handling and one endpoint’s testing hierarchy; RAPIDe-3 changed planned LTP mix and clarified qualification/retraining. Exact prior-version redlines and numerical impact remain unresolved. These are diligence leads, not a demonstrated manipulation case.
 
 Latest: [cross-trial clinical audit](output/PHVS_cross_trial_clinical_audit_2026-10-07.txt) and [reproducible arithmetic](output/PHVS_cross_trial_arithmetic_2026-10-07.json). Commercial efficacy assumptions are pending this audit's unresolved comparability questions.
