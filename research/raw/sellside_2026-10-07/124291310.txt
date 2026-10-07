@@ -1,0 +1,450 @@
+[PDF PAGE 1]
+                                                                                  
+                                                                                  
+                                                                                  
+      First Reaction Note                                                         
+      Equity Research                                                             
+      08 September 2026                                                           
+                                                                                  
+                                                     Produced by KBC Securities NV (Belgium)
+      Pharvaris                                                                   
+                                                                                  
+                                                                                  
+      Positive ph3 data, in-line with injectable efficacy                         
+      Pharmaceuticals and Biotechnology | The Netherlands                         
+                                                                                  
+      P harvaris reported an 83% attack reduction rate vs. placebo in its pivotal Share Price: $35.3
+      HAE prophylaxis study. Focusing on patients with HAE types 1 and 2, the Target Price: $49.0
+      attack-rate reduction reached 87%, which is in line with the injectable Upside/Downside: 39.0%
+      standard of care Takhzyro. Safety-wise the therapy showed a well-tolerated  
+      profile. With these results we believe that deucrictibant is clearly Recommendation: Buy
+      differentiated from Orladeyo on efficacy, which will enable the product to Previous Recommendation: Buy
+      become the 1L treatment for new HAE patients. We expect a positive share    
+      price reaction today. We raise our PoS for deucrictibant in prophylactic HAE
+      to 90%, which brings our TP to $ 49, and we reiterate our Buy rating. Analyst Details
+                                                      Mathijs Geerts Danau        
+      News: Pharvaris announces positive topline data from CHAPTER-3 pivotal study of
+      Deucrictibant XR for prophylaxis of HAE attacks. The company held a conference call Financial Analyst
+      at 8:00 a.m. EDT.                               +32 2 448 53 20             
+                                                      mathijs.geertsdanau@kbcsecurities.be
+      • Efficacy: Primary endpoint met: 83% attack rate reduction versus placebo  
+        (p<0.0001) in the first and only prophylaxis Phase 3 study in all three types of
+        HAE. 87% attack rate reduction versus placebo observed in people with HAE Key Data
+        Type 1 or Type 2. All secondary efficacy endpoints met with statistical Bloomberg: PHVS US
+        significance. Early-onset protection was achieved within one week and sustained Reuters: PHVS.O
+        for the full treatment period (more data, see below). URL: https://pharvaris.com/
+      • Safety: Well-tolerated safety profile of deucrictibant XR demonstrated with most
+        common AE: upper respiratory tract infections, nasopharyngitis and headache.
+                                                      Market Cap. (m):  $2351.5   
+        There were two people with level 2 liver enzyme elevation, of which one   
+                                                      Shares Out. (m):    66.7    
+        discontinued the study, while the other one continued the study to completion
+        (both patients had confounding factors like fatty liver disease). In the placebo Volume (Daily):
+        arm one patient discontinued due to urticaria. Price 12m Hi/Lo: 37.3 / 21.0
+      • Design: The study randomized 85 participants from 21 countries in a 2:1 ratio to
+        deucrictibant XR (N=55) or placebo (N=30) for 24 weeks of treatment.      
+                                                      Performance 1m  3m  12m     
+      • Outlook: Data from the CHAPTER-3 study will serve as the basis for marketing
+                                                      Absolute (%) 1.1 11.7 61.9  
+        authorization applications, which are planned to be submitted starting in 1H27.
+        Topline data from Part 1 of CREAATE (NCT07266805), a global, pivotal Phase 3 Rel. Amsterdam AEX 0.7 5.0 38.6
+        study evaluating orally-administered deucrictibant XR for the prevention of AAE-
+        C1INH attacks, are anticipated in 1Q27.       Next Corporate Event        
+      Our view: Pharvaris reported an 83% attack-rate reduction versus placebo in 
+      CHAPTER-3. Focusing on the 80 patients with HAE types 1 and 2, efficacy improved
+      further to an 87% attack-rate reduction, broadly in line with the current injectable
+      standard of care, Takhzyro (see table below). Ahead of the readout, our base case
+      assumed an 80-85% reduction, and the reported data came in comfortably within
+      that range. We believe these results clearly differentiate deucrictibant from Orladeyo
+      on efficacy and support its potential to become the preferred first-line prophylactic
+      treatment for newly diagnosed HAE patients. We expect a positive share price
+      reaction today. Consequently, we raise our probability of success for deucrictibant in
+      prophylactic HAE to 90%, increase our target price to $ 49, and reiterate our Buy
+      rating.                                                                     
+      Year To: December      2025A  2026E  2027E  2028E Price Chart               
+      Sales (€m)               0.0    0.0   28.8  183.9 40.00                     
+                                                            Price Amsterdam AEX (rebased)
+      REBITDA (€m)           (169.4) (176.1) (160.1) (3.8)                        
+                                                      35.00                       
+      Net earnings (€m)      (175.7) (180.4) (166.1) (10.3)                       
+      Diluted, adjusted EPS (€) (3.00) (2.79) (2.49) (0.15)                       
+                                                      30.00                       
+      Dividend per share (€)  0.00   0.00   0.00   0.00                           
+      PE (diluted, adjusted)  0.00 (10.88) (12.18) (195.97)                       
+                                                      25.00                       
+      EV / REBITDA (x)        1.72 (10.16) (12.22) (524.52)                       
+      Free cash flow yield (%) n/a   (9.0)  (8.3) (0.5) 20.00                     
+      Dividend yield (%)       --     0.0   0.0    0.0  Sep-25 Jan-26 May-26      
+      Source: KBC Securities                          Source: Refinitiv Datastream
+      KBC Securities NV is regulated by FSMA                                  1   
+      Refer to important disclosures, disclaimers and analyst certification at the end of this report https://research.kbcsecurities.com
+
+[PDF PAGE 2]
+                                                                                  
+                                                                                  
+                                                                                  
+      First Reaction Note                                                         
+      Equity Research                                                             
+      08 September 2026                                                           
+                                                                                  
+                                                     Produced by KBC Securities NV (Belgium)
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+       Efficacy of prophylactic HAE treatments in development or on the market    
+       Product             Deucrictibant Takhzyro Orladeyo Andembry Dawnzera lonvo-z Navenibart
+       Clinical Trial     Phase 2 Phase 3 Phase 3 Phase 3 Phase 3 Phase 3 Phase 3 Phase 1/2
+                                                                                  
+       Patients (n)       12 vs. 11 55 vs. 30 27 vs. 41 40 vs. 40 39 vs. 25 45 vs. 22 52 vs. 28 16
+                          1.7 vs. 3.5 vs.     3.1 vs. 3.1 vs.     3.5 vs.         
+       Attack rate/month (mean)        3.5 vs. 4           3.6 vs. 2.9     1.8    
+                           1.7    3.7          2.9   2.5           3.5            
+       Mean monthly attack reduction (%) 85 83 87 44  87     81    87      93     
+                                                                          91 (vs. 
+       Mean reduction in use of ODT (%) 93 - 87 54    88     92     -             
+                                                                         baseline)
+       % of patients attack-free (%) 40 vs. 0 45 vs. 3 44 vs. 0 10 vs. 2.5 62 vs. 0 53 vs. 9 62 vs. 11 57
+       Source: Company information, KBCS, all data vs. placebo (when available)   
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                              2   
+                                                                                  
+                                                                                  
+
+[PDF PAGE 3]
+                                                                                  
+                                                                                  
+                                                                                  
+      First Reaction Note                                                         
+      Equity Research                                                             
+      08 September 2026                                                           
+                                                                                  
+                                                     Produced by KBC Securities NV (Belgium)
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+      DISCLAIMER    &  DISCLOSURES                                                
+                                                                                  
+                                                                                  
+       The company disclosures can also be consulted on our website               
+       https://research.kbcsecurities.com/portal/portal.html#!/disclosures        
+                                                                                  
+       This publication has been prepared by KBC Securities which is regulated by FSMA (Financial
+       Services and Markets Authority) and by NBB (National Bank of Belgium).     
+       This publication has been finalised on Sep 8 2026 .                        
+                                                                                  
+       KBC Securities uses an absolute rating system including terms such as Buy, Accumulate, Hold,
+       Reduce and Sell (see definitions below).                                   
+                                                                                  
+                                                                                  
+       Stock Rating Definition                    % Of Cov Universe % IB Client in Last Year
+       Buy      Expected total return (including dividends) of 10% or more over 32.5 45.9
+                a 6-month period                                                  
+       Accumulate Expected total return (including dividends) between 0% and 36.8 28.6
+                15% over a 6-month period                                         
+       Hold     Expected total return (including dividends) between -5% and 5% 28.9 21.2
+                over a 6-month period                                             
+       Reduce   Expected total return (including dividends) between –15% and 0.9 0.0
+                0% over a 6-month period                                          
+       Sell     Expected total return (including dividends) of -10% or worse 0.9 0.0
+                over a 6-month period                                             
+       Due to external factors and in exceptional cases, KBC Securities allows the use of ratings such
+       as Accept the Offer, Black Out, No Recommendation or Suspended.            
+       Our analysts assign one of those ratings based on their investment outlook and valuation for
+       the concerned stock. The valuation can be based on different methodologies such as DCF
+       (discounted cash flow), absolute multiples, peer group multiples, sum-of-parts or NAV (Net
+       Asset Value). The valuation is reflected in a 6-month target price. Occasionally, the expected
+       total return may fall outside of these ranges because of price movement and/or volatility.
+       Such deviations will be permitted but will be closely monitored. Investors should carefully read
+       the definitions of all ratings used in each research report. In addition, since the report contains
+       more complete information concerning the analyst’s view, investors should carefully read the
+       entire report and not infer its contents from the rating alone. KBC Securities may disclose the
+       drafts of its reports to the issuers before their dissemination for the purpose of verifying the
+       accuracy of factual statements, except when the draft includes a rating or a target price. In
+       case the draft has been amended following this disclosure, such amendments will be indicated
+       in the concerned report.                                                   
+       Business Description for: Pharvaris                                        
+       Pharvaris is a Dutch biotech developing deucrictibant, an oral therapy for both acute and
+       long-term prophylactic treatment of hereditary angioedema (HAE). A phase 3 study
+       (RAPIDe-3) in the acute setting has completed enrolment with a readout expected in 1Q26.
+       In addition, Pharvaris has initiated a phase 3 (CHAPTER-3) study in the prophylactic setting
+       with a targeted enrolment of 81 patients and a readout is expected in 2H26.
+       Company Specific Disclosures                                               
+       A. KBC Group NV holds more than 0.5% in this company                       
+       B. This company owns more than 5.0% of its own shares                      
+       C. Within the last 12 months, KBC Securities NV has been lead manager or co-lead
+       manager of any publicly disclosed offer of financial instruments of this company
+                                                                              3   
+
+[PDF PAGE 4]
+                                                                                  
+                                                                                  
+                                                                                  
+      First Reaction Note                                                         
+      Equity Research                                                             
+      08 September 2026                                                           
+                                                                                  
+                                                     Produced by KBC Securities NV (Belgium)
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+       D. Within the last 12 months, KBC Securities NV has provided or is providing investment
+       banking services and/or received compensation or has the promise to get commission for
+       investment banking services for this company                               
+       E. KBC Securities NV makes a market and/or is liquidity provider for this company
+       Subject Company        Relevant disclosure(s) if any                       
+       Pharvaris                                                                  
+      The price target for Pharvaris is based on the following parameters:        
+      Pharvaris is a Dutch biotech developing deucrictibant for HAE, a rare genetic disease with a
+      $3b market, in both the on-demand and prophylactic settings. We see Pharvaris as an
+      attractive investment case underpinned by deucrictibant’s de-risked B2R target, competitive
+      phase 2 results setting it up to be the only high efficacy oral option, in addition to a
+      validated commercial opportunity for more convenient orals as evidenced by competitor
+      Orladeyos’s successful launch despite sub-par efficacy. We are confident in the upcoming
+      phase 3 readouts in HAE on-demand (1Q26) and prophylaxis (2H26).            
+      The risks which may impede the achievement of our price target for Pharvaris are:
+       Below is an overview of the stock ratings and target price history in the last 12 months for
+       the stock(s) described in this report. Rating and price history is delayed by 1 month.
+       Company    Date        Rating      Target Price                            
+       Pharvaris  May 12 2026 Buy         39.00                                   
+       Pharvaris  Dec 4 2025  Buy         36.00                                   
+                                                                                  
+       KBC Securities will provide periodic updates on companies/industries based on company-
+       specific developments or announcements, market conditions or any other publicly available
+       information.                                                               
+       Only that part of the research note is made available to the issuer (who is the subject of this
+       analysis) which is necessary to properly reconcile the facts. Should this result in real changes
+       a reference is made in the research note.                                  
+       KBC Securities policy prohibits its analysts and members of their households from owning
+       securities of any company in the analyst's area of coverage.               
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+      .                                                                           
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                              4   
+                                                                                  
+                                                                                  
+
+[PDF PAGE 5]
+                                                                                  
+                                                                                  
+                                                                                  
+      First Reaction Note                                                         
+      Equity Research                                                             
+      08 September 2026                                                           
+                                                                                  
+                                                     Produced by KBC Securities NV (Belgium)
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+      CONTACT    DETAILS                                                          
+                                                                                  
+       Patrick De Baets                +32 2 417 36 81 Head of Equities           
+      Research team                                                               
+       Analyst                         Contact        Coverage                    
+       Thomas Couvreur (Head of Research) +32 2 429 06 63 Real Estate             
+       Wim Lewi                        +32 2 417 40 92 Financial Institutions & Fintech
+       Michiel Declercq                +32 2 429 18 05 Consumer Goods             
+       Mathijs Geerts Danau            +32 2 448 53 20 Biotech & Pharma           
+       Lynn Hautekeete                 +32 2 448 22 05 Real Estate                
+       Wim Hoste                       +32 2 429 37 13 Chemicals & Breweries      
+       Livio Luyten                    +32 2 448 45 46 Holdings                   
+       Jacob Mekhael                   +32 2 448 40 32 Biotech & Pharma           
+       Kristof Samoy                   +32 2 448 37 62 Energy                     
+       Guy Sips                        +32 2 429 30 02 Small & Midcaps Benelux    
+      Equity sales team                                                           
+       Sales                           Contact                                    
+       Stefaan De Lathouwer (Head of Equity Sales) +32 2 417 44 68                
+       Xavier Gossaert                 +32 2 417 53 68                            
+       Simon Hox                       +32 2 448 53 62                            
+       Tim Leemans                     +32 2 417 25 48                            
+       Axel Roegiers                   +32 2 417 53 67                            
+       Jeroen Van den Bossche          +32 2 417 25 89                            
+       Sales Trading                                                              
+       Veronique De Schoemaecker (Head of Sales Trading) +32 2 417 32 28          
+       Laurens Fontaine                +32 2 417 50 17                            
+       Auerbach Grayson Trading desk (US) +1 212 557 4444                         
+      Bond sales team                                                             
+       Sales                           Contact                                    
+       Alexander Lehmann (Head of Sales) +32 2 417 46 25                          
+       Alban Kerdranvat                +32 2 417 25 45                            
+       Pranab Patel                    +32 2 417 46 75                            
+       David Smagge                    +32 2 417 61 54                            
+      Syndication team                                                            
+       Stephanie Van Heyste            +32 2 429 98 43                            
+       Laurent Steinier                +32 2 429 36 18                            
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                              5   
+                                                                                  
+                                                                                  
+
+[PDF PAGE 6]
+                                                                                  
+                                                                                  
+                                                                                  
+      First Reaction Note                                                         
+      Equity Research                                                             
+      08 September 2026                                                           
+                                                                                  
+                                                     Produced by KBC Securities NV (Belgium)
+      KBC Securities NV         KBC Securities (Hungarian Branch)                 
+      Havenlaan 2 Avenue du Port Lechner Ődőn fasor 10                            
+      1080 Brussels             1095 Budapest                                     
+      Belgium                   Hungary                                           
+      +32 2 417 44 04           +361 483 4005                                     
+      Regulated by FSMA and NBB Regulated by PSZAF                                
+      The company disclosures can be consulted on our website http://www.kbcsecurities.com/disclosures
+      Regulation Analyst certification: The analysts Further measures have been taken with regard to Any U.S. recipient of this report that is not a bank or
+      identified in this report each certify, with respect to the separation of certain activities that could lead broker-dealer and that wishes to receive further
+      the companies or securities that the individual to conflicts of interest with other activities within information regarding, or to effect any transaction in,
+      analysis that (i) the views expressed in this KBCSNV-Be and to ensure the objectivity and any security discussed in this report, should contact
+      publication reflect his or her personal views about independence of investment research (such as and place orders with Auerbach Grayson and
+      the subject companies and securities, and (ii) he or separate supervision and reporting lines, Company. This report is being distributed in the
+      she receives compensation that is based upon restrictions on personal transactions of financial United States solely to investors that are (i) "major
+      various factors, including his or her employer’s total analysts, prohibition to accept inducements, ...). U.S. institutional investors" (within the meaning of
+      revenues, a portion of which are generated by his or KBCSNV-Be is part of the international KBC Group. SEC Rule 15a- 6 and applicable interpretations
+      her employer’s investment expressing the specific Therefore it can not a priori be excluded that relating thereto) that are also "qualified institutional
+      recommendation(s) in this report. another KBC Group entity might have an interest buyers" (QIBs) within the meaning of SEC Rule 144A
+                              or a conflict of interest with respect to the issuer to promulgated by the United States Securities and
+      This publication has been prepared by which this publication relates. However KBCSNV- Exchange Commission pursuant to the Securities Act
+      KBC Securities NV (Belgium) (“KBCSNV-Be”) Be has taken reasonable care to ensure that these of 1933, as amended (the "Securities Act") or (ii)
+      which is regulated by FSMA (Financial Services and circumstances do not impair the objectivity of the investors that are not "U.S. Persons" within the
+      Markets Authority) and by NBB (National Bank of recommendation. As such the investment research meaning of Regulation S under the Securities Act and
+      Belgium). This publication is provided for activity of KBCSNV-Be is separated from the applicable interpretations relating thereto.
+      informational purposes only and is not intended to                          
+      be an offer, or the solicitation of any offer, to buy or activities of the other KBC Group activities. Such The offer or sale of certain securities in the United
+      sell the securities referred to herein. No part of this separation has been realized by lodging such States may be made to QIBs in reliance on Rule
+      publication may be reproduced in any manner activities in different legal entities with proper 144A. Such securities may include those offered
+      without the prior written consent of KBCSNV-Be. reporting lines and proper information barriers put and sold outside the United States in transactions
+                              in place. If, nevertheless, the analyst preparing the intended to be exempt from registration pursuant
+      The information herein has been obtained from, and report would have become aware of any such to Regulation S. This report does not constitute in
+      any opinions herein are based upon, sources interest or conflict of interest, such information has any way an offer or a solicitation of interest in any
+      believed reliable, but neither KBCSNV-Be nor its been disclosed. securities to be offered or sold pursuant to
+      affiliates represent that it is accurate or complete, In the United States, this publication is being Regulation S. Any such securities may not be
+      and it should not be relied upon as such. All opinions, disseminated only to Major Institutional Investors offered or sold to U.S. Persons at this time and may
+      forecasts, and estimates herein reflect our ("MIIs”) through our U.S. affiliate correspondent be resold to U.S. Persons only if such securities are
+      judgement on the date of this publication and are broker dealer, Auerbach Grayson and Company, registered under the Securities Act of 1933, as
+      subject to change without notice. but does not take responsibility for the contents of amended, and applicable state securities laws, or
+                              the report. Orders in any securities referred to pursuant to an exemption from registration. The
+      From time to time, KBCSNV-Be, its principals or herein by any U.S. investor should be placed with products sold by Auerbach Grayson and Company
+      employees may have a position in the securities Auerbach Grayson and Company and not with any or any affiliate thereof, including KBCSNV-Be, are
+      referred to herein or hold options, warrants or of its foreign affiliates. Pursuant to FINRA Rules not insured by the FDIC, are not obligations of or
+      rights with respect thereto or other securities of 2241(h)(4) and 2242(g)(3) third-party research guaranteed by KBC Bank NV or its affiliates, and
+      such issuers and may make a market or otherwise reports conflict of interest disclosures on equity are subject to investment risks, including possible
+      act as principal in transactions in any of these and debt securities include (i) for equity research loss of the entire amount invested.
+      securities. Any such persons may have purchased in the event Auerbach Grayson and Company
+      securities referred to herein for their own account and/or its affiliates own 1% or more of the subject This publication is for distribution in or from the
+      in advance of the release of this publication. company's common equity securities covered by United Kingdom only to persons who are authorised
+      KBCSNV-Be and principals or employees of the report; (ii) Auerbach Grayson and Company or persons or exempted persons within the meaning
+      KBCSNV-Be may from time to time provide its affiliates are acting as a market maker for the of the Financial Services and Markets Act 2000 of
+      investment banking or consulting services to, or covered company or, in the case of a report on debt the United Kingdom or any order made thereunder
+      serve as a director of a company being reported on securities, trading as a principal in such securities; or to investment professionals as defined in Article
+      herein.                 (iii) provision of investment banking services or 19 of the Financial Services and Markets Act 2000
+                              managing an offering for a covered company (Financial Promotion) Order 2005 and is not
+      This publication is provided solely for the information during the past 12 months; (iv) an expectation of intended to be distributed or passed on, directly or
+      and use of investors who are expected to make their providing investment banking services to the indirectly, to any other class of persons.
+      own investment decisions without undue reliance on                          
+                              subject company in the next three months, or (v)    
+      this publication. This publication meets the definition This publication is for distribution in Canada only to
+                              any other actual, material conflicts of interest. A 
+      of investment research prepared according to the pension funds, mutual funds, banks, asset
+                              disclosure on all debt research report at the time  
+      requirements to ensure the objectivity and      managers, insurance companies and other
+      independence of financial analysts, and cannot be of publication or distribution of the report: (A) if the institutional investors.
+                              debt research analyst or a member of the debt       
+      considered to constitute personal investment advice.                        
+                              research analyst’s household has a financial The distribution of this publication in other
+      Investors must make their own determination of the                          
+                              interest in the debt or equity securities of the jurisdictions may be restricted by law, and persons
+      appropriateness of an investment in any securities                          
+                              subject company (including without limitation, any into whose possession this publication comes
+      referred to herein based on the merits and risks                            
+                              option, right, warrant, future, long or short should inform themselves about, and observe, any
+      involved, their own investment strategy and their                           
+                              position) and the nature of such interest; (B) if the such restrictions. In particular this publication may
+      legal, fiscal and financial position. Past performance                      
+                              debt research analyst has received compensation not be sent into or distributed, directly or indirectly,
+      is no guarantee for future results. By virtue of this                       
+                              based upon (among other factors) the member’s in Japan or to any resident thereof.
+      publication, none of KBCSNV-Be or any of its                                
+                              investment banking, sales and trading or principal  
+      employees shall be responsible for any investment                           
+                              trading revenues; (C) if the member or any of its   
+      decision.                                                                   
+                              affiliates: (i) managed or co-managed a public      
+      KBCSNV-Be has implemented certain in-house offering of securities for the subject company in the
+      procedures known as Chinese walls that aim to past 12 months; (ii) or received compensation for
+      prevent the inappropriate dissemination of inside investment banking services from the subject
+      and confidential information. E.g. a Chinese wall company in the past 12 months, or (iii) expects to
+      surrounds the corporate finance department within receive or intend to seek compensation for
+      KBCSNV-Be.              investment banking services from the subject        
+                              company in the next three months.                   
+      ...                                                                         
+                                                                              6   

@@ -1,0 +1,247 @@
+[PDF PAGE 1]
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                      First Take                                    
+                                                                                    
+                                                                                    
+                                    Pharvaris N.V. (PHVS)                           
+                                     September 8, 2026                              
+                         Price: $35.25; Market Cap (M): $2,463; 9/4/2026 Close      
+                                 Rating: Buy; Price Target: $60.00                  
+                                                                                    
+                    Patrick R. Trucchio, CFA - (212-856-5749) / ptrucchio@hcwresearch.com
+                                                                                    
+                       CHAPTER-3 Delivers 83% Attack-Rate Reduction; Oral           
+                        Prophylaxis Clears the Injectable Bar; Reiterate Buy        
+         Deucrictibant XR meets primary endpoint in Phase 3 trial in prevention of HAE attacks. This morning,
+         Pharvaris announced that the Phase 3 trial CHAPTER-3 evaluating once-daily deucrictibant extended-release (XR)
+         oral tablet for the prevention of hereditary angioedema (HAE) attacks met its primary endpoint with an 83% reduction
+         in mean monthly attack rate vs placebo (95% CI: 72–90%; p<0.0001) across all three HAE types, and with an 87%
+         reduction in the 80 participants with Type 1 or Type 2 disease in an additional analysis not adjusted for multiplicity
+         (link to deck). All secondary efficacy endpoints were also met with statistical significance. The result clears the
+         80–85% bar that we had set ahead of the readout and, in our view, secures the oral prophylaxis segment while
+         preserving the “injectable-like efficacy” claim. With the immediate-release (IR) on-demand New Drug Application
+         (NDA) accepted and an April 23, 2027, PDUFA (FDA action) date, and an XR submission planned for 1H27, we
+         believe Pharvaris is positioned to own the only oral franchise spanning both treatment settings. We reiterate our
+         Buy rating and $60 price target on PHVS.                                   
+         Impressive efficacy "quite similar to the subcutaneous administered medications". CHAPTER-3 (n=85; ≥12
+         years old) randomized 2:1 to deucrictibant XR 40 mg once daily (n=55) or placebo (n=30) for 24 weeks and is the
+         first prophylaxis Phase 3 to enroll all three HAE types. The estimated attack rate was 0.35 per month on XR vs 2.6
+         on placebo, off balanced baselines of 3.76 and 3.47 attacks per four weeks, with protection achieved within the first
+         week and sustained through week 24. The depth of response matters more: nearly half of XR patients were attack-
+         free across all 24 weeks, all but one achieved at least a 50% reduction, almost all at least 70%, and roughly two-thirds
+         at least 90%, on pre-specified secondary endpoints. Against company-presented benchmarks of 44% for the only
+         approved oral prophylaxis and 71–87% for injectables, the Type 1/Type 2 result establishes parity with parenteral
+         efficacy in a pill — the comparison that matters commercially. Importantly, in the topline results conference call with
+         management, KOL Dr. Marc Riedl described efficacy that “looks quite similar to the subcutaneous administered
+         medications.” Furthermore, retention corroborates the profile as 83 of 85 participants completed and 80 rolled into
+         CHAPTER-4, the long-term open-label extension study of deucrictibant XR 40 mg/day.
+         Safety was broadly clean; hepatic monitoring is the one label watch item. TEAEs were more frequent on
+         drug (76.4% vs 56.7%) and study drug-related events were 20.0% vs 10.0%, but severity was concentrated: three
+         Grade 3 events and one Grade 4, no treatment-related SAEs, and one discontinuation per arm. Two of the Grade
+         3 events were asymptomatic liver enzyme elevations slightly above five times the upper limit of normal, both
+         confounded (long-term androgen use, fatty liver). Management expects at most a liver-monitoring section in the
+         label, manageable in our view. In the five normal-C1-INH participants — only 3 on XR — responses were more
+         variable (one attack-free, one roughly 90%, one below 50%), a label-breadth question rather than an efficacy one,
+         in our view. Management framed the ongoing Phase 3 trial CREAATE (Part 1 topline data expected in 1Q27) as
+         non-gating: filing timing is set by the totality of the safety database including ongoing CHAPTER-4, with acquired-
+         angioedema data folded in if ready.                                        
+         Valuation and Risks. We value Pharvaris using a SOTP and DCF-based methodology based on net income per
+         asset and FCFF, respectively. We assign POS for deucrictibant of 95% in HAE on-demand, 90% in HAE prophylaxis,
+         and 50% in AAE-C1INH. We employ a discount rate of 12% and a terminal multiple of 6.0x. Based on these
+         considerations, we arrive at an implied equity value of approximately $4.1 billion or $60/share. Risks to price target
+         achievement: (1) clinical development risk; (2) competitor risk in a highly competitive market; (3) commercialization
+                                                                                    
+                                                                                    
+             For definitions and the distribution of analyst ratings, analyst certifications, and other disclosures, please refer to pages 3 - 4 of this report.
+                                                                                    
+
+[PDF PAGE 2]
+                                                                                    
+                                                                                    
+                                                                                    
+    Pharvaris N.V.                                                   September 8, 2026
+                                                                                    
+           risk; (4) reimbursement risk; (5) pricing risk; (6) capital market and dilution risk; and (7) geopolitical risk tied to
+           ongoing conflicts.                                                       
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+    H.C. WAINWRIGHT & CO. EQUITY RESEARCH                                       2   
+                                                                                    
+
+[PDF PAGE 3]
+                                                                                    
+                                                                                    
+                                                                                    
+    Pharvaris N.V.                                                   September 8, 2026
+                                                                                    
+                                                                                    
+           Important Disclaimers                                                    
+           This material is confidential and intended for use by Institutional Accounts as defined in FINRA Rule 4512(c). It may
+           also be privileged or otherwise protected by work product immunity or other legal rules. If you have received it by
+           mistake, please let us know by e-mail reply to unsubscribe@hcwresearch.com and delete it from your system; you
+           may not copy this message or disclose its contents to anyone. The integrity and security of this message cannot
+           be guaranteed on the Internet.                                           
+           H.C. WAINWRIGHT & CO, LLC RATING SYSTEM: H.C. Wainwright employs a three tier rating system for
+           evaluating both the potential return and risk associated with owning common equity shares of rated firms. The
+           expected return of any given equity is measured on a RELATIVE basis of other companies in the same sector. The
+           price objective is calculated to estimate the potential movements in price that a given equity could reach provided
+           certain targets are met over a defined time horizon. Price objectives are subject to external factors including industry
+           events and market volatility.                                            
+           RETURN ASSESSMENT                                                        
+           Market Outperform (Buy): The common stock of the company is expected to outperform a passive index comprised
+           of all the common stock of companies within the same sector.             
+           Market Perform (Neutral): The common stock of the company is expected to mimic the performance of a passive
+           index comprised of all the common stock of companies within the same sector.
+           Market Underperform (Sell): The common stock of the company is expected to underperform a passive index
+           comprised of all the common stock of companies within the same sector.   
+                        Rating and Price Target History for: Pharvaris N.V. (PHVS-US) as of 09-04-2026
+             I:BUY:$60.00                                                           
+             10/15/25                                                               
+                                                                     40             
+                                                                     35             
+                                                                     30             
+                                                                     25             
+                                                                     20             
+                                                                     15             
+                                                                     10             
+             Q2  Q3  2024 Q1  Q2  Q3  2025 Q1  Q2  Q3  2026 Q1  Q2  Q3              
+           Investment Banking Services include, but are not limited to, acting as a manager/co-manager in the underwriting
+           or placement of securities, acting as financial advisor, and/or providing corporate finance or capital markets-related
+           services to a company or one of its affiliates or subsidiaries within the past 12 months.
+                         Distribution of Ratings Table as of September 7, 2026      
+                                                       IB Service/Past 12 Months    
+           Ratings             Count     Percent      Count      Percent            
+           Buy                  541      84.14%        156       28.84%             
+           Neutral               50       7.78%         13       26.00%             
+           Sell                  2        0.31%          0        0.00%             
+           Under Review          50       7.78%         20       40.00%             
+           H.C. Wainwright & Co, LLC (the “Firm”) is a member of FINRA and SIPC and a registered U.S. Broker-Dealer.
+                                                                                    
+           I, Patrick R. Trucchio, CFA , certify that 1) all of the views expressed in this report accurately reflect my personal
+           views about any and all subject securities or issuers discussed; and 2) no part of my compensation was, is, or will be
+           directly or indirectly related to the specific recommendation or views expressed in this research report; and 3) neither
+           myself nor any members of my household is an officer, director or advisory board member of these companies.
+           None of the research analysts or the research analyst’s household has a financial interest in the securities of
+           Pharvaris N.V. (including, without limitation, any option, right, warrant, future, long or short position).
+                                                                                    
+           As of August 31, 2026 neither the Firm nor its affiliates beneficially own 1% or more of any class of common equity
+           securities of Pharvaris N.V..                                            
+                                                                                    
+    H.C. WAINWRIGHT & CO. EQUITY RESEARCH                                       3   
+                                                                                    
+
+[PDF PAGE 4]
+                                                                                    
+                                                                                    
+                                                                                    
+    Pharvaris N.V.                                                   September 8, 2026
+                                                                                    
+                                                                                    
+           Neither the research analyst nor the Firm knows or has reason to know of any other material conflict of interest at
+           the time of publication of this research report.                         
+           The research analyst principally responsible for preparation of the report does not receive compensation that is
+           based upon any specific investment banking services or transaction but is compensated based on factors including
+           total revenue and profitability of the Firm, a substantial portion of which is derived from investment banking services.
+                                                                                    
+           The firm or its affiliates received compensation from Pharvaris N.V. for non-investment banking services in the
+           previous 12 months.                                                      
+           The Firm or its affiliates did not receive compensation from Pharvaris N.V. for investment banking services within
+           twelve months before, but will seek compensation from the companies mentioned in this report for investment
+           banking services within three months following publication of the research report.
+                                                                                    
+           The Firm does not make a market in Pharvaris N.V. as of the date of this research report.
+                                                                                    
+           The securities of the company discussed in this report may be unsuitable for investors depending on their specific
+           investment objectives and financial position. Past performance is no guarantee of future results. This report is offered
+           for informational purposes only, and does not constitute an offer or solicitation to buy or sell any securities discussed
+           herein in any jurisdiction where such would be prohibited. This research report is not intended to provide tax advice
+           or to be used to provide tax advice to any person. Electronic versions of H.C. Wainwright & Co., LLC research
+           reports are made available to all clients simultaneously. No part of this report may be reproduced in any form without
+           the expressed permission of H.C. Wainwright & Co., LLC. Additional information available upon request.
+           H.C. Wainwright & Co., LLC does not provide individually tailored investment advice in research reports. This
+           research report is not intended to provide personal investment advice and it does not take into account the specific
+           investment objectives, financial situation and the particular needs of any specific person. Investors should seek
+           financial advice regarding the appropriateness of investing in financial instruments and implementing investment
+           strategies discussed or recommended in this research report.             
+           H.C. Wainwright & Co., LLC’s and its affiliates’ salespeople, traders, and other professionals may provide oral or
+           written market commentary or trading strategies that reflect opinions that are contrary to the opinions expressed
+           in this research report.                                                 
+           H.C. Wainwright & Co., LLC and its affiliates, officers, directors, and employees, excluding its analysts, will from
+           time to time have long or short positions in, act as principal in, and buy or sell, the securities or derivatives (including
+           options and warrants) thereof of covered companies referred to in this research report.
+           The information contained herein is based on sources which we believe to be reliable but is not guaranteed by us as
+           being accurate and does not purport to be a complete statement or summary of the available data on the company,
+           industry or security discussed in the report. All opinions and estimates included in this report constitute the analyst’s
+           judgment as of the date of this report and are subject to change without notice.
+           Securities and other financial instruments discussed in this research report: may lose value; are not insured by the
+           Federal Deposit Insurance Corporation; and are subject to investment risks, including possible loss of the principal
+           amount invested.                                                         
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+    H.C. WAINWRIGHT & CO. EQUITY RESEARCH                                       4   
+                                                                                    

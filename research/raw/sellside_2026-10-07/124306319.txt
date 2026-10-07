@@ -1,0 +1,360 @@
+[PDF PAGE 1]
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                      September 9, 2026
+      Debjit Chattopadhyay, Ph.D. PHVS: CHAPTER-3 Postscript; PT to $44             
+      debjit.chattopadhyay@guggenheimpartners.com                                   
+      212 823 6584                                                                  
+      Moritz Reiterer, Ph.D.   Key Message: CHAPTER-3 delivered injectable-like efficacy—83% & 87% attack
+      moritz.reiterer@guggenheimpartners.com reduction overall & in Type 1/2 HAE patients, respectively—with the convenience of
+      212 372 6368                                                                  
+                               QD oral medicine. Pharvaris becomes the one-stop-shop for all things HAE, potentially
+      Ry Forseth, Ph.D.        increasing its strategic optionality. However, two >5x ULN transaminase elevations
+      ry.forseth@guggenheimpartners.com without bilirubin increases kept a lid on the stock despite stellar efficacy. Company
+      212 518 9226             described the LFTs as asymptomatic—one patient discontinued treatment and the other
+                               completed the study—with possible contributing factors including, one participant with
+                               fatty liver disease, and the other with history of androgen therapy. If these were the
+                               only two instances of LFT abnormalities, we don’t foresee any labeling or commercial
+      PHVS             BUY     challenges. PT moves to $44 (from $40), which reflects our increased PoS for PHVS-719.
+      Pharvaris N.V.                                                                
+                              Valuation & Model Update                              
+      Sector: Biotechnology                                                         
+                              We have updated our financial model following successful CHAPTER-3 pivotal trial for
+      Company Update                                                                
+                              deucrictibant in HAE prophylaxis. Our $44/share target (vs. $40 prior), is based on a 10-year
+      Share Price       $37.84                                                      
+                              discounted cash flow (DCF) analysis and reflects the increased 90% POS for PHVS-719
+      Price Target      $44.00 (from prior 80%). Our model applies a weighted average cost of capital (WACC) of 12.5%
+       Prior             $40.00 and assumes a terminal growth rate of -5%. We incorporate a 15% tax rate starting in 2031.
+                              For PHVS-416, we assume a probability of success (POS) of 90%.
+      Revenue (€M)            Investment Risks                                      
+      (FY DEC) 1Q 2Q 3Q 4Q FY                                                       
+      2026  0  0  0E 0E    0E PHVS is susceptible to the same risks that apply to the entire biotech industry, including
+                              regulatory, commercial, manufacturing, financing, sales, and IP risks. Despite the successful
+      P/S                                                                           
+                              completion of Ph 2 trials in both on-demand and prophylaxis settings, several key risks
+      2027 —   —  —  —    54E                                                       
+                              remain. These include: (1) Despite successful clinical trial, regulatory delays could delay
+      P/S                49.2x                                                      
+                              launch; (2) HAE is a very competitive market with established segment leaders and
+      2028 —   —  —  —    174E                                                      
+                              dominated by established therapies; and (3) the potential for multiple subQ therapies in
+      Prior —  —  —   —   167E                                                      
+                              development, which are likely to be approved over the next 36 months, which could erode
+      P/S                15.2x                                                      
+                              PHVS's market share or limit uptake of deucrictibant. 
+      EPS (€)                                                                       
+      (FY DEC) 1Q 2Q 3Q 4Q FY                                                       
+      2026 (0.60) (0.70) (0.70)E(0.71)E (3.01)E                                     
+      2027 —   —  —  —   (2.24)E                                                    
+      2028 —   —  —  —   (0.61)E                                                    
+      Prior —  —  —   —  (0.71)E                                                    
+      Market Data                                                                   
+      52-Week Range $20.65 - $43.25                                                 
+      Shares Out (M)      70.2                                                      
+      Market Cap (M)    $2,657                                                      
+      ADV (3 mo; 000)     513                                                       
+      Financial Metrics                                                             
+      Cash (M)           €318                                                       
+     GUGGENHEIM SECURITIES, LLC          See pages 4 - 5 for analyst certification and important disclosures. Page 1
+
+[PDF PAGE 2]
+                                    91586_bf06f40c-2b40-4d79-98ae-0f6d8126eef6.pdf                           
+                                                                                                             
+     BIOTECHNOLOGY                                                                                           
+      PHARVARIS N.V.                                                                          September 9, 2026
+                                                                                                             
+                                                                                                             
+       Debjit Chattopadhyay, Ph.D. | (212) 823-6584 | Debjit.Chattopadhyay@GuggenheimPartners.com            
+       Income Statement                                                                                      
+                                                                                                             
+       (in thousands of EURO, except per share data) 2025 1Q26 2Q26 3Q26E 4Q26E 2026E 2027E 2028E 2029E 2030E
+                                                                                                             
+        PHVS-416                          -     -      -    -     -    -    5 4,385 109,336 219,809 303,809  
+        PHVS-719                                                               -    64,981 146,126 220,893   
+        License revenue                                                                                      
+       Total Product Revenues             -     -      -    -     -    -    54,385 174,317 365,935 524,702   
+        COGS                              -     -      -    -     -    -     5,439  17,432 36,593  52,470    
+        R&D                             124,478 30,161 35,000 3 6,050 3 7,132 138,343 139,726 141,124 142,535 135,408
+        G&A                             4 5,345 14,110 15,788 1 6,420 1 7,076 6 3,394 6 9,734 73,220 73,952 74,692
+       Total Operating Expenses         169,823 44,271 50,788 5 2,470 5 4,208 201,737 209,460 214,344 216,487 210,100
+       Operating Income                (169,823) ( 44,271) ( 50,788) (52,470) (54,208) (201,737) (155,075) ( 40,027) 149,447 314,602
+        Finance income (expenses)       (3,889) 5,344 3,548 3,619 3,691 (4,005) (4,125) (4,249) (4,377) (4,508)
+       Loss before income tax          (173,711) ( 38,927) ( 47,241) (48,851) (50,517) (205,742) (159,200) ( 44,276) 145,071 310,094
+        Income tax expense              (1,988) (273) (602)                                                  
+        Exchange (losses) gains arising on translation of foreign operations (408)                           
+       Net loss                        (175,699) ( 39,200) ( 47,843) (48,851) (50,517) (205,742) (159,200) ( 44,276) 145,071 310,094
+       Basic and diluted loss per share  ( 2.97) (0.60) (0.70) ( 0.70) ( 0.71) ( 3.01) ( 2.24) (0.61) 1 .96 3 .99
+        Basic Shares Outstanding        5 9,158 65,305 68,073 69,434 70,823 6 8,409 7 1,145 72,568 74,020 77,720
+        Diluted Shares Outstanding      62,116 68,571 71,477 72,906 74,364 71,829 76,125 76,197 77,720 81,607
+       Source: Company Reports and Guggenheim Securities, LLC estimates                                      
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+     GUGGENHEIM SECURITIES, LLC                                 See pages 4 - 5 for analyst certification and important disclosures. Page 2
+
+[PDF PAGE 3]
+                                    91586_bf06f40c-2b40-4d79-98ae-0f6d8126eef6.pdf                           
+                                                                                                             
+     BIOTECHNOLOGY                                                                                           
+      PHARVARIS N.V.                                                                          September 9, 2026
+                                                                                                             
+        Debjit Chattopadhyay, Ph.D. | (212) 823-6584 | Debjit.Chattopadhyay@GuggenheimPartners.com           
+                                                                                                             
+                                                                                                             
+        DCF:                                                                                                 
+                           2023  2024 2025 2026e 2027e 2028e 2029e 2030e 2031e 2032e 2033e 2034e 2035e 2036e 
+                         ############## ############## ########## ########## ############## ############## ############## ############# ############# ############# ############### ############# ############# ############
+         PHVS-416            -     -   -    -   5 4,385 109,336 219,809 303,809 416,439 502,326 5 89,094 676,751 765,304 854,760
+         PHVS-719                                -    6 4,981 146,126 220,893 289,175 350,867 4 05,859 454,041 495,304 529,535
+        TOTAL revenue:       -     -   -    -   5 4,385 174,317 365,935 524,702 705,615 853,193 9 94,953 1 ,130,793 1,260,608 1 ,384,295
+        GAAP EBIT                     (173,711) (205,742) (159,200) (44,276) 145,071 310,094 503,665 662,536 8 14,359 959,153 1,105,473 1 ,243,994
+        EBIT margin                                                                                          
+        Taxes                -     -   -    -    -     -     -         2 4,583 9 9,380 2 46,117 143,873 165,821 186,599
+        Tax Rate            0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 15.00% 15.00% 15.00% 15.00% 15.00% 15.00%
+        Tax-effected EBIT    -     -  (173,711) (205,742) (159,200) (44,276) 145,071 310,094 528,248 761,917 1,060,476 1 ,103,026 939,652 1 ,057,395
+        Capital Expenditures       -   -    -    -     -     -     -    -     -     -    -     -    -        
+        SBC                            -    -    -     -     -     -    -     -     -    -     -    -        
+        + / - Changes in working capital                                                                     
+        + / - Changes in other assets and liabilities                                                        
+        Free Cash Flow       -     -  (173,711) (205,742) ( 159,200) (44,276) 145,071 310,094 528,248 761,917 1,060,476 1,103,026 939,652 1 ,057,395
+        1yr Periods          -         -0.69 0.31 1.31 2.31  3.31 4.31  5.31  6.31  7.31 8.31  9.31 10.31    
+        PV                   -     -  (188,417) (198,380) ( 136,459) (33,726) 98,234 186,663 282,673 362,324 4 48,304 414,515 313,909 313,918
+        1 yr DCF Summary                                                                                     
+        Weighted Average Cost of Capital: 12.5%                                                              
+        Net present value of free cash flow 2,171,956                                                        
+        Terminal Growth Rate -5.0%                                                                           
+        Terminal Value   € 1,674,165                                                                         
+        Present value of the terminal value € 441,835                                                        
+        Implied Enterprise Value € 2,613,792                                                                 
+        LESS: Debt       €   -                                                                               
+        PLUS: Cash and Cash Equivalents € 318,282                                                            
+        Equity Value     € 2,932,074                                                                         
+        Diluted Shares      76,125                                                                           
+        p/w Implied Equity Value Per Share ($USD) $44                                                        
+        Source: Company Reports and Guggenheim Securities, LLC estimates                                     
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+     GUGGENHEIM SECURITIES, LLC                                 See pages 4 - 5 for analyst certification and important disclosures. Page 3
+
+[PDF PAGE 4]
+                                                                                    
+                                                                                    
+     BIOTECHNOLOGY                                                                  
+      PHARVARIS N.V.                                                  September 9, 2026
+     ANALYST CERTIFICATION                                                          
+                                                                                    
+     By issuing this research report, each Guggenheim Securities, LLC ("Guggenheim Securities") research analyst whose name appears in this report
+     hereby certifies that (i) all of the views expressed in this report accurately reflect the research analyst's personal views about any and all of the subject
+     securities or issuers discussed herein and (ii) no part of the research analyst's compensation was, is, or will be directly or indirectly related to the specific
+     recommendations or views expressed by the research analyst.                    
+     IMPORTANT DISCLOSURES                                                          
+                                                                                    
+     The research analyst(s) whose name(s) appear(s) in this report have received compensation based upon various factors, including quality of research,
+     investor client feedback, and Guggenheim Securities, LLC's overall revenue, which includes investment banking revenue.
+     Please refer to this website for company-specific disclosures referenced in this report: https://guggenheimsecurities.bluematrix.com/sellside/
+     Disclosures.action. Disclosure information is also available from Compliance, 330 Madison Avenue, New York, NY 10017.
+                                                                                    
+                                                                                    
+                    Rating and Price Target History for: Pharvaris N.V. (PHVS) as of 09-08-2026
+                                                                                    
+      06/11/25 12/03/25 08/12/26                                                    
+      I:BUY:$32.00 BUY:$39.00 BUY:$40.00                                            
+                                                                            40      
+                                                                            35      
+                                                                            30      
+                                                                            25      
+                                                                            20      
+                                                                            15      
+                                                                            10      
+       Q3   2024  Q1    Q2    Q3   2025   Q1   Q2    Q3    2026  Q1    Q2           
+                                                                                    
+                                                                    Created by: BlueMatrix
+                                                                                    
+     RATINGS EXPLANATION AND GUIDELINES                                             
+     BUY (B) - Describes stocks that we expect to provide a total return (price appreciation plus yield) of 10% or more within a 12-month period.
+                                                                                    
+     NEUTRAL (N) - Describes stocks that we expect to provide a total return (price appreciation plus yield) of between plus 10% and minus 10% within a
+     12-month period.                                                               
+     SELL (S) - Describes stocks that we expect to provide a total negative return (price appreciation plus yield) of 10% or more within a 12-month period.
+     NR - The investment rating and price target have been temporarily suspended. Such suspensions are in compliance with applicable regulations and/or
+     Guggenheim Securities, LLC policies.                                           
+                                                                                    
+     CS - Coverage Suspended. Guggenheim Securities, LLC has suspended coverage of this company.
+     NC - Not covered. Guggenheim Securities, LLC does not cover this company.      
+     Monitor - Describes stocks whose company fundamentals and financials are being monitored, and for which no financial projections or opinions on the
+     investment merits of the company are provided.                                 
+     Under Review (UR) - Following the release of significant news from this company, the rating has been temporarily placed under review until sufficient
+     information has been obtained and assessed by the analyst.                     
+                                                                                    
+     Guggenheim Securities, LLC methodology for assigning ratings may include the following: market capitalization, maturity, growth/value, volatility and
+     expected total return over the next 12 months. The price targets are based on several methodologies, which may include, but are not restricted to, analyses
+     of market risk, growth rate, revenue stream, discounted cash flow (DCF), EBITDA, EPS, cash flow (CF), free cash flow (FCF), EV/EBITDA, P/E, PE/growth,
+     P/CF, P/FCF, premium (discount)/average group EV/EBITDA, premium (discount)/average group P/E, sum of the parts, net asset value, dividend returns,
+     and return on equity (ROE) over the next 12 months.                            
+     Price targets are assigned for Buy- and Sell-rated stocks. Price targets for Neutral-rated stocks are provided at the discretion of the analyst.
+     Equity Valuation and Risks: For valuation methodology and risks associated with covered companies or price targets for covered companies, please
+     see the most recent company-specific research report at https://guggenheimlibrary.bluematrix.com/client/library.jsp, contact the primary analyst or your
+     Guggenheim Securities, LLC representative, or email GSResearchDisclosures@guggenheimpartners.com.
+                                                                                    
+     GUGGENHEIM SECURITIES, LLC          See pages 4 - 5 for analyst certification and important disclosures. Page 4
+
+[PDF PAGE 5]
+                                                                                    
+                                                                                    
+     BIOTECHNOLOGY                                                                  
+      PHARVARIS N.V.                                                  September 9, 2026
+     RATINGS DISTRIBUTIONS FOR GUGGENHEIM SECURITIES:                               
+                                                                                    
+                                                              IB Serv./ Past 12Mos. 
+      Rating Category           Count          Percent        Count     Percent     
+      BUY                        312           76.66%          85       27.24%      
+                                                                                    
+      HOLD                       94            23.10%           8       8.51%       
+      SELL                       1             0.25%            0       0.00%       
+                                                                                    
+     Guggenheim Securities Research assigns Buy, Neutral, Sell ratings for covered securities. Such assignments equate to Buy, Hold and Sell for the purposes
+     of the above Rating Distribution Disclosure required by FINRA Rule 2241.       
+     OTHER DISCLOSURES                                                              
+     This research is for our clients and prospective clients only. This research was prepared by personnel who are associated with both Guggenheim Securities,
+     LLC (a FINRA-registered broker-dealer, “Guggenheim Securities”) and Guggenheim Securities Research Services, LLC (an investment adviser, “GSRS,”
+     and together with Guggenheim Securities, “Guggenheim”). If you are paying separately for this research, it is being provided to you by GSRS. Otherwise, it
+     is being provided by Guggenheim Securities. Guggenheim does not create tailored or personalized research and all research provided by Guggenheim is
+     impersonal advice. Other than disclosures relating to Guggenheim and our affiliates, this research is based on current public information that we consider
+     reliable, but we do not represent it is accurate or complete, and it should not be relied on as such.
+     This report is being distributed solely for the recipient’s internal use and may not be copied, reproduced, or distributed, in whole or in part, without the
+     prior written consent of Guggenheim. Without limiting the foregoing, the recipient is expressly prohibited from uploading, feeding, transmitting, or otherwise
+     providing this report or any related content to any internal or third-party artificial intelligence (“AI”) or machine learning system, including but not limited to
+     generative AI platforms, large language models, or similar technologies, without the prior written consent of Guggenheim.
+     Portions of the research contained herein have been generated using artificial intelligence ("AI"). We primarily use AI to gather general market or industry
+     data and to compile company-specific information to facilitate the recipient's preliminary review. In providing this research, we assume that any information
+     obtained from public sources, data suppliers (including AI systems) and other third parties is reasonable and reliable but acknowledge that any such
+     information (including AI content) could contain errors, inconsistencies, bias or outdated or irrelevant information. We seek to update our research as
+     appropriate, but various regulations may prevent us from doing so. Other than certain industry reports published on a periodic basis, the large majority of
+     reports are published at irregular intervals as appropriate in the research analyst's judgement. Guggenheim Securities conducts a full-service, integrated
+     investment banking and brokerage business. Guggenheim Securities is a member of SIPC (http://www.sipc.org). Guggenheim Securities' salespeople,
+     traders, and other professionals may provide oral or written market commentary or trading strategies to Guggenheim Securities' clients and our employees
+     trading for our own account that reflect opinions that are contrary to the opinions expressed in this research. Guggenheim and certain of our affiliates conduct
+     an investment management business, trade for their own accounts, and may make investment decisions that are inconsistent with the recommendations
+     or views expressed in this research.                                           
+     We and our affiliates, officers, directors, and employees, excluding equity and credit analysts, will from time to time have long or short positions in, act as
+     principal in, and buy or sell, the securities or derivatives, if any, referred to in this research. We and our affiliates also may sell to or buy from customers on a
+     principal basis the securities described herein. We and our affiliates also do business with, or that relates to, companies covered in Guggenheim research
+     and may have a position in the debt of the company or companies discussed herein.
+     This research is not an offer to sell or the solicitation of an offer to buy any security. It does not constitute a personal recommendation or take into account
+     the particular investment objectives, financial situations, or needs of individual clients. Clients should consider whether any advice or recommendation
+     in this research is suitable for their particular circumstances and, if appropriate, seek professional advice, including tax advice. The price and value of
+     investments referred to in this research and the income from them will fluctuate. Past performance is not a guide to future performance, future returns are
+     not guaranteed, and a loss of original capital may occur. Fluctuations in exchange rates could have adverse effects on the value or price of, or income
+     derived from, certain investments.                                             
+     This communication does not constitute an offer of Shares to the public in the United Kingdom. No prospectus has been or will be approved in the United
+     Kingdom in respect of the Securities. Consequently, this communication is directed only at (i) persons who are outside the United Kingdom or (ii) persons
+     who have professional experience in matters relating to investments falling within Article 19(5) of the Financial Services and Markets Act 2000 (Financial
+     Promotion) Order 2005 (the “Order”), (iii) high net worth entities falling within Article 49(2) of the Order (iv) and other persons to whom it may lawfully be
+     communicated (all such persons together being referred to as “relevant persons”). Any investment activity to which this communication relates will only be
+     available to, and will only be engaged with, relevant persons. Any person who is not a relevant person, or otherwise in a territory where it is not intended
+     to, or may not, be distributed, should not act or rely on this document or any of its contents.
+     Copyright © 2026 by Guggenheim Securities, LLC, a FINRA registered broker-dealer, and by Guggenheim Securities Research Services, LLC, an
+     investment adviser (together with, Guggenheim Securities, LLC, “Guggenheim”). All rights reserved. The content of this report is based upon information
+     obtained from sources that Guggenheim generally considers reliable, but Guggenheim makes no representations or warranties with respect to its accuracy,
+     completeness, timeliness, suitability or otherwise, and assumes no responsibility to update it for subsequent events or knowledge. Guggenheim is not
+     responsible for your use of this information.                                  
+     GUGGENHEIM SECURITIES, LLC          See pages 4 - 5 for analyst certification and important disclosures. Page 5
+
+[PDF PAGE 6]
+                                                                                    
+                                                                                    
+                                                                                    
+   Guggenheim  Securities Equity Research & Equities Teams                          
+                                                                                    
+                                                                                    
+   Consumer Equity Research                 Technology & Media Equity Research      
+   Consumer Discretionary                   IT Services                             
+   Simeon Siegel, CFA            212.518.9852 Jonathan Lee                212.518.5388
+   Simeon.Siegel@guggenheimpartners.com     Jonathan.Lee@guggenheimpartners.com     
+   Food Retailers; Consumables Retail/Distribution Media & Internet                 
+   John Heinbockel               212.381.4135 Taylor Manley               804.253.1336
+   John.Heinbockel@guggenheimpartners.com   Taylor.Manley@guggenheimpartners.com    
+   Hardlines                                Michael Morris, CFA           804.253.8025
+   Steven Forbes, CFA, CPA       212.381.4188 Michael.Morris@guggenheimpartners.com 
+   Steven.Forbes@guggenheimpartners.com                                             
+                                            Media & Live Entertainment              
+   Restaurants                              Curry Baker                   804.253.8029
+   Gregory Francfort, CFA        212.518.9182 Curry.Baker@guggenheimpartners.com    
+   Gregory.Francfort@guggenheimpartners.com                                         
+                                            Software                                
+                                            Tamjid Chowdhury              212.823.6739
+   Healthcare Equity Research                                                       
+                                            Tamjid.Chowdhury@guggenheimpartners.com 
+   Biotechnology                                                                    
+                                            John DiFucci                  212.518.9670
+   Brad Canino                   212.823.6558                                       
+                                            John.DiFucci@guggenheimpartners.com     
+   Brad.Canino@guggenheimpartners.com                                               
+                                            Howard Ma                     512.354.3458
+   Debjit Chattopadhyay, Ph.D.   212.823.6584 Howard.Ma@guggenheimpartners.com      
+   Debjit.Chattopadhyay@guggenheimpartners.com                                      
+                                            Jacob Smith                   212.518.9286
+   Eddie Hickman, Ph.D.          212.518.9904 Jacob.Smith@guggenheimpartners.com    
+   Eddie.Hickman@guggenheimpartners.com                                             
+                                            Event Driven Strategies Team            
+   Paul Jeng, Ph.D.              617.859.4618                                       
+   Paul.Jeng@guggenheimpartners.com                                                 
+                                            Event Driven Strategies                 
+                                            Aaron Glick                   212.518.5898
+   Michael Schmidt, Ph.D.        617.859.4636                                       
+                                            Aaron.Glick@guggenheimpartners.com      
+   Michael.Schmidt@guggenheimpartners.com                                           
+                                            Christopher Colpitts          385.553.9836
+   Yatin Suneja                  212.518.9565                                       
+                                            Chris.Colpitts@guggenheimpartners.com   
+   Yatin.Suneja@guggenheimpartners.com                                              
+   Diagnostics & Life Sciences Tools                                                
+   Subbu Nambi, Ph.D.            617.859.4609 Healthcare Equities Team              
+   Subbu.Nambi@guggenheimpartners.com                                               
+                                            Healthcare Sector Specialist -New York  
+   Global Biopharmaceuticals                Whitney Wolfe                 212.518.9630
+   Vamil Divan, M.D.             212.823.6543 Whitney.Wolfe@guggenheimpartners.com  
+   Vamil.Divan@guggenheimpartners.com                                               
+                                            Healthcare Sector Specialist -San Francisco
+   Seamus Fernandez              617.859.4637 Daniel Donner               415.671.4385
+   Seamus.Fernandez@guggenheimpartners.com  Daniel.Donner@guggenheimpartners.com    
+   Healthcare Providers & Services          Healthcare Sector Specialist -Boston    
+   Jason Cassorla                212.518.9501 Joshua Altschuler           617.859.4658
+   Jason.Cassorla@guggenheimpartners.com    Josh.Altschuler@guggenheimpartners.com  
+    Power & Energy Transition Equity Research Technology & Media Equities Team      
+    Energy Technology & Industrial Technology TMT Sector Specialist                 
+    Joseph Osha, CFA             415.852.6468 Seth Ostrie                 212.518.9547
+    Joseph.Osha@guggenheimpartners.com      Seth.Ostrie@guggenheimpartners.com      
+    Sales and Trading Offices               Equities Management                     
+    New York                     212.292.4700 Stefano Natella, Head of Equities 212.292.4700
+    San Francisco                415.852.6451 Craig Peckham, Head of Research 212.292.4765
+    Boston                       617.859.4626 Doron Barness, Head of Trading 212.518.9842
+    Fort Lauderdale              954.315.1411 Erik Cohen, Co-Head of Sales 212.901.9429
+                                            Jeffrey Cohen, Co-Head of Sales 212.292.4762

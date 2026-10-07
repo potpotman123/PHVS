@@ -1,0 +1,23 @@
+{
+  "method": "Independent year-by-year cash flow with no-refund tax and bisection",
+  "checks": [
+    [
+      "spot",
+      0.8415788911630935,
+      0.8415788911630936
+    ],
+    [
+      "broker",
+      0.9664930499742235,
+      0.9664930499742235
+    ],
+    [
+      "no_terminal",
+      1.2817728731210574,
+      1.2817728731210571
+    ]
+  ],
+  "cached_formula_errors": 0,
+  "native_linked_charts": 2,
+  "native_Excel_execution": "not performed"
+}

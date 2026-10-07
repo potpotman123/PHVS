@@ -1,0 +1,1113 @@
+[PDF PAGE 1]
+                                                                                    
+                                                                                    
+                                                                                    
+   HCRAESER                                                                         
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+   YTIUQE                                                                           
+                                                     RBC Capital Markets, LLC       
+                                                     Nevin Varghese, Ph.D. (Analyst)
+                                                     (212) 301-1609, nevin.varghese@rbccm.com
+                                                     Brian Abrahams, M.D. (Head of Global Healthcare Research)
+                                                     (212) 858-7066, brian.abrahams@rbc.com
+         September 9, 2026                           Outperform                     
+         Pharvaris  N.V.                             Speculative Risk               
+                                                     NASDAQ: PHVS; USD 37.84        
+         Best CHAPTER Yet: Pivotal Data Cements      Price Target USD 62.00 ↑ 52.00 
+         Deucrictibant as a Compelling Oral HAE Prophylaxis Scenario Analysis*      
+         Our view: CHAPTER-3 data looks to be a homerun with the ph.III             
+                                                         Downside Current Price Upside
+         recapitulating and even improving upon prior ph.II data, combined with Scenario Price Target Scenario
+         a relatively clean safety profile; we had a chance to catch up with 25.00 37.84 62.00 75.00
+         management following the more detailed data presentation and get KOL 34% 64% 98%
+         feedback. Given the compelling efficacy data that rivals injectable-class  
+                                                     *Implied Total Returns         
+         reductions, we are increasing our WW peak sales estimates to ~€720M Key Statistics
+         from our prior €670M, reflecting XR’s potential to command greater market Shares O/S (MM): 68.1 Market Cap (MM): 2,576
+                                                     Dividend:   0.00 Yield:   0.0% 
+         share. We would continue to be buyers and see upside from here; raise PT   
+                                                                   Avg. Daily Volume: 567,228
+         to $62 from $52 on higher confidence in out-year estimates and success     
+         of XR.                                      RBC Estimates                  
+                                                     FY Dec    2025A 2026E 2027E 2028E
+         Key points:                                 Revenue     0.0 0.0  38.2 190.0
+         Please find our note with takeaways from our recent call with an HAE KOL EPS, Ops Diluted (2.97) (2.85) (2.58) (1.21)
+                                                     P/E        NM   NM   NM   NM   
+         here; please contact your RBC sales representative for a replay of the event.
+                                                     Revenue     Q1   Q2  Q3   Q4   
+         Efficacy looked compelling, and we think should be competitive in HAE. 2025 0.0A 0.0A 0.0A 0.0A
+                                                     2026       0.0A 0.0A 0.0E 0.0E 
+         Baseline demographics were well-balanced across arms, with baseline        
+                                                     EPS, Ops Diluted               
+         HAE attack rate on the higher end relative to historical HAE prophylaxis   
+                                                     2025      (0.85)A (0.83)A (0.60)A (0.72)A
+         studies - with mean attack rates of ~3.47/month in the placebo arm and 2026 (0.60)A (0.70)A (0.73)E (0.81)E
+         ~3.76/month in the drug arm vs. ~3-4 - which we also note was a more Prev. (0.72)E
+         severe population than that enrolled in CHAPTER-1 (ph.II), which recall    
+                                                     All values in USD unless otherwise noted.
+         had baseline attack rates of ~2 attacks/month. Despite the inclusion of Priced as of prior trading day's market close, EST (unless otherwise noted).
+         more severe patients, XR demonstrated 83% placebo-adjusted attack rate     
+         reduction (p<0.0001) across all HAE types with this improving to 87%       
+         among just Type 1/2 patients - consistent with or exceeding the company’s  
+         stated 80-85% target range and broadly in line with CHAPTER-1 ph.II        
+         data (85%). Detailed data also demonstrated that onset of protection was   
+         rapid, evident within the first week of treatment initiation and sustained 
+         throughout the full 24-week study period - which our KOL suggests could    
+         help reassure new to prophy patients, where XR could be a front-line       
+         option. Responder analysis was also equally robust with the proportions of 
+         patients achieving ≥50%, ≥70%, ≥90% and 100% reduction in attacks at the   
+         higher end of what has been demonstrated with even the best injectable     
+         prophy drugs (Exhibit 1). The company plans to share additional data at    
+         medical conferences and is preparing a publication to share additional     
+         details.                                                                   
+                                      Continued on page 2...                        
+                                         Disseminated: Sep 9, 2026 05:00EDT; Produced: Sep 9, 2026 01:01EDT
+                                                       For Required Conflicts Disclosures, see page 9
+
+[PDF PAGE 2]
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                       Pharvaris N.V.
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                         ...Continued from cover                                    
+                                                                                    
+                         Exhibit 1 - Comparison of Efficacy Among Drugs for HAE Prophylaxis
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                         Source: Company reports, RBC Capital Markets estimates     
+                                                                                    
+                         Safety generally looked clean, though liver signals will be worth watching as data matures in
+                         OLE. Deucrictibant XR was generally well tolerated with the most common AEs upper respiratory
+                         tract infection, nasopharyngitis, and headache though these were generally mild-to-moderate
+                         and balanced between the active and placebo groups. There was also a slight imbalance in gd.3
+                         events (5.5% vs. 0% in placebo) - including a tooth infection and two gd.3 liver enzyme elevations
+                         above 5x ULN; while the liver enzyme elevations are somewhat concerning, we note that these
+                         cases were both asymptomatic and potentially confounded by long term androgen use/fatty
+                         liver though one of these patients discontinued (discontinuations were balanced with placebo).
+                         We would note that Orladeyo also had one discontinuation due to liver enzyme elevations (vs.
+                         0 on placebo) although this is not something indicated on the label. Still, our KOL feedback
+                         suggests that these are AEs worth monitoring, and if they persist in the OLE trial, would likely
+                         necessitate liver monitoring; we would look for additional context at upcoming medical congress
+                         presentations/publications. There was one gd.4 TEAE in the drug arm of laryngeal dyskinesia,
+                         though we do not think this was related to drug as the patient had a history of laryngeal attacks
+                         and was still otherwise a good responder.                  
+                         Given the compelling efficacy data, and our KOL feedback, we see upside to our prior
+                         estimates. Our KOL believes that deucrictibant XR is likely to be highly competitive, taking market
+                         share from existing prophy drugs and expects XR could be the preferred front-line option for
+                         prophylaxis-naive patients. Our KOL also expects all of his current Orladeyo patients (4/17) to
+                         switch within the first year of XR being available (acknowledging this may not be the view taken
+                         by all docs), noting that even patients who appear nearly attack-free on Orladeyo may have
+                         simply modified their lives significantly to reduce the risk of breakthrough attacks and so could
+                         have quality of life improvements on XR. For those on injectables, he noted the HAE space has a
+                         culture of switching given how rapidly the treatment landscape has evolved, and since patients
+                         have already switched multiple times, he sees entrenchment as less of a major barrier. We now
+      September 9, 2026                        Nevin Varghese, Ph.D. (212) 301-1609; nevin.varghese@rbccm.com 2
+                                                                                    
+
+[PDF PAGE 3]
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                       Pharvaris N.V.
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                         see WW peak sales of ~€720M vs. our prior estimate of €670M driven by greater market share
+                         penetration potential in both prophylaxis-naive patients and those currently on oral/injectable
+                         alternatives.                                              
+                                                                                    
+                         We continue to see an attractive risk/reward into upcoming catalysts. Following additional
+                         mature data from the CHAPTER-4 OLE, the company plans to submit an NDA for deucrictibant
+                         XR (prophylaxis) in 1H27, with EMA submission to follow shortly after. For acquired angioedema
+                         (AAE-C1INH), topline data from Part 1 of the CREAATE ph.III study are anticipated in 1Q27,
+                         where today's data suggests to us a higher PoS (we now see 80% from 60%); success here would
+                         represent incremental upside optionality in a less penetrated and less competitive indication
+                         (we est. ~€150M combined IR+XR peak sales oppty). Lastly, we see a high likelihood of approval
+                         (90% PoS) for IR supported by positive RAPIDe-3 pivotal data (PDUFA April 23, 2027), where we
+                         see ~€300M WW peak sales oppty; this represents a potential near-term commercial inflection
+                         point, and we think could help to build a patient base that can serve as early adopters once XR
+                         is approved. On the on-demand side, our KOL noted that Ekterly now accounts for ~20% of his
+                         on-demand use with use still rising, though he believes the deucrictibant IR data was superior,
+                         and so would likely be his preferred on-demand option going forward once approved (assuming
+                         pricing and insurance coverage are similar to Ekterly).    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+      September 9, 2026                        Nevin Varghese, Ph.D. (212) 301-1609; nevin.varghese@rbccm.com 3
+                                                                                    
+
+[PDF PAGE 4]
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+      Exhibit 2 - PHVS Income Statement                                             
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+      Source: RBC Capital Markets estimates; PHVS Company reports                   
+      P H V S Incom e S tatem ent                                                   
+      (€ in thousands except price) 2025A                                           
+      deucrictibant IR Total S ales                                                 
+       deucrictibant IR U S sales                                                   
+       deucrictibant IR EU sales                                                    
+      deucrictibant X R Total S ales                                                
+       deucrictibant XR U .S. sales                                                 
+       deucrictibant XR EU sales                                                    
+       deucrictibant XR Int'l sales                                                 
+       deucrictibant XR Japan royalties                                             
+      C ollaborative and other R & D                                                
+      T otal revenues, net -                                                        
+      C osts of goods                                                               
+      R esearch and developm ent (incl S B C ) 124,478                              
+      S elling, general and adm inistrative (incl S B C , royalty) 45,345           
+       R oyalty rate                                                                
+       R oyalty (B R A IN License)                                                  
+      T otal operating expenses 169,823                                             
+      Incom e/loss from operations (169,823)                                        
+      Finance (expense)/incom e (3,889)                                             
+      N et pre-tax incom e (173,711)                                                
+      Incom e tax provision (1,988)                                                 
+      N et incom e (loss) (175,699)                                                 
+      E arnings per share (non-G A A P ) (€ 2.97)                                   
+      S hares O utstanding (B asic) 59,157                                          
+      S hares O utstanding (D iluted) 63,697                                        
+      S ource: C om pany reports; R B C C apital M arkets estim ates                
+      C ash Flow T racker                                                           
+      C ash/equivalents at beginning of year                                        
+      N et C ash U sed in O perating A ctivities                                    
+      R aises/P aym ents                                                            
+      R aises/P aym ents (in E uros)                                                
+       P rice (A ctual or A ssum ption)                                             
+       # of A dditional S hares                                                     
+      A m ortization/S tock-based com p                                             
+      N et C ash E nd of Y ear/Q uarter                                             
+                         1Q 26A                                                     
+                          -                                                         
+                         30,161                                                     
+                         14,111                                                     
+                         44,272                                                     
+                         (44,272)                                                   
+                          5,344                                                     
+                         (38,928)                                                   
+                          (273)                                                     
+                         (39,201)                                                   
+                         (€ 0.60)                                                   
+                         65,424                                                     
+                         70,793                                                     
+                        € 291,679                                                   
+                         (39,201)                                                   
+                         (5,520)                                                    
+                         246,958                                                    
+                            2Q 26A                                                  
+                              -                                                     
+                             35,000                                                 
+                             15,788                                                 
+                             50,788                                                 
+                             (50,788)                                               
+                             3,548                                                  
+                             (47,241)                                               
+                              (602)                                                 
+                             (47,843)                                               
+                             (€ 0.70)                                               
+                             68,073                                                 
+                             74,073                                                 
+                            € 246,958                                               
+                             (47,843)                                               
+                            132,300                                                 
+                            107,752                                                 
+                             $29.69                                                 
+                             4,456                                                  
+                             (13,133)                                               
+                            318,282                                                 
+                                3Q 26E                                              
+                                  -                                                 
+                                 35,700                                             
+                                 20,525                                             
+                                 56,225                                             
+                                 (56,225)                                           
+                                  3,548                                             
+                                 (52,677)                                           
+                                  (370)                                             
+                                 (53,047)                                           
+                                 (€ 0.73)                                           
+                                 73,153                                             
+                                 79,154                                             
+                                € 318,282                                           
+                                 (53,047)                                           
+                                 175,000                                            
+                                 151,581                                            
+                                 $62.00                                             
+                                  2,823                                             
+                                  6,866                                             
+                                 423,683                                            
+                                    4Q 26E                                          
+                                      -                                             
+                                     33,915                                         
+                                     28,734                                         
+                                     62,650                                         
+                                     (62,650)                                       
+                                     3,548                                          
+                                     (59,102)                                       
+                                      (415)                                         
+                                     (59,516)                                       
+                                     (€ 0.81)                                       
+                                     73,403                                         
+                                     79,404                                         
+                                    € 423,683                                       
+                                     (59,516)                                       
+                                     6,866                                          
+                                     371,032                                        
+                                        2026E€                                      
+                                           0                                        
+                                          -                                         
+                                          -                                         
+                                          -                                         
+                                           0                                        
+                                         134,777                                    
+                                         79,158                                     
+                                         213,935                                    
+                                        (213,935)                                   
+                                         15,988                                     
+                                        (197,947)                                   
+                                         (1,660)                                    
+                                        (199,606)                                   
+                                         (€ 2.85)                                   
+                                         70,013                                     
+                                         75,856                                     
+                                            2027E                                   
+                                            € 35,239                                
+                                             35,239                                 
+                                              -€                                    
+                                               0                                    
+                                              -                                     
+                                              -                                     
+                                              -                                     
+                                              -                                     
+                                             3,000                                  
+                                             38,239                                 
+                                              529                                   
+                                             114,560                                
+                                             111,8783%                              
+                                             1,057                                  
+                                             226,967                                
+                                            (188,728)                               
+                                             (2,249)                                
+                                            (190,977)                               
+                                             (1,340)                                
+                                            (192,317)                               
+                                             (€ 2.58)                               
+                                             74,403                                 
+                                             80,404                                 
+                                            € 371,032                               
+                                            (192,317)                               
+                                             58,926                                 
+                                             237,642                                
+                                                2028E                               
+                                                € 99,600                            
+                                                 86,500                             
+                                                 13,100                             
+                                                € 87,387                            
+                                                 87,387                             
+                                                  -                                 
+                                                  -                                 
+                                                  -                                 
+                                                 3,000                              
+                                                189,987                             
+                                                 2,805                              
+                                                108,832                             
+                                                167,2354%                           
+                                                 6,545                              
+                                                278,872                             
+                                                (88,885)                            
+                                                 (1,595)                            
+                                                (90,480)                            
+                                                 (635)                              
+                                                (91,115)                            
+                                                 (€ 1.21)                           
+                                                 75,403                             
+                                                 81,404                             
+                                                € 237,642                           
+                                                (91,115)                            
+                                                 47,524                             
+                                                194,051                             
+                                                    2029E                           
+                                                   € 165,742                        
+                                                    136,183                         
+                                                    29,559                          
+                                                   € 200,958                        
+                                                    192,612                         
+                                                     5,665                          
+                                                     2,240                          
+                                                     440                            
+                                                    13,000                          
+                                                    379,700                         
+                                                     5,500                          
+                                                    111,009                         
+                                                    223,5664%                       
+                                                    14,668                          
+                                                    340,075                         
+                                                    39,625                          
+                                                    (1,757)                         
+                                                    37,868                          
+                                                     (757)                          
+                                                    37,111                          
+                                                    € 0.45                          
+                                                    76,403                          
+                                                    82,404                          
+                                                   € 194,051                        
+                                                    37,111                          
+                                                    50,201                          
+                                                    281,363                         
+                                                       2030E                        
+                                                       € 220,271                    
+                                                        175,487                     
+                                                        44,784                      
+                                                       € 307,573                    
+                                                        290,110                     
+                                                        12,886                      
+                                                        3,079                       
+                                                        1,497                       
+                                                        3,000                       
+                                                       530,844                      
+                                                        7,918                       
+                                                       113,229                      
+                                                       274,4305%                    
+                                                        23,753                      
+                                                       395,577                      
+                                                       135,267                      
+                                                        (2,792)                     
+                                                       132,476                      
+                                                        (6,624)                     
+                                                       125,852                      
+                                                        € 1.51                      
+                                                        77,403                      
+                                                        83,404                      
+                                                       € 281,363                    
+                                                       125,852                      
+                                                        66,902                      
+                                                       474,116                      
+                                                           2031E                    
+                                                           € 261,118                
+                                                            204,388                 
+                                                            56,730                  
+                                                           € 404,599                
+                                                            379,168                 
+                                                            19,255                  
+                                                            3,726                   
+                                                            2,451                   
+                                                            23,000                  
+                                                           688,718                  
+                                                            9,986                   
+                                                           115,494                  
+                                                           309,0315%                
+                                                            33,286                  
+                                                           434,510                  
+                                                           254,208                  
+                                                            (4,514)                 
+                                                           249,694                  
+                                                           (22,472)                 
+                                                           227,221                  
+                                                            € 2.69                  
+                                                            78,403                  
+                                                            84,404                  
+                                                           € 474,116                
+                                                           227,221                  
+                                                            46,097                  
+                                                           747,435                  
+                                                               2032E                
+                                                               € 297,392            
+                                                                231,925             
+                                                                65,468              
+                                                               € 498,487            
+                                                                465,993             
+                                                                24,921              
+                                                                4,380               
+                                                                3,193               
+                                                                3,000               
+                                                               798,879              
+                                                                11,938              
+                                                               117,803              
+                                                               333,3066%            
+                                                                43,773              
+                                                               463,047              
+                                                               335,832              
+                                                                (6,811)             
+                                                               329,021              
+                                                               (46,063)             
+                                                               282,958              
+                                                                € 3.31              
+                                                                79,403              
+                                                                85,404              
+                                                               € 747,435            
+                                                               282,958              
+                                                                65,353              
+                                                               1,095,746            
+                                                                   2033E            
+                                                                   € 322,915        
+                                                                    249,054         
+                                                                    73,861          
+                                                                   € 584,235        
+                                                                    545,100         
+                                                                    30,257          
+                                                                    5,040           
+                                                                    3,839           
+                                                                    3,000           
+                                                                   910,151          
+                                                                    13,607          
+                                                                   120,159          
+                                                                   355,5426%        
+                                                                    54,429          
+                                                                   489,309          
+                                                                   420,841          
+                                                                    (9,581)         
+                                                                   411,260          
+                                                                   (74,027)         
+                                                                   337,233          
+                                                                    € 3.90          
+                                                                    80,403          
+                                                                    86,404          
+                                                                  € 1,095,746       
+                                                                   337,233          
+                                                                    64,257          
+                                                                   1,497,236        
+                                                                       2034E        
+                                                                       € 340,830    
+                                                                        261,692     
+                                                                        79,139      
+                                                                       € 657,135    
+                                                                        612,208     
+                                                                        34,972      
+                                                                        5,707       
+                                                                        4,248       
+                                                                        3,000       
+                                                                       1,000,965    
+                                                                        14,969      
+                                                                       122,563      
+                                                                       370,0256%    
+                                                                        59,878      
+                                                                       507,557      
+                                                                       493,408      
+                                                                       (12,691)     
+                                                                       480,717      
+                                                                       (100,951)    
+                                                                       379,766      
+                                                                        € 4.34      
+                                                                        81,403      
+                                                                        87,404      
+                                                                      € 1,497,236   
+                                                                       379,766      
+                                                                        60,294      
+                                                                       1,937,296    
+                                                                           2035E    
+                                                                           € 353,682
+                                                                            270,121 
+                                                                            83,560  
+                                                                           € 717,530
+                                                                            667,750 
+                                                                            38,863  
+                                                                            6,381   
+                                                                            4,537   
+                                                                            3,000   
+                                                                           1,074,212
+                                                                            16,068  
+                                                                           125,014  
+                                                                           383,7246%
+                                                                            64,273  
+                                                                           524,806  
+                                                                           549,406  
+                                                                           (16,097) 
+                                                                           533,309  
+                                                                           (111,995)
+                                                                           421,314  
+                                                                            € 4.77  
+                                                                            82,403  
+                                                                            88,404  
+                                                                          € 1,937,296
+                                                                           421,314  
+                                                                            60,316  
+                                                                           2,418,926
+                      773103_19312036-69eb-4743-9e99-f7bd24a4cd94.pdf               
+                                                                       Pharvaris N.V.
+      September 9, 2026                        Nevin Varghese, Ph.D. (212) 301-1609; nevin.varghese@rbccm.com 4
+
+[PDF PAGE 5]
+                      773103_19312036-69eb-4743-9e99-f7bd24a4cd94.pdf               
+                                                                                    
+                                                                                    
+                                                                       Pharvaris N.V.
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+      Exhibit 3 - PHVS Pipemile                                                     
+                                                                                    
+                                    Milestones                                      
+       Product           Event                       Timeline                       
+        Deucrictibant IR (HAE) PDUFA                 April 23, 2027                 
+                         NDA Filing for XR           1H27                           
+        Deucrictibant XR (HAE)                                                      
+                         Updated data from CHAPTER-3 4Q26+                          
+        Deucrictibant IR/XR (AAE) Topline data from part 1 of CREAATE ph.III study 1Q27
+                                    Pipeline                                        
+       Product           Indication                  Status                         
+        Deucrictibant IR HAE, AAE - On-demand        Ph.III Complete, Regulatory    
+        Deucrictibant XR HAE, AAE - Prophylaxis, Pediatrics Ph.III Complete, Regulatory
+      Source: RBC Capital Markets estimates; PHVS Company reports                   
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+      September 9, 2026                        Nevin Varghese, Ph.D. (212) 301-1609; nevin.varghese@rbccm.com 5
+                                                                                    
+
+[PDF PAGE 6]
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                       Pharvaris N.V.
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+      Target/Upside/Downside Scenarios      Investment summary                      
+                                            We believe that deucrictibant offers a differentiated profile
+      Pharvaris N.V.                                                                
+                                            for both the on-demand and prophylactic setting that could
+        70125 Weeks             18APR24 - 08SEP26 result in meaningful market share over time despite what is
+                                            increasingly a competitive HAE market, and with other PoC
+        60                       TTAARRGGEETT 6622..0000                            
+                                            data showing potential in other less competitive areas like
+        50                                                                          
+                                            AAE-C1INH, we believe there could be a combined ~€1B sales
+        40                       CCUURRRREENNTT 3377..8844 opportunity, which we think could support additional upside.
+        30                                                                          
+        20                                  Key Positives: (1) Deucrictibant IR is de-risked with pivotal
+        10                                  trial demonstrating what we believe is a superior profile
+                                            to another recently launched oral that saw high patient
+        8m                                                                          
+        6m                                                                          
+        4m                                  switching from current SoC; (2) CHAPTER-3 trial with XR
+        2m                                                                          
+                                            formulation demonstrated what we think is an overall best-in-
+            2024    2025    2026                                                    
+         AMJ J A SOND J FMAMJ J A SOND J FMAMJ J A S                                
+          PHVS US Rel. S&P 500 COMPOSITE MA 40 weeks class efficacy/safety profile; (3) other prophylactic HAE drugs
+      Source: Bloomberg and RBC Capital Markets estimates for Target have sales of >$500M/year, highlighting the opportunity.
+      Valuation                                                                     
+                                            Potential Catalysts: (1) PDUFA for IR (April 23, 2027); (2)
+      Our $62 price target blends DCF (using a 10.5% discount rate                  
+                                            Topline data from Part 1 of CREAATE AAE trial (1Q27); (3) NDA
+      and a 1.5% terminal growth rate) and probability-adjusted P/                  
+                                            filing for XR (1H27).                   
+      E multiples (30x on 2034E adjusted EPS, discounted at 10.5%)                  
+      analysis – comparable to other clinical stage biotechs. Our                   
+                                            Risks to rating and price target        
+      price target supports our Outperform, Speculative Risk rating.                
+                                            Key risks: (1) HAE is an increasingly crowded space, limiting
+      We assign a Speculative Risk qualifier given unpredictability                 
+                                            market share potential; (2) unexpected safety signals could
+      of future revenues and expenses, non-revenue-generating                       
+                                            emerge.                                 
+      status, and stock price volatility that could result in substantial           
+      upside/downside swings not anticipated in our valuation.                      
+      Upside scenario                                                               
+      Approval of deucrictibant IR for acute HAE attacks and XR                     
+      formulation for HAE prophylaxis, greater-than-expected long-                  
+      term commercial uptake, and/or setbacks for competitors                       
+      would increase our estimated out-year revenue potential for                   
+      PHVS. In such an upside scenario, we believe fair value, based                
+      on DCF and multiples analyses, could be ~$75/share.                           
+      Downside scenario                                                             
+      Should deucrictibant IR or XR fail to gain regulatory approval,               
+      XR demonstrate safety concerns, or market uptake is slow,                     
+      our downside scenario suggests that PHVS shares would trade                   
+      lower, near ~$25/share.                                                       
+      September 9, 2026                        Nevin Varghese, Ph.D. (212) 301-1609; nevin.varghese@rbccm.com 6
+
+[PDF PAGE 7]
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                       Pharvaris N.V.
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+      Key fundamental questions                                                     
+                                                                                    
+                                Our view                                            
+                                                                                    
+      How differentiated is deucrictibant We believe that KALV’s Ekterly's strong adoption since launch so far demonstrates
+      IR’s profile as an oral on-demand high patient willingness to switch from standard of care icatibant and other
+      therapy for HAE?          injectable/IV options to more convenient oral on-demand options. We believe that
+                                across all clinical endpoints of efficacy deucrictibant IR is superior to Ekterly (faster
+                                median time to improvement, rapid end of progression, and lower proportion
+                                of patients needing rescue medications – all of which KOL feedback suggests is
+                                differentiating). Deucrictibant IR has also been well-tolerated in on-demand studies,
+                                with further de-risking based on icatibant’s extensive use and use of deucrictibant
+                                XR in chronic studies, mitigating any other concerns about the less-characterized B2
+                                antagonist mechanism.                               
+      What does the CHAPTER-3 readout CHAPTER-3 has, in our view, delivered a best-in-class ph.III result for oral HAE
+      tell us about deucrictibant XR's prophylaxis. The 83% mean monthly attack rate reduction vs. placebo in the overall
+      competitive positioning in the HAE population (87% in HAE Type 1/2) is squarely in injectable-like territory while
+      prophylaxis market?       coming in an oral, once-daily format. We believe the safety profile reinforces
+                                differentiation: AEs were balanced with placebo, no GI signal was observed (a known
+                                liability of berotralstat), and the single SAE was not treatment-related, though
+                                there were some LFT signals that will bear watching. Taken together, deucrictibant
+                                XR appears positioned to offer injectable-like efficacy with oral convenience - a
+                                combination no currently approved agent delivers - which we believe is the key
+                                unlock for meaningful market disruption across both the oral-to-oral switch pool
+                                and, potentially, injectable users who have been waiting for a comparable oral
+                                option.                                             
+      What could the commercial dynamic The ongoing CHAPTER-3 ph.III is set to read out later this year (3Q26), and we believe
+      look like for deucrictibant in that deucrictibant XR is set up to meaningfully disrupt the prophylaxis setting,
+      prophylaxis given the existing based on our KOL feedback and survey data. Although we anticipate significant
+      therapeutic landscape?    uptake of XR among new to prophylaxis patients, this opportunity is likely to be
+                                incremental given that the market appears to be reaching maturity. However, our
+                                survey data suggests that physicians would be willing to switch an average of
+                                35% of patients currently well-managed on Orladeyo to deucrictibant over time,
+                                despite what has been described as a "sticky" market, likely due to lower barriers
+                                to switching between oral agents. Additionally, given the oral formulation’s inherent
+                                advantages over injectables, and potential for near-injectable like efficacy, we think
+                                that there could be more receptiveness among patients otherwise well controlled on
+                                injectables to trial XR, which could further convert the existing injectables market.
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+      September 9, 2026                        Nevin Varghese, Ph.D. (212) 301-1609; nevin.varghese@rbccm.com 7
+                                                                                    
+
+[PDF PAGE 8]
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                       Pharvaris N.V.
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+      Key sustainability questions                                                  
+                                                                                    
+      This section is intended to highlight key sustainability discussion points relevant to this company, as well as our views on the outlook. Both the
+      questions we highlight and our responses will evolve over time as the dialogue between management, analysts and investors continues to
+      advance. We welcome any feedback on the topics.                               
+                                Our view                                            
+                                                                                    
+      What are the most material Like many other biotechs, PHVS faces issues such as green laboratory practices
+      sustainability issues facing this and manufacturing, proper clinical trial conduct, data transparency, diversity of the
+      company?                  management team, and hiring and maintaining a diverse set of employees. In the
+                                future, we would anticipate that the company will also contend with many of the
+                                same sustainability topics that impact the broader sector, chiefly drug pricing, access
+                                to medication, and responsible product marketing.   
+      Does the company integrate PHVS currently does not have active environmental initiatives, though this is in line
+      sustainability considerations into its with similarly sized biotechs.         
+      strategy?                                                                     
+                                                                                    
+      What is diversity like at the board/ As typically seen in biotech companies of similar size, PHVS does not have specific
+      management level?         diversity or social initiative programs. Currently 4/9 senior management positions
+                                are held by a woman.                                
+      Is PHVS developing products to PHVS is developing and marketing assets to treat rare diseases with substantial
+      address a significant public health disease burden.                           
+      problem?                                                                      
+                                                                                    
+      How does the company manage data The company releases scientific data to a critical and educated audience often in
+      transparency?             public and peer-reviewed forums and are all made available through their corporate
+                                website. Corporate governance documents outlining policies and procedures are
+                                made available.                                     
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+      September 9, 2026                        Nevin Varghese, Ph.D. (212) 301-1609; nevin.varghese@rbccm.com 8
+                                                                                    
+
+[PDF PAGE 9]
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                       Pharvaris N.V.
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+      Company description                                                           
+                                                                                    
+      Pharvaris (PHVS) is a late-stage biopharmaceutical company focused on the development of novel treatments for bradykinin-
+      mediated angioedema disorders, including hereditary angioedema (HAE) and acquired angioedema (AAE). The company's lead
+      candidate, deucrictibant, is a selective bradykinin B2 receptor antagonist available in both immediate-release (IR) oral capsule
+      formulation for on-demand treatment of acute angioedema attacks and an extended-release (XR) film-coated tablet formulation
+      for QD prophylaxis. PHVS is preparing global marketing authorization applications for deucrictibant IR as an on-demand treatment
+      of HAE attacks, with the pivotal RAPIDe-3 trial demonstrating statistically significant efficacy and tolerability, and also for XR
+      following recent positive CHAPTER-3 data. Additionally, CREAATE, a ph.III study of deucrictibant for both prophylactic and on-
+      demand treatment of AAE-C1INH attacks, is underway. PHVS was founded in 2015 and is headquartered in Zug, Switzerland.
+      Required disclosures                                                          
+      Conflicts disclosures                                                         
+                                                                                    
+      The analyst(s) responsible for preparing this research report received compensation that is based upon various factors, including
+      total revenues of the member companies of RBC Capital Markets and its affiliates, a portion of which are or have been generated
+      by investment banking activities of the member companies of RBC Capital Markets and its affiliates.
+      With regard to the MAR investment recommendation requirements in relation to relevant securities, a member company of Royal
+      Bank of Canada, together with its affiliates, may have a net long or short financial interest in excess of 0.5% of the total issued
+      share capital of the entities mentioned in the investment recommendation. Information relating to this is available upon request
+      from your RBC investment advisor or institutional salesperson.                
+      Please note that current conflicts disclosures may differ from those as of the publication date on, and as set forth in,
+      this report. To access current conflicts disclosures, clients should refer to https://www.rbccm.com/GLDisclosure/PublicWeb/
+      DisclosureLookup.aspx?entityId=1 or send a request to RBC CM Research Publishing, P.O. Box 50, 200 Bay Street, Royal Bank Plaza,
+      29th Floor, South Tower, Toronto, Ontario M5J 2W7.                            
+      A member company of RBC Capital Markets or one of its affiliates expects to receive or intends to seek compensation for
+      investment banking services from Pharvaris N.V. in the next three months.     
+                                                                                    
+      Explanation of RBC Capital Markets Equity rating system                       
+      An analyst's 'sector' is the universe of companies for which the analyst provides research coverage. Accordingly, the rating assigned
+      to a particular stock represents solely the analyst's view of how that stock will perform over the next 12 months relative to the
+      analyst's sector average.                                                     
+      Ratings                                                                       
+      Outperform (O): Expected to materially outperform sector average over 12 months.
+      Sector Perform (SP): Returns expected to be in line with sector average over 12 months.
+      Underperform (U): Returns expected to be materially below sector average over 12 months.
+      Restricted (R): RBC policy precludes certain types of communications, including an investment recommendation, when RBC is
+      acting as an advisor in certain merger or other strategic transactions and in certain other circumstances.
+      Not Rated (NR): The rating, price targets and estimates have been removed due to applicable legal, regulatory or policy constraints
+      which may include when RBC Capital Markets is acting in an advisory capacity involving the company.
+      Risk Rating                                                                   
+      The Speculative risk rating reflects a security's lower level of financial or operating predictability, illiquid share trading volumes,
+      high balance sheet leverage, or limited operating history that result in a higher expectation of financial and/or stock price volatility.
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+      September 9, 2026                        Nevin Varghese, Ph.D. (212) 301-1609; nevin.varghese@rbccm.com 9
+                                                                                    
+
+[PDF PAGE 10]
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                       Pharvaris N.V.
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+      Distribution of ratings                                                       
+      For the purpose of ratings distributions, regulatory rules require member firms to assign ratings to one of three rating categories -
+      Buy, Hold/Neutral, or Sell - regardless of a firm's own rating categories. Although RBC Capital Markets' ratings of Outperform (O),
+      Sector Perform (SP), and Underperform (U) most closely correspond to Buy, Hold/Neutral and Sell, respectively, the meanings are
+      not the same because our ratings are determined on a relative basis.          
+                                                                                    
+                                   Distribution of ratings                          
+                               RBC Capital Markets, Equity Research                 
+                                    As of 30-Jun-2026                               
+                                                     Investment Banking             
+                                                      Serv./Past 12 Mos.            
+             Rating               Count    Percent      Count   Percent             
+             BUY [Outperform]       927      57.94       290     31.28              
+             HOLD [Sector Perform]  626      39.12       161     25.72              
+             SELL [Underperform]    47       2.94          3      6.38              
+                                                                                    
+                                                                                    
+                   Rating and price target history for: Pharvaris N.V., PHVS US as of 08-Sep-2026 (in USD)
+        09-Mar-2026 02-Apr-2026 12-Aug-2026                                         
+         Rtg:I:O Rtg:O Rtg:O                                                        
+        Target: 52.00 Target: 51.00 Target: 52.00                                   
+                                                                          40        
+                                                                          35        
+                                                                          30        
+                                                                          25        
+                                                                          20        
+                                                                          15        
+                                                                          10        
+       Q2   Q3   2024  Q1   Q2   Q3  2025  Q1   Q2   Q3   2026 Q1   Q2   Q3         
+         Legend:                                                                    
+         O: Outperform; SP: Sector Perform; U: Underperform; R: Restricted; I: Initiation of Research Coverage; D: Discontinuation of Research Coverage;
+         NR: Not Rated; NA: Not Available; RL: Recommended List - RL: On: Refers to date a security was placed on a recommended list, while RL Off: Refers to date
+         a security was removed from a recommended list; Rtg: Rating.               
+                                                                   Created by: BlueMatrix
+      References to a Recommended List in the recommendation history chart may include one or more recommended lists or model
+      portfolios maintained by RBC Wealth Management or one of its affiliates. RBC Wealth Management recommended lists include
+      the Guided Portfolio: Prime Income (RL 6), the Guided Portfolio: Dividend Growth (RL 8), the Guided Portfolio: ADR (RL 10), and
+      the Guided Portfolio: All Cap Growth (RL 12). The abbreviation 'RL On' means the date a security was placed on a Recommended
+      List. The abbreviation 'RL Off' means the date a security was removed from a Recommended List. As of April 3, 2023, U.S. RBC
+      Wealth Management's quarterly reports will serve as the primary communication for its models and will highlight any changes
+      to the model made during the quarter.                                         
+      Equity valuation and risks                                                    
+      For valuation methods used to determine, and risks that may impede achievement of, price targets for covered companies, please
+      see the most recent company-specific research report at www.rbcinsightresearch.com or send a request to RBC Capital Markets
+      Research Publishing, P.O. Box 50, 200 Bay Street, Royal Bank Plaza, 29th Floor, South Tower, Toronto, Ontario M5J 2W7.
+      Pharvaris N.V.                                                                
+      Valuation                                                                     
+      Our $62 price target blends DCF (using a 10.5% discount rate and a 1.5% terminal growth rate) and probability-adjusted P/E
+      multiples (30x on 2034E adjusted EPS, discounted at 10.5%) analysis – comparable to other clinical stage biotechs. Our price target
+      supports our Outperform, Speculative Risk rating. We assign a Speculative Risk qualifier given unpredictability of future revenues
+      September 9, 2026                       Nevin Varghese, Ph.D. (212) 301-1609; nevin.varghese@rbccm.com 10
+                                                                                    
+
+[PDF PAGE 11]
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                       Pharvaris N.V.
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+      and expenses, non-revenue-generating status, and stock price volatility that could result in substantial upside/downside swings
+      not anticipated in our valuation.                                             
+                                                                                    
+      Risks to rating and price target                                              
+      Key risks: (1) HAE is an increasingly crowded space, limiting market share potential; (2) unexpected safety signals could emerge.
+                                                                                    
+      Conflicts policy                                                              
+      RBC Capital Markets Policy for Managing Conflicts of Interest in Relation to Investment Research is available from us on request.
+      To access our current policy, clients should refer to                         
+      https://www.rbccm.com/global/file-414164.pdf                                  
+      or send a request to RBC Capital Markets Research Publishing, P.O. Box 50, 200 Bay Street, Royal Bank Plaza, 29th Floor, South
+      Tower, Toronto, Ontario M5J 2W7. We reserve the right to amend or supplement this policy at any time.
+      Dissemination of research                                                     
+      RBC Capital Markets endeavors to make all reasonable efforts to provide research content simultaneously to all eligible clients,
+      having regard to local time zones in overseas jurisdictions. RBC Capital Markets provides eligible clients with access to Research
+      Reports on the Firm's proprietary INSIGHT website, via email and via third-party vendors. Please contact your investment advisor
+      or institutional salesperson for more information regarding RBC Capital Markets' research.
+      For a list of all recommendations on the company that were disseminated during the prior 12-month period, please click on the
+      following link: https://rbcnew.bluematrix.com/sellside/MAR.action             
+      The 12 month history of Quick Takes can be viewed at RBC Insight.             
+      Analyst certification                                                         
+      All of the views expressed in this report accurately reflect the personal views of the responsible analyst(s) about any and all of
+      the subject securities or issuers. No part of the compensation of the responsible analyst(s) named herein is, or will be, directly or
+      indirectly, related to the specific recommendations or views expressed by the responsible analyst(s) in this report.
+                                                                                    
+      Third-party disclaimers                                                       
+      The Global Industry Classification Standard ("GICS”) was developed by and is the exclusive property and a service mark of MSCI Inc. (“MSCI”) and Standard & Poor's Financial Services
+      LLC (“S&P”) and is licensed for use by RBC. Neither MSCI, S&P, nor any other party involved in making or compiling the GICS or any GICS classifications makes any express or implied
+      warranties or representations with respect to such standard or classification (or the results to be obtained by the use thereof), and all such parties hereby expressly disclaim all warranties
+      of originality, accuracy, completeness, merchantability and fitness for a particular purpose with respect to any of such standard or classification. Without limiting any of the foregoing,
+      in no event shall MSCI, S&P, any of their affiliates or any third party involved in making or compiling the GICS or any GICS classifications have any liability for any direct, indirect, special,
+      punitive, consequential or any other damages (including lost profits) even if notified of the possibility of such damages.
+      RBC Capital Markets disclaims all warranties of originality, accuracy, completeness, merchantability or fitness for a particular purpose with respect to any statements made to the media
+      or via social media that are in turn quoted in this report, or otherwise reproduced graphically for informational purposes.
+      Disclaimer                                                                    
+      RBC Capital Markets is the business name used by certain branches and subsidiaries of the Royal Bank of Canada, including RBC Dominion Securities Inc., RBC
+      Capital Markets, LLC, RBC Europe Limited, RBC Capital Markets (Europe) GmbH, Royal Bank of Canada, Hong Kong Branch, Royal Bank of Canada, Singapore Branch
+      and Royal Bank of Canada, Sydney Branch. The information contained in this report has been compiled by RBC Capital Markets from sources believed to be reliable,
+      but no representation or warranty, express or implied, is made by Royal Bank of Canada, RBC Capital Markets, its affiliates or any other person as to its accuracy,
+      completeness or correctness. All opinions and estimates contained in this report constitute RBC Capital Markets' judgement as of the date of this report, are
+      subject to change without notice and are provided in good faith but without legal responsibility. Nothing in this report constitutes legal, accounting or tax advice or
+      individually tailored investment advice. This material is prepared for general circulation to clients and has been prepared without regard to the individual financial
+      circumstances and objectives of persons who receive it. The investments or services contained in this report may not be suitable for you and it is recommended
+      that you consult an independent investment advisor if you are in doubt about the suitability of such investments or services. This report is not an offer to sell or
+      a solicitation of an offer to buy any securities. Past performance is not a guide to future performance, future returns are not guaranteed, and a loss of original
+      capital may occur. RBC Capital Markets research analyst compensation is based in part on the overall profitability of RBC Capital Markets, which includes profits
+      attributable to investment banking revenues. Every province in Canada, state in the U.S., and most countries throughout the world have their own laws regulating
+      the types of securities and other investment products which may be offered to their residents, as well as the process for doing so. As a result, the securities
+      discussed in this report may not be eligible for sale in some jurisdictions. RBC Capital Markets may be restricted from publishing research reports, from time to
+      time, due to regulatory restrictions and/ or internal compliance policies. If this is the case, the latest published research reports available to clients may not reflect
+      recent material changes in the applicable industry and/or applicable subject companies. RBC Capital Markets research reports are current only as of the date set
+      forth on the research reports. This report is not, and under no circumstances should be construed as, a solicitation to act as securities broker or dealer in any
+      jurisdiction by any person or company that is not legally permitted to carry on the business of a securities broker or dealer in that jurisdiction. To the full extent
+      permitted by law neither RBC Capital Markets nor any of its affiliates, nor any other person, accepts any liability whatsoever for any direct, indirect or consequential
+      September 9, 2026                       Nevin Varghese, Ph.D. (212) 301-1609; nevin.varghese@rbccm.com 11
+
+[PDF PAGE 12]
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                       Pharvaris N.V.
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+      loss arising from, or in connection with, any use of this report or the information contained herein. No matter contained in this document may be reproduced or
+      copied by any means without the prior written consent of RBC Capital Markets in each instance.
+                                Additional information is available on request.     
+      To U.S. Residents:                                                            
+      This publication has been approved by RBC Capital Markets, LLC (member FINRA, NYSE, SIPC), which is a U.S. registered broker-dealer and which accepts
+      responsibility for this report and its dissemination in the United States. Any U.S. recipient of this report that is not a registered broker-dealer or a bank acting in
+      a broker or dealer capacity and that wishes further information regarding, or to effect any transaction in, any of the securities discussed in this report, should
+      contact and place orders with RBC Capital Markets, LLC.                       
+      To Canadian Residents:                                                        
+      This publication has been approved by RBC Dominion Securities Inc.(member CIRO). Any Canadian recipient of this report that is not a Designated Institution in
+      Ontario, an Accredited Investor in British Columbia or Alberta or a Sophisticated Purchaser in Quebec (or similar permitted purchaser in any other province) and
+      that wishes further information regarding, or to effect any transaction in, any of the securities discussed in this report should contact and place orders with RBC
+      Dominion Securities Inc., which, without in any way limiting the foregoing, accepts responsibility for this report and its dissemination in Canada.
+      To U.K. Residents:                                                            
+      This publication has been approved by RBC Europe Limited ('RBCEL') which is authorized by the Prudential Regulation Authority and regulated by the Financial
+      Conduct Authority ('FCA') and the Prudential Regulation Authority, in connection with its distribution in the United Kingdom. This material is not for general
+      distribution in the United Kingdom to retail clients, as defined under the rules of the FCA. RBCEL accepts responsibility for this report and its dissemination in
+      the United Kingdom.                                                           
+      To EEA Residents:                                                             
+      This material is distributed in the EU by either RBCEL on an authorised cross-border basis, or by RBC Capital Markets (Europe) GmbH (RBC EG) which is authorised
+      and regulated in Germany by the Bundesanstalt für Finanzdienstleistungsaufsicht (German Federal Financial Supervisory Authority) (BaFin).
+      To Persons Receiving This Advice in Australia:                                
+      This material has been distributed in Australia by Royal Bank of Canada, Sydney Branch (ABN 86 076 940 880, AFSL No. 246521). This material has been prepared for
+      general circulation and does not take into account the objectives, financial situation or needs of any recipient. Accordingly, any recipient should, before acting on
+      this material, consider the appropriateness of this material having regard to their objectives, financial situation and needs. If this material relates to the acquisition
+      or possible acquisition of a particular financial product, a recipient in Australia should obtain any relevant disclosure document prepared in respect of that product
+      and consider that document before making any decision about whether to acquire the product. This research report is not for retail investors as defined in section
+      761G of the Corporations Act.                                                 
+      To persons receiving this from Royal Bank of Canada, Hong Kong Branch:        
+      This document is distributed in Hong Kong by Royal Bank of Canada, Hong Kong Branch which is regulated by the Hong Kong Monetary Authority and the Securities
+      and Futures Commission. This document is not for distribution in Hong Kong, to investors who are not “professional investors”, as defined in the Securities and
+      Futures Ordinance (Cap. 571 of Hong Kong) and any rules made under that Ordinance. This document has been prepared for general circulation and does not take
+      into account the objectives, financial situation, or needs of any recipient. Past performance is not indicative of future performance. WARNING: The contents of
+      this document have not been reviewed by any regulatory authority in Hong Kong. Investors are advised to exercise caution in relation to the investment. If you are
+      in doubt about any of the contents of this document, you should obtain independent professional advice.
+      To persons receiving this from Royal Bank of Canada, Singapore Branch:        
+      This publication is distributed in Singapore by the Royal Bank of Canada, Singapore Branch, a registered entity licensed by the Monetary Authority of Singapore.
+      This publication is not for distribution in Singapore, to investors who are not “accredited investors” and “institutional investors”, as defined in the Securities and
+      Futures Act 2001 of Singapore. This publication has been prepared for general circulation and does not take into account the objectives, financial situation, or
+      needs of any recipient. You are advised to seek independent advice from a financial adviser before purchasing any product. If you do not obtain independent
+      advice, you should consider whether the product is suitable for you. Past performance is not indicative of future performance. If you have any questions related
+      to this publication, please contact the Royal Bank of Canada, Singapore Branch.
+      To Japanese Residents:                                                        
+      Unless otherwise exempted by Japanese law, this publication is distributed in Japan by or through RBC Capital Markets (Japan) Ltd. which is a Financial Instruments
+      Firm registered with the Kanto Local Financial Bureau (Registered number 203) and a member of the Japan Securities Dealers Association (JSDA) and the Financial
+      Futures Association of Japan (FFAJ).                                          
+            .® Registered trademark of Royal Bank of Canada. RBC Capital Markets is a trademark of Royal Bank of Canada. Used under license.
+                             Copyright © RBC Capital Markets, LLC 2026 - Member SIPC
+                     Copyright © RBC Dominion Securities Inc. 2026 - Member Canadian Investor Protection Fund
+                                  Copyright © RBC Europe Limited 2026               
+                                 Copyright © Royal Bank of Canada 2026              
+                                      All rights reserved                           
+      September 9, 2026                       Nevin Varghese, Ph.D. (212) 301-1609; nevin.varghese@rbccm.com 12

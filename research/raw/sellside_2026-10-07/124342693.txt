@@ -1,0 +1,445 @@
+[PDF PAGE 1]
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       Health Care | Biotechnology / SMID Cap                                       
+                                       lol                                          
+                                                                  September 11, 2026
+       BioCryst Pharmaceuticals, Inc.   Gavin Clark-Gartner Yesha Patel             
+                                        917 796 1971       646-367-7433             
+       BCRX | $8.80                     gavin.clarkgartner@evercoreisi.com yesha.patel@evercoreisi.com
+       Outperform | Target Price/Base Case: $17.00 Yixin Zhang, PhD Yvie Cai        
+       Commentary                       646-627-1978       646-367-7431             
+                                        Yixin.Zhang@evercoreisi.com Yvie.Cai@evercoreisi.com
+                                       Quantifying Orladeyo Erosion - What the      
+       1 Year Price History                                                         
+                                       Market is Implying at $8.4/sh                
+                                       The #1 FAQ we get from investors regarding HAE/PHVS
+                                                                                    
+                                       competition is “what is priced in here?”. We hear a lot of
+                                       narratives (on both sides), but not a lot of #s.
+                                                                                    
+                                                                                    
+                                       Clearly at ~$8/sh, the stock is not reflecting what’s in consensus
+       Source: FactSet                                                              
+                                       models (avg analyst PT ~$20/sh). And given LOE
+                                       timelines/different product growth profiles, it’s hard to use
+                                       peak sales multiples. You really need an accurate DCF.
+                                                                                    
+                                                                                    
+                                       So that’s our goal with this note. We built a reverse
+                                       engineered DCF in order to back into what is being implied by
+                                       the market at the current valuation and frame risk/reward.
+                                                                                    
+                                                                                    
+                                                                                    
+                                       At $8.4/sh, mkt cap = $2.5B, and EV = $2.4B  
+                                                                                    
+                                                                                    
+                                       Here is how we back into $8.4/sh in a DCF:   
+                                                                                    
+                                          ➢ Orladeyo: peak WW sales of $685M in '27, declining to
+                                            ~$550M by '37, before LOE in '38. Pts on paid drug
+                                            peaks at ~1,200 in '27 and rolls down to ~700 (almost
+                                            half of peak) by '37, reflecting prophy share erosion
+                                            from 25% to low-teens. V heavy erosion  
+                                                                                    
+                                          ➢ Navenibart: WW unadj/risk-adj peak sales of
+                                            $530M/$460M, which plateaus by early/mid 2030s,
+                                            rather than continuing to grow. ~half of consensus
+                                                                                    
+                                          ➢ Operating margins: ramps from ~high-20%’s now to
+                                            50%-55% at peak that is held steady into ’37 before
+                                            Orla LOE, after which margins back in the high teens
+                                                                                    
+                                                                                    
+       Please see the analyst certification and important disclosures on page 4 of this report. Evercore ISI and affiliates do and seek to
+       do business with companies covered in its research reports. Investors should be aware that the firm may have a conflict of interest that could affect
+       the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision.
+       © 2026. Evercore Group L.L.C. All rights reserved.                           
+
+[PDF PAGE 2]
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                          ➢ Valuation: 10.5% discount rate, DCF through 2045 with
+                                            no terminal growth/value beyond that    
+                                          ➢ Pipeline: ascribe 0 credit to Netherton, no additional
+                                                                                    
+                                            “pipeline value” plug                   
+                                                                                    
+                                                                                    
+                                       To summarize, we think this stock price is reflecting ~$1B peak
+                                       sales at ~60% peak operating margin = $2.4B EV and equates
+                                       to a 2.2x peak sales multiple.               
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                       So, what gets you upside from the current valuation, we see a
+                                       few scenarios:                               
+                                                                                    
+                                          ➢ Orladeyo's patient base is stickier than implied. $8
+                                            implies the pt base falls ~40% off peak by '37. You don't
+                                            need growth, even modeling patients down every year,
+                                                                                    
+                                            erosion of 20% off peak instead of 40% reflects an
+                                            additional $2/sh of value               
+                                          ➢ Navenibart P3 in 3Q27 is a high PoS event and unlocks
+                                                                                    
+                                            the next leg of growth for the company. Adding even
+                                            $100M (risk adj from 85% to 100%) reflects an
+                                            additional $2/sh of value. We have ~$1B in our base
+                                            case, driving the upside in our model   
+                                                                                    
+                                          ➢ Netherton is free, with the readout expected by YE26
+                                                                                    
+                                                                                    
+                                       Can send this reverse DCF + our model ($17 PT) if you want to
+                                       play around with them.                       
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+[PDF PAGE 3]
+                                                                                    
+                                                                                    
+       September 11, 2026                                                           
+                                                                                    
+                                                                                    
+                                                                                    
+       VALUATION METHODOLOGY                                                        
+                                                                                    
+       Our PT is derived from a risk-adj DCF through 2047 with a 10.5% discount rate and no terminal value.
+                                                                                    
+                                                                                    
+       RISKS                                                                        
+       1.   HAE competitors could take share from Orladeyo                          
+       2.   Navenibart is not yet approved                                          
+                                                                                    
+       3.   Earlier pipeline may not succeed                                        
+                                                                                    
+       COMPANIES UNDER COVERAGE BY AUTHOR                                           
+                                               Price Evercore ISI                   
+       Symbol Company           Rating     (2026-10-09) Target                      
+       ABBV  AbbVie Inc.        Outperform   $254.47   $260.00                      
+       ARGX  argenx SE          Outperform   $984.70  $1173.00                      
+       ASND  Ascendis Pharma A/S Outperform  $261.23   $326.00                      
+       AVLN  Avalyn Pharma, Inc Outperform    $34.67   $60.00                       
+       BCRX  BioCryst Pharmaceuticals, Inc. Outperform $8.29 $17.00                 
+       CABA  Cabaletta Bio, Inc. In Line       $2.74    $4.00                       
+       CCCC  C4 Therapeutics, Inc Outperform   $3.40   $12.00                       
+       CMPS  COMPASS Pathways Plc Outperform  $14.22   $21.00                       
+       DFTX  Definium Therapeutics Inc. Outperform $37.73 $62.00                    
+       DMRA  Damora Therapeutics, Inc. Outperform $26.84 $46.00                     
+       DNTH  Dianthus Therapeutics Inc. Outperform $103.28 $134.00                  
+       DYN   Dyne Therapeutics Inc Outperform $18.42   $33.00                       
+       EVMN  Evommune, Inc      Outperform    $10.56   $22.00                       
+       FHTX  Foghorn Therapeutics Inc. Outperform $4.49 $14.00                      
+       INCY  Incyte Corporation In Line      $123.58   $125.00                      
+       INSM  Insmed Incorporated Outperform  $127.29   $170.00                      
+       KRYS  Krystal Biotech, Inc Outperform $345.55   $380.00                      
+       MGTX  MeiraGTx Holdings plc Outperform $12.84   $20.00                       
+       MIRM  Mirum Pharmaceuticals, Inc Outperform $100.61 $121.00                  
+       PRQR  ProQR Therapeutics N.V. Outperform $1.94   $6.00                       
+       RARE  Ultragenyx Pharmaceutical In Line $14.41  $16.00                       
+       RCKT  Rocket Pharmaceuticals, Inc In Line $3.48  $5.00                       
+       SRPT  Sarepta Therapeutics, Inc In Line $20.52  $19.00                       
+       TENX  Tenax Therapeutics, Inc In Line   $1.95    $5.00                       
+       TVTX  Travere Therapeutics, Inc Outperform $67.51 $78.00                     
+       VERA  Vera Therapeutics, Inc Outperform $33.60  $89.00                       
+       VRDN  Viridian Therapeutics, Inc. Outperform $22.29 $26.00                   
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       3                                                                            
+
+[PDF PAGE 4]
+                                                                                    
+                                                                                    
+       September 11, 2026                                                           
+                                                                                    
+                                                                                    
+                                                                                    
+       TIMESTAMP                                                                    
+       (Article 3(1)e and Article 7 of MAR)                                         
+       Time of dissemination: September 11 2026 7:00 AM ET                          
+                                                                                    
+       ANALYST CERTIFICATION                                                        
+                                                                                    
+       The analyst, Gavin Clark-Gartner, primarily responsible for the preparation of this research report attest to the following: (1) that the views and
+       opinions rendered in this research report reflect his or her personal views about the subject companies or issuers; and (2) that no part of the
+       research analyst’s compensation was, is, or will be directly related to the specific recommendations or views in this research report.
+                                                                                    
+       IMPORTANT DISCLOSURES                                                        
+       This report is approved and/or distributed by Evercore Group L.L.C. ("Evercore Group"), a U.S. licensed broker-dealer regulated by the Financial
+       Industry Regulatory Authority ("FINRA"), and Evercore ISI International Limited ("lSI UK''), which is authorised and regulated in the United
+       Kingdom by the Financial Conduct Authority. The institutional sales, trading and research businesses of Evercore Group and lSI UK collectively
+       operate under the global marketing brand name Evercore lSI ("Evercore lSI"). Both Evercore Group and lSI UK are subsidiaries of Evercore Inc.
+       ("Evercore"). The trademarks, logos and service marks shown on this report are registered trademarks of Evercore.
+       The analysts and associates responsible for preparing this report receive compensation based on various factors, including Evercore’s Partners'
+       total revenues, a portion of which is generated by affiliated investment banking transactions. Evercore lSI seeks to update its research as
+       appropriate, but various regulations may prevent this from happening in certain instances. Aside from certain industry reports published on a
+       periodic basis, the large majority of reports are published at irregular intervals as appropriate in the analyst's judgment.
+       Evercore lSI generally prohibits analysts, associates and members of their households from maintaining a financial interest in the securities of any
+       company in the analyst's area of coverage. Any exception to this policy requires specific approval by a member of our Compliance Department.
+       Such ownership is subject to compliance with applicable regulations and disclosure. Evercore lSI also prohibits analysts, associates and
+       members of their households from serving as an officer, director, advisory board member or employee of any company that the analyst covers.
+       This report may include a Tactical Call, which describes a near-term event or catalyst affecting the subject company or the market overall and
+       which is expected to have a short-term price impact on the equity shares of the subject company. This Tactical Call is separate from the analyst's
+       long-term recommendation (Outperform, In Line or Underperform) that reflects a stock's forward 12-month expected return, is not a formal rating
+       and may differ from the target prices and recommendations reflected in the analyst's long-term view.
+       Applicable current disclosures regarding the subject companies covered in this report are available at the offices of Evercore ISI: 55
+       East 52nd Street, New York, NY 10055, and at the following site: https://evercoreisi.mediasterling.com/disclosure.
+       Evercore and its affiliates, and I or their respective directors, officers, members and employees, may have, or have had, interests or qualified
+       holdings on issuers mentioned in this report. Evercore and its affiliates may have, or have had, business relationships with the companies
+       mentioned in this report.                                                    
+       Additional information on securities or financial instruments mentioned in this report is available upon request.
+       Ratings Definitions                                                          
+       Current Ratings Definition                                                   
+       Evercore lSI's recommendations are based on a stock's total forecasted return over the next 12 months. Total forecasted return is equal to the
+       expected percentage price return plus gross dividend yield. We divide our stocks under coverage into three primary ratings categories, with the
+       following return guidelines:                                                 
+       Outperform- the total forecasted return is expected to be greater than the expected total return of the analyst's coverage sector.
+       In Line- the total forecasted return is expected to be in line with the expected total return of the analyst's coverage sector.
+       Underperform- the total forecasted return is expected to be less than the expected total return of the analyst's coverage sector.
+       Coverage Suspended- the rating and target price have been removed pursuant to Evercore lSI policy when Evercore is acting in an advisory
+       capacity in a merger or strategic transaction involving this company and in certain other circumstances.*
+       Rating Suspended- Evercore lSI has suspended the rating and target price for this stock because there is not sufficient fundamental basis for
+       determining, or there are legal, regulatory or policy constraints around publishing, a rating or target price. The previous rating and target price, if
+       any, are no longer in effect for this company and should not be relied upon.*
+       *Prior to October 10, 2015, the "Coverage Suspended" and "Rating Suspended" categories were included in the category "Suspended."
+       FlNRA requires that members who use a ratings system with terms other than "Buy," "Hold/Neutral" and "Sell" to equate their own
+       ratings to these categories. For this purpose, and in the Evercore lSI ratings distribution below, our Outperform, In Line, and
+       Underperform ratings can be equated to Buy, Hold and Sell, respectively.     
+       Evercore lSI rating (as of 09/10/2026)                                       
+                                                                                    
+       4                                                                            
+
+[PDF PAGE 5]
+                                                                                    
+                                                                                    
+       September 11, 2026                                                           
+                                                                                    
+                                                                                    
+                                                                                    
+       Coverage Universe          Investment Banking Services I Past 12 Months      
+       Ratings         Count Pct. Ratings         Count  Pct.                       
+       Buy              485   62  Buy               94    19                        
+       Hold             269   34  Hold              22    8                         
+       Sell              11    1  Sell               0    0                         
+       Coverage Suspended 7    1  Coverage Suspended 2    29                        
+       Rating Suspended  12    2  Rating Suspended   3    25                        
+                                                                                    
+       Issuer-Specific Disclosures (as of September 10, 2026)                       
+                                                                                    
+       Evercore ISI or an affiliate has acted as a manager or co-manager of a public offering of securities by BioCryst Pharmaceuticals, Inc. in the last
+       12 months.                                                                   
+       BioCryst Pharmaceuticals, Inc. is a client of Evercore LLC, and Evercore LLC has provided investment banking services to BioCryst
+       Pharmaceuticals, Inc. in the last 12 months.                                 
+       Evercore ISI or an affiliate expects to receive or intends to seek compensation for investment banking services from BioCryst Pharmaceuticals,
+       Inc. within the next three months.                                           
+       Price Charts                                                                 
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       Ratings Key                                                                  
+       B  Buy    OP Outperform L  Long      CS Coverage Suspended                   
+       H  Hold   IL In Line    NP No Position RS Rating Suspended                   
+       S  Sell   UP Underperform S Short                                            
+                                                                                    
+       GENERAL DISCLOSURES                                                          
+       This report is approved and/or distributed by Evercore Group L.L.C. (“Evercore Group”), a U.S. licensed broker-dealer regulated by the Financial
+       Industry Regulatory Authority (“FINRA”) and by International Strategy & Investment Group (UK) Limited (“ISI UK”), which is authorized and
+       regulated in the United Kingdom by the Financial Conduct Authority. The institutional sales, trading and research businesses of Evercore Group
+       and ISI UK collectively operate under the global marketing brand name Evercore ISI ("Evercore ISI"). Both Evercore Group and ISI UK are
+       subsidiaries of Evercore Inc. ("Evercore"). The trademarks, logos and service marks shown on this report are registered trademarks of Evercore
+       Inc.                                                                         
+       This report is provided for informational purposes only and subject to additional restrictions contained in this disclosure. It is not to be construed
+       as an offer to buy or sell or a solicitation of an offer to buy or sell any financial instruments or to participate in any particular trading strategy in any
+       jurisdiction. The information and opinions in this report were prepared by employees of affiliates of Evercore. The information herein is believed
+       by Evercore ISI to be reliable and has been obtained from public sources believed to be reliable, but Evercore ISI makes no representation as to
+       the accuracy or completeness of such information.                            
+       Opinions, estimates and projections in this report constitute the current judgment of the author as of the date of this report. They do not
+       necessarily reflect the opinions of Evercore or its affiliates and are subject to change without notice. In addition, opinions, estimates and
+       projections in this report may differ from or be contrary to those expressed by other business areas or groups of Evercore and its affiliates.
+                                                                                    
+       5                                                                            
+
+[PDF PAGE 6]
+                                                                                    
+                                                                                    
+       September 11, 2026                                                           
+                                                                                    
+                                                                                    
+                                                                                    
+       Any links to third-party websites included in this report are not maintained, controlled or operated by Evercore ISI. Evercore ISI does not provide
+       the products or services available through such websites and makes no representation regarding, and accepts no responsibility or liability for, the
+       content of any third-party website or any linked content contained in a third-party website. Content contained on such third-party websites is not
+       part of this report and is not incorporated by reference herein. The inclusion of any link does not imply any endorsement of, or affiliation with, any
+       applicable third party by Evercore ISI. Access to any third-party website is at the reader's own risk. The applicable terms of use and privacy
+       policies of any third-party website should be reviewed before any personal information is submitted. Evercore ISI accepts no responsibility or
+       liability for the terms of use, privacy policies or content of any third-party website.
+       Evercore ISI has no obligation to update, modify or amend this report or to otherwise notify a reader thereof in the event that any matter stated
+       herein, or any opinion, projection, forecast or estimate set forth herein, changes or subsequently becomes inaccurate. Facts and views in
+       Evercore ISI research reports and notes have not been reviewed by, and may not reflect information known to, professionals in other Evercore
+       affiliates or business areas, including investment banking personnel. Evercore ISI salespeople, traders and other professionals may provide oral
+       or written market commentary or trading strategies to our clients that reflect opinions that are contrary to the opinions expressed in this research.
+       Our asset management affiliates and investing businesses may make investment decisions that are inconsistent with the recommendations or
+       views expressed in this research.                                            
+       Evercore ISI does not provide individually tailored investment advice in research reports. The financial instruments discussed in this report are not
+       suitable for all investors and investors must make their own investment decisions using their own independent advisors as they believe necessary
+       and based upon their specific financial situations and investment objectives. This report has been prepared without regard to the particular
+       investment strategies or financial, tax or other personal circumstances of the recipient. Nothing in this report constitutes investment, legal,
+       accounting or tax advice, or a representation that any investment or strategy is suitable or appropriate to the recipient’s individual circumstances,
+       or otherwise constitutes a personal recommendation to the recipient. None of Evercore Group or its affiliates will treat any recipient of this report
+       as its customer by virtue of the recipient having received this report.      
+       Securities and other financial instruments discussed in this report, or recommended or offered by Evercore ISI, are not insured by the Federal
+       Deposit Insurance Corporation and are not deposits of or other obligations of any insured depository institution. If a financial instrument is
+       denominated in a currency other than an investor’s currency, a change in exchange rates may adversely affect the price or value of, or the
+       income derived from the financial instrument, and such investor effectively assumes such currency risk. In addition, income from an investment
+       may fluctuate and the price or value of financial instruments described in this report, either directly or indirectly, may rise or fall. Estimates of
+       future performance are based on assumptions that may not be realized. Furthermore, past performance is not necessarily indicative of future
+       performance.                                                                 
+       Please note that this report was prepared for and distributed by Evercore ISI to its institutional investor and market professional customers.
+       Recipients who are not institutional investor or market professional customers of Evercore ISI should seek the advice of their independent
+       financial advisor before considering information in this report in connection with any investment decision, or for a necessary explanation of its
+       contents.                                                                    
+       Electronic research is simultaneously distributed to all clients. This report is provided to Evercore ISI clients only and may not be, in whole or in
+       part, or in any form or manner (i) copied, forwarded, distributed, shared, or made available to third parties, including as input to, or in connection
+       with, any artificial intelligence or machine learning model; (ii) modified or otherwise used to create derivative works; or (iv) used to train or
+       otherwise develop a generative artificial intelligence or machine learning model, without the express written consent of Evercore ISI. Receipt and
+       review of this research report constitutes your agreement with the aforementioned limitations in use.
+       This report is not intended for distribution to or use by any person or entity in any locality, state, country or other jurisdiction where such
+       distribution, publication, availability or use would be contrary to law or regulation or which would subject Evercore Group or its affiliates to any
+       registration or licensing requirement within such jurisdiction. If this report is being distributed by a financial institution other than Evercore ISI or its
+       affiliates, that financial institution is solely responsible for such distribution and for compliance with the laws, rules and regulations of any
+       jurisdiction where this report is distributed. Clients of that financial institution should contact that institution to effect any transaction in the
+       securities mentioned in this report or if such clients require further information. This report does not constitute investment advice by Evercore ISI
+       to the clients of the distributing financial institution, and neither Evercore ISI nor its affiliates, nor their respective officers, directors or employees,
+       accept any liability whatsoever for any direct or consequential loss arising from their use of this report or its content.
+       Evercore is not authorized to act as a financial entity, securities intermediary, investment advisor or as any other regulated entity under Mexican
+       law, and no actions, applications or filings have been undertaken in Mexico, whether before the National Banking and Securities Commission
+       (Comisión Nacional Bancaria y de Valores “CNBV”) or any other authority, in order for Evercore to carry out activities or render services that
+       would otherwise require a license, registration or any other authorization for such purposes; neither is it regulated by the CNBV or any other
+       Mexican authority. This document, nor its content, constitutes an offer, invitation or request to purchase or subscribe for securities or other
+       instruments or to make or cancel investments, nor may it serve as the basis for any contract, commitment or decision of any kind.
+       For persons in the UK: In making this report available, Evercore makes no recommendation to buy, sell or otherwise deal in any securities or
+       investments whatsoever and you should neither rely or act upon, directly or indirectly, any of the information contained in this report in respect of
+       any such investment activity. This report is being directed at or distributed to, (a) persons who fall within the definition of Investment Professionals
+       (set out in Article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) Order 2005 (the “Order”)); (b) persons falling within
+       the definition of high net worth companies, unincorporated associations, etc. (set out in Article 49(2) of the Order); (c) other persons to whom it
+       may otherwise lawfully be communicated (all such persons together being referred to as “relevant persons”). This report must not be acted on or
+       relied on by persons who are not relevant persons.                           
+       For persons in Switzerland: The distribution of these materials to persons or entities in Switzerland is not intended to, and does not, constitute a
+       financial service under the Swiss Financial Services Act (FinSA). In particular, the distribution of these materials does not constitute the provision
+       of personal recommendations on transactions with financial instruments (investment advice) within the meaning of Article 3(c)(4) of FinSA.
+       For persons in Australia: Evercore does not have an Australian Financial Services License ("AFSL"). This report is only to be distributed to
+       persons who fall within the definition of "wholesale" investors under section 761G of the Corporations Act 2001 (Cth). This report must not be
+       acted on or relied on by persons who are not wholesale investors. Evercore relies on the relief provided under ASIC Corporations (Foreign
+       6                                                                            
+
+[PDF PAGE 7]
+                                                                                    
+                                                                                    
+       September 11, 2026                                                           
+                                                                                    
+                                                                                    
+                                                                                    
+       Financial Services Providers—Limited Connection) Instrument 2017/182 to provide this report to wholesale investors in Australia without an
+       AFSL.                                                                        
+       For persons in New Zealand: This material has been prepared by Evercore Group L.L.C. for distribution in New Zealand to financial advisors and
+       wholesale clients only and has not been prepared for use by retail clients (as those terms are defined in the Financial Markets Conduct Act 2013
+       (‘FMCA’)). Evercore Group L.L.C. is not, and is not required to be, registered or licensed under the FMCA, and unless otherwise stated any
+       financial products referred to in this material are generally only available in New Zealand for issue to those satisfying the wholesale investor
+       criteria in the FMCA.                                                        
+       Applicable current disclosures regarding the subject companies covered in this report are available at the offices of Evercore ISI: 55
+       East 52nd Street, New York, NY 10055, and at the following site: https://evercoreisi.mediasterling.com/disclosure.
+       In compliance with the European Securities and Markets Authority's Market Abuse Regulation, a list of all Evercore ISI recommendations
+       disseminated in the preceding 12 months for the subject companies herein, may be found at the following site:
+       https://evercoreisi.mediasterling.com/disclosure.                            
+       © 2026. Evercore Group L.L.C. All rights reserved.                           
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       7                                                                            

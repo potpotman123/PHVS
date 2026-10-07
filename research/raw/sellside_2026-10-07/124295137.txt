@@ -1,0 +1,846 @@
+[PDF PAGE 1]
+                                                                                    
+                                                                                    
+                                                                                    
+      M                                                                             
+                                                                           Idea     
+      September 9, 2026 04:01 AM GMT                                                
+      Pharvaris N.V. | North America                 Morgan Stanley & Co. LLC       
+                                                     Maxwell Skor                   
+                                                     Equity Analyst                 
+      Both   Formulations       Now    De-           Maxwell.Skor@morganstanley.com + 1 212 761-4804
+                                                     Selena Zhang                   
+                                                     Research Associate             
+      Risked;   Raising    PT  to  $62   (from                                      
+                                                     Selena.Zhang1@morganstanley.com + 1 212 761-1017
+                                                     Pharvaris N.V.(PHVS.O, PHVS US)
+      $46)                                                                          
+                                                     Biotechnology | United States of America
+                                                     Stock Rating         Overweight
+                                                     Industry View        Attractive
+      What’s Changed                                 Price target           $62.00  
+      Pharvaris N.V. (PHVS.O)    From     To         Shr price, close (Sep 8, 2026) $37.84
+                                                     Mkt cap, curr (mm)     €2,148  
+      Price Target               $46.00   $62.00                                    
+                                                     52-Week Range       $43.25-20.65
+                                                     Fiscal Year Ending 12/25 12/26e 12/27e 12/28e
+      The CHAPTER-3 prophylaxis study met the primary endpoint                      
+                                                     EPS (€)**   (2.95) (2.86) (2.66) (0.70)
+      and all secondary efficacy endpoints with statistical significance. Prior EPS (€)** - - (2.65) (1.01)
+                                                     P/E          NM NM  NM  NM     
+      PHVS plans to submit an NDA to the FDA for the prophylaxis of                 
+                                                     EPS (€)§    (2.83) (2.81) (2.59) (0.99)
+                                                     Div yld (%)   -   -   -  -     
+      bradykinin-mediated angioedema attacks in 1H27.                               
+                                                     Unless otherwise noted, all metrics are based on Morgan Stanley ModelWare
+                                                     framework                      
+                                                     ** = Based on consensus methodology
+      Key Takeaways                                                                 
+                                                     § = Consensus data is provided by Refinitiv Estimates
+                                                     e = Morgan Stanley Research estimates
+       Primary endpoint met, 83% attack rate reduction versus placebo (p<0.0001). Quarterly EPS (€)
+       87% attack rate reduction versus placebo observed in people with HAE Type 1 or 2026e 2026e 2027e 2027e
+                                                     Quarter 2025 Prior Current Prior Current
+       Type 2                                                                       
+                                                     Q1      (0.78) - (0.60)a - -   
+                                                     Q2      (0.77) - (0.66)a - -   
+       All secondary efficacy endpoints met with statistical significance.          
+                                                     Q3      (0.63) (0.72) (0.72) - -
+                                                     Q4      (0.79) (0.90) (0.90) - -
+       Well-tolerated safety profile of deucrictibant XR demonstrated.              
+                                                     e = Morgan Stanley Research estimates, a = Actual Company reported data
+       Topline data from Part 1 of CREAATE (NCT07266805) for the prevention of AAE- 
+       C1INH attacks, are anticipated in 1Q27.                                      
+       Pharvaris plans to submit an NDA to the FDA for the prophylaxis of bradykinin-
+       mediated angioedema attacks in 1H27.                                         
+      CHAPTER-3 prophylaxis study delivers. Pharvaris announced positive topline data
+      from the CHAPTER-3 pivotal study of deucrictibant XR for prophylaxis of HAE   
+      attacks (press release, presentation, see our pulse after the readout HERE). The
+      primary endpoint was met, with 83% attack rate reduction versus placebo       
+      (p<0.0001), and 87% attack rate reduction versus placebo was observed in people
+      with HAE Type 1 or Type 2. We see topline data as delivering a “superior      
+      injectable-like” profile, as previewed in our note HERE. We will host a KOL call
+      this Thursday, September 10 at 12:30pm ET to discuss the results and the      
+      commercial opportunity ahead (link HERE).                                     
+      Enzyme elevations were asymptomatic, not concerning in our view. The three    
+      participants with Grade 3 adverse events included tooth infection, and two people
+                                                     Morgan Stanley does and seeks to do business with
+      with liver enzyme elevation slightly above five fold increase from the upper limit. companies covered in Morgan Stanley Research. As a result,
+                                                     investors should be aware that the firm may have a conflict of
+      Both enzyme elevations were asymptomatic, one patient discontinued treatment interest that could affect the objectivity of Morgan Stanley
+      and the other completed the study. There were no associated bilirubin elevations Research. Investors should consider Morgan Stanley
+                                                     Research as only a single factor in making their investment
+      observed for either case. Possible confounding factors associated with these events decision.
+      include that one of the participants had fatty liver disease, and the other had For analyst certification and other important disclosures,
+                                                     refer to the Disclosure Section, located at the end of this
+      previously used androgens. We note that in the Ph3 study of Orladeyo an report.
+
+[PDF PAGE 2]
+                                                                                    
+                                                                                    
+                                                                                    
+      M                                                                             
+                                                                            Idea    
+                                                                                    
+                                                                                    
+      asymptomatic grade 4 elevation in alanine aminotransferase level was observed in a
+      treated patient with previous androgen exposure who discontinued the study drug
+      (link HERE). The tooth infection is not unexpected, as patients with HAE can tend to
+      avoid dental visits. More details are expected at a future medical conference,
+      potentially ACAAI.                                                            
+                                                                                    
+      AAE-C1INH opportunity under-appreciated, with topline data from Part 1 of     
+      CREAATE (NCT07266805) for the prevention of AAE-C1INH attacks anticipated     
+      in 1Q27. While epidemiological data is sparse, there could be ~1 AAE patient for
+      every 10 patients with HAE (link HERE). If timing allows mgt. plans to include
+      acquired angioedema data from part 1 clinical results with CHAPTER-3 data and one-
+      year safety data from CHAPTER-4 in the prophylactic filing for bradykinin-mediated
+      angioedema. The KOL noted that for the most part, acquired C1 inhibitor deficiency
+      behaves clinically very much like type 1 and type 2 HAE, despite different underlying
+      causes. Therefore, patients are managed similarly and are treated off-label in most
+      regions of the world. The KOL sees positive readthrough from CHAPTER-3 to     
+      CREAATE.                                                                      
+                                                                                    
+      Model updates: With positive CHAPTER-3 topline data, we increase our POS to   
+      90% (from 75%). We add the AAE-C1INH opportunity (70% POS), with $109M risk-  
+      adjusted US and ex-US revenues in 2035. Ahead of deucrictibant IR PDUFA date of
+      April 23, 2027, we increase our net price/dose at launch to ~$16,000 (from    
+      $12,500). We note Kalvista set a price of $16,720 per dose for Ekterly at launch (link
+      HERE). We increase our SG&A expense trajectory ahead of potential launches. As a
+      net result, our price target increases to $62 (from $46).                     
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+      2                                                                             
+
+[PDF PAGE 3]
+                                                                                    
+                                                                                    
+                                                                                    
+      M                                                                             
+                                                                            Idea    
+                                                                                    
+                                                                                    
+      Risk Reward    - Pharvaris  N.V.  (PHVS.O)                                    
+      Risk Reward – Pharvaris N.V. (PHVS.O)                                         
+                                                                                    
+      HAE Clinical Development Drives Risk/Reward                                   
+                                                                                    
+      PRICE TARGET $62.00                            OVERWEIGHT THESIS              
+      Our price target includes ~$1.4bn in risk-adjusted revenues in 2035E. We derive our price ▪We are Overweight Pharvaris due to
+      target from a discounted cash flow (DCF) analysis that uses a discount rate of 12.5% and 0% superior oral efficacy for de-risked Ph3 on-
+      terminal growth rate.                          demand and prophylactic data.  
+                                                     ▪                              
+                                                      Pharvaris's pipeline includes two clinical-
+                                    $48.91                                          
+                                                     stage assets for HAE with an estimated
+      Consensus Price Target Distribution $38.09 $75.17                             
+                                                     ~$1.4bn in risk-adjusted peak sales in
+                                         MS PT                                      
+                                                     aggregate (2035).              
+      Source: Refinitiv, Morgan Stanley Research Mean Morgan Stanley Estimates ▪We assign a 90% PoS for the on-demand
+                                                     candidate and 70% PoS for the prophylactic
+                                                     candidate.                     
+      RISK REWARD CHART                                                             
+                                                     Consensus Rating Distribution  
+      USD                                                                           
+                                    $$$999111...000000(((+++111444000...444999%%%)))
+                                                                   93% Overweight   
+                                                                   7% Equal-weight  
+       80                                                          0% Underweight   
+                                                      MS Rating                     
+       60                                                                           
+                                    $$$666222...000000(((+++666333...888555%%%)))   
+                                                     Source: Refinitiv, Morgan Stanley Research
+                                                     Risk Reward Themes             
+       40          $$$333777...888444                                               
+                                                     Disruption: Positive           
+                                                     View descriptions of Risk Rewards Themes here
+       20                                                                           
+       0                                                                            
+        SEP '25 MAR '26 SEP '26   SEP                                               
+                                    '2$$$7555...000000(((---888666...777999%%%)))   
+      Key: Historical Stock Performance Current Stock Price Price Target            
+      Source: Refinitiv, Morgan Stanley Research                                    
+      BULL CASE        $91.00 BASE CASE        $62.00 BEAR CASE        $5.00        
+      Bull case               Base case              Bear case                      
+      On-demand treatment and prophylactic use On-demand treatment and prophylactic use Modeled programs fail and Pharvaris is
+      are approved in the US, see rapid uptake, are approved in the US and acquired valued at cash value per share.
+      and establish market dominance. Peak angiodema (70% POS) and see broad        
+      adjusted WW sales of ~$1.8bn in 2035. uptake. Peak adjusted WW sales of ~$1.4bn
+                              in 2035.                                              
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+      Morgan Stanley Research                                                 3     
+
+[PDF PAGE 4]
+                                                                                    
+                                                                                    
+                                                                                    
+      M                                                                             
+                                                                            Idea    
+                                                                                    
+                                                                                    
+                                                                                    
+      Risk Reward – Pharvaris N.V. (PHVS.O)                                         
+                                                                                    
+      KEY EARNINGS INPUTS                                                           
+      Drivers       Dec 2025 Dec 2026e Dec 2027e Dec 2028e                          
+                                                                                    
+      Topline 3-Year CAGR (%) NA NA 163.0 58.8                                      
+      Bottom line 3-Year CAGR (%) (38.0) (169.6) (204.3) (295.8)                    
+                                                                                    
+      INVESTMENT DRIVERS     RISKS TO PT/RATING     MS ESTIMATES VS. CONSENSUS      
+       Deucrictibant for on-demand HAE treatment RISKS TO UPSIDE FY Dec 2026e       
+       with potential US launch in 2027. Competitor drugs fail in clinic or fail to achieve
+       Deucrictibant for prophylactic HAE treatment anticipated market penetration EPS (2.86)
+       with potential US approval in 2028. Clinical data outperform competitor data (€) (3.01) (2.36)
+                                                               (2.81)               
+                              Pipeline drugs gain early approval                    
+      GLOBAL REVENUE EXPOSURE                                                       
+                             RISKS TO DOWNSIDE                                      
+                              Ph3 clinical trial delays and/or enrollment Sales / 0 
+             0-10% Europe ex UK challenges          Revenue 0                       
+             0-10% UK         Data from clinical candidates do not meet bar (€, mm) 0
+             70-80%North America for success                                        
+                              Data/market penetration from competitors              
+                                                              (206)                 
+                              exceed expectations   EBITDA                          
+      Source: Morgan Stanley Research Estimate             (212)      (176)         
+                                                    (€, mm)                         
+      View explanation of regional hierarchies here             (197)               
+                             OWNERSHIP POSITIONING                                  
+      MS ALPHA MODELS                                                               
+                             Inst. Owners, % Active 96.3%    Mean Morgan Stanley Estimates
+       4/5 3 Month           HF Sector Long/Short Ratio 2.2x Source: Refinitiv, Morgan Stanley Research
+       MOST Horizon          HF Sector Net Exposure 16.8%                           
+      Source: Refinitiv, FactSet, Morgan Stanley Research; 1 is Refinitiv; MSPB Content. Includes certain hedge fund
+      the highest favored Quintile and 5 is the least favored exposures held with MSPB. Information may be
+      Quintile               inconsistent with or may not reflect broader market    
+                             trends. Long/Short Ratio = Long Exposure / Short       
+                             exposure. Sector % of Total Net Exposure = (For a      
+                             particular sector: Long Exposure - Short Exposure) /   
+                             (Across all sectors: Long Exposure – Short Exposure).  
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+      4                                                                             
+
+[PDF PAGE 5]
+                                                                                    
+                                                                                    
+                                                                                    
+      M                                                                             
+                                                                            Idea    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+      Morgan Stanley Research                                                 5     
+
+[PDF PAGE 6]
+                                                                                    
+                                                                                    
+                                                                                    
+      M                                                                             
+                                                                            Idea    
+                                                                                    
+                                                                                    
+      Risk Reward    Reference    links                                             
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                               1. View explanation of Options Probabilities methodology -
+                               Options_Probabilities_Exhibit_Link.pdf               
+                               2. View descriptions of Risk Rewards Themes - RR_Themes_Exhibit_Link.pdf
+                                                                                    
+                               3. View explanation of regional hierarchies - GEG_Exhibit_Link.pdf
+                               4. View explanation of Theme/Exposure methodology -  
+                                                                                    
+                               ESG_Sustainable_Solutions_External_Link.pdf          
+                               5. View explanation of HERS methodology - ESG_HERS_External_Link.pdf
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+      6                                                                             
+
+[PDF PAGE 7]
+                                                                                    
+                                                                                    
+                                                                                    
+      M                                                                             
+                                                                            Idea    
+                                                                                    
+      Disclosure Section                                                            
+      The information and opinions in Morgan Stanley Research were prepared by Morgan Stanley & Co. LLC, and/or Morgan Stanley C.T.V.M. S.A., and/or Morgan Stanley Mexico, Casa de Bolsa,
+      S.A. de C.V.. As used in this disclosure section, "Morgan Stanley" includes Morgan Stanley & Co. LLC, Morgan Stanley C.T.V.M. S.A., Morgan Stanley Mexico, Casa de Bolsa, S.A. de C.V. and their
+      affiliates as necessary.                                                      
+      For important disclosures, stock price charts and equity rating histories regarding companies that are the subject of this report, please see the Morgan Stanley Research Disclosure Website
+      at www.morganstanley.com/eqr/disclosures/webapp/generalresearch, or contact your investment representative or Morgan Stanley Research at 1585 Broadway, (Attention: Research
+      Management), New York, NY, 10036 USA.                                         
+      For valuation methodology and risks associated with any recommendation, rating or price target referenced in this research report, please contact the Client Support Team as follows: US/Canada
+      +1 800 303-2495; Hong Kong +852 2848-5999; Latin America +1 718 754-5444 (U.S.); London +44 (0)20-7425-8169; Singapore +65 6834-6860; Sydney +61 (0)2-9770-1505; Tokyo +81
+      (0)3-6836-9000. Alternatively you may contact your investment representative or Morgan Stanley Research at 1585 Broadway, (Attention: Research Management), New York, NY 10036 USA.
+      Analyst Certification                                                         
+      The following analysts hereby certify that their views about the companies and their securities discussed in this report are accurately expressed and that they have not received and will not
+      receive direct or indirect compensation in exchange for expressing specific recommendations or views in this report: Maxwell Skor.
+      .                                                                             
+      Global Research Conflict Management Policy                                    
+      Morgan Stanley Research has been published in accordance with our conflict management policy, which is available at www.morganstanley.com/institutional/research/conflictpolicies. A
+      Portuguese version of the policy can be found at www.morganstanley.com.br     
+      Important Regulatory Disclosures on Subject Companies                         
+      As of August 31, 2026, Morgan Stanley beneficially owned 1% or more of a class of common equity securities of the following companies covered in Morgan Stanley Research: 4D Molecular
+      Therapeutics Inc, Abivax, Alnylam Pharmaceuticals Inc, Amgen Inc., Arcus Biosciences Inc., Arcutis Biotherapeutics, Inc., argenx SE, Arvinas Inc, Ascendis Pharma A/S, Axsome Therapeutics, Belite
+      Bio Inc, BeOne Medicines, Bicycle Therapeutics Plc, Biogen Inc, BridgeBio Pharma Inc, Cabaletta Bio Inc, CG Oncology, Compass Pathways PLC, CRISPR Therapeutics AG, Cullinan Therapeutics,
+      Cytokinetics Inc, Dyne Therapeutics Inc, Exelixis Inc., Gilead Sciences Inc., Halozyme Therapeutics, Inc, Incyte Corp, Intellia Therapeutics Inc, Ionis Pharmaceuticals Inc, Lakefront Biotherapeutics,
+      Legend Biotech Corp, Mirum Pharmaceuticals, Moderna Inc, Neurocrine Biosciences Inc, Nurix Therapeutics Inc., ProKidney Corp, PTC Therapeutics, Recursion Pharmaceuticals Inc, Regeneron
+      Pharmaceuticals Inc., Regenxbio Inc, Rhythm Pharmaceuticals Inc, Rocket Pharmaceuticals Inc, Sarepta Therapeutics Inc, Schrodinger Inc., Silence Therapeutics Plc, Structure Therapeutics Inc,
+      Ultragenyx Pharmaceutical Inc, United Therapeutics Corp, Vertex Pharmaceuticals, Viking Therapeutics Inc, Vir Biotechnology Inc.
+      Within the last 12 months, Morgan Stanley managed or co-managed a public offering (or 144A offering) of securities of Abivax, Achieve Life Sciences Inc, AgomAb Therapeutics NV, Alnylam
+      Pharmaceuticals Inc, Alumis Inc., Amgen Inc., Attovia Therapeutics, Inc., Avalyn Pharma Inc, Belite Bio Inc, Bicara Therapeutics, Biomarin Pharmaceutical Inc, Cytokinetics Inc, Denali Therapeutics
+      Inc, Disc Medicine Inc, Dyne Therapeutics Inc, Eikon Therapeutics Inc, Erasca, Inc., Evommune Inc, Generate Biomedicines Inc, Genmab A/S, Gilead Sciences Inc., Halozyme Therapeutics, Inc, Immix
+      Biopharma, Ionis Pharmaceuticals Inc, Kalaris Therapeutics, Kymera Therapeutics Inc, Kyverna Therapeutics, Legend Biotech Corp, MapLight Therapeutics, Mirum Pharmaceuticals, Moderna Inc,
+      Monopar Therapeutics, Pharvaris N.V., PTC Therapeutics, Q32 Bio Inc, Regenxbio Inc, Silence Therapeutics Plc, Structure Therapeutics Inc, Trevi Therapeutics Inc.
+      Within the last 12 months, Morgan Stanley has received compensation for investment banking services from Abivax, Achieve Life Sciences Inc, AgomAb Therapeutics NV, Alnylam
+      Pharmaceuticals Inc, Alumis Inc., Amgen Inc., Attovia Therapeutics, Inc., Avalyn Pharma Inc, Belite Bio Inc, BeOne Medicines, Bicara Therapeutics, Biomarin Pharmaceutical Inc, Cytokinetics Inc,
+      Denali Therapeutics Inc, Disc Medicine Inc, Dyne Therapeutics Inc, Eikon Therapeutics Inc, Erasca, Inc., Evommune Inc, Generate Biomedicines Inc, Genmab A/S, Gilead Sciences Inc., Halozyme
+      Therapeutics, Inc, Immix Biopharma, Ionis Pharmaceuticals Inc, Kalaris Therapeutics, Kymera Therapeutics Inc, Kyverna Therapeutics, Lakefront Biotherapeutics, Legend Biotech Corp, MapLight
+      Therapeutics, Mirum Pharmaceuticals, Moderna Inc, Monopar Therapeutics, Pharvaris N.V., PTC Therapeutics, Q32 Bio Inc, Regenxbio Inc, Silence Therapeutics Plc, Structure Therapeutics Inc,
+      Trevi Therapeutics Inc, Vertex Pharmaceuticals.                               
+      In the next 3 months, Morgan Stanley expects to receive or intends to seek compensation for investment banking services from 4D Molecular Therapeutics Inc, Aardvark Therapeutics Inc., Abivax,
+      ABSCI CORP, Acadia Pharmaceuticals Inc, Achieve Life Sciences Inc, Adagene Inc., AgomAb Therapeutics NV, Alector Inc, Alnylam Pharmaceuticals Inc, Alumis Inc., Amgen Inc., Arcus Biosciences
+      Inc., Arcutis Biotherapeutics, Inc., argenx SE, Arrowhead Pharmaceuticals Inc, Arvinas Inc, Ascendis Pharma A/S, Atea Pharmaceuticals Inc, Attovia Therapeutics, Inc., Avalyn Pharma Inc, Axsome
+      Therapeutics, Belite Bio Inc, BeOne Medicines, Bicara Therapeutics, BioAge Labs Inc, Biogen Inc, Biohaven Ltd, Biomarin Pharmaceutical Inc, BioNTech SE, BridgeBio Oncology Therapeutics,
+      BridgeBio Pharma Inc, Cabaletta Bio Inc, CG Oncology, Compass Pathways PLC, Contineum Therapeutics, CRISPR Therapeutics AG, Cullinan Therapeutics, Cytokinetics Inc, Denali Therapeutics
+      Inc, Disc Medicine Inc, Dyne Therapeutics Inc, Eikon Therapeutics Inc, Erasca, Inc., Evommune Inc, Exelixis Inc., Fractyl Health Inc, Generate Biomedicines Inc, Genmab A/S, Gilead Sciences Inc.,
+      Halozyme Therapeutics, Inc, Immix Biopharma, Immunocore Holdings Ltd, Incyte Corp, Insmed Inc, Intellia Therapeutics Inc, Ionis Pharmaceuticals Inc, Kalaris Therapeutics, Kymera Therapeutics
+      Inc, Kyverna Therapeutics, Lakefront Biotherapeutics, Legend Biotech Corp, MapLight Therapeutics, Mirum Pharmaceuticals, Moderna Inc, Monopar Therapeutics, Neurocrine Biosciences Inc,
+      Nurix Therapeutics Inc., Pharvaris N.V., Prime Medicine Inc, PTC Therapeutics, Q32 Bio Inc, Recursion Pharmaceuticals Inc, Regeneron Pharmaceuticals Inc., Regenxbio Inc, Rhythm
+      Pharmaceuticals Inc, Rocket Pharmaceuticals Inc, Sana Biotechnology, Inc, Sarepta Therapeutics Inc, Schrodinger Inc., Silence Therapeutics Plc, Structure Therapeutics Inc, Tenaya Therapeutics
+      Inc, Trevi Therapeutics Inc, Tscan Therapeutics Inc, Ultragenyx Pharmaceutical Inc, Vertex Pharmaceuticals, Viking Therapeutics Inc, Vir Biotechnology Inc, Zenas Biopharma Inc, Zentalis
+      Pharmaceuticals Inc.                                                          
+      Within the last 12 months, Morgan Stanley has received compensation for products and services other than investment banking services from Amgen Inc., BeOne Medicines, Biogen Inc, Genmab
+      A/S, Gilead Sciences Inc., Halozyme Therapeutics, Inc, Incyte Corp, Insmed Inc, Lakefront Biotherapeutics, Moderna Inc.
+      Within the last 12 months, Morgan Stanley has provided or is providing investment banking services to, or has an investment banking client relationship with, the following company: 4D
+      Molecular Therapeutics Inc, Aardvark Therapeutics Inc., Abivax, ABSCI CORP, Acadia Pharmaceuticals Inc, Achieve Life Sciences Inc, Adagene Inc., AgomAb Therapeutics NV, Alector Inc, Alnylam
+      Pharmaceuticals Inc, Alumis Inc., Amgen Inc., Arcus Biosciences Inc., Arcutis Biotherapeutics, Inc., argenx SE, Arrowhead Pharmaceuticals Inc, Arvinas Inc, Ascendis Pharma A/S, Atea
+      Pharmaceuticals Inc, Attovia Therapeutics, Inc., Avalyn Pharma Inc, Axsome Therapeutics, Belite Bio Inc, BeOne Medicines, Bicara Therapeutics, BioAge Labs Inc, Biogen Inc, Biohaven Ltd, Biomarin
+      Pharmaceutical Inc, BioNTech SE, BridgeBio Oncology Therapeutics, BridgeBio Pharma Inc, Cabaletta Bio Inc, CG Oncology, Compass Pathways PLC, Contineum Therapeutics, CRISPR
+      Therapeutics AG, Cullinan Therapeutics, Cytokinetics Inc, Denali Therapeutics Inc, Disc Medicine Inc, Dyne Therapeutics Inc, Eikon Therapeutics Inc, Erasca, Inc., Evommune Inc, Exelixis Inc., Fractyl
+      Health Inc, Generate Biomedicines Inc, Genmab A/S, Gilead Sciences Inc., Halozyme Therapeutics, Inc, Immix Biopharma, Immunocore Holdings Ltd, Incyte Corp, Insmed Inc, Intellia Therapeutics
+      Inc, Ionis Pharmaceuticals Inc, Kalaris Therapeutics, Kymera Therapeutics Inc, Kyverna Therapeutics, Lakefront Biotherapeutics, Legend Biotech Corp, MapLight Therapeutics, Mirum
+      Pharmaceuticals, Moderna Inc, Monopar Therapeutics, Neurocrine Biosciences Inc, Nurix Therapeutics Inc., Pharvaris N.V., Prime Medicine Inc, PTC Therapeutics, Q32 Bio Inc, Recursion
+      Morgan Stanley Research                                                 7     
+
+[PDF PAGE 8]
+                                                                                    
+                                                                                    
+                                                                                    
+      M                                                                             
+                                                                            Idea    
+                                                                                    
+                                                                                    
+      Pharmaceuticals Inc, Regeneron Pharmaceuticals Inc., Regenxbio Inc, Rhythm Pharmaceuticals Inc, Rocket Pharmaceuticals Inc, Sana Biotechnology, Inc, Sarepta Therapeutics Inc, Schrodinger
+      Inc., Silence Therapeutics Plc, Structure Therapeutics Inc, Tenaya Therapeutics Inc, Trevi Therapeutics Inc, Tscan Therapeutics Inc, Ultragenyx Pharmaceutical Inc, Vertex Pharmaceuticals, Viking
+      Therapeutics Inc, Vir Biotechnology Inc, Zenas Biopharma Inc, Zentalis Pharmaceuticals Inc.
+      Within the last 12 months, Morgan Stanley has either provided or is providing non-investment banking, securities-related services to and/or in the past has entered into an agreement to provide
+      services or has a client relationship with the following company: Alnylam Pharmaceuticals Inc, Amgen Inc., BeOne Medicines, Biogen Inc, BioNTech SE, Genmab A/S, Gilead Sciences Inc., Halozyme
+      Therapeutics, Inc, Incyte Corp, Insmed Inc, Lakefront Biotherapeutics, Moderna Inc, Vertex Pharmaceuticals.
+      Morgan Stanley & Co. LLC makes a market in the securities of 4D Molecular Therapeutics Inc, ABSCI CORP, Acadia Pharmaceuticals Inc, Alector Inc, Alumis Inc., Arcus Biosciences Inc., Arcutis
+      Biotherapeutics, Inc., Arrowhead Pharmaceuticals Inc, Arvinas Inc, Atea Pharmaceuticals Inc, Attovia Therapeutics, Inc., BeOne Medicines, Bicara Therapeutics, Bicycle Therapeutics Plc, BioAge
+      Labs Inc, Biogen Inc, Biohaven Ltd, Celldex Therapeutics Inc, CG Oncology, Cullinan Therapeutics, Denali Therapeutics Inc, Disc Medicine Inc, Dyne Therapeutics Inc, Generate Biomedicines Inc,
+      Immunocore Holdings Ltd, Incyte Corp, Intellia Therapeutics Inc, Ionis Pharmaceuticals Inc, Kalaris Therapeutics, Kymera Therapeutics Inc, Kyverna Therapeutics, MapLight Therapeutics, Mirum
+      Pharmaceuticals, Nurix Therapeutics Inc., Pharvaris N.V., ProKidney Corp, PTC Therapeutics, Regeneron Pharmaceuticals Inc., Regenxbio Inc, Rhythm Pharmaceuticals Inc, Rocket
+      Pharmaceuticals Inc, Sana Biotechnology, Inc, Sarepta Therapeutics Inc, Schrodinger Inc., Silence Therapeutics Plc, Trevi Therapeutics Inc, Tscan Therapeutics Inc, Ultragenyx Pharmaceutical
+      Inc, United Therapeutics Corp, Vir Biotechnology Inc, Zenas Biopharma Inc.    
+      The equity research analysts or strategists principally responsible for the preparation of Morgan Stanley Research have received compensation based upon various factors, including quality
+      of research, investor client feedback, stock picking, competitive factors, firm revenues and overall investment banking revenues. Equity Research analysts' or strategists' compensation is not
+      linked to investment banking or capital markets transactions performed by Morgan Stanley or the profitability or revenues of particular trading desks.
+      Morgan Stanley and its affiliates do business that relates to companies/instruments covered in Morgan Stanley Research, including market making, providing liquidity, fund management,
+      commercial banking, extension of credit, investment services and investment banking. Morgan Stanley sells to and buys from customers the securities/instruments of companies covered in
+      Morgan Stanley Research on a principal basis. Morgan Stanley may have a position in the debt of the Company or instruments discussed in this report. Morgan Stanley trades or may trade
+      as principal in the debt securities (or in related derivatives) that are the subject of the debt research report.
+      Certain disclosures listed above are also for compliance with applicable regulations in non-US jurisdictions.
+      STOCK RATINGS                                                                 
+      Morgan Stanley uses a relative rating system using terms such as Overweight, Equal-weight, Not-Rated or Underweight (see definitions below). Morgan Stanley does not assign ratings of Buy,
+      Hold or Sell to the stocks we cover. Overweight, Equal-weight, Not-Rated and Underweight are not the equivalent of buy, hold and sell. Investors should carefully read the definitions of all
+      ratings used in Morgan Stanley Research. In addition, since Morgan Stanley Research contains more complete information concerning the analyst's views, investors should carefully read Morgan
+      Stanley Research, in its entirety, and not infer the contents from the rating alone. In any case, ratings (or research) should not be used or relied upon as investment advice. An investor's decision
+      to buy or sell a stock should depend on individual circumstances (such as the investor's existing holdings) and other considerations.
+      Global Stock Ratings Distribution                                             
+      (as of August 31, 2026)                                                       
+      The Stock Ratings described below apply to Morgan Stanley's Fundamental Equity Research and do not apply to Debt Research produced by the Firm.
+      For disclosure purposes only (in accordance with FINRA requirements), we include the category headings of Buy, Hold, and Sell alongside our ratings of Overweight, Equal-weight, Not-Rated
+      and Underweight. Morgan Stanley does not assign ratings of Buy, Hold or Sell to the stocks we cover. Overweight, Equal-weight, Not-Rated and Underweight are not the equivalent of buy,
+      hold, and sell but represent recommended relative weightings (see definitions below). To satisfy regulatory requirements, we correspond Overweight, our most positive stock rating, with a
+      buy recommendation; we correspond Equal-weight and Not-Rated to hold and Underweight to sell recommendations, respectively.
+                                                           Other Material Investment Services
+                      Coverage Universe Investment Banking Clients (IBC)            
+                                                                Clients (MISC)      
+           Stock Rating                             % of Rating    % of Total Other 
+                     Count  % of Total Count % of Total IBC  Count                  
+            Category                                Category         MISC           
+           Overweight/Buy 1555 42%   450     48%     29%      767     44%           
+          Equal-weight/Hold 1577 43% 395     42%     25%      770     44%           
+           Not-Rated/Hold 3  0%       1       0%     33%      1       0%            
+          Underweight/Sell 559 15%    93     10%     17%      216     12%           
+             Total   3,694           939                     1754                   
+      Data include common stock and ADRs currently assigned ratings. Investment Banking Clients are companies from whom Morgan Stanley received investment banking compensation in the
+      last 12 months. Due to rounding off of decimals, the percentages provided in the "% of total" column may not add up to exactly 100 percent.
+      Analyst Stock Ratings                                                         
+      Overweight (O). The stock's total return is expected to exceed the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next
+      12-18 months.                                                                 
+      Equal-weight (E). The stock's total return is expected to be in line with the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over
+      the next 12-18 months.                                                        
+      Not-Rated (NR). Currently the analyst does not have adequate conviction about the stock's total return relative to the average total return of the analyst's industry (or industry team's) coverage
+      universe, on a risk-adjusted basis, over the next 12-18 months.               
+      Underweight (U). The stock's total return is expected to be below the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next
+      12-18 months.                                                                 
+      Unless otherwise specified, the time frame for price targets included in Morgan Stanley Research is 12 to 18 months.
+      8                                                                             
+
+[PDF PAGE 9]
+                                                                                    
+                                                                                    
+                                                                                    
+      M                                                                             
+                                                                            Idea    
+                                                                                    
+      Analyst Industry Views                                                        
+      Attractive (A): The analyst expects the performance of his or her industry coverage universe over the next 12-18 months to be attractive vs. the relevant broad market benchmark, as indicated
+      below.                                                                        
+      In-Line (I): The analyst expects the performance of his or her industry coverage universe over the next 12-18 months to be in line with the relevant broad market benchmark, as indicated below.
+      Cautious (C): The analyst views the performance of his or her industry coverage universe over the next 12-18 months with caution vs. the relevant broad market benchmark, as indicated below.
+      Benchmarks for each region are as follows: North America - S&P 500; Latin America - relevant MSCI country index or MSCI Latin America Index; Europe - MSCI Europe; Japan - TOPIX; Asia -
+      relevant MSCI country index or MSCI sub-regional index or MSCI AC Asia Pacific ex Japan Index.
+      Stock Price, Price Target and Rating History (See Rating Definitions)         
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+      Important Disclosures for Morgan Stanley Smith Barney LLC Customers           
+      Important disclosures regarding any material conflict of interest that can reasonably be expected to have influenced Morgan Stanley Smith Barney LLC's choice of a third-party research provider
+      or the subject company of a third-party research report, are available on the Morgan Stanley Wealth Management disclosure website at www.morganstanley.com/online/researchdisclosures.
+      For Morgan Stanley specific disclosures, you may refer to https://www.morganstanley.com/eqr/disclosures/webapp/generalresearch.
+      Each Morgan Stanley research report is reviewed and approved on behalf of Morgan Stanley Smith Barney LLC. This review and approval is conducted by the same person who reviews the
+      research report on behalf of Morgan Stanley. This could create a conflict of interest.
+      Other Important Disclosures                                                   
+      A member of Research who had or could have had access to the research prior to completion owns securities (or related derivatives) in the Amgen Inc., Gilead Sciences Inc.. This person is not
+      a research analyst or a member of research analyst's household.               
+      Morgan Stanley Research policy is to update research reports as and when the Research Analyst and Research Management deem appropriate, based on developments with the issuer, the
+      sector, or the market that may have a material impact on the research views or opinions stated therein. In addition, certain Research publications are intended to be updated on a regular periodic
+      basis (weekly/monthly/quarterly/annual) and will ordinarily be updated with that frequency, unless the Research Analyst and Research Management determine that a different publication
+      schedule is appropriate based on current conditions.                          
+      Morgan Stanley is not acting as a municipal advisor and the opinions or views contained herein are not intended to be, and do not constitute, advice within the meaning of Section 975 of the
+      Dodd-Frank Wall Street Reform and Consumer Protection Act.                    
+      Morgan Stanley produces an equity research product called a "Tactical Idea." Views contained in a "Tactical Idea" on a particular stock may be contrary to the recommendations or views expressed
+      in research on the same stock. This may be the result of differing time horizons, methodologies, market events, or other factors. For all research available on a particular stock, please contact
+      your sales representative or go to Matrix at http://www.morganstanley.com/matrix.
+      Morgan Stanley Research is provided to our clients through our proprietary research portal on Matrix and also distributed electronically by Morgan Stanley to clients. Certain, but not all, Morgan
+      Stanley Research products are also made available to clients through third-party vendors or redistributed to clients through alternate electronic means as a convenience. For access to all
+      available Morgan Stanley Research, please contact your sales representative or go to Matrix at http://www.morganstanley.com/matrix.
+      Morgan Stanley Research                                                 9     
+
+[PDF PAGE 10]
+                                                                                    
+                                                                                    
+                                                                                    
+      M                                                                             
+                                                                            Idea    
+                                                                                    
+                                                                                    
+      Any access and/or use of Morgan Stanley Research is subject to Morgan Stanley's Terms of Use (http://www.morganstanley.com/terms.html). By accessing and/or using Morgan Stanley
+      Research, you are indicating that you have read and agree to be bound by our Terms of Use (http://www.morganstanley.com/terms.html). In addition you consent to Morgan Stanley processing
+      your personal data and using cookies in accordance with our Privacy Policy and our Global Cookies Policy (http://www.morganstanley.com/privacy_pledge.html), including for the purposes of
+      setting your preferences and to collect readership data so that we can deliver better and more personalized service and products to you. To find out more information about how Morgan Stanley
+      processes personal data, how we use cookies and how to reject cookies see our Privacy Policy and our Global Cookies Policy (http://www.morganstanley.com/privacy_pledge.html). Please use
+      the provided link to review the Terms and Conditions and Most Important Terms and Conditions for Morgan Stanley India Company Private Limited (https://www.morganstanley.com/assets/
+      pdfs/about-us-global-offices/india/Terms_and_conditions.pdf) and the following link to review the audit report (https://ny.matrix.ms.com/eqr/research/webapp/researchdocs/
+      MSICPL_Morgan_Stanley_Research_Audit_Report.pdf).                             
+      If you do not agree to our Terms of Use and/or if you do not wish to provide your consent to Morgan Stanley processing your personal data or using cookies please do not access our research.
+      Morgan Stanley Research does not provide individually tailored investment advice. Morgan Stanley Research has been prepared without regard to the circumstances and objectives of those
+      who receive it. Morgan Stanley recommends that investors independently evaluate particular investments and strategies, and encourages investors to seek the advice of a financial adviser.
+      The appropriateness of an investment or strategy will depend on an investor's circumstances and objectives. The securities, instruments, or strategies discussed in Morgan Stanley Research
+      may not be suitable for all investors, and certain investors may not be eligible to purchase or participate in some or all of them. Morgan Stanley Research is not an offer to buy or sell or the
+      solicitation of an offer to buy or sell any security/instrument or to participate in any particular trading strategy. The value of and income from your investments may vary because of changes
+      in interest rates, foreign exchange rates, default rates, prepayment rates, securities/instruments prices, market indexes, operational or financial conditions of companies or other factors. There
+      may be time limitations on the exercise of options or other rights in securities/instruments transactions. Past performance is not necessarily a guide to future performance. Estimates of future
+      performance are based on assumptions that may not be realized. If provided, and unless otherwise stated, the closing price on the cover page is that of the primary exchange for the subject
+      company's securities/instruments.                                             
+      The fixed income research analysts, strategists or economists principally responsible for the preparation of Morgan Stanley Research have received compensation based upon various factors,
+      including quality, accuracy and value of research, firm profitability or revenues (which include fixed income trading and capital markets profitability or revenues), client feedback and competitive
+      factors. Fixed Income Research analysts', strategists' or economists' compensation is not linked to investment banking or capital markets transactions performed by Morgan Stanley or the
+      profitability or revenues of particular trading desks.                        
+      The "Important Regulatory Disclosures on Subject Companies" section in Morgan Stanley Research lists all companies mentioned where Morgan Stanley owns 1% or more of a class of common
+      equity securities of the companies. For all other companies mentioned in Morgan Stanley Research, Morgan Stanley may have an investment of less than 1% in securities/instruments or
+      derivatives of securities/instruments of companies and may trade them in ways different from those discussed in Morgan Stanley Research. Employees of Morgan Stanley not involved in the
+      preparation of Morgan Stanley Research may have investments in securities/instruments or derivatives of securities/instruments of companies mentioned and may trade them in ways different
+      from those discussed in Morgan Stanley Research. Derivatives may be issued by Morgan Stanley or associated persons.
+      With the exception of information regarding Morgan Stanley, Morgan Stanley Research is based on public information. Morgan Stanley makes every effort to use reliable, comprehensive
+      information, but we make no representation that it is accurate or complete. We have no obligation to tell you when opinions or information in Morgan Stanley Research change apart from
+      when we intend to discontinue equity research coverage of a subject company. Facts and views presented in Morgan Stanley Research have not been reviewed by, and may not reflect information
+      known to, professionals in other Morgan Stanley business areas, including investment banking personnel.
+      Morgan Stanley Research personnel may participate in company events such as site visits and are generally prohibited from accepting payment by the company of associated expenses unless
+      pre-approved by authorized members of Research management.                    
+      Morgan Stanley may make investment decisions that are inconsistent with the recommendations or views in this report.
+      To our readers based in Taiwan or trading in Taiwan securities/instruments: Information on securities/instruments that trade in Taiwan is distributed by Morgan Stanley Taiwan Limited ("MSTL").
+      Such information is for your reference only. The reader should independently evaluate the investment risks and is solely responsible for their investment decisions. Morgan Stanley Research
+      may not be distributed to the public media or quoted or used by the public media without the express written consent of Morgan Stanley. Any non-customer reader within the scope of Article
+      7-1 of the Taiwan Stock Exchange Recommendation Regulations accessing and/or receiving Morgan Stanley Research is not permitted to provide Morgan Stanley Research to any third party
+      (including but not limited to related parties, affiliated companies and any other third parties) or engage in any activities regarding Morgan Stanley Research which may create or give the
+      appearance of creating a conflict of interest. Information on securities/instruments that do not trade in Taiwan is for informational purposes only and is not to be construed as a recommendation
+      or a solicitation to trade in such securities/instruments. MSTL may not execute transactions for clients in these securities/instruments.
+      Morgan Stanley is not incorporated under PRC law and the research in relation to this report is conducted outside the PRC. Morgan Stanley Research does not constitute an offer to sell or
+      the solicitation of an offer to buy any securities in the PRC. PRC investors shall have the relevant qualifications to invest in such securities and shall be responsible for obtaining all relevant
+      approvals, licenses, verifications and/or registrations from the relevant governmental authorities themselves. Neither this report nor any part of it is intended as, or shall constitute, provision
+      of any consultancy or advisory service of securities investment as defined under PRC law. Such information is provided for your reference only.
+      Morgan Stanley Research is disseminated in Brazil by Morgan Stanley C.T.V.M. S.A. located at Av. Brigadeiro Faria Lima, 3600, 6th floor, São Paulo - SP, Brazil; and is regulated by the Comissão
+      de Valores Mobiliários; in Mexico by Morgan Stanley México, Casa de Bolsa, S.A. de C.V which is regulated by Comision Nacional Bancaria y de Valores. Paseo de los Tamarindos 90, Torre 1,
+      Col. Bosques de las Lomas Floor 29, 05120 Mexico City; in Japan by Morgan Stanley MUFG Securities Co., Ltd. and, for Commodities related research reports only, Morgan Stanley Capital Group
+      Japan Co., Ltd; in Hong Kong by Morgan Stanley Asia Limited (which accepts responsibility for its contents) and by Morgan Stanley Bank Asia Limited; in Singapore by Morgan Stanley Asia
+      (Singapore) Pte. (Registration number 199206298Z) and/or Morgan Stanley Asia (Singapore) Securities Pte Ltd (Registration number 200008434H), regulated by the Monetary Authority of
+      Singapore (which accepts legal responsibility for its contents and should be contacted with respect to any matters arising from, or in connection with, Morgan Stanley Research) and by Morgan
+      Stanley Bank Asia Limited, Singapore Branch (Registration number T14FC0118J); in Australia to "wholesale clients" within the meaning of the Australian Corporations Act by Morgan Stanley
+      Australia Limited A.B.N. 67 003 734 576, holder of Australian financial services license No. 233742, which accepts responsibility for its contents; in Australia to "wholesale clients" and "retail
+      clients" within the meaning of the Australian Corporations Act by Morgan Stanley Wealth Management Australia Pty Ltd (A.B.N. 19 009 145 555, holder of Australian financial services license
+      No. 240813, which accepts responsibility for its contents; in Korea by Morgan Stanley & Co International plc, Seoul Branch; in India by Morgan Stanley India Company Private Limited having
+      Corporate Identification No (CIN) U22990MH1998PTC115305, regulated by the Securities and Exchange Board of India (“SEBI”) and holder of licenses as a Research Analyst (SEBI Registration
+      No. INH000001105); Stock Broker (SEBI Stock Broker Registration No. INZ000244438), Merchant Banker (SEBI Registration No. INM000011203), and depository participant with National
+      Securities Depository Limited (SEBI Registration No. IN-DP-NSDL-567-2021) having registered office at Altimus, Level 39 & 40, Pandurang Budhkar Marg, Worli, Mumbai 400018, India;
+      Telephone no. +91-22-61181000; Compliance Officer Details: Mr. Tejarshi Hardas, Tel. No.: +91-22-61181000 or Email: tejarshi.hardas@morganstanley.com; Grievance officer details: Mr. Tejarshi
+      Hardas, Tel. No.: +91-22-61181000 or Email: msic-compliance@morganstanley.com. Morgan Stanley India Company Private Limited (MSICPL) may use AI tools in providing research services.
+      All recommendations contained herein are made by the duly qualified research analysts; in Germany and the European Economic Area where required by Morgan Stanley Europe S.E., authorised
+      10                                                                            
+
+[PDF PAGE 11]
+                                                                                    
+                                                                                    
+                                                                                    
+      M                                                                             
+                                                                            Idea    
+                                                                                    
+                                                                                    
+      and regulated by Bundesanstalt fuer Finanzdienstleistungsaufsicht (BaFin) under the reference number 149169; in the US by Morgan Stanley & Co. LLC, which accepts responsibility for its
+      contents. Morgan Stanley & Co. International plc, authorized by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority,
+      disseminates in the UK research that it has prepared, and research which has been prepared by any of its affiliates, only to persons who (i) are investment professionals falling within Article
+      19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) Order 2005 (as amended, the “Order”); (ii) are persons who are high net worth entities falling within Article 49(2)(a)
+      to (d) of the Order; or (iii) are persons to whom an invitation or inducement to engage in investment activity (within the meaning of section 21 of the Financial Services and Markets Act 2000,
+      as amended) may otherwise lawfully be communicated or caused to be communicated. RMB Morgan Stanley Proprietary Limited is a member of the JSE Limited and A2X (Pty) Ltd. RMB Morgan
+      Stanley Proprietary Limited is a joint venture owned equally by Morgan Stanley International Holdings Inc. and RMB Investment Advisory (Proprietary) Limited, which is wholly owned by
+      FirstRand Limited. Morgan Stanley Research is disseminated in Canada by Morgan Stanley Canada Limited and Morgan Stanley Wealth Management Canada Inc., members of the Canadian
+      Investment Regulatory Organization (CIRO). The information in Morgan Stanley Research is being disseminated by Morgan Stanley Saudi Arabia, regulated by the Capital Market Authority in
+      the Kingdom of Saudi Arabia, and is directed at Sophisticated investors only. 
+      Morgan Stanley Hong Kong Securities Limited is the liquidity provider/market maker for securities of BeOne Medicines listed on the Stock Exchange of Hong Kong Limited. An updated list can
+      be found on HKEx website: http://www.hkex.com.hk.                             
+      The information in Morgan Stanley Research is being communicated by Morgan Stanley & Co. International plc (DIFC Branch), regulated by the Dubai Financial Services Authority (the DFSA)
+      or by Morgan Stanley & Co. International plc (ADGM Branch), regulated by the Financial Services Regulatory Authority Abu Dhabi (the FSRA), and is directed at Professional Clients only, as
+      defined by the DFSA or the FSRA, respectively. The financial products or financial services to which this research relates will only be made available to a customer who we are satisfied meets
+      the regulatory criteria of a Professional Client. A distribution of the different MS Research ratings or recommendations, in percentage terms for Investments in each sector covered, is available
+      upon request from your sales representative.                                  
+      The information in Morgan Stanley Research is being communicated by Morgan Stanley & Co. International plc (QFC Branch), regulated by the Qatar Financial Centre Regulatory Authority
+      (the QFCRA), and is directed at business customers and market counterparties only and is not intended for Retail Customers as defined by the QFCRA.
+      As required by the Capital Markets Board of Turkey, investment information, comments and recommendations stated here, are not within the scope of investment advisory activity. Investment
+      advisory service is provided exclusively to persons based on their risk and income preferences by the authorized firms. Comments and recommendations stated here are general in nature. These
+      opinions may not fit to your financial status, risk and return preferences. For this reason, to make an investment decision by relying solely to this information stated here may not bring about
+      outcomes that fit your expectations.                                          
+      The trademarks and service marks contained in Morgan Stanley Research are the property of their respective owners. Third-party data providers make no warranties or representations relating
+      to the accuracy, completeness, or timeliness of the data they provide and shall not have liability for any damages relating to such data. The Global Industry Classification Standard (GICS) was
+      developed by and is the exclusive property of MSCI and S&P.                   
+      Morgan Stanley Research, or any portion thereof may not be reprinted, sold or redistributed without the written consent of Morgan Stanley.
+      Indicators and trackers referenced in Morgan Stanley Research may not be used as, or treated as, a benchmark under Regulation EU 2016/1011, or any other similar framework.
+      The issuers and/or fixed income products recommended or discussed in certain fixed income research reports may not be continuously followed. Accordingly, investors should regard those
+      fixed income research reports as providing stand-alone analysis and should not expect continuing analysis or additional reports relating to such issuers and/or individual fixed income products.
+      Morgan Stanley may hold, from time to time, material financial and commercial interests regarding the company subject to the Research report.
+      Registration granted by SEBI and certification from the National Institute of Securities Markets (NISM) in no way guarantee performance
+      of the intermediary or provide any assurance of returns to investors. Investment in securities market are subject to market risks. Read
+      all the related documents carefully before investing.                         
+          INDUSTRY COVERAGE: Biotechnology                                          
+          Company (Ticker)                      Rating (As Of)   Price* (09/08/2026)
+          Judah C. Frommer, CFA                                                     
+           4D Molecular Therapeutics Inc (FDMT.O) E (11/06/2025)       $14.63       
+           Abivax (ABVX.O)                       O (07/23/2025)        $118.95      
+           AgomAb Therapeutics NV (AGMB.O)       O (03/03/2026)        $14.91       
+           Arcutis Biotherapeutics, Inc. (ARQT.O) O (07/02/2025)       $24.39       
+           Attovia Therapeutics, Inc. (ATTO.O)   O (08/30/2026)        $23.66       
+           Avalyn Pharma Inc (AVLN.O)            O (05/25/2026)        $37.62       
+           Belite Bio Inc (BLTE.O)               O (01/06/2026)        $192.85      
+           Bicara Therapeutics (BCAX.O)          O (10/08/2024)        $23.71       
+           Celldex Therapeutics Inc (CLDX.O)     O (03/20/2025)        $39.12       
+           Compass Pathways PLC (CMPS.O)         O (08/08/2025)        $14.04       
+           enGene Holdings Inc. (ENGN.O)         U (06/18/2026)         $1.92       
+           Evommune Inc (EVMN.N)                 O (12/01/2025)        $13.08       
+           Genmab A/S (GMAB.O)                   E (02/16/2026)        $33.53       
+           Immix Biopharma (IMMX.O)              O (03/25/2026)        $13.25       
+           Incyte Corp (INCY.O)                  E (07/02/2025)        $124.40      
+           Kalaris Therapeutics (KLRS.O)         O (04/16/2026)         $3.63       
+           Kymera Therapeutics Inc (KYMR.O)      O (07/02/2025)        $116.47      
+           Lakefront Biotherapeutics (LKFT.O)    E (07/10/2026)        $27.63       
+      Morgan Stanley Research                                                11     
+
+[PDF PAGE 12]
+                                                                                    
+                                                                                    
+                                                                                    
+      M                                                                             
+                                                                            Idea    
+                                                                                    
+           ProKidney Corp (PROK.O)               E (11/10/2022)         $1.99       
+           PTC Therapeutics (PTCT.O)             O (03/06/2025)        $68.81       
+           Q32 Bio Inc (QTTB.O)                  O (08/24/2026)        $11.69       
+           Regenxbio Inc (RGNX.O)                O (11/15/2024)         $8.76       
+           Trevi Therapeutics Inc (TRVI.O)       O (08/21/2025)        $16.82       
+           Zenas Biopharma Inc (ZBIO.O)          E (01/05/2026)        $33.05       
+          Maxwell Skor                                                              
+           Achieve Life Sciences Inc (ACHV.O)    O (08/13/2026)         $7.84       
+           Adagene Inc. (ADAG.O)                 E (01/30/2025)         $3.49       
+           Ascendis Pharma A/S (ASND.O)          O (05/05/2025)        $270.09      
+           Atea Pharmaceuticals Inc (AVIR.O)     E (08/12/2024)         $5.68       
+           Bicycle Therapeutics Plc (BCYC.O)     E (02/14/2022)         $4.18       
+           CRISPR Therapeutics AG (CRSP.O)       E (06/11/2026)        $54.78       
+           Cytokinetics Inc (CYTK.O)             O (02/13/2025)        $75.35       
+           Insmed Inc (INSM.O)                   O (03/30/2026)        $124.89      
+           Monopar Therapeutics (MNPR.O)         O (01/09/2026)        $114.38      
+           Pharvaris N.V. (PHVS.O)               O (08/15/2023)        $37.84       
+           Sana Biotechnology, Inc (SANA.O)      O (03/01/2021)         $3.45       
+           Tscan Therapeutics Inc (TCRX.O)       E (11/13/2025)         $0.34       
+           Ultragenyx Pharmaceutical Inc (RARE.O) E (09/03/2026)       $14.88       
+          Michael E Ulz                                                             
+           Aardvark Therapeutics Inc. (AARD.O)   U (05/15/2026)         $5.33       
+           Alnylam Pharmaceuticals Inc (ALNY.O)  E (09/09/2022)        $260.10      
+           Arrowhead Pharmaceuticals Inc (ARWR.O) O (04/21/2026)       $85.11       
+           BioAge Labs Inc (BIOA.O)              E (12/05/2025)         $9.40       
+           Cabaletta Bio Inc (CABA.O)            O (01/27/2023)         $3.27       
+           Dyne Therapeutics Inc (DYN.O)         O (04/30/2024)        $20.31       
+           Fractyl Health Inc (GUTS.O)           E (01/29/2026)         $0.69       
+           Ionis Pharmaceuticals Inc (IONS.O)    O (07/30/2025)        $56.71       
+           Kyverna Therapeutics (KYTX.O)         O (03/04/2024)         $8.07       
+           Mirum Pharmaceuticals (MIRM.O)        O (11/13/2023)        $99.53       
+           Rhythm Pharmaceuticals Inc (RYTM.O)   O (12/19/2023)        $101.80      
+           Rocket Pharmaceuticals Inc (RCKT.O)   E (05/27/2025)         $3.71       
+           Sarepta Therapeutics Inc (SRPT.O)     E (06/16/2025)        $20.94       
+           Silence Therapeutics Plc (SLN.O)      O (05/08/2023)        $13.69       
+           Tenaya Therapeutics Inc (TNYA.O)      O (08/24/2021)         $0.66       
+           Viking Therapeutics Inc (VKTX.O)      O (06/27/2024)        $33.68       
+           Vir Biotechnology Inc (VIR.O)         O (01/08/2025)        $11.18       
+           Zentalis Pharmaceuticals Inc (ZNTL.O) E (06/18/2024)         $4.03       
+          Sean Laaman, Ph.D.                                                        
+           ABSCI CORP (ABSI.O)                   E (01/08/2026)         $8.91       
+           Acadia Pharmaceuticals Inc (ACAD.O)   E (08/06/2024)        $27.58       
+           Alector Inc (ALEC.O)                  U (11/26/2024)         $2.47       
+           argenx SE (ARGX.O)                    O (07/02/2025)       $1,007.07     
+           Axsome Therapeutics (AXSM.O)          E (01/08/2026)        $207.82      
+           BeOne Medicines (ONC.O)               O (12/02/2024)        $351.48      
+           Biomarin Pharmaceutical Inc (BMRN.O)  O (04/27/2026)        $64.63       
+           BridgeBio Oncology Therapeutics (BBOT.O) O (12/05/2025)      $8.86       
+           BridgeBio Pharma Inc (BBIO.O)         O (01/06/2026)        $74.76       
+           CG Oncology (CGON.O)                  O (02/19/2024)        $73.40       
+           Contineum Therapeutics (CTNM.O)       E (01/08/2026)        $15.94       
+           Cullinan Therapeutics (CGEM.O)        O (03/06/2025)        $21.69       
+           Denali Therapeutics Inc (DNLI.O)      O (03/06/2025)        $22.08       
+           Disc Medicine Inc (IRON.O)            O (11/04/2024)        $76.84       
+           Eikon Therapeutics Inc (EIKN.O)       O (03/02/2026)        $10.71       
+      12                                                                            
+
+[PDF PAGE 13]
+                                                                                    
+                                                                                    
+                                                                                    
+      M                                                                             
+                                                                            Idea    
+                                                                                    
+           Erasca, Inc. (ERAS.O)                 E (08/17/2025)        $16.28       
+           Exelixis Inc. (EXEL.O)                E (01/08/2026)        $57.67       
+           Generate Biomedicines Inc (GENB.O)    O (03/24/2026)        $15.90       
+           Halozyme Therapeutics, Inc (HALO.O)   O (08/05/2025)        $108.31      
+           Immunocore Holdings Ltd (IMCR.O)      E (12/12/2024)        $35.36       
+           MapLight Therapeutics (MPLT.O)        E (07/27/2026)        $13.95       
+           Neurocrine Biosciences Inc (NBIX.O)   E (01/08/2026)        $155.13      
+           Recursion Pharmaceuticals Inc (RXRX.O) E (05/22/2023)        $3.44       
+           Schrodinger Inc. (SDGR.O)             E (11/19/2021)        $20.03       
+          Terence C Flynn, Ph.D.                                                    
+           Alumis Inc. (ALMS.O)                  O (05/30/2025)        $10.58       
+           Amgen Inc. (AMGN.O)                   E (10/16/2023)        $393.17      
+           Arcus Biosciences Inc. (RCUS.N)       E (01/08/2026)        $29.06       
+           Arvinas Inc (ARVN.O)                  E (04/06/2022)         $9.08       
+           Biogen Inc (BIIB.O)                   E (10/31/2024)        $212.50      
+           Biohaven Ltd (BHVN.N)                 O (07/24/2024)        $14.72       
+           BioNTech SE (BNTX.O)                  O (09/23/2024)        $98.66       
+           Gilead Sciences Inc. (GILD.O)         O (01/10/2025)        $146.64      
+           Intellia Therapeutics Inc (NTLA.O)    E (01/26/2025)        $12.74       
+           Legend Biotech Corp (LEGN.O)          O (01/31/2022)        $20.49       
+           Moderna Inc (MRNA.O)                  E (12/16/2020)        $140.33      
+           Nurix Therapeutics Inc. (NRIX.O)      O (01/08/2026)        $26.13       
+           Prime Medicine Inc (PRME.O)           E (11/14/2022)         $3.56       
+           Regeneron Pharmaceuticals Inc. (REGN.O) E (12/03/2025)      $810.31      
+           Structure Therapeutics Inc (GPCR.O)   O (09/22/2024)        $40.38       
+           United Therapeutics Corp (UTHR.O)     E (07/11/2024)        $497.97      
+           Vertex Pharmaceuticals (VRTX.O)       O (09/01/2026)        $528.90      
+          Stock Ratings are subject to change. Please see latest research for each company.
+          * Historical prices are not split adjusted.                               
+      © 2026 Morgan Stanley                                                         
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+      Morgan Stanley Research                                                13     

@@ -1,0 +1,314 @@
+[PDF PAGE 1]
+                                                                                    
+                                                                                    
+                                                                                    
+       Equity Research                                                              
+                                                                                    
+                                                                                    
+                                                                                    
+     Flash Comment — September 9, 2026                                              
+                                                                                    
+     Biotechnology                                                                  
+     Pharvaris N.V.                                                                 
+                                                                                    
+     Management Provides Clarity on ALT Elevations and Overweight                   
+     Expresses Confidence for Launch                   Price Target: $65.00         
+                                                                                    
+                                                       Ticker                PHVS   
+     Our Call                                                                       
+                                                       Upside/(Downside) to Target 70.9%
+     At a group breakfast at the WF HC Conf, mgmt discussed data on LFT elevations: Price (09/09/2026) $38.04
+     including hepatic fragility in HAE, LFT signals in recent approvals, and ALT risk from
+                                                       52 Week Range     $20.65 - 43.25
+     androgen withdrawal. We see no impact on uptake of deucrictibant XR.           
+                                                       Market Cap (MM)      $2,589  
+                                                       Source: Company Data, Wells Fargo Securities estimates, and Factset.
+     Initial Thoughts                                  N A = Not Available, NC = No Change, NE = No Estimate
+     Patient phenotype consistent with hepatic signal. Two patients experienced ALT slightly Yanan Zhu, PhD
+     higher than 5x ULN. One pt had a history of androgen use. Note that discontinuing Equity Analyst | Wells Fargo Securities, LLC
+                                                       Yanan.Zhu@wellsfargo.com | 415-396-3194
+     androgens is a well known risk for elevated LFTs in HAE patients (see below). The pt
+     continued w/ treatment, later enrolling in the CHAPTER-4 OLE. The other pt had fatty Jeff Stith
+     liver disease and stopped deucrictibant treatment but continued to be followed, with LFTs Associate Equity Analyst | Wells Fargo Securities, LLC
+                                                       Jeff.Stith@wellsfargo.com | 631-790-7157
+     subsequently returning to normal.                                              
+                                                       Kuan-Hung Lin, PhD           
+                                                       Associate Equity Analyst | Wells Fargo Securities, LLC
+     Management cites historical LFT elevations in HAE trials. Takhzyro Phase 3 had one Kuan-Hung.Lin@wellsfargo.com | 628-629-7566
+     LFT >8× ULN and three >3× ULN. Orladeyo had one ALT >8× ULN with AST >3× ULN.  
+     Dawnzera directly targets the liver, in trials, two subjects discontinued: one >5× ULN
+     for 30 days and one ALT <5× ULN. No modern HAE LTP has an FDA label requiring on-
+     treatment LFT monitoring.                                                      
+     Danazol and withdrawal of it is hepatotoxic in HAE. Primarily used in ex-US markets,
+     20-30% of CHAPTER-3 participants had historical danazol exposure. Danazol has a
+     black box warning for hepatic injury and is also associated with steatosis in HAE. Notably,
+     discontinuation of danazol in HAE patients is now known to be associated with a transient
+     hepatitis, as described in a case series describing a 3-10x elevation of ALT, generally
+     resolving after 20 weeks of stopping therapy.                                  
+     Management expresses confidence in launch. PHVS predicts 150-250 new US patients
+     each year, and expects to be the default tx in both ODT and LTP due to efficacy and ease
+     of use. PHVS also noted optimism in switching patients from Orladeyo and also from
+     injectables (for those seeking to reduce tx burden w/o sacrificing efficacy). PHVS also
+     expects synergies in onboarding physicians and practices once both deucrictibant IR and
+     XR are approved.                                                               
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+     All estimates/forecasts are as of 9/9/2026 unless otherwise stated. 9/9/2026 13:40:44EDT. Please see page 3 for rating definitions, important disclosures and required analyst certifications.
+     Wells Fargo Securities, LLC does and seeks to do business with companies covered in its research reports. As a result, investors should be aware that the firm may have a conflict of interest that could
+     affect the objectivity of the report and investors should consider this report as only a single factor in making their investment decision.
+                                                                                    
+
+[PDF PAGE 2]
+                                                                                    
+                                                                                    
+                                                                                    
+     Biotechnology                                                    Equity Research
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+     Investment Thesis, Valuation and Risks                                         
+     Pharvaris N.V. (PHVS)                                                          
+     Investment Thesis                                                              
+     Our Overweight rating on PHVS reflects our view that deucrictibant’s strong on-demand efficacy can drive meaningful uptake, displacing
+     injectable therapies and EKTERLY. We also expect Phase 3 prophylaxis data to replicate Phase 2 results, supporting broad market capture
+     from existing oral prophylaxis therapies and high use in new starts.           
+     Target Price Valuation for PHVS                                                
+     Our $65 price target is based on a probability-adjusted DCF sum-of-the-parts analysis of deucrictibant IR and XR for HAE and AAE-
+     C1INH, assuming a 10% discount rate and no terminal growth. A 90% PoS was chosen to account for uncertainty in liver signal, awaiting
+     more data from the OLE.                                                        
+     Risks to Our Price Target and Rating for PHVS                                  
+     Key risks include safety signals in the CHAPTER-4 OLE and/or the Phase 3 CREAATE study in the prophylaxis setting, failure to secure FDA
+     approvals in either the on-demand or the prophylaxis setting, potential stickiness of patients to current HAE therapies, stronger-than-
+     expected shift of patient preference toward injectable prophylaxis options with long dosing intervals (Q3M or Q6M) or one-and-done gene
+     editing that are currently being developed by competitors.                     
+     Companies Mentioned in Report                                                  
+     Company Name                        Ticker         Last Price                  
+                                                        (09/09/26)                  
+     Pharvaris N.V.                      PHVS             $38.04                    
+     Source: Wells Fargo Securities LLC Estimates, FactSet                          
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+     2 | Equity Research                                                            
+                                                                                    
+                                                                                    
+
+[PDF PAGE 3]
+                                                                                    
+                                                                                    
+                                                                                    
+     Pharvaris N.V.                                                   Equity Research
+                                                                                    
+                                                                                    
+                                                                                    
+     Required Disclosures                                                           
+                                                                                    
+     I, Yanan Zhu, certify that:                                                    
+     1) All views expressed in this research report accurately reflect my personal views about any and all of the subject securities or issuers discussed; and
+     2) No part of my compensation was, is, or will be, directly or indirectly, related to the specific recommendations or views expressed by me in this research report.
+     Wells Fargo Securities, LLC does not compensate its research analysts based on specific investment banking transactions. Wells Fargo Securities, LLC’s research
+     analysts receive compensation that is based upon and impacted by the overall profitability and revenue of the firm, which includes, but is not limited to investment
+     banking revenue.                                                               
+     Additional Information Available Upon Request                                  
+                                                                                    
+                              Pharvaris N.V. Rating History as of 09-08-2026        
+                                     powered by: BlueMatrix                         
+         I:BUY:$55.00                                                               
+         07/15/2026                                                                 
+       60                                                                           
+       50                                                                           
+                                                                                    
+       40                                                                           
+       30                                                                           
+                                                                                    
+       20                                                                           
+                                                                                    
+       10                                                                           
+        Oct 23 Jan 24 Apr 24 Jul 24 Oct 24 Jan 25 Apr 25 Jul 25 Oct 25 Jan 26 Apr 26 Jul 26
+                                                                                    
+                                   Closing Price Price Target                       
+           Initiation (I); Drop Coverage (D); Overweight (BUY); Equal Weight (HOLD); Underweight (SELL); Suspended (SR); Not Rated (NR); No Estimate (NE)
+                                                                                    
+                                                                                    
+     Wells Fargo Securities, LLC, or its affiliates received compensation for investment banking services from Pharvaris N.V. in the past 12 months.
+     Wells Fargo Securities, LLC, or its affiliates, managed or co-managed a public (or 144a) offering of securities for Pharvaris N.V. within the past 12 months.
+     Wells Fargo Securities, LLC, or any of its affiliates, intends to seek or expects to receive compensation for investment banking services from Pharvaris N.V. in the
+     next three months.                                                             
+     Pharvaris N.V. currently is, or during the 12 month period preceding the date of distribution of the research report was, a client of Wells Fargo Securities, LLC. Wells
+     Fargo Securities, LLC, provided investment banking services to Pharvaris N.V.. 
+     STOCK RATING                                                                   
+     OW=Overweight: Total return on stock expected to be 10%+ over the next 12 months. (BUY)
+     EW=Equal Weight: Total return on stock expected to be -10% to +10% over the next 12 months. (HOLD)
+                                                                                    
+     UW=Underweight: Total return on stock expected to lag the Overweight- and Equal Weight-rated stocks within the analyst's coverage universe over the next 12
+     months. (SELL)                                                                 
+     NR=Not Rated: The rating and price target has been removed due to lack of fundamental basis to support the recommendation or due to legal, regulatory or
+     company policy considerations.                                                 
+     FINRA regulation requires member firms to assign ratings to one of three rating categories: Buy, Hold and Sell. In accordance with FINRA regulation and solely to
+     satisfy those disclosure requirements in the ratings distribution table and ratings history chart contained in these Required Disclosures, our rating of Overweight
+     corresponds to a Buy rating; Equal Weight corresponds to a Hold rating; and Underweight corresponds to a Sell rating.
+     As of September 8, 2026                                                        
+     53.9% of companies covered by Wells Fargo Securities, LLC Equity Research are rated Overweight. (BUY)
+     39.7% of companies covered by Wells Fargo Securities, LLC Equity Research are rated Equal Weight. (HOLD)
+     6.4% of companies covered by Wells Fargo Securities, LLC Equity Research are rated Underweight. (SELL)
+                                                                      Equity Research | 3
+                                                                                    
+                                                                                    
+
+[PDF PAGE 4]
+                                                                                    
+                                                                                    
+                                                                                    
+     Biotechnology                                                    Equity Research
+                                                                                    
+                                                                                    
+                                                                                    
+     Wells Fargo Securities, LLC has provided investment banking services for 42.6% of its Equity Research Overweight-rated companies. (BUY)
+     Wells Fargo Securities, LLC has provided investment banking services for 37.8% of its Equity Research Equal Weight-rated companies. (HOLD)
+     Wells Fargo Securities, LLC has provided investment banking services for 34.3% of its Equity Research Underweight-rated companies. (SELL)
+     Important Disclosure for U.S. Clients                                          
+     This report was prepared by Wells Fargo Securities Global Research Department (“WFS Research”) personnel associated with Wells Fargo Securities, LLC ("Wells
+     Fargo Securities").                                                            
+     WFS Research may, from time to time, provide clients with short-term trading views in its research reports regarding subject companies on which Wells Fargo
+     Securities currently has equity research coverage. A short-term trading view offers a view on how the market price of a subject company’s common equity may
+     trend in absolute terms during the 90 days following the date of the short-term trading view. A short-term trading view on a subject company’s common equity
+     does not impact our fundamental investment rating or price target for that company, which reflect our view of how the subject company’s common equity may
+     perform over a one-year period. A short-term trading view may reach a different conclusion than the firm’s fundamental investment rating and price target for
+     a subject company and, therefore, short-term trading views could result in short-term price movements that are contrary to our fundamental investment rating
+     and price target. Short-term trading views are not ratings and the firm does not intend, nor undertakes any obligation, to maintain, update or close out short-term
+     trading views. Short-term trading views may not be suitable for all investors and have not been tailored to individual investor circumstances and objectives, and
+     investors should make their own independent decisions regarding any short-term trading views discussed in WFS Research reports.
+     Important Disclosure for International Clients                                 
+     United Kingdom – The securities and related financial instruments described herein may not be eligible for sale in all jurisdictions or to certain categories of
+     investors. For recipients in the United Kingdom, this report is distributed by Wells Fargo Securities International Limited (“WFSIL”). WFSIL is a UK incorporated
+     investment firm authorised and regulated by the Financial Conduct Authority. For the purposes of Section 21 of the UK Financial Services and Markets Act 2000
+     (the “Act”), the content of this report has been approved by WFSIL, an authorised person under the Act. WFSIL does not deal with retail clients as defined in the
+     Directive 2014/65/EU (“MiFID2”). The FCA rules made under the Financial Services and Markets Act 2000 for the protection of retail clients will therefore not apply,
+     nor will the Financial Services Compensation Scheme be available. This report is not intended for, and should not be relied upon by, retail clients. For the purposes of
+     the U.K. Financial Conduct Authority's rules, this report constitutes impartial investment research.
+     EEA – The securities and related financial instruments described herein may not be eligible for sale in all jurisdictions or to certain categories of investors. For
+     recipients in the EEA, this report is distributed by WFSIL or Wells Fargo Securities Europe S.A. (“WFSE”). WFSE is a French incorporated investment firm authorized
+     and regulated by the Autorité de contrôle prudentiel et de résolution and the Autorité des marchés financiers. WFSE does not deal with retail clients as defined in
+     the Directive 2014/65/EU (“MiFID2”). This report is not intended for, and should not be relied upon by, retail clients.
+     Australia – Wells Fargo Securities, LLC and Wells Fargo Securities International Limited are exempt from the requirements to hold an Australian financial services
+     license in respect of the financial services they provide to wholesale clients in Australia. Wells Fargo Securities, LLC is regulated under the laws of the United
+     States and Wells Fargo Securities International Limited is regulated under laws of the United Kingdom. All such laws differ from Australian laws. Any offer or
+     documentation provided to Australian recipients by Wells Fargo Securities, LLC or Wells Fargo Securities International Limited in the course of providing the
+     financial services will be prepared in accordance with the laws of the United States or United Kingdom and not Australian laws.
+     Canada – This report is distributed in Canada by Wells Fargo Securities Canada, Ltd., a registered investment dealer in Canada and member of the Canadian
+     Investment Regulatory Organization (CIRO) and, Member – Canadian Investor Protection Fund (CIPF). Wells Fargo Securities, LLC’s research analysts may
+     participate in company events such as site visits but are generally prohibited from accepting payment or reimbursement by the subject companies for associated
+     expenses unless pre-authorized by members of Research Management.              
+     China – Strictly Private and Confidential. For the sole use of the recipient only. Not to be copied or redistributed within the People’s Republic of China.
+     Brazil - This report was not created for distribution to investors resident in Brazil or to the Brazilian public in general. Wells Fargo Securities, LLC is a broker-dealer
+     registered in United States of America with and regulated by the U.S. Securities and Exchange Commission. Wells Fargo Securities, LLC is not registered in Brazil
+     and its products, including this report and the securities mentioned in this report, have not been and will not be publicly issued, placed, distributed, offered or
+     negotiated in the Brazilian capital markets, and, as a result, have not been and will not be registered with the Brazilian Securities Commission (Comissão de Valores
+     Mobiliários, the CVM). The offer of Wells Fargo Securities, LLC's products, including this report and any securities mentioned in this report, is intended only for
+     residents in the countries in which Wells Fargo Securities, LLC is authorized to operate.
+     About Wells Fargo Securities                                                   
+     Wells Fargo Securities is the trade name for the capital markets and investment banking services of Wells Fargo & Company and its subsidiaries, including but not
+     limited to Wells Fargo Securities, LLC, a U.S. broker-dealer registered with the U.S. Securities and Exchange Commission and a member of NYSE, FINRA, NFA and
+     SIPC, Wells Fargo Prime Services, LLC, a member of FINRA, NFA and SIPC, Wells Fargo Securities Canada, Ltd., a member of IIROC and CIPF, Wells Fargo Bank, N.A.
+     and Wells Fargo Securities International Limited, authorized and regulated by the Financial Conduct Authority.
+     This report is for your information only and is not an offer to sell, or a solicitation of an offer to buy, the securities or instruments named or described in the report.
+     This report, including any ratings it contains, does not constitute a personal recommendation or take into account the particular investment objectives, financial
+     situations, or needs of individual clients. Clients should seek professional advice, including tax advice, to determine whether any advice or recommendation in the
+     attached research report is suitable for their particular circumstances. The information in this report is provided as of the date of the report and has been obtained
+     or derived from sources believed by WFS Research to be reliable, but WFS Research does not represent that this information is accurate or complete. Any opinions
+     or estimates contained in this report represent the judgment of WFS Research, at the time that the report was published, and are subject to change without notice.
+     All Wells Fargo Securities research reports published by WFS Research are disseminated and available to all clients simultaneously through electronic publication to
+     our internal client websites. Clients may also receive our research via third party vendors. Not all research content is redistributed to our clients or available to third-
+     party aggregators, nor is WFS Research responsible for the redistribution of our research by third-party aggregators.
+     4 | Equity Research                                                            
+
+[PDF PAGE 5]
+                                                                                    
+                                                                                    
+                                                                                    
+     Pharvaris N.V.                                                   Equity Research
+                                                                                    
+                                                                                    
+                                                                                    
+     Equity Strategists focus on investment themes across the equity markets and sectors. Any discussion within an Equity Strategy report of specific securities is not
+     intended to provide a fundamental analysis of any individual company described therein. The information provided in Equity Strategy reports is subject to change
+     without notice, and investors should not expect continuing information or additional reports relating to any security described therein.
+     Clients of WFS Research are permitted to store, display, analyze, modify, reformat, copy, duplicate and reproduce this report and the information contained
+     within it for their own internal use and for no other purpose. Without the prior written consent of Wells Fargo Securities, no part of this report may be copied,
+     duplicated or reproduced in any form by any other means. In addition, this report and its contents may not be redistributed or transmitted to any other party in
+     whole or in part, directly or indirectly, including by means of any AI Technologies (defined below) through which this report or any portion thereof may be accessible
+     by any third-party. “AI Technologies” means any deep learning, machine learning, and other artificial intelligence technologies, including without limitation any
+     and all (a) proprietary algorithms, software, or systems that make use of or employ neural networks, statistical learning algorithms (such as linear and logistic
+     regression, support vector machines, random forests or k-means clustering) or reinforcement learning, or curated data sets accessible by any of the foregoing or (b)
+     proprietary embodied artificial intelligence and related hardware or equipment.
+     In addition, certain text, images, graphics, screenshots and audio or video clips included in this report are protected by copyright law and owned by Wells Fargo
+     Securities, its affiliates or one or more third parties (collectively, “Protected Content”). Protected Content is made available to clients by Wells Fargo under license
+     or otherwise in accordance with applicable law. Any use or publication of Protected Content included in this report for purposes other than fair use requires
+     permission from Wells Fargo Securities or, in the case of content attributed to any third party, the third-party copyright owner. You may not alter, obscure, or
+     remove any copyright, trademark or any other notices attached to or contained within this report. These Conditions of Use are not intended to, and will not, transfer
+     or grant any rights in or to the report or the information contained within it other than those rights that are specifically described herein. All rights not expressly
+     granted herein are reserved by Wells Fargo Securities or the third-party providers from whom Wells Fargo Securities has obtained the applicable information.
+     Any external website links included in this publication are not maintained, controlled or operated by Wells Fargo Securities. Wells Fargo Securities does not provide
+     the products and services on these websites and the views expressed on these websites do not necessarily represent those of Wells Fargo Securities. Please review
+     the applicable privacy and security policies and terms and conditions for the website you are visiting.
+     Copyright © 2026 Wells Fargo Securities, LLC                                   
+       SECURITIES: NOT FDIC-INSURED - MAY LOSE VALUE - NO BANK GUARANTEE            
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                      Equity Research | 5
+                                                                                    
+                                                                                    

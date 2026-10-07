@@ -6,7 +6,7 @@ Latest framing: [IR/XR patient segmentation, access, interactions and historical
 
 Can a clinically attractive oral HAE drug generate enough sustained, reimbursed demand to exceed the expectations embedded in PHVS? The developing short case focuses on commercial differentiation, access, persistence, treatment intensity and execution. A successful approval or efficacy readout alone does not resolve valuation. Conversely, commercial friction alone does not establish an overvalued stock.
 
-The strongest long case is a convenient oral treatment with compelling attack control, switching from dissatisfied incumbents, conversion of acute-only patients to prophylaxis, and execution improvements that turn free starts into paid patients. Test that case as seriously as the short. No completed consensus bridge, market-implied valuation or defensible price target has yet been produced.
+The strongest long case is a convenient oral treatment with compelling attack control, switching from dissatisfied incumbents, conversion of acute-only patients to prophylaxis, and execution improvements that turn free starts into paid patients. Test that case as seriously as the short. A conditional reverse-valuation skeleton is now available (below); it is not an identified consensus bridge or defensible final price target.
 
 ## Clinical audit and corrections
 
@@ -98,7 +98,13 @@ Acute revenue depends on residual attacks, propensity to treat, doses per attack
 
 The next highest-information evidence would be longitudinal specialty-pharmacy/hub or claims cohorts with prior treatment, first dispense, paid status, persistence and subsequent switching. Free product and specialty-channel incompleteness must be assessed. No paid data purchase or external interview has been performed.
 
-Remaining valuation work: current expectations/consensus, net price, cohort adoption/persistence, commercial spending, funding/dilution, territorial economics and correlated IR/XR risks. Original scope explicitly deferred a complete DCF and final price target.
+7 October reverse SOTP extension: user supplied two ZIPs containing13 PHVS and6 BCRX reports and authorized a reverse DCF skeleton. [Model method, source audit and initial results](models/reverse_dcf/README.txt); [editable workbook](outputs/01a111f7-26b0-7fc2-b98f-41db76412d40/PHVS_reverse_SOTP_DCF.xlsx). Twelve distinct PHVS broker targets are retained, with same-day stale Leerink figures superseded. No agents or paid collection were used.
+
+The initial normalized scenario uses Guggenheim's90%/90%PoS,12.5%discount rate and negative5%terminal growth with separate IR/XR ramps. Other undisclosed inputs are labeled assumptions. Source revenue probability basis remains unconfirmed; the model exposes both interpretations. Printed Guggenheim tax arithmetic is inconsistent, so the source table is preserved separately and is not blindly replicated. Morgan Stanley's explicit XR90%update supersedes a stale70%sidebar. Broker methods and parameters must not be averaged into synthetic consensus.
+
+At the dated$31.83snapshot, the common-scale solution is0.842x the assumed success-case reference path;2036 worldwide success-case revenue is$834mIR/$517mXR. The$44 one-year PT needs0.966x. No terminal value raises the spot scale to1.282x. Holding IR fixed instead changes the required XR scale to0.594x. These are conditional requirements, not uniquely inferred market beliefs or independent peak forecasts. XR2029–32 required sales are1.16/0.86/0.87/0.78x Orladeyo's first four full calendar years, before adjusting price, territory and launch timing. Ekterly's roughly six commercial months are not a matched PHVS launch year.
+
+Formula recalculation, scenario repricing, independent cash-flow bisection, native chart bindings and all five tab previews were checked. Native Excel execution was not tested. No final price target, cohort adoption model or Monte Carlo is complete. Remaining valuation work: net price, patient adoption/persistence, spending, funding/dilution, territorial economics, explicit patent erosion and joint IR/XR success/failure states. Broader adoption collection remains deferred until these reverse-valuation assumptions are assessed.
 
 ## Reference pitches and historical provenance
 

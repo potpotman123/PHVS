@@ -1,0 +1,790 @@
+[PDF PAGE 1]
+                                                                                    
+                                                                                    
+                                                                                    
+     PHARVARIS      N.V.                                                            
+                                                                                    
+     (NASDAQ: PHVS)                                                                 
+                                                                                    
+     OUTPERFORM                                                                     
+                                                                                    
+     Biopharma / Rare Diseases                    Reason for report:                
+                                                  PROPRIETARY INSIGHTS              
+     CHAPTER-3 Hits Our Bull Case—NDA Submission                                    
+                                                  Key Stats                         
+     in 1H27; PT to $65                                                             
+                                                  S&P 500 Health Care Index: 1,996.03
+     September 8, 2026                                                              
+                                                  Price:                   $37.84   
+     ● Bottom Line: We are raising our price target after PHVS Price Target: $65.00 from $50.00
+      reported stellar Ph3 topline data for deucrictibant in 52-Week High – Low: $43.25 - $20.65
+      Hereditary Angioedema/HAE. 83% attack-rate reduction Shares Outstanding (mil): 68.1
+      (87% in Type I & II) is in line with our bull case and means Market Capitalization (mil): $2,576.9
+      deucrictibant has injectable-like efficacy with convenient oral Book Value/Share: €3.47
+      dosing. The two debates that surround the readout are: 1) what Cash Per Share: €4.68
+      is the significance of the two liver enzyme elevations, and 2) can Dividend (ann): -
+      deucrictibant get a broad label with only 5 nC1INH patients and a             
+      mixed efficacy response. We don't think the liver enzymes are a Dec Yr        
+      cause for concern (see our note), and even without normal C1 on 2026E 2026E 2027E 2027E
+                                                        2025A (New) (Old) (New) (Old)
+      the label (we estimate ~1000 US pts), we see broad uptake for                 
+                                                  Q1     0.0  0.0A --   0.0  --     
+      deucrictibant in both the prophylactic and on-demand settings. Q2 0.0 0.0A -- €4.2 €4.1
+                                                  Q3     0.0  0.0  --  €12.7 €12.4  
+      While this success may have been baked in following a strong Q4 0.0 0.0 -- €23.8 €21.1
+                                                  FY Rev 0.0  0.0  --  €40.6 €37.7  
+      year for the stock, we think this is an overwhelmingly positive Q1 (€0.85) (€0.60)A -- (€0.77) (€0.74)
+                                                  Q2    (€0.83) (€0.70)A -- (€0.71) (€0.68)
+      readout and positions PHVS as a prime take-out candidate. If we Q3 (€0.60) (€0.76) (€0.75) (€0.60) (€0.57)
+                                                  Q4    (€0.72) (€0.77) (€0.76) (€0.46) --
+      apply KalVista's 2.8x peak sales acquisition multiple to PHVS' FY EPS (€3.00) (€2.83) (€2.81) (€2.54) (€2.46)
+      platform (~$2B consensus peak sales), that implies a valuation of             
+      ~$5.5B. Model Updates: We are increasing our POS for prophy                   
+      to 95% which brings our PT to $65 (up from $50). Reiterate                    
+      Outperform.                                                                   
+     ● Continued Within...                                                          
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                  Joseph P. Schwartz                
+                                                  (617) 918-4575                    
+                                                  joe.schwartz@leerink.com          
+                                                  Leona Nease, Ph.D.                
+                                                  (212) 277-6095                    
+                                                  leona.nease@leerink.com           
+     Source: Company Information and Leerink Partners LLC Research.                 
+     Quarterly figures may not sum to annual total due to change in shares outstanding.
+                                                                                    
+      Please refer to page 8 for Important Disclosures, Price Charts and Analyst Certification.
+                                                                                    
+                                                                                    
+
+[PDF PAGE 2]
+                                                                                    
+                                                                                    
+                                                                                    
+        PHARVARIS N.V.                                                              
+                                                                                    
+        September 8, 2026                                                           
+                                                                                    
+                                                                                    
+        ● Deucrictibant XR has injectable-like efficacy in a daily oral pill. Treatment
+          with deucrictibant XR in participants with all types of hereditary angioedema
+          (HAE) showed 83% attack rate reduction (p<0.0001). In Type I and II HAE, which
+          more closely resembles other prophylactic clinical trial populations, attack rate
+          reduction was 87%. Protection onset was rapid (therapeutic exposure within a day,
+          steady state in 2–3 days) and durable through 24 weeks, and nearly half of treated
+          patients were completely attack-free for the full treatment period.       
+        ● Liver enzymes should not impact labeling. There were 3 Gr3 AEs: 1 tooth   
+          infection and 2 "Level 2" liver enzyme elevations (3.6%, 2/55, defined as level
+          2 by FDA guidance here, Table 56). Per mgmt, these elevations were 'slightly
+          above' 5xULN and asymptomatic with no elevated bilirubin. Both patients had
+          confounding factors: either long term androgen therapy (continued therapy and
+          completed the trial) or fatty liver disease (discontinued trial). The discontinuation in
+          the pbo arm was due to urticaria. By definition, a Gr3 elevation is >5-20x ULN, and
+          it appears these elevations are on the low end of that range. We are encouraged
+          that bilirubin was not affected and that this has not been seen in any prior studies.
+          Recall, TAK's (Not Rated) Takhzyro had three liver enzyme elevations >3xULN
+          and one elevation >8xULN in its Ph3, and one patient discontinued due to  
+          elevated LFTs (AST 4.1x ULN). In the Orledayo (BCRX, Not Rated) Ph3, there
+          was one asymptomatic Gr4 ALT elevation in a patient with previous androgen
+          exposure who discontinued the study drug. Taken together, we do not believe
+          these elevations reported today will warrant liver monitoring on the label.
+        ● Efficacy in nC1INH was mixed, though lack of broad label does not change  
+          the thesis. There were only 5 patients with HAE with normal C1 inhibitor  
+          (nC1INH) in the trial: 2 in pbo and 3 in the treatment arm. Of those treated,
+          one patient had <50% attack rate reduction, one was at 90%, and one was   
+          fully attack free. We estimate ~1,000 nC1INH patients are in the US, though
+          genetic testing is not standard, so many patients are initially treated as Type I
+          or II patients. Still, deucrictibant's direct mechanism on the bradykinin receptor
+          makes sense for nC1INH, so we don't expect there to be any competition from
+          other prophylactic therapies in this population. Even without nC1INH in the label,
+          we expect deucrictibant to be used broadly in prophylactic HAE, and the lower
+          penetration in nC1INH does not meaningfully impact our peak sales (~$1.3B in
+          2038).                                                                    
+        ● What's next for deucrictibant: NDA submission in 1H27. CHAPTER-4 OLE      
+          study of deucrictibant XR for the prophylaxis of HAE attacks is ongoing, and the
+          data are gating to expected NDA submission in 1H27. Topline data from Part 1 of
+          CREAATE (NCT07266805), a global, pivotal Ph3 evaluating deucrictibant XR for
+          the prevention of AAE-C1INH attacks, are anticipated in the 1Q27. Enrollment in
+          CREAATE is ongoing and progressing as planned. Commercially, PHVS says it 
+          will have ~95% of its sales infrastructure staffed by YE26 and is targeting >90%
+          live payer coverage conversations by on-demand approval, using CHAPTER    
+          1 Ph2 prophy data today to pre-condition payers ahead of the prophy launch.
+          Management also confirmed EU filing validation with EMA is already in motion
+          alongside the US filing.                                                  
+        ● The valuation is compelling. The company is currently trading around a $2.5B
+          market capitalization. This is just above the range of KalVista's (Private) takeout
+          valuation ($1.9B), a deal that centered entirely around an oral on-demand 
+          medication (see here). Considering Pharvaris has both an oral on-demand and
+                                                                                    
+                                                                              2     
+                                                                                    
+
+[PDF PAGE 3]
+                                                                                    
+                                                                                    
+                                                                                    
+        PHARVARIS N.V.                                                              
+                                                                                    
+        September 8, 2026                                                           
+                                                                                    
+                                                                                    
+          prophylactic option, each with potential best-in-class positioning, we view the
+          current valuation as compelling for Pharvaris. For reference, KalVista was taken
+          out at 2.8x peak sales (on-demand only). If we apply the same multiple to current
+          consensus estimates for Pharvaris' platform (~$2B peak across on-demand and
+          prophylaxis), that implies a valuation of ~$5.5B. We think deucrictibant makes
+          sense for any pharma with an existing presence in allergy/immunology.     
+        ● Updates to the model. We increased our POS for deucrictibant in prophylactic
+          HAE to 95% (up from 60%). We lowered peak penetration in normal C1 to 15% to
+          reflect uncertainty around potential labeling, though many C1INH patients are not
+          genetically tested so they are treated as Type I or II HAE patients. We note there
+          is additional upside remaining in the acquired angioedema due to C1-inhibitor
+          deficiency (AAE-C1INH) population which is currently ongoing in Ph3 with data
+          expected in 1Q27.                                                         
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                              3     
+                                                                                    
+
+[PDF PAGE 4]
+                                                                                    
+                                                                                    
+                                                                                    
+        PHARVARIS N.V.                                                              
+                                                                                    
+        September 8, 2026                                                           
+                                                                                    
+                                                                                    
+        INVESTMENT   THESIS                                                         
+                                                                                    
+        We rate PHVS shares Outperform. PHVS, led by an experienced and deeply      
+        knowledgeable management team, is developing therapies for those with rare diseases,
+        with a focus on hereditary angioedema (HAE), targeting the well-understood and clinically
+        validated bradykinin B2 receptor. While there are many efficacious HAE therapies available,
+        most require burdensome subcutaneous injections or infusions, inconvenient dosing
+        regimens, or undesired side effects, all of which further disrupt the life of the patient.
+        Numerous patient surveys and conversations with KOLs demonstrate the need for new and
+        more convenient therapy options. PHVS is building a budding HAE platform around its lead
+        asset, deucrictibant, a first-in-class, oral small molecule antagonist of the bradykinin B2
+        receptor, which has the potential to offer comparable efficacy to currently available therapy
+        while also allowing for discrete and quick oral administration. In our view, deucrictibant is
+        partially de-risked, as icatibant (Firazyr), an approved therapy for HAE, utilizes a similar
+        mechanism that acts directly at the bradykinin B2 receptor to treat all types of HAE by
+        inhibiting bradykinin interaction with its bradykinin B2 receptor target. While extremely
+        efficacious, icatibant, like many of the approved therapies, is limited as it requires an invasive
+        route of administration, a major sticking point for patients. PHVS plans to leverage the same
+        API and is developing deucrictibant into two different formulations: a soft-capsule form
+        (PHVS416) for the on-demand treatment of an HAE attack, and an extended-release tablet
+        formulation (PHVS719) for the prevention of HAE attacks. We ascribe an 95% probability
+        of success (PoS) to deucrictibant for the treatment of on-demand attacks, and project
+        gross peak sales of ~$440M in 2037E. As for deucrictibant for the prophylaxis treatment
+        of HAE attacks, we ascribe a 95% PoS and project gross peak sales of ~$1.3B in 2038E.
+        Additionally, PHVS is exploring deucrictibant in acquired angioedema due to C1 inhibitor
+        deficiency, which is not currently included in our valuation.               
+        VALUATION                                                                   
+                                                                                    
+                                                                                    
+        We derive a one-year PT of $65 for PHVS based on a DCF analysis using a 13% discount
+        rate and a 2% terminal growth rate, converting the implied market cap from EUR to USD
+        by using a 6-month FX average, representing an implied ~$3.8B market capitalization.
+        Our valuation is driven by probability-adjusted revenue for the two different formulations
+        of deucrictibant for HAE. We ascribe a 95% PoS for on-demand and a 95% PoS for
+        prophylaxis.                                                                
+        RISKS  TO VALUATION                                                         
+                                                                                    
+        As a late-clinical-stage company, risks to PHVS include potential clinical, regulatory,
+        and financial setbacks. Promising early clinical data may not translate to success in later-
+        stage development. Regulatory decisions are unpredictable and may adversely affect
+        the commercial potential of Pharvaris product candidates. Competition in the hereditary
+        angioedema space (e.g., Takhzyro, Haegarda, Ekterly, Orladeyo) may limit commercial
+        success(es) of Pharvaris products, if approved. From a financial perspective, dilutive
+        financing is a potential risk. Other unanticipated situations could arise that may negatively or
+        positively impact the stock.                                                
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                              4     
+                                                                                    
+
+[PDF PAGE 5]
+                                    95252_f2bf5c01-8bf5-4321-848f-af7c74b8666c.pdf                           
+                                                                                                             
+                                                                                                             
+     PHARVARIS N.V.                                                                                          
+                                                                                                             
+     September 8, 2026                                                                                       
+                                                                                                             
+   Pharvaris P&L (€MM) 2018 2019 2020 2021 2022 2023 2024 2025 1Q26 2Q26 3Q26E 4Q26E 2026E 1Q27E 2Q27E 3Q27E 4Q27E 2027E 2028E
+   Deucrictibant (On-Demand) - - - -    -   -    -   -    -   -    -   -    -   -    4 .2 1 2.7 1 6.9 3 3.8 1 08.0
+   Deucrictibant (Prophylaxis) - - - -  -   -    -   -    -   -    -   -    -   -    -   -    6 .8 6 .8 1 05.7
+   Other Revenue      -   -    -   -    -   -    -   -    -   -    -   -    -   -    -   -    -   -    -     
+   Total Revenue      -   -    -   -    -   -    -   -    -   -    -   -    -   -    4 .2 1 2.7 2 3.8 4 0.6 2 13.6
+   COGS               -   -    -   -    -   -    -   -    -   -    -   -    -   -    0 .6 1 .9 3 .6 6 .1 3 2.0
+   R&D                3 .6 5 .7 1 9.5 3 5.8 5 7.4 6 5.6 9 8.6 1 24.5 3 0.2 3 5.0 3 5.4 3 6.1 1 36.6 3 5.7 3 5.0 3 4.3 3 3.6 1 38.6 1 17.5
+   SG&A               0 .7 2 .3 5 .5 1 8.3 2 9.3 3 1.3 4 7.1 4 5.3 1 4.1 1 5.8 1 6.3 1 6.7 6 2.9 1 7.3 1 7.8 1 8.3 1 8.5 7 1.8 9 1.9
+   Total OpEx         4 .3 8 .0 2 5.0 5 4.1 8 6.7 9 6.9 1 45.7 1 69.8 4 4.3 5 0.8 5 1.6 5 2.8 1 99.5 5 2.9 5 3.4 5 4.5 5 5.6 2 16.5 2 09.4
+   Operating Income (Loss) (4.3) (8.0) (25.0) (54.1) (86.7) (96.9) (145.7) (169.8) (44.3) (50.8) (51.6) (52.8) (199.5) (52.9) (49.2) (41.8) (31.9) (175.8) (27.8)
+   Foreign Currency Exchange Gain (Loss) (0.0) 0 .0 (1.1) 1 1.5 1 1.1 (3.1) 7 .9 (0.0) - - - - - - - - - - - 
+   Other Income       -   -    -   0 .0 -   0 .2 5 .4 (3.9) 5 .3 3 .5 - -   8 .9 -   -   -    -   -    -     
+   Total Other Income (0.0) 0 .0 (1.1) 1 1.5 1 1.1 (2.9) 1 3.3 (3.9) 5 .3 3 .5 - - 8 .9 - - - -   -    -     
+   Pre-tax Income (Loss) (4.3) (8.0) (26.1) (42.6) (75.7) (99.8) (132.4) (173.7) (38.9) (47.2) (51.6) (52.8) (190.6) (52.9) (49.2) (41.8) (31.9) (175.8) (27.8)
+   Income Tax (Benefit) - -   (0.1) 0 .1 0 .7 (1.0) 1 .8 2 .0 0 .3 0 .6 - - 0 .9 -   -   -    -   -    -     
+   Net Income (Loss) (4.3) (8.0) (26.0) (42.7) (76.3) (100.9) (134.2) (175.7) (39.1) (47.8) (51.6) (52.8) (191.5) (52.9) (49.2) (41.8) (31.9) (175.8) (27.8)
+   EPS GAAP        € (0.89) € (1.65) € (5.36) € (2.16) € (2.27) € (2.63) € (2.48) € (3.00) € (0.60) € (0.70) € (0.76) € (0.77) € (2.83) € (0.77) € (0.71) € (0.60) € (0.46) € (2.54) € (0.38)
+   Basic Shares Outstanding 4 .8 4 .8 4 .8 1 9.7 3 3.6 3 8.4 5 4.0 5 9.2 6 5.4 6 8.1 6 8.3 6 8.6 6 7.6 6 8.8 6 9.1 6 9.3 6 9.6 6 9.2 7 3.7
+   Diluted Shares Outstanding 4 .8 4 .8 4 .8 1 9.7 3 3.6 3 8.4 5 4.0 5 9.2 6 5.4 6 8.1 6 8.3 6 8.6 6 7.6 6 8.8 6 9.1 6 9.3 6 9.6 6 9.2 7 3.7
+   Pharvaris BS & Cash Flow (€MM) 2018 2019 2020 2021 2022 2023 2024 2025 1Q26 2Q26 3Q26E 4Q26E 2026E 1Q27E 2Q27E 3Q27E 4Q27E 2027E 2028E
+   Net Cash           5 .4 2 0.3 9 8.6 2 09.4 1 61.8 3 91.0 2 80.7 2 91.7 2 47.0 3 18.3 2 71.7 2 24.0 2 24.0 1 76.2 1 32.2 9 5.4 6 8.6 6 8.6 2 61.2
+   Cash & Cash Equivalents 5 .4 2 0.3 9 8.6 2 09.4 1 61.8 3 91.0 2 80.7 2 91.7 2 47.0 3 18.3 2 71.7 2 24.0 2 24.0 1 76.2 1 32.2 9 5.4 6 8.6 6 8.6 2 61.2
+   Debt               -   -    -   -    -   -    -   -    -   -    -   -    -   -    -   -    -   -    -     
+   Change in Cash     0 .6 1 5.0 7 9.7 9 9.0 (58.7) 2 32.3 (118.0) 2 3.3 (49.4) 6 8.6 (46.6) (47.7) (75.1) (47.8) (44.0) (36.7) (26.8) (155.4) 1 92.6
+   Operating Cash Flow (3.9) (6.6) (21.5) (44.6) (67.2) (93.0) (120.1) (137.1) (48.8) (37.8) (46.5) (47.5) (180.6) (47.7) (43.9) (36.6) (26.7) (154.8) (6.8)
+   Investing Cash Flow -  0 .0 (0.0) (0.1) (0.1) (0.1) (0.5) (0.2) (0.1) (0.0) (0.2) (0.2) (0.4) (0.2) (0.2) (0.2) (0.2) (0.6) (0.6)
+   Financing Cash Flow 4 .5 2 1.6 1 01.2 1 43.7 8 .7 3 25.4 2 .7 1 60.6 (0.6) 1 06.4 - - 1 05.8 - - - - - 2 00.0
+   Sources: Company Reports; Leerink Partners Research                                                       
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                        5    
+                                                                                                             
+
+[PDF PAGE 6]
+                                    95252_f2bf5c01-8bf5-4321-848f-af7c74b8666c.pdf                           
+                                                                                                             
+                                                                                                             
+     PHARVARIS N.V.                                                                                          
+                                                                                                             
+     September 8, 2026                                                                                       
+                                                                                                             
+   Pharvaris DCF Analysis 2018 2019 2020 2021 2022 2023 2024 2025 2026E 2027E 2028E 2029E 2030E 2031E 2032E 2033E 2034E 2035E 2036E 2037E 2038E 2039E 2040E TV
+   CF - Operating  (3.9) (6.6) (21.5) (44.6) (67.2) (93.0) (120.1) (137.1) (180.6) (154.8) (6.8) 1 52.8 3 06.8 4 36.4 5 64.9 6 59.1 7 75.1 8 25.5 8 80.1 9 15.0 9 53.0 6 85.5 5 29.4
+   CF - Investing   -  0.0 (0.0) (0.1) (0.1) (0.1) (0.5) (0.2) (0.4) (0.6) (0.6) (0.6) (0.6) (0.6) (0.6) (0.6) (0.6) (0.6) (0.6) (0.6) (0.6) (0.6) (0.6)
+   Net Borrowing                                                                                             
+   FCF             (3.9) (6.6) (21.5) (44.7) (67.4) (93.1) (120.7) (137.3) (180.9) (155.4) (7.4) 1 52.2 3 06.2 4 35.8 5 64.3 6 58.5 7 74.5 8 24.9 8 79.5 9 14.4 9 52.4 6 84.9 5 28.8 4 ,903.0
+   Discount Periods -  -   -  -   -  -   -   -  -  0 .50 1 .50 2 .50 3 .50 4 .50 5 .50 6 .50 7 .50 8 .50 9 .50 1 0.50 1 1.50 1 2.50 1 3.50
+   PV FCF           -  -   -  -   -  -   -   -  (90.5) (146.2) (6.2) 1 12.2 1 99.6 2 51.5 2 88.1 2 97.6 3 09.7 2 91.9 2 75.4 2 53.4 2 33.6 1 48.6 1 01.6 9 41.7
+   Sum NPV FCF (€MM) 3,462.0                                                                                 
+   Net Cash 2Q26E (€MM) 318.3                                                                                
+   Implied Market Cap (€MM) 3,780.2                                                                          
+   FX: EUR/USD      1.2                                                                                      
+   Implied Market Cap ($MM) 4,390.7                                                                          
+   PHVS DCF Valuation ($/Share) $ 65                                                                         
+   Discount Rate/Cost of Equity 13%                                                                          
+   Terminal Growth Rate 2%                                                                                   
+   Shares Outstanding (2Q26E) 68.1                                                                           
+   Sources: Company Filings, Leerink Partners Research                                                       
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                        6    
+                                                                                                             
+
+[PDF PAGE 7]
+                                    95252_f2bf5c01-8bf5-4321-848f-af7c74b8666c.pdf                           
+                                                                                                             
+                                                                                                             
+     PHARVARIS N.V.                                                                                          
+                                                                                                             
+     September 8, 2026                                                                                       
+                                                                                                             
+                                                                                                             
+    Leerink Partners                                                                                         
+    Catalyst Tracker                                                                                         
+                      Drug                                                    Impact: Estimated Stock        
+            Lateral Impact                                           Specific Event       Leerink Partners   
+     Stock          (Brand or chemical Indication /            Expected      H(igh) > 9% Up/Down % on        
+             (Other                  Type of Event Event or Trial Details Date if known or View of Expected  
+    (Ticker Symbol) name) / Instrument / Product Class         Timing       M(edium) 3 - 9% Best/Worst       
+           companies/stocks)                                          specified            Outcome           
+                      Area                                                   L(ow) < 2% Outcomes             
+      PHVS  IONS, BCRX Deucrictibant HAE Phase 3 Results Ph.3 CREAATE (AAE-C1INH) 1Q27 H    Positive         
+                                     Announcement                                                            
+      PHVS           Deucrictibant HAE FDA Approval PDUFA (On-demand) 2Q27 23-Apr-27 H      Positive         
+      PHVS  IONS, BCRX Deucrictibant HAE NDA/BLA Filing NDA filing for prophy deucrictibant 1H27 H Positive  
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+   Source: Leerink Partners LLC Equity Research and Company Filings                                          
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                        7    
+                                                                                                             
+
+[PDF PAGE 8]
+                                                                                    
+                                                                                    
+                                                                                    
+        PHARVARIS N.V.                                                              
+                                                                                    
+        September 8, 2026                                                           
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+        Disclosures Appendix                                                        
+                                                                                    
+        Completion: September 8, 2026 17:46 P.M. EDT.                               
+        Distribution: September 8, 2026 17:46 P.M. EDT.                             
+        Analyst Certification                                                       
+                                                                                    
+        I, Joseph P. Schwartz, certify that the views expressed in this report accurately reflect my views and that no part of my
+        compensation was, is, or will be directly related to the specific recommendation or views contained in this report.
+        I, Leona Nease, Ph.D., certify that the views expressed in this report accurately reflect my views and that no part of
+        my compensation was, is, or will be directly related to the specific recommendation or views contained in this report.
+                                                                                    
+                       Rating and Price Target History for: Pharvaris N.V. (PHVS) as of 09-07-2026
+         08/07/23 12/06/23 01/22/24 04/16/24 08/15/24 01/20/25 12/03/25 08/03/26 08/20/26
+         OP:$24 OP:$34 OP:$37 OP:$32 OP:$30 OP:$28 OP:$38 OP:$43 OP:$50             
+                                                                            40      
+                                                                            35      
+                                                                            30      
+                                                                            25      
+                                                                            20      
+                                                                            15      
+                                                                            10      
+         Q2   Q3   2024 Q1   Q2   Q3   2025 Q1    Q2   Q3  2026  Q1   Q2   Q3       
+          OP = Outperform MP = Market Perform UP = Underperform D = Drop Coverage I = Initiate SC = Suspended Coverage
+                                                                     Created by: BlueMatrix
+                                                                                    
+        Valuation                                                                   
+                                                                                    
+        We derive a one-year PT of $65 for PHVS based on a DCF analysis using a 13% discount rate and a 2% terminal
+        growth rate, converting the implied market cap from EUR to USD by using a 6-month FX average, representing an
+        implied ~$3.8B market capitalization. Our valuation is driven by probability-adjusted revenue for the two different
+        formulations of deucrictibant for HAE. We ascribe a 95% PoS for on-demand and a 95% PoS for prophylaxis.
+                                                                                    
+        Risks to Valuation                                                          
+                                                                                    
+        As a late-clinical-stage company, risks to PHVS include potential clinical, regulatory, and financial setbacks.
+        Promising early clinical data may not translate to success in later-stage development. Regulatory decisions are
+        unpredictable and may adversely affect the commercial potential of Pharvaris product candidates. Competition in
+        the hereditary angioedema space (e.g., Takhzyro, Haegarda, Ekterly, Orladeyo) may limit commercial success(es)
+        of Pharvaris products, if approved. From a financial perspective, dilutive financing is a potential risk. Other
+        unanticipated situations could arise that may negatively or positively impact the stock.
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                              8     
+                                                                                    
+
+[PDF PAGE 9]
+                                                                                    
+                                                                                    
+                                                                                    
+        PHARVARIS N.V.                                                              
+                                                                                    
+        September 8, 2026                                                           
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                     Distribution of Ratings/Investment Banking Services (IB) as of 06/30/26
+                                                                 IB Serv./Past 12 Mos.
+                                                                                    
+         Rating                         Count      Percent      Count     Percent   
+         BUY [OP]                         241        80.3        142        58.9    
+         HOLD [MP]                         57        19.0         14        24.6    
+         SELL [UP]                         2          0.7          0          0     
+                                                                                    
+                                                                                    
+        Explanation of Ratings                                                      
+                                                                                    
+        Outperform (Buy): We expect this stock to outperform its benchmark over the next 12 months.
+                                                                                    
+        Market Perform (Hold/Neutral): We expect this stock to perform in line with its benchmark over the next 12
+        months.                                                                     
+                                                                                    
+        Underperform (Sell): We expect this stock to underperform its benchmark over the next 12 months.
+                                                                                    
+        The degree of outperformance or underperformance required to warrant an Outperform or an Underperform
+        rating should be commensurate with the risk profile of the company.         
+                                                                                    
+        For the purposes of these definitions the relevant benchmark for "Leerink Partners" branded healthcare and
+        life sciences equity research will be the S&P 600® Health Care Index for issuers with a market capitalization
+        of less than $2 billion and the S&P 500® Health Care Index for issuers with a market capitalization over $2
+        billion.                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                              9     
+                                                                                    
+
+[PDF PAGE 10]
+                                                                                    
+                                                                                    
+                                                                                    
+        PHARVARIS N.V.                                                              
+                                                                                    
+        September 8, 2026                                                           
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+        Important Disclosures                                                       
+                                                                                    
+        This information (including, but not limited to, prices, quotes and statistics) has been obtained from
+        sources that we believe reliable, but we do not represent that it is accurate or complete and it should not
+        be relied upon as such. All information is subject to change without notice. The information is intended for
+        Institutional Use Only and is not an offer to sell or a solicitation to buy any product to which this information
+        relates. Leerink Partners LLC (the “Firm” or “Leerink Partners”), its officers, directors, employees,
+        proprietary accounts and affiliates may have a position, long or short, in the securities referred to in this
+        report, and/or other related securities, and from time to time may increase or decrease the position or
+        express a view that is contrary to that contained in this report. The Firm's research analysts, salespeople,
+        traders and other professionals may provide oral or written market commentary or trading strategies that
+        are contrary to opinions expressed in this report. The past performance of securities does not guarantee or
+        predict future performance. Transaction strategies described herein may not be suitable for all investors.
+        This document may not be reproduced or circulated without the Firm’s written authority. Additional
+        information is available upon request by contacting the Editorial Department, Leerink Partners, 53 State
+        Street, 40th Floor, Boston, MA 02109.                                       
+                                                                                    
+        Like all Firm employees, research analysts receive compensation that is impacted by, among other factors,
+        overall firm profitability, which includes revenues from, among other business units, Institutional Equities,
+        Research, and Investment Banking. Research analysts, however, are not compensated for a specific
+        investment banking services transaction. To the extent Leerink Partners' research reports are referenced in
+        this material, they are either attached hereto or information about these companies, including prices, rating,
+        market making status, price charts, compensation disclosures, Analyst Certifications, etc. is available on
+        https://leerink.bluematrix.com/sellside/Disclosures.action.                 
+                                                                                    
+        MEDACorp LLC, an affiliate of Leerink Partners, is a global network of independent healthcare professionals
+        (Key Opinion Leaders and consultants) providing industry and market insights to Leerink Partners and its
+        clients.                                                                    
+                                                                                    
+        In the past 12 months, Leerink Partners has received compensation for providing investment banking services
+        to Pharvaris N.V. and KalVista Pharmaceuticals, Inc.                        
+        Leerink Partners expects to receive compensation for investment banking services from Pharvaris N.V. in the
+        next 3 months.                                                              
+        Leerink Partners makes a market in Pharvaris N.V., BioCryst Pharmaceuticals, Inc., Ionis Pharmaceuticals, Inc.
+        and KalVista Pharmaceuticals, Inc.                                          
+        Leerink Partners has acted as a manager for a public offering of Pharvaris N.V. in the past 12 months.
+                                                                                    
+        Leerink Partners has acted as the manager for a public offering of KalVista Pharmaceuticals, Inc. in the past
+        12 months.                                                                  
+        This document may not be reproduced or circulated without our written authority. This document, and any
+        other Leerink Partners research report may not be, in whole or in part, or in any form or manner (i) forwarded,
+        distributed, shared, or made available to third parties, including as input to, or in connection with, any artificial
+        intelligence or machine learning model; (ii) modified or otherwise used to create derivative works; or (iii) used
+        to train or otherwise develop a generative artificial intelligence or machine learning model, without the express
+                                                                                    
+                                                                                    
+                                                                             10     
+                                                                                    
+
+[PDF PAGE 11]
+                                                                                    
+                                                                                    
+                                                                                    
+        PHARVARIS N.V.                                                              
+                                                                                    
+        September 8, 2026                                                           
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+        written consent of Leerink Partners. Receipt and review of this document constitutes your agreement with the
+        aforementioned limitations in use.                                          
+                                                                                    
+        © 2026 Leerink Partners LLC. All Rights Reserved. Member FINRA/SIPC. www.leerink.com
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                             11     
+                                                                                    
+
+[PDF PAGE 12]
+                                                                                    
+                                                                                    
+                                                                                    
+     EQUITY     RESEARCH        TEAM                                                
+                                                                                    
+                                                                                    
+                                                                                    
+    Research Management      Oncology                  Emerging Rare Disease        
+                                                                                    
+    Jim Kelly                Asthika Goonewardene      Basma Radwan, Ph.D.          
+    Director of Equity Research (347) 226-0525         (212) 277-6151               
+    (212) 277-6096           asthika.goonewardene@leerink.com basma.radwan@leerink.com
+    jim.kelly@leerink.com    Carvey Leung              Joseph P. Schwartz           
+    Christian Clark          (212) 277-6068            (617) 918-4575               
+    Associate Director of Research carvey.leung@leerink.com joseph.schwartz@leerink.com
+    (212) 277-6117           Karina Rabayeva                                        
+                                                       Cardiovascular, Pulmonary &  
+    christian.clark@leerink.com (212) 277-6147                                      
+    Michelle Ko                                                                     
+                             karina.rabayeva@leerink.com Endocrine Disorders        
+    Business Manager                                                                
+    (212) 277-6021           Genetic Medicine          Roanna Ruiz, Ph.D.           
+    michelle.ko@leerink.com                            (212) 277-6144               
+                             Lili Nsongo, Ph.D.        roanna.ruiz@leerink.com      
+    Diversified Biopharmaceuticals (212) 277-6229      Anna Li, Pharm.D.            
+                             lili.nsongo@leerink.com                                
+                                                       (212) 277-6153               
+    David Risinger, CFA                                anna.li@leerink.com          
+                             Immunology & Metabolism                                
+    (212) 404-4539                                                                  
+                                                       Frank W. Zhong, Ph.D.        
+    david.risinger@leerink.com                                                      
+                             Thomas J. Smith           (212) 404-4534               
+    Omari Baruti, Ph.D.      (212) 277-6069            frank.zhong@leerink.com      
+    (212) 277-6218           thomas.smith@leerink.com                               
+    omari.baruti@leerink.com                           Life Science Tools & Diagnostics
+                             Nat Charoensook, Ph.D., CFA                            
+    Jiayi Wang, Ph.D.        (212) 277-6264            Puneet Souda                 
+    (212) 277-6152           nat.charoensook@leerink.com (212) 277-6091             
+    jiayi.wang@leerink.com                                                          
+                             Brian M. Conley, Ph.D.    puneet.souda@leerink.com     
+    Jason Zhuang             (212) 277-6196            Carlos Penikis, CFA          
+    (212) 404-4552           brian.conley@leerink.com  (212) 404-7225               
+    jason.zhuang@leerink.com                           carlos.penikis@leerink.com   
+                             Emerging Immunology                                    
+    Targeted Oncology                                  Philip S. Song               
+                             Will Soghikian            (212) 404-4587               
+    Andrew Berens, M.D.      (617) 918-4552            philip.song@leerink.com      
+    (212) 277-6108           will.soghikian@leerink.com Michael Sonntag             
+    andrew.berens@leerink.com                          (212) 277-6048               
+                             Albert Agustinus, Ph.D.                                
+    Amanda Acosta-Ruiz, Ph.D. (617) 918-4039           michael.sonntag@leerink.com  
+    (212) 404-4591           albert.agustinus@leerink.com Medical Devices and Technology
+    amanda.acostaruiz@leerink.com                                                   
+    Isabelle Lin             Neuroscience              Mike Kratky, CFA             
+    (212) 404-7228                                     (212) 277-6111               
+    isabelle.lin@leerink.com Marc Goodman              mike.kratky@leerink.com      
+                             (212) 277-6137                                         
+    Emily Shutman            marc.goodman@leerink.com  Samuil Gatev                 
+    (212) 404-4599                                     (212) 277-6118               
+    emily.shutman@leerink.com Valentine Andreu, Ph.D.  samuil.gatev@leerink.com     
+                             (212) 277-6245                                         
+                             valentine.andreu@leerink.com                           
+    Immuno-Oncology                                    Healthcare Technology and    
+                             Alyssa Larios, Ph.D.                                   
+                                                       Distribution                 
+    Daina M. Graybosch, Ph.D. (212) 277-6093                                        
+    (212) 277-6128           alyssa.larios@leerink.com                              
+                                                       Michael Cherny               
+    daina.graybosch@leerink.com                                                     
+                                                       (212) 277-6189               
+                             Rare Disease                                           
+    Jeffrey La Rosa                                    michael.cherny@leerink.com   
+    (212) 277-6103           Joseph P. Schwartz        Daniel Clark                 
+    jeffrey.larosa@leerink.com (617) 918-4575          (212) 277-6233               
+    Rabib S. Chaudhury, Ph.D. joseph.schwartz@leerink.com daniel.clark@leerink.com  
+    (212) 277-6268           Jenny L. Gonzalez-Armenta, Ph.D. Leah D. Bailey        
+    rabib.chaudhury@leerink.com (212) 277-6221         (212) 277-6106               
+    Bill Ling, Ph.D.         jenny.gonzalezarmenta@leerink.com leah.bailey@leerink.com
+    (212) 404-4550           Leona Nease, Ph.D.        Dylan Finley, CFA            
+    bill.ling@leerink.com    (212) 277-6095            (212) 404-7231               
+                             leona.nease@leerink.com   dylan.finley@leerink.com     
+                                                       Ahmed Muhammad               
+                                                       (212) 404-4570               
+                                                       ahmed.muhammad@leerink.com   
+     BOSTON | NEW YORK | SAN FRANCISCO | CHARLOTTE | NASHVILLE | MIAMI | LOS ANGELES LEERINK.COM
+     © 2026 Leerink Partners LLC. All Rights Reserved. Member FINRA/SIPC.           
+
+[PDF PAGE 13]
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+    Healthcare Technology and                                                       
+    Distribution / Animal Health                                                    
+                                                                                    
+    Daniel Clark                                                                    
+    (212) 277-6233                                                                  
+    daniel.clark@leerink.com                                                        
+    Michael Cherny                                                                  
+    (212) 277-6189                                                                  
+    michael.cherny@leerink.com                                                      
+    Healthcare Providers and                                                        
+    Managed Care                                                                    
+    Whit Mayo                                                                       
+    (629) 802-2560                                                                  
+    whit.mayo@leerink.com                                                           
+    Morgan T. McCarthy                                                              
+    (212) 277-6224                                                                  
+    morgan.mccarthy@leerink.com                                                     
+    Dean Rosales                                                                    
+    (212) 404-4590                                                                  
+    dean.rosales@leerink.com                                                        
+    Editorial                                                                       
+    SR. EDITOR/SUPERVISORY ANALYST                                                  
+    Thomas A. Marsilio                                                              
+    (212) 277-6040                                                                  
+    thomas.marsilio@leerink.com                                                     
+    SUPERVISORY ANALYSTS                                                            
+    Robert Egan                                                                     
+    bob.egan@leerink.com                                                            
+    Mike He                                                                         
+    mike.he@leerink.com                                                             
+    Stuart MacDonnell                                                               
+    +44 7542 508454                                                                 
+    stuart.macdonnell@leerink.com                                                   
+    Emily Singletary                                                                
+    (212) 277-6115                                                                  
+    emily.singletary@leerink.com                                                    
+    Jose Yordan                                                                     
+    (212) 404-7236                                                                  
+    jose.yordan@leerink.com                                                         
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+     BOSTON | NEW YORK | SAN FRANCISCO | CHARLOTTE | NASHVILLE | MIAMI | LOS ANGELES LEERINK.COM
+     © 2026 Leerink Partners LLC. All Rights Reserved. Member FINRA/SIPC.           
+                                                                                    
