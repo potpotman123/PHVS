@@ -1,0 +1,685 @@
+Patient Preferences for Long-Term Prophylactic Treatment in Hereditary Angioedema: A Discrete-Choice Experiment - PMC
+Skip to main content
+An official website of the United States government
+Here's how you know
+Here's how you know
+Official websites use .gov
+A
+.gov website belongs to an official
+government organization in the United States.
+Secure .gov websites use HTTPS
+A lock (
+Lock
+Locked padlock icon
+) or https:// means you've safely
+connected to the .gov website. Share sensitive
+information only on official, secure websites.
+Search
+Log in
+Dashboard
+Publications
+Account settings
+Log out
+Search…
+Search NCBI
+Primary site navigation
+Search
+Logged in as:
+Dashboard
+Publications
+Account settings
+Log in
+Search PMC Full-Text Archive
+Search in PMC
+Journal List
+User Guide
+PERMALINK
+Copy
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+the contents by NLM or the National Institutes of Health.
+Learn more:
+PMC Disclaimer
+|
+PMC Copyright Notice
+Patient
+. 2026 Jan 21;19(3):481–495. doi: 10.1007/s40271-025-00798-8
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Patient Preferences for Long-Term Prophylactic Treatment in Hereditary Angioedema: A Discrete-Choice Experiment
+Kathleen F Villa
+Kathleen F Villa
+1 Ionis Pharmaceuticals, Inc., 2855 Gazelle Court, Carlsbad, CA 92010 USA
+Find articles by Kathleen F Villa
+1, ✉ , Carol Mansfield
+Carol Mansfield
+2 RTI Health Solutions, Durham, NC USA
+Find articles by Carol Mansfield
+2 , Aaron Yarlas
+Aaron Yarlas
+1 Ionis Pharmaceuticals, Inc., 2855 Gazelle Court, Carlsbad, CA 92010 USA
+Find articles by Aaron Yarlas
+1 , James A Ruggles
+James A Ruggles
+1 Ionis Pharmaceuticals, Inc., 2855 Gazelle Court, Carlsbad, CA 92010 USA
+Find articles by James A Ruggles
+1 , Laura Bordone
+Laura Bordone
+1 Ionis Pharmaceuticals, Inc., 2855 Gazelle Court, Carlsbad, CA 92010 USA
+Find articles by Laura Bordone
+1 , Cannon Kent
+Cannon Kent
+2 RTI Health Solutions, Durham, NC USA
+Find articles by Cannon Kent
+2 , Caroline M Vass
+Caroline M Vass
+3 RTI Health Solutions, Manchester, UK
+Find articles by Caroline M Vass
+3
+Author information
+Article notes
+Copyright and License information
+1 Ionis Pharmaceuticals, Inc., 2855 Gazelle Court, Carlsbad, CA 92010 USA
+2 RTI Health Solutions, Durham, NC USA
+3 RTI Health Solutions, Manchester, UK
+✉ Corresponding author.
+Received 2025 Sep 20; Accepted 2025 Dec 14; Issue date 2026.
+© The Author(s) 2026
+Open Access This article is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License, which permits any non-commercial use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by-nc/4.0/ .
+PMC Copyright notice
+PMCID: PMC13124884 PMID: 41565919
+Abstract
+Background
+Although there are many long-term prophylactic treatments available for hereditary angioedema, few studies have assessed patient preferences for these treatments.
+Objective
+We aimed to assess patient preferences for long-term prophylactic treatment attributes, including treatment trade-offs and the likelihood of starting or switching to a new treatment.
+Methods
+An online discrete-choice experiment survey instrument was developed and administered to adults in the USA with a self-reported diagnosis of hereditary angioedema. Respondents evaluated a series of choices between pairs of hypothetical long-term prophylactic hereditary angioedema treatment alternatives.
+Results
+A total of 250 respondents (81.6% female; mean [standard deviation] age, 39 [11] years) completed the survey. Respondents placed the most importance on a reduction in attack frequency (conditional relative attribute importance = 31.7%), a reduced risk of a gastrointestinal side effect (conditional relative attribute importance = 18.5%), and treatments taken as an oral tablet compared with injections (conditional relative attribute importance = 18.1%). Respondents were more willing to accept increases in injection-site reactions compared with their willingness to accept gastrointestinal side effects in these trade-offs. A total of 197 respondents (78.8%) stated they were open to starting a new medication with their preferred mode of administration.
+Conclusions
+A reduction in attack frequency is the most important treatment feature for adults living with hereditary angioedema. The heterogeneity in patient perspectives highlights the need for patient-physician communication when making decisions about initiating a new long-term prophylactic treatment for hereditary angioedema.
+Supplementary Information
+The online version contains supplementary material available at 10.1007/s40271-025-00798-8.
+Key Points for Decision Makers
+Because numerous long-term prophylactic treatments with varying benefit-risk profiles are available for hereditary angioedema, it is important to understand what treatment attributes are most meaningful to patients.
+Among the long-term prophylactic attributes evaluated in this discrete-choice experiment study, individuals with hereditary angioedema cared most about reducing the frequency of hereditary angioedema attacks, mode and frequency of administration, and reducing gastrointestinal side effects.
+Open in a new tab
+Introduction
+Hereditary angioedema (HAE) is an unpredictable debilitating genetic disorder characterized by recurrent episodes of localized, cutaneous, or submucosal swelling that most commonly affects the face, skin, gastrointestinal (GI) tract, and extremities [ 1 – 3 ]. Abdominal pain is a hallmark indicator of HAE in addition to swelling, and patients often experience symptoms such as fatigue, nausea, and flu-like symptoms [ 3 – 7 ]. Hereditary angioedema is caused by mutation of the C1-inhibitor ( C1INH ) gene and has a prevalence rate of up to 1.6–1.9 per 100,000 people [ 8 – 10 ]. Some HAE episodes are unpredictable and are not initiated by specific triggers; however, local trauma, emotional stress, and infections may contribute to the onset of an attack [ 3 , 4 , 6 ]. Although episodes of HAE typically resolve within 1–5 days, swelling of the larynx or throat can be life threatening [ 3 , 6 ] and if an HAE attack is left untreated, it can lead to increased morbidity and mortality [ 11 – 13 ]. Patients often experience anxiety and depression as a result of functional disability and facial disfigurement, both of which negatively impact health-related quality of life [ 11 , 12 , 14 , 15 ].
+International guidelines for the management of HAE recommend that on-demand treatments should be considered for alleviating all HAE attacks, and patients should have constant access to these treatments [ 16 – 18 ]. When a patient is at an increased risk of an attack because of known triggers (e.g., surgery), short-term prophylactic treatment is recommended and long-term prophylactic (LTP) treatments are recommended to adequately decrease the HAE attack rate and attack severity [ 16 – 18 ]. The overall goal of HAE treatment is to improve patients’ well-being by achieving total disease control (i.e., no HAE attacks), which is sometimes achievable with currently available LTPs, although some patients still experience breakthrough attacks [ 16 – 19 ]. As of July 2025, the US Food and Drug Administration had approved nine medications for the treatment of HAE, where in the last decade, several new treatments, notably LTP treatments, have been investigated and indicated as first-line treatments for HAE (i.e., berotralstat and lanadelumab) [ 20 ].
+All approved on-demand and LTP medications are administered either orally, or via intravenous or subcutaneous routes, which can be associated with injection-site reactions (ISRs) [e.g., site swelling and site erythema], and typically require dosing regimens every 3–4 days, although newer LTPs have less frequent dosing regimens (every 2, 4, or 8 weeks) [ 16 , 21 – 23 ]. In 2020, an oral LTP, berotralstat, was approved by the Food and Drug Administration [ 24 ], which offered an alternative mode of administration to intravenous or subcutaneous medications that mitigates ISRs. However, berotralstat must be administered once daily and is associated with adverse events, including abdominal pain, vomiting, diarrhea, back pain, and gastroesophageal reflux disease [ 24 ]. Specifically, the APeX-S trial phase II and III studies of berotralstat reported GI adverse events in 41–50% of patients [ 25 , 26 ]. Some therapies, such as antisense prophylactic treatments and factor XIIa inhibitors, are associated with adverse events that are mild or moderate in severity [ 27 ]. Further, some individuals with HAE may be prescribed only short-term medications, suggesting an unmet demand and/or opportunity for new prophylactic treatments that meet the untreated patients’ needs [ 28 ]. Because numerous treatment options with varying benefit-risk profiles are available and are becoming available for HAE, it is important to better understand what treatment attributes are most meaningful to patients.
+Discrete-choice experiments (DCEs) are widely used across a range of therapeutic areas to quantify patients’ and physicians’ treatment preferences, and the trade-offs they are willing to accept between the benefits and risks of those treatments [ 29 – 33 ]. Thus, the objectives of this study were to (1) quantify patient preferences for the attributes of LTP HAE treatments, (2) understand the trade-offs people with HAE are willing to make among treatment features, and (3) identify the factors that predict patients starting or switching to a new treatment.
+Methods
+Study Design
+This study employed a DCE survey instrument conducted among individuals with HAE, who evaluated a series of choices between pairs of hypothetical LTP HAE treatment alternatives. Each hypothetical treatment alternative was defined by differing levels of treatment attributes, which included efficacy (i.e., time to maximum efficacy, reduction in HAE attack frequency), safety attributes (i.e., risk of ISRs, risk of GI side effects), and process attributes (i.e., frequency of and mode of administration). A top-down approach was used to select the attributes as suggested by the International Academy of Health Preference Research (Table 1 ) [ 34 – 40 ]. Selection of key attributes that differentiated the comparators of interest (berotralstat, lanadelumab, garadacimab-gxii, donidalorsen, and C1 esterase inhibitor subcutaneous [human]) was informed by the product labels for approved products at the time this study was conducted [ 41 – 43 ] and clinical data, including clinical trials [ 26 , 44 – 48 ] as well as a literature review of studies looking at preferences for HAE treatment and unmet needs [ 14 , 28 , 49 , 50 ]. For example, the efficacy attribute was explained as a reduction in attack frequency to reflect the primary endpoint of most HAE trials, which aim to demonstrate a significant reduction in the rate of angioedema attacks in the treatment arm (e.g., NCT05139810 [ 51 ]; NCT06007677 [ 52 ]). The text in the survey carefully described the concept of time to maximum efficacy and how it related to the attribute describing reduction in attack frequency.
+Table 1.
+Attributes and levels for the discrete-choice experiment
+Technical attribute label
+Patient-facing attribute label
+Attribute levels
+Time to maximum efficacy
+Time until the prophylactic treatment provides full benefit
+1 week
+2 weeks
+5 weeks
+10 weeks
+Reduction in attack frequency
+Reduction in attacks over 6 months once the treatment is providing full benefits
+45% (average of approximately 6 or 7 attacks in the 6 months once the treatment provides full benefit)
+85% (average of approximately 2 attacks in the 6 months once the treatment is providing full benefits)
+90% (average of approximately 1 attack in the 6 months once the treatment is providing full benefits)
+Mode of administration
+How you take the treatment
+Tablet a,b
+Vial and syringe
+Prefilled syringe
+Autoinjector
+Dosing frequency
+How often you take the treatment
+Once a day a
+Twice a week a
+Once every 4 weeks
+Once every 8 weeks
+Risk of ISR
+Risk of a mild-to-moderate ISR
+0% b
+5%
+20%
+55%
+Risk of a GI side effect (grade 1 or 2)
+Risk of a mild-to-moderate GI side effect
+0%
+7%
+15%
+25%
+Open in a new tab
+GI gastrointestinal, ISR injection-site reaction
+a The experimental design incorporated a restriction to ensure that the dosing frequency was always once a day or two times a week when the treatment was administered as a tablet
+b The experimental design incorporated a restriction to ensure that the risk of ISR was always 0% when the treatment was administered as a tablet
+The treatment attributes and levels were used to create a set of DCE questions (Fig. 1 ). A full factorial experimental design, involving all possible combinations of attributes and levels, has resulted in an infeasible number of choice sets (12,288 potential profiles and 150,994,944 possible choice sets). Therefore, a fraction of this full factorial design was created using D-optimality criteria (i.e., searching algorithms to maximize D-efficiency that minimizes the variance-covariance matrix of the estimated parameters), aligning with good research practice guidelines [ 53 ]. In addition to main effects, the experimental design accommodated restrictions between the risk of ISR and oral administration and between oral administration and frequency to prevent unrealistic combinations from occurring (i.e., ISR with a tablet) [ 54 , 55 ].The experimental design constructed a fraction of the full factorial design (all possible combinations of attribute levels), including 72 questions that were split into six blocks of 12 DCE questions. Respondents were randomly assigned to one of the six blocks of 12 DCE questions, generating cross-sectional data for estimation of a multivariate preference model.
+Fig. 1.
+Open in a new tab
+Example of a discrete-choice question
+In addition to the DCE, the preference survey included the Angioedema Control Test (AECT), a patient-reported outcome instrument, as a measure of respondents’ angioedema control. Demographic and clinical characteristics also were collected, as were self-reported data about previous treatments for HAE, including willingness to hypothetically switch LTP medications and the importance of prescribing frequency in their treatment decisions. All data collected from the online survey were deidentified. The final survey instrument is presented in Exhibit S1 in the Supplementary Material (ESM).
+The entire survey, including the wording of the attributes and levels, was pretested [ 37 ] with a convenience sample of 17 eligible participants with self-reported HAE using 1-hour 1:1 semi-structured cognitive debriefing interviews (called “think-aloud” interviews), conducted via a teleconference. Survey comprehension questions were used to confirm respondent comprehension and cognitive burden. If comprehension questions were misunderstood, clarification was provided and key information was repeated. Attribute descriptions and survey graphics and text were revised according to feedback from patients. After pretesting, the final survey instrument was administered online. The study team used a holistic approach to review all data to ensure that each returned survey corresponded to a unique respondent (e.g., by investigating repeat IP addresses).
+Study Population
+Individuals with HAE were recruited by a US-based HAE patient advocacy group and provided informed consent. Individuals eligible for study participation included adults aged ≥18 years residing in the USA who were proficient in English and had a self-reported HAE diagnosis. The RTI International Institutional Review Board reviewed the study protocol (protocol ID STUDY00022609) and deemed the study exempt from full review on 13 September, 2023. Sample size calculations represent a challenge in DCE studies because the models used to estimate preference weights simultaneously estimate multiple coefficients. The sample size for this study was chosen based on usual practice in preference studies [ 56 ] and the feasibility of recruiting patients with this rare disease.
+Statistical Analyses
+Analyses of the DCE data followed good research practices [ 34 , 57 ] and were performed in Stata 17. The analyses used a random-parameters logit (RPL) model that relates the choices respondents made in the treatment-choice questions to the differences in attribute levels across the alternatives in each choice question [ 57 ]. This approach produced preference weights for all attribute levels included in the survey. All levels in each of the attributes were effects coded, and the delta method was used to calculate standard errors for the preference weight for each omitted attribute level [ 58 ]. To determine the conditional relative importance of each attribute, the difference between the attribute level with the highest preference weight and the level with the lowest preference weight was calculated. This difference represents the relative importance of each attribute relative to all other attributes included in the study, conditional on the range of levels of the attribute. Minimum acceptable benefits (MABs) and maximum acceptable risks (MARs) were also calculated using the RPL regression parameters to measure patients’ tolerance for desirable and undesirable treatment features. Maximum acceptable risks and MABs were calculated using mean coefficient estimates for attribute levels of effects-coded variables and assumed linearity of preference between each pair of levels included in the survey, but did not assume linearity across the full range of levels. These calculations determined the average risk or the average benefit that yielded a level of disutility equal to the utility generated by changing from one level to another of a risk or benefit attribute. A latent class (LC) model was used to explore heterogeneity in the DCE results by probabilistically assigning responses to a set of classes based on the observed pattern of choices. The optimal number of classes was determined using the Bayesian information criterion [ 59 ], the Akaike information criterion [ 60 ], and the Akaike information criterion 3 [ 61 ], followed by the calculation of preference weights and conditional relative importance for each class. Logistic regression models with selected covariates (chosen through correlation analyses to minimize multi-collinearity) were used to determine the association between respondent characteristics and the likelihood of a respondent expressing an interest in starting a new prophylactic treatment when asked.
+Only completed surveys with at least one response to a DCE question were included in the final analysis. Analyses were performed on observed data only; no imputation for missing values was performed. The number of missing responses was captured for each question.
+Results
+Respondent Characteristics
+Of the 1221 participants invited to the survey, 278 (22.8%) completed the screening questions and were determined to be eligible. Twenty-five (9.0%) of the eligible participants were excluded because of the recruitment goals having been achieved, and three (1.1%) were removed because of showing no variability in their answers to DCE questions.
+The final sample included 250 respondents: 204 (81.6%) identified as female and 213 (85.2%) identified as White (Table 2 ). The mean age was 39 years (range, 18–79 years). On average, respondents scored 9.7 out of 16 (standard deviation, 4.2) on the AECT, for which a score of 10 or better is considered evidence of well-controlled disease [ 62 ]. Respondents had been diagnosed with HAE an average of 21 years before starting the survey (maximum, 54 years); 217 respondents (86.8%) reported experiencing a hospitalization or emergency department visit because of their HAE during that time frame, and had most recently been treated in the emergency department or hospital because of an HAE attack 7 years (average) before the survey. Of those who had more than one HAE attack per year before starting treatment ( n = 247 [98.8%]), 81 (32.8%) reported five or more attacks in the past 6 months. Overall, 201 respondents (80.4%) were currently taking LTP medication, 97 (48.3%) of whom were extremely satisfied with their current treatment. One hundred and ninety-one respondents (76.4%) had at some point stopped taking an LTP medication, with the top reason for stopping ( n = 111 [58.1%]) being that the medication was not controlling HAE symptoms well. On average, respondents considered reducing their HAE treatment frequency to be important (mean score of 4.0 on a scale from 1 [“Not at all important”] to 5 [“Extremely important”]) and placed high importance on discussing with their healthcare professional the option of taking their treatment once every 4 weeks or once every 8 weeks (mean score of 3.9 on the same scale).
+Table 2.
+Respondent characteristics
+Question
+Respondents ( N = 250) a
+What is your age (in years)? (Eligible if ≥18 years)
+Mean (SD)
+39 (11)
+Min, max
+18, 79
+What gender identity best describes you? (Select only 1 answer.)
+Female
+204 (81.6)
+Male
+44 (17.6)
+Gender fluid
+1 (0.4)
+Nonbinary
+1 (0.4)
+A gender identity not listed here
+0 (0.0)
+What race(s) or ethnicity(ies) do you consider yourself to be? (Please select all that apply.)
+African American or Black
+15 (6.0)
+Alaska Native, American Indian, or Native American
+5 (2.0)
+Asian
+5 (2.0)
+Hispanic, Latin American, or Latinx
+21 (8.4)
+Middle Eastern or North African
+2 (0.8)
+Native Hawaiian or Pacific Islander
+0 (0.0)
+White
+213 (85.2)
+A race or ethnicity not listed
+4 (1.6)
+Years since diagnosis
+Mean (SD)
+21 (13)
+Min, max
+0, 54
+An HAE attack is when you experience severe swelling (angioedema) in part of the body. Which of the following body parts have you ever experienced an HAE attack in? (Please select all that apply.)
+Arms, legs, hands, or feet
+235 (94.0)
+Groin or genitals
+183 (73.2)
+Torso, back, stomach, or abdomen
+233 (93.2)
+Face, head, or ears
+192 (76.8)
+Throat, tongue, lips, or mouth
+205 (82.0)
+Other
+23 (9.2)
+Sometimes, people with HAE can have a serious attack that requires medical attention in a hospital. Have you ever received care or treatment in the emergency room or hospital because of an HAE attack?
+Yes
+217 (86.8)
+No
+33 (13.2)
+Among respondents ever hospitalized because of an HAE attack
+N
+217
+When were you last treated in the emergency room or hospital because of an HAE attack (years since treated last)?
+Mean (SD)
+7 (7)
+Min, max
+0, 37
+All respondents
+Even if your current treatment or management routine is working, thinking back to when your HAE was at its worst, how often would you have an HAE attack?
+Every few days or more frequently
+112 (44.8)
+Every few weeks or so
+100 (40.0)
+Every few months
+34 (13.6)
+Once or twice a year
+1 (0.4)
+Less than once a year
+2 (0.8)
+Don’t know or not sure
+1 (0.4)
+Among respondents who experienced attacks more than once a year
+n
+247
+How many HAE attacks have you had in the last 6 months?
+One or fewer
+79 (32.0)
+2–5 attacks
+87 (35.2)
+5–10 attacks
+38 (15.4)
+11–15 attacks
+20 (8.1)
+16 or more
+23 (9.3)
+Don’t know or not sure
+0 (0.0)
+Respondents currently taking an LTP medicine
+n
+201
+Using the scale below, how satisfied are you with your current long-term prophylactic HAE treatment(s)?
+1 [Not at all satisfied]
+11 (5.5)
+2
+9 (4.5)
+3
+25 (12.4)
+4
+59 (29.4)
+5 [Extremely satisfied]
+97 (48.3)
+Mean (SD)
+4.1 (1.1)
+Among respondents who have stopped taking an LTP medicine
+n
+191
+Which of the following statements best describe why you stopped taking a HAE treatment and started a new long-term prophylactic treatment? (Please select all that apply.)
+It was required by my insurer
+19 (9.9)
+Concerns about long-term affordability or insurance coverage
+25 (13.1)
+It wasn’t controlling my HAE symptoms well
+111 (58.1)
+There were concerning side effects
+49 (25.7)
+The administration burden was too much
+63 (33.0)
+It was not convenient or didn’t fit in with my lifestyle
+71 (37.2)
+My doctor recommended I try something new
+82 (42.9)
+Concerns about supply issues or being able to fulfill a prescription
+29 (15.2)
+Other
+25 (13.1)
+Open in a new tab
+HAE hereditary angioedema, LTP long-term prophylactic, Max maximum, Min minimum, SD standard deviation
+“Select all that apply” questions may yield a total number of responses greater than the total number of respondents who answered the question
+a Values are n (%) unless otherwise stated
+Survey Comprehension Questions
+Respondents were asked three questions to assess and reinforce their comprehension of attribute descriptions, risk grids used to present attribute levels, and choice questions. Most respondents ( n = 200 [80.0%]) answered each comprehension question correctly; 38 respondents (15.2%) answered one comprehension question incorrectly, eight (3.2%) answered two comprehension questions incorrectly, and only four (1.6%) answered all three comprehension questions incorrectly. If responses to any comprehension question indicated that the respondent did not understand the information, graphic, or question, the survey provided feedback to the respondent and repeated the information that the respondent may not have understood. Survey responses were analyzed regardless of whether respondents answered comprehension questions correctly or incorrectly.
+Discrete-Choice Experiment
+Preference Weights
+Most attributes had levels that were naturally ordered, and the results indicated that better levels were generally preferred to worse levels: respondents preferred treatments with lower dosing frequency, lower risks of GI side effects, and a higher reduction in attack frequency (Fig. 2 ; Table S1 of the ESM). Exceptions included time until maximum efficacy and risk of ISR. Time until maximum efficacy had a numerically larger preference weight for 2 weeks until maximum efficacy (0.1) than 1 week (0.0); however, the difference between the two preference weights was not statistically different. Similarly, the risk of ISR had a numerically larger, but not statistically different, preference weight for a 5% risk of ISR (0.3) than a 0% risk (0.1). The differences between the preference weights for many of the levels of the mode of administration attribute were not statistically significant, although the results suggest that respondents preferred oral tablets over injections. Although the preference weight for the autoinjector (− 0.2) was numerically larger than that for a prefilled syringe (− 0.3) or a vial and syringe (− 0.3), the difference in preference weights between different injections was not statistically different.
+Fig. 2.
+Open in a new tab
+Preference weights ( N = 250). The parameter estimates are the preference weights corresponding to the effects-coded attribute levels. With effects coding, 0 indicates the mean effect across all attribute levels rather than the omitted level. The effects-coded variables are categorical variables that range from − 1 to 1. The preference weights corresponding to the effects-coded variables are log odds, which are distributed symmetrically around 0. The vertical bars surrounding each mean preference weight denote the 95% confidence interval of the point estimate (computed by the delta method for the omitted effects-coded level in estimation for model specification). GI gastrointestinal, ISR injection-site reaction
+Conditional Relative Attribute Importance
+Over the ranges presented in the survey, a reduction in attack frequency had the greatest conditional relative attribute importance (CRAI), with the difference between a 45% reduction in frequency and a 90% reduction accounting for 31.7% of the total possible change in utility (Fig. 3 ). Reducing the time to maximum efficacy from 10 to 2 weeks had the lowest CRAI, accounting for 4.4% of the total possible change in utility. For changing the mode of administration from a vial and syringe to an oral tablet, reducing the risk of a GI side effect from 25 to 0%, and reducing the dosing frequency from once every day to once every 8 weeks, the CRAI values were not statistically significantly different from one another.
+Fig. 3.
+Open in a new tab
+Conditional relative attribute importance ( N = 250). The conditional relative importance of an attribute is calculated as the ratio of the difference of the preference weight between the most desirable level and the least desirable level over the sum of the differences across all attributes that is scaled to 100. The conditional importance of each attribute is expressed as a percentage of this total. The vertical bars surrounding each relative importance weight estimate denote the 95% confidence interval. Attributes are presented in the order in which they appeared in the discrete-choice experiment (DCE) questions. GI gastrointestinal, ISR injection-site reaction
+Minimum Acceptable Benefit
+The MABs of reduction in attack frequency were calculated from both 45% and 85%, where mean MAB values ranged from 5.9 to 28.6% and from 3.2% to more than 5%, respectively (Table 3 ). Where the MAB of an attribute was reported as greater than 5%, the MAB of reduction in attack frequency was reported as greater than a total of 90% reduction in attack frequency (i.e., the highest level of reduction in attack frequency included in the survey).
+Table 3.
+MAB of reduction in attack frequency
+Attribute
+Attribute reduction
+Mean MAB over a 45% reduction in attack frequency (95% CI)
+Mean MAB over an 85% reduction in attack frequency (95% CI)
+From this level
+To this level
+Mode of administration
+Tablet
+Autoinjector
+24.5% (18.0–31.0%)
+> 5% a
+Dosing frequency
+Once every 8 weeks
+Once every 4 weeks
+5.9% (1.5–10.2%)
+3.2% (0.5–5.9%)
+Risk of ISR
+15 percentage-point increase
+5%
+20%
+7.9% (3.3–12.5%)
+4.3% (1.3–7.3%)
+35 percentage-point increase
+20%
+55%
+10.2% (5.7–14.8%)
+> 5% a
+50 percentage-point increase
+5%
+55%
+18.1% (13.2–23.1%)
+> 5% a
+Risk of a GI side effect
+7 percentage-point increase
+0%
+7%
+8.3% (4.0–12.5%)
+4.5% (1.5–7.5%)
+8 percentage-point increase
+7%
+15%
+12.3% (8.1–16.6%)
+> 5% a
+15 percentage-point increase
+0%
+15%
+20.6% (16.2–25.0%)
+> 5% a
+10 percentage-point increase
+15%
+25%
+8.0% (3.9–12.1%)
+4.4% (1.5–7.2%)
+18 percentage-point increase
+7%
+25%
+20.4% (15.7–25.0%)
+> 5% a
+25 percentage-point increase
+0%
+25%
+28.6% (23.7–33.5%)
+> 5% a
+Open in a new tab
+CI confidence interval, GI gastrointestinal, ISR injection-site reaction, MAB minimum acceptable benefit
+a Estimates of MAB were not extrapolated outside the benefit range presented in the survey. Means reported as > 5% represent MAB estimates greater than a total of 90% reduction in attack frequency, which was the maximum level of reduction in attack frequency presented in the study
+Maximum Acceptable Risk
+The MAR for ISR ranged from 11.1% (for an improvement in dosing frequency from once every 4 weeks to once every 8 weeks) to more than 50% (for improvements in the reduction in attack frequency from 45 to 85% and 90% and for a change in mode of administration from autoinjector to tablet) [Table 4 ]. The MAR for GI side effects ranged from 5% (for an improvement in dosing frequency from once every 4 weeks to once every 8 weeks) to more than 25% (for improvements in reduction in attack frequency from 45 to 85% and 90%), the highest level of risk of a GI side effect included in the survey. Overall, respondents tended to be more tolerant of the risks of ISRs than GI side effects in exchange for the same improvements in other attributes.
+Table 4.
+MAR of an ISR and a GI side effect
+Attribute
+Attribute improvement
+Mean MAR of ISR (95% CI)
+Mean MAR of a GI side effect (95% CI)
+From this level
+To this level
+Reduction in attack frequency
+40 percentage-point improvement
+45%
+85%
+> 50% a
+> 25% b
+5 percentage-point improvement
+85%
+90%
+19.3% (0.0–38.6%)
+7.6% (4.0–11.2%)
+45 percentage-point improvement
+45%
+90%
+> 50% a
+> 25% b
+Mode of administration
+Autoinjector
+Tablet
+> 50% a
+17.5% (12.7–22.3%)
+Dosing frequency
+Once every 4 weeks
+Once every 8 weeks
+11.1% (0.4–21.8%)
+5.0% (0.7–9.2%)
+Open in a new tab
+CI confidence interval, GI gastrointestinal, ISR injection-site reaction, MAR maximum acceptable risk
+Estimates of MAR were not extrapolated outside the risk range presented in the survey
+aT he MAR of ISR is interpreted as the maximum acceptable increase in risk of ISR for a corresponding attribute improvement. The preference weight for 0% risk of ISR was disordered to 5% risk of ISR and not statistically different from 20% risk of ISR. Therefore, MARs of ISR were calculated using a 5% risk of ISR as the baseline risk instead of 0% (as for risk of a GI side effect). This allows the assumption that, given an attribute improvement (i.e., increased reduction in attack frequency, a preferred change in mode of administration, or decreased dosing frequency), respondents will accept a corresponding increase in risk of ISR. Estimates of MAR were not extrapolated outside the risk range presented in the survey. Hence, a mean MAR of ISR reported to be > 50% represents a total risk estimate > 55% (55% risk of ISR − 5% risk of ISR = 50% risk of ISR), which was the maximum level of risk of ISR presented in the study
+b Means that are reported to be > 25% represent MAR estimates > 25% risk of a GI side effect, which was the maximum level of the risk of GI side effect presented in the study
+Heterogeneity Analysis
+Latent Class Analysis
+After comparing various LC models, the optimal number of classes was determined to be 2. The two LCs of respondents were identified with a predicted probability of class membership of 51.9% of the sample in class 1 and 48.1% of the sample in class 2. Figures S1 and S2 of the ESM present the estimated mean preference weights for each attribute level and CRAI estimates for all attributes in each of the classes, respectively. Class 1 (51.9%: “burden minimizers”) placed similar weight on changes in most attributes but prioritized the risks of side effects as well as mode of administration. Respondents associated with this class placed the most importance on avoiding the risks of ISR and GI side effects and were less sensitive to improvements in reduction in attack frequency than those in class 2.
+Class 2 (48.1%: “efficacy maximizers”) preferred maximizing the reduction in attack frequency. Respondents associated with this class placed the greatest importance on improving the reduction in attack frequency offered by treatments and were largely indifferent between mode of administration, dosing frequency, and risk of GI side effects. However, in contrast to class 1, respondents in class 2 placed the least importance on the risk of ISR. As shown in Table 5 , membership in class 1 was statistically significantly associated with the characteristics “ever experienced an HAE attack in the groin or genitals” and “has poorly controlled HAE as indicated by an AECT score < 10.” Membership in class 2 was statistically significantly associated with “selected only White as a race or ethnicity category” and “ever experienced mild-to-moderate GI symptoms because of HAE.”
+Table 5.
+Two-class logit analysis: class membership model parameters
+Variable
+Model parameters: class 1
+Selected only White as a race or ethnicity category
+− 1.0**
+Full-time, part-time, or self-employed
+− 0.4
+Ever experienced an HAE attack in the groin or genitals
+0.7**
+Has poorly controlled HAE as indicated by an AECT score < 10
+0.7**
+Selected more comorbidities than the median respondent
+0.5
+Has received injections with an autoinjector for HAE or another health condition
+− 0.3
+Ever had a mild-to-moderate ISR
+− 0.5
+Ever experienced mild-to-moderate GI side effects because of HAE
+− 0.7**
+Log-likelihood
+− 1503.3
+AIC
+3092.7
+BIC
+3354.4
+Open in a new tab
+AECT Angioedema Control Test, AIC Akaike information criterion, BIC Bayesian information criterion, GI gastrointestinal, HAE hereditary angioedema, ISR injection-site reaction, ** statistically significant at the 5% level ( p < 0.05)
+Note: class 2 is used as the reference class. Positive model parameters indicate an association with membership in class 1. Negative model parameters indicate an association with membership in class 2
+Treatment-Switching Logit Analysis
+When asked hypothetically whether they would be willing to switch from their current treatment to a new prophylactic treatment with their preferred mode of administration, 197 respondents (78.8%) stated they would be open to starting a new medication, whereas 53 respondents (21.2%) were not. Respondent characteristics associated with an increased likelihood of preferring to start a new treatment (i.e., an odds ratio that is statistically significant and greater than 1), included poorly controlled HAE (AECT score < 10), having an autoinjector/EpiPen for HAE/another health condition but has not used it, currently taking Berinert as LTP medicine, and identifying as African American or Black (Table S2 of the ESM). Conversely, characteristics that were associated with a decreased likelihood of preferring to start a new treatment (i.e., an odds ratio of less than 1) included demographic variables (age, race/ethnicity), use of Medicare, receipt of co-pay assistance, diagnosis of GI conditions, receipt of treatment through an IV infusion for HAE/another health condition, and a history of switching treatments in the past.
+Discussion
+This study, which is the first to assess patient preferences for the attributes of LTP HAE treatment options, quantified the conditional relative importance of HAE treatment attributes and explored the trade-offs that people with HAE are willing to accept among treatment features. Our findings revealed that, in general, patients cared most about reducing the frequency of HAE attacks, followed by mode and frequency of administration and a reduction in side effects, and that patients with HAE exhibited heterogeneous preferences.
+Generally, preferences were naturally ordered and preferences aligned with a priori expectations informed by observations made in formative pre-test interviews. Respondents tended to be more tolerant of the risks of ISRs than GI side effects in exchange for the same improvements in other attributes, as reflected in the CRAI of the risks of ISR and GI side effects. This lack of tolerance for GI side effects may be related to the fact that HAE attacks often occur in the GI tract and this side effect may be of concern to patients. It was found that, on average, respondents were willing to trade increases in the reduction in attack frequency in exchange for worse levels of other attributes and, on average, willing to accept risks of ISR and GI side effects in exchange for improvements in other attribute levels, especially for efficacy.
+As found in this study, preference for oral tablets has previously been reported by Geba et al. [ 63 ], who found that 98% of prophylactic HAE medication users would prefer oral medication over their current treatment; however, patients’ willingness to trade off other treatment features for their preferred administration was not investigated in that study. Our study found that respondents preferred oral tablets to injections, but this preference was contingent on safety and efficacy. Respondents were willing to accept a 17.5% risk of a GI side effect for a change in mode of administration from an autoinjector to a tablet, and on average, respondents were willing to accept an additional 24.5% reduction in attack frequency from a base of 45% to switch from an oral tablet to an autoinjector. As LTP treatment is the only way to gain complete disease control [ 16 , 18 ], it is important for healthcare professionals to understand patient perspectives on treatment attributes of LTP medications, especially with several LTP medications with different administration routes currently in development [ 64 ].
+Two classes were determined to describe clusters of preferences; burden minimizers in class 1 (51.9% of sample) placed the most importance on avoiding the risks of ISR and GI side effects, and they were relatively less sensitive to improvements in reduction in attack frequency than those who were efficacy maximizers in class 2. In contrast, efficacy maximizers in class 2 (48.1% of sample) preferred maximizing the reduction in attack frequency and were largely indifferent among mode of administration, dosing frequency, and the risk of GI side effects. Characteristics associated with membership in class 1 included ever experiencing an HAE attack in the groin or genitals and having poorly controlled HAE (AECT score < 10), whereas characteristics associated with membership in class 2 included selecting only White as a race or ethnicity category and having ever experienced mild-to-moderate GI side effects because of HAE. In class 1, those with poorly controlled HAE may view any level of reduction in attack frequency described in the survey as a desirable outcome, thereby diminishing the overall importance of the attribute relative to other attributes included in the study.
+Logit analysis of respondent willingness to start a new prophylactic treatment also revealed heterogeneity, indicating that many factors affect respondents’ preferences for long-term HAE treatments. Factors associated with a higher likelihood of starting a new prophylactic treatment included poorly controlled HAE, time since last hospitalization because of HAE, and having an autoinjector but never using it; characteristics associated with a lower likelihood of starting a new prophylactic treatment included increased age, race/ethnicity, and being diagnosed with GI conditions. Collectively, these findings may provide key insights to guide clinicians when engaging with patients to make individualized treatment decisions that align with patients’ priorities.
+It is important to note that this study is subject to limitations. First, the survey was restricted to US-based respondents and was written only in English, limiting it to respondents who could speak or read English. Because of the absence of an interviewer assistant during AECT data collection, data may be subject to noise and measurement error. Notably, voluntary surveys pose potential volunteer and selection biases, and how the characteristics of those who chose to respond compared with those who were invited but did not participate is unknown. Such biases may result in non-representativeness, which may lead to an underestimate or overestimate of respondent satisfaction and preferences. Moreover, respondents included in this survey were mainly female and were also not racially and ethnically diverse. Therefore, this survey sample was not representative of the broader HAE population. With regard to the statistical modeling conducted, RPL provides mean relative preference estimates for each attribute level over a population and cannot be used to estimate preferences for an individual. Finally, since this study was conducted, the landscape of approved HAE treatments has evolved, notably with the recent approval of garadacimab-gxii, administered monthly by self-injection [ 65 ]; however, attributes of garadacimab-gxii were considered in the study design and the range of levels reflected the data available on garadacimab-gxii at the time (e.g., injection every 4 weeks).
+There were several strengths of this study as well. This survey was pretested using in-depth interviews with patients with a self-reported diagnosis of HAE, and it used an experimental design developed using good research practices [ 53 ]. A large sample size (particularly for a rare disease) was used and recruited from a database exclusive to a US-based HAE patient advocacy group, resulting in strong participation by those active in the HAE patient community. Treatment-choice data were analyzed using advanced RPL methods in alignment with good research practices [ 34 , 57 ] and are consistent with work conducted by the Food and Drug Administration [ 66 ] that avoids estimation bias from unobserved variation in preferences across the sample and from within-sample correlation in the choice sequence for each respondent. There was a high pass rate for the comprehension questions (>90% for each question) compared with other preference studies previously reported [ 67 ], which is indicative of a methodologically robust and comprehensible survey instrument.
+Conclusions
+Individuals with HAE have distinct and heterogenous preferences, caring most about reducing the frequency of HAE attacks, mode and frequency of administration, and reducing GI side effects. Time to full clinical benefit of a treatment was lowest on the attribute list for patients, and patients with poorly controlled HAE are likely to be open to starting a new treatment. This study highlights the need for patient-physician communication during decision making about initiating a new long-term treatment for HAE.
+Supplementary Information
+Below is the link to the electronic supplementary material.
+Supplementary file1 (DOCX 215 KB) (215.2KB, docx)
+Supplementary file1 (PDF 1209 KB) (1.2MB, pdf)
+Acknowledgments
+The authors thank the patients for their participation in the study. They also thank Kate Lothman, BA, and Chloe Seddon, PhD, of RTI Health Solutions for medical writing assistance and Kimberly Moon for project management. Ionis Pharmaceuticals provided funding for publication support in the form of manuscript writing, styling, and submission.
+Funding
+Ionis Pharmaceuticals provided the financial support for the study. RTI Health Solutions, an independent non-profit research organization, received funding under a research contract with Ionis Pharmaceuticals to conduct this study and provide publication support in the form of manuscript writing, styling, and submission.
+Declarations
+Conflicts of Interest/Competing Interests
+Cannon Kent and Caroline M. Vass are full-time employees of RTI Health Solutions, an independent non-profit research organization, which was retained by Ionis Pharmaceuticals to conduct the research that is the subject of this article. Their compensation is unconnected to the studies on which they work. Carol Mansfield was an employee of RTI Health Solutions when the study was conducted. Kathleen F. Villa, Aaron Yarlas, James A. Ruggles, and Laura Bordone are employees of Ionis Pharmaceuticals and may hold shares and/or stock options in the company.
+Ethics Approval
+Not applicable.
+Consent to Participate
+Not applicable.
+Consent for Publication
+Not applicable.
+Availability of Data and Material
+Data requests from qualified researchers will be considered once all three of the following criteria are met: (1) 12 months from marketing approval of the study drug in both the USA and European Union; (2) 18 months from conclusion of the study; and (3) 6 months from the publication of this article. For additional information, visit https://vivli.org/ourmembers/ionis .
+Code Availability
+Not applicable.
+Authors’ Contributions
+KFV, CM, AY, JAR, LB, CK, and CMV each made a significant contribution to the work reported, whether that is in the conception, study design, execution, acquisition of data, analysis and interpretation, or in all these areas; took part in drafting, revising or critically reviewing the article; gave final approval of the version to be published; have agreed on the journal to which the article has been submitted; and agree to be accountable for all aspects of the work.
+References
+1. Raasch J, Glaum MC, O’Connor M. The multifactorial impact of receiving a hereditary angioedema diagnosis. World Allergy Organ J. 2023;16(6):100792. 10.1016/j.waojou.2023.100792.
+[ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+2. Riedl MA, Bordone L, Revenko A, Newman KB, Cohn DM. Clinical progress in hepatic targeting for novel prophylactic therapies in hereditary angioedema. J Allergy Clin Immunol Pract. 2024;12(4):911–8. 10.1016/j.jaip.2023.12.025.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+3. Sinnathamby ES, Issa PP, Roberts L, Norwood H, Malone K, Vemulapalli H, et al. Hereditary angioedema: diagnosis, clinical implications, and pathophysiology. Adv Ther. 2023;40(3):814–27. 10.1007/s12325-022-02401-0.
+[ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+4. Henao MP, Kraschnewski JL, Kelbel T, Craig TJ. Diagnosis and screening of patients with hereditary angioedema in primary care. Ther Clin Risk Manag. 2016;12:701–11. 10.2147/TCRM.S86293.
+[ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+5. Prematta MJ, Bewtra AK, Levy RJ, Wasserman RL, Jacobson KW, Machnig T, et al. Per-attack reporting of prodromal symptoms concurrent with C1-inhibitor treatment of hereditary angioedema attacks. Adv Ther. 2012;29(10):913–22. 10.1007/s12325-012-0053-5.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+6. Rosi-Schumacher M, Shah SJ, Craig T, Goyal N. Clinical manifestations of hereditary angioedema and a systematic review of treatment options. Laryngoscope Investig Otolaryngol. 2021;6(3):394–403. 10.1002/lio2.555.
+[ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+7. Santacroce R, D’Andrea G, Maffione AB, Margaglione M, d’Apolito M. The genetics of hereditary angioedema: a review. J Clin Med. 2021;10(9):2023. 10.3390/jcm10092023.
+[ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+8. Yong PFK, Coulter T, El-Shanawany T, Garcez T, Hackett S, Jain R, et al. A national survey of hereditary angioedema and acquired C1 inhibitor deficiency in the United Kingdom. J Allergy Clin Immunol Pract. 2023;11(8):2476–83. 10.1016/j.jaip.2023.04.035.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+9. Nieto S, Madrigal I, Contreras F, Vargas ME. Real-world experience of hereditary angioedema (HAE) in Mexico: a mixed-methods approach to describe epidemiology, diagnosis, and treatment patterns. World Allergy Organ J. 2023;16(9):100812. 10.1016/j.waojou.2023.100812.
+[ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+10. Riedl MA, Danese M, Danese S, Ulloa J, Maetzel A, Audhya PK. Hereditary angioedema with normal C1 inhibitor: US survey of prevalence and provider practice patterns. J Allergy Clin Immunol Pract. 2023;11(8):2450-6.e6. 10.1016/j.jaip.2023.01.023.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+11. Bork K, Anderson JT, Caballero T, Craig T, Johnston DT, Li HH, et al. Assessment and management of disease burden and quality of life in patients with hereditary angioedema: a consensus report. Allergy Asthma Clin Immunol. 2021;17(1):40. 10.1186/s13223-021-00537-2.
+[ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+12. Honda D, Li PH, Jindal AK, Katelaris CH, Zhi YX, Thong BY, et al. Uncovering the true burden of hereditary angioedema due to C1-inhibitor deficiency: a focus on the Asia-Pacific region. J Allergy Clin Immunol. 2024;153(1):42–54. 10.1016/j.jaci.2023.09.039.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+13. Kumar Jindal A, Basu S, Tyagi R, Barman P, Sil A, Chawla S, et al. Delay in diagnosis is the most important proximate reason for mortality in hereditary angio-oedema: our experience at Chandigarh, India. Clin Exp Dermatol. 2024;49(4):368–74. 10.1093/ced/llad428.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+14. Banerji A, Davis KH, Brown TM, Hollis K, Hunter SM, Long J, et al. Patient-reported burden of hereditary angioedema: findings from a patient survey in the United States. Ann Allergy Asthma Immunol. 2020;124(6):600–7. 10.1016/j.anai.2020.02.018.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+15. Chong-Neto HJ. A narrative review of recent literature of the quality of life in hereditary angioedema patients. World Allergy Organ J. 2023;16(3):100758. 10.1016/j.waojou.2023.100758.
+[ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+16. Maurer M, Magerl M, Betschel S, Aberer W, Ansotegui IJ, Aygoren-Pursun E, et al. The international WAO/EAACI guideline for the management of hereditary angioedema: the 2021 revision and update. Allergy. 2022;77(7):1961–90. 10.1111/all.15214.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+17. Busse PJ, Christiansen SC, Riedl MA, Banerji A, Bernstein JA, Castaldo AJ, et al. US HAEA Medical Advisory Board 2020 guidelines for the management of hereditary angioedema. J Allergy Clin Immunol Pract. 2021;9(1):132-50.e3. 10.1016/j.jaip.2020.08.046.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+18. Yong PFK, Annals R, Diwakar L, Elkhalifa S, Gompels M, Jain R, et al. Prophylaxis in hereditary angioedema: a United Kingdom Delphi consensus. Clin Exp Immunol. 2024;217(1):109–16. 10.1093/cei/uxae020.
+[ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+19. Maurer M, Aygoren-Pursun E, Banerji A, Bernstein JA, Balle Boysen H, Busse PJ, et al. Consensus on treatment goals in hereditary angioedema: a global Delphi initiative. J Allergy Clin Immunol. 2021;148(6):1526–32. 10.1016/j.jaci.2021.05.016.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+20. US HAEA. US Hereditary Angiodema Association. Approved HAE treatments. 2025. https://www.haea.org/pages/p/treatments . Accessed 15 Jan 2025.
+21. Mendivil J, DerSarkissian M, Banerji A, Diwakar L, Katelaris CH, Keith PK, et al. A multicenter chart review of patient characteristics, treatment, and outcomes in hereditary angioedema: unmet need for more effective long-term prophylaxis. Allergy Asthma Clin Immunol. 2023;19(1):48. 10.1186/s13223-023-00795-2.
+[ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+22. Tachdjian R, Savic S, Fridman M, Frade JP, Fasehun M, Audhya PK. Real-world reporting rates of administration-site reactions with on-demand treatment of hereditary angioedema attacks. Allergy Asthma Proc. 2024;45(1):37–43. 10.2500/aap.2024.45.230073.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+23. Hide M, Ohsawa I, Nurse C, Yu M. Efficacy and safety of lanadelumab in Japanese patients with hereditary angioedema: a phase 3 multicenter, open-label study. J Dermatol. 2023;50(11):1381–91. 10.1111/1346-8138.16909. ( Investigators SHPT ).
+[ DOI ] [ PubMed ] [ Google Scholar ]
+24. Berotralstat PI. BioCryst Pharmaceuticals, Inc. Highlights of prescribing information. December 2020. Avaiilable from: ttps:// www.accessdata.fda.gov/drugsatfda_docs/label/2020/214094s000lbl.pdf . Accessed 5 Feb 2025.
+25. BioCryst Pharmaceuticals Inc. Canadian Agency for Drugs and Technologies in Health. Berotralstat (Orladeyo): CADTH reimbursement review: therapeutic area: hereditary angioedema (HAE). 2023. Available from: [ https://www.ncbi.nlm.nih.gov/books/NBK596626/ . Accessed 15 Jan 2025. [ PubMed ]
+26. Zuraw B, Lumry WR, Johnston DT, Aygoren-Pursun E, Banerji A, Bernstein JA, et al. Oral once-daily berotralstat for the prevention of hereditary angioedema attacks: a randomized, double-blind, placebo-controlled phase 3 trial. J Allergy Clin Immunol. 2021;148(1):164-72.e9. 10.1016/j.jaci.2020.10.015.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+27. Riedl MA, Tachdjian R, Lumry WR, Craig T, Karakaya G, Gelincik A, et al. Efficacy and safety of donidalorsen for hereditary angioedema. N Engl J Med. 2024;391(1):21–31. 10.1056/NEJMoa2402478.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+28. Burnette AF. Informed decision-making in hereditary angioedema prophylaxis. Int Forum Allergy Rhinol. 2021;11(6):965–6. 10.1002/alr.22764.
+[ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+29. Clark MD, Determann D, Petrou S, Moro D, de Bekker-Grob EW. Discrete choice experiments in health economics: a review of the literature. Pharmacoeconomics. 2014;32(9):883–902. 10.1007/s40273-014-0170-x.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+30. de Bekker-Grob EW, Ryan M, Gerard K. Discrete choice experiments in health economics: a review of the literature. Health Econ. 2012;21(2):145–72. 10.1002/hec.1697.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+31. Marshall D, Bridges JF, Hauber B, Cameron R, Donnalley L, Fyie K, et al. Conjoint analysis applications in health: how are studies being designed and reported? An update on current practice in the published literature between 2005 and 2008. The Patient: Patient-Centered Outcomes Research. 2010;3(4):249–56. 10.2165/11539650-000000000-00000.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+32. Ryan M, Gerad K, Amaya-Amaya M. Using discrete choice experiments to value health and health care. Dordrecht: Springer; 2008. p. 13–46. 10.1007/978-1-4020-5753-3_1. [ Google Scholar ]
+33. Soekhai V, de Bekker-Grob EW, Ellis AR, Vass CM. Discrete choice experiments in health economics: past, present, and future. Pharmacoeconomics. 2019;37(2):201–26. 10.1007/s40273-018-0734-2.
+[ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+34. Johnson FR, Adamowicz W, Groothuis-Oudshoorn C. What can discrete-choice experiments tell us about patient preferences? An introduction to quantitative analysis of choice data. Patient. 2025;18(5):425–40. 10.1007/s40271-024-00705-7.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+35. Whitty JA, Lancsar E, De Abreu Lourenco R, Howard K, Stolk EA. Putting the choice in choice tasks: incorporating preference elicitation tasks in health preference research. Patient. 2025;18(5):415–23. 10.1007/s40271-024-00696-5.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+36. Ozdemir S, Quaife M, Mohamed AF, Norman R. An overview of data collection in health preference research. Patient. 2025;18(4):303–15. 10.1007/s40271-024-00695-6.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+37. Campoamor NB, Guerrini CJ, Brooks WB, Bridges JFP, Crossnohere NL. Pretesting discrete-choice experiments: a guide for researchers. Patient. 2024;17(2):109–20. 10.1007/s40271-024-00672-z.
+[ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+38. Muhlbacher AC, de Bekker-Grob EW, Rivero-Arias O, Levitan B, Vass C. How to present a decision object in health preference research: attributes and levels, the decision model, and the descriptive framework. Patient. 2025;18(4):291–302. 10.1007/s40271-024-00673-y.
+[ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+39. Marshall DA, Veldwijk J, Janssen EM, Reed SD. Stated-preference survey design and testing in health applications. Patient. 2025;18(3):187–97. 10.1007/s40271-023-00671-6.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+40. Gonzalez JM. A guide to measuring and interpreting attribute importance. The Patient Patient-Cent Outcomes Res. 2019;12(3):287–95. 10.1007/s40271-019-00360-3. [ DOI ] [ PubMed ] [ Google Scholar ]
+41. Haegarda PI. CSL Behring GmbH. Highlights of prescribing information. January 2022. Available from:p https://www.haegarda.com/prescribing-information . Accessed 15 Jan 2025.
+42. Orladeyo PI. BioCryst Pharmaceuticals, Inc. Highlights of prescribing information. October 2024. Available from: https://www.biocryst.com/wp-content/uploads/ORLADEYO_USPI.pdf . Accessed 15 Jan 2025.
+43. Takhzyro PI. Takeda Pharmaceuticals U.S.A., Inc. Highlights of prescribing information. February 2023. Available from: https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/761090s010lbl.pdf . Accessed 15 Jan 2025.
+44. Fijen LM, Riedl MA, Bordone L, Bernstein JA, Raasch J, Tachdjian R, et al. Inhibition of prekallikrein for hereditary angioedema. N Engl J Med. 2022;386(11):1026–33. 10.1056/NEJMoa2109329.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+45. Craig TJ, Reshef A, Li HH, Jacobs JS, Bernstein JA, Farkas H, et al. Efficacy and safety of garadacimab, a factor XIIa inhibitor for hereditary angioedema prevention (VANGUARD): a global, multicentre, randomised, double-blind, placebo-controlled, phase 3 trial. Lancet. 2023;401(10382):1079–90. 10.1016/S0140-6736(23)00350-1.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+46. Banerji A, Riedl MA, Bernstein JA, Cicardi M, Longhurst HJ, Zuraw BL, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks: a randomized clinical trial. JAMA. 2018;320(20):2108–21. 10.1001/jama.2018.16773.
+[ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+47. Li HH, Zuraw B, Longhurst HJ, Cicardi M, Bork K, Baker J, et al. Subcutaneous C1 inhibitor for prevention of attacks of hereditary angioedema: additional outcomes and subgroup analysis of a placebo-controlled randomized study. Allergy Asthma Clin Immunol. 2019;15:49. 10.1186/s13223-019-0362-1.
+[ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+48. Longhurst H, Farkas H. Biological therapy in hereditary angioedema: transformation of a rare disease. Expert Opin Biol Ther. 2020;20(5):493–501. 10.1080/14712598.2020.1724280.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+49. Banerji A, Li Y, Busse P, Riedl MA, Holtzman NS, Li HH, et al. Hereditary angioedema from the patient’s perspective: a follow-up patient survey. Allergy Asthma Proc. 2018;39(3):212–23. 10.2500/aap.2018.39.4123.
+[ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+50. Bygum A, Aygoren-Pursun E, Beusterien K, Hautamaki E, Sisic Z, Wait S, et al. Burden of illness in hereditary angioedema: a conceptual model. Acta Derm Venereol. 2015;95(6):706–10. 10.2340/00015555-2014.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+51. ClinicalTrials.gov. NCT05139810 : OASIS-HAE: a study to evaluate the safety and efficacy of donidalorsen (ISIS 721744 or IONIS-PKK-LRx) in participants with hereditary angioedema (HAE). 6 March 2025. Available from: https://clinicaltrials.gov/study/NCT05139810 . Accessed 13 May 2025.
+52. ClinicalTrials.gov. NCT06007677 : a long-term study of STAR-0215 in participants with hereditary angioedema. 14 March 2025. Available from: https://clinicaltrials.gov/study/NCT06007677 . Accessed 13 May 2025.
+53. Reed Johnson F, Lancsar E, Marshall D, Kilambi V, Muhlbacher A, Regier DA, et al. Constructing experimental designs for discrete-choice experiments: report of the ISPOR conjoint analysis experimental design good research practices task force. Value Health. 2013;16(1):3–13. 10.1016/j.jval.2012.08.2223.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+54. Kuhfeld W. Marketing research methods in SAS: experimental design, choice, conjoint, and graphical techniques. Cary, NC: SAS Institute Inc.; 2010. [ Google Scholar ]
+55. Kuhfeld WF, Tobias RD, Garratt M. Efficient experimental design with marketing research applications. J Mark Res. 1994;31(4):545–57. 10.2307/3151882. [ Google Scholar ]
+56. de Bekker-Grob EW, Donkers B, Jonker MF, Stolk EA. Sample size requirements for discrete-choice experiments in healthcare: a practical guide. Patient. 2015;8(5):373–84. 10.1007/s40271-015-0118-z.
+[ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+57. Hauber AB, Gonzalez JM, Groothuis-Oudshoorn CG, Prior T, Marshall DA, Cunningham C, et al. Statistical methods for the analysis of discrete choice experiments: a report of the ISPOR Conjoint Analysis Good Research Practices Task Force. Value Health. 2016;19(4):300–15. 10.1016/j.jval.2016.04.004.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+58. Hensher D, Rose J, Greene W. Applied choice analysis: a primer. Cambridge: Cambridge University Press; 2005. [ Google Scholar ]
+59. Hurvich CM, Tsai C-L. Regression and time series model selection in small samples. Biometrika. 1989;76(2):297–307. 10.1093/biomet/76.2.297. [ Google Scholar ]
+60. McLachlan G, Peel D. Finite mixture models. New York, NY: John Wiley & Sons; 2000. [ Google Scholar ]
+61. Wedel M, Kamakura WA. Market segmentation. 2nd ed. New York (NY): Springer; 2000. [ Google Scholar ]
+62. Weller K, Donoso T, Magerl M, Aygoren-Pursun E, Staubach P, Martinez-Saguer I, et al. Validation of the Angioedema Control Test (AECT): a patient-reported outcome instrument for assessing angioedema control. J Allergy Clin Immunol Pract. 2020;8(6):2050-7.e4. 10.1016/j.jaip.2020.02.038.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+63. Geba D, Mohd Sani J, Gascon M, Hahn R, Aggarwal K, Rosselli J. Hereditary angioedema patients would prefer newer-generation oral prophylaxis. J Drug Assess. 2021;10(1):51–6. 10.1080/21556660.2020.1863699.
+[ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+64. Fasshauer M, Wedi B. Hereditary angioedema (HAE) in children and adolescents: new treatment options. Allergol Select. 2024;8:336–45. 10.5414/ALX02532E.
+[ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+65. Andembry PI. CSL Behring LLC. Andembry (garadacimab-gxii) injection. June 2025. Available from: https://labeling.cslbehring.com/PI/US/Andembry/EN/Andembry-Prescribing-Information.pdf . Accessed 29 Jul 2025.
+66. Ho MP, Gonzalez JM, Lerner HP, Neuland CY, Whang JM, McMurry-Heath M, et al. Incorporating patient-preference evidence into regulatory decision making. Surg Endosc. 2015;29(10):2984–93. 10.1007/s00464-014-4044-2.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+67. Johnson FR, Yang JC, Reed SD. The internal validity of discrete choice experiment data: a testing tool for quantitative assessments. Value Health. 2019;22(2):157–60. 10.1016/j.jval.2018.07.876.
+[ DOI ] [ PubMed ] [ Google Scholar ]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Supplementary Materials
+Supplementary file1 (DOCX 215 KB) (215.2KB, docx)
+Supplementary file1 (PDF 1209 KB) (1.2MB, pdf)
+Articles from The Patient are provided here courtesy of Springer
+ACTIONS
+View on publisher site
+PDF (1.2 MB)
+Cite
+Collections
+Permalink
+PERMALINK
+Copy
+RESOURCES
+Similar articles
+Cited by other articles
+Links to NCBI Databases
+Cite
+Copy
+Download .nbib
+.nbib
+Format:
+AMA
+APA
+MLA
+NLM
+Add to Collections
+Create a new collection
+Add to an existing collection
+Name your collection
+*
+Choose a collection
+Unable to load your collection due to an error
+Please try again
+Add
+Cancel
+Follow NCBI
+NCBI on X (formerly known as Twitter)
+NCBI on Facebook
+NCBI on LinkedIn
+NCBI on GitHub
+NCBI RSS feed
+Connect with NLM
+NLM on X (formerly known as Twitter)
+NLM on Facebook
+NLM on YouTube
+National Library of Medicine
+8600 Rockville Pike Bethesda, MD 20894
+Web Policies
+FOIA
+HHS Vulnerability Disclosure
+Help
+Accessibility
+Careers
+NLM
+NIH
+HHS
+USA.gov
+Back to Top

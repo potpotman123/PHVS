@@ -1,0 +1,70 @@
+[
+  {
+    "id": "clinics",
+    "url": "https://karger.com/iaa/article/doi/10.1159/000551984/949357/Long-Term-Prophylaxis-for-Hereditary-Angioedema",
+    "error": "HTTP Error 403: Forbidden",
+    "web_access_note": "Local retrieval failed; relevant source text was read with web tool. Evidence ledger records extracted values and locations."
+  },
+  {
+    "id": "ltp_claims",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13361871/",
+    "accessed": "2026-10-07",
+    "file": "research/raw/adoption_audit_2026-10-07/ltp_claims.txt",
+    "sha256": "b8dbf282996cd523d9001dbd6972d3189d300b507d05f56874bf295a6c085e70",
+    "chars": 41655,
+    "blocked": false
+  },
+  {
+    "id": "preferences",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13124884/",
+    "accessed": "2026-10-07",
+    "file": "research/raw/adoption_audit_2026-10-07/preferences.txt",
+    "sha256": "540c0dae25f5c436290e92c82fe1d6791f0ce8f3ae431aaf0d3eed7e283a0d49",
+    "chars": 66285,
+    "blocked": false
+  },
+  {
+    "id": "kalvista_jan2026",
+    "url": "https://ir.kalvista.com/node/12546/html",
+    "error": "The read operation timed out",
+    "web_access_note": "Local retrieval failed; relevant source text was read with web tool. Evidence ledger records extracted values and locations."
+  },
+  {
+    "id": "persistence_2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40300843/",
+    "accessed": "2026-10-07",
+    "file": "research/raw/adoption_audit_2026-10-07/persistence_2025.txt",
+    "sha256": "29bc1b7867207809ba07c2549d210501010c2ecf2261130842f63c4aab01c913",
+    "chars": 153,
+    "blocked": true,
+    "note": "Short bot-check response; PubMed abstract successfully read through web tool, not this file."
+  },
+  {
+    "id": "biocryst_q22026",
+    "url": "https://ir.biocryst.com/node/28256/html",
+    "error": "The read operation timed out",
+    "web_access_note": "Local retrieval failed; relevant source text was read with web tool. Evidence ledger records extracted values and locations."
+  },
+  {
+    "id": "biocryst_jpm2026",
+    "url": "https://ir.biocryst.com/static-files/5a7fc8c1-15d9-4c5b-a3db-b0f6e07fd632",
+    "accessed": "2026-10-07",
+    "file": "research/raw/adoption_audit_2026-10-07/biocryst_jpm2026.pdf",
+    "sha256": "4fe63cc1621a67267d5e4b6cf3db6e911e4673ada8ceb1a69669f7277e5a14de",
+    "pages": 23
+  },
+  {
+    "id": "haea_ltp_claims2025",
+    "url": "https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf",
+    "error": "HTTP Error 403: Forbidden",
+    "web_access_note": "Local retrieval failed; relevant source text was read with web tool. Evidence ledger records extracted values and locations."
+  },
+  {
+    "id": "persistence_2025_structured_abstract",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:40300843%20AND%20SRC:MED&format=json&resultType=core",
+    "accessed": "2026-10-07",
+    "file": "research/raw/adoption_audit_2026-10-07/persistence_2025_metadata.json",
+    "sha256": "6098e8de0c52608555ae83b4b6ef8494b791ac7e63d0bd94f48eafbee95073a5",
+    "note": "Selected bibliographic fields and abstract from Europe PMC; confirms earlier PubMed abstract extraction."
+  }
+]

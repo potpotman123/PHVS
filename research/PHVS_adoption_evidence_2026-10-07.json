@@ -1,0 +1,606 @@
+{
+  "as_of": "2026-10-07",
+  "scope": "US deucrictibant IR/XR public adoption evidence; no valuation or Monte Carlo",
+  "schema_note": "Each observation inherits source date, geography and population through source_id; null means unavailable or not applicable, never zero. Observed means source-reported, not independently validated. Derived includes our arithmetic or source-estimated values; neither is automatically a PHVS forecast.",
+  "sources": {
+    "S1": {
+      "title": "BioCryst January 2026 JPM presentation",
+      "date": "2026-01-12",
+      "url": "https://ir.biocryst.com/static-files/5a7fc8c1-15d9-4c5b-a3db-b0f6e07fd632",
+      "location": "PDF pp.4–8; p.9 forecasts excluded",
+      "geography": "US",
+      "population": "Orladeyo company-reported commercial patients",
+      "source_type": "company disclosure",
+      "independence": "Slide 8 persistence recycles S2; not a second cohort",
+      "local_file": "research/raw/adoption_audit_2026-10-07/biocryst_jpm2026.pdf"
+    },
+    "S2": {
+      "title": "Zuraw et al. Adherence and persistence among patients with HAE receiving LTP in the US",
+      "date": "2025-04-29",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40300843/",
+      "doi": "10.2500/aap.2025.46.250029",
+      "location": "Abstract, Methods and Results",
+      "geography": "US",
+      "population": "357 linked EHR/claims patients aged >=12; initiated Jun 22 2017–Sep 12 2023; >=12 months enrollment before and after; hierarchical reverse-approval cohort assignment",
+      "source_type": "original observational study abstract",
+      "independence": "BioCryst-affiliated authors; S1 repeats results. Patient overlap with other databases unknown.",
+      "local_file": "research/raw/adoption_audit_2026-10-07/persistence_2025_metadata.json"
+    },
+    "S3": {
+      "title": "O’Connor et al. LTP compliance and impact on on-demand treatment claims",
+      "date": "2025-07-10/2025-07-13",
+      "url": "https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf",
+      "location": "Methods, Figures 2–3, Table 2",
+      "geography": "US",
+      "population": "328 commercially insured IQVIA PharMetrics Plus patients; Jan 2016–Sep 2023; >=6 months pre-index and >=12 post; first non-androgen LTP claim; multiple index LTP and claims outliers excluded",
+      "source_type": "original conference poster",
+      "independence": "KalVista-associated study and funded writing; potential subsequent publication is not independent",
+      "local_file": null
+    },
+    "S4": {
+      "title": "Real-world treatment patterns and clinical burden of patients with HAE treated with LTP",
+      "date": "2026-05-19",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13361871/",
+      "doi": "10.1186/s13023-026-04391-6",
+      "location": "Methods, Table 2, Figure 3",
+      "geography": "US",
+      "population": "499 Komodo claims patients aged >=12; index Jan 2021–Jan 2024; >=12 months baseline and >=30 days follow-up; pharmacy-fill requirement; 257 Orladeyo,185 Takhzyro,57 Haegarda",
+      "source_type": "original observational study",
+      "independence": "Ionis funded; overlaps with other claims populations cannot be ruled out",
+      "local_file": "research/raw/adoption_audit_2026-10-07/ltp_claims.txt"
+    },
+    "S5": {
+      "title": "PIONEER-HAE: LTP real-world treatment patterns in selected US allergy clinics",
+      "date": "2026-05-21",
+      "url": "https://karger.com/iaa/article/doi/10.1159/000551984/949357/Long-Term-Prophylaxis-for-Hereditary-Angioedema",
+      "doi": "10.1159/000551984",
+      "location": "Results, Tables 1–2 and treatment transitions",
+      "geography": "US",
+      "population": "179 type I/II patients in CIIC practices observed Apr 2021–Mar 2024; historical index therapies 2009–2024; >=180 days before and after index",
+      "source_type": "original clinic registry study",
+      "independence": "Ionis funded; separate setting from claims; no proof of patient independence",
+      "local_file": null
+    },
+    "S6": {
+      "title": "Patient Preferences for LTP in HAE: A Discrete-Choice Experiment",
+      "date": "2026-01-21",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13124884/",
+      "doi": "10.1007/s40271-025-00798-8",
+      "location": "Results, Table 2 and latent-class analysis",
+      "geography": "US",
+      "population": "250 self-reported adult HAE respondents recruited through advocacy group; 81.6% female,85.2% white; selected voluntary sample",
+      "source_type": "original stated-preference study",
+      "independence": "Ionis funded, RTI conducted; not observed dispensing",
+      "local_file": "research/raw/adoption_audit_2026-10-07/preferences.txt"
+    },
+    "S7": {
+      "title": "BioCryst Q2 2026 results, Exhibit 99.1",
+      "date": "2026-08-05",
+      "url": "https://ir.biocryst.com/node/28256/html",
+      "location": "Business & Corporate Updates",
+      "geography": "US",
+      "population": "Orladeyo distribution channel",
+      "source_type": "company disclosure",
+      "independence": "Company report",
+      "local_file": null
+    },
+    "S8": {
+      "title": "2025 US treated-HAE claims prevalence study",
+      "date": "2025",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1081120625002583",
+      "doi": "10.1016/j.anai.2025.05.018",
+      "location": "Retained prior audit research/commercial.txt C9",
+      "geography": "US",
+      "population": "2020 projection from IQVIA, continuous enrollment, diagnosis algorithm plus >=1 HAE drug claim",
+      "source_type": "original observational projection; prior verified extraction retained",
+      "independence": "Not re-extracted this pass; access blocked",
+      "local_file": "research/commercial.txt"
+    },
+    "S9": {
+      "title": "KalVista January 2026 corporate update",
+      "date": "2026-01",
+      "url": "https://ir.kalvista.com/node/12546/html",
+      "location": "US diagnosed-patient estimate",
+      "geography": "US",
+      "population": "Company estimate of diagnosed HAE",
+      "source_type": "company estimate",
+      "independence": "Different definition and date from S8; not independent validation",
+      "local_file": null
+    },
+    "S10": {
+      "title": "KalVista March 25 2026 commercial update",
+      "date": "2026-03-25",
+      "url": "https://ir.kalvista.com/node/12706/html",
+      "location": "Retained prior audit research/commercial.txt C4",
+      "geography": "US forms; global revenue",
+      "population": "Ekterly commercial launch",
+      "source_type": "company disclosure; prior verified extraction retained",
+      "independence": "Forms, prescriptions and revenue are not separate confirmation of paid-patient count",
+      "local_file": "research/commercial.txt"
+    }
+  },
+  "observations": [
+    {
+      "id": "A01",
+      "source_id": "S1",
+      "metric": "Orladeyo active patients",
+      "value": {
+        "operator": ">",
+        "value": 1600
+      },
+      "unit": "patients",
+      "numerator": null,
+      "denominator": null,
+      "observation_period": "Year-end 2025",
+      "definition": "All on-therapy patients, including QuickStart, paid and PAP",
+      "status": "observed",
+      "model_use": "Historical oral-prevention pool lower-bound anchor",
+      "limitation": "Not exact count, paid count or October 2026 stock; age eligibility requires alignment"
+    },
+    {
+      "id": "A02",
+      "source_id": "S1",
+      "metric": "Orladeyo cumulative trials",
+      "value": {
+        "operator": ">",
+        "value": 3500
+      },
+      "unit": "patients",
+      "numerator": null,
+      "denominator": null,
+      "observation_period": "Launch through January 2026 disclosure",
+      "definition": "Patients who have tried Orladeyo",
+      "status": "observed",
+      "model_use": "Evidence of cumulative reach",
+      "limitation": "Do not divide A01 by A02 for persistence or subtract for discontinued patients; both are lower bounds and cohort ages differ"
+    },
+    {
+      "id": "A03",
+      "source_id": "S1",
+      "metric": "Orladeyo paid share",
+      "value": {
+        "Q1_2025_end": 84,
+        "YE_2025": 81
+      },
+      "unit": "percent",
+      "numerator": null,
+      "denominator": "On-therapy patients excluding QuickStart; count undisclosed",
+      "observation_period": "Two 2025 point-in-time snapshots",
+      "definition": "Company paid-rate denominator excludes QuickStart",
+      "status": "observed",
+      "model_use": "Mature-brand monetization calibration",
+      "limitation": "Not new-start conversion, denial rate or payer net price; cannot multiply by A01"
+    },
+    {
+      "id": "A04",
+      "source_id": "S2",
+      "metric": "12-month persistence",
+      "value": {
+        "berotralstat": 61,
+        "lanadelumab": 58,
+        "SC_pdC1INH": 53
+      },
+      "unit": "percent",
+      "numerator": null,
+      "denominator": {
+        "berotralstat": 90,
+        "lanadelumab": 189,
+        "SC_pdC1INH": 78
+      },
+      "observation_period": "12 months after initiation",
+      "definition": "No treatment gap >=45 days",
+      "status": "observed",
+      "model_use": "Product-specific new-start cohort benchmarks",
+      "limitation": "Rounded; numerator unavailable. Not causal product ranking or stable-incumbent annual retention"
+    },
+    {
+      "id": "A05",
+      "source_id": "S2",
+      "metric": "Mean proportion of days covered",
+      "value": {
+        "berotralstat": 0.73,
+        "lanadelumab": 0.78,
+        "SC_pdC1INH": 0.74
+      },
+      "unit": "fraction",
+      "numerator": null,
+      "denominator": {
+        "berotralstat": 90,
+        "lanadelumab": 189,
+        "SC_pdC1INH": 78
+      },
+      "observation_period": "12 months after initiation",
+      "definition": "Mean days covered divided by observation days",
+      "status": "observed",
+      "model_use": "Separate exposure/adherence check",
+      "limitation": "PDC is not persistence or paid conversion"
+    },
+    {
+      "id": "A06",
+      "source_id": "S3",
+      "metric": "Any LTP switching",
+      "value": 0.1524390243902439,
+      "unit": "fraction",
+      "numerator": 50,
+      "denominator": 328,
+      "observation_period": "12 months post-index",
+      "definition": ">=1 claim for a different LTP, including patients who later return",
+      "status": "derived",
+      "model_use": "Historical initiation-cohort transition benchmark",
+      "limitation": "Not share switching to PHVS, not incumbent stable-user hazard, not paid persistent destination adoption"
+    },
+    {
+      "id": "A07",
+      "source_id": "S3",
+      "metric": "At least one on-demand claim",
+      "value": 0.6707317073170732,
+      "unit": "fraction",
+      "numerator": 220,
+      "denominator": 328,
+      "observation_period": "12 months post-index",
+      "definition": "Claims-recorded rescue dispensing among LTP initiators",
+      "status": "derived",
+      "model_use": "Evidence prevention and rescue demand overlap",
+      "limitation": "Absence of claim does not prove absence of attacks or available stock"
+    },
+    {
+      "id": "A08",
+      "source_id": "S3",
+      "metric": "Mean rescue doses, all LTP",
+      "value": {
+        "pre": 13.1,
+        "post": 11.8
+      },
+      "unit": "doses per patient-year",
+      "numerator": null,
+      "denominator": 328,
+      "observation_period": "Pre-index year (annualized if <364 days available) and 12 months post",
+      "definition": "Claims-derived doses",
+      "status": "observed",
+      "model_use": "Historical dispensing-intensity benchmark",
+      "limitation": "Not actual consumed attacks; stocking, wastage, free supply and product dosing differ"
+    },
+    {
+      "id": "A09",
+      "source_id": "S3",
+      "metric": "Mean rescue doses, minimal-gap LTP",
+      "value": {
+        "pre": 13.6,
+        "post": 8.0
+      },
+      "unit": "doses per patient-year",
+      "numerator": null,
+      "denominator": 147,
+      "observation_period": "Pre-index year and 12 months post",
+      "definition": "No gap >60 days for lanadelumab or >30 days for other LTP",
+      "status": "observed",
+      "model_use": "Joint LTP persistence/rescue-consumption calibration",
+      "limitation": "Selected post-index subgroup; confounding prevents causal interpretation"
+    },
+    {
+      "id": "A10",
+      "source_id": "S3",
+      "metric": "Mean rescue doses, LTP switchers",
+      "value": {
+        "pre": 18.5,
+        "post": 23.9
+      },
+      "unit": "doses per patient-year",
+      "numerator": null,
+      "denominator": 50,
+      "observation_period": "Pre-index year and 12 months post",
+      "definition": "Any different LTP claim during follow-up",
+      "status": "observed",
+      "model_use": "Stress-test high-burden transition periods",
+      "limitation": "Increase not statistically significant (reported P=0.12); not proof switching causes attacks"
+    },
+    {
+      "id": "A11",
+      "source_id": "S4",
+      "metric": "12-month KM persistence",
+      "value": {
+        "estimate": 58.7,
+        "CI95": [
+          53.8,
+          63.4
+        ]
+      },
+      "unit": "percent",
+      "numerator": null,
+      "denominator": "499 starting patients; KM risk set varies",
+      "observation_period": "12 months from initiation",
+      "definition": "Failure at gap >=90 days or switch; censor at follow-up end",
+      "status": "observed",
+      "model_use": "Separate pooled initiation-cohort benchmark",
+      "limitation": "Do not average with 45-day-gap S2; different population and definition"
+    },
+    {
+      "id": "A12",
+      "source_id": "S4",
+      "metric": "Observed switches",
+      "value": 0.11222444889779559,
+      "unit": "fraction",
+      "numerator": 56,
+      "denominator": 499,
+      "observation_period": "Variable follow-up; data availability mean 18.0 months",
+      "definition": "Switch to a different LTP",
+      "status": "derived",
+      "model_use": "Corroboration that transitions occur",
+      "limitation": "Not a 12-month switching rate; on-treatment mean 11.3 months is a different clock"
+    },
+    {
+      "id": "A13",
+      "source_id": "S4",
+      "metric": "Observed discontinuations",
+      "value": 0.3046092184368738,
+      "unit": "fraction",
+      "numerator": 152,
+      "denominator": 499,
+      "observation_period": "Variable follow-up; data availability mean 18.0 months",
+      "definition": "Gap >=90 days without index treatment",
+      "status": "derived",
+      "model_use": "Persistence mechanism only",
+      "limitation": "Not annualized or evidence of permanent cessation; do not treat index-drug shares as market shares"
+    },
+    {
+      "id": "A14",
+      "source_id": "S5",
+      "metric": "Discontinued index therapy",
+      "value": 0.46368715083798884,
+      "unit": "fraction",
+      "numerator": 83,
+      "denominator": 179,
+      "observation_period": "Variable historical treatment durations; index 2009–2024, registry observation 2021–2024",
+      "definition": "Observed index LTP cessation",
+      "status": "derived",
+      "model_use": "Clinic corroboration of treatment turnover",
+      "limitation": "Not a one-year rate; differing time axes and treatment-entry eras"
+    },
+    {
+      "id": "A15",
+      "source_id": "S5",
+      "metric": "Destinations after index cessation",
+      "value": {
+        "different_LTP": 41,
+        "same_LTP_restart": 7,
+        "no_subsequent_LTP_observed": 35
+      },
+      "unit": "patients",
+      "numerator": {
+        "different_LTP": 41,
+        "same_LTP_restart": 7,
+        "no_subsequent_LTP_observed": 35
+      },
+      "denominator": 83,
+      "observation_period": "Same variable follow-up as A14",
+      "definition": "Subsequent recorded therapy",
+      "status": "observed",
+      "model_use": "Allow switch, restart and unknown/no-record destinations",
+      "limitation": "No subsequent record does not prove acute-only; not a full annual transition matrix"
+    },
+    {
+      "id": "A16",
+      "source_id": "S5",
+      "metric": "Known cessation reasons",
+      "value": {
+        "lack_efficacy": 29,
+        "administration_dosing": 22,
+        "adverse_events": 14,
+        "payer_payment": 11
+      },
+      "unit": "percent",
+      "numerator": {
+        "lack_efficacy": 22,
+        "other_reasons": "not reported as exact counts"
+      },
+      "denominator": 76,
+      "observation_period": "At cessation; reasons available in 76/83 cases",
+      "definition": "Recorded nonexclusive reasons among discontinuers with known reasons",
+      "status": "observed",
+      "model_use": "Mechanism evidence for dissatisfaction and access pathways",
+      "limitation": "Not prevalence among all patients; rounded, subjective and nonexclusive"
+    },
+    {
+      "id": "A17",
+      "source_id": "S5",
+      "metric": "Median berotralstat time to cessation among discontinuers",
+      "value": 4.8,
+      "unit": "months",
+      "numerator": null,
+      "denominator": 14,
+      "observation_period": "Historical treatment episodes ending in cessation",
+      "definition": "Table 1 median conditional on discontinuing",
+      "status": "observed",
+      "model_use": "Exclusion guardrail only",
+      "limitation": "NOT median persistence among all berotralstat users; do not input to retention curve"
+    },
+    {
+      "id": "A18",
+      "source_id": "S6",
+      "metric": "Extremely satisfied with current LTP",
+      "value": 0.48258706467661694,
+      "unit": "fraction",
+      "numerator": 97,
+      "denominator": 201,
+      "observation_period": "Cross-sectional survey; exact field dates not recovered",
+      "definition": "Self-reported highest satisfaction category",
+      "status": "derived",
+      "model_use": "Qualitative constraint on universal dissatisfaction thesis",
+      "limitation": "Everyone else is not necessarily dissatisfied; selected survey cannot size national segments"
+    },
+    {
+      "id": "A19",
+      "source_id": "S6",
+      "metric": "Open to preferred-route medication",
+      "value": 0.788,
+      "unit": "fraction",
+      "numerator": 197,
+      "denominator": 250,
+      "observation_period": "Cross-sectional hypothetical choice",
+      "definition": "Stated openness to new medication with preferred administration",
+      "status": "derived",
+      "model_use": "Preference mechanism only",
+      "limitation": "Not observed switching, coverage or paid persistence"
+    },
+    {
+      "id": "A20",
+      "source_id": "S6",
+      "metric": "Preference classes",
+      "value": {
+        "burden_minimizers": 51.9,
+        "efficacy_maximizers": 48.1
+      },
+      "unit": "percent modeled membership",
+      "numerator": null,
+      "denominator": 250,
+      "observation_period": "Cross-sectional choice experiment",
+      "definition": "Authors’ fitted latent-class probabilities",
+      "status": "derived",
+      "model_use": "Support heterogeneous response to efficacy and burden",
+      "limitation": "No new fitting here; do not copy as US market weights"
+    },
+    {
+      "id": "A21",
+      "source_id": "S6",
+      "metric": "Relative attribute importance",
+      "value": {
+        "attack_frequency": 31.7,
+        "GI_effects": 18.5,
+        "route": 18.1
+      },
+      "unit": "percent conditional importance",
+      "numerator": null,
+      "denominator": 250,
+      "observation_period": "Cross-sectional choice experiment",
+      "definition": "Relative importance over the attribute levels tested",
+      "status": "derived",
+      "model_use": "Mechanistic preference evidence",
+      "limitation": "Not sales weights or efficacy-to-switching coefficients"
+    },
+    {
+      "id": "A22",
+      "source_id": "S8",
+      "metric": "Historical treated HAE projections",
+      "value": {
+        "expert_adjudicated": 6595,
+        "unadjusted": 8694
+      },
+      "unit": "projected US patients",
+      "numerator": null,
+      "denominator": "National projection, not sample counts",
+      "observation_period": "2020",
+      "definition": "Two claims-algorithm definitions of treated HAE",
+      "status": "derived",
+      "model_use": "Historical planning anchors",
+      "limitation": "Not current TAM confidence interval, untreated prevalence or eligible PHVS population"
+    },
+    {
+      "id": "A23",
+      "source_id": "S9",
+      "metric": "Company diagnosed HAE estimate",
+      "value": 9000,
+      "unit": "approximately US patients",
+      "numerator": null,
+      "denominator": null,
+      "observation_period": "January 2026 presentation",
+      "definition": "Company market estimate",
+      "status": "analogue-based",
+      "model_use": "Broad sensitivity anchor only",
+      "limitation": "Different definition/year from A22; method not independently validated"
+    },
+    {
+      "id": "A24",
+      "source_id": "S10",
+      "metric": "Ekterly start forms",
+      "value": 1702,
+      "unit": "US patient start forms",
+      "numerator": 1702,
+      "denominator": null,
+      "observation_period": "Cumulative through February 28 2026",
+      "definition": "Company-reported submitted forms",
+      "status": "observed",
+      "model_use": "Historical launch-interest benchmark",
+      "limitation": "Not paid patients or mature active users; no public aligned paid-conversion cohort"
+    },
+    {
+      "id": "A25",
+      "source_id": "S10",
+      "metric": "Ekterly revenue",
+      "value": 49.1,
+      "unit": "USD million global",
+      "numerator": null,
+      "denominator": null,
+      "observation_period": "Through December 31 2025",
+      "definition": "Company-reported cumulative net revenue",
+      "status": "observed",
+      "model_use": "Retain launch validation only",
+      "limitation": "Different geography/date from A24; cannot infer conversion by division"
+    },
+    {
+      "id": "A26",
+      "source_id": "S7",
+      "metric": "Orladeyo pharmacy transition",
+      "value": "CareMed sole-source shipments beginning Q3 2026",
+      "unit": "announced channel change",
+      "numerator": null,
+      "denominator": null,
+      "observation_period": "Announcement August 5 2026",
+      "definition": "New commercial specialty-pharmacy partner",
+      "status": "observed",
+      "model_use": "Data-feasibility requirement",
+      "limitation": "Announcement, not independent completion verification; historical Optime-only records may miss subsequent continuation"
+    }
+  ],
+  "unknown_inputs": [
+    {
+      "input": "Current mutually exclusive treated-patient stocks",
+      "status": "unknown",
+      "missing": "Aligned date, age/subtype and coverage for oral, injectable, other-prevention and acute-only pools",
+      "scenario_requirement": "Do not make the three requested groups exhaustive by discarding older oral prevention or uncertain records"
+    },
+    {
+      "input": "New diagnoses and first prevention starts",
+      "status": "unknown",
+      "missing": "Incidence distinguished from newly observed claims, with lookback and prior channel capture"
+    },
+    {
+      "input": "Paid persistent switching to PHVS by previous therapy/control",
+      "status": "unknown",
+      "missing": "Stable and dissatisfied incumbent denominators; competing destination therapies; first paid fill and persistence"
+    },
+    {
+      "input": "First-paid-fill delay, abandonment and bridge conversion",
+      "status": "unknown",
+      "missing": "Start-cohort dates and hub/SP adjudication events; mature paid share cannot substitute"
+    },
+    {
+      "input": "Acute treated-attack fraction, doses/attack and product choice",
+      "status": "unknown",
+      "missing": "Linked attack diary and dispense records, stratified by preventive treatment"
+    },
+    {
+      "input": "Initial rescue stocking and expiry replacement",
+      "status": "unknown",
+      "missing": "Days/quantities dispensed, inventory use/replacement reason and follow-up; refills do not imply consumption"
+    },
+    {
+      "input": "PHVS net price and benefit-weighted access",
+      "status": "unknown",
+      "missing": "Commercial terms and patient-weighted policy mapping; no universal payer or second-oral discount"
+    }
+  ],
+  "arithmetic_checks": {
+    "switch_fraction": 0.1524390243902439,
+    "rescue_claim_fraction": 0.6707317073170732,
+    "poster_partition_total": 328,
+    "clinic_destination_total": 83
+  },
+  "dependencies": [
+    "XR uptake -> fewer residual attacks -> less IR consumption; rescue ownership remains distinct",
+    "Disease control -> dissatisfaction, switching and rescue demand",
+    "Access/net contracting -> paid conversion, delay, abandonment and net price",
+    "Persistence -> paid treatment months and acute consumption",
+    "Source regimen -> early discontinuation and destination competition; stable survivors differ from new initiators",
+    "IR effectiveness and preference -> willingness to initiate XR; same-drug combined use remains a clinical/label question"
+  ]
+}

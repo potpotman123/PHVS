@@ -1,0 +1,565 @@
+[PDF PAGE 1]
+CONFIDENTIAL & PROPRIETARY
+BioCryst Pharmaceuticals, Inc.
+J.P. Morgan Healthcare Conference
+January 12, 2026
+[PDF PAGE 2]
+Forward -looking statements
+2
+This presentation contains forward-looking statements, including statements regarding, among other things, preliminary, unaudited results and future results, performance or achievements, expectations 
+regarding pipeline development, including timing of clinical trial results, expectations regarding BioCryst’s growth and expenses, the expected benefits of BioCryst’s acquisition of Astria (the “Merger”) 
+and BioCryst’s ability to recognize the benefits of the Merger, expected Merger consideration, the anticipated financial impact of the Merger, BioCryst’s or the combined company’s performance 
+following the Merger, including future financial and operating results, anticipated approval and commercialization of navenibart, pharmaceutical research and development, such as drug discovery, 
+preclinical and clinical development activities and related timelines, and expected HAE portfolio revenue growth and addressable market, anticipated benefits, performance, and competitive positioning 
+of, and market size for, navenibart and BCX17725, potential best-in-class or first-in-class profile of product candidates (including navenibart and BCX17725), expectations regarding ORLADEYO peak 
+revenue, and BioCryst’s plans, objectives, expectations, intentions, growth strategies and other statements that are not historical facts. These statements involve known and unknown risks, uncertainties 
+and other factors which may cause BioCryst’s actual results, performance, or achievements to be materially different from any preliminary, unaudited results and future results, performance, or 
+achievements expressed or implied by the forward-looking statements. These statements reflect our current views with respect to future events and are based on assumptions and are subject to risks 
+and uncertainties. Given these uncertainties, you should not place undue reliance on these forward-looking statements. 
+Some of the factors that could affect the forward-looking statements contained herein include: BioCryst’s ability to successfully implement or maintain its commercialization plans for ORLADEYO; 
+BioCryst’s ability to successfully progress its pipeline development plans as described herein, including meeting the expected timelines; the results of BioCryst’s partnerships with third parties may not 
+meet BioCryst’s current expectations; risks related to government actions, including that decisions and other actions, including as they relate to pricing, may not be taken when expected or at all, or that 
+the outcomes of such decisions and other actions may not be in line with BioCryst’s current expectations; the commercial viability of ORLADEYO, including its ability to achieve sustained market 
+acceptance and demand; ongoing and future preclinical and clinical development of product candidates may take longer than expected and may not have positive results; the outcome of preclinical 
+testing and early clinical trials may not be predictive of the success of later clinical trials, and interim results of a clinical trial do not necessarily predict final results; BioCryst may not be able to enroll the 
+required number of subjects in planned clinical trials of product candidates; BioCryst may not advance human clinical trials with product candidates as expected; the FDA or other applicable regulatory 
+agency may require additional studies beyond the studies planned for products and product candidates, may not provide regulatory clearances which may result in delay of planned clinical trials, may 
+not review regulatory filings on our expected timeline, may impose certain restrictions, warnings, or other requirements on products and product candidates, may impose a clinical hold with respect to 
+product candidates, or may withhold, delay or withdraw market approval for products and product candidates; product candidates, if approved, may not achieve market acceptance; BioCryst’s ability to 
+successfully commercialize its products and product candidates; BioCryst’s ability to successfully manage its growth and compete effectively; timing for achieving or sustainability of profitability and 
+positive cash flow may not meet management’s expectations; statements and projections regarding financial guidance and goals and the attainment of such goals may differ from actual results or may 
+not be achieved on the expected timelines, or at all, based on market factors and BioCryst’s ability to execute its operational and budget plans; actual financial results may not be consistent with 
+expectations, including that revenue, operating expenses and cash usage may not be within management’s expected ranges; the occurrence of any event, change or other circumstances that could give 
+rise to the right of BioCryst or Astria to terminate the definitive agreement governing the Merger; the failure to obtain Astria stockholder approval or to satisfy any of the other conditions to the Merger on 
+a timely basis or at all; the possibility that the anticipated benefits of the Merger, including anticipated synergies, are not realized when expected or at all, including as a result of the impact of, or 
+problems arising from, the integration of the two companies or as a result of the strength of the economy and competitive factors in the areas where BioCryst and Astria do business; the significant 
+indebtedness BioCryst expects to incur in connection with the Merger and the need to generate sufficient cash flows to service and repay such debt; the possibility that the Merger may be more 
+expensive to complete than anticipated; diversion of management’s attention from ongoing business operations and opportunities; potential adverse reactions or changes to business or employee 
+relationships, including those resulting from the completion of the Merger; and risks relating to the potential dilutive effect of shares of BioCryst common stock to be issued in the Merger. 
+Please refer to the documents BioCryst files periodically with the Securities and Exchange Commission, specifically BioCryst’s most recent Annual Report on Form 10-K, Quarterly Reports on Form 10-Q, 
+and Current Reports on Form 8-K, which identify important factors that could cause actual results to differ materially from those contained in BioCryst’s projections and forward-looking statements.
+[PDF PAGE 3]
+3
+This presentation includes non-GAAP financial measures that differ from measures calculated in accordance with generally accepted accounting 
+principles in the United States of America (“GAAP”), including financial measures labeled as “non-GAAP.” We believe providing these non-GAAP 
+measures, which show our results with these items adjusted, is valuable and useful since they allow management and investors to better understand 
+the company’s financial performance in the absence of certain non-cash items such as stock-based compensation and certain special events and allow 
+investors to more accurately understand our current and past period results and more easily compare them to future results. These non-GAAP 
+measures also correspond with the way we expect investors and financial analysts to compare our results. Our non-GAAP measures should be 
+considered only as supplements to, and not as substitutes for or in isolation from, our other measures of financial information prepared in accordance 
+with GAAP, such as GAAP revenue or operating income.
+Our references to the “non-GAAP” financial measure of preliminary, unaudited 2025 ORLADEYO revenue, excluding European ORLADEYO revenue for 
+the full year 2025, constitutes a non-GAAP financial measure. It refers to our preliminary GAAP results, adjusted to show the results without including 
+$38 million of European ORLADEYO revenue for the nine months ended September 30, 2025. 
+We also provide our non-GAAP operating expense outlook for full year 2026, which refers to our expected GAAP operating expense, excluding stock-
+based compensation, restructuring and transaction-related costs. We have not provided a reconciliation against the comparable forward-looking GAAP 
+measure because we are unable to predict with reasonable certainty the full amount of stock-based compensation expense or restructuring and 
+transaction-related costs for the full year 2026 without unreasonable effort. Stock-based compensation expense is uncertain and depends on various 
+factors, including our future hiring and retention needs, as well as the future fair market value of our common stock, which is difficult to predict and 
+subject to change. In addition, we are unable to predict with reasonable certainty the full amount of restructuring and transaction-related costs as the 
+closing of the proposed Astria acquisition is still pending and the related costs are dependent on various factors that have not yet occurred. The actual 
+amount of stock-based compensation, restructuring and transaction-related costs for the full year 2026 could have a material impact on GAAP 
+reported results for the guidance period.
+Non-GAAP Financial Measures
+[PDF PAGE 4]
+What BioCryst accomplished in 2025: 
+4
+ORLADEYO demand growth 2025 was the strongest year since launch for new patient prescriptions
+Paid rate improvement Paid rate reached 84% at end of Q1 and 81% at YE; approaching long -
+term goal of 85% 1
+European sale Sale of EU ORLADEYO business at compelling valuation; 
+streamlines operations, improves margins
+Business Development Proposed Astria acquisition strengthens HAE portfolio with an attractive 
+Phase III asset in navenibart
+Profitability Achieved first full year of profitability
+Peds approval Received FDA approval for ORLADEYO pellet formulation for patients 2 to 
+<12 with HAE
+1. Paid rate calculation does not include patients on Quick Start program
+[PDF PAGE 5]
+Strong Q4 and 2026 outlook
+5
+2026 GUIDANCE (in millions) As of Jan 12, 2026
+ORLADEYO revenue1 $625-645
+Total revenue1 $635-660
+Non-GAAP operating expense2 $380-390
+Non-GAAP operating expense including Astria acquisition2 $450-470
+Commercial Highlights
+• 2025 was the strongest year since 
+launch for new patient prescriptions
+• Continued strong demand despite 
+new market entrants
+• Over 1,600 US patients on therapy at 
+YE 2025
+• Continued growth in new 
+prescribers
+PRELIMINARY RESULTS (in millions) Q4 2025 FY 2025
+ORLADEYO revenue $151 $601
+ORLADEYO revenue, excluding EU1 $563
+Cash, cash equivalents, restricted cash & investments at YE $338
+1. Excludes EU ORLADEYO revenues (BioCryst divested its European ORLADEYO business in Q4 2025).
+2. Excludes stock-based compensation, restructuring, and transaction-related costs.
+[PDF PAGE 6]
+BioCryst: delivering sustainable growth in rare disease
+6
+Steady growth with 
+high cash flow visibility
+• Sustainable $1B peak 
+revenue opportunity for 
+ORLADEYO
+• >80% contribution margin1
+• IP runway into 20402
+Maximizing potential of 
+rare disease pipeline
+• Netherton syndrome: high 
+unmet need and potential 
+for best-in-class therapy 
+• Targeted rare disease-
+focused discovery
+• Externalizing non-core 
+assets
+Via strategic business 
+development
+• Focus on de-risked late-
+stage rare disease assets
+• Near-term value creation
+• Leveraging existing 
+operating infrastructure 
+1. Contribution margin defined as revenue minus direct costs (COGS + S&M)
+2. Pediatric extension through May 2040; composition of matter patent
+Value creation through 
+three key strategic growth pillars
+Commercial Product Internal R&D External Opportunities
+[PDF PAGE 7]
+ORLADEYO: the first and only approved targeted oral for 
+HAE prophylaxis
+7
+• ORLADEYO (berotralstat) is a plasma kallikrein 
+inhibitor indicated for prophylaxis to prevent attacks 
+of HAE in patients ages 2+
+• Discovered in BioCryst labs
+• Approved in US Dec 2020; now in 6th year of launch
+• Pediatric formulation (pellets) approved Dec 12, 2025
+• IP through May 20401
+>1,600 
+patients on therapy 2
+>3,500 
+patients have tried since launch
+>1,500 
+unique prescribers
+(figures reflect ORLADEYO metrics in US market)
+1. Pediatric extension through May 2040; composition of matter patent
+2. All patients including Quick Start, paid, and patient assistance program (PAP)
+[PDF PAGE 8]
+ORLADEYO offers proven long -term attack control, 
+demonstrated by strong real -world efficacy data
+8
+Great efficacy + 
+differentiated convenience
+Strong retention over time
+(% of patients persistent at various time points)3
+ORLADEYO efficacy is consistent with ~80 -90% reduction in attack rate 
+provided by injectable therapies
+86%
+76%
+61%
+3 months 6 months 12 months
+Leads to
+1. BL: baseline
+2. Data from APeX-2 open label extension study; 150mg, n=21 completers; Kiani-Alikhan S, et al. J Allergy Clin Immunol Pract. 2024;12(3):733-743.e10. 
+3. Zuraw BL, et al. Allergy Asthma Proc. 2025 May 1;46(3):209-217. Persistence is defined as having no gap in treatment ≥45 days after the treatment initiation 
+date.
+2.8
+1.1 0.9 1
+0.6 0.6
+1
+0.6 0.7
+0.3
+0
+0.5
+1
+1.5
+2
+2.5
+3
+BL¹ 1 3 6 9 12 15 18 21 24
+HAE monthly attack rate
+Months of treatment with ORLADEYO²
+[PDF PAGE 9]
+ORLADEYO: highly achievable path to peak
+9
+• ~150 net patient adds per year 
+(adult + pediatric)
+• Paid rate improvement toward 
+85% at YE 2029 vs. 81% at YE 
+20252
+• Modest annual price increases
+• Contribution from ex-US 
+geographies
+$563M
+2025¹ 2026 2029
+$625-645M
+$1B Peak
+1. Preliminary, unaudited revenue excluding EU for FY 2025
+2. Paid rate calculation does not include patients on Quick Start program
+Key drivers to $1B peak
+[PDF PAGE 10]
+BioCryst to acquire Astria for ~$700M TEV
+10
+ 10+ yr double digit portfolio CAGR 
+Potential to transform BioCryst’s 
+revenue profile through the next 
+decade
+ Near-term launch anticipated
+Pivotal Phase 3 clinical trial on track 
+for early 2027 topline results
+ Core area of expertise 
+Seamlessly integrates into and 
+complements BioCryst’s existing HAE 
+franchise
+Strong strategic fit
+ Differentiated injectable profile
+3-to-6-month dosing would be a 
+significant improvement over available 
+injectable options
+ Late-stage asset with strong 
+efficacy, safety, and tolerability
+Phase 1b/2 data indicates potential for 
+best-in-class efficacy with favorable 
+safety profile
+ Simple, well -understood 
+mechanism
+Patients and physicians have long 
+experience with plasma kallikrein 
+inhibition
+Compelling LTP asset
+ Profitability maintained
+BioCryst expects to remain profitable 
+(non-GAAP) and cash flow positive 
+post-transaction
+ Significant operating leverage 
+Driven by BioCryst’s leading 
+commercialization infrastructure
+ Strong cash flow generation
+Expected cash balance of $1B+ by 
+2029, enabling optionality for other 
+growth opportunities
+Enhances financial profile
+Addition of navenibart to expand and strengthen presence in HAE while transforming growth profile
+TEV, total enterprise value; HAE, Hereditary Angioedema
+[PDF PAGE 11]
+Navenibart  opportunity :
+5,000+ patients
+Significant addressable opportunity in HAE
+11
+Estimated US patients on prophylaxis
+Astria deal to augment HAE portfolio with the potential best-in-class option for any route of administration 
+preference 
+Source: BioCryst Internal Market Research Study (Conducted Jun 2025), 2018-2023 administrative claims data
+7,600
+8,400
+9,100
+9,700
+2025 2026 2027 2028 2029 2030 2031 2032 2033 2034
+Other
+Injectable prophy
+ORLADEYO
+ORLADEYO 
+predicted share:
+2,000+ patients
+[PDF PAGE 12]
+BioCryst’s commercial footprint primed for next product
+12
+Commercial strategy for ORLADEYO is a repeatable playbook for additional products
+Patients 
+& HAEA
+Physicians 
+& KOLs
+Single 
+source
+specialty 
+pharmacy
+Payers
+ Robust market understanding
+ Strong stakeholder relationships
+ Proven ability to execute
+Experienced rare 
+disease sales team
+Proven patient 
+services platform
+State-of-the art 
+data analytics
+Differentiated 
+commercialization 
+infrastructure
+[PDF PAGE 13]
+Navenibart  could become the 1 st choice injectable 
+therapy
+13
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+0 4 8 12 16 20 24 28
+Mean Attack Rate Reduction
+Dosing Interval (weeks)
+(Q8W)
+(Q4W)
+ Trusted mechanism & modality
+Monoclonal antibody inhibitor of plasma 
+kallikrein
+ Compelling efficacy data
+High affinity and potency with fast onset delivers 
+rapid, effective prevention against attacks
+ Infrequent dosing schedule
+YTE modification for extended half-life enables 
+dosing every 3 or 6 months
+ Pain-free administration
+Citrate-free, high-concentration formulation, 
+delivered via autoinjector
+Phase 1b/2 data highlight 
+navenibart’s potential to match 
+or exceed marketed and 
+developmental therapies on 
+efficacy  while greatly reducing 
+treatment  burden
+Q3M/Q6M, 3/6-month dosing
+NOTE: Efficacy data presented are derived from different clinical trials conducted at different times by different sponsors, with differences in trial design and patient 
+populations. As a result, cross-trial comparisons cannot be made, and no head-to-head clinical trials have been conducted. ANDEMBRY: US Prescribing Information (Jun 
+2025). TAKHZYRO; US Prescribing Information (Jan 2025). Donidalorsen: Riedl et al (2024), NEJM. Navenibart data is from the ALPHA-SOLAR study in which Arm A consisted 
+of D1 600 mg, then 300 mg Q3M (n=10) and Arm B consisted of D1 600mg, D28 600 mg, then 600 mg Q6M (n=6).
+Navenibart
+(Q3M) Navenibart
+(Q6M)
+[PDF PAGE 14]
+Positioned to offer leading oral and injectable therapies
+14
+Navenibart
+Prefer an                 
+oral therapy
+Prefer an                          
+injectable  
+therapy
+HAE patients receiving prophylaxis 
+primarily fall into two categories:
+Oral preference
+Has steadily increased since 2023
+Consistent growth in ORLADEYO 
+demand reflects this dynamic
+Injectable preference
+Many patients are satisfied on 
+existing injectables, although 
+there is a clear unmet need
+Remaining unmet needs:
+• Q3M or longer dosing
+• Administration improvements
+• Reduced injection site pain
+Source: BioCryst Quarterly Market Research Surveys (2023- 2025)
+Combined portfolio to reach distinct, durable, and growing segments, covering full spectrum of patient preference
+Navenibart’s profile maps precisely 
+to the remaining unmet needs in 
+the injectable market
+Opportunity to offer the most patient -friendly options, 
+optimally serving the HAE patient community
+[PDF PAGE 15]
+BioCryst HAE franchise expected to generate double 
+digit revenue growth into the next decade
+15
+$1B+ 
+cash balance 
+by 2029
+1. Implied projections for navenibart based on Wall Street analyst research
+2. Non-GAAP operating expenses expected to grow at a mid-single digit CAGR
+3. Preliminary, unaudited revenue excluding EU for FY 2025
+Significant revenue growth Operating leverage 
+& synergies with Astria
+Strong profitability and 
+cash flow generation
+Enhanced financial capacity for 
+future BD
+Early 2027 - navenibart  pivotal 
+topline results expected
+2025E ex-EU³ 2029E 2033E
+$563M
+$1B+ ~15% 
+CAGR~15% 
+CAGR
+$1.8B+
+HAE portfolio revenue 1
+Illustrative operating expenses2
+[PDF PAGE 16]
+Our pipeline
+16
+*BCX17725 and avoralstat are investigational and have not been deemed safe and effective by the FDA.
+ASSET PROGRAM PRE -CLINICAL PHASE 1 PHASE 2 PHASE 3/PIVOTAL APPROVED / 
+COMMERCIAL
+CORE PROGRAMS
+ORLADEYO ® (berotralstat) 
+Oral Plasma Kallikrein 
+Inhibitor
+Hereditary Angioedema 
+(HAE)
+ORLADEYO ® (berotralstat) 
+Oral Plasma Kallikrein 
+Inhibitor in Pediatrics
+Hereditary Angioedema 
+(HAE)
+BCX17725 
+Protein Therapeutic Netherton Syndrome
+Undisclosed Rare Diseases
+NON-CORE PROGRAMS
+RAPIVAB ®
+(peramivir injection) Infectious Diseases
+Avoralstat
+Ocular Plasma
+Kallikrein Inhibitor 
+Diabetic Macular Edema 
+(DME) 
+[PDF PAGE 17]
+1. Based on healthcare claims analysis
+Image: https://www.nethertonsyndrome.com/about-nethertons.php
+BCX17725: a targeted KLK5 inhibitor for Netherton 
+syndrome (NS)
+What is Netherton syndrome?
+• A severe, rare, genetic disorder with widespread skin 
+involvement and systemic complications
+• Causes premature separation of skin layers, severe 
+inflammation, and infection risk
+• Diagnosed US population of ~1,6001 with potential to grow 
+to 3,000-5,000 with greater diagnosis and treatment
+• No approved targeted therapies
+Aligned with core rare disease focus
+• High unmet need
+• Potential for market expansion over time due to 
+misdiagnosis or underdiagnosis
+• Prescriber landscape comparable to HAE’s: 
+addressable by small sales team
+• In-house analytics expertise primed to aid 
+diagnosis and market development 
+Clear biology
+• Validated target and known cause of disease: 
+SPINK5 gene variant causes KLK5 overactivity
+• BCX17725 is a systemically-administered KLK5 
+inhibitor
+Potential for BioCryst to be first mover
+• BCX17725 could be the first-in-class targeted 
+systemic therapy
+Why Netherton syndrome?
+17
+
+[PDF PAGE 18]
+Targeted therapies drive diagnosis of rare diseases
+18
+Initial healthcare claims analysis indicates a 
+diagnosed US prevalence of ~1,600
+Netherton Syndrome 
+Population Assumptions
+Ongoing analysis leveraging NLP models, 
+EMR data, and rare disease analogs suggest 
+potential for US diagnosed population to 
+increase to greater than 3,000
+0
+5
+10
+15
+20
+25
+Fabry HAE PNH C3G Pompe
+Est. Prevalence (000’s)
+Before Targeted Therapies After Targeted Therapies
++214%
++67%
++200%
++67%
++70%
+HAE, hereditary angioedema; PNH, paroxysmal nocturnal hemoglobinuria; C3G, Complement 3 glomerulopathy; 
+NLP, natural language processing; EMR, electronic medial records
+Sources: Cantor Analysis 2024; Internal Analysis
+Change in US Prevalence After 
+Launch of Targeted Therapy
+[PDF PAGE 19]
+19
+BCX17725
+KLK7
+Skin barrier 
+dysfunction
+Inflammatory 
+cascade Atopy
+PAR2
+Downstream consequences of KLK5 activation
+Degrades 
+epithelial 
+junctions
+• KLK5 initiates the pathologic 
+protease cascade (KLK7, 
+KLK14) and inflammation 
+(via PAR2) in the skin
+• BCX17725 designed to stop 
+KLK5 overactivity at the top 
+of the pathway
+KLK5
+KLK14
+BCX17725 targets KLK5, the key player in Netherton 
+syndrome
+Petrova E and Hovnanian A. Expert Opinion 
+     Orphan  Drugs (2020) 8(11): 455-487
+PAR2: protease-activated receptor 2
+KLK = kallikrein
+[PDF PAGE 20]
+BCX17725 in healthy volunteers: encouraging 
+distribution to epidermis after IV dosing
+20
+Notes: 
+Immunofluorescence (IF) using  capture antibody specific to BCX17725 and fluor-tagged (green) detection antibody. 
+Cell nuclei – DAPI fluor (DNA, blue). 
+Post-dose samples obtained five hours after third dose. 
+Pre-dose Post-dose: BCX17725 12 mg/kg IV
+dermis
+epidermis
+80 µm
+epidermis
+dermis
+[PDF PAGE 21]
+Part 3:
+NS patients
+N = 1-3
+anticipated
+MAD
+SAD
+Multiple Dose
+Multiple Dose
+Parts 1 & 2:
+Healthy 
+volunteers
+Part 4:
+NS patients
+N = up to 12 12 weeks of treatment, open-label, safety and efficacy
+4 weeks of treatment, open-label, safety and PK
+This study is designed to 
+help us understand:
+1. Preliminary safety
+2. Systemic exposure
+3. Distribution into skin
+4. Early efficacy signals
+5. Dosing for pivotal study
+BCX17725 Phase 1 study design
+21
+Data from Part 4 expected by YE 2026
+Goal of study: inform and plan for pivotal study in 2027
+ Completed
+ Completed
+SAD, single ascending dose; MAD, multiple ascending dose
+[PDF PAGE 22]
+Key upcoming milestones
+22
+January 2026 Acquisition of Astria Therapeutics: expected close
+YE 2026 BCX17725 in NS: Proof of concept results
+Early 2027 Navenibart in HAE: Pivotal topline results
+[PDF PAGE 23]
+CONFIDENTIAL & PROPRIETARY
+BioCryst Pharmaceuticals, Inc.
+J.P. Morgan Healthcare Conference
+January 12, 2026

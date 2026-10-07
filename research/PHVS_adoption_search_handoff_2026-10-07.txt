@@ -1,0 +1,68 @@
+BOUNDED ADOPTION RESEARCH — SEARCH AND HANDOFF
+As of 7 October 2026. No agents, purchases, outreach or statistical fitting.
+
+Question: can differentiated deucrictibant generate sustained paid US demand?
+Target: denominated patient stocks, treatment transitions, persistence, access
+and rescue dispensing. Do not reopen clinical superiority as assumed fact.
+
+Existing work checked: CURRENT_RESEARCH; commercial; payer-access audit;
+Orladeyo launch analogue; SOTP segmentation; AlphaSense long/short audit;
+and the current clinical/granular-data handoff. Existing policy corrections,
+clinical limits, launch revenue and failed patient-level searches were retained.
+
+Discovery boundary: six initial targeted queries across company/SEC disclosures,
+claims/registry publications, specialty-pharmacy operational terms and patient
+preference evidence. Two narrow follow-up queries pursued identified leads.
+Subsequent opens, tables, one structured PMID lookup and selective downloads
+were retrieval/verification, not a new broad search. Themes here summarize
+the search; they are not represented as a verbatim query transcript.
+
+Lead ranking and disposition:
+1. Actual one-year claims transitions and rescue refills: high decision relevance,
+   accessible numeric denominators. Retrieved KalVista HAEA 2025 poster.
+2. Treatment-specific persistence: high relevance, free abstract sufficient for
+   core definitions. Retrieved Zuraw 2025 and confirmed via Europe PMC PMID
+   40300843. Full-text expansion not required to use qualified benchmarks.
+3. Current company stock and paid-share disclosures: high relevance, cheap
+   primary access. Read BioCryst January 2026 presentation and August release.
+4. Clinic transitions/reasons and recent pooled claims: useful corroboration
+   with incompatible time axes. Retrieved PIONEER and Komodo studies; no pooling.
+5. Patient preference experiment: supports heterogeneity only. Retrieved once;
+   did not fit individual preferences or convert stated choices to adoption.
+6. Additional unweighted payer policies and non-HAE analogues: lower incremental
+   value after direct HAE evidence; did not expand those workstreams.
+
+Access/reuse checks: source URLs, dates, locations, populations and denominator
+definitions are normalized in the JSON ledger. Downloaded sources have hashes
+in the raw manifest. Some direct downloads returned 403/timeouts while web
+text was readable; do not treat the tiny PubMed bot-response file as the paper.
+The successful structured abstract is separately recorded. BioCryst slides 4
+and 7 were visually checked for QuickStart footnotes. Slide 8 reuses Zuraw's
+persistence cohort. Claims datasets may overlap at the patient level; separate
+databases do not prove independent sampling. Later reports of the same poster
+cohort must not be counted as new corroboration.
+
+Lower-yield leads stopped: an EAACI 2026 Optime switch poster page was not
+successfully retrieved; no numeric finding assigned. Additional mixed-country
+and recent convenience surveys were screened but not extracted after stronger
+HAE evidence emerged. No representative current US stock split, paid switch
+matrix, bridge-to-paid timing or inventory/expiry series was recovered.
+
+Transformations: explicit division of reported counts for fractions; percentages
+otherwise retained as published. No rounding of percentages into invented
+patient numerators. Partition checks: 147+131+50=328; 41+7+35=83. No revenue-to-
+patient inversion, stock/cumulative retention inference, or annualization of
+variable-duration switching. Source-reported projections and fitted preference
+weights are labeled separately from observed patient counts.
+
+Stopping decision: strongest public numerical leads were exhausted within the
+bounded pass. Remaining questions require linked patient/channel records or
+assumptions; repeated broad searches would likely add weak proxies. No precise
+usage-credit estimate is claimed. Keep current source access boundaries and
+clinical caveats when building the next model.
+
+Next independent work: populate historical calibration tabs and explicit
+scenarios, then determine which unknown could change the investment decision.
+A paid data request or larger collection phase needs separate authorization
+and a concrete coverage/sample/definition feasibility check first. No such
+collection was launched. Current assignment ends with evidence and repo update.

@@ -1,0 +1,159 @@
+PHVS US PATIENT-ADOPTION EVIDENCE — 7 OCTOBER 2026
+
+The bounded search recovered actual switching, product-specific persistence,
+rescue dispensing and newer paid-share evidence. These support a model with
+observable historical benchmarks, but do not identify Pharvaris's capture rate
+or the current national treatment mix. Clinical superiority remains unresolved.
+
+WHAT CHANGED
+
+The strongest change favors neither a simple long nor a simple short. HAE
+prevention is demonstrably contestable: people change treatment. However,
+winning an initial prescription does not guarantee continuing paid demand.
+Prevention and rescue also overlap economically; they are not mutually
+exclusive patient markets. All quantitative references below map to source
+IDs and fully defined observations in the accompanying evidence ledger.
+
+1. PATIENT POOLS: A USEFUL ANCHOR, NOT A COMPLETE CURRENT TAM
+
+BioCryst reports >1,600 US Orladeyo patients on therapy at year-end 2025 and
+>3,500 who had tried it since launch [S1]. Active patients include QuickStart,
+paid and patient-assistance supply. Neither subtracting nor dividing these
+lower-bound stock/cumulative figures establishes discontinuation or retention.
+
+The existing claims study projects 6,595 expert-adjudicated versus 8,694
+unadjusted treated US patients in 2020 [S8]. KalVista's approximately 9,000
+diagnosed-patient estimate is a later company estimate [S9]. These provide
+planning anchors, not a measured 2026 confidence interval. Definitions, ages,
+subtypes, insurance capture and observation dates differ.
+
+Current injectable-prevention and acute-only stocks remain unmeasured. Do not
+subtract the Orladeyo figure from an old total and label the remainder
+injectable users. Maintain an other-prevention/unknown category alongside the
+requested oral, injectable and acute-only groups. New diagnoses and genuinely
+new prevention starts also remain unknown. Initiation-cohort drug shares are
+not national market shares.
+
+2. SWITCHING AND PERSISTENCE: DIRECT HAE BENCHMARKS
+
+In a commercial-claims cohort, 50/328 patients (15.2%, derived) received a
+different preventive drug within a year of initiation [S3]. This is a useful
+historical transition benchmark. It is not a 15.2% annual opportunity among
+stable incumbents or the probability of switching to PHVS.
+
+A linked EHR/claims study reports 12-month persistence of 61% for berotralstat
+(n=90), 58% for lanadelumab (n=189), and 53% for subcutaneous plasma-derived
+C1 inhibitor (n=78), using no gap of at least 45 days [S2]. Use these as
+new-start cohort benchmarks, not evidence that every incumbent loses roughly
+40% annually. Stable survivors may behave differently. The study is not a
+randomized comparison. BioCryst repeats its results; that is not independent
+validation.
+
+A separate Komodo study finds 58.7% pooled 12-month persistence (95% CI
+53.8–63.4), using a 90-day gap or switching [S4]. Its 56/499 switches occurred
+over variable follow-up, not one year. Do not pool these studies or average
+their percentages. Different rules can produce different commercial meanings.
+
+The clinic registry adds destination evidence: among 83 discontinuers, 41
+changed LTP, seven restarted the same LTP and 35 had no subsequent LTP
+recorded [S5]. These are variable-duration histories; no subsequent record
+does not establish permanent acute-only treatment.
+
+3. REASONS TO SWITCH: MECHANISMS, NOT NATIONAL CAPTURE RATES
+
+Among 76 clinic discontinuers with known reasons, 29% cited inadequate efficacy,
+22% administration/dosing, 14% adverse events and 11% payer/payment issues
+[S5]. Reasons are nonexclusive and conditional on stopping. They do not mean
+14% of all treated patients stop because of adverse effects. The paper's
+4.8-month berotralstat median describes 14 discontinuers only, not median
+persistence among all users.
+
+A US preference study found 97/201 current LTP users extremely satisfied,
+while 197/250 respondents expressed openness to a preferred-route medication
+[S6]. Both can be true. Its fitted preference classes distinguish efficacy
+from treatment-burden priorities, supporting heterogeneous adoption. Neither
+the class weights nor stated openness should become national switching rates.
+The advocacy-group sample is selected; S4–S6 were Ionis funded. Sponsor
+involvement warrants scrutiny, not automatic rejection of the observations.
+
+4. ACCESS: UPDATE THE BENCHMARK, PRESERVE THE DENOMINATOR
+
+Orladeyo's paid share was 84% at Q1-end 2025 and 81% at year-end 2025,
+excluding QuickStart [S1]. This updates the historical 71.5% December 2023
+benchmark. It measures the composition of the active population, not the
+eventual conversion probability of a new prescription. Multiplying 81% by
+the >1,600 active count is invalid because their denominators differ.
+
+Public first-paid-fill delays, bridge conversion and abandonment by prior
+regimen were not recovered. More unweighted payer policies will not repair
+this gap. The earlier UHC benefit-specific correction remains in force.
+
+Ekterly's 1,702 US start forms through February 2026 and $49.1m global revenue
+through December 2025 remain useful launch signals [S10], but cannot identify
+paid patient conversion: the units, dates and geography differ.
+
+5. RESCUE DEMAND: OWNERSHIP, DISPENSING AND CONSUMPTION DIFFER
+
+In the same 328-person claims cohort, 220 (67.1%) had a rescue claim in the
+year after starting prevention. Mean claims-derived rescue doses were 11.8
+per patient-year overall and 8.0 among 147 patients with minimal refill gaps
+[S3]. These are historical dispensing benchmarks, not attacks consumed or a
+deucrictibant forecast. Baseline burden, treatment gaps, stocking, free supply
+and product dosing confound interpretation.
+
+The fraction of attacks treated, doses per attack, initial stocking and expiry
+replacement remain unidentified. Do not set rescue consumption to zero when
+someone starts XR, or count every rescue owner as a recurring heavy user.
+
+WHAT CAN ENTER A MODEL NOW
+
+Historical Orladeyo stock/paid-share anchors; separately defined initiation
+persistence and switching benchmarks; historical rescue dispensing intensity;
+and evidence supporting multiple switch mechanisms. These calibrate plausible
+scenarios and consistency checks. None directly supplies PHVS adoption.
+
+Explicit scenarios are still required for current segment sizes, PHVS capture
+by prior regimen/control, paid conversion timing, comparative persistence,
+net price and rescue intensity. Keep efficacy/control linked to switching and
+rescue demand, and access linked to paid conversion and net price. Avoid
+independently maximizing XR share and IR use. Combined IR/XR use also depends
+on clinical evidence and eventual labeling. No valuation or Monte Carlo was
+performed.
+
+HIGHEST-VALUE MISSING INPUT AND WHETHER COLLECTION IS WORTH IT
+
+The key gap is the probability of a paid, persistent transition by previous
+regimen and disease control, including the denominator who could switch but
+do not. This would distinguish contestable demand from a stock of satisfied
+incumbents better than another general preference survey.
+
+A minimum useful specification combines patient identifiers, prior products,
+treatment tenure, refill dates/quantities, enrollment, and competing destination
+products, with 6–12 months of lookback and at least 12 months of follow-up.
+Hub/pharmacy records must add prescription receipt, approval/rejection,
+reversals, bridge/PAP supply and first paid fill. Clinical records or diaries
+must add control and actual attacks; claims alone cannot distinguish voluntary
+switches, treatment failure and access barriers reliably.
+
+Existing studies demonstrate feasibility in selected samples, not complete
+national coverage. BioCryst announced CareMed would become the sole-source
+Orladeyo pharmacy in Q3 2026 [S7]; historical Optime-only extraction could
+misclassify a channel transfer as discontinuation. Exact availability, linkage,
+sample size and cost remain unknown. No vendor or clinician was contacted.
+
+Recommendation: use these benchmarks to define transparent adoption scenarios
+first. Additional collection is worthwhile if the long/short decision changes
+across plausible transition assumptions and a provider can demonstrate aligned
+denominators, channel continuity and paid status. A targeted physician audit
+of recent actual decisions may clarify reasons more cheaply, but cannot
+replace dispensing records or establish national incidence. Stop if only
+stated intentions, unlinked starts or broad revenue proxies are available.
+
+PROVENANCE AND HANDOFF
+
+Ledger: research/PHVS_adoption_evidence_2026-10-07.json
+Search boundary: research/PHVS_adoption_search_handoff_2026-10-07.txt
+Source files/access outcomes: research/raw/adoption_audit_2026-10-07/manifest.json
+Prior clinical, payer, expert-call and launch conclusions are preserved in
+CURRENT_RESEARCH.md. The next task is an assumption-explicit adoption model,
+not further broad discovery. No full national transition matrix was recovered.
