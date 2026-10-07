@@ -112,6 +112,16 @@ Formula recalculation, scenario repricing, independent cash-flow bisection, nati
 
 ## Reference pitches and historical provenance
 
+Subsequent user choice: combine the271-compound study with rare-disease analogues.
+Working specification is50% study brand-only net-spending retention /50% Kuvan
+revenue retention, with25/75 and endpoints as sensitivity weights (assumptions).
+Xenazine remains a cross-check; Orfadin is qualitative. Study values must be rebased
+to pre-entry NET spending, not its plotted retail denominator. Publisher Exhibit3
+failed to load in browser; direct figure/supplement retrieval failed. No annual
+brand-only values were fabricated and the workbook remains Kuvan-only pending
+that extraction. This is a recorded model-design decision, not a completed model
+change. Details are at the beginning of the generic-erosion audit.
+
 7 October post-generic audit: [analogue and pooled evidence audit](output/PHVS_generic_erosion_audit_2026-10-07.txt) and [reproducible CMS observations](research/loe_pxq_evidence_2026-10-07.json). The workbook's Kuvan-only erosion curve is now explicitly considered provisional, not a validated central estimate; no workbook values changed. Orfadin's formulation-led growth despite generics and Xenazine's later Austedo competition weaken clean generic-erosion interpretation. Broad published studies (356 NMEs, 530 US substances, and a271-compound Part D net-price study; overlapping populations, different outcomes) offer benchmarks, not three independent revenue curves. A new matched manufacturer revenue panel was not assembled.
 
 CMS2020–24 gross spending decomposes into units × spending/raw unit: Kuvan -88.7% = -88.2% units with -3.9% unit-spend; Xenazine -74.8% = -82.6% units with +44.7% unit-spend (multiplicative, not additive). These are small Medicare populations, mixed strengths/forms, and gross claims amounts before rebates, not national manufacturer net prices. Orfadin has49 claims in2024 and is excluded from quantitative extrapolation. Do not apply generic price discounts to brand prices or treat molecule-wide spending as PHVS revenue. Further matching should align actual generic launch, geography/formulation, initial dollar sales and entrant count; calculate each molecule's revenue curve before aggregating.

@@ -1,5 +1,35 @@
 PHVS: post-generic analogue and price/volume audit — 7 October 2026
 
+USER-SELECTED COMBINED APPROACH — subsequent update, 7 October
+Use both the271-compound study and the rare-disease analogues. Proposed working
+central scenario:50% weight on study brand-only net-spending retention and50% on
+Kuvan's branded-revenue retention.50% is an analyst assumption, not an estimated
+probability or a statistically optimal weight. Test25%,50%,75% study weights and
+both unblended endpoints. Xenazine is a cross-check; Orfadin informs formulation
+risk qualitatively, rather than receiving an arbitrary numeric weight.
+
+For each observed post-entry year: blended retention = w × study retention +
+(1-w) × Kuvan retention. This blends normalized revenue paths, not prices, market
+shares, absolute sales, or separate mean P/Q paths. Rebase the study's brand-only
+net-spending series to its own year-1 net spending; its published chart uses a
+pre-entry retail-spending denominator. Preserve the different US/global population
+and partial-year Kuvan anchor as explicit comparability limitations.
+
+Do not assume rare-disease status guarantees slower erosion. Pre-entry dollar
+sales, entrant economics and substitution/formulation barriers matter. The study
+has no observed perpetual tail; continue to expose the post-year4 decline and
+IR/XR entry dates as separate assumptions. Geographic blending is a scenario
+proxy until US/ex-US economics are modeled separately.
+
+Implementation boundary: source text verified, but Exhibit3 image did not load in
+the publisher's browser viewer; direct figure and supplementary-PDF retrieval also
+failed. No numerical brand-only annual curve has been extracted. Accordingly,
+the50/50 specification is recorded, but the workbook still contains the prior
+Kuvan-only scenario. Do not substitute the57% total-molecule spending decline or
+derive brand revenue by multiplying separately pooled price and volume averages.
+Next necessary input: verified Exhibit3 brand-only values (including year-1 net
+anchor), ideally its underlying table; approximate chart readings must be labeled.
+
 DECISION
 Use pooled small-molecule evidence as the broad benchmark, with matched rare-disease
 cases as modifiers. The existing Kuvan-only curve is a provisional scenario, not a
