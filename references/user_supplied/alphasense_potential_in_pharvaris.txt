@@ -1,0 +1,456 @@
+Brand logo
+Company Deep-Dive
+Allergist Immunologist Sees Potential in Pharvaris's Deucrictibant XR for Hereditary Angioedema Management
+DATE PUBLISHED
+17 Sep 2026
+INTERVIEW DATE
+10 Sep 2026
+EXPERT PERSPECTIVE
+Doctor/Medical Professional
+ANALYST PERSPECTIVE
+Investor-Led (Buy-Side)
+PRIMARY COMPANY
+PHVS
+SMART SUMMARY
+Summary
+The interview covered the current treatment landscape for hereditary angioedema, focusing on the use of prophylactic therapies and the potential impact of Pharvaris's deucrictibant XR based on recent phase III results. Discussion included patient preferences, efficacy comparisons, barriers to adoption, and the evolving needs in HAE management.
+EXPERT BACKGROUND
+Allergist and immunologist in private practice treating both adults and pediatric patients with hereditary angioedema (HAE), currently managing 12 angioedema patients, with experience in both acute and prophylactic HAE therapies.
+EXPERT SENTIMENT
+The expert is optimistic about the efficacy and tolerability of deucrictibant XR, especially compared to current oral options.
+They believe deucrictibant XR could be a compelling option for needle-phobic, younger, or newly diagnosed patients, and anticipate significant patient interest in switching from existing therapies if payer barriers are addressed.
+TAKEAWAYS
+About 50% of the expert's HAE patients are on long-term prophylaxis, with the rest managing with acute therapies due to infrequent attacks.
+Current injectable prophylactic therapies are highly effective, but oral options lag in efficacy and tolerability; deucrictibant XR's 87% efficacy is seen as a significant improvement for oral therapy.
+Rapid onset of action (within one week) and a favorable side effect profile are important factors for patient adherence and are seen as strengths of deucrictibant XR.
+The expert estimates that up to 50% of patients already on prophylaxis might be willing to switch to deucrictibant XR, primarily due to its oral administration and comparable efficacy to injectables.
+The biggest barrier to adoption is payer/insurance approval, given the high cost and the need for justification to switch therapies.
+AlphaSense Smart Summaries are AI Generated
+
+Table of contents
+
+
+
+
+
+
+EXPERT BIO
+Allergist and immunologist with over 16 years of experience treating pediatric and adult patients. Manages 12 patients with hereditary angioedema
+View More
+INTERVIEW TRANSCRIPT
+Client
+
+00:00:00
+Hi. Thanks for taking the time to talk with me. We are looking to discuss the current treatment landscape for hereditary angioedema, with a particular focus on Pharvaris's deucrictibant XR and the recently announced phase III, CHAPTER-3 results. Before we get into it, could you briefly introduce yourself, your practice setting, and your experience treating patients with HAE?
+
+Expert
+
+00:00:24
+I'm in a private practice, allergy and immunology, all ages, all conditions for allergy and immunology. Again, I treat all conditions, including hereditary angioedema and different type of angioedema. I have 12 patients with angioedema currently who I'm taking care of, basically, adults and pediatrics.
+
+Client
+
+00:00:45
+Thanks a lot for the intro. How many of your patients are receiving long-term prophylactic treatment?
+
+Expert
+
+00:00:53
+Actually, only 50% of my patients are on prophylaxis, about eight out of 12 patients are on prophylaxis, four choose to manage that on an as-needed basis. We still find attacks are very infrequent, and they just manage with acute therapies.
+
+Client
+
+00:01:09
+Understood. How do you currently decide whether a patient should receive long-term prophylaxis rather than relying on on-demand treatment?
+
+Expert
+
+00:01:19
+I introduce treatment options to all patients. Out of those patients, I didn't diagnose all of them. Some of them were transfer care and so forth. If I do diagnose a patient, then I definitely introduce the acute option therapy. It's just making sure that they're taken care of, if something acutely happens. In the very early stage, I do introduce concept of prophylaxis, and that's just to be a little bit easier. Now, there're so many options that basically I try to go over the key options. Do you want to take something orally, or is it injectable medicine and route of administration?
+
+Basically, I just see what's going to work for patients. I try to introduce the concept early on. The majority of my patients actually access this Hereditary Angioedema Association. We're in the area where we don't have patient support group locally, so I try to also establish them, just making sure that they also have this social support groups rather than just talk to peers. That's where patients also learn about options of prophylaxis too
+
+Client
+
+00:02:26
+Got it. Among patients receiving prophylaxis, what are you using most frequently to date between Takhzyro, Orladeyo, Andembry, Dawnzera, and C1 inhibitor therapies?
+
+Expert
+
+00:02:38
+It depends on so many factors. It depends on severity of disease. It depends on type of hereditary angioedema. It depends on the patient lifestyle. I try to be transparent. Again, I usually start what's going to work for patient. Do they want to take something orally, or they would rather do injections, and how frequent? That's what we usually try to start from, mode of administration rather than specific medications. Obviously, for last few years, it became way, way more options for patients, and discussion sometime a little bit more lengthy. I let patients learn about. One of the patients said, "Okay, I would rather do injection than take oral," or vice versa.
+
+That's where we go through the products and I said, "Hey, in this area, I have these options." We talk about how does it work, what to expect, what is efficacy, what side effects they should be looking for, and so forth. That's how we usually approach it. I let patient read about that, and they come back and said, "Yes, I move forward," or "I have concern this and that." We just talk about something different.
+
+Client
+
+00:03:51
+Got it. How well-controlled are patients on current prophylactic therapies? What percentage are essentially attack free?
+
+Expert
+
+00:04:00
+I think if they're adherent, they're usually doing well. I think adherence is sometimes an issue when they forget to take stuff or something like that. I think for the most part, if some extreme event happen or some accident or severe illness, I would say they're controlled. We barely have any "severe" hospitalization attacks or ER visits. Like I said, 90%, not even 100% of patients are controlled, to be honest with you.
+
+Client
+
+00:04:29
+Got it. What are the biggest remaining unmet needs in HAE prophylaxis today?
+
+Expert
+
+00:04:35
+I think efficacy is really good. Honestly speaking, it's pretty good now. We're going to talk about oral options. If anything, the oral option is a little bit lagging in terms of efficacy and tolerability. That's the current oral options available because the majority of efficacious drugs, they're injectable. From the injectable area of option, I think the HAE is pretty good control. Again, the efficacy, the oral option for prophylaxis is basically the only one, and there are some limitation of efficacy and tolerability side effect profile.
+
+Client
+
+00:05:11
+That's clear. What was your overall reaction to the CHAPTER-3 results?
+
+Expert
+
+00:05:16
+Efficacy is pretty good. I think it's 87%.
+
+Client
+
+00:05:22
+87%.%.
+
+Expert
+
+00:05:23
+Right. I think the efficacy is pretty good, and it seems like the side effect profile is not something super sticking out to me, at least. I think it sounds very promising.
+
+Client
+
+00:05:36
+How does that efficacy compare with what you see with the leading prophylactic therapies in clinical practice?
+
+Expert
+
+00:05:43
+I think it's comparable, maybe slightly inferior for injectable options, because if you look on injectable options, they're almost like high 90s, but it's definitely superior for oral prophylaxis, for prophylactic options that we have currently.
+
+Client
+
+00:06:00
+Understood. Protection was evident within the first week and sustained through week 24. How important is rapid onset for prophylactic therapy?
+
+Expert
+
+00:06:13
+Definitely important because that's what make patients adherent to that. If you don't see efficacy right away, it's hard to convince patients to continue. Again, if we talk about oral option and even injectable options, because we usually look in the months kind of things, I always try to set up expectations with patients because, if patients, they feel like they start prophylaxis today and they control, you have to set up an expectation and say, "Hey, for this month, you still have to be super vigilant and make sure that you have acute options available," especially with acute options. We have new oral options right now, but in old days, some people, when they've been on prophylaxis for so long, people tend to forget the acute options to care with. I think one week, it's very good compared to what we have right now.
+
+Client
+
+00:07:03
+Understood. Beyond the headline attack rate reduction, what additional data from CHAPTER-3 will be most important for you to see?
+
+Expert
+
+00:07:13
+Definitely safety data and side effects. If any side effects are going to be long-term or something like that, those two things are what patients are asking for. I think another important thing that's coming after is pregnancy safety. Hereditary angioedema starts in pediatrics, and it's hereditary. It starts at an early age. We have young girls who are needle-phobic. That's a good population for oral prophylaxis. When we grow older, just proper education, how to handle childbearing and then pregnancy, all these things will be important to know. It takes some time with registry and whatnot. Long-term safety and side effects, I think that's important because oral options, mostly pediatric population, like younger age, are choosing that.
+
+Client
+
+00:08:02
+Thank you. What percentage of patients being completely attack-free would you consider compelling for deucrictibant?
+
+Expert
+
+00:08:09
+In terms of switching prophylaxis, is that what the question is or starting a new patient?
+
+Client
+
+00:08:16
+Yeah. What percentage of patients would you need to see as being completely attack-free for you to consider deucrictibant compelling?
+
+Expert
+
+00:08:25
+Based on the trials, the higher, the better. I'm not very clear with the question, to be honest with you. I'm not sure if you're asking what percent of the patient I need to see in a trial, and we talk about 87% efficacy versus what makes me to switch or start patients on this drug.
+
+Client
+
+00:08:45
+Exactly.
+
+Expert
+
+00:08:46
+Again, I think 87% is pretty good efficacy data. Again, it's an early trial. The longer patients take the drug, the efficacy is better. If you look retrospectively on current prophylactic options, the initial reports were lower than where we get after several years of use or real-world data. I think 87% is pretty good.
+
+Client
+
+00:09:13
+Understood. In your experience, do patients generally prefer daily oral therapy or an injection every few weeks?
+
+Expert
+
+00:09:20
+I think it depends on the patient. Definitely, the pediatric population, injections are hard, especially even with the current options, the smallest volume is one ml, and it's a pretty large volume for pediatrics to inject. They started from a bigger volume, but it's still something that's very difficult for parents to adhere to. I think young people, at the same time, needle-phobic population, that's number one. Storage issue, also important and portability, just carrying syringes for people with active lifestyle who are traveling professionally or recreationally. This is another good population too. Again, we didn't have that many oral options, and we have one, which is, again, a trade for efficacy and side effects. It's a better option, definitely pediatric, young adults, active lifestyle population.
+
+Client
+
+00:10:15
+Understood. How much efficacy, if any, would patients be willing to sacrifice for an oral therapy?
+
+Expert
+
+00:10:24
+I think 87% is pretty good efficacy. They were talking about Orladeyo, we started less than 50%. The real-world data, we brought it up, but when we started, it was pretty low. I think 87% is pretty good.
+
+Client
+
+00:10:42
+Understood. Do you see daily adherence as a potential disadvantage versus monthly or less frequent injections?
+
+Expert
+
+00:10:51
+It also depends. We have this weird cultural injectable drug right now because for the last, I would say, not 10, maybe last decade, it's a bunch of injectable drugs came out. People are a little bit more in tune with injection. You shoot yourself and you go with your life. That's why some people feel like taking pills on a daily basis, I don't know, especially people who are not on many medications. I'll give you example. When Orladeyo came around, I have a young gentleman, he was a college age with hereditary angioedema, and he wasn't compliant with injectable prophylaxis because he tend to forget it and this and that and it was in the refrigerator.
+
+When we talk about it as well, oral options came out, and I think, "What do you think about that?" He told me, "Young people don't take oral medicine because it's not what young people do." I was very surprised because if nobody takes medicine on a daily basis, there's some adherence to that. At the same time, if you talk about somebody who is every single injection is a battle and they're scared of that, especially, I think, females are going to be more open to oral medicine versus males, if it makes sense, young females because we take some supplements or vitamins or even OCPs.
+
+The females are more in tune to oral daily medicine versus young males. They some vitamins or OCP medication. That's maybe disadvantage to this type of population, but it's basically a decision on every case basis. What is important for people? I don't have a, let's say, direct answer to this question. It depends on the patients. Again, to this particular part, I think young males are less open to daily oral medications compared to rest, at least in my experience.
+
+Client
+
+00:12:47
+Thank you. How would you compare deucrictibant with Orladeyo based on what we've seen so far?
+
+Expert
+
+00:12:55
+I think the efficacy definitely sticks out and the onset of action, like one week versus, I forgot, it's like months or a couple of months. I don't remember exactly. It doesn't work right away. I think that definitely sticks out. I cannot recall this. I'm sure this oral medicine, it's always a little bit of a GI adjustment. Hopefully, it's not going to be as bad as Orladeyo. Orladeyo definitely wasn't really tolerable from GI tract. People have a lot of side effects with that.
+
+Client
+
+00:13:30
+Understood. If deucrictibant offers greater attack reduction than you typically see with Orladeyo, how much Orladeyo switching would you expect?
+
+Expert
+
+00:13:40
+This is a hard question. Definitely, efficacy is better. I only have two patients on Orladeyo. I'm not sure if they might be open to switch, but it's definitely going to be something that a patient will bring for discussion or I'll discuss with a patient.
+
+Client
+
+00:13:58
+Understood. Could deucrictibant also take share from Takhzyro, Andembry, or Dawnzera, or are patients who are well-controlled on those therapies unlikely to switch?
+
+Expert
+
+00:14:10
+In terms of controlling, they do control pretty well if they're adherent. Again, adherence is an issue. The limitation of Takhzyro is volume. It's a temperature sensitive, it has storage requirement. If everything works great, it's just logistics of administration. In terms of Dawnzera and Andembry, they're quite new. I wouldn't say we have to wait and see in terms of control. The data is really good.
+
+In terms of downfall, anticipation and with real-world data, because those two drugs, they're in a landscape of treatment for last year or so, they were definitely less volume. This injectable, which we call it the prefilled syringes, was a little bit easier, but it's still injection. It's still bulky to carry. I think people might be open again. People were going for injectable more based on efficacy data rather than anything else, because Orladeyo efficacy data was a little inferior. With better efficacy, I think people will be open for discussion.
+
+Client
+
+00:15:19
+Understood. For a newly diagnosed patient starting prophylaxis, where would deucrictibant rank among your choices?
+
+Expert
+
+00:15:26
+Oral choices, I think it's going to be superior for Orladeyo. Again, when we carry discussion like, "Would you rather take daily medicine or the injectable and all these kind of things," I think people would be more willing to try because, again, it's always a question about efficacy. I think it's going to be definitely one of the options that I would encourage patients to try, before even injectable, to see if it works for them.
+
+Client
+
+00:15:53
+Understood. What did the ideal patient for deucrictibant look like?
+
+Expert
+
+00:15:58
+Again, younger, needle-phobic, maybe newly diagnosed, because again, it's way too many injections. We start having only one oral, which is efficacy is low, still work in progress. Otherwise, you introduce injectable for acute attack and injectable, which we call it for prophylaxis, and sometimes people confuse. It's way too many medicine to digest right away. I think to break it down, you take a medicine on daily basis for prophylaxis, and this is injection for acute treatment, going to be a little bit easier for patients. Younger patient, needle-phobic, patients who never done any injections, a whole injection concept is not very user-friendly for them. That's what I think going to be population for this medicine.
+
+Client
+
+00:16:48
+Understood. If you had 100 HAE patients requiring prophylaxis, what percentage of newly treated patients would you expect to start on deucrictibant?
+
+Expert
+
+00:17:00
+That's a very interesting question. Again, I would offer it to 100, but how many patients will accept it? That's based on a patient decision.
+
+Client
+
+00:17:10
+Understood. What percentage of patients already on prophylaxis could you see switching to it? Could you quantify?
+
+Expert
+
+00:17:19
+I think about 50%.
+
+Client
+
+00:17:21
+Can you expand on that?
+
+Expert
+
+00:17:23
+I don't know. Half of my patients would be willing maybe to try, 50%, because you use, might say, same efficacy but with no injection. That's why people would be open to try.
+
+Client
+
+00:17:35
+Understood. What do you see as the biggest potential barrier to adoption?
+
+Expert
+
+00:17:41
+The payers, the insurances. Now, because it's so many medicines, very difficult to switch medicine. They need to have a valid reason to switch prophylaxis. That's what we did invest. If you talk to patient and said, "Oh, I want to try this," and you submit his insurance and insurance say, "Why are you switching patient? You don't have tolerate it," and this and that, you have to have a payers in this situation because they all talk about super expensive medicine. If it's not covered, if that patient won't take it, it's not something that they can afford, really.
+
+Client
+
+00:18:19
+Understood. How attractive would it be for patients to use deucrictibant both for daily prophylaxis and through the immediate release formulation for breakthrough attacks?
+
+Expert
+
+00:18:31
+That's going to be even better because it's like two birds with one bullet. It's just easier for patients. You don't have to have two medicines. For doctor, you don't have to do pre-authorization for two different treatment modalities. That's very good option. It's just one tablet treat all.
+
+Client
+
+00:18:52
+Understood. Having the same mechanism and franchise for prophylaxis and on-demand treatment would influence your prescribing?
+
+Expert
+
+00:19:01
+For sure. That's definitely going to be something really breakthrough options in this area of disease treatment.
+
+Client
+
+00:19:08
+Understood. Looking beyond deucrictibant, how do you expect the HAE treatment landscape to evolve over the next three to five years?
+
+Expert
+
+00:19:17
+This is I'm not sure. It's already evolving beyond something that we expected like 10 years ago. I don't know. We only like what people looking for cure. When you talk to patient, it's manageable, it's not treatable disease. The cure options, probably that's something that's going to be another big milestone in treatment of hereditary angioedema.
+
+Client
+
+00:19:42
+Understood. If you had to summarize your outlook on deucrictibant XR, both clinically and in terms of its potential adoption, what would you say?
+
+Expert
+
+00:19:52
+I don't know what to say, sorry.
+
+Client
+
+00:19:54
+How excited are you about deucrictibant XR?
+
+Expert
+
+00:19:58
+I'm pretty excited. Again, this area needs some improvement.
+
+Client
+
+00:20:03
+That covers all my questions. Thanks for your time today. Take care.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

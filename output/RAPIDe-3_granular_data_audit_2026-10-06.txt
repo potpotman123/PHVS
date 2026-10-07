@@ -1,0 +1,50 @@
+RAPIDe-3 missing-pair audit — 6 October 2026
+
+Decision update
+The 134-to-88 gap is largely explained by preplanned closure after sufficient paired attacks accumulated. It is materially weaker as a short-thesis claim than before this audit. This supersedes earlier statements in the research memo and clinical notes that the protocol and disposition could not be located. The remaining efficacy-robustness question is the prespecified all-treated supportive analysis, whose numerical results were not found. Sponsor registry submissions are primary records, not independent verification of individual records or an FDA endorsement.
+
+Documents retrieved from the official EMA CTIS portal
+https://euclinicaltrials.eu/ctis-public/view/2023-507268-37-00?lang=en
+Trial results > Summary of Results > SUM-129561 > View Details > attached PDF (published 16 April 2026). Local: research/raw/rapide3_ctis_results.pdf (45 pages).
+Trial results > Layperson Summary > SUM-129562 > View Details > attached PDF (published 16 April 2026). Local: research/raw/rapide3_ctis_lay_results.pdf (9 pages).
+Trial Documents > D1_Protocol_2023-507268-37_Pharvaris_redacted. Local: research/raw/rapide3_ctis_protocol.pdf (92 pages), Amendment 4.1, 17 January 2025.
+Discovery via CTIS.eu mirror, independently verified and downloaded from official EMA portal. The mirror is not itself the regulatory authority.
+US ClinicalTrials.gov API was refreshed: NCT06343779 still has no results or document module; last update 21 November 2025. This does not imply documents are absent elsewhere.
+
+Observed patient disposition (results pp.9–10)
+Placebo-first: 68 randomized, 41 complete, 27 incomplete. Incomplete: sponsor closure20, consent3, lost2, deviation2.
+Drug-first: 66 randomized, 47 complete, 19 incomplete. Incomplete: sponsor closure15, consent3, randomization error1.
+Total incomplete46 = closure35 + consent6 + lost2 + deviation2 + randomization error1.
+Recorded reasons: zero adverse-event discontinuations and zero lack-of-efficacy discontinuations. Consent and lost-to-follow-up codes do not independently prove absence of response-related motivation.
+Derived: 35/46=76.1% of incomplete pairs attributed to closure; 11/134=8.2% incomplete for other reasons. This is not an adjusted efficacy denominator.
+Completion rates: placebo-first41/68=60.3%; drug-first47/66=71.2%, difference10.9 percentage points. Descriptive imbalance, not proof of causality. Outcomes among noncompleters remain unknown.
+
+Closure explanation is now explicit
+Lay summary p.5 says 35 participants left because Pharvaris had collected enough information and stopped the study. This resolves the ambiguous 'terminated or suspended by sponsor' disposition category. The results summary p.4 says the trial was not ended prematurely; p.44 says no global interruptions. These can coexist with administrative closure of participants after an information target.
+Protocol pp.45–46, section6.8 expressly allows sponsor termination for final analysis after sufficient participants complete both attack periods, referencing sample-size section12.2. This is permission, not an independently audited record of exactly when management saw data or issued its closing instruction.
+Protocol p.71 specifies approximately120 enrolled to obtain at least60 paired participants; states at least90% power under assumptions partly redacted. Actual88 paired exceed target60. Do not infer independently validated power or lack of bias solely from exceeding the target.
+Protocol p.74 says no interim analysis applicable. No signed final SAP, unblinding log, or closing instruction obtained.
+
+All available attack data
+Lay summary p.5: 114 received at least one dose (includes adolescent non-attack dosing); 113 treated201 attacks;100 active-treated attacks,101 placebo-treated attacks;88 participants treatedboth,176 paired attacks.
+Derived:21 randomized without an attack treated;25 single-attack participants;12 active-only and13 placebo-only. The latter counts follow100−88 and101−88. Missing attacks are not automatically treatment failures. Do not cross-tabulate reason vs number of attacks without patient-level disposition.
+114-dose safety count versus113 attack-treatment count is explained by non-attack dosing; do not use114 as efficacy denominator. Drug100/placebo101 are attack-treatment exposure denominators; adolescents also have a separate non-attack group10.
+
+Prespecified robustness checks now identified
+Protocol p.14 and pp.71–73 define PEAS as two treated attacks and SEAS as at least one treated attack. A marginal Cox proportional-hazards analysis on SEAS is prespecified, with robust variance for within-patient correlation and treatment/period/sequence terms (synopsis also includes randomization strata). Binary secondary supportive analysis uses GEE. Numerical SEAS hazard ratios, CIs and p-values were not found in the 45-page result summary or bounded targeted public searches.
+Protocol also specifies supplementary treatment-policy analysis retaining assessments after rescue/prohibited medication. Primary approach treats rescue/prohibited use within12h as failure, censoring at13h upper device window regardless of prior improvement. These answer different clinical questions; rescue-use differences can contribute to headline contrast. Neither automatically invalidates the trial. Request both sets of results.
+First-period-only comparison is an additional useful check; do not call it a recovered prespecified requirement. Patient-level responses, diary timestamps and missingness reason-by-sequence are not available for independent reconstruction.
+
+Other findings and source quality
+Normal-C1INH eligibility expansion is dated: global amendment4.0 15January2025; EU4.1 17January2025. This replaces earlier uncertainty about timing; no evidence of post-readout eligibility change.
+Results-summary p.2 gives NCT07266805, an inconsistent identifier. Direct API verification shows that identifier belongs to CREAATE/PHA022121-C308. The same downloaded PDF repeatedly identifies C306/RAPIDe-3, EU2023-507268-37-00 and matches the published134/88 data. Treat NCT entry as apparent administrative error, seek correction, not evidence of efficacy fabrication.
+Country enrolment, full adverse-event tables and endpoint definitions are now available in the summary, but do not substitute for individual outcomes or the full CSR. CTIS says no clinical study reports available.
+
+Next targeted information request (prepared, not sent)
+Please provide the final dated SAP and the prespecified SEAS results for RAPIDe-3/PHA022121-C306: participants and attacks analysed, treatment effect/hazard ratio,95%CI and p-value, plus the treatment-policy supplementary analysis including post-rescue observations. Please provide a first-period-only comparison including incomplete-pair participants, and a disposition cross-tab of zero/one/two attacks by randomized sequence and reason, with first-attack response/rescue status for noncompleters. Please also confirm the date and blinded information used for sponsor closure, the achieved paired-attack count then, and any protocol/SAP changes after Amendment4.1. Please clarify the NCT identifier on p.2 of the CTIS results summary.
+
+Culper pitch reference
+Downloaded user's exact20November2025PRAX report through browser; local research/raw/culper_prax_2025-11-20.pdf,16pages. Read core argument and evidence structure; not an independent PRAX fact-check. Useful structure: isolate an investable disagreement; reconstruct chronology; show source exhibits; quantify sensitivity; connect to a catalyst and valuation exposure. Its allegations about differential treatment discontinuation, endpoint changes and missing-data modelling must not be transplanted onto PHVS. PHVS's recovered planned-pair/closure records materially distinguish this case. No PRAX approval prediction or report statistic is adopted as independently verified.
+
+Methods and limits
+Bounded search of protocol identifier and trial name across company materials, US/EU registries, investigator publications and regulatory records; followed the concrete CTIS lead. Downloaded only three trial documents plus the user-provided pitch. Extracted text with page anchors, visually inspected key disposition/statistical pages, checked arithmetic and identifier against primary registry. No paid data, bulk scraping, patient identification, reconstructed Kaplan-Meier pseudo-data or fabricated sensitivity results. Further progress requires the numerical supportive analyses or more granular sponsor/regulatory disclosure.

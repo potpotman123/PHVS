@@ -1,0 +1,501 @@
+Brand logo
+Company Deep-Dive
+Allergist Immunologist Sees Promising Future for Deucrictibant in HAE Management
+DATE PUBLISHED
+30 Jun 2026
+INTERVIEW DATE
+25 Jun 2026
+EXPERT PERSPECTIVE
+Doctor/Medical Professional
+ANALYST PERSPECTIVE
+Investor-Led (Buy-Side)
+PRIMARY COMPANY
+PHVS
+SMART SUMMARY
+Summary
+The interview covered the expert's approach to diagnosing and managing HAE, current treatment preferences, and detailed impressions of emerging oral therapies, particularly deucrictibant, for both acute and prophylactic use.
+EXPERT BACKGROUND
+Allergist immunologist with experience managing both adult and pediatric patients in an outpatient multi-specialty group, including direct management of approximately 12 hereditary angioedema (HAE) patients.
+EXPERT SENTIMENT
+Strongly optimistic about the potential of new oral therapies, particularly deucrictibant, for both on-demand and prophylactic HAE treatment.
+Believes that oral options will improve patient outcomes by enabling earlier and more frequent treatment of attacks, and is highly enthusiastic about the future of HAE management with these agents.
+Expresses some concern about mechanism of action redundancy when the same drug class is used for both prophylaxis and acute treatment, but overall sees significant value in new oral agents.
+TAKEAWAYS
+Most HAE patients in the expert's practice are well-controlled on current prophylactic drugs, with an average of two to three attacks per year.
+Diagnosis of HAE type 1 and 2 is straightforward, but there are still significant diagnostic delays for many patients.
+Current standard of care involves both long-term prophylaxis and on-demand therapy, with a preference for oral on-demand agents due to ease of use and improved patient adherence.
+Ekterly (oral on-demand) and icatibant (sub-Q) are the most commonly used acute treatments, with patients preferring oral options for convenience and earlier intervention.
+Deucrictibant is viewed as a highly promising oral on-demand and prophylactic agent, with favorable efficacy and safety data, and is expected to be competitive with or superior to current oral options like Orladeyo, though barriers such as being second to market and payer access remain.
+AlphaSense Smart Summaries are AI Generated
+
+Table of contents
+
+
+
+
+
+
+EXPERT BIO
+Allergist/Immunologist managing 30+ HAE patients monthly
+View More
+INTERVIEW TRANSCRIPT
+Client
+
+00:00:00
+Thank you again for taking the time today to talk about HAE. I think a good way to get started here would be if you can just provide us some background on yourself, as well as your specialty and your practice.
+
+Expert
+
+00:00:12
+Sure. I'm an allergist immunologist. I work in an outpatient multi-specialty group practice. I see both adult and pediatric patients with a breadth of other allergic conditions, as well as some of the rarer immunologic conditions.
+
+Client
+
+00:00:28
+Understood. Approximately how many HAE patients do you actively manage?
+
+Expert
+
+00:00:34
+About 12, a dozen patients.
+
+Client
+
+00:00:36
+How many attacks or treatment decisions do you typically see in a month?
+
+Expert
+
+00:00:41
+Most of my patients are pretty well-controlled on their prophylactic drugs. I would say, on average, a patient may have two or three attacks per year. Whatever that breaks down to per month.
+
+Client
+
+00:00:54
+What proportion of your HAE patients have HAE type one or two versus HAE with normal C1 inhibitor?
+
+Expert
+
+00:01:01
+Ten of my patients have type one. I have two patients with type two, and I do not have any type three patients.
+
+Client
+
+00:01:11
+Okay. How does management or diagnosing or things of that nature differ between those two groups?
+
+Expert
+
+00:01:17
+For type one and type two, for all intents and purposes, it's the same. The labs may be different between type one and type two, but that has no bearing on treatment approach for these patients.
+
+Client
+
+00:01:30
+Got it. For a typical HAE patient in your practice, how do they present clinically?
+
+Expert
+
+00:01:36
+Patients will come in either self-referred or referred from another physician, ER, urgent care, PCP, pediatrician, family practice, GI, OBGYN, where these patients are being seen for different symptoms, chronic frequent recurrent belly pain, swelling on their skin, or they have a family history. Once a patient starts having symptoms, their parents may have the disease, siblings may have the disease. They will come in to be tested and treated or nowadays, patients are just putting their symptoms into ChatGPT or AI, and coming up with HAE as a possibility and coming in and requesting to be tested.
+
+Client
+
+00:02:17
+Got it. What are the most common attack sites that you see?
+
+Expert
+
+00:02:21
+Skin, hands, feet, face, genitals, abdominal bowel wall edema, those are probably the two most common.
+
+Client
+
+00:02:29
+First, I will ask you, as far as diagnosing and confirming, what test or clinical criteria is most important, and maybe just walk me through how that process goes.
+
+Expert
+
+00:02:39
+It's a pretty straightforward test. We get complement levels, get a C4, a C1 inhibitor functional assay, C1 inhibitor antigenic level, and a C1Q. Once a patient is diagnosed as having type one or type two, it's pretty straightforward with the lab tests. Type three, it can be challenging. These patients have normal complement levels, normal complement testing, so there National Jewish will run Factor XII mutations for you if needed. Again, even that is not covered by insurance. It's expensive. I don't have any type three patients personally, and the diagnosis for type one and type two is very straightforward.
+
+Client
+
+00:03:24
+Okay. How often are patients still being misdiagnosed or experiencing diagnostic delays, if at all?
+
+Expert
+
+00:03:32
+Often. I'd say there's still a decent lag from when patients first start having clinical symptoms or manifestations until they're ultimately diagnosed, and that still takes a couple of years for that delta to be closed.
+
+Client
+
+00:03:45
+Got it. Have you noticed any trends within HAE over the past two to five years? Have you seen any more or less cases or different presentations, or has it remained fairly steady over time?
+
+Expert
+
+00:03:58
+No. The only trend I would say I have seen is just newer therapeutics coming to market. That's pretty much it.
+
+Client
+
+00:04:06
+Got it. As far as the current standard of care, how do you currently think about the split between on-demand therapy, short-term prophylaxis, and long-term prophylaxis in HAE?
+
+Expert
+
+00:04:17
+I personally believe that all patients should be on long-term prophylaxis, even though they may not choose to do so. I think the drugs we have for long-term prophylaxis are very safe. They're very effective. They significantly improve quality of life, reduce frequency, severity of attacks. I think, again, all patients should at least be offered prophy. Whether or not they choose to start prophylaxis, that's an individual case-by-case basis. All my patients with HAE are prescribed something for on-demand. Up to 40% of patients can have a laryngeal attack at least once in their life. Attacks can be quite debilitating and severe, so I do prescribe all my patients an acute on-demand treatment, whether or not they are on long-term prophylaxis.
+
+Client
+
+00:05:07
+Got it. For on-demand treatment today, how do you compare icatibant, plasma-derived C1-INH, recombinant C1-INH, and any other newer or emerging oral options?
+
+Expert
+
+00:05:20
+I'd say historically, the market leader has probably been icatibant, the sub-Q bradykinin receptor blocker. It works very well, it's effective. I'd say probably more recently, patients have been switching on to Ekterly, the oral on-demand, for different reasons. I don't use Kalbitor. It has a black box warning for anaphylaxis, so I don't use it. If I have a patient who wants a C1 inhibitor medication in their regimen, then if they are not on a C1 for prophy, I will put them on something like Berinert for acute as well. If they are pregnant, I will put them on Berinert as well for acute, but most of my patients are going to be on Ekterly or icatibant.
+
+Client
+
+00:06:03
+How do they compare as far as speed or reliability or patient preference?
+
+Expert
+
+00:06:08
+Patient preference, I think they prefer oral over the sub-Q. Reliability, I think they are both quite reliable. Speed, I think there's probably a favorable bias with speed in terms of Ekterly, because it's just so much easier to take when you have an attack. When patients are on long-term prophylaxis and they have breakthrough attacks, the attacks tend to be a little bit less severe, shorter duration, and patients will take a wait-and-watch approach to see if their attack can be managed with symptomatic pain control, and they don't need to inject themselves, either sub-Q or IV. Now, with Ekterly, it's as simple as putting a pill in your mouth and swallowing it, which can take 10 seconds, as opposed to finding a vein or injecting yourself with icatibant, which stings and burns.
+
+I think patients, number one, are treating more attacks with Ekterly and treating them earlier. We do know that when you treat an attack earlier, it tends to decrease the magnitude and severity of the attack and leads to earlier symptom improvement. It's almost like a self-fulfilling prophecy with Ekterly because patients are using it earlier because it's easier to take. I think they are having better outcomes, if that makes sense.
+
+Client
+
+00:07:23
+Got it. What do you see as the biggest limitations of the current on-demand therapies?
+
+Expert
+
+00:07:29
+There's the prior authorization paperwork, navigating and negotiating with the payers. I'd say we only have one PO agent currently on market, so if patients don't respond well to it, they have to use something injectable. Along the same lines, when I have patients on both acute and prophylactic drugs, I personally like to mismatch mechanisms of action. If I have a patient on, for example, C1 inhibitor for prophylaxis with Cinryze and Haegarda, I don't want them to be on a C1 inhibitor for acute.
+
+Similarly, if they're on something like a kallikrein antagonist for prophylaxis with Takhzyro, I'd rather not have them be on a kallikrein inhibitor for acute. I think it would be nice to have a different MOA for an oral on-demand rather than sebetralstat, because, again, it does work, but it's a kallikrein inhibitor. Most of my patients on long-term prophylaxis are on Takhzyro. I like to mismatch mechanisms of action. There's an unmet need there as well.
+
+Client
+
+00:08:32
+For the long-term prophylaxis option, how do you compare Takhzyro with the other options? Maybe what are some of their pros and cons?
+
+Expert
+
+00:08:43
+Yeah, I think Takhzyro works fantastic, especially if you can get patients to Q4-week dosing. They can go six, even 12 months in between attacks. It's a monoclonal antibody, so you don't have concerns of either potential drug shortage, because it's not derived from pool plasma, and you don't have to consent patients for risk of plasma transmitted diseases. Additionally, I think it does work well with using different MOAs for acute, so using a plasma block, a kallikrein antagonist with something like a bradykinin receptor blocker for acute works well. Haegarda, again, it's great, but it has to be given twice a week sub-Q. I reserve that really for my patients that are pregnant or desiring to be pregnant.
+
+Orladeyo is a good oral option for patients that do not want injectable medications, but I just feel that Orladeyo has some GI side effects which have been bothersome for some patients, and in terms of its efficacy, it doesn't reduce attacks as well as some of the parenteral agents, and I am still trying to get a feel for how garadacimab and donidalorsen will fit. I have switched one patient to Dawnzera. He hopes to be able to get to Q8-week dosing, even though he was well-controlled with Takhzyro. He just wants less frequent dosing for medication. We are going to start weaning him towards Q8 over the next several months.
+
+Client
+
+00:10:15
+Got it. Are patients satisfied with the current oral prophylaxis options?
+
+Expert
+
+00:10:20
+No, they are not.
+
+Client
+
+00:10:23
+Got it. In the real world, how often do patients on prophylaxis still need rescue or on-demand therapy, and what defines good control versus breakthrough disease for you?
+
+Expert
+
+00:10:35
+I'd say, on average, maybe twice a year, patients on long-term prophylaxis will need to use their rescue medication. What defines well-controlled disease? That's going to be patient-driven. I could have two twins. They have the same frequency, duration of attacks, breakthrough attacks. One of them is completely fine with it. They're happy, the other one's miserable. I don't have a set attack rate. It's going to be how much do the breakthrough attacks impact the patient's quality of life? That'll tell us how aggressive we need to be in terms of altering their management.
+
+Client
+
+00:11:16
+Got it. Overall, what do you see as the biggest unmet need at this point in managing HAE?
+
+Expert
+
+00:11:22
+Biggest unmet need in terms of long-term prophylaxis. I think, again, drugs that are given less frequently than Takhzyro or donidalorsen. I know, for example, pemivibart is being studied as a potential prophylactic agent that'd be given every three or six months. That's something I think patients would appreciate. Potential cure of the disease with gene therapy. That's something that's being looked at as well. I think a better, more effective oral prophylactic agent than Orladeyo. I think for long-term prophylaxis, those are probably the biggest three areas that we can improve on or where there may be an unmet need.
+
+Client
+
+00:12:05
+Got it. Moving into the main topic today in deucrictibant. I just want to get your initial reaction, an impression, based on the data that's been released.
+
+Expert
+
+00:12:16
+I think this is something that we're really looking forward to. I think, like I mentioned earlier, having an oral icatibant would be fantastic. You're blocking the vascular endothelial cell receptor that's responsible for the vasodilation and extravasation of intravascular fluid. You're working right at the end organ target. I think its mechanism of action is fantastic. I think the data that we saw in acute attacks, in terms of symptom relief, time to symptom relief, need for rescue medication, time to complete symptom resolution was very favorable versus placebo.
+
+While it isn't an apples-to-apples comparison, when you look at some of the outcomes versus Ekterly, to me, it seems like it's a little bit more effective than Ekterly as well. I think that, were this to get FDA approval for acute attacks, I could definitely see it taking a fair amount of market share, especially in patients who may be on Takhzyro, in whom you would want to use a different mechanism of action for breakthrough attacks. Having that bradykinin receptor antagonist MOA would be nice for these patients.
+
+Client
+
+00:13:30
+Okay. Do you worry about redundancy at all? Anything else with having the same mechanism for both acute treatment or prevention?
+
+Expert
+
+00:13:39
+I do a little bit. That's how I was trained, in that the theory is that if I have a patient, let's just say I have a patient on Haegarda or Cinryze for prophylaxis, and in theory, all of their C1 inhibitor levels in their plasma should be normal. They're compliant with treatment. If they have a breakthrough attack, I would want a different mechanism of action on the complement kallikrein pathway, because if their C1 inhibitor level is normal, you would want to either block kallikrein, Factor XII, prekallikrein, or the brady two receptor itself.
+
+Yes, I do think that mismatching mechanisms of action for patients that are on prophy and acute is something that I do, and I know a lot of my colleagues also ascribe to that theory as well. I know for Pharvaris, they're going to want to show that deucrictibant can be given both as a long-term prophylaxis and as an immediate release. Again, for me, that's going to beg the question is if they're taking it orally daily for prophylaxis and they have a breakthrough attack, and then all their brady receptors are blocked, wouldn't you want to use a different MOA to treat? That's how I see it.
+
+Client
+
+00:14:52
+Got it. As far as the data, is there anything specific that stood out to you before we get into it, or before I probe you on specific things?
+
+Expert
+
+00:15:01
+I'd say, again, the median time to symptom relief, less than an hour and a half, I think was pretty impressive. I think the vast majority of the secondary endpoints were met, which is nice. I think there was a significant reduction in patients requiring a rescue medication, which shows strong efficacy. These are all things that stood out to me.
+
+Client
+
+00:15:27
+Got it. How do that median onset of symptom relief at 1.28 hours, and complete symptom resolution at 11.95 hours, versus over 48 hours, how meaningful are those compared to the current on-demand therapy?
+
+Expert
+
+00:15:42
+I think they're a little bit better. I'd say they're a little bit better versus sebetralstat.
+
+Client
+
+00:15:49
+Okay. They also highlighted that 83% of deucrictibant-treated attacks were managed with a single capsule, and 93.2% did not require conventional rescue therapy.
+
+Expert
+
+00:16:01
+That's fantastic.
+
+Client
+
+00:16:03
+How would you evaluate that?
+
+Expert
+
+00:16:05
+I think it's comparable as well to sebetralstat, so those are very reasonable numbers.
+
+Client
+
+00:16:12
+Got it. The oral route, does that meaningfully change the threshold for patients to treat earlier in an attack, and could that alter outcomes or affect your utilization?
+
+Expert
+
+00:16:22
+That's what I was trying to allude to earlier. I think that patients are going to treat more attacks. They're going to treat them earlier, it's going to lead to better outcomes. Firazyr stings, it burns, it hurts when you use it. Ruconest, you have to find a vein. Berinert, you need to reconstitute it, find a vein. Kalbitor has to be given in a healthcare setting because of the 2%-3% black box warning of anaphylaxis. They're not that easy to use versus popping a pill once you feel an attack. It's much easier. Yes, patients are going to treat attacks much earlier and because they're getting medication in earlier, symptoms are going to improve much quicker.
+
+Client
+
+00:17:10
+Got it. Would you be comfortable recommending an oral on-demand option for potentially serious attacks like laryngeal symptoms, or would you still prefer an injectable or preventative therapy in those cases?
+
+Expert
+
+00:17:22
+The only problem is that you really can't predict when a patient is going to have a laryngeal attack. Again, up to 40% of patients can have a laryngeal attack at least once in their life so it's like flipping a coin. I feel comfortable with the data that I have seen to prescribe it and then tell patients and document the conversation, that if they are not having improvement or they are having worsening of their disease, they have to get to an ER right away.
+
+Client
+
+00:17:51
+Got it. As far as the prophylaxis data, they reported roughly 92% average reduction in HAE attack frequency in the open-label extension. That was from baseline, approximately half of participants attack-free during the extension in treatment up to 34 months. How competitive does that look versus the current prophylaxis agents?
+
+Expert
+
+00:18:13
+I think it definitely seems better than Orladeyo, it seems comparable to other parenteral agents that are given. I think that the quality-of-life improvement as well, being needle-free, will also be appealing to a lot of patients as well.
+
+Client
+
+00:18:28
+Got it. How about safety? Any red flags in the safety profile or what do you make of the safety data?
+
+Expert
+
+00:18:34
+No concerns. It's all fair to me.
+
+Client
+
+00:18:39
+Okay. With all this being said, where would you see this being placed? First, I will ask you in the on-demand algorithm.
+
+Expert
+
+00:18:48
+Yeah. For me, this could potentially be first-line for patients, especially patients who are on Takhzyro and doing well that want an oral on-demand, or patients who do well with Firazyr. We know that that mechanism of action works well for these patients. They just want to come off of injectables, whether it's branded or generic. I think that deucrictibant would be a great option for these patients.
+
+Client
+
+00:19:15
+I'd ask you the same now for the prophylaxis pathway.
+
+Expert
+
+00:19:19
+For patients that are currently on Orladeyo for LTP, but again, Orladeyo has a lower efficacy than some of the injectable agents. Patients may have needle phobia and want an oral LTP. I think that deucrictibant would offer a better option for these patients, or for patients in whom they had a lot of GI side effects from Orladeyo and couldn't tolerate it. I think this would be a great option for these patients. Much stronger attack reduction and attack-free rates versus Orladeyo.
+
+In terms of other patients that are on injectables, that's the same conversation we've had with them as we've had with Orladeyo. Again, if pemivibart were to get FDA approval, and that's something that can be given every six months. Patients may want to minimize medication burden and do a medication twice a year, January 1st and July 1st, and then keep a tablet on hand for breakthrough attacks. That'll happen from a patient-by-patient basis.
+
+Client
+
+00:20:21
+Got it. Roughly, what percentage of your current HAE patients would be competitive there?
+
+Expert
+
+00:20:27
+For acute on-demand, I would say good candidates, 80%-90%. I think most patients would. For long-term prophylaxis, probably roughly half.
+
+Client
+
+00:20:40
+Got it. At this point, what do you see as the biggest potential barriers and then on the other hand, accelerators of adoption?
+
+Expert
+
+00:20:49
+Biggest barriers, I would say, for acute on-demand, number one, you are second to market versus Ekterly. Ekterly is already going to have established market share, sales force, payers. They're going to be on more formularies. We are going to have more real-world evidence. Just being second to market there. For long-term prophylaxis, again, Orladeyo was not the best in terms of efficacy and tolerability so there may be some bias with patients or physicians where the first drug didn't do as well. How do we know that this drug is going to do good too? Those are probably the two biggest concerns that I have in terms of widespread adoption.
+
+Client
+
+00:21:35
+Okay. Do you have any idea what you would expect as far as payer access goes?
+
+Expert
+
+00:21:42
+I would say probably similar to Ekterly when it first comes out. I think we would be able to get free drug for patients, at least starter packs, until they get on formulary with insurance companies. I think they would have to do that because Ekterly has been doing that.
+
+Client
+
+00:21:59
+Okay. Last question for you. On a scale of 1-10, how excited are you about the potential of this, and what's most important for you to see going forward?
+
+Expert
+
+00:22:11
+Ten, definitely excited.
+
+Client
+
+00:22:13
+Okay. Any additional that you would like to see going forward?
+
+Expert
+
+00:22:17
+Yeah, obviously phase III trials for long-term prophylaxis would be very important.
+
+Client
+
+00:22:24
+Great. I want to thank you again for your time today. Definitely an insightful conversation. Have a good one.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

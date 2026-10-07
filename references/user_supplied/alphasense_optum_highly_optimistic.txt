@@ -1,0 +1,306 @@
+Brand logo
+Company Deep-Dive
+Allergist at Optum Health Is Highly Optimistic About Deucrictibant's Potential in HAE Management
+DATE PUBLISHED
+16 Sep 2026
+INTERVIEW DATE
+11 Sep 2026
+EXPERT PERSPECTIVE
+Doctor/Medical Professional
+ANALYST PERSPECTIVE
+Investor-Led (Buy-Side)
+PRIMARY COMPANY
+PHVS
+OTHER COMPANIES
+BCRX
+NTLA
+IONS
+TAK
+SMART SUMMARY
+Summary
+The interview covered current HAE management practices, the use of existing prophylactic therapies, and a detailed discussion of the CHAPTER-3 results for deucrictibant, including its potential impact on patient switching and new starts.
+EXPERT BACKGROUND
+Adult and pediatric allergist-immunologist with over 20 years of experience treating hereditary angioedema (HAE), managing both adult and pediatric patients in private practice and academic settings.
+EXPERT SENTIMENT
+The expert is highly optimistic about deucrictibant, rating excitement as a 9 out of 10, pending more long-term open-label data.
+Believes deucrictibant could be a game changer due to its efficacy, oral administration, and dual use for prophylaxis and on-demand treatment.
+Expects significant patient switching from existing therapies, especially from Orladeyo, and anticipates high uptake among newly treated patients.
+TAKEAWAYS
+The expert currently manages 15-24 HAE patients, with most on either prophylaxis or on-demand therapy, and a few on both.
+Treatment decisions for prophylaxis versus on-demand are based on severity, frequency, and patient preference, with newer therapies expanding options for patients.
+Current prophylactic therapies used include Takhzyro, Andembry, Dawnzera, and some C1 inhibitor therapies, with Dawnzera noted as the fastest-growing due to infrequent dosing and new mechanism of action.
+The CHAPTER-3 results for deucrictibant showed efficacy (82-83% reduction in attacks) comparable to leading injectables and strong results across all HAE types, including type III.
+The expert estimates 20-30% of existing prophylaxis patients could switch to deucrictibant, with 33-40% of newly treated patients likely to start on it, especially due to its oral formulation and dual indication.
+AlphaSense Smart Summaries are AI Generated
+
+Table of contents
+
+
+
+
+
+
+EXPERT BIO
+Adult and pediatric allergist and immunologist in private practice who has treated hereditary angioedema since 2002. Currently manages approximately 24 patients with HAE
+Show more
+View More
+INTERVIEW TRANSCRIPT
+Client
+
+00:00:00
+Hi. Thanks for taking the time to talk with me. I am interested in learning more about Pharvaris, deucrictibant XR and the recently announced phase III, CHAPTER-3 results. Can you share a brief overview of your background?
+
+Expert
+
+00:00:16
+I'm an adult and pediatric allergist immunologist. My background is Med-Peds, which is internal medicine pediatrics, and I completed my fellowship in both. I am in private practice for the most part, where I see all ages, across the board, bread and butter allergy, immunology, hay fever, asthma, drug allergy, food allergy. We do some, obviously, immunology, and hereditary angioedema has become more and more, over the last 20 years, a focus.
+
+We also do immune deficiency, full service diagnosis, treatment, referral from other specialists to evaluate patients. I also have an academic appointment. I see only children in that capacity at a teaching hospital. Again, day-to-day, I'm a practicing office-based private practice allergist, and I've been treating patients with HAE since 2002.
+
+Client
+
+00:01:14
+Thank you. Approximately, how many HAE patients do you currently manage, and how many are receiving long-term prophylactic treatment?
+
+Expert
+
+00:01:23
+Actively, where I see them once a year or more, about 12 or 13. Less frequent, where I see them less than once a year, I probably have another six to eight, so, 15-24 in total. Actively, a good number of them come in at least once a year. Out of those, I would say nine or 10 are on both prophylaxis and on-demand, and the other five or six are just on on-demand. There is no one who is not on either unless they have a very mild form.
+
+There's a couple that have on-demand that are not HAE medicines. There are some that respond, believe it or not, to non-HAE medicines like antihistamine and occasional steroids. For the most part, since 2008, with the advent of Firazyr, an injectable on-demand bradykinin antagonist, most patients do get something on-demand. Now we have an oral, as you probably know, for the last two years. Most patients will have an additional oral.
+
+Client
+
+00:02:26
+Understood. Could you walk us through how you decide whether a patient should receive long-term prophylaxis rather than relying on on-demand treatment?
+
+Expert
+
+00:02:36
+Sure. Basically, we try and stratify, or I try and stratify the patients based on severity and frequency as well as their perspective. In other words, get a history. Let's say we've seen someone from the hospital who has been into the ICU. They are a severe patient. If you think of a bell-shaped curve, they're on the far right of the curve. They've had a life-threatening HAE episode, so they automatically get it. If you think of the other side of the curve, let's say you have a patient that has milder swelling, they went to their primary doctor, like, "Okay, you have some swelling occasionally in your face and hands. I'm going to send you to an allergist to see what you're allergic to."
+
+We test them, we get the history, and it is a milder form. Everything is negative for allergy. Do we get a family history? Oh, mom had this too, or dad had this too. They collapse, and they come up positive. They have a low C1 inhibitor, or they have a normal one that doesn't work. They are HAE, but they're very mild. Let's say it happens intermittently a couple of times a year. That group might get either nothing or they might get a non-HAE medicine like antihistamines, or they carry a Medrol pack and a little bit of steroids for that once or twice a year episode.
+
+A few of them, though, even in that mild group, are concerned either the reaction may be facially disfiguring or socially an issue. Sometimes they do go on prophylaxis with the traditional HAE medicines. For the most part, they tend to be either on on-demand or really on nothing, and then there's a group in the middle, and this is the hardest group, frankly. This is a group that does have more frequent episodes, let's say, more than three or four a year. They have maybe been to the emergency room here and there, but never intubated or in the hospital, but the episodes can be emotionally, physically, and psychologically debilitating.
+
+The debate really comes down to going on prophylaxis or just on-demand. That's become much easier now. It used to be, remember, when we first started out, we had nothing. When I started, there was one hospital, think of this, in New York City, that you could get the on-demand C1 inhibitor concentrate. It was a World Health Organization thing. It was onerous to get, and it was difficult. When they came out for home use, that was a big step. Cinryze was one of the first ones for prophylaxis, but again, it was from donors, then they had an injectable or an IV form called Berinert.
+
+Many of the patients that you might want to protect for this, they didn't really want to go on it. They didn't want to take a shot a couple of times a week. Now, we've obviously expanded since 2011, especially since 2018 with Haegarda, then in 2019 with Takhzyro, and now obviously in 2020 with an oral prophylaxis with Orladeyo. That group in the middle has changed in that they seem to have a much better group that may be amenable to a prophylaxis. That has expanded.
+
+As I mentioned earlier, in 2011, when Firazyr came out, even the on-demand changed, because that became, for lack of a better term, like the EpiPen, when you had an attack, you just give yourself an injection. Again, as I mentioned, that's even gotten better now with Ekterly because we have an oral on-demand. The thing in HAE when you have an attack is having something that works quickly, but even the best drug, if you don't use it quickly enough. There's always patients that hesitate, by the way, to use their injector for obvious reasons, pain, caring, etc.
+
+It's also gotten better, I should just mention, from a practical standpoint, to go on needle. Now that we have Wegovy, we have all these weight loss drugs and migraine drugs that are needle, there is not as much stigma to taking an injectable prophylaxis medicine. Again, it's expanded a lot certainly since 2011, and especially in the last three years.
+
+I know we're going to talk about something oral prophylactically that can be used also on-demand. Really next-gen, and I would be remiss not to mention that we're also, you are probably aware of this, looking at gene therapy. There are always patients who are like, "All right, doctor, I want to be cured." We used to say, "Well, sorry, you've got a genetic disorder." That may not be the case with medication, TLA, the other things that you're looking at with genetic therapy, gene replacement. That may be something else. That's an overview, but how we cycle them is based on their symptoms, based on their episodes, based on their willingness to take treatment.
+
+By the way, I should just mention real quickly, sometimes there is a disconnect where I feel like, "Well, you should really be on treatment," but then they're like, "Yeah, it wasn't so bad." Hope springs eternal, or you have patients that are very bothered by the symptoms, even if they are mild. They're like, "I just never want to see a swelling again, and we'll go on prophylaxis for that once a year big event," where maybe they would be fine just popping in Ekterly here and there. You have to keep that in mind. It's a rare disease, one in 20,000, one in 50,000, but there are enough patients that we find, I think awareness increasing. We really have to have options.
+
+Client
+
+00:09:32
+Understood. Among patients receiving prophylaxis, what are you using most frequently today between Takhzyro, Orladeyo, Andembry, Dawnzera, and C1 inhibitor therapies?
+
+Expert
+
+00:09:45
+Sure. I've been doing this for over 20 years, so I still have a lot of grandfathered patients, a lot. A few that are still on C1 inhibitor. They're still on Cinryze. They are used to it and it works. They're happy with it. Not to be cynical, but they're worried about, and I'm worried about too, if you switch insurance, sometimes you're not covered, etc. There are a few on there. I would say three or four still on Cinryze.
+
+Most of them these days are really either on Takhzyro, Andembry, or Dawnzera. I have a few on Orladeyo, but frankly, the uptake wasn't as great as I thought. I've had patients go on it and then have switched over to something, or maybe they were milder and they just switched back to just on-demand. It may be really finding a place for this patient, for patients, like I said, that like oral.
+
+I will tell you a real quick thing. Haegarda looked like in 2018 that was going to be the deal breaker in that 95% efficacy. I think we worried, or at least I did. It's like, "All right, well, doctor, I don't understand. You had a drug that prevented this 95% of the time, and you kept them on Cinryze." That was the only one there. I could see that in a legal case if someone had a bad outcome, like, "Why didn't you use this 95% efficacy?" We started putting patients on that were more severe, but then within a year, Takhzyro came out in 2019. The efficacy was a little low.
+
+It was still 88%, and the argument was, "Well, the compliance is much better. It's once or twice a month. That bridged the gap." That became the standard bearer. As I mentioned, Orladeyo came out a bit later. It was a tough launch right in the middle of COVID in 2020. For some patients, great. They're like, "I'm never taking a shot." Here is a pill, great. Again, some of them, maybe the way we picked them, or at least the way I did, maybe they after a while realized that they didn't really prefer anything prophylaxis.
+
+They had infrequent episodes. Some of them stayed from that. What really became the game changer is really in the last two to two years. Dawnzera is very important. I have got four patients on it now. It's probably my fastest-growing one because of the option to do it every other month. I think that's very important. First of all, that's useful for patients who want to be infrequent, or they want to come into the office. In asthma, some of the biologics are now every six months, extended-release, and I think that is the only one right now.
+
+The point is, we're getting toward that point. I alluded to gene therapy. We're either getting one time or just using things less frequently. I think Dawnzera has a lot of appeal. Also, this is important to know, that not every drug works forever. There is something called tachyphylaxis, where a drug doesn't work as well, so we sometimes have to switch. To have a new mechanism of action, which Dawnzera and Andembry are, they work differently. They don't work on the receptor for the bradykinin receptor like Takhzyro and like Orladeyo, and they don't work on C1 inhibitor.
+
+If you've got patients that are no longer responding for whatever reason, autoantibody, etc., here are two new options. Not only for de novo new patients that want to be on something less frequently, but for patients who stop responding to something. There are other practical things. As I mentioned with Dawnzera, the infrequent dosing. With Andembry seems to be, at least the way I understand it, even though it's for type one or type two HAE, the labeling is for all types of hereditary angioedema. I feel like you have a little leeway for that type three or that non-type one, type two. This is an important point to understand.
+
+If I work up, let us say, three or four patients a month, maybe five patients a month that I think have HAE, let's say 60, 70 patients a year, if I find five or six in a year, let us say four or five that have the true HAE, the type one, which you don't make enough C1, or type two, you make enough, but it doesn't work, that's a lot. What do you do with that other, out of those 60, let's say 20 you figure out are allergic, another one, it's like a malignant tumor, whatever, what do you do with the other 30, 40 that aren't type one, aren't type two, but yet they look, they act, they smell, they sound like HAE? It's tricky.
+
+Ruconest, which is another C1 inhibitor replacement, they, I think, recognized this early. They had provisional use. Their bar and their insurance coverage was very good, that you could put the type 3s. Orladeyo has that to some degree, but I think Andembry really, at least for the Medicare population, which they're always very scrutinous of any drug, they feel like you're in charge of the doctor, if you feel like it's angioedema, if you feel like it's a hereditary type, they're not pushing you necessarily to provide the labs.
+
+I think clinically, sometimes I call it's better to ask for forgiveness than permission. You try them on the medicine with a sample, and it works, and it's really write a prior auth or have a peer-to-peer and say, "Look, they were hospitalized before. I get it. You want this lab to show classic." I tell them, not everyone reads the books. There are genes. There are other things that we probably don't recognize now. Then we have something like Andembry, and again, with Medicare, they say that's fine to prescribe it. That's helpful for that group of nebulous patients that we don't always have the classic labs.
+
+I should just say, there is genetic testing. I attended a lecture one time at the academy, the college, and they said they tested about 200 patients genetically that were this type three, and they didn't see it was that helpful. The point I'm trying to make is, I think with Andembry and, to some degree, as I said, Orladeyo and Ruconest, I think they're a little more permissive for that non-type one, type two, which is the majority of the patients you see to allow them to get on therapy if they need prophylaxis.
+
+Now that they have a generic or a biosimilar, Firazyr, to get them on-demand with that is not hard. It's the prophylaxis sometimes you really have to jump through. That does guide my pen or my computer in terms of how I decide what to prescribe. Does that make sense?
+
+Client
+
+00:16:55
+That was really helpful. What was your overall reaction to the CHAPTER-3 results? How compelling is the level of efficacy, and how does that compare with what you see with the leading prophylactic therapies in clinical practice?
+
+Expert
+
+00:17:11
+Sure. The key thing goes to my point previously. They looked at it in all three types of HAE. I think that is very important for that reason. It seems to work regardless, and you can say, look, this is part of their study. It is approved for type three. I think the reduction was on point. I think they had an 82%, 83% reduction as their primary endpoint, and that gets you to the table. Again, Takhzyro is about 88%. Dawnzera is a little lower than that. Andembry says 99%, so they seem the highest, but they use some statistical analysis where you look at it really comes least squared, where it comes out to about 87%.
+
+I think on that point, compared to placebo, they're right up there with Andembry. I think their number is also that 87%. Again, that was the classic type one or type two. They met not just the primary, but the secondary efficacy. That's rare. You will get some primary, obviously, to get you approved. I think that's important. The CHAPTER study, I thought, was reasonable. They had 85 people, and you have to remember, this is a rare disease. Eighty-five people is a very significant primary study. Eventually, they'll get an open-label. They will probably get 150, 200.
+
+I think Andembry got up to 150, but for an initial study, guys like yourself always ask me, "Is that really significant?" In this disease, that's a decent group. A real global study, I think they have 20, 25 countries, something like that. My problem is the timeframe. Dawnzera and others, they went to 52 weeks, so it's 24 weeks. Things can change and happen, but for the timeframe study and the global nature of it, I think the outcomes were very reasonable, and the 83%, 87% was great.
+
+Now, the extended-release, obviously, you look at these secondary endpoints, and I think that's important as well. The question that I really had was the only thing that's not as clear to me is the treatment emergent adverse events. They said most of them were mild, and there were no serious events. It's important, but when talking to patients, I always want to focus on the moderate. If they have severe adverse events, sometimes that's a very hard sell to patients. Most of these are mild or moderate. I don't have a clear picture. That's the only thing with the moderate ones. Again, the fact that there were no severe ones is usual.
+
+I think one thing I should say, medicine, like sports, we have our heroes, and they have Dr. Marc Riedl is the founder. Really, he's our guru. He was the guy when Firazyr came out, and that's why I mentioned that number in the study. We tend to listen to him as allergists for the last 16 years or more. I like that, and I like that they are going to do, as I mentioned, the OLE, the open-label extension. It's all. I think that's key to look at this, not just in this smaller base study, but in the larger group. Let me think what else I thought was important. There was one other.
+
+Client
+
+00:20:54
+Just to follow up, how would you compare the deucrictibant with Orladeyo based on what we've seen so far, and how much Orladeyo switching do you expect, if any?
+
+Expert
+
+00:21:04
+I think it's improved from Orladeyo. In Orladeyo's initial studies, it was around 80% or a little bit less. In their OLE, it's gotten higher. It's gotten about to here, 85%, 88%, but practically, I haven't seen that in my patients. I think this really has two things that make it eclipse Orladeyo. First of all, it seems to be on par with the injectables, truly, not just in late-phase study, but in the initial study, so I think that's key. The fact that they are going to have something that Orladeyo. You may not know this. Orladeyo tried for it, didn't get. Orladeyo, when they originally looked at it in 2017, 2018, maybe into 2019, they were trying to do the same idea, a prophylaxis and on-demand.
+
+They had a study called ZENITH, which is worth looking at. I think it was like a 600 mg or 750 mg dose of Orladeyo. Remember, standard dose is 150 mg. If you use on-demand, it did not take off. The data looked good initially, but they couldn't bring it to the finish line. I think what really will make it eclipse Orladeyo is the fact that this could be both. They're looking at both for prophylaxis and on-demand, and for people who are either really needle phobic or are not likely to carry it, even if they are not, and they're comfortable with this medicine as prophylaxis, I think it works even better to have an on-demand one.
+
+That's really the holy grail to say, look, you could use this medicine on-demand for prophylaxis. I think it will, unless there's some other factor, it doesn't look like side effects. Cost and coverage is always an issue, but assuming that is on par, I really see this the same way that, frankly, Takhzyro really knocked Haegarda out of the box and made it less relevant. It counterfeited it, as we say in poker. I think you've got the same thing here. If you wanted to compare it, that's probably their biggest target. This is probably in Orladeyo's rearview mirror.
+
+Again, I will say just personally, I do like the idea of bradykinin need as much as, like I said, top of the cascade is important, but if you think about it, for many of those patients that I described that look and act and smell like HAE but they don't have the things, we know at the tissue level, at some point to cause angioedema, you have to have bradykinin release. The fact that they are focusing on that in their target and they had patients with these type three, which is, again, the tip of the iceberg is type one and type two, at least in most allergist practice.
+
+The fact that they looked at these patients, the MOA is something that would work for these kind of patients. To me, in my book, that's a slam dunk. Again, this would have been even better years ago before the Ozempics and the Emgality, when injectables were less acceptable. Now people are a little more accepting of injectables, so it's not going to necessarily take someone away from something now that's once every two months, like Dawnzera. Someone wants the convenience of that, an injectable.
+
+It is going to take someone who is on the fence to go on prophylaxis or just does not want an injectable whatsoever, even if it is once a month or every other month. It is going to take someone out of that. Even Ekterly, if you think about it, Ekterly doesn't have a prophylaxis version of sebetralstat, so they say, "Look, you know this company, you're approved for it." I've got to think, and this is me just thinking out loud, I've got to think if it's the same company, I can't see insurance saying, "Well, we'll give you the prophylaxis, but we won't give you the on-demand from the same company," and vice versa.
+
+Again, not to sound cynical, but all these things sometimes when we try and switch and we have all these bumps, I think you will have less of an issue with this drug practically in both forms because it's the same company. They will almost probably make it like a package deal. You know what I mean? When you get prescribed one, the bar that they have prescribed to prophylaxis and on-demand will be lower.
+
+I think it's got all the makings of a game changer. Most important, like I said, is its MOA, the fact that they studied both or all three, I should say, populations, and the fact that it's going to be most likely used for both, which solves a lot of problems medically and just financially and practically. I'm looking forward for it. I know how I would incorporate it in my practice, and I do not think I am an outlier compared to other allergists. I think we all look at it the same way.
+
+Client
+
+00:26:17
+Got it. Among patients already receiving prophylaxis, what percentage could you see switching to deucrictibant from their existing therapy? Could you quantify?
+
+Expert
+
+00:26:28
+Sure. Switching, the ones on Orladeyo, I would say anyone that's not doing well with it, uncomfortable would switch. The question really is, and I think this is what you guys always ask, if someone is doing well on a treatment, would I preemptively ask them to switch? Small group, just because if it's not broke, don't fix it, but I think there are patients, if you ask enough, you realize that they're not doing as well as you think. We always say, "Oh, are you doing well?" "Yes, I am doing fine."
+
+I would tell you, as a switch overall from all comers, you're probably going to get about a 20%-25% switch to this for all the reasons I have described. Just to put that in context, when Dawnzera came out, I probably only had two or three.
+
+Let's say out of 20 patients, you have 15% switch. I think this is going to be higher than the other ones because of the oral, because you can use it for on-demand and prophylaxis. I think it will be higher, but I'm just saying overall, if patients are doing well and they're comfortable. Just to give you an example, some of these older patients that have been on Cinryze for 20 years, very comfortable putting in a butterfly, giving themselves an infusion, they do not even think about it. I've presented new drugs. The natural one would have been Haegarda, and a few switched, but some stayed on it.
+
+I think at best, I would say 25%-30%, which to me in this field when people are doing well is a huge number. I think the question really is your new ones. Do you have really any argument to use other drugs? The only thing I can say is someone wants the convenience of getting a shot once a month or with Dawnzera every other month, or if someone has something else. They have some issue. They have GI symptoms, and they're like, "Every time I take a pill, I get heartburn," something like that, but that's pretty rare.
+
+I think your biggest group too, one more thing, would be the person that's on Orladeyo and Ekterly, you have pretty much solved their whole problem with the same medicine. That to me would be your biggest group.
+
+Client
+
+00:28:48
+That was quite helpful. Among newly treated HAE patients starting prophylaxis, what percentage could you see receiving deucrictibant? We have approximately 30-60 seconds because I need to jump on another call. Sorry about that.
+
+Expert
+
+00:29:07
+No problem. I would say at least 1/3. I would say 33%, maybe to 40%.
+
+Client
+
+00:29:16
+Perfect. On a scale of 1-10, how excited are you about deucrictibant?
+
+Expert
+
+00:29:23
+Nine. I just need more long-term open-label to make it a 10. I'm very excited so far, but I would love to see if it continues as well when they get the open-label.
+
+Client
+
+00:29:36
+Understood. I have no further questions, so thank you so much for your time and great insights. It was a pleasure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

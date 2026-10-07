@@ -1,0 +1,281 @@
+{
+  "blocks": [
+    {
+      "type": "h1",
+      "text": "The commercial system: convert clinical value into recurring paid use"
+    },
+    {
+      "type": "p",
+      "text": "The commercially relevant question is how much incremental value deucrictibant offers against the treatment options patients will actually have when it launches. Oral administration already has commercial validation in both uses: Ekterly for attacks and Orladeyo for prevention. That validates demand for pills but removes the premise that PHVS owns an unserved route. Competition also includes increasingly infrequent injections and a gene-editing treatment already under regulatory review. A credible forecast therefore needs separate assumptions for physicians offering treatment, patients accepting a switch, insurance approval, paid dispensing and persistence. None can be read directly from a placebo-controlled efficacy result."
+    },
+    {
+      "type": "h2",
+      "text": "The competitive set is moving before PHVS reaches it"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Competitor / current position",
+        "Mechanism and treatment burden",
+        "Evidence and restrictions",
+        "Consequence for PHVS"
+      ],
+      "widths": [
+        1.35,
+        1.65,
+        1.95,
+        2.11
+      ],
+      "rows": [
+        [
+          "Ekterly / sebetralstat; approved July 2025; Chiesi acquired KalVista June 2026",
+          "Oral kallikrein inhibitor for attacks; 600 mg is two tablets; repeat dose possible after ≥3 hours.",
+          "Age ≥12; CYP3A4 interaction restrictions. KONFIDENT was a crossover trial; FDA efficacy population 110, including 24 receiving prevention. Severe throat attacks were excluded. [C1,C3]",
+          "Already occupies oral acute treatment. PHVS must establish a reason to choose or switch, beyond avoiding injections; Chiesi ownership changes the competitor’s resources."
+        ],
+        [
+          "Icatibant / Firazyr and generics",
+          "Injected B2-receptor antagonist, self-administered for attacks.",
+          "US adult indication. Established target validation shares the receptor with PHVS, but not its formulation or exposure. [C2]",
+          "Supports the biology while providing a familiar acute option and a generic alternative for payer negotiations."
+        ],
+        [
+          "Berinert / Ruconest; Kalbitor",
+          "C1-inhibitor replacement by IV injection; Kalbitor inhibits kallikrein by subcutaneous injection.",
+          "Berinert includes pediatric use; Ruconest covers adults/adolescents. Kalbitor age ≥12 requires professional administration because of anaphylaxis risk. [C2,C18]",
+          "Convenience could improve time to treatment, but replacement therapies have established experience and populations beyond a likely initial PHVS label."
+        ],
+        [
+          "Orladeyo / berotralstat",
+          "Daily oral kallikrein inhibitor for prevention; capsules with food, pediatric pellets.",
+          "Capsules age ≥12; pellets age 2–<12. A marketed oral option with real paid demand; dosing, interactions and tolerability remain relevant. [C16]",
+          "The closest commercial analogue. PHVS needs incremental control or tolerability strong enough to change prescribing and retention."
+        ],
+        [
+          "Takhzyro / lanadelumab",
+          "Injected anti-kallikrein antibody; adult/adolescent dosing every two weeks.",
+          "Age ≥2. In well-controlled patients, every-four-week dosing may be considered after more than six months. [C14]",
+          "A well-controlled patient may prefer an infrequent injection to daily medication and the uncertainty of switching."
+        ],
+        [
+          "Haegarda / Cinryze",
+          "C1-inhibitor replacement for prevention; subcutaneous / intravenous administration.",
+          "Established home-treatment options, both covering age ≥6. [C2]",
+          "Administration burden creates a switching opportunity; established benefit and access create inertia."
+        ],
+        [
+          "Andembry / garadacimab; approved June 2025",
+          "Antibody against activated factor XII; loading dose then monthly subcutaneous treatment.",
+          "Age ≥12; 400 mg loading dose followed by 200 mg monthly. [C15]",
+          "Competes on infrequent administration and can already occupy a preferred payer position."
+        ],
+        [
+          "Dawnzera / donidalorsen; approved August 2025",
+          "Antisense treatment reduces prekallikrein production; subcutaneous every four weeks, with eight-week dosing an option.",
+          "Age ≥12; 24-week pivotal study. The two schedules produced different efficacy estimates. Hypersensitivity, including anaphylaxis, is a labeled risk. [C17]",
+          "“Oral is convenient” must be compared with as few as roughly six injections annually, alongside control and safety."
+        ],
+        [
+          "Lonvo-z / formerly NTLA-2002; BLA accepted September 2026",
+          "One-time IV gene editing intended to inactivate KLKB1 and lower kallikrein production.",
+          "HAELO completed: 52 active / 28 placebo; mean monthly attacks 0.26 vs 2.10 during weeks 5–28. PDUFA March 10, 2027. [C19,C20]",
+          "Could remove recurring drug demand in adopters. Approval, long-term safety, durability, acceptance, access and treatment-center capacity remain uncertain."
+        ],
+        [
+          "Navenibart / formerly STAR-0215; BioCryst",
+          "Long-acting anti-kallikrein antibody; pivotal regimens every three or six months.",
+          "ALPHA-ORBIT enrollment completed June 2026; topline results expected Q3 2027. Investigational, not approved. [C7]",
+          "Further challenges an assumption that daily pills are inherently the least burdensome option."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The table is a comparison of choices, not an efficacy league table. Different entry attack rates, washout of prior prevention, background treatment, outcome definitions, treatment windows and rescue rules can generate different headline percentages without identifying a superior drug. For acute therapy, relief after swallowing a dose also excludes the time spent finding, preparing or deciding to use it. For prevention, a favorable average rate does not show which patients remain dissatisfied. Without comparable patient-level data or a head-to-head study, numerical adjustments should not manufacture precision."
+    },
+    {
+      "type": "h2",
+      "text": "Diagnosis growth is a hypothesis about flows, not a prevalence multiplier"
+    },
+    {
+      "type": "p",
+      "text": "The patient journey runs from symptoms through recognition, referral, testing, diagnosis, specialist care, treatment choice, authorization, dispensing and continuation. Each transition can lose patients. Genetic disease prevalence is different from symptomatic disease, diagnosed disease and insured paid use. Family screening can uncover already-existing cases; it does not create incident disease. A new treatment claim can instead represent a switch, a previously diagnosed person returning to care, new insurance capture or changed treatment intensity. Those mechanisms have very different revenue implications."
+    },
+    {
+      "type": "p",
+      "text": "The 2025 US prevalence paper illustrates the problem. Its claims algorithm requires a proxy diagnostic code plus at least one claim for an HAE-indicated medicine. For 2020, it projected 8,694 cases before expert adjudication and 6,595 after it; the corresponding prevalence estimates were 2.43 and 1.84 per 100,000. Its point estimates declined across 2018–2020. This is useful calibration of captured, treated disease, but it cannot count untreated undiagnosed people or demonstrate that treatment availability caused diagnoses to increase. The difference after adjudication also shows that diagnostic definitions materially change the denominator. [C9]"
+    },
+    {
+      "type": "p",
+      "text": "There is evidence supporting an opportunity to diagnose earlier. An Icatibant Outcome Survey analysis found shorter delays in later birth cohorts and a median delay of 2.0 years with family history versus 5.6 without or with unknown history. However, it selected patients born before 1990 and diagnosed before age 25; it does not estimate today’s US diagnosis flow. [C10] An expanding diagnosed population may also contain people with milder symptoms or uncertain normal-C1-inhibitor diagnoses. Lower average commercial intensity is plausible, but is not established by these data. The useful next measurement is first confirmed diagnosis followed by subtype, prior care, attack burden and subsequent paid treatment—not growth in drug claims alone."
+    },
+    {
+      "type": "h2",
+      "text": "Interest, prescribing and reimbursed demand are separate"
+    },
+    {
+      "type": "p",
+      "text": "Prescribing is substantially specialist-led, but reliable current national concentration data were not found. A 2019 US physician survey reported that cost or insurance coverage was the leading nonefficacy influence on treatment choice for 43.7% of respondents. Its 177 responses from 5,382 invitations, only 3%, make it a mechanism signal rather than a representative share estimate. [C11] Clinically, the relevant segments differ: poorly controlled patients may accept switching risk, while patients with excellent control may need a substantial improvement in burden or reliability. An oral preference survey cannot determine how many will actually switch."
+    },
+    {
+      "type": "p",
+      "text": "A concrete payer example shows why. UnitedHealthcare’s commercial Orladeyo policy, effective April 1, 2026, states that the product is typically excluded. For patients aged 12 and older, its coverage criteria require documented failure of Andembry, Haegarda and Takhzyro, an allergist or immunologist prescriber, diagnostic support and severity or frequency sufficient to justify prevention. Concurrent preventive products are excluded, and authorization lasts 12 months. Some normal-C1-inhibitor diagnostic pathways are accepted. This is a specified plan policy, not a national requirement or a forecast of PHVS coverage; benefit provisions, mandates and claims-based exceptions matter. It nevertheless demonstrates that oral preference may not be sufficient for paid access. [C12]"
+    },
+    {
+      "type": "p",
+      "text": "Access also depends on incumbency. Oklahoma’s May 2026 introduction of product-based HAE authorization allowed existing users to continue while new starts faced initial and tier-specific requirements. [C13] A competitor can therefore benefit from existing approvals even when a new product is clinically attractive. PHVS access assumptions should be weighted by the policies of actual covered patients, and paired with the discounts and support spending needed to achieve conversion. Nominal coverage is not a paid-start rate."
+    },
+    {
+      "type": "h2",
+      "text": "The best analogues reveal both opportunity and friction"
+    },
+    {
+      "type": "p",
+      "text": "Orladeyo provides a particularly transferable disappointing commercial period. For Q4 2022, BioCryst reported that patients on treatment were in line with expectations but revenue lagged because paid shipments and free-to-paid conversion were weaker than expected. This was not a failed launch; it was a demonstration that demand and monetization differ in the same disease and oral specialty channel. [C6] By Q2 2024, the company reported a 74.4% paid-patient rate and more than 60% of paid patients staying at least a year. These are distinct denominators, not interchangeable retention statistics. They support modeling coverage conversion and cohort persistence separately, while leaving any PHVS advantage uncalibrated. [C8]"
+    },
+    {
+      "type": "p",
+      "text": "Ekterly offers a closer acute-treatment analogue. KalVista reported 1,702 US patient start forms and 724 unique prescribers through February 2026, alongside $49.1 million of global product revenue through December 2025. Most Q4 revenue came from refills. Different dates and geographies prevent dividing these figures into a meaningful revenue-per-patient estimate; start forms are not confirmed paid users. [C4] The preliminary January update also cautioned that some refill demand could have been pulled forward before holidays. [C5] Refills strengthen the evidence for recurring dispensing, but do not reveal the number of attacks treated, the paid-conversion rate or a persistence curve."
+    },
+    {
+      "type": "h2",
+      "text": "Oral rescue can expand use while prevention contracts consumption"
+    },
+    {
+      "type": "p",
+      "text": "A KalVista-funded 2025 study offers a useful behavioral clue: 107 of 155 survey starters completed it; 80.4% were women, and the design deliberately balanced acute-only treatment against prevention plus acute treatment. Fifty-seven percent of respondents did not treat every attack. That does not mean 57% of attacks went untreated. Only 14% always treated immediately, and the reported mean delay was 2.4 hours. These self-reported, selected observations support a hypothesis that easier treatment increases the proportion of attacks treated. They do not estimate the causal effect of switching to a pill or PHVS’s eventual share. [C21]"
+    },
+    {
+      "type": "p",
+      "text": "The opposing mechanism is equally real. In HAELO, attacks requiring acute medication averaged 0.19 monthly after lonvo-z versus 1.79 with placebo during the six-month efficacy window. [C19] Better prevention reduces the events available to treat, even when patients continue to carry rescue medication. Early home-stock purchases, expiry replacement and replenishment should therefore be separated from consumption. Earlier effective treatment could also reduce redosing, partly offsetting increased treatment propensity. Public evidence supports those dependencies, but not their exact commercial magnitudes. National realized net prices, PHVS-specific access, linked attack-and-dispensing records and paid cohort retention remain unavailable; these are the main limits on turning clinical enthusiasm into a defensible revenue base case."
+    }
+  ],
+  "sources": [
+    {
+      "id": "C1",
+      "title": "FDA: Ekterly prescribing information and original trial evidence",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/219301s000lbl.pdf",
+      "note": "July 2025 approval; KONFIDENT crossover, FDA efficacy population 110 patients with HAE I/II, 24 on prevention. Dose, age, interactions and eligibility; not a PHVS comparison."
+    },
+    {
+      "id": "C2",
+      "title": "US HAEA: approved HAE treatments",
+      "url": "https://www.haea.org/pages/p/treatments",
+      "note": "Accessed October 6, 2026; individual current treatment entries describe routes, ages and administration. Lower FAQ has stale product counts; do not use its aggregate count."
+    },
+    {
+      "id": "C3",
+      "title": "Chiesi completes acquisition of KalVista",
+      "url": "https://ir.kalvista.com/news-releases/news-release-details/chiesi-group-completes-acquisition-kalvista-pharmaceuticals",
+      "note": "June 11, 2026; confirms acquisition completion and Ekterly ownership. Does not demonstrate an ensuing sales increase."
+    },
+    {
+      "id": "C4",
+      "title": "KalVista March 2026 financial results and commercial update",
+      "url": "https://ir.kalvista.com/node/12706/html",
+      "note": "March 25, 2026 8-K exhibit; 1,702 US forms / 724 prescribers through February 28 versus $49.1m global revenue through December 31, 2025. Different populations/periods; no paid cohort survival."
+    },
+    {
+      "id": "C5",
+      "title": "KalVista preliminary 2025 launch update",
+      "url": "https://ir.kalvista.com/node/12546/html",
+      "note": "January 8, 2026; refill-majority Q4 revenue with possible holiday pull-forward. Sponsor disclosure does not measure patient consumption."
+    },
+    {
+      "id": "C6",
+      "title": "BioCryst: preliminary 2022 Orladeyo results",
+      "url": "https://ir.biocryst.com/news-releases/news-release-details/biocryst-announces-preliminary-full-year-2022-orladeyor",
+      "note": "January 9, 2023; Q4 patient count as expected but paid shipments/free-to-paid conversion below expectations. A disappointing revenue period, not an unsuccessful product overall."
+    },
+    {
+      "id": "C7",
+      "title": "BioCryst: second-quarter 2026 results",
+      "url": "https://www.sec.gov/Archives/edgar/data/882796/000117184326005223/exh_991.htm",
+      "note": "August 5, 2026; navenibart ALPHA-ORBIT enrollment completed June, Q3 2027 data expected. Company forecast; investigational program, not approval."
+    },
+    {
+      "id": "C8",
+      "title": "BioCryst: second-quarter 2024 results",
+      "url": "https://ir.biocryst.com/news-releases/news-release-details/biocryst-reports-second-quarter-2024-financial-results-and",
+      "note": "August 5, 2024; 74.4% paid-patient rate and >60% of paid patients retained at least one year. Sponsor aggregates with different denominators, no detailed survival curve."
+    },
+    {
+      "id": "C9",
+      "title": "Establishing US HAE prevalence using administrative claims",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1081120625002583",
+      "note": "September 2025; continuously enrolled 24-month claims cohorts in 2018–2020. Ascertainment requires an HAE medication claim. 2020 projections 8,694 algorithm / 6,595 expert-adjudicated; not untreated prevalence or causal diagnosis growth."
+    },
+    {
+      "id": "C10",
+      "title": "Icatibant Outcome Survey: diagnostic delays over time",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6182796/",
+      "note": "2018; selected C1-INH-HAE patients born before 1990 and diagnosed before 25. Family-history group n180 (72%); median delay 2.0 versus 5.6 years. Historical selection limits current US flow estimates."
+    },
+    {
+      "id": "C11",
+      "title": "Current medical management of HAE: US physician follow-up survey",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33122123/",
+      "note": "Survey June–July 2019, published 2020; 177/5,382 responses (3%). Cost/insurance leading nonefficacy factor 43.7%; substantial nonresponse and an older competitive landscape."
+    },
+    {
+      "id": "C12",
+      "title": "UnitedHealthcare commercial Orladeyo prior authorization policy",
+      "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/prior-auth/drugs-pharmacy/commercial/h-p/PA-Med-Nec-Orladeyo.pdf",
+      "note": "Effective April 1, 2026; age ≥12 requires failures of Andembry, Haegarda, Takhzyro plus other criteria. Plan-specific rules and exclusions; not observed denial rates or PHVS policy."
+    },
+    {
+      "id": "C13",
+      "title": "Oklahoma HAE product-based prior authorization notice",
+      "url": "https://oklahoma.gov/content/dam/ok/en/okhca/docs/providers/types/pharmacy/policy/04.13.2026%20-%20HAE%20Medications.pdf",
+      "note": "April 13 notice, effective May 1, 2026; existing users continue while new starts face initial/tier criteria. Oklahoma Medicaid example, not national access."
+    },
+    {
+      "id": "C14",
+      "title": "Takhzyro prescribing information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=15f99d8c-efe7-4f7d-aa20-0d0f1e30c6e8&type=pdf",
+      "note": "January 2025 label; age ≥2, adult/adolescent 300 mg every two weeks with four-week option after sustained control. Regimen does not establish patient preference."
+    },
+    {
+      "id": "C15",
+      "title": "Andembry prescribing information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=07b0b671-db81-49f0-a402-0c0219db7fa2",
+      "note": "2025 label; activated-factor-XII antibody, age ≥12, monthly maintenance after loading. Approval month June used because FDA summary pages differ on June 16 versus 17."
+    },
+    {
+      "id": "C16",
+      "title": "Orladeyo prescribing information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3527ece1-e7e0-40b1-b0c5-6baeb0deabeb",
+      "note": "December 2025 label; daily capsule age ≥12 and weight-based pellets age 2–<12, taken with food. Label eligibility is not guaranteed reimbursement."
+    },
+    {
+      "id": "C17",
+      "title": "Dawnzera prescribing information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=3ff501e0-f75f-07da-e063-6294a90a0cb7&type=display",
+      "note": "August 2025 label; OASIS-HAE n45 every-four-week / n23 every-eight-week / n22 placebo, 24 weeks. Regimen-specific efficacy, age ≥12 and hypersensitivity warning; no head-to-head comparison."
+    },
+    {
+      "id": "C18",
+      "title": "Kalbitor prescribing information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=f56aec67-c662-477c-b866-bfc23e8809cf",
+      "note": "June 2025 label; age ≥12, subcutaneous kallikrein inhibitor; professional administration required because of anaphylaxis risk."
+    },
+    {
+      "id": "C19",
+      "title": "Intellia: additional phase 3 HAELO results",
+      "url": "https://ir.intelliatx.com/news-releases/news-release-details/intellia-therapeutics-reports-additional-positive-phase-3",
+      "note": "June 13, 2026; randomized n52 active / n28 placebo, weeks 5–28. Monthly attacks 0.26/2.10 and acute-treated attacks 0.19/1.79. Finite controlled period, not lifetime cure or real-world uptake."
+    },
+    {
+      "id": "C20",
+      "title": "Intellia: lonvo-z BLA acceptance and priority review",
+      "url": "https://ir.intelliatx.com/node/12886",
+      "note": "September 8, 2026; FDA accepted BLA, PDUFA March 10, 2027. Regulatory milestone; approval remains pending as of October 6."
+    },
+    {
+      "id": "C21",
+      "title": "Factors contributing to non-compliance with on-demand HAE treatment guidelines",
+      "url": "https://link.springer.com/article/10.1186/s13223-025-00969-0",
+      "note": "May 21, 2025; 107/155 US survey completers, 80.4% female, deliberately balanced treatment groups, KalVista-funded. 57% of respondents did not treat all attacks; selected self-report, not causal oral-treatment effect."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+M Loses Capital
+Biotech Analysis, Part 3
+Basic Drug Analysis
+M Loses Capital
+Oct 03, 2026
+This part 3 is a primer for part 4 which will be much more in depth.
+
+Barring gene therapies, cell therapies, and a few other exceptions I’m too hungover to remember at the moment, all drugs produce their effects through essentially the same kind of interaction with the body. At the molecular level, these interactions can be thought of, crudely, in terms of geometry, and “stickiness.”
+
+Every drug has a unique shape. These shapes are designed to fit into, or onto, specific receptors or ligands (sometimes multiple) within the body that are relevant to the disease(s) they are designed for. But fitting isn't enough. They must also bind their target(s), or "stick." That stickiness comes from several kinds of interactions working together: electrostatic attraction between charged groups, hydrogen bonds between polar atoms, van der Waals contacts where surfaces pack tightly, and the hydrophobic effect, where greasy parts of the drug and target are pushed together because water would rather not surround them. The drug and its target have to be chemically compatible: positive with negative, polar with polar, nonpolar with nonpolar. Kind of like an electromagnetic lock and key, where both the shape and the magnetism have to match. After the drug binds, it alters the natural processes of the other shapes in the system(s) its target interacts with.
+
+The shapes also have to get to their target. A drug whose target is in the brain must get through the blood brain barrier. So the drug must have the necessary properties to do this.
+
+Three quick examples to illustrate how these sticky shapes work.
+
+Dopamine.png
+
+
+This shape is called dopamine. Notice its similarity to the next two drugs. Their similar shapes are why they interact primarily with the dopaminergic system.
+
+
+
+
+The above shape is called amphetamine, specifically the (S)-enantiomer, dextroamphetamine. It sticks primarily to the Dopamine Transporter (DAT), Trace Amine-Associated Receptor 1 (TAAR1), and Vesicular Monoamine Transporter 2 (VMAT2). Rather than simply blocking these transporters, amphetamine is transported into the neuron by DAT and interacts with VMAT2, disrupting the normal storage of dopamine (DA) in vesicles. At the same time, its activation of TAAR1 alters DAT function, promoting the release, or “reverse transport”, of dopamine back into the synaptic cleft. The result is more dopamine outside the neuron and prolonged dopaminergic signaling.
+
+
+
+
+This shape is called methamphetamine. It does essentially the same thing as amphetamine, but the added methyl group makes it more lipophilic. Because the blood–brain barrier is highly lipid-rich, this allows methamphetamine to penetrate the central nervous system more readily. Its greater CNS penetration contributes to its greater potency, although that isn’t the whole story. Both amphetamine and methamphetamine can be addictive, and have high abuse potential. However, methamphetamine’s potency pushes its abuse potential far beyond amphetamine’s.
+
+Serotonin.png
+
+
+This shape is called serotonin, notice its similarity to the next drug.
+
+3,4-Methylenedioxymethamphetamine.png
+
+
+This shape is called methylenedioxymethamphetamine. By adding the methylenedioxy group, the molecule becomes more structurally similar to serotonin than to dopamine, which helps explain why it interacts strongly with the serotonergic system. Now instead of scratching your skin off you’re having the time of your life at a party. Also, it is not particularly addictive.
+
+File:Rational harm assessment of drugs radar plot.svg ...
+
+
+So you can think of pharmacodynamics (or all of molecular biology really), crudely, in terms of sticky shapes. You don’t actually have to understand much more than this to begin analyzing drugs, so let's get to it. (Sometimes it is useful to know far more, especially in oncology.)
+
+
+
+
+Even without moving onto a higher conceptual model, these sticky shapes get tricky rather quickly. To illustrate, let’s think a bit about KYMR’s STAT6 degrader (KT-621). We know dupilumab, an IL-4Rα blocking antibody, works via blocking STAT6 upstream. We also know dupilumab can cause conjunctivitis. Let’s pretend for a moment we’re a year in the past before KT-621 had any safety data public. Is the conjunctivitis coming from blocking IL4/13 itself, or is it a consequence of the subsequent decrease in STAT6? Looking at the image above, maybe looking at the adverse-effects profiles of JAKis or TYK2is would be useful for figuring this out? This is not necessarily an easy question to answer even within the sticky shape model, but you do not need to escape the sticky shape model to answer it. Moving on.
+
+Now that an understanding of drugs at a basic level has been established. How do we go about analyzing a new drug?
+
+Some of the important questions are: what target does it bind? Where does it bind? What do we know about the target it binds? How similar is that target to other protein(s) we don’t want it to bind? If it is similar to protein(s) we don’t want it to bind, how selective is it? How relevant is the target protein to the disease’s pathophysiology? Based on what we know about this protein, is targeting it likely to produce a meaningful effect? Can it produce this effect safely? Can this protein be targeted safely? Is this molecule able to access its target in the relevant areas? How long does it bind its target? How long does it stay in the system? Can the body safely metabolize it? What is it metabolized into? What are the effects of its metabolites? If it is toxic, is its level of toxicity acceptable relative to the severity of the disease? What do we think about this target relative to other drugs people take for this disease? Is it likely to be safer or more toxic? More or less effective? Will it allow patients to dose less? Is it orally administrable? What is its bioavailability? Do drugs like this already exist? If this is a new target, is targeting this protein functionally different to things that already exist? If it is better than things on the market, does it even matter? Are the drugs on the market past a threshold that can no longer be meaningfully pushed higher? If it targets a protein that’s already targeted by things on the market, does it have redeeming qualities? Can it penetrate the CNS while the 3 most similar therapies cannot? Are there drugs being developed by other companies that are meaningfully similar? How far along are they? How well are their drugs doing? Can I use existing drug trials to predict this drug’s activity at target? When is a cross-trial comparison inappropriate? Were the arms balanced at baseline?
+
+There are far more important questions than these, but you will discover them on your own over time as you interrogate these questions. Notice how many of these questions can be answered before you even take a single look at the drug’s trial data. There are many failed programs that could've been cut short before the IND was even filed, but no one asked the right questions, or at least they didn’t find the right answers. Sometimes the answers cannot be known (at that stage), but this is less common than you would think.
+
+In part 4, we'll take these questions much further.
+
+8 Likes
+

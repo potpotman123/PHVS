@@ -1,0 +1,47 @@
+PHVS launch analogues — bounded primary-source audit, 7 October 2026
+
+Question: What can observed oral rare-disease launches tell us about switching, persistence, paid access and deucrictibant prophylaxis revenue? Deucrictibant, not deucravacitinib, is the PHVS candidate.
+
+OBSERVED ORLADEYO NET REVENUE, USD MILLIONS
+US launch December 2020. Manufacturer drug revenue, not total company revenue, prescriptions or unique patients. Later periods include international expansion.
+2021 Q1 10.9; Q2 28.5; Q3 37.0; Q4 46.2; FY 122.6.
+2022 Q1 49.7; Q2 65.2; Q3 66.0; Q4 70.7; FY 251.6.
+2023 FY 326.0; Q4 90.9.
+2024 FY 437.7; Q4 124.2.
+Final releases supersede preliminary FY2021 122/Q4 45.6, FY2023 325 and FY2024 437. Rounded values may not preserve exact arithmetic.
+Derived annual growth: 2022 105.2%; 2023 29.6%; 2024 34.3%.
+
+PATIENT DISCLOSURES / LIMITATIONS
+January 2022: >half of starts since launch had previous prophylaxis; most remaining patients previously acute-only. Does not identify all prior prophylaxis as injectables. Approximately 70% of starters remained during first year; disclosure lacks standardized cohort follow-up definition, so not an exact 12-month survival curve.
+December 2023: 1,104 US patients on paid or long-term free product, 71.5% paid. Derived approximately 789 paid and 315 long-term free, rounding applies. Net additions 321 include short-term quick-start patients, a different denominator; do not subtract321 from1104 to infer prior stock.
+June 2024: paid rate74.4%, up2.9 percentage points from year-end2023. More than60% of patients on paid therapy stay at least one year. Cohort differs from2021; cannot infer retention deterioration. Paid share is not discount from list price and does not equal probability of conversion for a new start.
+No complete public monthly prescription/new-to-brand/unique-paid-patient series recovered in bounded pass. Revenue cannot isolate switching inertia: price, geography, persistence, paid share and new starts all contribute. Global revenue divided by US year-end patients is not annual net revenue per patient.
+
+ANALOGUE SCREEN
+Cerdelga/eliglustat after Zavesca/miglustat in Gaucher type1: genuine prior oral and established effective infused therapy. FDA approved2014; global reported sales2015 EUR66m,2016 EUR106m,2017 EUR126m. FY2015 original report says66, not an inferred67. Different currencies/market sizes prevent direct absolute comparison with Orladeyo. Cerdelga's first-line positioning and CYP2D6 eligibility, prior oral restrictions, and Sanofi's incumbent franchise prevent treating this as a matched efficacy-delta experiment. Useful second-oral existence proof, not PHVS share estimate.
+Livmarli after Bylvay in PFIC screened but not selected: aggregated Livmarli sales include earlier ALGS indication, so brand ramp does not isolate PFIC launch.
+Danazol is an older oral androgen; Orladeyo was not literally the first oral HAE prophylaxis. Historical launch economics and product profile are insufficiently comparable for direct calibration.
+
+MODEL IMPLICATIONS
+Use same-disease Orladeyo as principal commercial calibration. Segment new starts by dissatisfied oral users, stable oral users, injectable users and acute-only/new-to-prophylaxis users. For each monthly cohort, calculate starts * probability still on therapy at month t * probability paid conditional on remaining at month t * monthly net revenue. Sum across cohorts. Start timing and therapy/free-paid transitions matter; avoid multiplying endpoint retention and endpoint paid share into annual revenue as though constant all year.
+No evidence establishes a universal switching-cost haircut. Similar efficacy deltas across diseases cannot be asserted; no PHVS-versus-Orladeyo randomized head-to-head is supplied. Strong observed launch is disconfirming evidence against the broad claim that HAE stickiness blocks oral uptake. Free treatment and discontinuation support testing monetization and persistence assumptions.
+Next high-information evidence: deidentified specialty-pharmacy/hub or longitudinal claims cohorts with prior therapy, actual first dispense, free/paid status, 90/180/365-day persistence, switching destination and reason. Specialty-channel completeness and missing free-drug claims must be audited. No paid dataset purchased or bulk collection performed.
+
+PRIMARY SOURCE INDEX
+2021Q1 https://ir.biocryst.com/news-releases/news-release-details/biocryst-reports-first-quarter-2021-financial-results-and
+2021Q2 https://ir.biocryst.com/node/22836
+2021Q3 https://ir.biocryst.com/news-releases/news-release-details/biocryst-reports-third-quarter-2021-financial-results-and
+2021FY final https://ir.biocryst.com/node/23681/pdf
+2021 patient dynamics https://ir.biocryst.com/news-releases/news-release-details/biocryst-announces-preliminary-full-year-2021-orladeyor
+2022Q1 https://ir.biocryst.com/node/23891/pdf
+2022Q2 https://ir.biocryst.com/node/24161
+2022Q3 https://ir.biocryst.com/news-releases/news-release-details/biocryst-reports-third-quarter-2022-financial-results-and
+2022FY https://ir.biocryst.com/news-releases/news-release-details/biocryst-reports-fourth-quarter-and-full-year-2022-financial
+2023FY and patients https://ir.biocryst.com/node/25731
+2024Q2 patients https://ir.biocryst.com/news-releases/news-release-details/biocryst-reports-second-quarter-2024-financial-results-and
+2024FY https://ir.biocryst.com/news-releases/news-release-details/biocryst-reports-fourth-quarter-and-full-year-2024-financial
+Cerdelga2015 https://www.news.sanofi.us/download/press-release-353105889.pdf
+Cerdelga2016 https://www.globenewswire.com/news-release/2017/02/08/914925/0/en/Sanofi-Delivers-2016-Sales-and-Business-EPS-1-Growth-at-CER-2.html
+Cerdelga2017 https://www.sanofi.com/assets/dotcom/content-app/events/quaterly-results/2017/q4-results-2017/Press_release_Q4_FY_2017.pdf
+CerdelgaFDA https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/205494Orig1s000ODMemo.pdf
+Prior oral FDA https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/205494Orig1s000OtherR.pdf

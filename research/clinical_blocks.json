@@ -1,0 +1,288 @@
+{
+  "blocks": [
+    {
+      "type": "h1",
+      "text": "Clinical evidence and what it establishes"
+    },
+    {
+      "type": "p",
+      "text": "The clinical question has changed: both pivotal trials have succeeded. RAPIDe-3 reported on December 3, 2025; CHAPTER-3 reported on September 8, 2026. The central remaining questions are how broadly the results apply, how robustly the analyses handle incomplete observations and rescue treatment, and whether efficacy translates into a competitive product. The evidence supports a substantial treatment effect versus placebo. It does not establish superiority to another active therapy, a broad normal-C1-inhibitor market, or guaranteed long-term persistence. [R1, R2]"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Study",
+        "Population and treatment",
+        "Decision-relevant result",
+        "Principal limitation"
+      ],
+      "widths": [
+        1.04,
+        1.92,
+        2.53,
+        1.57
+      ],
+      "rows": [
+        [
+          "RAPIDe-1\nNCT04618211\nPhase 2",
+          "89 screened; 74 randomized. IR 10, 20 or 30 mg; two active and one placebo attack per crossover sequence. Published primary set: 62 patients, 147 attacks.",
+          "Primary: change in three-symptom VAS at four hours. Adjusted differences versus placebo: −16.75, −15.02 and −16.28 points, respectively. Each confidence interval excluded zero. [R3, R4]",
+          "Modified ITT; repeated attacks; hypothetical no-rescue analysis. Small dose cohorts do not establish a monotonic dose response."
+        ],
+        [
+          "RAPIDe-2\nNCT05396105\nPhase 2/3 extension",
+          "Final Part A: 19 patients, 465 attacks; blinded IR 10/20/30 mg. Part B uses open-label 20 mg.",
+          "Primary objective: long-term safety. Part A median initial relief 1.1 hours; complete resolution 10.6 hours. No treatment-related adverse events reported. [R5]",
+          "No concurrent placebo. Evaluable attack denominators vary; reported Kaplan–Meier intervals ignore within-patient correlation."
+        ],
+        [
+          "RAPIDe-3\nNCT06343779\nPhase 3",
+          "134 randomized; 113 treated ≥1 attack; 88 treated both crossover attacks. IR 20 mg versus placebo; adolescents and adults, including stable prophylaxis users.",
+          "Primary: sustained initial relief within 12 hours. Median 1.28 hours, 95% CI 1.05–1.52; placebo median not reached. All 11 ranked secondary endpoints reported significant. [R1, R6]",
+          "Primary analysis restricted to paired attacks. Full disposition and sensitivity analyses unavailable. Severe airway attacks were not qualifying attacks."
+        ],
+        [
+          "CHAPTER-1\nNCT05047185\nPhase 2 and OLE",
+          "44 screened; 34 randomized and dosed: 11 low-dose, 12 high-dose, 11 placebo. IR 10 or 20 mg twice daily for 12 weeks. Thirty entered extension.",
+          "Adjusted attacks per four weeks: 0.40, 0.30 and 1.93. Reductions versus placebo: 79.2% and 84.5%. Extension mean exposure 22.2 months. [R7, R8]",
+          "Small, entirely White type-1/2 population. Extension selected completers and removed concurrent placebo."
+        ],
+        [
+          "CHAPTER-3\nNCT06669754\nPhase 3",
+          "85 randomized and dosed: XR 40 mg once daily, n=55; placebo, n=30; 24 weeks. Includes eight adolescents and five normal-C1-inhibitor patients.",
+          "Adjusted rate: 0.35 versus 2.06 attacks per four weeks; 83% reduction, 95% CI 72–90%, p<0.0001. Attack-free: 25/55 versus 1/30. [R2]",
+          "Full protocol/SAP, missing-diary handling and complete disposition were unavailable in reviewed disclosures."
+        ],
+        [
+          "CHAPTER-4\nNCT06679881\nPhase 3 extension",
+          "Open-label XR 40 mg daily; prior-study and eligible new patients. Registry estimates 170 participants; safety assessments extend to 240 weeks.",
+          "Ongoing assessment of longer exposure, attack rates and patient-reported outcomes. No mature randomized result to add. [R9]",
+          "Estimated enrollment is not actual enrollment. Eligibility can exclude prior safety/compliance discontinuations."
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Denominators change the strength and meaning of a result"
+    },
+    {
+      "type": "p",
+      "text": "RAPIDe-3 provides the clearest example. Its primary analysis comprises 88 participants, each contributing one active-treated and one placebo-treated attack: 176 attacks, not 176 independent patients. Those 88 represent 65.7% of 134 randomized participants. The reported 113 participants with any treated attack imply 21 treated none and 25 treated only one. These are arithmetic reconciliations, not documented withdrawal reasons. Study closure before another qualifying attack, insufficient attacks, withdrawal and noncompliance are competing explanations; the available disclosures do not allocate their contributions. [R1, R6]"
+    },
+    {
+      "type": "p",
+      "text": "The paired design controls stable differences between patients, but conditioning on completion of both attacks could select a different population. The most informative check is a first-period comparison using all treated participants according to randomized sequence, followed by an analysis retaining single-attack observations. Request disposition by sequence, baseline attack frequency, prophylaxis use and time of entry. Neither assuming all missing participants failed nor assuming their exclusion was harmless answers this question."
+    },
+    {
+      "type": "p",
+      "text": "Other denominator changes are explainable. RAPIDe-1 published 62 patients and 147 attacks in its primary set despite 74 randomized; the registry reports 40 completing the attack phase, with 23 additional patients categorized as having met primary-analysis criteria and ten withdrawing. Thus “not completed” is not synonymous with intolerance. CHAPTER-1 had 30 of 34 complete its blinded phase: two high-dose discontinuations were consent withdrawal and the sponsor/FDA pause; two placebo discontinuations were consent withdrawal and loss to follow-up. No corresponding evidence supports selective toxicity attrition. [R4, R7]"
+    },
+    {
+      "type": "h2",
+      "text": "Rescue treatment and missing observations define the estimated benefit"
+    },
+    {
+      "type": "p",
+      "text": "An estimand specifies which treatment effect a study intends to measure, including what happens after rescue medication or discontinuation. RAPIDe-1 used pre-rescue symptom measurements in a repeated-measures model to estimate four-hour benefit as if rescue had not been taken. That depends on a missing-at-random assumption: after accounting for observed information, unobserved symptoms must not systematically differ. Its protocol allowed conventional rescue after four hours without relief and directed prompt standard treatment for dangerous symptoms. [R10]"
+    },
+    {
+      "type": "p",
+      "text": "RAPIDe-3 uses a different disclosed rule: rescued attacks are right-censored at the upper end of the data-entry window; other attacks without the required improvement are censored at their last observation before that upper end. The comparison therefore reflects the trial’s handling of rescue, rather than actual time to relief after all treatments received. Its unreached placebo median is not evidence that patients literally received no effective relief for 12 or 48 hours. The complete SAP is needed to resolve how improvement preceding later rescue, assessment windows and other missing observations were handled. [R6]"
+    },
+    {
+      "type": "p",
+      "text": "The primary crossover comparison used a generalized Wilcoxon test adapted for paired time-to-event outcomes, with a prespecified gatekeeping procedure for multiple endpoints. Median initial relief was 1.28 hours; substantial relief was 2.85 hours and complete resolution 11.95 hours. “End of progression,” at 17.47 minutes, means later ratings remained stable or improved; it is not relief or complete resolution. The first assessment at 15 minutes also limits temporal precision. [R1, R11]"
+    },
+    {
+      "type": "p",
+      "text": "Within 12 hours, 73/88 active-treated attacks used a single capsule and 82/88 avoided rescue, versus 29/88 and 56/88 with placebo. These are useful treatment-intensity observations, but not lifetime probabilities. Some fixed-time symptom percentages use 83 or 87 evaluable observations rather than 88; they should not be presented as percentages of everyone randomized. The December 2024 design disclosed possible redosing after four hours, with conventional rescue after persistent symptoms following the second dose. Final protocol exceptions remain unverified. [R6, R11]"
+    },
+    {
+      "type": "p",
+      "text": "CHAPTER-1 explicitly estimated a hypothetical continued-treatment effect, using observed attacks before discontinuation and assuming subsequent missingness was explainable by observed history. Its Poisson model adjusted for baseline burden and included observation time; negative-binomial sensitivity analysis was specified if feasible. These methods accommodate unequal follow-up but cannot automatically remove bias when worsening disease causes withdrawal. The SAP treated secondary comparisons as supportive without multiplicity adjustment. [R12]"
+    },
+    {
+      "type": "h2",
+      "text": "CHAPTER-3: strong prevention, incomplete analytical disclosure"
+    },
+    {
+      "type": "p",
+      "text": "Mean baseline burden was 3.76 attacks per four weeks in the active arm, SD 2.04, versus 3.47, SD 1.81, on placebo. The primary analysis adjusted for baseline attack rate, age group and treatment using Poisson regression. Its 83% reduction is an adjusted rate comparison, not an unadjusted change from baseline or the percentage of patients benefiting. The absolute adjusted difference is 1.71 attacks per four weeks. Randomized and safety populations both total 85; published efficacy denominators are 55 and 30. Screen failures, total early discontinuations and the complete analysis-set definition were not disclosed. [R2]"
+    },
+    {
+      "type": "p",
+      "text": "The attack-free outcome gives an additional clinical perspective: 45.5% on active treatment versus 3.3% on placebo over 24 weeks. Conversely, more than half of treated patients experienced at least one attack. A strong average rate reduction can therefore coexist with continued demand for on-demand treatment. The trial also reported large improvements in quality of life. These findings support clinical value, but do not by themselves predict switching from effective injectable prophylaxis. [R2]"
+    },
+    {
+      "type": "p",
+      "text": "Before treating the topline as fully audited, obtain the SAP, person-time by arm, missing diary days, post-discontinuation rules, responder definitions and the full secondary-testing hierarchy. Recurrent attacks can be more variable than a simple Poisson model assumes. Negative-binomial or appropriately robust analyses would test whether uncertainty remains similar; their absence from a topline deck is not proof that the reported significance is invalid. A treatment-policy analysis following patients after discontinuation would answer a different, practically useful question from benefit while observed on treatment."
+    },
+    {
+      "type": "h2",
+      "text": "Prespecification, durability and safety"
+    },
+    {
+      "type": "p",
+      "text": "The December 2024 RAPIDe-3 design already identified sustained PGI-C improvement within 12 hours as primary and complete resolution within 48 hours as secondary. Moving from RAPIDe-1’s four-hour VAS endpoint to this endpoint between development phases is not evidence of post-unblinding switching. End of progression was exploratory/post-hoc in earlier work but listed prospectively for RAPIDe-3. Earlier design materials listed type 1/2; later enrollment included normal-C1-inhibitor disease. The amendment chronology and access to blinded data were not recovered. [R11]"
+    },
+    {
+      "type": "p",
+      "text": "Extension results add exposure and repeat-attack experience, not a fresh randomized comparison. CHAPTER-1’s headline 92.4% extension reduction averages patient-level percentage changes and excludes one participant with only four treatment days; it is not the ratio of the displayed group mean rates. Only six participants remained represented at month 34. RAPIDe-2’s hundreds of attacks come from 19 people, and its reported Kaplan–Meier confidence intervals explicitly omit within-person correlation. These limitations matter particularly when claiming improving durability or unusually precise superiority. [R5, R8]"
+    },
+    {
+      "type": "p",
+      "text": "CHAPTER-3 recorded any adverse event in 42/55 active participants versus 17/30 placebo participants; investigator-related events were 11/55 versus 3/30. There were three grade-3 and one grade-4 events on active treatment, one serious event, and no investigator-attributed treatment-related serious event. One participant in each arm discontinued because of an adverse event. The primary disclosure reviewed did not identify individual diagnoses. The numerical imbalance merits clinical classification and longer exposure; it neither proves causation nor supports an unqualified claim of equivalent tolerability. [R2]"
+    },
+    {
+      "type": "p",
+      "text": "RAPIDe-3 reported no adverse-event discontinuations or treatment-related serious events. Its later poster reports events within three days after dosing, whereas topline safety covered a longer period; those tables must not be mixed. CHAPTER-1 extension reported one treatment-related GGT elevation and no adverse-event discontinuations. The historical US clinical holds were lifted after additional rodent data, for on-demand treatment in June 2023 and prophylaxis in January 2024. This removes an active development restriction; it does not establish absence of rare chronic toxicity. [R1, R6, R8, R13]"
+    },
+    {
+      "type": "h2",
+      "text": "Cohorts worth testing, without manufacturing subgroup discoveries"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Candidate and rationale",
+        "Actual evidence",
+        "What is identifiable",
+        "Potential model effect"
+      ],
+      "widths": [
+        1.68,
+        2.02,
+        1.78,
+        1.58
+      ],
+      "rows": [
+        [
+          "Normal C1 inhibitor: heterogeneous mechanisms and diagnostic pathways",
+          "RAPIDe-3: 4/134 randomized, documented genetic variants. CHAPTER-3: three active/two placebo. Type-1/2 subgroup reduction 87%. [R2, R6]",
+          "No reliable subtype-specific efficacy or interaction. The 87% analysis was not multiplicity-adjusted; weighted subtraction cannot recover the remaining five patients’ effect.",
+          "Keep broad expansion as an explicitly uncertain scenario; require label and reimbursed diagnoses."
+        ],
+        [
+          "Existing prophylaxis users: breakthrough treatment remains necessary",
+          "RAPIDe-3 enrolled 31/134 using stable prophylaxis. Subgroup efficacy estimates and paired-set numbers were not retrieved. [R1]",
+          "Inclusion supports applicability better than a blanket exclusion; it does not establish equal effects across prophylaxis classes.",
+          "Separate breakthrough attacks from attacks in on-demand-only patients; avoid independent patient pools."
+        ],
+        [
+          "Baseline attack burden: absolute benefit and willingness to switch",
+          "CHAPTER-3 run-in enrichment and baseline means around 3–4 attacks per four weeks; no reliable burden-by-treatment interaction retrieved. [R2, R14]",
+          "Strong average effect in the studied burden range; low-burden effectiveness and uptake remain uncertain.",
+          "Segment baseline frequency, residual attacks and switching; do not apply trial absolute benefit universally."
+        ],
+        [
+          "Attack severity/location and timing: absorption and early treatment",
+          "RAPIDe-3 permitted non-severe laryngeal attacks without breathing difficulty/stridor. No detailed subgroup counts/effects retrieved. [R6]",
+          "All body locations does not establish severe-airway performance. Timing effects require within-trial analysis rather than cross-study medians.",
+          "Influences treatment intensity, rescue needs and convenience value; not a proven efficacy premium."
+        ],
+        [
+          "Adolescents: label breadth and adherence",
+          "Ten randomized in RAPIDe-3; eight in CHAPTER-3, four per arm. Subgroup response estimates unavailable. [R1, R2]",
+          "Represented, but too few to infer a separate precise effect or long-term adherence.",
+          "Use approved ages; keep pediatric expansion and persistence assumptions separate."
+        ],
+        [
+          "Geography: treatment habits and transportability",
+          "RAPIDe-3 randomized 38 North American, 56 European and 40 other-region participants. CHAPTER-1 was entirely White. [R1, R7]",
+          "No independent geographic interaction established by this audit; site/region differences can reflect care patterns.",
+          "Requires region-specific reach and access assumptions, not a universal uptake curve."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The highest-return remaining clinical work is narrow: obtain the pivotal analysis documents and reconcile missing observations, then examine prespecified subgroup estimates with their sample sizes and interaction tests. Until then, treat efficacy versus placebo as established, subgroup differentiation as mostly unresolved, and comparative commercial superiority as a separate hypothesis."
+    }
+  ],
+  "sources": [
+    {
+      "id": "R1",
+      "title": "RAPIDe-3 topline presentation",
+      "url": "https://ir.pharvaris.com/static-files/30661839-e400-44eb-a1e9-9ad88f75d404",
+      "note": "December 3, 2025. Randomized 134; paired primary set 88. Endpoint estimates, gatekeeping, demographics and overall safety. Sponsor disclosure; incomplete disposition."
+    },
+    {
+      "id": "R2",
+      "title": "CHAPTER-3 filed topline presentation",
+      "url": "https://ir.pharvaris.com/node/12691/html",
+      "note": "September 8, 2026. 55 active/30 placebo; 24 weeks. Slides 6–11 cover baseline, adjusted Poisson primary, responders, quality of life and safety. Graph counts visually verified. Full SAP and disposition absent."
+    },
+    {
+      "id": "R3",
+      "title": "RAPIDe-1 peer-reviewed publication",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41865747/",
+      "note": "March 20, 2026. Published primary analysis 62 patients/147 attacks from 74 randomized. Abstract supplies efficacy confidence intervals and safety; sponsor-funded."
+    },
+    {
+      "id": "R4",
+      "title": "RAPIDe-1 registry and posted results",
+      "url": "https://clinicaltrials.gov/study/NCT04618211",
+      "note": "Registry last updated December 17, 2025. Retrieved current API record, flow, outcome denominators and document listings. Participant counts overlap across crossover treatments."
+    },
+    {
+      "id": "R5",
+      "title": "RAPIDe-2 final Part A presentation",
+      "url": "https://ir.pharvaris.com/static-files/ebfd5947-f92a-48d4-a41a-2ce220d7e0dd",
+      "note": "December 1, 2025. 19 patients/465 attacks; PGI-C denominator 457, PGI-S 449. Safety primary. Kaplan–Meier intervals explicitly ignore within-person correlation."
+    },
+    {
+      "id": "R6",
+      "title": "RAPIDe-3 Phase 3 results poster",
+      "url": "https://ir.pharvaris.com/static-files/6d0f0093-2975-47c6-aace-80bd25675a47",
+      "note": "May 30, 2026. 113 participants with any treated attack; 88 paired. Specifies rescue censoring, qualifying attacks and selected fixed-time denominators. Safety table restricted to three days after dosing."
+    },
+    {
+      "id": "R7",
+      "title": "CHAPTER-1 peer-reviewed primary analysis",
+      "url": "https://publica-rest.fraunhofer.de/server/api/core/bitstreams/20d5bb63-e70b-4072-8437-dd19aa31ce29/content",
+      "note": "March 20, 2026. 44 screened, 34 randomized/dosed, 30 completers. Twelve-week twice-daily IR prophylaxis. Primary estimand, discontinuation reasons and supportive analyses described."
+    },
+    {
+      "id": "R8",
+      "title": "CHAPTER-1 extension final results",
+      "url": "https://ir.pharvaris.com/static-files/9dad61f3-ca28-4fb5-9992-e4daf8cc0c2f",
+      "note": "October 2, 2026. German-language sponsor presentation; 30 extension participants, mean exposure 22.2 months. Page 3 clarifies patient-level mean percent reduction excludes one four-day participant and late graph denominator declines to six."
+    },
+    {
+      "id": "R9",
+      "title": "CHAPTER-4 registry",
+      "url": "https://clinicaltrials.gov/study/NCT06679881",
+      "note": "Last updated September 22, 2026. Open-label XR extension; estimated enrollment 170, not a verified actual count. Safety/exposure outcomes and eligibility exclusions."
+    },
+    {
+      "id": "R10",
+      "title": "RAPIDe-1 protocol version 3.0",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/11/NCT04618211/Prot_000.pdf",
+      "note": "April 25, 2022. Directly retrieved protocol; sections 5.6 and 9 describe rescue, modified ITT and hypothetical no-rescue MMRM. Does not establish every subsequent implementation decision."
+    },
+    {
+      "id": "R11",
+      "title": "RAPIDe-3 prospective design poster",
+      "url": "https://ir.pharvaris.com/static-files/f5eba1d8-d6ac-4c32-899c-c0cfb5759a8e",
+      "note": "December 14, 2024. Discloses primary/secondary windows, assessment schedule, redosing and rescue before the pivotal readout. Earlier eligibility lists type 1/2; full amendment chronology unavailable."
+    },
+    {
+      "id": "R12",
+      "title": "CHAPTER-1 Part 1 statistical analysis plan",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/85/NCT05047185/SAP_001.pdf",
+      "note": "Cover October 30, 2023; body October 27. Retrieved public SAP: hypothetical strategy for early discontinuation, observed follow-up, MAR, Poisson model and negative-binomial sensitivity if feasible. Public upload date does not establish date of unblinding."
+    },
+    {
+      "id": "R13",
+      "title": "FDA lifting of prophylaxis clinical hold",
+      "url": "https://www.sec.gov/Archives/edgar/data/1830487/000095017024005923/phvs-ex99_1.htm",
+      "note": "January 22, 2024 sponsor SEC exhibit. Prophylaxis hold lifted after complete 26-week rodent study; summarizes June 2023 on-demand lift. Not an independent regulator toxicology review."
+    },
+    {
+      "id": "R14",
+      "title": "CHAPTER-3 registry",
+      "url": "https://clinicaltrials.gov/study/NCT06669754",
+      "note": "Last updated February 13, 2026. Describes eligibility, washouts and primary attack-rate endpoint. Estimated 81 is superseded by actual 85 in topline; no results/protocol/SAP attached in retrieved record."
+    }
+  ]
+}

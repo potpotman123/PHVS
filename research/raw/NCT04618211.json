@@ -1,0 +1,4832 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04618211",
+      "orgStudyIdInfo": {
+        "id": "PHA022121-C201"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2020-003445-11",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Pharvaris Netherlands B.V.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Dose-ranging Study of Oral PHA-022121 for Acute Treatment of Angioedema Attacks in Patients With Hereditary Angioedema",
+      "officialTitle": "A Phase II, Double-blind, Placebo-controlled, Randomized, Cross-over, Dose-ranging Study of Oral PHA-022121 for Acute Treatment of Angioedema Attacks in Patients With Hereditary Angioedema Due to C1-inhibitor Deficiency Type I and II",
+      "acronym": "RAPIDe-1"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-02-03",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-09-23",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-03-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-10-26",
+      "studyFirstSubmitQcDate": "2020-11-04",
+      "studyFirstPostDateStruct": {
+        "date": "2020-11-05",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2025-06-13",
+      "resultsFirstSubmitQcDate": "2025-12-02",
+      "resultsFirstPostDateStruct": {
+        "date": "2025-12-17",
+        "type": "ACTUAL"
+      },
+      "dispFirstSubmitDate": "2023-06-15",
+      "dispFirstPostDateStruct": {
+        "date": "2025-12-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-02",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Pharvaris Netherlands B.V.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study evaluates the efficacy of orally administered deucrictibant for the acute treatment of attacks in patients with hereditary angioedema (HAE). Eligible subjects are randomized to one of three single doses of deucrictibant and placebo. The study will compare symptom relief (skin pain, skin swelling, abdominal pain) during HAE attacks and safety of each dose of deucrictibant with placebo.",
+      "detailedDescription": "In Part I of the study, patients in non-attack state receive the assigned active single dose of deucrictibant at the study center to assess pharmacokinetics (the way the body absorbs, distributes, and gets rid of the drug) and safety. In Part II of the study, patients self-administer blinded study drug at home to treat three HAE attacks with deucrictibant or placebo (cross-over)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hereditary Angioedema",
+        "Hereditary Angioedema Type I",
+        "Hereditary Angioedema Type II",
+        "Hereditary Angioedema Types I and II",
+        "Hereditary Angioedema Attack",
+        "Hereditary Angioedema With C1 Esterase Inhibitor Deficiency",
+        "Hereditary Angioedema - Type 1",
+        "Hereditary Angioedema - Type 2",
+        "C1 Esterase Inhibitor Deficiency",
+        "C1 Inhibitor Deficiency"
+      ],
+      "keywords": [
+        "HAE",
+        "HAE Type I",
+        "HAE Type II",
+        "Oral Treatment",
+        "Bradykinin B2 Receptor Antagonists",
+        "PHVS416",
+        "PHA121",
+        "PHA-022121",
+        "Deucrictibant"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 74,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Low dose/placebo",
+          "type": "OTHER",
+          "description": "Single low dose of deucrictibant or placebo",
+          "interventionNames": [
+            "Drug: Deucrictibant",
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "Medium dose/placebo",
+          "type": "OTHER",
+          "description": "Single medium dose of deucrictibant or placebo",
+          "interventionNames": [
+            "Drug: Deucrictibant",
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "High dose/placebo",
+          "type": "OTHER",
+          "description": "Single high dose of deucrictibant or placebo",
+          "interventionNames": [
+            "Drug: Deucrictibant",
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Deucrictibant",
+          "description": "deucrictibant soft capsules for oral use",
+          "armGroupLabels": [
+            "High dose/placebo",
+            "Low dose/placebo",
+            "Medium dose/placebo"
+          ],
+          "otherNames": [
+            "PHA-022121",
+            "PHA121",
+            "PHVS416"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Matching placebo capsules for oral use",
+          "armGroupLabels": [
+            "High dose/placebo",
+            "Low dose/placebo",
+            "Medium dose/placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change of the 3-symptom Composite Visual Analogue Scale (VAS-3) Score From Pre-treatment to 4 Hours Post-treatment",
+          "description": "The primary endpoint of the study was the change of the VAS-3 (3-symptom composite visual analogue scale) score from pre-treatment to 4 hours post-treatment. The VAS-3 was calculated as the mean of the VAS scores of the 3 major HAE symptoms: skin swelling, skin pain, and abdominal pain. The VAS scores of the 3 major HAE symptoms (skin swelling, skin pain, and abdominal pain) could range between 0 (No swelling/No pain) and 100 (Extreme swelling/Excruciating pain)",
+          "timeFrame": "Assessed from pre-treatment to 4 hours post-treatment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Time to Onset of Symptom Relief by \u226530% Reduction in Visual Analogue Scale (VAS-3) Composite Score From the Pre-treatment Score",
+          "description": "VAS-3 scores range between 0 and 100.",
+          "timeFrame": "Assessed from pre-treatment to 48-hours post-treatment"
+        },
+        {
+          "measure": "Time to Onset of Almost Complete or Complete Symptom Relief by Visual Analogue Scale (VAS-3)",
+          "description": "VAS scores range between 0 and 100. Almost complete symptom relief is defined as all 3 individual VAS scores of the VAS-3 having a value \\< 10. Complete symptom relief is defined as all 3 individual VAS scores are of the VAS-3 having a value of 0.",
+          "timeFrame": "Assessed from pre-treatment to 48 hours post-treatment"
+        },
+        {
+          "measure": "Time to a \u226550% Reduction in VAS-3 Composite Score From the Pre-treatment Score",
+          "description": "Time to a \u226550% reduction in VAS-3 composite score from the pre-treatment score.",
+          "timeFrame": "Assessed from pre-treatment to 48 hours post-treatment"
+        },
+        {
+          "measure": "Change in the Mean Symptom Complex Severity (MSCS) Score From Pre-treatment to 4 Hours Post-treatment",
+          "description": "MSCS scores range between 0 and 3. A higher score means a worse outcome.",
+          "timeFrame": "Pre-treatment and 4 hours post-treatment"
+        },
+        {
+          "measure": "Treatment Outcome Score (TOS) at 4 Hours Post-treatment",
+          "description": "TOS range between -100 and 100. A positive score indicates improvement, a score of 0 indicates no change, and a negative score indicates worsening compared to pre-treatment.",
+          "timeFrame": "4 hours post-treatment"
+        },
+        {
+          "measure": "Time to Onset of Primary Symptom Relief Assessed by a 30% Reduction in the VAS for the Primary Symptom",
+          "description": "Time to onset of primary symptom relief assessed by a 30% reduction in the VAS for the primary symptom within 48 hours post-treatment",
+          "timeFrame": "Within 48 hours post-treatment"
+        },
+        {
+          "measure": "Proportion of Study Drug Treated Attacks Requiring HAE Rescue Medication Within 12 Hours.",
+          "description": "Proportion of blinded study drug treated attacks requiring HAE rescue medication within 12 hours post-treatment.",
+          "timeFrame": "Assessed at 12 hours post study drug treatment"
+        },
+        {
+          "measure": "Time to First HAE Rescue Medication Use for Study Drug-treated Attacks Within 48 Hours Post-treatment",
+          "description": "The proportion of treated attacks with first use of HAE rescue medication within 48 hours post-treatment with PHA-022121.",
+          "timeFrame": "Assessed at 48 hours post study drug treatment"
+        },
+        {
+          "measure": "Time to Change in the VAS Score for Skin Pain Score - 30% Reduction",
+          "description": "Time to change in the VAS score for Skin Pain Score - 30% reduction within 48-hours post-treatment. VAS-3 scores range between 0 and 100. A larger reduction means a better outcome.",
+          "timeFrame": "Within 48 hours post treatment"
+        },
+        {
+          "measure": "Change in Mean Symptom Complex Severity Score From Pre-treatment to 24 Hours Post-treatment",
+          "description": "Change in the Mean Symptom Complex Severity (MSCS) score from pre-treatment to 24 hours post-treatment. A lower MSCS score indicates a better outcome.",
+          "timeFrame": "24 hours post-treatment"
+        },
+        {
+          "measure": "TOS at 24 Hours Post-treatment",
+          "description": "Treatment outcome score at 24 hours post-treatment. A higher score indicates improvement.",
+          "timeFrame": "Assessed within 24 hours post treatment"
+        },
+        {
+          "measure": "Treatment Satisfaction Questionnaire for Medication Scores at 48 Hours Post-treatment - Effectiveness Domain Score",
+          "description": "MMRM analysis of Treatment Satisfaction Questionnaire for Medication (TSQM) at 48 hours post-treatment. The 11-item TSQM (version II) evaluated participant treatment satisfaction with the medication for the following scales: effectiveness, side effects, convenience, and overall satisfaction Scale scores were transformed into scores ranging from 0 to 100 and could be used to calculate a total composite score, a higher score indicating greater satisfaction.",
+          "timeFrame": "48 hours post-treatment"
+        },
+        {
+          "measure": "Time to Onset of Primary Symptom Relief by 50% Reduction in VAS Score",
+          "description": "Time to Onset of Primary Symptom Relief by 50% Reduction in VAS Score within 48 hours post-treatment. VAS-3 scores range between 0 and 100. A larger reduction means a better outcome.",
+          "timeFrame": "Within 48 hours post-treatment"
+        },
+        {
+          "measure": "Proportion of Study Drug Treated Attacks Requiring HAE Rescue Medication Within 24 Hours.",
+          "description": "Qualifying attacks treated with study drug may use approved rescue medication if no symptom relief within 4 hours has been experienced.",
+          "timeFrame": "Assessed at 24 hours post-study drug treatment"
+        },
+        {
+          "measure": "Proportion of Study Drug Treated Attacks Requiring HAE Rescue Medication Within 48 Hours",
+          "description": "Qualifying attacks treated with study drug may use approved rescue medication if no symptom relief within 4 hours has been experienced.",
+          "timeFrame": "Assessed at 48 hours post-study drug treatment"
+        },
+        {
+          "measure": "Treatment Satisfaction Questionnaire for Medication Scores at 48 Hours Post-treatment - Convenience Domain Score",
+          "description": "MMRM analysis of Treatment Satisfaction Questionnaire for Medication (TSQM) at 48 hours post-treatment. The 11-item TSQM (version II) evaluated participant treatment satisfaction with the medication for the following scales: effectiveness, side effects, convenience, and overall satisfaction Scale scores were transformed into scores ranging from 0 to 100 and could be used to calculate a total composite score, a higher score indicating greater satisfaction.",
+          "timeFrame": "48 hours post-treatment"
+        },
+        {
+          "measure": "Treatment Satisfaction Questionnaire for Medication Scores at 48 Hours Post-treatment - Satisfaction Domain Score",
+          "description": "MMRM analysis of Treatment Satisfaction Questionnaire for Medication (TSQM) at 48 hours post-treatment. The 11-item TSQM (version II) evaluated participant treatment satisfaction with the medication for the following scales: effectiveness, side effects, convenience, and overall satisfaction Scale scores were transformed into scores ranging from 0 to 100 and could be used to calculate a total composite score, a higher score indicating greater satisfaction.",
+          "timeFrame": "48 hours post-treatment"
+        },
+        {
+          "measure": "Time to Change in the VAS Score for Skin Swelling Score - 30% Reduction",
+          "description": "Time to change in the VAS score for Skin Swelling Score - 30% reduction within 48 hours post-treatment. VAS-3 scores range between 0 and 100. A larger reduction means a better outcome.",
+          "timeFrame": "Within 48 hours post-treatment"
+        },
+        {
+          "measure": "Time to Change in the VAS Score for Abdominal Pain Score - 30% Reduction",
+          "description": "Time to change in the VAS score for Abdominal Pain Score - 30% reduction within 48 hours post-treatment. VAS-3 scores range between 0 and 100. A larger reduction means a better outcome.",
+          "timeFrame": "Within 48 hours post-treatment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Key Inclusion Criteria:\n\n1. Signed and dated informed consent form\n2. Diagnosis of HAE type I or II\n3. Documented history of HAE attacks: at least three in the last 4 months, or at least two in the last 2 months prior to screening\n4. Reliable access and experience to use standard of care acute attack medications\n\nKey Exclusion Criteria:\n\n1. Pregnancy or breast-feeding\n2. Clinically significant abnormal electrocardiogram\n3. Any other systemic disease or significant disease or disorder that would interfere with the patient's safety or ability to participate in the study\n4. Use of C1-esterase inhibitor, oral kallikrein inhibitors, attenuated androgens, anti-fibrinolytics, or monoclonal HAE therapy within a defined period prior to enrollment\n5. Positive serology for HIV or active infection with hepatitis B virus or hepatitis C virus\n6. Abnormal hepatic function\n7. Abnormal renal function\n8. History of alcohol or drug abuse within defined period, or current evidence of substance dependence or abuse\n9. History of documented severe hypersensitivity to any medicinal product\n10. Participation in any other investigational drug study within defined period",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Marcus Maurer, Prof MD",
+          "affiliation": "Charite University, Berlin, Germany",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Study site",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35209",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Paradise Valley",
+          "state": "Arizona",
+          "zip": "85253",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.53115,
+            "lon": -111.94265
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "San Diego",
+          "state": "California",
+          "zip": "92122",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.71571,
+            "lon": -117.16472
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Santa Monica",
+          "state": "California",
+          "zip": "90404",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.01949,
+            "lon": -118.49138
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Walnut Creek",
+          "state": "California",
+          "zip": "94598",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.90631,
+            "lon": -122.06496
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Chevy Chase",
+          "state": "Maryland",
+          "zip": "20815",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.00287,
+            "lon": -77.07115
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63141",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Hershey",
+          "state": "Pennsylvania",
+          "zip": "17033",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.28592,
+            "lon": -76.65025
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Sofia",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.69751,
+            "lon": 23.32415
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Edmonton",
+          "state": "Alberta",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 53.55014,
+            "lon": -113.46871
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Ottawa",
+          "state": "Ontario",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.41117,
+            "lon": -75.69812
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Toronto",
+          "state": "Ontario",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Montreal",
+          "state": "Quebec",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Qu\u00e9bec",
+          "state": "Quebec",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.81228,
+            "lon": -71.21454
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Brno",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.19522,
+            "lon": 16.60796
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Hradec Kr\u00e1lov\u00e9",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.20923,
+            "lon": 15.83277
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Grenoble",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.17869,
+            "lon": 5.71479
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Montpellier",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.61093,
+            "lon": 3.87635
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Paris",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Berlin",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Dresden",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.05089,
+            "lon": 13.73832
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Frankfurt",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.68333,
+            "lon": 10.53333
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Mainz",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.98185,
+            "lon": 8.28008
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Ulm",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.39841,
+            "lon": 9.99155
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Budapest",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Ashkelon",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 31.66926,
+            "lon": 34.57149
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Haifa",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.81303,
+            "lon": 34.99928
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Tel Aviv",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.08088,
+            "lon": 34.78057
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Monserrato",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 39.25642,
+            "lon": 9.1444
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Naples",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.85216,
+            "lon": 14.26811
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.37403,
+            "lon": 4.88969
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Krakow",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.06143,
+            "lon": 19.93658
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Barcelona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Madrid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Brighton",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 50.82838,
+            "lon": -0.13947
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "London",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "41865747",
+          "type": "DERIVED",
+          "citation": "Maurer M, Stobiecki M, Valerieva A, Hakl R, Staevska MT, Bouillet L, Du-Thanh A, Kessel A, Kiani-Alikhan S, Magerl M, Reshef A, Baeza ML, Fain O, Farkas H, Greve J, Guilarte M, Jacobs JS, Li HH, Lleonart R, Manning ME, Sussman GL, Anderson J, Chapdelaine H, Cohn DM, Hagin D, Kralickova P, Ritchie B, Spadaro G, Staubach P, Tarzi MD, Yang WH, Jouvin MH, Crabbe R, van Leeuwen S, Chen H, Zhu L, Knolle J, Lesage A, Lu P, Riedl MA, Aygoren-Pursun E. Oral deucrictibant for on-demand treatment of hereditary angioedema attacks (RAPIDe-1): a randomised, double-blind, placebo-controlled, phase 2 trial. Lancet Haematol. 2026 Apr;13(4):e200-e214. doi: 10.1016/S2352-3026(25)00341-2. Epub 2026 Mar 19."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "In Part I, participants in a quiescent state received a single dose of PHA-022121 at the assigned dose (10, 20, or 30 mg) to assess PK and safety. In Part II, participants received 2 single doses of PHA-022121 (10, 20, or 30 mg) and one single dose of placebo to assess efficacy and safety. Each participant administered their randomly assigned dose (either 10, 20, or 30 mg) for each of the 3 qualifying HAE attacks according to 1 of the 3 randomly assigned treatment sequences (crossover design).",
+      "recruitmentDetails": "A total of 89 patients were screened, of which 74 patients were enrolled and randomized to the 3 PHA-022121 cohorts as follows: 25 participants to the 30 mg cohort, 25 participants to the 20 mg cohort, and 24 participants to the 10 mg cohort. From Part I to Part II, participants remained at their randomly assigned dose level. The majority of screen failures were due to inclusion criterion not met.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "PHA-022121 Low Dose - 10 mg",
+          "description": "Part I: Single low dose of PHA-022121 (10 mg), non-attack state.\n\nPart II: 2 single low doses of PHA-022121 (10 mg) and one single dose of placebo in a 3-way crossover design, administered in the following sequence:\n\n1. Low dose / Low dose / Placebo\n2. Low dose / Placebo / Low dose\n3. Placebo / Low dose / Low dose\n\nParticipants in Part I assigned to the Low Dose cohort remain in the Low Dose cohort in Part II."
+        },
+        {
+          "id": "FG001",
+          "title": "PHA-022121 Medium Dose - 20 mg",
+          "description": "Part I: Single medium dose of PHA-022121 (20 mg), non-attack state.\n\nPart II: 2 single medium doses of PHA-022121 (20 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Medium dose / Medium dose / Placebo\n2. Medium dose / Placebo / Medium dose\n3. Placebo / Medium dose / Medium dose\n\nParticipants in Part I assigned to the Medium Dose cohort remain in the Medium Dose cohort in Part II."
+        },
+        {
+          "id": "FG002",
+          "title": "PHA-022121 High Dose - 30 mg",
+          "description": "Part I: Single high dose of PHA-022121 (30 mg), non-attack state.\n\nPart II: 2 single high doses of PHA-022121 (30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. High dose / High dose / Placebo\n2. High dose / Placebo / High dose\n3. Placebo / High dose / High dose\n\nParticipants in Part I assigned to the High Dose cohort remain in the High Dose cohort in Part II."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Part I (Non-Attack, Safety)",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "24"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "25"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "25"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "24"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "24"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "25"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Part II (Self-administration, Efficacy)",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "24"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "24"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "25"
+                }
+              ]
+            },
+            {
+              "type": "Attack 1 - PHA-022121",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "16"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "13"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "17"
+                }
+              ]
+            },
+            {
+              "type": "Attack 1 - Placebo",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "6"
+                }
+              ]
+            },
+            {
+              "type": "Attack 2 - PHA-022121",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "12"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "8"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "12"
+                }
+              ]
+            },
+            {
+              "type": "Attack 2 - Placebo",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "7"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "8"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "7"
+                }
+              ]
+            },
+            {
+              "type": "Attack 3 - PHA-022121",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "11"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "10"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "10"
+                }
+              ]
+            },
+            {
+              "type": "Attack 3 - Placebo",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "7"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "6"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "16"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "12"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "12"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "8"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "12"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "13"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "5"
+                }
+              ]
+            },
+            {
+              "type": "Participants Met Primary Analysis Criteria",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "9"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "Full Analysis Set (FAS): The FAS was defined as all participants enrolled and randomized in the study. Participants were analyzed based on the intention-to-treat principle, i.e., according to their randomized treatment assignment regardless of actual treatment taken.",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "PHA-022121 Low Dose - 10 mg",
+          "description": "Part I: Single low dose of PHA-022121 (10 mg), non-attack state."
+        },
+        {
+          "id": "BG001",
+          "title": "PHA-022121 Medium Dose - 20 mg",
+          "description": "Part I: Single medium dose of PHA-022121 (20 mg), non-attack state."
+        },
+        {
+          "id": "BG002",
+          "title": "PHA-022121 High Dose - 30 mg",
+          "description": "Part I: Single high dose of PHA-022121 (30 mg), non-attack state."
+        },
+        {
+          "id": "BG003",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "24"
+            },
+            {
+              "groupId": "BG001",
+              "value": "25"
+            },
+            {
+              "groupId": "BG002",
+              "value": "25"
+            },
+            {
+              "groupId": "BG003",
+              "value": "74"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "42.9",
+                      "spread": "14.15"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "45.7",
+                      "spread": "13.89"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "41.4",
+                      "spread": "15.38"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "43.3",
+                      "spread": "14.41"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Adults (18-64 years)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "24"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "23"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "69"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "From 65-84 years",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "49"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "25"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race/Ethnicity, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "White",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "24"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "71"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "American Indian or Alaska Native",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Asian",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Black or African American",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Other",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race/Ethnicity, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Hispanic or Latino",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Not Hispanic or Latino",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "24"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "64"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Not Reported",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Change of the 3-symptom Composite Visual Analogue Scale (VAS-3) Score From Pre-treatment to 4 Hours Post-treatment",
+          "description": "The primary endpoint of the study was the change of the VAS-3 (3-symptom composite visual analogue scale) score from pre-treatment to 4 hours post-treatment. The VAS-3 was calculated as the mean of the VAS scores of the 3 major HAE symptoms: skin swelling, skin pain, and abdominal pain. The VAS scores of the 3 major HAE symptoms (skin swelling, skin pain, and abdominal pain) could range between 0 (No swelling/No pain) and 100 (Extreme swelling/Excruciating pain)",
+          "populationDescription": "Part I efficacy data not collected, consistent with and pre-specified in the study protocol. Includes all participants with evaluable data who completed the relevant assessment time point.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "Score on a scale",
+          "timeFrame": "Assessed from pre-treatment to 4 hours post-treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PHA-022121 Low Dose - 10 mg",
+              "description": "Part II: 2 single low doses of PHA-022121 (10 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Low dose / Low dose / Placebo\n2. Low dose / Placebo / Low dose\n3. Placebo / Low dose / Low dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG001",
+              "title": "PHA-022121 Medium Dose - 20 mg",
+              "description": "Part II: 2 single medium doses of PHA-022121 (20 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Medium dose / Medium dose / Placebo\n2. Medium dose / Placebo / Medium dose\n3. Placebo / Medium dose / Medium dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG002",
+              "title": "PHA-022121 High Dose - 30 mg",
+              "description": "Part II: 2 single high doses of PHA-022121 (30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. High dose / High dose / Placebo\n2. High dose / Placebo / High dose\n3. Placebo / High dose / High dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo",
+              "description": "Part II: 2 single high doses of PHA-022121 (10, 20, or 30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. PHA-022121 dose / PHA-022121 dose / Placebo\n2. PHA-022121 dose / Placebo / PHA-022121 dose\n3. Placebo / PHA-022121 dose / PHA-022121 dose\n\nPart II efficacy data utilized for the analysis."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "20"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "51"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-14.83",
+                      "spread": "1.833"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-13.10",
+                      "spread": "2.111"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "-14.37",
+                      "spread": "1.975"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "1.92",
+                      "spread": "1.596"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "< 0.0001",
+              "pValueComment": "Nominal p-value",
+              "statisticalMethod": "Mixed model repeated measures",
+              "paramType": "Least squares mean difference",
+              "paramValue": "-16.75",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-21.52",
+              "ciUpperLimit": "-11.97",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "2.423"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "< 0.0001",
+              "statisticalMethod": "Mixed model repeated measures",
+              "paramType": "Least squares mean difference",
+              "paramValue": "-15.02",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-20.22",
+              "ciUpperLimit": "-9.81",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "2.64"
+            },
+            {
+              "groupIds": [
+                "OG002",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "< 0.0001",
+              "statisticalMethod": "Mixed model repeated measures",
+              "paramType": "Least squares mean difference",
+              "paramValue": "-16.28",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-21.27",
+              "ciUpperLimit": "-11.29",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "2.531"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Time to Onset of Symptom Relief by \u226530% Reduction in Visual Analogue Scale (VAS-3) Composite Score From the Pre-treatment Score",
+          "description": "VAS-3 scores range between 0 and 100.",
+          "populationDescription": "Part I efficacy data not collected, consistent with and pre-specified in the study protocol. Includes all participants with evaluable data who completed the relevant assessment time point.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Hours",
+          "timeFrame": "Assessed from pre-treatment to 48-hours post-treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PHA-022121 Low Dose -10 mg",
+              "description": "Part II: 2 single low doses of PHA-022121 (10 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Low dose / Low dose / Placebo\n2. Low dose / Placebo / Low dose\n3. Placebo / Low dose / Low dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG001",
+              "title": "PHA-022121 Medium Dose - 20 mg",
+              "description": "Part II: 2 single medium doses of PHA-022121 (20 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Medium dose / Medium dose / Placebo\n2. Medium dose / Placebo / Medium dose\n3. Placebo / Medium dose / Medium dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG002",
+              "title": "PHA-022121 High Dose - 30 mg",
+              "description": "Part II: 2 single high doses of PHA-022121 (30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. High dose / High dose / Placebo\n2. High dose / Placebo / High dose\n3. Placebo / High dose / High dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo",
+              "description": "Part II: 2 single high doses of PHA-022121 (10, 20, or 30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. PHA-022121 dose / PHA-022121 dose / Placebo\n2. PHA-022121 dose / Placebo / PHA-022121 dose\n3. Placebo / PHA-022121 dose / PHA-022121 dose\n\nPart II efficacy data utilized for the analysis."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "20"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "51"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.1",
+                      "lowerLimit": "1.5",
+                      "upperLimit": "2.9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.7",
+                      "lowerLimit": "1.9",
+                      "upperLimit": "3.5"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "2.5",
+                      "lowerLimit": "1.9",
+                      "upperLimit": "3.8"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "8.0",
+                      "lowerLimit": "7.6",
+                      "upperLimit": "48.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "< 0.0001",
+              "pValueComment": "Nominal p-value",
+              "statisticalMethod": "Marginal Cox Proportional Hazards Model",
+              "paramType": "Hazard Ratio (HR)",
+              "paramValue": "3.81",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "2.01",
+              "ciUpperLimit": "7.2"
+            },
+            {
+              "groupIds": [
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.0021",
+              "statisticalMethod": "Marginal Cox Proportional Hazards Model",
+              "paramType": "Hazard Ratio (HR)",
+              "paramValue": "3.08",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "1.5",
+              "ciUpperLimit": "6.3"
+            },
+            {
+              "groupIds": [
+                "OG002"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "< 0.0001",
+              "statisticalMethod": "Marginal Cox Proportional Hazards Model",
+              "paramType": "Hazard Ratio (HR)",
+              "paramValue": "3.61",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "2.1",
+              "ciUpperLimit": "6.19"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Time to Onset of Almost Complete or Complete Symptom Relief by Visual Analogue Scale (VAS-3)",
+          "description": "VAS scores range between 0 and 100. Almost complete symptom relief is defined as all 3 individual VAS scores of the VAS-3 having a value \\< 10. Complete symptom relief is defined as all 3 individual VAS scores are of the VAS-3 having a value of 0.",
+          "populationDescription": "Part I efficacy data not collected, consistent with and pre-specified in the study protocol. Includes all participants with evaluable data who completed the relevant assessment time point.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Hours",
+          "timeFrame": "Assessed from pre-treatment to 48 hours post-treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PHA-022121 Low Dose - 10 mg",
+              "description": "Part II: 2 single low doses of PHA-022121 (10 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Low dose / Low dose / Placebo\n2. Low dose / Placebo / Low dose\n3. Placebo / Low dose / Low dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG001",
+              "title": "PHA-022121 Medium Dose - 20 mg",
+              "description": "Part II: 2 single medium doses of PHA-022121 (20 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Medium dose / Medium dose / Placebo\n2. Medium dose / Placebo / Medium dose\n3. Placebo / Medium dose / Medium dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG002",
+              "title": "PHA-022121 High Dose - 30 mg",
+              "description": "Part II: 2 single high doses of PHA-022121 (30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. High dose / High dose / Placebo\n2. High dose / Placebo / High dose\n3. Placebo / High dose / High dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo",
+              "description": "Part II: 2 single high doses of PHA-022121 (10, 20, or 30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. PHA-022121 dose / PHA-022121 dose / Placebo\n2. PHA-022121 dose / Placebo / PHA-022121 dose\n3. Placebo / PHA-022121 dose / PHA-022121 dose\n\nPart II efficacy data utilized for the analysis."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "20"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "51"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5.8",
+                      "lowerLimit": "3.6",
+                      "upperLimit": "7.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "20.0",
+                      "lowerLimit": "4.5",
+                      "upperLimit": "20.0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "20.0",
+                      "lowerLimit": "6.0",
+                      "upperLimit": "20.1"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "42.0",
+                      "lowerLimit": "22.0",
+                      "upperLimit": "48.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "< 0.0001",
+              "pValueComment": "Nominal p-value",
+              "statisticalMethod": "Cox Proportional Hazards Model",
+              "paramType": "Hazard Ratio (HR)",
+              "paramValue": "5.09",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "2.81",
+              "ciUpperLimit": "9.22"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.0127",
+              "statisticalMethod": "Marginal Cox Proportional Hazards Model",
+              "paramType": "Hazard Ratio (HR)",
+              "paramValue": "2.25",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "1.19",
+              "ciUpperLimit": "4.27"
+            },
+            {
+              "groupIds": [
+                "OG002",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.0001",
+              "statisticalMethod": "Marginal Cox Proportional Hazards Model",
+              "paramType": "Hazard Ratio (HR)",
+              "paramValue": "2.65",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "1.61",
+              "ciUpperLimit": "4.38"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Time to a \u226550% Reduction in VAS-3 Composite Score From the Pre-treatment Score",
+          "description": "Time to a \u226550% reduction in VAS-3 composite score from the pre-treatment score.",
+          "populationDescription": "Part I efficacy data not collected, consistent with and pre-specified in the study protocol. Includes all participants with evaluable data who completed the relevant assessment time point.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Hours",
+          "timeFrame": "Assessed from pre-treatment to 48 hours post-treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PHA-022121 Low Dose - 10 mg",
+              "description": "Part II: 2 single low doses of PHA-022121 (10 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Low dose / Low dose / Placebo\n2. Low dose / Placebo / Low dose\n3. Placebo / Low dose / Low dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG001",
+              "title": "PHA-022121 Medium Dose - 20 mg",
+              "description": "Part II: 2 single medium doses of PHA-022121 (20 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Medium dose / Medium dose / Placebo\n2. Medium dose / Placebo / Medium dose\n3. Placebo / Medium dose / Medium dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG002",
+              "title": "PHA-022121 High Dose - 30 mg",
+              "description": "Part II: 2 single high doses of PHA-022121 (30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. High dose / High dose / Placebo\n2. High dose / Placebo / High dose\n3. Placebo / High dose / High dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo",
+              "description": "Part II: 2 single high doses of PHA-022121 (10, 20, or 30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. PHA-022121 dose / PHA-022121 dose / Placebo\n2. PHA-022121 dose / Placebo / PHA-022121 dose\n3. Placebo / PHA-022121 dose / PHA-022121 dose\n\nPart II efficacy data utilized for the analysis."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "20"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "51"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.3",
+                      "lowerLimit": "2.4",
+                      "upperLimit": "3.9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.0",
+                      "lowerLimit": "2.9",
+                      "upperLimit": "6.0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "4.0",
+                      "lowerLimit": "3.3",
+                      "upperLimit": "5.8"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "22.8",
+                      "lowerLimit": "20.0",
+                      "upperLimit": "24.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "< 0.0001",
+              "pValueComment": "Nominal p-value",
+              "statisticalMethod": "Marginal Cox Proportional Hazards Model",
+              "paramType": "Hazard Ratio (HR)",
+              "paramValue": "4.55",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "2.41",
+              "ciUpperLimit": "8.59"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.0003",
+              "statisticalMethod": "Marginal Cox Proportional Hazards Model",
+              "paramType": "Hazard Ratio (HR)",
+              "paramValue": "3.65",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "1.8",
+              "ciUpperLimit": "7.38"
+            },
+            {
+              "groupIds": [
+                "OG002",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "< 0.0001",
+              "statisticalMethod": "Marginal Cox Proportional Hazards Model",
+              "paramType": "Hazard Ratio (HR)",
+              "paramValue": "3.87",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "2.26",
+              "ciUpperLimit": "6.63"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in the Mean Symptom Complex Severity (MSCS) Score From Pre-treatment to 4 Hours Post-treatment",
+          "description": "MSCS scores range between 0 and 3. A higher score means a worse outcome.",
+          "populationDescription": "Part I efficacy data not collected, consistent with and pre-specified in the study protocol. Includes all participants with evaluable data who completed the relevant assessment time point.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Score on a scale",
+          "timeFrame": "Pre-treatment and 4 hours post-treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PHA-022121 Low Dose - 10 mg",
+              "description": "Part II: 2 single low doses of PHA-022121 (10 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Low dose / Low dose / Placebo\n2. Low dose / Placebo / Low dose\n3. Placebo / Low dose / Low dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG001",
+              "title": "PHA-022121 Medium Dose - 20 mg",
+              "description": "Part II: 2 single medium doses of PHA-022121 (20 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Medium dose / Medium dose / Placebo\n2. Medium dose / Placebo / Medium dose\n3. Placebo / Medium dose / Medium dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG002",
+              "title": "PHA-022121 High Dose - 30 mg",
+              "description": "Part II: 2 single high doses of PHA-022121 (30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. High dose / High dose / Placebo\n2. High dose / Placebo / High dose\n3. Placebo / High dose / High dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo",
+              "description": "Part II: 2 single high doses of PHA-022121 (10, 20, or 30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. PHA-022121 dose / PHA-022121 dose / Placebo\n2. PHA-022121 dose / Placebo / PHA-022121 dose\n3. Placebo / PHA-022121 dose / PHA-022121 dose\n\nPart II efficacy data utilized for the analysis."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "20"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "51"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-1.08",
+                      "lowerLimit": "-1.33",
+                      "upperLimit": "-0.83"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.91",
+                      "lowerLimit": "-1.19",
+                      "upperLimit": "-0.62"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "-0.68",
+                      "lowerLimit": "-0.95",
+                      "upperLimit": "-0.40"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "-0.29",
+                      "lowerLimit": "-0.51",
+                      "upperLimit": "-0.08"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "< 0.0001",
+              "pValueComment": "Nominal p-value",
+              "statisticalMethod": "Mixed model repeated measures",
+              "paramType": "Least squares mean difference",
+              "paramValue": "-0.79",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-1.11",
+              "ciUpperLimit": "-0.46",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "0.164"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.0008",
+              "statisticalMethod": "Mixed model repeated measures",
+              "paramType": "Least squares mean difference",
+              "paramValue": "-0.61",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-0.97",
+              "ciUpperLimit": "-0.26",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "0.178"
+            },
+            {
+              "groupIds": [
+                "OG002",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.0291",
+              "statisticalMethod": "Mixed model repeated measures",
+              "paramType": "Least squares mean difference",
+              "paramValue": "-0.39",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-0.73",
+              "ciUpperLimit": "-0.04",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "0.174"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Treatment Outcome Score (TOS) at 4 Hours Post-treatment",
+          "description": "TOS range between -100 and 100. A positive score indicates improvement, a score of 0 indicates no change, and a negative score indicates worsening compared to pre-treatment.",
+          "populationDescription": "Part I efficacy data not collected, consistent with and pre-specified in the study protocol. Includes all participants with evaluable data who completed the relevant assessment time point.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Score on a scale",
+          "timeFrame": "4 hours post-treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PHA-022121 Low Dose - 10 mg",
+              "description": "Part II: 2 single low doses of PHA-022121 (10 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Low dose / Low dose / Placebo\n2. Low dose / Placebo / Low dose\n3. Placebo / Low dose / Low dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG001",
+              "title": "PHA-022121 Medium Dose - 20 mg",
+              "description": "Part II: 2 single medium doses of PHA-022121 (20 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Medium dose / Medium dose / Placebo\n2. Medium dose / Placebo / Medium dose\n3. Placebo / Medium dose / Medium dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG002",
+              "title": "PHA-022121 High Dose - 30 mg",
+              "description": "Part II: 2 single high doses of PHA-022121 (30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. High dose / High dose / Placebo\n2. High dose / Placebo / High dose\n3. Placebo / High dose / High dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo",
+              "description": "Part II: 2 single high doses of PHA-022121 (10, 20, or 30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. PHA-022121 dose / PHA-022121 dose / Placebo\n2. PHA-022121 dose / Placebo / PHA-022121 dose\n3. Placebo / PHA-022121 dose / PHA-022121 dose\n\nPart II efficacy data utilized for the analysis."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "20"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "51"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "60.52",
+                      "lowerLimit": "41.74",
+                      "upperLimit": "79.29"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "59.08",
+                      "lowerLimit": "37.58",
+                      "upperLimit": "80.57"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "67.44",
+                      "lowerLimit": "47.15",
+                      "upperLimit": "87.74"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "-3.62",
+                      "lowerLimit": "-19.68",
+                      "upperLimit": "12.45"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "< 0.0001",
+              "pValueComment": "Nominal p-value",
+              "statisticalMethod": "Mixed model repeated measures",
+              "paramType": "Least squares mean difference",
+              "paramValue": "64.13",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "40.35",
+              "ciUpperLimit": "87.91",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "12.016"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "< 0.0001",
+              "statisticalMethod": "Mixed model repeated measures",
+              "paramType": "Least squares mean difference",
+              "paramValue": "62.69",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "36.71",
+              "ciUpperLimit": "88.67",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "13.128"
+            },
+            {
+              "groupIds": [
+                "OG002",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "< 0.0001",
+              "statisticalMethod": "Mixed model repeated measures",
+              "paramType": "Least squares mean difference",
+              "paramValue": "71.06",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "46.09",
+              "ciUpperLimit": "96.03",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "12.613"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Time to Onset of Primary Symptom Relief Assessed by a 30% Reduction in the VAS for the Primary Symptom",
+          "description": "Time to onset of primary symptom relief assessed by a 30% reduction in the VAS for the primary symptom within 48 hours post-treatment",
+          "populationDescription": "Part I efficacy data not collected, consistent with and pre-specified in the study protocol. Includes all participants with evaluable data who completed the relevant assessment time point.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Hours",
+          "timeFrame": "Within 48 hours post-treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PHA-022121 Low Dose - 10 mg",
+              "description": "Part II: 2 single low doses of PHA-022121 (10 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Low dose / Low dose / Placebo\n2. Low dose / Placebo / Low dose\n3. Placebo / Low dose / Low dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG001",
+              "title": "PHA-022121 Medium Dose - 20 mg",
+              "description": "Part II: 2 single medium doses of PHA-022121 (20 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Medium dose / Medium dose / Placebo\n2. Medium dose / Placebo / Medium dose\n3. Placebo / Medium dose / Medium dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG002",
+              "title": "PHA-022121 High Dose - 30 mg",
+              "description": "Part II: 2 single high doses of PHA-022121 (30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. High dose / High dose / Placebo\n2. High dose / Placebo / High dose\n3. Placebo / High dose / High dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo",
+              "description": "Part II: 2 single high doses of PHA-022121 (10, 20, or 30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. PHA-022121 dose / PHA-022121 dose / Placebo\n2. PHA-022121 dose / Placebo / PHA-022121 dose\n3. Placebo / PHA-022121 dose / PHA-022121 dose\n\nPart II efficacy data utilized for the analysis."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "20"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "51"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.0",
+                      "lowerLimit": "1.4",
+                      "upperLimit": "2.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.0",
+                      "lowerLimit": "1.9",
+                      "upperLimit": "4.1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "2.9",
+                      "lowerLimit": "1.9",
+                      "upperLimit": "3.9"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "23.3",
+                      "lowerLimit": "6.1",
+                      "upperLimit": "NA",
+                      "comment": "Insufficient number of participants with events."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Proportion of Study Drug Treated Attacks Requiring HAE Rescue Medication Within 12 Hours.",
+          "description": "Proportion of blinded study drug treated attacks requiring HAE rescue medication within 12 hours post-treatment.",
+          "populationDescription": "Part I efficacy data not collected, consistent with and pre-specified in the study protocol. Includes all participants with evaluable data who completed the relevant assessment time point.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Attacks requiring HAE rescue medication",
+          "timeFrame": "Assessed at 12 hours post study drug treatment",
+          "typeUnitsAnalyzed": "Number of Treated Attacks",
+          "denomUnitsSelected": "Number of Treated Attacks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PHA-022121 Low Dose - 10 mg",
+              "description": "Part II: 2 single low doses of PHA-022121 (10 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Low dose / Low dose / Placebo\n2. Low dose / Placebo / Low dose\n3. Placebo / Low dose / Low dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG001",
+              "title": "PHA-022121 Medium Dose - 20 mg",
+              "description": "Part II: 2 single medium doses of PHA-022121 (20 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Medium dose / Medium dose / Placebo\n2. Medium dose / Placebo / Medium dose\n3. Placebo / Medium dose / Medium dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG002",
+              "title": "PHA-022121 High Dose - 30 mg",
+              "description": "Part II: 2 single high doses of PHA-022121 (30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. High dose / High dose / Placebo\n2. High dose / Placebo / High dose\n3. Placebo / High dose / High dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo",
+              "description": "Part II: 2 single high doses of PHA-022121 (10, 20, or 30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. PHA-022121 dose / PHA-022121 dose / Placebo\n2. PHA-022121 dose / Placebo / PHA-022121 dose\n3. Placebo / PHA-022121 dose / PHA-022121 dose\n\nPart II efficacy data utilized for the analysis."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "20"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "51"
+                }
+              ]
+            },
+            {
+              "units": "Number of Treated Attacks",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "37"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "28"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "31"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "51"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "31"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Time to First HAE Rescue Medication Use for Study Drug-treated Attacks Within 48 Hours Post-treatment",
+          "description": "The proportion of treated attacks with first use of HAE rescue medication within 48 hours post-treatment with PHA-022121.",
+          "populationDescription": "Part I efficacy data not collected, consistent with and pre-specified in the study protocol. Includes all participants with evaluable data who completed the relevant assessment time point. Medians are as follows: Low Dose 10 mg - NA (",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Hours",
+          "timeFrame": "Assessed at 48 hours post study drug treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PHA-022121 Low Dose - 10 mg",
+              "description": "Part II: 2 single low doses of PHA-022121 (10 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Low dose / Low dose / Placebo\n2. Low dose / Placebo / Low dose\n3. Placebo / Low dose / Low dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG001",
+              "title": "PHA-022121 Medium Dose - 20 mg",
+              "description": "Part II: 2 single medium doses of PHA-022121 (20 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Medium dose / Medium dose / Placebo\n2. Medium dose / Placebo / Medium dose\n3. Placebo / Medium dose / Medium dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG002",
+              "title": "PHA-022121 High Dose - 30 mg",
+              "description": "Part II: 2 single high doses of PHA-022121 (30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. High dose / High dose / Placebo\n2. High dose / Placebo / High dose\n3. Placebo / High dose / High dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo",
+              "description": "Part II: 2 single high doses of PHA-022121 (10, 20, or 30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. PHA-022121 dose / PHA-022121 dose / Placebo\n2. PHA-022121 dose / Placebo / PHA-022121 dose\n3. Placebo / PHA-022121 dose / PHA-022121 dose\n\nPart II efficacy data utilized for the analysis."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "20"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "51"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "NA",
+                      "lowerLimit": "NA",
+                      "upperLimit": "NA",
+                      "comment": "Insufficient number of participants with events."
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "NA",
+                      "lowerLimit": "NA",
+                      "upperLimit": "NA",
+                      "comment": "Insufficient number of participants with events."
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "NA",
+                      "lowerLimit": "NA",
+                      "upperLimit": "NA",
+                      "comment": "Insufficient number of participants with events."
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "6.0",
+                      "lowerLimit": "4.4",
+                      "upperLimit": "13.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Time to Change in the VAS Score for Skin Pain Score - 30% Reduction",
+          "description": "Time to change in the VAS score for Skin Pain Score - 30% reduction within 48-hours post-treatment. VAS-3 scores range between 0 and 100. A larger reduction means a better outcome.",
+          "populationDescription": "Part I efficacy data not collected, consistent with and pre-specified in the study protocol. Includes all participants with evaluable data who completed the relevant assessment time point.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "Hours",
+          "timeFrame": "Within 48 hours post treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PHA-022121 Low Dose - 10 mg",
+              "description": "Part II: 2 single low doses of PHA-022121 (10 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Low dose / Low dose / Placebo\n2. Low dose / Placebo / Low dose\n3. Placebo / Low dose / Low dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG001",
+              "title": "PHA-022121 Medium Dose - 20 mg",
+              "description": "Part II: 2 single medium doses of PHA-022121 (20 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Medium dose / Medium dose / Placebo\n2. Medium dose / Placebo / Medium dose\n3. Placebo / Medium dose / Medium dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG002",
+              "title": "PHA-022121 High Dose - 30 mg",
+              "description": "Part II: 2 single high doses of PHA-022121 (30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. High dose / High dose / Placebo\n2. High dose / Placebo / High dose\n3. Placebo / High dose / High dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo",
+              "description": "Part II: 2 single high doses of PHA-022121 (10, 20, or 30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. PHA-022121 dose / PHA-022121 dose / Placebo\n2. PHA-022121 dose / Placebo / PHA-022121 dose\n3. Placebo / PHA-022121 dose / PHA-022121 dose\n\nPart II efficacy data utilized for the analysis."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "17"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "10"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "17"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "34"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.9",
+                      "lowerLimit": "1.9",
+                      "upperLimit": "5.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.4",
+                      "lowerLimit": "1.9",
+                      "upperLimit": "6.0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "2.7",
+                      "lowerLimit": "1.9",
+                      "upperLimit": "3.9"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "22.8",
+                      "lowerLimit": "8.7",
+                      "upperLimit": "NA",
+                      "comment": "Insufficient number of participants with events."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Mean Symptom Complex Severity Score From Pre-treatment to 24 Hours Post-treatment",
+          "description": "Change in the Mean Symptom Complex Severity (MSCS) score from pre-treatment to 24 hours post-treatment. A lower MSCS score indicates a better outcome.",
+          "populationDescription": "Part I efficacy data not collected, consistent with and pre-specified in the study protocol. Includes all participants with evaluable data who completed the relevant assessment time point.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "Score on a scale",
+          "timeFrame": "24 hours post-treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PHA-022121 Low Dose - 10 mg",
+              "description": "Part II: 2 single low doses of PHA-022121 (10 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Low dose / Low dose / Placebo\n2. Low dose / Placebo / Low dose\n3. Placebo / Low dose / Low dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG001",
+              "title": "PHA-022121 Medium Dose - 20 mg",
+              "description": "Part II: 2 single medium doses of PHA-022121 (20 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Medium dose / Medium dose / Placebo\n2. Medium dose / Placebo / Medium dose\n3. Placebo / Medium dose / Medium dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG002",
+              "title": "PHA-022121 High Dose - 30 mg",
+              "description": "Part II: 2 single high doses of PHA-022121 (30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. High dose / High dose / Placebo\n2. High dose / Placebo / High dose\n3. Placebo / High dose / High dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo",
+              "description": "Part II: 2 single high doses of PHA-022121 (10, 20, or 30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. PHA-022121 dose / PHA-022121 dose / Placebo\n2. PHA-022121 dose / Placebo / PHA-022121 dose\n3. Placebo / PHA-022121 dose / PHA-022121 dose\n\nPart II efficacy data utilized for the analysis."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "20"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "51"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-1.65",
+                      "spread": "0.117"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-1.50",
+                      "spread": "0.123"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "-1.68",
+                      "spread": "0.122"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "-1.20",
+                      "spread": "0.163"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "TOS at 24 Hours Post-treatment",
+          "description": "Treatment outcome score at 24 hours post-treatment. A higher score indicates improvement.",
+          "populationDescription": "Part I efficacy data not collected, consistent with and pre-specified in the study protocol. Includes all participants with evaluable data who completed the relevant assessment time point.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Score on a scale",
+          "timeFrame": "Assessed within 24 hours post treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PHA-022121 Low Dose - 10 mg",
+              "description": "Part II: 2 single low doses of PHA-022121 (10 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Low dose / Low dose / Placebo\n2. Low dose / Placebo / Low dose\n3. Placebo / Low dose / Low dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG001",
+              "title": "PHA-022121 Medium Dose - 20 mg",
+              "description": "Part II: 2 single medium doses of PHA-022121 (20 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Medium dose / Medium dose / Placebo\n2. Medium dose / Placebo / Medium dose\n3. Placebo / Medium dose / Medium dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG002",
+              "title": "PHA-022121 High Dose - 30 mg",
+              "description": "Part II: 2 single high doses of PHA-022121 (30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. High dose / High dose / Placebo\n2. High dose / Placebo / High dose\n3. Placebo / High dose / High dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo",
+              "description": "Part II: 2 single high doses of PHA-022121 (10, 20, or 30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. PHA-022121 dose / PHA-022121 dose / Placebo\n2. PHA-022121 dose / Placebo / PHA-022121 dose\n3. Placebo / PHA-022121 dose / PHA-022121 dose\n\nPart II efficacy data utilized for the analysis."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "20"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "51"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "94.44",
+                      "spread": "21.183"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "93.60",
+                      "spread": "21.190"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "94.44",
+                      "spread": "16.013"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "76.92",
+                      "spread": "38.813"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Treatment Satisfaction Questionnaire for Medication Scores at 48 Hours Post-treatment - Effectiveness Domain Score",
+          "description": "MMRM analysis of Treatment Satisfaction Questionnaire for Medication (TSQM) at 48 hours post-treatment. The 11-item TSQM (version II) evaluated participant treatment satisfaction with the medication for the following scales: effectiveness, side effects, convenience, and overall satisfaction Scale scores were transformed into scores ranging from 0 to 100 and could be used to calculate a total composite score, a higher score indicating greater satisfaction.",
+          "populationDescription": "Part I efficacy data not collected, consistent with and pre-specified in the study protocol. Includes all participants with evaluable data who completed the relevant assessment time point.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Score on a scale",
+          "timeFrame": "48 hours post-treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PHA-022121 Low Dose - 10 mg",
+              "description": "Part II: 2 single low doses of PHA-022121 (10 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Low dose / Low dose / Placebo\n2. Low dose / Placebo / Low dose\n3. Placebo / Low dose / Low dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG001",
+              "title": "PHA-022121 Medium Dose - 20 mg",
+              "description": "Part II: 2 single medium doses of PHA-022121 (20 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Medium dose / Medium dose / Placebo\n2. Medium dose / Placebo / Medium dose\n3. Placebo / Medium dose / Medium dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG002",
+              "title": "PHA-022121 High Dose - 30 mg",
+              "description": "Part II: 2 single high doses of PHA-022121 (30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. High dose / High dose / Placebo\n2. High dose / Placebo / High dose\n3. Placebo / High dose / High dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo",
+              "description": "Part II: 2 single high doses of PHA-022121 (10, 20, or 30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. PHA-022121 dose / PHA-022121 dose / Placebo\n2. PHA-022121 dose / Placebo / PHA-022121 dose\n3. Placebo / PHA-022121 dose / PHA-022121 dose\n\nPart II efficacy data utilized for the analysis."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "20"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "51"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "79.17",
+                      "spread": "23.179"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "70.45",
+                      "spread": "30.290"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "72.92",
+                      "spread": "23.085"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "65.38",
+                      "spread": "23.532"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Time to Onset of Primary Symptom Relief by 50% Reduction in VAS Score",
+          "description": "Time to Onset of Primary Symptom Relief by 50% Reduction in VAS Score within 48 hours post-treatment. VAS-3 scores range between 0 and 100. A larger reduction means a better outcome.",
+          "populationDescription": "Part I efficacy data not collected, consistent with and pre-specified in the study protocol. Includes all participants with evaluable data who completed the relevant assessment time point.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Hours",
+          "timeFrame": "Within 48 hours post-treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PHA-022121 Low Dose - 10 mg",
+              "description": "Part II: 2 single low doses of PHA-022121 (10 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Low dose / Low dose / Placebo\n2. Low dose / Placebo / Low dose\n3. Placebo / Low dose / Low dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG001",
+              "title": "PHA-022121 Medium Dose - 20 mg",
+              "description": "Part II: 2 single medium doses of PHA-022121 (20 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Medium dose / Medium dose / Placebo\n2. Medium dose / Placebo / Medium dose\n3. Placebo / Medium dose / Medium dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG002",
+              "title": "PHA-022121 High Dose - 30 mg",
+              "description": "Part II: 2 single high doses of PHA-022121 (30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. High dose / High dose / Placebo\n2. High dose / Placebo / High dose\n3. Placebo / High dose / High dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo",
+              "description": "Part II: 2 single high doses of PHA-022121 (10, 20, or 30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. PHA-022121 dose / PHA-022121 dose / Placebo\n2. PHA-022121 dose / Placebo / PHA-022121 dose\n3. Placebo / PHA-022121 dose / PHA-022121 dose\n\nPart II efficacy data utilized for the analysis."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "20"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "51"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.9",
+                      "lowerLimit": "2.4",
+                      "upperLimit": "3.9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.5",
+                      "lowerLimit": "2.9",
+                      "upperLimit": "8.5"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "4.0",
+                      "lowerLimit": "2.5",
+                      "upperLimit": "5.8"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "22.8",
+                      "lowerLimit": "5.8",
+                      "upperLimit": "24.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Proportion of Study Drug Treated Attacks Requiring HAE Rescue Medication Within 24 Hours.",
+          "description": "Qualifying attacks treated with study drug may use approved rescue medication if no symptom relief within 4 hours has been experienced.",
+          "populationDescription": "Part I efficacy data not collected, consistent with and pre-specified in the study protocol. Includes all participants with evaluable data who completed the relevant assessment time point.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Attacks requiring HAE rescue medication",
+          "timeFrame": "Assessed at 24 hours post-study drug treatment",
+          "typeUnitsAnalyzed": "Number of Treated Attacks",
+          "denomUnitsSelected": "Number of Treated Attacks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PHA-022121 Low Dose - 10 mg",
+              "description": "Part II: 2 single low doses of PHA-022121 (10 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Low dose / Low dose / Placebo\n2. Low dose / Placebo / Low dose\n3. Placebo / Low dose / Low dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG001",
+              "title": "PHA-022121 Medium Dose - 20 mg",
+              "description": "Part II: 2 single medium doses of PHA-022121 (20 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Medium dose / Medium dose / Placebo\n2. Medium dose / Placebo / Medium dose\n3. Placebo / Medium dose / Medium dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG002",
+              "title": "PHA-022121 High Dose - 30 mg",
+              "description": "Part II: 2 single high doses of PHA-022121 (30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. High dose / High dose / Placebo\n2. High dose / Placebo / High dose\n3. Placebo / High dose / High dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo",
+              "description": "Part II: 2 single high doses of PHA-022121 (10, 20, or 30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. PHA-022121 dose / PHA-022121 dose / Placebo\n2. PHA-022121 dose / Placebo / PHA-022121 dose\n3. Placebo / PHA-022121 dose / PHA-022121 dose\n\nPart II efficacy data utilized for the analysis."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "20"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "51"
+                }
+              ]
+            },
+            {
+              "units": "Number of Treated Attacks",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "37"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "28"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "31"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "51"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Number of treated attacks",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "37"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "28"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "31"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "51"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Number of treated attacks requiring HAE rescue medication",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "37"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Proportion of Study Drug Treated Attacks Requiring HAE Rescue Medication Within 48 Hours",
+          "description": "Qualifying attacks treated with study drug may use approved rescue medication if no symptom relief within 4 hours has been experienced.",
+          "populationDescription": "Part I efficacy data not collected, consistent with and pre-specified in the study protocol. Includes all participants with evaluable data who completed the relevant assessment time point.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Attacks requiring HAE rescue medication",
+          "timeFrame": "Assessed at 48 hours post-study drug treatment",
+          "typeUnitsAnalyzed": "Number of Treated Attacks",
+          "denomUnitsSelected": "Number of Treated Attacks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PHA-022121 Low Dose - 10 mg",
+              "description": "Part II: 2 single low doses of PHA-022121 (10 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Low dose / Low dose / Placebo\n2. Low dose / Placebo / Low dose\n3. Placebo / Low dose / Low dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG001",
+              "title": "PHA-022121 Medium Dose - 20 mg",
+              "description": "Part II: 2 single medium doses of PHA-022121 (20 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Medium dose / Medium dose / Placebo\n2. Medium dose / Placebo / Medium dose\n3. Placebo / Medium dose / Medium dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG002",
+              "title": "PHA-022121 High Dose - 30 mg",
+              "description": "Part II: 2 single high doses of PHA-022121 (30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. High dose / High dose / Placebo\n2. High dose / Placebo / High dose\n3. Placebo / High dose / High dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo",
+              "description": "Part II: 2 single high doses of PHA-022121 (10, 20, or 30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. PHA-022121 dose / PHA-022121 dose / Placebo\n2. PHA-022121 dose / Placebo / PHA-022121 dose\n3. Placebo / PHA-022121 dose / PHA-022121 dose\n\nPart II efficacy data utilized for the analysis."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "20"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "51"
+                }
+              ]
+            },
+            {
+              "units": "Number of Treated Attacks",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "37"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "28"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "31"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "51"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Number of treated attacks",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "37"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "28"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "31"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "51"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Number of treated attacks requiring HAE rescue medication",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "37"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Treatment Satisfaction Questionnaire for Medication Scores at 48 Hours Post-treatment - Convenience Domain Score",
+          "description": "MMRM analysis of Treatment Satisfaction Questionnaire for Medication (TSQM) at 48 hours post-treatment. The 11-item TSQM (version II) evaluated participant treatment satisfaction with the medication for the following scales: effectiveness, side effects, convenience, and overall satisfaction Scale scores were transformed into scores ranging from 0 to 100 and could be used to calculate a total composite score, a higher score indicating greater satisfaction.",
+          "populationDescription": "Part I efficacy data not collected, consistent with and pre-specified in the study protocol. Includes all participants with evaluable data who completed the relevant assessment time point.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Score on a scale",
+          "timeFrame": "48 hours post-treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PHA-022121 Low Dose - 10 mg",
+              "description": "Part II: 2 single low doses of PHA-022121 (10 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Low dose / Low dose / Placebo\n2. Low dose / Placebo / Low dose\n3. Placebo / Low dose / Low dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG001",
+              "title": "PHA-022121 Medium Dose - 20 mg",
+              "description": "Part II: 2 single medium doses of PHA-022121 (20 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Medium dose / Medium dose / Placebo\n2. Medium dose / Placebo / Medium dose\n3. Placebo / Medium dose / Medium dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG002",
+              "title": "PHA-022121 High Dose - 30 mg",
+              "description": "Part II: 2 single high doses of PHA-022121 (30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. High dose / High dose / Placebo\n2. High dose / Placebo / High dose\n3. Placebo / High dose / High dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo",
+              "description": "Part II: 2 single high doses of PHA-022121 (10, 20, or 30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. PHA-022121 dose / PHA-022121 dose / Placebo\n2. PHA-022121 dose / Placebo / PHA-022121 dose\n3. Placebo / PHA-022121 dose / PHA-022121 dose\n\nPart II efficacy data utilized for the analysis."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "20"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "51"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "80.56",
+                      "spread": "16.569"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "83.08",
+                      "spread": "23.096"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "77.55",
+                      "spread": "20.229"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "76.07",
+                      "spread": "27.441"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Treatment Satisfaction Questionnaire for Medication Scores at 48 Hours Post-treatment - Satisfaction Domain Score",
+          "description": "MMRM analysis of Treatment Satisfaction Questionnaire for Medication (TSQM) at 48 hours post-treatment. The 11-item TSQM (version II) evaluated participant treatment satisfaction with the medication for the following scales: effectiveness, side effects, convenience, and overall satisfaction Scale scores were transformed into scores ranging from 0 to 100 and could be used to calculate a total composite score, a higher score indicating greater satisfaction.",
+          "populationDescription": "Part I efficacy data not collected, consistent with and pre-specified in the study protocol. Includes all participants with evaluable data who completed the relevant assessment time point.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Score on a scale",
+          "timeFrame": "48 hours post-treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PHA-022121 Low Dose - 10 mg",
+              "description": "Part II: 2 single low doses of PHA-022121 (10 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Low dose / Low dose / Placebo\n2. Low dose / Placebo / Low dose\n3. Placebo / Low dose / Low dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG001",
+              "title": "PHA-022121 Medium Dose - 20 mg",
+              "description": "Part II: 2 single medium doses of PHA-022121 (20 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Medium dose / Medium dose / Placebo\n2. Medium dose / Placebo / Medium dose\n3. Placebo / Medium dose / Medium dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG002",
+              "title": "PHA-022121 High Dose - 30 mg",
+              "description": "Part II: 2 single high doses of PHA-022121 (30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. High dose / High dose / Placebo\n2. High dose / Placebo / High dose\n3. Placebo / High dose / High dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo",
+              "description": "Part II: 2 single high doses of PHA-022121 (10, 20, or 30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. PHA-022121 dose / PHA-022121 dose / Placebo\n2. PHA-022121 dose / Placebo / PHA-022121 dose\n3. Placebo / PHA-022121 dose / PHA-022121 dose\n\nPart II efficacy data utilized for the analysis."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "20"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "51"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "82.50",
+                      "spread": "18.907"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "80.68",
+                      "spread": "29.702"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "76.74",
+                      "spread": "22.113"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "64.10",
+                      "spread": "24.623"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Time to Change in the VAS Score for Skin Swelling Score - 30% Reduction",
+          "description": "Time to change in the VAS score for Skin Swelling Score - 30% reduction within 48 hours post-treatment. VAS-3 scores range between 0 and 100. A larger reduction means a better outcome.",
+          "populationDescription": "Part I efficacy data not collected, consistent with and pre-specified in the study protocol. Includes all participants with evaluable data who completed the relevant assessment time point.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "Hours",
+          "timeFrame": "Within 48 hours post-treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PHA-022121 Low Dose - 10 mg",
+              "description": "Part II: 2 single low doses of PHA-022121 (10 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Low dose / Low dose / Placebo\n2. Low dose / Placebo / Low dose\n3. Placebo / Low dose / Low dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG001",
+              "title": "PHA-022121 Medium Dose - 20 mg",
+              "description": "Part II: 2 single medium doses of PHA-022121 (20 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Medium dose / Medium dose / Placebo\n2. Medium dose / Placebo / Medium dose\n3. Placebo / Medium dose / Medium dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG002",
+              "title": "PHA-022121 High Dose - 30 mg",
+              "description": "Part II: 2 single high doses of PHA-022121 (30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. High dose / High dose / Placebo\n2. High dose / Placebo / High dose\n3. Placebo / High dose / High dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo",
+              "description": "Part II: 2 single high doses of PHA-022121 (10, 20, or 30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. PHA-022121 dose / PHA-022121 dose / Placebo\n2. PHA-022121 dose / Placebo / PHA-022121 dose\n3. Placebo / PHA-022121 dose / PHA-022121 dose\n\nPart II efficacy data utilized for the analysis."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "17"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "12"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "18"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "40"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.5",
+                      "lowerLimit": "1.4",
+                      "upperLimit": "5.8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.5",
+                      "lowerLimit": "2.2",
+                      "upperLimit": "20.0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "3.8",
+                      "lowerLimit": "1.9",
+                      "upperLimit": "4.8"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "23.3",
+                      "lowerLimit": "3.9",
+                      "upperLimit": "NA",
+                      "comment": "Insufficient number of participants with events."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Time to Change in the VAS Score for Abdominal Pain Score - 30% Reduction",
+          "description": "Time to change in the VAS score for Abdominal Pain Score - 30% reduction within 48 hours post-treatment. VAS-3 scores range between 0 and 100. A larger reduction means a better outcome.",
+          "populationDescription": "Part I efficacy data not collected, consistent with and pre-specified in the study protocol. Includes all participants with evaluable data who completed the relevant assessment time point.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "Hours",
+          "timeFrame": "Within 48 hours post-treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PHA-022121 Low Dose - 10 mg",
+              "description": "Part II: 2 single low doses of PHA-022121 (10 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Low dose / Low dose / Placebo\n2. Low dose / Placebo / Low dose\n3. Placebo / Low dose / Low dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG001",
+              "title": "PHA-022121 Medium Dose - 20 mg",
+              "description": "Part II: 2 single medium doses of PHA-022121 (20 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Medium dose / Medium dose / Placebo\n2. Medium dose / Placebo / Medium dose\n3. Placebo / Medium dose / Medium dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG002",
+              "title": "PHA-022121 High Dose - 30 mg",
+              "description": "Part II: 2 single high doses of PHA-022121 (30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. High dose / High dose / Placebo\n2. High dose / Placebo / High dose\n3. Placebo / High dose / High dose\n\nPart II efficacy data utilized for the analysis."
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo",
+              "description": "Part II: 2 single high doses of PHA-022121 (10, 20, or 30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. PHA-022121 dose / PHA-022121 dose / Placebo\n2. PHA-022121 dose / Placebo / PHA-022121 dose\n3. Placebo / PHA-022121 dose / PHA-022121 dose\n\nPart II efficacy data utilized for the analysis."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "12"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "8"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "9"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "20"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.9",
+                      "lowerLimit": "1.1",
+                      "upperLimit": "2.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.4",
+                      "lowerLimit": "0.9",
+                      "upperLimit": "2.5"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "2.9",
+                      "lowerLimit": "1.9",
+                      "upperLimit": "7.5"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "20.0",
+                      "lowerLimit": "2.9",
+                      "upperLimit": "NA",
+                      "comment": "Insufficient number of participants with events."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "All AEs (including SAEs) recorded from the time of signing informed consent until the end-of-study visit. Timeframe for reporting adverse events: 5 days post-treatment.",
+      "description": "Adverse events are reported separately for Part I (non-attack) and Part II within the table below, as in Part I, study participants administered a single dose of study drug to assess PK and safety, and in Part II, study participants administered study drug to treat up to 3 qualified HAE attacks.\n\nFor Part II, total participants at risk and total number of attacks at risk are reported separately. Part II total participants at risk reflect randomized treatment assignments and pooled attacks.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Part I PHA-022121 Low Dose - 10 mg",
+          "description": "Part I: Single low dose of PHA-022121 (10 mg), non-attack state.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 23,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 23,
+          "otherNumAffected": 2,
+          "otherNumAtRisk": 23
+        },
+        {
+          "id": "EG001",
+          "title": "Part I PHA-022121 Medium Dose - 20 mg",
+          "description": "Part I: Single medium dose of PHA-022121 (20 mg), non-attack state.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 24,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 24,
+          "otherNumAffected": 2,
+          "otherNumAtRisk": 24
+        },
+        {
+          "id": "EG002",
+          "title": "Part I PHA-022121 High Dose - 30 mg",
+          "description": "Part I: Single high dose of PHA-022121 (30 mg), non-attack state.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 25,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 25,
+          "otherNumAffected": 4,
+          "otherNumAtRisk": 25
+        },
+        {
+          "id": "EG003",
+          "title": "Part II PHA-022121 Low Dose - 10 mg Study Drug Treated Attacks",
+          "description": "Part II: 2 single low doses of PHA-022121 (10 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Low dose / Low dose / Placebo\n2. Low dose / Placebo / Low dose\n3. Placebo / Low dose / Low dose\n\nNumber at risk reflects number of study drug treated attacks.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 38,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 38,
+          "otherNumAffected": 3,
+          "otherNumAtRisk": 38
+        },
+        {
+          "id": "EG004",
+          "title": "Part II PHA-022121 Medium Dose - 20 mg Study Drug Treated Attacks",
+          "description": "Part II: 2 single medium doses of PHA-022121 (20 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Medium dose / Medium dose / Placebo\n2. Medium dose / Placebo / Medium dose\n3. Placebo / Medium dose / Medium dose\n\nNumber at risk reflects number of study drug treated attacks.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 29,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 29,
+          "otherNumAffected": 1,
+          "otherNumAtRisk": 29
+        },
+        {
+          "id": "EG005",
+          "title": "Part II PHA-022121 High Dose - 30 mg Study Drug Treated Attacks",
+          "description": "Part II: 2 single high doses of PHA-022121 (30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. High dose / High dose / Placebo\n2. High dose / Placebo / High dose\n3. Placebo / High dose / High dose\n\nNumber at risk reflects number of study drug treated attacks.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 36,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 36,
+          "otherNumAffected": 2,
+          "otherNumAtRisk": 36
+        },
+        {
+          "id": "EG006",
+          "title": "Part II PHA-022121 Low Dose - 10 mg Participants",
+          "description": "Part II: 2 single low doses of PHA-022121 (10 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Low dose / Low dose / Placebo\n2. Low dose / Placebo / Low dose\n3. Placebo / Low dose / Low dose\n\nNumber at risk reflects number of participants at risk.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 21,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 21,
+          "otherNumAffected": 3,
+          "otherNumAtRisk": 21
+        },
+        {
+          "id": "EG007",
+          "title": "Part II PHA-022121 Medium Dose - 20 mg Participants",
+          "description": "Part II: 2 single medium doses of PHA-022121 (20 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. Medium dose / Medium dose / Placebo\n2. Medium dose / Placebo / Medium dose\n3. Placebo / Medium dose / Medium dose\n\nNumber at risk reflects number of participants at risk.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 16,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 16,
+          "otherNumAffected": 1,
+          "otherNumAtRisk": 16
+        },
+        {
+          "id": "EG008",
+          "title": "Part II PHA-022121 High Dose - 30 mg Participants",
+          "description": "Part II: 2 single high doses of PHA-022121 (30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. High dose / High dose / Placebo\n2. High dose / Placebo / High dose\n3. Placebo / High dose / High dose\n\nNumber at risk reflects number of participants at risk.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 22,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 22,
+          "otherNumAffected": 2,
+          "otherNumAtRisk": 22
+        },
+        {
+          "id": "EG009",
+          "title": "Part II Placebo",
+          "description": "Part II: 2 single high doses of PHA-022121 (10, 20, or 30 mg) and one single dose of placebo in a 3-way crossover design:\n\n1. PHA-022121 dose / PHA-022121 dose / Placebo\n2. PHA-022121 dose / Placebo / PHA-022121 dose\n3. Placebo / PHA-022121 dose / PHA-022121 dose",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 53,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 53,
+          "otherNumAffected": 4,
+          "otherNumAtRisk": 53
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Blood bilirubin increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (25.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 23
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 24
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG005",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 36
+            },
+            {
+              "groupId": "EG006",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG007",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG008",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG009",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 53
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (25.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 23
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 24
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG005",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 36
+            },
+            {
+              "groupId": "EG006",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG007",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG008",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG009",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 53
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (25.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 23
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 24
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG005",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 36
+            },
+            {
+              "groupId": "EG006",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG007",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG008",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG009",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 53
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (25.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 23
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 24
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG005",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 36
+            },
+            {
+              "groupId": "EG006",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG007",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG008",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG009",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 53
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (25.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 23
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 24
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG005",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 36
+            },
+            {
+              "groupId": "EG006",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG007",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG008",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG009",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 53
+            }
+          ]
+        },
+        {
+          "term": "Lower urinary tract symptoms",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "MedDRA (25.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 23
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 24
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG005",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 36
+            },
+            {
+              "groupId": "EG006",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG007",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG008",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG009",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 53
+            }
+          ]
+        },
+        {
+          "term": "Gastrointestinal infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (25.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 23
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 24
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG005",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 36
+            },
+            {
+              "groupId": "EG006",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG007",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG008",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG009",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 53
+            }
+          ]
+        },
+        {
+          "term": "Nasopharyngitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (25.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 23
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 24
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG005",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 36
+            },
+            {
+              "groupId": "EG006",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG007",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG008",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG009",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 53
+            }
+          ]
+        },
+        {
+          "term": "Dental caries",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (25.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 23
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 24
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG005",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 36
+            },
+            {
+              "groupId": "EG006",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG007",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG008",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG009",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 53
+            }
+          ]
+        },
+        {
+          "term": "Viral Infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (25.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 23
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 24
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG005",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 36
+            },
+            {
+              "groupId": "EG006",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG007",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG008",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG009",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 53
+            }
+          ]
+        },
+        {
+          "term": "Sinusitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (25.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 23
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 24
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG005",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 36
+            },
+            {
+              "groupId": "EG006",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG007",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG008",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG009",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 53
+            }
+          ]
+        },
+        {
+          "term": "Blister",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (25.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 23
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 24
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG005",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 36
+            },
+            {
+              "groupId": "EG006",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG007",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG008",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG009",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 53
+            }
+          ]
+        },
+        {
+          "term": "Mean cell hemoglobin decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (25.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 23
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 24
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG005",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 36
+            },
+            {
+              "groupId": "EG006",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG007",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG008",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG009",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 53
+            }
+          ]
+        },
+        {
+          "term": "Mean cell volume decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (25.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 23
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 24
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG005",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 36
+            },
+            {
+              "groupId": "EG006",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG007",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG008",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG009",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 53
+            }
+          ]
+        },
+        {
+          "term": "Arthralgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (25.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 23
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 24
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG005",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 36
+            },
+            {
+              "groupId": "EG006",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG007",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG008",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG009",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 53
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "Primary analysis is presented. For the endpoints \"Time to Onset of Symptom Relief by 30% Reduction in Visual Analogue Scale (VAS-3),\" \"Time to almost or complete symptom relief by VAS,\" \\& \"Time to 50% reduction in VAS-3,\" the within participant correlation was not accounted for in the Kaplan-Meier estimation of median time and corresponding 95% confidence interval.\n\nParticipant flow is reported according to randomized treatment cohort, efficacy \\& safety results are according to treatment group."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Pharvaris Clinical",
+        "organization": "Pharvaris Netherlands B.V.",
+        "email": "clinical@pharvaris.com",
+        "phone": "31 712036410"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2022-04-25",
+          "uploadDate": "2025-06-13T17:40",
+          "filename": "Prot_000.pdf",
+          "size": 1748242
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2022-10-19",
+          "uploadDate": "2025-06-13T17:41",
+          "filename": "SAP_001.pdf",
+          "size": 30632745
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-06",
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2025-07-01",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054179",
+          "term": "Angioedemas, Hereditary"
+        },
+        {
+          "id": "D056829",
+          "term": "Hereditary Angioedema Types I and II"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000799",
+          "term": "Angioedema"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D000081208",
+          "term": "Hereditary Complement Deficiency Diseases"
+        },
+        {
+          "id": "D000081207",
+          "term": "Primary Immunodeficiency Diseases"
+        },
+        {
+          "id": "D030342",
+          "term": "Genetic Diseases, Inborn"
+        },
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        },
+        {
+          "id": "D014581",
+          "term": "Urticaria"
+        },
+        {
+          "id": "D017445",
+          "term": "Skin Diseases, Vascular"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D006969",
+          "term": "Hypersensitivity, Immediate"
+        },
+        {
+          "id": "D006967",
+          "term": "Hypersensitivity"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        },
+        {
+          "id": "D007153",
+          "term": "Immunologic Deficiency Syndromes"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

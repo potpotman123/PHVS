@@ -1,0 +1,4955 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05047185",
+      "orgStudyIdInfo": {
+        "id": "PHA022121-C301"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2021-000227-13",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Pharvaris Netherlands B.V.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Dose-ranging Study of Oral PHA-022121 for Prophylaxis Against Angioedema Attacks in Patients With Hereditary Angioedema Type I or Type II",
+      "officialTitle": "A Phase II, Double-blind, Placebo-controlled, Randomized, Dose-ranging, Parallel Group Study to Evaluate the Safety and Efficacy of PHA-022121 Administered Orally for Prophylaxis Against Angioedema Attacks in Patients With Hereditary Angioedema Due to C1-Inhibitor Deficiency (Type I or Type II)",
+      "acronym": "HAE CHAPTER-1"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-08",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Sponsor decision. All remaining participants (21 total) were rolled over from Part 2 to study PHA022121-C307 (NCT06679881).",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-04-19",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-06-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-06-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-09-07",
+      "studyFirstSubmitQcDate": "2021-09-07",
+      "studyFirstPostDateStruct": {
+        "date": "2021-09-17",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2026-06-30",
+      "resultsFirstSubmitQcDate": "2026-08-12",
+      "resultsFirstPostDateStruct": {
+        "date": "2026-08-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-08-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-08-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Pharvaris Netherlands B.V.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study evaluates the safety and efficacy of PHA-022121 administered orally for prophylaxis against angioedema attacks in patients with hereditary angioedema (HAE). The study consists of 2 parts, with patients completing participation in Part 1 prior to initiation of treatment in Part 2. Part 1 of the study has 3 parallel arms and approximately 30 patients will be equally randomized to one of two dose regimens of PHA-022121 or matching placebo. Patients will continue to the single open-label arm in Part 2 of the study after completion of Part 1. The screening period is up to 8 weeks and the treatment periods are 12 weeks (Part 1) and 30 months (Part 2) in duration."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hereditary Angioedema",
+        "Hereditary Angioedema Type I",
+        "Hereditary Angioedema Type II",
+        "Hereditary Angioedema Types I and II",
+        "Hereditary Angioedema Attack",
+        "Hereditary Angioedema With C1 Esterase Inhibitor Deficiency",
+        "Hereditary Angioedema - Type 1",
+        "Hereditary Angioedema - Type 2",
+        "C1 Esterase Inhibitor Deficiency",
+        "C1 Inhibitor Deficiency"
+      ],
+      "keywords": [
+        "HAE",
+        "HAE Type I",
+        "HAE Type II",
+        "Oral Treatment",
+        "Bradykinin B2 Receptor Antagonist",
+        "PHVS416",
+        "PHA121",
+        "Prophylaxis",
+        "Deucrictibant"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 34,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Part 1: Low dose",
+          "type": "EXPERIMENTAL",
+          "description": "BID low dose of deucrictibant",
+          "interventionNames": [
+            "Drug: Deucrictibant low dose"
+          ]
+        },
+        {
+          "label": "Part 1: High dose",
+          "type": "EXPERIMENTAL",
+          "description": "BID high dose of deucrictibant",
+          "interventionNames": [
+            "Drug: Deucrictibant high dose"
+          ]
+        },
+        {
+          "label": "Part 1: Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "BID placebo",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "Part 2: Open-label",
+          "type": "EXPERIMENTAL",
+          "description": "BID high dose of deucrictibant",
+          "interventionNames": [
+            "Drug: Deucrictibant high dose"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Deucrictibant low dose",
+          "description": "Deucrictibant softgel capsules for oral use (PHVS416)",
+          "armGroupLabels": [
+            "Part 1: Low dose"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Deucrictibant high dose",
+          "description": "Deucrictibant softgel capsules for oral use (PHVS416)",
+          "armGroupLabels": [
+            "Part 1: High dose",
+            "Part 2: Open-label"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Matching placebo capsules for oral use",
+          "armGroupLabels": [
+            "Part 1: Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Investigator-confirmed Hereditary Angioedema (HAE) Attacks (Expressed as the Normalized Number of Attacks Per Month [4 Weeks] of Exposure) During the Treatment Period in Part 1",
+          "description": "HAE attack was defined as signs or symptoms in \u22651 location: peripheral angioedema (cutaneous swelling involving an extremity, face, neck, torso, and/or genitourinary region), abdominal angioedema (abdominal pain with or without abdominal distension, nausea, vomiting, or diarrhea), or upper airway angioedema (lump sensation, difficulty swallowing, throat tightening, difficulty speaking, hoarseness, stridor, dyspnea, or swelling of tongue, palate, uvula, or larynx). A new attack was counted if symptoms occurred \u226524 hours after complete resolution of a prior attack. Attacks were recorded via daily electronic patient-reported outcome (ePRO) diaries and confirmed by the investigator. Monthly attack rate was calculated as number of attacks during treatment divided by treatment days, multiplied by 28. Mean rate ratio, confidence interval (CI), and p-value were estimated using a generalized linear model with Poisson distribution, with baseline attack rate included as a factor.",
+          "timeFrame": "Up to Day 84"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of Investigator-confirmed Moderate or Severe HAE Attacks During the Treatment Period in Part 1",
+          "description": "HAE attack was defined as signs or symptoms in \u22651 location: peripheral angioedema (cutaneous swelling involving an extremity, face, neck, torso, and/or genitourinary region), abdominal angioedema (abdominal pain with or without abdominal distension, nausea, vomiting, or diarrhea), or upper airway angioedema (lump sensation, difficulty swallowing, throat tightening, difficulty speaking, hoarseness, stridor, dyspnea, or swelling of tongue, palate, uvula, or larynx). A new attack was counted if symptoms occurred \u226524 hours after complete resolution of a prior attack. Attacks were recorded via daily ePRO diaries and confirmed by the investigator. Monthly attack rate was calculated as number of attacks during treatment divided by treatment days\u00d728. Moderate HAE attack defined as which limits/interferes with the participant's ability to attend work/school or participate in family life and social/recreational activities whereas Severe HAE attack significantly limits the participant's ability.",
+          "timeFrame": "Up to Day 84"
+        },
+        {
+          "measure": "Number of Investigator-confirmed HAE Attacks Requiring Acute Treatment During the Treatment Period in Part 1",
+          "description": "HAE attack was defined as signs or symptoms in \u22651 location: peripheral angioedema (cutaneous swelling involving an extremity, face, neck, torso, and/or genitourinary region), abdominal angioedema (abdominal pain with or without abdominal distension, nausea, vomiting, or diarrhea), or upper airway angioedema (lump sensation, difficulty swallowing, throat tightening, difficulty speaking, hoarseness, stridor, dyspnea, or swelling of tongue, palate, uvula, or larynx). A new attack was counted if symptoms occurred \u226524 hours after complete resolution of a prior attack. Attacks were recorded via daily ePRO diaries and confirmed by the investigator. Monthly attack rate was calculated as number of attacks during treatment divided by treatment days, multiplied by 28.",
+          "timeFrame": "Up to Day 84"
+        },
+        {
+          "measure": "Number of Participants Achieving \u226550%, \u226570% and \u226590% Reduction in Attack Rate Relative to Baseline During the Treatment Period in Part 1",
+          "description": "Baseline attack rate was defined as each participant's normalized HAE attack rate (attacks per 4 weeks) prior to randomization, based on documented history or confirmed during screening. Monthly attack rate was calculated as number of attacks during treatment divided by treatment days, multiplied by 28. Percent reduction from baseline was calculated for each participant by comparing the normalized treatment-period attack rate to the baseline attack rate. Participants were classified as responders if they achieved \u226550%, \u226570%, or \u226590% reduction in attack rate relative to baseline during Part 1.",
+          "timeFrame": "Up to Day 84"
+        },
+        {
+          "measure": "Number of Participants Who Were Investigator-confirmed Attack-free During the Treatment Period in Part 1",
+          "description": "HAE attack was defined as signs or symptoms in \u22651 location: peripheral angioedema (cutaneous swelling involving an extremity, face, neck, torso, and/or genitourinary region), abdominal angioedema (abdominal pain with or without abdominal distension, nausea, vomiting, or diarrhea), or upper airway angioedema (lump sensation, difficulty swallowing, throat tightening, difficulty speaking, hoarseness, stridor, dyspnea, or swelling of tongue, palate, uvula, or larynx). A new attack was counted if symptoms occurred \u226524 hours after complete resolution of a prior attack. Attacks were recorded via daily ePRO diaries and confirmed by the investigator. Participants reporting no confirmed attacks over the treatment period were considered attack-free.",
+          "timeFrame": "Up to Day 84"
+        },
+        {
+          "measure": "Number of Days With Investigator-confirmed HAE Symptoms During the Treatment Period in Part 1",
+          "description": "HAE attack was defined as signs or symptoms in \u22651 location: peripheral angioedema (cutaneous swelling involving an extremity, face, neck, torso, and/or genitourinary region), abdominal angioedema (abdominal pain with or without abdominal distension, nausea, vomiting, or diarrhea), or upper airway angioedema (lump sensation, difficulty swallowing, throat tightening, difficulty speaking, hoarseness, stridor, dyspnea, or swelling of tongue, palate, uvula, or larynx). HAE symptom days were identified from daily participant entries in the ePRO diary and were confirmed by the investigator.",
+          "timeFrame": "Up to Day 84"
+        },
+        {
+          "measure": "Proportion of Days With Investigator-confirmed HAE Symptoms During the Treatment Period in Part 1",
+          "description": "HAE attack was defined as signs or symptoms in \u22651 location: peripheral angioedema (cutaneous swelling involving an extremity, face, neck, torso, and/or genitourinary region), abdominal angioedema (abdominal pain with or without abdominal distension, nausea, vomiting, or diarrhea), or upper airway angioedema (lump sensation, difficulty swallowing, throat tightening, difficulty speaking, hoarseness, stridor, dyspnea, or swelling of tongue, palate, uvula, or larynx). HAE symptom days were identified from daily participant entries in the ePRO diary and were confirmed by the investigator.",
+          "timeFrame": "Up to Day 84"
+        },
+        {
+          "measure": "Time to First Investigator-confirmed HAE Attack in the Treatment Period in Part 1",
+          "description": "Time to first investigator-confirmed HAE attack was defined as days from date of first administration of study drug until the onset date of first Investigator-confirmed HAE attack. Participants without an Investigator-confirmed HAE attack during the treatment period in Part 1 were censored at the date of the last dose of study drug +1 in Part 1 or last day of the study, whichever came sooner.",
+          "timeFrame": "Up to Day 84"
+        },
+        {
+          "measure": "Number of Investigator-confirmed HAE Attacks Resulting in a Visit to the Emergency Department or an Admission to Hospital During the Treatment Period in Part 1",
+          "description": "HAE attack was defined as signs or symptoms in \u22651 location: peripheral angioedema (cutaneous swelling involving an extremity, face, neck, torso, and/or genitourinary region), abdominal angioedema (abdominal pain with or without abdominal distension, nausea, vomiting, or diarrhea), or upper airway angioedema (lump sensation, difficulty swallowing, throat tightening, difficulty speaking, hoarseness, stridor, dyspnea, or swelling of tongue, palate, uvula, or larynx). A new attack was counted if symptoms occurred \u226524 hours after complete resolution of a prior attack. Attacks were recorded via daily ePRO diaries and confirmed by the investigator. Monthly attack rate was calculated as number of attacks during treatment divided by treatment days, multiplied by 28. Only Investigator-confirmed attacks resulting in emergency department visits or hospital admissions were included.",
+          "timeFrame": "Up to Day 84"
+        },
+        {
+          "measure": "Number of Investigator-confirmed HAE Attacks During the Treatment Period in Part 2",
+          "description": "HAE attack was defined as signs or symptoms in \u22651 location: peripheral angioedema (cutaneous swelling involving an extremity, face, neck, torso, and/or genitourinary region), abdominal angioedema (abdominal pain with or without abdominal distension, nausea, vomiting, or diarrhea), or upper airway angioedema (lump sensation, difficulty swallowing, throat tightening, difficulty speaking, hoarseness, stridor, dyspnea, or swelling of tongue, palate, uvula, or larynx). A new attack was counted if symptoms occurred \u226524 hours after complete resolution of a prior attack. Attacks were recorded via daily ePRO diaries and confirmed by the investigator. Monthly attack rate was calculated as number of attacks during treatment divided by treatment days, multiplied by 28. An attack will be counted as in Part 2 if it occurs after the first IMP administration in Part 2 and within 24 hours after last IMP administration in Part 2.",
+          "timeFrame": "Day 84 to Day 938"
+        },
+        {
+          "measure": "Number of Investigator-confirmed Moderate or Severe HAE Attacks During the Treatment Period in Part 2",
+          "description": "HAE attack was defined as signs or symptoms in \u22651 location: peripheral angioedema (cutaneous swelling involving an extremity, face, neck, torso, and/or genitourinary region), abdominal angioedema (abdominal pain with or without abdominal distension, nausea, vomiting, or diarrhea), or upper airway angioedema (lump sensation, difficulty swallowing, throat tightening, difficulty speaking, hoarseness, stridor, dyspnea, or swelling of tongue, palate, uvula, or larynx). Attacks were recorded via daily ePRO diaries and confirmed by the investigator. Monthly attack rate was calculated as number of attacks during treatment divided by treatment days\u00d728. Moderate HAE attack defined as which limits/interferes with the participant's ability to attend work/school or participate in family life and social/recreational activities whereas Severe HAE attack significantly limits the participant's ability. LSM and SE were estimated using a generalized linear model with Poisson distribution.",
+          "timeFrame": "Day 84 to Day 938"
+        },
+        {
+          "measure": "Number of Investigator-confirmed HAE Attacks Requiring Acute Treatment During the Treatment Period in Part 2",
+          "description": "HAE attack was defined as signs or symptoms in \u22651 location: peripheral angioedema (cutaneous swelling involving an extremity, face, neck, torso, and/or genitourinary region), abdominal angioedema (abdominal pain with or without abdominal distension, nausea, vomiting, or diarrhea), or upper airway angioedema (lump sensation, difficulty swallowing, throat tightening, difficulty speaking, hoarseness, stridor, dyspnea, or swelling of tongue, palate, uvula, or larynx). A new attack was counted if symptoms occurred \u226524 hours after complete resolution of a prior attack. Attacks were recorded via daily ePRO diaries and confirmed by the investigator. Monthly attack rate was calculated as number of attacks during treatment divided by treatment days, multiplied by 28. LSM and SE were estimated using a generalized linear model with Poisson distribution.",
+          "timeFrame": "Day 84 to Day 938"
+        },
+        {
+          "measure": "Number of Days With Investigator-confirmed HAE Symptoms During the Treatment Period in Part 2",
+          "description": "HAE attack was defined as signs or symptoms in \u22651 location: peripheral angioedema (cutaneous swelling involving an extremity, face, neck, torso, and/or genitourinary region), abdominal angioedema (abdominal pain with or without abdominal distension, nausea, vomiting, or diarrhea), or upper airway angioedema (lump sensation, difficulty swallowing, throat tightening, difficulty speaking, hoarseness, stridor, dyspnea, or swelling of tongue, palate, uvula, or larynx). HAE symptom days were identified from daily participant entries in the ePRO diary and were confirmed by the investigator.",
+          "timeFrame": "Day 84 to Day 938"
+        },
+        {
+          "measure": "Proportion of Days With Investigator-confirmed HAE Symptoms During the Treatment Period in Part 2",
+          "description": "HAE attack was defined as signs or symptoms in \u22651 location: peripheral angioedema (cutaneous swelling involving an extremity, face, neck, torso, and/or genitourinary region), abdominal angioedema (abdominal pain with or without abdominal distension, nausea, vomiting, or diarrhea), or upper airway angioedema (lump sensation, difficulty swallowing, throat tightening, difficulty speaking, hoarseness, stridor, dyspnea, or swelling of tongue, palate, uvula, or larynx). HAE symptom days were identified from daily participant entries in the ePRO diary and were confirmed by the investigator.",
+          "timeFrame": "Day 84 to Day 938"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Signed and dated informed consent form\n* Diagnosis of HAE type I or II\n* Documented history of at least 3 HAE attacks within the last 3 consecutive months prior to screening, or a minimum of 2 HAE attacks during the screening period\n* Reliable access and experience to use standard of care acute attack medications\n\nExclusion Criteria:\n\n* Pregnancy or breast-feeding\n* Clinically significant abnormal electrocardiogram\n* Any other systemic disease or significant disease or disorder that would interfere with the patient's safety or ability to participate in the study\n* Use of C1-esterase inhibitor, oral kallikrein inhibitors, attenuated androgens, anti-fibrinolytics, or monoclonal HAE therapy within a defined period prior to enrolment\n* Abnormal hepatic function\n* Abnormal renal function\n* History of alcohol or drug abuse within defined period, or current evidence of substance dependence or abuse\n* Participation in any other investigational drug study within defined period",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Marc Riedl, MD",
+          "affiliation": "UC San Diego, La Jolla, California, United States",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Emel Ayg\u00f6ren-P\u00fcrs\u00fcn, MD",
+          "affiliation": "University Hospital Frankfurt - Goethe University, Frankfurt, Germany",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Study site",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35209",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Paradise Valley",
+          "state": "Arizona",
+          "zip": "85253",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.53115,
+            "lon": -111.94265
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63141",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Vienna",
+          "zip": "A-1090",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Sofia",
+          "zip": "1680",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.69751,
+            "lon": 23.32415
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Ottawa",
+          "state": "Ontario",
+          "zip": "K1H 1E4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.41117,
+            "lon": -75.69812
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H2W 1R7",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Berlin",
+          "zip": "10117",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Frankfurt",
+          "zip": "60323",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.68333,
+            "lon": 10.53333
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Dublin",
+          "zip": "D08NHY1",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 53.33306,
+            "lon": -6.24889
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Padua",
+          "state": "PD",
+          "zip": "35128",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.40797,
+            "lon": 11.88586
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Milan",
+          "zip": "20157",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.46427,
+            "lon": 9.18951
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Palermo",
+          "zip": "0146",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 38.1166,
+            "lon": 13.3636
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Krakow",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.06143,
+            "lon": 19.93658
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Brighton",
+          "state": "England",
+          "zip": "BN2 1ES",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 50.82838,
+            "lon": -0.13947
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Bristol",
+          "state": "England",
+          "zip": "BS10 5NB",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.45523,
+            "lon": -2.59665
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Cambridge",
+          "state": "England",
+          "zip": "CB2 0QQ",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 52.2,
+            "lon": 0.11667
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "London",
+          "state": "England",
+          "zip": "E1 1FR",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "Study site",
+          "city": "Southampton",
+          "state": "England",
+          "zip": "SO16 6YD",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 50.90395,
+            "lon": -1.40428
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "41865746",
+          "type": "DERIVED",
+          "citation": "Aygoren-Pursun E, Stobiecki M, Valerieva A, Cancian M, Gompels M, Grigoriadou S, Kiani-Alikhan S, Kinaciyan T, Yang WH, Anderson J, Arcoleo F, Chapdelaine H, Conlon N, Eren E, Guarino MD, Gurugama P, Magerl M, Manning ME, Tarzi MD, Wedner HJ, Zanichelli A, Crabbe R, Mulders S, Levy J, Zhu L, Knolle J, Lesage A, Lu P, Riedl MA. Oral deucrictibant for prophylaxis of hereditary angioedema attacks (CHAPTER-1): primary analysis of a randomised, double-blind, placebo-controlled, phase 2 trial. Lancet Haematol. 2026 Apr;13(4):e215-e226. doi: 10.1016/S2352-3026(26)00004-9. Epub 2026 Mar 19."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "Out of 30 completed participants from Part 1, 21 participants in Part 2 were rolled over to study PHA022121-C307 (NCT06679881).",
+      "recruitmentDetails": "A total of 34 participants were enrolled and randomized to receive placebo, deucrictibant 10 mg BID, or deucrictibant 20 mg BID in Part 1 (Double-blind Treatment Period). Participants who completed Part 1 were eligible to continue in Part 2 (Open-label Treatment Period) and were assigned to receive to receive deucrictibant 20 mg BID.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Part 1: Placebo",
+          "description": "Participants were randomized to receive two matched placebo soft capsules, twice a day (BID), orally for 12 weeks from Day 0 to 84."
+        },
+        {
+          "id": "FG001",
+          "title": "Part 1: Deucrictibant 10 mg BID",
+          "description": "Participants were randomized to receive one deucrictibant 10 mg soft capsule and one matched placebo soft capsule, BID, orally for 12 weeks from Day 0 to 84."
+        },
+        {
+          "id": "FG002",
+          "title": "Part 1: Deucrictibant 20 mg BID",
+          "description": "Participants were randomized to receive two deucrictibant 10 mg soft capsules, BID, orally for 12 weeks from Day 0 to 84."
+        },
+        {
+          "id": "FG003",
+          "title": "Part 2: Deucrictibant 20 mg BID",
+          "description": "Eligible participants who completed Part 1 entered Part 2 and were assigned to receive two deucrictibant 10 mg soft capsules, BID, orally for up to 30 months."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Part 1: Double-blind (Day 0 to 84)",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "11"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "11"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "12"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "9"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "11"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "10"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "Study Paused by Sponsor/FDA",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Part 2: Open-label (Day 84 to Day 938)",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "30"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "comment": "21 participants were rolled over from Part 2 to study PHA022121-C307 (NCT06679881)",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "30"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Pregnancy",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Study Terminated by Sponsor",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "Study Paused by Sponsor/FDA",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Rolled over from Part 2 to study PHA022121-C307 (NCT06679881)",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "21"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "Intent-to-Treat (ITT) Analysis Set comprised of all randomized participants who received at least one dose of the investigational medicinal product (IMP), deucrictibant or placebo.",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Placebo",
+          "description": "Participants were randomized to receive two matched placebo soft capsules, BID, orally."
+        },
+        {
+          "id": "BG001",
+          "title": "Deucrictibant 10 mg BID",
+          "description": "Participants were randomized to receive one deucrictibant 10 mg soft capsule and one matched placebo soft capsule, BID, orally."
+        },
+        {
+          "id": "BG002",
+          "title": "Deucrictibant 20 mg BID",
+          "description": "Participants were randomized to receive two deucrictibant 10 mg soft capsules, BID, orally."
+        },
+        {
+          "id": "BG003",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "11"
+            },
+            {
+              "groupId": "BG001",
+              "value": "11"
+            },
+            {
+              "groupId": "BG002",
+              "value": "12"
+            },
+            {
+              "groupId": "BG003",
+              "value": "34"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "41.4",
+                      "spread": "14.45"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "38.4",
+                      "spread": "17.24"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "40.8",
+                      "spread": "15.21"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "40.2",
+                      "spread": "15.24"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "21"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "13"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "33"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "34"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Number of Investigator-confirmed Hereditary Angioedema (HAE) Attacks (Expressed as the Normalized Number of Attacks Per Month [4 Weeks] of Exposure) During the Treatment Period in Part 1",
+          "description": "HAE attack was defined as signs or symptoms in \u22651 location: peripheral angioedema (cutaneous swelling involving an extremity, face, neck, torso, and/or genitourinary region), abdominal angioedema (abdominal pain with or without abdominal distension, nausea, vomiting, or diarrhea), or upper airway angioedema (lump sensation, difficulty swallowing, throat tightening, difficulty speaking, hoarseness, stridor, dyspnea, or swelling of tongue, palate, uvula, or larynx). A new attack was counted if symptoms occurred \u226524 hours after complete resolution of a prior attack. Attacks were recorded via daily electronic patient-reported outcome (ePRO) diaries and confirmed by the investigator. Monthly attack rate was calculated as number of attacks during treatment divided by treatment days, multiplied by 28. Mean rate ratio, confidence interval (CI), and p-value were estimated using a generalized linear model with Poisson distribution, with baseline attack rate included as a factor.",
+          "populationDescription": "ITT Analysis Set.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "attacks per month",
+          "timeFrame": "Up to Day 84",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo",
+              "description": "Participants were randomized to receive two matched placebo soft capsules, BID, orally for 12 weeks from Day 0 to 84."
+            },
+            {
+              "id": "OG001",
+              "title": "Deucrictibant 10 mg BID",
+              "description": "Participants were randomized to receive one deucrictibant 10 mg soft capsule and one matched placebo soft capsule, BID, orally for 12 weeks from Day 0 to 84."
+            },
+            {
+              "id": "OG002",
+              "title": "Deucrictibant 20 mg BID",
+              "description": "Participants were randomized to receive two deucrictibant 10 mg soft capsules, BID, orally for 12 weeks from Day 0 to 84."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "11"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "11"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "12"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.93",
+                      "spread": "0.391"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.40",
+                      "spread": "0.170"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0.30",
+                      "spread": "0.153"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.0010",
+              "statisticalMethod": "Poisson Regression Model",
+              "paramType": "Percent Reduction",
+              "paramValue": "79.24",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "47.23",
+              "ciUpperLimit": "91.83",
+              "estimateComment": "The percent reduction in attack rates as compared to placebo along with its 95% CI was calculated based on the estimated rate ratios as (1 minus mean rate ratio) multiplied by 100% for each of the deucrictibant dose group respectively."
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.0008",
+              "statisticalMethod": "Poisson Regression Model",
+              "paramType": "Percent Reduction",
+              "paramValue": "84.46",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "53.83",
+              "ciUpperLimit": "94.77",
+              "estimateComment": "The percent reduction in attack rates as compared to placebo along with its 95% CI was calculated based on the estimated rate ratios as (1 minus mean rate ratio) multiplied by 100% for each of the deucrictibant dose group respectively."
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Investigator-confirmed Moderate or Severe HAE Attacks During the Treatment Period in Part 1",
+          "description": "HAE attack was defined as signs or symptoms in \u22651 location: peripheral angioedema (cutaneous swelling involving an extremity, face, neck, torso, and/or genitourinary region), abdominal angioedema (abdominal pain with or without abdominal distension, nausea, vomiting, or diarrhea), or upper airway angioedema (lump sensation, difficulty swallowing, throat tightening, difficulty speaking, hoarseness, stridor, dyspnea, or swelling of tongue, palate, uvula, or larynx). A new attack was counted if symptoms occurred \u226524 hours after complete resolution of a prior attack. Attacks were recorded via daily ePRO diaries and confirmed by the investigator. Monthly attack rate was calculated as number of attacks during treatment divided by treatment days\u00d728. Moderate HAE attack defined as which limits/interferes with the participant's ability to attend work/school or participate in family life and social/recreational activities whereas Severe HAE attack significantly limits the participant's ability.",
+          "populationDescription": "ITT Analysis Set.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "attacks per month",
+          "timeFrame": "Up to Day 84",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo",
+              "description": "Participants were randomized to receive two matched placebo soft capsules, BID, orally for 12 weeks from Day 0 to 84."
+            },
+            {
+              "id": "OG001",
+              "title": "Deucrictibant 10 mg BID",
+              "description": "Participants were randomized to receive one deucrictibant 10 mg soft capsule and one matched placebo soft capsule, BID, orally for 12 weeks from Day 0 to 84."
+            },
+            {
+              "id": "OG002",
+              "title": "Deucrictibant 20 mg BID",
+              "description": "Participants were randomized to receive two deucrictibant 10 mg soft capsules, BID, orally for 12 weeks from Day 0 to 84."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "11"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "11"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "12"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.51",
+                      "spread": "0.394"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.26",
+                      "spread": "0.150"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0.12",
+                      "spread": "0.103"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Investigator-confirmed HAE Attacks Requiring Acute Treatment During the Treatment Period in Part 1",
+          "description": "HAE attack was defined as signs or symptoms in \u22651 location: peripheral angioedema (cutaneous swelling involving an extremity, face, neck, torso, and/or genitourinary region), abdominal angioedema (abdominal pain with or without abdominal distension, nausea, vomiting, or diarrhea), or upper airway angioedema (lump sensation, difficulty swallowing, throat tightening, difficulty speaking, hoarseness, stridor, dyspnea, or swelling of tongue, palate, uvula, or larynx). A new attack was counted if symptoms occurred \u226524 hours after complete resolution of a prior attack. Attacks were recorded via daily ePRO diaries and confirmed by the investigator. Monthly attack rate was calculated as number of attacks during treatment divided by treatment days, multiplied by 28.",
+          "populationDescription": "ITT Analysis Set.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "attacks per month",
+          "timeFrame": "Up to Day 84",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo",
+              "description": "Participants were randomized to receive two matched placebo soft capsules, BID, orally for 12 weeks from Day 0 to 84."
+            },
+            {
+              "id": "OG001",
+              "title": "Deucrictibant 10 mg BID",
+              "description": "Participants were randomized to receive one deucrictibant 10 mg soft capsule and one matched placebo soft capsule, BID, orally for 12 weeks from Day 0 to 84."
+            },
+            {
+              "id": "OG002",
+              "title": "Deucrictibant 20 mg BID",
+              "description": "Participants were randomized to receive two deucrictibant 10 mg soft capsules, BID, orally for 12 weeks from Day 0 to 84."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "11"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "11"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "12"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.40",
+                      "spread": "0.337"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.35",
+                      "spread": "0.159"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0.10",
+                      "spread": "0.089"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants Achieving \u226550%, \u226570% and \u226590% Reduction in Attack Rate Relative to Baseline During the Treatment Period in Part 1",
+          "description": "Baseline attack rate was defined as each participant's normalized HAE attack rate (attacks per 4 weeks) prior to randomization, based on documented history or confirmed during screening. Monthly attack rate was calculated as number of attacks during treatment divided by treatment days, multiplied by 28. Percent reduction from baseline was calculated for each participant by comparing the normalized treatment-period attack rate to the baseline attack rate. Participants were classified as responders if they achieved \u226550%, \u226570%, or \u226590% reduction in attack rate relative to baseline during Part 1.",
+          "populationDescription": "ITT Analysis Set. Only participants with at least 4 weeks of treatment were evaluated.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Up to Day 84",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo",
+              "description": "Participants were randomized to receive two matched placebo soft capsules, BID, orally for 12 weeks from Day 0 to 84."
+            },
+            {
+              "id": "OG001",
+              "title": "Deucrictibant 10 mg BID",
+              "description": "Participants were randomized to receive one deucrictibant 10 mg soft capsule and one matched placebo soft capsule, BID, orally for 12 weeks from Day 0 to 84."
+            },
+            {
+              "id": "OG002",
+              "title": "Deucrictibant 20 mg BID",
+              "description": "Participants were randomized to receive two deucrictibant 10 mg soft capsules, BID, orally for 12 weeks from Day 0 to 84."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "11"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "11"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "\u226550% reduction",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "\u226570% reduction",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "\u226590% reduction",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants Who Were Investigator-confirmed Attack-free During the Treatment Period in Part 1",
+          "description": "HAE attack was defined as signs or symptoms in \u22651 location: peripheral angioedema (cutaneous swelling involving an extremity, face, neck, torso, and/or genitourinary region), abdominal angioedema (abdominal pain with or without abdominal distension, nausea, vomiting, or diarrhea), or upper airway angioedema (lump sensation, difficulty swallowing, throat tightening, difficulty speaking, hoarseness, stridor, dyspnea, or swelling of tongue, palate, uvula, or larynx). A new attack was counted if symptoms occurred \u226524 hours after complete resolution of a prior attack. Attacks were recorded via daily ePRO diaries and confirmed by the investigator. Participants reporting no confirmed attacks over the treatment period were considered attack-free.",
+          "populationDescription": "ITT Analysis Set. Only participants with at least 4 weeks of treatment were evaluated.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Up to Day 84",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo",
+              "description": "Participants were randomized to receive two matched placebo soft capsules, BID, orally for 12 weeks from Day 0 to 84."
+            },
+            {
+              "id": "OG001",
+              "title": "Deucrictibant 10 mg BID",
+              "description": "Participants were randomized to receive one deucrictibant 10 mg soft capsule and one matched placebo soft capsule, BID, orally for 12 weeks from Day 0 to 84."
+            },
+            {
+              "id": "OG002",
+              "title": "Deucrictibant 20 mg BID",
+              "description": "Participants were randomized to receive two deucrictibant 10 mg soft capsules, BID, orally for 12 weeks from Day 0 to 84."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "11"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "11"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Days With Investigator-confirmed HAE Symptoms During the Treatment Period in Part 1",
+          "description": "HAE attack was defined as signs or symptoms in \u22651 location: peripheral angioedema (cutaneous swelling involving an extremity, face, neck, torso, and/or genitourinary region), abdominal angioedema (abdominal pain with or without abdominal distension, nausea, vomiting, or diarrhea), or upper airway angioedema (lump sensation, difficulty swallowing, throat tightening, difficulty speaking, hoarseness, stridor, dyspnea, or swelling of tongue, palate, uvula, or larynx). HAE symptom days were identified from daily participant entries in the ePRO diary and were confirmed by the investigator.",
+          "populationDescription": "ITT Analysis Set. Only participants with at least 4 weeks of treatment were evaluated.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "days",
+          "timeFrame": "Up to Day 84",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo",
+              "description": "Participants were randomized to receive two matched placebo soft capsules, BID, orally for 12 weeks from Day 0 to 84."
+            },
+            {
+              "id": "OG001",
+              "title": "Deucrictibant 10 mg BID",
+              "description": "Participants were randomized to receive one deucrictibant 10 mg soft capsule and one matched placebo soft capsule, BID, orally for 12 weeks from Day 0 to 84."
+            },
+            {
+              "id": "OG002",
+              "title": "Deucrictibant 20 mg BID",
+              "description": "Participants were randomized to receive two deucrictibant 10 mg soft capsules, BID, orally for 12 weeks from Day 0 to 84."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "11"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "11"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "13.6",
+                      "spread": "9.69"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.8",
+                      "spread": "7.73"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1.8",
+                      "spread": "2.25"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Proportion of Days With Investigator-confirmed HAE Symptoms During the Treatment Period in Part 1",
+          "description": "HAE attack was defined as signs or symptoms in \u22651 location: peripheral angioedema (cutaneous swelling involving an extremity, face, neck, torso, and/or genitourinary region), abdominal angioedema (abdominal pain with or without abdominal distension, nausea, vomiting, or diarrhea), or upper airway angioedema (lump sensation, difficulty swallowing, throat tightening, difficulty speaking, hoarseness, stridor, dyspnea, or swelling of tongue, palate, uvula, or larynx). HAE symptom days were identified from daily participant entries in the ePRO diary and were confirmed by the investigator.",
+          "populationDescription": "ITT Analysis Set. Only participants with at least 4 weeks of treatment were evaluated.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "proportion of days",
+          "timeFrame": "Up to Day 84",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo",
+              "description": "Participants were randomized to receive two matched placebo soft capsules, BID, orally for 12 weeks from Day 0 to 84."
+            },
+            {
+              "id": "OG001",
+              "title": "Deucrictibant 10 mg BID",
+              "description": "Participants were randomized to receive one deucrictibant 10 mg soft capsule and one matched placebo soft capsule, BID, orally for 12 weeks from Day 0 to 84."
+            },
+            {
+              "id": "OG002",
+              "title": "Deucrictibant 20 mg BID",
+              "description": "Participants were randomized to receive two deucrictibant 10 mg soft capsules, BID, orally for 12 weeks from Day 0 to 84."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "11"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "11"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.163",
+                      "spread": "0.1140"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.044",
+                      "spread": "0.0892"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0.021",
+                      "spread": "0.0261"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Time to First Investigator-confirmed HAE Attack in the Treatment Period in Part 1",
+          "description": "Time to first investigator-confirmed HAE attack was defined as days from date of first administration of study drug until the onset date of first Investigator-confirmed HAE attack. Participants without an Investigator-confirmed HAE attack during the treatment period in Part 1 were censored at the date of the last dose of study drug +1 in Part 1 or last day of the study, whichever came sooner.",
+          "populationDescription": "ITT Analysis Set.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "days",
+          "timeFrame": "Up to Day 84",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo",
+              "description": "Participants were randomized to receive two matched placebo soft capsules, BID, orally for 12 weeks from Day 0 to 84."
+            },
+            {
+              "id": "OG001",
+              "title": "Deucrictibant 10 mg BID",
+              "description": "Participants were randomized to receive one deucrictibant 10 mg soft capsule and one matched placebo soft capsule, BID, orally for 12 weeks from Day 0 to 84."
+            },
+            {
+              "id": "OG002",
+              "title": "Deucrictibant 20 mg BID",
+              "description": "Participants were randomized to receive two deucrictibant 10 mg soft capsules, BID, orally for 12 weeks from Day 0 to 84."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "11"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "11"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "12"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9.0",
+                      "lowerLimit": "5.00",
+                      "upperLimit": "26.00"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "NA",
+                      "lowerLimit": "19.00",
+                      "upperLimit": "NA",
+                      "comment": "The median time and upper limit of the 95% confidence interval data were not estimable due to insufficient number of participants with attacks."
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "86.0",
+                      "lowerLimit": "13.00",
+                      "upperLimit": "NA",
+                      "comment": "The median time and upper limit of the 95% confidence interval data were not estimable due to insufficient number of participants with attacks."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Investigator-confirmed HAE Attacks Resulting in a Visit to the Emergency Department or an Admission to Hospital During the Treatment Period in Part 1",
+          "description": "HAE attack was defined as signs or symptoms in \u22651 location: peripheral angioedema (cutaneous swelling involving an extremity, face, neck, torso, and/or genitourinary region), abdominal angioedema (abdominal pain with or without abdominal distension, nausea, vomiting, or diarrhea), or upper airway angioedema (lump sensation, difficulty swallowing, throat tightening, difficulty speaking, hoarseness, stridor, dyspnea, or swelling of tongue, palate, uvula, or larynx). A new attack was counted if symptoms occurred \u226524 hours after complete resolution of a prior attack. Attacks were recorded via daily ePRO diaries and confirmed by the investigator. Monthly attack rate was calculated as number of attacks during treatment divided by treatment days, multiplied by 28. Only Investigator-confirmed attacks resulting in emergency department visits or hospital admissions were included.",
+          "populationDescription": "ITT Analysis Set.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "attacks per month",
+          "timeFrame": "Up to Day 84",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo",
+              "description": "Participants were randomized to receive two matched placebo soft capsules, BID, orally for 12 weeks from Day 0 to 84."
+            },
+            {
+              "id": "OG001",
+              "title": "Deucrictibant 10 mg BID",
+              "description": "Participants were randomized to receive one deucrictibant 10 mg soft capsule and one matched placebo soft capsule, BID, orally for 12 weeks from Day 0 to 84."
+            },
+            {
+              "id": "OG002",
+              "title": "Deucrictibant 20 mg BID",
+              "description": "Participants were randomized to receive two deucrictibant 10 mg soft capsules, BID, orally for 12 weeks from Day 0 to 84."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "11"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "11"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "12"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0",
+                      "spread": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0",
+                      "spread": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0",
+                      "spread": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Investigator-confirmed HAE Attacks During the Treatment Period in Part 2",
+          "description": "HAE attack was defined as signs or symptoms in \u22651 location: peripheral angioedema (cutaneous swelling involving an extremity, face, neck, torso, and/or genitourinary region), abdominal angioedema (abdominal pain with or without abdominal distension, nausea, vomiting, or diarrhea), or upper airway angioedema (lump sensation, difficulty swallowing, throat tightening, difficulty speaking, hoarseness, stridor, dyspnea, or swelling of tongue, palate, uvula, or larynx). A new attack was counted if symptoms occurred \u226524 hours after complete resolution of a prior attack. Attacks were recorded via daily ePRO diaries and confirmed by the investigator. Monthly attack rate was calculated as number of attacks during treatment divided by treatment days, multiplied by 28. An attack will be counted as in Part 2 if it occurs after the first IMP administration in Part 2 and within 24 hours after last IMP administration in Part 2.",
+          "populationDescription": "ITT Analysis Set.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "attacks per month",
+          "timeFrame": "Day 84 to Day 938",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Deucrictibant 20 mg BID",
+              "description": "Eligible participants who completed Part 1 entered Part 2 and were assigned to receive two deucrictibant 10 mg soft capsules, BID, orally for up to 30 months."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "30"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.12",
+                      "spread": "0.224"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Investigator-confirmed Moderate or Severe HAE Attacks During the Treatment Period in Part 2",
+          "description": "HAE attack was defined as signs or symptoms in \u22651 location: peripheral angioedema (cutaneous swelling involving an extremity, face, neck, torso, and/or genitourinary region), abdominal angioedema (abdominal pain with or without abdominal distension, nausea, vomiting, or diarrhea), or upper airway angioedema (lump sensation, difficulty swallowing, throat tightening, difficulty speaking, hoarseness, stridor, dyspnea, or swelling of tongue, palate, uvula, or larynx). Attacks were recorded via daily ePRO diaries and confirmed by the investigator. Monthly attack rate was calculated as number of attacks during treatment divided by treatment days\u00d728. Moderate HAE attack defined as which limits/interferes with the participant's ability to attend work/school or participate in family life and social/recreational activities whereas Severe HAE attack significantly limits the participant's ability. LSM and SE were estimated using a generalized linear model with Poisson distribution.",
+          "populationDescription": "ITT Analysis Set.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "attacks per month",
+          "timeFrame": "Day 84 to Day 938",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Deucrictibant 20 mg BID",
+              "description": "Eligible participants who completed Part 1 entered Part 2 and were assigned to receive two deucrictibant 10 mg soft capsules, BID, orally for up to 30 months."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "30"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.06",
+                      "spread": "0.024"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Investigator-confirmed HAE Attacks Requiring Acute Treatment During the Treatment Period in Part 2",
+          "description": "HAE attack was defined as signs or symptoms in \u22651 location: peripheral angioedema (cutaneous swelling involving an extremity, face, neck, torso, and/or genitourinary region), abdominal angioedema (abdominal pain with or without abdominal distension, nausea, vomiting, or diarrhea), or upper airway angioedema (lump sensation, difficulty swallowing, throat tightening, difficulty speaking, hoarseness, stridor, dyspnea, or swelling of tongue, palate, uvula, or larynx). A new attack was counted if symptoms occurred \u226524 hours after complete resolution of a prior attack. Attacks were recorded via daily ePRO diaries and confirmed by the investigator. Monthly attack rate was calculated as number of attacks during treatment divided by treatment days, multiplied by 28. LSM and SE were estimated using a generalized linear model with Poisson distribution.",
+          "populationDescription": "ITT Analysis Set.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "attacks per month",
+          "timeFrame": "Day 84 to Day 938",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Deucrictibant 20 mg BID",
+              "description": "Eligible participants who completed Part 1 entered Part 2 and were assigned to receive two deucrictibant 10 mg soft capsules, BID, orally for up to 30 months."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "30"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.06",
+                      "spread": "0.021"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Days With Investigator-confirmed HAE Symptoms During the Treatment Period in Part 2",
+          "description": "HAE attack was defined as signs or symptoms in \u22651 location: peripheral angioedema (cutaneous swelling involving an extremity, face, neck, torso, and/or genitourinary region), abdominal angioedema (abdominal pain with or without abdominal distension, nausea, vomiting, or diarrhea), or upper airway angioedema (lump sensation, difficulty swallowing, throat tightening, difficulty speaking, hoarseness, stridor, dyspnea, or swelling of tongue, palate, uvula, or larynx). HAE symptom days were identified from daily participant entries in the ePRO diary and were confirmed by the investigator.",
+          "populationDescription": "ITT Analysis Set. Only participants with at least 4 weeks of treatment were evaluated.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "days",
+          "timeFrame": "Day 84 to Day 938",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Deucrictibant 20 mg BID",
+              "description": "Eligible participants who completed Part 1 entered Part 2 and were assigned to receive two deucrictibant 10 mg soft capsules, BID, orally for up to 30 months."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "29"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5.8",
+                      "spread": "12.05"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Proportion of Days With Investigator-confirmed HAE Symptoms During the Treatment Period in Part 2",
+          "description": "HAE attack was defined as signs or symptoms in \u22651 location: peripheral angioedema (cutaneous swelling involving an extremity, face, neck, torso, and/or genitourinary region), abdominal angioedema (abdominal pain with or without abdominal distension, nausea, vomiting, or diarrhea), or upper airway angioedema (lump sensation, difficulty swallowing, throat tightening, difficulty speaking, hoarseness, stridor, dyspnea, or swelling of tongue, palate, uvula, or larynx). HAE symptom days were identified from daily participant entries in the ePRO diary and were confirmed by the investigator.",
+          "populationDescription": "ITT Analysis Set. Only participants with at least 4 weeks of treatment were evaluated.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "proportion of days",
+          "timeFrame": "Day 84 to Day 938",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Deucrictibant 20 mg BID",
+              "description": "Eligible participants who completed Part 1 entered Part 2 and were assigned to receive two deucrictibant 10 mg soft capsules, BID, orally for up to 30 months."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "29"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.009",
+                      "spread": "0.0173"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "3",
+      "timeFrame": "Double-blind treatment period: Day 0 to 84 Open-label treatment period:Day 85 to Day 938",
+      "description": "Treatment emergent adverse events (TEAEs) and serious TEAEs were summarized for the Safety Analysis Set, which comprised of all randomized participants who received at least one dose of IMP, deucrictibant or placebo.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Part 1: Placebo",
+          "description": "Participants were randomized to receive two matched placebo soft capsules, BID, orally for 12 weeks from Day 0 to 84.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 11,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 11,
+          "otherNumAffected": 7,
+          "otherNumAtRisk": 11
+        },
+        {
+          "id": "EG001",
+          "title": "Part 1: Deucrictibant 10 mg BID",
+          "description": "Participants were randomized to receive one deucrictibant 10 mg soft capsule and one matched placebo soft capsule, BID, orally for 12 weeks from Day 0 to 84.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 11,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 11,
+          "otherNumAffected": 6,
+          "otherNumAtRisk": 11
+        },
+        {
+          "id": "EG002",
+          "title": "Part 1: Deucrictibant 20 mg BID",
+          "description": "Participants were randomized to receive two deucrictibant 10 mg soft capsules, BID, orally for 12 weeks from Day 0 to 84.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 12,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 12,
+          "otherNumAffected": 7,
+          "otherNumAtRisk": 12
+        },
+        {
+          "id": "EG003",
+          "title": "Part 2: Deucrictibant 20 mg BID",
+          "description": "Eligible participants who completed Part 1 entered Part 2 and were assigned to receive two deucrictibant 10 mg soft capsules, BID, orally for up to 30 months.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 30,
+          "seriousNumAffected": 2,
+          "seriousNumAtRisk": 30,
+          "otherNumAffected": 24,
+          "otherNumAtRisk": 30
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Tendon injury",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Arthritis",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Osteoarthritis",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Nasopharyngitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 12,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Urinary tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Gastrointestinal infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Viral pharyngitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Diarrhoea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Abdominal pain",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 4,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 4,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Toothache",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Abdominal pain upper",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Constipation",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Dyspepsia",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 3,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Gamma-glutamyltransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Blood alkaline phosphatase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Blood glucose increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Protein urine present",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Dysmenorrhoea",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Genital haemorrhage",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Heavy menstrual bleeding",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Vaginal discharge",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Menstruation irregular",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Chest pain",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Feeling cold",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Arthropod bite",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Ligament injury",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Ligament sprain",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Limb injury",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Muscle twitching",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Back pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Dizziness postural",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Hot flush",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Upper respiratory tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 5,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Lower respiratory tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Abdominal distension",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "COVID-19",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Furuncle",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Gastroenteritis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Gastroenteritis viral",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Gingivitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Herpes zoster",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Lyme disease",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Norovirus infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Otitis media",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Pneumonia",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Respiratory tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Sinusitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Tonsillitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Viral upper respiratory tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Vulvovaginal candidiasis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Abdominal pain lower",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Dental caries",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Gastrooesophageal reflux disease",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Tooth discolouration",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Carpal tunnel syndrome",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Intercostal neuralgia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Migraine",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Morton's neuralgia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Myelopathy",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Sciatica",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Pyrexia",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Surgical failure",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Joint injury",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Procedural pain",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Tooth fracture",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Alanine aminotransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Aspartate aminotransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Blood aldosterone increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Blood cholesterol increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Blood pressure diastolic increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Liver function test increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Knee deformity",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Myalgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Spinal osteoarthritis",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Dyslipidaemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Insulin resistance",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Type 2 diabetes mellitus",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Alopecia",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Rash",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Urticaria",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Microcytic anaemia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Palpitations",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Ear pain",
+          "organSystem": "Ear and labyrinth disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Hepatic steatosis",
+          "organSystem": "Hepatobiliary disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Metabolic dysfunction-associated liver disease",
+          "organSystem": "Hepatobiliary disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Allergy to arthropod sting",
+          "organSystem": "Immune system disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Hypertension",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA (28.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 11
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 12
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": true
+      },
+      "pointOfContact": {
+        "title": "Pharvaris Netherlands B.V. - Pharvaris clinical",
+        "organization": "Pharvaris Netherlands B.V.",
+        "email": "clinical@pharvaris.com",
+        "phone": "+31712036410"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2023-05-03",
+          "uploadDate": "2026-06-30T10:59",
+          "filename": "Prot_000.pdf",
+          "size": 1327259
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan: Part 1 Data SAP",
+          "date": "2023-10-30",
+          "uploadDate": "2026-06-30T11:01",
+          "filename": "SAP_001.pdf",
+          "size": 645620
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan: Final Analysis SAP",
+          "date": "2023-10-30",
+          "uploadDate": "2026-06-30T11:04",
+          "filename": "SAP_002.pdf",
+          "size": 586375
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-06",
+      "removedCountries": [
+        "Israel",
+        "Spain"
+      ],
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2026-07-29",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054179",
+          "term": "Angioedemas, Hereditary"
+        },
+        {
+          "id": "D056829",
+          "term": "Hereditary Angioedema Types I and II"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000799",
+          "term": "Angioedema"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D000081208",
+          "term": "Hereditary Complement Deficiency Diseases"
+        },
+        {
+          "id": "D000081207",
+          "term": "Primary Immunodeficiency Diseases"
+        },
+        {
+          "id": "D030342",
+          "term": "Genetic Diseases, Inborn"
+        },
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        },
+        {
+          "id": "D014581",
+          "term": "Urticaria"
+        },
+        {
+          "id": "D017445",
+          "term": "Skin Diseases, Vascular"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D006969",
+          "term": "Hypersensitivity, Immediate"
+        },
+        {
+          "id": "D006967",
+          "term": "Hypersensitivity"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        },
+        {
+          "id": "D007153",
+          "term": "Immunologic Deficiency Syndromes"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

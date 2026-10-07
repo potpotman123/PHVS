@@ -1,0 +1,733 @@
+ppt/slides/slide1.xml
+Pitched by: 
+2L Capital
+LONG
+ 
+Phathom 
+Pharmaceuticals
+(NASDAQ: PHAT)
+2025 HFAC x Citadel Stock Pitch Competition
+
+ppt/slides/slide2.xml
+Bear thesis is that 
+mgmt. is overly optimistic on Gastrointestinal (GI) runway due to poor conversion of PPI-refractory patients to PCABs from non-acid incidence
+PHAT has not traded up since sales strategy change
+This risk is overstated and offset by increased Rx adherence / refills
+Position
+:
+ 
+Long
+ 	
+Current
+ 
+Px
+:
+ 
+$
+14.67
+	
+PT
+:
+ 
+$19.42 (+32%
+ IRR
+)	
+Horizon:
+ 
+12mo
+	
+R/R
+:
+ 
+3.6x
+Source:
+ 
+Company
+ 
+filings	
+ 
+2
+Executive Summary
+Investment Theses
+Drivers and Variance
+GI-pivot has a 
+larger, near-term runway 
+that will drive higher top-line in the next 4Q’s as it ramps
+Sales force shift will be negligible to SG&A and 
+revenue delay will be at the low-end of 1-3Q guidance
+Why this opportunity exists
+Why now?
+PHAT is a derisked clinical asset with a criminally underappreciated strategy pivot
+Street doubts feasibility of cutting 
+OpEx
+ and meaningfully growing revenue
+Q4 scripts are expected to be flat amid worry that shift has pushed out commercial viability (salient given LOEs in biotech)
+We argue that 
+GI propensity for PCABs will drive durable cost/time-savings
+Investors over indexing on 
+unclear PPI-refractory penetration and sales force switching costs
+Wait-and-see sentiment amidst slow sales ramp
+ - PHAT needs to demonstrate uptake
+Market pessimism in biotech 
+depressing valuations
+Clear key debate - 
+will the recent pivot be profitable?
+Unproven & new mgmt. 
+with massive execution risks (debt)
+Muddied % retail scripts data 
+b/c of Medicare cash pay
+Q3 beat & raise; PHAT DID NOT trade up 
+due to low investor expectations for 4Q25 & 1Q26 top-line / Rx
+
+ppt/slides/slide3.xml
+3
+Company Overview
+Source:
+ 
+Company
+ 
+f
+ilings
+Operator of orphan drug Vonoprazan in the US, Europe, and Canada 
+Company Overview
+Owns the rights to distribute and commercialize 
+vonoprazan
+ (
+Voquezna
+, branded), a drug designed to treat stomach acid-related disorders; PHAT is predominantly a 1-drug company with a negligible pipeline in the near-term
+Rights licensed from Takeda in 2019 after successful launch of the drug in Japan
+Dual listings for chronic conditions (GERD/NERD) and contagious bacteria (H. Pylori) allow for 
+10-year exclusivity
+Close to having 
+net cash position, debt only comprises ~20% of EV
+, and company inflecting cash positive soon
+Why did Takeda Out-License?
+Management possibly expected 2028 patent expiry rather than current 2030+ leaving few years for exclusivity after testing, approval, and launch
+SoC drug is metabolized by CYP2C19 enzyme, and in Asia 20% of patients have a deficient such enzyme that creates a clear value prop for differentiated 
+MoA
+Lack of proven viability (only 1 ex-Asia study in ’19)
+Company Timeline
+Financial Performance Since Launch
+October 2019
+IPO closes @ $24
+December 2019
+H. Pylori & GERD studies begin
+April 2021
+GERD endpoint success
+May 2022
+H. Pylori formulation accepted
+November 2024
+Exclusivity period worries
+June 2025
+10-year exclusivity confirmed
+November 2023
+FDA approval for GERD
+
+ppt/slides/slide4.xml
+4
+Understanding Voquezna Indications
+Source:
+ 
+Company
+ 
+filings, Company presentation
+GERD + H. Pylori comprise current labeled indications
+US TAM Sizing
+Drivers and Variance
+H. Pylori Background
+GERD Background
+H. pylori is a bacteria that damages the stomach and small intestine causing inflammation and pain. 
+Bacteria multiplies while immune to stomach acid and eats into stomach tissue 
+Complications involve peptic ulcers and stomach cancer
+Current SoC involves suppressing acid to increase antibiotic efficiency
+Parietal cells in the stomach secrete acid when stimulated by taking potassium ions and producing hydrogen ions which combine with Cl-
+GERD occurs when such acid flows into the esophagus on a repeated basis
+Symptoms include heartburn, chest pain, etc.
+Can be significant detriment to QoL and often includes cancer / ulcer complications
+Similar symptoms but without the acid component is called 
+functional heartburn
+Non-Erosive Reflux Disorder doesn’t lead to damage of the esophagus despite symptoms representing approx. 70% of the GERD umbrella
+NERD
+EE
+~45mm
+Erosive Esophagitis results in damage to esophageal cells causing irritation and swelling. Only diagnosable by endoscopy. 30% of GERD umbrella
+~20mm
+~2mm
+H. Pylori Infection
+Management flags the US opportunity at upwards of $3bn
+
+ppt/slides/slide5.xml
+5
+PCAB vs. PPIs
+Source:
+ 
+Company
+ 
+f
+ilings,
+ Company website
+Understanding pharmacology differences & prescription pathways
+Quick Comparison
+Key 
+MoA
+ Differentiation
+PPIs
+Immediate Release
+✓
+24-Hour Relief
+✓
+Safety Profile
+✓
+✓
+Doses / Day
+1
+2-3
+Time Above pH4
+80%+
+40-70%
+Avg. Monthly Price
+~$50
+~$10
+PPIs bond covalently to non-active site of the proton pump to denature the enzyme and prevent pumps from functioning, providing temporary 6–8 hour relief
+1
+Prescription Patterns
+PCABs are small oral molecules that bind to active site to compete with potassium ions to prevent pumps from producing hydrogen ions / stomach acid for 24 hours
+2
+1
+2
+GERD / NERD patients typically either see primary care physicians (PCPs) or gastroenterologists (GIs) who 
+prescribe PPIs as first-line therapy against typical GERD symptoms
+Refractory patients (i.e. nonresponders) are sometimes given other PPI brands, but 
+Voquezna
+ is increasingly being used as the default second-line treatment 
+Patients with complex symptoms often referred by PCPs to GIs for chronic management
+Studies indicate 
+30-40% of patients 
+who go on PPI treatment are moderately or severely dissatisfied with relief
+
+ppt/slides/slide6.xml
+6
+Setup / Story
+Source:
+ 
+Company
+ 
+filings, SS updates
+ 
+Transient fears cloud potential for quality product step-function uplift 
+Story has shifted towards 
+whether / when new strategy targeting GIs (announced 2Q25 with updates in 3Q25 by new mgmt.) over PCPs will increase volume 
+and sales
+1
+2
+3
+4
+FDA 
+approves Citizen's Petition 
+that extends LOE from 2027 to 2032 under the GAIN act, 
+delaying onset of generics and extending runway for peak sales
+FDA orange book listing 
+pins the GERD indication for 
+Vonoprazan
+ at only 5 years 
+of exclusivity vs. anticipated 10 years and 
+doesn’t indicate whether they will decide to consider extension.
+Bullish launch numbers heading into 2024; 
+TRx
+ IQVIA numbers promising and consensus SS projects accelerating uptake amid credible sales ramp
+1
+2
+3
+4
+
+ppt/slides/slide7.xml
+7
+Key Debate
+It’s pretty simple…
+Will PHAT’s sales strategy shift increase scripts volume over the NTM?
+Will the shift grow the near-term runway?
+Will the shift hit revenues in time & w/o new SG&A?
+
+ppt/slides/slide8.xml
+8
+Key Debate
+It’s pretty simple…
+Will PHAT’s sales strategy shift increase scripts volume over the NTM?
+Will the shift grow the near-term runway?
+Will the shift hit revenues in time & w/o new SG&A?
+Yes
+
+ppt/slides/slide9.xml
+1. GIs have greater runway to drive top-line growth
+Source:
+ 
+Company
+ 
+f
+ilings,
+ (1) 
+Carter & Dickman, 2018, (2)
+ 
+Cicala et al., 2013, (3) Halpern et al., 2010
+ 
+GIs are more efficient, which explain the sales shift rationale 
+PHAT’s massive short interest is driven by concerns over actual runway
+Mgmt. shills the scripts productivity & runway
+SS models 100% upside 
+Mgmt. sets the TAM at 20mm PPI scripts for GIs
+Thus, per mgmt., 
+20% penetration here would make 
+Voquenza
+ a blockbuster
+ - in fact, mgmt. says they expect the product to be a 
+blockbuster in GI alone
+PHAT observed a 4x return for the GI practices vs PCP practices for the same sales time
+This is despite 60-70% of sales effort spent on PCP
+Mgmt. argues higher ceiling for GI via PPI scripts
+Upside is driven by “30-40%” PPI refractory rate which implies a TAM of “17-18mm” scripts - Cantor
+This implies that HDD% penetration into GI scripts will make 
+Voquenza
+ a 
+blockbuster
+These patients also have higher refill rates
+Plus, GIs are more receptive to non-PPI 
+MoAs
+When PPI a fails, 75% of GPs report they would switch to another PPI brand vs. 48% of GIs
+1
+This sounds like free money - but short interest is 24%. Why? 
+If you haven’t noticed, the upside is aggressive…the reason is clear -  these TAMs are determined by the refractory rate
+The commonly cited 30-40% rate is symptomatically refractory
+2
+ - meaning their symptoms aren’t helped by PPIs
+THIS IS INCLUDES NON-ACID TREATMENTS
+Why? Because GERD is empirically treated before diagnosis, so if you have heartburn, you’ll be treated with PPI to test if you have GERD
+The 
+“true”
+ refractory rate is ~20%
+3
+ - since PPI refractory is ~99% of PHAT’s TAM, we know that 
+almost all of SS upside is from the overstated TAM
+In simpler terms, 
+SS & mgmt. overstates TAM 
+and cites a number that 
+includes patients who don’t qualify for PCABs 
+(because acid isn’t an issue); the 
+real number is half that
+…and it’s 
+no coincidence that current 
+Px
+ is
+ 
+likewise
+So, why are we long?
+
+ppt/slides/slide10.xml
+1. GIs have greater runway to drive top-line growth 
+Source:
+ Company transcripts, Company filings, Needham (IQVIA data), (1) Sheikh et al., 2014, (2) Van Soest et al., 2006
+The key runway driver is the refill rate
+Our runway driver is NOT TAM - greater refill rates from the shift are not priced in 
+What drives our conviction for 80-90% refill rates?
+Via Needham’s Weekly Rx tracker, we see that for the consolidated biz, retail scripts have ~60% refill rate
+Per mgmt
+. this is closer to 70% 
+(
+BlinkRx
+ diff)
+The trend is clear - 
+refill rates are plateauing 
+- thus, the main / only growth driver is 
+TRx
+ sales…right?
+With the GI shift, the refill rate will once again inflect upwards, driving 
+RRx
+ and 
+TRx
+ (indirectly)
+Our work suggests that 
+GI refill rates for 
+Vonoprazan
+ are in the 80-90% range
+As GI’s get penetrated, 
+refill rates will drive runway 
+Cue the GI-pivot...
+(
+i
+) PPI read throughs on severity & adherence
+(ii) GI calls on procedural differentiation
+US survey of ~2k GERD patients on PPIs showed 
+71% optimal use (correct timing) for GI scripts vs 47% for PCPs
+1
+GI patients are the chronic / more severe cases 
+(see right)
+16k person PPI persistence study showed a 27% 1yr persistence for symptomatic, 54% for A/B EE, & 
+73% for C/D EE
+2
+Thus, patients in the more GI-type cohort (C/D esophagitis) have meaningfully 
+1.5x-3.5x refill rates vs. PCP-type cohorts 
+GIs are more likely to scope patients prior to PCABs, thus 
+less functional heartburn scripts
+“All my patients going on 20mg are scoped and most of the 10mg patients as well.” - GI, private practice
+As established prior, 
+this implies higher refill rates
+Anecdotally, 
+refill rates skews as high as 90%; 
+we underwrite a more conservative ~80%
+
+ppt/slides/slide11.xml
+What’s priced in - how reasonable are these assumptions?
+1. GIs have greater runway to drive top-line growth 
+Source:
+ Company transcripts, Company filings, SS initiations / model updates
+Getting precise on our refill rate variance vs. market
+We can back solve the key KPI assumptions in the share 
+px
+The current $15 
+px
+ implies a 70% refill rate, 
+25% peak 2L market penetration, & 55% GTN discount 
+(see appx.)
+25% penetration slots into mgmt.’s 20-30% range, & 55% discount is in-line with the last 2 fiscal years
+This 
+conservatively
+ does not assume increases in % IQIVIA/
+BlinkRx
+ scripts, nor decreases in GTN discount
+ 
+Cantor
+Evercore
+Jefferies
+Needham
+Goldman
+Ours
+%PPI refractory
+30%
+35%
+35%
+25%
+24%
+20%
+GTN discount
+50%
+25%
+60%
+35%
+60%
+55%
+Compliance
+95%
+n/a
+50%
+75%
+50%
+80%
+So, what drives our variance? Why now?
+Variance to the bears
+Variance to SS / consensus
+By in-large, SS either has obtusely high refractory rates / low gross-to-net discounts
+GS conservatively models KPIs, but overstates % of patients on GERD treatments 
+TAM of patients on GERD treatments is ~ 22mm; GS models 55mm
+Why hasn’t this refill rate inflection hit yet? Hasn’t it been happening for the last Q?
+Yes
+, but (
+i
+) sales takes time to convert the GIs & APPs (ii) 
+BlinkRx
+ refills are first counted as a new Rx (
+as they were not in the IQVIA system beforehand
+), before converting to 
+RRx
+ (which is also why 
+true refill rate > IQVIA rate
+). Thus, 
+this timing has obfuscated the benefits of the switch insofar.
+We model an 80% refill rates on a going forward basis. 
+This bumps peak sales from our est. 800mm (where the current 
+px
+ implies) to 950mm
+We believe we are in-line with bear TAM estimates
+
+ppt/slides/slide12.xml
+2. Sales productivity will drive scripts vol. w/ less cost
+Source:
+ 
+Company
+ 
+f
+ilings,
+ Company transcripts, SS updates
+Investors doubt execution timeline / success
+Less sales time / script = little revenue delay from sales force switch 
+Investors are 
+doubtthe
+ economics of this switch
+How can PHAT reduce 
+Opex
+, yet grow revenue and scripts volume?
+How can PHAT have little revenue delay? 
+Simple. The old, DTC strategy was flawed
+“To go deeper within GIs…it 
+could take 1 or 2 or 3 quarters to really start to pay off
+” - CEO, Jun ’25
+ “We await…for additional 
+validation of the company’s revised strategy…
+[and] 
+execution on cost reduction front
+” - GS, Oct ’25 
+Old, DTC-based strategy succeeded in Japan…
+… and US GIs are the equivalent to JP PCPs
+Vonoprazan
+ (marketed as 
+Takecab
+) was the default 1L treatment for H. Pylori and acid related disorders
+High-volume reflux patients stay within primary care
+, making PCPs the key PPI leverage point
+2L in the US, BUT 
+most GERD patients in for GI’s already qualify for 2L treatment
+GERD and PPI failures are disproportionately managed by GIs 
+in the US
+There is inherently a delay for these conversions to hit IQVIA data – earliest pickup likely in 1Q26
+Generics had 60% mkt. share in 2015 upon introduction, but 
+Takecab
+ became most prescribed drug in a 5-year span 
+Sales directly to most severe chronic PPI patients proven to be most effective strategy
+Takecab
+ 
+revenues in Japan almost $800mm despite 1/4
+th
+ the prevalence
+ of the US and 1/3
+rd
+ the population
+1) Sales force geographic reshuffling and 2) hiring ~10% new reps likely to create temporary one-quarter headwind as relationships are required to be reestablished; 
+BlinkRx
+ (from new scripts) further delay by 30d
+
+ppt/slides/slide13.xml
+2. Sales productivity will drive scripts vol. w/ less cost
+We believe the pickup will be fast with little execution risk
+1) 
+GIs are more familiar with the drug 
+and surrounding scientific literature vs. less familiar PCPs
+SS Survey (n=29) shows 88% of GIs very familiar with drug vs. ~20% of PCPs meaning sales reps have much easier job selling
+ We have heard nurse practitioners in primary care (now 47% of all primary care clinicians!) tend to stick with known drugs 
+2) Ten-year history in Japan & simple 
+MoA
+ offers 
+unique and optimal safety profile 
+for recent launch
+3) 
+Greater willingness to use novel 
+MoA
+ 
+PCABs for chronic PPI refractory patients
+Three Key Levers Drive Our Conviction
+Japan launch has allowed for longitudinal / longer-term studies
+Studies even show vonoprazan is safer than PPIs w/ 
+32.7% adverse events vs. 40.5% PPI
+	
+GIs disproportionally rate safety as important to prescribing vs. PCPs
+2
+GIs 2x more likely than PCPs to stop PPIs in non-responders
+1
+After multiple PPI failures, more GIs opt to investigate alternate therapy mechanisms vs. PCPs who are likely to continue PPIs
+2
+27% of PPIs vs. ~50% of GIs would consider non-PPI therapy
+Our 
+proprietary calls 
+to GIs have echoed these drivers; we have heard that the timeline between outreach and prescribing ramp is < 1 month.
+ 
+We even called a GI who had not heard of the 
+Voquezna
+ because sales reps were not allowed at his university system, and he immediately told us that he would look into prescribing it because of the 
+MoA
+ advantages
+Source:
+ 
+Company
+ 
+f
+ilings,
+ 
+(1) Armstrong et al., 2022, (2) 
+Carter & Dickman, 2018 
+PHAT’s top prescribers are just ~1.5k GIs with a total of ~24k available to target – we believe there is significant untapped runway here. 
+PPIs are on 30/60/90 day scripts meaning GIs will see meaningful share of PPI refractory patients in the next 1-2 quarters
+
+ppt/slides/slide14.xml
+Source:
+ 
+Company
+ 
+f
+ilings
+14
+Payoff Structure
+Returns reveal asymmetric returns driven by refill rates with capped downside per conservative estimates
+Median SS PT
+20% 
+refra-ctory
+ rate
+Current Px
+80% refill rate
+Our PT
+*Adjustments
+Black swan bear case
+-5% refill rate
+-3% 2L GERD penetration
++
+=
+-9% downside
+3.6x R/R
+GI-pivot only marginal in increasing refills
+GIs have capped penetration
+Both factors extremely unlikely as empirical evidence points to even higher refill rates (up to 90%) and greater penetration (up to 30%)
+vs. Base case
+
+ppt/slides/slide15.xml
+Event Path / Pre-Mortem
+Source:
+ 
+Company
+ 
+filings, Company transcripts
+15
+Positive scripts data
+IQVIA tracker shows 
+consolidated refill re-inflected to high 60s
+Higher 
+TRx
+ share from GIs and APPs
+Mgmt. guidance does not accrete SG&A / 
+opex
+ 
+w.o
+ new restructuring charges
+Risks
+Mitigants
+Commentary
+GI shift will 
+cannibalize PPI cohorts
+Early GI usage is 
+disproportionately PPI-refractory cohorts
+GIs already account for ~70% of scripts anyways + model does not rely on incremental GERD incidence
+New entrant into PCAB space
+FDA exclusivity against generic competition + extended into 2034
+Patents for ODT and OTC versions provide an extra 3yrs of market protection 
+Execution issues given 
+massive debt burden
+PHAT still has undrawn ATM and term-loan capacity
+Mgmt. has already cut Opex ~50% and is guiding to profitability in 2026. We do note that this is probably the largest risk, though offset by scripts strength
+Payer / 
+GTN pressures keep net pricing low
+Commercial access already 
+80%+ of lives 
+with cash-pay programs mature
+No view on this on the model. though we conservatively set a fixed 55% discount throughout (though GI shift would likely reduce discount)
+GI focus accreting to top-line
+With 2-3Q of GI focus, street should see clear 
+step up in 
+TRx
+ growth and 
+RRx
+/
+TRx
+ mix
+Expect refill rates moving towards low 70s
+Revenue up sharply y/y as GTN discounts do not crash and 
+sales force spend flat to slightly down
+SI compresses as 
+TAM concerns and 
+opex
+ fears begin unwinding 
+Profits
+First profitable quarter 
+with credible path to FY26 profitability
+Consolidated refills should now be high 70s
+Mgmt. can credibly discuss DTC 2.0 as execution risks have largely passed
+4Q25
+1H26
+3Q26
+
+ppt/slides/slide16.xml
+Source: Company 
+filings
+, 
+SS updates (1) Habu 2019
+16
+Free 
+Call Options - “Known 
+Unknowns
+”
+1) 
+Non-zero
+ acquisition probability
+PHAT is an ideal target…
+… as the landscape picks up
+Needham note on October 10
+th
+ flagged PHAT as one of the most likely companies in coverage to be acquired 
+Commercial/market stage of drugs make the most attractive targets (esp. as the 2030 LOE wall comes up): 
+“Of the 155 public company acquisitions since 2018, ~72% were in at least Ph3 stage of development: 44% had a marketed drug, 7% had a drug under regulatory review, and 21% had their lead program in Phase 3 development.”
+Activity up slightly QoQ and YoY 
+Also seeing increase in % of acquisitions w/ market drug as a proof point
+2) Bearish sentiment means any incremental positive payor news is accretive
+3) Ongoing trials promising & would expand TAM
+Successful Ph2 “as-needed” NERD study supports Ph3 program for OTC-like 
+episodic-use market 
+on top of chronic daily users
+Just started Ph2 trial in 
+EoE
+ (eosinophilic esophagitis); 
+EoE
+ is an under-served indication where 
+PPIs are commonly used off-label and only 2 drugs are approved
+Additional call options with potential OTC switch, 
+new formulations (ODT / IV)
+, and ex-US partnerships (EU / Canada)
+Our calls validate that largest barrier to prescribing 
+Voquezna
+ is that insurance is a pain to deal with – 
+BlinkRx
+ helpful but patients still see meaningful delta between $50 / month PCAB and $10 / month PPI
+Voquezna
+ scripts 
+sap time if filed through insurance 
+as proof is needed for multiple PPI failures 
+BUT…
+Japanese studies indicate 
+PCABs actually cost less in long-run as less treatments / medical episodes 
+occur which may incentive payor adoption
+1
+Management 
+continues to work with Medicare to expand coverage (>80% current)
+Any positive news in the NTM sends stock higher
+
+ppt/slides/slide17.xml
+Appendix
+
+ppt/slides/slide18.xml
+18
+Valuation: Revenue build
+We used a top down market build to estimate EE, NERD, and H. Pylori sales; estimates were 
+backsolved
+ via IQVIA data to either be overly conservative or in-line with prior Rx data
+EE mkt assumed 30% of GERD, from which 35% on EE treatment, 80% of those on PPIs, and 20% refractory
+NERD assumed 60% of GERD, from which 35% on treatment, 68% on PPIs, and 20% refractory
+Penetration rates between NERD and EE were assumed to be roughly equal, as while 
+Vonoprazan
+ is technically superior for more severe (e.g. EE), there is significant demand for the on-demand dosing of PCABs
+H. Pylori was not significant to revenues
+
+ppt/slides/slide19.xml
+19
+Valuation: Base case
+
+ppt/slides/slide20.xml
+20
+Valuation: 70% refill rate implied 
+px
+
+ppt/slides/slide21.xml
+21
+Valuation: DCF

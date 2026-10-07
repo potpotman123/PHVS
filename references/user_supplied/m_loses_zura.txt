@@ -1,0 +1,138 @@
+M Loses Capital
+ZURA: Two Birds and a Four-Headed Hammer
+ZuraBio's Tibulizumab & The future of HS
+M Loses Capital
+Jun 25, 2026
+Those of you who know me probably also know a good friend of mine who never shuts the fuck up about ZURA. It’s time to talk about ZURA. This paper was particularly enjoyable to write.
+
+Hidradenitis Suppurativa’s Secret
+The secret is that Hidradenitis Suppurativa (HS) is actually two diseases. Understanding this truth will greatly help our ability to develop effective treatments in the future, and may also reveal to us which premarket treatment(s) are most promising.
+
+33.3% of the cohort exhibited B-cell dominance (CD20+ and CD138+ cells> CD3+ cells), while 66.6% demonstrated T-cell dominance. HS looks like two distinct immune endotypes: B-cell dominant, and T-cell dominant.
+
+Ianalumab targets BAFF-R on B-cells. BAFF-R is not expressed on CD8+ T cells or NK cells. So the ~46% of patients with CD8-dominant HS, where the primary drivers are cytotoxic T-cells recruiting neutrophils, ianalumab is mechanistically mute. Those patients were enrolled in a 1:1 randomized trial alongside B-cell dominant patients who might have responded. If you assume ianalumab is active in B-cell dominant HS (which you should, ianalumab has successful P3s in Ssj, a B-cell driven disease) but inactive in CD8 dominant HS, you’re diluting whatever signal exists across a largely non-responsive unselected population. Novartis acknowledged “efficacy vs placebo” but said it didn’t meet their predefined threshold, that’s precisely what you’d expect from a drug that works in a subset but is drowned out in a heterogenous trial. The same logic explains the ceiling effect in IL-17 trials: CD4+ T-cells produce IL-17 in HS, but if nearly half your patients have CD8 dominance with a fundamentally different effector mechanism, anti-IL-17 targeting the CD4 arm leaves a substantial portion of the disease unaddressed, which may be one reason HiSCR50 plateaus around 50-70%. The bigger implication: HS trials remain unenriched. Every Phase 2 & 3 to date has enrolled broadly across Hurley stages and phenotypes. The CD4/CD8 data, combined with the B-cell/T-cell endotyping makes a strong case that HS is not one disease, it’s two, and that persistent modest response rate in all HS trials may be a patient selection problem as much as a mechanistic problem. Ianalumab’s failure in particular looks more like a patient selection failure than a target failure.
+
+Type 1: Cellular HS (T-Cell-Dominant, ~67% of patients)
+This is the merged endotype, what used to be Type I (old idea from my notes) and Type II (Th17, CD4-dominant), now treated as two poles of one spectrum rather than two diseases.
+
+The shared core mechanism is a Th1/Th17 inflammatory program that overwhelms an inadequate regulatory T-cell response. Lowe et al. (JCI Insight, 2022) found Tregs failed to expand in HS lesional skin the way they do in psoriasis, producing a Th1/Treg ratio roughly 3-fold higher in HS than in psoriatic skin. A separate flow cytometry study (Th17:Treg axis paper, JID) found Tregs were present and somewhat enriched in HS lesional skin, but the Th17:Treg ratio was still dysregulated toward Th17, and anti-TNF therapy that produced clinical improvement also normalized that ratio. These two studies disagree on whether Tregs expand at all, but agree on the downstream consequence: whatever Treg response exists, it’s outpaced by Th1/Th17 output, and that imbalance tracks with disease activity and treatment response.
+
+Where a given patient or lesion sits on the spectrum shapes the clinical picture without changing the underlying disease:
+
+Toward the cytotoxic/IFN-γ pole: more abscess formation, consistent with skin-resident memory CD8+ T cells and IFN-γ-driven neutrophil recruitment. IFN-γ promotes neutrophil chemotaxis, M1 macrophage polarization, and keratinocyte activation.
+
+Toward the Th17/CD4 pole: higher BMI, more mons pubis involvement, and the IL-17A/IL-17F-driven keratinocyte and stromal activation that recruits neutrophils via IL-8.
+
+Most patients sit somewhere between these poles, and, per the lesion-type data above, an individual patient’s own lesions can plausibly sit at different points on the spectrum simultaneously.
+
+Therapeutic implications. IL-17 and TNF inhibitors are mechanistically on-target for this entire population, not just one half of it, both pathways are active across the spectrum, just in different proportions. That changes the expected shape of the dose-response problem: instead of “the drug works fully in CD4-dominant patients and not at all in CD8-dominant patients,” the more consistent prediction is a graded response that tracks where each patient sits on the Th1/Th17 continuum, with the most IFN-γ/cytotoxic-leaning patients getting partial but incomplete benefit from IL-17/TNF blockade rather than zero benefit. That also reframes the therapeutic opportunity: rather than needing an entirely separate drug class for “CD8-dominant disease,” the more promising lever is combining IL-17/TNF blockade with something that addresses the residual IFN-γ/STAT1 signal across the whole population, JAK inhibition with STAT1 activity is the most plausible existing candidate; CD2/CD58-directed therapy remains of interest given elevated CD2 expression across HS lesional T and innate lymphoid cells generally, though that finding hasn’t been shown to map cleanly onto the old CD4/CD8 split either
+
+Type II: Humoral/TLS HS (B-Cell Dominant)
+This is the most structurally advanced and fibrotic endotype, and in many ways the most immunologically alien, because it means a meaningful fraction of HS has organized into ectopic secondary lymphoid tissue within the skin itself. The most prominent genes unique to HS included genes encoding immunoglobulins, and the top three cell signatures were assigned to B cells, followed by various T cell populations including CD4+ and CD8+ effector memory cells. 33.3% of the cohort exhibited B-cell dominance (CD20+ and CD138+ cells > CD3+ cells), and B-cell dominant HS is associated with a significantly elevated probability of mammary involvement. PubMed CentralMDPI
+
+The TLS structures in lesional skin are organized follicular aggregates with germinal center activity, meaning local somatic hypermutation, isotype class switching, and affinity maturation of autoantibodies are occurring in the skin itself, not just in regional lymph nodes. BAFF, derived principally from neutrophils in HS lesions, is the survival factor sustaining this plasma cell population. Significant responses for IFN-γ and IL-36 were observed in HS lesional skin, whereas the effect of IL-17A or TNF stimulation was absent, meaning in the B-cell dominant endotype, the Th17/TNF axes that drive Types I are relatively silent, which immediately predicts why adalimumab and IL-17 inhibitors underperform in Hurley Stage 3 disease.
+
+Complement activation is a co-feature, suggesting the autoantibodies produced locally are forming immune complexes and triggering tissue destruction through the classical complement pathway, analogous to lupus nephritis, not to psoriasis.
+
+What this endotype looks like clinically: Hurley Stage 3, tunneling, fibrotic, long disease duration, inframammary predilection, often refractory to standard biologics, may have elevated serum immunoglobulins or autoantibodies. TLS formation takes years, this is why advanced Hurley Stage 3 disease becomes qualitatively different from early or moderate disease: it has reorganized its immune architecture into a self-sustaining local lymphoid organ.
+
+Therapeutic implications: This is where BAFF inhibition, BTK inhibition, and SYK inhibition are most rationally targeted. The ianalumab failure almost certainly reflects enrollment of both types without enrichment for Type II, diluting the signal from the ~33% who might actually benefit. If ianalumab had been studied in TLS-positive, B-cell dominant, Hurley Stage 3 patients, the result likely would have been different.
+
+Psoriasis has one dominant axis. Atopic dermatitis has one dominant axis. HS has two simultaneously present immune programs running in different patients, and every unselected trial to date has mixed both together, guaranteeing that any single-mechanism drug will produce a modest aggregate response even if it's highly effective in its relevant endotype.
+
+Share
+
+IL-17 in HS
+Secukinumab IL-17A~42–45% vs ~30% Approved; Q2W > Q4W BimekizumabIL-17A + IL-17F~48–52% vs ~29–32%Approved; earlier onset Sonelokimab IL-17A + IL-17FHiSCR75 primary met at wk 12 Nanobody; tunnel penetration IzokibepIL-17A3 9% vs 29% (failed)OL signal vs RCT failure BrodalumabIL-17RA No RCT data Small OL series only
+
+Several things stand out when you map these results back to the two-type framework. The persistent non-response rate of roughly 45–50% across all IL-17 agents, even with the best approved drugs, is the most important signal. If Type I (CD4/Th17-dominant) is approximately 35–40% of the HS population, that roughly matches the responder fraction. The Type I (CD8/cytotoxic) and Type II (humoral/B-cell dominant) patients are effectively being enrolled into these trials and dragging the aggregate response rate down, not because IL-17 blockade failed in the right patients, but because it was never the right mechanism for them. The dual IL-17A+F advantage of bimekizumab and sonelokimab over secukinumab seems real but modest at week 16. IL-17F appears to contribute meaningfully in the Th17-dominant endotype, which is why the dual inhibitors perform somewhat better, but they still don’t cross the ceiling imposed by the presence of non-Th17 patients in every trial.
+
+Ianalumab Failure
+The trial enrolled 248 patients across a broad moderate-to-severe HS population, unselected by immune phenotype, histology, Hurley stage distribution, or biomarker. Primary endpoint was sHiSCR at week 16. It showed efficacy over placebo but didn’t hit Novartis’s predefined threshold. They pulled the program.
+
+Apply the endotype framework directly:
+
+If the two-type distribution from the histopathological data holds at population scale, roughly 33% humoral/B-cell dominant (Type II), and the remainder T-cell dominant (Type I), then in 248 enrolled patients you have approximately 82 patients for whom BAFF-R blockade is mechanistically rational (Type II), and 166 patients for whom it is mechanistically irrelevant.
+
+Ianalumab doesn’t touch CD8+ Trm cells. It doesn’t touch NK or NKT cells. It doesn’t suppress Th17-derived IL-17. Its two mechanisms, ADCC-mediated B-cell depletion and BAFF-R blockade, are both entirely B-cell directed. So in Type I patients, the drug was essentially an expensive placebo. The “efficacy vs placebo” Novartis acknowledged almost certainly reflects a genuine signal in that ~33% B-cell dominant minority, diluted into statistical irrelevance by the other two-thirds.
+
+Sonelokimab just produced the best IL-17 result ever recorded in a controlled HS trial, 68% HiSCR75 at week 52. That means after a year of the best IL-17 inhibitor in the class, 32% of patients still haven't achieved even 75% lesion reduction. That ceiling exists in every IL-17 trial, every TNF trial, every biologic trial in HS. It's not a drug potency problem. It's a patient selection problem caused by biological heterogeneity. You are always treating Type II patients with a drug built for Type I, and they drag the aggregate number down. BAFF-only inhibition (ianalumab) hit the same ceiling from the other direction, effective signal in the ~33% Type II humoral patients, noise in everyone else.
+
+Image
+
+
+Update: I have found the data
+
+VAY736 (Ianalumab) Data: Thesis Assessment
+The data available is meaningful but incomplete. Here’s a precise read.
+
+What the Numbers Show
+VAY736 300mg achieved 51.6% sHiSCR versus a pooled placebo of 38.3%, a 13.3 percentage point difference, in an n=31 analyzed population against n=60 pooled controls.
+
+Claim-by-Claim Assessment
+“Genuine biological signal over placebo” > CONFIRMED. 13.3pp above placebo is directionally unambiguous. The thesis’s factual predicate holds.
+
+“Novartis acknowledged efficacy over placebo” > CONFIRMED by the data. Numerically, this is not a drug that flat-lined against placebo.
+
+“The drug worked in its target population and failed in the trial” The Statistical Analyses 11 and 12 for VAY736 are listed in the registry but their estimated values and credible intervals are not reproduced in this excerpt, unlike Analysis 1 for CFZ533 (22.1pp, 90% CI: 2.5–41.0). CFZ533’s lower bound barely clears zero. VAY736 at 13.3pp difference with similar arm sizes almost certainly has a credible interval that crosses zero, which is the operative definition of trial failure in this Bayesian framework. That is the gap between “genuine signal” and “approvable signal.” The thesis’s framing is mechanistically consistent with this outcome.
+
+“33% Type II generating the signal, diluted by 67% non-responders” > MATHEMATICALLY CONSISTENT.
+
+The arithmetic check is worth doing explicitly. If Type II constitutes ~33% of enrolled patients, and placebo response in non-Type II patients is approximately equal to the pooled placebo rate (38.3%), then the VAY736 response rate in Type II patients implied by the aggregate figure is:
+
+0.33 × R_TypeII + 0.67 × 38.3% = 51.6%
+R_TypeII ≈ 79%
+
+That is internally consistent, a drug achieving ~79% in its target endotype, diluted to 51.6% in aggregate, would behave exactly as described. For comparison, running the same model on IL-17 inhibitors (48.5% aggregate, 38% placebo) yields approximately 69-72% in-endotype response for Type II patients. These numbers are coherent with each other. No endotype biomarker data from this cohort is available to verify who the responders actually are.
+
+VAY736’s withdrawal rate: 25% (8/32), versus 3–13% across all other active arms.
+
+This is anomalous. The most likely explanation is patient and physician dissatisfaction with non-response, which is actually directionally consistent with the thesis (Type I patients withdrawing when BAFF blockade produces nothing for them). If that’s what drove the withdrawals, it would introduce a form of natural endotype enrichment in the completers, inflating the observed 51.6% above what a clean ITT analysis of all randomized patients would show. However, the overall point here is that the drug is active, and its efficacy is consistent with my two disease type hypothesis.
+
+Tibulizumab
+ZB-106 | Zura Bio
+
+
+The cross-talk between BAFF and IL-17A pathways in HS is a minor secondary observation, not a robust mechanistic coupling. BAFF acts principally on B cells and plasma cells. IL-17A is produced primarily by CD4+ Th17 cells. These are largely distinct cellular compartments. No HS dataset establishes that blocking BAFF meaningfully amplifies IL-17A blockade, or vice versa , in the same patient. Classical pharmacological synergy, where two drugs hitting different nodes of the same pathway produce a multiplicative effect in the same cell, is not the correct frame for tibulizumab.
+
+What tibulizumab actually represents is something more unusual, and arguably more valuable: a single agent designed to address two fundamentally different diseases that share a clinical name.
+
+I have shown above what every HS trial to date has enrolled without knowing it. Two biologically distinct patient populations, Type I,and Type II(B-cell/humoral, TLS-forming), combined into a single “moderate-to-severe HS” cohort based on clinical staging alone. Every drug to date has addressed one of those populations and been averaged across both. That is why the response rate ceiling across every approved and investigational biologic in HS sits in the same approximate place, regardless of mechanism.
+
+Consider the arithmetic that emerges from this framework. IL-17 inhibitors in unselected HS achieve HiSCR50 in roughly 45–52% of patients. That number is not the response rate of Type I patients on an IL-17 inhibitor. It is the response rate of all enrolled patients, including approximately 33% who are Type II B-cell dominant. The observed 45–52% is suppressed by a majority who were never going to respond to that mechanism. What the drug actually achieves in its appropriate endotype is almost certainly substantially higher, but that signal is permanently diluted in the aggregate number.
+
+BAFF monotherapy ran the identical problem in reverse. Ianalumab had a genuine biological signal in HS, Novartis acknowledged efficacy over placebo, but that signal was generated by approximately 33% of enrolled patients who were Type II humoral, being averaged across approximately 67% for whom BAFF-R blockade was mechanistically irrelevant. The drug worked in its target population and failed in the trial.
+
+Tibulizumab neutralizes BAFF (the ligand, via the tabalumab arm) rather than BAFF-R (the receptor, like ianalumab). The case for ligand-targeting being non-trivially better here comes down to one fact: BAFF isn’t a clean one-ligand-one-receptor system like IL-17A/IL-17RA or TNF/TNFR1, where blocking the ligand and blocking the receptor are pharmacologically interchangeable. BAFF has three receptors, and which one a B-lineage cell expresses changes systematically as it differentiates, which means “block the receptor” and “block the ligand” stop being equivalent strategies once you ask which receptor, on which cells.
+
+Naive B cells express only BAFF-R, marginal zone and switched memory B cells express both BAFF-R and TACI, and plasma cells express TACI and BCMA, and the BCMA induction happens concurrently with loss of BAFF-R expression in the differentiating cell. So the cell type doing the actual damage in TLS-driven HS, the antibody-secreting plasmablast/plasma cell, the one running complement activation and local immunoglobulin production, is the cell type that has specifically traded away the one receptor ianalumab is built to hit. Ianalumab's mechanism is BAFF-R-restricted on both fronts: ADCC depletion only works on cells displaying enough BAFF-R to engage the antibody and recruit effector cells, and the receptor-blockade arm only closes the BAFF>BAFF-R door specifically. Neither touches BAFF acting through TACI or BCMA on the same lesion's plasmablasts and plasma cells, and in HS specifically, the ligand isn't scarce. BAFF in these lesions is supplied locally and continuously by neutrophils, so you're not trying to starve a cell of a rare survival signal; you're trying to block a ligand that's locally abundant from reaching a cell that has multiple alternate doors for it to use. Worth thinking about.
+
+Here is where a new concept, pseudosynergy, clarifies what tibulizumab may actually produce. When tibulizumab runs in an unselected HS population, its IL-17A arm addresses Type I patients. Its BAFF arm addresses Type II patients. These are largely non-overlapping populations. The aggregate trial response does not represent a drug working better than either monotherapy in the same patients, it represents a drug reaching two distinct patient groups simultaneously, neither of whom was being served by any available agent. The expected HiSCR50 rate is not 45% plus a modest increment for BAFF contribution. It is the combined natural prevalence of Type I and Type II endotypes in an unselected trial, potentially 55–65% of all enrolled patients, without asking either mechanism to overperform.
+
+That is why the result will look like synergy when it is not. The aggregate response rate will likely exceed what linear addition of the two observed monotherapy rates would predict, not because tibulizumab makes IL-17A blockade more potent, or makes BAFF blockade more potent, but because both observed monotherapy rates were artificially depressed by irrelevant patient inclusion. When you run a drug with two mechanisms in a disease with two matching endotypes, the aggregate response rate expresses the true prevalence of those endotypes in the population, uncoupled, for the first time, from the noise introduced by the third.
+
+This is the correct way to think about what Zura Bio may be approaching. The TibuSHIELD trial will read into an unselected moderate-to-severe HS population because that is the only feasible path to approval. But if the three-endotype framework is correct, tibulizumab will not need endotype enrichment to outperform either monotherapy. The enrichment will happen automatically, because the drug will respond to whatever endotype each patient presents, Th17 or humoral, while leaving Type I patients as the only genuinely refractory group. On paper, the result will look like dual-pathway synergy. Mechanistically, it will be something more straightforward: the first drug in HS whose coverage matches the actual distribution of the disease it was asked to treat.
+
+At the time of writing, the FDMC of Avalo Therapeutics is 1.2B$. Abdakibart achieved HiSCR75 of 42.2–42.9% at Week 16 versus 25.6% placebo, and Avalo framed this as "the highest rates observed in a trial of this size or larger." That's technically true but misleading. The comparison class they're drawing from is the HiSCR75 literature, which is thin precisely because most HS trials have run HiSCR50 as primary. When you put abdakibart's ~17pp HiSCR75 delta next to bimekizumab's ~19pp HiSCR50 delta on the same endpoint type, abdakibart is in-line with approved IL-17 drugs, not obviously superior to them. Solid Phase 2 data, yes. Paradigm shift, no.
+
+So the market is paying ~$780M in program value for a single-endotype Type II HS drug that is going into a Phase 3 it will mathematically struggle to dominate in unselected enrollment. That $780M reflects the genuine validation of the IL-1β mechanism in HS and the capital deployed to run registrational trials. Fair enough. The incoherence is what the market is simultaneously saying about ZURA.
+
+Tibulizumab addresses Type I through its IL-17A arm and Type II through its BAFF arm. The paper's pseudosynergy math is precise: the two mechanisms serve largely non-overlapping populations, so the aggregate response in an unselected trial will reflect the combined prevalence of both endotypes. That's ~63% of enrolled patients sitting in tibulizumab's coverage zone versus ~30% for any current single-mechanism drug. The expected delta over placebo on HiSCR50 is not 19pp like bimekizumab, it's closer to 25-30pp, simply because you stop diluting the denominator with as many mechanistic non-responders.
+
+Yet ZURA sits at $650M FDMC with $226M cash. The program value implied is ~$424M, 46 cents on the dollar versus AVTX’s program, for a drug with theoretically wider population coverage, still pre-readout (so full option value preserved), and with TibuSURE in SSc sitting completely unpriced on top of that. SSc has no approved biologic for fibrosis. Zero. TibuSURE data is expected in H1 2027, and it costs nothing in the current valuation.
+
+The discount ZURA trades at relative to AVTX is only justifiable if you believe one of the following: that the BAFF arm adds nothing in Type II patients despite ianalumab showing a genuine biological signal in exactly that population; or that dual-mechanism execution risk overwhelms the theoretical coverage advantage; or that TibuSHIELD will fail outright. The ianalumab data the paper cites actually refutes the first concern, the drug worked at ~79% response in the ~33% Type II patients by the endotype back-calculation, it just got drowned in trial noise. The second concern is a real but generic biotech risk that applies equally to AVTX. The third is binary event risk that will resolve in Q4 2026.
+
+ZURA has $225.6M cash as of March 31, 2026, funding operations through at least end of 2028, well past both readouts. There's no financing cliff. TibuSHIELD is designed with percent change in total abscess and nodule count as primary endpoint, a continuous measure that has more statistical power per enrolled patient than a binary HiSCR threshold, and the trial has been expanded to 225 participants. ZURA gets a more sensitive primary endpoint than the one AVTX used, in a larger trial, with more patient population coverage.
+
+The $650M FDMC for ZURA is defensible only if you're doing naive single-catalyst biotech discounting without running the mechanistic math. Once you apply the endotype framework laid out, you're effectively being asked to believe that a dual-endotype drug covering Type I + Type II is worth $356M less in program value than a single-endotype Type I drug, with an entire second indication (SSc) thrown in for free. That's not a coherent valuation. I predict 25-35 pp delta.
+
+Not financial Advice.
+
+Share
+
+16 Likes
+∙
+1 Restack
+
+

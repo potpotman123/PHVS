@@ -1,0 +1,1116 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06343779",
+      "orgStudyIdInfo": {
+        "id": "PHA022121-C306"
+      },
+      "organization": {
+        "fullName": "Pharvaris Netherlands B.V.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Study of Oral Deucrictibant Soft Capsule for On-Demand Treatment of Angioedema Attacks in Adolescents and Adults With Hereditary Angioedema",
+      "officialTitle": "A Phase 3, Randomized, Double-blind, Placebo-controlled, Cross-over Study of Oral Deucrictibant Soft Capsule for On-Demand Treatment of Attacks in Adolescents and Adults With Hereditary Angioedema",
+      "acronym": "RAPIDe-3"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-11",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-02-26",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-10-17",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-10-17",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-03-18",
+      "studyFirstSubmitQcDate": "2024-03-26",
+      "studyFirstPostDateStruct": {
+        "date": "2024-04-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-11-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Pharvaris Netherlands B.V.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a Phase 3, multicenter, randomized, double-blind, placebo-controlled, 2-period, 2-treatment cross-over study to evaluate the efficacy and safety of orally administered deucrictibant compared to placebo for the on-demand treatment of HAE attacks, including non-severe laryngeal attacks, in participants \u226512 to \u226475 years of age with HAE type 1, type 2, or type 3, a proportion of whom are using long-term prophylactic medication for HAE.",
+      "detailedDescription": "The study consists of a Screening Phase during which eligibility is confirmed, a Treatment Phase in which participants will be randomized and receive double blinded study drug to treat 2 qualifying HAE attacks (i.e., 2 Treatment Periods within the Treatment Phase), and an End-of-Study Follow-up Phase after the second attack treated with study drug. In addition, for adolescent participants (age \u226512 to \\<18 years), PK samples are collected after administration of deucrictibant at Day 1 in a non-attack state."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hereditary Angioedema",
+        "Hereditary Angioedema Type I",
+        "Hereditary Angioedema Type II",
+        "Hereditary Angioedema Types I and II",
+        "Hereditary Angioedema Attack",
+        "Hereditary Angioedema With C1 Esterase Inhibitor Deficiency",
+        "Hereditary Angioedema - Type 1",
+        "Hereditary Angioedema - Type 2",
+        "C1 Esterase Inhibitor [C1-INH] Deficiency",
+        "C1 Esterase Inhibitor Deficiency",
+        "C1 Esterase Inhibitor, Deficiency of",
+        "C1 Inhibitor Deficiency",
+        "Hereditary Angioedema - Type 3",
+        "Hereditary Angioedema Type III"
+      ],
+      "keywords": [
+        "HAE",
+        "HAE Type I",
+        "HAE Type II",
+        "Oral Treatment",
+        "Bradykinin B2 Receptor Antagonists",
+        "PHVS416",
+        "PHA121",
+        "On-Demand",
+        "Deucrictibant",
+        "Pharvaris",
+        "HAE Type III"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 134,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm 1",
+          "type": "EXPERIMENTAL",
+          "description": "Deucrictibant administered for first HAE attack, placebo administered for second HAE attack.",
+          "interventionNames": [
+            "Drug: Deucrictibant, Placebo"
+          ]
+        },
+        {
+          "label": "Arm 2",
+          "type": "EXPERIMENTAL",
+          "description": "Placebo administered for first HAE attack, deucrictibant administered for second HAE attack.",
+          "interventionNames": [
+            "Drug: Deucrictibant, Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Deucrictibant, Placebo",
+          "description": "Deucrictibant Soft Capsules for Oral Use",
+          "armGroupLabels": [
+            "Arm 1",
+            "Arm 2"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Time to onset of symptom relief, defined as Patient Global Impression of Change (PGI-C) rating of at least \"a little better\" for 2 consecutive timepoints within 12 hours post-treatment.",
+          "description": "The PGI-C (7-point scale) is used to evaluate the change in the HAE attack symptoms as compared to pre-treatment.",
+          "timeFrame": "Pre-treatment to 12 hours post-treatment."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Proportion of study drug-treated attacks achieving PGI-C rating of at least \"a little better\" at 4 hours post-treatment.",
+          "description": "The PGI-C (7-point scale) is used to evaluate the change in the HAE attack symptoms as compared to pre-treatment.",
+          "timeFrame": "Pre-treatment to 4 hours post-treatment."
+        },
+        {
+          "measure": "Time to substantial symptom relief, defined as achieving PGI-C rating of at least \"better\" for 2 consecutive timepoints within 12 hours post-treatment.",
+          "description": "The PGI-C (7-point scale) is used to evaluate the change in the HAE attack symptoms as compared to pre-treatment.",
+          "timeFrame": "Pre-treatment to 12 hours post-treatment."
+        },
+        {
+          "measure": "Time to substantial symptom relief by Patient Global Impression of Severity (PGI-S).",
+          "description": "Defined as achieving \u22651 point reduction in PGI-S (5-point scale) from pre-treatment for 2 consecutive timepoints within 12 hours post-treatment.",
+          "timeFrame": "Pre-treatment to 12 hours post-treatment."
+        },
+        {
+          "measure": "Time to complete symptom resolution, defined as achieving PGI-S rating of \"none\" within 48 hours post-treatment.",
+          "description": "The PGI-S (5-point scale) is used to evaluate the severity of HAE attack symptoms.",
+          "timeFrame": "Pre-treatment to 48 hours post-treatment."
+        },
+        {
+          "measure": "Time to End of Progression (EoP) in attack symptoms within 12 hours.",
+          "description": "EoP time defined as the earliest post-treatment timepoint after which all subsequent PGI-C ratings are stable or improved.",
+          "timeFrame": "Pre-treatment to 12 hours post-treatment."
+        },
+        {
+          "measure": "Proportion of study drug-treated attacks requiring rescue medication within 24 hours post-treatment.",
+          "description": "Rescue medication is defined as the participant's usual acute on-demand HAE treatment taken if symptoms persist or progress after study drug administration.",
+          "timeFrame": "Pre-treatment to 24 hours post-treatment."
+        },
+        {
+          "measure": "Proportion of attacks achieving symptom resolution.",
+          "description": "Defined as achieving PGI-S rating of \"none\" with one dose of study drug at 24 hours post-treatment.",
+          "timeFrame": "Pre-treatment to 24 hours post-treatment."
+        },
+        {
+          "measure": "Time to substantial symptom relief by Angioedema Symptom Rating Scale (AMRA).",
+          "description": "Defined as a \u226550% reduction in AMRA composite score from pre-treatment for 2 consecutive timepoints within 12 hours post-treatment.",
+          "timeFrame": "Pre-treatment to 12 hours post-treatment."
+        },
+        {
+          "measure": "Time to almost complete or complete symptom relief by AMRA.",
+          "description": "Defined as all item scores in AMRA having a value \u226410 for 2 consecutive timepoints within 24 hours post-treatment.",
+          "timeFrame": "Pre-treatment to 24 hours post-treatment."
+        },
+        {
+          "measure": "Proportion of study drug-treated attacks reaching almost complete or complete symptom relief by AMRA.",
+          "description": "Defined as all item scores in AMRA having a value \u226410 at 24 hours post-treatment.",
+          "timeFrame": "Pre-treatment to 24 hours post-treatment."
+        },
+        {
+          "measure": "Time to EoP in attack symptoms within 12 hours.",
+          "description": "Defined as the earliest post-treatment timepoint after which every individual AMRA item is stable or improved at all subsequent timepoints.",
+          "timeFrame": "Pre-treatment to 12 hours post-treatment."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Provision of written informed consent/assent.\n2. Male or female, aged \u226512 to \u226475 years at the time of providing written informed consent/assent.\n3. Diagnosis of HAE-1/2/3.\n4. History of at least 2 HAE attacks in the last 3 months before screening.\n5. Experience with using standard-of-care treatment to effectively manage on-demand treatment for HAE attacks.\n6. Participants on long-term prophylactic therapy with plasma-derived C1-INH (danazol, anti-fibrinolytics, berotralstat, or lanadelumab) must be on a stable dose and regimen and intend to remain on the same dose for 6 months before screening and the duration of the study. OR, Participant has stopped using plasma-derived C1-INH (danazol, anti-fibrinolytics, berotralstat) at least 2 weeks or lanadelumab at least 10 weeks before screening.\n7. Capable of recording, without assistance, electronic HAE diary and ePRO data using an electronic device.\n8. For adolescent participants aged \u226512 and \\<18 years of age: body weight \u226540 kg.\n9. Female participants of childbearing potential must agree to the protocol specified pregnancy testing and contraception methods.\n\nExclusion Criteria:\n\n1. Any female who is pregnant, plans to become pregnant, or is breastfeeding.\n2. Any diagnosis of angioedema other than HAE.\n3. Any clinically significant comorbidity or systemic dysfunction that would interfere with the participant's safety or ability to participate in the study.\n4. Use of attenuated androgens for short-term prophylaxis within 2 weeks before screening.\n5. Abnormal hepatic function.\n6. Abnormal renal function (eGFR \\<60 ml/min/1.73 m2).\n7. History of alcohol or drug abuse within the previous year, or current evidence of substance dependence or abuse.\n8. Has received prior on-demand HAE treatment with deucrictibant.\n9. Currently participating in any other investigational drug study or receiving other investigational treatment within the last 30 days, or within 5 half-lives (whichever is longer) of the time of randomization.\n10. Prior gene therapy for any indication at any time.\n11. Use of concomitant medications with systemic absorption that are strong inhibitors of CYP3A4 or strong inducers of CYP3A4 within the last 30 days, or within 5 half-lives (whichever is longer) of the time of randomization.\n12. Known hypersensitivity to study drug or any of the excipients of study drug.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "12 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Study Director, Pharvaris",
+          "affiliation": "Pharvaris Netherlands B.V.",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Study Site",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35209",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Paradise Valley",
+          "state": "Arizona",
+          "zip": "85258",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.53115,
+            "lon": -111.94265
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Little Rock",
+          "state": "Arkansas",
+          "zip": "72205",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.74648,
+            "lon": -92.28959
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "San Diego",
+          "state": "California",
+          "zip": "92122",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.71571,
+            "lon": -117.16472
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Santa Monica",
+          "state": "California",
+          "zip": "90404",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.01949,
+            "lon": -118.49138
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Walnut Creek",
+          "state": "California",
+          "zip": "94598",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.90631,
+            "lon": -122.06496
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Colorado Springs",
+          "state": "Colorado",
+          "zip": "80907-6231",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.83388,
+            "lon": -104.82136
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Chevy Chase",
+          "state": "Maryland",
+          "zip": "20815",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.00287,
+            "lon": -77.07115
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Detroit",
+          "state": "Michigan",
+          "zip": "48202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.33143,
+            "lon": -83.04575
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63141",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Hershey",
+          "state": "Pennsylvania",
+          "zip": "17033",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.28592,
+            "lon": -76.65025
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75231",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Buenos Aires",
+          "zip": "B1629AHJ",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.61315,
+            "lon": -58.37723
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Salta",
+          "zip": "4400",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -24.80645,
+            "lon": -65.41999
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Campbelltown",
+          "state": "New South Wales",
+          "zip": "2560",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -34.06667,
+            "lon": 150.81667
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Box Hill",
+          "zip": "3128",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.81887,
+            "lon": 145.12545
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Graz",
+          "zip": "8036",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 47.06733,
+            "lon": 15.44197
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Linz",
+          "zip": "4021",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.30639,
+            "lon": 14.28611
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Vienna",
+          "zip": "1090",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Paran\u00e1",
+          "zip": "80810-100",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -6.48639,
+            "lon": -38.31306
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Ribeir\u00e3o Preto",
+          "zip": "14048-900",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -21.1775,
+            "lon": -47.81028
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Salvador",
+          "zip": "41950-640",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -12.97563,
+            "lon": -38.49096
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Santo Andr\u00e9",
+          "zip": "09060-870",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.66389,
+            "lon": -46.53833
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "S\u00e3o Paulo",
+          "zip": "05403-000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Sofia",
+          "zip": "1431",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.69751,
+            "lon": 23.32415
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Sofia",
+          "zip": "1680",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.69751,
+            "lon": 23.32415
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Edmonton",
+          "state": "Alberta",
+          "zip": "T6G 1Z1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 53.55014,
+            "lon": -113.46871
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Bogot\u00e1",
+          "zip": "00",
+          "country": "Colombia",
+          "geoPoint": {
+            "lat": 4.60971,
+            "lon": -74.08175
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Bogot\u00e1",
+          "zip": "111221",
+          "country": "Colombia",
+          "geoPoint": {
+            "lat": 4.60971,
+            "lon": -74.08175
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Bogot\u00e1",
+          "zip": "111711",
+          "country": "Colombia",
+          "geoPoint": {
+            "lat": 4.60971,
+            "lon": -74.08175
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Medell\u00edn",
+          "zip": "050021",
+          "country": "Colombia",
+          "geoPoint": {
+            "lat": 6.245,
+            "lon": -75.57151
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Brno",
+          "zip": "602 00",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.19522,
+            "lon": 16.60796
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Lille",
+          "zip": "59037",
+          "country": "France",
+          "geoPoint": {
+            "lat": 50.63391,
+            "lon": 3.05512
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Paris",
+          "zip": "75571",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Berlin",
+          "zip": "12203",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Frankfurt am Main",
+          "zip": "60590",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.11552,
+            "lon": 8.68417
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Frankfurt am Main",
+          "zip": "60596",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.11552,
+            "lon": 8.68417
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "L\u00fcbeck",
+          "zip": "23538",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.86893,
+            "lon": 10.68729
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Hong Kong",
+          "country": "Hong Kong",
+          "geoPoint": {
+            "lat": 22.27832,
+            "lon": 114.17469
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Budapest",
+          "zip": "1088",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Dublin",
+          "zip": "D08 A978",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 53.33306,
+            "lon": -6.24889
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Catania",
+          "zip": "95124",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 37.49223,
+            "lon": 15.07041
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Milan",
+          "zip": "20138",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.46427,
+            "lon": 9.18951
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Milan",
+          "zip": "20097",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Padova",
+          "zip": "35128",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.38225,
+            "lon": 11.14261
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Palermo",
+          "zip": "90146",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 38.1166,
+            "lon": 13.3636
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Roma",
+          "zip": "00133",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Chiba",
+          "zip": "260-8677",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.6,
+            "lon": 140.11667
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Hiroshima",
+          "zip": "730-8518",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 34.4,
+            "lon": 132.45
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Kanagawa",
+          "zip": "216-8511",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 37.58333,
+            "lon": 139.91667
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Osaka",
+          "zip": "569-8686",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 34.69379,
+            "lon": 135.50107
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Tokyo",
+          "zip": "113-8431",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.6895,
+            "lon": 139.69171
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Amsterdam",
+          "zip": "1105 AZ",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.37403,
+            "lon": 4.88969
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Skopje",
+          "zip": "1000",
+          "country": "North Macedonia",
+          "geoPoint": {
+            "lat": 41.99646,
+            "lon": 21.43141
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Krakow",
+          "zip": "31-503",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.06143,
+            "lon": 19.93658
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "San Juan",
+          "zip": "00918",
+          "country": "Puerto Rico",
+          "geoPoint": {
+            "lat": 18.46633,
+            "lon": -66.10572
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "San Juan",
+          "zip": "00927",
+          "country": "Puerto Rico",
+          "geoPoint": {
+            "lat": 18.46633,
+            "lon": -66.10572
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "S\u00e2ngeorgiu de Mure\u015f",
+          "zip": "547530",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 46.5696,
+            "lon": 24.59453
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Riyadh",
+          "zip": "11471",
+          "country": "Saudi Arabia",
+          "geoPoint": {
+            "lat": 24.68773,
+            "lon": 46.72185
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Singapore",
+          "zip": "308433",
+          "country": "Singapore",
+          "geoPoint": {
+            "lat": 1.28967,
+            "lon": 103.85007
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Cape Town",
+          "zip": "7700",
+          "country": "South Africa",
+          "geoPoint": {
+            "lat": -33.92584,
+            "lon": 18.42322
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Daegu",
+          "zip": "41944",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 35.87028,
+            "lon": 128.59111
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Seoul",
+          "zip": "03080",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Barcelona",
+          "zip": "08035",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Barcelona",
+          "zip": "08907",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Lund",
+          "zip": "22185",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 55.70584,
+            "lon": 13.19321
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Ankara",
+          "zip": "06203",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 39.91987,
+            "lon": 32.85427
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Istanbul",
+          "zip": "34093",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 41.01384,
+            "lon": 28.94966
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Izmir",
+          "zip": "35100",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 38.41273,
+            "lon": 27.13838
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Bristol",
+          "zip": "BS10 5NB",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.45523,
+            "lon": -2.59665
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Camberley",
+          "zip": "GU16 7UJ",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.33705,
+            "lon": -0.74261
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Cambridge",
+          "zip": "CB2 0QQ",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 52.2,
+            "lon": 0.11667
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Leeds",
+          "zip": "LS9 7TF",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 53.79648,
+            "lon": -1.54785
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "London",
+          "zip": "E1 2ES",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Plymouth",
+          "zip": "PL6 8DH",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 50.37153,
+            "lon": -4.14305
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-06",
+      "submissionTracking": {
+        "estimatedResultsFirstSubmitDate": "2026-07-03",
+        "submissionInfos": [
+          {
+            "releaseDate": "2026-07-03",
+            "resetDate": "2026-07-29",
+            "mcpReleaseN": 10
+          },
+          {
+            "releaseDate": "2026-08-17",
+            "resetDate": "2026-09-08",
+            "mcpReleaseN": 11
+          },
+          {
+            "releaseDate": "2026-09-25"
+          }
+        ]
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054179",
+          "term": "Angioedemas, Hereditary"
+        },
+        {
+          "id": "D056829",
+          "term": "Hereditary Angioedema Types I and II"
+        },
+        {
+          "id": "D056828",
+          "term": "Hereditary Angioedema Type III"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000799",
+          "term": "Angioedema"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D000081208",
+          "term": "Hereditary Complement Deficiency Diseases"
+        },
+        {
+          "id": "D000081207",
+          "term": "Primary Immunodeficiency Diseases"
+        },
+        {
+          "id": "D030342",
+          "term": "Genetic Diseases, Inborn"
+        },
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        },
+        {
+          "id": "D014581",
+          "term": "Urticaria"
+        },
+        {
+          "id": "D017445",
+          "term": "Skin Diseases, Vascular"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D006969",
+          "term": "Hypersensitivity, Immediate"
+        },
+        {
+          "id": "D006967",
+          "term": "Hypersensitivity"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        },
+        {
+          "id": "D007153",
+          "term": "Immunologic Deficiency Syndromes"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

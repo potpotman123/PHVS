@@ -1,0 +1,236 @@
+PHARVARIS — FIVE ALPHASENSE CALLS: LONG / SHORT EVIDENCE AUDIT
+7 October 2026
+
+All five user-supplied transcripts were read in full. Evidence below is doctor-reported experience or opinion, not independently audited prescribing data. The supplied AI summaries were not used as a substitute for the dialogue. This is a commercial thesis audit, not a valuation conclusion or recommendation to short.
+
+CENTRAL FINDING
+The interviews support real clinical enthusiasm, but show that enthusiasm, prescriptions, paid starts and durable revenue are different events. The best short case is constrained switching, access friction, low rescue consumption and competing convenience. The best long case is a better-tolerated, credible oral preventive plus an oral B2 rescue option that can complement existing injected prophylaxis. Same-mechanism rescue is a disputed commercial preference, not an established pharmacological failure.
+
+SOURCE KEY AND INDEPENDENCE
+E1 — 30 Sep: practical challenges
+Allergist Immunologist Views New Oral Prophylactic Options for Hereditary Angioedema Positively but Highlights Practical Challenges
+/Users/kwu/.codex/attachments/18b63711-84a6-487a-b1f5-800b94f98252/Pasted text.txt
+
+E2 — 10 Sep: private-practice XR optimism
+Allergist Immunologist Sees Potential in Pharvaris's Deucrictibant XR for Hereditary Angioedema Management
+/Users/kwu/.codex/attachments/296c3539-65a1-4e0f-b95d-9996ec10ac80/Pasted text.txt
+
+E3 — 11 Sep: Optum-titled call
+Allergist at Optum Health Is Highly Optimistic About Deucrictibant's Potential in HAE Management
+/Users/kwu/.codex/attachments/26287c60-9e59-4d05-8cb6-fe93afd22f7a/Pasted text.txt
+
+E4 — 25 Jun: mixed-mechanism preference
+Allergist Immunologist Sees Promising Future for Deucrictibant in HAE Management
+/Users/kwu/.codex/attachments/427b9702-50eb-416d-9525-c8e2a4cba636/Pasted text.txt
+
+E5 — 23 Jun: Optum-titled call
+Allergist Immunologist at Optum Health Is Optimistic About Deucrictibant's Role in Advancing HAE Treatment Options
+/Users/kwu/.codex/attachments/81be87b0-712d-4ba3-aed7-944971ebe195/Pasted text.txt
+
+E1: eight patients, seven on prophylaxis, one or two visits yearly; outsider to PHVS trials. Most concrete administrative-cost testimony.
+E2: says 12 angioedema patients; simultaneously says 50% and 8/12 on prophylaxis. Only two Orladeyo patients. Treat case counts cautiously.
+E3: 12–13 actively reviewed plus less frequent patients, approximately 15–24 total; Optum affiliation appears in title, not evidence of formulary decision authority.
+E4: transcript says 12 HAE patients (10 type I, two type II), whereas supplied bio says 30+ monthly. Use transcript, flag unresolved contradiction. Strong mixed-mechanism preference and direct convenience-driven switch example.
+E5: approximately 12–15 active plus six or seven less-frequent patients. Local normal-C1 mix is approximate.
+E3 and E5 may be repeat interviews with the same doctor: matching Med-Peds background, career length, active/less-active panel, distinctive poker analogy, shared historical narrative and dual-franchise argument. Identity is not established. Do not count their similar views as two independent votes.
+June interviews precede September CHAPTER-3 results. Their prevention enthusiasm relates to earlier evidence; do not label it independent endorsement of phase-3 XR results.
+All interviews are selected small practices and investor-led, with some leading prompts. Optum employment does not make physician predictions evidence of payer contracts.
+
+EVIDENCE LEDGER — OBSERVATION, ECONOMIC MECHANISM, LIMITATION, TEST
+
+01 | Short | E1 @ 10:41;14:47;15:46
+Transcript: Will not switch well-controlled patients; estimates 2–4 hours of unpaid office work per specialty approval. Wants to write prescription without office follow-up.
+Commercial implication: Administrative cost prevents some prescriptions from being attempted; commercial support can be a differentiator.
+Limit: One eight-patient practice; not a national time or abandonment estimate.
+Test: Time-motion interviews; attempted versus considered switches; hub tasks completed versus tasks retained by office.
+
+02 | Short | E1/E3 @ E1 00:24; E3 26:28
+Transcript: Stable patients may be seen once or twice annually; some remain on familiar older therapies despite newer options.
+Commercial implication: Switching is an annual opportunity flow, not immediate access to the entire treated population.
+Limit: Visit frequency and inertia from small practices; patient outreach may accelerate reviews.
+Test: Annual medication-review frequency and paid switches among stable users.
+
+03 | Long | E2/E4 @ E2 04:35;12:55;19:19 in E4
+Transcript: Doctors perceive an unmet need for an oral preventive with better efficacy/tolerability than Orladeyo.
+Commercial implication: An established preference for pills creates a focused initial switching pool.
+Limit: No head-to-head evidence; E2 only has two Orladeyo patients and is unsure they would switch.
+Test: Orladeyo inadequate-control/GI discontinuation cohorts, willingness and successful paid switches.
+
+04 | Both | E2/E3/E5 @ E2 17:19; E3 26:28–29:07; E5 28:39
+Transcript: E2 estimates 50% potentially willing to try; E3 20–30% switching and 33–40% new starts; E5 3–5 of ten hypothetical new patients.
+Commercial implication: Suggests enthusiasm in selected segments, not observed market share.
+Limit: Different denominators, no time horizon, access assumptions, possible repeat expert E3/E5. Do not average.
+Test: Standardized vignette survey followed by actual starts, approvals and 12-month retention.
+
+05 | Short XR / Long IR | E4 @ 08:43;19:19
+Transcript: One well-controlled Takhzyro patient switched to Dawnzera seeking every-eight-week dosing; envisages twice-yearly prevention plus oral rescue.
+Commercial implication: Convenience can favor infrequent injections while supporting oral acute drugs.
+Limit: One actual switch; three/six-month HAE regimens are investigational, not established current options.
+Test: Which patients choose daily pill versus monthly/Q8W versus investigational Q3M/Q6M at equal efficacy/access?
+
+06 | Both | E2/E5 @ E2 09:20–12:47; E5 28:39
+Transcript: Travel, injection aversion and storage favor pills; daily pill aversion and forgetfulness favor longer dosing intervals.
+Commercial implication: Route preference is heterogeneous; adherence can reverse the apparent convenience advantage.
+Limit: Age/sex stereotypes and analogies to asthma/GLP drugs are not HAE population estimates.
+Test: Individual preference, actual adherence, reason for discontinuation; stratify by lifestyle without imposing stereotypes.
+
+07 | Long IR | E4 @ 06:08;16:22
+Transcript: Reports Ekterly users treat more attacks and treat earlier because injections sting or require preparation/venous access.
+Commercial implication: Oral acute treatment may expand treated-attack volume and improve real-world timeliness.
+Limit: Qualitative experience with competitor; no before/after counts; earlier treatment can reduce repeat doses.
+Test: Patient attack diary linked to treatment timing, dose counts, dispensing and free-drug status.
+
+08 | Short IR | E4 @ 00:41;10:35
+Transcript: Reports roughly 2–3 attacks/year in controlled patients and rescue use around twice/year.
+Commercial implication: A large prescribed rescue population may generate few consumed doses and slow replenishment.
+Limit: Selected controlled practice; cannot extrapolate to acute-only patients or untreated HAE.
+Test: Consumption split by prophylaxis, frequency and severity; separate initial stock, use and expiry.
+
+09 | Short XR / Long IR | E5/E3 @ E5 10:58; E3 09:45
+Transcript: Easier acute treatment historically allowed some milder patients to stop prevention; some Orladeyo patients returned to acute-only care.
+Commercial implication: Better rescue may substitute for preventive patient-months, offsetting dual-franchise growth.
+Limit: Anecdotal historical attribution, not recommended clinical strategy or measured national transition.
+Test: Transitions between acute-only and prophylaxis after oral rescue initiation.
+
+10 | Long XR | E3/E5 @ E3 02:36; E5 25:28
+Transcript: Easier prevention may attract patients previously reluctant to inject.
+Commercial implication: Expansion of prevention penetration is distinct from stealing competitor share.
+Limit: Counterbalanced by better rescue reducing desire for prevention; no magnitude observed.
+Test: New prophylaxis users who were previously acute-only, with attack burden and reason for escalation.
+
+11 | Long IR / Short dual capture | E4 @ 07:29;13:39;18:48
+Transcript: Prefers different mechanisms for prevention and acute care; sees oral B2 blocker fitting patients on Takhzyro.
+Commercial implication: PHVS IR could complement competing prophylaxis while PHVS XR users receive competitor rescue.
+Limit: Preference is not proof same-target rescue fails; colleague consensus assertion unverified.
+Test: Prescribing preferences after seeing combined-use data; rescue outcomes by preventive background.
+
+12 | Long dual franchise | E2/E3/E5 @ E2 18:31; E3 21:04–26:00; E5 25:28–31:50
+Transcript: Same molecule familiar to patient; experts anticipate easier administration, coverage or package deal.
+Commercial implication: Potential cross-selling, brand trust and support-program economies.
+Limit: IR and XR are separate formulations; one-pill/one-authorization and guaranteed joint coverage are speculation.
+Test: Final labels; actual joint coverage and contracting; attach rate; two-product education errors.
+
+13 | Both | E1/E4 @ E1 07:49; E4 10:35
+Transcript: Attack-free status and personal quality-of-life impact may matter more than average reduction.
+Commercial implication: Switching and retention depend on perceived control, not population mean efficacy alone.
+Limit: Expert requests partly address already-public endpoints; percentage attack reduction is not percentage attack-free.
+Test: Stratified complete-control outcomes, patient priorities, discontinuation linked to residual burden.
+
+14 | Long | E2 @ 06:13
+Transcript: Rapid perceived benefit could reinforce adherence and confidence.
+Commercial implication: Early success may improve initial persistence.
+Limit: One-week clinical signal is not head-to-head proof or evidence low-frequency patients notice benefit that soon.
+Test: Early persistence and time to perceived benefit versus comparator, matched for baseline frequency.
+
+15 | Both | E1/E2/E3 @ E1 06:20; E2 07:13; E3 17:11;29:23
+Transcript: Doctors want detail on mild/moderate symptoms, chronic safety and pregnancy experience; E3 awaits longer follow-up.
+Commercial implication: Everyday tolerability influences persistence even without serious toxicity.
+Limit: Topline reassurance not full safety assessment; June calls precede CHAPTER-3.
+Test: Symptom-level adverse events, laboratory trajectories, long-term exposure and reproductive evidence.
+
+16 | Short ramp | E4 @ 20:49
+Transcript: Ekterly already has market presence, sales force, coverage relationships and real-world experience.
+Commercial implication: PHVS IR must displace an existing oral option, not simply convert injection users.
+Limit: First-mover advantage can be overcome; no quantified share ceiling.
+Test: Prescriber awareness, access parity and switch reasons; evidence-based differentiation.
+
+17 | Both | E4 @ 20:49
+Transcript: Orladeyo experience may make some physicians/patients skeptical of a second oral preventive.
+Commercial implication: Prior dissatisfaction creates both a target pool and a credibility hurdle.
+Limit: Different mechanism/molecule can overcome class or route perceptions.
+Test: Willingness before/after product-specific efficacy and safety education.
+
+18 | Short near-term revenue | E4 @ 21:42
+Transcript: Expects free starter drug until formulary access, based on Ekterly experience.
+Commercial implication: Patient starts and shipments may precede revenue; early start metrics can overstate paid demand.
+Limit: Expectation for PHVS, not announced PHVS program terms.
+Test: Free versus paid patients, cohort conversion time, paid fills and persistence.
+
+19 | Long expansion / Short extrapolation | E5/E3/E4 @ E5 01:11;03:22; E3 09:45; E4 03:58
+Transcript: E5 reports more new diagnoses and family/self-referrals; E4 sees no comparable case trend.
+Commercial implication: Awareness can uncover existing disease; no consensus on pace of market expansion.
+Limit: Tiny catchments; referrals and transferred cases are not national incident cases.
+Test: Deduplicated new confirmed diagnoses, prior diagnosis and treatment history.
+
+20 | Both | E3/E5/E1 @ E3 09:45–16:55; E5 02:02;04:54; E1 09:45
+Transcript: Optum-titled expert describes normal-C1 access via samples/appeals and broader clinical diagnosis; E1 questions misclassification.
+Commercial implication: Reachable expansion depends on diagnostic credibility and plan rules, not symptom prevalence alone.
+Limit: No prevalence estimate; local mix 25–30% is not national mix; workups are not confirmed cases.
+Test: Confirmed subtype, actual policy, exceptions and durable paid response; avoid equating all angioedema with bradykinin HAE.
+
+21 | Long niche | E5 @ 21:57;31:58
+Transcript: Interest in acquired-C1-inhibitor deficiency study; expert has seen only two or three cases over career.
+Commercial implication: Potential adjacent unmet-need market.
+Limit: Separate acquired disease, development and eventual coverage; not core hereditary TAM.
+Test: Independent diagnosed prevalence and paid treatment flow; separate scenario.
+
+22 | Long claimed / weak | E3/E5 @ E3 09:45; E5 18:53;25:28
+Transcript: Claims small molecule avoids antibody-driven loss of injectable efficacy.
+Commercial implication: Would support durable persistence if clinically substantiated.
+Limit: Broad claim unsupported; Takhzyro label reports ADAs did not appear to impair clinical response. Small molecule does not guarantee durability.
+Test: Documented loss-of-response and ADA association, not generic claims about monoclonals.
+
+23 | Both | E3 @ 17:11
+Transcript: Respected HAE investigator increases confidence in the program.
+Commercial implication: Physician education and trusted investigators can facilitate consideration.
+Limit: Authority is not independent clinical validation or payer approval.
+Test: Knowledge and prescribing changes after evidence-based education.
+
+24 | Both | E5 @ 10:58
+Transcript: Describes loyalty to manufacturer after supply availability/support helped patients.
+Commercial implication: Reliable supply and practical support may compete with molecule attributes.
+Limit: Historical anecdote not verified company performance metric.
+Test: Supply interruptions, hub service levels and prescribing response.
+
+25 | Short long-term / uncertain | E1/E3/E4 @ E1 16:12; E3 02:36; E4 11:22
+Transcript: Long-interval prevention and potential gene-based treatments could reduce medication burden.
+Commercial implication: Competitor evolution can lower XR share and IR consumption.
+Limit: Development, approval, uptake and durability uncertain; gene editing is not automatically cure.
+Test: Scenario timing, eligible willing patients, residual rescue needs and access.
+
+SAME-MECHANISM DISPUTE: ADJUDICATION
+E4 at 13:39 assumes a breakthrough during prophylaxis occurs while all relevant receptors are already blocked. That is not demonstrated: a competitive antagonist may leave inadequate exposure at the time of breakthrough. Additional acute exposure could therefore help. Conversely, a different mechanism may be a reasonable physician preference and could limit dual-product prescribing even without proof of biological superiority.
+Pharvaris 20 Apr 2026 describes exposure-based combined IR/XR safety margins and a post-hoc CHAPTER-1 analysis of icatibant-treated breakthrough attacks during deucrictibant prevention. This is counterevidence to categorical same-target futility, not a randomized trial establishing IR-on-XR superiority or universal coverage. Treat prescriber acceptance, clinical efficacy, safety and joint reimbursement as four separate questions.
+https://ir.pharvaris.com/news-releases/news-release-details/evidence-supporting-combined-use-deucrictibant-ir-deucrictibant
+
+QUALITY CONTROL: CLAIMS NOT TO IMPORT INTO THE PITCH
+1. E3/E5 repeatedly conflate Takhzyro with B2 receptor antagonism. Takhzyro targets plasma kallikrein; deucrictibant and icatibant target B2. Therefore the same- versus different-mechanism commercial argument must use the corrected map.
+2. E3/E5 imply antibody-driven waning makes small molecules future-proof. FDA Takhzyro labeling states observed anti-drug antibodies, including neutralizing antibodies, did not appear to impair PK, PD, safety or clinical response. That does not rule out individual loss of response, but refutes treating antibody failure as established general attrition.
+https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761090s020lbl.pdf
+3. E4 says pemivibart for three-/six-month HAE prevention. The relevant HAE development candidate is navenibart; this may be a verbal or transcription error. Do not reproduce the wrong name.
+https://ir.biocryst.com/node/27821/html
+4. E2 and E1 wording sometimes mixes attack-rate reduction, control and proportion attack-free. 83%/87% reduction does not mean 83%/87% of patients have no attacks. Existing CHAPTER-3 source reports 25/55 (45.5%) attack-free over 24 weeks; this is not a head-to-head comparison with another trial.
+5. E3 implies no severe or serious events. CHAPTER-3 sponsor table shows three active patients maximum grade 3, one grade 4 and one serious event; none of the serious events judged treatment-related. Keep severity, seriousness and relatedness distinct.
+https://www.sec.gov/Archives/edgar/data/1830487/000119312526384472/phvs-ex99_1.htm
+6. E3/E5 speculate broad efficacy across angioedema and diagnosis clinched by response to a sample. A response can support diagnosis but is not standalone confirmation; all angioedema is not bradykinin-mediated. Sparse normal-C1 trial enrollment is not proof of all-subtype efficacy. Claims that confirmed HAE responds to antihistamines/steroids require clarification of diagnosis/coexisting conditions.
+https://pubmed.ncbi.nlm.nih.gov/41189715/
+https://pubmed.ncbi.nlm.nih.gov/40053270/
+7. E2/E3/E5 assume same manufacturer means one authorization, one medicine or a package deal. No demonstrated PHVS contracting or automatic cross-coverage. Separate IR/XR dosing and benefits must be assessed. Do not assume the same tablet serves both uses.
+8. E5 characterization of European recommendations as favoring C1 replacement over other mechanisms should not be treated as the current international guideline: WAO/EAACI recognizes multiple first-line options. Historical recollections, dates and absolute cross-trial efficacy rankings are not independently verified by these calls.
+9. E3/E5 ZENITH history, cause of discontinued acute development, and commercial population counts remain unverified recollections; do not use as evidence that a pandemic caused discontinuation or as current market sizing.
+
+MODEL TRANSLATION
+For prevention: segment otherwise-eligible patients into inadequate-control/intolerance switches, stable convenience switches and new preventive starts. Model consideration at a treatment-review visit, patient choice, office willingness to submit, approval, paid conversion, months retained and net price. Office burden occurs before submission, so denial rates alone miss suppressed demand.
+For acute: separate competitor-prevention users, PHVS-XR users and acute-only patients. For each estimate residual attacks, fraction treated, PHVS share and doses per treated attack. Then reconcile consumption to paid dispensing, patient inventory, expiry and free supply. Better prevention reduces events; oral convenience may increase treatment propensity; earlier relief may reduce repeat doses. Do not set all three assumptions independently to favorable extremes.
+For dual franchise: do not assume automatic IR attachment to XR. Mechanism-diversifying physicians can favor PHVS IR on competitor prevention and competitor rescue on PHVS XR. Better rescue can also move some patients away from prevention. Shared patients cannot be counted twice as unique TAM, although two separately paid products can generate revenue.
+For diagnosis expansion: separate increased awareness and family screening from new disease incidence. Confirmed subtype, symptoms, diagnostic workups and reimbursed patients are different denominators. Acquired disease is a separate optional expansion.
+None of the quoted switching percentages is ready for base-case share. Suitable use: define segments, plausible directions and sensitivity cases. Not suitable: average five opinions, add patient rosters, multiply TAM by excitement scores, or treat local subtype shares as population prevalence.
+
+STRONGEST COMPETING PITCHES
+Short steelman: Good efficacy is insufficient to displace well-controlled patients. Small practices face unpaid switching work; oral preference does not ensure approval or paid conversion; infrequent injections can be more convenient; low breakthrough frequency limits acute replenishment; second-to-market IR must overcome existing oral access and habit. Dual-franchise forecasts may overstate attachment because some clinicians diversify mechanisms and easier acute treatment can substitute for prevention.
+Long steelman: A credible oral preventive can address patients frustrated by Orladeyo efficacy/GI effects and those who refuse injections. Oral B2 rescue fits existing kallikrein-based prevention, so PHVS need not win XR to build IR demand. Easier acute treatment can increase treatment of previously untreated attacks. Shared familiarity and a strong support program may lower practical friction. Awareness and adjacent indications provide optionality, although their size is unproven.
+What would disconfirm short: rapid paid conversion; many controlled injectable users switch and remain; sustained low abandonment; robust IR adoption on competitor prevention; low office workload; realized net pricing supports attractive economics.
+What would disconfirm long: starts largely free; low paid conversion; switches mainly small existing oral pool; stable patients decline; daily adherence or chronic adverse events reduce retention; dual attachment weak; infrequent injections win convenience preference; normal-C1 expansion denied or unsupported.
+
+HIGHEST-RETURN FOLLOW-UP QUESTIONS
+1. For your last five contemplated HAE switches: did you discuss, submit, obtain approval, dispense paid drug and retain the patient? Why did any stage fail?
+2. Among patients controlled on injections, how many want a daily pill when told the real dosing, efficacy uncertainty, access process and alternative injection intervals?
+3. In the last year, how many Orladeyo users stopped for GI effects, inadequate control, adherence, access or preference—and what did they switch to?
+4. Would you prescribe PHVS IR on Takhzyro? On PHVS XR? What combined-use evidence would change your choice?
+5. How many attacks did each rescue prescription actually treat, and how many refills reflected stock replacement rather than consumption?
+6. Would easier oral rescue cause any patients to defer or stop prevention? Would better oral prevention cause acute-only patients to escalate?
+7. Which specific insurance plans approve normal-C1 cases? What documentation succeeded, and were sample responses followed by durable paid treatment?
+8. What exact work can a manufacturer hub remove from your office, and would removing it change your willingness to switch stable patients?
+9. Which adverse effects would make you stop a daily preventive even if no serious adverse events occurred?
+
+No external messages or interviews were sent. Original attachments remain unchanged.

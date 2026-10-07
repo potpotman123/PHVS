@@ -1,0 +1,1200 @@
+PAGE 1
+Statistical Analysis Plan  
+for Study Part 1 of Clinical Study Protocol: PHA022121-C301 
+(Part 1 Data SAP) 
+Study Title: 
+Acronym: 
+Study Number: 
+SAP Version: 
+Date: 
+A Phase II, Double-blind, Placebo-controlled, Randomized, Dose-
+ranging, Parallel Group Study to Evaluate the Efficacy and Safety 
+of PHA-022121 Administered Orally for Long-term prophylaxis 
+Against Angioedema Attacks in Patients with Hereditary 
+Angioedema due to C1-Inhibitor Deficiency (Type I or Type II) 
+CHAPTER-1 
+PHA022121-C301 
+V1.0 
+October 30, 2023 
+Author: 
+Confidential 
+The information contained in this document is the property of Pharvaris Netherlands B.V. and may not 
+be reproduced, published, or disclosed to others without written authorization from Pharvaris 
+Netherlands B.V. 
+
+PAGE 2
+PHA-022121 Pharvaris Netherlands B.V.
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023
+Confidential Page 1 of 35
+APPROVAL
+This document has been reviewed and approved by:
+Head of Biometrics & Data 
+Science
+Signature Date
+Sr. Manager, Biostatistics Signature Date
+Clinical Development Signature Date
+
+
+SiSiSiSiSiSSiSSSiSiSiSSiSSSSSSS gnnnatatatatatatatatatatatatataaatatataatatatatatatataataaatatatataata urururururururururururuururuurrurururururururuururuuu eeeeeeeeeeeeeeeeeeeeeeeeeeee
+ D
+
+
+
+SiSSSS gnnnnnnnnnnnnnnnnnnnnnnnnnnatatatatatatataaatataatatataatatatatatatatatatatatatatattataturururururururururururururururururrurururrrurrururrreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+ D
+
+	
+
+SiSS gnnnnnnnnnnnnnnnnnnnnatatatatatatatatatatatatatatatatatatatatatatatataattatattatttatturururururuurururrurururururruurururururururureeeeeeeeeeeeeeeeeeeeeeeeeeeee
+ D
+	
+
+PAGE 3
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 2 of 35 
+VERSION HISTORY 
+SAP Version Date Primary Reasons for 
+Amendment 
+ 1.0 October 27, 2023 Initial version 
+     
+ 
+  
+PAGE 4
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 3 of 35 
+TABLE OF CONTENTS 
+APPROVAL ..............................................................................................................................1 
+VERSION HISTORY ................................................................................................................2 
+TABLE OF CONTENTS ...........................................................................................................3 
+LIST OF ABBREVIATIONS ....................................................................................................5 
+1 INTRODUCTION .............................................................................................................7 
+2 STUDY OVERVIEW ........................................................................................................8 
+2.1 Study Objectives and Endpoints ..............................................................................8 
+2.1.1 The Primary Objectives .................................................................................8 
+2.1.2 The Secondary Objectives .............................................................................8 
+2.2 Study Design ............................................................................................................9 
+2.2.1 Overview ........................................................................................................9 
+2.2.2 Sample Size Considerations .........................................................................10 
+2.3 Study Endpoints .....................................................................................................10 
+2.3.1 Safety Endpoints for Part 1 ..........................................................................10 
+2.3.2 Efficacy Endpoints for Part 1 .......................................................................11 
+2.3.3 Pharmacokinetic and Health-related quality of life Endpoints for Part 1 ....11 
+3 DEFINITIONS .................................................................................................................12 
+3.1 Investigational Medicinal Product (IMP) ..............................................................12 
+3.2 Dates, Periods, and Points of Reference ................................................................12 
+3.3 Analysis Sets ..........................................................................................................13 
+3.4 Study-Specific Definitions and Key Derived Variables ........................................14 
+3.4.1 Attack rate related definitions .............................................................................14 
+3.4.2 AE-QoL...............................................................................................................15 
+3.4.3  TSQM-II ............................................................................................................17 
+3.5 Timing and Scope of Milestone Analyses .............................................................17 
+3.5.1 Primary Analysis (End of Part 1 Analysis) ..................................................17 
+3.5.2 Final Analysis (End of Part 2 Analysis) ......................................................17 
+4 STATISTICAL METHODS FOR PLANNED ANALYSES .........................................18 
+4.1 General Principles ..................................................................................................18 
+4.1.1 Analysis Visit Window ................................................................................18 
+4.1.2 Handling Missing Data and Partial Dates ....................................................18 
+4.2 Disposition .............................................................................................................19 
+4.3 Protocol Deviations ................................................................................................20 
+4.4 Demographic and Baseline Characteristics ...........................................................20 
+4.5 IMP Exposure and Concomitant Medications .......................................................21 
+4.5.1 Exposure and Compliance ...........................................................................21 
+4.5.2 Prior and Concomitant Medications ............................................................21 
+PAGE 5
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 4 of 35 
+4.5.3 Prior and Concomitant Procedures ..............................................................22 
+4.6 Efficacy Endpoints .................................................................................................22 
+4.6.1 General Analysis Methods for Efficacy Endpoints .....................................22 
+4.6.2 Primary Efficacy Endpoint ..........................................................................22 
+4.6.3 Secondary Efficacy Endpoints .....................................................................24 
+4.6.4 Subgroup Analyses ......................................................................................25 
+4.7 QoL Endpoints .......................................................................................................25 
+4.8 Safety Endpoints ....................................................................................................26 
+4.8.1 Adverse Events ...................................................................................................27 
+4.8.2 Clinical Laboratory Results ................................................................................27 
+4.8.3 Vital Signs and Physical Examination ................................................................28 
+4.8.4 12-Lead Electrocardiogram (ECG) .....................................................................28 
+4.9 Pharmacokinetic Endpoints in Part 1 .....................................................................29 
+5. CHANGES FROM PROTOCOL-SPECIFIED ANALYSES .........................................30 
+6. SUMMARY OF CHANGES FROM THE PREVIOUS VERSION OF THE SAP ........31 
+7.  BIBLIOGRAPHY ...........................................................................................................32 
+APPENDIX A: ANALYSIS WINDOW FOR PART 1 ..........................................................33 
+APPENDIX B: SAMPLE SAS CODE ....................................................................................34 
+ 
+ 
+PAGE 6
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 5 of 35 
+LIST OF ABBREVIATIONS 
+ 
+AECT-4wk angioedema control test 4-week 
+AE adverse event 
+AE-QoL angioedema quality  of life (questionnaire) 
+BID Twice per day 
+BQL below quantification limit 
+C1-INH C1-esterase inhibitor 
+CI confidence interval 
+COVID-19 coronavirus disease 2019 
+CRF case report form 
+CSR Clinical study report 
+CTCAE Common Terminology Criteria for Adverse Events 
+EOS End of study 
+ePRO Electronic patient-reported outcomes 
+FA Final analysis 
+HAE Hereditary angioedema  
+IMP Investigational Medicinal Product 
+ITT intent-to-treat 
+LS least squares (mean) 
+MedDRA Medical Dictionary for Regulatory Activities 
+OLE 
+PA 
+open-label extension 
+primary analysis 
+PGA-change patient global asse ssment of change (question) 
+PGA-QoL patient global assessment of quality of life (question) 
+PD Pharmacodynamic(s) 
+PK pharmacokinetic(s) 
+PPS Per Protocol Analysis Set (PPS) 
+QoL Quality of life 
+SAE serious adverse event 
+PAGE 7
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 6 of 35 
+SAP statistical analysis plan 
+SOC system organ class 
+SOP standard operating procedure 
+SUSAR suspected unexpected serious adverse reaction 
+TEAE treatment-emergent adverse event 
+TSQM-II treatment satisfacti on questionnaire for medication 
+US United States 
+WAO World Allergy Organization 
+WCBP Women of child-bearing potential 
+PAGE 8
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 7 of 35 
+1 INTRODUCTION 
+The purpose of this Statistical Analysis Plan (SAP) is to provide a description of the 
+statistical methods to be implemented for the Primary Analysis (PA) using data from the 
+double-blind treatment period (Part 1 data) up through protocol PHA022121-C301 version 7, 
+dated 03 May, 2023. Therefore, this SAP is referred to as the Part 1 data SAP. It will be 
+finalized prior to the PA database lock. Analysis related to Part 2 data or combined datasets 
+of Part 1 and Part 2 will be described in the Final Analysis (FA) SAP. Any deviations from 
+this SAP after PA database lock and release of treatment code will be documented in the final 
+Clinical Study Report (CSR). 
+PAGE 9
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 8 of 35 
+2 STUDY OVERVIEW 
+2.1 Study Objectives and Endpoints 
+The objectives and endpoints are separately described by Part 1 and Part 2 because the study 
+consists of 2 parts, with participants completing Part 1 prior to initiation of treatment in Part 
+2. Part 1 is a double-blind, placebo-controlled, 12-week evaluation of the efficacy and safety 
+of 2 dose regimens of PHA-022121. Part 2 is an open-label evaluation of the long-term safety 
+and efficacy of a single dose regimen of PHA-022121. Further details are outlined in Section 
+2.2. Part 2 analysis is not covered in this SAP. 
+2.1.1  The Primary Objectives 
+Part 1 
+x To evaluate the safety and tolerability of two dose regimens of PHA-022121 
+administered as long-term prophylaxis against HAE attacks. 
+x To evaluate the efficacy of two dose regimens PHA-022121 administered as long-term 
+prophylaxis against HAE attacks. 
+ 
+Part 2 
+x To evaluate the safety of PHA-022121 administered as long-term prophylactic HAE 
+treatment. 
+ 
+2.1.2 The Secondary Objectives 
+Part 1 
+x To characterize the pharmacokinetics/pharmacodynamics (PK/PD) of two dose regimens 
+of PHA-022121 administered as long-term prophylaxis against HAE attacks. 
+x To evaluate the impact on health-related quality of life (QoL) of two dose regimens of 
+PHA-022121 administered as long-term prophylaxis against HAE attacks. 
+ 
+Part 2 
+x To evaluate the efficacy of PHA-022121 administered as long-term prophylactic HAE 
+treatment. 
+x To evaluate the PK/PD of PHA-022121 administered as long-term prophylactic HAE 
+treatment.  
+x To evaluate the impact on health-related quality of life (QoL) of PHA-022121 
+administered as long-term prophylactic HAE treatment.  
+ 
+PAGE 10
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 9 of 35 
+2.2 Study Design 
+2.2.1    Overview 
+x This is a Phase II, multicenter, randomized, double-blind, placebo-controlled, dose-
+ranging, parallel group, 2-part study to evaluate the safety and efficacy of PHA-022121 
+soft capsules (PHVS416) administered orally for long-term prophylaxis against 
+angioedema attacks in participants with HAE due to C1-inhibitor (C1-INH) deficiency 
+(type I or type II) (see study design schematic in Figure 1). 
+The study consists of 2 parts, with participants completing Part 1 prior to initiation of 
+treatment in Part 2. Part 1 is a double-blind, placebo-controlled, 12-week evaluation of 
+the efficacy and safety of 2 dose regimens of PHA-022121. Part 2 is an open-label 
+evaluation of the long-term safety and efficacy of a single dose regimen of PHA-022121. 
+The duration of the treatment period in Part 2 is 30 months and may be extended until 
+another clinical study is available for participants to continue open-label treatment with 
+PHA-022121, provided that the safety and efficacy data from the ongoing studies support 
+continuing the use of PHA-022121. If the treatment period is extended, revisions will be 
+addressed via a protocol amendment. Such an extension will impact Part 2 analysis but 
+not Part 1. Any participant who withdraws consent or is discontinued from the study at 
+any time will complete an end-of-study visit approximately 4 weeks after the last 
+treatment administration. 
+x Following signing of informed consent, participants will undergo screening assessments. 
+The screening period may last up to 8 weeks. 
+x For Part 1, eligible participants will be randomized in a 1:1:1 ratio to receive placebo or 
+one of two dose regimens of PHA-022121 (10 mg or 20 mg twice daily [BID]). Each 
+participant will receive blinded investigational medicinal product (IMP) (i.e., PHA-
+022121 or placebo) to be administered orally BID after breakfast and dinner with 12 ±2 
+hours between doses for a duration of 12 weeks of treatment. 
+x For Part 2, participants will administer open-label PHA-022121 20 mg BID after 
+breakfast and dinner for a duration of 30 months. To be eligible for continued treatment 
+in Part 2, the participant must have completed Part 1, unless discontinued from Part 1 due 
+to regulatory actions. If there is a gap in treatment between Parts 1 and 2, Visit 7 safety 
+assessments are to be performed, with results reviewed by the Investigator, and 
+participant eligibility reconfirmed before the participant may restart treatment in Part 2. 
+x Throughout the study (both Part 1 and Part 2), an electronic patient-reported outcomes 
+(ePRO) HAE diary (i.e., ePRO HAE diary) will be used daily to record any symptoms 
+and details of HAE attacks, including relevant treatments and questionnaires for QoL 
+endpoints (see 4.7).  Participants will have access to standard of care on-demand acute 
+therapies and will be able to treat any HAE attack that may occur using such therapies in 
+accordance with World Allergy Organization (WAO)/European Academy of Allergy and 
+Clinical Immunology (EAACI) guidelines and local regulations. In addition to the 
+collection information on HAE attacks, the ePRO HAE diary will be used as a dosing 
+diary to record each administration of IMP. 
+PAGE 11
+PHA-022121 Pharvaris Netherlands B.V.
+Statistical Analysis Plan for PHA022121-C301 Version 1.0, October 27, 2023
+Confidential Page 10 of 35
+Participants will complete an end-of-study visit 4 weeks after the last treatment 
+administration. This visit may be waived if participants continue in another open label 
+clinical study of PHA-022121.
+Figure 1 Study Design Schematic
+BID=twice daily; R=randomization
+2.2.2 Sample Size Considerations
+Power analysis and sample size estimation were conducted by assuming a Poisson 
+distribution for angioedema attacks.  
+ 
+For a treatment effect of 60% reduction in attacks as compared to placebo, 
+ 
+ a sample size of 10 participants per group receiving 
+active treatment and 10 participants receiving placebo would provide an approximate 85% 
+power, at a significance level of 0.05 for two-sided test comparing each dose of PHA-022121 
+to placebo, without multiplicity correction for the two comparisons. Assuming a larger 
+treatment effect of 80% reduction in attack rate, the power would increase to approximately 
+98%.
+2.3 Study Endpoints
+2.3.1 Safety Endpoints for Part 1
+x Treatment-emergent adverse events (TEAEs), treatment-related AEs and SAE’s, and 
+treatment-emergent SAEs 
+x Clinical laboratory tests 
+x Vital signs 
+x ECG data 
+
+PAGE 12
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 11 of 35 
+2.3.2 Efficacy Endpoints for Part 1 
+Primary Efficacy Endpoint: 
+ 
+x Number of investigator-confirmed HAE attacks (expressed as the normalized number of 
+attacks per month [4 weeks] of exposure) during the treatment period in Part 1. 
+  
+Secondary Efficacy Endpoints: 
+ 
+x Number of Investigator-confirmed moderate or severe HAE attacks during the treatment 
+period in Part 1 (Day 0 to Day 84). 
+x Number of Investigator-confirmed HAE attacks requiring acute treatment during the 
+treatment period in Part 1. 
+x Number of participantVDFKLHYLQJUHGXFWLRQLQDWWDFNUDWHUHODWLYHWREDVHOLQH
+during the treatment period in Part 1. 
+x Number of participantVDFKLHYLQJUHGXFWLRQLQDWWDFNUDWHUHODWLYHWREDVHOLQH
+during the treatment period in Part 1. 
+x Number of participantVDFKLHYLQJUHGXFWLRQLQDWWDFNUDWHUHODWLYHWREDVHOLQH
+during the treatment period in Part 1. 
+x Number of participants that are attack-free during the treatment period in Part 1. 
+x Number and proportion of days with angioedema symptoms during the treatment period 
+in Part 1. 
+x Time to first Investigator-confirmed HAE attack in the treatment period in Part 1. 
+x Number of Investigator-confirmed HAE attacks resulting in a visit to the emergency 
+department or an admission to hospital during the treatment period in Part 1. 
+ 
+2.3.3 Pharmacokinetic and Health-related quality of life Endpoints for Part 1 
+x Pharmacokinetic parameters based on plasma concentration of PHA-022121  
+x Change from baseline in the AE-QoL questionnaire scores  
+x PGA-QoL and PGA-change questions  
+x AECT-4wk scores  
+x TSQM (version II) scores  
+ 
+PAGE 13
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 12 of 35 
+3 DEFINITIONS 
+3.1 Investigational Medicinal Product (IMP) 
+In Part 1, both double-blinded PHA-022121 and placebo are referred to as investigational 
+medicinal product (IMP). 
+The treatments to be administered in Part 1 consist of 10 mg PHA-022121 soft capsules 
+(PHVS416) and matching placebo soft capsules for oral use.  
+The IMP consists of 10 mg PHA-022121 soft capsules and matching placebo capsules for oral 
+intake. The capsules are to be swallowed with at least 200 mL of water after breakfast and dinner, 
+with 12 ± 2 hours between each dose.  
+Participants are randomly assigned to one of three treatment groups and will receive blinded 
+IMP as indicated: 
+x PHA-022121 10 mg BID: 10 mg BID: one capsule of 10 mg PHA-022121 and one 
+placebo capsule after breakfast and dinner  
+x PHA-022121 20 mg BID: two capsules of 10 mg PHA-022121 after breakfast and 
+dinner.  
+x Placebo: two placebo capsules after breakfast and dinner. 
+ 
+3.2 Dates, Periods, and Points of Reference 
+Baseline 
+ 
+Study baseline result refers to the results at randomization. Specifically, it is defined as the 
+last assessment result prior to the first dose of IMP, i.e., the IMP administration in study Part 
+1 to assess efficacy, safety and PK. For electrocardiogram (ECG), the baseline is defined as 
+the mean of the last recorded triplicate before the first IMP administration. If no triplicate is 
+available before the first dose of IMP, the last ECG value before the first IMP administration 
+will be considered as baseline. For AE-QoL, the baseline may be measured within two days 
+of the first dose of IMP. 
+ 
+Study Day 
+The first IMP administration date is defined as the first day on which the participant took 
+the first dose of the IMP as recorded on the CRF. 
+For assessments on or after the first IMP administration, study day is assessment date – the 
+first IMP administration date + 1. As such, the first IMP administration date is study Day 1 
+and it is used for all the outputs. Note that protocol refers to the first IMP administration date 
+as Day 0. 
+For assessments before the first IMP administration date, study day is calculated as 
+assessment date – the first IMP administration, therefore, the day before the first IMP 
+administration day is Day -1. 
+PAGE 14
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 13 of 35 
+ 
+Analysis Periods 
+ 
+The screening period is defined as the period from the date and time of informed consent to 
+the time before randomization, i.e., Visit 1 Day 0. The duration of the screening period is 
+calculated as: Date of Randomization (i.e., Visit 1 Day 0) – date of informed consent +1. 
+ 
+The study period in Part 1 is defined as the period from randomization, (i.e., Visit 1, Day 0) 
+to the date/time prior to the first IMP administration in Part 2 for participants who enrolled in 
+Part 2, or to the end of study (EOS) date for participants who do not enroll in Part 2.
+  
+ 
+The treatment period in Part 1 is defined as the date and time of first IMP administration 
+to the date and time of last IMP administration in Part 1. The duration of the treatment period 
+is calculated as date of last IMP administration in Part 1 – date of first IMP administration of 
+IMP +1.  
+ 
+The treatment period without substantial IMP non-compliance in Part 1 is defined as 
+the treatment period excluding all substantial IMP non-compliance periods in Part 1. A 
+participant may have multiple IMP non-compliance periods. An instance of substantial IMP 
+non-compliance occurs when 4 or more consecutive doses of IMP are missing. The duration 
+of non-compliance period is calculated (in days) as the total number of missed doses during 
+non-compliance periods divided by 2.  The substantial IMP non-compliance period is defined 
+as the time period that starts from 12 hours after the most recent dose of IMP before the 
+instance of substantial IMP-non-compliance and with duration defined as above.  
+ 
+The treatment period censored at first substantial IMP non-compliance in Part 1 is 
+defined as the period from the date and time of first IMP administration to the start date and 
+time of first substantial IMP non-compliance period in Part 1.   
+ 
+3.3 Analysis Sets 
+Intent-to-treat (ITT) Analysis Set 
+ITT analysis set includes all randomized participants who received at least one dose of IMP 
+(PHA-022121 or placebo). In the analyses performed on the ITT Analysis Set, unless 
+otherwise specified, participants will be analyzed according to their assigned treatment group 
+per randomization regardless of actual treatment received. 
+ 
+Safety Analysis Set 
+Safety Analysis Set includes all randomized participants who received at least one dose of 
+IMP (PHA-022121 or placebo), essentially the same set of participants included in the ITT 
+PAGE 15
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 14 of 35 
+Set. In Part 1 analyses performed on the Safety Analysis Set, participants will be analyzed 
+according to their actual treatment received.  In cases where the participants received 
+different doses during Part 1, the actual treatment is defined as the highest dose level that is 
+>5% of the actual drug the participant has taken.  
+ 
+Per Protocol (PP) Analysis Set  
+The PP analysis set includes all participants in the ITT Analysis Set without any major items 
+that could influence the validity of the data for the primary efficacy evaluations. Major items 
+that may impact the key efficacy assessment include, but are not limited to: 
+x Major violations of inclusion/exclusion criteria 
+x Actual treatment is different from assigned at randomization 
+x Use of prohibited medications during the treatment period 
+All criteria to exclude participants from the PP analysis set will be finalized based on a 
+blinded review of the data prior to Part 1 primary database lock.  
+ 
+Pharmacokinetic (PK) Analysis Set  
+PK Analysis Set includes all randomized participants who undergo plasma PK sampling and 
+have evaluable concentration data for analysis. Participants will be analyzed according to the 
+actual treatment received.   
+ 
+3.4 Study-Specific Definitions and Key Derived Variables 
+3.4.1 Attack rate related definitions 
+Unless otherwise specified, “HAE attack” refers to Investigator confirmed attacks.  An attack 
+will be counted as in Part 1 if it occurs after the first IMP administration and before 24 hours 
+after the last IMP administration in Part 1 or before the first IMP administration in Part 2, 
+whichever comes earlier.   
+ 
+Baseline attack rate 
+x For participants who were not on long-term prophylactic treatment and have documented 
+history of at least 3 HAE attacks within the last 12 weeks prior to the screening visit, the 
+baseline attack rate will be calculated as: Attacks per 4 weeks = number of attacks in the 
+past 3 months (12 weeks) prior to screening divided by 3.  
+x Participants who were on long-term prophylactic treatment, had no documentation of 
+their attacks or had fewer than 3 attacks in the 12 weeks prior to the screening visit must 
+experience a minimum of 2 HAE attacks during the screening period of up to 8 weeks to 
+be eligible. For these participants, the baseline attack rate will be calculated as follows: 
+PAGE 16
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 15 of 35 
+ ݈݁݊݅݁ݏܾܽ ݇ܿܽݐݐܽ ݁ݐܽݎ( ݎ݁݌4 ݏ݇݁݁ݓ =) 
+ே௨௠௕௘௥ ௢௙ ௔௧௧௔௖௞௦ ௗ௨௥௜௡௚ ௦௖௥௘௡௜௡௚ ௣௘௥௜௢ௗ 
+஽௨௥௔௧௜௢௡ ௜௡ ௗ௔௬௦ ௢௙ ௦௖௥௘௘௡௜௡௚ ௣௘௥௜௢ௗ÷ଶ଼ . 
+ 
+According to the protocol, randomization to treatment groups is stratified by baseline attack 
+UDWHLQWRFDWHJRULHVWRDWWDFNVWRDWWDFNVRUDWWDFNVSHUZHHNVDue to the 
+small group size for 2 to < 3 attacks as observed in the data, the baseline attack rate 
+categories are regrouped to the two categories: 1 to < 2 attacks, or >=2 attacks (i.e., 2 to < 3 
+DWWDFNVDQGRUDWWDFNVDUHFRPELQHGWRRQHFDWHJRU\ 
+ 
+Monthly attack rate  
+The monthly attack rate in Part 1 is the primary endpoint of the study, i.e., the number of 
+Investigator-confirmed HAE attacks during the treatment period in Part 1 expressed as the 
+normalized number of attacks per month (4 weeks) of exposure. The monthly attack rate is 
+calculated for each participant as number of HAE attacks occurring during the treatment 
+period divided by the number of days the participant contributed to the treatment period 
+multiplied by 28 days.  
+ 
+Attack rate by month-interval  
+For each month-interval, the attack rate for a participant will be calculated using the number 
+of HAE attacks with onset date within each month-interval during the treatment period in 
+Part 1. Monthly intervals in Part 1 are Day 0 to Day 27, Day 28 to Day 55 and Day 56 until 
+end of Part 1.  Note for participants whose monthly period is more or less than 28 days, the 
+monthly attack rate will be normalized based on the actual days within the period multiplied 
+by 28. 
+ 
+Percent reduction in attack rate during the treatment period in Part 1 
+Percent reduction in attack rate during the treatment period in Part 1 relative to baseline will 
+be calculated as follows:  
+ ݈݁݊݅݁ݏܽܤ ݇ܿܽݐݐܽ െ ݇ܿܽݐݐܣ ݁ݐܽݎ ݃݊݅ݎݑ݀ ݐ݊݁݉ݐܽ݁ݎݐ ݀݋݅ݎ݁݌
+݈݁݊݅݁ݏܽܤ ݇ܿܽݐݐܽ ݁ݐܽݎ
+× 100 
+A positive reduction from baseline indicates improvement. 
+ 
+3.4.2 AE-QoL 
+The AE-QoL questionnaire (Weller K, 2016) consists of 17 items across four 
+domains/dimensions as shown below. Each of the 17 questions has a five-point response 
+scale ranging from 0 to 4.  
+ 
+ 
+PAGE 17
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 16 of 35 
+Table 1: AE-QoL questionnaire 
+Dimensions Item 
+Functioning 1. Impairment of work 
+2. Impairment of physical activity 
+3. Impairment of spare time activities 
+4. Impairment of social relations 
+Fatigue/Mood 6. Difficulties of falling asleep 
+7. Waking up during the night 
+8. Feeling tired during the day 
+9. Difficulties in concentrating 
+10. Feeling downhearted 
+Fears/Shame 12. Feeling burdened at having swellings 
+13. Fear of new suddenly appearing swellings 
+14. Fear of increased frequency of swellings 
+15. Ashamed to visit public places 
+16. Embarrassed by the appearance of swellings 
+17. Fear of long term negative drug effects 
+Nutrition 5. General limitations in foods and eating 
+11. Limitations in the selection of food and beverages 
+ 
+For AE-QoL, the raw domain scores (mean of the item scores within each domain) and the 
+raw total score (mean of all item scores) will be calculated. Missing items are excluded from 
+the raw domain/total score calculation. 
+ 
+All raw domain scores and total score will be transformed into percentage scores (referred as 
+AE-QoL domain scores and total score in following section) prior to analyses by using the 
+formula below. The AE-QoL domain scores and total score range from 0 – 100. A higher 
+score means worse, while a lower score indicates better health-related QoL. 
+ 
+AE-QoL domain and total score formula: 
+(Sum of all completed items/Max. possible sum of all completed items) x 100. 
+The AE-QoL domain score will not be calculated if more than one item is missing in that 
+domain. The AE-QoL total score will not be calculated if more than 25% of items (> 4 items) 
+are missing. 
+PAGE 18
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 17 of 35 
+ 
+3.4.3  TSQM-II 
+TSQM Version II has 11 items across four specific domains of Effectiveness, Side Effects, 
+Convenience, and Global Satisfaction. Scores for each domain are computed by adding the 
+TSQM items in each domain and then transforming the composite score into a value ranging 
+from 0 to 100. Of note, a score can be computed for a domain only if no item is missing. If 
+the participant answers ‘yes’ to item 3, he/she will be prompted to answer items 4-6. If the 
+answer to question 3 is ‘no’, items 4-6 are skipped, and the participant moves right to 
+question 7 and the Side Effects domain score will not be calculated. The calculations specific 
+to each domain are presented in detail below (taken from TSQM User Manual Version 2.2 
+dated 12Jan2021): 
+x Global Satisfaction 
+o ([Sum(Item 10 to Item 11) – 2] divided by 12) * 100 
+o If one item is missing: 
+ ([(Use the completed item)) – 1] divide by 6) * 100 
+x Effectiveness 
+o ([(Item 1 + Item 2) – 2] divide by 12) * 100  
+o If one item is missing: 
+ ([(Use the completed item)) – 1] divide by 6) * 100  
+x Side Effects 
+o All ‘NA’ responses are coded as ‘5’ indicating ‘Not at all Dissatisfied’ 
+o ([Sum (Item 4 to Item 6) – 3] divide by 12) * 100 
+o If one item is missing: 
+ ([(Sum (the two completed items)) – 2] divide by 8) * 100 
+x Convenience 
+o ([Sum (Item 7 to Item 9) – 3] divided by 18) * 100 
+o If one item is missing: 
+ ([(Sum (the two completed items)) – 2] divided by 12) * 100 
+ 
+3.5 Timing and Scope of Milestone Analyses 
+3.5.1 Primary Analysis (End of Part 1 Analysis) 
+The Primary Analysis (PA) will be conducted after all participants have completed Part 1 of 
+the study or have been discontinued from the study, at which point the unblinded analysis 
+will be performed based on all data through the end of Part 1 (approximately 12-week 
+assessment).  
+3.5.2 Final Analysis (End of Part 2 Analysis) 
+The Final Analysis (FA) for the study will occur at the end of the entire study when all 
+participants have completed Part 2 of the study or have been discontinued from the study and 
+the study database final lock is completed.  Details on planned statistical analyses will be 
+specified in a separate SAP, namely, the FA SAP.  
+PAGE 19
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 18 of 35 
+4 STATISTICAL METHODS FOR PLANNED ANALYSES 
+4.1  General Principles  
+Data displays produced for this study will include summary tables, figures, and data listings 
+(TFLs).  
+ 
+In TFLs, the treatment “PHA-022121 10 mg BID” and “PHA-022121 20 mg BID” will be 
+displayed in abbreviations of “PHA 10 mg” and “PHA 20 mg”, respectively. Unless 
+described otherwise in following sections, in TFLs based on Part 1 data, results will be 
+presented by treatment groups: Placebo, PHA 10 mg, and PHA 20 mg. Continuous data will 
+be summarized with the number of participants, mean, standard deviation (SD), median, 25th 
+percentile, 75th percentile, minimum, and maximum. Categorical data will be summarized 
+with the number and percentages of participants in each category. 
+ 
+Data listings will include the data recorded on the CRF or derived variables for each record. 
+They will be ordered by treatment (IMP), site, participant number, and time of assessment. 
+When expedient, additional levels of ordering hierarchy may reflect subsets of assessments 
+within the participant.    
+ 
+Unless otherwise specified, the ITT and the PP Analysis Sets will be used for analysis of 
+efficacy and health-related QoL endpoints, and the Safety Analysis Set will be used for 
+analysis of safety endpoints.  The PK Analysis Set will be used for PK Analysis. 
+ 
+4.1.1  Analysis Visit Window 
+All assessments including scheduled, unscheduled, and early termination visits will be 
+assigned to analysis visits using analysis visit windows based on the study day. If more than 
+one assessment (scheduled, unscheduled, or early termination) occurs within a single visit 
+window, then the analysis will be based on the assessment that is closest to the target day of 
+the visit with the planned assessment. If there are multiple assessments that are equidistant 
+from the target day, the visit with the later date and time will be used. 
+The analysis visit windows will be applied to all efficacy and safety visits. The details can be 
+found in Appendix A. 
+ 
+4.1.2 Handling Missing Data and Partial Dates 
+Unless stated otherwise, missing data will not be imputed. When deemed necessary, sections 
+below will address how missing data will be handled for the particular analyses.  
+PAGE 20
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 19 of 35 
+Partial dates are allowed on the CRF for adverse events and prior and concomitant 
+medications. Dates from these forms will be reported in listings as collected. Every effort 
+will be made to query completely missing and partially missing dates.  
+For medications with completely missing dates, no imputation will be performed, and they 
+will be treated as both prior and concomitant medications. 
+For the purposes of handling partially reported start and stop dates for medication the 
+following algorithm will be applied: 
+x Missing start day, but month and year present: 
+The start day will be set to the first day of the month. 
+x Missing start day and month, but year present: 
+The start day and month will be set to 01 January. 
+x Missing end day, but month and year present: 
+The day will be set to the last day of the month, or the end of study date, whichever is 
+earlier. 
+x Missing end day and month, but year present: 
+      The end day and month will be set to the data cut-off date, end of study date or      
+      December 31 of the year, whichever is earliest. 
+ 
+For the purposes of handling partially reported start and stop dates for adverse events the 
+following algorithm will be applied: 
+ 
+x Missing start day, but month and year present: If the first IMP dose had been taken in the 
+same month and year as the occurrence of the adverse event, then the start day of the 
+adverse event will be assigned to the day of first dose of IMP. Otherwise, the start day 
+will be set to the first day of the month. 
+x Missing start day and month but year present: If the first IMP dose had been taken in the 
+same year as the occurrence of the adverse event, then the start day of the adverse event 
+will be assigned to the day of first dose of IMP. Otherwise, the start day will be set to the 
+first day of the year. 
+x Missing end day, but month and year present: The day will be set to the last day of the 
+month, the end of study date or data cutoff, whichever is earliest. 
+x Missing end day and month but year present: The day will be set to the last day of the 
+year, the end of study date or data cutoff, whichever is earliest. 
+ 
+4.2  Disposition  
+Frequencies and percentages of participants’ summary table and listings will be generated for 
+the following disposition categories: 
+x Screened  
+x Screen failures 
+x Randomized 
+x Analysis Sets 
+PAGE 21
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 20 of 35 
+x Completed the Part 1 treatment 
+x Reason for Part 1 treatment discontinuation.  
+x Reason for Part 1 study discontinuation   
+x Participants with Early Study Discontinuation Impacted by COVID 
+ 
+4.3 Protocol Deviations 
+Protocol deviations will be defined in the Protocol Deviation Plan. Frequencies and 
+percentages of participants with CSR reportable protocol deviations by deviation category 
+will be summarized by treatment group and in total, grouped by eligibility deviations and on-
+study protocol deviations, based on ITT.  
+ 
+All CSR reportable protocol deviations will be listed with the flag of whether they are related 
+to COVID-19 pandemic. 
+ 
+4.4  Demographic and Baseline Characteristics 
+Participant characteristics defined below will be presented in summary tables and data 
+listings for participants in the ITT Analysis Set. Percentages will be based on the number of 
+participants in the ITT Analysis Set.  
+Demography 
+x Age: (years) 
+x $JHJURXS\HDUV 
+x Sex   
+x Race  
+x Ethnicity   
+x Country of enrollment 
+ 
+Baseline Characteristics  
+x Height (cm) 
+x Weight (kg) 
+x BMI (kg/m
+2) 
+x Childbearing potential (Yes, No) for WCBP only 
+x HAE Type I or II 
+x Baseline HAE Attack Rate (per month) 
+x Baseline HAE Attack Rate Categories (both actual categories and stratification factor 
+in randomization): 
+x Family History Consistent with HAE Type I or II   
+x Subjects with HAE long-term long-term prophylactic treatment in the three months 
+prior to screening 
+ 
+PAGE 22
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 21 of 35 
+Medical History  
+Medical history will be coded using MedDRA version 24.0 or higher. Medical Histories will 
+be summarized for the ITT Analysis Set by system organ class (SOC) and preferred term 
+(PT) using frequencies and percentages.  
+ 
+4.5 IMP Exposure and Concomitant Medications 
+4.5.1 Exposure and Compliance 
+Exposure and compliance regarding PHA-022121 or placebo will be summarized using the 
+following parameters based on the data collected in the EDC: 
+x Duration of the treatment period in Part 1 (days, defined in Section 3.2) 
+x Total number of capsules taken in Part 1, calculated as total number of capsules 
+dispensed in Part 1 minus total number of capsules returned from those dispensed in Part 
+1. If the wallet is not returned, all the capsules contained in that wallet are assumed to be 
+taken. 
+x Average Daily Dose of IMP in Part 1 (capsules/day), calculated as total # of capsules 
+taken in Part 1 divided by duration of the treatment period in Part 1  
+x Percent compliance in Part 1, calculated as: 
+ 
+݈ܽݐ݋ܶ # ݂݋ ݏ݈݁ݑݏ݌ܽܥ ݊݁݇ܽܶ ݊݅ ݐݎܽܲ1 
+ݐ݊݁݉ݐܽ݁ݎܶ ݊݋݅ݐܽݎݑܦ ݂݋ ܲܯܫ ݊݅ ݐݎܽܲ1 (ݏݕܽ݀)כ 4 െ2  ×  100 
+x Percent compliance categories: < 80%, 80-110%, >110% 
+ 
+The above parameters will be summarized for treatment group and overall (i.e., all treatment 
+groups pooled together). A listing of the exposure and compliance parameters will also be 
+provided. Participant diary data will also be presented in listings.  
+ 
+4.5.2 Prior and Concomitant Medications 
+ 
+Prior and concomitant medications, including prohibited medications, will be coded using the 
+World Health Organization Drug Dictionary (WHO-DD) version B3 Global March 2021.  
+Prior medications are defined as any medications taken prior to the start of the IMP. 
+Concomitant medications are defined as medications with a start date/time during the Part 1 
+treatment period, or medications with a start date/time prior to first IMP administration but 
+ongoing during Part 1 treatment period. If the start or stop dates/times of medications are 
+missing completely, the medication will be deemed as both prior and concomitant. If it is 
+partially missing, the missing imputation rules from Section 4.1.2 will be applied to 
+determine if it is prior or concomitant medication. 
+PAGE 23
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 22 of 35 
+The number and percentage of participants with prior and concomitant medications in Part 1 
+will be summarized by WHO-DD Anatomical-Therapeutic-Chemical (ATC) classification 
+and PT by treatment groups. For each PT, a participant will only be counted once if he/she 
+has more than one medication. A separate summary of concomitant HAE acute and long-
+term prophylaxis medications in Part 1 will also be provided.  
+ 
+4.5.3 Prior and Concomitant Procedures 
+ 
+Prior and concomitant procedures will be coded using version 24.0 or higher of MedDRA. 
+Any missing dates will be imputed using the rules from Section 4.1.2. 
+Prior procedures are defined as any procedures that started prior to the start of the IMP.  
+Concomitant procedures are defined as procedures with a start date/time during the Part 1 
+study period.  
+ 
+4.6 Efficacy Endpoints   
+4.6.1 General Analysis Methods for Efficacy Endpoints 
+Efficacy data will be summarized by randomized treatment based on the ITT Analysis Set.  
+All statistical tests are carried out 2-sided (with 5% significance level). No multiplicity 
+adjustments will be applied. The statistical test for the primary endpoint will be performed to 
+compare each dose of PHA-022121 to placebo without multiplicity correction for the two 
+comparisons. For the analyses of secondary efficacy endpoints, all statistical tests comparing 
+treatments are descriptive in nature and will be made without adjustment for multiplicity. 
+ 
+4.6.2 Primary Efficacy Endpoint  
+The primary efficacy endpoint will be the number of Investigator-confirmed HAE attacks 
+during the treatment period in Part 1 (Day 0 through Day 84) and will be expressed as the 
+normalized number of attacks per month (4 weeks) of exposure. The monthly attack rate in 
+Part 1 is calculated for each participant as the number of HAE attacks occurring during the 
+treatment period in Part 1 divided by the number of days the participant contributed to the 
+treatment period in Part 1 multiplied by 28 days.  
+The analysis of the primary efficacy endpoint will be performed based on the intent-to-treat 
+(ITT) Analysis Set and will compare each PHA-022121 dose group with the placebo group 
+using a generalized linear model (GLM) assuming a Poisson distribution with a log link 
+function and Pearson chi-square scaling of standard errors to account for potential dispersion. 
+The model will include fixed effects for treatment group (categorical), the normalized 
+baseline attack rate (continuous), the randomized stratification factor of baseline attack rate 
+(categorical), and an offset term of the logarithm of participant’s follow-up time (in months) 
+during the efficacy evaluation period. The stratification factor of baseline attack rate will be 
+PAGE 24
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 23 of 35 
+combined into two groups (1 to < 2 attacks vs. >= 2 attacks) due to small sample size for 
+certain category. The estimated least squares (LS) mean rate for each PHA-022121 dose 
+group and the mean rate ratios relative to the placebo group will be provided with 95% 
+confidence intervals. These estimates will be reported as monthly attack rates (mean numbers 
+of events per 4 weeks) by transforming the estimates using the exponential function and 
+scaling by the unit of time. The treatment effect in the primary efficacy endpoint will be 
+tested using a Wald-based chi-square test. In addition, Wilcoxon two-sample test and the 
+Hodges-Lehman estimate will be conducted comparing each PHA-022121 dose group with 
+the placebo group. In the event that Poisson regression has model fitting issues due to limited 
+sample size and excessive zero counts, the Wilcoxon two-sample test will be used as the 
+primary analysis method to test the treatment effect.  
+The SAS code for Poisson Model, Wilcoxon rank sum test and Hodges-Lehman estimator are 
+presented in Appendix B. 
+ 
+Primary Estimand 
+The primary estimand of interest is defined by the following attributes: 
+x Treatment: 2 PHA-022121 dose levels (10 and 20 mg BID) vs placebo 
+x Population: Patients with HAE due to C1-INH deficiency (type I or type II) as defined by 
+the inclusion/exclusion criteria in the protocol 
+x Endpoint: Number of Investigator-confir med HAE attacks, expressed as a time 
+normalized number of attacks, i.e., monthly attack rate in Part 1  
+x Intercurrent events: 
+o Discontinuation of IMP is considered as an intercurrent event:  hypothetical 
+strategy will be taken with the missing at random (MAR) assumption for 
+participants who discontinue IMP early, the observed data up to the date of last 
+IMP administration +1 will be included in the primary endpoint analysis.   
+x Population-level summary: Ratios of investigator-confirmed HAE attack rate comparing 
+PHA-022121 to placebo groups. 
+ 
+Sensitivity Analyses 
+To evaluate the robustness of the assumption of Poisson regression, a sensitivity analysis will 
+be performed on the primary efficacy endpoint using a negative binomial GLM, if feasible.  
+If there are differences between the actual baseline attack rate and the stratification factor 
+used for randomization, the primary efficacy analysis may be repeated by using the actual 
+baseline attack rate category in the model.  
+ 
+Supplementary Analyses 
+x The primary analysis above will be repeated using the PP Analysis Set. 
+PAGE 25
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 24 of 35 
+x The primary analysis will be repeated using the attacks during the treatment period 
+without substantial IMP non-compliance in Part 1.   
+x The primary analysis may be repeated using the attacks during the treatment period 
+censored at first substantial IMP non-compliance in Part 1. 
+ 
+4.6.3 Secondary Efficacy Endpoints  
+The analyses of the secondary efficacy endpoints are considered supportive; all statistical 
+tests comparing treatments are descriptive in nature and will be made without adjustment for 
+multiplicity. 
+ 
+HAE attack endpoints: 
+The following secondary efficacy endpoints will be analyzed in a similar manner to the 
+primary endpoint using a Poisson regression model if applicable: 
+x Number of patient-reported HAE attacks.  
+x Number of Investigator-confirmed moderate or severe HAE attacks during the treatment 
+period in Part 1. 
+x Number of Investigator-confirmed HAE attacks requiring acute treatment during the 
+treatment period in Part 1. 
+x Number of Investigator-confirmed HAE attacks resulting in a visit to the emergency 
+department or an admission to hospital during the treatment period in Part 1. 
+ 
+In the event that Poisson regression has convergence issues, non-parametric test, Wilcoxon 
+two-sample test, and the Hodges-Lehman estimate will also be conducted comparing each 
+PHA-022121 dose group with the placebo group. 
+Depending on the observed counts of the endpoints above, an additional analysis based on 
+the negative binomial GLM may be conducted, if feasible.  
+Descriptive summary statistics that include the number of events, subject-time (months) 
+contribution to the treatment period, and average event rates will also be provided by 
+treatment groups. Similar supplementary analyses as primary endpoint may be conducted.  
+ 
+Binary endpoints: 
+For the following binary secondary endpoints, descriptive summary statistics that include the 
+number and proportion of participants will be provided by treatment groups for participants 
+with at least 4 weeks of study drug: 
+x Number of participantVDFKLHYLQJUHGXFWLRQLQDWWDFNUDWHUHODWLYHWREDVHOLQH
+during the treatment period in Part 1. 
+x Number of participantVDFKLHYLQJUHGXFWLRQLQDWWDFNUDWHUHODWLYHWREDVHOLQH
+during the treatment period in Part 1. 
+PAGE 26
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 25 of 35 
+x Number of participantVDFKLHYLQJUHGXFWLRQLQDWWDFNUDWHUHODWLYHWREDVHOLQH
+during the treatment period in Part 1. 
+x Number of participants that are attack-free during the treatment period in Part 1. 
+In addition, Fisher’s exact test will be used for testing responder proportions.  
+ 
+ 
+Days with angioedema symptoms endpoint: 
+Number and proportion of days with Investigator-confirmed angioedema symptoms during 
+the treatment period in Part 1 by treatment groups will be summarized using descriptive 
+summary statistics by treatment groups.  
+In addition, the proportion of days with Investigator-confirmed angioedema symptoms will 
+be analyzed using Wilcoxon two-sample test comparing each PHA-022121 dose group with 
+the placebo group among participants with at least 4 weeks of time on study drug. The 
+Hodges-Lehman estimate of the median difference between treatment and placebo groups 
+will also be provided.  
+ 
+Time-to-event endpoint: 
+The time to first Investigator-confirmed HAE attack during the treatment period in Part 1 will 
+be summarized using the Kaplan-Meier (KM) Method. The estimated median time, 25th, and 
+75th quantile time to event, and the KM figures will be provided if applicable. For 
+participants with HAE attack(s), this is defined as days from Day 0 until the onset date of 
+first investigator-confirmed HAE attack. Participants without an Investigator-confirmed HAE 
+attack during the treatment period in Part 1 will be censored at the date of the last dose of 
+IMP +1 day in Part 1.   
+  
+4.6.4 Subgroup Analyses 
+Data from subgroups of participants in the ITT Analysis Set may be analyzed for the primary 
+and selected secondary efficacy endpoint if applicable. These analyses will comprise 
+descriptive summaries. Such analyses will be considered exploratory. 
+ 
+Prespecified subgroups are: 
+x %DVHOLQH+$(DWWDFNUDWHWRDWWDFNVRUDWWDFNVSHUZHHNV 
+x %DVHOLQHFDWHJRULFDODJH 
+x Sex (Male, Female) 
+ 
+4.7 QoL Endpoints  
+The following health-related QoL endpoints will be analyzed: 
+PAGE 27
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 26 of 35 
+x Actual values and change from baseline in the domain (functioning, fatigue/mood, 
+fear/shame, nutrition) and total AE-QoL questionnaire scores 
+x PGA-QoL scores and PGA-change questions scores 
+x AECT-4wk scores and change from baseline 
+x TSQM-II individual item and total composite scores 
+ 
+AE-QoL 
+ 
+All four domains and total scores at each timepoint as well as their change from baseline 
+values will be summarized descriptively by treatment groups and by visit.  
+ 
+PGA-QoL and PGA-change 
+ 
+PGA-QoL and PGA-change values will be summarized using counts and percentages of 
+participants with responses in each category by treatment groups and by visit.  
+ 
+AECT-4wk 
+ 
+For AECT-4wk, the total score (ranging from 0 to 16 points) will be computed as the sum of 
+the 4 AECT questions scored on a 0 to 4 scale. Observed values and change from baseline 
+will be summarized as continuous variables by treatment groups and by visit. In addition, the 
+total score will be categorized as either poorly controlled disease (total scores between 0 to 9 
+points) or well controlled disease (total scores between 10 to 16 points) and the dichotomized 
+score will be summarized using counts and percentage of participants in each category by 
+treatment groups and by visit.   
+ 
+TSQM_II 
+ 
+Each TSQM-II domain score will be summarized by treatment groups and by visit.  
+ 
+4.8 Safety Endpoints  
+Part 1 safety analysis for a given participant will include the participant’s data from the 
+period of the first dose of IMP in Part 1 to end of study if the participant withdrew before 
+completing Part 1. Otherwise, safety analysis will include data from the first dose of IMP to 
+last dose of IMP in Part 1 plus 4 weeks or till the first dose of IMP in Part 2, whichever 
+comes earlier. All the safety analysis will be performed on the Safety Analysis set. 
+PAGE 28
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 27 of 35 
+4.8.1 Adverse Events 
+AEs will be coded using version 24.0 or higher of MedDRA to System Organ Class (SOC) 
+and Preferred Term (PT). Treatment-emergent AEs (TEAEs) are defined as AEs that occur at 
+any point after the first administration of IMP, or medical conditions that are present prior to 
+the first administration of IMP but increase in severity or frequency following the first 
+administration of IMP. Should there be insufficient data for AE start date, stop date, and time 
+to make this comparison, the AE will be considered treatment-emergent. 
+The severity of all AEs will be graded using the latest version of the National Cancer 
+Institute Common Terminology Criteria for Adverse Events (CTCAE) version 5.0. Missing 
+severity will be summarized as separate category. 
+If the relationship to the study drug is missing, the event will conservatively be assigned as 
+related to IMP.  
+An overall AE summary will be presented and separated TEAE summaries will be produced 
+by SOC and PT with the number and percent of participants by treatment group: 
+x All TEAEs 
+x Treatment-related AE’s and SAE’s  
+x Serious TEAE’s 
+x TEAEs leading to IMP discontinuation 
+x TEAEs leading to discontinuation from study 
+x TEAEs leading to death 
+x 7($(VZLWK&7&$(*UDGH 
+x TEAEs by maximum CTCAE Grade  
+x TEAEs by relationship to the study drug 
+ 
+The tables will display the number and percentages of participants by SOC and PT for those 
+who reported at least one TEAE. The outputs will be presented by descending frequency of a 
+given SOC and PT in the PHA-022121 20 mg BID group. The severity grade and 
+relationship to the IMP will be summarized in a similar manner. If a participant reports 
+multiple TEAEs, the participant will be counted once in the most severe category or 
+relationship to the IMP for that AE. 
+All AEs will be listed by IMP and participant, detailing the verbatim term, the preferred term, 
+system organ class, onset date and time, end date and time, CTCAE grade, outcome, 
+relationship to IMP, seriousness and criteria for seriousness, action taken with IMP, other 
+action taken, and trigger for an HAE attack.   
+ 
+4.8.2 Clinical Laboratory Results 
+Descriptive analysis for laboratory test results (including hematology, serum chemistry, 
+coagulation, and urinalysis) will be presented. Summaries of observed values at each 
+timepoint and changes from baseline will be presented by the treatment group at each visit. In 
+addition, shift from baseline of reference range indicators as reported by central lab at each 
+PAGE 29
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 28 of 35 
+post-baseline visit will be summarized using counts and percentages of participants.  Labs 
+where the result is not numerical but given as less than a minimal detectable level will be 
+given half the minimum detectable level for use in analysis. Listings will be presented for all 
+the central and local lab results. 
+Pregnancy test results will be listed. 
+ 
+4.8.3 Vital Signs and Physical Examination 
+Vital signs will be summarized descriptively using actual values and changes from baseline 
+by treatment group and each visit/at scheduled timepoint. Any abnormal or clinically 
+significant findings will be entered in the participant’s Medical History or Adverse Events 
+eCRF as appropriate.   
+Height from the screening visit, weight, and vital sign results (systolic blood pressure [SBP], 
+diastolic blood pressure [DBP], pulse, body temperature, and respiratory rate) will be 
+presented in data listings by treatment group and participant.  
+4.8.4 12-Lead Electrocardiogram (ECG) 
+The 12-Lead ECG will be collected in triplicate. The mean over the triplet will be calculated 
+for each parameter. Observed values of PR, QRS, and QTcF as well as change from baseline 
+values of QTcF will be flagged as potential clinically notable results as shown in the table 
+below: 
+ 
+Table 2: Potential Clinically Notable ECG Results 
+ 
+Parameter Potential Clinically Notable ECG Results 
+PR < 110 ms and > 210 ms 
+QRS > 110 ms 
+QTcF < 350 ms and  
+Abnormal: > 450 ms for male or >470 ms for female 
+Markedly abnormal: > 500 ms 
+QTcF Change from baseline PVDQGPV 
+ 
+ECG parameters (PR, RR, QRS, QT, QTcF and QTcB intervals) will be summarized 
+descriptively using observed values and change from baseline by treatment groups and 
+scheduled visits. In addition, the number and percentage of participants in each potential 
+clinically notable results categories will be included in the summary.  
+PAGE 30
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 29 of 35 
+In addition, shift from baseline of investigator’s overall ECG evaluation (i.e., normal, 
+abnormal not clinically significant, abnormal clinically significant, indeterminate) at each 
+post-baseline visit will be summarized using counts and percentages of participants. 
+All ECG results and overall ECG evaluation will be presented in data listings by treatment 
+group and participant. 
+ 
+4.9 Pharmacokinetic Endpoints in Part 1 
+Sparse PK sampling data pre-dose and 2 to 3 hours post dose on Days 1, 42, and 84 in Part 1 
+will be listed and summarized descriptively by IMP, analyte, and nominal time points for the 
+two PHA-022121 treatment groups. 
+Descriptive statistics for plasma concentration data will include the number of participants 
+(n), mean, SD, coefficient of variation (CV%), median, minimum and maximum.  
+Concentration values below the limit of quantification (BLOQ) will be treated as 0 if this is 
+first or last observations, and missing if it is between two measurable concentrations. 
+The detailed derivation for the pharmacokinetic parameters based on plasma concentrations 
+data will be described in a separate PK analysis plan.       
+PAGE 31
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 30 of 35 
+5. CHANGES FROM PROTOCOL-SPECIFIED ANALYSES 
+ 
+The Poisson GLM model (Section 4.6.2) was planned as the primary approach to 
+analyzing the primary endpoint. During analysis preparation, simulation results indicate 
+that potential model fitting issue may present with the limited sample size and excessive 
+zero counts. Therefore, in the SAP, it is planned that if the Poisson regression does not 
+converge, a two-sample Wilcoxon rank sum test will be used as the primary approach to 
+test the treatment effects for the Primary Analysis.    
+PAGE 32
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 31 of 35 
+6. SUMMARY OF CHANGES FROM THE PREVIOUS VERSION OF 
+THE SAP 
+Not applicable 
+ 
+ 
+ 
+ 
+ 
+  
+PAGE 33
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 32 of 35 
+7.  BIBLIOGRAPHY 
+Atkinson MJ, S. A. (2004). Validation of a general measure of treatment satisfaction, the 
+Treatment Satisfaction Questionaire for Medication (TSQM), using panel study of 
+chronic disease. Health Quality of Life Outcomes, 2-12. 
+Bork K, H. J. (2012). Fatal Laryngeal Attacks and mortality in hereditary angioedema due to 
+C1-INH deficiency. Journal of Allergy and Clinical Immunology, 130(2), 692-697. 
+Cicardi M, Z. B. (2018). Angioedema due to bradykinin dysregulation. Journal of Allergy 
+and Clinical Immunology, 6(4), 1132-1141. 
+Maurer M, L. H. (2020). Long-term effectiveness and safety of icatibant for the on-demand 
+treatment of hereditary angioedema attacks: 10 years of the Icatibant Outcome Survey 
+(EAACI abstract #1118). Allergy, 75(S109), 59-60. 
+Nordenfelt P, N. M. (2016). Hereditary Angioedema in Swedish Adults. Report from the 
+National Cohort. Acta Dermato Venereology, 96(4), 540-545. 
+T, C., W, A., & Longhurst HJ, e. a. (2017). IOS Study Group. The Icatibant Outcome 
+Survey: Experience of hereditary angioedema management from six European 
+countries. European Academy of Dermatology Venereology, 31(7), 1214-1222. 
+Weller K, M. M.-O. (2016). The Angioedema Quality of Life Questionaire (AE-QoL)-
+assessment of sensitiviy to change and minimal clinically important difference. 
+Allergy, 71, 1203-1209. 
+Zuraw, B. (2008). Hereditary Angioedema. New England Journal of Medicine(359(10)), 
+1027-1036. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+PAGE 34
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 33 of 35 
+APPENDIX A: ANALYSIS WINDOW FOR PART 1 
+ 
+Endpoints Visit Week Target 
+Day 
+Analysis Window 
+(Days) 
+1 
+AE-QoL; 
+AECT-4wk Baseline (Visit 1 Day 0) 
+Baseline 
+1 
+On or prior to Day 3 
+(within 2 days of first 
+dose) 
+Visit 3 Day 28 Week 4 28 (4, 42] 
+Visit 5 Day 56 Week 8 56 (42, 70] 
+Visit 6 Day 84 Week 12 84  >70 and before 1 st 
+OLE dose 
+TSQM-II    Visit 3 Day 28 Week 4 28 (1, 42] 
+Visit 5 Day 56 Week 8 56 (42, 70] 
+Visit 6 Day 84 Week 12 84  >70 and before 1 st 
+OLE dose 
+PGA-QoL     Baseline (Visit 1 Day 0) Baseline 1 On or prior to Day 1 
+Visit 6 Day 84 Week 12 84 >1 and before 1 st OLE 
+dose 
+PGA-change Visit 6 Day 84 Week 12 84 >1 and before 1 st OLE 
+dose 
+Vital sign 
+(including 
+weight); 
+clinical lab 
+Baseline (Visit 1 Day 0) Baseline 1 On or prior to Day 1 
+Visit 2 Day 14 Week 2 14 (1, 28] 
+Visit 4 Day 42 Week 6 42 (28, 63] 
+Visit 6 Day 84 Week 12 84 >63 and before 1 st 
+OLE dose 
+Pregnancy 
+Test Baseline (Visit 1 Day 0) Baseline 1 On or prior to Day 1 
+Visit 4 Day 42 Week 6 42 (1, 63] 
+Visit 6 Day 84 Week 12 84 >63 and before 1 st 
+OLE dose 
+ECG Baseline (Visit 1 Day 0) Baseline 1 On or prior to Day 1 
+Visit 4 Day 42 Week 6 42 (1, 63] 
+Visit 6 Day 84 Week 12 84 >63 and before 1 st 
+OLE dose 
+Note that TSQM and PGA-change are not collected at baseline. 
+ 
+ 
+ 
+ 
+PAGE 35
+PHA-022121  Pharvaris Netherlands B.V. 
+Statistical Analysis Plan for PHA022121-C301   Version 1.0, October 27, 2023 
+Confidential  Page 34 of 35 
+APPENDIX B: SAMPLE SAS CODE 

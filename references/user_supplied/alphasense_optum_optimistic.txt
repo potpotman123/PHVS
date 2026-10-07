@@ -1,0 +1,371 @@
+Brand logo
+Company Deep-Dive
+Allergist Immunologist at Optum Health Is Optimistic About Deucrictibant's Role in Advancing HAE Treatment Options
+DATE PUBLISHED
+26 Jun 2026
+INTERVIEW DATE
+23 Jun 2026
+EXPERT PERSPECTIVE
+Doctor/Medical Professional
+ANALYST PERSPECTIVE
+Investor-Led (Buy-Side)
+PRIMARY COMPANY
+PHVS
+SMART SUMMARY
+Summary
+The interview covers the expert's clinical experience with HAE, diagnostic and treatment approaches, and a detailed evaluation of deucrictibant's potential role in the evolving HAE therapeutic landscape.
+EXPERT BACKGROUND
+Adult and pediatric allergist immunologist with 22 years of experience in private practice, focusing on diagnosis, treatment, and management of allergy, immunology, asthma, hereditary angioedema (HAE), and immune deficiency, with both outpatient and some hospital consultation work.
+EXPERT SENTIMENT
+The expert is highly optimistic about deucrictibant, particularly its oral formulation and dual use for both prophylaxis and on-demand treatment in HAE.
+They believe deucrictibant's efficacy and safety profile positions it as a strong alternative to current injectables, especially for patients preferring oral medications.
+The expert anticipates significant patient uptake, estimating 25-50% of new HAE patients could be candidates, though some will still prefer long-interval injectables.
+TAKEAWAYS
+The expert manages 12-15 active HAE patients, with an increasing number of new diagnoses due to greater awareness and improved diagnostics.
+HAE patient types in their practice are roughly 55-60% type 1, 25-30% type 3 (normal C1 inhibitor), and 15% type 2.
+Diagnosis relies on clinical history, family history, lab tests (C1 inhibitor, C4), and sometimes genetic testing; response to HAE-specific medication can also support diagnosis.
+Treatment has evolved from IV plasma-derived products (Cinryze, Berinert) to subcutaneous injectables (Haegarda, Takhzyro) and now to oral options (Orladeyo, deucrictibant).
+Deucrictibant stands out for its oral administration, strong prophylactic efficacy (comparable to injectables), and potential to address both classic and atypical HAE, including rare autoimmune forms.
+AlphaSense Smart Summaries are AI Generated
+
+Table of contents
+
+
+
+
+
+
+EXPERT BIO
+Allergist treating 13 patients with HAE
+View More
+INTERVIEW TRANSCRIPT
+Client
+
+00:00:00
+Thank you again for taking the time today. To start, it would be great if you can just provide us some background on yourself, as well as your specialty and your current practice setting.
+
+Expert
+
+00:00:11
+Sure. I am an adult and pediatric allergist immunologist. My background is internal medicine and pediatrics. I have been practicing for about 22 years. I do primarily private practice, bread and butter allergy, immunology, asthma, hay fever, drug allergy, a lot of immunology in terms of hereditary angioedema as well as immune deficiency. I'm involved in the full spectrum in terms of diagnosis, treatment, ongoing management.
+
+Again, most of my work is outpatient private practice. I do some consultation within the hospital setting and for other allied specialties such as neurology, dermatology, GI. Day to day, what I do is really diagnosis and treatment, and immunologic diseases like HAE and immune deficiency have increasingly over the years become a large part of my practice.
+
+Client
+
+00:01:05
+Understood. Approximately how many HAE patients do you actively manage?
+
+Expert
+
+00:01:11
+Actively, I'd say about 15, meaning I see more than once a year. There's six or seven more over the years that I don't see as frequently. They're still part of my roster, but I might see them every year and a half, two years. Ones I see at least once a year or more, there's about 12-15 that are pretty consistent.
+
+This year alone, we've had two or three new ones, which is a lot in a rare disease, that we've actually added. Usually, you'll get one a year, maybe every other year. People move away, come back. It definitely in the last couple of years has increased, and we can talk about the awareness and why that is later.
+
+Client
+
+00:01:53
+Okay. What proportion of your HAE patients have type one or type two versus HAE with normal C1 inhibitor?
+
+Expert
+
+00:02:02
+For sure. I'll go in reverse. The type three has picked up only because there's more use now. The insurers have recognized it more. It's crept up now. It's probably about 1/3 of the patient, and I'm talking about ones that are on active treatment, many patients who have angioedema, but it's intermittent, the labs are normal. They're not necessarily followed. Now it's crept up.
+
+I'd say it's about, again, 25%-30%. Type one is still the dominant one. Type two is only about 15%, and then type one is the rest. You're talking, basically, let's say 60%, maybe 65% type one, 15% type two. Actually, that doesn't make sense. 55%, 15%, 30%, let's say, something like that. Either 55% or 60% type one, 25% or 30% type three, and really a small amount type two, only about 15%, meaning of 20 patients, I probably have two maybe over the years that are type two. It's pretty rare.
+
+Client
+
+00:03:16
+Got it. For a typical HAE patient, how do they typically present in your practice?
+
+Expert
+
+00:03:22
+Three ways. Basically, especially more in recent years with the advent of for-profit urgent cares, they come into urgent care emergency room with angioedema. They're sent to allergy for an "allergic reaction". We get the history, or even we test them out, we realize it's not allergic. That's probably one of the main reasons.
+
+We get sometimes referrals, say, GI or ENT or even dentistry, frankly. They have a procedure, and they have swelling, something like that. More and more, frankly, people are more savvy. I always say drugs begat patients. There's a lot more awareness of HAE in the general population than there was when I started 22 years ago. Many of them are self-referred. They're well-read. I practice in an urban area. I've got some pretty savvy patients. A lot of it is also self-referred.
+
+Again, it's a highly familial disease. It's autosomal dominant. A lot of referrals are because someone else in their family is diagnosed, and they want to all be worked up, or they're like, "You know what? I have the same symptoms," or "Grandma asphyxiated randomly 70 years ago, and we think it sounds like that." That's a big part too, more and more with WebMD and just better patient awareness.
+
+Client
+
+00:04:46
+Got it. As for your diagnostic confirmation, what tests or clinical criteria are most important to determine?
+
+Expert
+
+00:04:54
+Sure. We get a history, which is always tantamount. Do they have angioedema? Is it not urticaria? There is within the urticaria hive family that sometimes get angioedema. The difference with hereditary angioedema and just the part that comes with hives, it's never itchy like hive urticaria angioedema is, and it's usually painful. Those are key things in the history.
+
+We get an idea, does it happen with trauma? Did it happen during adolescence with hormones? There are some historical clues. Obviously, mom has it and dad has it. That's a big thing. Pictures are always good with cell phones, looking at the pictures. You can tell if it's a whole lip or a groin or a hand or something like that. Abdominal is a little tricky because it can just be vague pain.
+
+Nowadays with CT, they used to have to do a laparotomy and open people up and realize, "No, it's not your appendix." Sometimes you'll get that history. That actually has happened a few times over the years. Someone said, "They thought I had appendicitis. They opened me up, I was fine." You realize that that's abdominal angioedema. Again, the history is important, familial, personal effects, pictures, looking at the actual swelling.
+
+The labs are pretty straightforward with one wrinkle. C1 inhibitor is the enzyme. You look at total and functional. Again, total being low is type one. Type two is you've got enough quantitatively, but qualitatively it doesn't work. That's the rare one. Type three, again, is more of a diagnosis of exclusion. They sound like it. They act like it. They might have a family history. The pictures look like it, but the labs are normal. I try and always rule that out, and this is important, that the labs may be in between episodes, relatively normal. That's the C4, the C1 inhibitor, total and functional.
+
+There is one that's rare, and we didn't talk about it. It's very rare, an autoimmune one, if they have an oncological process, C1q. Barring that, really, your key tests are your C1 inhibitor total and functional and your C4. For board questions, you say, "What do you look for?" A low C4 is almost pathognomonic for the disease.
+
+My point is sometimes you have to give them a lab slip and ask them if they can, if the lab is open or can they go to an emergency room. Sometimes episodes don't happen from 9:00 A.M.-5:00 P.M. Sometimes you'll catch someone that was normal in between, but during an episode, their C4 drops or their C1 inhibitor drops. That's important too. Sometimes you have to do that.
+
+Now, I should mention there is a genetic test, Invitae. I think they got bought out by Labcorp because there are some genes for it that sometimes when someone sounds very similar to the disease, but the labs are normal. There was a study, Zuraw. He's a pretty big wig, and they looked and see how many extra patients they picked up with genetics that they didn't pick up with history, physical, and routine labs. It was a small percentage. Nonetheless, that used to be more important as there was insurers and payers who had a much higher threshold with those type three. You had to show something. That's changed a little bit.
+
+That's basically the diagnosis, getting good history, familial pictures, hearing the episodes, making sure it's not something else you can explain, like a food or drug allergy. The old blood pressure medicines, ACE inhibitors, you can call it, and I still get patients to this day that are on a generic, I don't know, captopril from 20 years ago, and they have swelling. Their primary is young enough they don't remember this drug because it's not in popular use, and that's it. You always have to rule stuff like that out, and that's part of the allergy test.
+
+Again, as I mentioned, that's a lot of times they're referred. They don't think or the doctors don't think HAE. It's gotten better, but they think, "Oh, this must be some kind of allergy. Figure it out." That's the diagnostic workup, the good history, the exam, looking at pictures, labs, sometimes during an episode if possible.
+
+The other thing, frankly, that's diagnosis, and it's better now that we have samples, now that there's a lot of competition and they give out samples, that you used to know when you used to give them out, is that you can give them, let's say, a Firazyr, an icatibant generic or biosimilar, and just say, "Look, use this next time you have an episode, and if it improves dramatically or much better than it would with, say, antihistamines or steroids, then you've clinched the diagnosis."
+
+That's important in two ways, A) again, confirmatorily, and B) if you're going to push the insurance, let's say for a type three, you say, "Look, they had a response to an HAE treatment medicine. I understand you have these strict criteria from 1999 that say they have to have a low C4, C1 inhibitor, but they fit the criteria from history and they responded to it."
+
+Usually, that helps push it through when you're doing a peer-to-peer or prior auth. That's important to keep in mind, a sample of an HAE medicine. Now, they have Ekterly, they have an oral one, so even easier to at least test the hypothesis because that's part of the diagnostic workup. Does that make sense about the medicine?
+
+Client
+
+00:10:42
+Yes, it does.
+
+Expert
+
+00:10:45
+Good.
+
+Client
+
+00:10:46
+Just as far as the current standard of care, can you walk me through your treatment algorithm and how you think about the split between on-demand and short-term prophylaxis and then long-term prophylaxis?
+
+Expert
+
+00:10:58
+Absolutely. I'll give you a little historical background. Remember, when the medicines first came out, other than World Health Organization C1 inhibitor contract, Cinryze came out at the same time as Berinert. These are both donor plasma C1 inhibitors, basically the same medicine. Cinryze got the prophy indication and Berinert got the on-demand, great, because they're IV or you put them in a butterfly, which for some patients, they really didn't want to go on something twice a week because it's plasma product. It's not a drug per se. It only has a short shelf life.
+
+The problem wasn't so much with the predictable Cinryze that you use Monday, Thursday. The problem was in the middle of an attack, many patients did not want to use the IV on demand, the Berinert. This was a barrier until about 2011, and you had a lot of patients that wouldn't go on Berinert. They took it reluctantly, but the point was, we didn't have much more to offer. Patients had to stay on Cinryze just because they may not be able to treat an acute attack. Even though the efficacy was low, about 60%, it was still better than nothing. There were other off-label things like some clotting agents that we used, but they were not on label.
+
+What really revolutionized is in 2011 with the advent of Firazyr, icatibant. Now you had an on-demand injectable, easy to use, like, if you will, the EpiPen of HAE. Now you had patients in a way that it took patients off prophy because they're like, "Well, I'm on Cinryze twice a week. I haven't had an episode in six months or a year. Do I really need this?" Now you could free up some of the patients, so they could use the Firazyr on demand, and if you found that they were using a lot, you would go back on Cinryze.
+
+There was another medicine I should just mention historically that didn't really take off, Kalbitor. It had to be used in a doctor's office. It was an on-demand that didn't really take off. Anyway, that was really, and it remains today, our on-demand treatment. Ekterly is about a year or so old. Now you have an oral on-demand, and we'll talk about deciding between the two. The point was that was it. You actually lost some of your prophy patients just because they really were mild and infrequent, and you really didn't need to put them on Cinryze anymore.
+
+Anyway, that was it for a while, and then things really changed after that with Haegarda. That was in 2017. Now you've got a prophy medicine that's a little easier. It's under the skin. You don't have to find a vein. You could just inject it. It was extremely efficacious, 95% reduction, whereas Cinryze at best had about 60%, 65%. It looked like we were going to be strong-armed into giving that because you could make an argument and say, "Well, doctor, you had a medicine that was 95% efficacious. Why did you give Cinryze?" Let's say they had a bad outcome, they asphyxiated or they died or something like that. That looked like that was going to become the gold standard in 2017.
+
+In 2018, Takhzyro came out, and that really, I don't know if you play cards, counterfeited, so to speak, the Haegarda because it was easy to use. Again, a sub-Q injection, not unlike Firazyr and EpiPen, but prophy. That became the real standard. There are very few people on Haegarda these days. It's a great drug, but again, it's plasma-derived. You have to use it a couple of days a week.
+
+Yes, you don't have to find a vein, but it's weight-based, which to its merit should work better for a heavier person. If you're injecting, you're pumping under the skin for several minutes. That didn't really take off once you had something that was once a month with Takhzyro. That really became the gold standard. They still have the most cases. I think they have over 4,000 patients on it, which remember, there's only about 6,000 or 7,000 in the U.S. There are 25,000-50,000 patients, one in 25,000 and 50,000 patients. Let's say 50,000. There are 330 million people. There are only about 6,000 or 7,000. That was a big deal.
+
+In 2020, right at the beginning of COVID, the first oral came out, and we figured this sounds great, Orladeyo, an oral medicine. Not quite as efficacious as Takhzyro, but nonetheless, you're more likely to take it for some patients that were skittish about injections or didn't like the stigma. Remember, this was before all the GLPs, and now everyone is on an injection, but let's say in 2020. That looked good.
+
+The problem was it was launched in COVID, so the uptake was very slow. It's picked up more, but two points. A) It's oral, so easy to take every day, and B) the coverage has been pretty good, and this is what I was winding up to. They were the first one to allow, if you will, use for type three, the ones you didn't necessarily have labs. We had a better time getting it through prior auth with that. It became, I'd say, the majority of my type three until recently now with Andembry, were on Orladeyo for no other reason that insurance allowed it.
+
+I should take a step back and just mention something. There is another one for on-demand that took years to come to the forefront. Ruconest is a recombinant C1 inhibitor, and it just never took off for me at least because it wasn't indicated for laryngeal attacks. They did do a couple of things that I thought were very smart.
+
+When there was a shortage a couple of years ago of Cinryze, because it's recombinant, they use technologies that don't necessarily need the same amount of donors, so they made it available. There is a certain amount of respect and loyalty to them. Also, they got on the bandwagon of saying, "Look, we can make it that it's easy to use for type three." There's a few on that, but again, also IV butterfly and not indicated for laryngeal. I think its numbers will remain low, but that's important to understand historically. You do have patients.
+
+They're really pushing to make a longer-acting one that could be a prophy and longer than, say, Haegarda, something along every two weeks or once a month, which might give them some insight. This is important to know if you're thinking globally as an investor. The American Academy of Allergy, Immunology, they recommend all these different treatments as first-line. The Europeans believe you should replace C1 inhibitor in the same way a diabetic, the first thing to do would really ideally give them a new pancreas, but replace insulin.
+
+The point is, something like this one in Europe, Ruconest, and if they do get a prophy version of it, which they're working on, Cinryze is working on it too, but they've been working on it for a while, I don't know if that'll ever come out, maybe important more globally than the U.S., because again, the European equivalent of our academic body really promotes replacement of C1 inhibitor as opposed to all these other things that we'll discuss that either block bradykinin or Factor XII, etc. Does that make sense, though?
+
+Client
+
+00:18:35
+Yes, it does.
+
+Expert
+
+00:18:37
+Good.
+
+Client
+
+00:18:38
+I do have to transition to the main topic, which is deucrictibant, just for time here. Just want to get your reaction to deucrictibant as an oral bradykinin B2 receptor antagonist and what you know from the data at this point.
+
+Expert
+
+00:18:53
+Right. I think the main thing is, I should say that I'm very pro-bradykinin receptor from really going back with Firazyr and then, more importantly, working with Takhzyro. I think that's the way to go because, as I mentioned that there's type one, type two, and type three, regardless, and even with the atypical ones, everything works at the bradykinin receptor. That's the final pathway.
+
+I'm bullish on that idea. I am biased toward this thing, and again, I've always said if you can do everything in one pill, I think that's very important. They tried to do this, I don't know if you're aware, with Orladeyo. When it was first coming out, they had, I think, a four times dose, a 750-mg slug, if you will, of it. It looked good, but they abandoned it because COVID hit, and I think they just wanted to get it to market.
+
+I like deucrictibant and that idea, and I like small molecules, and this is very important. We see with the injectables, the monoclonal antibodies, we see something called tachyphylaxis, where the drugs does not work as well after a while. Your body makes antibodies. Small molecule, I think, is the way to go. I don't know if you know the Ionis product, but that's also a small, a different mechanism working on mRNA. The point is, this is a little bit future-proof in that you're less likely to have an immune response where it becomes less effective. I think Pharvaris is on the right track.
+
+Again, the Holy Grail here is a one-size-fits-all, the fact that they can use it both preventative and on-demand. The data, I would say if you're going to compare it to everything out there, the on-demand is a little weaker. However, the prevention is strong. It's on par with the injectables, especially with Takhzyro, which I think is their main target because you're thinking similar MOA. I think they were 84%, 85%, and that's right on target, which is much higher than Orladeyo.
+
+They've got post-introduction studies that show Orladeyo being around that. Frankly, in my clinical experience, and you should verify this with other practitioners, but just in ad hoc conversations, I find it doesn't seem to reach up to the stuff they're showing post-introduction. The 84%, 85% with deucrictibant and I don't know if you're familiar, the CHAPTER study, I think that's key.
+
+Again, the on-demand, if you look at it, the only thing is that typically it is within an hour, which is your sweet spot. If you look at the whole thing, the time to initial improvement, the time to complete improvement, it's a little wider than other ones. I think having done this for 20 years, the patients always ask these, "When am I going to start feeling better?" They're in range there.
+
+The other thing I mentioned just briefly, remember I said there's a very rare one that's autoimmune, they're actually studying that. I don't know if you're aware of it. I think it's called CREAATE. Have you seen that part of it, the conceptual study?
+
+Client
+
+00:21:55
+I don't believe I have.
+
+Expert
+
+00:21:57
+Okay. If you want to read a little bit more of it. Again, it's a rare group, but the argument is autoimmune angioedema, where you make an autoantibody, it can be from, God forbid, a cancer or something else, and some people just have it. The point is, they're going after any sort of angioedema, and I think that really speaks to the fact, what we've seen with Orladeyo, that they're allowing it in type three and the fact they're looking at a type that's rare, and if it works for that, I think you can make the argument it should cover any type of AE, whether it's HAE, AAE, which is the autoimmune, or again, the type three, the normal C1. I think that's really, to me, what tells you.
+
+The tolerance is good. They've already got longer term extension studies. Pharvaris, their data looks good. It looks well-tolerated. I think it's got all the legs to do what we want and what patients want, and again, something you can use for both on-demand and prophy, something that works regardless of the type of angioedema, whether it's classic HAE, atypical. Again, looking at its MOA, and you may not get this from everyone, but I really do believe that working at the receptor makes a lot of sense.
+
+Just counterpoint, there is some idea that now with Andembry maybe going further upstream. I hear that. It is a different MOA, but I think just thinking of all the patients we've seen over the years, it just really makes sense to me, again, especially, like I said, the prophy indications. Even if you want to make the argument, let's say it's not as robust as the other on-demands. If you're taking it for prophylaxis and you're already 85% or higher, to me, it's like, "Are you really going to need it that much on-demand?" That's the argument sometimes.
+
+With Takhzyro, they say, "Well, it's not as good as Haegarda." The idea is you're probably going to be more compliant with an injection once a month, as opposed to something you might miss here and there. Therefore, the compliance might increase. The same thing here, the fact that it's the same drug, you're probably going to be more compliant with the on-demand. Let's say it doesn't compare as well to something like your Actemra or something, but it's still very good for the on-demand.
+
+I think the prophy data really, basically, bolsters the on-demand. Again, it's still very good in that respect. The first hour, like I said, is key. The open-label extensions I think are very important. Again, whether for better, like I said, with Orladeyo, it seems to be in the open-label extension, but we don't necessarily see it in practice. Here, the CHAPTER study and the RAPID, I think they really are trying to get an idea.
+
+I would direct you to this CREAATE study. I can't tell you off the top of my head the numbers for how many people have acquired autoimmune. It's small, but still, it's an unmet need. I know whenever I talk to persons like yourself, they're like, "What are we missing? What's the unmet need? What's a disruptor going to come in and do?" It's not so much a disruptor, but it's really just expanding the treatment of angioedema. You don't have this isolated population where you don't have anything.
+
+Client
+
+00:25:18
+Makes sense. With this one, is that the main differentiator potentially or what really stood out to you maybe from the data or just from the profile here?
+
+Expert
+
+00:25:28
+Yeah. Two things. Like I said, the efficacy for an oral, my pretest hypothesis was you wouldn't get much more than Orladeyo. Again, with Orladeyo, it took them post-introduction studies. If you're already so far at 85%, and even with a skeptical eye, let's say the post-test studies don't represent my population, even if it tweaks it up a little bit, that's very impressive. That was the big thing.
+
+Unless someone is just not good with daily medicines, I think it really effectively does to what Takhzyro did to Haegarda. I think it really says, "Well, why even bother with an injectable?" Again, you've got patients who are just like myself, who barely remember to take my vitamin every day. There may be some people that still want an injectable. I should say, I was alluding to this earlier, now injectables, they're not taboo anymore. Everyone's on a GLP or migraine medicine. You still have that to argue. That's really the only thing I'd say that may give Takhzyro still an advantage over this.
+
+In terms of coming head to head, in terms of efficacy, what I can see here, and the fact that you can say from a safety standpoint, it can do both, look, you can argue that icatibant, generic Firazyr is the on-demand version of Takhzyro because they work similarly at the receptor. Realistically, this is the same molecule that they're using for both. Again, the other ones are monoclonal antibodies. You can have tachyphylaxis, this small molecule. That stood out at me in the same way that I'm impressed with Ionis.
+
+Just to make a comparison, obviously, Ionis is a whole different thing. It's mRNA, it's a very interesting MOA. The fact is, the patients don't want to switch. Insurance may not cover the next one. They lose a job. They want something that they can be on long term. To me, this has the profile that I feel like it'll work now, 12 months from now, two year. This is a lifelong disease.
+
+By the way, with that, as I mentioned, even if you get the patients that eventually they feel like, "Well, you know what, I haven't had an attack in a while, I'm not going to take my prophy," but they've got a medicine they trust, they've used hopefully before and the same medicine for on-demand. I think it works well for the compliant or non-compliant patient. I think it's really what I would call a belt and suspenders idea in terms of having them both together.
+
+Again, they thought of this earlier with Orladeyo, and they had, I think it was called the ZENITH study in 2020. It didn't pan out. I think because of the pandemic, they wanted to focus on getting one drug to market. They decided it wasn't worth it for them to try and pick up an on-demand version. That's my thoughts on it as a potential, and again, looking at the data, both the efficacy, the safety, the populations to be treated.
+
+Client
+
+00:28:34
+Okay. What percentage of your patients did you see being on this?
+
+Expert
+
+00:28:39
+I see at least 25%. Some, again, are always going to go on injection, especially now that you've got every two months with Dawnzera, donidalorsen. They may want the least amount of injection. You're not going to take those patients. I see a percentage of patients that aren't going to switch because they're worried about insurance.
+
+Let's talk about new patients. If I had 10 new patients come in a year or year and a half, I'd say I'd put at least three patients, if not more, on this. It might even approach 40% or 50%, obviously, once you get more experience. Just because if I was a patient and my doctor presented this to me and I really didn't want an injectable and I was keen on orals, this would make a lot of sense. Like I said, the reason it's not higher than 34, I think some patients are going to like an every two-month injection.
+
+I'll just give you a quick example. In the biologics for asthma, most of them are monthly. There's one that's every two months, Fasenra, and I get a lot of patients for that. Now they just came out with one that's every six months. You're going to get a lot of patients. That may be the difference between an oral. That may limit Orladeyo. That may limit this group.
+
+Again, there's many patients that are used to taking a pill. They don't think they're in the sick role if they take a pill. Everyone takes a pill every day. Again, there's been more acceptance of injections with the GLPs and the migraine medicines. Nonetheless, I think this would still take 10 new patients at least, probably between three and five of those patients would opt for it, maybe even more. It's hard to say with patients sometimes, but I think I would present it. I wouldn't be surprised.
+
+Again, just being skeptical for insurance, I think it's one less thing to worry about. If you get accepted for one, I think they have to accept you. I can't see them saying, "Well, yes, you can have the preventive, but we're not going to give you the on." I feel like it would probably be an easier push with less headache or friction to get this covered. I think if I was a payer, insurance company, it would probably cost me less to support this and have it on formulary.
+
+Again, this is just from a cynical view of HAE in terms of payers and stuff like that, but I think this would probably be something. I don't know what the ICER data, what this would cost or not cost or medical expenditures, but to me, just my simple understanding of these things and seeing these over the years, I think they would put this on a higher tier. These things are going to be more and more tiered.
+
+There's so many agents now for a rare disease. Frankly, I'm shocked they keep coming out with new stuff. You keep thinking it's got to be too crowded for a one in 25,000 to one in 50,000, but apparently not. The point is, they're going to tier this saying, "Well, you've got to fail one to get to the next one." I could see this being a lower one because it seems like there's less of a chance for failure.
+
+Client
+
+00:31:50
+Got it. Last thing I'll ask you, just scale of 1-10, how excited are you about this? I'll leave it at that.
+
+Expert
+
+00:31:58
+I hate to say 10. They always say nothing is a one and nothing is a 10. I would say a nine. I'd be very excited. The only thing that tempers it, like I said, is there are already pretty good agents, but I think for patients that, again, may need something that's oral, that's a little more effective than Orladeyo, that would put it at 10. Overall, I'd give it a little less just because there are so many other things.
+
+If this had come out five years ago, I would've given it a 12. It's just looking at what's all out there. I think just unmet need, especially in that rare, I've come across maybe two or three in my 22-year career that have that autoimmune, that type four, if you will, to say, "Look, I've got something for you." That's immeasurable how excited I would be, but again, that's a very small group.
+
+Client
+
+00:32:52
+Got it. That does it for all my questions. I want to thank you again for your time today. Definitely a very insightful conversation. I really do appreciate it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,291 @@
+{
+  "sources": [
+    {
+      "id": "E1",
+      "label": "30 Sep: practical challenges",
+      "path": "/Users/kwu/.codex/attachments/18b63711-84a6-487a-b1f5-800b94f98252/Pasted text.txt",
+      "title": "Allergist Immunologist Views New Oral Prophylactic Options for Hereditary Angioedema Positively but Highlights Practical Challenges",
+      "basis": "Full interview transcript read; AI summary not treated as independent evidence"
+    },
+    {
+      "id": "E2",
+      "label": "10 Sep: private-practice XR optimism",
+      "path": "/Users/kwu/.codex/attachments/296c3539-65a1-4e0f-b95d-9996ec10ac80/Pasted text.txt",
+      "title": "Allergist Immunologist Sees Potential in Pharvaris's Deucrictibant XR for Hereditary Angioedema Management",
+      "basis": "Full interview transcript read; AI summary not treated as independent evidence"
+    },
+    {
+      "id": "E3",
+      "label": "11 Sep: Optum-titled call",
+      "path": "/Users/kwu/.codex/attachments/26287c60-9e59-4d05-8cb6-fe93afd22f7a/Pasted text.txt",
+      "title": "Allergist at Optum Health Is Highly Optimistic About Deucrictibant's Potential in HAE Management",
+      "basis": "Full interview transcript read; AI summary not treated as independent evidence"
+    },
+    {
+      "id": "E4",
+      "label": "25 Jun: mixed-mechanism preference",
+      "path": "/Users/kwu/.codex/attachments/427b9702-50eb-416d-9525-c8e2a4cba636/Pasted text.txt",
+      "title": "Allergist Immunologist Sees Promising Future for Deucrictibant in HAE Management",
+      "basis": "Full interview transcript read; AI summary not treated as independent evidence"
+    },
+    {
+      "id": "E5",
+      "label": "23 Jun: Optum-titled call",
+      "path": "/Users/kwu/.codex/attachments/81be87b0-712d-4ba3-aed7-944971ebe195/Pasted text.txt",
+      "title": "Allergist Immunologist at Optum Health Is Optimistic About Deucrictibant's Role in Advancing HAE Treatment Options",
+      "basis": "Full interview transcript read; AI summary not treated as independent evidence"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "01",
+      "stance": "Short",
+      "source": "E1",
+      "time": "10:41;14:47;15:46",
+      "observation": "Will not switch well-controlled patients; estimates 2–4 hours of unpaid office work per specialty approval. Wants to write prescription without office follow-up.",
+      "commercial_meaning": "Administrative cost prevents some prescriptions from being attempted; commercial support can be a differentiator.",
+      "limitation": "One eight-patient practice; not a national time or abandonment estimate.",
+      "next_test": "Time-motion interviews; attempted versus considered switches; hub tasks completed versus tasks retained by office."
+    },
+    {
+      "id": "02",
+      "stance": "Short",
+      "source": "E1/E3",
+      "time": "E1 00:24; E3 26:28",
+      "observation": "Stable patients may be seen once or twice annually; some remain on familiar older therapies despite newer options.",
+      "commercial_meaning": "Switching is an annual opportunity flow, not immediate access to the entire treated population.",
+      "limitation": "Visit frequency and inertia from small practices; patient outreach may accelerate reviews.",
+      "next_test": "Annual medication-review frequency and paid switches among stable users."
+    },
+    {
+      "id": "03",
+      "stance": "Long",
+      "source": "E2/E4",
+      "time": "E2 04:35;12:55;19:19 in E4",
+      "observation": "Doctors perceive an unmet need for an oral preventive with better efficacy/tolerability than Orladeyo.",
+      "commercial_meaning": "An established preference for pills creates a focused initial switching pool.",
+      "limitation": "No head-to-head evidence; E2 only has two Orladeyo patients and is unsure they would switch.",
+      "next_test": "Orladeyo inadequate-control/GI discontinuation cohorts, willingness and successful paid switches."
+    },
+    {
+      "id": "04",
+      "stance": "Both",
+      "source": "E2/E3/E5",
+      "time": "E2 17:19; E3 26:28–29:07; E5 28:39",
+      "observation": "E2 estimates 50% potentially willing to try; E3 20–30% switching and 33–40% new starts; E5 3–5 of ten hypothetical new patients.",
+      "commercial_meaning": "Suggests enthusiasm in selected segments, not observed market share.",
+      "limitation": "Different denominators, no time horizon, access assumptions, possible repeat expert E3/E5. Do not average.",
+      "next_test": "Standardized vignette survey followed by actual starts, approvals and 12-month retention."
+    },
+    {
+      "id": "05",
+      "stance": "Short XR / Long IR",
+      "source": "E4",
+      "time": "08:43;19:19",
+      "observation": "One well-controlled Takhzyro patient switched to Dawnzera seeking every-eight-week dosing; envisages twice-yearly prevention plus oral rescue.",
+      "commercial_meaning": "Convenience can favor infrequent injections while supporting oral acute drugs.",
+      "limitation": "One actual switch; three/six-month HAE regimens are investigational, not established current options.",
+      "next_test": "Which patients choose daily pill versus monthly/Q8W versus investigational Q3M/Q6M at equal efficacy/access?"
+    },
+    {
+      "id": "06",
+      "stance": "Both",
+      "source": "E2/E5",
+      "time": "E2 09:20–12:47; E5 28:39",
+      "observation": "Travel, injection aversion and storage favor pills; daily pill aversion and forgetfulness favor longer dosing intervals.",
+      "commercial_meaning": "Route preference is heterogeneous; adherence can reverse the apparent convenience advantage.",
+      "limitation": "Age/sex stereotypes and analogies to asthma/GLP drugs are not HAE population estimates.",
+      "next_test": "Individual preference, actual adherence, reason for discontinuation; stratify by lifestyle without imposing stereotypes."
+    },
+    {
+      "id": "07",
+      "stance": "Long IR",
+      "source": "E4",
+      "time": "06:08;16:22",
+      "observation": "Reports Ekterly users treat more attacks and treat earlier because injections sting or require preparation/venous access.",
+      "commercial_meaning": "Oral acute treatment may expand treated-attack volume and improve real-world timeliness.",
+      "limitation": "Qualitative experience with competitor; no before/after counts; earlier treatment can reduce repeat doses.",
+      "next_test": "Patient attack diary linked to treatment timing, dose counts, dispensing and free-drug status."
+    },
+    {
+      "id": "08",
+      "stance": "Short IR",
+      "source": "E4",
+      "time": "00:41;10:35",
+      "observation": "Reports roughly 2–3 attacks/year in controlled patients and rescue use around twice/year.",
+      "commercial_meaning": "A large prescribed rescue population may generate few consumed doses and slow replenishment.",
+      "limitation": "Selected controlled practice; cannot extrapolate to acute-only patients or untreated HAE.",
+      "next_test": "Consumption split by prophylaxis, frequency and severity; separate initial stock, use and expiry."
+    },
+    {
+      "id": "09",
+      "stance": "Short XR / Long IR",
+      "source": "E5/E3",
+      "time": "E5 10:58; E3 09:45",
+      "observation": "Easier acute treatment historically allowed some milder patients to stop prevention; some Orladeyo patients returned to acute-only care.",
+      "commercial_meaning": "Better rescue may substitute for preventive patient-months, offsetting dual-franchise growth.",
+      "limitation": "Anecdotal historical attribution, not recommended clinical strategy or measured national transition.",
+      "next_test": "Transitions between acute-only and prophylaxis after oral rescue initiation."
+    },
+    {
+      "id": "10",
+      "stance": "Long XR",
+      "source": "E3/E5",
+      "time": "E3 02:36; E5 25:28",
+      "observation": "Easier prevention may attract patients previously reluctant to inject.",
+      "commercial_meaning": "Expansion of prevention penetration is distinct from stealing competitor share.",
+      "limitation": "Counterbalanced by better rescue reducing desire for prevention; no magnitude observed.",
+      "next_test": "New prophylaxis users who were previously acute-only, with attack burden and reason for escalation."
+    },
+    {
+      "id": "11",
+      "stance": "Long IR / Short dual capture",
+      "source": "E4",
+      "time": "07:29;13:39;18:48",
+      "observation": "Prefers different mechanisms for prevention and acute care; sees oral B2 blocker fitting patients on Takhzyro.",
+      "commercial_meaning": "PHVS IR could complement competing prophylaxis while PHVS XR users receive competitor rescue.",
+      "limitation": "Preference is not proof same-target rescue fails; colleague consensus assertion unverified.",
+      "next_test": "Prescribing preferences after seeing combined-use data; rescue outcomes by preventive background."
+    },
+    {
+      "id": "12",
+      "stance": "Long dual franchise",
+      "source": "E2/E3/E5",
+      "time": "E2 18:31; E3 21:04–26:00; E5 25:28–31:50",
+      "observation": "Same molecule familiar to patient; experts anticipate easier administration, coverage or package deal.",
+      "commercial_meaning": "Potential cross-selling, brand trust and support-program economies.",
+      "limitation": "IR and XR are separate formulations; one-pill/one-authorization and guaranteed joint coverage are speculation.",
+      "next_test": "Final labels; actual joint coverage and contracting; attach rate; two-product education errors."
+    },
+    {
+      "id": "13",
+      "stance": "Both",
+      "source": "E1/E4",
+      "time": "E1 07:49; E4 10:35",
+      "observation": "Attack-free status and personal quality-of-life impact may matter more than average reduction.",
+      "commercial_meaning": "Switching and retention depend on perceived control, not population mean efficacy alone.",
+      "limitation": "Expert requests partly address already-public endpoints; percentage attack reduction is not percentage attack-free.",
+      "next_test": "Stratified complete-control outcomes, patient priorities, discontinuation linked to residual burden."
+    },
+    {
+      "id": "14",
+      "stance": "Long",
+      "source": "E2",
+      "time": "06:13",
+      "observation": "Rapid perceived benefit could reinforce adherence and confidence.",
+      "commercial_meaning": "Early success may improve initial persistence.",
+      "limitation": "One-week clinical signal is not head-to-head proof or evidence low-frequency patients notice benefit that soon.",
+      "next_test": "Early persistence and time to perceived benefit versus comparator, matched for baseline frequency."
+    },
+    {
+      "id": "15",
+      "stance": "Both",
+      "source": "E1/E2/E3",
+      "time": "E1 06:20; E2 07:13; E3 17:11;29:23",
+      "observation": "Doctors want detail on mild/moderate symptoms, chronic safety and pregnancy experience; E3 awaits longer follow-up.",
+      "commercial_meaning": "Everyday tolerability influences persistence even without serious toxicity.",
+      "limitation": "Topline reassurance not full safety assessment; June calls precede CHAPTER-3.",
+      "next_test": "Symptom-level adverse events, laboratory trajectories, long-term exposure and reproductive evidence."
+    },
+    {
+      "id": "16",
+      "stance": "Short ramp",
+      "source": "E4",
+      "time": "20:49",
+      "observation": "Ekterly already has market presence, sales force, coverage relationships and real-world experience.",
+      "commercial_meaning": "PHVS IR must displace an existing oral option, not simply convert injection users.",
+      "limitation": "First-mover advantage can be overcome; no quantified share ceiling.",
+      "next_test": "Prescriber awareness, access parity and switch reasons; evidence-based differentiation."
+    },
+    {
+      "id": "17",
+      "stance": "Both",
+      "source": "E4",
+      "time": "20:49",
+      "observation": "Orladeyo experience may make some physicians/patients skeptical of a second oral preventive.",
+      "commercial_meaning": "Prior dissatisfaction creates both a target pool and a credibility hurdle.",
+      "limitation": "Different mechanism/molecule can overcome class or route perceptions.",
+      "next_test": "Willingness before/after product-specific efficacy and safety education."
+    },
+    {
+      "id": "18",
+      "stance": "Short near-term revenue",
+      "source": "E4",
+      "time": "21:42",
+      "observation": "Expects free starter drug until formulary access, based on Ekterly experience.",
+      "commercial_meaning": "Patient starts and shipments may precede revenue; early start metrics can overstate paid demand.",
+      "limitation": "Expectation for PHVS, not announced PHVS program terms.",
+      "next_test": "Free versus paid patients, cohort conversion time, paid fills and persistence."
+    },
+    {
+      "id": "19",
+      "stance": "Long expansion / Short extrapolation",
+      "source": "E5/E3/E4",
+      "time": "E5 01:11;03:22; E3 09:45; E4 03:58",
+      "observation": "E5 reports more new diagnoses and family/self-referrals; E4 sees no comparable case trend.",
+      "commercial_meaning": "Awareness can uncover existing disease; no consensus on pace of market expansion.",
+      "limitation": "Tiny catchments; referrals and transferred cases are not national incident cases.",
+      "next_test": "Deduplicated new confirmed diagnoses, prior diagnosis and treatment history."
+    },
+    {
+      "id": "20",
+      "stance": "Both",
+      "source": "E3/E5/E1",
+      "time": "E3 09:45–16:55; E5 02:02;04:54; E1 09:45",
+      "observation": "Optum-titled expert describes normal-C1 access via samples/appeals and broader clinical diagnosis; E1 questions misclassification.",
+      "commercial_meaning": "Reachable expansion depends on diagnostic credibility and plan rules, not symptom prevalence alone.",
+      "limitation": "No prevalence estimate; local mix 25–30% is not national mix; workups are not confirmed cases.",
+      "next_test": "Confirmed subtype, actual policy, exceptions and durable paid response; avoid equating all angioedema with bradykinin HAE."
+    },
+    {
+      "id": "21",
+      "stance": "Long niche",
+      "source": "E5",
+      "time": "21:57;31:58",
+      "observation": "Interest in acquired-C1-inhibitor deficiency study; expert has seen only two or three cases over career.",
+      "commercial_meaning": "Potential adjacent unmet-need market.",
+      "limitation": "Separate acquired disease, development and eventual coverage; not core hereditary TAM.",
+      "next_test": "Independent diagnosed prevalence and paid treatment flow; separate scenario."
+    },
+    {
+      "id": "22",
+      "stance": "Long claimed / weak",
+      "source": "E3/E5",
+      "time": "E3 09:45; E5 18:53;25:28",
+      "observation": "Claims small molecule avoids antibody-driven loss of injectable efficacy.",
+      "commercial_meaning": "Would support durable persistence if clinically substantiated.",
+      "limitation": "Broad claim unsupported; Takhzyro label reports ADAs did not appear to impair clinical response. Small molecule does not guarantee durability.",
+      "next_test": "Documented loss-of-response and ADA association, not generic claims about monoclonals."
+    },
+    {
+      "id": "23",
+      "stance": "Both",
+      "source": "E3",
+      "time": "17:11",
+      "observation": "Respected HAE investigator increases confidence in the program.",
+      "commercial_meaning": "Physician education and trusted investigators can facilitate consideration.",
+      "limitation": "Authority is not independent clinical validation or payer approval.",
+      "next_test": "Knowledge and prescribing changes after evidence-based education."
+    },
+    {
+      "id": "24",
+      "stance": "Both",
+      "source": "E5",
+      "time": "10:58",
+      "observation": "Describes loyalty to manufacturer after supply availability/support helped patients.",
+      "commercial_meaning": "Reliable supply and practical support may compete with molecule attributes.",
+      "limitation": "Historical anecdote not verified company performance metric.",
+      "next_test": "Supply interruptions, hub service levels and prescribing response."
+    },
+    {
+      "id": "25",
+      "stance": "Short long-term / uncertain",
+      "source": "E1/E3/E4",
+      "time": "E1 16:12; E3 02:36; E4 11:22",
+      "observation": "Long-interval prevention and potential gene-based treatments could reduce medication burden.",
+      "commercial_meaning": "Competitor evolution can lower XR share and IR consumption.",
+      "limitation": "Development, approval, uptake and durability uncertain; gene editing is not automatically cure.",
+      "next_test": "Scenario timing, eligible willing patients, residual rescue needs and access."
+    }
+  ]
+}

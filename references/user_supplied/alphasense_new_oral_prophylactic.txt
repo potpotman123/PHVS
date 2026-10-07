@@ -1,0 +1,363 @@
+Brand logo
+Company Deep-Dive
+Allergist Immunologist Views New Oral Prophylactic Options for Hereditary Angioedema Positively but Highlights Practical Challenges
+DATE PUBLISHED
+02 Oct 2026
+INTERVIEW DATE
+30 Sep 2026
+EXPERT PERSPECTIVE
+Doctor/Medical Professional
+ANALYST PERSPECTIVE
+Investor-Led (Buy-Side)
+PRIMARY COMPANY
+PHVS
+OTHER COMPANIES
+BCRX
+NTLA
+IONS
+TAK
+SMART SUMMARY
+Summary
+The interview covered the expert's approach to managing hereditary angioedema, current prophylactic treatment options, unmet needs in therapy, and reactions to new clinical trial data for an oral extended-release prophylactic option. Discussion also included practical challenges in prescribing and the future outlook for HAE prophylactic therapies.
+EXPERT BACKGROUND
+Practicing allergist immunologist in a suburban metropolitan area, part of a single-specialty group focused on specialty care, with experience managing hereditary angioedema (HAE) patients.
+EXPERT SENTIMENT
+Generally positive about new prophylactic options for HAE, especially oral therapies, but notes they are not a complete solution.
+Believes new therapies will have some impact, particularly for patients not well controlled on current options, but does not expect them to dramatically change the landscape for well-controlled patients.
+Expresses frustration with the administrative burden and lack of compensation for obtaining insurance approval for specialty medications.
+TAKEAWAYS
+The expert manages a small number of HAE patients, most of whom are well controlled on existing therapies.
+Current prophylactic options like TAKHZYRO, ORLADEYO, and danazol are effective for most, but breakthrough attacks still occur in 15-20% of patients.
+There is an unmet need for longer-acting therapies (e.g., injections every 3-6 months) and for options that can eliminate breakthrough attacks.
+The expert views the Pharvaris deucrictibant extended release data positively, especially for its oral administration and tolerability, but notes efficacy is similar to existing options.
+Administrative burden and lack of financial incentive make switching stable patients to new therapies unlikely; new options will likely be used for newly diagnosed or uncontrolled patients.
+AlphaSense Smart Summaries are AI Generated
+
+Table of contents
+
+
+
+
+
+
+EXPERT BIO
+Board Certified Allergist/Immunologist
+View More
+INTERVIEW TRANSCRIPT
+Client
+
+00:00:00
+Could you please provide some background on yourself, your current practice setting, and your specialty?
+
+Expert
+
+00:00:05
+I am a practicing allergist immunologist in a suburban metropolitan area in a single specialty group with six other providers. We see only specialty care.
+
+Client
+
+00:00:17
+If you had to estimate approximately how many patients do you manage for hereditary angioedema in a typical month?
+
+Expert
+
+00:00:24
+It's eight people in a year that I follow. I don't know how to break it down into monthly. I don't see them that often, probably once or twice a year, because they are fairly well managed. I don't know, 1.5 per month?
+
+Client
+
+00:00:40
+The eight per year is a great jumping-off point there. How are those patients typically presenting to you?
+
+Expert
+
+00:00:48
+They present with, five of them I inherited from other physicians who went out of practice. They presented already on therapy and controlled. The other ones I diagnosed over time with recurrent angioedema, usually facial, but can also be extremity, and one with abdominal symptoms.
+
+Client
+
+00:01:07
+Could you walk me through the general standard of care if a new patient were to come in, what that would look like, and what your approach and treatment algorithm would consist of?
+
+Expert
+
+00:01:18
+You are referring to someone that I have already diagnosed and then treat, or somebody who hasn't even been diagnosed yet?
+
+Client
+
+00:01:27
+Someone who hasn't been diagnosed yet would be great.
+
+Expert
+
+00:01:32
+When I see somebody with angioedema and the history of angioedema, if HAE, that is, the attacks last two to four days and not associated with hives or chronic spontaneous urticaria, then I would get complement studies, C4, C1 esterase inhibitor functional assay, and usually C1 inhibitor as well. If those are abnormal or diagnostic for the disease, then we start with treatment. It depends on the frequency of the attacks as to what treatment I choose. If the attacks are in the zero to two, two and a half, even three times a year, and they are not severe, I usually just prescribe people on-demand therapy. If they are more frequent than that, or they have had more severe attacks, then a prophylactic therapy.
+
+Client
+
+00:02:18
+Starting with prophylactic therapies, could you walk me through those and what you find yourself prescribing more frequently?
+
+Expert
+
+00:02:25
+For me, there are only seven of my patients, of the eight, on prophylactic therapy. Two of them were already on an older therapy called danazol. They have been doing fine, so that has not been changed. People that I start, a couple on TAKHZYRO, and that's because it was the only thing available at the time, and they responded very well. It depends on the person. I have an adolescent. They didn't like shots, so they went on the pill, ORLADEYO. Another person was on TAKHZYRO, and they went in a clinical trial at another site, and they came back, actually trying ANDEMBRY.
+
+I had prescribed DAWNZERA to someone, but they ended up not taking it because this is a person with abdominal symptoms, and she ended up having a different GI problem, and that got better. Right now it's kind of eeny, meeny, miny, moe because I don't have that many people, and it's not very common.
+
+Client
+
+00:03:25
+For some of the other prophylactic options, how effective and durable have those typically been in preventing attacks?
+
+Expert
+
+00:03:33
+My patient that's taking ORLADEYO, she still will have an attack that takes her to the emergency room once a year or once every two years. I am looking to switch her, and I don't know how compliant she is. I would prefer a shot or something that would last longer. The other ones, TAKHZYRO has been really quite good for the people taking it. The people on danazol, I have actually tried to get them to take some of the newer ones, and they just have been resistant and are fine picking up their medicine at their local pharmacy and just taking it. That's pretty much it. They have been okay.
+
+Client
+
+00:04:09
+Are there any gaps or unmet needs that you have really noticed in the prophylactic space?
+
+Expert
+
+00:04:15
+A therapy that would last longer would be good. Something you only had to give every three months or six months if it was a shot. There still is all of the. The medicines tend to decrease attacks in the 80% to 85% range. There is 15%-20% that still have breakthrough. That would be the difference. That would be the unmet need that we would be looking to try to maybe help.
+
+Client
+
+00:04:42
+Today we are also going to discuss some data from Pharvaris for the deucrictibant extended release. It's that 40 mg tablet once daily. They have data from the phase III CHAPTER-3 trial. I would love to hear what your initial thoughts and reactions have been to that data so far.
+
+Expert
+
+00:05:05
+Positive. It still is not 100%. I don't know if these 83% might be the same 83% that would improve ORLADEYO. It's good to have another product in the works and to be available. I believe that this product is also being investigated for immediate release, so it would be nice to have both. It looks like it's well-tolerated. Not a lot of side effects, and that's always good. All medicines have effects and side effects. It's positive.
+
+Client
+
+00:05:38
+When getting into those numbers here a little bit more, I know the primary endpoint was the time-normalized number of investigator-confirmed attacks. That was during the 24-week treatment period. It looks like that primary endpoint results have been achieved and consistent across the different subgroups. The secondary endpoints, they had quite a few, including attacks requiring on-demand medication, reduction in attack rate, and change in the angioedema quality of life score. It looks like all of those secondary endpoints had met statistical significance as well. Did you have any additional thoughts or questions on the specific endpoints here?
+
+Expert
+
+00:06:20
+No. I think these are pretty standard across the FDA. Whoever did the first trial, the FDA accepted these, and everybody went with that. Those are the typical endpoints. We want to try to compare apples to apples, so changing the endpoints is not good. The only other thing, I don't have the full data. I did not participate in this trial. I did not refer anyone, and so I am a total outsider here. The best thing is that there are really no treatment-related serious adverse events. I don't know what the mild ones were. Those sometimes affect people.
+
+This doesn't have anything to do with the endpoints. In all the trials, there tends to be a couple people that just keep having attacks despite the medicines, and I wonder if that's just a different phenotype. They just have a bar graph here. That's all that I see, and often there is a different time, but the plot that gives you all the patients and how their reductions were.
+
+Client
+
+00:07:25
+It wasn't too in-depth in terms of that chart here, at least just yet. That did bring me to, I have just one other question in terms of the endpoints. It sounds like that's pretty inclusive of what you would want to see. Is there any additional data that we are not seeing here outside of that patient breakdown that would boost your confidence or clarity about this?
+
+Expert
+
+00:07:49
+No. I would like to see the patient breakdown. What I like to see is how many people had no attacks over the course of the trial. It's a half a year. Zero attacks versus a reduction in the monthly attack rate. Let's just take the people with HAE1 and HAE2, and that's an 87% reduction. if 80% of them had no attacks and three people had three or four attacks a month, then that's a different look than if people were having an average of four attacks a month and on this product. We know they were having two and it went down to very few. It would be nice to see the people that had complete response, because if only, let's say, over six months, only 25% of the people had zero attacks, and the rest had one, but their start was more.
+
+You can't really tell from this. That would be a data point that's nice to see. Over the six months, let's say 78% had no attacks versus 48% had no attacks. It was probably pretty low if it's 0.35 attacks per month. That's 1/3 of an attack. That means one attack every three months, or two attacks per six months, was the average of the treated people. It would be interesting to see how many of those people were zero over the six months versus how many were one or two or three.
+
+Client
+
+00:09:18
+I thought it was pretty interesting that they had noted a reduction or mean reduction in monthly attack rate by 83%, but then they continued to note that further analysis of 80 participants with Type one or Type two had shown a mean monthly attack rate reduced by 87%. I am curious about that difference in the five patients or so, and how that affected the 83% versus 87%.
+
+Expert
+
+00:09:45
+Type three HAE is not easy. It's still a little bit nebulous to me. I think there are people that are diagnosed that may not have it, so that could be why it's less. In other words, it's not bradykinin-mediated. I had trouble with that. I assume that none of those five were the acquired angioedema where they had a latency or something else going on. We don't know, so we would need more information about those five subjects.
+
+Client
+
+00:10:15
+It looks like as well they had noted early onset within the first week of the patients taking this. Would you say that is what you would expect here and what you see with some of the other prophylactic options as well?
+
+Expert
+
+00:10:28
+Yes.
+
+Client
+
+00:10:30
+All of that to say, if this were to be approved, where would you really fit this into your algorithm and among the other prophylactic options?
+
+Expert
+
+00:10:41
+I am not sure yet where it would fit. I think it would fit for people who don't want to take shots and who are newly diagnosed. I would certainly try it, but it's hard to do these market research things for HAE because it's a question like that, because the people that are well-controlled tend to not want to change therapy. The therapies are very expensive, and it's a real hassle for our office to make the change. I don't think I will be changing anyone who is doing well. For new patients coming in, there are other new products that are on the market, so I may just be eeny, meeny, miny, moe until I get a better handle on it. It's very difficult for me to give you a straight-up answer on that.
+
+Client
+
+00:11:26
+To your point of some of the others on the market here, what do you think would be the biggest competitor to this right now?
+
+Expert
+
+00:11:32
+ORLADEYO, the other oral medicine.
+
+Client
+
+00:11:36
+To summarize the data that we looked at and reviewed here today, what would you say are the biggest advantages and disadvantages of this prophylactic option?
+
+Expert
+
+00:11:45
+The biggest advantage is the oral part. The only disadvantage is that some people still have breakthrough. I would like to see no attacks.
+
+Client
+
+00:11:56
+Looking ahead, it looks like they already have the CHAPTER-4 open-label long-term extension study underway. Hopefully, that can bring some more long-term data and some further breakdown of those patients as well, like we had previously discussed. If this were to be approved, how much of an impact do you think it would make on the current landscape?
+
+Expert
+
+00:12:17
+It would have some impact. How much? The way I see HAE, about 1/3 of the patients really have very mild disease, and their attack rates are low. As I said, zero, one, two, maybe three a year max, but they are not severe. About 1/3 are moderate. They have more attacks. Their attacks are severe enough to seek care, then 1/3 have regular attacks. For the third that are having regular attacks, it would be interesting to see how much this works. If you could take these 85 people and take the ones that are having at least two attacks a month, so that's like 12 in six months, and just those people, or four attacks a month. Just those people, if they had dramatic responses, and they were some of the big players that resulted in the improvement, I would be more impressed with the product.
+
+I think it's going to fit as just one other product. I don't know that it's going to knock it out of the water. I am not a prognosticator. It's not my job. The attack rate reduction is similar to other products that are on the market, though, including TAKHZYRO and ANDEMBRY, and DAWNZERA. I am not sure it's going to be able to make a big dent in the people that are already controlled on those other ones.
+
+I think it will get some traction on the ones that are not controlled because we don't know if it's the same subset. With new patients, it's going to depend what is going on with the rest of the market. There are other products being developed that are looking at every two months, three months, six months, and those may be easier for people. I think the pill is good, and the fact that it works and it probably works a little better than ORLADEYO is positive.
+
+Client
+
+00:14:06
+That's very helpful, how you broke that down between controlled, uncontrolled, and those newer patients. One other question that we always like to ask is if you had to rank on a scale of 1-10, with 10 being ecstatic, how excited are you about the data and potential uses here, and why?
+
+Expert
+
+00:14:24
+7.5. I think it's great to have an addition. It's not totally knocking it out of the water.
+
+Client
+
+00:14:33
+I did want to go back to one of your other points that these medications are, of course, pretty expensive. What has your experience been like in terms of cost, coverage, and accessibility for some of these prophylactic options?
+
+Expert
+
+00:14:47
+Once you get them approved, the accessibility is fine. It's a lot of work, and that's a problem for Pharvaris. I hope someone is listening to this, but when we put someone on this medicine, we don't make any money. It takes us usually two to three, maybe four hours of back and forth and back and forth and proving that this is necessary to get the biologics, specialty medicines approved. It takes somebody some time, and we don't get compensated for that.
+
+There is a negative feedback or negative incentive to actually switch anyone. There is no, "Someone is doing fine. I am not going to start them on this medicine just to see how they work on it." Since most of my patients, or almost all of them except one, are well controlled, there is not going to be a lot of place until I diagnose a new patient.
+
+Client
+
+00:15:38
+What else would be important for us to focus on in our conversation today that I haven't asked you yet and would be important to talk about?
+
+Expert
+
+00:15:46
+As a practicing physician who prescribes these medicines, I would like to be able to just write it and then not have my office have to do anything else. Period. If you can make that happen, that would really help. As far as I can see, nobody can do that.
+
+Client
+
+00:16:04
+Last question here, where do you really see the landscape for prophylactic options going in the next five years or so?
+
+Expert
+
+00:16:12
+Where do I see it going? As I said, it looks like there is going to be some additional therapies coming out, and I think that we may be seeing longer-acting treatments or potentially the gene therapy, which would result in improvement without needing to take the medicine at all.
+
+Client
+
+00:16:29
+I appreciate your feedback on the data and space. I hope you have a wonderful rest of your day.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

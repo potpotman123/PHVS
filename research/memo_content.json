@@ -1,0 +1,1352 @@
+{
+  "title": "Pharvaris investment research assessment",
+  "subtitle": "Clinical evidence commercial adoption and a framework for valuation\nResearch date 6 October 2026",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "**Research judgment as of 6 October 2026.** Pharvaris has persuasive randomized evidence that deucrictibant treats and prevents hereditary angioedema attacks. That supports further investment work, but does not yet establish an attractive stock. Both pivotal efficacy readouts are complete. The most valuable remaining questions concern paid access, sustained use, incremental benefit over current alternatives, and the interaction between prevention and acute consumption. This memo identifies the evidence that can enter a model and the evidence still needed to demonstrate a valuation disagreement; it does not produce a DCF or price target."
+    },
+    {
+      "type": "p",
+      "text": "The strongest prospective long thesis is a smaller, reachable population generating more paid months because control and tolerability make patients stay. The strongest counterthesis is that existing oral treatments, increasingly infrequent injections, payer restrictions, and a potentially imminent one-time treatment constrain share and net economics. Public evidence establishes these mechanisms more confidently than their magnitude. A claim that either is already mispriced would exceed the evidence."
+    },
+    {
+      "type": "h1",
+      "text": "Current setup and remaining decisions"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Program",
+        "Verified status",
+        "Next decision and uncertainty"
+      ],
+      "rows": [
+        [
+          "Deucrictibant IR\nAcute on demand",
+          "20 mg immediate-release capsule; formerly PHVS416. RAPIDe-3 positive 3 December 2025. US NDA accepted July 2026; EU application validated July.",
+          "FDA action date 23 April 2027. Approval, final label, interactions, manufacturing review and launch execution remain open. [F1]"
+        ],
+        [
+          "Deucrictibant XR\nLong-term prophylaxis",
+          "40 mg once-daily extended-release tablet; formerly PHVS719. CHAPTER-3 positive 8 September 2026 in the intended commercial formulation.",
+          "NDA submission planned first half 2027. Long-term XR extension CHAPTER-4 ongoing. Commercially useful label and chronic safety remain open. [F2]"
+        ],
+        [
+          "Acquired angioedema",
+          "CREAATE, NCT07266805, is an actual pivotal program in acquired C1 inhibitor deficiency, studying prevention and on-demand treatment.",
+          "Part 1 XR prevention topline expected first quarter 2027. Indication-specific efficacy, eligible population and access are unresolved. [F1] [F2]"
+        ]
+      ],
+      "widths": [
+        1.35,
+        2.9,
+        2.81
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The legal company is Pharvaris N.V.; its Nasdaq ticker is PHVS. IR and XR deliver the same molecule, deucrictibant, also called PHA121 or PHA-022121. CHAPTER-1 used immediate-release dosing twice daily; it was not a direct trial of the commercial XR tablet. CHAPTER-3 now provides that direct evidence. Separate formulations justify separate commercial forecasts, with common molecule risks and overlapping patients. [B1] NDA means New Drug Application, the US marketing application; acceptance starts review and is not approval. BLA is the corresponding biologic marketing application. A PDUFA date is the FDA’s target action date, not a promise of approval."
+    },
+    {
+      "type": "p",
+      "text": "Pharvaris has described worldwide exclusive development and commercialization rights under the AnalytiCon/BRAIN license. Those rights carry low-to-mid-single-digit royalty economics. Royalty Pharma acquired the pre-existing royalty interest from BRAIN; payments in that transaction were not cash raised by PHVS. No territorial out-license was identified in the current updates reviewed. Reconcile the current agreement, remaining milestones, patent claims and territorial exclusivity before valuing the asset; a historical license date is not a universal loss-of-exclusivity date. [F3] [F4]"
+    },
+    {
+      "type": "p",
+      "text": "**Risk has moved.** Acute efficacy and prevention efficacy versus placebo are substantially de-risked. Rare or delayed safety, the breadth and wording of approval, product quality and manufacturing, reimbursement, switching, paid persistence, competition, and financing still matter. Those risks should not be compressed into a single generic probability of success."
+    },
+    {
+      "type": "h1",
+      "text": "A practical map of late-stage investment setups"
+    },
+    {
+      "type": "p",
+      "text": "A useful setup connects a mistaken belief to an observable mechanism and then to cash flow. The table ranks relevance to PHVS today; it does not assign each idea equal research priority. Evidence requirements are the observations that would make the setup investable."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Setup and relevance",
+        "Mechanism and evidence needed",
+        "Usual analytical trap"
+      ],
+      "rows": [
+        [
+          "Approval probability\nMedium",
+          "A label or manufacturing limitation changes launch timing or eligibility. Need regulator reviews, final label and inspection outcome.",
+          "Using Phase 1 failure rates after two positive pivotal trials."
+        ],
+        [
+          "Positive but undifferentiated\nHigh",
+          "Placebo benefit may not induce switching. Need competing control, burden, access and actual switch reasons.",
+          "Ranking cross-trial percentages as a head-to-head result."
+        ],
+        [
+          "Aggregate hides useful benefit\nMedium",
+          "Predictable responders may persist longer. Need reproducible interaction and identifiable cohort.",
+          "Calling a fitted mixture a discovered subgroup."
+        ],
+        [
+          "Analysis or enrichment drives result\nMedium",
+          "Selection, rescue or missingness alters the estimand. Need full participant flow and sensitivity analyses.",
+          "Assuming every unevaluable patient is a toxicity dropout."
+        ],
+        [
+          "Exposure changes practice\nMedium",
+          "Fast absorption or sustained trough protects under real use. Need exposure-response and missed-dose evidence.",
+          "Treating oral route or challenge thresholds as proof of superiority."
+        ],
+        [
+          "Trial and market differ\nHigh",
+          "Studied attack burden, age or subtype differs from reachable demand. Need routine-practice distributions.",
+          "Applying frequent-attacker efficacy and spending to all prevalence."
+        ],
+        [
+          "Patient identification\nMedium",
+          "Testing/referral releases patients from an undiagnosed stock. Need first confirmed diagnoses and paid conversion.",
+          "Calling more drug claims more underlying disease."
+        ],
+        [
+          "Treatment expansion or share\nHigh",
+          "More attacks are treated or brands change. Need patient-linked attacks and dispensing.",
+          "Interpreting all launch units as new patients."
+        ],
+        [
+          "Persistence and intensity\nHigh",
+          "More paid months or doses raise lifetime revenue. Need start-cohort survival and units.",
+          "Equating refill mix, retention and adherence."
+        ],
+        [
+          "Payer and channel friction\nHigh",
+          "Steps, delays and rebates change paid starts and net price. Need policy-weighted claims outcomes.",
+          "Equating nominal coverage or free drug with paid demand."
+        ],
+        [
+          "Competitive sequencing\nHigh",
+          "Entrenched oral drugs and long-duration competitors shift switch hurdles. Need launch cohorts and access terms.",
+          "Freezing the standard of care at trial initiation."
+        ],
+        [
+          "Funding and launch expense\nHigh",
+          "Time to paid scale consumes cash and issues shares. Need cash-path scenarios and cost to convert starts.",
+          "Treating a funded runway as proof of attractive returns."
+        ],
+        [
+          "Indication interactions\nHigh",
+          "Prevention reduces rescue consumption; one molecule shares safety. Need conditional utilization and joint scenarios.",
+          "Adding independently optimized IR and XR forecasts."
+        ],
+        [
+          "Success already expected\nHigh",
+          "A good drug can fail to earn its purchase price. Need explicit market expectations and reverse valuation.",
+          "Calling a fact unpriced because it is absent from slides."
+        ]
+      ],
+      "widths": [
+        1.55,
+        3.45,
+        2.06
+      ]
+    },
+    {
+      "type": "h1",
+      "text": "What the supplied examples teach us about PHVS"
+    },
+    {
+      "type": "p",
+      "text": "These examples provide methods for testing a thesis. Their clinical conclusions and numerical assumptions do not become evidence about Pharvaris. The PHAT deck and workbook concern Phathom Pharmaceuticals, a different company. I inspected the supplied material and traced selected formulas without changing the originals or recalculating the workbook. The other companies’ underlying clinical sources were not independently audited in this review."
+    },
+    {
+      "type": "h2",
+      "text": "PHAT a smaller market can still support a better business"
+    },
+    {
+      "type": "p",
+      "text": "The PHAT pitch accepts an important bear argument: patients whose symptoms persist on a proton-pump inhibitor do not all have acid-driven disease that stronger acid suppression can treat. It then proposes another source of upside: gastroenterologists may select more suitable patients and generate more repeat use. Slides 9–11 therefore separate eligible population from revenue per treated patient. This is useful for PHVS: determine who needs an oral treatment, how often they use it, whether they continue, and what the manufacturer receives after discounts. A large disease population or strong trial result cannot answer those commercial questions by itself. [X1]"
+    },
+    {
+      "type": "p",
+      "text": "The workbook makes the proposed driver concrete. SUM!F36 holds 80% “capture / adherence”; OpModel!K71 links to it. K72 assumes 150 doses per year, K67 holds 30 doses per bottle, and K74 divides these to produce five potential bottles. K73 multiplies those five bottles by modeled patients in K63 and the 80% factor, implying four realized bottles per patient-year. The corresponding NERD calculation appears in rows 104–107. Holding other inputs fixed, raising capture from 70% to 80% increases these forecast volumes by 80/70−1, or 14.3%. That is a model sensitivity, not proof of an improvement in persistence. [X2]"
+    },
+    {
+      "type": "p",
+      "text": "Slide 10 supports its assumption using correct administration timing, one-year PPI persistence by disease severity, aggregate refill share and physician anecdotes. These are different measures. Refill share can rise when new starts slow, without any improvement in individual retention. For PHVS, use patient cohorts and defined follow-up periods where available; keep prescriber selection, paid starts, continued use and dose frequency separate. [X1]"
+    },
+    {
+      "type": "p",
+      "text": "Two formula problems also show why we should audit an attractive example before copying it. DCF!G37 links to SUM!F21, which links straight back to DCF!G37: the discount rate is circular, while the separately calculated WACC in DCF!G34 does not feed discounting. OpModel!J14 and K14 back-solve gross-to-net discounts by adding H. pylori packs and pack price, rather than multiplying them as the revenue formula does. The latter mixes incompatible units and also feeds the next forecast year through L14. These issues require reconciliation before using the workbook’s precise valuation. [X2]"
+    },
+    {
+      "type": "h2",
+      "text": "M Loses Capital apply the skepticism symmetrically"
+    },
+    {
+      "type": "p",
+      "text": "Parts 2 and 3 provide a useful checklist: examine incentives, distinguish a biological marker from an outcome patients value, interrogate endpoints and ask whether sufficient drug reaches its target for long enough. Apply those questions to management, competitors and bearish commentary alike. Interested statements deserve corroboration, not automatic dismissal. A failure rate across all drugs entering development is also the wrong starting probability for a late-stage program with relevant human evidence. Update the prior for stage, target validation, formulation and trial quality. [X3] [X4]"
+    },
+    {
+      "type": "p",
+      "text": "The TTRX article usefully examines an active ointment vehicle, baseline imbalance, changes in endpoints and selection of a subgroup after results were known. Those checks transfer directly to PHVS. But nonsignificance does not establish absence of benefit, and an eleven-patient study of another intervention cannot set a hard ceiling on an entire mechanism. A promising subgroup should generate a prospectively testable hypothesis; it should not inherit the certainty of a replicated randomized result. [X5]"
+    },
+    {
+      "type": "p",
+      "text": "ZURA illustrates the danger of an appealing biological explanation becoming an unsupported numerical forecast. Its assumed mixture, 0.33 × subgroup response + 0.67 × 38.3% = 51.6%, implies roughly 79% response in the proposed subgroup. Yet an assumed 50% subgroup share implies about 65%; equal 51.6% responses in both groups also reproduce the aggregate. Without observing subgroup membership and outcomes, the mechanism is underidentified. Using the supplied counts, 16/31 versus 23/60, the difference is 13.3 percentage points, with an approximate unadjusted 95% interval of −8.2 to +34.7 points. This arithmetic neither reproduces the trial’s Bayesian analysis nor proves subgroup efficacy. Withdrawals also need documented reasons before being classified as nonresponse. [X6]"
+    },
+    {
+      "type": "p",
+      "text": "SLGL supplies the right exposure question: does an ordinary topical formulation deliver enough active drug to the tissue where disease develops? Similar molecular properties are a reason to investigate, not proof that two formulations have identical delivery. A concentration below assay detection is not demonstrated biological zero. For PHVS, the corresponding discipline is to require evidence for the actual formulation, dose and intended use, and to test whether exposure translates into clinically meaningful outcomes. [X7]"
+    },
+    {
+      "type": "h1",
+      "text": "From disease biology to patient value"
+    },
+    {
+      "type": "p",
+      "text": "Hereditary angioedema, or HAE, causes episodic swelling of skin, gastrointestinal tissue or the upper airway. In the common type 1 and type 2 forms, C1 inhibitor is respectively deficient or dysfunctional. This protein normally restrains enzymes in the contact system, including activated factor XII and plasma kallikrein. Without enough restraint, excess bradykinin forms. Bradykinin activates B2 receptors on cells lining blood vessels, increasing vascular leakage and producing swelling. This is a causal reason to block B2 signaling rather than assume every swelling disorder responds to the same drug. [B2]"
+    },
+    {
+      "type": "equation",
+      "text": "C1 inhibitor failure → excess bradykinin → B2 activation → vascular leakage\nDeucrictibant exposure → B2 blockade → less leakage → fewer or shorter attacks"
+    },
+    {
+      "type": "p",
+      "text": "Injected icatibant validates B2 antagonism for acute HAE. It does not establish the absorption, duration, selectivity, metabolites, safety or comparative benefit of a different oral molecule. Deucrictibant is a competitive antagonist: it competes with bradykinin at the receptor. Success therefore requires sufficient effective drug exposure when signaling occurs. Randomized trials of spontaneous attacks are more direct evidence of patient benefit than a laboratory challenge showing that a dose blocks an administered bradykinin stimulus. [B2]"
+    },
+    {
+      "type": "p",
+      "text": "Acute and preventive treatment ask different pharmacological questions. Acute dosing needs rapid absorption after an attack starts, dependable activity despite an individual attack’s location or severity, and sufficient duration to avoid progression, redosing or rescue. Prevention needs sustained coverage between daily doses, including the lowest concentration before the next dose, called the trough. Extended release can smooth exposure and reduce dosing frequency, while creating dependence on consistent daily administration and absorption. Whether a missed daily pill produces clinically important vulnerability requires observed exposure and attack data; it cannot be inferred from the formulation name."
+    },
+    {
+      "type": "p",
+      "text": "The phase 2 acute dose groups all improved outcomes versus placebo, without a monotonic efficacy gradient across 10, 20 and 30 mg. That is compatible with a useful exposure plateau, but does not prove doses are equivalent or every patient has adequate exposure. In a small healthy-volunteer XR study, 12 of 14 evaluable participants remained above a challenge-derived EC85 threshold at 24 hours; all exceeded EC50. EC85 means the concentration associated with 85% inhibition in that experimental model, not a validated clinical threshold below which spontaneous attacks become inevitable. Repeated XR dosing reached steady exposure within several days. [B3]"
+    },
+    {
+      "type": "p",
+      "text": "Food, drug interactions, liver or kidney function and active metabolites matter if they change onset, trough exposure or adverse effects. Early materials identify CYP3A4, a drug-metabolizing enzyme, as relevant. Trial exclusions for interacting drugs narrow what can be learned about ordinary practice. The retrieved material does not justify a precise commercial penalty for food effects, renal or hepatic impairment, or metabolite toxicity. Final labels and the regulator’s pharmacology review should determine those adjustments. [B4]"
+    },
+    {
+      "type": "p",
+      "text": "The US clinical holds in 2022 followed repeat-dose rat findings, which the company described as unrelated to B2 antagonism. The acute hold was lifted in June 2023 after interim longer-duration toxicology; the prevention hold followed in January 2024 after the complete study. This materially changed development risk. A lifted hold permits development; it does not prove lifelong absence of rare toxicity. Conversely, the historical hold alone cannot justify treating present efficacy as invalid or inventing an undisclosed organ injury. [B5]"
+    },
+    {
+      "type": "p",
+      "text": "A September 2026 poster modeled taking IR on top of XR, comparing simulated exposures with animal no-observed-adverse-effect levels and earlier high-dose human exposure. This supports a feasibility hypothesis. It is not a randomized combined-use safety or efficacy trial, an approved dosing instruction, or evidence that a payer will cover both. Shared pharmacology can create commercial familiarity and common liabilities at the same time. [B6]"
+    },
+    {
+      "type": "p",
+      "text": "HAE with normal C1 inhibitor is heterogeneous. Some genetic forms affect bradykinin generation; other proposed mechanisms involve vascular responses. A downstream target may be broadly useful, but normal laboratory C1 inhibitor measurements alone do not establish bradykinin dependence or response. This makes precise diagnosis, sparse subgroup data and eventual label wording economically important. [B7]"
+    },
+    {
+      "type": "h1",
+      "text": "Clinical evidence and what it establishes"
+    },
+    {
+      "type": "p",
+      "text": "The clinical question has changed: both pivotal trials have succeeded. RAPIDe-3 reported on December 3, 2025; CHAPTER-3 reported on September 8, 2026. The central remaining questions are how broadly the results apply, how robustly the analyses handle incomplete observations and rescue treatment, and whether efficacy translates into a competitive product. The evidence supports a substantial treatment effect versus placebo. It does not establish superiority to another active therapy, a broad normal-C1-inhibitor market, or guaranteed long-term persistence. [R1] [R2]"
+    },
+    {
+      "type": "p",
+      "text": "Reading the trials: intention-to-treat (ITT) analyzes participants according to randomized assignment; modified ITT imposes additional inclusion rules. A crossover gives the same patient different treatments for separate attacks. VAS is a visual analog symptom scale. PGI-C is Patient Global Impression of Change; initial relief requires “at least a little better” on two consecutive ratings. OLE means open-label extension, where treatment is known. SAP means statistical analysis plan. A confidence interval (CI) describes sampling uncertainty under the analysis assumptions, not every source of bias."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Study",
+        "Population and treatment",
+        "Decision-relevant result",
+        "Principal limitation"
+      ],
+      "widths": [
+        1.04,
+        1.92,
+        2.53,
+        1.57
+      ],
+      "rows": [
+        [
+          "RAPIDe-1\nNCT04618211\nPhase 2",
+          "89 screened; 74 randomized. IR 10, 20 or 30 mg; two active and one placebo attack per crossover sequence. Published primary set: 62 patients, 147 attacks.",
+          "Primary: change in three-symptom VAS at four hours. Adjusted differences versus placebo: −16.75, −15.02 and −16.28 points, respectively. Each confidence interval excluded zero. [R3] [R4]",
+          "Modified ITT; repeated attacks; hypothetical no-rescue analysis. Small dose cohorts do not establish a monotonic dose response."
+        ],
+        [
+          "RAPIDe-2\nNCT05396105\nPhase 2/3 extension",
+          "Final Part A: 19 patients, 465 attacks; blinded IR 10/20/30 mg. Part B uses open-label 20 mg.",
+          "Primary objective: long-term safety. Part A median initial relief 1.1 hours; complete resolution 10.6 hours. No treatment-related adverse events reported. [R5]",
+          "No concurrent placebo. Evaluable attack denominators vary; reported Kaplan–Meier intervals ignore within-patient correlation."
+        ],
+        [
+          "RAPIDe-3\nNCT06343779\nPhase 3",
+          "134 randomized; 113 treated ≥1 attack; 88 treated both crossover attacks. IR 20 mg versus placebo; adolescents and adults, including stable prophylaxis users.",
+          "Primary: sustained initial relief within 12 hours. Median 1.28 hours, 95% CI 1.05–1.52; placebo median not reached. All 11 ranked secondary endpoints reported significant. [R1] [R6]",
+          "Primary analysis restricted to paired attacks. Full disposition and sensitivity analyses unavailable. Severe airway attacks were not qualifying attacks."
+        ],
+        [
+          "CHAPTER-1\nNCT05047185\nPhase 2 and OLE",
+          "44 screened; 34 randomized and dosed: 11 low-dose, 12 high-dose, 11 placebo. IR 10 or 20 mg twice daily for 12 weeks. Thirty entered extension.",
+          "Adjusted attacks per four weeks: 0.40, 0.30 and 1.93. Reductions versus placebo: 79.2% and 84.5%. Extension mean exposure 22.2 months. [R7] [R8]",
+          "Small, entirely White type-1/2 population. Extension selected completers and removed concurrent placebo."
+        ],
+        [
+          "CHAPTER-3\nNCT06669754\nPhase 3",
+          "85 randomized and dosed: XR 40 mg once daily, n=55; placebo, n=30; 24 weeks. Includes eight adolescents and five normal-C1-inhibitor patients.",
+          "Adjusted rate: 0.35 versus 2.06 attacks per four weeks; 83% reduction, 95% CI 72–90%, p<0.0001. Attack-free: 25/55 versus 1/30. [R2]",
+          "Full protocol/SAP, missing-diary handling and complete disposition were unavailable in reviewed disclosures."
+        ],
+        [
+          "CHAPTER-4\nNCT06679881\nPhase 3 extension",
+          "Open-label XR 40 mg daily; prior-study and eligible new patients. Registry estimates 170 participants; safety assessments extend to 240 weeks.",
+          "Ongoing assessment of longer exposure, attack rates and patient-reported outcomes. No mature randomized result to add. [R9]",
+          "Estimated enrollment is not actual enrollment. Eligibility can exclude prior safety/compliance discontinuations."
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Denominators change the strength and meaning of a result"
+    },
+    {
+      "type": "p",
+      "text": "RAPIDe-3 provides the clearest example. Its primary analysis comprises 88 participants, each contributing one active-treated and one placebo-treated attack: 176 attacks, not 176 independent patients. Those 88 represent 65.7% of 134 randomized participants. The reported 113 participants with any treated attack imply 21 treated none and 25 treated only one. These are arithmetic reconciliations, not documented withdrawal reasons. Study closure before another qualifying attack, insufficient attacks, withdrawal and noncompliance are competing explanations; the available disclosures do not allocate their contributions. [R1] [R6]"
+    },
+    {
+      "type": "p",
+      "text": "The paired design controls stable differences between patients, but conditioning on completion of both attacks could select a different population. The most informative check is a first-period comparison using all treated participants according to randomized sequence, followed by an analysis retaining single-attack observations. Request disposition by sequence, baseline attack frequency, prophylaxis use and time of entry. Neither assuming all missing participants failed nor assuming their exclusion was harmless answers this question."
+    },
+    {
+      "type": "p",
+      "text": "Other denominator changes require explicit reconciliation. RAPIDe-1 published 62 patients and 147 attacks in its primary set despite 74 randomized; one withdrew in the initial phase, leaving 73 entering the attack phase. The registry then reports 40 completing, 23 categorized as having met primary-analysis criteria and ten withdrawing. The 40 plus 23 categories do not fully reconcile the publication’s 62-person primary set; that remaining difference needs clarification. Thus “not completed” is not synonymous with intolerance. CHAPTER-1 had 30 of 34 complete its blinded phase: two high-dose discontinuations were consent withdrawal and the sponsor/FDA pause; two placebo discontinuations were consent withdrawal and loss to follow-up. No corresponding evidence supports selective toxicity attrition. [R4] [R7]"
+    },
+    {
+      "type": "h2",
+      "text": "Rescue treatment and missing observations define the estimated benefit"
+    },
+    {
+      "type": "p",
+      "text": "An estimand specifies which treatment effect a study intends to measure, including what happens after rescue medication or discontinuation. RAPIDe-1 used pre-rescue symptom measurements in a repeated-measures model to estimate four-hour benefit as if rescue had not been taken. That depends on a missing-at-random assumption: after accounting for observed information, unobserved symptoms must not systematically differ. Its protocol allowed conventional rescue after four hours without relief and directed prompt standard treatment for dangerous symptoms. [R10]"
+    },
+    {
+      "type": "p",
+      "text": "RAPIDe-3 uses a different disclosed rule: rescued attacks are right-censored at the upper end of the data-entry window; other attacks without the required improvement are censored at their last observation before that upper end. The comparison therefore reflects the trial’s handling of rescue, rather than actual time to relief after all treatments received. Its unreached placebo median is not evidence that patients literally received no effective relief for 12 or 48 hours. The complete SAP is needed to resolve how improvement preceding later rescue, assessment windows and other missing observations were handled. [R6]"
+    },
+    {
+      "type": "p",
+      "text": "The primary crossover comparison used a generalized Wilcoxon test adapted for paired time-to-event outcomes, with a prespecified gatekeeping procedure for multiple endpoints. Median initial relief was 1.28 hours; substantial relief was 2.85 hours and complete resolution 11.95 hours. “End of progression,” at 17.47 minutes, means later ratings remained stable or improved; it is not relief or complete resolution. The first assessment at 15 minutes also limits temporal precision. [R1] [R11]"
+    },
+    {
+      "type": "p",
+      "text": "Within 12 hours, 73/88 active-treated attacks used a single capsule and 82/88 avoided rescue, versus 29/88 and 56/88 with placebo. These are useful treatment-intensity observations, but not lifetime probabilities. Some fixed-time symptom percentages use 83 or 87 evaluable observations rather than 88; they should not be presented as percentages of everyone randomized. The December 2024 design disclosed possible redosing after four hours, with conventional rescue after persistent symptoms following the second dose. Final protocol exceptions remain unverified. [R6] [R11]"
+    },
+    {
+      "type": "p",
+      "text": "CHAPTER-1 explicitly estimated a hypothetical continued-treatment effect, using observed attacks before discontinuation and assuming subsequent missingness was explainable by observed history. Its Poisson model adjusted for baseline burden and included observation time; negative-binomial sensitivity analysis was specified if feasible. These methods accommodate unequal follow-up but cannot automatically remove bias when worsening disease causes withdrawal. The SAP treated secondary comparisons as supportive without multiplicity adjustment. [R12]"
+    },
+    {
+      "type": "h2",
+      "text": "CHAPTER-3 strong prevention, incomplete analytical disclosure"
+    },
+    {
+      "type": "p",
+      "text": "Mean baseline burden was 3.76 attacks per four weeks in the active arm, SD 2.04, versus 3.47, SD 1.81, on placebo. The primary analysis adjusted for baseline attack rate, age group and treatment using Poisson regression. Its 83% reduction is an adjusted rate comparison, not an unadjusted change from baseline or the percentage of patients benefiting. The absolute adjusted difference is 1.71 attacks per four weeks. Randomized and safety populations both total 85; published efficacy denominators are 55 and 30. Screen failures, total early discontinuations and the complete analysis-set definition were not disclosed. [R2]"
+    },
+    {
+      "type": "p",
+      "text": "The attack-free outcome gives an additional clinical perspective: 45.5% on active treatment versus 3.3% on placebo over 24 weeks. Conversely, more than half of treated patients experienced at least one attack. A strong average rate reduction can therefore coexist with continued demand for on-demand treatment. The trial also reported large improvements in quality of life. These findings support clinical value, but do not by themselves predict switching from effective injectable prophylaxis. [R2]"
+    },
+    {
+      "type": "p",
+      "text": "Before treating the topline as fully audited, obtain the SAP, person-time by arm, missing diary days, post-discontinuation rules, responder definitions and the full secondary-testing hierarchy. Recurrent attacks can be more variable than a simple Poisson model assumes. Negative-binomial or appropriately robust analyses would test whether uncertainty remains similar; their absence from a topline deck is not proof that the reported significance is invalid. A treatment-policy analysis following patients after discontinuation would answer a different, practically useful question from benefit while observed on treatment."
+    },
+    {
+      "type": "h2",
+      "text": "Prespecification, durability and safety"
+    },
+    {
+      "type": "p",
+      "text": "The December 2024 RAPIDe-3 design already identified sustained PGI-C improvement within 12 hours as primary and complete resolution within 48 hours as secondary. Moving from RAPIDe-1’s four-hour VAS endpoint to this endpoint between development phases is not evidence of post-unblinding switching. End of progression was exploratory/post-hoc in earlier work but listed prospectively for RAPIDe-3. Earlier design materials listed type 1/2; later enrollment included normal-C1-inhibitor disease. The amendment chronology and access to blinded data were not recovered. [R11]"
+    },
+    {
+      "type": "p",
+      "text": "Extension results add exposure and repeat-attack experience, not a fresh randomized comparison. CHAPTER-1’s headline 92.4% extension reduction averages patient-level percentage changes and excludes one participant with only four treatment days; it is not the ratio of the displayed group mean rates. Only six participants remained represented at month 34. RAPIDe-2’s hundreds of attacks come from 19 people, and its reported Kaplan–Meier confidence intervals explicitly omit within-person correlation. These limitations matter particularly when claiming improving durability or unusually precise superiority. [R5] [R8]"
+    },
+    {
+      "type": "p",
+      "text": "CHAPTER-3 recorded any adverse event in 42/55 active participants versus 17/30 placebo participants; investigator-related events were 11/55 versus 3/30. There were three grade-3 and one grade-4 events on active treatment, one serious event, and no investigator-attributed treatment-related serious event. One participant in each arm discontinued because of an adverse event. The primary disclosure reviewed did not identify individual diagnoses. The numerical imbalance merits clinical classification and longer exposure; it neither proves causation nor supports an unqualified claim of equivalent tolerability. [R2] Severity grades describe intensity; “serious” refers to consequences such as hospitalization or life threat and is a different classification. Investigator attribution is a causality assessment, not proof that an event cannot be drug-related."
+    },
+    {
+      "type": "p",
+      "text": "RAPIDe-3 reported no adverse-event discontinuations or treatment-related serious events. Its later poster reports events within three days after dosing, whereas topline safety covered a longer period; those tables must not be mixed. CHAPTER-1 extension reported one treatment-related elevation of gamma-glutamyl transferase (GGT), a laboratory enzyme marker and no adverse-event discontinuations. The historical US clinical holds were lifted after additional rodent data, for on-demand treatment in June 2023 and prophylaxis in January 2024. This removes an active development restriction; it does not establish absence of rare chronic toxicity. [R1] [R6] [R8] [R13]"
+    },
+    {
+      "type": "h2",
+      "text": "Cohorts worth testing, without manufacturing subgroup discoveries"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Candidate and rationale",
+        "Actual evidence",
+        "What is identifiable",
+        "Potential model effect"
+      ],
+      "widths": [
+        1.68,
+        2.02,
+        1.78,
+        1.58
+      ],
+      "rows": [
+        [
+          "Normal C1 inhibitor: heterogeneous mechanisms and diagnostic pathways",
+          "RAPIDe-3: 4/134 randomized, documented genetic variants. CHAPTER-3: three active/two placebo. Type-1/2 subgroup reduction 87%. [R2] [R6]",
+          "No reliable subtype-specific efficacy or interaction. The 87% analysis was not multiplicity-adjusted; weighted subtraction cannot recover the remaining five patients’ effect.",
+          "Keep broad expansion as an explicitly uncertain scenario; require label and reimbursed diagnoses."
+        ],
+        [
+          "Existing prophylaxis users: breakthrough treatment remains necessary",
+          "RAPIDe-3 enrolled 31/134 using stable prophylaxis. Subgroup efficacy estimates and paired-set numbers were not retrieved. [R1]",
+          "Inclusion supports applicability better than a blanket exclusion; it does not establish equal effects across prophylaxis classes.",
+          "Separate breakthrough attacks from attacks in on-demand-only patients; avoid independent patient pools."
+        ],
+        [
+          "Baseline attack burden: absolute benefit and willingness to switch",
+          "CHAPTER-3 run-in enrichment and baseline means around 3–4 attacks per four weeks; no reliable burden-by-treatment interaction retrieved. [R2] [R14]",
+          "Strong average effect in the studied burden range; low-burden effectiveness and uptake remain uncertain.",
+          "Segment baseline frequency, residual attacks and switching; do not apply trial absolute benefit universally."
+        ],
+        [
+          "Attack severity/location and timing: absorption and early treatment",
+          "RAPIDe-3 permitted non-severe laryngeal attacks without breathing difficulty/stridor. No detailed subgroup counts/effects retrieved. [R6]",
+          "All body locations does not establish severe-airway performance. Timing effects require within-trial analysis rather than cross-study medians.",
+          "Influences treatment intensity, rescue needs and convenience value; not a proven efficacy premium."
+        ],
+        [
+          "Adolescents: label breadth and adherence",
+          "Ten randomized in RAPIDe-3; eight in CHAPTER-3, four per arm. Subgroup response estimates unavailable. [R1] [R2]",
+          "Represented, but too few to infer a separate precise effect or long-term adherence.",
+          "Use approved ages; keep pediatric expansion and persistence assumptions separate."
+        ],
+        [
+          "Geography: treatment habits and transportability",
+          "RAPIDe-3 randomized 38 North American, 56 European and 40 other-region participants. CHAPTER-1 was entirely White. [R1] [R7]",
+          "No independent geographic interaction established by this audit; site/region differences can reflect care patterns.",
+          "Requires region-specific reach and access assumptions, not a universal uptake curve."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "A prognostic factor predicts outcome regardless of treatment; a predictive factor changes the treatment advantage. Test the treatment-by-subgroup interaction directly: significance in one subgroup but not another is not evidence of an interaction. Vary plausible cutoffs, inspect a few high-frequency patients, adjust for baseline and region, and seek independent replication. Different regional or severity mixtures can even reverse pooled comparisons, the pattern called Simpson’s paradox. Prespecification of these specific interactions was not established, and individual-patient data needed to perform them were unavailable."
+    },
+    {
+      "type": "p",
+      "text": "For a future trial such as CREAATE, planned power assumes a chosen effect and variance; predictive success averages over uncertainty in both, the control response and population. Small favorable studies may overestimate effects through chance selection, often called winner’s curse. Fewer participants reduce power only with effect size, variation, allocation and analysis otherwise comparable. Post-hoc observed power adds no independent evidence to a completed trial’s effect estimate and confidence interval."
+    },
+    {
+      "type": "p",
+      "text": "The highest-return remaining clinical work is narrow: obtain the pivotal analysis documents and reconcile missing observations, then examine prespecified subgroup estimates with their sample sizes and interaction tests. Until then, treat efficacy versus placebo as established, subgroup differentiation as mostly unresolved, and comparative commercial superiority as a separate hypothesis."
+    },
+    {
+      "type": "h1",
+      "text": "The commercial system convert clinical value into recurring paid use"
+    },
+    {
+      "type": "p",
+      "text": "The commercially relevant question is how much incremental value deucrictibant offers against the treatment options patients will actually have when it launches. Oral administration already has commercial validation in both uses: Ekterly for attacks and Orladeyo for prevention. That validates demand for pills but removes the premise that PHVS owns an unserved route. Competition also includes increasingly infrequent injections and a gene-editing treatment already under regulatory review. A credible forecast therefore needs separate assumptions for physicians offering treatment, patients accepting a switch, insurance approval, paid dispensing and persistence. None can be read directly from a placebo-controlled efficacy result."
+    },
+    {
+      "type": "h2",
+      "text": "The competitive set is moving before PHVS reaches it"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Competitor / current position",
+        "Mechanism and treatment burden",
+        "Evidence and restrictions",
+        "Consequence for PHVS"
+      ],
+      "widths": [
+        1.35,
+        1.65,
+        1.95,
+        2.11
+      ],
+      "rows": [
+        [
+          "Ekterly / sebetralstat; approved July 2025; Chiesi acquired KalVista June 2026",
+          "Oral kallikrein inhibitor for attacks; 600 mg is two tablets; repeat dose possible after ≥3 hours.",
+          "Age ≥12; CYP3A4 interaction restrictions. KONFIDENT was a crossover trial; FDA efficacy population 110, including 24 receiving prevention. Severe throat attacks were excluded. [C1] [C3]",
+          "Already occupies oral acute treatment. PHVS must establish a reason to choose or switch, beyond avoiding injections; Chiesi ownership changes the competitor’s resources."
+        ],
+        [
+          "Icatibant / Firazyr and generics",
+          "Injected B2-receptor antagonist, self-administered for attacks.",
+          "US adult indication. Established target validation shares the receptor with PHVS, but not its formulation or exposure. [C2]",
+          "Supports the biology while providing a familiar acute option and a generic alternative for payer negotiations."
+        ],
+        [
+          "Berinert / Ruconest; Kalbitor",
+          "C1-inhibitor replacement by IV injection; Kalbitor inhibits kallikrein by subcutaneous injection.",
+          "Berinert includes pediatric use; Ruconest covers adults/adolescents. Kalbitor age ≥12 requires professional administration because of anaphylaxis risk. [C2] [C18]",
+          "Convenience could improve time to treatment, but replacement therapies have established experience and populations beyond a likely initial PHVS label."
+        ],
+        [
+          "Orladeyo / berotralstat",
+          "Daily oral kallikrein inhibitor for prevention; capsules with food, pediatric pellets.",
+          "Capsules age ≥12; pellets age 2–<12. A marketed oral option with real paid demand; dosing, interactions and tolerability remain relevant. [C16]",
+          "The closest commercial analogue. PHVS needs incremental control or tolerability strong enough to change prescribing and retention."
+        ],
+        [
+          "Takhzyro / lanadelumab",
+          "Injected anti-kallikrein antibody; adult/adolescent dosing every two weeks.",
+          "Age ≥2. In well-controlled patients, every-four-week dosing may be considered after more than six months. [C14]",
+          "A well-controlled patient may prefer an infrequent injection to daily medication and the uncertainty of switching."
+        ],
+        [
+          "Haegarda / Cinryze",
+          "C1-inhibitor replacement for prevention; subcutaneous / intravenous administration.",
+          "Established home-treatment options, both covering age ≥6. [C2]",
+          "Administration burden creates a switching opportunity; established benefit and access create inertia."
+        ],
+        [
+          "Andembry / garadacimab; approved June 2025",
+          "Antibody against activated factor XII; loading dose then monthly subcutaneous treatment.",
+          "Age ≥12; 400 mg loading dose followed by 200 mg monthly. [C15]",
+          "Competes on infrequent administration and can already occupy a preferred payer position."
+        ],
+        [
+          "Dawnzera / donidalorsen; approved August 2025",
+          "Antisense treatment reduces prekallikrein production; subcutaneous every four weeks, with eight-week dosing an option.",
+          "Age ≥12; 24-week pivotal study. The two schedules produced different efficacy estimates. Hypersensitivity, including anaphylaxis, is a labeled risk. [C17]",
+          "“Oral is convenient” must be compared with as few as roughly six injections annually, alongside control and safety."
+        ],
+        [
+          "Lonvo-z / formerly NTLA-2002; BLA accepted September 2026",
+          "One-time IV gene editing intended to inactivate KLKB1 and lower kallikrein production.",
+          "HAELO completed: 52 active / 28 placebo; mean monthly attacks 0.26 vs 2.10 during weeks 5–28. PDUFA March 10, 2027. [C19] [C20]",
+          "Could remove recurring drug demand in adopters. Approval, long-term safety, durability, acceptance, access and treatment-center capacity remain uncertain."
+        ],
+        [
+          "Navenibart / formerly STAR-0215; BioCryst",
+          "Long-acting anti-kallikrein antibody; pivotal regimens every three or six months.",
+          "ALPHA-ORBIT enrollment completed June 2026; topline results expected Q3 2027. Investigational, not approved. [C7]",
+          "Further challenges an assumption that daily pills are inherently the least burdensome option."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The table is a comparison of choices, not an efficacy league table. Different entry attack rates, washout of prior prevention, background treatment, outcome definitions, treatment windows and rescue rules can generate different headline percentages without identifying a superior drug. For acute therapy, relief after swallowing a dose also excludes the time spent finding, preparing or deciding to use it. For prevention, a favorable average rate does not show which patients remain dissatisfied. Without comparable patient-level data or a head-to-head study, numerical adjustments should not manufacture precision."
+    },
+    {
+      "type": "h2",
+      "text": "Diagnosis growth is a hypothesis about flows, not a prevalence multiplier"
+    },
+    {
+      "type": "p",
+      "text": "The patient journey runs from symptoms through recognition, referral, testing, diagnosis, specialist care, treatment choice, authorization, dispensing and continuation. Each transition can lose patients. Genetic disease prevalence is different from symptomatic disease, diagnosed disease and insured paid use. Family screening can uncover already-existing cases; it does not create incident disease. A new treatment claim can instead represent a switch, a previously diagnosed person returning to care, new insurance capture or changed treatment intensity. Those mechanisms have very different revenue implications."
+    },
+    {
+      "type": "p",
+      "text": "The 2025 US prevalence paper illustrates the problem. Its claims algorithm requires a proxy diagnostic code plus at least one claim for an HAE-indicated medicine. For 2020, it projected 8,694 cases before expert adjudication and 6,595 after it; the corresponding prevalence estimates were 2.43 and 1.84 per 100,000. Its point estimates declined across 2018–2020. This is useful calibration of captured, treated disease, but it cannot count untreated undiagnosed people or demonstrate that treatment availability caused diagnoses to increase. The difference after adjudication also shows that diagnostic definitions materially change the denominator. [C9]"
+    },
+    {
+      "type": "p",
+      "text": "There is evidence supporting an opportunity to diagnose earlier. An Icatibant Outcome Survey analysis found shorter delays in later birth cohorts and a median delay of 2.0 years with family history versus 5.6 without or with unknown history. However, it selected patients born before 1990 and diagnosed before age 25; it does not estimate today’s US diagnosis flow. [C10] An expanding diagnosed population may also contain people with milder symptoms or uncertain normal-C1-inhibitor diagnoses. Lower average commercial intensity is plausible, but is not established by these data. The useful next measurement is first confirmed diagnosis followed by subtype, prior care, attack burden and subsequent paid treatment—not growth in drug claims alone."
+    },
+    {
+      "type": "h2",
+      "text": "Interest, prescribing and reimbursed demand are separate"
+    },
+    {
+      "type": "p",
+      "text": "Prescribing is substantially specialist-led, but reliable current national concentration data were not found. A 2019 US physician survey reported that cost or insurance coverage was the leading nonefficacy influence on treatment choice for 43.7% of respondents. Its 177 responses from 5,382 invitations, only 3%, make it a mechanism signal rather than a representative share estimate. [C11] Clinically, the relevant segments differ: poorly controlled patients may accept switching risk, while patients with excellent control may need a substantial improvement in burden or reliability. An oral preference survey cannot determine how many will actually switch."
+    },
+    {
+      "type": "p",
+      "text": "A concrete payer example shows why. UnitedHealthcare’s commercial Orladeyo policy, effective April 1, 2026, states that the product is typically excluded. For patients aged 12 and older, its coverage criteria require documented failure of Andembry, Haegarda and Takhzyro, an allergist or immunologist prescriber, diagnostic support and severity or frequency sufficient to justify prevention. Concurrent preventive products are excluded, and authorization lasts 12 months. Some normal-C1-inhibitor diagnostic pathways are accepted. This is a specified plan policy, not a national requirement or a forecast of PHVS coverage; benefit provisions, mandates and claims-based exceptions matter. It nevertheless demonstrates that oral preference may not be sufficient for paid access. [C12]"
+    },
+    {
+      "type": "p",
+      "text": "Access also depends on incumbency. Oklahoma’s May 2026 introduction of product-based HAE authorization allowed existing users to continue while new starts faced initial and tier-specific requirements. [C13] A competitor can therefore benefit from existing approvals even when a new product is clinically attractive. PHVS access assumptions should be weighted by the policies of actual covered patients, and paired with the discounts and support spending needed to achieve conversion. Nominal coverage is not a paid-start rate."
+    },
+    {
+      "type": "h2",
+      "text": "The best analogues reveal both opportunity and friction"
+    },
+    {
+      "type": "p",
+      "text": "Orladeyo provides a particularly transferable disappointing commercial period. For Q4 2022, BioCryst reported that patients on treatment were in line with expectations but revenue lagged because paid shipments and free-to-paid conversion were weaker than expected. This was not a failed launch; it was a demonstration that demand and monetization differ in the same disease and oral specialty channel. [C6] By Q2 2024, the company reported a 74.4% paid-patient rate and more than 60% of paid patients staying at least a year. These are distinct denominators, not interchangeable retention statistics. They support modeling coverage conversion and cohort persistence separately, while leaving any PHVS advantage uncalibrated. [C8]"
+    },
+    {
+      "type": "p",
+      "text": "Ekterly offers a closer acute-treatment analogue. KalVista reported 1,702 US patient start forms and 724 unique prescribers through February 2026, alongside $49.1 million of global product revenue through December 2025. Most Q4 revenue came from refills. Different dates and geographies prevent dividing these figures into a meaningful revenue-per-patient estimate; start forms are not confirmed paid users. [C4] The preliminary January update also cautioned that some refill demand could have been pulled forward before holidays. [C5] Refills strengthen the evidence for recurring dispensing, but do not reveal the number of attacks treated, the paid-conversion rate or a persistence curve."
+    },
+    {
+      "type": "h2",
+      "text": "Oral rescue can expand use while prevention contracts consumption"
+    },
+    {
+      "type": "p",
+      "text": "A KalVista-funded 2025 study offers a useful behavioral clue: 107 of 155 survey starters completed it; 80.4% were women, and the design deliberately balanced acute-only treatment against prevention plus acute treatment. Fifty-seven percent of respondents did not treat every attack. That does not mean 57% of attacks went untreated. Only 14% always treated immediately, and the reported mean delay was 2.4 hours. These self-reported, selected observations support a hypothesis that easier treatment increases the proportion of attacks treated. They do not estimate the causal effect of switching to a pill or PHVS’s eventual share. [C21]"
+    },
+    {
+      "type": "p",
+      "text": "The opposing mechanism is equally real. In HAELO, attacks requiring acute medication averaged 0.19 monthly after lonvo-z versus 1.79 with placebo during the six-month efficacy window. [C19] Better prevention reduces the events available to treat, even when patients continue to carry rescue medication. Early home-stock purchases, expiry replacement and replenishment should therefore be separated from consumption. Earlier effective treatment could also reduce redosing, partly offsetting increased treatment propensity. Public evidence supports those dependencies, but not their exact commercial magnitudes. National realized net prices, PHVS-specific access, linked attack-and-dispensing records and paid cohort retention remain unavailable; these are the main limits on turning clinical enthusiasm into a defensible revenue base case."
+    },
+    {
+      "type": "h1",
+      "text": "Four debates most likely to change the investment"
+    },
+    {
+      "type": "p",
+      "text": "The prevailing interpretations below are hypotheses to test, not documented institutional consensus. Company language and public analyst ratings establish enthusiasm for the franchise; they do not reveal investors’ detailed assumptions about access, persistence or two-product utilization. Each debate therefore separates a supported mechanism from an unproven market disagreement."
+    },
+    {
+      "type": "h2",
+      "text": "Paid access and persistence can outweigh the headline market size"
+    },
+    {
+      "type": "p",
+      "text": "The prevailing interpretation is that attractive oral efficacy will translate into broad adoption. Evidence from Orladeyo paid-conversion shortfalls and actual step-therapy policies suggests an alternative mechanism in which access and continued paid treatment govern the reachable market. If this mechanism is correct, it changes paid starts and lifetime paid months through authorization losses, delays and discontinuation. Rapid conversion with durable paid refills would strengthen a PHVS long thesis; persistent free-drug dependence, costly rebates or early discontinuation would weaken or invalidate it. [C6] [C8] [C12]"
+    },
+    {
+      "type": "p",
+      "text": "This is the closest transferable lesson from the PHAT example. A conservative eligible population can support attractive economics if paid persistence is better than expected. The competing explanation is that apparent persistence reflects survivor selection, inventory or a slowing stream of new starts. The decisive dataset is a fixed initiation cohort followed through paid coverage, refill gaps, switching and stopping, with reasons. Public PHVS trials do not provide that commercial curve. The mechanism is supported; a PHVS-specific uplift and any claimed consensus error are unproven."
+    },
+    {
+      "type": "h2",
+      "text": "The switch hurdle is rising as the comparator changes"
+    },
+    {
+      "type": "p",
+      "text": "The prevailing interpretation is that oral administration plus strong prevention creates a large switching pool. Evidence from approved oral incumbents, monthly or less frequent injections, and the pending lonvo-z decision suggests an alternative mechanism in which daily oral therapy competes against increasingly low treatment burden. If this mechanism is correct, it changes switch rates, time to peak share and net price through a higher required benefit and stronger payer alternatives. Broad switching by well-controlled patients would weaken this counterthesis; starts concentrated among uncontrolled patients or heavy rebate requirements would strengthen it. [C1] [C15] [C17] [C19] [C20]"
+    },
+    {
+      "type": "p",
+      "text": "The positive alternative is that reliable control with a reversible daily pill appeals to people reluctant to accept injections or irreversible gene editing. Neither preference can be converted directly to share. The most useful test is a choice made under actual coverage and current disease control, followed by persistence. Clinical comparisons should prioritize attack freedom, reliability across patients, treatment burden and adverse effects. Placebo-adjusted percentages alone cannot answer that switching question."
+    },
+    {
+      "type": "h2",
+      "text": "The acute franchise can lose units as prevention succeeds"
+    },
+    {
+      "type": "p",
+      "text": "The prevailing interpretation is that two indications create additive revenue opportunities. Evidence that effective prophylaxis reduces attacks requiring rescue suggests an alternative mechanism in which prevention growth reduces acute consumption even while more patients keep an oral rescue supply. If this mechanism is correct, it changes residual attack frequency and paid acute doses through fewer attacks and replenishments. Persistently high replenishment after controlling for inventory would weaken the consumption-offset thesis; falling diary-confirmed acute use as prevention expands would strengthen it. [C19] [C21]"
+    },
+    {
+      "type": "p",
+      "text": "The counterweight is that convenient rescue may increase the fraction of attacks treated, reduce delay, or persuade some low-burden patients to defer chronic prevention. Earlier effective treatment could also reduce second doses. These are different parameters with opposite unit effects. A successful franchise could improve company revenue and patient outcomes while acute units per patient decline. Public revenue and enrollment figures cannot distinguish those mechanisms without attack diaries and dispensing history."
+    },
+    {
+      "type": "h2",
+      "text": "Clinical interpretation constrains breadth and positioning more than core efficacy"
+    },
+    {
+      "type": "p",
+      "text": "The prevailing interpretation is that strong headline results establish broad, consistently fast and near-complete control. Evidence from the RAPIDe-3 paired population, its rescue estimand, and only five normal-C1-inhibitor participants in CHAPTER-3 suggests an alternative mechanism in which the supported benefit is narrower than the marketing shorthand. If this mechanism is correct, it changes label breadth and comparative positioning through population and endpoint limitations. Consistent all-treated analyses and prospectively replicated subtype effects would weaken that concern; sensitivity to missingness or subtype would strengthen it."
+    },
+    {
+      "type": "p",
+      "text": "This is not presently a persuasive “drug does not work” short thesis. Independent randomized evidence across acute and preventive settings supports real clinical activity. The investable concern is whether evidence supports a switching claim, a wider label or a large incremental population. Obtaining full analyses has high information value; assigning all unpaired participants an invented failure reason does not."
+    },
+    {
+      "type": "h1",
+      "text": "Ranked hypothesis matrix"
+    },
+    {
+      "type": "p",
+      "text": "Status refers to the mechanism and available evidence, not proof of stock mispricing. Supported means the direction is established; plausible means consistent with evidence but unmeasured; weak means insufficient support for a base-case assumption; contradicted means available facts oppose the claim. Economic importance is qualitative because consensus operating estimates and a finished valuation are unavailable."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Rank and thesis",
+        "Evidence and strongest alternative",
+        "Test and model consequence"
+      ],
+      "rows": [
+        [
+          "1  Access governs paid scale\nMixed — supported mechanism",
+          "Orladeyo conversion disappointment and UHC restrictions. Alternative: PHVS secures broad access because incremental benefit wins. [C6] [C12]",
+          "Hub-to-paid funnel by plan and cohort; conversion, lag and net price. High importance. PHVS terms unknown."
+        ],
+        [
+          "2  Smaller market can have stronger persistence\nBullish — plausible",
+          "Meaningful prevention supports staying on therapy. Alternative: OLE selection exaggerates durability and daily dosing causes gaps.",
+          "6/12-month paid survival and stop reasons; lifetime paid months. High importance. Commercial retention unobserved."
+        ],
+        [
+          "3  Prevention constrains acute units\nMixed — supported dependency",
+          "Fewer attacks on prevention; HAELO reduces rescue-treated attacks. Alternative: more attacks treated and stock replacement offset decline. [C19]",
+          "Linked prevention, attack and dispense records; residual rate × treated fraction. High importance; net offset unknown."
+        ],
+        [
+          "4  Competitors raise the switch hurdle\nBearish — plausible",
+          "Approved oral drugs, longer dosing intervals and lonvo-z review. Alternative: patients prefer reversible oral control. [C1] [C20]",
+          "Actual switch reasons under coverage; share ramp, discounts, launch spending. High importance; preference under real prices unknown."
+        ],
+        [
+          "5  Rescue analysis limits positioning\nMixed — supported qualification",
+          "88 paired RAPIDe-3 patients and special rescue handling. Alternative: robust all-treated analyses reproduce benefit.",
+          "Full SAP and first-period analysis; comparative claims and confidence. Medium/high; bias size unknown."
+        ],
+        [
+          "6  Normal-C1 breadth is overstated\nBearish — supported sparsity",
+          "Only 5 CHAPTER-3 participants; heterogeneous biology. Alternative: downstream blockade is effective across defined variants.",
+          "Prespecified interaction and prospective variant cohorts; eligible population/label. Medium; no credible effect estimate."
+        ],
+        [
+          "7  Oral rescue expands treatment intensity\nBullish — plausible",
+          "Survey documents delayed/incomplete treatment. Alternative: refills mostly switch existing treated attacks or replenish inventory. [C21]",
+          "Within-patient attack-treatment fraction before/after; units per patient. High; causal change unknown."
+        ],
+        [
+          "8  New diagnoses have lower economic yield\nBearish — plausible",
+          "Easier cases may already be identified; new cases may be milder. Alternative: delayed severe disease remains substantial.",
+          "Confirmed new diagnoses linked to baseline burden and paid therapy; conversion and intensity. Medium; burden distribution unknown."
+        ],
+        [
+          "9  Diagnosis expansion drives a large premium\nBullish — weak",
+          "Historical delays imply an undiscovered stock. Alternative: growing claims measure capture and spending. [C9] [C10]",
+          "Independent first-diagnosis series; bounded diagnosis flow. Potentially high, but no defensible current growth rate."
+        ],
+        [
+          "10  Exposure-sensitive failures matter for switching\nBearish — plausible",
+          "Small PK study shows variability. Alternative: challenge cutoffs poorly predict attacks and clinical coverage is sufficient. [B3]",
+          "Linked trough, adherence and attacks; stop rate and clinical fit. Medium; no validated failure threshold."
+        ],
+        [
+          "11  Shared franchise lowers selling cost\nBullish — plausible",
+          "Same specialists and overlapping patients. Alternative: separate authorization, combined-use limits and cannibalization.",
+          "Cost per incremental paid start and dual-use label; shared selling expense. Medium; public cost allocation unknown."
+        ],
+        [
+          "12  PHVS has an uncontested oral opportunity\nBullish — contradicted",
+          "Ekterly and Orladeyo are already approved. Clinical success still may create value, but not through route novelty alone. [C1] [C16]",
+          "Compare incremental benefit and access; no novelty premium. High; market expectations still unidentified."
+        ]
+      ],
+      "widths": [
+        1.68,
+        2.66,
+        2.72
+      ]
+    },
+    {
+      "type": "h1",
+      "text": "Quantitative architecture for a future SOTP"
+    },
+    {
+      "type": "p",
+      "text": "A sum-of-the-parts valuation, or SOTP, separates indication cash flows while preserving shared costs and risks. Build the operating model first. Every input should carry a definition, unit, date, population and status: observed, derived, proxy, assumed or unknown. Arithmetic checks establish that formulas are correct; calibration asks whether inputs match observed behavior; independent validation tests the model on different data. None substitutes for another."
+    },
+    {
+      "type": "h2",
+      "text": "Diagnosis and treatment cohorts"
+    },
+    {
+      "type": "equation",
+      "text": "U[t+1] = U[t] + incident symptomatic cases − new diagnoses − exits\nnew diagnoses[t] = min(U[t] × diagnosis hazard[t], pathway capacity[t])\nD[t+1] = D[t] + new diagnoses[t] + net migration − deaths or corrections"
+    },
+    {
+      "type": "p",
+      "text": "U is the undiagnosed symptomatic population; D is the diagnosed stock, each measured in unique people. The diagnosis hazard is the probability of diagnosis in a period among those still undiagnosed. Capacity includes referral, testing and specialist evaluation. Inherited susceptibility is not the same as symptomatic expression or an incident diagnosed case. Family screening discovers existing prevalent cases and must be deduplicated against routine referrals. Changes in definitions and database coverage should be modeled separately from biological incidence. Diagnosis rates may fall after easier cases are found."
+    },
+    {
+      "type": "equation",
+      "text": "New paid starts = eligible decision opportunities\n  × P(offered | eligible) × P(accept | offered)\n  × P(covered | accepted) × P(dispensed | covered)"
+    },
+    {
+      "type": "p",
+      "text": "Eligibility is the intersection of label, clinical appropriateness and reachable care, not the product of unrelated marginal percentages. Apply conditional probabilities to avoid counting the same access loss twice. Decision opportunities include new diagnoses, existing patients choosing therapy and switches. A switch moves a person between treatment states; it does not add to disease prevalence. Separate first paid starts from free bridge starts and transfers between products."
+    },
+    {
+      "type": "equation",
+      "text": "Active[c,t] = starts[c] × S(c,t)\nPaid patient-months[t] = Σc Active[c,t] × months exposed[c,t] × paid fraction[c,t]\nProphylaxis net revenue[t] = paid patient-months[t] × net revenue per paid month[t]"
+    },
+    {
+      "type": "p",
+      "text": "For the patient-month calculation, S(c,t) is the average probability of remaining treated over the cohort’s exposed part of period t, obtained by integrating survival over that interval. It is not the end-of-period survivor fraction multiplied by a full period. A survival curve is more informative than one average annual retention rate because early intolerance and later stopping differ. The paid fraction includes coverage and free-drug status conditional on remaining treated. If the empirical survival curve already measures paid persistence, do not apply that attrition again. Adherence means taking doses as directed while on therapy; it may change attacks even when the bottle was paid for. Missed fills already reflected in paid units must not receive a second revenue haircut."
+    },
+    {
+      "type": "h2",
+      "text": "Acute demand and inventory"
+    },
+    {
+      "type": "equation",
+      "text": "Consumed PHVS doses[t] = Σg patient-months[g,t] × λ[g,t] × f[g,t] × q[g,t] × d[g,t]\nPaid dispensed doses = consumption + change in home stock + replacements − free doses\nAcute net revenue = paid doses × net revenue per dose"
+    },
+    {
+      "type": "p",
+      "text": "Segment g identifies prevention state, subtype, age and access. λ is residual attacks per patient-month, f the fraction treated, q PHVS share of treated attacks, and d doses per PHVS-treated attack. Track redosing and use of another rescue product separately. Replacement covers expiration or loss. Manufacturer revenue also depends on changes in distributor inventory, which is distinct from patient-held stock. Match price to dose, tablet or pack consistently: two tablets may constitute one treatment dose."
+    },
+    {
+      "type": "p",
+      "text": "Treatment changes must update the same patients’ acute demand. Prevention success lowers λ; more convenient rescue may raise f; faster relief may lower d; better experience may raise q. The direction of total acute revenue is therefore an empirical question. Better acute treatment might delay prevention initiation for some patients, but that belongs in a tested transition scenario, not an automatic benefit to both franchises."
+    },
+    {
+      "type": "h2",
+      "text": "Worked example 1  What attack freedom does and does not establish"
+    },
+    {
+      "type": "p",
+      "text": "**Observed PHVS inputs; derived approximation.** In CHAPTER-3, 25/55 treated participants versus 1/30 placebo participants had no attacks over 24 weeks: 45.5% versus 3.3%. The unadjusted risk difference is 42.1 percentage points. Wilson 95% intervals for the two proportions are approximately 33.0–58.5% and 0.6–16.7%; a Newcombe interval for the difference is approximately 23.9–55.4 points. These score-based intervals behave better than a simple symmetric normal interval when one group has only one responder. [R2]"
+    },
+    {
+      "type": "p",
+      "text": "This supports a large advantage over placebo, with uncertainty around the proportion of future patients achieving complete control. It does not show that at least 60% will be attack-free, that stable patients will switch, or that PHVS beats an active comparator. The calculation uses published binary counts and does not reproduce the baseline-adjusted Poisson primary analysis, the trial’s multiplicity procedure, or its protocol-defined missing-data handling. It enters a control-expectation sensitivity, not an automatic market-share conversion."
+    },
+    {
+      "type": "p",
+      "text": "RAPIDe-3’s missing paired observations pose a different problem: aggregate counts cannot reconstruct an all-randomized time-to-relief distribution. A useful sensitivity would compare first-period randomized treatment, all treated attacks with within-person correlation, and assumptions that unobserved outcomes differ progressively from observed outcomes. The tipping point is the assumption at which the conclusion changes. Assigning synthetic relief times or treating every missing attack as clinical failure would manufacture precision."
+    },
+    {
+      "type": "h2",
+      "text": "Worked example 2  More paid treatment without more diagnoses"
+    },
+    {
+      "type": "p",
+      "text": "**Hypothetical architecture, not PHVS estimates.** Begin with 100 newly confirmed diagnoses. Assume 75% reach specialist care, 80% are label-eligible and clinically suitable, 50% are offered the product, 80% accept, 65% obtain initial coverage and 95% dispense. Expected paid starts are 100 × .75 × .80 × .50 × .80 × .65 × .95 = 14.82. If each starter generates nine expected paid months during the twelve months after starting, the cohort produces 11.115 paid patient-years."
+    },
+    {
+      "type": "p",
+      "text": "Raise initial coverage to 80% and expected paid months to 10.5, leaving diagnoses and all other inputs unchanged. Starts become 18.24 and paid patient-years become 15.96, a 43.6% increase. These are twelve-month post-start windows, not a calendar-year forecast; a calendar model must place each start on its actual date. The improvement may require rebates or commercial spending, so revenue growth does not imply an equal increase in operating value."
+    },
+    {
+      "type": "h2",
+      "text": "Worked example 3  Prevention grows while acute units decline"
+    },
+    {
+      "type": "p",
+      "text": "**Hypothetical fixed cohort of 1,000 patients; calendar-month units.** Initially 400 use prevention at 0.25 attacks per month and 600 use acute treatment alone at 2 attacks per month. Annual attacks total 15,600. At 60% of attacks treated, 30% PHVS acute share and 1.1 doses per PHVS-treated attack, annual PHVS consumption is 3,088.8 doses."
+    },
+    {
+      "type": "p",
+      "text": "In a better-prevention scenario, 700 patients use prevention at 0.15 attacks per month and 300 remain acute-only at 2 per month. Total attacks fall to 8,460. Even if 90% of attacks are treated, unchanged share and dosing yield 2,512.62 PHVS doses, down 18.7%, while prevention patient-years rise from 400 to 700. PHVS acute share would need to reach approximately 36.9%, rather than 30%, to preserve initial consumption. At 45% share it would reach 3,768.93 doses."
+    },
+    {
+      "type": "p",
+      "text": "This scenario holds inventory, free drug and price constant to isolate utilization. It neither predicts those rates nor rules out acute growth. Clinical four-week attack rates are not calendar-month rates: use a consistent conversion before inserting them into annual demand. The commercial model must jointly determine prevention uptake, residual attacks, treatment propensity and product share."
+    },
+    {
+      "type": "h2",
+      "text": "Probabilities and economic dependencies"
+    },
+    {
+      "type": "equation",
+      "text": "P(both approvals) = P(common molecule gate passes)\n  × P(IR and XR approval | common gate passes)\nExpected operating value = Σs p[s] × PV(cash flows along scenario s), with Σs p[s] = 1"
+    },
+    {
+      "type": "p",
+      "text": "The common gate can include molecule-level safety. Conditional risks include formulation performance, manufacturing, filing completeness and indication-specific label decisions. Do not multiply two independent generic approval rates. Clinical endpoint success has already been observed for RAPIDe-3 and CHAPTER-3; approval, useful label and commercial performance conditional on approval remain separate questions. A Bayesian update would need a relevant post-pivotal reference class and justified likelihoods. This memo does not invent numerical likelihood ratios or count multiple publications of one trial as independent evidence."
+    },
+    {
+      "type": "p",
+      "text": "Coherent scenarios should include both approvals, IR only, XR only, delayed or restricted approvals, and common failure. Within approved scenarios, vary access, persistence, competition and pricing together. A broad-access win might involve lower net price; gene-editing uptake might reduce both chronic treatment and rescue consumption. Failed paths still incur development and launch preparation costs until the failure date. Explicit failure probabilities and a discount rate address different concepts; multiple arbitrary safety haircuts would count the same risk repeatedly."
+    },
+    {
+      "type": "p",
+      "text": "For each geography and indication, deduct manufacturing and distribution costs, royalties, remaining development, launch costs, taxes and working capital from net sales. Deduct the shared selling organization and corporate costs once. Gross-to-net deductions convert list prices to realized prices through rebates and other adjustments; do not deduct them again from a net-price input. Model patents and regulatory exclusivity by territory and claim, with erosion after loss of protection. Do not assume a proportional disappearance of the cost base when price falls."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Evidence",
+        "Parameter and quantitative treatment",
+        "Admission and value implication"
+      ],
+      "rows": [
+        [
+          "Faster dependable relief",
+          "Change treated fraction, acute share and redose probability separately.",
+          "Sensitivity until causal behavior observed; stronger clinical effect is not equal percentage share gain."
+        ],
+        [
+          "Reliable prevention",
+          "Change switching and paid survival; lower residual acute attack rate simultaneously.",
+          "Efficacy observed; commercial conversion unknown. Benefit to XR can offset IR units."
+        ],
+        [
+          "Narrow responsive cohort",
+          "Restrict eligibility, potentially raise cohort uptake and persistence.",
+          "No validated PHVS subgroup uplift yet; smaller market may have higher yield."
+        ],
+        [
+          "Safety or interaction limitation",
+          "Change approval/label, monitoring cost, prescribing and stopping along one causal path.",
+          "Use joint scenarios; avoid repeated independent penalties for the same event."
+        ],
+        [
+          "Access and persistence",
+          "Conditional paid conversion × start timing × survival × realized price.",
+          "Mechanism supported; PHVS coefficients unknown. Multiplicative effect can be material."
+        ],
+        [
+          "Diagnosis growth",
+          "Bounded additions from undiagnosed stock with subtype-specific conversion.",
+          "Sensitivity; sales growth cannot calibrate diagnosis without decomposition."
+        ]
+      ],
+      "widths": [
+        1.5,
+        2.83,
+        2.73
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Cash funding and the equity denominator"
+    },
+    {
+      "type": "p",
+      "text": "June 2026 financial statements report 70,204,506 shares outstanding, €318 million cash, 4,455,397 options and 1,545,152 restricted share units. The 6.0 million awards are not all currently dilutive; vesting, exercise prices and valuation date matter. Loss-year diluted earnings per share excludes anti-dilutive awards and is therefore not a reliable valuation share count. The May financing is already included in June cash and shares; do not add its proceeds again. [F5]"
+    },
+    {
+      "type": "p",
+      "text": "Q2 research and development expense was €35.0 million and general and administrative expense €15.8 million. Management’s stated runway into 2028 is a forecast, not proof that every launch scenario is funded. June commitments of about €118 million principally relate to research and development; subtracting them from equity after forecasting the same expense would double count them. Roll cash forward using actual operating, capital and financing cash flows, not net loss alone. [F1] [F5]"
+    },
+    {
+      "type": "equation",
+      "text": "Equity value = operating value + valuation-date cash − debt\n  − obligations not already included in operating cash flows\nPer-share value = scenario-consistent equity value / scenario-consistent shares"
+    },
+    {
+      "type": "p",
+      "text": "Model future funding with its date, fees, issue price and resulting shares. Do not both subtract an entire financing requirement and omit the cash received while also diluting shares. Stock compensation is an economic cost: if added back to cash flow, model future dilution consistently. Convert euro financials and dollar share prices at an explicitly dated exchange rate."
+    },
+    {
+      "type": "h1",
+      "text": "An insight is not yet a demonstrated market disagreement"
+    },
+    {
+      "type": "p",
+      "text": "The 5 October 2026 closing price was $30.49 in two public quote/forecast services. Multiplying by the June share count gives an indicative basic equity value of about $2.14 billion. This deliberately mixes a current price with the latest verified balance-sheet share count and is neither current fully diluted equity value nor enterprise value. One quote feed implied a materially older share count; the filing is the stronger denominator. A valuation requires subsequent issuance, cash burn, awards, debt and currency reconciliation. [F5] [F6] [F7]"
+    },
+    {
+      "type": "p",
+      "text": "The same forecast aggregators show broadly favorable analyst sentiment but differ in analyst counts. They do not provide a verified, dated product-level consensus for IR or XR sales, margins, access or persistence. It is therefore inappropriate to assert that the market assumes a particular peak penetration or has ignored cannibalization. Company claims about oral convenience document promotion, not investor beliefs."
+    },
+    {
+      "type": "p",
+      "text": "A reverse valuation should solve for multiple combinations consistent with enterprise value. Even annual revenue of $300 million could hypothetically represent 3,000 paid patient-years at $100,000 net each or 1,500 at $200,000; costs and risk would further distinguish them. Likewise, a higher IR contribution and lower XR contribution can produce the same total. A stock price is one observation and cannot uniquely identify many operating assumptions."
+    },
+    {
+      "type": "p",
+      "text": "Separate three outcomes: a catalyst reaction depends on surprise versus expectations; operating value depends on future cash flows; shareholder return also depends on entry valuation, financing and time. Two successful studies can coexist with disappointing returns if the share price already demands favorable access, expensive launch infrastructure delays cash generation, or new competitors change treatment choice. The research supports an investable set of questions, not a verified “unpriced” conclusion."
+    },
+    {
+      "type": "h1",
+      "text": "Next research ranked by decision impact"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Priority and feasibility",
+        "Evidence to obtain",
+        "Decision and stopping rule"
+      ],
+      "rows": [
+        [
+          "1  High impact\nPublic regulatory access when available",
+          "FDA review and final IR label; pivotal SAPs, participant flow, rescue rules and sensitivity results; detailed CHAPTER-3 safety.",
+          "Refine useful-label and positioning scenarios. Stop at unavailable individual data; do not infer misconduct from silence."
+        ],
+        [
+          "2  High impact\nTargeted primary interviews or licensed hub data",
+          "Plan-weighted coverage, prescription-to-paid conversion, time to dispense, bridge exits, rebate requirements and 6/12-month survival.",
+          "Calibrate the strongest commercial debate. Do not commission paid data or broad interviews without a defined sample and budget."
+        ],
+        [
+          "3  High impact\nSmall neutral interview program",
+          "Clinicians and patients facing current alternatives, including well-controlled people; reasons to reject a switch.",
+          "Identify reachable switch cohorts. Qualitative responses identify mechanisms, not population share."
+        ],
+        [
+          "4  High impact\nLinked data required",
+          "Attack diaries matched to rescue dispensing and current prevention; home inventory and free drug identified.",
+          "Separate intensity, share and consumption offsets. Stop if sales-only proxies cannot identify these quantities."
+        ],
+        [
+          "5  Medium impact\nRegistry or laboratory linkage",
+          "First confirmed diagnosis, family screening, subtype, pre-diagnosis burden and subsequent paid therapy.",
+          "Estimate finite diagnosis flow and economic yield. Do not fit growth from drug-claim prevalence alone."
+        ],
+        [
+          "6  High impact\nPublic filings and obtainable consensus",
+          "Current share/cash bridge, royalty terms, patents, launch spending, and dated product-level analyst estimates.",
+          "Build a reverse SOTP only after operating ranges are explicit. Consensus absence remains a limitation, not a license to invent it."
+        ]
+      ],
+      "widths": [
+        1.48,
+        2.86,
+        2.72
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Neutral clinician questions: Which patients would you keep on current treatment despite PHVS availability, and why? What improvement would justify switching a well-controlled patient? How do baseline attack burden and interaction risks change that decision? Patient questions: Would daily dosing be preferable to a monthly or less frequent injection if control were equal? What past experience makes a switch unacceptable? These questions can falsify the convenience thesis."
+    },
+    {
+      "type": "p",
+      "text": "Specialty-pharmacy questions: What fraction of accepted prescriptions never reaches a paid dispense, and at which step? Which refills replace consumed doses versus retained or expired stock? Payer questions: What evidence would remove a step requirement, and at what net-price tradeoff? How are concurrent prevention and rescue authorized? No interviews were conducted or invented for this memo."
+    },
+    {
+      "type": "h1",
+      "text": "What is ready for the eventual model"
+    },
+    {
+      "type": "p",
+      "text": "**Base-case architecture:** recognize completed positive pivotal efficacy, use current formulation-specific status and timing, preserve shared molecule risks, include existing oral and infrequent-dose competitors, model conditional paid starts and cohort persistence, and link acute units to residual attacks. Use filed cash and shares with a dated roll-forward, include royalties and shared launch costs once, and distinguish consumption from inventory. These findings can enter a model now; they do not by themselves calibrate PHVS market share or net price."
+    },
+    {
+      "type": "p",
+      "text": "**Sensitivities:** normal-C1-inhibitor label breadth, diagnosis expansion, real-world exposure variability, unusually strong persistence, treatment-intensity expansion, combined IR/XR use, acquired-angioedema success, and the uptake of gene editing. Each needs coherent paired assumptions and an observable test. A conservative base should not award a large incremental population or persistence premium merely because the mechanism is plausible."
+    },
+    {
+      "type": "p",
+      "text": "**Speculation:** a validated hidden super-responder subgroup, superiority inferred from incompatible trials, a broadly proven combined regimen, a fixed high diagnosis-growth rate, or an assertion that obvious clinical upside is unpriced. None is established. My present judgment is favorable on meaningful drug activity, unresolved on commercial differentiation and stock attractiveness. The highest-value next work is access, persistence and switching evidence tied to explicit expectations; more generic target validation is unlikely to resolve the investment decision."
+    }
+  ],
+  "sources": [
+    {
+      "id": "F1",
+      "title": "Pharvaris second quarter 2026 business update",
+      "url": "https://ir.pharvaris.com/news-releases/news-release-details/pharvaris-reports-second-quarter-2026-financial-results-and",
+      "note": "12 Aug 2026; O. NDA acceptance and 23 Apr 2027 action date, EU validation, €318m cash, Q2 expenses and runway guidance. August CHAPTER-3 forecast superseded by September results; runway is management guidance."
+    },
+    {
+      "id": "F2",
+      "title": "CHAPTER 3 results and development timetable",
+      "url": "https://www.globenewswire.com/news-release/2026/09/08/3357455/0/en/pharvaris-announces-positive-topline-data-from-chapter-3-pivotal-study-of-deucrictibant-xr-for-prophylaxis-of-hae-attacks.html",
+      "note": "8 Sep 2026; O. Pivotal prevention results and planned first-half 2027 filing; CREAATE Part 1 first-quarter 2027 expectation. Sponsor timelines, not guaranteed decisions."
+    },
+    {
+      "id": "F3",
+      "title": "Pharvaris historical annual report and license terms",
+      "url": "https://ir.pharvaris.com/node/7806/html",
+      "note": "2023 filing describing AnalytiCon/BRAIN worldwide exclusive rights and royalty/milestone economics; O, historical. Current remaining milestones and territory-specific exclusivity require contract reconciliation."
+    },
+    {
+      "id": "F4",
+      "title": "Royalty Pharma third quarter 2024 presentation",
+      "url": "https://www.royaltypharma.com/wp-content/uploads/2024/11/Q3-2024-presentation-vFinal.pdf",
+      "note": "Nov 2024; O. Acquisition of existing deucrictibant royalty from BRAIN, with low-to-mid-single-digit tiers. Buyer payments to BRAIN are not PHVS financing."
+    },
+    {
+      "id": "F5",
+      "title": "Pharvaris June 2026 financial statements",
+      "url": "https://www.sec.gov/Archives/edgar/data/1830487/000119312526345702/phvs-ex99_3.htm",
+      "note": "Filed 12 Aug 2026; O. 30 Jun shares 70,204,506; options 4,455,397; RSUs 1,545,152; cash and commitments. Different balance-sheet, quote and vesting dates prevent an exact current diluted valuation."
+    },
+    {
+      "id": "F6",
+      "title": "MarketBeat PHVS quote and analyst overview",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/PHVS/forecast/",
+      "note": "Accessed 6 Oct 2026; P. 5 Oct close $30.49 and broadly favorable ratings. Aggregated ratings are not independently verified product-level consensus; counts differ by vendor."
+    },
+    {
+      "id": "F7",
+      "title": "Stock Analysis PHVS forecast overview",
+      "url": "https://stockanalysis.com/stocks/phvs/forecast/",
+      "note": "Accessed 6 Oct 2026; P. Cross-check of prior close and favorable analyst sentiment. Live page may change; does not identify market-implied penetration or probability."
+    },
+    {
+      "id": "B1",
+      "title": "Historical Pharvaris program names and formulations",
+      "url": "https://ir.pharvaris.com/static-files/1451148e-b8ac-4f59-b157-4cca62974e44",
+      "note": "Historical company presentation; O. PHA121/PHA-022121 molecule, PHVS416 IR and PHVS719 extended release. Historical nomenclature only; current stage taken from 2026 updates."
+    },
+    {
+      "id": "B2",
+      "title": "WAO HAE guideline and disease mechanism",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13184495/",
+      "note": "2025 guideline published in 2026; clinical synthesis. C1 inhibitor, bradykinin, diagnosis and treatment principles. Target validation does not establish PHVS-specific comparative outcomes."
+    },
+    {
+      "id": "B3",
+      "title": "Deucrictibant XR pharmacokinetic study",
+      "url": "https://ir.pharvaris.com/static-files/b4403d78-9ef5-49b8-abbb-5f2f1411e941",
+      "note": "27 Feb 2026 poster; O. C020 study: 15 enrolled, 14 evaluable healthy participants; 24-hour concentrations versus challenge-derived thresholds. Small experimental exposure study, not a clinical failure cutoff."
+    },
+    {
+      "id": "B4",
+      "title": "Early deucrictibant pharmacology disclosure",
+      "url": "https://ir.pharvaris.com/node/9371/html",
+      "note": "Historical primary disclosure; O. CYP3A4 and exposure considerations. Final interaction and special-population restrictions await regulatory labeling."
+    },
+    {
+      "id": "B5",
+      "title": "Release of the US prophylaxis clinical hold",
+      "url": "https://www.sec.gov/Archives/edgar/data/1830487/000095017024005923/phvs-ex99_1.htm",
+      "note": "22 Jan 2024; O. Completion of longer-duration toxicology and lifting of remaining US hold; acute hold previously lifted Jun 2023. Company account, not full regulator toxicology review."
+    },
+    {
+      "id": "B6",
+      "title": "Modeled safety margins for combined IR and XR",
+      "url": "https://ir.pharvaris.com/static-files/563a519c-0fca-40da-b83b-30d3e23df555",
+      "note": "4 Sep 2026 poster; model-based evidence. XR40 plus IR20 or repeated IR exposures simulated against animal and historical human exposure. No observed combined-use clinical benefit established."
+    },
+    {
+      "id": "B7",
+      "title": "Consensus on HAE with normal C1 inhibitor",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11889046/",
+      "note": "2025 consensus; mechanistic and diagnostic synthesis. Heterogeneous forms and uncertain prevalence; not a drug-response validation dataset."
+    },
+    {
+      "id": "X1",
+      "title": "2L Capital – Daniel Bao: PHAT presentation",
+      "url": "file:///Users/kwu/Library/Containers/com.apple.MobileSMS/Data/tmp/TemporaryItems/com.apple.MobileSMS/Media/5A9A9D8C-FF13-48E6-809A-D4BC23BCAB80/2L Capital - Daniel Bao.pptx",
+      "note": "User-supplied reference. Slides 9–11 provide the population, refill and variant-perception argument. All 21 slides were inspected as text; no edits made."
+    },
+    {
+      "id": "X2",
+      "title": "2L Capital – Daniel Bao: PHAT workbook",
+      "url": "file:///Users/kwu/Library/Containers/com.apple.MobileSMS/Data/tmp/TemporaryItems/com.apple.MobileSMS/Media/C11F5672-07CB-495E-BB88-24F7F66719E6/2L Capital - Daniel Bao.xlsx",
+      "note": "User-supplied reference. Read-only formula inspection: SUM!F36; OpModel!K63,K67,K71:K74 and K104:K107; DCF!G34,G37; SUM!F21; OpModel!J14:L14. No whole-workbook recalculation."
+    },
+    {
+      "id": "X3",
+      "title": "M Loses Capital, Biotech Analysis Part 2",
+      "url": "file:///Users/kwu/.codex/attachments/078e336e-5a3f-4e24-bfe0-aac09ee3eb7d/Pasted text.txt",
+      "note": "User-supplied text dated 2 October 2026. Reviewed for transferable methodology, not independent verification of its unrelated clinical examples."
+    },
+    {
+      "id": "X4",
+      "title": "M Loses Capital, Biotech Analysis Part 3",
+      "url": "file:///Users/kwu/.codex/attachments/05f55c09-5e57-4762-9bd7-d16d3d4b5bbe/Pasted text.txt",
+      "note": "User-supplied text dated 3 October 2026. Reviewed for target, exposure and clinical-translation questions."
+    },
+    {
+      "id": "X5",
+      "title": "M Loses Capital, TTRX – Zero",
+      "url": "file:///Users/kwu/.codex/attachments/1723ce08-041d-4c0c-8ad8-1215f28d8570/Pasted text.txt",
+      "note": "User-supplied text dated 24 September 2026. Methodological critique conditional on supplied study descriptions."
+    },
+    {
+      "id": "X6",
+      "title": "M Loses Capital, ZURA: Two Birds and a Four-Headed Hammer",
+      "url": "file:///Users/kwu/.codex/attachments/57eaa1b3-1c2b-4afa-83f8-4fa9b8181764/Pasted text.txt",
+      "note": "User-supplied text dated 25 June 2026. Mixture examples and approximate unpooled Wald interval independently calculated from supplied counts. Not the registry's Bayesian analysis."
+    },
+    {
+      "id": "X7",
+      "title": "M Loses Capital, SLGL – Zero",
+      "url": "https://riskinhibitor.substack.com/p/slgl-zero",
+      "note": "Article text and source URL supplied directly in the user message, dated 23 August 2026. Critique uses that supplied text; linked webpage and underlying study were not separately retrieved for this examples audit."
+    },
+    {
+      "id": "R1",
+      "title": "RAPIDe-3 topline presentation",
+      "url": "https://ir.pharvaris.com/static-files/30661839-e400-44eb-a1e9-9ad88f75d404",
+      "note": "December 3, 2025. Randomized 134; paired primary set 88. Endpoint estimates, gatekeeping, demographics and overall safety. Sponsor disclosure; incomplete disposition."
+    },
+    {
+      "id": "R2",
+      "title": "CHAPTER-3 filed topline presentation",
+      "url": "https://ir.pharvaris.com/node/12691/html",
+      "note": "September 8, 2026. 55 active/30 placebo; 24 weeks. Slides 6–11 cover baseline, adjusted Poisson primary, responders, quality of life and safety. Graph counts visually verified. Full SAP and disposition absent."
+    },
+    {
+      "id": "R3",
+      "title": "RAPIDe-1 peer-reviewed publication",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41865747/",
+      "note": "March 20, 2026. Published primary analysis 62 patients/147 attacks from 74 randomized. Abstract supplies efficacy confidence intervals and safety; sponsor-funded."
+    },
+    {
+      "id": "R4",
+      "title": "RAPIDe-1 registry and posted results",
+      "url": "https://clinicaltrials.gov/study/NCT04618211",
+      "note": "Registry last updated December 17, 2025. Retrieved current API record, flow, outcome denominators and document listings. Participant counts overlap across crossover treatments."
+    },
+    {
+      "id": "R5",
+      "title": "RAPIDe-2 final Part A presentation",
+      "url": "https://ir.pharvaris.com/static-files/ebfd5947-f92a-48d4-a41a-2ce220d7e0dd",
+      "note": "December 1, 2025. 19 patients/465 attacks; PGI-C denominator 457, PGI-S 449. Safety primary. Kaplan–Meier intervals explicitly ignore within-person correlation."
+    },
+    {
+      "id": "R6",
+      "title": "RAPIDe-3 Phase 3 results poster",
+      "url": "https://ir.pharvaris.com/static-files/6d0f0093-2975-47c6-aace-80bd25675a47",
+      "note": "May 30, 2026. 113 participants with any treated attack; 88 paired. Specifies rescue censoring, qualifying attacks and selected fixed-time denominators. Safety table restricted to three days after dosing."
+    },
+    {
+      "id": "R7",
+      "title": "CHAPTER-1 peer-reviewed primary analysis",
+      "url": "https://publica-rest.fraunhofer.de/server/api/core/bitstreams/20d5bb63-e70b-4072-8437-dd19aa31ce29/content",
+      "note": "March 20, 2026. 44 screened, 34 randomized/dosed, 30 completers. Twelve-week twice-daily IR prophylaxis. Primary estimand, discontinuation reasons and supportive analyses described."
+    },
+    {
+      "id": "R8",
+      "title": "CHAPTER-1 extension final results",
+      "url": "https://ir.pharvaris.com/static-files/9dad61f3-ca28-4fb5-9992-e4daf8cc0c2f",
+      "note": "October 2, 2026. German-language sponsor presentation; 30 extension participants, mean exposure 22.2 months. Page 3 clarifies patient-level mean percent reduction excludes one four-day participant and late graph denominator declines to six."
+    },
+    {
+      "id": "R9",
+      "title": "CHAPTER-4 registry",
+      "url": "https://clinicaltrials.gov/study/NCT06679881",
+      "note": "Last updated September 22, 2026. Open-label XR extension; estimated enrollment 170, not a verified actual count. Safety/exposure outcomes and eligibility exclusions."
+    },
+    {
+      "id": "R10",
+      "title": "RAPIDe-1 protocol version 3.0",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/11/NCT04618211/Prot_000.pdf",
+      "note": "April 25, 2022. Directly retrieved protocol; sections 5.6 and 9 describe rescue, modified ITT and hypothetical no-rescue MMRM. Does not establish every subsequent implementation decision."
+    },
+    {
+      "id": "R11",
+      "title": "RAPIDe-3 prospective design poster",
+      "url": "https://ir.pharvaris.com/static-files/f5eba1d8-d6ac-4c32-899c-c0cfb5759a8e",
+      "note": "December 14, 2024. Discloses primary/secondary windows, assessment schedule, redosing and rescue before the pivotal readout. Earlier eligibility lists type 1/2; full amendment chronology unavailable."
+    },
+    {
+      "id": "R12",
+      "title": "CHAPTER-1 Part 1 statistical analysis plan",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/85/NCT05047185/SAP_001.pdf",
+      "note": "Cover October 30, 2023; body October 27. Retrieved public SAP: hypothetical strategy for early discontinuation, observed follow-up, MAR, Poisson model and negative-binomial sensitivity if feasible. Public upload date does not establish date of unblinding."
+    },
+    {
+      "id": "R13",
+      "title": "FDA lifting of prophylaxis clinical hold",
+      "url": "https://www.sec.gov/Archives/edgar/data/1830487/000095017024005923/phvs-ex99_1.htm",
+      "note": "January 22, 2024 sponsor SEC exhibit. Prophylaxis hold lifted after complete 26-week rodent study; summarizes June 2023 on-demand lift. Not an independent regulator toxicology review."
+    },
+    {
+      "id": "R14",
+      "title": "CHAPTER-3 registry",
+      "url": "https://clinicaltrials.gov/study/NCT06669754",
+      "note": "Last updated February 13, 2026. Describes eligibility, washouts and primary attack-rate endpoint. Estimated 81 is superseded by actual 85 in topline; no results/protocol/SAP attached in retrieved record."
+    },
+    {
+      "id": "C1",
+      "title": "FDA: Ekterly prescribing information and original trial evidence",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/219301s000lbl.pdf",
+      "note": "July 2025 approval; KONFIDENT crossover, FDA efficacy population 110 patients with HAE I/II, 24 on prevention. Dose, age, interactions and eligibility; not a PHVS comparison."
+    },
+    {
+      "id": "C2",
+      "title": "US HAEA: approved HAE treatments",
+      "url": "https://www.haea.org/pages/p/treatments",
+      "note": "Accessed October 6, 2026; individual current treatment entries describe routes, ages and administration. Lower FAQ has stale product counts; do not use its aggregate count."
+    },
+    {
+      "id": "C3",
+      "title": "Chiesi completes acquisition of KalVista",
+      "url": "https://ir.kalvista.com/news-releases/news-release-details/chiesi-group-completes-acquisition-kalvista-pharmaceuticals",
+      "note": "June 11, 2026; confirms acquisition completion and Ekterly ownership. Does not demonstrate an ensuing sales increase."
+    },
+    {
+      "id": "C4",
+      "title": "KalVista March 2026 financial results and commercial update",
+      "url": "https://ir.kalvista.com/node/12706/html",
+      "note": "March 25, 2026 8-K exhibit; 1,702 US forms / 724 prescribers through February 28 versus $49.1m global revenue through December 31, 2025. Different populations/periods; no paid cohort survival."
+    },
+    {
+      "id": "C5",
+      "title": "KalVista preliminary 2025 launch update",
+      "url": "https://ir.kalvista.com/node/12546/html",
+      "note": "January 8, 2026; refill-majority Q4 revenue with possible holiday pull-forward. Sponsor disclosure does not measure patient consumption."
+    },
+    {
+      "id": "C6",
+      "title": "BioCryst: preliminary 2022 Orladeyo results",
+      "url": "https://ir.biocryst.com/news-releases/news-release-details/biocryst-announces-preliminary-full-year-2022-orladeyor",
+      "note": "January 9, 2023; Q4 patient count as expected but paid shipments/free-to-paid conversion below expectations. A disappointing revenue period, not an unsuccessful product overall."
+    },
+    {
+      "id": "C7",
+      "title": "BioCryst: second-quarter 2026 results",
+      "url": "https://www.sec.gov/Archives/edgar/data/882796/000117184326005223/exh_991.htm",
+      "note": "August 5, 2026; navenibart ALPHA-ORBIT enrollment completed June, Q3 2027 data expected. Company forecast; investigational program, not approval."
+    },
+    {
+      "id": "C8",
+      "title": "BioCryst: second-quarter 2024 results",
+      "url": "https://ir.biocryst.com/news-releases/news-release-details/biocryst-reports-second-quarter-2024-financial-results-and",
+      "note": "August 5, 2024; 74.4% paid-patient rate and >60% of paid patients retained at least one year. Sponsor aggregates with different denominators, no detailed survival curve."
+    },
+    {
+      "id": "C9",
+      "title": "Establishing US HAE prevalence using administrative claims",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1081120625002583",
+      "note": "September 2025; continuously enrolled 24-month claims cohorts in 2018–2020. Ascertainment requires an HAE medication claim. 2020 projections 8,694 algorithm / 6,595 expert-adjudicated; not untreated prevalence or causal diagnosis growth."
+    },
+    {
+      "id": "C10",
+      "title": "Icatibant Outcome Survey: diagnostic delays over time",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6182796/",
+      "note": "2018; selected C1-INH-HAE patients born before 1990 and diagnosed before 25. Family-history group n180 (72%); median delay 2.0 versus 5.6 years. Historical selection limits current US flow estimates."
+    },
+    {
+      "id": "C11",
+      "title": "Current medical management of HAE: US physician follow-up survey",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33122123/",
+      "note": "Survey June–July 2019, published 2020; 177/5,382 responses (3%). Cost/insurance leading nonefficacy factor 43.7%; substantial nonresponse and an older competitive landscape."
+    },
+    {
+      "id": "C12",
+      "title": "UnitedHealthcare commercial Orladeyo prior authorization policy",
+      "url": "https://www.uhcprovider.com/content/dam/provider/docs/public/prior-auth/drugs-pharmacy/commercial/h-p/PA-Med-Nec-Orladeyo.pdf",
+      "note": "Effective April 1, 2026; age ≥12 requires failures of Andembry, Haegarda, Takhzyro plus other criteria. Plan-specific rules and exclusions; not observed denial rates or PHVS policy."
+    },
+    {
+      "id": "C13",
+      "title": "Oklahoma HAE product-based prior authorization notice",
+      "url": "https://oklahoma.gov/content/dam/ok/en/okhca/docs/providers/types/pharmacy/policy/04.13.2026%20-%20HAE%20Medications.pdf",
+      "note": "April 13 notice, effective May 1, 2026; existing users continue while new starts face initial/tier criteria. Oklahoma Medicaid example, not national access."
+    },
+    {
+      "id": "C14",
+      "title": "Takhzyro prescribing information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=15f99d8c-efe7-4f7d-aa20-0d0f1e30c6e8&type=pdf",
+      "note": "January 2025 label; age ≥2, adult/adolescent 300 mg every two weeks with four-week option after sustained control. Regimen does not establish patient preference."
+    },
+    {
+      "id": "C15",
+      "title": "Andembry prescribing information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=07b0b671-db81-49f0-a402-0c0219db7fa2",
+      "note": "2025 label; activated-factor-XII antibody, age ≥12, monthly maintenance after loading. Approval month June used because FDA summary pages differ on June 16 versus 17."
+    },
+    {
+      "id": "C16",
+      "title": "Orladeyo prescribing information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3527ece1-e7e0-40b1-b0c5-6baeb0deabeb",
+      "note": "December 2025 label; daily capsule age ≥12 and weight-based pellets age 2–<12, taken with food. Label eligibility is not guaranteed reimbursement."
+    },
+    {
+      "id": "C17",
+      "title": "Dawnzera prescribing information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=3ff501e0-f75f-07da-e063-6294a90a0cb7&type=display",
+      "note": "August 2025 label; OASIS-HAE n45 every-four-week / n23 every-eight-week / n22 placebo, 24 weeks. Regimen-specific efficacy, age ≥12 and hypersensitivity warning; no head-to-head comparison."
+    },
+    {
+      "id": "C18",
+      "title": "Kalbitor prescribing information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=f56aec67-c662-477c-b866-bfc23e8809cf",
+      "note": "June 2025 label; age ≥12, subcutaneous kallikrein inhibitor; professional administration required because of anaphylaxis risk."
+    },
+    {
+      "id": "C19",
+      "title": "Intellia: additional phase 3 HAELO results",
+      "url": "https://ir.intelliatx.com/news-releases/news-release-details/intellia-therapeutics-reports-additional-positive-phase-3",
+      "note": "June 13, 2026; randomized n52 active / n28 placebo, weeks 5–28. Monthly attacks 0.26/2.10 and acute-treated attacks 0.19/1.79. Finite controlled period, not lifetime cure or real-world uptake."
+    },
+    {
+      "id": "C20",
+      "title": "Intellia: lonvo-z BLA acceptance and priority review",
+      "url": "https://ir.intelliatx.com/node/12886",
+      "note": "September 8, 2026; FDA accepted BLA, PDUFA March 10, 2027. Regulatory milestone; approval remains pending as of October 6."
+    },
+    {
+      "id": "C21",
+      "title": "Factors contributing to non-compliance with on-demand HAE treatment guidelines",
+      "url": "https://link.springer.com/article/10.1186/s13223-025-00969-0",
+      "note": "May 21, 2025; 107/155 US survey completers, 80.4% female, deliberately balanced treatment groups, KalVista-funded. 57% of respondents did not treat all attacks; selected self-report, not causal oral-treatment effect."
+    }
+  ],
+  "method": "The supplied deck, workbook and essays were reviewed first as reference material rather than instructions. A bounded discovery pass covered registries, protocols, statistical analysis plans, papers, labels, filings, original presentations, epidemiology, payer policies and launch disclosures; the strongest leads received targeted follow-up. Three parallel workstreams audited clinical evidence, commercial evidence and supplied examples, followed by integration and selected primary-source checks. No paid data, bulk scraping, large OCR job, primary interview or individual-patient fitting was performed. Public registries and the RAPIDe-1 and CHAPTER-1 protocol/SAP files were retained locally. Complete pivotal SAPs, full registry amendment histories, patient-level outcome data, representative claims and product-level consensus were unavailable. The large 2025 annual filing was not fully retrievable in the browser; current interim statements and specific license disclosures supplied the financial cross-checks. Arithmetic uses stated published counts or explicitly hypothetical inputs. The memo does not infer unknown dropout reasons or fabricate records. Source repetition is not independent replication. Research stopped where more precision required inaccessible data or weak proxies; the resulting limitations are attached to the model variables they affect."
+}

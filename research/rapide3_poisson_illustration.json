@@ -1,0 +1,29 @@
+{
+  "assumptions": "Hypothetical homogeneous independent Poisson arrivals; constant rate4.4/3 per month; equal fixed observation; all attacks counted. NOT a valid trial-level significance test. Eligibility, varying observation, informative stopping, attack qualification, rate heterogeneity and regression to mean violate assumptions.",
+  "rows": [
+    {
+      "months": 1,
+      "expected_attacks": 1.4666666666666668,
+      "p_exactly_one": 0.3383500006406121,
+      "p_fewer_than_two": 0.5690431828955749,
+      "expected_exactly_one_of134": 45.33890008584202,
+      "expected_fewer_than_two_of134": 76.25178650800703
+    },
+    {
+      "months": 3,
+      "expected_attacks": 4.4,
+      "p_exactly_one": 0.054020295573501124,
+      "p_fewer_than_two": 0.06629763547656956,
+      "expected_exactly_one_of134": 7.238719606849151,
+      "expected_fewer_than_two_of134": 8.883883153860321
+    },
+    {
+      "months": 6,
+      "expected_attacks": 8.8,
+      "p_exactly_one": 0.0013264510608401933,
+      "p_fewer_than_two": 0.0014771841359356697,
+      "expected_exactly_one_of134": 0.1777444421525859,
+      "expected_fewer_than_two_of134": 0.19794267421537975
+    }
+  ]
+}

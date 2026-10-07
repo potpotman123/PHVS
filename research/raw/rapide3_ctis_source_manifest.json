@@ -1,0 +1,18 @@
+{
+  "research/raw/rapide3_ctis_results.pdf": {
+    "bytes": 486312,
+    "sha256": "0b322f0f7dd2e010b3adb37db9fef0c1463db6a0e6146ba6450cc1a43752beb8"
+  },
+  "research/raw/rapide3_ctis_protocol.pdf": {
+    "bytes": 874231,
+    "sha256": "fe95f6030b7eb6de7fbf649a2ec063b3e2418efc3c2a43b4f4306273a611931a"
+  },
+  "research/raw/rapide3_ctis_lay_results.pdf": {
+    "bytes": 636708,
+    "sha256": "9713937429cdd6200a36d87e07bd06ae916f657b9cf7a2886bf8cabce80a3444"
+  },
+  "research/raw/culper_prax_2025-11-20.pdf": {
+    "bytes": 1589802,
+    "sha256": "8d6da319f7991fa93a86e46be88d978ef04732c61e788acfbd269495bd06c2da"
+  }
+}

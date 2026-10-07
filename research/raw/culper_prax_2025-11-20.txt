@@ -1,0 +1,708 @@
+
+PAGE 1
+Disclaimer 
+By downloading from or viewing material on this website you agree to the following Terms of Service. Use of Culper Research's ("Culper") 
+research is at your own risk. In no event should Culper or any affiliated party be liable for any direct or indirect trading losses caused by any 
+information on this site. You further agree to do your own research and due diligence, consult your own financial, legal, and tax advisors 
+before making any investment decision with respect to transacting in any securities covered herein. You should assume that Culper (possibly 
+along with or through our members, partners, affiliates, employees, and/or consultants) along with our clients and/or investors has a position 
+in any securities covered herein. You should assume that following publication of any research, we are likely to immediately transact in these 
+securities (by increasing and/or decreasing positions and/or risk exposure), continue to trade in these securities for an undefined time period 
+thereafter, and be long, short, or neutral at any time hereafter regardless of our initial recommendation, conclusions, or opinions. We trade 
+securities in conjunction with risk tolerances and management practices, and such trading may result in the derisking of some  or all of the 
+positions in the securities covered herein, at any time following publication of any report, depending on security-specific, market, portfolio, 
+or other relevant conditions. Culper does not undertake to update or supplement this report to reflect changes in its position. Research may 
+contain estimated fair values of securities, utilizing various valuation methods. Estimated fair values are not price targets, and Culper does 
+not commit to hold securities until such time as the estimated fair values are reached. Cu lper may change its estimates of fair values at any 
+time hereafter without updating its research or otherwise disclosing updated fair values publicly. We may transact in the covered securities 
+for various reasons, none of which may relate to Culper’s estimates of fair value. Research is not investment advice nor a recommendation 
+or solicitation to buy securities. To the best of our ability and belief, all information contained herein is accurate and re liable, and has been 
+obtained from public sources we believe to be accurate and reliable, and who are not insiders or connected persons of the securities covered 
+herein or who may otherwise owe any fiduciary duty or duty of confidentiality to the issuer. However, such information is presented “as is,” 
+without warranty of any kind – whether express or implied. Culper makes no representation, express or implied, as to the accuracy, timeliness, 
+or completeness of any such information or with regard to the results to be obtained from its use.  Certain statements and opinions in this 
+report are based, in part, on information provided by individuals who requested anonymity due to concerns about professional or personal 
+repercussions. These individuals include former executives, employees, contractors, and other persons with direct knowledge of the matters 
+discussed. We believe these sources to be credible based on their prior positions, involvement, and demonstrated familiarity with the matters 
+discussed, as well as corroboration among multiple independent accounts and public records. In all cases, the opinions expressed herein 
+reflect our own assessment of the credibility and reliability of the information received. The inclusion of such information is intended to 
+inform readers of our reasoning and analysis, and does not purport to assert undisclosed facts. All of the opinions in this report are those of 
+the authors, formed from a combination of publicly available information and corroborated source testimony. Research may contain forward-
+looking statements, estimates, projections, and opinions with respect to among other things, certain accounting, legal, and regulatory issues 
+the issuer faces and the potential impact of those issues on its future business, financial condition and results of operations, as well as more 
+generally, the issuer’s anticipated operating performance, access to capital markets, market conditions, assets and liabilities. Such statements, 
+estimates, projections and opinions may prove to be substantially inaccurate and are inherently subject to significant risks and uncertainties 
+beyond Culper's control. All expressions of opinion are subject to change without notice, and Culper does not undertake to update or 
+supplement this report or any of the information contained herein. You agree that the information on this website is copyrighted, and you 
+therefore agree not to distribute this information (whether the downloaded file, copies / images / reproductions, or the link  to these files) in 
+any manner other than by providing the following link — http://www.culperresearch.com The failure of Culper to exercise or enforce any 
+right or provision of these Terms of Service shall not constitute a waiver of this right or provision. If any provision of these Terms of Service 
+is found by a court of competent jurisdiction to be invalid, the parties nevertheless agree that the court should endeavor to  give effect to the 
+parties’ intentions as reflected in the provision and rule that the other provisions of these Terms of Service remain in full force and effect, in 
+particular as to this governing law and jurisdiction provision. You agree that regardless of any statute or law to the contra ry, any claim or 
+cause of action arising out of or related to use of this website or the material herein must be filed within one (1) year after such claim or cause 
+of action arose or be forever barred. 
+
+
+PAGE 2
+Culper Research Praxis Precision Medicines Inc. (NASDAQ:PRAX) November 20, 2025 
+2 
+Praxis Precision Medicines Inc. (PRAX): Mined the Gap – How PRAX Twisted 
+Dropouts into a Phase 3 “Win” with Make-Believe Data and Half-Baked Analysis 
+“You're a fraud and you know it / But it's too good to throw it all away 
+You’ve got ‘em going / And you're careful not to show it / Sometimes you even fool yourself a 
+bit / It's like magic / But it's always been a smoke and mirrors game… 
+So n
+ow that you've arrived, well you wonder / What is it that you've done to make the grade?” 
+– Go
+tye, Smoke and Mirrors
+W
+e are short Praxis Precision Medicines Inc. (“PRAX”, “the Company”) , which in October 2025 announced 
+“positive” results from its Phase 3 trial of ulixacaltamide (“ulixa”, “the drug”) to treat essential tremor (“ET”). We 
+believe the readout has been effectively engineered by Praxis through a combination of (a) a last-minute endpoint 
+change – which has never received FDA blessing – in order to inflate treatment effect, (b) imputing over-optimistic 
+results for the astronomical 36% of treatment arm patient s who discontinued, then (c) feigning “conservatism” in 
+its final analysis by blatantly misapplying the very methodology described in the paper the Company cites as 
+support. In our view, any single one of these points could individually doom FDA approval hopes, but taken 
+together, they doom ulixa’s chances entirely. Our views are informed by our consultations with experts, including 
+former Praxis directors, a biostatistician, and four former FDA officials who each spent between 10 and 40 years at 
+the agency. As Praxis approaches its Q4 2025 pre -NDA meeting, we believe shares hold substantial downside as 
+the FDA sees through the Company’s smoke and mirrors game. 
+T
+he vast majority of Praxis’ valuation is now tied up in ulixa, which the Company acquired in 2018 for a mere $1 
+million, a telling sign of its lack of promise after its prior owners failed to develop the drug . Further, three other 
+drugs with ulixa’s mechanism have already failed early stage ET studies. For its part, ulixa also failed its Phase 2 
+trial (“Essential1”), but Praxis continued onto Phase 3 (“Essential3”) regardless. Then in March 2025, Essential3’s 
+independent data monitoring committee (“IDMC”) recommended the Phase 3 trial be halted for futility. Praxis again 
+pushed on, we believe, because the Company found multiple ways to game its way into a positive readout. 
+I
+ndeed, immediately after reporting “positive” Phase 3 topline results, Praxis raised $567 million in capital. Sell-
+side analyst notes now cheer on ulixa’s potential; notes we reviewed suggest upwards of 80% approval odds and a 
+$3 billion valuation for ulixa relative to the Company’s $4.5 billion market cap. We think ulixa is a house of cards. 
+L
+ast-Second Primary Endpoint Change, Unapproved by the FDA 
+I
+n February 2025, Essential3’s IDMC recommended the trial be halted for futility, even as CEO Souza claimed this 
+was a sub-3% probability just weeks earlier. Praxis pushed ahead, citing the Company’s ability to explore “different 
+analysis methods for the final dataset.” 
+I
+n September 2025, Praxis abruptly changed the  Phase 3 primary endpoint from Day 84 to Day 56. CEO Souza 
+claims Praxis conducted “extensive simulations” and merely “referred back to what we knew from the Essential1 
+program.” Yet Souza’s post-hoc explanation is illogical – the Company already had the Essential1 results in hand 
+when selecting the Day 84 endpoint. Rather, we believe Praxis likely saw – even under blinded conditions amid the 
+IDMC’s halt recommendation – that discontinuations were heavily front -loaded, as 81% of pooled dropouts 
+occurred by Day 56. As such, Praxis’ decision to move to Day 56 locked in maximal statistical modeling benefits 
+while avoiding the added variability that might bury an already questionable treatment effect. 
+
+PAGE 3
+Culper Research Praxis Precision Medicines Inc. (NASDAQ:PRAX) November 20, 2025 
+3 
+ 
+Crucially, Praxis – despite repeated questioning – has never confirmed that the FDA approved the change. Instead, 
+Souza says “it doesn’t matter”, as the trial “succeeded” at both Day 56 and Day 84. Yet as we show herein, we think 
+that ulixacaltamide would be dead in the water had it held to Day 84. Ulixa’s efficacy already shows a much weaker 
+signal at Day 84 than Day 56  – treatment effect drops by a full point –  and we think likely fails in  a sensitivity 
+analysis. According to a  10-year biostatistician we consulted, “I haven’t seen them do the sensitivity analysis for 
+Day 84. I’ve done some modeling and there’ s a good chance it doesn’t hit the sensitivity analysis.” 
+ 
+Massive, Unbalanced Dropouts Paves Way for Aggressive Phantom Data Imputation 
+ 
+Phase 3 topline data reveals 35.6% dropout in the treatment group – a massive imbalance vs. 5.6% in placebo, and 
+also far higher than the 17% treatment arm dropout seen in Phase 2. Praxis claims the drug is “well tolerated” yet 
+the majority of dropouts cited AEs. This alone is enough to jeopardize the validity of the entire trial, according to 
+multiple former FDA officials we spoke with: “Generally at 25% dropout, the FDA will question validity… If more 
+than 25% drop out, it’ s just not effective… The failed  patients already dropped out, so how can the trial be 
+considered successful?” 
+ 
+Yet problems also lie in how Praxis dealt with the problem of these missing patients. The Company employed a 
+mixed model for repeated measures (“MMRM”) under a missing at random assumption (“MAR”). This method not 
+only relies on balanced dropout between arms – blatantly not the case here – but aggressively assumes that patients 
+who dropped from the study would have performed in line with patients who remained in the study. It also inflates 
+results from front-loaded dropouts, which is also the case here. In short, Praxis imputes make-believe data showing 
+phantom improvements in patients who quit the study days, weeks, or months earlier. 
+ 
+Multiple former FDA officials and a biostatistician we spoke with said this approach has zero chance of being 
+accepted by the FDA;  “Because it’ s 35% versus 5%, it’ s clearly due to adverse events… MMRM under MAR will 
+definitely not be accepted”; “there’ s 100% no chance the FDA accepts that”; it “artificially suggests that a dropout 
+does well” especially as ulixa’s treatment effect regresses past Day 56. As one put it: 
+ 
+“That part is merely for the public, not for the FDA. It definitely shouldn’t be applied. They can make it 
+public – as a public company – they try to do the most beneficial thing for them to say it’ s a positive trial, 
+but there’ s 100% no chance the FDA accepts that.” 
+ 
+Experts say the FDA will re-run the missing data through a more conservative analysis, endangering results.  When 
+we utilize more conservative assumptions such as placebo -based imputation, we estimate ulixa fails its own 3.0 -
+point benchmark at the original Day 84 endpoint. 
+ 
+The Tipping Point: Praxis Relies on Half Baked Analysis to Feign “Conservatism” 
+ 
+Praxis then argues that its  aggressive if not nonsensical imputation is justified via a “tipping point” analysis that 
+penalizes these patients by 2.5 points, equivalent to one-half standard deviation of the data. Praxis claims that this 
+2.5-point penalty is “the maximum” and an “extreme scenario.” This is again nonsense. Praxis relies on a 2013 
+paper by Ratitch et al. , which calls for one-half standard deviation as a minimum  adjustment, not a maximum one 
+as Souza claims. Tellingly, when we estimate Phase 3 results using the actual prescribed methodology at 0.75x and 
+1.0x standard deviation, ulixa fails. 
+ 
+Moreover, Ratitch cites studies with minimal dropout rates, nothing close to the 35.6% here.  According to the 10-
+year biostatistician we consulted, “the paper that they’re citing isn’t particularly relevant, and there’ s nothing 
+natural about the half standard deviation.”   The FDA itself says studies with higher dropout rates ought to be 
+accompanied by a more conservative tipping point analysis, and has on multiple occasions denied approvals citing 
+insufficient tipping point analyse s, even when the sponsor promote d a  “positive” readout. Key FDA officials 
+including newly appointed CDER Director Pazdur  and CBER Director Prasad  have a demonstrated history of 
+
+PAGE 4
+Culper Research Praxis Precision Medicines Inc. (NASDAQ:PRAX) November 20, 2025 
+4 
+ 
+calling out insufficient tipping point analyses, including from Amgen and Merck. We think they will have no 
+problem rebuking Praxis’ nonsense here, too. 
+ 
+Conclusion: We Recognize the Need for Safe and Effective ET Drugs – Ulixa Isn’t It 
+ 
+We recognize that ET is a serious and undertreated condition that demands  safe and effective therapies. That is 
+exactly the problem, we believe, for ulixacaltamide – an ineffective drug with tolerability issues dressed up with  
+make believe data and statistical games. The drug has already failed in Phase 2 and was recommended to be halted 
+for futility in Phase 3. Now, its miraculous “success” rests on a last-minute endpoint change, aggressive imputation 
+of discontinued patient data amid an alarming, highly imbalanced dropout rate; and a blatantly misapplied tipping 
+point analysis. Each of these fall apart under scrutiny. Taken together, they damn ulixa’s FDA hopes entirely. 
+ 
+History shows the FDA will not hesitate to reject weak data, as UniQure’s experience last month makes clear. We 
+believe Praxis’ situation is even more precarious, given the combination of factors above and that the Company 
+never appears to have received FDA blessing of its primary endpoint change. We think Praxis shares face substantial 
+near-term downside as the Company heads into its Q4 pre-NDA meeting that is likely to trigger an FDA reckoning. 
+ 
+ 
+“The goal for them was to ring the bell at NASDAQ, and that concern outweighed every 
+scientific and medical consideration… A company operating at the edge of what is 
+professional.” – Former Praxis Director 
+ 
+“Study 1 has big problems… they moved the primary endpoint from week 12 to 8, and this is a 
+big ticket item in the FDA’ s view… In general, the FDA will not accept such modifications.”  
+– Former 20+ Year FDA Biostatistician and Neurology Specialist 
+ 
+“They didn’t get approval from the FDA to change the endpoints… ” 
+– 10-year Biostatistician at a Top University 
+ 
+“Generally at 25% [dropout rate] the FDA will ask about the validity of the trial… The failed 
+patients have already dropped out so how can you do a valid trial or consider that successful? 
+… I t ’s  hard to see how there’ s efficacy [if] you can’t take the drug. It’ s a major problem…”  
+– Former 20+ Year FDA Biostatistician focused in Neurology 
+ 
+“We’re not talking about 3% or 5% of missing data, we’re talking about a hell of a lot of 
+missing data… The FDA will present this quandary to this sponsor, and they won’t suffer fools 
+easily… Houston, we have a problem! Would I buy the stock? I don’t think so. There’ s too 
+much damn missing data.” – Former 40-Year FDA Pharmacology/Toxicology Specialist 
+ 
+“When the company does really low sensitivity to try to convince the FDA. To me that’ s a 
+specific concern… that analysis will definitely not be accepted by the FDA … As a public 
+company, they may try to do the most beneficial thing for them to say it’ s a positive trial, but 
+there’ s 100% no chance the FDA accepts that.” 
+– Former 20-Year FDA Medical Officer and Neurology Specialist 
+ 
+“It’ s not a fair presentation of the results. Adjusting people by 2.5 points is imputing them as if 
+the treatment is conferring benefit… I’m not convinced by that approach. And then they’re not 
+telling us what the actual tipping point is. I mean, come on… A new dataset will be needed. ”  
+– 10-year Biostatistician at a Top University 
+
+PAGE 5
+Culper Research Praxis Precision Medicines Inc. (NASDAQ:PRAX) November 20, 2025 
+5 
+ 
+Introduction to Praxis, ulixacaltamide, and Essential Tremor 
+ 
+Praxis was founded in 2015 as EpiPM Therapeutics, and now refers to itself as “a clinical-stage biopharmaceutical 
+company translating genetic insights into the development of therapies for central nervous system (CNS) disorders 
+characterized by neuronal excitation-inhibition imbalance.” 
+ 
+The Company’s flagship drug candidate is ulixacaltamide (“ulixa”; “PRAX-944”). In January 2018, Praxis acquired 
+ulix (“PRAX-944”) from EPIRUS Biopharmaceuticals, Inc (EPRS.Q) – which had spent several years studying the 
+compound for potential use in neuropathic pain – for a mere $1 million. We find the paltry price tag indicative  of 
+its poor clinical prospects. 
+ 
+In October 2020, Praxis completed a $190 million IPO on the NASDAQ GS, touting PRAX-944 as one of its leading 
+drug candidates for potential use in treating essential tremor (“ET”).  ET is a nervous system disorder affecting 
+roughly 7 million people in the U.S., primarily those above 65 years of age. Its primary symptoms are trembling in 
+the hands, such that the disorder is often confused with Parkinson’s. ET is thought to be caused by a gene alteration 
+passed from parent to child. Current first line medications include beta blockers such as propranolol and anti-seizure 
+medications such as primidone and gabapentin.  According to Praxis , up to 50% of ET patients don’t receive 
+treatment altogether and 77% of ET patients don’t feel their symptoms are manageable with current treatments. 
+ 
+Ulixa is a T-type calcium channel inhibitor, which the Company argues is linked to the abnormal brain activity that 
+manifests with ET. While we acknowledge t hat neurology is incredibly complex, we have seen little evidence to 
+suggest that this mech anism can succeed  in ET. On the contrary, three  drugs with the same mechanism have 
+already been tested and failed earlier stage clinical trials in ET. 
+ 
+- Jazz Pharmaceuticals plc (JAZZ) studied  suvecaltamide (JZP385), a highly selective and state-dependent 
+modulator of T-type calcium channels, in adult patients with ET. Suvecaltamide did not achieve statistical 
+significance at 30mg versus placebo on the primary endpoint or the key secondary endpoint. One participant 
+experienced a serious adverse event considered treatment related by the investigator. 
+ 
+- Neurocrine Biosciences studied apinocaltamide (NBI-827104), a triple -T calcium channel blocker. The 
+drug failed to meet primary or secondary efficacy endpoints in Neurocrine’s Phase 2 study.   
+ 
+- Ethosuximide, another T-type calcium channel inhibitor, failed to show that it was an effective treatment. 
+An open label trial initially planned to enroll 15 patients, but stopped the trial after 7 patients participated 
+due to “lack of efficacy and a high incidence of adverse effects”.     
+ 
+Tellingly, Praxis’ earlier trials of ulixa have shown mixed results, at best. In March 2023, Praxis reported negative 
+top-line results from a Phase 2b dose -range-finding trial of ulixa for ET (“Essential1”). The study measured the 
+change in TETRAS modified Activities of Daily Living (“mADL”) in 132 patients over 56 days.  Ulixacaltamide 
+failed to produce a statistically significant difference to placebo (p=0.126). Shares fell over 40% overnight. 1 
+ 
+ 
+1 Note the 17% discontinuation in the treatment arm is far lower than what Praxis later reported in both Study 1 and Study 2 of Phase 3. 
+
+PAGE 6
+Culper Research Praxis Precision Medicines Inc. (NASDAQ:PRAX) November 20, 2025 
+6 
+ 
+ 
+ 
+Moreover, while investors often like to see dose -dependency – i.e., a correlation between dosage and therapeutic 
+effect, which might support a positive view of the drug’s mechanism – the Phase 2b showed no dose-dependency.  
+ 
+Nevertheless, CEO Souza argued that ulixa produced positive results for certain secondary endpoint s, and that the 
+Company would proceed to a Phase 3 trial  (“Essential3”). Essential3 is composed of two studies, each of which 
+measures endpoints tied to “modified activities of daily living 11 (“mADL11”) scores.2 
+ 
+- Study 1 is placebo-controlled parallel group study over 12 weeks, (n=199 drug vs. n=233 placebo). The 
+primary endpoint measures differences in responses of mADL11 scores. Our views pertain primarily to 
+this study. 
+ 
+- Study 2 is randomized withdrawal study, which took 80 responders (i.e., those who showed an improvement 
+of 3+ mADL11 points) , and after 8 weeks, split responders into two equal groups of 40. One group then 
+received the drug, while the other group reverted back to placebo. The primary endpoint measured the 
+percentage of each group that continued to show a clinical response after an additional 4 weeks. 
+ 
+On October 16, 2025, PRAX reported “ positive” top line results from e ach of these studies. Shares rallied 185%, 
+and the Company promptly raised $567 million in an equity offering. We note that the Company’s proxy statement 
+discloses executive bonuses are based on the achievement of “our corporate objectives for such year” and that “the 
+metrics we use for incentive awards”  include, “clinical, research and development ” objectives. Last year, CEO 
+Souza earned total compensation of $13.4 million. 
+ 
+How Praxis Reverse Engineered a Phase 3 Readout: Shifted Endpoints, Phantom 
+Data Imputation, and a Blatantly Mishandled Tipping Point Methodology 
+ 
+We believe Praxis effectively engineered a Phase 3 “win” through shifting endpoints, highly aggressive missing 
+data imputation, and a blatantly misapplied tipping point analysis.  
+ 
+- We believe Praxis would not have achieved statistical significance with a proper tipping point analysis at  
+the Day 84 endpoint. The fact that Praxis discloses only a “select sensitivity analysis” for Day 84 mADL11 
+described as “the average of Day 77 and Day 84 at the time of the interim analysis” is indicative. We cannot 
+find any prior reference in Praxis materials to an endpoint defined as an average of Day 77 and Day 84 – it 
+appears entirely contrived to support the Company’s preferred narrative. 
+ 
+ 
+2 These are patient-reported scores, obtained through an 11-question survey that assesses the extent to which tremors limit patients’ ability 
+to complete everyday tasks. Scores are ranked on a scale of 0 to 33, where 33 is the worst and 0 is the best. 
+Praxis Phase 2b Ulixacaltamide Placebo
+Patients 78 38
+Discontinuations 13 4
+  Rate 17.0% 11.0%
+Due to AEs 9 1
+  Rate 11.5% 2.6%
+mITT population 78 38
+mADL (primary endpoint) (3.01) (1.44)
+p value 0.126
+
+PAGE 7
+Culper Research Praxis Precision Medicines Inc. (NASDAQ:PRAX) November 20, 2025 
+7 
+ 
+- We estimate that with more conservative imputation assumptions (i.e., placebo -based), ulixa efficacy falls 
+from a 4.3 point change in mADL11 to just 3.79 points at Day 56, and then at Day 84, falls to just 2.91 
+points – well below the Company’s own definition of responders at 3.0 point minimum change. 
+ 
+- We finally estimate that – even at its preferred Day 56 endpoint – had the Company conducted a proper 
+tipping point analysis which begins  rather than ends at 0.5 standard deviation penalties , ulixa’s perceived 
+efficacy would once again collapse. At 0.75 standard deviations, ulixa shows a 2.8 point change in mADL11 
+(again – well below the Company’s own 3 point minimum) . At 1 standard deviation, not only does ulixa 
+show just a 2.3 point change, but this represents a mere 0.8 point difference vs. placebo, rendering the p-
+value = 0.156 – a horrific failure.  
+ 
+Individually, any one of these elements exposes ulixa’s claimed efficacy. Together, they expose how the results have 
+been generated by aggression, manipulation, and misrepresentation rather than actual performance. 
+ 
+Praxis Misrepresents Motivations For its Last-Second Primary Endpoint Change, Which We 
+Believe Lacks FDA Blessing 
+ 
+In February 2025, Praxis disclosed that  the Phase 3 independent data monitoring committee (“IDMC”) 
+recommended that the study be stopped for futility, “due to the results being unlikely to meet the primary efficacy 
+endpoint under the parameters set by the statistical model.” PRAX shares fell 47% on the news. 
+ 
+Just a month earlier, Praxis CEO Souza had suggested that  this outcome was nearly impossible – a “less than 3% 
+probability of being futile, the way it was designed.” 
+ 
+Yet Praxis carried on, with CEO Souza stating that, “following the advice of the committee, we will explore different 
+analysis methods for the final dataset, which is expected in the third quarter of 2025.” 
+ 
+In September 2025, Praxis changed the trial endpoints from change in mADL11 at Day 84 (12 weeks) to Day 56 (8 
+weeks). The change is not only a red flag in light of the IDMC halt recommendation, but as CEO Souza provided 
+an entirely nonsensical explanation of the change. 
+ 
+“Between that point and last month, we conducted extensive simulations and analysis on the blinded data. 
+We consulted with a number of statistical, clinical and regulatory advisers, and we decided that the most 
+prudent thing to do was to refer back to what we knew from the Essential1 program that was the ability for 
+ulixacaltamide to positively modify the disease when patients are exposed between baseline and day 56. So 
+we made the decision to change the primary endpoint to day 56 from day 84.” 
+ 
+CEO Souza suggests that the Company decided to simply refer back to Essential1 , but t his doesn’t stand the 
+common sense test . Praxis was already aware of ulixacaltamide’s performance in Essential1 prior to picking the 
+Essential3 day 84 primary endpoint. According to one biostatistician we consulted,  
+ 
+“There are other problems with the design of the trial that make me uncomfortable. I would not be 
+comfortable advising a sponsor to do these. One of those is changing the primary endpoint. Day 56 to 84 
+then back to Day 56. I really don’t know why they would do that. “ 
+ 
+In the words of a second expert – a former 10+ year FDA Neurology official we spoke with, 
+ 
+“For some reason they decided to use 56. The rationale they published is that the phase 2b was positive. 
+I’m not really sure the rationale there is accepted by the FDA. I suppose they thought the power was 
+sufficient at day 56. If that was the case, then why wouldn’t you find it at day 84?” 
+
+PAGE 8
+Culper Research Praxis Precision Medicines Inc. (NASDAQ:PRAX) November 20, 2025 
+8 
+ 
+ 
+We believe Praxis is misrepresenting its true motivations. CEO Souza’s admission that the Company ran “extensive 
+simulations” on interim Phase 3 data is suggestive. Consider that Praxis likely saw – evident even in pooled blinded 
+data – that the study suffered from a massive number of front -loaded dropouts. Inclusive of the ITT population  
+(patients who dropped prior to a post-baseline reading, which would have been included in interim data ), 78 of 96 
+(81%) total dropouts occurred by Day 56. 
+ 
+Source: Praxis Phase 3 Data Presentation, slide 14 
+ 
+As such, by Day 56, the core bias from missing at random (“MAR”) imputation – which treats early dropouts as if 
+they perform in-line with completed patients – would already be essentially maximized. Thus, the Day 84 endpoint 
+adds extremely little favorable MAR imputation bias, but does add meaningful placebo variance, hence diluting an 
+already modest efficacy signal. In short, Praxis – even with blinded data – possessed both the means and the motive 
+to alter the primary efficacy endpoint in the Company’s favor.  
+ 
+To our knowledge, Praxis has never explicitly told investors on calls or in filings  that the FDA has signed off on 
+this primary endpoint change. Instead, CEO Souza has deployed squishy language to defend the Company against 
+the obvious implication of foul play. 
+ 
+- On the Company’s October 16, 2025, special call, Souza took pains to emphasize  that Praxis, “consulted 
+with a number of statistical, clinical and regulatory advisers” when it “simplified the key secondary 
+endpoints based on prior feedback from the FDA”  and that “ we're seeking and gained alignment on the 
+Phase III program as it relates to the endpoints, to dose and the overall design. ” Yet this very language 
+implies that Praxis did not in fact receive explicit FDA blessing of the change. 
+ 
+- Just two days ago at the Jefferies London conference, Souza again evaded questioning as to FDA blessing, 
+instead pivoting to suggest that the endpoint change simply doesn’t matter , as the trial was successful at 
+either endpoint. 
+ 
+“The choice of the time of the assessment is always the sponsor’ s. We know that it’ s acceptable to do 8 
+weeks or 12 weeks. We did change, I want to be incredibly clear about that from 12 weeks as assessed at 
+the average of day 77 and day 84 to day 56, so pr etty minor change but maybe even more important than 
+that is the study was successful at every timepoint, including the one that it was changed from.” 
+ 
+
+
+PAGE 9
+Culper Research Praxis Precision Medicines Inc. (NASDAQ:PRAX) November 20, 2025 
+9 
+ 
+We think otherwise. Praxis’ own data – despite the Company’s claims that ulixa has a “consistent response over 12 
+weeks” – shows that treatment effect waned by a full point from Day 56 to Day 84.  
+ 
+ 
+Source: Praxis Investor Presentation 
+ 
+According to a former 15-year FDA Neurology official we spoke with, 
+ 
+“You could ask the question ‘is 1.6 good enough?’ and typically we think of a 2.0 point [difference] as good 
+enough. No matter what you do, it’ s [treatment effect] less than 2 when you go out past 60 days.3 It’ s at risk 
+on the clinical meaningfulness… The degradation of response is a real risk to it [FDA acceptance].” 
+ 
+Phase 3 Trial Plagued by High and Unbalanced 36% Treatment Arm Dropout Rate; Praxis 
+Aggressively Imputes Improvements to a Massive Number of Missing Patients 
+ 
+Praxis claims that ulixa was “well tolerated,” but 35.6% of patients discontinued treatment, with adverse events 
+accounting for most of those cases –  27% of all patients.  This presents a red flag both as  this dropout rate is far 
+higher than seen in Phase 2 trials and at odds with Praxis’ claims that the drug is “well tolerated.” Even in isolation, 
+this staggering dropout rate could derail the Company’s FDA hopes, according to multiple experts we spoke with.  
+ 
+“Generally at 25% [dropout rate], the FDA will ask about the validity of the trial. If more than 25% drop 
+out, it’ s just not effective… The drug had some AEs, but they weren’t very severe, so the FDA will ask them 
+to explain that. Because the Company claimed it was tolerated. But in the real world, compliance will be 
+even worse… The failed patients already dropped out, so how can the trial be considered successful?  
+That’ s the major problem… The efficacy is an issue; the compliance is an issue.” 
+ – Former 20-year FDA Medical Officer focused in Neurology 
+ 
+Yet our concern is not solely  with the sheer number of patient dropouts, but with how Praxis accounts for these 
+patients: by aggressively imputing phantom improvements for nonexistent patients, which tips the scales in 
+the Company’s favor. Clinical trial sponsors can handle the issue of dropouts in multiple ways. 
+ 
+ 
+3 To be clear, the data shows treatment effect of 2.2 points at Day 63 and 1.9 points at Day 70. 
+
+
+PAGE 10
+Culper Research Praxis Precision Medicines Inc. (NASDAQ:PRAX) November 20, 2025 
+10 
+ 
+- Last observation carried forward fills missing values with the most recently recorded value. 
+ 
+- Worst rank fills missing values with the worst recorded value (conservative if not overly penalizing). 
+ 
+- Placebo-based imputation fills missing values with values in-line with placebo outcomes. 
+ 
+Yet Praxis employed a mixed model for repeated measures (“MMRM”)  under a missing -at-random assumption 
+(“MAR”). This imputation method, per the Company, treats the “subject as a random effect with an unstructured 
+covariance matrix.”  In layman’s terms, the model fills missing values with data that assumes patients who 
+dropped from the study would have performed similarly to those who remained.4 In our view, this is a wildly 
+aggressive, unsuitable methodology that artificially inflates results. 
+ 
+Numerous former FDA officials we spoke with suggested that this methodology was wholly unsuitable, especially 
+given the massive disparity in dropout rates between the groups. 5 Per one former 10+ year FDA official, 
+ 
+“When I read the Company’ s claim, they claim they use MMRM, and that analysis will definitely not be 
+accepted by the FDA.  The definition is random –  it assumes both treatment and placebo drop out  [at 
+equivalent rates]. And if you claim you’re getting a positive result with that methodology, they [Praxis] 
+won’t get the FDA [approval]. Because it’ s 35% [treatment dropout] vs. 5% [placebo dropout], it’ s clearly 
+due to the adverse events in the treatment group. It’s clearly not correct to use that… You need to be missing 
+randomly. Missingness is much higher in treatment group than placebo, so the high dropout is not missing 
+randomly.” 
+ 
+We asked another 20-year FDA Biostatistician what they would have recommended Praxis do in this situation: 
+ 
+“You should assume the dropout patients are performing worse, in line with the placebo data. From that 
+time on, I’d impute the placebo value for the patients.” 
+ 
+We also spoke with a 15+ year FDA official who emphasized that the Company’s methodology creates an artificially 
+favorable result, especially as Praxis’ own data shows that treatment effects decline past Day 56. 
+ 
+“Because say they drop out at Day 49, and they were doing well at that time. It [imputation] has the inherent 
+problem that it artificially suggests that a dropout does well. That’ s the kind of concern that the FDA will 
+be all over, because if it regresses after three months to baseline, then does it have a sustained effect?” 
+ 
+They noted that alternative handling of missing patient data would lead to worse outcomes, but that the FDA would 
+ask for the full dataset and run their own analysis using varying (less Company-favorable) imputation methods , 
+which could cause significant problems for Praxis. 
+ 
+“The last observation carried forward is in this case not going to work, partly because the treatment effect 
+declines over time.” 
+ 
+“The FDA will ask for the full dataset to Day 84, and run it on the final data. They will run their own 
+analysis with all three versions of the imputation. And the risk is the FDA will look at that, and say ‘we 
+want you to have a longer study.’” 
+ 
+ 
+4 See additional commentary on MMRM and MAR here and here. 
+5 Other researchers have highlighted the biases that can arise when dropouts are unbalanced between arms or not, in fact, missing at 
+random. Consider here and here. If dropout is related to unobserved outcome (MNAR), which is often plausible in differential dropout due 
+to efficacy or side effects, the MAR assumption will be violated and the MMRM may produce a biased result. 
+
+PAGE 11
+Culper Research Praxis Precision Medicines Inc. (NASDAQ:PRAX) November 20, 2025 
+11 
+ 
+Another 20-year FDA veteran we spoke with said the same thing – the FDA will simply impute its own values using 
+more conservative methods. 
+ 
+“The FDA would do two or three analyses. The most comparative would be to show if the dropouts were 
+totally ineffective. Another way would be to use the last data recorded.” 
+ 
+As shown below, we estimate that – had Praxis used placebo -based imputation, the treatment effect  would have 
+fallen meaningfully from 2.6 points to just 2. 1 points, while on the Company’s original Day 84 endpoint , 
+treatment effect would have declined even further to a mere 1.2 points. 
+ 
+ 
+ 
+Indeed, Praxis’ ridiculous imputation games may help explain why treatment effects appear to decline past Day 56: 
+Praxis benefits from imputing phantom improvements in dropped patients, and the bulk of these patients 
+discontinued prior to Day 56. Consistent with our view of ulixa’s lack of efficacy – the perceived treatment 
+effect at Day 56 was never real in the first place. 
+ 
+We asked one former FDA official why Praxis would rely on such aggressive imputations, i f it were so obviously 
+incorrect to do so. Their response was telling. 
+ 
+“That part is merely for the public, not for the FDA. It definitely shouldn’t be applied. They can make it 
+public – as a public company – they try to do the most beneficial thing for them to say it’s a positive trial, 
+but there’s 100% no chance the FDA accepts that.” 
+ 
+Nevertheless, Praxis argues that its trial is “robust” as it has been stress tested against a “tipping point” analysis . 
+Here too, however, we believe the Company has again deployed another set of shenanigans – feigning a real stress 
+test by blatantly misapplying the very methodology it claims to rely on. 
+ 
+Praxis’ “Tipping Point” Analysis Relies on Blatant Misrepresentation of a 2013 Paper That 
+Calls for a 2.5-Point Penalty at Minimum  – Praxis Uses 2.5 as a Maximum  
+ 
+Tipping point analysis seeks to stress tests the effect of imputed data on the results of a clinical trial, by penalizing 
+the imputed data by a certain margin – sensitizing it in case the patients indeed performed worse than the imputed 
+data suggests. If it takes extreme, unrealistic assumptions of the imputed data to overturn the trial success, then the 
+trial is robust. 
+ 
+Praxis argues that its tipping point analysis demonstrated that – even after penalizing the imputed patients by 2.5 
+mADL11 points – the trial still resulted in a win. CEO Souza justifies this 2.5-point figure as “up to what has been 
+defined as the maximum you should do, that is about half a standard deviation or so…”  
+mADL11 declines Ulixacaltamide Placebo Difference
+Day 56 (reported) (4.3) (1.7) (2.6)
+Day 84 (reported) UNDISCLOSED UNDISCLOSED (1.6)
+Day 84 (culper est.) (3.3) (1.7) (1.6)
+mITT patients 199 233
+Discontinued by Day 56 39 4
+Discontinued by Day 84 49 12
+Culper Est. Placebo Imputation
+Day 56 (3.79) (1.7) (2.09)
+Day 84 (original endpoint) (2.91) (1.7) (1.21)
+
+PAGE 12
+Culper Research Praxis Precision Medicines Inc. (NASDAQ:PRAX) November 20, 2025 
+12 
+ 
+ 
+ 
+Source: October 16, 2025 Conference Call 
+ 
+As shown, Praxis provided a sensitivity analysis confirming “robustness” of the trial at a 2.5-point shift, “exceeding 
+the ~1/2 SD robustness criterion of Ratitch et al. (2013).”  The Company’s investor presentation similarly claims 
+that “efficacy remains significant under extreme scenarios.”  
+ 
+ 
+Source: Praxis October 2025 Prospectus 
+ 
+This appears to us to be a blatant misrepresentation of the very paper that Praxis leans on to support its position. As 
+shown below, the 2013 Ratitch paper relies on an earlier paper by Norman et al ., in which the authors argue that a 
+half standard deviation ought to be considered the  “minimally important difference” for health-related quality of 
+
+
+PAGE 13
+Culper Research Praxis Precision Medicines Inc. (NASDAQ:PRAX) November 20, 2025 
+13 
+ 
+life instruments, citing a wide variety of chronic diseases. The Ratitch paper never appears to describe – as claimed 
+by CEO Souza – that tipping point analysis ought to end at 0.5 standard deviations; rather it begins there. 
+ 
+Indeed, Ratitch’s own tipping point analysis provides data at  0.5 standard deviations (two HAM-D-17 points, in 
+its case), 0.75 standard deviations, and 1.0 standard deviations, as shown: 
+ 
+ 
+Source: Ratich et al. 
+ 
+As shown, in Ratitch’s case, the 4-point penalty at 1.0 standard deviation led to a p-value of 0.0821, which is why 
+the author warns that, if such scores are “plausible clinically for early withdrawers in the experimental arm, then 
+this tipping point analysis would suggest that the MAR result of the study will need to be treated with caution.” 6 
+ 
+So why does Souza insist on this blatant misreading of the paper ? We believe that the trial result simply would 
+not have survived a tipping point analysis at 0.75 and 1.0 standard deviations. As said plainly by a former 20-
+year FDA official we spoke with, 
+ 
+“When the company does really low sensitivity to try to convince the FDA. To me that’ s a specific concern.” 
+ 
+By our math, results go up in smoke when the Company simply employs its own cited methodology properly. 
+ 
+- At 0.75x standard deviations, we estimate u lixa shows a 2.8 point decline vs. a Company-favorable 
+assumption of a 1.5 point decline for placebo, for a 1.3 -point treatment effect. This remains a statistically 
+significant difference in outcomes , but isn’t clinically meaningful according to the Company’s own 
+standards by which a patient response is stipulated by a minimum decline of at least 3.0 points.7 
+ 
+- At a full standard deviation, we estimate ulixa shows a 2.3 point decline vs. a 1.5 point decline for placebo, 
+which is both well below the 3.0 point minimum, and fails to meet statstical significance. 8 
+ 
+ 
+6 In the case of Ratitch, the endpoint was HAM-D-17 scores, and the standard deviation was 4. 
+7 See Study 2, “Patients who improved by 3 points in the mADL11 from baseline were then randomized to receive either placebo or to 
+continue receiving ulixacaltamide” as well as Essential1’s disclosure that “Corresponding responder analyses were conducted based on 
+clinically meaningful within-patient change in mADL11 defined as a minimum 3-point improvement.” 
+8 Given Company-disclosed ½ Std. Dev. difference of 1.7 mADL11 points and p=0.0026, implied Z-score = 3.011454 and SE=0.56451. 
+From here, we can further calculate Z-scores and p-values at ¾ and 1.0x standard deviations. 
+
+
+PAGE 14
+Culper Research Praxis Precision Medicines Inc. (NASDAQ:PRAX) November 20, 2025 
+14 
+ 
+ 
+Source: Culper Estimates 
+ 
+By way of an additional sanity check, consider that Praxis’ mere 2.5-point shift implies that imputed patients still 
+outperform placebo patients, to say nothing of the possibility that ulixa patients actually perform worse than 
+placebo, whether or not a result of ulixa’s side effect profile. 
+ 
+Praxis’ Butchered Interpretation of Ratitch Further Confounded by High Dropout Rates, 
+Which Requires Even More Penalizing Assumptions 
+ 
+Moreover, Praxis in our view relies on a wholly butchered interpretation of Ratitch, rendered useless by the trial’s 
+ridiculously high 35.6% dropout rate . Ratitch and Norman draw primarily on other studies with dropout rates 
+generally in the low single digits, such as asthma and COPD studies. The idea was never to legitimize the wholesale 
+rebuild of a trial lacking massive amounts of completion data. According to the FDA itself, the higher the dropout 
+rate, the harsher the sponsor ought to be in its tipping point analysis.  
+ 
+ 
+Source: Olumiant Statistical Review, 2018 
+ 
+Two former FDA officials we spoke told us that  the sheer mass of imputed data would make such a tipping point 
+analysis a problem entirely – calling back to earlier concerns that other former FDA officials told us regarding the 
+validity of the entire trial itself. 
+ 
+“We’re not talking about 3% or 5% of missing data, we’re talking about a hell of a lot of missing data… If 
+they’re hiding behind this imputed data, it’ll have to see the light of day. Why did so many drop out, and 
+then number two – the statistical analysis…  Yeah, we’ve got a problem. Houston, we have a problem. I’m 
+leaning towards non-approval until they get this straightened out. Would I buy the stock? I don’t think so. 
+There’ s an imputation of too damn much missing data.” – 40-year FDA Pharmacologist 
+ 
+“For a trial above 30% dropout, the trial [data] can’t be imputed. The dropout is too high – imputation 
+can’t solve the dropout issue.” – Former 10+ year FDA Neurology official 
+ 
+Tipping Point mADL11 Shift Ulixa P lacebo Difference p-value
+Reported 0.00 (4.3) (1.7) (2.6) <0.0001
+1/2 Std. Dev 2.50 (3.3) (1.6) (1.7) 0.0026
+3/4 Std. Dev 3.75 (2.8) (1.6) (1.3) 0.0268
+1 Std. Dev 5.00 (2.3) (1.5) (0.8) 0.1560
+
+
+PAGE 15
+Culper Research Praxis Precision Medicines Inc. (NASDAQ:PRAX) November 20, 2025 
+15 
+ 
+On the October 16, 2025, investor call, CEO Souza implicitly acknowledged that the FDA required a tipping point 
+analysis, stating, “We prespecified and agreed with the agency that we would conduct a tipping point analysis.” 
+ 
+Key FDA Officials Have Demonstrated History of Rebuking Nonsense 
+We believe the FDA will scrutinize the Company’s gimmicks closely. To that end, newly appointed CDER Director 
+Richard Pazdur was previously a member of  the FDA review team that  in October 2023 shot down Amgen’s 
+sotorasib, calling confirmatory data “unreliable” and explicitly calling out Amgen’s lackluster tipping point analysis 
+in its comments. This rhymes with what we think the FDA will find at Praxis.    
+ 
+ 
+Source: Sotorasib AdCom Slides 
+ 
+In May 2024, influential FDA actor Vinay Prasad authored a paper agreeing with Pazdur’s conclusion on sotorasib, 
+acknowledging the FDA relied on expanding the tipping point analysis: 
+ 
+ 
+Source: The Lancet 
+ 
+Prasad similarly co-authored a paper in support of the  FDA’s 2016 denial of Merck’s expanded indication for 
+Vytorin, a cardiovascular drug, citing a weak tipping point analysis. 
+ 
+
+
+PAGE 16
+Culper Research Praxis Precision Medicines Inc. (NASDAQ:PRAX) November 20, 2025 
+16 
+ 
+ 
+Source: NIH 
+ 
+From our review, nothing in Prasad’s paper suggests he would tolerate  Praxis’ rosy tipping point analysis. On the 
+contrary, Prasad explicitly indicated that in high discontinuation settings, tipping point analysis ought to be 
+tested under harsher, not friendlier, assumptions: 
+ 
+“That the result of the study is more easily “tipped” with higher— arguably more realistic scenarios— event 
+rates indicates that the conclusion is less robust than as presented by the researchers... With the high rate 
+of discontinuations and the greater cardiovascular event rates in the first year, the data is not robust to 
+alternative assumptions regarding the missing data. This calls into question the significance of the results… 
+further study is needed.” 
+ 
+ 
+FDA Commissioner Makary, CDER Director Pazdur, and CBER Director Prasad 
+Source: @DrMakaryFDA  
+ 
+In conclusion, we again recognize the substantial need for safe and effective ET therapies. We’re short Praxis for 
+that exact reason – we believe ulixa is the opposite: an ineffective drug with tolerability issues that is being promoted 
+on the back of manipulated, make-believe, and misrepresented data. We expect the FDA reckoning to be swift. 
+ 

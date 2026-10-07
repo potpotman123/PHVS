@@ -1,0 +1,26 @@
+HAE payer access audit — 6 October 2026
+Scope: bounded discovery across UHC, Cigna, Aetna and BCBS Mississippi; selective primary-policy inspection. No covered-life weighting, claims, interviews, confidential prices or full archival comparison. Aetna old policy not treated as current. BCBS finding not used to infer national prevalence. Policy histories are current-document retrospective summaries, not independently archived versions.
+
+OBSERVED
+1 UHC Orladeyo medical necessity 2026 P2232-9 effectiveApr1 2026: age>=12 failures all Andembry/Haegarda/Takhzyro; typically excluded; plan/mandate/claims exceptions. History Aug2021 added both Haegarda/Takhzyro+exclusion,Nov2025 addedAndembry,Jan2026 age differentiation. Does not give comparative efficacy or price rationale.
+https://www.uhcprovider.com/content/dam/provider/docs/public/prior-auth/drugs-pharmacy/commercial/h-p/PA-Med-Nec-Orladeyo.pdf
+2 UHC Orladeyo notification 2026 P1351-6 effectiveJun1 2026: diagnosis,prevention,no concurrent prevention; no failure step listed. Still explicitly typicallyexcluded. Both policies concurrentlylistedinUHCindex. Cannotinfer unrestricted coverage or replacement of strictpolicy; applicability/lives unknown.
+https://www.uhcprovider.com/content/dam/provider/docs/public/prior-auth/drugs-pharmacy/commercial/h-p/PA-Notification-Orladeyo.pdf
+3 UHC Andembry medical necessity effectiveJan1 2026 no priorpreventivefailurecriterion,diagnostic/specialist/clinicalbenefit criteria; followupresponseandlessacuteuse. Newproduct canreceivefavorableposition; not universal incumbency rule.
+https://www.uhcprovider.com/content/dam/provider/docs/public/prior-auth/drugs-pharmacy/commercial/a-g/PA-Med-Nec-Andembry.pdf
+4 UHC Ekterly medicalnecessity effectiveFeb1 2026 adults failure/contraindication/intolerance BOTH genericicatibant AND oneBerinert/Ruconest;under18 oneBerinert/Ruconest;typicallyexcludedplan-specific. Nov2025historyaddedsteps. NotificationeffectiveNov1 2025 no stepslisted. Directoralacute analogueforPHVSIR,not guarantee.
+https://www.uhcprovider.com/content/dam/provider/docs/public/prior-auth/drugs-pharmacy/commercial/a-g/PA-Med-Nec-Ekterly.pdf
+https://www.uhcprovider.com/content/dam/provider/docs/public/prior-auth/drugs-pharmacy/commercial/a-g/PA-Notification-Ekterly.pdf
+5 CignaCNF965 effectiveMar2 2026: preferredAndembry/Cinryze/Haegarda/Takhzyro;Dawnzera nonpreferred onepreferredtrial ORcontinuation,otherPAcriteriarequired. ExplicitlydoesnottargetOrladeyo. Statedpurposeencouragepreferredproducts,notexplainednetprices. Demonstratesinjectionstooarestepped.
+https://static.cigna.com/assets/chcp/pdf/coveragePolicies/cnf/cnf_965_coveragepositioncriteria_hereditary_angioedema_prophylaxis_medications_psm.pdf
+6 CignaCNF647 OrladeyocurrentPA: noinjectablefailurelisted;requires typeI/II anddiagnosticlabs,specialist;explicitnormalC1exclusion. Discusses limitednormalC1evidence and originaltrialtypeI/II,explicitclinicalrationaleforpopulationrestriction,notUHCsequencingexplanation. Otherbenefits/formulariesmayoverride.
+https://static.cigna.com/assets/chcp/pdf/coveragePolicies/cnf/cnf_647_coveragepositioncriteria_orladeyo_pa.pdf
+7 BCBSMississippi regional2026policy listsAndembry/Haegardapreventionpathwayswithclinicalburdenthresholds;cannotgeneralizeallBCBS.
+https://www.bcbsms.com/policy-search/medical/policy-detail/hereditary-angioedema-hae-revised-policy-effective-date-04-01-2026-notice
+
+INTERPRETATION
+Strongerevidenceforproduct-and-benefit-specificformularyselection thanuniversaloraldisadvantageornewdrugpenalty. Economicsplausible,butnocausalproofrebates/stickerprice/relativeefficacydrivesUHCsequence. NewAndembryaccessandCignaDawnzerastepsdisconfirmoverbroadtheories. UHCnotificationdocumentsrequirecorrectionofanyimpressionallUHCmembersfaceallthreefailures.
+PHVSXR:Orladeyostepssupportdownsideaccessscenario;PHVSIR:Ekterlyismoredirectanalogue. CignanormalC1restrictionevidenceforpayereligibilitysmallerthanlabel,notbiologicalnonresponse;PHVSsubgroupdata/futurelabelcoulddiffer.
+MODEL
+SegmentPHVS-otherwise-willingpatientsbyexactbenefit,notparentinsurer:paidconversion=sum(weight*conversionwithinperiod). SeparateconditionalprobabilityPHVSreceivesrestrictiveposition;do notassigntoday'scompetitorpolicytoPHVSasfact. Forfirstyear usepaidmonthsperstart,forpeakallowlaterconversion;netpricecorrelatedwithaccess. Noempirical50%haircutoreligible-life-weightedconversionidentified.
+Nextblockinginputs:benefit-to-policycrosswalk+HAEpatientweights,priorstepcompletion,exceptionsandappeals,actualpaidconversion/delay,netprice. BroaderunweightedPDFcollectionwillnotresolvethese. Stopboundedpasshere.

@@ -1,0 +1,126 @@
+M Loses Capital
+TTRX - Zero
+M Loses Capital
+Sep 24, 2026
+Turn Therapeutics is developing GX-03 for Atopic Dermatitis. “GX-03 is designed to intervene at the earliest molecular events that initiate inflammatory skin disease, before chronic inflammation, itch, and barrier breakdown become self-sustaining.
+
+GX-03 delivers its payload via PermaFusion®, our proprietary drug delivery platform – a petrolatum-based, liquid-in-oil suspension technology that enables water-soluble active ingredients to be stably delivered through skin and other keratinous tissue. Rather than suppressing immune activity after inflammation is established, GX-03 prevents unnecessary immune activation by stabilizing the cutaneous microenvironment and modulating epithelial danger signaling.
+
+The result is localized, non-systemic control that addresses IL-36, IL-4, IL-13, and IL-31 signaling through upstream prevention rather than downstream, systemic suppression.” Alright.
+
+It says an extended-release ointment of polyhexanide, which is an antiseptic, clears atopic dermatitis faster and more completely than a topical JAK inhibitor, and in cross-trial terms better than dupilumab. The evidence is a 50-patient interim cohort. That cohort was cut down to a 25-patient “representative” subgroup chosen after the data were unblinded. The only preclinical support is one mouse study run in a model where the disease is the bacterium.
+
+My view is that the mechanism can’t support the claimed efficacy, and the data can’t support themselves. Stage 2 is a fresh sample of roughly 120–135 patients, and it is where the gap between those two things is most likely to close in the wrong direction.
+
+What GX-03 actually is
+Turn describes GX-03 as an investigational extended-release topical formulation designed to provide sustained localized exposure to polyhexanide at the skin surface. Polyhexanide (PHMB) is a cationic polymer antiseptic, the same compound used in wound-irrigation solutions and contact-lens disinfectants. It kills microbes by disrupting their membranes.
+
+Two details make the point. The company's own filings reference planned Phase 3 trials for AD and onychomycosis, and onychomycosis is a fungal nail infection, an odd second indication for a cytokine modulator. An earlier version of the ClinicalTrials.gov entry also described GX-03 as a topically applied emollient in a petrolatum-based ointment, compared against an ointment carrier.
+
+The marketing tells a different story. Turn's boilerplate calls GX-03 a first-in-class, non-systemic, topical cytokine-modulating therapy. It says the product addresses IL-36, IL-4, IL-13 and IL-31 signaling through "upstream prevention rather than downstream, systemic suppression." The framing has spread: trade coverage now describes the product as acting as an interleukin (IL)-36/IL-31 inhibitor. Turn also says GX-03 is designed to deliver "biologic-level efficacy" .
+
+The mechanism claim, stripped down
+Polyhexanide has no cytokine target. Turn has presented no evidence that it binds or directly inhibits IL-36, IL-4, IL-13, IL-31, or any of their receptors.
+
+The underlying biology is real, and it is worth stating fairly. S. aureus colonizes most lesional AD skin, colonization tracks with severity, and staphylococcal toxins can drive epithelial alarm signals and type 2 inflammation. If you kill the bacteria, the bacteria-driven share of those cytokine signals should fall. That is not cytokine modulation, though. It is the standard rationale for every antiseptic ever tried in eczema. Calling it an IL-36 pathway drug is like calling a strep-throat antibiotic an anti-inflammatory because your tonsils shrink.
+
+Once the terminology is removed, the whole thesis rests on one empirical question: does reducing S. aureus on the skin meaningfully improve atopic dermatitis? If the answer is “a lot,” GX-03 is interesting. If it is “a little, sometimes,” GX-03 is at most a modest product. The field has already run this experiment many times.
+
+Killing staph doesn’t treat eczema very well
+The 2019 Cochrane review of anti-staphylococcal interventions concluded that there was insufficient evidence on the effects of anti-staphylococcal treatments for people with infected or uninfected eczema. The authors failed to find clear evidence of benefit for antimicrobial interventions for people with eczema, despite their widespread use.
+
+Bleach baths are the most widely used antiseptic approach in AD, and they fare no better. A meta-analysis found no significant differences between bleach and plain water baths at 4 weeks for EASI or body surface area, and no differences in Staphylococcus aureus density either.
+
+The more elegant, staph-targeted approaches show the translational problem directly. Staphylococcus hominis A9, a commensal selected to kill S. aureus, was tested in a mouse model of eczema first, and it cured the mice after three days of twice-daily treatment. In the 54-patient human trial, however, eczema severity was not significantly different when evaluated in all participants treated with ShA9. Local improvement appeared only in a post-hoc analysis.
+
+The autologous CoNS-AM+ bacteriotherapy trial is probably the best case for decolonization. It enrolled 11 adult patients with moderate-to-severe AD randomly assigned to either CoNS-AM+ (n=5) or the vehicle (n=6), and it reduced S. aureus colonization on lesioned skin by 99.2% compared with the vehicle. The payoff was a local EASI improvement that reached significance versus vehicle on day 11. In the published figure, that is roughly a 30% reduction in local EASI at the end of treatment and about half by day 11, measured on the ventral surface of the arms. So near-eradication of S. aureus gave partial local improvement, not clearance. That is the ceiling set by the mechanism GX-03 depends on.
+
+The mouse model grades its own homework
+Turn’s peer-reviewed support is a single paper co-authored by Bradley Burnam, Chief Executive Officer of Turn Therapeutics, and Stephen Bresnick, M.D., a practicing physician, researcher, and advisor to the Company. In it, skin inflammation was induced using a standardized S. aureus exposure protocol, with confirmation of IL-36 protein expression. Animals were treated topically with GX03 or left untreated. The paper reports mean global assessment scores decreasing from 3.00 in untreated controls to 1.44 in treated animals. This study has three problems.
+
+First, the disease in this model is S. aureus by construction. An antiseptic that kills S. aureus is expected to work in it. The study shows that polyhexanide kills staph on a mouse, which nobody doubted. It says nothing about whether killing staph treats human AD, a disease driven mainly by barrier dysfunction and type 2 immunity, in which S. aureus is at most an amplifier. ShA9 shows how “cured the mice” translates.
+
+Second, the comparator was untreated animals, not vehicle-treated animals. For a petrolatum-based ointment applied to barrier-damaged skin, occlusion alone would be expected to help.
+
+Third, the “IL-36” in the title describes the model, not the drug’s effect. Per the company, IL-36 was used as a marker of Staphylococcus aureus–driven cuta­neous inflammation, and IL-36 protein expression was confirmed following Staphylococcus aureus exposure, establishing the inflammatory environment in which GX-03 was evaluated. Any cytokine readout from this model, whether IL-36, IL-31 or anything else, has the same flaw: in a staph-driven model, killing staph lowers staph-driven cytokines automatically. The paper is being used as evidence for a mechanism it cannot test.
+
+What the 50 patients actually show
+The interim cohort was the first 50 completed subjects. Rather than a conditional-power look at a single endpoint, Turn chose a broader assessment than conditional probability analysis of a single endpoint. In plain terms, it looked at everything. The full-cohort headline figures were 92.6% of GX-03-treated subjects achieving EASI-50 within 4 weeks compared to 65.2% for vehicle, and Week 4 EASI-90 of 44.4% versus 30.4%, rising to 51.9% versus 34.8% by Week 8. Backing out the counts gives 27 GX-03 patients and 23 on vehicle.
+
+I ran a two-sided Fisher’s exact test on those counts:
+
+EASI-50 reaches nominal significance, at p ≈ 0.03.
+
+The deeper EASI-90 endpoints do not, at p ≈ 0.39 at week 4 and p ≈ 0.26 at week 8.
+
+The 95% confidence interval on the week-8 EASI-90 difference runs from about −10 to +41 points.
+
+The vehicle numbers are the real story. Two-thirds of vehicle patients halved their EASI in four weeks, and a third reached EASI-90 by week 8 on ointment base alone. That is regression to the mean in a disease where patients enroll during flares, combined with the effect of an occlusive emollient. The company itself acknowledged higher-than-anticipated vehicle response within subsets of the study population.
+
+The arms were also not comparable at baseline. Although all Stage 1 participants had moderate-to-severe lesions according to the Investigator's Global Assessment (IGA), enrollment included patients across a broad range of baseline EASI scores. The company's EASI 1.1–7.0 subgroup table shows GX-03 (n=14) versus Vehicle (n=18). That means 32 of 50 patients had EASI-defined mild disease, and they made up 78% of the vehicle arm but only 52% of the GX-03 arm. Turn's Stage 2 slide says stratifying by EASI prevents imbalanced disease severity between GX-03 and vehicle, which quietly admits the Stage 1 comparison was imbalanced
+
+Low-EASI patients also make percentage-based endpoints unreliable. At a baseline EASI of 2 or 3, “EASI-90” or “EASI-100” can mean one or two small patches clearing, which a greasy ointment can often achieve alone.
+
+The slice that looks most like a biologic-eligible population points the other way. Among patients with IGA 3/4 and baseline EASI ≥10 (nine on GX-03, four on vehicle), week-8 EASI-100 was 44.4% on GX-03 versus 50.0% on vehicle. In the sickest patients the company showed, vehicle cleared at least as often as drug.
+
+Image
+
+
+The endpoints kept changing:
+
+The registry change: ClinicalTrials.gov’s version history shows the primary outcome switching from change in EASI to vIGA-AD success at week 8. The secondary outcomes were swapped at the same time, and week-4 outcomes were added. This happened about a month before the interim data were released.
+
+After the interim look: the company concluded that Week 4 provided the earliest and clearest treatment separation between GX-03 and vehicle, supporting inclusion of Week 4 efficacy endpoints in the final Stage 2 design.
+
+Where it ended up: week-8 vIGA-AD success was the registered primary endpoint in that version, but it is not among the four Stage 2 endpoints. I could not find a full-cohort result for it in any company release.
+
+The “representative” subgroup and the five-patient biomarker
+Stage 2 now is specifically enriched for subjects presenting with significant pruritus (baseline Peak Pruritus Numeric Rating Scale [PP-NRS] of 7 or more). This cutoff emerged from a review that examined efficacy across prespecified and exploratory endpoints, and clinically relevant patient characteristics. The subgroup meeting it, 13 on GX-03 and 12 on vehicle, produced the treatment deltas of 53, 44, 37 and 38 points that now anchor the story.
+
+The company's own threshold slide shows where that separation comes from. As the itch cutoff rises, GX-03 response rates barely move. Week-4 vIGA success goes 62% → 72% → 62%, and EASI-75 goes 71% → 78% → 69%. What moves is the vehicle arm. Backing out week-4 EASI-75 counts from the slide: Raising the cutoff from 6 to 7 removes five vehicle patients, and all five were EASI-75 responders. It also removes five GX-03 patients, all five of them responders too. Among patients with a baseline itch score of exactly 6, both arms responded 100%, so there was no drug effect in that group at all. The “pruritus biomarker” is five vehicle patients being dropped from the denominator.
+
+Turn published no p-values for this subgroup. My Fisher’s exact calculations from its counts are below.
+
+Endpointp-valueWeek-4 vIGA-AD success≈ 0.011Week-4 EASI-75≈ 0.047Week-8 EASI-90≈ 0.10Week-8 EASI-100≈ 0.07
+
+The logic chain
+Put the pieces in order and the conclusion is hard to avoid.
+
+The drug: GX-03’s active ingredient is polyhexanide, an antiseptic. Its only established pharmacology is killing microbes.
+
+The mechanism: any effect on IL-36, IL-4, IL-13 or IL-31 must therefore be downstream of lowering bacterial load. Presenting an antiseptic as an upstream cytokine modulator is, at best, a disingenuous relabeling of that indirect effect.
+
+The premise: GX-03 can therefore work in AD only as well as reducing S. aureus improves AD.
+
+The evidence on that premise is weak. Cochrane found insufficient evidence of benefit, bleach baths perform like water baths, ShA9 cured mice but failed its overall human endpoint, and the best-case bacteriotherapy trial produced partial local improvement in five patients.
+
+The preclinical support can’t help. Turn’s best non-human evidence comes from a model where S. aureus is the disease, which guarantees an antiseptic looks good and leaves a translational gap exactly where the thesis needs support.
+
+So the reasonable prior is modest. Expect a small benefit at best, below the incumbent standard of topical corticosteroids, which suppress the inflammation itself rather than one bacterial contributor to it.
+
+The subgroup claims the opposite of modest. Week-4 vIGA-AD success of 61.5%, week-4 EASI-75 of 69%, and week-8 EASI-90 of 54% and EASI-100 of 46%.
+
+The benchmarks:
+
+Ruxolitinib cream, the most potent approved topical and a JAK inhibitor, achieved IGA-TS at Week 8 of 53.8% and 51.3% at the 1.5% dose versus 15.1% and 7.6% on vehicle, with EASI-75 of 62.1% and 61.8%. It reached 44.9% EASI-90 in adults, in patients with an IGA score of 2/3, and a 3%–20% affected body surface area.
+
+Dupilumab reached IGA 0/1 in 37.9% and 36.1% of patients at week 16 in SOLO 1 and 2. Cross-trial comparisons are imperfect, and dupilumab's population was far sicker, but Turn is the one inviting the biologic comparison.
+
+The inference: to treat the subgroup data as predictive, you must believe an antiseptic outperforms a JAK inhibitor at half the treatment duration. You must also believe it approaches or exceeds biologic-level clearance through a mechanism that decades of antimicrobial trials in AD have failed to validate. The mechanism and the prior data both make that increasingly unlikely.
+
+The simpler explanation: small numbers, a post-hoc subgroup, an unstable vehicle arm, baseline imbalance, and heavy regression to the mean together explain the numbers without any new biology. Stage 2 will test that.
+
+When it resolves
+Stage 2 will enroll approximately 120-135 patients, including those enrolled since the interim analysis, prospectively stratified into three baseline EASI severity groups. It will test four endpoints using the Hochberg procedure. Only about 15 of those patients will be in the EASI ≥16 stratum that resembles a biologic population. Turn expects Phase 2 enrollment to complete in the fourth quarter of 2026, so with 8 weeks of treatment, topline data plausibly arrive in the first half of 2027.
+
+Hochberg is a legitimate way to control false positives across multiple endpoints. That is exactly why Stage 2 is the real test. It protects the new sample from chance findings, but it cannot carry over the Stage 1 artifacts that shaped the endpoints and population. A fresh vehicle arm of about 60 patients will not happen to lose its five best responders. One item to watch is how patients enrolled during the interim review are handled, since the company says they remain blinded and will be incorporated into the final Stage 2 analyses.
+
+The balance sheet leaves little room for a miss. The company says its cash provides operational runway, including the ongoing Phase 2 trial in AD, into the third quarter of 2027. Its Q1 10-Q, however, flagged substantial doubt about our ability to continue as a going concern, and it estimated needing up to approximately $60 to $65 million to complete our planned Phase 3 trials for AD and onychomycosis. Operations have historically been funded through exempt offerings under Regulation Crowdfunding, Regulation A+ and Regulation D, draw-down from our Share Purchase Agreement.
+
+Not Financial Advice.
+
+7 Likes
+∙
+1 Restack
+
+
