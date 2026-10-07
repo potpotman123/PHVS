@@ -1,0 +1,1480 @@
+[PDF PAGE 1]
+e215
+Articleswww.thelancet.com/haematology   Vol 13   April 2026
+Lancet Haematol 2026; 
+13: e215–26
+Published Online 
+March 19, 2026 
+https://doi.org/10.1016/
+S2352-3026(26)00004-9
+Department for Children and 
+Adolescents, University 
+Hospital Frankfurt, Goethe 
+University Frankfurt, 
+Frankfurt, Germany 
+(E Aygören-Pürsün MD); 
+Department of Clinical and 
+Environmental Allergology, 
+Jagiellonian University Medical 
+College, Krakow, Poland 
+(M Stobiecki MD); Department 
+of Allergology, Medical 
+University of Sofia, Clinic of 
+Allergology, University 
+Hospital Alexandrovska, Sofia, 
+Bulgaria (A Valerieva MD); 
+Department of Systems 
+Medicine, University Hospital 
+of Padua, Padua, Italy 
+(M Cancian MD); North Bristol 
+NHS Trust, Bristol, UK 
+(M Gompels MD); Department 
+of Immunology, Barts Health 
+NHS Trust, London, UK 
+(S Grigoriadou MD); 
+Department of Immunology, 
+Royal Free London NHS 
+Foundation Trust, London, UK 
+(S Kiani-Alikhan MB PhD); 
+Department of Dermatology, 
+Medical University of Vienna, 
+Vienna, Austria 
+(Prof T Kinaciyan MD); Ottawa 
+Allergy Research Corporation, 
+Department of Medicine, 
+University of Ottawa, Ottawa, 
+ON, Canada (W H Yang MD); 
+Clinical Research Center of 
+Alabama, AllerVie Health, 
+Birmingham, AL, USA 
+(J Anderson MD); UOC di 
+Patologia Clinica e 
+Immunologia, AOR Villa Sofia-
+Cervello, Palermo, Italy 
+(F Arcoleo MD); CHU de 
+Montréal, Université de 
+Montréal, Montréal, QC, 
+Canada (H Chapdelaine MD); 
+St James’s Hospital and Trinity 
+Oral deucrictibant for prophylaxis of hereditary angioedema 
+attacks (CHAPTER-1): primary analysis of a randomised, 
+double-blind, placebo-controlled, phase 2 trial
+Emel Aygören-Pürsün, Marcin Stobiecki, Anna Valerieva, Mauro Cancian, Mark Gompels, Sofia Grigoriadou, Sorena Kiani-Alikhan, 
+Tamar Kinaciyan, William H Yang, John Anderson, Francesco Arcoleo, Hugo Chapdelaine, Niall Conlon, Efrem Eren, Maria D Guarino, 
+Padmalal Gurugama, Markus Magerl, Michael E Manning, Michael D Tarzi, H James Wedner, Andrea Zanichelli, Rafael Crabbé, Susan Mulders, 
+Jonathan Levy, Li Zhu, Jochen Knolle, Anne Lesage, Peng Lu, Marc A Riedl
+Summary
+Background Hereditary angioedema is a bradykinin-mediated, rare condition characterised by recurrent and 
+potentially life-threatening attacks of subcutaneous and submucosal swelling. Bradykinin B2 receptor antagonism is 
+a proven mechanism for on-demand treatment of attacks, but no evidence exists on its effects when used 
+prophylactically. Deucrictibant is an investigational orally bioavailable bradykinin B2 receptor antagonist. We aimed 
+to evaluate the efficacy, safety, and tolerability of two dose regimens of oral deucrictibant administered as prophylaxis 
+against hereditary angioedema attacks.
+Methods CHAPTER-1 was a multicentre, double-blind, placebo-controlled, randomised, phase 2 trial conducted in 
+two parts, a double-blind placebo controlled first part and an open-label second part, with only part 1 reported here. 
+Part 1 recruited adults (aged 18–75 years) with hereditary angioedema type 1 or 2 from 37 sites (university hospitals 
+and accredited angioedema centres) across North America, Europe, and Israel. Patients required a documented 
+history of three or more attacks within the last 3 consecutive months before screening or two or more during the 
+screening period (up to 8 weeks) to be eligible. An interactive response technology system randomised eligible 
+patients 1:1:1 to receive oral deucrictibant 20 mg daily, 40 mg daily, or matching placebo for 12 weeks. Randomisation 
+to treatment groups was stratified by the baseline attack rate. Patients, investigators, site personnel, and the sponsor 
+were blinded to treatment assignment. Masking was achieved with identically appearing deucrictibant and placebo 
+capsules. The primary endpoint was the time-normalised number of investigator-confirmed attacks per 4 weeks 
+(monthly attack rate) from weeks 1 to 12 and was assessed using the intention-to-treat set. The endpoint was analysed 
+by comparing each deucrictibant group with the placebo group using a Poisson generalised linear model with a log 
+link function and Pearson’s χ² scaling of SEs to account for potential dispersion. The safety analysis set included all 
+patients who were randomly assigned and who received one or more doses of study drug (deucrictibant or placebo). 
+CHAPTER-1 is registered with ClinicalTrials.gov (NCT05047185) and is now complete.
+Findings Between March 9, 2022, and June 19, 2023, 44 patients were screened. Of 34 patients who were randomly 
+assigned, 11 patients received deucrictibant 20 mg, 12 patients received deucrictibant 40 mg, and 11 patients received the 
+placebo, with a median follow-up of 85·0 days (IQR 84·0–86·0). 21 (62%) patients were female, 13 (38%) were male, 
+and 34 (100%) patients were White. The least squares mean monthly attack rate (primary analysis) was 0 ·40 
+(95% CI 0·18–0·92) for deucrictibant 20 mg, 0·30 (0·11–0·81) for deucrictibant 40 mg, and 1·93 (1·30–2·88) for 
+placebo; percent reduction in attack rate compared with placebo was 79·2% (95% CI 47·2–91·8) for deucrictibant 
+20 mg (p=0·0010) and 84·5% (95% CI 53·8–94·8) for deucrictibant 40 mg (p=0·0008). Treatment-related treatment-
+emergent adverse events were experienced by two (18%) patients receiving deucrictibant 20 mg, one (8%) patient 
+receiving deucrictibant 40 mg, and one (9%) patient receiving the placebo; all were mild in severity (grade 1) and did not 
+require dosing modification of the study drug. There were no serious adverse events or deaths in any treatment group.
+Interpretation To the best of our knowledge, this trial provides the first clinical evidence and proof-of-concept for 
+bradykinin B2 receptor antagonism as a therapeutic approach for the prevention of hereditary angioedema attacks 
+and supports further investigation of oral deucrictibant for bradykinin-mediated angioedema.
+Funding Pharvaris.
+Copyright © 2026 The Author(s). Published by Elsevier Ltd. This is an Open Access article under the CC BY 4.0 license. 
+Introduction
+Hereditary angioedema is a rare genetic condition 
+manifesting as recurrent, unpredictable episodes of 
+subcutaneous and submucosal swelling attacks.1–3 Attacks 
+are often painful, functionally disabling, and become life-
+threatening when involving the larynx. 1,3 Patients with 
+[PDF PAGE 2]
+Articles
+www.thelancet.com/haematology   Vol 13   April 2026e216
+College, Wellcome Trust CRF, 
+Dublin, Ireland 
+(Prof N Conlon PhD); University 
+Hospital Southampton NHS 
+Foundation Trust, 
+Southampton, UK (E Eren MD); 
+UOC Allergologia Ospedale di 
+Civitanova Marche, Civitanova 
+Marche, Italy (M D Guarino MD); 
+Department of Clinical 
+Immunology, Cambridge 
+University Hospitals NHS 
+Foundation Trust, Cambridge, 
+Italy (P Gurugama MD); 
+Institute of Allergology, 
+Charité-Universitätsmedizin 
+Berlin, Berlin, Germany 
+(Prof M Magerl MD); Corporate 
+Member of Freie 
+Universitätsmedizin Berlin and 
+Humboldt-Universität zu 
+Berlin, Berlin, Germany 
+(Prof M Magerl MD); Fraunhofer 
+Institute for Translational 
+Medicine and Pharmacology, 
+Immunology and Allergology, 
+Berlin, Germany 
+(Prof M Magerl MD); Allergy, 
+Asthma, and Immunology 
+Associates, Scottsdale, AZ, USA 
+(M E Manning MD); Department 
+of Medicine, Brighton and 
+Sussex Medical School, 
+Brighton, UK (M D Tarzi MD); 
+Division of Allergy and 
+Immunology, Department of 
+Medicine ,Washington 
+University School of Medicine, 
+St Louis, MO, USA 
+(Prof H J Wedner MD); Operative 
+Unit of Medicine, Angioedema 
+Center, IRCCS Policlinico San 
+Donato, Milan, Italy 
+(A Zanichelli MD); Dipartimento 
+di Scienze Biomediche per la 
+salute, University of Milan, 
+Milan, Italy (A Zanichelli MD); 
+RC Consultancy, Bassins, 
+Switzerland (R Crabbé MD); 
+Mulders Clinical Consulting, 
+Groesbeek, The Netherlands 
+(S Mulders PhD); Pharvaris, 
+Lexington, MA, USA 
+(J Levy PhD, L Zhu PhD, 
+P Lu MD); JCK Consult, 
+Frankfurt, Germany 
+(J Knolle PhD); GrayMatters 
+Consulting, Schilde, Belgium 
+(A Lesage PhD); Division of 
+Allergy and Immunology, 
+University of California, 
+San Diego, La Jolla, CA, USA 
+(Prof M A Riedl MD)
+Correspondence to: 
+Prof Marc A Riedl, Division of 
+Allergy & Immunology, 
+University of California, San 
+Diego, La Jolla, CA 92122, USA 
+mriedl@health.ucsd.edu
+hereditary angioedema report enduring emotional and 
+physical impairment, and reduced quality of life during 
+as well as between attacks.4–6
+In most types of hereditary angioedema, variants in 
+genes encoding for regulators of the kallikrein-kinin 
+system result in excess bradykinin formation, increased 
+vascular permeability, and subsequent angioedema, 
+causing swelling of extremities, face, gastrointestinal tract, 
+and upper airways.1–3 Activation of bradykinin B2 receptors 
+on vascular endothelial cells initiates the oedematous 
+reaction and, therefore, therapies for prophylaxis and 
+treatment of angioedema attacks ultimately aim to prevent 
+this step by inhibiting bradykinin synthesis or receptor 
+binding.7,8 Current prophylactic therapies, most of which 
+are administered parenterally, target upstream reactions in 
+the bradykinin-forming cascade and inhibit bradykinin 
+synthesis.7,9 Downstream antagonism of the bradykinin B2 
+receptor has proven to be efficacious for on-demand 
+treatment of attacks, 10,11 but its prophylactic use has not 
+been investigated before this trial.
+Guidelines for hereditary angioedema management 
+recommend long-term prophylactic treatment to 
+achieve disease control and normalise health-related 
+quality of life, while minimising treatment-associated 
+burden.3,12 The development of novel treatments for 
+prophylaxis of angioedema attacks has focused on 
+combining efficacy and safety comparable to existing 
+injectable treatments together with easier and/or less 
+frequent dosing. 9 Availability of oral therapies with 
+these characteristics is an unmet need in hereditary 
+angioedema management. 9,13,14
+Deucrictibant is a first-in-class, investigational, orally 
+bioavailable, antagonist of the bradykinin B2 receptor 
+under development for both long-term prophylaxis and 
+on-demand treatment of hereditary angioedema 
+attacks.15,16 The aim of this study was to evaluate the 
+efficacy, safety, and tolerability of two dose regimens of 
+oral deucrictibant administered as prophylaxis against 
+hereditary angioedema attacks. The results of part 1 of 
+the phase 2 CHAPTER-1 trial represent to the best of our 
+knowledge, the first clinical evidence of the effects of 
+bradykinin B2 receptor antagonism as a therapeutic 
+approach for the prevention of hereditary angioedema 
+attacks.
+Research in context
+Evidence before this study
+Despite advancements in the management of hereditary 
+angioedema, a number of patients still experience inadequate 
+response, tolerability issues and/or high treatment burden, 
+with the majority of treatments administered as injections. 
+Furthermore, although antagonism of the bradykinin B2 
+receptor has proven to be effective and well tolerated for on-
+demand treatment of attacks, to the best of our knowledge 
+its prophylactic use has never been investigated before this 
+trial. There remains an unmet need for additional 
+prophylactic therapies combining ease of administration, 
+injectable-like efficacy, and a well tolerated safety profile. We 
+searched PubMed with the term “hereditary angioedema” in 
+the title and filtered for articles published on randomised 
+trials between March 1, 2020, and March 1, 2025, with no 
+language restrictions. During this period, 20 articles were 
+published, of which 16 focused on prophylactic therapies. Of 
+these articles, six investigated the kallikrein inhibitors, 
+berotralstat and lanadelumab; four investigated the 
+prekallikrein-targeting antisense oligonucleotide, 
+donidalorsen; three investigated plasma-derived 
+C1-inhibitors; two investigated the human monoclonal 
+antibody against activated factor XII (FXIIa), garadacimab; 
+and one investigated in vivo CRISPR-based gene-editing 
+targeting the gene encoding kallikrein B1 (KLKB1), 
+NTLA-2002. Berotralstat, a kallikrein antagonist, was the only 
+oral prophylactic therapy investigated in these articles. The 
+remaining treatments investigated were administered 
+parenterally, ie, subcutaneously or intravenously. No articles 
+were found that investigated bradykinin B2 receptor 
+antagonism for prophylaxis or that examined the same 
+molecule in development for both prophylaxis and on-
+demand treatment of hereditary angioedema attacks.
+Added value of this study
+To the best of our knowledge, CHAPTER-1 is the first 
+randomised, double-blind, placebo-controlled trial to evaluate 
+bradykinin B2 receptor antagonism for prophylactic treatment 
+of hereditary angioedema attacks. In this phase 2 trial, we 
+found that orally administered deucrictibant significantly 
+reduced the monthly attack rate compared with placebo and 
+was associated with lower rates of moderate-to-severe attacks 
+and of attacks treated with conventional on-demand therapy. 
+Improvements in patient-reported health-related quality of life 
+and disease control and higher levels of satisfaction were 
+consistent with clinical findings. The safety profile of 
+deucrictibant was similar to that of placebo. These efficacy and 
+safety findings contribute to addressing the existing knowledge 
+gap by providing the first proof-of-concept evidence on the 
+effects of bradykinin B2 receptor antagonism for prophylaxis of 
+hereditary angioedema attacks and support the continued 
+investigation of oral deucrictibant in a phase 3 trial.
+Implications of all the available evidence
+Together with the findings from the RAPIDe-1 trial examining 
+oral deucrictibant as an on-demand treatment of hereditary 
+angioedema attacks conducted in parallel, outcomes of 
+CHAPTER-1 provide the first clinical evidence, to the best of our 
+knowledge, that antagonism of the bradykinin B2 receptor 
+could be an effective and well tolerated approach when used 
+prophylactically and that deucrictibant could be the first oral 
+molecule for both the prevention and treatment of bradykinin-
+mediated angioedema attacks.
+[PDF PAGE 3]
+Articles
+e217www.thelancet.com/haematology   Vol 13   April 2026
+Methods
+Study design and participants
+CHAPTER-1 was a phase 2 study that comprised the 
+double-blind, placebo-controlled, randomised part 1 
+followed by the open-label extension part 2 (both the 
+original and amended versions of the study protocol are 
+provided in appendix pp 29–194 as well as the statistical 
+analysis plan [appendix pp 202–236]). Part 1 was a 12-week 
+evaluation of the efficacy and safety of two doses of 
+deucrictibant, 20 mg daily and 40 mg daily; this portion is 
+complete and results are reported herein. Patients 
+completing part 1 could enrol into part 2, which was the 
+open-label portion evaluating the long-term safety and 
+efficacy of deucrictibant 40 mg. A global network of 
+patient associations was engaged for recommendations of 
+countries, potential sites, and investigators for the study. 
+Patients were recruited from 37 sites, including university 
+hospitals and accredited angioedema centres, across 
+North America, Europe, and Israel ( appendix pp 2–4). 
+This trial was approved by institutional review boards or 
+ethics committees (Frankfurt ethics committee reference 
+number for the initial study approval: 2021-463-AMG 
+Ethikkommission des Universitätsklinikums Frankfurt 
+am Main) at study sites and conducted in accordance with 
+the Declaration of Helsinki and the International Council 
+for Harmonisation Good Clinical Practice, and applicable 
+local requirements. The full list of protocol amendments 
+are provided in the appendix (pp 195–201); there were no 
+protocol amendments or deviations from the protocol that 
+affected the statistical analysis or quality of data.  Eligible 
+patients were adults (ie, those aged 18–75 years) with 
+hereditary angioedema type 1 or 2 and a documented 
+history of three or more attacks within the past 
+3 consecutive months before screening. If patients had 
+fewer than three documented hereditary angioedema 
+attacks in the 3 months before the screening visit, or were 
+on prophylactic treatment, then they had to have had a 
+minimum of two hereditary angioedema attacks during 
+the screening period (up to 8 weeks). Eligible patients 
+were not receiving other prophylactic angioedema 
+treatments at screening. Patients who had previously 
+discontinued long-term prophylaxis because of intolerance 
+or a lack of efficacy could enter the study provided that 
+they had not been exposed at least 2 weeks before 
+screening for C1 inhibitor, berotralstat, attenuated 
+androgens, or antifibrinolytics, and at least 11 weeks 
+before screening for lanadelumab.
+Other inclusion criteria were the requirement for 
+patients to have reliable access and the ability to use 
+standard-of-care treatments alone to effectively manage 
+breakthrough hereditary angioedema attacks, patients 
+having a bodyweight of 40 kg or more at screening, that 
+patients were considered by the investigator as willing 
+and able to adhere to all protocol requirements and 
+capable of and compliant with data recording into an 
+electronic Patient Reported Outcome tool, and that 
+patients provided informed consent. As reproductive and 
+development toxicity studies were not available for 
+deucrictibant and potential effects of deucrictibant on the 
+fetus were unknown, neither pregnant nor breast-feeding 
+women were eligible. Females and male partners of 
+females of childbearing potential were eligible if sexually 
+abstinent or using medically acceptable contraception.
+Biological sex (not gender; patients were given the 
+choice of male or female for reporting sex) and race were 
+sourced from patient-reported data captured in an 
+electronic case report form. Patients were recruited by 
+the study investigators and all patients provided written 
+informed consent before enrolment. Patients with 
+concomitant diagnoses of another form of chronic 
+angioedema, abnormal hepatic or renal function, 
+receiving angiotensin-converting enzyme inhibitors or 
+strong CYP3A4 inhibitors or inducers were excluded 
+from the study. The trial protocol outlines the complete 
+eligibility criteria (appendix pp 59–61). The trial was 
+registered with ClinicalTrials.gov (NCT05047185) and is 
+now complete.
+Randomisation and masking
+An interactive response technology system (managed by 
+Cenduit) generated the allocation sequence for patient 
+randomisation. Using the interactive response 
+technology system, site investigators then enrolled and 
+randomised the patients to one of three groups with a 
+ratio of 1:1:1 (appendix p 18): deucrictibant 20 mg daily, 
+deucrictibant 40 mg daily, or placebo. Cenduit did not 
+have any involvement in the trial beyond the interactive 
+response technology system. Randomisation to treatment 
+groups was stratified by the baseline attack rate before 
+screening or confirmed during the screening period 
+(1 to <2 attacks, 2 to <3 attacks, or ≥3 attacks per 4 weeks). 
+Patients, investigators, site personnel, and the sponsor 
+were blinded to treatment assignment. Patients were 
+provided with a treatment wallet containing the study 
+drug sealed in blisters. Masking was achieved with 
+identically appearing deucrictibant and placebo capsules 
+in identical wallets. The study drug labels were also 
+blinded and contained a unique code. Treatment 
+unblinding was permitted if deemed necessary by the 
+investigator for the patient’s medical safety.
+Procedures
+Patients enrolled in the study orally self-administered 
+deucrictibant 20 mg daily (immediate-release capsule 
+formulation 10 mg twice daily), deucrictibant 40 mg daily 
+(20 mg twice daily), or placebo capsules. The study drug 
+was taken after meals with 12 h (SD 2) between doses for 
+12 weeks. During the treatment period, follow-up visits 
+occurred every 2 weeks starting at day 0 until day 56 and 
+the final study visit was on day 84. Patients completed an 
+end-of-study visit 4 weeks after the last dose of study 
+drug, which could be waived if they continued to the 
+open-label extension portion of the study. Patients could 
+withdraw from the study at any time. An investigator 
+See Online for appendix
+[PDF PAGE 4]
+Articles
+www.thelancet.com/haematology   Vol 13   April 2026e218
+could remove a patient from the study if they became 
+pregnant, showed substantial non-compliance with the 
+study drug, had a clinical adverse event, laboratory 
+abnormality, or other medical condition or situation that 
+negatively affected the benefit–risk such that continued 
+participation in the study would not be in the best interest 
+of the patient, or if the patient met an exclusion criteria 
+(previously unrecognised or newly developed) that 
+precluded further study participation.
+Demographic information and hereditary angioedema 
+characteristics including year of diagnosis, family history, 
+and type of hereditary angioedema were collected  at 
+screening for each patient. Patient baseline attack rates 
+were obtained from medical records showing the number 
+of attacks in the 3 months before screening or recorded 
+during the 8-week screening period, which were 
+computed as a monthly (per 4 weeks) baseline attack rate. 
+Clinical laboratory tests, vital signs, physical examination, 
+12-lead electrocardiogram (ECG) were collected by the 
+investigators at various timepoints throughout the 
+treatment period. Females of childbearing potential also 
+had serum pregnancy testing at screening and at pre-
+specified visits. Post-menopausal females had serum 
+sampling to test for follicle-stimulating hormone at 
+screening.
+Patients used an electronic diary to record study drug 
+administration and details of angioedema attacks, 
+including any use of conventional on-demand therapy. 
+Patients had to report attack details to trial sites within 
+72 h of the attack onset by entering details into the 
+electronic Patient Reported Outcome tool. Investigators 
+then assessed and confirmed the attacks with the patient 
+during telephone contact or in-person if attack occurred 
+within 72 h of a planned visit, and recorded details in an 
+electronic case report form. Detailed guidance provided 
+to the investigators for severity grading of hereditary 
+angioedema attacks is outlined in the appendix (p 5). 
+Patient-reported outcome assessments were also 
+completed by the patients at various visits throughout the 
+study to record health-related quality of life, disease 
+control, and treatment satisfaction. Detailed tables of 
+assessments and their timings are available in the 
+protocol (appendix pp 107–108).
+Adverse events were defined and assessed 
+systematically according to the protocol and using the 
+Medical Dictionary for Regulatory Activities (MedDRA, 
+version 26.0). Clinically significant abnormalities were 
+defined in the protocol as abnormalities that require 
+investigation and/or treatment. Adverse events were 
+reported through spontaneous reports by the patient, 
+general questioning by the investigator, clinically 
+significant abnormalities found during physical 
+examination, or clinically significant findings from vital 
+signs, ECG, or diagnostic test results including laboratory 
+tests. The investigator was responsible for assessing 
+adverse events, their severity using the Common 
+Terminology Criteria for Adverse Events (appendix p 6), 
+and their causal relationship to the study drug. An 
+independent data monitoring committee reviewed safety 
+data on a regular basis and ad hoc throughout the study.
+Outcomes
+The primary endpoint of part 1 was the number of 
+investigator-confirmed hereditary angioedema attacks 
+during the 12-week study period, expressed as the 
+normalised number of attacks per month (4 weeks) or 
+monthly attack rate. Secondary efficacy endpoints were 
+the number of time-normalised investigator-confirmed 
+moderate-to-severe attacks (severity grading described in 
+the appendix p 5), the number of time-normalised 
+investigator-confirmed attacks treated with on-demand 
+medication during the 12-week study period, as well as 
+the number of patients achieving a reduction in attack 
+rate (ie, ≥50%, ≥70%, and ≥90%) relative to baseline, and 
+the number of patients being attack-free at 12 weeks. 
+Other secondary endpoints were the number and 
+proportion of days with angioedema symptoms during 
+the treatment period, the time to first investigator-
+confirmed hereditary angioedema attack in the treatment 
+period, the number of investigator-confirmed hereditary 
+angioedema attacks resulting in a visit to the emergency 
+department or an admission to hospital during the 
+treatment period, and pharmacokinetic parameters 
+based on plasma concentration of deucrictibant and are 
+intended to be reported elsewhere.
+Safety endpoints were treatment-emergent adverse 
+events, treatment-related treatment-emergent adverse 
+events, and serious treatment-emergent adverse events. 
+Clinical laboratory testing (haematology, biochemistry, 
+coagulation, and urinalysis), vital signs, physical 
+examination, and 12-lead ECG data were also assessed. 
+Pre-specified exploratory patient-reported endpoints 
+(instruments detailed in the appendix p 5), included the 
+change in the total Angioedema Quality of Life (AE-QoL) 
+questionnaire17,18 score from baseline to week 12, the 
+Patient Global Assessment of Change score at week 12, 
+the 4-week Angioedema Control Test score, 19,20 and the 
+11-item Treatment Satisfaction Questionnaire for 
+Medication (TSQM-II) score21 at 12 weeks.
+To standardise methodology and quality of assessments 
+across countries and sites, clinical laboratory testing and 
+12-lead ECG data were assessed centrally, by Q² Solutions 
+and IQVIA Connected Devices, respectively; all other 
+safety, efficacy, and patient-reported outcome endpoints 
+were assessed locally.
+Statistical analysis
+For the primary endpoint of time-normalised number of 
+attacks, assuming a mean rate of 1·2 attacks per 4 weeks 
+in placebo following a Poisson distribution, a sample size 
+of 10 patients per group was expected to provide 
+approximately 85% power to detect a treatment effect of 
+60% reduction in time-normalised number of attacks in 
+each dose of deucrictibant compared with placebo at a 
+[PDF PAGE 5]
+Articles
+e219www.thelancet.com/haematology   Vol 13   April 2026
+type I error rate of 5% for a two-sided test. Since this 
+proof-of-concept phase 2 study was not designed to 
+provide definitive confirmation of efficacy, as in a phase 3 
+study, a multiplicity correction for the two comparisons 
+was not used. The primary endpoint and key secondary 
+endpoints were analysed using the intention-to-treat 
+analysis set (defined as all patients who were randomly 
+assigned who received ≥1 dose of study drug) and also 
+repeated using the per-protocol analysis set (all patients 
+in the intention-to-treat analysis set without any major 
+protocol deviations that could influence the validity of the 
+data for the primary efficacy evaluations) as prespecified 
+supplementary analyses.
+For the primary efficacy endpoint, the monthly attack 
+rate was calculated for each patient as the number of 
+investigator-confirmed attacks occurring during the 
+treatment period divided by the number of days the 
+patient contributed to the treatment period multiplied by 
+28 days. The endpoint was analysed by comparing each 
+deucrictibant group with the placebo group using a 
+Poisson generalised linear model with a log link function 
+and Pearson’s χ² test scaling of SEs to account for 
+potential dispersion. The model included fixed effects for 
+treatment group (categorical), normalised baseline attack 
+rate (continuous), and the randomised stratification 
+factor of baseline attack rate (categorical, ≥1 and <2 or 
+≥2 attacks per month at baseline); an offset term, the 
+logarithm of patient’s follow-up time (in months) during 
+the efficacy evaluation period, was incorporated to 
+account for differences in time at risk. Early 
+discontinuation was treated as an intercurrent event 
+under a hypothetical strategy. Only attacks occurring 
+while patients were under observation (ie, before 
+discontinuation) were included in the model. Post-
+discontinuation outcomes were treated as missing data 
+and assumed to be missing at random conditional on the 
+observed history. Under this approach, no extrapolation 
+of attack rates beyond each patient’s observed follow-up 
+time was required. The estimated least squares mean 
+rate for each deucrictibant group and the mean rate 
+ratios relative to the placebo group were provided with 
+95% CIs. These estimates were reported as monthly 
+attack rates by transforming the estimates using the 
+exponential function and scaling by the unit of time.
+The treatment effect was tested using a Wald-based 
+χ² test. A non-parametric approach using the Wilcoxon 
+two-sample test was also performed. For sensitivity to the 
+Poisson model assumption, a Negative Binomial 
+regression model was also used. In a pre-specified 
+analysis, percent reduction in attack rate was calculated 
+as the difference in attack rate during the treatment 
+period from baseline divided by the placebo attack rate 
+and multiplied by 100. The analyses of the secondary 
+efficacy endpoints were supportive; all statistical tests 
+comparing treatments were descriptive in nature and 
+were made without adjustment for multiplicity. The 
+secondary efficacy endpoints were analysed using a 
+Poisson regression model, if applicable, or descriptively 
+as summary statistics including the number and 
+proportion of patients with the event of interest. We also 
+performed post-hoc analyses of percentage change from 
+baseline in attack rates by month-interval and of monthly 
+per treatment group by location (ie, abdominal, 
+peripheral, or laryngeal). In a post-hoc analysis to 
+evaluate the effects of using bradykinin B2 receptor 
+antagonism for both prophylactic and on-demand 
+treatment, we compared the mean attack duration in 
+patients who used icatibant once as an on-demand 
+treatment in the deucrictibant and placebo groups. Due 
+to the low use of on-demand treatment in the 
+deucrictibant groups during part 1, the set included 
+hereditary angioedema attacks from both part 1 and the 
+part 2 open label extension data cutoff (June 10, 2024) of 
+the CHAPTER-1 study. Duration of attack was evaluated 
+from the attack start and end, as recorded by patients in 
+the electronic diary and is provided as mean (SD) for the 
+deucrictibant and placebo groups.
+Descriptive analyses were performed for pre-specified 
+patient-reported outcomes with no adjustment for 
+baseline differences between treatment groups or 
+missing values at week 12. 
+Safety endpoints were analysed using the safety 
+analysis set (defined as all patients randomly assigned 
+who received ≥1 dose of study drug). The number and 
+percentage of patients with treatment-emergent adverse 
+events were tabulated by body System Organ Class and 
+Preferred Term using the MedDRA (version 26.0) by 
+treatment group. Comparisons are therefore descriptive. 
+Serious treatment-emergent adverse events and 
+treatment-emergent adverse events leading to 
+discontinuation of study drug, study discontinuation, or 
+death were summarised separately. Blood glucose 
+concentrations and systolic and diastolic blood pressure 
+at each visit is provided at the patient-level and mean 
+group-level. The statistical analysis plan provides 
+additional information (appendix pp 202–236). All 
+analyses were performed using SAS (version 9.4 or 
+higher).
+Role of the funding source
+The sponsor participated in the trial design and conduct, 
+data collection, management, analysis, interpretation, 
+and manuscript review. The sponsor also funded a 
+medical writer to develop the initial manuscript draft.
+Results
+Between March 9, 2022, and June 19, 2023, 44 patients 
+were screened, of which 34 were randomly assigned and 
+received one or more doses of the study drug in part 1 
+(intention-to-treat analysis set and safety analysis set): 
+11 patients were assigned to deucrictibant 20 mg, 12 to 
+deucrictibant 40 mg, and 11 placebo ( figure 1; appendix 
+p 18). Median follow-up for all 34 patients was 85·0 
+(IQR 84·0–86·0) days. Of the 10 patients who were 
+[PDF PAGE 6]
+Articles
+www.thelancet.com/haematology   Vol 13   April 2026e220
+excluded during screening, all reasons were secondary to 
+not meeting the study eligibility criteria. Reasons were 
+due to C1-INH function of more than 50% (four patients), 
+and hereditary angioedema medical history not meeting 
+eligibility criteria (one patient), pregnancy or 
+breastfeeding (one patient), concomitant diagnosis of 
+other forms of angioedema (one patient), not meeting 
+contraception requirements (one patient), baseline attack 
+rate below requirement (one patient), and use of 
+long-term prophylaxis within 2 weeks before screening 
+(one patient).
+Median age was 36 years (IQR 25–44) in the 
+deucrictibant 20 mg group, 39 years (30–52) in 
+the deucrictibant 40 mg group, and 40 years (31–59) in 
+the placebo group (table 1). All 34 patients were White, 
+21 (62%) patients were female, and 13 (38%) were male. 
+Female participants were five (45%) of 11 patients in the 
+deucrictibant 20 mg group, eight (67%) of 12 in the 
+deucrictibant 40 mg group, and eight (73%) of 11 patients 
+in the placebo group. All 30 patients who completed 
+part 1 enrolled in the part 2 long-term open-label 
+extension.
+The on-study least squares mean monthly attack rate 
+was 0·40 (95% CI 0·18–0·92) for deucrictibant 20 mg 
+group, 0·30 (0·11–0·81) for deucrictibant 40 mg group, 
+and 1·93 (1·30–2·88) for placebo group (figures 2, 3; 
+table 2). Percent reduction in attack rate compared with 
+placebo was 79·2% (95% CI 47·2–91·8) for deucrictibant 
+20 mg (p=0·0010) and 84·5% (95% CI 53·8–94·8) for 
+deucrictibant 40 mg (p=0·0008; table 2). In post-hoc 
+analysis, the mean attack rate decreased at the first 
+Figure 1: Trial profile
+44 participants assessed for eligibility
+10 excluded
+10 did not meet inclusion or met
+exclusion criteria
+34 randomly assigned
+11 assigned to deucrictibant 20 mg 12 assigned to deucrictibant 40 mg
+2 discontinued study
+1 withdrew consent
+1 discontinued while the study was 
+paused by the sponsor and the 
+Food and Drug Administration
+2 discontinued study
+1 withdrew consent
+1 was lost to follow-up
+11 assigned to placebo
+11 completed the blinded treatment part 10 completed the blinded treatment part 9 completed the blinded treatment part
+11 entered the open-label extension 10 entered the open-label extension 9 entered the open-label extension
+Randomised controlled part
+Open-label extension 
+part
+Deucrictibant 20 mg 
+group (n=11)
+Deucrictibant 40 mg 
+group (n=12)
+Placebo group 
+(n=11)
+Age, years 36 (25–44) 39 (30–52) 40 (31–59)
+Sex
+Male 6 (55%) 4 (33%) 3 (27%)
+Female 5 (45%) 8 (67%) 8 (73%)
+Race
+White 11 (100%) 12 (100%) 11 (100%)
+BMI, kg/m2 30 (24–32) 26 (23–28) 24 (22–28)
+Hereditary angioedema type
+Type 1 9 (82%) 12 (100%) 10 (91%)
+Type 2 2 (18%) 0 1 (9%)
+Years since hereditary angioedema 
+diagnosis
+15 (6–22) 19 (8–28) 17 (8–22)
+Baseline hereditary angioedema 
+attack rate (attacks per month)†
+1·67 (1·33–3·00) 1·74 (1·17–3·50) 1·67 (1·33–2·00)
+Randomised baseline hereditary angioedema attack rate categories
+1 to <2 attacks per 4 weeks 7 (64%) 7 (58%) 6 (55%)
+2 to <3 attacks per 4 weeks 1 (9%) 1 (8%) 2 (18%)
+≥3 attacks per 4 weeks 3 (27%) 4 (33%) 3 (27%)
+Patients with hereditary angioedema prophylaxis treatment use at any time before screening
+Berotralstat 1 (9%) 0 1 (9%)
+C1 inhibitor, plasma derived 1 (9%) 0 0
+Danazol 1 (9%) 1 (8%) 0
+Data are n (%) or median (IQR) unless otherwise stated. *The safety analysis set included all randomly assigned 
+patients who received ≥1 dose of the study drug (deucrictibant or placebo). †1 month equals 4 weeks.
+Table 1: Demographics and baseline clinical characteristics (safety analysis set)*
+[PDF PAGE 7]
+Articles
+e221www.thelancet.com/haematology   Vol 13   April 2026
+assessment at week 1 and remained low thereafter through 
+week 12 for both deucrictibant groups, whereas it remained 
+steadily above baseline levels for placebo (appendix p 19). 
+Consistent attack rate reductions in the deucrictibant 
+groups compared with placebo were observed independent 
+from baseline attack rates (appendix p 20). In post-hoc 
+analyses, attack rate reductions in the deucrictibant groups 
+were also consistently observed across abdominal, 
+peripheral, and laryngeal locations (appendix p 7). 
+Sensitivity and supplementary analyses also led to 
+conclusions consistent with those of the primary statistical 
+analyses, further supporting the robustness of the primary 
+findings (appendix p 8). The only major protocol deviation 
+was for a patient in the placebo group who was randomly 
+assigned according to the incorrect stratification of 
+baseline hereditary angioedema attack rate. In the 
+prespecified analysis following the statistical analysis plan, 
+this deviation did not influence the validity of the data for 
+the primary efficacy evaluations.
+Compared with placebo, the estimated reduction in 
+rate of moderate-to-severe attacks through week 12 
+was 83·05% (95% CI 38·95–95·29) for the deucrictibant 
+20 mg group and  92·37% (50·90–98·81) for the 
+deucrictibant 40 mg group (figures 2, 3; table 2). The 
+estimated reduction in rate of attacks treated with 
+conventional on-demand medication was 74·91% 
+(95% CI 30·15–90·99) for the deucrictibant 20 mg group 
+and 92·61% (56·78–98·74) for the deucrictibant 40 mg 
+group (figures 2, 3; table 2). The majority of attacks 
+using conventional on-demand medication were treated 
+with the subcutaneously administered B2 receptor 
+antagonist icatibant (36 [56%] of 64 attacks; appendix 
+p 9). 25 attacks in the placebo group in part 1 (N=5) and 
+20 attacks in the deucrictibant groups across parts 1 
+and 2 (N=8) were treated once with the bradykinin B2 
+receptor antagonist icatibant as on-demand treatment 
+(appendix p 10). In a post-hoc analysis, the mean attack 
+duration was 1·12 (SD 1·06) and 1·05 (0·98) days in the 
+placebo-icatibant and deucrictibant-icatibant groups, 
+respectively (appendix p 10).
+A 50% or more, a 70% or more, and a 90% or more 
+reduction in attack rate compared with baseline and an 
+attack-free status were observed in a greater proportion 
+of patients who received 4 weeks or more of deucrictibant 
+than placebo (appendix p 21). Among patients receiving 
+placebo, at week 12, 18% had a ≥50% reduction in attack 
+rate and no patient was attack-free nor had a 
+≥90% reduction in attack rate.
+Greater improvements in mean AE-QoL scores were 
+observed at week 12 in the deucrictibant groups than in 
+Figure 3: Overview of hereditary angioedema attacks and the use of conventional on-demand medication
+The timepoint and severity of each attack experienced by individual patients in each treatment group are shown, 
+as is any use of conventional on-demand treatment to manage attacks. The monthly attack rate at baseline and 
+during the double-blinded period is also provided. Attacks are defined as mild, moderate, or severe based on the 
+effect of symptoms on the patient’s daily activities (appendix p 5).
+1·40
+0·35
+0·10
+0
+2·5
+2·0
+1·5
+1·0
+0·5
+Monthly attack rate
+Attacks treated with 
+conventional 
+on-demand 
+medication
+Moderate-to-severe
+attacks
+All attacks
+Deucrictibant 20 mg (N=11)
+Deucrictibant 40 mg (N=12)
+Placebo (N=11)
+1·51
+0·26 0·12
+1·93
+0·40 0·30
+Figure 2: Rate of hereditary angioedema attacks
+The least squares mean monthly attack rate. Monthly attack rate calculated as 
+the number of investigator-confirmed attacks occurring during the treatment 
+period divided by the number of days the patient contributed to the treatment 
+period multiplied by 28 days.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+Placebo
+Deucrictibant 40 mg
+Deucrictibant 20 mg
+Individual patients grouped  by treatmentIndividual patients grouped by treatmentIndividual patients grouped by treatment
+Attack rate: baseline | double blinded periodAttack rate: baseline | double blinded period Attack rate: baseline | double blinded period
+5·3 | 0
+3·2 | 2·3
+3·0 | 0·3
+2·7 | 0
+1·7 | 0
+1·7 | 0·3
+1·7 | 0·3
+1·7 | 0
+1·3 | 0
+1·0 | 0
+1·0 | 1·0 
+ 
+6·7 | 0·7
+5·3 | 0
+3·7 | 0·3
+3·3 | 0
+2·0 | 0
+1·8 | 0·3
+1·7 | 0·3
+1·7 | 0
+1·3 | 0
+1·0 | 1·0
+1·0 | 0·3
+1·0 | 0
+3·7 | 0·7
+3·0 | 3·3
+2·0| 2·6
+2·0 | 2·0
+2·0 | 2·3
+1·7 | 0·3
+1·7 | 2·7
+1·7 | 2·2
+1·3 | 0·7
+1·0 | 4·0
+0·7 | 1·0 
+ 0 12 345678 91 01 11 2
+Time (week)
+Deucrictibant 20 mg
+Deucrictibant 40 mg
+Placebo
+Mild attack
+Moderate attack
+Severe attack
+Conventional on-demand
+medication use
+[PDF PAGE 8]
+Articles
+www.thelancet.com/haematology   Vol 13   April 2026e222
+the placebo group, with the largest changes in the fear and 
+shame and functioning domain scores (appendix 
+pp 11–12, 22). Improvement in Patient Global Assessment 
+of Change-measured health-related quality of life 
+compared with baseline was also reported by higher 
+proportions of patients who received deucrictibant than 
+those who received placebo (appendix p 23). Mean 
+angioedema control test scores at week 12 were 14·20 
+(SD 3·05; compared with 9·20 [4·61] at baseline) for the 
+deucrictibant 20 mg group, 14·10 (2·47; 8·08 [3·09] at 
+baseline) for the deucrictibant 40 mg group, and 8·38 
+(4·57; 7·09 [2·74] at baseline) for the placebo group; 
+nine (90%) of ten patients who received deucrictibant (at 
+either dose) had well controlled disease at week 12 
+compared with three (38%) of eight patients who received 
+the placebo (appendix pp 13, 24). Patients who received 
+deucrictibant reported higher treatment satisfaction than 
+those who received placebo based on the Treatment 
+Satisfaction Questionnaire for Medication (version 2) 
+global score and effectiveness domain scores. Mean 
+treatment satisfaction for the subdomain global score for 
+those receiving deucrictibant 20 mg daily was 89·2 and for 
+those receiving deucrictibant 40 mg daily was 85 ·8, 
+compared with 59 ·4 for placebo. Additionally, mean 
+treatment satisfaction for the subdomain effectiveness for 
+those receiving deucrictibant 20 mg daily was 90·0 and for 
+those receiving deucrictibant 40 mg daily was 86· 7, 
+compared with 50·0 for placebo. No evident differences in 
+side-effects and convenience domain scores were observed 
+between groups (appendix p 25). Treatment adherence in 
+this study was evaluated from recoverability of treatment 
+wallets at the study end with 31 (91%) of 34 patients having 
+90% or more adherence (appendix p 14).
+Among 34 patients in the safety analysis set, 
+20 (59%) reported treatment-emergent adverse events, 
+whose incidence and distribution were similar across 
+groups (table 3; appendix pp 15–16). No severe or serious 
+adverse events, no adverse events leading to study drug 
+or study discontinuation, and no deaths were reported. 
+No dosing modifications were required. Four patients 
+each reported one treatment-related adverse event of 
+mild severity: nausea and postural dizziness upon 
+standing with deucrictibant 20 mg; increase in gamma-
+glutamyltransferase above normal levels with 
+deucrictibant 40 mg; and headache with placebo. The 
+event of increased gamma-glutamyltransferase that 
+occurred in a single patient after 2 weeks of treatment 
+remained mild in severity and less than 2 times the 
+upper limit of normal throughout study part 1 and 
+resolved while continuing treatment with deucrictibant 
+40 mg during the part 2 open-label extension; there were 
+no other associated abnormalities in liver function tests 
+or clinically evident manifestations observed. No other 
+treatment-related changes in laboratory values, blood 
+glucose concentrations (appendix p 26), or vital signs, 
+including peripheral systolic and diastolic blood pressure 
+(appendix p 27), were reported. All ECG intervals, 
+including QT, remained stable without clinically relevant 
+changes and with no abnormalities in morphology 
+(appendix p 17). QRS intervals of more than 110 ms in 
+two patients were deemed as non-clinically significant by 
+the investigators (appendix p 17). The patient who had 
+Deucrictibant 20 mg group 
+(n=11)
+Deucrictibant 40 mg group 
+(n=12)
+Placebo group 
+(n=11)
+Primary endpoint
+Overall rate of hereditary angioedema attacks, LSM (95% CI)† 0·40 (0·18–0·92) 0·30 (0·11–0·81) 1·93 (1·30–2·88)
+Percent reduction vs placebo (95% CI) 79·24 (47·23–91·83) 84·46 (53·83–94·77) ··
+Mean rate ratio vs placebo (95% CI) 0·21 (0·08–0·53) 0·16 (0·05–0·46) ··
+p value 0·0010 0·0008 ··
+Secondary endpoints
+Rate of moderate-to-severe hereditary angioedema attacks, LSM (95% CI) 0·26 (0·08–0·81) 0·12 (0·02–0·67) 1·51 (0·91–2·52)
+Percent reduction vs placebo (95% CI) 83·05 (38·95–95·29) 92·37 (50·90–98·81) ··
+Mean rate ratio vs placebo (95% CI) 0·17 (0·05–0·61) 0·08 (0·01–0·49) ··
+Rate of hereditary angioedema attacks treated with conventional on-demand 
+medication, LSM (95% CI)
+0·35 (0·14–0·85) 0·10 (0·02–0·56) 1·40 (0·88–2·24)
+Percent reduction vs placebo (95% CI) 74·91 (30·15–90·99) 92·61 (56·78–98·74) ··
+Mean rate ratio vs placebo (95% CI) 0·25 (0·09–0·70) 0·07 (0·01–0·43) ··
+Patients who received ≥4 weeks of treatment with (n=11) (n=10) (n=11)
+≥50% reduction in attack rate relative to baseline 9 (82%) 9 (90%) 2 (18%)
+≥70% reduction in attack rate relative to baseline 9 (82%) 8 (80%) 2 (18%)
+≥90% reduction in attack rate relative to baseline 6 (55%) 6 (60%) 0
+Attack-free status 6 (55%) 4 (40%) 0
+LSM=least squares mean. *The intention-to-treat analysis set included all randomly assigned patients who received ≥1 dose of the study drug (deucrictibant) or placebo. 
+†All attack rates shown are monthly (per 4 weeks).
+Table 2: Primary and key secondary efficacy endpoints (intention-to-treat analysis set)*
+[PDF PAGE 9]
+Articles
+e223www.thelancet.com/haematology   Vol 13   April 2026
+elevated blood glucose levels at the time of screening was 
+later diagnosed with type 2 diabetes, which was reported 
+as unrelated to treatment by the investigator (appendix 
+p 26).
+Discussion
+To the best of our knowledge, the results of the placebo-
+controlled part 1 of this phase 2 trial provide the first 
+evidence of the clinical efficacy and safety of bradykinin B2 
+receptor antagonism for prophylaxis of hereditary 
+angioedema attacks. Treatment with the orally 
+administered bradykinin B2 receptor antagonist 
+deucrictibant significantly reduced the occurrence of 
+angioedema attacks per month, with a 79·2% reduction 
+in mean attack rate for those receiving deucrictibant 
+20 mg daily and 84·5% for those receiving deucrictibant 
+40 mg daily compared with placebo. A reduction in the 
+attack rate in the deucrictibant-treated groups was 
+observed by week 1 and sustained through to the study 
+end. Robustness of treatment effects was shown as 
+deucrictibant reduced the attack rate compared with 
+placebo irrespective of baseline attack rate and consistent 
+treatment effects were observed across attack locations in 
+post-hoc analyses.
+Additional findings in this proof-of-concept study were 
+supportive of the primary endpoint with reductions in 
+the frequency and severity of attacks and the occurrence 
+of attacks treated with conventional on-demand therapy. 
+Icatibant was the most frequently used on-demand 
+therapy, with a post-hoc analysis showing comparable 
+onset-to-resolution attack durations for patients using 
+icatibant as an on-demand therapy in the deucrictibant or 
+placebo groups, suggesting no evident impairment of 
+efficacy of on-demand treatment with a bradykinin B2 
+receptor antagonist when used for breakthrough attacks 
+during exposure to a prophylactic treatment with the 
+same mechanism of action. More favourable responses 
+to deucrictibant compared with placebo were also 
+observed in patient-reported health-related quality of life, 
+disease control, and treatment satisfaction. Greater 
+clinically meaningful changes (≥6 points) 18 in health-
+related quality of life as well as achievement of good 
+disease control were also observed by week 4 of treatment 
+with deucrictibant compared with placebo and sustained 
+thereafter. Additionally, mean treatment satisfaction 
+scores on the global and effectiveness domains were 
+higher in patients who received deucrictibant compared 
+with patients who received placebo. In a placebo-
+controlled phase 3 trial of subcutaneous plasma-derived 
+C1 inhibitor 40 international units per kg and 
+60 international units per kg, mean treatment satisfaction 
+score for this subdomain at week 14 was 86·83 and 80·72, 
+respectively, compared with 45·22 (high-volume) 
+and 50·60 (low-volume) for placebo. 22 Variations in size, 
+duration, and design of clinical trials investigating drugs 
+for prophylactic treatment of hereditary angioedema 
+attacks prevent direct outcome comparisons.
+Deucrictibant 
+20 mg group 
+(n=11)
+Deucrictibant 
+40 mg group 
+(n=12)
+Placebo 
+group 
+(n=11)
+Patients with at least 1 treatment-emergent 
+adverse event
+6 (55%) 7 (58%) 7 (64%)
+Any treatment-related treatment-emergent 
+adverse event
+2 (18%) 1 (8%) 1 (9%)
+Infections 3 (27%) 2 (17%) 2 (18%)
+Nasopharyngitis 2 (18%) 0 1 (9%)
+Urinary tract infection 1 (9%) 1 (8%) 0
+Gastrointestinal infection 0 1 (8%) 1 (9%)
+Viral pharyngitis 1 (9%) 0 0
+Gastrointestinal disorders 2 (18%) 2 (17%) 4 (36%)
+Diarrhoea 1 (9%) 1 (8%) 0
+Abdominal pain 1 (9%) 0 1 (9%)
+Nausea 1 (9%) 0 1 (9%)
+Toothache 0 1 (8%) 0
+Abdominal pain upper 0 0 2 (18%)
+Constipation 0 0 1 (9%)
+Dyspepsia 0 0 1 (9%)
+Vomiting 0 0 1 (9%)
+Investigations† 2 (18%) 2 (17%) 0
+Gamma-glutamyltransferase increased 1 (9%) 1 (8%) 0
+Blood alkaline phosphatase increased 1 (9%) 0 0
+Blood glucose increased 1 (9%) 0 0
+Protein urine present 0 1 (8%) 0
+Reproductive system and breast disorders 1 (9%) 2 (17%) 1 (9%)
+Dysmenorrhoea 0 1 (8%) 0
+Genital haemorrhage 0 1 (8%) 0
+Vaginal discharge 1 (9%) 0 0
+Menstruation irregular 0 0 1 (9%)
+General disorders and administration-site 
+conditions
+0 2 (17%) 0
+Chest pain 0 1 (8%) 0
+Feeling cold 0 1 (8%) 0
+Injury, poisoning, and procedural complications 1 (9%) 1 (8%) 2 (18%)
+Arthropod bite 0 1 (8%) 0
+Ligament injury 1 (9%) 0 0
+Ligament sprain 0 0 1 (9%)
+Limb injury 0 0 1 (9%)
+Musculoskeletal and connective tissue disorders 1 (9%) 0 1 (9%)
+Muscle twitching 1 (9%) 0 0
+Back pain 0 0 1 (9%)
+Nervous system disorders 1 (9%) 0 1 (9%)
+Dizziness postural 1 (9%) 0 0
+Headache 0 0 1 (9%)
+Respiratory, thoracic, and mediastinal disorders 0 1 (8%) 0
+Cough 0 1 (8%) 0
+Data are number of patients with event (%). Mild (grade 1) and moderate (grade 2) treatment-emergent adverse 
+events are presented combined and no adverse events of grade 3 or worse occurred. If a patient experienced more than 
+one treatment-emergent adverse event within a System Organ Class (or Preferred Term), the patient was counted once 
+under that System Organ Class (or Preferred Term). *The safety analysis set included all randomly assigned patients 
+who received one or more doses of the study drug (deucrictibant) or placebo. †Occurrences of values that were greater 
+than the laboratory upper limit of normal.
+Table 3: All reported treatment-emergent adverse events (safety analysis set)*
+[PDF PAGE 10]
+Articles
+www.thelancet.com/haematology   Vol 13   April 2026e224
+In our trial, the mean monthly attack rate of about 
+two attacks per month in the placebo group at baseline 
+was similar to that of placebo groups in other prophylaxis 
+trials;23–26 it then remained stable during treatment 
+through to the study end. At week 12, less than 20% of 
+patients in the placebo group had a 50% or greater 
+reduction in attack rate compared with their own baseline 
+and none had a 90% or greater reduction. Some changes 
+in patient-reported outcomes were observed in the placebo 
+group, but these remained consistently more limited than 
+those in the deucrictibant groups: the baseline-to-week-12 
+mean change in the AE-QoL score was higher than the 
+minimally clinically important difference in the placebo 
+group but was less than 50% of the change in the 
+deucrictibant 40 mg group. About one-third of patients 
+treated with placebo reported an improvement in their 
+Patient Global Assessment of Change score compared 
+with 90% of patients treated with deucrictibant 20 mg and 
+100% of patients treated with deucrictibant 40 mg. The 
+mean angioedema control test score in the placebo group 
+temporarily improved at week 8, but at week 12 about 
+two thirds of the placebo group had poorly controlled 
+disease compared with 90% reporting well controlled 
+disease in the deucrictibant groups. Future trials of 
+deucrictibant for prophylaxis will seek to confirm these 
+observations on both objective clinical measures and 
+subjective patient-reported outcomes.
+The observed safety profile of deucrictibant was similar 
+to placebo during 12 weeks of continued treatment. 
+Three treatment-related events in the deucrictibant 
+groups were mild in severity, manageable, and did not 
+require changes in study drug administration. No events 
+related to the effects of bradykinin B2 receptor 
+antagonism on cardiovascular function, haemodynamic 
+parameters, or glucose metabolism were observed. In 
+phase 3 clinical trials of hereditary angioedema 
+prophylactic treatments, the most common adverse 
+events in the study-drug treated groups were 
+gastrointestinal symptoms for oral berotralstat and, 
+generally, injection-site reactions and/or headaches for 
+parenterally administered treatments. 23–28 In the 
+CHAPTER-1 study, one patient reported gastrointestinal 
+symptoms unrelated to treatment and the oral 
+administration inherently avoided injection-site reactions 
+associated with parenteral administration. Patient-
+reported satisfaction with the study drug for side-effects 
+did not differ between deucrictibant and placebo groups, 
+indicating a comparable perceived tolerability. Another 
+phase 2 trial of deucrictibant for on-demand treatment of 
+hereditary angioedema attacks also showed that 
+bradykinin B2 receptor antagonism was well tolerated, as 
+already observed in trials investigating icatibant with the 
+exception of injection-site reactions. 10,11 The continued 
+daily use of deucrictibant for prophylaxis during the 
+CHAPTER-1 trial showed no safety signals and a 
+comparable safety profile to placebo. Larger and longer 
+trials are warranted to further verify these safety results.
+Achievement of disease control is the main goal of 
+long-term prophylaxis in hereditary angioedema, ideally 
+with minimal side-effects and treatment burden. 12 
+Despite the availability of effective treatments, unmet 
+needs in hereditary angioedema management remain 
+for patients not having adequate response, experiencing 
+tolerability issues, and/or a high treatment burden. 9,13,14 
+Most long-term prophylaxis treatments and compounds 
+in development require parenteral administration. 
+Availability of orally administered therapies represents a 
+substantial unmet need for patients with hereditary 
+angioedema.9,13,14 Oral treatments used for long-term 
+prophylaxis include the plasma kallikrein inhibitor 
+berotralstat, attenuated androgens, and antifibrino -
+lytics.7–9,12 In a placebo-controlled phase 3 trial, daily 
+berotralstat 150 mg reduced the mean attack rate 
+by 44·2% compared with placebo and had non-significant 
+effects on patient-reported health-related quality of life 
+measured using AE-QoL.26 Phase 3 trials of prophylactic 
+drugs administered parenterally have shown mean 
+monthly attack rate reductions relative to placebo in the 
+range of 55–89%  and, when assessed, significant effects 
+on AE-QoL. 22–25,27 Management guidelines do not 
+recommend attenuated androgens and antifibrinolytics 
+as first-line treatment options for hereditary angioedema, 
+unless other options are unavailable, due to the risk of 
+serious adverse effects with androgens and inferior 
+efficacy data for antifibrinolytics. 3,8,12 Thus, developing 
+oral prophylactic treatments with an efficacy comparable 
+to that of injectable therapies and without tolerability and 
+safety issues is a key objective for novel therapeutic 
+options.9,14
+Limitations of this trial include the small sample size 
+of patients, all of whom were White, and some 
+imbalances in sex between treatment groups, which can 
+be expected in a phase 2 trial. Descriptive statistical tests 
+were used to compare treatment groups for secondary 
+endpoints and patient-reported outcomes. Also 
+noteworthy is that this study was a proof-of-concept trial 
+with a short duration compared with most phase 3 trials 
+for long-term prophylaxis, and the immediate-release 
+capsule formulation was used, which is the formulation 
+being primarily developed for on-demand treatment use, 
+administered twice daily as a proof-of-concept for 
+prophylactic use of deucrictibant. However, these 
+limitations are anticipated to be addressed in a larger and 
+longer global phase 3 trial (NCT06669754) using an 
+extended-release tablet formulation, intended for 
+prophylactic use, allowing for once-daily dosing of 
+deucrictibant 40 mg, with the possibility that the single 
+daily administration could be associated with additional 
+benefits with regards to patient experience and treatment 
+adherence.
+Together with the findings from the RAPIDe-1 trial for 
+on-demand treatment, results of the CHAPTER-1 trial 
+for prophylaxis confirm the pivotal role of bradykinin 
+signalling as a causative mediator of swelling in 
+[PDF PAGE 11]
+Articles
+e225www.thelancet.com/haematology   Vol 13   April 2026
+hereditary angioedema. They also provide evidence that, 
+as a first-in-class oral antagonist of the bradykinin B2 
+receptor, deucrictibant has the potential to be the first 
+orally bioavailable molecule for both the prevention and 
+treatment of hereditary angioedema attacks.
+Additionally, results from CHAPTER-1 29,30 are 
+consistent with those of pilot studies in acquired 
+angioedema due to C1 inhibitor deficiency, suggesting 
+that therapeutic indications of bradykinin B2 receptor 
+antagonism and deucrictibant could include other 
+subtypes of bradykinin-mediated angioedema, for which 
+no treatments are currently approved. In conclusion, 
+these phase 2 results support further investigation of the 
+efficacy and safety of deucrictibant in a phase 3 trial of 
+prophylaxis against hereditary angioedema attacks.
+Contributors
+PL, JK, and AL contributed to study conceptualisation and study design, 
+funding acquisition, investigation, method, project administration, 
+resources, supervision, and reviewed and provided input on the 
+manuscript. MAR and EA-P contributed to study conceptualisation and 
+study design. EA-P, MS, A V, MC, MG, SG, SK-A, TK, WHY , JA, FA, HC, 
+NC, EE, MDG, PG, MM, MEM, MDT, HJW, AZ, and MAR were 
+investigators in the clinical trial. RC, SM, JL, and LZ contributed to the 
+formal analysis, data curation, data validation, and data visualisation. 
+MAR, RC, LZ, JL and PL had access to the raw data and MAR and LZ 
+verified the data. All authors contributed to data interpretation, and 
+reviewing and editing the manuscript. All authors had full access to all 
+the data in the study. All authors approved the manuscript and assume 
+responsibility for the content provided.
+Declaration of interests
+EA-P has received fees as a speaker and/or consultant from Astria, 
+BioCryst, BioMarin, CSL Behring, Intellia, KalVista, Pharming, 
+Pharvaris, and Takeda and grants from CSL Behring and Takeda. MS has 
+received fees as a speaker and or/consultant from BioCryst, CSL 
+Behring, KalVista, Pharming, Pharvaris, and Takeda. A V has received 
+consultant, speaker, and personal fees from AstraZeneca, Berlin–
+Menarini Group, CSL Behring, KalVista, Novartis, Pharming, Sobi, and 
+Takeda and was an investigator for Pharvaris. MC has received grant 
+research support and/or speaker or consultancy fees from BioCryst, CSL 
+Behring, KalVista, Pharming, Sobi, and Takeda; received funding to 
+attend conferences or educational events from CSL Behring, Menarini, 
+MSD, Novartis, Pharming, and Takeda; and is or has been a clinical trial 
+and/or registry investigator for BioCryst, CSL Behring, KalVista, 
+Novartis, Pharming, Pharvaris, Takeda, UCB, and Otsuka. MG has 
+received travel and conference attendance support from CSL Behring; 
+is a member of the immunology clinical reference group; and has done 
+clinical trial work for BioCryst and Novartis. SG has received funding to 
+attend conferences and other educational events; acted as medical 
+advisor or speaker; received donations to her departmental fund; and 
+received financial and other assistance for patient care projects and/or 
+participated in clinical trials with Baxter, CSL Behring, Dyax, Grifols, 
+Pharming–Swedish Orphan, Takeda, and ViroPharma. SK-A is chief 
+and/or principal investigator for BioCryst, Biotest, CSL Behring, Ionis, 
+KalVista, Otsuka pharmaceuticals, Pharvaris, and Takeda; has received 
+honorarium for consulting work from BioCryst, Biotest, CSL Behring, 
+Ionis, KalVista, Otsuka pharmaceuticals, Pharvaris, and Takeda; and has 
+participated on advisory boards organised by BioCryst, Biotest, CSL 
+Behring, Ionis, KalVista, Otsuka pharmaceuticals, Pharvaris, and 
+Takeda. TK has received research grants and/or speaker or consultancy 
+fees from BioCryst, CSL Behring, KalVista, Otsuka, Pharvaris, Sanofi–
+Regeneron, and Takeda and is or was an investigator in clinical studies 
+for BioCryst, CSL Behring, KalVista, Otsuka, Pharvaris, Sanofi–
+Regeneron, and Takeda. WHY is a member of advisory boards for 
+Blueprint, BioCryst, Celldex, CSL Behring, Intellia, Merck, Novartis, 
+Sanofi, and Takeda; has received speaker fees from AstraZeneca, Merck, 
+Novartis, and Takeda; research grants from Aimmune Therapeutics, 
+ALK Abello, AnaptysBio, Areteia, Aslan, AstraZeneca, Astria, BioCryst, 
+Blueprint, Bristol Myers, Celgene, Celldex, CSL Behring, DBV 
+Technologies, Dermira, Eli Lilly, Escient, Galderma, Genentech, GSK, 
+Glenmark, Haleon, Incyte, Intellia, Ionis, Moderna, Novartis, Novavax, 
+Pharvaris, Pharming, Providence, RAPT Therapeutics, Regeneron, 
+Roche, Sanofi, Stallergenes, Takeda, Upstream Bio, and VBI Vaccines; is 
+a medical advisor (volunteer) for the patient organisation Hereditary 
+Angioedema Canada; and is a member of Angioedema Centers of 
+Reference and Excellence, Blueprint, Celldex, and Intellia. JA is or has 
+been a speaker bureau member for BioCryst, CSL Behring, Pharming, 
+and Takeda; has received consulting fees from and is a clinical trial 
+investigator for Astria, BioCryst, CSL Behring, Ionis, KalVista, 
+Pharming, Pharvaris, and Takeda. FA has received other financial or 
+non-financial interests from CSL Behring and Takeda. HC has received 
+other financial or non-financial interests from AstraZeneca (Alexion), 
+CSL Behring, KalVista, Merck, Novartis, Pharvaris, Roche, Sanofi, Sobi, 
+and Takeda and has participated on advisory boards for AstraZeneca 
+(Alexion), CSL Behring, Novartis, Pharming, and Takeda. NC has 
+received educational funding from GSK, Pharming, and Takeda 
+unrelated to the submitted work; has been principal investigator or an 
+investigator for Novartis, Pharming, Pharvaris, and Takeda; and 
+participated on an advisory board or received support for conference 
+travel from Takeda, Pharming, Novartis, BioCryst, and CSL Vifor. EE has 
+received funding for consulting fees from Biocryst, Dr Falk Pharma, and 
+Novartis, Pharming; payment or honoraria for lectures, presentations, 
+speakers bureaus, manuscript writing, or educational events from 
+BioCryst and Dr Falk Pharma; support for attending meetings and/or 
+travel from Biocryst and Dr Falk Pharma. MDG has received speaker 
+fees from CSL Behring, Biocryst, and Takeda. PG has received 
+consulting and speakers fees from BioCryst, KalVista, and Takeda and 
+received travel grants from CSL Behring, Pharming, and Takeda. 
+MM has received research grant support and/or speaker or consultancy 
+fees from and is or was an investigator in clinical studies for Astria, 
+BioCryst, CSL Behring, Intellia, KalVista, Novartis, Octapharma, Otsuka, 
+Pharvaris, and Takeda. MEM has received grants or contracts from 
+Astria, BioCryst, Celldex, Cogent, CSL Behring, GSK, Ionis, Intellia, 
+KalVista, Merck, Novartis, Pharming, Pharvaris, Takeda, and Teva; 
+payment or honoraria for lectures, presentations, speakers bureaus, 
+manuscript writing, or educational events from AstraZeneca, BioCryst, 
+Blueprint, CSL Behring, GSK, KalVista, Novartis, Pharming, Regeneron, 
+and Takeda; and has participated on Data Safety Monitoring Boards or 
+advisory boards for BioCryst, CSL Behring, Ionis, KalVista, Pharming, 
+Pharvaris, and Takeda. MDT declares no competing interests relative to 
+this work. HJW has received research funding from BioCryst, CSL 
+Behring, and Takeda; consulting fees from BioCryst, BioMarin, CSL 
+Behring, and Takeda; and speakers fees from BioCryst, CSL Behring, 
+Genentech, GSK, and Takeda. AZ has received speaker or consultancy 
+fees from Astria, BioCryst, CSL Behring, Intellia, KalVista, Otsuka, 
+Pharming, Pharvaris, and Takeda. RC is an employee of RC 
+Consultancy; a consultant to Pharvaris; and holds stocks in Pharvaris. 
+SM is an employee of Mulders Clinical Consulting; a consultant to 
+Pharvaris; and holds stocks in Pharvaris. JL, LZ, and PL are employees 
+of Pharvaris and hold stocks in Pharvaris. JK is an employee of JCK 
+Consult; a consultant to Pharvaris; and holds stocks or stock options in 
+Pharvaris. AL is an employee of GrayMatters Consulting; a consultant to 
+Pharvaris; holds stocks or stock options in Pharvaris; and is an advisor to 
+Kosa Pharma. MAR has received research grant support, consultancy 
+fees, speaker fees, and/or clinical trial fees from Astria, BioCryst, 
+BioMarin, Celldex, CSL Behring, Cycle Pharma, Grifols, Intellia, Ionis, 
+KalVista, Novartis, Pharming, Pharvaris, Sanofi-Regeneron, and Takeda.
+Data sharing
+The data in this study will not be made available as the study is still 
+ongoing. Once the study is completed Pharvaris will consider requests 
+from qualified scientific and medical researchers to share de-identified 
+participant data that underlie results in this Article. Data requests will be 
+considered from 6 months after marketing approval of the study drug in 
+both the USA and European Union. Supporting documents, including 
+the study protocol and statistical analysis plan, can also be requested. 
+Proposed research should seek to answer a previously unanswered 
+important medical or scientific question and any data-sharing requests 
+should reflect those important questions. Any applicable country-specific 
+privacy and other laws and regulations will be considered and might 
+[PDF PAGE 12]
+Articles
+www.thelancet.com/haematology   Vol 13   April 2026e226
+prevent sharing of data. For further information on the process and 
+requirements for submitting a data-sharing request, please contact 
+Pharvaris at DSR@Pharvaris.com.
+Acknowledgments
+This study was funded by Pharvaris. We thank the participants and all 
+study site staff who participated in the CHAPTER-1 trial. We also thank 
+Umar Katbeh (PhD) and Giorgio Giannattasio (MD, PhD) of Pharvaris 
+for their critical reviews of the manuscript and Natalie Haustrup (PhD) 
+at Envision Spark, an Envision Medical Communications agency, a part 
+of Envision Pharma Group, for providing medical writing support, 
+funded by Pharvaris Netherlands.
+References
+1 Busse PJ, Christiansen SC. Hereditary Angioedema. N Engl J Med 
+2020; 382: 1136–48.
+2 Kaplan AP, Joseph K. The bradykinin-forming cascade and its role 
+in hereditary angioedema. Ann Allergy Asthma Immunol 2010; 
+104: 193–204.
+3 Busse PJ, Christiansen SC, Riedl MA, et al. US HAEA Medical 
+Advisory Board 2020 Guidelines for the Management of Hereditary 
+Angioedema. J Allergy Clin Immunol Pract 2021; 9: 132–50.e3.
+4 Banerji A, Davis KH, Brown TM, et al. Patient-reported burden of 
+hereditary angioedema: findings from a patient survey in the 
+United States. Ann Allergy Asthma Immunol 2020; 124: 600–07.
+5 Lumry WR, Settipane RA. Hereditary angioedema: epidemiology 
+and burden of disease. Allergy Asthma Proc 2020; 
+41 (suppl 1): S08–13.
+6 Anderson J, Levy DS, Lumry W, K oochaki P, Lanar S, Henry Li H. 
+Letting the patients speak: an in-depth, qualitative research-based 
+investigation of factors relevant to health-related quality of life in 
+real-world patients with hereditary angioedema using subcutaneous 
+C1 inhibitor replacement therapy. Allergy Asthma Clin Immunol 
+2021; 17: 60.
+7 Valerieva A, Longhurst HJ. Treatment of hereditary angioedema-
+single or multiple pathways to the rescue. Front Allergy 2022; 
+3: 952233.
+8 Do T, Riedl MA. Current and emerging therapeutics in hereditary 
+angioedema. Immunol Allergy Clin North Am 2024; 44: 561–76.
+9 Betschel SD, Banerji A, Busse PJ, Cohn DM, M agerl M. Hereditary 
+angioedema: a review of the current and evolving treatment 
+landscape. J Allergy Clin Immunol Pract 2023; 11: 2315–25.
+10 Maurer M, Aberer W, Caballero T, et al. The Icatibant Outcome 
+Survey: 10 years of experience with icatibant for patients with 
+hereditary angioedema. Clin Exp Allergy 2022; 52: 1048–58.
+11 Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-
+receptor antagonist, in hereditary angioedema. N Engl J Med 2010; 
+363: 532–41.
+12 Maurer M, Magerl M, Betschel S, et al. The international WAO/
+EAACI guideline for the management of hereditary angioedema-
+The 2021 revision and update. Allergy 2022; 77: 1961–90.
+13 US Food and Drug Administration. The voice of the patient: 
+hereditary angioedema. 2018. https://www.fda.gov/media/113509/
+download (accessed April 9, 2025).
+14 Covella B, Giliberti M, Montinaro A, Rossi L, Montinaro V. 
+Hereditary angioedema: novel molecules for treatment of acute 
+attacks and long-term prophylaxis. Future Pharmacol 2024; 
+4: 41–53.
+15 Lesage A, Marceau F, Gibson C, et al. In vitro pharmacological 
+profile of PHA-022121, a small molecule bradykinin B2 receptor 
+antagonist in clinical development. Int Immunopharmacol 2022; 
+105: 108523.
+16 Lesage A, Gibson C, Marceau F, et al. In Vitro pharmacological 
+profile of a new small molecule bradykinin B2 receptor antagonist. 
+Front Pharmacol 2020; 11: 916.
+17 Weller K, Groffik A, Magerl M, et al. Development and construct 
+validation of the angioedema quality of life questionnaire. Allergy 
+2012; 67: 1289–98.
+18 Weller K, Magerl M, Peveling-Oberhag A, Martus P, Staubach P, 
+Maurer M. The Angioedema Quality of Life Questionnaire 
+(AE-QoL)—assessment of sensitivity to change and minimal 
+clinically important difference. Allergy 2016; 71: 1203–09.
+19 Weller K, Donoso T, Magerl M, et al. Development of the 
+Angioedema Control Test-A patient-reported outcome measure that 
+assesses disease control in patients with recurrent angioedema. 
+Allergy 2020; 75: 1165–77.
+20 Weller K, Donoso T, Magerl M, et al. Validation of the Angioedema 
+Control Test (AECT)—a patient-reported outcome instrument for 
+assessing angioedema control. J Allergy Clin Immunol Pract 2020; 
+8: 2050–57 .
+21 Atkinson MJ, Kumar R, Cappelleri JC, Hass SL. Hierarchical 
+construct validity of the treatment satisfaction questionnaire for 
+medication (TSQM version II) among outpatient pharmacy 
+consumers. Value Health 2005; 8 (suppl 1): S9–24.
+22 Lumry WR, Craig T, Zuraw B, et al. Health-related quality of life 
+with subcutaneous C1-inhibitor for prevention of attacks of 
+hereditary angioedema. J Allergy Clinl Immunol Pract 2018; 
+6: 1733–41.e3.
+23 Craig TJ, Reshef A, Li HH, et al. Efficacy and safety of garadacimab, 
+a factor XIIa inhibitor for hereditary angioedema prevention 
+(VANGUARD): a global, multicentre, randomised, double-blind, 
+placebo-controlled, phase 3 trial. Lancet 2023; 401: 1079–90.
+24 Riedl MA, Tachdjian R, Lumry WR, et al. Efficacy and safety of 
+donidalorsen for hereditary angioedema. N Engl J Med 2024; 
+391: 21–31.
+25 Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab 
+compared with placebo on prevention of hereditary angioedema 
+attacks: a randomized clinical trial. JAMA 2018; 320: 2108–21.
+26 Zuraw B, Lumry WR, Johnston DT, et al. Oral once-daily berotralstat 
+for the prevention of hereditary angioedema attacks: a randomized, 
+double-blind, placebo-controlled phase 3 trial. 
+J Allergy Clin Immunol 2021; 148: 164–72.e9.
+27 Longhurst H, Cicardi M, Craig T, et al. Prevention of hereditary 
+angioedema attacks with a subcutaneous C1 inhibitor. N Engl J Med 
+2017; 376: 1131–40.
+28 Cohn DM, Gurugama P, Magerl M, et al. CRISPR-based therapy for 
+hereditary angioedema. N Engl J Med 2025; 392: 458–67.
+29 Petersen RS, Fijen LM, Kelder JP, Cohn DM. Deucrictibant for 
+angioedema due to acquired C1-inhibitor deficiency: a randomized-
+controlled trial. J Allergy Clin Immunol 2024; 154: 179–83.
+30 de Lange M, Petersen RS, Fijen LM, C ohn DM. Long-term 
+prophylactic treatment with deucrictibant for angioedema due to 
+acquired C1-inhibitor deficiency. J Allergy Clin Immunol 2025; 
+156: 1650–55.

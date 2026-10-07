@@ -1,0 +1,101 @@
+[
+  {
+    "id": "NCT05259917",
+    "updated": {
+      "date": "2025-05-02",
+      "type": "ACTUAL"
+    },
+    "ipd": {
+      "ipdSharing": "NO",
+      "description": "Data will not be shared until all global regulatory filings are complete"
+    },
+    "hasResults": true,
+    "documents": {
+      "largeDocumentModule": {
+        "largeDocs": [
+          {
+            "typeAbbrev": "Prot",
+            "hasProtocol": true,
+            "hasSap": false,
+            "hasIcf": false,
+            "label": "Study Protocol",
+            "date": "2023-05-04",
+            "uploadDate": "2024-06-07T10:30",
+            "filename": "Prot_000.pdf",
+            "size": 1064778
+          },
+          {
+            "typeAbbrev": "SAP",
+            "hasProtocol": false,
+            "hasSap": true,
+            "hasIcf": false,
+            "label": "Statistical Analysis Plan",
+            "date": "2023-12-01",
+            "uploadDate": "2024-06-07T10:29",
+            "filename": "SAP_001.pdf",
+            "size": 1026704
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "NCT06343779",
+    "updated": {
+      "date": "2025-11-21",
+      "type": "ACTUAL"
+    },
+    "ipd": null,
+    "hasResults": false,
+    "documents": null
+  },
+  {
+    "id": "NCT06669754",
+    "updated": {
+      "date": "2026-02-13",
+      "type": "ACTUAL"
+    },
+    "ipd": null,
+    "hasResults": false,
+    "documents": null
+  },
+  {
+    "id": "NCT03485911",
+    "updated": {
+      "date": "2023-06-26",
+      "type": "ACTUAL"
+    },
+    "ipd": {
+      "ipdSharing": "NO"
+    },
+    "hasResults": true,
+    "documents": {
+      "largeDocumentModule": {
+        "largeDocs": [
+          {
+            "typeAbbrev": "Prot",
+            "hasProtocol": true,
+            "hasSap": false,
+            "hasIcf": false,
+            "label": "Study Protocol",
+            "date": "2020-02-10",
+            "uploadDate": "2020-10-23T07:09",
+            "filename": "Prot_000.pdf",
+            "size": 1269506
+          },
+          {
+            "typeAbbrev": "SAP",
+            "hasProtocol": false,
+            "hasSap": true,
+            "hasIcf": false,
+            "label": "Statistical Analysis Plan",
+            "date": "2019-01-29",
+            "uploadDate": "2020-10-23T07:10",
+            "filename": "SAP_001.pdf",
+            "size": 1341633
+          }
+        ]
+      }
+    }
+  }
+]

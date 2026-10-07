@@ -1,0 +1,30 @@
+[
+  {
+    "file": "research/raw/cross_trial_audit/sebetralstat_pooled_2026.pdf",
+    "url": "https://publica-rest.fraunhofer.de/server/api/core/bitstreams/103fe065-e976-465b-9a2e-6219b01b9c49/content",
+    "sha256": "cae272c2e3dc0335dd775386d569fbb257abba48fd23fccb5589c26174b373fd",
+    "accessed": "2026-10-07",
+    "pages": 18
+  },
+  {
+    "file": "research/raw/cross_trial_audit/chapter1_paper_2026.pdf",
+    "url": "https://publica-rest.fraunhofer.de/server/api/core/bitstreams/20d5bb63-e70b-4072-8437-dd19aa31ce29/content",
+    "sha256": "46fa170670719546157ac107080ae3c2187ca0c91c7f7a445a7f16efd1319483",
+    "accessed": "2026-10-07",
+    "pages": 12
+  },
+  {
+    "file": "research/raw/cross_trial_audit/rapide3_regional_2026.pdf",
+    "url": "https://ir.pharvaris.com/static-files/2e62f03b-fbb8-4376-9151-f74c41dd8c0f",
+    "sha256": "cfb05353b80df485ffbec361e141ec307395c0e47ccbd68f10ac93d9e1577d76",
+    "accessed": "2026-10-07",
+    "pages": 16
+  },
+  {
+    "file": "research/raw/cross_trial_audit/rapide3_dak_2026.pdf",
+    "url": "https://ir.pharvaris.com/static-files/0a85bd21-2941-43e2-aac7-24619d665fd0",
+    "sha256": "b8b7eaaeb779f9e5ae1554afeb38930c04d3da61ae17437594d3ec1ee5b99549",
+    "accessed": "2026-10-07",
+    "pages": 3
+  }
+]

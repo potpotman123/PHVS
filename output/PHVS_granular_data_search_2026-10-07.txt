@@ -1,0 +1,41 @@
+Bounded search for individual and subgroup clinical data
+7 October 2026
+
+RESULT
+Recovered useful additional aggregate evidence, particularly a RAPIDe-3 analysis including participants with unpaired attacks. No downloadable participant/attack-level dataset, new CHAPTER-3 switch counts, final PHVS SAP, or numerical amendment sensitivity results were recovered. The new evidence supports robustness checks; it does not enable a defensible patient-adjusted comparative superiority estimate.
+
+METHOD AND STOPPING RULE
+Checked existing repository and four current ClinicalTrials.gov API records; searched publication/supplement, sponsor conference, regulatory, and data-sharing sources. Followed concrete leads to the September 2026 RAPIDe-3 regional presentation, October German poster, June 2026 pooled sebetralstat paper, and CHAPTER-1 publication sharing policy. Reused prior FDA reviews and CTIS retrieval findings. NEJM appendix/data-sharing PDF retrieval failed; EMA assessment-report fetch also failed. An indexed Vivli search produced no trial-specific access listing; this is not proof that no listing exists. No account-based request, bulk collection, outreach, or patient-data acquisition was performed. Stop here because the missing linked records require sponsor/regulatory disclosure, and repeated aggregate searches offer diminishing returns.
+
+NEW RAPIDe-3 REGIONAL ANALYSIS
+September3-4,2026 Bradykinin Symposium deck, slides7,9-14; sponsor source. Slide7 explicitly includes all participants with treated attacks in subgroup analyses, whereas its overall reference result uses the paired set. This partly fills the earlier gap concerning outcomes outside the 88 pairs; it is not the full prespecified SEAS model output.
+Slide9 randomized regional cohorts: North America38, Europe/rest of world96. Current LTP13/38 (34.2%) versus18/96 (18.8%). Mean attacks in the three months before screening3.4(SD2.5) versus4.8(SD3.5; n94). These are randomized baseline cohorts, not necessarily the analyzed-attack distribution. Regions differ on more than prophylaxis, so regional contrasts cannot identify an LTP effect.
+Slide14 onset-of-relief median: active1.20h/placebo6.55h in North America; active1.28h/placebo>12h in Europe/rest of world. Observed four-hour response proportions:14/18 (77.8%) versus12/26 (46.2%) North America;66/78 (84.6%) versus19/72 (26.4%) elsewhere. Thus apparent regional placebo heterogeneity coexists with similar active medians, but small samples and different populations prevent causal attribution or formal heterogeneity claims.
+IMPORTANT DENOMINATORS: Regional observed-data denominators sum to96 active/98 placebo for that displayed endpoint, not201 treated attacks; the paired overall column uses83/87 observed records with its underlying88/88 paired set. Do not add regional columns to recreate the overall column. Slide14 footnote lists all-treated exposure101active/100placebo, opposite the earlier CTIS safety as-treated100/101. Assignment-versus-actual-treatment could explain this, but was not verified. Preserve the discrepancy pending reconciliation; do not silently overwrite source counts.
+The deck gives curves and missing/rescue censoring footnotes but not each participant's attack timing, severity, diaries, treatment sequence, or linked outcomes. It therefore cannot reconstruct endpoint handling or permit patient-level reweighting. Slides9 and14 visually checked. October2 German RAPIDe-3 poster was also retrieved; it did not supply the missing linked records. The regional deck cites a Lancet2026 paper as in press; a bounded follow-up did not recover that full RAPIDe-3 article/supplement.
+
+NEW SEBETRALSTAT POOLED PAPER
+June9,2026, World Allergy Organization Journal19:101401. Pools phase2 and3;377attacks,151 at600mg,139placebo,87 at300mg. Figure3 provides subgroup counts/effect plots for severity, location, age, sex, region, and background prophylaxis. It is useful for identifying modifiers, but not an independent replication of KONFIDENT. Figure3 footnote explicitly says the hazard-ratio model did not model within-person correlation after shared-frailty convergence instability. Authors label analyses exploratory and caution on intervals. Do not treat its subgroup confidence intervals as definitive or combine its original-rule estimates with FDA-revised KONFIDENT estimates as if identically derived. Figure3 visually checked. No underlying subject-level dataset was attached in the material recovered.
+
+ACCESS STATUS
+ClinicalTrials.gov fresh API checks saved separately:
+- NCT05259917 KONFIDENT: IPD sharing NO, with statement that data will not be shared until all global regulatory filings are complete. Protocol/SAP and aggregate results available. Published design paper says qualified scientific/medical researcher requests may be considered via medinfo@kalvista.com; this is not approval of this investment project or confirmation access is open now.
+- NCT03485911 APeX-2: IPD sharing NO; protocol/SAP and aggregate results available. No request-ready participant dataset recovered.
+- NCT06343779 RAPIDe-3 and NCT06669754 CHAPTER-3: no IPD-sharing module, results module, or documents in current US registry responses. Absence is not a refusal policy; CTIS documents already held remain relevant.
+- CHAPTER-1 April2026 paper: requests from qualified scientific/medical researchers considered after study completion and from six months after marketing approval in BOTH USA and EU; important unanswered scientific question and privacy conditions apply. Contact DSR@Pharvaris.com. This is a documented CHAPTER-1 policy, not verified identical policy for both pivotal trials. Page11 visually checked. Do not misrepresent an investment analysis as an approved scientific project.
+
+WHAT CAN NOW BE DONE
+Regional and severity subgroup evidence can enter a qualitative robustness discussion. Do not enter a numerical efficacy/switching multiplier into the commercial model from these sources. A plot-digitization reconstruction could approximate marginal event-time curves but cannot restore attack severity, treatment delay, crossover pairing, rescue events, or missing diaries; not worth presenting as true individual data. A matching-adjusted comparison needs IPD for at least one trial plus suitable comparator summaries and assumptions about all important effect modifiers; that threshold remains unmet. Prevention still needs CHAPTER-3 switch counts/timing, exact assigned attack rates, and alternative analysis results.
+Smallest useful next disclosure package: anonymized linked attack records (sequence, onset/dose/assessment times, PGI-S/PGI-C, missingness, rescue, LTP, genotype) for acute trials; baseline/follow-up exposure, attacks, treatment discontinuation/switch dates, assigned values, and final sensitivity tables for prevention. A sponsor-produced harmonized subgroup table would be a lower-cost partial alternative. No requests sent.
+
+SOURCES
+RAPIDe-3 regional deck: https://ir.pharvaris.com/static-files/2e62f03b-fbb8-4376-9151-f74c41dd8c0f
+Sponsor publication catalog: https://ir.pharvaris.com/news-events/publications
+October poster: https://ir.pharvaris.com/static-files/0a85bd21-2941-43e2-aac7-24619d665fd0
+Sebetralstat pooled paper: https://pmc.ncbi.nlm.nih.gov/articles/PMC13273462/ (full PDF recovered from Fraunhofer institutional repository; see manifest)
+CHAPTER-1 paper: https://publica-rest.fraunhofer.de/server/api/core/bitstreams/20d5bb63-e70b-4072-8437-dd19aa31ce29/content
+KalVista design-paper sharing statement: https://pmc.ncbi.nlm.nih.gov/articles/PMC10476273/
+Registry endpoints: https://clinicaltrials.gov/api/v2/studies/ followed by the four identifiers above.
+Vivli request conditions: https://vivli.org/resources/faqs/
+Prior FDA and CTIS sources: research/raw/cross_trial_audit/retrieval_manifest.json and research/raw/rapide3_ctis_source_manifest.json.
+New files, URLs, hashes: research/raw/cross_trial_audit/granular_search_manifest_2026-10-07.json.

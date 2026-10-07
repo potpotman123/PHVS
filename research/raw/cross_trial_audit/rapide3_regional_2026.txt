@@ -1,0 +1,603 @@
+[PDF PAGE 1]
+©2026
+Coauthors: Markus Magerl, Philip H. Li, Adil Adatia, Mauro Cancian, Marcin Stobiecki, Anna Valerieva, Anete 
+S. Grumach, William R. Lumry, Daniel F. Soteres, Nicholas Brodszki, Natalia L. Fili, Roman Hakl, Hye-Ryun 
+Kang, Gul Karakaya, Birger Kränke, H. Henry Li, Jonny Peter, Andreas Recke, Raffi Tachdjian, Paola 
+Triggianese, Andrea Zanichelli, John Anderson, Emel Aygören-Pürsün, Timothy J. Craig, Henriette Farkas, 
+Francesco Giardino, Pedro Giavina-Bianchi, Sujeong Kim, Tamar Kinaciyan, InmaculadaMartinez-Saguer, 
+Francesca Perego, Karl V. Sitz, Maria Staevska, H. James Wedner, Rafael H. Zaragoza-Urdaz, Ricardo D. 
+Zwiener, Asli Gelincik, Francesco Arcoleo, Rand Arnaout, Alan P. Baptist, Régis de Albuquerque Campos, 
+Anthony D. Dorr, Mariana Paes Leme Ferriani, Atsushi Fukunaga, Delphine Gobert, Padmalal Gurugama, 
+Michihiro Hide, David I. Hong, Eisuke Inage, Joshua S. Jacobs, Constance H. Katelaris, Lucy Leeman, Ramón 
+Lleonart, Michael E. Manning, Satoshi Mano, Seido Ooka, CristinaJ. Ramos, Jinzhong Liu, Li Zhu, Joan 
+Mendivil, Umar Katbeh, Giorgio Giannattasio, Rafael Crabbé, Ming Yu, AnneLesage, Peng Lu, Danny M. Cohn
+1
+Oral Deucrictibant Immediate-Release 
+Capsule for On-Demand Treatment 
+of Hereditary Angioedema Attacks: 
+Regional Subgroup Analysis From 
+the Phase 3 RAPIDe-3 Trial
+This presentation includes data for an investigational product not yet approved by regulatory authorities.
+Bradykinin Symposium 2026
+Berlin, Germany; September 3–4, 2026
+Marc A. Riedl
+University of California, San Diego, La Jolla, CA, USA 
+[PDF PAGE 2]
+©2026
+Conflicts of interest disclosure
+COI: M.M.: Argo, Astria, BioCryst, CSL Behring, Intellia, KalVista, Octapharma, Otsuka, Pharvaris, Takeda; M.A.R.: ADARx, Astria, BioCryst, BioMarin, Celldex, CSL Behring, Cycle Pharma, Grifols, Intellia, Ionis, 
+KalVista, Novartis, Pharming, Pharvaris, Sanofi-Regeneron, Takeda; P.H.L.: Astria, BioCryst, CSL Behring, KalVista, Novartis, Pharvaris, Takeda; A.A.: Astria, BioCryst, CSL Behring, Intellia, Ionis 
+Pharmaceuticals, Kalvista, Octapharm, Pendopharm, Pharvaris, Takeda; M.C.: ADARx, BioCryst, Chiesi, CSL Behring,Gentili, KalVista, Menarini, MSD, NeoPharmed, Novartis,Otsuka, Pharming, Pharvaris, Sobi, 
+Takeda, UCB; M.Sto.: BioCryst, CSL Behring, KalVista, Pharming, Pharvaris, Takeda; A.V.: AstraZeneca, Astria, Berlin-Chemie/Menarini Group, CSL Behring, Ewopharma, Ionis, KalVista, Novartis, Organon, 
+Pharming, Pharvaris, Shire/Takeda, SOBI, Stallergenes Greer, Teva; A.S.G.: AstraZeneca, Astria, BioMarin, Brazilian research Entity (CNPq), Catalyst, CSL Behring, Exeltis, KalVista, Kedrion, Multicare, 
+Pharvaris, Pint-Pharma, Takeda, The Binding Site; W.R.L.: AstraZeneca, Astria, BioCryst, BioMarin, CSL Behring, Fresenius-Kabi, GlaxoSmithKline, Grifols, Intellia, Ionis, KalVista, Magellan, Optinose, Pharming, 
+Pharvaris, Regeneron, Sanofi, Takeda, Teva; D.F.S.: BioCryst, CSL Behring, Intellia, Ionis, KalVista, Pharvaris, Takeda; N.B.: none to report; N.L.F.: Bago, CSL Behring, Pint Pharma, Sanofi, Takeda, Director of 
+HAE committee for AAAeIC; R.H.: BioCryst, CSL Behring, Genesis Pharma, KalVista, Pharming, Pharvaris, Takeda; H-R.K.: Astria, BioCryst, CSL Behring, KalVista, Pharvaris, Takeda; G.K.: CSL Behring, Er-kim
+İlaç, Ionis, Pharvaris, Polifarma, Takeda, Vem İlaç; B.K.: Pharvaris; H.H.L.: BioCryst, CSL Behring, Intellia, Ionis, Pharming, Pharvaris, Takeda, Medical Advisory Board US HAEA; J.P.: Pharming, Takeda; A.R.: 
+BioCryst, CSL Behring, Deutsche Forschungsgemeinschaft (DFG), EUROIMMUN Medizinische Labordiagnostika AG, Pierre Fabre Pharma, Neopharmed Gentili, Novartis,Otsuka, Pharming, Pharvaris, 
+Stallergenes, Swedish Orphan Biovitrum, Otsuka, Takeda; R.T.: ADMA, ARS, AstraZeneca, Astria, BioCryst, CSL Behring, GlaxoSmithKline, Grifols, Intellia, Ionis, KalVista, Lilly, Novartis, Pharming, Pharvaris, 
+Sanofi/Regeneron, Takeda; P.T.: Abbvie, Biocryst, CSL Behring, KalVista, Takeda; A.Z.: Astria, BioCryst, CSL Behring, Intellia, KalVista, Otsuka, Pharming, Pharvaris, Takeda; J.A.: Astria, BioCryst, CSL Behring, 
+Intellia, Ionis, KalVista, Pharming, Pharvaris, Takeda; E.A-P.: Astria, BioCryst, BioMarin, CSL Behring, Intellia, KalVista, Otsuka, Pharming, Pharvaris, Takeda; T.C.: ADARx, ARGO, Astria, BioCryst, BioMarin, CSL 
+Behring, GlaxoSmithKline, Grifols, Intellia, Ionis, KalVista Pharma, Pharvaris, Takeda,  Director of ACARE International Hereditary Angioedema Center, member of the Medical Advisory Board for the HAE-A; 
+H.F.: ADARx, Astria, BioCryst, CSL Behring, Intellia, Ionis, Kalvista, Otsuka, Pharming, Pharvaris, Takeda; F.G.: BioCryst, CSL Behring, Ionis, KalVista, Takeda; P.G-B.: CSL Behring, Pharvaris, Pint Pharma, 
+Takeda, participates in the World Allergy Organization and Associação Brasileira de Alergia e Imunologia; S.K.: none to report; T.K.: ADARx, Astria, BioCryst, CSL Behring, KalVista, Otsuka, Pharvaris, 
+Sanofi/Regeneron, Takeda; I.M-S.: Biocryst, CSL Behring, KalVista, Octapharma, Pharming, Pharvaris, Takeda; F.P.: BioCryst, CSL Behring, Otsuka, Pharvaris, Takeda; K.V.S.: Achieve Life Sciences, ADARx, 
+AstraZeneca, Astria, Bellus, BioCryst, CSL Behring, Evidera, GlaxoSmithKline, Jasper, KalVista, Nocion, Novartis, Pharvaris, Teva; M.Sta.: none to report; H.J.W.: BioCryst, BioMarin, CSL Behring, Genentech, 
+GlaxoSmithKline, Takeda; R.H.Z-U.: BioCryst, KalVista, Pharming, Takeda; R.D.Z.: AbbVie, Bago, CSL Behring, KalVista, Novartis, Panalab, Pharvaris, Pint-Pharma, Sanofi, Takeda; A.G.: Pharvaris; F.A.:
+BioCryst, CSL Behring, KalVista, Otsuka, Takeda; R.A.: none to report;  A.P.B.: KalVista, Pharvaris, Takeda; R.d.A.C.: CSL Behring, Pharvaris, Pint Pharma, Takeda; A.D.D.: Astria, BioCryst, CSL Behring, Ionis, 
+KalVista, Otsuka, Pharvaris, Takeda; M.P.L.F.: Pharvaris, Pint Pharma, Takeda; A.F.: BioCryst, CSL Behring, Kaken, KalVista, Pharvaris, Takeda, Torii Pharmaceutical Company Ltd.; committee chair for 
+Japanese Dermatological Association Urticaria Treatment Guidelines 4th Edition, Creation; D.G.: Astria, BioCryst, CSL Behring, Ionis, Kalvista, Otsuka, Pharvaris, Takeda; P.G.: BioCryst, CSL Behring, KalVista, 
+Pharming, Takeda; M.H.: Astria, BioCryst, CSL Behring, Kaken, KalVista, Otsuka, Pharvaris, Takeda, Torii Pharmaceuticals; D.I.H.: KalVista, Pharvaris; E.I.: BioCryst, CSL Behring, Kao Corporation, KalVista
+Japan, Pharvaris, Takeda, Torii Pharmaceuticals; J.S.J.: BioCryst, CSL Behring, Cycle Pharma, Intellia, Ionis, KalVista, Pharming, Pharvaris Takeda; C.H.K.: AstraZeneca, CSL Behring, GlaxoSmithKline, 
+Novartis, Pebbles trial, Pharvaris, Sanofi, Takeda; L.L.: BioCryst, CSL Behring, Novartis, Takeda; R.L.: BioCryst, CSL Behring,  Ionis, KalVista, Otsuka, Pharvaris,  Takeda; M.E.M.: AstraZeneca, Astria, BioCryst, 
+Blueprint, Celldex, Cogent, CSL Behring, GlaxoSmithKline, Intellia, Ionis, KalVista, Merck, Novartis, Pharming, Pharvaris, Regeneron, Takeda, Teva; S.M.: none to report; S.O.: none to report; C.J.R.: Amgen, 
+GlaxoSmithKline, Pfizer, Pharvaris, Sanofi, Takeda; J.L., L.Z., J.M., U.K., G.G., M.Y., P.L.: employees of Pharvaris, holds stocks in Pharvaris; R.C.: employee of RC Consultancy; consultant to Pharvaris and 
+holds stocks in Pharvaris; A.L.: employee of GrayMatters Consulting, consultant to Pharvaris and holds stocks/stock options in Pharvaris; advisor to Kosa Pharma; D.M.C.: ADARx, Astria Therapeutics, 
+BioCryst, CSL Behring, Gentili Neopharma, Intellia, Ionis, KalVista, Otsuka, Pharvaris, Takeda, is a Regional Medical Advisory Panel Member for HAEi Central Eastern Europe and the Benelux.
+RAPIDe-3 was a Pharvaris-sponsored clinical study. ClinicalTrials.gov identifier: NCT06343779.
+Acknowledgments: Medical writing services were provided by Jonny Turner, PhD, of Envision Medical Communications, and funded by Pharvaris.
+2
+This presentation includes data for an investigational product not yet approved by regulatory authorities.
+[PDF PAGE 3]
+©2026
+Bradykinin B2 receptor antagonism can effectively treat bradykinin-mediated angioedema attacks.3-6
+B2R antagonism inhibits downstream signaling and decreases excessive 
+endothelial permeability during an AE-BK attack
+3
+This presentation includes data for an investigational product not yet approved by regulatory authorities.
+AE-BK, bradykinin-mediated angioedema; BK, bradykinin; B2R, bradykinin B2 receptor; VE, vascular endothelial. 1. TerzuoliE, et al. PLoS ONE 2014;9(1):e84358. 2. Kempe S, et al. Microcirculation.2019;27(2):e12592. 3. Maurer M, et al. Allergy. 2022;77:1961-90. 
+4. Cicardi M, et al. N Eng J Med. 2010;363:532-41. 5. SuffrittiC, et al. Clin Exp Allergy. 2014;44(12):1503-1514. 6. Maurer M, et al. Lancet Haematol. 2026;13(4):e200-14. 
+AE-BK Attack Treatment with a B2R Antagonist
+Inhibiting excessive BK-mediated signaling that drives 
+disruption of adherens and tight junctions1,2
+Treatment with a B2R antagonist can end the  
+progression of AE-BK attacks by:
+Preventing increased vascular permeability1,2
+B2R 
+Vascular 
+Fluids
+VE-cadherin
+p120
+actin
+BK
+ BK
+B2R 
+antagonist
+β-catenin
+[PDF PAGE 4]
+©2026
+In studies, deucrictibant rapidly reached therapeutic exposure within 15–30 
+minutes3, supporting on-demand oral treatment of HAE attacks4, 5
+DEUCRICTIBANT
+immediate-release (IR) capsule
+rapid absorption3
+Deucrictibant
+In studies, deucrictibant maintained sustained therapeutic exposure over 
+24 hours1 from day 1, allowing for once-daily oral prevention of HAE 
+attacks2
+DEUCRICTIBANT
+extended-release (XR) tablet
+sustained absorption1
+0 12 24 36 48
+Time (hours)
+50
+100
+150
+200
+Plasma concentration (ng/mL)
+0 12 36 4824
+Time (hours)
+50
+100
+150
+200
+Plasma concentration (ng/mL)
+Deucrictibant is an orally administered, B2R antagonist in development for 
+the prophylactic and on-demand treatment of AE-BK attacks
+4
+This presentation includes data for an investigational product not yet approved by regulatory authorities.
+AE-BK, bradykinin-mediated angioedema; B2R, bradykinin B2 receptor; HAE, hereditary angioedema; IR, immediate-release; XR, extended-release. 1. Zhang et al. Presented at C1INH Workshop; May 29-June 1, 2025. 2. CHAPTER-3. ClinicalTrials.gov 
+identifier: NCT06669754. https://clinicaltrials.gov/study/NCT06669754. Accessed August 13, 2026. 3. Maurer M, et al. Lancet Haematol. 2026; 13(4):e200-14. 4. Riedl MA, et al. Lancet. 2026; In press. 5. Riedl MA, et al. Presented at the American 
+Academy of Allergy, Asthma & Immunology (AAAAI) Annual Meeting; March 2026; Philadelphia, PA, USA.
+[PDF PAGE 5]
+©2026
+Deucrictibant development program in AE-BK
+5
+This presentation includes data for an investigational product not yet approved by regulatory authorities.
+AAE-C1INH, acquired angioedema due to C1INH deficiency; AE-BK, bradykinin-mediated angioedema; BK, bradykinin; C1INH, C1 inhibitor; IR, immediate-release; LC-MS, liquid chromatography mass spectrometry; LTE, long-term extension;
+NHP, non-human primate; OLE, open-label extension; XR, extended-release.
+5
+Presentations at BK Symposium 2026
+• Loenders B, et al. Cardiovascular safety of deucrictibant• Riedl MA, et al. RAPIDe-3 regional subgroup analysis
+• Bravo J, et al. Safety margins of deucrictibant IR capsule with deucrictibant XR tablet• Farkas H, et al. RAPIDe-3 End of progression 
+• Doering NP, et al. Modelling deucrictibant complexes in-silico• Cohn D, et al. RAPIDe-3 End of progression validation
+• DeGeer J, et al. LC-MS particle-based plasma proteomics in BK-mediated angioedema• Aygören-Pürsün E, et al. CHAPTER-1 OLE final results
+• Bravo J, et al. NHP BK-challenge model • Stobiecki M, et al. CHAPTER-1 OLE patient-reported outcomes
+1
+2
+3
+4
+5
+9
+7
+6
+8
+10
+MOLECULE INDICATION
+Deucrictibant
+HAE
+On-Demand
+HAE
+Prophylaxis
+AAE-C1INH
+PRE-IND
+ PHASE 1
+ PHASE 2
+ PHASE 3
+ REGISTRATIONAL
+LTE
+OLE
+RAPIDe-1
+RAPIDe-2
+RAPIDe-3
+CHAPTER-1 CHAPTER-3
+CHAPTER-4
+CREAATE
+[PDF PAGE 6]
+©2026
+RAPIDe-3 findings to date
+6
+This presentation includes data for an investigational product not yet approved by regulatory authorities.
+ECG, electrocardiogram; EoP, end of progression; HAE, hereditary angioedema; IR, immediate-release; LTP, long-term prophylaxis; TEAE, treatment-emergent adverse event. Riedl MA, et al. Lancet. 2026; In press.
+The study enrolled 134 participants
+with HAE globally, with 201 HAE
+attacks treated with double-blinded 
+study drug; 88 participants had paired 
+attacks for the primary analysis
+The study met the primary
+and all secondary endpoints, 
+demonstrating pronounced 
+efficacy in achieving swift EoP, 
+rapid symptom relief, and early 
+resolution of HAE attacks
+Deucrictibant IR showed 
+consistent efficacy in treating 
+HAE attacks, regardless of HAE 
+subtypes, age group, LTP use, 
+and attack severity and locations
+Deucrictibant IR was well 
+tolerated, with no safety 
+signals identified from TEAEs, 
+laboratory parameters, ECG, 
+and vital signs
+[PDF PAGE 7]
+©2026
+RAPIDe-3 trial design
+▪ Participants: adolescents (aged ≥12 to <18 years) and adults (aged ≥18 to ≤75 years) with HAE-C1INH type 1 or 2, or HAE-nC1INH. 
+Participants on long-term HAE prophylaxis were also enrolled.
+▪ Study drugs: participants self-administered deucrictibant IR capsule 20 mg or placebo to treat two qualifying attacks in a crossover 
+design. Qualifying attacks were defined as either a non-laryngeal attack with at least one symptom item score of ≥20 on the 
+Angioedema syMptom Rating scAle (AMRA) assessment, or a non-severe laryngeal attack without breathing difficulties or stridor.
+▪ Analysis sets: subgroup analysis included all participants with treated attacks. Safety analysis included all participants who received 
+≥1 dose of study drug.
+7
+This presentation includes data for an investigational product not yet approved by regulatory authorities.
+ePRO, electronic patient-reported outcome; HAE, hereditary angioedema; IR, immediate-release; OLE, open-label extension; R, randomisation. aAdolescent participants received a non-attack dose for pharmacokinetic sampling at Day 1 visit prior to 
+randomisation. bData from end-of-study visit could be used to qualify the participant for an open -label extension study with deucrictibant. Riedl MA, et al. Lancet. 2026; In press
+
+[PDF PAGE 8]
+©2026
+Selected efficacy endpointsa
+8
+This presentation includes data for an investigational product not yet approved by regulatory authorities.
+EoP, end of progression; HAE, hereditary angioedema; IR, immediate-release; PGI-C, Patient Global Impression of Change; PGI-S, Patient Global Impression of Severity. aThe primary and 3 of 11 hierarchical order-ranked secondary endpoints.
+bPGI-C “a little better”: Primary endpoint is time to onset of symptom relief, defined as PGI -C rating of at least “a little better” for 2 consecutive timepoints within 12 hours post -treatment; cPGI-S ≥1-level improvement: Time to substantial symptom 
+relief by PGI-S, defined as achieving ≥1-level improvement in PGI-S from pre-treatment for 2 consecutive timepoints within 12 hours post-treatment; dPGI-S “none”: Time to complete symptom resolution, defined as achieving PGI-S rating of “none” 
+within 48 hours post-treatment. 1. Cohn DM, et al. Clin Transl Allergy. 2023;13(9):e12288. 2. Mendivil J, et al. Clin Rev Allergy Immunol. 2026;69(1):14.
+Time (not to scale)
+Clinical manifestations
+Treatment with 
+deucrictibant IR Onset of 
+symptom relief
+Complete symptom 
+resolution
+Onset of HAE attack
+Reduction in 
+attack severity
+Primary endpoint
+PGI-C “A little 
+better”b
+PGI-S ≥1-level improvementc
+PGI-S “None”d
+Patient Global Impression of Change (PGI-C)1,2
+Much worse Worse A little worse Same A little better Better Much betterPGI-C
+Patient Global Impression of Severity (PGI-S)1,2
+PGI-S Very severe Severe Moderate Mild None
+[PDF PAGE 9]
+©2026
+Participant demographics and baseline disease characteristics
+9
+This presentation includes data for an investigational product not yet approved by regulatory authorities.
+BMI, body mass index; C1INH, C1 inhibitor; HAE, hereditary angioedema; LTP, long -term prophylaxis; nC1INH, normal C1 inhibitor; SD, standard deviation. aGeographic region of North America included Canada, Puerto Rico, United States of America; 
+Europe included Austria, Bulgaria, Czech Republic, France, Germany, Hungary, Italy, Netherlands, Poland, Spain, Sweden, Unite d Kingdom; Rest of World included Argentina, Australia, Brazil, Hong Kong, Japan, Saudi Arabia, South Africa, South Korea, 
+Turkey. bn=94. cIncluded participants with HAE-nC1NH associated with a documented genetic variant. dLTP medication included lanadelumab (6 [15.8%]), complement c1 inhibitor (4 [10.5%]), berotralstat (2 [5.3%]),and other (1 [2.6%]).
+eLTP medication included lanadelumab (7 [7.3%]), complement C1 inhibitor (2 [2.1%]), berotralstat (6 [6.3%]), and other (3 [3.1%]).
+39.0 (14.7)39.0 (14.9)Age in years, mean (SD)
+7 (7.3)3 (7.9)≥12 to <18, n (%)
+82 (85.4)34 (89.5)≥18 to <65, n (%)
+7 (7.3)1 (2.6)≥65, n (%)
+56 (58.3)20 (52.6)Sex: Female, n (%)
+25.5 (4.7)29.2 (7.8)BMI, mean (SD)
+Race, n (%)
+68 (70.8)25 (65.8)White
+18 (18.8)1 (2.6)Asian
+3 (3.1)7 (18.4)Black or African American
+01 (2.6)American Indian or Alaska Native
+4 (4.2)3 (7.9)Other
+3 (3.1)1 (2.6)Not reported
+16.5 (12.2)20.6 (14.7)Years since HAE diagnosis, mean (SD)
+4.8 (3.5)b3.4 (2.5)Number of attacks within 3 months before 
+screening, mean (SD)
+HAE type, n (%)
+83 (86.5)35 (92.1)HAE-C1INH type 1 
+10 (10.4)0HAE-C1INH type 2
+02 (5.3)Unspecified HAE-C1INH type 1 or 2
+3 (3.1)1 (2.6)HAE-nC1INHc
+18 (18.8)e13 (34.2)dCurrent LTP use, n (%)
+North America
+(N=38)a
+Europe/Rest of World 
+(N=96)aParticipant characteristics
+North America
+Europe / Rest of World
+[PDF PAGE 10]
+©2026
+Deucrictibant-treated attacks shown to achieve onset of symptom relief 
+faster than placebo-treated attacks in both subgroupsa,b
+10
+This presentation includes data for an investigational product not yet approved by regulatory authorities.
+CI, confidence interval; IR, immediate-release; PGI-C, Patient Global Impression of Change. aIf the event of interest was not achieved within the pre-specified timeframe, the attack was right censored at the last observation before the upper end of 
+the data entry window. For attacks with rescue medication use, they were treated as right censored at the upper end of the da ta entry window. bPGI-C rating of at least “a little better” for 2 consecutive timepoints within 12 hours post -treatment. 
+cNumber of participants with post-treatment data within specified timeframe. 
+0 1 2 3 4 5 6 7 8 9 10 11 12
+Time since study drug administration (hours)
+Deucrictibant IR
+Placebo
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+Proportion of attacks achieving
+onset of symptom relief
+1.28 hours
+(95% CI: 1.04, 1.41)
+>12 hours
+(95% CI: 5.74, >12)
+Censored
+Europe/Rest of World
+1.20 hours
+(95% CI: 0.84, 1.84)
+6.55 hours
+(95% CI: 1.88, >12)
+0 1 2 3 4 5 6 7 8 9 10 11 12
+Time since study drug administration (hours)
+Deucrictibant IR
+Placebo
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+Proportion of attacks achieving
+onset of symptom relief
+Censored
+North America
+Onset of symptom relief by 12 hoursa,b Onset of symptom relief by 12 hoursa,b
+(n=17/18c) 
+94.4%
+(n=15/26c) 
+57.7%
+(n=69/78c) 
+88.5%
+(n=35/72c) 
+48.6%
+Achieved milestone with deucrictibant IR Achieved milestone with placebo
+[PDF PAGE 11]
+©2026
+Higher proportion of attacks shown to achieve onset of symptom relief at 
+4 hoursa with deucrictibant compared with placebo in both subgroups 
+11
+This presentation includes data for an investigational product not yet approved by regulatory authorities.
+IR, immediate-release; PGI-C, Patient Global Impression of Change. aOnset of symptom relief was considered achieved at 4 hours if for an attack, the last or the second -to-last available value of PGI-C prior to 4 hours post-treatment achieved “a little 
+better" or higher response (“better“ or “much better") and was sustained for 2 consecutive timepoints. Attacks with no PGI -C recorded within 4 hours post-treatment were excluded from the analysis, unless there was an intercurrent event for that 
+attack, in which case the attack was considered as not achieving PGI-C “a little better” at 4 hours. bNumber on participants with PGI-C data within 4 hours post-treatment. 
+Deucrictibant IR Placebo
+Proportion of attacks
+0% 100%80%60%40%20%
+26.4% (n=19/72)b
+84.6% (n=66/78)b
+46.2% (n=12/26)b
+77.8% (n=14/18)b
+North America
+Europe/
+Rest of World
+[PDF PAGE 12]
+©2026
+Deucrictibant-treated attacks shown to achieve reduction in attack severity 
+faster than placebo-treated attacks in both subgroupsa,b
+12
+This presentation includes data for an investigational product not yet approved by regulatory authorities.
+CI, confidence interval; IR, immediate-release; PGI-S, Patient Global Impression of Severity. aIf the event of interest was not achieved within the pre-specified timeframe, the attack was right censored at the last observation before the upper end of 
+the data entry window. For attacks with rescue medication use, they were treated as right censored at the upper end of the da ta entry window. bA ≥1-level reduction in PGI-S score from pre-treatment for 2 consecutive timepoints within 12 hours 
+post-treatment. cNumber of participants with post-treatment data within specified timeframe.
+Europe/Rest of World
+0 1 2 3 4 5 6 7 8 9 10 11 12
+Time since study drug administration (hours)
+Deucrictibant IR
+Placebo
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+Proportion of attacks achieving
+reduction in attack severity
+2.53 hours
+(95% CI: 1.70, 2.98)
+>12 hours
+(95% CI: 12.10, >12)
+North America
+Censored
+0 1 2 3 4 5 6 7 8 9 10 11 12
+Time since study drug administration (hours)
+Deucrictibant IR
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+Proportion of attacks achieving
+reduction in attack severity
+Placebo
+2.43 hours
+(95% CI: 1.03, 5.12)
+>12 hours
+(95% CI: 2.65, >12)
+Censored
+Reduction in attack severity by 12 hoursa,b Reduction in attack severity by 12 hoursa,b
+(n=15/18c) 
+83.3%
+(n=12/25c) 
+48.0%
+(n=64/78c) 
+82.1%
+(n=26/69c) 
+37.7%
+Achieved milestone with deucrictibant IR Achieved milestone with placebo
+[PDF PAGE 13]
+©2026
+Deucrictibant-treated attacks shown to achieve complete symptom 
+resolution faster than placebo-treated attacks in both subgroupsa,b
+13
+This presentation includes data for an investigational product not yet approved by regulatory authorities.
+CI, confidence interval; IR, immediate-release; PGI-S, Patient Global Impression of Severity. aIf the event of interest was not achieved within the pre-specified timeframe, the attack was right censored at the last observation before the upper end of 
+the data entry window. For attacks with rescue medication use, they were treated as right censored at the upper end of the da ta entry window. bPGI-S rating of “none” within 48 hours post-treatment. cNumber of participants with post-treatment data 
+within specified timeframe.
+12.04 hours
+(95% CI: 8.64, 21.79)
+>48 hours
+(95% CI: >48, >48)
+0 4 8 12 18 24 36 48
+Time since study drug administration (hours)
+Deucrictibant IR
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+Proportion of attacks achieving
+complete symptom resolution
+Placebo
+Censored
+Europe/Rest of WorldNorth America
+11.61 hours
+(95% CI: 2.94, 26.14)
+>48 hours
+(95% CI: 17.21, >48)
+0 4 8 12 18 24 36 48
+Time since study drug administration (hours)
+Deucrictibant IR
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+Proportion of attacks achieving
+complete symptom resolution
+Placebo
+Censored
+Complete symptom resolution at 48 hoursa,b Complete symptom resolution at 48 hoursa,b
+(n=16/18c) 
+88.9%
+(n=13/26c) 
+50.0%
+(n=60/78c) 
+76.9%
+(n=25/72c) 
+34.7%
+Achieved milestone with deucrictibant IR Achieved milestone with placebo
+[PDF PAGE 14]
+©2026
+>121.28>121.286.551.20Time to onset of symptom relief, h
+48.390.448.688.557.794.4Proportion of attacks achieving onset of symptom 
+relief by 12 hours, %
+27.683.126.484.646.277.8Proportion of attacks achieving onset of symptom 
+relief at 4 hours, %
+>12 2.41 >12 2.53 >12 2.43 Time to reduction in attack severity, h
+38.1e85.537.7d82.148.0c83.3Proportion of attacks achieving reduction in attack 
+severity by 12 hours, %
+>4811.95>4812.04>4811.61Time to complete symptom resolution, h
+36.881.934.776.950.088.9Proportion of attacks achieving complete 
+symptom resolution at 48 hours, %
+Regional subgroup results were consistent with the overall 
+RAPIDe-3 population
+14
+This presentation includes data for an investigational product not yet approved by regulatory authorities.
+IR, immediate-release. aAll participants with treated attacks: deucrictibant IR, n = 101; placebo, n = 100. bPrimary efficacy analysis set: deucrictibant IR, n = 88; placebo, n = 88.cn total = 25; dn total = 69; en total = 84.
+Europe/Rest of Worlda
+Outcome
+OverallbNorth Americaa
+Deucrictibant 
+IR (n=18)
+Placebo
+(n=26)
+Deucrictibant 
+IR (n=83)
+Placebo
+(n=87)
+Deucrictibant 
+IR (n=78)
+Placebo
+(n=72)
+[PDF PAGE 15]
+©2026
+Deucrictibant was generally well tolerated, with no serious adverse events, 
+no severe TEAEs, and no discontinuations due to TEAEsa,b
+▪ The only event reported more than once within 3 days post-treatment was fatigue: a single event was reported by 
+2 participants, one of which was deemed unrelated to treatment by the investigator.
+▪ No adverse events occurring within 3 days post-treatment were assessed as severe or serious, led to treatment 
+discontinuation, or were associated with changes in clinical laboratory, vital signs, or electrocardiogram parameters.
+15
+This presentation includes data for an investigational product not yet approved by regulatory authorities.
+EU/RoW, Europe/Rest of World; IR, immediate-release; NA, North America; TEAE, treatment-emergent adverse event. N refers to the total number of participants w ho received ≥1 dose of study drug. Percentage is calculated based on the N in the 
+header; percentage = 100 x n/N where N is the number of participants. aData based on safety analysis set. bTEAE defined as an AE from the first study drug administration through the end of study visit. cAdolescent participants only. dDefined as the 
+number of participants with an adverse event that began within 3 days post -treatment of non-attack period and before the next administration of study drug. eDefined as the number of participants with an adverse event that started within 3 days 
+post-treatment of attack. fOne related TEAE of headache in deucrictibant-treated participants in the North America subgroup, and one related TEAE each of dyspepsia, fatigue, lethargy, brain fog, and somnolence in deucrictibant-treated participants, 
+and 1 event of pruritus in placebo-treated participants in the Europe/Rest of World subgroup. gAll reported TEAEs were graded 1 (mild) or 2 (moderate) and there were no reported TEAEs graded 4 (life -threatening) or 5 (fatal). 
+21 (1.3)11 (3.8)109 (11.4)76 (28.6)0000Any TEAE
+11 (1.3)0054 (5.1)11 (4.8)0000Treatment-related TEAEsf
+000000000000Any severe TEAEg
+000000000000Serious TEAEs
+000000000000TEAEs leading to study drug discontinuation, 
+study withdrawal, or death
+Treated attacks: 
+placebo
+Adverse events occurring within 3 days 
+post-treatment
+Non-attack: 
+deucrictibant IRc
+NA (N=3) EU/RoW (N=7)
+Treated attacks:
+deucrictibant IR
+NA (N=21) EU/RoW (N=79) NA (N=26) EU/R0W (N=75)
+n (%)d
+no. of 
+events n (%)d
+no. of 
+events n (%)e
+no. of 
+events n (%)e
+no. of 
+events n (%)e
+no. of 
+events n (%)e
+no. of 
+events
+[PDF PAGE 16]
+©2026
+Conclusions
+▪ Results from the pivotal RAPIDe-3 trial for the treatment of attacks in HAE, including HAE-nC1INH, provide further 
+evidence on the rapid and sustained efficacy, safety, and tolerability of the orally administered B2R antagonist 
+deucrictibant IR capsule. 
+▪ In this subgroup analysis, orally administered deucrictibant IR capsule provided faster onset of symptom relief, 
+reduction in attack severity, and complete resolution in both the NA and EU/RoW subgroups compared with 
+placebo. 
+— Data were consistent across geographical locations and with the overall study population.
+16
+This presentation includes data for an investigational product not yet approved by regulatory authorities.
+B2R, bradykinin B2 receptor; EU/RoW, Europe/Rest of World; HAE, hereditary angioedema; HAE-nC1INH, Hereditary Angioedema with Normal C1 Inhibitor; IR, immediate-release; NA, North America; TEAE, treatment-emergent adverse event.
+The Authors and the Sponsor would like to thank all the people with HAE
+as well as all study Sites’ staff who participated in the RAPIDe-3 trial.
+Deucrictibant IR was 
+generally well tolerated 
+with no severe or serious 
+treatment-related TEAEs
+Median time to 
+onset of symptom relief
+(primary endpoint)
+1.20 
+hours
+1.28 
+hours
+Median time to 
+reduction in attack 
+severity
+2.43 
+hours
+2.53 
+hours
+Median time to 
+complete symptom 
+resolution
+11.61 
+hours
+12.04
+hours
+NA EU/RoW NA EU/RoW NA EU/RoW

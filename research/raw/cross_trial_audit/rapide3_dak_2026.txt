@@ -1,0 +1,245 @@
+[PDF PAGE 1]
+Oral verabreichte Deucrictibant-Kapsel mit sofortiger Wirkstoff-
+freisetzung zur Bedarfsbehandlung von Attacken bei hereditärem 
+Angioödem: Ergebnisse der Phase-III-Studie RAPIDe-3
+Markus Magerl,1,2 Marc A. Riedl,3 Philip H. Li,4 Adil Adatia,5 Mauro Cancian,6 Marcin Stobiecki,7 Anna Valerieva,8 Anete S. Grumach,9 William R. Lumry,10 Daniel F. Soteres,11
+Nicholas Brodszki,12 Natalia L. Fili,13 Roman Hakl,14 Hye-Ryun Kang,15,16,17,18 Gul Karakaya,19 Birger Kränke,20 H. Henry Li,21 Jonny Peter,22,23 Andreas Recke,24 Raffi Tachdjian,25
+Paola Triggianese,26 Andrea Zanichelli,27,28 John Anderson,29 Emel Aygören-Pürsün,30 Timothy J. Craig,31,32 Henriette Farkas,33 Francesco Giardino,34 Pedro Giavina-Bianchi,35 Sujeong Kim,36
+Tamar Kinaciyan,37 Inmaculada Martinez-Saguer,38 Francesca Perego,39 Karl V. Sitz,40 Maria Staevska,8 H. James Wedner,41 Rafael H. Zaragoza-Urdaz,42 Ricardo D. Zwiener,43 Asli Gelincik,44
+Francesco Arcoleo,45 Rand Arnaout,46 Alan P. Baptist,47 Régis Albuquerque Campos,48 Anthony D. Dorr,49 Mariana Paes Leme Ferriani,50 Atsushi Fukunaga,51 Delphine Gobert,52
+Padmalal Gurugama,53 Michihiro Hide,54 David I. Hong,55 Eisuke Inage,56 Joshua S. Jacobs,57 Constance H. Katelaris,58 Lucy Leeman,59 Ramón Lleonart,60 Michael E. Manning,61
+Satoshi Mano,62 Seido Ooka,63 Cristina J. Ramos,64 Jinzhong Liu,65 Li Zhu,65 Joan Mendivil,66 Umar Katbeh,66 Giorgio Giannattasio,66 Rafael Crabbé,67 Ming Yu,65 Anne Lesage,68 Peng Lu,65
+Danny M. Cohn69
+1Institut für Allergieforschung, Charité – Universitätsmedizin Berlin, Deutschland; 2Fraunhofer Institut für Translationale Medizin und Pharmakologie ITMP, Deutschland; 3University of California San Diego, USA; 4Queen Mary Hospital, SAR Hongkong, China; 5University of Alberta, Kanada; 6Azienda Ospedale Università di Padova, 
+Italien; 7Collegium Medicum, Jagiellonen- Universität, Polen; 8Medizinische Universität Sofia, Bulgarien; 9Centro Universitario FMABC, Brasilien; 10AARA Research Center, USA; 11Asthma & Allergy Associates and Research Center, USA; 12Skåne-Universitätsklinikum, Schweden; 13Hospital Público Materno, Argentinien;                              
+14Fakultätskrankenhaus zu St. Anna in Brünn, Tschechische Republik; 15Seoul National University College of Medicine, Südkorea; 16Seoul National University Hospital, Südkorea; 18Korean Drug Allergy Research Consortium, Südkorea; 19Medizinische Fakultät, Hacettepe-Universität, Türkei; 20Medizinische Universität Graz, Österreich; 
+21Institute for Asthma and Allergy, USA; 22Groote Schuur Hospital, Südafrika; 23University of Cape Town Lung Institute, Südafrika; 24Universität zu Lübeck, Deutschland; 25University of California at Los Angeles, USA; 26Universität Tor Vergata, Rom, Italien; 27Università degli Studi di Milano, Italien; 28I.R.C.C.S., Italien; 29AllerVie Health, 
+USA; 30Goethe-Universität Frankfurt, Deutschland; 31Penn State University, USA; 32Vinmec Hospital and Vin University, Vietnam; 33Hungarian Angioedema Center of Reference and Excellence, Ungarn; 34A.O.U. Policlinico „G. Rodolico-San Marco“, Italien; 35Disciplina de Imunologia Clínica e Alergia da FMUSP, Brasilien; 36Kyungpook 
+National University Hospital, Südkorea; 37Medizinische Universität Wien, Österreich; 38HZRM Hämophilie-Zentrum Rhein Main GmbH, Deutschland; 39Istituti Clinici Scientifici Maugeri IRCCS, Italien; 40Acuro Research, Inc, USA; 41Washington University School of Medicine, USA; 42University Pediatric Hospital, Puerto Rico; 43Hospital 
+Universitario Austral, Argentinien; 44Universität Istanbul, Türkiye; 45AOR Villa Sofia-Cervello, Italien; 46King Faisal Specialist Hospital & Research Center, Saudi-Arabien; 47Henry Ford Health, USA; 48Ensino e Terapia de Inovação Clinica AMO, Brasilien; 49Barts Health NHS Trust, Vereinigtes Königreich; 50Universität von São Paulo, 
+Brasilien; 51Osaka Medical and Pharmaceutical University, Japan; 52Sorbonne Université, Frankreich; 53Cambridge University Hospitals NHS Foundation Trust, Vereinigtes Königreich; 54Hiroshima University and Hiroshima City Hospital Organization, Japan; 55Harvard Medical School and Brigham and Women’s Hospital, USA; 56Juntendo 
+University Faculty of Medicine, Japan; 57Allergy and Asthma Clinical Research, USA; 58Campbelltown Hospital and Western Sydney University, Australien; 59University Hospitals Plymouth NHS Trust, Vereinigtes Königreich; 60Universitätsklinikum Bellvitge, Spanien; 61Allergy, Asthma and Immunology Associates, Ltd., USA; 62Juntendo 
+University Hospital, Japan; 63St. Marianna University School of Medicine Hospital, Japan; 64FDI Clinical Research, Puerto Rico; 65Pharvaris Inc., USA; 66Pharvaris GmbH, Schweiz; 67RC Consultancy, Schweiz; 68GrayMatters Consulting, Belgien; 69Universität von Amsterdam, Niederlande
+M.M.: Astria, Argo, BioCryst, CSL Behring, Intellia, KalVista, Octapharma, Otsuka, Pharvaris, Takeda; M.A.R.: ADARx, Astria, BioCryst, BioMarin, Celldex, CSL Behring, Cycle Pharma, Grifols, Intellia, Ionis, KalVista, Novartis, Pharming, Pharvaris, Sanofi-Regeneron, Takeda; P.H.L.: Astria, BioCryst, CSL Behring, Novartis, KalVista, 
+Pharvaris, Takeda; A.A.: Astria, BioCryst, CSL Behring, Intellia, Ionis Pharmaceuticals, Kalvista, Octapharma, Pendopharm, Pharvaris, Takeda; M.C.: ADARx, BioCryst, CSL Behring, Gentili, KalVista, Menarini, MSD, NeoPharmed Novartis, Otsuka, Pharming, Pharvaris, Sobi, Takeda, UCB; M.S.: BioCryst, CSL Behring, KalVista, 
+Pharming, Pharvaris, Takeda; A.V.: Shire/Takeda, Pharming Group N. V., CSL Behring, SOBI, AstraZeneca, Berlin-Chemie/Menarini Group, Teva, Novartis, Ewopharma, Stallergenes Greer, Pharvaris, KalVista, Ionis, Astria Pharmaceuticals und Organon; A.S.G.: Brasilianische Forschungseinrichtung (CNPq), AstraZeneca, Astria, The 
+Binding Site, Catalyst, CSL Behring, Exeltis, KalVista, Multicare, Pharvaris, Pint-Pharma, Multicare, Biomarin,Takeda und Kedrion; W.R.L.: AstraZeneca, Astria, BioCryst, BioMarin, CSL Behring, Fresenius-Kabi, GlaxoSmithKline, Grifols, Intellia, Ionis, KalVista, Magellan, Optinose, Pharming, Pharvaris, Regeneron, Sanofi, Takeda, Teva; 
+D.F.S.: Biocryst, CSL Behring, Intellia, Ionis, Kalvista, Pharvaris, Takeda; N.B.: nichts offenzulegen; N.L.F.: Bago, CSL Behring, Pint Pharm, Sanofi, Takeda; R.H.: CSL Behring, Takeda, Genesis Pharma, BioCryst, KalVista, Pharvaris, Pharming; H.R.K.: Astria, BioCryst, CSL Behring, KalVista, Pharvaris, Takeda; G.K.: Polifarma, CSL 
+Behring, Takeda, Vem İlaç, Er-kim İlaç, Ionis, Pharvaris; B.K.: Pharvaris; H.H.L.: BioCryst, CSL Behring, Pharming, Takeda, Intellia, Ionis, Pharvaris; J.P.: Pharming, Takeda; A.R.: Deutsche Forschungsgemeinschaft (DFG), EUROIMMUN Medizinische Labordiagnostika AG, BioCryst Pharma, Pierre Fabre Pharma, BioC ryst Pharma 
+Deutschland (Neopharmed Gentili), CSL Behring, Swedish Orphan Biovitrum, Novartis Deutschland, Pharming Group NV, Stallergenes, Otsuka, Takeda; R.T.: ADMA, Astria, BioCryst, CSL Behring, Intellia, Ionis, KalVista, Pharvaris, Takeda, AstraZeneca, ARS, BioCryst, Grifols, GlaxoSmithKline, Lilly, Novartis, Pharming, 
+Sanofi/Regeneron; D.F.S.: CSL Behring, KalVista, Biocryst, Abbvie, Takeda; A.Z.: Astria, BioCryst, CSL Behring, Intellia, KalVista, Otsuka, Pharming, Pharvaris, Takeda; J.A.: BioCryst, CSL Behring, Pharming, Takeda und KalVista, Pharvaris, Ionis, Astria Therapeutics; E.A.P.: Astria, BioCryst, BioMarin, CSL Behring, Intellia, KalVista, 
+Otsuka, Pharming, Pharvaris, Takeda; T.C.: Astria, BioMarin, CSL Behring, KalVista Pharma, Ionis und Takeda, ADARx, ARGO, GlaxoSmithKline, Ionis, Intellia, BioMarin und Pharvaris, Grifols, ADARx, BioCryst, Intellia, ACARE International Hereditary Angioedema Center, Medical Advisory Board for the H AE-A; H.F.: CSL Behring, 
+Takeda, Pharming, Kalvista, Pharvaris, Biocryst, Astria, Intellia, Ionis, ADARx, Pharming, Otsuka; F.G.: BioCryst, CSL Behring, Ionis, KalVista Pharmaceuticals und Takeda; P.G.B.: CSL Behring, Pharvaris, Pint Pharma, Takeda, World Allergy Organization, Associação Brasileira de Alergia e Imunologia; S.K.: nichts offenzulegen;      
+T.K.: ADARx, Astria, BioCryst, CSL Behring, KalVista, Otsuka, Pharvaris, Sanofi/Regeneron, Takeda; I.M.S.: BioCryst, CSL Behring, KalVista, Pharming, Pharvaris, Octapharma, Takeda; F.P.: BioCryst, CSL Behring, Pharvaris, Takeda, Otsuka; K.V.S.: Achieve Life Sciences, ADARx, AstraZeneca, Astria, Bellus, BioCryst, CSL Behring, 
+Evidera, GlaxoSmithKline, Jasper, KalVista, Nocion, Novartis, Pharvaris und Teva; M.S.: nichts offenzulegen; H.J.W.: BioCryst, BioMarin, CSL Behring, Genentech, GlaxoSmithKline, Takeda; R.H.Z.U.: Takeda, BioCryst, Pharming, KalVista; R.D.Z.: CSL Behring, Novartis, Panalab, Pint-Pharma, Sanofi, Takeda, AbbVie, Bago, KalVista, 
+Pharvaris; A.G.: AstraZeneca, CSL, Erkim İlaç, GlaxoSmithKline, Ionis Pharmaceuticals, Novartis, Pharvaris und Takeda; F.A.: BioCryst, CSL Behring, KalVista, Otsuka, Takeda; R.A.: nichts offenzulegen; A.P.B.: KalVista, Pharvaris, Takeda; R.d.A.C.: CSL Behring, Pharvaris, Pint Pharma, Takeda; A.D.D.: Astria, BioCryst, CSL Behring, 
+Ionis, KalVista, Otsuka, Takeda; M.P.L.F.: Pharvaris, Pint Pharma, Takeda; A.F.: Pharvaris, KalVista, CSL Behring, Takeda, BioCryst, Kaken und Torii; D.G.: BioCryst, CSL Behring, Takeda, Kalvista, Ionis, Otsuka, Pharvaris, Astria; P.G.: BioCryst, KalVista, Takeda, CSL Behring, Pharming; M.H.: Astria, BioCryst, CSL Behring, Kaken, 
+KalVista, Torii, Otsuka, Pharvaris, Takeda; D.I.H.: KalVista, Pharvaris; E.I.: BioCryst, CSL Behring, KalVista, Kao Corporation, Pharvaris, Takeda und Torii; J.S.J.: BioCryst, CSL Behring, Cycle Pharma, Pharming, Takeda, Intellia, KalVista, Pharvaris; C.H.K.: CSL Behring, GlaxoSmithKline, Pharvaris, Novartis, AstraZeneca, Sanofi, 
+Takeda; L.L.: Novartis, Takeda, BioCryst, CSL Behring; R.L.: BioCryst, CSL Behring, Ionis, KalVista, Otsuka, Pharvaris und Takeda; M.E.M.: Astria, BioCryst, CSL Behring, Ionis, Intellia, Takeda, Pharming, Pharvaris, KalVista, Novartis, GlaxoSmithKline, Celldex, Merck, Cogent, Teva, AstraZeneca, Regeneron, Blueprint; S.M.: nichts 
+offenzulegen; S.O.: nichts offenzulegen; C.J.R.: Amgen, GlaxoSmithKline, Pfizer, Pharvaris, Sanofi, Takeda; J.L.: Pharvaris; L.Z.: Pharvaris; J.M.: Pharvaris; U.K.: Pharvaris; G.G.: Pharvaris; R.C.: RC Consultancy, Pharvaris; M.Y.: Pharvaris; A.L.: GrayMatters, Kosa Pharma, Pharvaris; P.L.: Pharvaris; D.M.C.: ADARx, Astria 
+Therapeutics, BioCryst, CSL Behring, Gentili Neopharma, Ionis, Intellia, KalVista, Otsuka, Pharvaris, Takeda.
+Posternummer: A-114 
+RAPIDe3 (NCT06343779) wurde 
+von Pharvaris gesponsert.
+[PDF PAGE 2]
+und Takeda
+AstraZeneca, CSL, Erkim İlaç, GSK, Ionis 
+Pharmaceuticals, Novartis, Pharvaris und Takeda
+• Orales Deucrictibant: Ein in der Entwicklung befindlicher, starker, selektiver 
+Bradykinin-B2-Rezeptor-Antagonist sowohl zur prophylaktischen und 
+bedarfsweisen Behandlung von bradykininvermittelten Angioödem-Attacken.1–7
+• RAPIDe-3 (NCT06343779): Eine globale, randomisierte, doppelblinde, 
+placebokontrollierte Phase-III-Studie zur Beurteilung der Wirksamkeit, 
+Sicherheit und Verträglichkeit einer oral verabreichten Deucrictibant-Kapsel mit 
+sofortiger Wirkstofffreisetzung (IR) zur Bedarfsbehandlung von Attacken bei 
+Jugendlichen und Erwachsenen mit hereditärem Angioödem (HAE), 
+einschließlich Teilnehmer mit HAE mit normalem C1-Inhibitor (HAE-nC1INH).3
+Studiendesign RAPIDe-3
+ePRO: elektronisch erfasste patientenberichtete Ergebnisse; HAE: hereditäres Angioödem; IR: sofortige Wirkstofffreisetzung; O LE: 
+offene Verlängerung; R: Randomisierung. ClinicalTrials.gov-Kennung von RAPIDe-3: NCT06343779. aJugendliche Teilnehmer 
+erhielten beim Termin an Tag 1 vor der Randomisierung eine Dosis außerhalb einer Attacke zur pharmakokinetischen 
+Probenahme. bDaten aus dem Termin zum Studienende konnten verwendet werden, um die Eignung des Teilnehmers für eine 
+OLE-Studie mit Deucrictibant zu bestätigen. cOptionaler Übergang in die OLE. 
+Termin 
+Tag 1a
+Übergang 
+zur OLEc
+Deucrictibant IR
+20 mg
+Placebo
+Placebo
+Deucrictibant IR 
+20 mg
+Termin zum 
+Studienendeb 
+nach der zweiten 
+mit dem Studien-
+medikament 
+behandelten HAE-
+Attacke
+Termin nach der ersten mit dem 
+Studienmedikament behandelten HAE-
+Attacke
+Doppelblinde Crossover-Behandlung mit 
+ zwei Behandlungsperioden bei geeigneten 
+Attacken
+R
+Screening 
+und ePRO-
+Schulung
+• Teilnehmer: Jugendliche (im Alter von ≥ 12 bis < 18 Jahren) und Erwachsene (im 
+Alter von ≥ 18 bis ≤ 75 Jahren) mit HAE-C1INH Typ 1 oder 2 oder HAE-nC1INH, 
+einschließlich Teilnehmer unter HAE-Langzeitprophylaxe.
+Einführung
+Diese Präsentation enthält Daten zu einem Prüfpräparat, das von den Zulassungsbehörden noch nicht zugelassen wurde.
+Methoden
+Methoden
+• Selbstverabreichung einer Kapsel Deucrictibant IR 
+20 mg oder eines Placebos zur Behandlung von zwei                                        
+qualifizierenden Attacken in einem Crossover-Design.
+• Qualifizierende Attacken: Entweder eine nicht laryngeale Attacke mit einem 
+„Angioedema syMptom Rating scAle“ (AMRA)-Wert ≥ 20 für mindestens ein Symptom 
+oder eine nicht schwere laryngeale Attacke ohne Atemnot oder Stridor.
+• Insgesamt 134 Teilnehmer (10 [7,5 %] Jugendliche, 4 [3,0 %] mit 
+HAE-nC1INH) wurden an 59 Prüfzentren in 24 Ländern auf 6 Kontinenten 
+aufgenommen und randomisiert.
+• Das primäre Wirksamkeitsanalyseset umfasste 88 Teilnehmer mit gepaarten Attacken; 
+113 Teilnehmer hatten ≥ 1 Attacke, der mit dem Studienmedikament behandelt wurde.
+Ergebnisse
+Primärer Endpunkt: Signifikant schnelleres Einsetzen der 
+Symptomlinderung mit Deucrictibant IR im Vergleich zu Placeboa,b
+IR: sofortige Wirkstofffreisetzung; KI: Konfidenzintervall; PGI -C: Gesamteinschätzung der Veränderung aus Sicht des Patienten. aWenn das 
+Ereignis von Interesse nicht innerhalb des vorgegebenen Zeitrahmens erreicht wurde, wurde die Attacke bei der letzten Beobachtung vor dem 
+oberen Ende des Dateneingabefensters rechts zensiert. Bei Attacken, bei denen Notfallmedikation eingesetzt wurde, erfolgte ei ne 
+Behandlung als rechts zensiert am oberen Ende des Dateneingabefensters. bPGI-C-Bewertung von mindestens „etwas besser“ zu zwei 
+aufeinanderfolgenden Zeitpunkten innerhalb von 12 Stunden nach der Behandlung.
+100 %
+80 %
+70 %
+60 %
+50 %
+40 %
+30 %
+20 %
+10 %
+0 %
+0 1 2 3 4 5 6 7 8 9 10 11 12
+Zeit seit Verabreichung des Studienmedikaments (Stunden)
+Anteil der Attacken, bei 
+denen eine Symptom-
+linderung eingesetzt hat
+90 %
+Zensiert
+Deucrictibant
+Placebo
+p < 0,0001
+1,28 Stunden
+(95%-KI: 1,05, 1,52)
+> 12 Stunden
+(95%-KI: 5,82, > 12)
+[PDF PAGE 3]
+und Takeda
+und Takeda
+• Die Ergebnisse der Schlüsselstudie RAPIDe-3 liefern weitere Belege für die rasche 
+und anhaltende Wirksamkeit, Sicherheit und Verträglichkeit des oral verabreichen 
+Bradykinin-B2-Rezeptor-Antagonisten Deucrictibant IR. Diese Studie erreichte ihren 
+primären und alle elf sekundären Wirksamkeitsendpunkte.
+Deucrictibant IR wurde im Allgemeinen gut 
+vertragen, ohne schwerwiegende TEAE innerhalb 
+von 3 Tagen nach der Behandlung
+TEAE: unter der Behandlung auftretendes unerwünschtes Ereignis. N bezieht sich auf die Gesamtzahl der Teilnehmer, die ≥ 1 Dosis des 
+Studienmedikaments erhalten haben. Der Prozentsatz wird basierend auf dem N in der Kopfzeile berechnet; Prozentsatz = 100 × n/N, wobei N 
+die Anzahl der Teilnehmer ist. aNur jugendliche Teilnehmer. bDefiniert als die Anzahl Teilnehmer, bei denen ein unerwünschtes Ereignis 
+innerhalb von 3 Tagen nach der Behandlung in einer attackfreien Periode und vor der nächsten Verabreichung des Studienmedikament s auftrat. 
+cDefiniert als die Anzahl Teilnehmer, bei denen ein unerwünschtes Ereignis innerhalb von 3 Tagen nach der Behandlung einer Attacke auftrat. 
+dJeweils ein TEAE aus Dyspepsie, Fatigue, Lethargie, Bewusstseinstrübung („Brain Fog“), Kopfschmerzen und Somnolenz bei mit Deucr ictibant 
+behandelten Teilnehmern sowie ein Ereignis von Pruritus bei mit Placebo behandelten Teilnehmern. eAlle berichteten TEAE wurden als Grad 1 
+(leicht) oder Grad 2 (mittelschwer) eingestuft; es wurden keine TEAE des Grades 4 (lebensbedrohlich) oder 5 (tödlich) gemeldet. 
+Behandelte Attacke
+Placebo
+(N = 101)
+Außerhalb einer Attacke
+Deucrictibant
+(N = 10)a
+Behandelte Attacke
+Deucrictibant
+(N = 100)
+Unerwünschte Ereignisse n (%)b Anz. Ereignisse n (%)c Anz. Ereignisse n (%)c Anz. Ereignisse
+Jegliche TEAE 0 0 15 (15,0) 17 2 (2,0) 3
+Behandlungsbedingte TEAEd 0 0 5 (5,0) 6 1 (1,0) 1
+Jegliche schwere TEAEe 0 0 0 0 0 0
+Schwerwiegende TEAE 0 0 0 0 0 0
+TEAE, die zum Absetzen 
+des Prüfpräparats, zum 
+Ausscheiden aus der Studie 
+oder zum Tod führten
+0 0 0 0 0 0
+Ergebnisse
+Schlussfolgerungen
+IR: sofortige Wirkstofffreisetzung; KI: Konfidenzintervall; PGI -C: Gesamteinschätzung der Veränderung aus Sicht des Patienten; P GI-S: 
+Gesamteinschätzung des Schweregrads aus Sicht des Patienten. a Wenn das Ereignis von Interesse nicht innerhalb des vorgegebenen 
+Zeitrahmens erreicht wurde, wurde die Attacke bei der letzten Beobachtung vor dem oberen Ende des Dateneingabefensters rechts  zensiert. 
+Die Attacken, bei denen Notfallmedikation eingesetzt wurde, erfolgte eine Behandlung als rechts zensiert am oberen Ende des 
+Dateneingabefensters. bPGI-S-Bewertung „keine“ innerhalb von 48 Stunden nach der Behandlung. 
+1. Maurer, M., et al. Lancet Haematol. 2026; 13 (4): e200–214. 2. RAPIDe-2: https://clinicaltrials.gov/study/NCT05396105. Zugriff am 17. August 
+2026. 3. Riedl, M. A., et al. Lancet. 2026; im Erscheinen. 4. Aygören-Pürsün, E., et al. Lancet Haematol . 2026; 13 (4): e215–226. 5. CHAPTER-
+3. https://clinicaltrials.gov/study/NCT06669754. Zugriff am 17. August 2026. 6. CHAPTER-4. https://clinicaltrials.gov/study/NCT06679881. 
+Zugriff am 17. August 2026. 7. CREAATE. https://clinicaltrials.gov/study/NCT07266805. Zugriff am 17. August 2026.
+Literatur
+100 %
+90 %
+80 %
+70 %
+60 %
+50 %
+40 %
+30 %
+20 %
+10 %
+0 %
+0 1 2 3 4 5 6 7 8 9 10 11 12
+Zeit seit Verabreichung des Studienmedikaments (Stunden)
+Anteil der Attacken, bei denen
+ein EoP der Attackensymptome 
+erreicht wurdea,b
+Deucrictibant IR
+Placebo
+17,47 Minuten
+(95%-KI: 16,27,19,17)
+228,67 Minuten
+(95%-KI: 61,82, 599,60)
+0,25 0,750,50
+p < 0,0001
+Zensiert
+Das EoP der HAE-Attacken wurde mit Deucrictibant IR signifikant schneller 
+erreicht als mit Placeboa,b
+EoP: Ende des Fortschreitens; IR: sofortige Wirkstofffreisetzung; KI: Konfidenzintervall; PGI -C: Gesamteinschätzung der Veränderung aus 
+Sicht des Patienten. aWenn das Ereignis von Interesse nicht innerhalb des vorgegebenen Zeitrahmens oder der Notfallmedikation erreicht 
+oder eine Notfallmedikation eingesetzt wurde, wurde die Attacke bei der letzten Beobachtung vor dem oberen Ende des Dateneingabe-
+fensters rechts zensiert. bDie Zeit bis zum EoP der HAE-Attacken war der früheste Zeitpunkt nach der Behandlung, nach dem alle folgenden 
+PGI-C-Bewertungen gleichbleibend oder besser waren. 
+Ein vollständiges Abklingen der Symptome wurde mit Deucrictibant IR 
+signifikant schneller erreicht als mit Placeboa,b
+Placebo
+Deucrictibant IR11,95 Stunden
+(95%-KI: 8,61, 21,79)
+100 %
+90 %
+80 %
+70 %
+60 %
+50 %
+40 %
+30 %
+20 %
+10 %
+0 %
+Zeit seit Verabreichung des Studienmedikaments (Stunden)
+Anteil der Attacken, bei denen 
+ein vollständiges Abklingen der 
+Symptome erreicht wurdea,b
+> 48 Stunden
+(95%-KI: > 48,> 48)
+0 4 8 12 18 24 36 48
+Zensiert
+p < 0,0001
