@@ -7,6 +7,7 @@ The working emphasis is commercial execution conditional on approval, with a rig
 ## Start here
 
 1. [Current conclusions, corrections and unresolved questions](CURRENT_RESEARCH.md).
+   The latest [patient-based IR/XR SOTP framework and analogue screen](output/PHVS_SOTP_patient_segmentation_framework_2026-10-07.txt) records the user's neutral long/short modeling direction, patient segments and evidence requirements.
 2. [Initial research memo](output/Pharvaris_research_memo_2026-10-06.docx). This is a historical synthesis: use the updates below where they conflict.
 3. [RAPIDe-3 detailed clinical audit](output/RAPIDe-3_granular_data_audit_2026-10-06.txt) and [patient disposition data](output/RAPIDe-3_patient_disposition.csv).
 4. [Payer access audit](output/HAE_payer_access_audit_2026-10-06.txt).

@@ -1,0 +1,57 @@
+PHVS working thesis and patient-based SOTP framework — 7 October 2026
+
+USER DIRECTION
+Remain open to long or short. Size actual reachable demand rather than infer adoption from oral convenience or successful efficacy. Separate deucrictibant immediate-release (IR), for on-demand attacks, and extended-release (XR), for prevention. The intended comparator is berotralstat/Orladeyo; the spoken references to baricitinib, adalimumab and deucravacitinib do not identify the drugs under analysis. No completed DCF or price target authorized by this framework alone.
+
+XR: MUTUALLY EXCLUSIVE CURRENT-TREATMENT STATES
+1. No long-term prophylaxis (acute-only/untreated after diagnosis). Segment by attack burden, willingness to take daily prevention, access and medical suitability. Includes those for whom current oral or injectable options are unacceptable; do not assume all should or want to start prophylaxis.
+2. Injectable prophylaxis. Segment by control, injection burden, preference, prior Orladeyo experience and reason for remaining injectable. Not having switched to Orladeyo does not prove a considered rejection: alternatives include satisfaction, access, lack of discussion, intolerance or inadequate response. Estimate willingness to switch to PHVS conditional on its demonstrated incremental value.
+3. Orladeyo. Segment well-controlled/satisfied patients, breakthrough attacks, adverse effects, adherence burden and other dissatisfaction. Symptoms and dissatisfaction overlap: use joint categories or a union, not a sum. Current retained users may be selected responders and must not all be assigned the original trial average.
+4. Other prevention, including androgens where applicable. Capture separately rather than omit or silently treat as modern oral-targeted prevention.
+New diagnoses enter these states over time; they are flows, not an extra overlapping stock. Use geography, age, diagnostic subtype and label eligibility consistently. Undiagnosed prevalence does not equal launch-ready patients.
+
+MARKET DEFINITIONS
+Biological prevalence -> diagnosed population -> label/clinical eligibility -> patients willing to choose PHVS -> access and paid initiation -> persistent paid use. Distinguish total addressable, clinically suitable, serviceable and actually captured populations; call the modeled result reachable paid demand rather than total disease TAM. Choose a first geography (US suggested), base date and time horizon explicitly before entering numbers.
+
+MONTHLY MODEL
+For each geography/clinical/current-treatment segment s and month t:
+New starts[s,t] = eligible patients not already captured[s,t] * initiation/switch probability[s,t], with rates conditional on the segment and period.
+Paid patient-months[t] = sum across start cohorts and segments of starts[s,c] * probability still taking therapy at t conditional on start * paid probability conditional on remaining at t.
+XR revenue[t] = paid patient-months[t] * net revenue per paid patient-month, adjusted for dispensing timing as needed.
+Use cohort transitions to prevent patients being counted in multiple origin segments or counted again each year. Keep start timing, discontinuation, reinitiation and free-to-paid transitions explicit. Do not apply independent overlapping access/persistence/adherence haircuts to the same lost fills.
+
+ACCESS LAYER
+Model actual plan/benefit, prior steps satisfied, exception success, time to first paid fill, free treatment and net price. Price and coverage may be jointly negotiated. Historical Orladeyo71.5% paid share is an observed stock ratio, not a universal new-start conversion probability. Medicare affordability changes and charitable funding affect historical comparability. No empirical50% blanket TAM cut established.
+
+IR: SAME PATIENT UNIVERSE, DIFFERENT CONSUMPTION MODEL
+Prevention patients still need rescue; IR and XR patient counts may overlap legitimately. Classify by prevention state and current acute regimen (oral, injectable, mixed or unmet access), then by preference, response, safety, attack severity, ability to take an oral dose and coverage.
+IR treated attacks[t] = sum_s patients[s,t] * residual attacks per patient-period[s,t] * fraction treated[s,t] * PHVS share of treated attacks[s,t].
+IR dispensed doses = treated attacks * doses per attack + change in home inventory + expiry/loss replacement, with free supply and channel inventory accounted for separately.
+Initial rescue stocking is not recurring consumption. A patient can carry several rescue products. Patient acquisition is not automatic ownership of every future attack. Better XR prevention lowers IR consumption; easier rescue can increase treatment propensity and potentially change prophylaxis decisions.
+
+SOTP AND SAME-MOLECULE INTERACTIONS
+Value IR and XR revenue/cash-flow streams separately, using shared development/regulatory/safety risks where appropriate. Avoid counting shared commercial costs twice or assigning correlated outcomes independent probabilities. Add net cash/debt and dilution only after funding and cost assumptions are explicit.
+Potential benefits: physician familiarity, shared sales infrastructure, patient services. These are not proof of automatic common prior authorization or clinical compatibility of concurrent dosing.
+Potential limits: some clinicians prefer a different rescue mechanism, label/dose restrictions, overlapping exposure, and fewer rescue attacks on successful XR. Model concurrent use as an evidence-dependent scenario, not a free cross-selling multiplier. Patients do not necessarily care only about efficacy: tolerability, reliability, burden, access and disruption matter.
+
+ANALOGUE RESEARCH — INITIAL SCREEN, NOT CALIBRATED SCALING
+1. Orladeyo: principal same-disease, channel and patient-services analogue. Strong early sales disconfirm a blanket claim that HAE patients do not switch. Lacks the second-modern-oral setting.
+2. Cerdelga after Zavesca in Gaucher1: closer combination of rare disease, an earlier oral, and effective injectables. Global EUR66m/106m/126m in2015/16/17. First-line positioning, old oral limitations, pharmacogenetic eligibility and Sanofi infrastructure prevent a direct PHVS scaling factor. Prior audit contains sources.
+3. Trikafta after earlier oral CFTR modulators: useful oral-to-better-oral long-case stress test. A randomized active-comparator trial in F508del homozygotes showed10.0 percentage-point ppFEV1 benefit versus tezacaftor/ivacaftor (95%CI7.4–12.6), over4weeks after run-in. Trikafta/Kaftrio global sales$420m inpartial2019 and$3,864m in2020. Major confounders: broader genotype eligibility, international launches/access, same-company incumbent franchise, different disease outcomes and disease-modifying value. Not a matched HAE efficacy delta or pure oral-switch revenue series.
+4. Scemblix in CML: supplemental efficacy-driven oral competition case. FDA2024first-line approval followed randomized48-week MMR68% versus49% with investigator-selected TKIs. Global sales$689m2024 and$1,285m2025. Prior later-line use plus new first-line indication makes total sales unsuitable for a pure switch cohort. Cancer response endpoints and treatment stakes differ; does not match the entire injectable-to-first-oral-to-second-oral history. Lower priority than Orladeyo/Cerdelga/Trikafta for initial reconstruction.
+No screened example matches all requested dimensions, and no efficacy-percentage conversion across diseases is valid. Avoid selecting only winning launches. Add a weaker later-oral launch if a sufficiently comparable one with measurable denominator is identified.
+
+ANALOGUE PARAMETERS TO EXTRACT
+Addressable patients at the relevant label/date; existing therapy mix; gross starts split into switches and new-to-class; net treated and paid patients; coverage delay; 6/12-month retention; net price; geography; duration since launch and subsequent indication expansions. Prefer paid switchers / eligible incumbent-treated patients over revenue ratios. Price-normalized patient-years require actual net price and aligned geography/period; do not manufacture these from list price. Compare normalized adoption with clinical/tolerability differentiation and treatment burden, without pretending the association is causal.
+
+EVIDENCE STATUS / NEXT BOUNDED WORK
+The segmentation and equations are proposed structure, not observed patient counts. First establish a US diagnosed/treated denominator and therapy-state reconciliation; then residual burden, prior oral trials, switching willingness, paid conversion and retention. Longitudinal pharmacy/hub data are more useful than broad prevalence for switching; registries/claims have complementary ascertainment and access biases. Use public sources first and stop before expensive paid datasets or extensive fitting. An assumption table should record value/range, denominator, source/date, observed/derived/assumed status, evidence quality and sensitivity to valuation.
+Two competing predictions: bear—few reachable dissatisfied patients and slow paid adoption; bull—substantial residual burden with credible oral control improvement and sustained paid switching. Neither is established by comparing83% versus44.2% reductions from separate trials.
+
+NEW PRIMARY SOURCES
+CF active-comparator trial https://pmc.ncbi.nlm.nih.gov/articles/7571408/
+Trikafta2019FDA label https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/212273s000lbl.pdf
+Vertex2020results https://investors.vrtx.com/news-releases/news-release-details/vertex-reports-full-year-and-fourth-quarter-2020-financial
+ScemblixFDA2024 https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-asciminib-newly-diagnosed-chronic-myeloid-leukemia
+Novartis2024results https://www.novartis.com/news/media-releases/novartis-continues-strong-momentum-sales-growth-margin-expansion-reaches-key-innovation-milestones-2024
+Novartis2025sales https://www.novartis.com/investors/financial-data/product-sales
