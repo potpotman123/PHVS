@@ -1,0 +1,30 @@
+Historical comparator and incremental-benefit audit — 7 October 2026
+
+Question: Does Orladeyo's launch calibrate switching into deucrictibant XR? Interpret user's 'delta' as incremental patient value versus contemporaneous alternatives, not an identified statistical term. No randomized head-to-head comparison between these oral agents was recovered.
+
+OBSERVED PIVOTAL COMPARATORS
+Haegarda 60IU/kg SC twice weekly, COMPACT crossover16-week periods: reported mean0.52 attacks/month vs4.03 placebo. Derived ratio-of-means reduction87.1%; published median within-patient reduction95% is a DIFFERENT statistic.
+Takhzyro300mg SCq2weeks, HELP26weeks: mean0.26 vs1.97 placebo,86.9% reduction;12/27=44.4% attack-free vs1/41=2.4% for entire26weeks. Do not substitute late steady-state attack freedom.
+Orladeyo150mg oral daily, APeX-2 24weeks:1.31 vs2.35/28days,44.2% placebo-relative reduction. Good injectable prevention existed before December2020 launch: Haegarda2017,Takhzyro2018, plus olderIVC1INH/Cinryze and oral androgens.
+Deucrictibant XR40mg oral daily, CHAPTER3 24weeks:0.35 vs2.06/4weeks,83% reduction (95%CI72–90);87% in additional typeI/II analysis. Main83% includes small normalC1 subgroup;87% subgroup is not the primary multiplicity-adjusted overall result. These are separate populations/trials/estimands, not head-to-head efficacy ranks.
+
+CONTEMPORANEOUS PHYSICIAN EVIDENCE
+Gower/Wilber2021 four-patient lanadelumab-to-berotralstat case series documents protection/transition concerns, tolerability, daily adherence and reimbursement for overlap. One patient delayed stopping lanadelumab until comfortable with protection. Successful transitions in four selected patients do not estimate population success or expert consensus. Study/manuscript funded by BioCryst. No representative prelaunch survey measuring prevalence of skeptical physician views recovered.
+2021 NICE appraisal records expert discussion of treatment burden and oral benefit, but English injectable eligibility was restrictive; not interchangeable with US access. Later2023 CADTH input must not be called prelaunch2020 evidence.
+
+POSTMARKETING CHECK
+Optime specialty-pharmacy study, dataDecember2020–January2024: eligible390HAE-C1INH and311normalC1 patients; required>=2dispenses and baseline/followup reports. HAE-C1INH reported mean2.50 baseline to0.79attacks/month at12months,68.4% derived reduction. Baseline comparator, NOT placebo, and laterfollowup loses patients through discontinuation/data cutoff. Cannot compare68.4% with44.2% as efficacy improvement or compare0.79 directly withPHVS0.35 as causal effect. Study is useful evidence of residual burden and some well-controlled current oral users; full weighted retention/response distribution remains to be audited.
+
+INTERPRETATION
+Orladeyo proposition: remove injection burden despite less impressive separate-trial mean efficacy. PHVS proposition for Orladeyo users: improve control/tolerability while retaining oral administration. Removal of route advantage means stricter evidence for clinical/tolerability differentiation, not necessarily need for a larger numerical efficacy delta than Orladeyo had; Orladeyo had no proven positive efficacy delta versus injectables. Stable responders and dissatisfied oral patients require separate switching assumptions. Current retained Orladeyo users are a selected population and cannot be assigned the pivotal trial average automatically.
+Needed study: established Orladeyo users stratified by recent residual attacks, severity, rescue use and tolerability; continue Orladeyo versus switch toPHVS, ideally randomized, standardized followup with persistence/access. Relevant outcome is incremental control/safety and durable paid adoption. No numeric switching haircut established.
+
+PRIMARY SOURCES
+HaegardaFDA label https://www.fda.gov/media/105611/download
+HELP publication https://jamanetwork.com/journals/jama/fullarticle/2716564
+APeX2 https://pubmed.ncbi.nlm.nih.gov/33098856/
+CHAPTER3 https://pharvaris.gcs-web.com/news-releases/news-release-details/pharvaris-announces-positive-topline-data-chapter-3-pivotal
+CHAPTER3 detailedslides https://ir.pharvaris.com/node/12691/html
+2021transition case report https://d-nb.info/1248419634/34
+2021NICE https://www.nice.org.uk/guidance/ta738/chapter/3-Committee-discussion
+Realworld https://link.springer.com/article/10.1186/s13223-025-01005-x
