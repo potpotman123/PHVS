@@ -42,6 +42,8 @@ See [generalizability note](research/rapide3_generalizability_2026-10-06.txt) an
 
 ## Safety and mechanism
 
+7 October mechanistic comparison: downstream B2 blockade plus sustained XR exposure is a credible efficacy rationale, but does not establish comparative superiority. Sebetralstat also rapidly inhibits its target; berotralstat has a long half-life, so routine daily washout is unsupported. HAE-PLG offers a specific bypass-pathway hypothesis, not a broad normal-C1 population or TAM claim. Evidence and source links: [mechanistic comparison](output/PHVS_mechanistic_comparison_2026-10-07.txt). No quantitative commercial inputs changed.
+
 Keep treatment-related events separate from all treatment-emergent events and serious events. The clinical notes retain formulation-specific safety tables and limitations. Acute short-window exposure cannot establish the same safety profile as chronic prevention. Small trials cannot rule out rare events.
 
 Deucrictibant and icatibant both antagonize the bradykinin B2 receptor, but molecular size or structural resemblance alone does not establish specificity, clinical superiority, exposure or safety. A full comparative selectivity/structure analysis was deferred while prioritizing commercial work. Kallikrein inhibitors act upstream and are not B2 antagonists.

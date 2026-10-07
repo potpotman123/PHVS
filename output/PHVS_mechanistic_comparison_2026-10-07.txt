@@ -1,0 +1,24 @@
+Deucrictibant vs berotralstat and sebetralstat: mechanistic evidence
+7 October 2026
+
+Decision: biological plausibility of superior clinical efficacy, not a quantitative superiority estimate. Bounded review of FDA labeling, sponsor human PK/PD reports, and original mechanistic studies. No head-to-head experiment identified in this pass. Prior clinical-comparison limitations still apply.
+
+OBSERVED: Berotralstat and sebetralstat inhibit plasma kallikrein, reducing bradykinin production. Deucrictibant competitively antagonizes the B2 receptor through which bradykinin increases vascular permeability. Inference: receptor antagonism can block effects of bradykinin already produced and of bradykinin generated through routes bypassing plasma kallikrein. This is not automatic superiority: upstream inhibition suppresses production and amplification, while competitive receptor blockade requires sufficient exposure relative to the agonist challenge.
+
+ACUTE: Sponsor reports IR exposure exceeding the challenge-derived EC85 (13.8 ng/mL) within 15 minutes under fasting conditions. Ekterly FDA label reports >90% mean plasma kallikrein inhibition from 30 minutes through approximately 6 hours after 600 mg in healthy subjects. Different assays and populations: 15 versus 30 minutes is NOT a validated efficacy advantage. Blood-pressure/heart-rate response to injected bradykinin is not an HAE symptom endpoint or direct receptor-occupancy measurement. Bradykinin is rapidly degraded: original ex-vivo human-plasma research reports about 34 seconds under its assay conditions, not necessarily local tissue clearance during attacks. This weakens the story that upstream inhibition must wait hours for existing bradykinin to disappear. Swelling resolution can lag blockade with either mechanism.
+
+PREVENTION: Sponsor phase-1 XR report states mean 24-hour concentration approximately four times challenge-derived EC85. Sustained receptor antagonism is biologically coherent, but mean concentration does not establish coverage in every patient; EC85 is neither 85% receptor occupancy nor 85% attack prevention. Berotralstat median half-life approximately 93 hours and steady state days 6-12: no basis to assert routine end-of-day washout. Its label warns of concentration-dependent QTc effects above recommended doses, limiting simplistic dose-escalation arguments; this does not establish the cause of the efficacy difference. Strong lanadelumab prevention efficacy is counterevidence against a general ceiling for kallikrein inhibition. Relative exposure distributions, validated target inhibition, and exposure-response relationships are still needed.
+
+GENETIC NICHE: Primary studies show mutant plasminogen/plasmin can liberate bradykinin while bypassing FXII/plasma kallikrein. Downstream B2 blockade therefore has a particularly plausible advantage for HAE-PLG. This cannot be generalized to all normal-C1-inhibitor HAE, nor establishes deucrictibant-specific efficacy or a material population share. No TAM uplift assigned.
+
+MODEL STATUS: Retain as a qualitative long steelman. No superiority multiplier, uptake assumption, or TAM expansion derived from PK thresholds. Priorities are individual trough exposure and breakthrough timing, exposure-response analysis, genotype-specific outcomes, and controlled comparative clinical evidence. Potency numbers across different targets/assays, milligram doses, and molecular weights are not efficacy rankings.
+
+Sources accessed 7 October 2026:
+1. Ekterly FDA initial label, sections12.1-12.3: https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/219301s000lbl.pdf
+2. Orladeyo current label, sections5.1,12.1-12.3: https://dailymed.awsprod.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=3527ece1-e7e0-40b1-b0c5-6baeb0deabeb&type=display
+3. Sponsor XR phase1 conference disclosure: https://ir.pharvaris.com/news-releases/news-release-details/pharvaris-presents-data-supporting-ongoing-clinical-development
+4. Sponsor filing with IR/XR PK and bradykinin challenge: https://ir.pharvaris.com/node/10696/html
+5. Original bradykinin formation/degradation experiments: https://pmc.ncbi.nlm.nih.gov/articles/PMC7380097/
+6. Mutant plasminogen bypass experiments: https://pmc.ncbi.nlm.nih.gov/articles/PMC9849239/
+7. Independent recombinant-protein/blood experiments: https://pmc.ncbi.nlm.nih.gov/articles/PMC9074402/
+8. HELP randomized clinical trial: https://pubmed.ncbi.nlm.nih.gov/30480729/
