@@ -1,0 +1,1343 @@
+
+[PDF PAGE 1]
+The  new england journal of  medicine
+n engl j med   nejm.org 1
+The authors’ full names, academic de ‑
+grees, and affiliations are listed in the Ap‑
+pendix. Dr. Riedl can be contacted at 
+ mriedl@  health . ucsd . edu or at the US 
+HAEA Angioedema Center at UC San Di ‑
+ego, 8899 University Center Ln., Ste. 230, 
+San Diego, CA 92122.
+*The full list of the KONFIDENT inves ‑
+tigators is provided in the Supplemen ‑
+tary Appendix, available at NEJM.org.
+DOI: 10.1056/NEJMoa2314192
+Copyright © 2024 Massachusetts Medical Society.
+BACKGROUND
+Approved on-demand treatments for hereditary angioedema attacks need to be 
+administered parenterally, a route of administration that is associated with delays 
+in treatment or withholding of therapy.
+METHODS
+In this phase 3, double-blind, three-way crossover trial, we randomly assigned par-
+ticipants at least 12 years of age with type 1 or type 2 hereditary angioedema to 
+take up to two oral doses of sebetralstat (300 mg or 600 mg) or placebo for an 
+angioedema attack. The primary end point, assessed in a time-to-event analysis, 
+was the beginning of symptom relief, defined as a rating of “a little better” on the 
+Patient Global Impression of Change scale (ratings range from “much worse” to 
+“much better”) at two or more consecutive time points within 12 hours after the 
+first administration of the trial agent. Key secondary end points, assessed in a 
+time-to-event analysis, were a reduction in attack severity (an improved rating on 
+the Patient Global Impression of Severity [PGI-S] scale, with ratings ranging from 
+“none” to “very severe”) at two or more consecutive time points within 12 hours and 
+complete attack resolution (a rating of “none” on the PGI-S scale) within 24 hours.
+RESULTS
+A total of 136 participants were assigned to one of six trial sequences, with 110 treat-
+ing 264 attacks. The time to the beginning of symptom relief with the 300-mg 
+dose and the 600-mg dose was faster than with placebo (P<0.001 and P = 0.001 for 
+the two comparisons, respectively), with median times of 1.61 hours (interquartile 
+range, 0.78 to 7.04), 1.79 hours (1.02 to 3.79), and 6.72 hours (1.34 to >12), respec-
+tively. The time to reduction in the attack severity with the 300-mg dose and the 
+600-mg dose was faster than with placebo (P = 0.004 and P = 0.003), with median 
+times of 9.27 hours (interquartile range, 1.53 to >12), 7.75 hours (2.19 to >12), and 
+more than 12 hours (6.23 to >12). The time to complete resolution was faster with 
+the 300-mg and 600-mg doses than with placebo (P = 0.002 and P<0.001). The per-
+centage of attacks with complete resolution within 24 hours was 42.5% with the 
+300-mg dose, 49.5% with the 600-mg dose, and 27.4% with placebo. Sebetralstat and 
+placebo had similar safety profiles; no serious adverse events related to the trial 
+agents were reported.
+CONCLUSIONS
+Oral sebetralstat provided faster times to the beginning of symptom relief, reduc-
+tion in attack severity, and complete attack resolution than placebo. (Funded by 
+KalVista Pharmaceuticals; KONFIDENT ClinicalTrials.gov number, NCT05259917; 
+EudraCT number, 2021 - 001226 - 21.)
+ABSTRACT
+Oral Sebetralstat for On-Demand Treatment 
+of Hereditary Angioedema Attacks
+M.A. Riedl, H. Farkas, E. Aygören‑Pürsün, F. Psarros, D.F. Soteres, M. Staevska, 
+M. Cancian, D. Hagin, D. Honda, I. Melamed, S. Savic, M. Stobiecki, P.J. Busse, 
+E. Dias de Castro, N. Agmon‑Levin, R. Gower, A. Kessel, M. Kurowski, R. Lleonart, 
+V. Grivcheva Panovska, H.J. Wedner, P.K. Audhya, J. Hao, M. Iverson, M.D. Smith, 
+C.M. Yea, W.R. Lumry, A. Zanichelli, J.A. Bernstein, M. Maurer, and D.M. Cohn, 
+for the KONFIDENT Investigators*  
+Original Article
+
+[PDF PAGE 2]
+n engl j med   nejm.org 2
+The  new england journal of  medicine
+H
+ereditary angioedema is a rare 
+autosomal dominant genetic disorder 
+that, in most cases, is caused by muta-
+tions in SERPING1 (which encodes C1 inhibitor), 
+resulting in C1 inhibitor deficiency (type 1 disease) 
+or dysfunction (type 2 disease) and subsequent 
+uncontrolled activation of the kallikrein–kinin 
+system.1,2 Persons with hereditary angioedema 
+have unpredictable and often debilitating episodes 
+of tissue swelling that can be life-threatening if 
+they affect the upper airway.1-3
+Given the unpredictable potential for rapid 
+progression and anatomic migration of hereditary 
+angioedema attacks, global treatment guidelines 
+recommend that patients consider treating all at-
+tacks irrespective of location or severity, always 
+carry sufficient on-demand therapy to treat two 
+attacks, and take treatment as early as possible 
+to arrest the progression of the attack.1-4 In obser-
+vational studies and clinical trials, earlier admin-
+istration of on-demand treatment was associated 
+with a shorter time to the resolution of symp -
+toms, regardless of severity.5-9
+All first-line on-demand treatment options 
+are administered parenterally, which introduces 
+barriers to compliance with treatment guide -
+lines.1,2 These impediments include the effort 
+required to transport, store, and prepare the 
+medication; patients’ difficulties with adminis -
+tering the drug to themselves; and patients’ 
+hesitation in taking the drug because of concern 
+about side effects related to the injection or infu-
+sion.7,10-12 Therefore, many patients delay6,7,12-16 or 
+withhold10,14,17,18 on-demand treatment. A safe 
+and effective oral on-demand therapy could re -
+duce much of the burden of parenteral treatment, 
+increasing the likelihood of early treatment and 
+improving clinical outcomes and quality of life.
+Although oral treatments have been approved 
+for prophylaxis (most recently, the oral plasma 
+kallikrein inhibitor berotralstat), no oral therapy 
+has been approved for on-demand treatment. 
+Plasma kallikrein and its precursor, prekallikrein, 
+are effective targets for the treatment19 and pre-
+vention20-22 of hereditary angioedema attacks. 
+Sebetralstat is an oral plasma kallikrein inhibi -
+tor in development for the on-demand treatment 
+of hereditary angioedema attacks. In the phase 
+2 trial, sebetralstat at a dose of 600 mg was 
+rapidly absorbed, resulting in nearly complete 
+inhibition of plasma kallikrein as early as 15 min-
+utes after administration. Sebetralstat treatment 
+resulted in a longer time to the use of conven -
+tional treatment for attacks than placebo and 
+was associated with faster relief of symptoms.23 
+Sebetralstat was associated with encouraging 
+side-effect and safety profiles.23,24
+We conducted the phase 3 KONFIDENT trial 
+to assess the efficacy and safety of sebetralstat as 
+compared with placebo for the on-demand treat-
+ment of angioedema attacks in participants 12 
+years of age or older with hereditary angioedema.
+Methods
+Trial Design and Oversight
+KONFIDENT was a double-blind, randomized, 
+placebo-controlled, three-way crossover trial that 
+was conducted to evaluate the efficacy and safety 
+of up to two administrations of sebetralstat (300 
+mg or 600 mg) as compared with placebo for the 
+on-demand treatment of hereditary angioedema 
+attacks. The protocol (available with the full text 
+of this article at NEJM.org) was approved by the 
+institutional review board or ethics committee at 
+each participating institution, and the trial was 
+conducted in accordance with the International 
+Conference on Harmonisation guidelines for Good 
+Clinical Practice, applicable local regulatory re -
+quirements, and the principles of the Declara -
+tion of Helsinki. All the participants provided 
+written informed consent.
+KalVista Pharmaceuticals (the trial sponsor) 
+participated in the design and conduct of the 
+trial; the collection, management, and interpre-
+tation of the data; and the review of the manu -
+script. Statistical analyses were conducted by the 
+sponsor. The initial draft of the manuscript was 
+prepared by a medical writer funded by the 
+sponsor. Subsequent revisions and the final de-
+cision to submit the manuscript for publication 
+were made by the authors, who  vouch for the 
+accuracy and completeness of the data and for 
+the fidelity of the trial to the protocol.
+Participants
+Eligible participants were 12 years of age or 
+older and had a confirmed diagnosis of type 1 
+or 2 hereditary angioedema, at least two docu -
+mented attacks within 3 months before screening 
+or randomization, and access to conventional on-
+demand therapy. In the participants receiving 
+long-term prophylaxis, the dose and regimen had 
+been stable for at least 3 months before screen-
+
+[PDF PAGE 3]
+n engl j med   nejm.org 3
+Oral Sebetralstat for Hereditary Angioedema
+ing. Additional details about the inclusion and 
+exclusion criteria are provided in the protocol.
+Randomization
+Participants were randomly assigned in a 
+1:1:1:1:1:1 ratio to administer sebetralstat at 
+doses of 300 mg and 600 mg and placebo to 
+themselves in one of six sequences (Fig. 1). Ran-
+domization was performed with the use of a 
+permuted-block method and was stratified ac -
+cording to the use of long-term prophylaxis at 
+enrollment. Blinding to the sequence assign -
+ments was maintained with the use of a double-
+dummy method.
+Interventions and Assessments
+For each eligible attack and according to se -
+quence assignment, participants were instructed 
+to administer 300 mg of sebetralstat (one 300-mg 
+tablet and one placebo tablet), 600 mg of sebe -
+tralstat (two 300-mg tablets), or placebo (two 
+tablets) to themselves as early as possible after 
+the onset of the attack. Participants had the op-
+tion to administer a second dose of the assigned 
+trial agent at least 3 hours after the first admin-
+istration. Eligible attacks were those considered 
+by the participant to meet the following criteria: 
+the start of the attack could be identified, at 
+least 48 hours had elapsed since the trial agent 
+or conventional treatment was taken for a previ-
+ous attack, the participant had the ability to 
+enter attack information in an electronic diary 
+during the initial 4 hours after first taking the 
+trial agent, and the attack involved any location 
+and severity at baseline, excluding laryngeal at -
+tacks that were considered by the participant to 
+be severe. Specific guidance for the treatment of 
+laryngeal attacks is described in the Supplemen-
+tary Appendix (available at NEJM.org). The 48-hour 
+washout period was selected because of the al -
+lotted window for the collection of end-point 
+data and the short half-life of sebetralstat.25
+Information about the attack that was re -
+corded in the electronic diary included location, 
+severity, date and time of onset, the time (or 
+times) that the trial agent was taken, and the use 
+of conventional on-demand treatment, as appli-
+cable. Assessments were completed by the par -
+ticipants every 0.5 hours during the first 4 hours 
+after first taking the trial agent, every hour from 
+5 to 12 hours, every 2 hours from 14 to 24 hours, 
+and every 12 hours from 36 to 48 hours. Safety 
+was assessed primarily according to the occur -
+rence of adverse events, with supplementary in-
+formation coming from physical examinations, 
+vital signs, electrocardiograms, and laboratory 
+assessments.
+Efficacy End Points
+The primary end point was the beginning of 
+symptom relief as assessed in a time-to-event 
+analysis. The beginning of symptom relief was 
+defined as a rating of “a little better” on the 
+7-point Patient Global Impression of Change 
+(PGI-C) scale (ratings range from “much better” 
+to “much worse”) at two or more consecutive 
+time points within 12 hours after the first ad -
+ministration of the trial agent. 26 Key secondary 
+end points, assessed in a time-to-event analysis, 
+were a reduction in the severity of the attack, 
+defined as an improved rating on the 5-point Pa-
+tient Global Impression of Severity (PGI-S) scale 
+(ratings range from “none” to “very severe”) at 
+two or more consecutive time points within 12 
+hours after the first administration, and a com -
+plete resolution of the attack, defined as a rating 
+of “none” on the PGI-S scale within 24 hours 
+after the first administration. Prespecified sub -
+group analyses of the primary and key second -
+ary end points were performed according to age 
+group, use of long-term prophylaxis (yes or no), 
+baseline attack location and severity, number of 
+administrations of the trial agent (1 or 2), and 
+geographic region. Likert scales for the PGI-C 
+and PGI-S scales have been previously described 
+(Fig. S1).26
+Statistical Analysis
+Efficacy was analyzed in the full analysis popu -
+lation, defined as all the participants who un -
+derwent randomization and took the trial agent 
+for at least one attack according to the assigned 
+sequence. The safety analysis population was 
+defined as all the participants who received at 
+least one dose of sebetralstat or placebo. An in-
+tention-to-treat analysis with imputation for miss-
+ing data was performed to assess the sensitivity 
+of the findings to the exclusion of participants 
+who underwent randomization but did not have 
+any attacks during the trial period.
+We performed pairwise comparisons of each 
+dose of sebetralstat with placebo. The primary 
+and key secondary end points were assessed 
+with the use of a fixed-sequence, closed-testing 
+
+[PDF PAGE 4]
+n engl j med   nejm.org 4
+The  new england journal of  medicine
+136 Were enrolled and underwent
+randomization to a trial sequence
+158 Participants were assessed for eligibility
+22 Were excluded
+8 Had unconfirmed diagnosis
+4 Had inadequate organ function
+2 Had suspected unwillingness or inability to adhere
+to protocol
+2 Had clinically significant coexisting condition or
+   system dysfunction
+1 Had <2 attacks in the 3 preceding mo
+1 Was taking angiotensin-converting enzyme inhibitors
+1 Was taking estrogen-containing medications with
+system absorption
+3 Had other reason
+23 Were assigned
+to trial
+sequence F
+5 Did not take
+a trial agent
+for an attack
+3 Did not take
+a trial agent
+for an attack
+8 Did not take
+a trial agent
+for an attack
+6 Did not take
+a trial agent
+for an attack
+3 Did not take
+a trial agent
+for an attack
+1 Did not take
+a trial agent
+for an attack
+23 Were assigned
+to trial
+sequence E
+23 Were assigned
+to trial
+sequence D
+23 Were assigned
+to trial
+sequence C
+21 Were assigned
+to trial
+sequence B
+23 Were assigned
+to trial
+sequence A
+110 Participants with 264 attacks were included in the full analysis population
+110 Participants were included in the safety analysis population
+18 Took
+placebo
+for attack 1 
+18 Took
+placebo
+for attack 1 
+15 Took
+sebetralstat,
+300 mg for attack 1 
+17 Took
+sebetralstat, 
+300 mg for attack 1
+20 Took
+sebetralstat,
+600 mg for attack 1
+22 Took
+sebetralstat,
+600 mg for attack 1
+2 Had no further
+attack
+1 Discontinued
+owing to
+sponsor
+decision
+1 Had no further
+   attack
+1 Discontinued
+owing to
+physician
+decision
+2 Had no further
+attack
+3 Discontinued
+1 Had protocol
+ violation
+1 Was with-
+drawn by
+sponsor
+1 Was lost to
+follow-up
+4 Had no further
+attack
+6 Had no further
+attack
+1 Withdrew
+3 Had no further
+attack
+15 Took
+sebetralstat,
+600 mg for attack 2 
+16 Took
+sebetralstat,
+300 mg for attack 2 
+10 Took
+sebetralstat,
+600 mg for attack 2 
+13 Took
+placebo
+for attack 2 
+13 Took
+sebetralstat,
+300 mg for attack 2 
+19 Took
+placebo
+for attack 2
+5 Had no further
+attack
+1 Had no further
+attack
+1 Withdrew
+1 Had no further
+attack
+1 Discontinued
+owing to
+sponsor
+decision
+1 Had no further
+attack
+5 Had no further
+attack
+10 Took
+sebetralstat,
+300 mg for attack 3 
+14 Took
+sebetralstat,
+600 mg for attack 3 
+8 Took
+placebo
+for attack 3 
+12 Took
+sebetralstat,
+600 mg for attack 3 
+8 Took
+placebo
+for attack 3 
+16 Took
+sebetralstat,
+300 mg for attack 3 
+1 Had no further
+attack
+2 Discontinued
+1 Withdrew
+1 Was lost to
+follow-up
+
+[PDF PAGE 5]
+n engl j med   nejm.org 5
+Oral Sebetralstat for Hereditary Angioedema
+procedure that was based on Bonferroni multi -
+plicity adjustment, with a loop-back feature to 
+allow two-way alpha passing. We did not control 
+for multiplicity for other end points. Time-to-
+event end points were analyzed with the use of 
+the Gehan score transformation.27 All statistical 
+tests were two-sided with an overall alpha of 0.05.
+For the purpose of analysis, treatment failure 
+was defined as the use of conventional treatment 
+before the occurrence of a primary or key sec -
+ondary end-point event. Therefore, attacks treat-
+ed with conventional therapy were right-cen -
+sored at the end of the analysis window. Efficacy 
+end points were censored at 0 hours if the end 
+point could not be derived owing to missing 
+data (e.g., if data from only 1 time point were 
+available). Analyses were conducted under the 
+assumption that missing data were missing at 
+random. Additional details about the statistical 
+analysis, such as the handling of missing data 
+and the calculation of the sample size, are provided 
+in the statistical analysis plan (see the Supplemen-
+tary Appendix). All analyses were performed with 
+SAS, version 9.4 or higher.
+Results
+Participants
+Between February 23, 2022, and July 30, 2023, a 
+total of 136 participants were recruited from 53 
+sites across 17 countries and were randomly as-
+signed to one of six trial sequences. Of these 
+participants, 110 administered the assigned trial 
+agent for at least one attack (Fig. 1). Table S1 
+provides background information on the repre -
+sentativeness of the trial participants with respect 
+to age, sex, and race as reported by the partici -
+pant. The baseline demographic and disease 
+characteristics of the participants are shown 
+according to trial agent in Table 1 and according 
+to trial sequence in Table S2. The median time 
+since the diagnosis of hereditary angioedema 
+was 12 years (interquartile range, 7 to 22). 
+Twenty-four participants (21.8%) were receiving 
+long-term prophylaxis: berotralstat in 9 (37.5%), 
+lanadelumab in 8 (33.3%), C1 inhibitor replace-
+ment in 6 (25.0%), and both berotralstat and C1 
+inhibitor replacement in 1 (4.2%).
+Attack Characteristics
+The trial participants administered at least one 
+dose of sebetralstat or placebo for 264 attacks 
+between February 23, 2022, and December 31, 
+2023 (Table 2). All 264 attacks were included in 
+the analysis. The distribution of the attack sever-
+ity at baseline was consistent across the trial 
+agents and according to the use of long-term 
+prophylaxis (Fig. S2 and S3). The median time 
+from the onset of the attack to the first admin -
+istration of sebetralstat or placebo was 41 min -
+utes (interquartile range, 6 to 140). An optional 
+second administration of the trial agent was 
+used for 34 attacks (39.1%) in the 300-mg group, 
+37 attacks (39.8%) in the 600-mg group, and 47 
+attacks (56.0%) in the placebo group (Table S3). 
+Information about most of the attacks was thor-
+oughly recorded in the electronic diary, whereas 
+information about a small percentage of the at -
+tacks was insufficient for the assessment of the 
+end points; this percentage was relatively low and 
+balanced across the trial agents (Table S4). Con-
+ventional treatment was used within 12 hours 
+after first taking sebetralstat or placebo for 12 
+attacks (13.8%) in the 300-mg group, 8 attacks 
+(8.6%) in the 600-mg group, and 21 attacks (25.0%) 
+in the placebo group.
+Efficacy End Points
+The beginning of symptom relief (the primary 
+end point) was reached faster with the 300-mg 
+and 600-mg doses of sebetralstat than with pla-
+cebo (P<0.001 and P = 0.001 for comparisons with 
+the 300-mg and 600-mg doses, respectively). The 
+median time to the beginning of symptom relief 
+Figure 1 (facing page). Enrollment, Randomization, and 
+Follow-up.
+Participants were randomly assigned in a ratio of 
+1:1:1:1:1:1 to one of six sequences. In each sequence, 
+one or two doses of the first trial agent in the se ‑
+quence was administered by the participant for the 
+first eligible hereditary angioedema attack, one or two 
+doses of the second trial agent in the sequence was 
+administered for the second eligible attack, and one or 
+two doses of the third trial agent in the sequence was 
+administered for the third eligible attack. Eligible at ‑
+tacks were those considered by the participant to meet 
+the following criteria: the start of the attack could be 
+identified, at least 48 hours had elapsed since the trial 
+agent or conventional treatment was taken for a previ ‑
+ous attack, the participant had the ability to enter at ‑
+tack information in an electronic diary during the ini ‑
+tial 4 hours after first taking the trial agent, and the 
+attack involved any location and severity at baseline, 
+excluding laryngeal attacks that were considered by the 
+participant to be severe.
+
+[PDF PAGE 6]
+n engl j med   nejm.org 6
+The  new england journal of  medicine
+was 1.61 hours (interquartile range, 0.78 to 7.04) 
+with the 300-mg dose, 1.79 hours (1.02 to 3.79) 
+with the 600-mg dose, and 6.72 hours (1.34 to 
+>12) with placebo (Fig. 2A). In more than 90% 
+of the attacks in which the beginning of symp -
+tom relief occurred with the 300-mg or 600-mg 
+dose, relief occurred without a second administra-
+tion or before a second administration (Fig. S4).
+A reduction in the severity of the attack 
+within 12 hours after the first administration 
+was reached faster with the 300-mg dose and the 
+600-mg dose than with placebo (P = 0.004 and 
+P = 0.003, respectively) (Fig. 2B). The median time 
+to a reduction in severity was 9.27 hours (inter-
+quartile range, 1.53 to >12) with the 300-mg 
+dose, 7.75 hours (2.19 to >12) with the 600-mg 
+dose, and more than 12 hours (6.23 to >12) with 
+placebo. Complete resolution of the attack was 
+also reached faster with the 300-mg dose and 
+the 600-mg dose than with placebo (P = 0.002 and 
+P<0.001, respectively) (Fig. 2C). The percentage of 
+attacks with complete resolution within 24 hours 
+after the first administration was 42.5% with the 
+300-mg dose of sebetralstat, 49.5% with the 600-
+mg dose, and 27.4% with placebo.
+The results of subgroup analyses according to 
+attack characteristics (Table S5) and participant 
+characteristics (Table S6) suggested that the 
+treatment effects of sebetralstat at doses of 300 
+mg and 600 mg were consistent with the results 
+in the overall trial population. A subgroup analy-
+sis of laryngeal attacks at baseline was not fea -
+sible because only eight of these attacks oc -
+curred: the 300-mg dose was administered after 
+two such attacks, the 600-mg dose after two, 
+and placebo after four. Several laryngeal attacks 
+Table 1. Characteristics of the Participants at Baseline (Full Analysis Population).*
+Characteristic
+Sebetralstat,  
+300 mg 
+(N = 87)
+Sebetralstat,  
+600 mg 
+(N = 93)
+Placebo 
+(N = 84)
+Overall 
+(N = 110)
+Median age (IQR) — yr 37.0 (25.0–49.0) 39.0 (25.0–49.0) 38.0 (25.0–49.0) 39.5 (25.0–49.0)
+Male sex — no. (%) 33 (37.9) 37 (39.8) 29 (34.5) 44 (40.0)
+Race — no. (%)†
+White 73 (83.9) 80 (86.0) 73 (86.9) 92 (83.6)
+Asian 9 (10.3) 8 (8.6) 7 (8.3) 10 (9.1)
+Black 1 (1.1) 0 0 1 (0.9)
+Other 0 1 (1.1) 1 (1.2) 1 (0.9)
+Not reported 4 (4.6) 4 (4.3) 3 (3.6) 6 (5.5)
+Median body‑mass index (IQR)‡ 26.3 (22.8–31.2) 26.2 (22.9–30.9) 26.2 (22.9–30.8) 26.2 (22.8–31.6)
+Geographic region — no. (%)
+Europe 44 (50.6) 49 (52.7) 48 (57.1) 58 (52.7)
+United States 27 (31.0) 28 (30.1) 23 (27.4) 34 (30.9)
+Asia–Pacific region 16 (18.4) 16 (17.2) 13 (15.5) 18 (16.4)
+HAE‑C1INH type — no. (%)
+Type 1 79 (90.8) 87 (93.5) 79 (94.0) 101 (91.8)
+Type 2 8 (9.2) 6 (6.5) 5 (6.0) 9 (8.2)
+Median time since HAE‑C1INH diagnosis 
+(IQR) — yr
+11 (6–22) 12 (7–22) 12 (7–22) 12 (7–22)
+Current treatment regimen — no. (%)
+On‑demand treatment only 68 (78.2) 72 (77.4) 66 (78.6) 86 (78.2)
+Prophylaxis plus on‑demand treatment 19 (21.8) 21 (22.6) 18 (21.4) 24 (21.8)
+*  The full analysis population comprised participants who administered sebetralstat or placebo to themselves for at least one angioedema 
+attack. Participants may be represented in multiple columns. Percentages may not total 100% because of rounding. HAE‑C1INH denotes 
+hereditary angioedema due to C1 inhibitor deficiency and IQR interquartile range.
+†  Race was reported by the participant.
+‡  The body‑mass index is the weight in kilograms divided by the square of the height in meters.
+
+[PDF PAGE 7]
+n engl j med   nejm.org 7
+Oral Sebetralstat for Hereditary Angioedema
+were censored because of missing data, which 
+further reduced the number available for analy -
+sis. Results of analyses of the intention-to-treat 
+population (with the use of imputation) and 
+analyses of attacks in which data were censored 
+because the participant administered a second 
+dose of the trial agent or conventional treatment 
+suggested that the clinical benefits of sebetral -
+stat were consistent with the results of the pri -
+mary analysis (Tables S7 and S8).
+Hazard ratios for the comparison of the 600-
+mg dose with the 300-mg dose were calculated 
+for the primary and key secondary end points. 
+Results are shown in Figure S5.
+Safety Outcomes
+Adverse events occurred in 17 of 86 participants 
+(19.8%) who received 300 mg of sebetralstat, in 
+14 of 93 (15.1%) who received 600 mg, and in 17 
+of 83 (20.5%) who received placebo (Table 3 and 
+Table S9). Three serious adverse events were re-
+ported; none were related to the trial agent or 
+occurred within 3 days after sebetralstat or pla -
+cebo was taken. In the 300-mg group, one case 
+Table 2. Characteristics of Attacks for Which One or More Administrations of the Trial Agent Were Taken.
+Characteristic
+Sebetralstat,  
+300 mg 
+(N = 87)
+Sebetralstat,  
+600 mg 
+(N = 93)
+Placebo 
+(N = 84)
+Overall  
+(N = 264)
+Median score on PGI‑S scale at baseline (IQR)*† 2 (1–2) 2 (1–2) 2 (1–2) 2 (1–2)
+Rating on PGI‑S scale at baseline — no. (%)*
+None 0 0 2 (2.4) 2 (0.8)
+Mild 36 (41.4) 41 (44.1) 36 (42.9) 113 (42.8)
+Moderate 35 (40.2) 34 (36.6) 33 (39.3) 102 (38.6)
+Severe 12 (13.8) 16 (17.2) 10 (11.9) 38 (14.4)
+Very severe 2 (2.3) 2 (2.2) 3 (3.6) 7 (2.7)
+Missing 2 (2.3) 0 0 2 (0.8)
+Median time from attack onset to first administration  
+(IQR) — min
+35 (6–130) 41 (5–142) 51 (6–166) 41 (6–140)
+Time from attack onset to first administration — no. (%)
+<30 min 40 (46.0) 41 (44.1) 35 (41.7) 116 (43.9)
+30 to <60 min 13 (14.9) 9 (9.7) 9 (10.7) 31 (11.7)
+≥60 min 33 (37.9) 43 (46.2) 40 (47.6) 116 (43.9)
+Missing data 1 (1.1) 0 0 1 (0.4)
+Attack location at baseline — no. (%)†‡
+Abdomen 35 (40.2) 42 (45.2) 37 (44.0) 114 (43.2)
+Arms, hands, or both 29 (33.3) 26 (28.0) 21 (25.0) 76 (28.8)
+Legs, feet, or both 22 (25.3) 23 (24.7) 17 (20.2) 62 (23.5)
+Head, face, or neck alone or in combination 9 (10.3) 11 (11.8) 9 (10.7) 29 (11.0)
+Torso 5 (5.7) 5 (5.4) 5 (6.0) 15 (5.7)
+Genitals 2 (2.3) 4 (4.3) 3 (3.6) 9 (3.4)
+Larynx, throat, or both 2 (2.3) 2 (2.2) 4 (4.8) 8 (3.0)
+Pooled attack locations — no. (%)‡§
+Mucosal 36 (41.4) 44 (47.3) 40 (47.6) 120 (45.5)
+Subcutaneous 49 (56.3) 49 (52.7) 44 (52.4) 142 (53.8)
+*  A score of 0 on the Patient Global Impression of Severity (PGI‑S) scale indicates a rating of none; 1, mild; 2, moderate; 3, severe; and 4, very 
+severe.
+†  The score on the PGI‑S scale and attack location at baseline are missing for two attacks in the 300‑mg group.
+‡  An attack may be reported in more than one location.
+§  Mucosal locations include the abdomen and the larynx, throat, or both. Subcutaneous locations include all other locations.
+
+[PDF PAGE 8]
+n engl j med   nejm.org 8
+The  new england journal of  medicine
+of herniated lumbar vertebrae was reported. In 
+the 600-mg group, one case of anisocoria related 
+to lisdexamfetamine use and one case of exacer-
+bation of a hereditary angioedema attack, in 
+which the patient did not take the trial agent, 
+were reported. Details about adverse events that 
+occurred within 3 days after an administration 
+of sebetralstat or placebo for an attack and ad -
+verse events related to the trial agent are shown 
+in Table 3 and Table S10. Physical examination, 
+electrocardiograms, and laboratory assessments, 
+including liver function tests, showed no safety 
+signals.
+Discussion
+In this phase 3 trial of sebetralstat administered 
+orally at doses of 300 mg or 600 mg for the on-
+demand treatment of hereditary angioedema at-
+tacks, the beginning of symptom relief, a reduc-
+tion in the severity of the attack, and the complete 
+resolution of the attack occurred significantly 
+faster with each dose level of sebetralstat than 
+with placebo. The observed safety profile of se -
+betralstat was no different from that of placebo.
+Results with each sebetralstat dose level were 
+similar and were consistent across clinically 
+relevant subgroups defined according to age, 
+treatment approach (with or without long-term 
+prophylaxis), and geographic region. The consis-
+tency of the effect was also observed in attacks 
+of varying severity and anatomic location (muco-
+sal or subcutaneous). A treatment effect in the 
+laryngeal subset of mucosal attacks could not be 
+Figure 2. Primary and Key Secondary End Points.
+Shown in Panel A is the beginning of symptom relief 
+(primary end point) as assessed in a time ‑to‑event 
+analysis. The beginning of symptom relief was defined 
+as a rating of “a little better” on the 7 ‑point Patient 
+Global Impression of Change scale (ratings range from 
+“much better” to “much worse”) at two or more con ‑
+secutive time points within 12 hours after the first ad ‑
+ministration of sebetralstat or placebo. Also shown are 
+the key secondary end points, assessed in a time ‑to‑
+event analysis: a reduction in the severity of the attack, 
+defined as an improved rating on the 5 ‑point Patient 
+Global Impression of Severity (PGI ‑S) scale (ratings 
+range from “none” to “very severe”) at two or more 
+consecutive time points within 12 hours after the first 
+administration (Panel B); and a complete resolution of 
+the attack, defined as a rating of “none” on the PGI ‑S 
+scale within 24 hours after the first administration 
+(Panel C).
+Percentage/uni0020of/uni0020Attacks
+100
+80
+90
+70
+60
+40
+30
+10
+50
+20
+0
+Hours/uni0020since/uni0020First/uni0020Administration/uni0020of/uni0020Trial/uni0020Agent
+B Reduction/uni0020in/uni0020the/uni0020Severity/uni0020of/uni0020the/uni0020Attack
+A Beginning/uni0020of/uni0020Symptom/uni0020Relief
+Sebetralstat, 600 mg
+Sebetralstat, 300 mg
+Placebo
+93
+87
+84
+65
+52
+64
+39
+32
+51
+26
+25
+45
+20
+22
+42
+18
+21
+39
+18
+22
+42
+18
+18
+36
+18
+20
+38
+17
+18
+35
+16
+16
+35
+15
+15
+35
+15
+14
+35
+No./uni0020of/uni0020Attacks
+Percentage/uni0020of/uni0020Attacks
+100
+80
+90
+70
+60
+40
+30
+10
+50
+20
+0
+0 1 2 5 7 10 12
+Hours/uni0020since/uni0020First/uni0020Administration/uni0020of/uni0020Trial/uni0020Agent
+Sebetralstat, 600 mg
+Sebetralstat, 300 mg
+Placebo
+93
+87
+84
+75
+67
+70
+67
+56
+64
+3
+54
+53
+62
+4
+50
+50
+61
+45
+44
+58
+49
+47
+60
+6
+43
+42
+53
+44
+43
+56
+8
+42
+41
+52
+9
+38
+39
+51
+38
+37
+51
+11
+0 1 2 5 7 10 123 4 6 8 9 11
+38
+37
+51
+No./uni0020of/uni0020Attacks
+C Complete/uni0020Resolution/uni0020of/uni0020the/uni0020Attack
+Percentage/uni0020of/uni0020Attacks
+100
+80
+90
+70
+60
+40
+30
+10
+50
+20
+0
+0 2 4 10 14 20 24
+Hours/uni0020since/uni0020First/uni0020Administration/uni0020of/uni0020Trial/uni0020Agent
+Sebetralstat, 600 mg
+Sebetralstat, 300 mg
+Placebo
+93
+87
+84
+83
+79
+77
+75
+72
+75
+6
+70
+65
+74
+8
+62
+64
+70
+54
+56
+67
+57
+60
+68
+12
+51
+52
+63
+53
+53
+66
+16
+48
+50
+62
+18
+47
+50
+62
+45
+50
+61
+22
+45
+48
+58
+No./uni0020of/uni0020Attacks
+Sebetralstat, 600 mg
+Sebetralstat, 600 mg
+Sebetralstat, 300 mg
+Sebetralstat, 300 mg
+Placebo
+Placebo
+Sebetralstat, 600 mg
+Sebetralstat, 300 mg
+Placebo
+
+[PDF PAGE 9]
+n engl j med   nejm.org 9
+Oral Sebetralstat for Hereditary Angioedema
+adequately assessed owing to the small number 
+of events, which was further compounded by 
+missing data. All currently approved on-demand 
+agents that were efficacious in mucosal attacks 
+showed a pattern of clinical benefits in laryngeal 
+attacks.28 An ongoing, long-term, open-label ex-
+tension trial, KONFIDENT-S (ClinicalTrials.gov 
+number, NCT05505916; EudraCT number, 2021 
+Table 3. Safety.*
+Event
+Sebetralstat, 300 mg 
+(N = 86)
+Sebetralstat, 600 mg 
+(N = 93)
+Placebo 
+(N = 83)
+no. (%) no. of events no. (%) no. of events no. (%) no. of events
+Any adverse event
+Overall 17 (19.8) 20 14 (15.1) 18 17 (20.5) 24
+Related to trial agent 2 (2.3) 2 3 (3.2) 4 4 (4.8) 5
+Any serious adverse event during treatment†
+Overall 1 (1.2) 1 2 (2.2) 2 0 0
+Related to trial agent 0 0 0 0 0 0
+Any severe adverse event during treatment‡
+Overall 1 (1.2) 1 0 0 0 0
+Related to trial agent 0 0 0 0 0 0
+Any adverse event within 3 days after an administration
+Overall 5 (5.8) 5 6 (6.5) 6 10 (12.0) 13
+Related to trial agent 2 (2.3) 2 2 (2.2) 2 4 (4.8) 5
+Adverse event during treatment that led to trial  
+discontinuation
+0 0 0 0 0 0
+Adverse event during treatment that led to death 0 0 0 0 0 0
+Treatment‑related adverse events within 3 days after  
+an administration§
+Gastrointestinal disorders
+Dyspepsia 1 (1.2) 1 0 0 0 0
+Nausea 0 0 1 (1.1) 1 1 (1.2) 1
+General disorders and administration site conditions
+Fatigue 1 (1.2) 1 0 0 0 0
+Nervous system disorders
+Headache 0 0 1 (1.1) 1 1 (1.2) 1
+Dysgeusia 0 0 0 0 1 (1.2) 1
+Reproductive system and breast disorders
+Menstruation irregular 0 0 0 0 1 (1.2) 1
+Skin and subcutaneous tissue disorders
+Rash 0 0 0 0 1 (1.2) 1
+*  Shown are data for 110 participants who administered the indicated dose of sebetralstat or placebo to themselves for at least one angio‑
+edema attack.
+†  Serious adverse events during treatment were defined as any untoward medical occurrence that, at any dose, resulted in death, was life‑
+threatening, resulted in inpatient hospitalization or prolongation of existing hospitalization, resulted in persistent or substantial disability or 
+incapacity, was a congenital anomaly or birth defect, or was considered to be an important medical event according to medical and scien‑
+tific judgment. The three serious adverse events during treatment were the only adverse events that resulted in hospitalization.
+‡  Severe adverse events during treatment were defined as adverse events of grade 3 in severity as assessed qualitatively by the investigator or 
+as reported by the participant.
+§  Treatment‑related adverse events are categorized according to Medical Dictionary for Regulatory Activities, version 26.0, system organ class 
+and preferred term.
+
+[PDF PAGE 10]
+n engl j med   nejm.org 10
+The  new england journal of  medicine
+- 001176 - 42), is being conducted to assess the 
+safety and efficacy of sebetralstat for on-demand 
+treatment of angioedema attacks, including those 
+involving the larynx.
+Comparisons with results from previous ran-
+domized clinical trials that assessed injectable 
+on-demand treatments for hereditary angioede -
+ma attacks are challenging because of substan -
+tial differences in the trial designs and end 
+points.29 In the most recent trials, patients had to 
+visit trial sites to undergo randomization after an 
+attack became at least moderate in severity, 30,31 
+site personnel injected the first dose and a sec -
+ond dose if needed (for which the patient had to 
+return to the clinic), and nonandrogenic prophy-
+laxis was not allowed. Of 13 previous random -
+ized, controlled trials that assessed an on-demand 
+treatment in hereditary angioedema, only one 
+trial, which evaluated conestat alfa (recombinant 
+human C1 inhibitor), used a measure similar to 
+that in our trial to assess the time to the begin-
+ning of symptom relief — a 7-point treatment-
+effect questionnaire (ratings range from “much 
+worse” to “much better”) that assessed the se -
+verity of attack symptoms at affected anatomical 
+locations.32 The median time to the beginning of 
+symptom relief was 1.5 hours with conestat alfa 
+at a dose of 50 IU per kilogram of body weight 
+(to a maximum of 4200 IU), as compared with 
+2.5 hours with placebo (P = 0.031),32 a finding 
+that was similar to the median times to the be -
+ginning of symptom relief with the 300-mg and 
+600-mg doses of sebetralstat in our trial. In 
+contrast with historical phase 3 trials, our trial 
+aligned with global treatment guidelines by al -
+lowing participants to determine when and where 
+to administer therapy. Furthermore, attacks of 
+any severity level (aside from severe laryngeal 
+attacks) were eligible for treatment, and the use 
+of nonandrogenic prophylaxis was allowed.
+Although early treatment has been recom -
+mended according to treatment guidelines since 
+2013,33 observational studies have shown that 
+treatment delays remain common.6,7,12-16 In sup-
+port of the concept that oral on-demand treat -
+ment may reduce treatment barriers and enable 
+early treatment, the median time to treatment 
+after the onset of an attack was 41 minutes in 
+our trial, with 25% of the participants treating 
+the attack within 6 minutes. In addition, a large 
+percentage of the treated attacks (42.8%) were 
+still mild in severity at the time of treatment, as 
+reported by participants on the PGI-S scale. These 
+data compare favorably to results of observational 
+studies of icatibant, in which the median times 
+to treatment were 1.8 hours and 5.0 hours 13,34 
+and only 11.6 to 14.6% of the attacks were 
+treated when still mild (or very mild) in severity 
+as defined by measures similar to those used in 
+our trial.35
+Limitations of this trial include the potential 
+effect of increasingly extended intervals between 
+assessments after the first 4 hours of data col -
+lection for each attack, which may have led to the 
+delayed capture of data on participant-reported 
+outcomes. Investigational agents that have shown 
+efficacy as long-term prophylaxis in patients 
+with hereditary angioedema were excluded.22,36,37 
+Approximately 19% of the participants who un-
+derwent randomization were not included in the 
+safety or efficacy analyses because they did not 
+have an eligible attack during the trial. However, 
+an intention-to-treat analysis that used imputed 
+data for these excluded participants showed results 
+similar to those for the full analysis population.
+An oral treatment option for the on-demand 
+treatment of hereditary angioedema attacks is 
+desirable to improve compliance with treatment 
+guidelines and avoid adverse drug reactions re -
+lated to the injection or infusion. In this phase 
+3 trial, sebetralstat, an oral plasma kallikrein 
+inhibitor, enabled early treatment of attacks. The 
+administration of sebetralstat for hereditary angio-
+edema attacks led to faster times to symptom 
+relief, reduced severity, and attack resolution 
+than placebo.
+Supported by KalVista Pharmaceuticals.
+Disclosure forms provided by the authors are available with 
+the full text of this article at NEJM.org.
+A data sharing statement provided by the authors is available 
+with the full text of this article at NEJM.org.
+We thank Richard W. Davis IV, Ph.D. (of ApotheCom), for 
+assistance with the writing of the first draft of the manuscript 
+and Zara Melyan, Ph.D. (of KalVista Pharmaceuticals), for scien-
+tific editorial review. On behalf of KalVista Pharmaceuticals, we 
+thank the trial participants and their families, HAE Internation-
+al and their member organizations, and the investigator teams 
+around the world who contributed to the KONFIDENT trial.
+Appendix
+The authors’ full names and academic degrees are as follows: Marc A. Riedl, M.D., Henriette Farkas, M.D., Ph.D., D.Sc., Emel Ay-
+gören-Pürsün, M.D., Fotis Psarros, M.D., Daniel F. Soteres, M.D., Maria Staevska, M.D., Mauro Cancian, M.D., David Hagin, M.D., 
+Ph.D., Daisuke Honda, M.D., Ph.D., Isaac Melamed, M.D., Sinisa Savic, Ph.D., Marcin Stobiecki, M.D., Paula J. Busse, M.D., Eunice 
+
+[PDF PAGE 11]
+n engl j med   nejm.org 11
+Oral Sebetralstat for Hereditary Angioedema
+Dias de Castro, M.D., Ph.D., Nancy Agmon-Levin, M.D., Richard Gower, M.D., Aharon Kessel, M.D., Marcin Kurowski, M.D., Ramon 
+Lleonart, M.D., Vesna Grivcheva Panovska, M.D., H. James Wedner, M.D., Paul K. Audhya, M.D., James Hao, Ph.D., Matthew Iverson, 
+M.P.H., Michael D. Smith, Pharm.D., Christopher M. Yea, Ph.D., William R. Lumry, M.D., Andrea Zanichelli, M.D., Jonathan A. Bern-
+stein, M.D., Marcus Maurer, M.D., and Danny M. Cohn, M.D.
+The authors’ affiliations are as follows: the Division of Allergy and Immunology, University of California, San Diego, La Jolla 
+(M.A.R.); the Hungarian Angioedema Center of Reference and Excellence, Department of Internal Medicine and Haematology, Sem-
+melweis University, Budapest, Hungary (H.F.); University Hospital Frankfurt, Goethe University Frankfurt, Frankfurt (E.A.-P.), and the 
+Institute of Allergology, Charité-Universitätsmedizin Berlin, Freie Universitätsmedizin Berlin and Humboldt-Universität zu Berlin, and 
+Immunology and Allergology, Fraunhofer Institute for Translational Medicine and Pharmacology, Berlin (M.M.) — all in Germany; 
+Naval Hospital of Athens, Athens (F.P.); Asthma and Allergy Associates, Colorado Springs (D.F.S.), and IMMUNOe Research Center, 
+Centennial (I.M.) — both in Colorado; Clinical Center of Allergology, Clinic of Allergy and Asthma, University Hospital Alexandrovska, 
+Medical University of Sofia, Sofia, Bulgaria (M.S.); the Department of Systems Medicine, University of Padua, Padua (M.C.), and Op-
+erative Unit of Medicine, Angioedema Center, IRCCS Policlinico San Donato, San Donato Milanese, and Dipartimento di Scienze Bio-
+mediche per la salute, University of Milan, Milan (A.Z.) — all in Italy; Tel Aviv Sourasky Medical Center (D.H.) and Sheba Medical 
+Center (N.A.-L.), Tel Aviv, and Bnai Zion Medical Center, Haifa (A.K.) — all in Israel; Chiba University Hospital, Chiba, Japan (D.H.); 
+the Leeds Institute of Rheumatic and Musculoskeletal Medicine, University of Leeds, Leeds (S.S.), and KalVista Pharmaceuticals, Salis-
+bury (P.K.A., J.H., M.I., M.D.S., C.M.Y.) — both in the United Kingdom; Jagiellonian University Medical College, Krakow (M.S.), and 
+Medical University of Lodz, Lodz (M.K.) — both in Poland; Icahn School of Medicine at Mount Sinai, New York (P.J.B.); Allergy and 
+Clinical Immunology Department, Centro Hospitalar Universitário de S. João, and Faculty of Medicine, University of Porto, Porto, Por-
+tugal (E.D.); Marycliff Clinical Research, Spokane, WA (R.G.); Hospital Universitario Bellvitge de L’Hospitalet de Llobregat, Allergology 
+Department, Barcelona (R.L.); University Clinic of Dermatology, School of Medicine, University Saints Cyril and Methodus, Skopje, 
+North Macedonia (V.G.P.); Washington University School of Medicine, St. Louis (H.J.W.); KalVista Pharmaceuticals, Cambridge, MA 
+(P.K.A., J.H., M.I., M.D.S., C.M.Y.); AARA Research Center, Dallas (W.R.L.); the University of Cincinnati College of Medicine and 
+Bernstein Clinical Research Center, Cincinnati (J.A.B.); and the Department of Vascular Medicine, Amsterdam Cardiovascular Sciences, 
+Amsterdam University Medical Center, University of Amsterdam, Amsterdam (D.M.C.).
+References
+1. Maurer M, Magerl M, Betschel S, et al. 
+The international WAO/EAACI guideline 
+for the management of hereditary angio -
+edema — the 2021 revision and update. 
+Allergy 2022; 77: 1961-90.
+2. Busse PJ, Christiansen SC, Riedl MA, 
+et al. US HAEA Medical Advisory Board 
+2020 guidelines for the management of 
+hereditary angioedema. J Allergy Clin Im-
+munol Pract 2021; 9(1): 132-150.e3.
+3. Bork K, Anderson JT, Caballero T, et 
+al. Assessment and management of dis -
+ease burden and quality of life in patients 
+with hereditary angioedema: a consensus 
+report. Allergy Asthma Clin Immunol 2021; 
+17: 40.
+4. Anderson J, Maina N. Reviewing clin-
+ical considerations and guideline recom -
+mendations of C1 inhibitor prophylaxis 
+for hereditary angioedema. Clin Transl 
+Allergy 2022; 12(1): e12092.
+5. Craig TJ, Rojavin MA, Machnig T, Kei-
+necke H-O, Bernstein JA. Effect of time to 
+treatment on response to C1 esterase in -
+hibitor concentrate for hereditary angio -
+edema attacks. Ann Allergy Asthma Im -
+munol 2013; 111: 211-5.
+6. Banta E, Horn P, Craig TJ. Response 
+to ecallantide treatment of acute attacks 
+of hereditary angioedema based on time 
+to intervention: results from the EDEMA 
+clinical trials. Allergy Asthma Proc 2011;  
+32: 319-24.
+7. Maurer M, Aberer W, Bouillet L, et al. 
+Hereditary angioedema attacks resolve 
+faster and are shorter after early icatibant 
+treatment. PLoS One 2013; 8(2): e53773.
+8. Nicola S, Rolla G, Brussino L. Break -
+throughs in hereditary angioedema man -
+agement: a systematic review of approved 
+drugs and those under research. Drugs 
+Context 2019; 8: 212605.
+9. Hernández Fernandez de Rojas D, 
+Ibañez E, Longhurst H, et al. Treatment of 
+HAE attacks in the icatibant outcome sur-
+vey: an analysis of icatibant self-adminis -
+tration versus administration by health 
+care professionals. Int Arch Allergy Im -
+munol 2015; 167: 21-8.
+10. Mendivil J, Murphy R, de la Cruz M, et 
+al. Clinical characteristics and burden of 
+illness in patients with hereditary angio -
+edema: findings from a multinational 
+patient survey. Orphanet J Rare Dis 2021; 
+16: 94.
+11. Gower RG, Wilber M. Considerations 
+for transition from subcutaneous to oral 
+prophylaxis in the treatment of hereditary 
+angioedema. Allergy Asthma Clin Immu -
+nol 2021; 17: 100.
+12. Beyaz S, Demir S, Oztop N, Colakoglu 
+B, Buyukozturk S, Gelincik A. How satis-
+factory is on-demand icatibant from the 
+patients’ perspective in real life? Allergy 
+Asthma Proc 2022; 43: 148-54.
+13. Aberer W, Maurer M, Reshef A, et al. 
+Open-label, multicenter study of self-
+administered icatibant for attacks of he -
+reditary angioedema. Allergy 2014;  69: 
+305-14.
+14. Zanichelli A, Mansi M, Azin GM, et 
+al. Efficacy of on-demand treatment in 
+reducing morbidity in patients with he -
+reditary angioedema due to C1 inhibitor 
+deficiency. Allergy 2015; 70: 1553-8.
+15. Andrási N, Veszeli N, Holdonner Á, et 
+al. Evaluation of the efficacy and safety of 
+home treatment with the recombinant 
+human C1-inhibitor in hereditary angio -
+edema resulting from C1-inhibitor defi -
+ciency. Int Immunopharmacol 2020;  80: 
+106216.
+16. Kuhlen J, Guyer A, Morphew T, 
+Tachdjian R, Banerji A. Assessment of 
+home infusion program for treating non-
+laryngeal hereditary angioedema attacks. 
+Ann Allergy Asthma Immunol 2014;  112: 
+471-2.
+17. Federici C, Perego F, Borsoi L, et al. 
+Costs and effects of on-demand treat -
+ment of hereditary angioedema in Italy:  
+a prospective cohort study of 167 patients. 
+BMJ Open 2018; 8(7): e022291.
+18. Squeglia V, Barbarino A, Bova M, et 
+al. High attack frequency in patients with 
+angioedema due to C1-inhibitor deficien-
+cy is a major determinant in switching to 
+home therapy: a real-life observational 
+study. Orphanet J Rare Dis 2016; 11: 133.
+19. Cicardi M, Levy RJ, McNeil DL, et al. 
+Ecallantide for the treatment of acute at -
+tacks in hereditary angioedema. N Engl J 
+Med 2010; 363: 523-31.
+20. Banerji A, Riedl MA, Bernstein JA, et 
+al. Effect of lanadelumab compared with 
+placebo on prevention of hereditary an -
+gioedema attacks: a randomized clinical 
+trial. JAMA 2018; 320: 2108-21.
+21. Zuraw B, Lumry WR, Johnston DT, et 
+al. Oral once-daily berotralstat for the 
+prevention of hereditary angioedema at -
+tacks: A randomized, double-blind, place-
+bo-controlled phase 3 trial. J Allergy Clin 
+Immunol 2021; 148: 164-172.e9.
+22. Riedl MA, Tachdjian R, Lumry WR, et 
+al. Efficacy and safety of donidalorsen for 
+hereditary angioedema. N Engl J Med. 
+DOI:  10.1056/NEJMoa2402478.
+23. Aygören-Pürsün E, Zanichelli A, Cohn 
+DM, et al. An investigational oral plasma 
+kallikrein inhibitor for on-demand treat -
+ment of hereditary angioedema: a two-part, 
+randomised, double-blind, placebo-con -
+trolled, crossover phase 2 trial. Lancet 2023; 
+401: 458-69.
+24. Maetzel A, Smith MD, Duckworth EJ, 
+
+[PDF PAGE 12]
+n engl j med   nejm.org 12
+The  new england journal of  medicine
+et al. KVD900, an oral on-demand treat -
+ment for hereditary angioedema: phase 1 
+study results. J Allergy Clin Immunol 
+2022; 149: 2034-42.
+25. Mutch P, Bashir M, Jung B, Yi P, Iver-
+son M. Absorption, metabolism, and ex -
+cretion of [14C]-sebetralstat (KVD900) fol-
+lowing a single oral dose in healthy male 
+participants. Xenobiotica 2022; 52: 707-17.
+26. Cohn DM, Aygören-Pürsün E, Bern -
+stein JA, et al. Evaluation of patient-  
+reported outcome measures for on-demand 
+treatment of hereditary angioedema at -
+tacks and design of KONFIDENT, a phase 
+3 trial of sebetralstat. Clin Transl Allergy 
+2023; 13(9): e12288.
+27. Feingold M, Gillespie BW. Cross-over 
+trials with censored data. Stat Med 1996;  
+15: 953-67.
+28. Bork K, Bernstein JA, Machnig T, 
+Craig TJ. Efficacy of different medical 
+therapies for the treatment of acute laryn-
+geal attacks of hereditary angioedema 
+due to C1-esterase inhibitor deficiency.  
+J Emerg Med 2016; 50(4): 567-580.e1.
+29. Fijen LM, Petersen RS, Cohn DM. 
+Outcome measures in randomized con -
+trolled studies of acute therapy for heredi-
+tary angioedema: a systematic review. Al -
+lergy 2022; 77: 2222-4.
+30. Zuraw B, Cicardi M, Levy RJ, et al. Re-
+combinant human C1-inhibitor for the 
+treatment of acute angioedema attacks 
+in patients with hereditary angioedema. 
+J Allergy Clin Immunol 2010;  126(4): 821-
+827.e14.
+31. Lumry WR, Li HH, Levy RJ, et al. Ran-
+domized placebo-controlled trial of the 
+bradykinin B 2 receptor antagonist icati -
+bant for the treatment of acute attacks of 
+hereditary angioedema: the FAST-3 trial. 
+Ann Allergy Asthma Immunol 2011;  107: 
+529-37.
+32. Riedl MA, Bernstein JA, Li H, et al. 
+Recombinant human C1-esterase inhibi -
+tor relieves symptoms of hereditary an -
+gioedema attacks: phase 3, randomized, 
+placebo-controlled trial. Ann Allergy 
+Asthma Immunol 2014; 112(2): 163-169.e1.
+33. Branco Ferreira M, Baeza ML, Spínola 
+Santos A, et al. Evolution of guidelines for 
+the management of hereditary angioede -
+ma due to C1 inhibitor deficiency. J Inves-
+tig Allergol Clin Immunol 2023; 33: 332-62.
+34. Caballero T, Aberer W, Longhurst HJ, 
+et al. The Icatibant Outcome Survey: expe-
+rience of hereditary angioedema manage-
+ment from six European countries. J Eur 
+Acad Dermatol Venereol 2017; 31: 1214-22.
+35. Guilarte M, Sala-Cunill A, Baeza ML, 
+et al. Hereditary angioedema due to C1 
+inhibitor deficiency: real-world experi -
+ence from the Icatibant Outcome Survey 
+in Spain. Allergy Asthma Clin Immunol 
+2021; 17: 137.
+36. Craig TJ, Reshef A, Li HH, et al. Effi -
+cacy and safety of garadacimab, a factor 
+XIIa inhibitor for hereditary angioedema 
+prevention (VANGUARD): a global, multi-
+centre, randomised, double-blind, placebo-
+controlled, phase 3 trial. Lancet 2023; 401: 
+1079-90.
+37. Longhurst HJ, Lindsay K, Petersen RS, 
+et al. CRISPR-Cas9 in vivo gene editing 
+of KLKB1 for hereditary angioedema. N Engl 
+J Med 2024; 390: 432-41.
+Copyright © 2024 Massachusetts Medical Society.

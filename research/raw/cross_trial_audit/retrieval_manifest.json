@@ -1,0 +1,96 @@
+[
+  {
+    "file": "konfident_protocol.pdf",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT05259917/Prot_000.pdf",
+    "bytes": 1064778,
+    "sha256": "a8d99ff6cc71428fd7004f62e218761e110852d1caf8b8b2b7c13606f48dacec",
+    "retrieved_date": "2026-10-07"
+  },
+  {
+    "file": "konfident_sap.pdf",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT05259917/SAP_001.pdf",
+    "bytes": 1026704,
+    "sha256": "3cd1717648c01fc26e9aa2fc85f599a483c10c7b00cd3e99167b300ccf93112e",
+    "retrieved_date": "2026-10-07"
+  },
+  {
+    "file": "apex2_protocol.pdf",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/11/NCT03485911/Prot_000.pdf",
+    "bytes": 1269506,
+    "sha256": "c5ac28d417ee1b2e073e97cf214df16759f10246792b6fe18d6c2a8b775e4f0b",
+    "retrieved_date": "2026-10-07"
+  },
+  {
+    "file": "apex2_sap.pdf",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/11/NCT03485911/SAP_001.pdf",
+    "bytes": 1341633,
+    "sha256": "f3ec48630ae21bf5c11d25751a4d3d478ddb035219412d13a87ade5f5003747a",
+    "retrieved_date": "2026-10-07"
+  },
+  {
+    "file": "ekterly_fda_review.pdf",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219301Orig1s000IntegratedR.pdf",
+    "bytes": 11212512,
+    "sha256": "68d8d2c91b50eae7bdd70d133941a55aadb0643df46f71da2f46de446cd99958",
+    "retrieved_date": "2026-10-07"
+  },
+  {
+    "file": "konfident_paper.pdf",
+    "url": "https://mediacenteratypon.nejmgroup-production.org/NEJMoa2314192.pdf",
+    "bytes": 607818,
+    "sha256": "2833c6dc12e2a7c539afb6a71eba0a07e030af373ce85a53ec17d3376152752a",
+    "retrieved_date": "2026-10-07"
+  },
+  {
+    "file": "fda_e10.pdf",
+    "url": "https://www.fda.gov/media/71349/download",
+    "bytes": 95456,
+    "sha256": "43fa5804f3efd35ce831325222d989e9eb901f4092331ed7899a7744d16bbe74",
+    "retrieved_date": "2026-10-07"
+  },
+  {
+    "file": "orladeyo_fda_review.pdf",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/214094Orig1s000MultidisciplineR.pdf",
+    "bytes": 20904771,
+    "sha256": "9a9ee794e63a05187460a449e99f8db39137620a7a32a028d9fcc3ca28612f5e",
+    "retrieved_date": "2026-10-07"
+  },
+  {
+    "file": "chapter3_ctis_protocol.pdf",
+    "url": "https://euclinicaltrials.eu/ctis-public/view/2024-516247-62-00?lang=en",
+    "download_label": "D1_Protocol_2024-516247-62_for_Publication",
+    "version": "Amendment 1.5, 19 May 2025",
+    "access": "Downloaded from public Trial Documents UI; some content redacted",
+    "bytes": 836438,
+    "sha256": "d62532683f867344a6109c648e5474c72e2ad32e32fb9cf3bf080c113754184e",
+    "retrieved_date": "2026-10-07"
+  },
+  {
+    "file": "NCT03485911.json",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT03485911",
+    "bytes": 85312,
+    "sha256": "8134f80591b3bc07ba645da7325b3061d7c27b1f8669c9862a88301be11d2d2e",
+    "retrieved_date": "2026-10-07"
+  },
+  {
+    "file": "NCT05259917.json",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT05259917",
+    "bytes": 51746,
+    "sha256": "abb624e1dafee333fc12ab347d64078fcde5c1da119e3a75bcdaef52ffaaa0b7",
+    "retrieved_date": "2026-10-07"
+  },
+  {
+    "file": "NCT06343779.json",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT06343779",
+    "bytes": 21573,
+    "sha256": "8f9d2994b6ef57b097d3c8b3ba02df4029923dbdad48becace96029b978e2253",
+    "retrieved_date": "2026-10-07"
+  },
+  {
+    "file": "NCT06669754.json",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT06669754",
+    "bytes": 17436,
+    "sha256": "1141dc893cbf6143e4e22a50f15adce2c68cd560d58946da335a66a4a41156f3",
+    "retrieved_date": "2026-10-07"
+  }
+]

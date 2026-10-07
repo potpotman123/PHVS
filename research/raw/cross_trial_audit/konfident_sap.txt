@@ -1,0 +1,4923 @@
+
+[PDF PAGE 1]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+  
+ 
+KalVista Pharmaceuticals Ltd 
+KVD900-301 
+(KONFIDENT) 
+A Randomized, Double-Blind, Placebo-Controlled, Phase 3, Three-way 
+Crossover Trial to Evaluate the Efficacy and Safety of Two Dose Levels of 
+KVD900, an Oral Plasma Kallikrein Inhibitor, for On-Demand Treatment 
+of Angioedema Attacks in Adolescent and Adult Patients with Hereditary 
+Angioedema Type I or II 
+1DEC2023 
+Final Statistical Analysis Plan 
+Version 2.0 
+Prepared by: 
+PPD 
+929 North Front Street Wilmington 
+NC 28401-3331 
+Confidential 
+
+[PDF PAGE 2]
+
+
+[PDF PAGE 3]
+      
+   
+ 
+  
+ 
+ 
+ 
+  
+ 
+ 
+   
+  
+   
+  
+  
+ 
+ 
+     
+    
+  
+ 
+ 
+    
+ 
+   
+  
+     
+ 
+ 
+     
+ 
+      
+   
+   
+     
+ 
+    
+ 
+  
+ 
+ 
+ 
+   
+  
+  
+ 
+  
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+SAP AMENDMENT SUMMARY OF CHANGES 
+The purpose of this amendment is to make changes to the KVD900-301 SAP Version 1.0 
+signed off on 30 June 2023. The change from Version 1.0 to Version 2.0 of the SAP and 
+rationale for key changes are as follows: 
+• Revised the criteria for 'Qualifying HAE Attacks' to encompass all attacks treated 
+with the investigational medicinal product (IMP). 
+o Reasoning: This modification in the definition of qualifying HAE attacks 
+ensures the inclusion of all attacks treated with the IMP in the efficacy 
+analyses. Adhering to the intent-to-treat principle, this change eliminates 
+potential bias arising from the exclusion of attacks due to poor assessment 
+compliance. 
+• Established guidelines for censoring attacks with underivable endpoints. 
+o Reasoning: With the inclusion of all IMP-treated HAE attacks in the efficacy 
+analyses, certain attacks lacking reliable assessment data resulted in endpoints 
+that could not be determined. To address this issue, specific censoring rules 
+were introduced. 
+• Updated the Gehan score transformation test model for PGI-S based endpoints by 
+adjusting for the baseline PGI-S category. 
+o Reasoning: Upon review of study KVD900-201 results and a blinded review 
+of IMP-treated attacks in this study, it is identified that baseline PGI-S score 
+has a potentially meaningful impact on PGI-S based endpoints. Therefore, 
+baseline PGI-S category (none or mild, moderate, and severe or very severe) 
+was added to the Gehan score transformation test as a fixed effect to adjust for 
+this potential confounding factor. 
+• Redefined the endpoint 'time to the second IMP administration within 12 and 24 
+hours’. 
+o Reasoning: The initial definition considered any conventional medication use 
+prior to the second IMP administration as an event equivalent to the second 
+IMP use. However, since the second IMP use is a crucial aspect of the dosing 
+regimen under study, it cannot be equated with conventional medication use 
+or deemed a treatment failure. 
+• Expanded the duration of the on-treatment period for adverse events in accordance 
+with FDA recommendations. 
+o Reasoning: Following the FDA's suggestion, the period for classifying 
+adverse events as "on-treatment" was extended from two days to three days 
+after the last administration of the study drug. This decision was substantiated 
+by a thorough analysis of KVD900 concentration data obtained from 198 
+healthy volunteers who were administered 600 mg film-coated tablets. The 
+analysis revealed that existing concentrations ranged from 0.01 to 2.71% of 
+Cmax at the 48-hour post-dose mark. This finding justified the conservative 
+approach of extending the on-treatment period, ensuring a comprehensive 
+evaluation of potential adverse events during this critical timeframe. 
+3 
+
+[PDF PAGE 4]
+      
+   
+ 
+  
+ 
+ 
+ 
+  
+   
+   
+      
+     
+   
+     
+     
+   
+    
+    
+    
+    
+     
+   
+     
+    
+      
+      
+    
+     
+    
+    
+    
+    
+    
+    
+     
+   
+     
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+TABLE OF CONTENTS 
+LIST OF ABBREVIATIONS .................................................................................................8 
+1. INTRODUCTION ..........................................................................................................10 
+2. OBJECTIVES .................................................................................................................11 
+2.1. PRIMARY OBJECTIVE AND ESTIMAND .................................................................. 11 
+2.2. SECONDARY OBJECTIVE ...................................................................................... 11 
+3. INVESTIGATIONAL PLAN ........................................................................................12 
+3.1. OVERALL TRIAL DESIGN AND PLAN .................................................................... 12 
+3.2. TRIAL ENDPOINTS................................................................................................ 12 
+3.2.1. Primary Endpoint................................................................................................ 12 
+3.2.2. Key Secondary Endpoints ................................................................................... 13 
+3.2.3. Secondary Endpoints .......................................................................................... 13 
+3.2.4. Exploratory Endpoints........................................................................................ 14 
+3.3. TREATMENTS ....................................................................................................... 14 
+3.4. DOSE ADJUSTMENT/MODIFICATIONS................................................................... 15 
+4. GENERAL STATISTICAL CONSIDERATIONS .....................................................15 
+4.1. MULTIPLICITY ADJUSTMENT ............................................................................... 17 
+4.2. SAMPLE SIZE........................................................................................................ 18 
+4.3. RANDOMIZATION, STRATIFICATION, AND BLINDING............................................ 19 
+4.4. INTERCURRENT EVENT TYPES ............................................................................. 21 
+4.5. ESTIMAND SPECIFICATIONS ................................................................................. 21 
+4.6. ANALYSIS SETS.................................................................................................... 24 
+4.6.1. Screened Set........................................................................................................ 25 
+4.6.2. Randomized Set................................................................................................... 25 
+4.6.3. Safety Set............................................................................................................. 25 
+4.6.4. Full Analysis Set ................................................................................................. 25 
+4.6.5. Per Protocol Set.................................................................................................. 25 
+4.6.6. On-demand Full Analysis Set.............................................................................. 25 
+4.6.7. Prophylaxis Full Analysis Set ............................................................................. 25 
+5. STATISTICAL ANALYSIS ..........................................................................................26 
+5.1. INCLUSION AND EXCLUSION CRITERIA ................................................................ 26 
+4 
+
+[PDF PAGE 5]
+      
+   
+ 
+  
+ 
+ 
+    
+     
+     
+    
+     
+    
+    
+     
+    
+    
+     
+     
+    
+    
+    
+    
+       
+     
+      
+    
+    
+    
+    
+    
+    
+   
+    
+     
+    
+    
+    
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+5.2. DISPOSITION ........................................................................................................ 26 
+5.3. PROTOCOL DEVIATIONS....................................................................................... 27 
+5.4. DEMOGRAPHICS AND BASELINE CHARACTERISTICS ............................................ 27 
+5.4.1. Demographics..................................................................................................... 27 
+5.5. MEDICAL HISTORY .............................................................................................. 27 
+5.5.1. General Medical History .................................................................................... 27 
+5.5.2. Disease-Specific History..................................................................................... 28 
+5.6. PRIOR AND CONCOMITANT MEDICATIONS ........................................................... 28 
+5.6.1. Prior Medications ............................................................................................... 28 
+5.6.2. Concomitant Medications ................................................................................... 28 
+5.7. EXTENT OF EXPOSURE AND TREATMENT COMPLIANCE ....................................... 28 
+5.8. EFFICACY ANALYSIS............................................................................................ 29 
+5.8.1. Efficacy Assessments........................................................................................... 29 
+5.8.2. Primary Efficacy Endpoint ................................................................................. 30 
+5.8.2.1. Primary Efficacy Analysis ........................................................................... 30 
+5.8.2.2. Supplementary Analysis to the Primary Efficacy Endpoint......................... 31 
+5.8.2.3. Sensitivity Analysis to the Primary Efficacy Endpoint................................ 32 
+5.8.3. Key Secondary Efficacy Endpoints ..................................................................... 33 
+5.8.3.1. Time to First Incidence of Decrease Within 12 hours ................................. 34 
+5.8.3.2. Time to HAE Attack Resolution Within 24 hours ....................................... 35 
+5.8.4. Secondary Efficacy Endpoints ............................................................................ 36 
+5.8.4.1. PGI-C ........................................................................................................... 36 
+5.8.4.2. PGI-S............................................................................................................ 37 
+5.8.4.3. Conventional Attack Treatment ................................................................... 39 
+5.8.4.4. Second IMP Administration......................................................................... 40 
+5.8.4.5. Composite VAS............................................................................................ 41 
+5.8.5. Exploratory Endpoints........................................................................................ 41 
+5.8.5.1. Characteristics of the IMP-Treated HAE Attacks........................................ 41 
+5.8.5.2. PGI-C ........................................................................................................... 42 
+5.8.5.3. PGI-S............................................................................................................ 42 
+5.8.5.4. Conventional Attack Treatment ................................................................... 43 
+5 
+
+[PDF PAGE 6]
+      
+   
+ 
+  
+ 
+ 
+    
+    
+    
+    
+     
+     
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+   
+  
+   
+        
+     
+    
+   
+   
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+5.8.5.5. GA-NRS and VAS ....................................................................................... 44 
+5.8.6. Subgroup and Subset Analyses ........................................................................... 45 
+5.9. SAFETY ANALYSIS ............................................................................................... 47 
+5.9.1. Adverse Events.................................................................................................... 47 
+5.9.1.1. Relationship of Adverse Events to Trial Medication................................... 47 
+5.9.1.2. Severity of Adverse Event............................................................................ 47 
+5.9.1.3. Serious Adverse Events................................................................................ 47 
+5.9.1.4. Treatment-Emergent Adverse Events .......................................................... 48 
+5.9.1.5. Incomplete Dates.......................................................................................... 48 
+5.9.1.6. Summaries of Adverse Events and Deaths .................................................. 49 
+5.9.2. Clinical Laboratory Evaluations ........................................................................ 50 
+5.9.2.1. Hematology .................................................................................................. 51 
+5.9.2.2. Clinical Chemistry........................................................................................ 51 
+5.9.2.3. Urinalysis ..................................................................................................... 51 
+5.9.2.4. Liver Enzyme ............................................................................................... 51 
+5.9.2.5. Electrolytes................................................................................................... 51 
+5.9.2.6. Coagulation .................................................................................................. 51 
+5.9.2.7. C1 Functional Level, C1 Antigen, and Complement C4 ............................. 51 
+5.9.2.8. Pregnancy..................................................................................................... 51 
+5.9.3. Vital Sign Measurements .................................................................................... 52 
+5.9.4. Physical Examination ......................................................................................... 52 
+5.9.5. Electrocardiogram.............................................................................................. 52 
+6. INTERIM ANALYSIS ...................................................................................................53 
+7. CHANGES IN THE PLANNED ANALYSIS ..............................................................53 
+8. REFERENCES................................................................................................................54 
+9. APPENDICES.................................................................................................................57 
+9.1. KAPLAN-MEIER IMPUTATION UNDER INFORMATIVE CENSORING ASSUMPTION... 57 
+9.2. DEFINITIONS AND PROGRAMMING CONVENTIONS ............................................... 59 
+9.2.1. Algorithms Deriving Time-to-Event Endpoints .................................................. 59 
+9.2.2. Handling of Conventional Medications with Missing Time in Time-to-Event 
+Analyses .............................................................................................................. 60 
+6 
+
+[PDF PAGE 7]
+      
+   
+ 
+  
+ 
+ 
+     
+      
+    
+    
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+9.2.3. Handling of Duplicate Records .......................................................................... 61 
+9.2.4. Handling of Events Achieved after Endpoint Analysis Window ......................... 61 
+9.2.5. Defining Prophylactic Treatment Status............................................................. 61 
+9.3. SCHEDULE OF TRIAL PROCEDURES....................................................................... 63 
+7 
+
+[PDF PAGE 8]
+      
+   
+ 
+  
+ 
+ 
+ 
+  
+  
+  
+   
+   
+  
+   
+  
+  
+  
+   
+  
+  
+  
+  
+   
+  
+   
+  
+   
+   
+   
+  
+    
+    
+  
+  
+   
+    
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+List of Abbreviations 
+5LS 5-point Likert Scale 
+7TQ 7-point Transition Question 
+AE Adverse Event 
+ALP Alkaline Phosphatase 
+ALT Alanine Aminotransferase 
+AST Aspartate Aminotransferase 
+AUC Area Under the Curve 
+BMI Body Mass Index 
+C1-INH C1-esterase inhibitor 
+CSR Clinical Study Report 
+eCRF Electronic Case Report Form 
+eDiary Electronic Diary 
+ECG Electrocardiogram 
+FAS Full Analysis Set 
+FDA Food and Drug Administration 
+GA-NRS General Anxiety Numeric Rating Scale 
+GGT Gamma Glutamyl Transferase 
+HAE Hereditary Angioedema 
+HbA1c Glycosylated Hemoglobin 
+HLGT High-Level Group Term 
+HLT High-Level Term 
+HR Heart Rate 
+IcEv Intercurrent Event 
+IMP Investigational Medicinal Product 
+INR International Normalized Ratio 
+IRS Imputing Risk Set 
+kg Kilogram(s) 
+LLT Lower-Level Term 
+MCH Mean Corpuscular Hemoglobin 
+8 
+
+[PDF PAGE 9]
+      
+   
+ 
+  
+ 
+ 
+    
+    
+   
+   
+  
+  
+  
+  
+  
+  
+   
+  
+  
+   
+  
+   
+  
+  
+     
+   
+  
+  
+  
+    
+     
+  
+   
+   
+  
+  
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+MCHC Mean Corpuscular Hemoglobin Concentration 
+MCV Mean Corpuscular Volume 
+MedDRA Medical Dictionary for Regulatory Activities 
+MPV Mean Platelet Volume 
+OD Once Daily 
+PGI-C Patient Global Impression of Change 
+PGI-S Patient Global Impression of Severity 
+pH Potential Hydrogen 
+PPS Per-Protocol Set 
+PR Pulse Rate 
+PT Preferred Term 
+Q1 First Quartile 
+Q3 Third Quartile 
+QTcF Fridericia Correction of QTc 
+RBC Red Blood Cell 
+RDW Red Cell Distribution Width 
+ROW Rest of World 
+RR Respiration Rate 
+RTSM Randomization and Trial Supply Management System 
+SAE Serious Adverse Event 
+SAF Safety Analysis Set 
+SAP Statistical Analysis Plan 
+SD Standard Deviation 
+SOC System Organ Class 
+SUSAR Suspected Unexpected Serious Adverse Reaction 
+TEAE Treatment-Emergent Adverse Event 
+VAS Visual Analog Scale 
+WBC White Blood Cell 
+WHODD World Health Organization Drug Dictionary 
+9 
+
+[PDF PAGE 10]
+      
+   
+ 
+  
+ 
+ 
+  
+ 
+ 
+  
+ 
+ 
+ 
+  
+   
+      
+ 
+ 
+    
+  
+   
+  
+  
+  
+  
+   
+  
+  
+   
+    
+  
+ 
+   
+ 
+   
+ 
+  
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+1. INTRODUCTION 
+This Statistical Analysis Plan (SAP) defines the statistical methods and data presentations 
+to be used by PPD Biostatistics in the analysis and presentation of data for the KalVista 
+Pharmaceuticals Limited trial KVD900-301, entitled “A Randomized, Double-Blind, 
+Placebo-Controlled, Phase 3, Three-way Crossover trial to Evaluate the Efficacy and 
+Safety of Two Dose Levels of KVD900, an Oral Plasma Kallikrein Inhibitor, for 
+On-Demand Treatment of Angioedema Attacks in Adolescent and Adult Patients with 
+Hereditary Angioedema Type I or II”. 
+Hereditary angioedema (HAE) is a rare and potentially life-threatening genetic disease 
+caused by a deficiency in the C1-esterase inhibitor (C1-INH) protein and characterized by 
+unpredictable tissue swelling due to an increase in vascular permeability. The prevalence 
+of HAE ranges between 1 and 2 per 100,000 people worldwide with a point estimate of 1.5 
+per 100,000 (Aygören-Pürsün et al. 2018). HAE types I and II account for approximately 
+90% and 10% of HAE cases with C1-INH deficiency, respectively (Nordenfelt et al. 2016, 
+Zanichelli et al. 2015). Both types of HAE are caused by a large variety of genetic 
+mutations in the SERPING1 gene (Gosswein et al. 2008). These mutations result in 
+production of reduced levels of functional C1-INH (HAE type I) or normal levels of 
+dysfunctional C1-INH (HAE type II) (Donaldson and Evans 1963, Donaldson and Rosen 
+1964, Rosen et al. 1965, Rosen et al. 1971). 
+C1-INH inhibits key enzymes in the contact system (Kaplan and Joseph 2014), one of 
+which is plasma kallikrein. Due to the deficiency in C1-INH associated with HAE, 
+activated plasma kallikrein generates the vasoactive peptide hormone bradykinin, the 
+mediator of vascular hyperpermeability that causes tissue swelling and pain (Fields et al. 
+1983, Hulström and Svensjö 1979, Nussberger et al. 1998, Nussberger et al. 2002, 
+Nussberger et al. 1999). 
+HAE is a life-long condition with approximately 50% of patients experiencing their first 
+attack before the age of 10 years (Bork et al. 2006, Nordenfelt et al. 2016) and more than 
+75% experiencing their first attack before adulthood (Maurer et al. 2019). Attacks are 
+episodic with considerable variations in frequency and severity (Bork et al. 2006, Javaud, 
+Altar et al. 2019). Swelling has been shown to affect subcutaneous tissue (face, upper or 
+lower extremities, genitals) in 82% of patients, abdominal organs (stomach, intestines) in 
+78% of patients, and the upper airway (larynx, tongue) in 27% of patients (Nordenfelt et al. 
+2016). Laryngeal attacks are infrequent (<5% of attacks) (Javaud, Altar et al. 2019) but are 
+potentially life-threatening in patients who are unaware of their diagnosis (Bork et al. 
+2012). Approximately 50% of all patients with HAE experience at least one laryngeal 
+attack during their lifetime (Bork et al. 2003, Bork et al. 2006). 
+Several precipitants can trigger HAE attacks; however, more than half of all HAE attacks 
+are unpredictable and occur without an obvious trigger (Caballero et al. 2016). Common 
+triggers of HAE attacks such as strenuous activity, mechanical trauma, or use of certain 
+medications, may be somewhat predictable. However, other triggers such as infections, 
+10 
+
+[PDF PAGE 11]
+      
+   
+ 
+  
+ 
+ 
+ 
+ 
+   
+ 
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+    
+   
+ 
+ 
+  
+  
+ 
+ 
+  
+  
+   
+  
+   
+   
+  
+     
+   
+ 
+   
+ 
+ 
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+fatigue, or emotional stress are difficult to predict (Caballero et al. 2016). Although 
+patients with HAE have been shown to have high health-related quality of life scores 
+(Javaud, Bouillet et al. 2019, Lumry et al. 2018), physical and emotional impairment 
+persists in their daily lives and may extend beyond the duration of the attacks 
+(Aygören-Pürsün et al. 2016, Caballero et al. 2014, Nordenfelt et al. 2017). 
+This SAP covers all specified analysis for the final trial reports based on the following 
+documents: 
+• Final Protocol, Version 4.0, 26 April 2023 
+• Final Protocol, Version 3.1, 11 October 2022 
+• Final Protocol, Version 3.0, 26 May 2022 
+• Final Protocol, Version 2.0, 10 February 2022 
+• Final Protocol, Version 1.0, 18 October 2021 
+• Electronic Case Report Form (eCRF) Version 1.0, 12 January 2022. 
+2. OBJECTIVES 
+2.1. Primary Objective and Estimand 
+Primary Objective Estimand Description (Including Endpoint) 
+To demonstrate the clinical 
+efficacy of KVD900 
+compared with placebo for the 
+on-demand treatment of HAE 
+attacks. 
+Relative effect of each of the KVD900 dose groups 
+versus placebo in shortening the time to beginning of 
+symptom relief defined by the patient global impression 
+of change (PGI-C) as at least “a little better” for 2 time 
+points in a row within 12 hours of investigational 
+medicinal product (IMP) administration in adolescent 
+and adult patients with hereditary angioedema type I or 
+II regardless of prohibited medications, as long as 
+conventional on-demand treatment of HAE attacks has 
+not been used and as if patient has not discontinued the 
+trial. 
+2.2. Secondary Objective 
+The secondary objective of this trial is to investigate the safety and tolerability of 
+KVD900. 
+11 
+
+[PDF PAGE 12]
+      
+   
+ 
+  
+ 
+ 
+  
+    
+  
+   
+ 
+  
+   
+     
+    
+  
+  
+   
+   
+   
+  
+ 
+ 
+   
+  
+   
+  
+   
+ 
+   
+  
+  
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+3. INVESTIGATIONAL PLAN 
+3.1. Overall Trial Design and Plan 
+KONFIDENT is a double-blind, randomized, placebo-controlled, multicenter clinical trial 
+in patients 12 years or older with HAE type I or II. Patients will be randomized to 
+6 treatment sequences in a 3-way crossover design. Eligible attacks will initially be treated 
+with a single dose of placebo, 300 mg, or 600 mg KVD900 per attack with a minimum 
+48-hour washout period between each eligible attack and last dose of IMP or conventional 
+on-demand treatment. If needed (as determined by the patient), a second dose of IMP may 
+be administered for each attack (for further detail, see Section 10.1 of the trial protocol). 
+The estimated duration of this trial for each randomized patient will be approximately 
+25 weeks from Screening through the Final Visit and includes the treatment of 3 eligible 
+attacks during the Treatment Period. 
+This trial will be conducted at HAE treatment centers on an outpatient basis and will 
+comprise in-clinic and televisits. A televisit can be conducted via a telephone call or via an 
+interactive audio/video system. If an in-clinic visit cannot be conducted (e.g. in the event 
+of a pandemic or other reason that prevents the patient from attending the in-clinic visit) 
+home health visits may be used to perform these visits if permitted by the relevant 
+regulatory authority, site’s Ethics Committee (EC)/Institutional Review Board (IRB), local 
+regulations, and the patient via informed consent. If utilized, the home visit will be 
+performed by an appropriately delegated home healthcare service provider. Information 
+captured during a home health visit will mirror that captured in an in-clinic visit. A trial 
+diagram is presented in Figure 1. 
+Figure 1 Trial Diagram 
+3.2. Trial Endpoints 
+3.2.1. Primary Endpoint 
+The primary endpoint of this trial is: 
+12 
+
+[PDF PAGE 13]
+      
+   
+ 
+  
+ 
+ 
+    
+     
+   
+  
+   
+  
+  
+ 
+    
+   
+   
+  
+   
+   
+  
+   
+  
+  
+   
+ 
+   
+  
+    
+ 
+ 
+  
+  
+  
+ 
+ 
+  
+   
+   
+     
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+• PGI-C: Time to beginning of symptom relief defined as at least “a little better” 
+(2 time points in a row) within 12 hours of first IMP administration. 
+3.2.2. Key Secondary Endpoints 
+Key secondary endpoints of this trial are: 
+• PGI-S: Time to first incidence of decrease from baseline (2 time points in a row) 
+within 12 hours of the first IMP administration. 
+• PGI-S: Time to HAE attack resolution defined as “none” within 24 hours of the 
+first IMP administration. 
+3.2.3. Secondary Endpoints 
+The secondary endpoints of this trial are: 
+• PGI-C: Number and percentage of attacks with beginning of symptom relief 
+defined as at least “a little better” (2 time points in a row) within 2, 4, 6, 8, 10, 12, 
+24, and 48 hours of the first IMP administration. 
+• PGI-C: Time to at least “better” (2 time points in a row) within 12 hours of the first 
+IMP administration. 
+• Time to either (1) first incidence of PGI-C being rated ‘a little worse’ or lower for 
+two time points in a row, or (2) use of conventional attack treatment, whichever 
+comes first within 12 hours and 24 hours. 
+• PGI-C: Time to at least “better” (2 time points in a row) within 24 hours of the first 
+IMP administration. 
+• PGI-S: Time to first incidence of decrease from baseline (2 time points in a row) 
+within 24 hours of the first IMP administration. 
+• Time to either (1) first incidence of worsening in attack severity on the PGI-S by 
+one level or more from baseline for two time points in a row, or (2) use of 
+conventional attack treatment, whichever comes first within 12 hours and 24 hours. 
+• PGI-S: Time to HAE attack resolution defined as “none” within 48 hours. 
+• PGI-S: Number and percentage of attacks with first incidence of decrease in attack 
+severity for two time points in a row within 4, 8, 12, 24, and 48 hours of the first 
+IMP administration. 
+• Time to first incidence of conventional attack treatment use within 12 hours and 
+24 hours. 
+• Number and percentage of attacks receiving conventional attack treatment within 
+4, 8, 12, 24, and 48 hours of the first IMP administration. 
+• Time to the second IMP administration within 12 hours and 24 hours. 
+13 
+
+[PDF PAGE 14]
+      
+   
+ 
+  
+ 
+ 
+   
+    
+      
+ 
+    
+     
+   
+  
+  
+ 
+  
+  
+ 
+  
+   
+ 
+   
+    
+    
+    
+ 
+  
+  
+   
+  
+ 
+  
+    
+  
+  
+   
+   
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+• Number and percentage of attacks receiving second IMP administration within 
+4, 8, 12, 24, and 48 hours of the first IMP administration. 
+• Composite VAS: Time to at least a 50% decrease from baseline (3 time points in a 
+row) within 12 hours and within 24 hours of IMP administration. 
+3.2.4. Exploratory Endpoints 
+The exploratory endpoints of this trial are: 
+• Characteristics of the IMP-treated HAE attacks. 
+• PGI-C score over time. 
+• PGI-S: Number and percentage of attacks with attack resolution defined as “none” 
+within 4, 8, 12, 24, and 48 hours of the first IMP administration. 
+• PGI-S score over time. 
+• GA-NRS: cumulative GA-NRS in AUC over 12 hours and 24 hours of the first 
+IMP administration. 
+• GA-NRS: number and percentage of attacks with first incidence of GA-NRS 
+reduction of ≥2, ≥3, ≥4, or ≥5 points within 4, 8, 12, 24, and 48 hours of the first 
+IMP administration. 
+• GA-NRS score over time. 
+• VAS score over time. 
+3.3. Treatments 
+Patients will be assigned to receive the following three treatments in randomized, double-
+dummy blinded, crossover fashion to treat three separate eligible HAE attacks: 
+• 300 mg KVD900 (1 x 300 mg tablet plus 1 matching placebo tablet). 
+• 600 mg KVD900 (2 x 300 mg tablets). 
+• Placebo for KVD900 (2 matching placebo tablets). 
+For an HAE attack to be considered eligible for treatment with IMP, the attack must meet 
+the following criteria: 
+• The attack is not a severe laryngeal attack. 
+• Patient must be able to identify the start time of the attack. 
+• At least 48 hours have elapsed since patient has used conventional on-demand 
+treatment or IMP to treat an HAE attack. 
+• Patient must be able to complete at least the first 4 hours of diary assessments 
+following the first administration of IMP. 
+14 
+
+[PDF PAGE 15]
+      
+   
+ 
+  
+ 
+ 
+    
+ 
+  
+   
+  
+  
+  
+ 
+   
+ 
+  
+ 
+   
+ 
+    
+  
+ 
+ 
+    
+ 
+  
+   
+ 
+ 
+     
+ 
+  
+  
+   
+  
+ 
+   
+     
+  
+              
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+• Post-attack televisit has been completed for the previous eligible attack (applicable 
+to eligible attacks 2 and 3 only). 
+Patients will treat each attack with up to 2 of doses IMP, administered at least 3 hours 
+apart. Eligible attacks should initially be treated with a single administration of IMP. 
+Patients will be encouraged to treat as soon as possible after recognition of the start of the 
+attack (for further details, see section 16.3 of the trial protocol). 
+3.4. Dose Adjustment/Modifications 
+Eligible attacks should initially be treated with a single administration of IMP as soon as 
+possible after recognition of the start of the attack. If needed (as determined by the patient), 
+a second dose of IMP may be administered for each attack. 
+No IMP dose modifications are allowed in this trial. Tablets must be swallowed whole; 
+tablets are not to be crushed or modified in any way. 
+4. GENERAL STATISTICAL CONSIDERATIONS 
+The treatment will be presented by dose categories (300 mg KVD900, 600 mg KVD900, 
+and Placebo).  Continuous data will be presented using descriptive statistics (i.e. n, mean, 
+standard deviation (SD), median, first and third quartiles, minimum, and maximum). 
+Categorical data will be presented using the patient count and percentage in each category. 
+For the summary statistics of all numerical variables (unless otherwise specified), 
+minimum and maximum will be displayed to the same level of precision. Mean, median, 
+first and third quartiles will be displayed to one level of precision greater than the data 
+collected. Standard deviation/standard error will be displayed to two levels of precision 
+greater than the data collected. P-values will be rounded to four decimal places. If a 
+p-value is less than 0.0001 it will be reported as “<0.0001.” If a p-value is greater than 
+0.9999 it will be reported as “>0.9999.” Data will be displayed in all listings sorted by 
+treatment sequence and patient number. 
+Patients will be identified in the listings by a concatenated patient identification number. 
+When count data are presented, the percentage will be suppressed when the count is zero in 
+order to draw attention to the non-zero counts. A row denoted “Missing” will be included 
+in count tabulations where specified on the shells to account for missing values. The 
+denominator for all percentages will be the number of patients in that treatment within the 
+analysis set of interest, unless otherwise specified. 
+Unless otherwise specified, baseline will be defined as the last non-missing evaluation 
+prior to or on the date that the first dose of treatment is taken. 
+Study day is defined in relation to the date of the first dose of trial medication for the first 
+HAE attack. Therefore, when an assessment date is before the first dose: 
+Study day = assessment date - first dose date of trial medication 
+15 
+
+[PDF PAGE 16]
+      
+   
+ 
+  
+ 
+ 
+  
+              
+     
+ 
+    
+ 
+  
+ 
+ 
+  
+    
+  
+ 
+ 
+    
+ 
+ 
+  
+   
+ 
+  
+  
+   
+    
+ 
+     
+  
+    
+ 
+  
+      
+    
+  
+ 
+ 
+ 
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+and when an assessment is on or after the first dose: 
+Study day = assessment date - first dose date of trial medication+ 1 
+Therefore, Study Day 1 is the day of first dose of IMP administration for the first HAE 
+attack. 
+For the purpose of inclusion in summary tables for prior and concomitant medications, 
+incomplete start and stop dates will be imputed. 
+Missing start dates (where UN and UNK indicate unknown or missing day and month 
+respectively) will be handled as follows: 
+• UN-MMM-YYYY: If the month and year are different from the month and year of 
+the first dose of trial medication, assume 01-MMM-YYYY. If the month and year 
+are the same as the first dose of trial medication month and year and the stop date 
+(after any imputation) is on or after the first dose of trial medication, then assume 
+the date of the first dose of trial medication. If the month and year are the same as 
+the first dose of trial medication month and year and the stop date (after any 
+imputation) is prior to the first dose of trial medication, then assume the stop date 
+for the start date; 
+• DD-UNK-YYYY/UN-UNK-YYYY: If the year is different from the year of first 
+dose of trial medication, assume 01-JAN-YYYY of the collected year. If the year 
+is the same as the first dose of trial medication year and the stop date (after any 
+imputation) is on or after the first dose of trial medication, then assume the date of 
+the first dose of trial medication. If the year is the same as the first dose of trial 
+medication and the stop date (after any imputation) is prior to the first dose of trial 
+medication, then assume the stop date for the start date. 
+Missing stop dates (where UN and UNK indicate unknown or missing day and month 
+respectively) will be handled as follows: 
+• UN-MMM-YYYY: Assume the last day of the month; 
+• DD-UNK-YYYY/UN-UNK-YYYY: Assume 31-DEC-YYYY. 
+If a patient dies during the trial, the stop date will be imputed as the date of death if the 
+imputed stop date is after date of death. 
+A month is defined as 30.4 days . A year is defined as 365.25 days. 
+Summary tables, figure and listings will be created using Version 9.4 (or later) of the 
+SAS® software for Microsoft Windows (SAS Institute, Inc., Cary, North Carolina). 
+There are 3 treatments in the trial: 
+1. 300 mg KVD900 
+2. 600 mg KVD900 
+3. Placebo 
+16 
+
+[PDF PAGE 17]
+      
+   
+ 
+  
+ 
+ 
+   
+  
+  
+   
+  
+     
+     
+  
+  
+      
+   
+ 
+   
+  
+    
+  
+     
+   
+   
+ 
+    
+ 
+    
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+4.1. Multiplicity Adjustment 
+Two pairwise comparisons will be performed: 300 mg KVD900 versus placebo and 
+600 mg KVD900 versus placebo. 
+All statistical tests will be 2-sided with an overall alpha of 0.05. The primary efficacy 
+endpoint analysis and key secondary endpoints will have Bonferroni multiplicity 
+adjustment for multiple dose levels with a loop-back feature to allow two-way alpha 
+passing (FDA, 2022). Therefore pairwise comparison tests will be 2-sided with an alpha of 
+0.025 initially. If the primary and key secondary endpoints hypotheses within one of the 
+pairwise comparison are not all rejected at 0.025 alpha level, but the hypotheses for the 
+other pairwise comparison are all rejected, then the unused alpha from the rejected 
+hypotheses can be directed to loop-back to the unrejected hypotheses, which is then 
+re-tested at the higher alpha level of 0.05. In the outputs, the actual p-values and adjusted 
+p-values will be presented. The analysis of the secondary or exploratory endpoints will not 
+have multiplicity adjustment. 
+Within each pairwise comparison, fixed sequence closed testing procedure will be 
+followed. In a fixed sequence closed testing procedure the formal inferential testing can 
+proceed to the next step only when statistical significance is declared in the current step. If 
+the testing sequence is stopped, the remaining endpoints in the testing sequence will be 
+considered exploratory. The fixed testing procedure will be employed first on the primary 
+and then on the key secondary endpoints 1 and 2, separately for each dose comparison to 
+placebo. Specifically, key secondary endpoint 1 will be tested only if the test on the 
+primary endpoint is statistically significant. Key secondary endpoint 2 will be tested only if 
+the test on the primary and key secondary endpoint 1 are statistically significant. The loop-
+back feature allows for retesting of unrejected hypotheses at 0.05 alpha level if all 
+hypotheses are rejected within the other pairwise comparison. Figure 2 shows the 
+multiplicity adjustment diagram. 
+Figure 2 Multiplicity Adjustment Diagram 
+17 
+
+[PDF PAGE 18]
+      
+   
+ 
+  
+ 
+ 
+ 
+  
+   
+ 
+  
+ 
+ 
+   
+    
+   
+  
+ 
+  
+  
+    
+  
+ 
+  
+ 
+ 
+    
+  
+ 
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+4.2. Sample Size 
+Approximately 114 patients will be randomized to ensure approximately 84 patients 
+(including approximately 12 adolescents) complete the trial. The trial population will 
+comprise 2 subsets: (1) patients who enter the trial taking only conventional on-demand 
+treatment; and (2) patients who enter the trial on a stable dose and regimen of long-term 
+prophylactic treatment. 
+1. Based on the population and results from the Phase 2 trial (KVD900-201), a sample 
+size of 66 patients completing the trial would provide 90% power for testing each 
+pairwise comparison (KVD900 versus placebo) at the 2.5% alpha level (2-sided) 
+for the primary endpoint of time to beginning of symptom relief of the HAE attack 
+as defined by PGI-C as at least “a little better” for 2 time points in a row within 
+12 hours of the first IMP administration. This sample size was derived using the 
+assumption that median time to symptom relief of the HAE attack is 1.6 hours in 
+active dose arm and 9 hours in placebo arm from trial KVD900-201. It was 
+assumed that patients begin the trial together and will be followed for the same 
+period of time, 49% of patients in control group and 17% of patients in KVD900 
+dose group are assumed to be lost-to-follow-up (right-censored). 
+There is no commercially available software for sample size calculation based on 
+the Feingold and Gillespie (1996) method. Taking a conservative approach and 
+using simulation-based procedure for power calculations for a parallel group 
+design, the two-sided two-group survival comparison Gehan-Wilcoxon test has 
+approximately 90% power to detect a median time ratio of 5.6 (9/1.6) with a target 
+2-sided significance level of 2.5% when there are 66 patients in each treatment 
+group. 
+18 
+
+[PDF PAGE 19]
+      
+   
+ 
+  
+ 
+ 
+    
+   
+   
+  
+   
+   
+ 
+   
+  
+ 
+     
+ 
+ 
+  
+  
+     
+  
+  
+   
+  
+   
+   
+ 
+  
+  
+   
+  
+  
+    
+    
+    
+    
+    
+    
+ 
+   
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+2. The treatment effect observed in the Phase 2 trial (KVD900-201) is assumed to be 
+representative of the entire KVD900-301 population. However, additional trial 
+populations will be enrolled (e.g. adolescent patients and patients that enter the trial 
+on a stable dose and regimen of long-term prophylactic treatment) where the 
+treatment effect has not been previously characterized. Therefore, a total of 
+84 patients completing the trial is proposed (to ensure approximately 84 attacks 
+treated with placebo, KVD900 300mg and KVD900 600mg). This conservative 
+approach increases the likelihood of maintaining at least 90% power in the event 
+that the true treatment effect in the KVD900-301 population is different to that 
+observed in the KVD900-201 trial. 
+Assuming there is approximately 30% dropout or non-completion rate, consistent with the 
+Phase 2 trial, the oversampling by 30 patients (84 + 30 = 114) is proposed to account for 
+patients that may not complete all treatment periods due to infrequent or ineligible HAE 
+attacks or for patients who discontinue the trial early, for whatever reason. 
+4.3. Randomization, Stratification, and Blinding 
+Within 4 weeks of the Screening Visit, patients will participate in a Randomization Visit. 
+Patients will be assigned to receive 3 treatments in randomized crossover fashion based on 
+their assignment to 1 of 6 treatment sequences. Randomization will be stratified by 
+whether the patient enters the trial taking only conventional on-demand treatment vs. on a 
+stable dose and regimen of long-term prophylactic treatment. 
+Randomization will occur using a Randomization and trial Supply Management System 
+(RTSM) in a 1:1:1:1:1:1 ratio using a permuted-block randomization method to ensure a 
+balanced assignment to each treatment sequence. A sample randomization schedule is 
+presented in Table 1. 
+Table 1. Sample Randomization Schedule 
+Treatment Sequence 1st Eligible HAE 
+Attack 
+2nd Eligible HAE 
+Attack 
+3rd Eligible HAE Attack 
+A Placebo 600 mg 300 mg 
+B Placebo 300 mg 600 mg 
+C 300 mg 600 mg Placebo 
+D 300 mg Placebo 600 mg 
+E 600 mg 300 mg Placebo 
+F 600 mg Placebo 300 mg 
+Patients must not be randomized unless all eligibility criteria have been met. 
+19 
+
+[PDF PAGE 20]
+      
+   
+ 
+  
+ 
+ 
+  
+   
+  
+   
+ 
+ 
+   
+    
+   
+    
+    
+   
+   
+    
+   
+     
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+Discontinued patients will not be replaced; patient/randomization numbers will not be 
+reused. If a patient does not complete a scheduled visit, every effort should be made to 
+contact the patient to reschedule the visit. All efforts should be documented in the patient’s 
+medical source record. A patient will be considered lost to follow-up if patient cannot be 
+reached after 4 weeks from the scheduled visit. 
+This trial will be performed in a double-blind, double dummy manner. 
+The trial blind would not be broken except in a medical emergency (where knowledge of 
+the IMP received would affect the treatment of the emergency) or regulatory requirement 
+(e.g. for serious adverse events (SAEs) or death). The patient’s safety takes priority over 
+any other considerations in determining if a treatment assignment should be unblinded. 
+The decision to break the trial blind will be made solely by the Investigator; efforts should 
+be made to contact the Sponsor and Medical Monitor prior to breaking the blind. 
+If an Investigator, site personnel performing assessments, or patient, is unblinded, it must 
+be documented as a major protocol deviation. 
+The overall randomization code will be broken only for reporting purposes. This will occur 
+once all final clinical data have been entered into the database and all data queries have 
+been resolved and the assignment of patient to the analysis sets has been completed. 
+20 
+
+[PDF PAGE 21]
+      
+   
+ 
+  
+ 
+ 
+  
+   
+   
+    
+     
+    
+    
+   
+    
+  
+ 
+   
+  
+   
+  
+ 
+  
+   
+   
+ 
+  
+   
+ 
+     
+      
+     
+ 
+   
+  
+ 
+   
+ 
+  
+    
+   
+  
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+4.4. Intercurrent Event Types 
+Table 2 Intercurrent Event Specifications 
+Label Intercurrent Event Type 
+Intercurrent event 1 (IcEV1) 
+(Discontinue trial due to any reason) 
+Discontinuation of trial due to any reason. 
+IcEV2 (Prohibited medications) Use of prohibited medications that may 
+interfere with outcome (for details see 
+Section 12.3 of the trial protocol). 
+IcEV3 (Conventional attack treatment) Use of conventional attack treatment that 
+may interfere with outcome (for details see 
+Section 12.1 of the trial protocol). 
+4.5. Estimand Specifications 
+Table 3 Estimand Specifications 
+1. Primary Estimand 
+Objective To demonstrate the clinical efficacy of KVD900 compared 
+with placebo for the on-demand treatment of HAE attacks. 
+Estimand Label Primary Estimand 
+Estimand Description Relative effect of each of the KVD900 dose groups versus 
+placebo in shortening the time to beginning of symptom 
+relief defined by the PGI-C as at least “a little better” for 
+2 time points in a row within 12 hours of the first IMP 
+administration in adolescent and adult patients with 
+hereditary angioedema type I or II regardless of prohibited 
+medications, as long as not conventional attack treatment 
+use, and as if patient has not discontinued the trial. 
+Target Population Adolescent and adult patients with hereditary angioedema 
+type I or II. 
+Endpoint The PGI-C: Time to beginning of symptom relief defined 
+as at least “a little better” (2 time points in a row) within 
+12 hours of the first IMP administration. 
+Treatment Conditions Initially, a single dose of KVD900 300 mg, 600 mg, or 
+matching placebo tablets in response to each eligible 
+attack of HAE. If needed (as determined by the patient), a 
+second dose of IMP may be administered for each attack. 
+Attacks that do not meet eligibility may be treated with 
+conventional on-demand treatment per the patient’s usual 
+treatment regimen. 
+21 
+
+[PDF PAGE 22]
+      
+   
+ 
+  
+ 
+ 
+ 
+  
+  
+   
+  
+  
+ 
+ 
+ 
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+ 
+  
+  
+  
+    
+  
+   
+ 
+  
+   
+   
+ 
+  
+ 
+  
+    
+   
+     
+  
+ 
+   
+   
+   
+    
+ 
+    
+    
+  
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+Population-Level 
+Summary 
+Difference in median time to beginning of symptom relief 
+defined by the PGI-C as at least “a little better” for 2 time 
+points in a row within 12 hours of the first IMP 
+administration. 
+Intercurrent Event Strategy 
+IcEV1 (discontinue due to 
+any reason) 
+Hypothetical. Assume that an intercurrent event would not 
+have occurred. Discontinued patients are censored at time 
+of discontinuation (taken from last assessment done during 
+the end of study visit). 
+IcEV2 (Prohibited 
+medications) 
+Treatment policy. Assessments made after prohibited 
+medication use(s) will be included in the analyses 
+regardless of the medication use(s). 
+IcEV3 (Conventional 
+Attack treatment) 
+Composite. Receiving conventional attack treatment prior 
+to the beginning of symptom relief for an eligible attack 
+will be considered as treatment failure; patients receiving 
+conventional attack treatment will be censored at 12 hours 
+for the impacted attack. 
+Rationale for Strategies The primary focus of this Phase 3 trial is to demonstrate 
+the clinical efficacy of KVD900 compared with placebo 
+for the on-demand treatment of HAE attacks regardless of 
+the prohibited medication taken, as long as conventional 
+on-demand attack treatment has not been used and as if 
+patient has not discontinued the trial. 
+2. Key Secondary 1 Estimand 
+Objective To demonstrate the clinical efficacy of KVD900 compared 
+with placebo for the on-demand treatment of HAE attacks. 
+Estimand Label Key secondary 1 Estimand. 
+Estimand Description Relative effect of each of the KVD900 dose groups versus 
+placebo in shortening the time to first incidence of 
+decrease from baseline for 2 time points in a row in PGI-S 
+within 12 hours of the first IMP administration in 
+adolescent and adult patients with hereditary angioedema 
+type I or II regardless of prohibited medications, as long as 
+conventional attack treatment has not been used and as if 
+patient has not discontinued the trial. 
+Target Population Adolescent and adult patients with hereditary angioedema 
+type I or II. 
+Endpoint The PGI-S: time to first incidence of decrease from 
+baseline for two time points in a row within 12 hours of 
+the first IMP administration. 
+22 
+
+[PDF PAGE 23]
+      
+   
+ 
+  
+ 
+ 
+   
+ 
+  
+    
+   
+  
+ 
+  
+    
+        
+  
+  
+ 
+  
+  
+ 
+  
+ 
+ 
+ 
+  
+ 
+  
+ 
+ 
+  
+    
+ 
+   
+  
+   
+ 
+  
+  
+   
+ 
+  
+ 
+  
+    
+   
+   
+  
+    
+     
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+Treatment Conditions Initially, a single dose of KVD900 300 mg, 600 mg, or 
+matching placebo tablets in response to each eligible 
+attack of HAE. If needed (as determined by the patient), a 
+second dose of IMP may be administered for each attack. 
+Attacks that do not meet eligibility may be treated with 
+conventional on-demand treatment per the patient’s usual 
+treatment regimen. 
+Population-Level 
+Summary 
+Difference in median time to first incidence of decreases 
+from baseline for 2 time points in a row in PGI-S within 
+12 hours of the first IMP administration. 
+Intercurrent Event Strategy 
+IcEV1 (discontinue due to Hypothetical. Assume that an intercurrent event would 
+any reason) not have occurred. Discontinued patients are censored at 
+time of discontinuation (taken from last assessment done 
+during the end of study visit). 
+IcEV2 (Prohibited 
+medications) 
+Treatment policy. Assessments made after prohibited 
+medication use(s) will be included in the analyses 
+regardless of the medication use(s). 
+IcEV3 (Conventional Composite. Receiving conventional attack treatment prior 
+Attack treatment) to the first incidence of PGI-S decreases for an eligible 
+attack will be considered as treatment failure; patients 
+receiving conventional attack treatment will be censored at 
+12 hours for the impacted attack. 
+Rationale for Strategies The primary focus of this Phase 3 trial is to demonstrate 
+the clinical efficacy of KVD900 compared with placebo 
+for the on-demand treatment of HAE attacks regardless of 
+the prohibited medication taken as long as conventional 
+on-demand attack treatment has not been used and as if 
+patient has not discontinued the trial. 
+3. Key Secondary 2 Estimand 
+Objective To demonstrate the clinical efficacy of KVD900 compared 
+with placebo for the on-demand treatment of HAE attacks. 
+Estimand Label Key secondary 2 Estimand. 
+Estimand Description Relative effect of each of the KVD900 dose groups versus 
+placebo in shortening the time to HAE attack resolution 
+defined as “none” on PGI-S within 24 hours of the first 
+IMP administration in adolescent and adult patients with 
+hereditary angioedema type I or II regardless of prohibited 
+medications and without conventional attack treatment use 
+and as if patient has not discontinued the trial. 
+23 
+
+[PDF PAGE 24]
+      
+   
+ 
+  
+ 
+ 
+    
+ 
+    
+   
+   
+   
+ 
+  
+    
+   
+  
+ 
+  
+    
+   
+  
+  
+  
+ 
+  
+ 
+  
+ 
+ 
+ 
+  
+ 
+  
+ 
+ 
+  
+  
+ 
+ 
+   
+   
+ 
+  
+  
+  
+  
+   
+  
+  
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+Target Population Adolescent and adult patients with hereditary angioedema 
+type I or II. 
+Endpoint The PGI-S: Time to HAE attack resolution defined as 
+“none” on PGI-S within 24 hours of the first IMP 
+administration without conventional attack treatment use. 
+Treatment Conditions Initially, a single dose of KVD900 300 mg, 600 mg, or 
+matching placebo tablets in response to each eligible 
+attack of HAE. If needed (as determined by the patient), a 
+second dose of IMP may be administered for each attack. 
+Attacks that do not meet eligibility may be treated with 
+conventional on-demand treatment per the patient’s usual 
+treatment regimen. 
+Population-Level 
+Summary 
+Difference in median time to HAE attack resolution 
+defined as “none” on PGI-S within 24 hours of the first 
+IMP administration without conventional attack treatment 
+use. 
+Intercurrent Event Strategy 
+IcEV1 (discontinue due to 
+any reason) 
+Hypothetical. Assume that an intercurrent event would not 
+have occurred. Discontinued patients are censored at time 
+of discontinuation (taken from last assessment done during 
+the end of study visit). 
+IcEV2 (Prohibited 
+medications) 
+Treatment policy. Assessments made after prohibited 
+medication use(s) will be included in the analyses 
+regardless of the medication use(s). 
+IcEV3 (Conventional 
+Attack treatment) 
+Composite. Receiving conventional attack treatment prior 
+to the attack resolution for an eligible attack will be 
+considered as treatment failure; patients receiving 
+conventional attack treatment would be censored at 
+24 hours for the impacted attack. 
+Rationale for Strategies The primary focus of this Phase 3 trial is to demonstrate 
+the clinical efficacy of KVD900 compared with placebo 
+for the on-demand treatment of HAE attacks regardless of 
+the prohibited medication taken as long as conventional 
+on-demand attack treatment has not been used and patient 
+did not discontinue the trial. 
+4.6. Analysis Sets 
+The following analysis population sets will be used in this trial: 
+• Screened Set 
+• Randomized Set 
+24 
+
+[PDF PAGE 25]
+      
+   
+ 
+  
+ 
+ 
+  
+  
+  
+  
+    
+   
+   
+  
+    
+  
+ 
+    
+  
+ 
+  
+    
+      
+   
+  
+    
+  
+ 
+ 
+  
+   
+  
+ 
+  
+  
+   
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+• Safety Set 
+• Full Analysis Set 
+• Per-Protocol Set 
+• On-demand Full Analysis Set 
+• Prophylaxis Full Analysis Set 
+4.6.1. Screened Set 
+The Screened Set includes all patients who have signed informed consent. 
+4.6.2. Randomized Set 
+The Randomized Set includes all patients who are randomized to a treatment sequence. 
+4.6.3. Safety Set 
+Safety Set (SAF) will include all patients who receive at least one dose of trial medication. 
+If one or more patient(s) received the incorrect trial medication, data summarized using the 
+SAF will be presented according to the actual treatment received. The SAF population will 
+be the population for safety analyses. 
+4.6.4. Full Analysis Set 
+Full Analysis Set (FAS) will include all randomized patients who receive trial medication 
+from at least one period for respective qualifying HAE attack. If one or more patient(s) 
+received the incorrect trial medication, data summarized using the FAS will be presented 
+according to the randomized treatment. The FAS population will be the population for 
+efficacy analyses. Refer to Section 5.8 for the definition of qualifying HAE attack. 
+4.6.5. Per Protocol Set 
+Per-protocol Set (PPS) will includes all randomized patients who receive trial medication 
+from at least one period for respective qualifying HAE attack and who do not have major 
+protocol deviations that may affect primary efficacy endpoint. 
+4.6.6. On-demand Full Analysis Set 
+On-demand Full Analysis Set (on-demand FAS) will include FAS patients who enter the 
+trial taking only conventional on-demand treatment. 
+4.6.7. Prophylaxis Full Analysis Set 
+Prophylaxis Full Analysis Set (prophylaxis-FAS) will include FAS patients who enter the 
+trial on a stable dose and regimen of long-term prophylactic treatment. 
+25 
+
+[PDF PAGE 26]
+      
+   
+ 
+  
+ 
+ 
+   
+  
+   
+     
+      
+ 
+  
+   
+    
+  
+  
+  
+   
+   
+   
+   
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+    
+ 
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+5. STATISTICAL ANALYSIS 
+5.1. Inclusion and Exclusion Criteria 
+The details of the inclusion and exclusion criteria can be found in Sections 9.1 and 9.2 of 
+the trial protocol. Patient status of eligibility criteria met, inclusion criteria not met, and 
+exclusion criteria met as well as corresponding details will be listed using the Screened 
+Set. 
+5.2. Disposition 
+A by-patient listing of randomization information (including date of informed consent, 
+date of randomization, treatment sequence, randomization number and kit numbers) for all 
+randomized patients will be produced. 
+The number and percentage of patients who are eligible for enrollment, and who failed 
+screening and the reason for screen failure will be presented for the Screened Set. 
+Additionally, the number and percentage of patients who have been randomized and who 
+are in each analysis set including the SAF, FAS, PPS, on-demand FAS, and prophylaxis 
+FAS will be presented by treatment sequence and overall for the Randomized Set. 
+Patient disposition will be summarized including the number and percentage of patients 
+who completed the study, completed each HAE attack period and who prematurely 
+discontinued during the trial (and the primary reason) will be presented for each treatment 
+sequence and overall, for SAF and FAS. Primary reasons for trial discontinuation may 
+include any of the following listed reasons: 
+• Adverse Event 
+• Death 
+• Protocol Violation 
+• Lost to Follow-up 
+• Physician Decision 
+• Pregnancy 
+• Screen Failure 
+• Withdrawal by patient 
+• Trial termination by Sponsor 
+• Other 
+Patient disposition, patient completing or terminating the trial, patient completing each 
+attack period, and trial analysis sets will be listed by patient for all patients in the 
+Randomized Set by treatment sequence and patient ID. 
+26 
+
+[PDF PAGE 27]
+      
+   
+ 
+  
+ 
+ 
+  
+  
+ 
+ 
+ 
+      
+ 
+   
+    
+    
+   
+  
+  
+   
+     
+  
+ 
+  
+   
+  
+  
+  
+   
+   
+  
+  
+ 
+     
+  
+    
+    
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+5.3. Protocol Deviations 
+Protocol deviations will be identified and confirmed prior to database lock and 
+summarized by the deviation categories shown in trial deviation rules document. Protocol 
+deviations that are considered biasing primary endpoint outcome will be identified as 
+major protocol deviations and will lead to patient exclusion from PPS. 
+The major protocol deviations will be summarized by treatment sequence and overall for 
+all patients in the Randomized Set. 
+A by-patient listing of protocol deviations will also be presented by treatment sequence. A 
+flag (Y/N) will be added to the listing to denote whether a patient has a major protocol 
+deviation, and whether a patient is included or excluded from the PPS. 
+5.4. Demographics and Baseline Characteristics 
+5.4.1. Demographics 
+A summary of demographics and baseline characteristics will be presented by treatment 
+sequence and overall for the SAF. The demographic characteristics consist of age (years), 
+sex, ethnicity, race, and fertility status. The baseline characteristics consist of height (m), 
+weight (kg), and body mass index (BMI) (kg/m²). Body mass index is calculated as (body 
+weight in kilograms)/(height in meters)2. 
+Age (years), baseline height (m), baseline weight (kg), and baseline BMI (kg/m²) will be 
+summarized using descriptive statistics. The number and percentage of patients by sex 
+(Male, Female), ethnicity (Hispanic or Latino, Not Hispanic or Latino, and Not Reported) 
+and race (White, Black or African American, Asian, American Indian or Alaska Native, 
+Native Hawaiian or Other Pacific Islander, Not Reported, and Other), will also be reported. 
+Patient demographic and baseline characteristics will be presented in a listing by treatment 
+sequence for all patients in the Randomized Set. 
+5.5. Medical History 
+5.5.1. General Medical History 
+Medical history will be coded using the Medical Dictionary for Regulatory Activities 
+(MedDRA) version 26.0 or higher. The number and percentage of patients with any 
+medical history will be summarized by treatment sequence and overall and for each body 
+system. Body systems will be included as recorded on the eCRF. Percentages will be 
+calculated based on number of patients in the FAS. 
+Patient medical history data including specific details will be presented in a listing. 
+27 
+
+[PDF PAGE 28]
+      
+   
+ 
+  
+ 
+ 
+  
+   
+    
+  
+ 
+   
+  
+    
+ 
+     
+ 
+  
+   
+ 
+  
+    
+  
+  
+    
+  
+  
+   
+ 
+  
+   
+  
+  
+    
+    
+   
+   
+  
+  
+  
+    
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+5.5.2. Disease-Specific History 
+HAE attack history will be collected at the Screening Visit. The HAE attack history 
+includes HAE type (type I or type II), date of diagnosis, start date of last attack prior to 
+screening, relative type (primary and secondary relative), and current treatment regimen 
+(prophylaxis and on-demand only). 
+The number and percentage of patients with any HAE history will be summarized by 
+treatment sequence and overall and for each HAE type, relative type, and treatment 
+regimen. Percentages will be calculated based on number of patients in the FAS. Time 
+since HAE diagnosis will be summarized using descriptive statistics for the FAS. 
+Patient HAE history data including specific details described in this section will be 
+presented in a listing. 
+5.6. Prior and Concomitant Medications 
+Information on prior and concomitant medications taken by patients are recorded in the 
+eCRF. Prior and concomitant medication will be coded according to the latest World 
+Health Organization drug dictionary (WHODD). Incomplete dates will be imputed 
+following rules in Section 4. All medications will be listed. 
+5.6.1. Prior Medications 
+Prior medications (including conventional HAE medications) are defined as those 
+medications taken within 4 weeks prior to the Screening Visit up to the first dose of IMP. 
+Any medications and treatments taken prior to and not stopped prior to the first IMP will 
+be counted in both prior and concomitant medication. The total number of prior 
+medications and the number and percentages of patients with at least 1 prior medication 
+will be summarized. The number and percentages of all prior medications will be 
+summarized by drug class and preferred term. All summaries will be performed by 
+treatment sequence and overall using the SAF. 
+5.6.2. Concomitant Medications 
+Concomitant medications are defined as those medications (including conventional HAE 
+medications) ongoing at or started after the first dose of IMP. Concomitant medications 
+will be summarized by drug class and preferred term for each treatment sequence and 
+overall using the SAF. 
+5.7. Extent of Exposure and Treatment Compliance 
+Confirmation of dosing compliance will be performed during each televisit (via review of 
+unused IMP). If the in-clinic visits cannot occur for the Final Visit/ET every effort will be 
+made to perform the final accountability, and arrangements will be made to return any 
+unused IMP. No IMP dose modifications are allowed in this trial. 
+28 
+
+[PDF PAGE 29]
+      
+   
+ 
+  
+ 
+ 
+       
+     
+      
+      
+  
+   
+  
+    
+  
+   
+   
+ 
+  
+ 
+     
+ 
+   
+  
+    
+    
+ 
+  
+  
+  
+    
+  
+     
+  
+   
+ 
+  
+    
+ 
+ 
+ 
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+The number of doses received and the number of tablets taken will be summarized using 
+descriptive statistics. The number and percentage of patients receiving 0, 1, or 2 doses will 
+also be presented. If a patient received a second dose of IMP, then the time between first 
+dose of IMP administration and second dose of IMP administration will be calculated and 
+summarized using descriptive statistics. Summaries will be provided by treatment and 
+overall for the SAF. 
+A by-patient listing of IMP administration and drug accountability will be provided by 
+treatment sequence and on-treatment HAE attack (in chronological order). 
+5.8. Efficacy Analysis 
+All efficacy data will be summarized by randomized treatment. All efficacy analysis will 
+be performed using the FAS and primary and key secondary endpoints analysis will be 
+repeated using the PPS. Statistical tests will be 2-sided with an overall alpha of 0.05 unless 
+otherwise specified. Treatment comparisons of interest will be pairwise comparisons of 
+300 mg KVD900 versus placebo and 600 mg KVD900 versus placebo. 
+Initially, statistical tests on both the primary and the key secondary endpoints will be at the 
+same Bonferroni adjusted significance level alpha (0.025) obtained by dividing the original 
+significance level 0.05 by the number of comparisons within endpoint family between each 
+KVD900 dose level and placebo, i.e. the adjusted significance level is 0.025 (0.05 divided 
+by 2) initially. Loop-back of unused alpha is allowed; see Section 4.1 for details. 
+A qualifying HAE attack is defined as an IMP-treated HAE attack. All efficacy analyses 
+will only include qualifying HAE attacks. Non-qualifying HAE attacks will be presented in 
+a listing, with all available assessments for the attack presented. 
+5.8.1. Efficacy Assessments 
+Change in HAE attack severity will be assessed using the Patient Global Impression of 
+Change (PGI-C) 7-point rating scale as much better, better, a little better, no change, a little 
+worse, worse, much worse. 
+HAE attack severity will be assessed on the Patient Global Impression of Severity (PGI-S) 
+5-point rating scale as none, mild, moderate, severe, and very severe. A decrease in 
+severity is defined as any change to any less severe level post baseline, than the score 
+reported at baseline. 
+The type of HAE attack symptoms (abdominal pain, skin pain, skin swelling) will each be 
+assessed on a 101-point visual analogue scale (VAS) anchored at 0 (none) to 100 (very 
+severe). The composite VAS score will be derived as the average score across the three 
+symptoms. 
+Current anxiety level assessed on the Modified GA-NRS using an 11-point scale anchored 
+at 0 (not at all anxious) and 10 (extremely anxious). 
+29 
+
+[PDF PAGE 30]
+      
+   
+ 
+  
+ 
+ 
+  
+     
+ 
+   
+   
+ 
+   
+   
+     
+  
+ 
+ 
+  
+  
+  
+   
+   
+   
+    
+   
+ 
+   
+   
+  
+ 
+    
+       
+   
+  
+   
+   
+     
+  
+    
+ 
+  
+ 
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+5.8.2. Primary Efficacy Endpoint 
+The null hypothesis is that there is no difference in survival distribution of the time to 
+beginning of symptom relief defined by the PGI-C as at least “a little better” for 2 time 
+points in a row within 12 hours of the first IMP administration (no difference between each 
+dose of KVD900 group versus placebo group) versus the alternative hypothesis that the 
+survival distributions are different (each of the KVD900 dose groups versus placebo). 
+𝐻𝐻0: 𝑡𝑡𝑘𝑘− 𝑡𝑡𝑝𝑝 =0, 
+𝐻𝐻a: 𝑡𝑡𝑘𝑘− 𝑡𝑡𝑝𝑝 ≠0. 
+Where 𝑡𝑡𝑘𝑘 is the time to “a little better” or higher rating of HAE attack following KVD900 
+dose treatment and 𝑡𝑡𝑝𝑝 is the time to “a little better” or higher rating of HAE attack 
+following placebo. 
+5.8.2.1.Primary Efficacy Analysis 
+PGI-C: Time to beginning of symptom relief is defined as an HAE attack being rated at 
+least “a little better” (2 time points in a row) on the PGI-C within 12 hours of the first IMP 
+administration and will be calculated as: 
+Time to HAE attack being rated at least “a little better” (2 time points in a row) 
+(hours) = Date/time of first rating of “a little better” or higher (i.e. better or much 
+better) which is immediately followed by another rating of “a little better” or 
+higher (without missing values in between) – Date/time of first IMP administration. 
+Patients will be treated as right-censored at 12 hours if they do not achieve beginning of 
+symptom relief defined by PGI-C as at least “a little better” (2 time points in a row) or 
+receive conventional attack treatment prior to time to event within 12 hours of the first 
+IMP administration. In the case of discontinuation that prevented event “a little better” or 
+higher HAE attack rating occurrence, patients will be censored at the time of 
+discontinuation (taken from last assessment done during the end of study visit). In the case 
+of underivable time-to-event results due to lack of at least 2 consecutive post-baseline 
+assessments, attacks will be censored at time 0. See Section 9.2.1 for detailed algorithms. 
+Time to beginning of symptom relief defined by the PGI-C as at least “a little better” for 
+2 time points in a row within 12 hours of IMP administration will be analyzed using Gehan 
+score transformation test proposed by Feingold and Gillespie (1996). To perform the test, 
+each observation will be transformed to Gehan score. Gehan score for the ith observation is 
+the number of observations in the entire data set clearly smaller than the ith minus the 
+number clearly larger. That is, 
+• For uncensored observations, the Gehan score is the number of uncensored 
+observations strictly smaller, minus the number of uncensored observations strictly 
+greater, minus the number of right-censored observations equal or greater. 
+• For right-censored observations, the Gehan score is the number of uncensored 
+observations smaller or equal. 
+30 
+
+[PDF PAGE 31]
+      
+   
+ 
+  
+ 
+ 
+ 
+    
+  
+  
+   
+  
+   
+   
+  
+   
+  
+ 
+  
+ 
+     
+  
+  
+   
+ 
+ 
+   
+ 
+  
+  
+    
+  
+  
+  
+   
+  
+   
+  
+ 
+   
+   
+    
+ 
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+Gehan scores will be analyzed using a linear mixed model, including terms for sequence, 
+period and treatment in the model as fixed effects and patient nested within sequence as a 
+random effect. Least-squares means of treatment effects to show differences between 
+treatments (600 mg versus placebo and 300 mg versus placebo) will be tested at alpha of 
+0.025 level. Least-square means and standard errors will be presented by treatment. P-
+values will be calculated for the comparison of each KVD900 dose versus placebo, along 
+with the least-square mean treatment difference and corresponding 95% CI will be 
+presented. Additionally, adjusted p-values for each pairwise comparison will also be 
+presented with Bonferroni adjustment and loop-back feature. 
+Kaplan-Meier estimates of the 25th percentile (Q1), the median and the 75th percentile (Q3) 
+and corresponding 95% CI, of time to beginning of symptom relief will be presented by 
+treatment. Kaplan-Meier survival curves will also be presented by treatment. Kaplan-Meier 
+survival analysis will be performed using the SAS LIFETEST procedure. 
+The time to beginning of symptom relief will be listed with censored observations flagged 
+with ‘R’. The number and percentage of patients that meet beginning of symptom relief 
+and the number censored will be presented by treatment. 
+Moreover, PGI-S and PGI-C will be listed over time in listing. 
+5.8.2.2.Supplementary Analysis to the Primary Efficacy Endpoint 
+If not otherwise specified, the following supplementary analyses will be performed in the 
+FAS and PPS. 
+• The primary endpoint analysis will be repeated in the PPS. 
+• For the primary endpoint analysis time to beginning of symptom relief within 
+12 hours (by considering censoring rules also) will be categorized into intervals 
+(0 to 1, >1 to 2, >2 to 4, >4 to 6, >6 to 8, >8 to 10, and >10 to 12 hours) and the 
+number and percentage of attacks that fall into each category will be presented. If 
+several categories have 0 counts, wider intervals (0 to 4, >4 to 8, >8 to 12 hours) 
+will be considered. The number and percentage of patients in each category will be 
+presented in a stacked bar graph by treatment. In addition, the time to event 
+analysis will be conducted for time intervals within 1, 2, 4, 6, 8, 10, and 24 hours 
+of the first IMP administration (similar to the analysis performed for the within 12 
+hours of the first IMP administration interval). 
+• For this supplementary analysis, outcomes of patients who took conventional 
+attack treatment will be imputed with a hypothetical strategy, i.e. their time to 
+beginning of symptom relief defined as at least “a little better” (2 times in a row) 
+within 12 hours of IMP administration for PGI-C will be imputed as right-censored 
+at the time of conventional attack treatment. The primary analysis will then be 
+repeated. 
+31 
+
+[PDF PAGE 32]
+      
+   
+ 
+  
+ 
+ 
+    
+  
+    
+   
+   
+  
+ 
+   
+   
+  
+    
+ 
+  
+   
+  
+    
+ 
+  
+  
+  
+ 
+ 
+  
+ 
+   
+ 
+ 
+  
+ 
+ 
+ 
+  
+ 
+    
+ 
+ 
+  
+ 
+ 
+        
+        
+        
+        
+        
+        
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+5.8.2.3.Sensitivity Analysis to the Primary Efficacy Endpoint 
+Imputation Under Informative Censoring 
+For this first sensitivity analysis, censored observations will be treated as missing data. 
+Non parametric multiple imputation under informative censoring assumption will be 
+applied to impute censored data. Informative censoring assumes correlation between 
+failure and censoring time (Taylor et al. 2002, O’Connor 2020). Censored or missing 
+outcome values will be imputed from a distribution derived from remaining at risk patients 
+under various assumptions of the correlation between censoring and outcome. The first 
+steps of the imputation method will be to identify this distribution, followed by the random 
+selection of the imputed value until new multiple imputed data set is created. The 
+procedure will be independently repeated 1,000 times creating 1,000 imputed data sets. 
+The primary analysis will be repeated on each of the 1,000 multiply imputed data sets and 
+the results will be combined using Rubin’s method from PROC MIANALYZE (see 
+implementation details presented in Appendix 9.1). 
+Gehan’s Generalized Wilcoxon Test Sensitivity Analysis 
+The Gehan’s generalized Wilcoxon test, proposed by Feingold and Gillespie (1996), is a 
+non-parametric test for comparing time-to-event data and is an extension of the Wilcoxon 
+rank sum test in the presence of censoring. The test was designed for crossover trials with 
+two sequences. 
+For this sensitivity analysis, assuming no period effect, two separate 2x2 crossover design 
+with a common placebo can be constructed. The first crossover trial would be for 300 mg 
+KVD900 vs. Placebo and the second crossover trial would be for 600 mg KVD900 vs. 
+Placebo. In this analysis, the sequence with KVD900-treated period prior to the placebo-
+treated period will be pooled into a new active-placebo sequence; the sequence with 
+KVD900-treated period after the placebo-treated period will be pooled into a new placebo-
+active sequence. 
+Randomized Treatment Sequence New Sequence Used in the Gehan’s Generalized 
+Wilcoxon Test 
+Treatment 
+Sequence 
+1st Eligible 
+HAE Attack 
+2nd Eligible 
+HAE Attack 
+3rd Eligible 
+HAE Attack 
+600 mg vs. placebo 300 mg vs. placebo 
+Active-
+Placebo 
+Sequence 
+Placebo-
+Active 
+Sequence 
+Active-
+Placebo 
+Sequence 
+Placebo-
+Active 
+Sequence 
+A Placebo 600 mg 300 mg Y Y 
+B Placebo 300 mg 600 mg Y Y 
+C 300 mg 600 mg Placebo Y Y 
+D 300 mg Placebo 600 mg Y Y 
+E 600 mg 300 mg Placebo Y Y 
+F 600 mg Placebo 300 mg Y Y 
+32 
+
+[PDF PAGE 33]
+      
+   
+ 
+  
+ 
+ 
+ 
+    
+ 
+  
+     
+  
+ 
+   
+  
+    
+  
+   
+    
+  
+  
+  
+  
+ 
+   
+ 
+  
+    
+   
+  
+  
+   
+   
+    
+ 
+  
+ 
+ 
+  
+  
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+The following steps should be performed to implement this test based on the new 
+sequences: 
+1. For each patient, compute the difference between the Period 1 time to use (t1) and 
+Period 2 time to use (t2), (i.e. t1 – t2), and order from smallest to largest difference. 
+2. If there are any censored results involved in a calculation of the difference, the 
+associated difference should also be flagged. However, any negative differences 
+obtained as a result of subtracting a right-censored observation should now be 
+flagged as ‘L’ (i.e. left-censored). 
+3. For each of the derived differences, compute Ui = the number of observations 
+definitely smaller than the ith minus the number definitely greater, for i = 1 to N 
+(total sample size), where U1 is the smallest difference and UN is the largest 
+difference. Note that the use of ‘definitely’ indicates that the censored observations 
+should be taken into account accordingly (i.e. a negative difference of -50L cannot 
+be considered definitely smaller than a negative difference of -30L due to the left-
+censoring. Likewise, a positive difference of 50 cannot be considered definitely 
+greater than a positive difference of 30R due to the right-censoring). In the instance 
+of a right censored value of 12R in Period 1 and a non-censored value <12 in 
+Period 2, the difference would be definitely greater than any negative difference but 
+would not be definitely smaller than any value. In the instance of a non-censored 
+value <12 in Period 1 and a right-censored value of 12R in Period 2, the difference 
+would be definitely smaller than any positive difference but would not be definitely 
+greater than any value. In the instance of a right censored value of 12R in both 
+Period 1 and Period 2, the difference would not be definitely greater or definitely 
+smaller than any value. 
+4. Calculate W, which is the sum of the Ui’s for patients assigned to Sequence 1 only.  
+5. Calculate the permutation variance of W, 
+n1+n2 2∑ Ui1 var(W) = n1n2 × (n1 + n2)(n1 + n2 − 1) 
+6. Derive the test statistic as W divided by its standard error (�𝑽𝑽𝑽𝑽𝑽𝑽(𝑾𝑾) ), which is 
+asymptotically normal N(0,1) under the null hypothesis, in order to obtain the p-
+value for treatment effect (using SAS function PROBNORM). 
+For each pairwise comparison, p-values from the Gehan’s generalized Wilcoxon test will 
+be provided for exploratory purpose. 
+5.8.3. Key Secondary Efficacy Endpoints 
+The key secondary endpoints will be tested according to the fixed sequence closed testing 
+procedure described in Section 4.1. 
+33 
+
+[PDF PAGE 34]
+      
+   
+ 
+  
+ 
+ 
+ 
+    
+   
+    
+ 
+         
+ 
+  
+   
+   
+    
+     
+  
+     
+     
+    
+     
+    
+     
+    
+      
+     
+   
+      
+   
+       
+     
+     
+  
+     
+  
+   
+  
+   
+   
+  
+  
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+5.8.3.1.Time to First Incidence of Decrease Within 12 hours 
+PGI-S: Time to first incidence of decrease from baseline for two time points in a row within 
+12 hours of the first IMP administration will be calculated as: 
+Time to First Incidence of Decrease from Baseline for two time points in a row 
+(hours) = Date/time of first incidence of decrease of symptom intensity from 
+baseline for two time points in a row (with possible missing values in between) – 
+Date/time of first IMP administration. 
+For this endpoint we will use the hypothesis: 
+𝐻𝐻0: 𝑡𝑡12𝑘𝑘− 𝑡𝑡12𝑝𝑝 =0, 
+𝐻𝐻a: 𝑡𝑡12𝑘𝑘− 𝑡𝑡12𝑝𝑝 ≠0. 
+Where 𝑡𝑡12𝑘𝑘 is the time to first incidence of decrease from baseline following KVD900 dose 
+treatment and 𝑡𝑡12𝑝𝑝 is the time to first incidence of decrease from baseline following 
+placebo treatment. 
+Patients will be treated as right-censored at 12 hours if they do not have a decrease in 
+PGI-S score from baseline for two time points in a row or receive conventional attack 
+treatment prior to time to event within 12 hours of the first IMP administration. Patients 
+who discontinue the study will be right-censored at the time of discontinuation (taken from 
+last assessment done during the end of study visit). In the case of underivable time-to-event 
+results due to lack of at least 2 post-baseline assessments, attacks will be censored at time 
+0. See Section 9.2.1 for detailed algorithms. 
+Gehan scores transformation of the time to first incidence of decrease from baseline for 
+two time points in a row within 12 hours of the first IMP administration will be analyzed 
+using a linear mixed model, including terms for sequence, period, baseline PGI-S category 
+(none or mild, moderate, and severe or very severe), and treatment in the model as fixed 
+effects and patient nested within sequence as a random effect. Least-squares means of 
+treatment effects to show differences between treatments (600 mg versus placebo and 300 
+mg versus placebo) will be tested at alpha of 0.025 -level. Least-square means and standard 
+errors will be presented by treatment. P-values will be calculated for the comparison of 
+each KVD900 dose group versus placebo, along with the least-square mean treatment 
+difference and corresponding 95% CI will be presented. Additionally, adjusted p-values for 
+each pairwise comparison will also be presented with Bonferroni adjustment allowing 
+alpha loop-back. 
+The number and percentage of patients that meet first incidence of decrease from baseline 
+at two consecutive time points within 12 hours and the number censored will be presented 
+by treatment. Kaplan-Meier estimates of the 25th percentile (Q1), the median, and the 75th 
+percentile (Q3) and corresponding 95% CI of time to first incidence of decrease from 
+baseline for two time points in a row within 12 hours will be presented by treatment.  
+Kaplan-Meier survival curves will also be presented by treatment. 
+34 
+
+[PDF PAGE 35]
+      
+   
+ 
+  
+ 
+ 
+     
+    
+ 
+  
+  
+   
+  
+  
+ 
+   
+   
+   
+    
+  
+   
+     
+    
+    
+   
+        
+    
+  
+   
+   
+  
+     
+    
+     
+  
+    
+    
+ 
+      
+ 
+    
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+The time to first incidence of decrease from baseline for two time points in a row within 
+12 hours of first IMP administration will be listed with censored observations flagged with 
+‘R’. 
+5.8.3.2.Time to HAE Attack Resolution Within 24 hours 
+PGI-S: Time to HAE attack resolution defined as “none” within 24 hours of the first IMP 
+administration will be calculated as: 
+Time to HAE attack resolution (hours) = Date/time of first rating of “None”– 
+Date/time of first IMP administration. 
+For this endpoint we will use the hypothesis: 
+𝐻𝐻0: 𝑡𝑡24𝑘𝑘− 𝑡𝑡24𝑝𝑝 =0, 
+𝐻𝐻a: 𝑡𝑡24𝑘𝑘− 𝑡𝑡24𝑝𝑝 ≠0. 
+Where 𝑡𝑡24𝑘𝑘 is the time to HAE attack resolution defined as “none” within 24 hours of the 
+first IMP administration following KVD900 dose treatment and 𝑡𝑡24𝑝𝑝 is the time to HAE 
+attack resolution to “none” following placebo treatment. 
+Patients will be treated as right-censored at 24 hours if they do not have a HAE attack 
+resolution or received conventional attack treatment prior to time to event within 24 hours 
+of IMP administration. Patients who discontinue the study will be right-censored at the 
+time of discontinuation (taken from last assessment done during the end of study visit). In 
+the case of underivable time-to-event results due to lack of at least 1 post-baseline 
+assessment, attacks will be censored at time 0. See Section 9.2.1 for detailed algorithms. 
+Gehan scores transformation of the time to HAE attack resolution defined as “none” within 
+24 hours of the first IMP administration will be analyzed using a linear mixed model, 
+including terms for sequence, period, baseline PGI-S category (none or mild, moderate, 
+and severe or very severe), and treatment in the model as fixed effects and patient nested 
+within sequence as a random effect. Least-squares means of treatment effects to show 
+differences between treatments (600 mg versus placebo and 300 mg versus placebo) will 
+be tested at alpha of 0.025 level. Least-square means and standard errors will be presented 
+by treatment. P-values will be calculated for the comparison of each KVD900 dose group 
+versus placebo, along with the least-square mean treatment difference and corresponding 
+95% CI will be presented. Additionally, adjusted p-values for each pairwise comparison 
+will also be presented with Bonferroni adjustment allowing alpha loop-back. 
+The number and percentage of patients that meet HAE attack resolution within 24 hours 
+and the number censored will be presented by treatment. Kaplan-Meier estimates of the 
+25th percentile (Q1), the median, and the 75th percentile (Q3) and corresponding 95% CI of 
+time to HAE attack resolution within 24 hours will be presented by treatment.  Kaplan-
+Meier survival curves will also be presented by treatment. 
+35 
+
+[PDF PAGE 36]
+      
+   
+ 
+  
+ 
+ 
+   
+ 
+    
+ 
+ 
+   
+ 
+  
+    
+ 
+    
+  
+  
+   
+   
+  
+  
+      
+         
+       
+   
+    
+ 
+   
+        
+  
+    
+    
+    
+      
+    
+   
+    
+     
+    
+  
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+The time to HAE attack resolution within 24 hours of first IMP administration will be 
+listed with censored observations flagged with ‘R’. 
+5.8.4. Secondary Efficacy Endpoints 
+5.8.4.1.PGI-C 
+PGI-C: Number and percentage of attacks with beginning of symptom relief for 
+2 time points in a row within 2, 4, 6, 8, 10, 12, 24, and 48 hours of the first IMP 
+administration 
+PGI-C: Number and percentage of attacks with beginning of symptom relief is defined as 
+at least “a little better” (2 time points in a row without missing values in between) within 2, 
+4, 6, 8, 10, 12, 24, and 48 hours of the first IMP administration and will be analyzed 
+descriptively. 
+Attacks that did not have at least 2 post-baseline assessments within the analyzed period 
+will be excluded from this analysis. Patients who discontinued or received conventional 
+attack treatment prior to time to event during a time period are considered as non-
+responders for that period. The number and percentages of patients that meet HAE attacks 
+with beginning of symptom relief will be presented by time point and treatment. Risk 
+difference comparing each active KVD900 treatment to the placebo treatment, and 
+corresponding exact 95% confidence interval (Santner, 1980) will be provided. 
+PGI-C: Time to at least “better” for 2 time points in a row within 12 and 24 hours 
+PGI-C: Time to at least “better” at 2 time points in a row will be calculated as: 
+Time to at least better for two time points in a row (hours) = Date/time of first 
+rating of “better” or higher immediately followed by another rating of “better” or 
+higher (with possible missing values in between) – Date/time of first IMP 
+administration. 
+Patients will be treated as right-censored at 12 hours (or 24 hours for the corresponding 
+endpoint) if they do not have an HAE attack rating of “better” or higher at two consecutive 
+time points or receive conventional attack treatment prior to time to event within 12 hours 
+(or 24 hours for the corresponding endpoint) of first IMP administration. Patients who 
+discontinue the study will be right-censored at the time of discontinuation (taken from last 
+assessment done during the end of study visit). In the case of underivable time- to-event 
+results due to lack of at least 2 post-baseline assessments, attacks will be censored at time 
+0. See Section 9.2.1 for detailed algorithms. 
+Similar to the primary endpoint, Gehan scores transformation statistics and p-value will be 
+provided for exploratory purposes. The number and percentage of patients who meet at 
+least “better” at two consecutive time points within 12 hours (or 24 hours for the 
+corresponding endpoint) and the number censored will be presented by treatment. 
+Kaplan-Meier estimates of the 25th percentile (Q1), the median, and the 75th percentile 
+36 
+
+[PDF PAGE 37]
+      
+   
+ 
+  
+ 
+ 
+    
+    
+   
+         
+   
+  
+  
+  
+ 
+  
+  
+    
+    
+ 
+  
+ 
+ 
+     
+  
+  
+  
+   
+  
+   
+  
+ 
+ 
+   
+   
+ 
+   
+ 
+   
+ 
+       
+ 
+      
+   
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+(Q3) and corresponding 95% CI of time to at least “better” at two consecutive time points 
+within 12 hours (or 24 hours for the corresponding endpoint) will be presented by 
+treatment.  Kaplan-Meier survival curves will also be presented by treatment. 
+The time to at least “better” at two time points in a row within 12 hours (or 24 hours for 
+the corresponding endpoint) of first IMP administration will be listed with censored 
+observations flagged with ‘R’. 
+Time to either (1) first incidence of PGI-C being rated ‘a little worse’ or lower for 2 
+time points in a row, or (2) use of conventional attack treatment, whichever comes 
+first within 12 hours and 24 hours 
+Time to HAE attack being rated “a little worse” or lower for 2 time points in a 
+row (hours) = Date/time of first rating of “a little worse” or lower (i.e. worse or 
+much worse) which is immediately followed by another rating of “a little worse” or 
+lower (with possible missing values in between) – Date/time of first IMP 
+administration. 
+Time to conventional attack treatment use (h) = Date/time of first conventional 
+attack treatment use –Date/time of study drug administration. 
+Patients will be treated as right-censored at 12 hours (or 24 hours for the corresponding 
+endpoint) if they do not achieve this endpoint within 12 hours (or 24 hours for the 
+corresponding endpoint) of the first IMP administration. Patients who discontinue the 
+study will be right-censored at the time of discontinuation (taken from last assessment 
+done during the end of study visit). In the case of underivable time-to-event results due to 
+lack of at least 2 post-baseline assessments, patients will be censored at time 0. See Section 
+9.2.1 for detailed algorithms. 
+Similar to the primary endpoint, Gehan scores transformation statistics and p-value will be 
+provided for exploratory purposes. The number and percentage of patients who achieve the 
+endpoint within 12 hours (or 24 hours for the corresponding endpoint) and the number 
+censored will be presented by treatment. Kaplan-Meier estimates of the 25th percentile 
+(Q1), the median, and the 75th percentile (Q3) and corresponding 95% CI of time-to-event 
+will be presented by treatment. Kaplan-Meier survival curves will also be presented by 
+treatment. 
+The time to first Incidence of PGI-C being rated ‘a little worse’ or lower for two time 
+points in a row, or use of conventional attack treatment within 12 hours (or 24 hours for 
+the corresponding endpoint) will be listed with censored observations flagged with ‘R’. 
+5.8.4.2.PGI-S 
+PGI-S: Time to first incidence of decrease from baseline for 2 time points in a row 
+within 24 hours 
+PGI-S: Time to first incidence of decrease from baseline at 2 time points in a row within 
+24 hours of the first IMP administration will be calculated as: 
+37 
+
+[PDF PAGE 38]
+      
+   
+ 
+  
+ 
+ 
+   
+    
+     
+  
+   
+     
+      
+    
+   
+     
+     
+      
+ 
+ 
+      
+    
+   
+ 
+  
+ 
+     
+  
+ 
+   
+ 
+  
+    
+    
+    
+   
+         
+      
+ 
+  
+ 
+   
+ 
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+Time to first incidence of symptom decrease from baseline for two time points 
+in a row (hours) = Date/time of first incidence of decrease from baseline for two 
+time points in a row (with possible missing values in between) – Date/time of first 
+IMP administration. 
+Patients will be treated as right-censored at 24 hours if they do not have a decrease in 
+PGI-S score from baseline at two consecutive time points or receive conventional attack 
+treatment prior to time to event within 24 hours of first IMP administration. Patients who 
+discontinue the study will be right-censored at the time of discontinuation (taken from last 
+assessment done during the end of study visit). In the case of underivable time-to-event 
+results due to lack of at least 2 post-baseline assessments, attacks will be censored at time 
+0. See Section 9.2.1 for detailed algorithms. 
+Similar to the key secondary endpoint #1, Gehan scores transformation test statistics and p-
+value will be provided for exploratory purposes. The number and percentage of patients 
+who meet first incidence of decrease from baseline at two consecutive time points within 
+24 hours the number censored will be presented treatment. Kaplan-Meier estimates of the 
+25th percentile (Q1), the median, and the 75th percentile (Q3) and corresponding 95% CI of 
+time to first incidence of decrease from baseline at two consecutive time points within 24 
+hours will be presented by treatment.  Kaplan-Meier survival curves will also be presented 
+by treatment. 
+The time to first incidence of decrease from baseline at two consecutive time points within 
+24 hours will be listed with censored observations flagged with ‘R’. 
+PGI-S: Time to HAE attack resolution within 48 hours 
+PGI-S: Time to HAE attack resolution defined as “none” within 48 hours of the first IMP 
+administration will be calculated as: 
+Time to HAE attack resolution (hours) = Date/time of first rating of “None”– 
+Date/time of first IMP administration. 
+Patients will be treated as right-censored at 48 hours if they do not have HAE attack 
+resolution or received conventional attack treatment prior to time to event within 48 hours 
+of IMP administration. Patients who discontinue the study will be right-censored at the 
+time of discontinuation (taken from last assessment done during the end of study visit). In 
+the case of underivable time-to-event results due to lack of at least 1 post-baseline 
+assessment, attacks will be censored at time 0. See Section 9.2.1 for detailed algorithms. 
+Similar to the key secondary endpoint #1, Gehan scores transformation test statistics and p-
+value will be provided for exploratory purposes. The number and percentage of patients 
+who meet attack resolution within 48 hours and the number censored will be presented by 
+treatment. Kaplan-Meier estimates of the 25th percentile (Q1), the median, and the 75th 
+percentile (Q3) and corresponding 95% CI of time to HAE attack resolution within 48 
+hours will be presented by treatment.  Kaplan-Meier survival curves will also be presented 
+by treatment. 
+38 
+
+[PDF PAGE 39]
+      
+   
+ 
+  
+ 
+ 
+  
+ 
+ 
+   
+ 
+ 
+   
+  
+   
+  
+ 
+ 
+     
+  
+  
+  
+       
+  
+      
+ 
+  
+  
+   
+ 
+ 
+    
+  
+   
+ 
+      
+  
+   
+   
+   
+ 
+ 
+   
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+The time to attack resolution within 48 hours will be listed with censored observations 
+flagged with ‘R’. 
+Time to either (1) first incidence of worsening in attack severity on the PGI-S by one 
+level or more from baseline for 2 time points in a row, or (2) use of conventional 
+attack treatment, whichever comes first within 12 hours and 24 hours 
+Time to first incidence of worsening in attack severity by one level or more 
+from baseline on the PGI-S for two time points in a row (hours) = Date/time of 
+first incidence of increase from baseline on the PGI-S for two time points in a row 
+(with possible missing values in between) – Date/time of first IMP administration. 
+Time to conventional attack treatment use (h) = Date/time of first conventional 
+attack treatment use –Date/time of study drug administration. 
+Patients will be treated as right-censored at 12 hours (or 24 hours for the corresponding 
+endpoint) if they do not achieve this endpoint within 12 hours (or 24 hours for the 
+corresponding endpoint) of the first IMP administration. Patients who discontinue the 
+study will be right-censored at the time of discontinuation (taken from last assessment 
+done during the end of study visit). In the case of underivable time-to-event results due to 
+lack of at least 2 post-baseline assessments, attacks will be censored at time 0. See Section 
+9.2.1 for detailed algorithms. 
+Similar to the key secondary endpoint #1, Gehan scores transformation test statistics and p-
+value will be provided for exploratory purposes. The number and percentage of patients 
+who receive the endpoint within 12 hours (or 24 hours for the corresponding endpoint) and 
+the number censored will be presented by treatment. Kaplan-Meier estimates of the 25th 
+percentile (Q1), the median, and the 75th percentile (Q3) and corresponding 95% CI of 
+time-to-event will be presented by treatment.  Kaplan-Meier survival curves will also be 
+presented by treatment. 
+The time to either worsening in attack severity on the PGI-S by one level or more for two 
+time points in a row or conventional attack treatment use within 12 hours (or 24 hours for 
+the corresponding endpoint) will be listed with censored observations flagged with ‘R’. 
+5.8.4.3.Conventional Attack Treatment 
+Time to first incidence of conventional attack treatment use within 12 hours and 
+24 hours 
+Time to first incidence of conventional attack treatment use will be calculated as: 
+Time to first incidence of conventional attack treatment use (hours) = 
+Date/time of first incidence of conventional attack treatment use – Date/time of first 
+IMP administration. 
+Patients will be treated as right-censored at 12 hours (or 24 hours for the corresponding 
+endpoint) if they do not have a conventional attack treatment use within 12 hours (or 
+39 
+
+[PDF PAGE 40]
+      
+   
+ 
+  
+ 
+ 
+   
+    
+  
+   
+   
+  
+    
+   
+ 
+ 
+ 
+ 
+ 
+  
+   
+   
+ 
+      
+  
+  
+    
+    
+  
+   
+   
+  
+ 
+   
+  
+ 
+  
+  
+ 
+ 
+   
+ 
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+24 hours for the corresponding endpoint) of the first IMP administration. Patients who 
+discontinue the study will be right-censored at the time of discontinuation (taken from last 
+assessment done during the end of study visit). 
+Similar to the primary endpoint, Gehan scores transformation statistics and p-value will be 
+provided for exploratory purposes. The number and percentage of patients who meet first 
+incidence of conventional attack treatment use within 12 hours (or 24 hours for the 
+corresponding endpoint) and the number censored will be presented by treatment. Kaplan-
+Meier estimates of the 25th percentile (Q1), the median, and the 75th percentile (Q3) and 
+corresponding 95% CI of time-to-event will be presented by treatment. Kaplan-Meier 
+survival curves will also be presented by treatment. 
+The time to first incidence of conventional attack treatment use within 12 hours (or 
+24 hours for the corresponding endpoint) will be listed with censored observations flagged 
+with ‘R’. 
+5.8.4.4.Second IMP Administration 
+Time to the second IMP administration within 12 hours and 24 hours 
+Time to the second IMP administration (hours) = Date/time of the second IMP 
+administration – Date/time of first IMP administration. 
+Patients will be treated as right-censored at 12 hours (or 24 hours for the corresponding 
+endpoint) if they do not achieve this endpoint within 12 hours (or 24 hours for the 
+corresponding endpoint) of the first IMP administration. Patients who discontinue the 
+study will be right-censored at the time of discontinuation (taken from last assessment 
+done during the end of study visit). Attacks with conventional medication use prior to 
+second IMP use will be censored at the time of conventional medication use. See Section 
+9.2.1 for detailed algorithms. 
+Similar to the primary endpoint, Gehan scores transformation statistics and p-value will be 
+provided for exploratory purposes. The number and percentage of patients who achieve 
+this endpoint within 12 hours (or 24 hours for the corresponding endpoint) and the number 
+censored will be presented by treatment. Kaplan-Meier estimates of the 25th percentile 
+(Q1), the median, and the 75th percentile (Q3) and corresponding 95% CI of time-to-event 
+will be presented by treatment.  Kaplan-Meier survival curves will also be presented by 
+treatment. 
+The time to second IMP administration within 12 hours (or 24 hours for the corresponding 
+endpoint) will be listed with censored observations flagged with ‘R’. 
+Number and percentage of attacks with second IMP administration within 4, 8, 12, 
+24, and 48 hours of the first IMP administration 
+Number and percentage of attacks with second IMP administration within 4, 8, 12, 24, and 
+48 hours of the first IMP administration will be analyzed descriptively. 
+40 
+
+[PDF PAGE 41]
+      
+   
+ 
+  
+ 
+ 
+   
+   
+    
+  
+ 
+ 
+   
+  
+  
+    
+  
+  
+   
+   
+  
+  
+   
+    
+     
+      
+   
+  
+   
+   
+   
+  
+   
+ 
+  
+  
+   
+  
+  
+    
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+Patients who discontinued or received conventional medication prior to time to event 
+during a time period are considered as non-responders for that period. The number and 
+percentages of patients that use second IMP administration or conventional treatment will 
+be presented by time point and treatment. Risk difference comparing each active KVD900 
+treatment to the placebo treatment, and corresponding exact 95% confidence interval 
+(Santner, 1980) will be provided. 
+5.8.4.5.Composite VAS 
+Time to at least 50% decrease from baseline (3 time points in a row) within 12 and 
+24 hours of the first IMP administration 
+Composite VAS score is defined as the mean score across all 3 symptom scores. Time to at 
+least a 50% decrease from baseline (3 time points in a row) will be calculated as: 
+Time to at least 50% decrease (hours) = Date/time of first ≥50% decrease in 
+composite VAS score for 3 consecutive time points (with possible missing values 
+in between) – Date/time of first IMP administration. 
+Patients will be treated as right-censored at 12 or 24 hours if a ≥50% reduction in 
+composite VAS score for 3 consecutive time points does not occur or receive conventional 
+attack treatment prior to time to event within 12 or 24 hours of IMP administration. 
+Patients who discontinue the study will be right-censored at the time of discontinuation 
+(taken from last assessment done during the end of study visit). In the case of underivable 
+time-to-event results due to lack of at least 3 post-baseline assessments, attacks will be 
+censored at time 0. See Section 9.2.1 for detailed algorithms. 
+Similar to the primary endpoint, Gehan scores transformation statistics and p-value will be 
+provided for exploratory purposes. The number and percentage of patients with a 50% 
+reduction in composite VAS score for 3 consecutive time points and the number censored 
+will be presented by treatment. Kaplan-Meier estimates of the 25th percentile (Q1), the 
+median, and the 75th percentile (Q3) and corresponding 95% CI of time to a 50% reduction 
+in composite VAS score for 3 consecutive time points will be presented by treatment. 
+Kaplan-Meier survival curves will also be presented by treatment. 
+The time to an at least 50% reduction in composite VAS score for 3 consecutive time 
+points will be listed with censored observations flagged with ‘R’. 
+5.8.5. Exploratory Endpoints 
+5.8.5.1.Characteristics of the IMP-Treated HAE Attacks 
+A summary of characteristics of the IMP-treated HAE attacks will be presented by 
+treatment and overall for the FAS. The IMP-treated HAE attack characteristics consist of 
+baseline PGI-S severity score, baseline VAS score, baseline primary attack location, 
+baseline GA-NRS score, and time from attack onset to IMP administration. 
+41 
+
+[PDF PAGE 42]
+      
+   
+ 
+  
+ 
+ 
+ 
+  
+  
+   
+    
+   
+  
+  
+ 
+  
+ 
+ 
+ 
+     
+  
+  
+ 
+     
+  
+  
+ 
+ 
+ 
+ 
+   
+ 
+ 
+  
+ 
+ 
+ 
+   
+ 
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+The baseline PGI-S scores will be transformed into numeric values (recoded as 0 (none) to 
+4 (very severe)) and descriptive statistics (n, mean, SD, minimum, Q1, median, Q3 and 
+maximum) of baseline PGI-S values will be presented by treatment. Additionally, the 
+number and percentage of attacks by baseline PGI-S category (None, Mild, Moderate, 
+Severe, and Very Severe) will be presented by treatment and overall. 
+Summary statistics on baseline GA-NRS scores will be presented by treatment. Baseline 
+GA-NRS score will also be categorized into intervals (0 (not at all anxious), 1-3 (mildly 
+anxious), 4-6 (moderately anxious) and 7-10 (extremely anxious)) and the number and 
+percentage of patients that falling into each category will be presented by treatment and 
+overall. 
+Summary statistics on individual baseline VAS scores (abdominal pain, skin pain, and skin 
+swelling) and composite baseline VAS scores will be presented by treatment and overall 
+for the FAS. 
+Summary statistics on the time from onset of attack to first IMP administration will be 
+presented by treatment for the FAS. Additionally, the number and percentage of attacks by 
+baseline time to IMP administration category (see Section 5.8.6 for categories ) will be 
+reported by treatment and overall. 
+Number and percentage of attacks by original baseline primary attack location 
+(Head/Face/Neck, Torso, Arms/Hands, Genitals, Legs/Feet, Abdomen, and Larynx/Throat) 
+and pooled baseline primary attack location (see Section 5.8.6 for categories) will be 
+presented by treatment and overall. 
+Baseline characteristics for the IMP-treated attacks will be presented in a listing by 
+treatment for all patients in the FAS. 
+5.8.5.2.PGI-C 
+PGI-C Score Over Time 
+The number and percentage of patients for each PGI-C score will be summarized by time 
+point and treatment. Additionally, the PGI-C scores will be transformed into numeric 
+values (recoded as -3 (much better) to 3 (much worse)) and descriptive statistics (n, mean, 
+SD, minimum, Q1, median, Q3 and maximum) will be presented by time point and 
+treatment. The mean values will also be presented graphically over time. In these 
+summaries, assessments made after receiving conventional attack treatment will be 
+excluded. 
+5.8.5.3.PGI-S 
+PGI-S: Number and percentage of attacks with first incidence of decrease in attack 
+severity within 4, 8, 12, 24, and 48 hours of the first IMP administration 
+42 
+
+[PDF PAGE 43]
+      
+   
+ 
+  
+ 
+ 
+ 
+    
+ 
+    
+  
+  
+  
+   
+    
+  
+  
+    
+      
+  
+   
+  
+   
+  
+ 
+ 
+    
+ 
+   
+ 
+   
+ 
+ 
+    
+ 
+  
+  
+  
+    
+  
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+PGI-S: Number and percentage of attacks with first incidence of decrease in attack severity 
+at 2 time points in a row (with possible missing values in between) within 4, 8, 12, 24, and 
+48 hours of the first IMP administration will be analyzed descriptively. 
+Attacks that did not have at least 2 post-baseline assessments within the analyzed period 
+will be excluded from this analysis. Patients who discontinued or received conventional 
+attack treatment prior to time to event during a time period are considered as non-
+responders for that period. The number and percentages of patients that achieve decrease in 
+attack severity will be presented by time point and treatment. Risk difference comparing 
+each active KVD900 treatment to the placebo treatment, and corresponding exact 95% 
+confidence interval (Santner, 1980) will be provided. 
+PGI-S: Number and percentage of attacks with attack resolution within 4, 8, 12, 24, 
+and 48 hours of the first IMP administration 
+PGI-S: Number and percentage of attacks with attack resolution defined as ‘none’ within 
+4, 8, 12, 24, and 48 hours of the first IMP administration will be analyzed descriptively. 
+Attacks that did not have at least 1 post-baseline assessment within the analyzed period 
+will be excluded from this analysis. Patients who discontinued or received conventional 
+attack treatment prior to time to event during a time period are considered as non-
+responders for that period. The number and percentages of patients that achieve attack 
+resolution will be presented by time point and treatment. Risk difference comparing each 
+active KVD900 treatment to the placebo treatment, and corresponding exact 95% 
+confidence interval (Santner, 1980) will be provided. 
+PGI-S Score Over Time 
+The number and percentage of patients for each PGI-S score will be summarized by time 
+point and treatment. Additionally, the PGI-S scores will be transformed into numeric 
+values (recoded as 0 (none) to 4 (very severe)) and descriptive statistics (n, mean, SD, 
+minimum, Q1, median, Q3 and maximum) of absolute and change from baseline values 
+will be presented by time point and treatment. The mean absolute and change from 
+baseline values will also be presented graphically over time. In these summaries, 
+assessments made after receiving conventional attack treatment will be excluded. 
+5.8.5.4.Conventional Attack Treatment 
+Number and percentage of attacks receiving first conventional attack treatment 
+within 4, 8, 12, 24, and 48 hours of the first IMP administration 
+Number and percentage of attacks receiving conventional attack treatment within 4, 8, 12, 
+24, and 48 hours of the first IMP administration will be analyzed descriptively. 
+Patients who discontinued during a time period are considered as non-responders for that 
+period. The number and percentages of patients that receive conventional attack treatment 
+will be presented by time point and treatment. Risk difference comparing each active 
+43 
+
+[PDF PAGE 44]
+      
+   
+ 
+  
+ 
+ 
+ 
+ 
+ 
+    
+ 
+ 
+   
+ 
+ 
+   
+ 
+     
+ 
+    
+       
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+ 
+  
+    
+ 
+    
+ 
+ 
+ 
+   
+  
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+KVD900 treatment to the placebo treatment, and corresponding exact 95% confidence 
+interval (Santner, 1980) will be provided. 
+5.8.5.5.GA-NRS and VAS 
+GA-NRS: cumulative GA-NRS in AUC over 12 hours and 24 hours of the first IMP 
+administration 
+General Anxiety Numeric Rating Scale (GA-NRS): Cumulative GA-NRS expressed as 
+area under the curve (AUC) over 12 hours and over 24 hours from the time of first IMP 
+administration will be calculated separately. 
+Baseline and time-adjusted AUC0-12 of the GA-NRS over time from 0 hour (pre-dose) up 
+to 12 hours or up to the last time point prior to the time of conventional attack treatment 
+use, whichever occurs first will be derived by linear trapezoidal rule. For a patient with k 
+GA-NRS assessments at times 𝑡𝑡1 to 𝑡𝑡𝑘𝑘 , where 𝑡𝑡1 < 𝑡𝑡2 < ⋯ < 𝑡𝑡𝑘𝑘 , the AUC0-12 is computed 
+as 
+𝑘𝑘 
+� 0.5 𝑥𝑥 (𝑔𝑔𝑖𝑖−1 + 𝑔𝑔𝑖𝑖)𝑥𝑥 (𝑡𝑡𝑖𝑖 − 𝑡𝑡𝑖𝑖−1)/(𝑡𝑡𝑘𝑘 − 𝑡𝑡1) 
+𝑖𝑖=2 
+where 𝑔𝑔𝑖𝑖 is the GA-NRS measured at timepoint ti and k is the length of time (12 hours or 
+until the time of conventional attack treatment use whichever occurs first). 
+Similarly, AUC0-24 will be calculated from 0 hours up to 24 hours or up to use of 
+conventional attack treatment if this occurs prior to the 24 hour time point. 
+In order to account for negative values, the net incremental AUC method will be employed 
+(negative areas subtracted from positive areas). The AUCs will be evaluated with 
+correction for baseline values by subtraction of the 0 hours from GA-NRS the post-dose 
+scores prior to derivation. As the time interval for the calculation of the AUC is likely to 
+vary between patients, the AUCs will also be time-adjusted by dividing the baseline-
+adjusted AUC by the duration of time included in the AUC calculation (AUC/h). The 
+actual time of assessment will be used in the calculation of the AUCs. The assessment time 
+deviation will be calculated as actual date/time – theoretical date/time, where theoretical 
+date/time is derived from the date/time of dose administration and nominal assessment 
+time. 
+Descriptive statistics (n, mean, SD, minimum, Q1, median, Q3 and maximum) will be 
+presented for AUC0-12 and AUC0-24 by treatment. Statistical comparisons of the 
+AUC0-12 and AUC0-24 between treatments will be performed using a mixed effects 
+analysis of variance (ANOVA) with fixed effects of treatment, sequence, and period and 
+patient nested within sequence as a random effect.  Least-squares means of treatment 
+effects to show differences between treatments (600 mg versus placebo and 300 mg versus 
+placebo) will be tested at 0.05 level. Least-square means and standard errors will be 
+44 
+
+[PDF PAGE 45]
+      
+   
+ 
+  
+ 
+ 
+   
+   
+ 
+ 
+      
+ 
+     
+ 
+     
+      
+    
+     
+  
+    
+ 
+  
+  
+ 
+    
+ 
+   
+   
+ 
+  
+   
+    
+   
+  
+ 
+ 
+    
+ 
+   
+ 
+  
+    
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+presented by treatment. P-values will be calculated for the comparison of each KVD900 
+dose group versus placebo, along with the least-square mean treatment difference and 
+corresponding 95% CI will be presented. 
+GA-NRS: Number and percentage of attacks with first incidence of GA-NRS 
+reduction of ≥2, ≥3,  ≥4, or ≥5 points within 4, 8, 12, 24, and 48 hours of the first IMP 
+administration 
+Number and percentage of attacks with first incidence of GA-NRS reduction of ≥2, ≥3,  
+≥4,  or ≥5 points within 4, 8, 12, 24, and 48 hours of the first IMP administration will be 
+analyzed descriptively. 
+Attacks that had a baseline GA-NRS score below a cutoff point will be excluded from the 
+corresponding analysis. Attacks that did not have at least 1 post-baseline assessment within 
+the analyzed period will be excluded from this analysis. Patients who discontinued or 
+received conventional attack treatment prior to time to event during a time period are 
+considered as non-responders for that period. The number and percentages of patients that 
+achieve first instance of GA-NRS reduction of the corresponding cutoff point will be 
+presented by time point and treatment. Risk difference comparing each active KVD900 
+treatment to the placebo treatment, and corresponding exact 95% confidence interval 
+(Santner, 1980) will be provided. The number and percentage of attacks with first 
+incidence of GA-NRS reduction of ≥2, ≥3,  ≥4,  or ≥5 points within 4, 8, 12, 24, and 48 
+hours of the first IMP administration will be presented graphically in a bar graph. 
+GA-NRS Score Over Time 
+The number and percentage of patients for each GA-NRS score will be summarized by 
+time point and treatment. Additionally, descriptive statistics (n, mean, SD, minimum, Q1, 
+median, Q3 and maximum) will be presented for GA-NRS scores by time point and 
+treatment. The mean values will also be presented graphically over time. GA-NRS score 
+will also be categorized into intervals (0 (not at all anxious), 1-3 (mildly anxious), 4-6 
+(moderately anxious) and 7-10 (extremely anxious)) and the number and percentage of 
+patients that falling into each category will be presented by time point and treatment. In 
+these summaries, assessments made after receiving conventional attack treatment will be 
+excluded. 
+VAS Score Over Time 
+Descriptive statistics (n, mean, SD, minimum, Q1, median, Q3 and maximum) will be 
+presented for composite VAS scores by time point and treatment. The mean values will 
+also be presented graphically over time. In these summaries, assessments made after 
+receiving conventional attack treatment will be excluded. 
+5.8.6. Subgroup and Subset Analyses 
+Subgroup analyses of the primary and key secondary efficacy endpoints will be performed 
+by sex (if provided), race, age group, prophylactic treatment status, region, type of HAE, 
+45 
+
+[PDF PAGE 46]
+      
+   
+ 
+  
+ 
+ 
+   
+   
+  
+  
+   
+   
+   
+  
+  
+  
+ 
+   
+   
+    
+ 
+    
+  
+   
+ 
+ 
+   
+  
+ 
+  
+ 
+  
+ 
+ 
+ 
+  
+  
+    
+   
+         
+    
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+baseline primary attack location, attack severity at baseline based on PGI-S, number of 
+doses received, and time from onset of attack to the first IMP administration. Frequencies 
+and survival estimates will be presented for each subgroup. P-values will be added for 
+exploratory purposes. The following categories will be used: 
+• Sex:  Male, Female 
+• Race: White, Black or African America, Asian, Other 
+• Age group: Age <18 years, Age ≥18 years 
+• Prophylactic treatment status: 
+- On Demand, on Prophylactic Treatment 
+- On Demand, on Kallikrein Prophylactic Treatment (including 
+lanadelumab and berotralstat), on Other Prophylactic Treatment 
+• Region: 
+- US, Ex-US 
+- North America (including US), Europe (including Austria, Bulgaria, 
+France, Germany, Greece, Hungary, Italy, North Macedonia, Netherlands, 
+Poland, Portugal, Romania, Slovakia, Spain, and United Kingdom), and 
+Rest of the World (including Australia, Israel, and Japan) 
+• Type of HAE: Type I, Type II 
+• Baseline primary attack location: 
+- Laryngea l [an attack involving at least one laryngeal location, including 
+the larynx/throat, regardless of other locations involved], Abdominal Only 
+[an attack with Abdomen location only], Subcutaneous Only [an attack 
+with Arms/Hands, Genitals, Legs/Feet, Head/Face/Neck, or Torso 
+location(s) only], Abdominal and Subcutaneous [an attack with at least 
+one abdominal location and at least one subcutaneous location] 
+- Neck and Above [an attack involving larynx/throat or Head/Face/Neck 
+location(s), regardless of other locations involved], Abdominal [an attack 
+involving Abdomen location and not involving larynx/throat or 
+Head/Face/Neck locations, regardless of other locations involved], Other 
+[an attack involving Arms/Hands, Genitals, Legs/Feet, or Torso 
+location(s) only] 
+• Attack severity at baseline based on PGI-S: None or Mild, Moderate, and Severe or 
+Very Severe 
+• Number of doses received: Single dose, Double doses or more 
+• Time from onset of attack to the first IMP administration: 
+- < 30 minutes, ≥ 30 - < 60 minutes, ≥ 60 minutes 
+- ≤ median, > median 
+46 
+
+[PDF PAGE 47]
+      
+   
+ 
+  
+ 
+ 
+  
+  
+ 
+  
+ 
+ 
+ 
+  
+   
+   
+ 
+  
+ 
+  
+    
+  
+ 
+   
+     
+     
+  
+  
+   
+   
+   
+  
+ 
+  
+ 
+  
+   
+ 
+ 
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+The examination of primary and key secondary endpoints, utilizing both the on-demand 
+FAS and the prophylaxis-FAS as outlined in the protocol, is the same as the subgroup 
+analyses comparing the 'On-Demand' subgroup with the 'On Prophylactic Treatment' 
+subgroup. 
+5.9. Safety Analysis 
+All safety data will be summarized by actual treatment received unless otherwise specified. 
+Safety analysis will be performed using the SAF. Safety endpoints include adverse events 
+(AEs), clinical laboratory assessments, vital signs, electrocardiogram (ECG), and physical 
+examination findings. 
+5.9.1. Adverse Events 
+Clinical and laboratory adverse events (AEs) will be coded using the current version of the 
+Medical Dictionary for Regulatory Activities (MedDRA Version 26.0 or higher). System 
+organ class (SOC), high-level group term (HLGT), high-level term (HLT), preferred term 
+(PT), and lower-level term (LLT) will be provided in the AE dataset. HAE attacks will not 
+be considered AEs unless they are considered SAEs. 
+5.9.1.1.Relationship of Adverse Events to Trial Medication 
+The investigator will provide an assessment of the relationship of the AE to the IMP on the 
+case report form (CRF) to the question of “Related to Study Treatment.”. The possible 
+relationships are “Related: A reasonable possibility exists that the IMP caused the AE”, 
+and “Not Related: A reasonable possibility does not exist that the IMP cause the AE”. 
+Events for which the investigator did not record relationship to IMP will be considered 
+related to IMP for summary purposes. However, by-patient data listings will show the 
+relationship as missing from that captured on the CRF. 
+5.9.1.2.Severity of Adverse Event 
+AEs are graded by the investigator as Grade 1, 2, 3, or 4 according to toxicity criteria 
+specified in the protocol. 
+In the TEAE severity table, if a patient reported multiple occurrences of the same TEAE, 
+only the most severe will be presented. 
+The severity grade of events for which the investigator did not record severity will be 
+categorized as “severe” for tabular summaries and as “missing” in data listings. 
+5.9.1.3.Serious Adverse Events 
+Serious adverse events (SAEs) will be identified and captured as SAEs if the AEs met the 
+definition of SAEs that were specified in the study protocol. The seriousness of an AE 
+should be assessed by the Investigator independently from the severity of the AE. An SAE 
+is defined as any untoward medical occurrence that at any dose results in death, is life-
+47 
+
+[PDF PAGE 48]
+      
+   
+ 
+  
+ 
+ 
+  
+  
+   
+   
+ 
+ 
+   
+  
+    
+    
+  
+   
+    
+ 
+   
+ 
+ 
+   
+ 
+ 
+ 
+      
+   
+   
+     
+   
+      
+      
+   
+       
+     
+     
+    
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+threatening, is a congenital anomaly/birth defect, requires in-patient hospitalization or 
+prolongation, or results in significant disability/incapacity. 
+Important medical events that may not result in death, be life-threatening, or require 
+hospitalization may be considered SAEs when, based upon medical judgment, they may 
+jeopardize the patient and may require medical or surgical intervention to prevent one of 
+the outcomes listed above. 
+5.9.1.4.Treatment-Emergent Adverse Events 
+A treatment-emergent AE (TEAE) is defined as any AE that meets any of the following 
+conditions, based on the actual AE dates (if partially missing, see Section 5.9.1.5): 
+• begins on or after the first dose date of trial medication; 
+• begins before the first dose date of trial medication and increases in severity on or 
+after the first dose date of trial medication; 
+• is completely missing a start date and the stop date; 
+• is completely missing a start date and the stop date is on or after the first dose of 
+trial medication. 
+An AE will be assigned to the most recent treatment if it starts on or after the 
+corresponding treatment first dose date. 
+TEAEs can be further classified as on-treatment TEAEs. An on-treatment TEAE is defined 
+as any TEAE occurring within 3 days post-dose. 
+5.9.1.5.Incomplete Dates 
+If there are incomplete dates recorded for an AE, the start day, month, year or stop day, 
+month, year will be used to determine whether the AE is a TEAE and the treatment 
+assignment. 
+If the start date of the AE is incomplete and the AE stop date is not prior to the first dose 
+date of study drug, then the month and year (or year alone if month is not recorded) of 
+onset determine whether an AE is treatment emergent. The event is considered treatment 
+emergent if the AE start date is the same as or after the month and year (or year) of the date 
+of first dose of trial medication. 
+Similarly, if the AE start date is missing and the stop date is incomplete then the month 
+and year (or year alone if month is not recorded) of stop date will determine whether an 
+AE is treatment emergent. The event is considered treatment emergent if the AE start date 
+is missing and the stop date has the same as or after the month and year (or year) of the 
+date of first dose of trial medication. 
+If there are incomplete dates recorded for an AE and treatment emergent cannot be 
+determined of the partial information, then the AE will be considered as TEAE. 
+48 
+
+[PDF PAGE 49]
+      
+   
+ 
+  
+ 
+ 
+  
+   
+    
+ 
+  
+ 
+ 
+   
+  
+ 
+   
+    
+   
+  
+ 
+   
+  
+ 
+  
+  
+   
+  
+  
+  
+   
+  
+   
+  
+  
+   
+  
+  
+   
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+If there are incomplete dates recorded for a TEAE and a treatment assignment cannot be 
+determined based on the partial information, then the AE will be considered as a TEAE for 
+all treatment that the patient receives. 
+If there are incomplete dates recorded for an TEAE, with treatment assignment can be 
+determined but on-treatment TEAE status cannot be determined based on the partial 
+information, then the TEAE will be considered as an on-treatment TEAE for the 
+corresponding treatment. 
+If there are incomplete dates recorded for an TEAE, with treatment assignment or on-
+treatment TEAE status cannot be determined based on the partial information, then the 
+TEAE will be considered as an on-treatment TEAE for all treatment that the patient 
+receives. 
+5.9.1.6.Summaries of Adverse Events and Deaths 
+The number and percentage of patients with any TEAE, any related TEAE, any grade 3 or 
+higher TEAE, any related grade 3 or higher TEAE, any serious TEAE, and any related 
+serious TEAE, as well as the total number of events for each category, will be summarized 
+by treatment and KVD900 overall. The number of deaths due to an TEAE, hospitalization 
+due to an TEAE and study discontinuation due to an TEAE will be summarized by 
+treatment and KVD900 overall. The same presentation will be created for on-treatment 
+TEAEs. 
+The number and percentage of patients who experienced at least one TEAE, as well as the 
+total number of TEAEs, will be summarized for each treatment and KVD900 overall by 
+SOC and PT. This tabulation will be repeated for the TEAE categories as follow: 
+• All TEAEs 
+• All TEAEs by severity grade 
+• All TEAEs related to study treatment 
+• All TEAEs related to study treatment by severity grade 
+• All treatment-emergent SAEs 
+• All treatment-emergent SAEs related to study treatment 
+• All on-treatment TEAEs 
+• All on-treatment TEAEs by severity grade 
+• All on-treatment TEAEs related to study treatment 
+• All on-treatment TEAEs related to study treatment by severity grade 
+• All on-treatment treatment-emergent SAEs 
+• All on-treatment treatment-emergent SAEs related to study treatment 
+49 
+
+[PDF PAGE 50]
+      
+   
+ 
+  
+ 
+ 
+  
+   
+  
+   
+  
+  
+ 
+  
+   
+   
+   
+  
+  
+  
+  
+  
+     
+  
+    
+ 
+    
+ 
+   
+  
+  
+    
+    
+      
+    
+   
+    
+  
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+• All TEAEs leading to premature discontinuation of study drug 
+• All TEAEs leading to study discontinuation 
+• All TEAEs leading to death 
+Multiple events will be counted only once per patient per treatment in each summary. AEs 
+will be summarized and listed first in alphabetic order of SOC and then by PT in 
+descending order of total frequency within each SOC. For summaries by grade, the most 
+severe grade will be used for those AEs that occurred more than once in an individual 
+patient per treatment during the study. 
+In addition, data listings will be provided for the following: 
+• All AEs 
+• AEs related to study treatment 
+• AEs with Severity Grade 3 or 4 
+• SAEs 
+• Deaths 
+• AEs leading to premature discontinuation of study drug 
+• AEs leading to premature discontinuation of study 
+TEAEs and on-treatment TEAEs will be flagged within the listings. 
+5.9.2. Clinical Laboratory Evaluations 
+Laboratory assessments will be performed by a central laboratory. All summaries will be 
+based on the conventional units. 
+Descriptive statistics (n, mean, SD, minimum, Q1, median, Q3 and maximum) will be 
+presented by visit and treatment sequence and overall for observed values and changes 
+from baseline for clinical laboratory test results for patients in the SAF. Summaries will 
+also be provided by last treatment received. 
+Clinical laboratory results will be classified according to the reference ranges. The number 
+of patients with a non-missing result, and the number and percentage of patients with a lab 
+result below the lower limit of normal, within the normal range, and above the upper limit 
+of normal, will be summarized by visit for each treatment sequence and overall. 
+Summaries will also be provided by last treatment received. 
+A by-patient listing for laboratory test results will be provided by treatment sequence and 
+visit in chronological order for clinical laboratory tests separately. Values falling outside of 
+the relevant reference range (High, Low) will be flagged in the data listings, as appropriate. 
+50 
+
+[PDF PAGE 51]
+      
+   
+ 
+  
+ 
+ 
+ 
+ 
+   
+ 
+   
+ 
+  
+    
+ 
+ 
+  
+  
+  
+ 
+  
+ 
+       
+ 
+ 
+    
+ 
+    
+ 
+ 
+     
+ 
+  
+   
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+5.9.2.1.Hematology 
+The following laboratory tests will be included: red blood cell (RBC), mean corpuscular 
+volume (MCV), mean corpuscular hemoglobin (MCH), mean corpuscular hemoglobin 
+concentration (MCHC), mean platelet volume (MPV), red cell distribution width (RDW), 
+nucleated RBC, white blood cell (WBC), neutrophils, eosinophils, basophils, lymphocytes, 
+monocytes, platelets, granulocytes, hemoglobin, and hematocrit. Summary tables and 
+listings will be presented as described in Section 5.9.2. 
+5.9.2.2.Clinical Chemistry 
+The following laboratory tests will be included: glycosylated hemoglobin (HBA1c), 
+creatinine, glucose (random), triglycerides, blood urea nitrogen, total bilirubin, direct 
+bilirubin, and total cholesterol. Summary tables and listings will be presented as described 
+in Section 5.9.2. 
+5.9.2.3.Urinalysis 
+The following laboratory tests will be included: potential hydrogen (pH), protein, glucose, 
+ketone, bilirubin, blood, nitrite, and albumin. Summary tables and listings will be 
+presented as described in Section 5.9.2. 
+5.9.2.4.Liver Enzyme 
+The following laboratory tests will be included: alkaline phosphatase (ALP), aspartate 
+aminotransferase (AST), alanine aminotransferase (ALT), gamma glutamyl transferase 
+(GGT). Summary tables and listings will be presented as described in Section 5.9.2. 
+5.9.2.5.Electrolytes 
+The following laboratory tests will be included: sodium and potassium. Summary tables 
+and listings will be presented as described in Section 5.9.2. 
+5.9.2.6.Coagulation 
+The following laboratory test will be included: international normalized ratio (INR). 
+Summary tables and listings will be presented as described in Section 5.9.2. 
+5.9.2.7.C1 Functional Level, C1 Antigen, and Complement C4 
+The following laboratory test will be included: C1 esterase inhibitor (antigen), C1 esterase 
+inhibitor (functional), and complement C4 results. Summary tables (except shift from 
+baseline table) and listings will be presented as described in Section 5.9.2. 
+5.9.2.8.Pregnancy 
+Serum pregnancy tests will be performed on females of childbearing potential. A by-
+patient listing for pregnancy test results will be provided by treatment sequence. 
+51 
+
+[PDF PAGE 52]
+      
+   
+ 
+  
+ 
+ 
+   
+    
+     
+    
+    
+        
+  
+    
+ 
+  
+    
+ 
+  
+  
+ 
+    
+ 
+    
+    
+   
+    
+ 
+  
+  
+  
+   
+    
+   
+  
+      
+ 
+    
+    
+     
+ 
+  
+ 
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+5.9.3. Vital Sign Measurements 
+Vital sign measurements will include systolic blood pressure (mmHg), diastolic blood 
+pressure (mmHg), pulse rate (bpm), and respiration rate (RR) (breaths/minute). 
+Descriptive statistics (n, mean, SD, minimum, Q1, median, Q3 and maximum) will be 
+presented by treatment sequence and overall for observed values and changes from 
+baseline for vital signs measurements for patients in the SAF. Summaries will also be 
+provided by last treatment received. 
+A by-patient listing for all vital sign results will be presented by treatment sequence and 
+visit. 
+5.9.4. Physical Examination 
+A physical examination will be performed by the investigator or his/her qualified designee 
+according to the Schedule of Events (Appendix 9.3). A complete physical examination will 
+be performed at Screening only and will include the following body systems: general 
+appearance; ears, nose, and throat; head and neck; ophthalmological; respiratory; 
+cardiovascular; abdomen; neurological; extremities; dermatological; lymphatic; and other. 
+Other visits noted in the Schedule of Events (Appendix 9.3) will include a symptom-
+directed physical examination. 
+For each physical examination assessment, the number and percentage of patients will be 
+summarized for each body system and outcome (Normal, Abnormal [Not Clinically 
+Significant, Clinically Significant], Not Done) and will be presented at each visit by 
+treatment sequence and overall using the SAF. Summaries will also be provided by last 
+treatment received. 
+A by-patient listing for physical examination results will be presented by treatment 
+sequence and visit. 
+5.9.5. Electrocardiogram 
+All patients will have a standard 12-lead ECG performed at the time points as scheduled 
+(Appendix 9.3), that will be recorded in triplicate readings. ECG tests will include heart 
+rate (HR; beats per minute), PR-interval (milliseconds [ms]), QRS-duration (ms), 
+QT-interval (ms) and RR interval (milliseconds [ms]), and QTcF (Fridericia correction of 
+QTc; ms). ECG results will be evaluated and interpretation results include Normal, 
+Abnormal Not Clinically Significant, Abnormal Clinically Significant, and Not Done. 
+Descriptive statistics (n, mean, SD, minimum, Q1, median, Q3 and maximum) will be 
+presented by treatment sequence and overall for observed values and changes from 
+baseline for ECG test results for patients in the SAF. Summaries will also be provided by 
+last treatment received. 
+Additionally, normal sinus rhythm (yes/no) and ECG interpretations (Normal, Abnormal 
+Not Clinically Significant, Abnormal Clinically Significant, and Not Done) will be 
+52 
+
+[PDF PAGE 53]
+      
+   
+ 
+  
+ 
+ 
+ 
+   
+ 
+   
+   
+     
+  
+   
+   
+  
+ 
+ 
+ 
+  
+ 
+ 
+  
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+presented with number and percentage of patients at each visit by treatment sequence and 
+overall and separately by last treatment received. 
+A by-patient listing for all ECG results and interpretation will be presented by treatment 
+sequence and visit. 
+6. INTERIM ANALYSIS 
+There is no planned interim analysis for this trial. 
+7. CHANGES IN THE PLANNED ANALYSIS 
+Changes in the planned analysis are shown in Table 4. 
+Table 4 Changes in the Planned Analysis 
+Section Change in the Planned Analysis Rationale 
+5.8.2.3 The protocol Section 17.7.3 states to create 50 
+imputed datasets for the multiple imputation 
+sensitivity analysis. It is changed to 1,000 
+dataset. 
+A larger number of imputed 
+dataset will improve the 
+statistical properties of the 
+estimators. 
+53 
+
+[PDF PAGE 54]
+      
+   
+ 
+  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+  
+    
+  
+    
+ 
+  
+    
+ 
+ 
+   
+ 
+    
+ 
+     
+   
+ 
+ 
+ 
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+8. REFERENCES 
+Aygören-Pürsün E, Bygum A, Beusterien K, et al. Estimation of EuroQol 5-Dimensions 
+health status utility values in hereditary angioedema. Patient Prefer Adherence. 2016 Sep 
+6;10:1699-707. doi: 10.2147/PPA.S100383. 
+Aygören-Pürsün E, Bygum A, Grivcheva-Panovska V, et al. Oral Plasma Kallikrein 
+Inhibitor for Prophylaxis in Hereditary Angioedema. N Engl J Med. 2018 Jul 
+26;379(4):352-362. doi: 10.1056/NEJMoa1716995. 
+Bork K, Hardt J, Schicketanz KH, Ressel N. Clinical studies of sudden upper airway 
+obstruction in patients with hereditary angioedema due to C1 esterase inhibitor deficiency. 
+Arch Intern Med. 2003 May 26;163(10):1229-35. doi: 10.1001/archinte.163.10.1229. 
+Bork K, Meng G, Staubach P, Hardt J. Hereditary angioedema: new findings concerning 
+symptoms, affected organs, and course. Am J Med. 2006 Mar;119(3):267-74. doi: 
+10.1016/j.amjmed.2005.09.064. 
+Bork K, Hardt J, Witzke G. Fatal laryngeal attacks and mortality in hereditary angioedema 
+due to C1-INH deficiency. J Allergy Clin Immunol. 2012 Se p;130(3 ):692-7. do i: 
+10.1016/j.jaci.2012.05.055. 
+Caballero T, Aygören-Pürsün E, Bygum A, et al. The humanistic burden of hereditary 
+angioedema: results from the Burden of Illness trial in Europe. Allergy Asthma Proc. 2014 
+Jan-Fe b;35(1 ):47-53. do i: 10.2500/aap.2013.34.3685. 
+Caballero T, Maurer M, Longhurst HJ, et al. Triggers and Prodromal Symptoms of 
+Angioedema Attacks in Patients with Hereditary Angioedema. J Investig Allergol Clin 
+Immunol. 2016;26(6):383-386. doi: 10.18176/jiaci.0102. 
+Donaldson VH, Evans RR. A biochemical abnormality in hereditary angioneurotic edema: 
+Absence of serum inhibitor of ’' 1-esterase. Am J Med. 1963 Jul;35:37-44. doi: 
+10.1016/0002-9343(63)90162-1. 
+Donaldson VH, Rosen FS. Action of complement in hereditary angioneurotic edema: The 
+role of ’'1-Esterase. J Clin Invest. 1964 Nov;43(11):2204-13. doi: 10.1172/JCI105094. 
+Fields T, Ghebrehiwet B, Kaplan AP. Kinin formation in hereditary angioedema plasma: 
+evidence against kinin derivation from C2 and in support of spontaneous formation of 
+bradykinin. J Allergy Clin Immunol. 1983 Jul;72(1):54-60. doi: 10.1016/0091-
+6749(83)90052-0. 
+FDA. Guidance for Industry: Multiple Endpoints in Clinical Trials. 2022 Oct. 
+Feingold M, Gillespie BW. Cross-over trials with censored data. Stat Med. 199 6; 1 5:953-
+67. 
+Gösswein T, Kocot A, Emmert G, et al. Mutational spectrum of the C1INH (SERPING1) 
+gene in patients with hereditary angioedema. Cytogenet Genome Res. 2008;121(3-4):181-
+8. doi: 10.1159/000138883. 
+54 
+
+[PDF PAGE 55]
+      
+   
+ 
+  
+ 
+ 
+  
+ 
+    
+ 
+    
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+    
+   
+ 
+ 
+  
+  
+   
+ 
+ 
+   
+  
+  
+ 
+ 
+ 
+   
+  
+ 
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+Hulström D, Svensjö E. Intravital and electron microscopic trial of bradykinin-induced 
+vascular permeability changes using FITC-dextran as a tracer. J Pathol. 1979 
+No v;129(3 ):125-33. do i: 10.1002/path.1711290304. 
+Javaud N, Altar A, Fain O, et al. Hereditary angioedema, emergency management of 
+attacks by a call center. Eur J Intern Med. 2019 Sep;6 7:42-46. do i: 
+10.1016/j.ejim.2019.05.007. 
+Javaud N, Bouillet L, Rabetrano H, et al. Hereditary angioedema: Clinical presentation and 
+socioeconomic cost of 200 French patients. J Allergy Clin Immunol Pract. 2019 
+Jan;7(1):328-330. doi: 10.1016/j.jaip.2018.05.036. 
+Kaplan AP, Joseph K. Pathogenic mechanisms of bradykinin mediated diseases: 
+dysregulation of an innate inflammatory pathway. Adv Immunol. 201 4;12 1:41-89. do i: 
+10.1016/B978-0-12-800100-4.00002-7. 
+Lumry WR, Craig T, Zuraw B, et al. Health-Related Quality of Life with Subcutaneous 
+C1-Inhibitor for Prevention of Attacks of Hereditary Angioedema. J Allergy Clin Immunol 
+Pract. 2018 Sep-Oct;6(5):1733-1741.e3. doi: 10.1016/j.jaip.2017.12.039. 
+Maurer M, Bork K, Martinez-Saguer I, et al. Management of patients with hereditary 
+angioedema in Germany: comparison with other countries in the Icatibant Outcome 
+Survey. J Eur Acad Dermatol Venereol. 2019 Jan;33(1):163-169. doi: 10.1111/jdv.15232. 
+Nordenfelt P, Nilsson M, Björkander J, Mallbris L, Lindfors A, Wahlgren CF. Hereditary 
+Angioedema in Swedish Adults: Report From the National Cohort. Acta Derm Venereol. 
+2016 May;96(4):540-5. doi: 10.2340/00015555-2274. 
+Nordenfelt P, Nilsson M, Lindfors A, Wahlgren CF, Björkander J. Health-related quality 
+of life in relation to disease activity in adults with hereditary angioedema in Sweden. 
+Allergy Asthma Proc. 2017 Nov 30;38(6):447-455. doi: 10.2500/aap.2017.38.4087. 
+Nussberger J, Cugno M, Amstutz C, Cicardi M, Pellacani A, Agostoni A. Plasma 
+bradykinin in angio-oedema. Lancet. 1998 Jun 6;351(9117):1693-7. doi: 10.1016/S0140-
+6736(97)09137-X. 
+Nussberger J, Cugno M, Cicardi M, Agostoni A. Local bradykinin generation in hereditary 
+angioedema. J Allergy Clin Immunol. 1999 Dec;104(6):1321-2. doi: 10.1016/s0091-
+6749(99)70030-8. 
+Nussberger J, Cugno M, Cicardi M. Bradykinin-mediated angioedema. N Engl J Med. 
+2002 Aug 22;347(8):621-2. doi: 10.1056/NEJM200208223470820. 
+O’Connor P. A nonparametric multiple imputation approach for survival data patient to 
+informative censoring. Doctoral Dissertation. University of Arizona, 2020. Available at 
+http://hdl.handle.net/10150/637722.Rosen FS, Pensky J, Donaldson V, Charache P. 
+Hereditary angioneurotic edema: Two genetic variants. Science. 1965 May 
+14;148(3672):957-8. doi: 10.1126/science.148.3672.957. 
+55 
+
+[PDF PAGE 56]
+      
+   
+ 
+  
+ 
+ 
+ 
+ 
+ 
+  
+ 
+  
+ 
+ 
+ 
+  
+ 
+  
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+Rosen FS, Pensky J, Donaldson V, Charache P. Hereditary angioneurotic edema: two 
+genetic variants. Science. 1965 May 14;148(3672):957-8. doi: 
+10.1126/science.148.3672.957. 
+Rosen FS, Alper CA, Pensky J, Klemperer MR, Donaldson VH. Genetically determined 
+heterogeneity of the C1 esterase inhibitor in patients with hereditary angioneurotic edema. 
+J Clin Invest. 1971 Oct;50(10):2143-9. doi: 10.1172/JCI106708. 
+Santner, T. S. (1980). Small-sample confidence intervals for p1–− p2 and p1/p2 in 2 × 2 
+contingency tables. J. Amer. Statist. Assoc., 75, 386–394. 
+Taylor JMG, Murray S, Hsu C-H. Survival estimation and testing via multiple imputation. 
+Stat Probability Letters 2002; 58: 221–232. 
+Zanichelli A, Arcoleo F, Barca MP, et al. A nationwide survey of hereditary angioedema 
+due to C1 inhibitor deficiency in Italy. Orphanet J Rare Dis. 2015 Feb 6;10:11. doi: 
+10.1186/s13023-015-0233-x. 
+56 
+
+[PDF PAGE 57]
+      
+   
+ 
+  
+ 
+ 
+   
+ 
+ 
+         
+   
+  
+      
+ 
+     
+ 
+        
+ 
+        
+   
+ 
+     
+     
+    
+ 
+ 
+  
+     
+    
+   
+ 
+   
+      
+  
+ 
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+9. APPENDICES 
+9.1. Kaplan-Meier Imputation under Informative Censoring 
+Assumption 
+For 𝑛𝑛 patients 𝑖𝑖 = 1, … . , 𝑛𝑛 we have data 𝑇𝑇𝑖𝑖 and 𝐷𝐷𝑖𝑖, where 𝑇𝑇𝑖𝑖 is the survival time if 𝐷𝐷𝑖𝑖 = 1 
+and 𝑇𝑇𝑖𝑖 is the censoring time if 𝐷𝐷𝑖𝑖 = 0. Since there are 3 periods in the study, there will be 
+3𝑛𝑛 observations for each patient. 
+Each patient 𝑖𝑖 has data (𝑇𝑇𝑖𝑖 , 𝐷𝐷𝑖𝑖). 
+Identify all censored times and order them in increasing order. Begin with the smallest and 
+proceed to the largest starting from Step 2 below. 
+Step 1: 
+Specify Kendall’s 𝜏𝜏. Consider the following values for 𝜏𝜏 = ±0.5, ±0.3, ±0.1, 0. 
+Step 2 (Define the Imputing Risk Set (IRS)): 
+For each censored patient 𝑗𝑗 with censored time 𝑇𝑇𝑗𝑗 , 𝜏𝜏 is utilized to determine the size of the 
+data set from which to impute failure times for the censored value. 
+We will call it the Imputing Risk Set (IRS): this set will include only patients who were 
+still at risk at time 𝑇𝑇𝑗𝑗 , that is, all patients  with longer survival (can be censored) times 
+than 𝑇𝑇𝑗𝑗.  Let 𝑛𝑛𝑗𝑗 be the number of patients with longer survival or censored times than 
+𝑇𝑇𝑗𝑗, 𝑗𝑗 = 1, … , 𝑚𝑚, where 𝑚𝑚 is the number of patients with censored times. 
+The size of the IRS is defined as 
+𝑛𝑛𝑗𝑗 ∗ (1 − |𝜏𝜏|𝑘𝑘 ) 
+Where parameter k is used to control the potential bias. 
+If |𝜏𝜏| < 1 𝑎𝑎𝑛𝑛𝑎𝑎 𝑘𝑘 < 1, the size of IRS will be decreased. 
+If |𝜏𝜏| < 1 𝑎𝑎𝑛𝑛𝑎𝑎 𝑘𝑘 > 1, the size of IRS will be increased. 
+Consider the following values for  𝑘𝑘 = 1.5, 1.25, 1, 0.75, 0.5. 
+When 𝜏𝜏 = 0, this is the case of independent censoring and IRS size is 𝑛𝑛𝑗𝑗, all patients at risk 
+at time 𝑗𝑗 are in the IRS. 
+When 𝜏𝜏 > 0, the censored observation for patient 𝑗𝑗 at time 𝑇𝑇𝑗𝑗 is the anchor point for the 
+neighborhood which extends to only values greater than 𝑇𝑇𝑗𝑗. This implies those patients 
+who were at risk and had an observed time closer to 𝑇𝑇  are more likely to be included in the 
+IRS. 
+57 
+
+[PDF PAGE 58]
+      
+   
+ 
+  
+ 
+ 
+   
+        
+  
+    
+   
+        
+    
+    
+   
+   
+   
+    
+  
+    
+     
+      
+ 
+       
+    
+       
+ 
+     
+    
+  
+      
+  
+    
+  
+   
+   
+  
+   
+ 
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+This neighborhood would consist of the 
+100 ∗ (1 − |𝜏𝜏|𝑘𝑘 )% of the 𝑛𝑛𝑗𝑗 patients still at risk at time 𝑇𝑇𝑗𝑗 that- are nearest to the censored 
+patient j. 
+For example, for 𝜏𝜏 = 0.5 and 𝑘𝑘 = 1, the IRS would contain 50% of all patients to the 
+anchor point 𝑇𝑇𝑗𝑗 . 
+When 𝜏𝜏 < 0, the anchor point would become patient 𝑚𝑚 at time 𝑇𝑇𝑚𝑚, 𝑚𝑚 being the patient 
+with the longest survival time. This implies those patients who were at risk and had an 
+observed time farther away from 𝑇𝑇𝑗𝑗 are more likely to be included in the IRS. 
+For example, for 𝜏𝜏 = −0.5 and 𝑘𝑘 = 1, the IRS would contain 50% of all patients to the 
+anchor point 𝑇𝑇𝑚𝑚. 
+Step 3 (Impute a value from the IRS): 
+Each value 𝑇𝑇𝑗𝑗, 𝑗𝑗 = 1, … , 𝑚𝑚 will be imputed from the corresponding IRS. 
+Once the size of the IRS has been determined, Kaplan-Meier survival curve will be fit to 
+only data from IRS. This will yield distinct survival estimates at every failure time, say, 
+(𝑠𝑠(1), 𝑠𝑠(2), … , 𝑠𝑠(𝑖𝑖)) where 𝑖𝑖 is the number of failure times in the IRS. Then, take one 
+minus each survival estimate and order from smallest to largest, 
+𝑣𝑣 = (1 − 𝑠𝑠(1), 1 − 𝑠𝑠(2), … , 1 − 𝑠𝑠(𝑖𝑖)). 
+Next, a random value 𝑢𝑢𝑗𝑗 is drawn from uniform distribution 𝑈𝑈(0,1) (𝑗𝑗 = 1, … , 𝑚𝑚 ). 
+Specifically, if 𝑢𝑢 <= 1 − 𝑠𝑠(𝑖𝑖), then the survival time corresponding to the smallest value 
+of 𝑣𝑣 that is larger than u is imputed and the indicator for this observation will be marked as 
+censored. 
+For example, if 1 − 𝑠𝑠(4) < 𝑢𝑢 < 1 − 𝑠𝑠(5), then the value being imputed for 𝑇𝑇𝑗𝑗 will be 
+survival time associated with 𝑠𝑠(5), the fifth largest survival estimate. 
+Ties don’t affect the imputed value since they have the same survival estimate. 
+If 𝑢𝑢 > 1 − 𝑠𝑠(𝑖𝑖), then the survival time associated with the largest survival estimate 𝑠𝑠(1) 
+is imputed and marked as “censored” observation ( not really censored but because the 
+observation was used to impute, it will not be used in KM estimates at later times). 
+The imputation procedure for censored 𝑇𝑇𝑗𝑗, 𝑗𝑗 = 1, … , 𝑚𝑚 ends when either all remaining 
+survival times are “censored” observations or patient 𝑚𝑚 at time Tm is reached. When the 
+procedure is terminated because only “censored” observations remain, and not all censored 
+𝑇𝑇𝑗𝑗 are imputed, then these remaining censored observations will have their survival time 
+imputed as largest survival in the dataset , 𝑇𝑇𝑚𝑚. If Tm is the largest censored time then no 
+imputation occurs for that because there is no IRS for this 𝑇𝑇 . 
+Step 4: 
+58 
+
+[PDF PAGE 59]
+      
+   
+ 
+  
+ 
+ 
+     
+      
+ 
+ 
+   
+ 
+  
+  
+      
+     
+  
+   
+    
+ 
+  
+  
+     
+   
+    
+  
+     
+  
+     
+  
+    
+   
+    
+   
+    
+   
+   
+   
+ 
+   
+ 
+   
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+Repeat steps 1-3 independently to create 1,000 imputed datasets for each of the 35 
+combinations of 𝜏𝜏 and 𝑘𝑘 where each of the imputed datasets is the result of a bootstrap 
+resampling process. 
+Step 5: 
+Compute the Gehan scores for all 35,000 datasets. 
+Step 6: 
+Analyze each dataset using the same mixed model as for primary analysis. 
+Step 7: 
+Combine the results from the 1,000 datasets with the same 𝜏𝜏 and 𝑘𝑘 using Rubin’s method 
+from PROC MIANALYZE, and do it for each of the 35 combinations of 𝜏𝜏 and 𝑘𝑘. 
+9.2. Definitions and Programming Conventions 
+9.2.1. Algorithms Deriving Time-to-Event Endpoints 
+Many time-to-event endpoints specified in this SAP encompass symptom assessments, 
+usage of conventional medications, second IMP administration, or study discontinuation. 
+This section outlines the algorithms that manage these situations collectively. 
+For time-to event endpoints measuring symptom improvement (e.g., time to beginning of 
+symptom relief, time to first incidence of decrease in PGI-S, etc.), the following algorithm 
+will be followed to determine if an attack met the event or should be censored. Note: for 
+the supplementary analysis right-censoring conventional medication use at the time of use, 
+the censoring rule used in these algorithms will be changed accordingly. 
+1. First, in the case of derivable time-to-event results, the attack will be treated as 
+achieving the event if the symptom assessments are consistent with the event 
+condition (unless the condition in 2) is met), or right-censored at the end of analysis 
+window if it did not achieve the event. 
+2. Second, if the attack was treated with conventional attack treatment within the 
+analysis window and prior to the achievement of an event, then the attack will be 
+treated as right-censored at the end of analysis window. 
+3. Third, in the case of underivable time-to-event results, but a conventional 
+medication was taken within the analysis window, the attack will be right-censored 
+at the end of analysis window. 
+4. Fourth, in the case of underivable time-to-event results, and no conventional 
+medication was taken within the analysis window, the attack will be censored at 0 
+hour. 
+5. Fifth, In the case of discontinuation that prevented event occurrence within the 
+analysis window, the attack will be censored at the time of discontinuation (taken 
+from last assessment done during the end of study visit). 
+59 
+
+[PDF PAGE 60]
+      
+   
+ 
+  
+ 
+ 
+   
+   
+  
+     
+  
+ 
+   
+  
+    
+   
+ 
+  
+   
+   
+ 
+   
+ 
+   
+     
+    
+    
+     
+  
+   
+  
+   
+  
+ 
+   
+  
+ 
+  
+  
+   
+   
+   
+    
+   
+   
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+For time-to-event endpoints measuring symptom worsening (e.g., time to PGI-C ‘a little 
+worse’ for two time points in a row, etc.), the following algorithm will be followed to 
+determine if an attack met the event or should be censored: 
+1. First, in the case of derivable time-to-event results, the attack will be treated as 
+achieving the event if the symptom assessments are consistent with the event 
+condition (unless the condition in 2) is met), or right-censored at 12 hours if it did 
+not achieve the event. 
+2. Second, if the attack was treated with conventional attack treatment within the 
+analysis window and prior to the achievement of an event, then the attack will be 
+treated as achieving the event at the time of conventional medication use. 
+3. Third, in the case of underivable time-to-event results, but a conventional 
+medication was taken within the analysis window, the attack will be treated as 
+achieving the event at the time of conventional medication use. 
+4. Fourth, in the case of underivable time-to-event results, and no conventional 
+medication was taken within the analysis window, the attack will be censored at 0 
+hour. 
+5. Fifth, In the case of discontinuation that prevented event occurrence within the 
+analysis window, the attack will be censored at the time of discontinuation (taken 
+from last assessment done during the end of study visit). 
+For the ‘time to the second IMP administration’ endpoint, the following algorithm will be 
+followed to determine if an attack met the event or should be censored: 
+1. First, the attack will be treated as achieving the event if the event condition is met 
+(unless the condition in 2) is met), or right-censored at the end of analysis window 
+if the event condition is not met. 
+2. Second, if the attack was treated with conventional attack treatment within the 
+analysis window and prior to the achievement of an event, then the attack will be 
+treated as right-censored at the time of conventional medication use. 
+3. Third, In the case of discontinuation that prevented event occurrence within the 
+analysis window, the attack will be censored at the time of discontinuation (taken 
+from last assessment done during the end of study visit). 
+9.2.2. Handling of Conventional Medications with Missing Time in Time-to-
+Event Analyses 
+In time-to-event endpoint analyses, unless otherwise specified, time-to-event for an attack 
+with conventional medication use during the analysis window will be right censored at the 
+end of analysis window. In some cases, the time of conventional medication use was 
+missing, while only the date of conventional medication use was available. These cases 
+will be handled conservatively by assuming the conventional medication was used at the 
+end of the analysis window, as reasonable. For example, for an endpoint with a 12-hour 
+analysis window, if the conventional medication with missing time was taken on the same 
+day of the first IMP dosing, or if the conventional medication with missing time was taken 
+60 
+
+[PDF PAGE 61]
+      
+   
+ 
+  
+ 
+ 
+   
+   
+ 
+  
+    
+  
+  
+ 
+  
+  
+   
+    
+   
+   
+   
+   
+  
+  
+   
+  
+   
+      
+ 
+   
+  
+ 
+  
+  
+   
+    
+  
+  
+   
+  
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+on the next day of the first IMP dosing, but the first IMP dosing occurred after 12 pm, then 
+the conventional medication will be considered as occurring at the time point of 12-hour 
+post-dose. 
+For the sensitivity analyses censoring conventional medication use at the time of use, 
+conventional medications with missing time will be consistently right-censored at the end 
+of analysis window, as reasonable. 
+In cases where the occurrence of conventional medication use is the event of interest (e.g. 
+time to first incidence of conventional medication use within 12 or 24 hours), instances 
+where the exact timing of medication usage is missing are treated as if they happened at the 
+end of the analysis window, as reasonable. 
+9.2.3. Handling of Duplicate Records 
+Duplicate assessments exist for a subset of nominal time points in some patients. These 
+duplicate records were kept in the database to maintain study integrity. Statistical analysis 
+will be made using the first record (as determined by the collection timestamp) if duplicate 
+records exist for a nominal time point. All other duplicate records will be presented in 
+listings. 
+9.2.4. Handling of Events Achieved after Endpoint Analysis Window 
+Actual assessment time will be used in calculating time-to-event results. When a qualifying 
+attack achieves an endpoint at the last assessment time point, this data handling approach 
+may result in a time-to-event that is achieved after the end of the endpoint analysis window 
+(12, 24, or 48 hours depending on the endpoint). For example, an attack may achieve onset 
+of symptom relief at 12.3 hours for an endpoint with a 12-hour assessment window. In 
+order to correctly assess the survival results, time-to-event results in such cases will be set 
+to the end of endpoint analysis window (12, 24, or 48 hours) in summary statistics and 
+statistical modeling. Original time-to-event results will be presented in listings. 
+9.2.5. Defining Prophylactic Treatment Status 
+The On Demand or On Prophylactic Treatment subgroups will be defined based on data 
+collected on HAE History CRF page. 
+The On Demand, On Kallikrein Prophylactic Treatment, or On Other Prophylactic 
+Treatment subgroups will be defined based on data collected on both HAE History CRF 
+page and Concomitant Medication CRF page. See Table 5 for details. 
+Table 5. Algorithms Deriving Prophylactic Treatment Status 
+Subgroups Algorithms 
+On Demand Patients with ‘On demand only’ selected for the ‘Treatment 
+Regimen at Screening Visit’ question in the HAE History page. 
+61 
+
+[PDF PAGE 62]
+      
+   
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+On Kallikrein 
+Prophylactic 
+Treatment 
+Patients with ‘’Prophylaxis’ selected for the ‘Treatment 
+Regimen at Screening Visit’ question in the HAE History page 
+and with lanadelumab or berotralstat medication reported on 
+the Concomitant Medication page. 
+On Other 
+Prophylactic 
+Treatment 
+Patients with ‘’Prophylaxis’ selected for the ‘Treatment 
+Regimen at Screening Visit’ question in the HAE History page 
+and without lanadelumab or berotralstat medication reported 
+on the Concomitant Medication page. 
+62 
+
+[PDF PAGE 63]
+      
+   
+ 
+  
+ 
+ 
+   
+   
+      
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+       
+      
+        
+        
+         
+       
+        
+       
+        
+        
+        
+       
+          
+         
+         
+   
+     
+       
+        
+       
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+9.3. Schedule of trial Procedures 
+Table 6. Schedule of Events 
+Visit Screening Randomizationa Treatment Period Final 
+Visit/ETc1st eligible 
+HAE 
+attackb 
+2nd 
+eligible 
+HAE 
+attackb 
+3rd 
+eligible 
+HAE 
+attackb 
+In-clinicd X X X 
+TeleVisite X X X 
+Informed Consent/Assentf X 
+Eligibility Assessment X X 
+HAE Diagnostic Lab Testg X 
+Medical Historyh X 
+12-lead ECGi X X 
+Demographicsj X 
+Physical Examinationk X X 
+Vital Signsl X X 
+Safety Laboratorym X X 
+Pregnancy Testn X X 
+Randomize patient in RTSM X 
+Patient diary training X X 
+Patient diary retraining X X X 
+Conventional on-demand treatment 
+washouto 
+Dosep X X X 
+IMP dispensing/return/accountabilityq X X 
+PGI-Sr X X X 
+63 
+
+[PDF PAGE 64]
+      
+   
+ 
+  
+ 
+ 
+      
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+       
+       
+       
+    
+    
+ 
+     
+ 
+  
+    
+ 
+     
+  
+   
+ 
+  
+    
+     
+     
+  
+      
+   
+  
+ 
+     
+   
+   
+      
+      
+       
+      
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+Visit 
+PGI-Cr 
+VASr 
+GA-NRSr 
+Concomitant Medication Review 
+Screening Randomizationa Treatment Period 
+2nd 3rd 1st eligible 
+HAE eligible eligible 
+attackb HAE HAE 
+attackb attackb 
+X X X 
+X X X 
+X X X 
+Final 
+Visit/ETc 
+Adverse Event Reviews 
+Abbreviations: C1-INH=C1-esterase inhibitor; ECG=electrocardiogram; eDiary=electronic diary; ET=Early Termination; GA-NRS= General Anxiety – Numeric Rating Scale; HAE=hereditary 
+angioedema; IMP=investigational medicinal product; PGI-C=patient global impression of change; PGI-S=patient global impression of severity; RTSM=Randomization Trial Supply Management 
+System; VAS=visual analog scale. 
+a Randomization to occur within 4 weeks of the Screening Visit. The Randomization Visit may be a televisit or an in-clinic visit. 
+b For each of the 3 eligible HAE attacks, a televisit will occur by the next working day after the completion of the patient diary (visit window: +1 week). A televisit must occur before treating the 
+next eligible attack. 
+c Once 3 HAE attacks have been treated with IMP, or upon patient early termination, the patient should return to the clinic as soon as possible within 1 week for the final visit. Whenever possible 
+this visit should be completed prior to starting any new medication or treatment. 
+d If an in-clinic visit cannot be conducted (e.g. in the event of a pandemic or other reason that prevents the patient from attending in-clinic visits), home health visits will be used to perform these 
+visits. Information captured during a home health visit will mirror that captured during an in-clinic visit. 
+e A televisit can be conducted via a telephone call or a via an interactive audio/video system. 
+f Consent and assent may be collected through e-consent if allowed through country and site regulations. 
+g Diagnostic testing must be available for patients without genetic confirmation of HAE type I or II. 
+h Medical history includes any relevant previous and concurrent diseases, HAE disease history including the attack history and corresponding treatment for the past 3 months; therapies and 
+supplements taken within the past 4 weeks; and previous participation in interventional clinical trials in the past 4 weeks. 
+i ECG to be recorded after patient has rested supine for at least 5 minutes. 
+j Demographics: Year of birth; height (meters [m]; without shoes); weight (kilograms [kg]); race and ethnicity (if allowed); and sex. 
+k Complete physical examination at Screening only, all others will be symptom directed. In the case of a home health visit, the home healthcare nurse will conduct an abbreviated physical 
+examination, and the Investigator will conduct the symptom-directed physical examination via televisit. 
+l Vital signs include pulse rate, respiratory rate, and systolic and diastolic blood pressure after patient has been resting at least 5 minutes. 
+m Laboratory assessments, including C1-INH functional level, performed by a central laboratory; repeat laboratory assessments may be performed. 
+n Serum pregnancy test will be performed on females of childbearing potential at Screening and at the Final/ET visit. 
+o If a patient takes conventional on-demand treatment during the trial, a 48-hour washout period is required prior to the subsequent dosing with IMP. 
+p Eligible attacks should be treated with IMP as soon as possible after recognition of the start of the attack. A minimum 48-hour washout period is required between each eligible attack and last dose 
+of IMP or conventional on-demand treatment. After the first dose of IMP and prior to the second dose or conventional on-demand treatment, patients will be required to call a designated Study Call 
+Center to be reminded of the repeat dosing criteria. The Call Center staff will remind patients of the rules for re-dosing and the eDiary assessment requirements. 
+64 
+
+[PDF PAGE 65]
+      
+   
+ 
+  
+ 
+ 
+    
+   
+    
+         
+    
+ 
+ 
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+q Arrangements will be made to dispense the assigned IMP. The IMP will be shipped to the patient via a courier service or will be dispensed at the trial clinic as required by local regulations or per 
+the site’s local practice, as described in the Pharmacy Manual. Confirmation of dosing compliance will be performed at each of the HAE attack televisits. All unused IMP and packaging will be 
+returned at the in-clinic Final Visit/ET Visit. If the Final Visit/ET Visit is performed by Home Health, arrangements will be made to return any unused IMP and packaging via courier. 
+r Patients will complete timed assessments of HAE attack symptoms through 48 hours following first dose of IMP. Patient assessments will be performed as outlined in Table 7. 
+s Adverse events recorded from the first dose of KVD900 or placebo up to and including to Final Visit/ET. Serious AEs recorded from the time of signing the informed consent up to and including 
+the Final Visit/ET. 
+65 
+
+[PDF PAGE 66]
+      
+   
+ 
+  
+ 
+ 
+  
+    
+  
+  
+  
+   
+ 
+      
+      
+      
+      
+      
+      
+  
+KalVista Pharmaceuticals, Ltd Final Statistical Analysis Plan, Version 2.0 
+KVD900-301 Date Issued: 1DEC2023 
+Table 7. Frequency of Patient Assessment 
+Time Period following the 
+First IMP Administration 
+Frequency of Patient 
+Assessment a 
+Time Window for 
+Assessment 
+0 to 4 hours Every 0.5 hour ± 0.25 hour 
+5 to 12 hours Every 1 hour ± 0.5 hour 
+14 to 24 hours Every 2 hours ± 1 hour 
+25 to 48 hours Every 12 hours ± 3 hours 
+a If a second dose of IMP or additional doses of conventional on-demand treatment are needed, patients will complete diary assessments 
+prior to taking each additional dose. After re-dosing, the planned post-dose diary assessments will then continue through 48 hours after 
+the first dose of IMP 
+66 

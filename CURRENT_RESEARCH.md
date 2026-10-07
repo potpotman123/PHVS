@@ -10,6 +10,12 @@ The strongest long case is a convenient oral treatment with compelling attack co
 
 ## Clinical audit and corrections
 
+Latest: [cross-trial clinical audit](output/PHVS_cross_trial_clinical_audit_2026-10-07.txt) and [reproducible arithmetic](output/PHVS_cross_trial_arithmetic_2026-10-07.json). Commercial efficacy assumptions are pending this audit's unresolved comparability questions.
+
+**Material correction:** Ekterly's published placebo initial-relief median of 6.72 hours is not the FDA-revised result. FDA moved missing-assessment censoring from time zero to 12 hours; its placebo median was not estimable, and sebetralstat 600 mg median was 1.99 hours. Thus the earlier “PHVS placebo takes over twice as long” concern is not established on aligned regulatory analyses. Both drugs retain evidence of efficacy against placebo; comparative superiority remains unresolved.
+
+**New CHAPTER-3 protocol:** CTIS Amendment 1.5 (19 May 2025) explicitly specifies overdispersion-scaled Poisson standard errors, a negative-binomial supplementary analysis, and missing-data sensitivity analyses. Do not allege that variability was ignored. Their numerical results and the final SAP remain outstanding. The XR versus berotralstat efficacy gap is a strong directional signal, not a validated causal switching coefficient.
+
 The original suspicion concerned 134 randomized patients versus 88 paired participants in RAPIDe-3. Recovered CTIS documents materially weaken the missing-patient short argument:
 
 - 113 participants treated 201 attacks; 88 treated both attacks, leaving 25 single-attack participants and 21 randomized participants without a treated attack.

@@ -1,0 +1,30 @@
+{
+  "classification": "Derived arithmetic; not a validated comparative treatment effect",
+  "konfident_placebo_relief_fraction_all_attacks": 0.4880952380952381,
+  "konfident_placebo_fraction_if_eight_time_zero_censored_removed": 0.5394736842105263,
+  "warning_on_missingness": "Fraction illustrates the 50% threshold mechanism, not reconstruction of Kaplan-Meier event times.",
+  "acute_median_difference_hours_descriptive_only": 0.71,
+  "acute_median_difference_minutes_descriptive_only": 42.599999999999994,
+  "rescue_24h": {
+    "rapide3_active": 0.06818181818181818,
+    "rapide3_placebo": 0.36363636363636365,
+    "konfident_600mg": 0.10752688172043011,
+    "konfident_placebo": 0.32142857142857145
+  },
+  "xr_reported_rr": 0.17,
+  "berotralstat_rr_derived_from_44_2_percent_reduction": 0.558,
+  "xr_ratio_of_placebo_relative_rate_ratios_conditional": 0.3046594982078853,
+  "multiplicative_bias_factor_to_neutralize_point_ratio": 3.2823529411764705,
+  "conditions": [
+    "Comparable endpoint and follow-up estimands",
+    "Exchangeable distributions of treatment-effect modifiers across trials",
+    "Comparable handling of discontinuation and missing data",
+    "Reported estimates and uncertainty valid"
+  ],
+  "model_status": "Within-trial estimates usable with source labels; cross-trial ratio not approved as a sales-model efficacy input.",
+  "conditional_sampling_only_95_interval": [
+    0.16606408532678316,
+    0.5589252466337505
+  ],
+  "interval_warning": "Approximate log-normal propagation using rounded published intervals. Excludes cross-trial bias, is not an adjusted superiority claim, and must not be quoted alone."
+}

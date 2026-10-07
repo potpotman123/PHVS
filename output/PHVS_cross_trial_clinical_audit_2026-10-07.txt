@@ -1,0 +1,144 @@
+PHVS CROSS-TRIAL CLINICAL AUDIT
+7 October 2026 | Public aggregate-data audit | IR and XR analyzed separately
+
+DECISION AND PRESENT CONCLUSION
+
+The decision is whether comparative efficacy is sufficiently established to support commercial switching assumptions for deucrictibant. The relevant comparisons are deucrictibant IR versus sebetralstat (Ekterly) for acute attacks, and deucrictibant XR versus berotralstat (Orladeyo) for prevention. Transcription variants in prior conversation should not be treated as additional drugs.
+
+The most important correction is that Ekterly's FDA-reviewed placebo median for initial relief was NOT ESTIMABLE within 12 hours. The often-quoted 6.72 hours comes from the sponsor's published analysis, whose handling of missing assessments FDA changed. Our earlier use of >12 versus 6.72 hours as evidence of an unusually slow PHVS placebo arm was incomplete and should be withdrawn. This resolves the headline discrepancy, not every difference between placebo response curves.
+
+Both acute drugs demonstrate efficacy against their own randomized controls. Deucrictibant's reported active-treatment outcomes are promising, particularly beyond initial relief, but the available public data do not establish superiority over sebetralstat. XR has a stronger directional cross-trial signal against berotralstat. That signal remains conditional on comparability and is not a randomized head-to-head result.
+
+SCOPE, SOURCES AND METHOD
+
+Reviewed FDA integrated/multidisciplinary reviews, public protocols and statistical analysis plans, ClinicalTrials.gov records, CTIS documents, the KONFIDENT publication, and PHVS results disclosures. FDA reanalyses take precedence over sponsor headlines for describing what FDA concluded. A registry, press release, and poster repeating one trial are not three independent replications.
+
+Extracted populations, attack definitions, eligibility, treatment timing, endpoints, rescue/redosing rules, missingness, analysis sets, models, multiplicity, and uncertainty. Aligned endpoints where possible, then identified what cannot be harmonized with aggregate data. Reproducible arithmetic is in research/cross_trial_calculations.py and output/PHVS_cross_trial_arithmetic_2026-10-07.json. No patient-level matching, curve reconstruction, network meta-analysis, or independent reanalysis of trial datasets was performed.
+
+This route is inexpensive and more informative than immediately fitting an indirect comparison: it uncovered an actual FDA change that headline comparison missed. Matching aggregate means would give false precision without joint covariate distributions and attack-level data. Public individual records and final PHVS analysis plans remain unavailable in the material recovered. Additional broad searching is less useful than obtaining the specific sensitivity tables listed below.
+
+REGULATORY STANDARD
+
+FDA evaluates substantial evidence of efficacy from adequate and well-controlled evidence, alongside safety and the proposed label; approval ordinarily does not require a new drug to outperform every approved alternative. Ekterly's review describes reliance on one adequate, well-controlled trial plus confirmatory evidence in this rare disease. A significant placebo comparison does not become an active-comparator superiority claim.
+
+ICH E10 addresses control selection and limitations of externally controlled comparisons; E9(R1) requires specifying the treatment effect being estimated, including handling rescue, discontinuation and missing outcomes. In plain language, we must ask the same question of both datasets before comparing their answers. There is no FDA formula that makes two unrelated placebo-controlled trials equivalent simply by subtracting their placebo medians. A randomized head-to-head comparison is the clearest route; an anchored indirect comparison additionally requires comparable effect modifiers and outcome definitions.
+
+ACUTE: THE FDA CORRECTION
+
+KONFIDENT / sebetralstat 600 mg:
+- Sponsor publication: median initial relief 1.79 hours, placebo 6.72 hours.
+- FDA analysis: 1.99 hours (95% CI 1.49–2.78), placebo not estimable (3.60–not estimable) within 12 hours.
+- RAPIDe-3: 1.28 hours (1.05–1.52), placebo not estimable (5.82–not estimable) within 12 hours.
+
+FDA's Table 11 explains why. Attacks lacking two consecutive postbaseline assessments were censored at time zero in the applicant analysis. FDA instead kept them unsuccessful through the 12-hour analysis window. There were 8 such placebo attacks among 84, and 7 among 93 attacks on 600 mg. Time-zero censoring removes attacks from the subsequent risk set; it does not mean those patients actually recovered immediately.
+
+An arithmetic illustration shows the threshold sensitivity: 41 placebo relief events / 84 attacks = 48.8%; removing 8 attacks from the denominator gives 41 / 76 = 53.9%. This is not a reconstruction of the Kaplan–Meier curve, but shows how modest missingness can determine whether the curve crosses the 50% median threshold. Not estimable does not mean infinite relief time or that everyone remained symptomatic for 12 hours.
+
+FDA still found sebetralstat effective. The 600-mg primary comparison remained significant (multiplicity-controlled p=0.0004); FDA sensitivity analyses also supported its efficacy. This is a documented analytical correction, not evidence that the drug failed or that the company fabricated results. Source: Ekterly FDA review, PDF pp56–59 / printed pp36–39, with statistical detail in section15.
+
+ACUTE COMPARABILITY MATRIX
+
+Design and analysis population:
+RAPIDe-3 randomized 134, 113 treated 201 attacks, and primary paired efficacy used 88 participants with one attack under each treatment. The remaining treated population contains 25 single-attack participants. KONFIDENT randomized 136, 110 treated 264 attacks across three periods; the full analysis set included 93 attacks at 600mg and 84 placebo attacks. Its model incorporated sequence, period and repeated observations within patient. Comparing the PHVS paired subset with KONFIDENT's all-treated attack set is not fully aligned. First-period-only and all-treated PHVS estimates are important checks, not optional cosmetic additions.
+
+The 134-to-88 difference is not 46 toxicity withdrawals. Existing CTIS audit reconciles 35 planned study-closure cases and 11 other incomplete cases. Closure after enough paired participants was allowed. This weakens an attrition allegation, while leaving a selection question: did participants contributing both attacks differ in treatment response or attack phenotype from those contributing one? Answering requires outcomes by period, sequence and completion status.
+
+Attack selection and time zero:
+RAPIDe-3 generally required an attack-rating item of at least20 for nonlaryngeal attacks, investigator qualification before dosing, and treatment within six hours of onset. KONFIDENT permitted patient-recognized attacks across severity levels, except severe laryngeal attacks, and encouraged early self-treatment. Actual KONFIDENT median onset-to-dose was41minutes overall; about one quarter dosed within6minutes. In its 600mg arm 44.1% of attacks were mild at baseline. Actual corresponding RAPIDe-3 attack-level severity and onset-to-dose distributions were not recovered.
+
+We cannot infer actual PHVS severity from its eligibility threshold or assume delayed dosing automatically favors one drug. Early treatment may improve pharmacologic control but also includes symptoms that would otherwise resolve or be difficult to classify; later treatment may encounter a different natural trajectory. Conditioning on an attack already being established can change both active and placebo curves. The distinguishing observations are matched severity, location, onset-to-dose, and trajectory before dose—not speculation about intent.
+
+Endpoints and assessment schedule:
+Both primary endpoints use at least a little improvement on the patient global change scale at two consecutive assessments within12hours. PHVS additionally sampled at15minutes; both used half-hourly assessments through4hours and hourly thereafter through12hours. Sampling cadence can move recorded early event times. A harmonized analysis should use a common grid and compare fixed-time sustained response and restricted mean time without relief, not only unstable medians.
+
+KONFIDENT's primary definition did not require relief to persist after the two qualifying observations. Initial relief is therefore not equivalent to durable control, complete resolution or no need for another dose. FDA's severity-improvement median was9.14hours at600mg versus placebo not estimable; PHVS reported2.41hours versus placebo not estimable. These are interesting differences, but remain subject to the same alignment issues. Complete-resolution primary secondary windows differ:24hours in KONFIDENT versus48hours in RAPIDe-3. Do not compare them as identical endpoints.
+
+Rescue and repeat dosing:
+RAPIDe-3 protocol section13.5 counts rescue/prohibited medication at any time within12hours as primary failure, even if initial relief occurred earlier, censoring at13hours to accommodate the nominal12hour diary-entry window. KONFIDENT SAP defines rescue before the relief event as failure. Thus an attack that improves then requires rescue can be handled differently. This is a material difference in the clinical question estimated. The PHVS rule appears stricter for that sequence, but the net numerical impact cannot be calculated without attack-level records and final SAP.
+
+Second study doses were available from4hours for PHVS versus3hours for KONFIDENT. The earlier KONFIDENT option can itself change redosing frequencies. Both initial-response endpoints may incorporate responses after a second dose. A claim that96% of responding sebetralstat attacks achieved initial relief before a second dose is conditional on responding; it does not mean96% of all attacks avoided redosing. FDA notes patients could redose after achieving initial relief.
+
+As a descriptive check, conventional rescue by24hours occurred in6/88 PHVS active attacks (6.8%) versus32/88 placebo (36.4%); KONFIDENT600mg had10/93 (10.8%) versus27/84 (32.1%). These counts are useful corroboration, not adjusted evidence of a four-percentage-point drug advantage. Paired correlation and different populations must be preserved in inferential analyses.
+
+Missing assessments and denominators:
+FDA's correction is known for KONFIDENT. PHVS's final SAP and complete missing-data implementation were not recovered. CTIS fixed-time response percentages explicitly exclude some missing assessments; a displayed group size of88 is not necessarily the denominator for every percentage. Do not combine an observed-case PHVS response rate with a failure-imputed KONFIDENT rate and call the difference biological. Likewise, FDA exploratory tables can retain sponsor conventions; they must not be silently mixed with FDA-revised primary tables.
+
+Background prevention and subtype:
+RAPIDe-3 had31/134 randomized participants on long-term prophylaxis; KONFIDENT had24/110 treated participants on prophylaxis. The percentages look similar, but the populations differ. Breakthrough attacks may have different severity, treatment timing and response. Need analyses by prophylaxis class and within the actual efficacy set. KONFIDENT enrolled C1-inhibitor-deficient typeI/II; RAPIDe-3 also allowed normal-C1-inhibitor disease, with only4 randomized participants in that category. Neither small subgroup can support broad genetic-response claims.
+
+ACUTE INFERENCE
+
+The active-arm onset medians differ by0.71hours (42.6minutes) using FDA's600mg estimate. This is descriptive, not the causal benefit of switching. We cannot subtract two not-estimable placebo medians, divide them, or convert trial-specific Gehan rank scores to a portable treatment-effect scale. Within-trial p-values do not test the between-drug difference.
+
+The evidence supports meaningful IR activity and a possible differentiation hypothesis in speed, depth and durability. It does not establish a sufficiently controlled numerical superiority estimate for adoption modeling. The original placebo-based suspicion is substantially weakened by the regulatory record.
+
+PREVENTION: MORE COMPARABLE, STILL NOT IDENTICAL
+
+Both pivotal comparisons are24week randomized parallel trials with investigator-confirmed attacks normalized to28days. Use berotralstat150mg, the relevant dose, rather than mixing110mg data into efficacy comparison.
+
+                         CHAPTER-3 XR40mg             APeX-2 berotralstat150mg
+Active / placebo N       55 / 30                       40 / 40 randomized
+Baseline attacks/28d     3.76 / 3.47                   3.06 / 2.91
+Adjusted on-study rate   0.35 / 2.06                   1.31 / 2.35
+Reduction vs placebo     83% (95% CI72–90%)            44.2% (23.0–59.5%)
+Placebo-relative RR      0.17 (0.10–0.28)             0.558 (derived from44.2%)
+Evidence maturity        Sponsor topline + protocol   FDA-reviewed results + SAP
+
+These are within-trial estimates. CHAPTER-3 included5 normal-C1-inhibitor participants; APeX-2 enrolled typeI/II. PHVS reports87% reduction in its typeI/II subgroup, but this additional analysis was not multiplicity-adjusted and does not constitute a new independent trial.
+
+Protocol recovery changes one concern:
+The CHAPTER-3 CTIS protocol, Amendment1.5 dated19May2025, pp65–71, specifies a Poisson GLM WITH Pearson chi-square scaling of standard errors for overdispersion, adjustment for baseline attack rate and age group, and a follow-up-time offset. It also prespecifies a negative-binomial supplementary analysis, per-protocol and rank-based analyses, multiple-imputation sensitivity analysis and a tipping-point analysis. Therefore, a criticism that PHVS simply assumed homogeneous Poisson counts and ignored variability would be unsupported. The numerical sensitivity results remain needed.
+
+The primary CHAPTER-3 analysis includes randomized participants who took at least one dose. Treatment discontinuation without switching prophylaxis is handled by retaining outcomes; discontinuation accompanied by alternative prophylaxis uses an unfavorable post-switch attack-rate assumption. The public protocol does not provide the full operational value used. Binary response endpoints define a population treated for at least4weeks; verify actual denominators and early withdrawals in the final tables. The protocol's gatekeeping order is explicit, and no interim analysis was planned. Its May2025 amendment attributes expansion to normal-C1-inhibitor HAE to regulatory feedback; that statement is sponsor documentation, not independent confirmation of every regulator interaction.
+
+APeX-2 FDA analysis uses negative-binomial regression adjusted for baseline attack rate with time-on-treatment offset. The FDA examined missing-data and discontinuation sensitivity analyses and found the primary result robust. Approximately10–15% of reported attacks were not investigator-confirmed, but rejection rates were similar by arm and patient-reported-attack sensitivity results were consistent. Berotralstat did not pass the first QoL secondary gate (between-arm difference -4.9, p=.188); later nominal secondary results should not be described as confirmatory under that hierarchy.
+
+Attack definitions and enrollment selection need alignment:
+APeX-2 run-in qualifying attacks had to be separated by48hours after the preceding attack ended, include swelling symptoms, and be treated, require attention or cause functional limitation. Its postrandomization protocol language relies on investigator confirmation and swelling; do NOT automatically carry every screening restriction into the treatment endpoint. CHAPTER-3 defines a new attack after at least24symptom-free hours and excludes prodrome-only/preemptive-treatment events. This could alter counted attack clustering. Need reclassification of both studies under a common definition, not an assumed24-versus48hour treatment-period correction.
+
+Both selected patients with documented activity during run-in. CHAPTER-3's higher baseline rate may reflect selection, chance, region, previous treatment or definitions. Regression toward a lower subsequent rate can affect both placebo and active arms. Baseline covariate adjustment within a trial does not balance effect modifiers between trials. APeX-2 allowed a delay between qualifying run-in and first dose; its baseline denominator could therefore produce some monthly rates below the apparent entry threshold. This is documented timing, not necessarily an eligibility violation.
+
+QUANTITATIVE XR CHECK: CONDITIONAL, NOT VALIDATED SUPERIORITY
+
+The ratio of placebo-relative rate ratios is0.17/0.558 =0.305. Under exchangeable populations/effect modifiers, common outcome definitions and estimands, and valid reported estimates, this algebra would suggest approximately70% fewer attacks under XR than berotralstat. Those assumptions are not established. Using rounded reported intervals, approximate sampling-only95% uncertainty is0.166–0.559. This interval excludes cross-trial bias; it must not be presented alone as proof of superiority.
+
+A multiplicative shift of3.28 would move the point ratio to1. That is a sensitivity scale, not an estimate that a bias of this size is plausible or impossible. We cannot calibrate it from four arm averages. The sizable difference warrants a serious long-case investigation and should not be dismissed merely because both are oral. Conversely, it cannot be converted directly into a switch rate or revenue multiplier.
+
+SAFETY AND PRACTICAL BENEFIT
+
+This assignment is an efficacy-comparability audit, not a complete comparative safety assessment. Acute treatment-event windows and chronic exposure are incompatible denominators. PHVS IR has reported treatment-related events in5/100 treated attacks versus1/101 placebo; these do not establish an excess relative to another drug studied under different collection rules. Chronic GI tolerability, discontinuation, adherence, interactions, and sustained patient-perceived control should be compared separately before calling either product clinically preferable. Approval, statistical efficacy, clinically meaningful superiority, and commercially valuable differentiation are four different claims.
+
+REMAINING DATA REQUESTS, ORDERED BY INFORMATION VALUE
+
+1. RAPIDe-3 final dated SAP; numerical all-treated SEAS, first-period-only and treatment-policy results; missingness by arm/period; attack-level baseline severity/location, onset-to-dose and background-prophylaxis class. This resolves primary population and event-handling differences.
+2. CHAPTER-3 final SAP and full disposition; primary estimates under negative-binomial, imputation and tipping-point analyses; actual alternative-prophylaxis switches and their imputed rates; attack-free denominators including early withdrawal.
+3. For both acute trials, common-definition fixed-time sustained response, no conventional rescue and no second study dose, with paired covariance. Align the assessment grid and use a12hour restricted mean time-to-relief if event data become available.
+4. For prevention, common typeI/II population, standardized investigator-confirmation/attack-separation rules, comparable follow-up after discontinuation, and treatment-effect estimates stratified by baseline activity and prior prophylaxis. A patient-level anchored comparison is possible only with adequate overlap; it still cannot repair unmeasured modifiers.
+
+No paid-data collection, external interview or outreach was undertaken. The bounded public audit is complete; causal superiority is unresolved because the needed harmonized results or individual data have not been obtained. The recovered evidence can enter the model as trial-specific efficacy and an explicitly uncertain differentiation scenario. It should not yet enter as a validated comparative efficacy coefficient.
+
+SOURCE INDEX AND REPRODUCIBILITY
+
+All newly retrieved PDFs and extracted page-indexed text are under research/raw/cross_trial_audit/. Their retrieval manifest records URLs and checksums. Key tables were visually checked; page images are under research/cross_trial_qa/.
+
+S1 Ekterly FDA integrated review, NDA219301, especially printed pp36–39 (PDF56–59), additional-endpoint tables and section15:
+https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219301Orig1s000IntegratedR.pdf
+S2 KONFIDENT protocol and SAP, ClinicalTrials.gov NCT05259917; final SAP version2 dated1December2023:
+https://cdn.clinicaltrials.gov/large-docs/17/NCT05259917/Prot_000.pdf
+https://cdn.clinicaltrials.gov/large-docs/17/NCT05259917/SAP_001.pdf
+S3 KONFIDENT publication, NEJMoa2314192, baseline attack table and original outcome analysis:
+https://mediacenteratypon.nejmgroup-production.org/NEJMoa2314192.pdf
+S4 RAPIDe-3 CTIS protocol/results/lay summary; see existing research/raw/rapide3_ctis_source_manifest.json:
+https://euclinicaltrials.eu/ctis-public/view/2023-507268-37-00?lang=en
+S5 Orladeyo FDA multidisciplinary review NDA214094, primary Table28 printedp89/PDF90, disposition/sensitivity sections:
+https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/214094Orig1s000MultidisciplineR.pdf
+S6 APeX-2 protocol bundle and SAP. The posted protocol bundle includes amendments; its later upload is not proof every provision preceded the primary readout:
+https://cdn.clinicaltrials.gov/large-docs/11/NCT03485911/Prot_000.pdf
+https://cdn.clinicaltrials.gov/large-docs/11/NCT03485911/SAP_001.pdf
+S7 CHAPTER-3 protocol Amendment1.5,19May2025, pp65–71 and amendment summaryp81; public CTIS download named D1_Protocol_2024-516247-62_for_Publication. Some eligibility/sample-size values are redacted in public version:
+https://euclinicaltrials.eu/ctis-public/view/2024-516247-62-00?lang=en
+S8 CHAPTER-3 September8,2026 results presentation, slides5–10; figures also retained in existing raw source images:
+https://ir.pharvaris.com/node/12691/html
+S9 FDA ICH E10 control-group guidance and E9(R1) estimands guidance:
+https://www.fda.gov/media/71349/download
+https://www.fda.gov/regulatory-information/search-fda-guidance-documents/e9r1-statistical-principles-clinical-trials-addendum-estimands-and-sensitivity-analysis-clinical

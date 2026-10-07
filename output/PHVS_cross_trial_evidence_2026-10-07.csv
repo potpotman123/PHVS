@@ -1,0 +1,6 @@
+setting,trial,dose,endpoint,active_estimate,placebo_estimate,unit,analysis_population,source,comparability_status
+acute,RAPIDe-3,20mg IR,initial relief median,1.28,not estimable,hours; 12h window,88 paired patients,CTIS results,Not harmonized to KONFIDENT missingness/rescue/population
+acute,KONFIDENT,600mg,initial relief median FDA,1.99,not estimable,hours; 12h window,93 active attacks;84 placebo,FDA Table11 PDF56,FDA revised missingness
+acute,KONFIDENT,600mg,initial relief median publication,1.79,6.72,hours; 12h window,93 active attacks;84 placebo,NEJMoa2314192,Superseded by FDA analysis for regulatory comparison
+prevention,CHAPTER-3,40mg XR daily,adjusted attack rate,0.35,2.06,attacks/28days over24weeks,55 active;30 placebo,September8 2026 results slides,Protocol recovered; sensitivity results unavailable
+prevention,APeX-2,150mg daily,adjusted attack rate,1.31,2.35,attacks/28days over24weeks,40 active;40 placebo randomized,FDA Table28 PDF90,Negative-binomial analysis

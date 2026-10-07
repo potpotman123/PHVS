@@ -2,9 +2,11 @@
 
 Research archive and working investment debate, updated **7 October 2026**. The asset is **deucrictibant**; immediate-release on-demand treatment and extended-release prophylaxis must be modeled separately while recognizing shared molecule and regulatory risks.
 
-The working emphasis is commercial execution conditional on approval, with a rigorous long case alongside the prospective short. This repository does not contain a completed PHVS valuation or price target. Reference-company models are examples, not PHVS forecasts.
+The current priority is auditing comparative clinical efficacy before using differentiation in commercial modeling, with a rigorous long case alongside the prospective short. This repository does not contain a completed PHVS valuation or price target. Reference-company models are examples, not PHVS forecasts.
 
 ## Start here
+
+**Latest:** [IR/XR cross-trial clinical audit](output/PHVS_cross_trial_clinical_audit_2026-10-07.txt), including the FDA correction to Ekterly's placebo median and the newly recovered CHAPTER-3 protocol.
 
 1. [Current conclusions, corrections and unresolved questions](CURRENT_RESEARCH.md).
    The latest [patient-based IR/XR SOTP framework and analogue screen](output/PHVS_SOTP_patient_segmentation_framework_2026-10-07.txt) records the user's neutral long/short modeling direction, patient segments and evidence requirements.
