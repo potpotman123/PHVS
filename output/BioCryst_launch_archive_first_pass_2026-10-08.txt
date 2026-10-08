@@ -1,0 +1,80 @@
+BioCryst launch archive — bounded commercial extraction, 8 October 2026
+
+SOURCE / SCOPE
+User supplied Archive 2.zip:23 PDFs, September2020–December2022, consisting of
+calls and presentations. All files extracted locally and text-indexed; targeted
+commercial passages reviewed, not a full audit of every slide. PDF source filenames,
+page counts and SHA256 hashes in research/biocryst_archive_manifest_2026-10-08.json.
+Original PDFs and text retained locally under references/user_supplied/biocryst_launch_archive_2026-10-08
+and research/raw/biocryst_launch_archive_2026-10-08. This note and manifest are pushed;
+full licensed documents are not included in this commit.
+
+EVIDENCE (management disclosures, not independent validation)
+2020-11-05 earnings call, PDF p5/p10:
+- Planned30–50 US sales representatives; exact count withheld.
+- More than10 sources combined to build HAE practitioner database; profiling began
+  July2020. No off-the-shelf targeting solution according to management.
+- Field market-access relationships with reimbursement coordinators in top200 HAE
+  practices; dedicated care coordinator for each practice and its patients.
+- Payer research:16 qualitative respondents representing100m+ lives, followed by56
+  quantitative respondents representing200m+ lives. Do not add overlapping lives.
+  Reported willingness to cover at comparable injectable cost, not an oral premium.
+  This is stated preference, not executed contracts or net-price disclosure.
+- Half of surveyed highly satisfied injectable users reportedly wanted to switch;
+  denominator/sample methodology not fully supplied. Not observed switching.
+
+2022-02-23 earnings call, PDF p5:
+- More than half of2021 starts came from other prophylaxis, mostly injectables.
+- Overall year-end retention70%; nearly80% of evaluable Takhzyro switchers remained
+  at least6months. Overall figure lacks a uniform follow-up definition.
+- Claimed policies covering at least80% of US HAE population; coverage availability
+  is not paid share, unrestricted access or prescription approval probability.
+- Management explicitly explained Q1 reauthorization/free supply and cost-sharing
+  seasonality. Revenue can flatten despite continued patient growth.
+- Historical peak target:~2000US patients and up to$800mUS sales plus$200m ex-US.
+  Forward-looking target, not observed outcome or current TAM.
+
+2022-05-05 earnings call, PDF pp5–6:
+-50% of patients on Orladeyo in Q1 had switched from prophylaxis; half of those from
+ Takhzyro. Derived~25% of on-therapy population from Takhzyro, NOT25% of Takhzyro's
+ users switching. Stock measure; do not confuse with all historical starts.
+- After switching AND completion of prior authorization,6month continuation78%
+ for Takhzyro and73% for Haegarda switchers. Selected entrants, not all incumbents.
+-12month retention70% among patients reaching paid therapy vs60% on long-term free
+ product. Nonrandom groups; access causality and timing origin not established.
+- Nearly80% on paid drug vs~two-thirds H2 2021. Transcript says '[paged]' but adjoining
+ sentences explicitly discuss paid therapy. QuickStart inclusion not resolved here.
+- One-third of discontinuations after first shipment; half within first two.
+ Denominator is discontinuers, not all starts. Supports early attrition modeling.
+- New prescriptions split evenly between new/repeat prescribers and between top500
+ HAE treaters/broader base. These are distinct overlapping splits, not four cohorts.
+- Management described well-controlled injectable switchers as most likely to stay.
+ Observational selection; no proof that stable incumbents are most likely to try.
+
+2022-11-01 earnings call, PDF p5:
+- Q3paid patients+9%; prescriber base+11%; top500 accounted for54% of new prescriptions.
+ About25% of top500 prescribers active in Q3 were newly activated; NOT25% of all500.
+- Planned incremental sales hires for top500 and field-access hires to support less
+ experienced practices. No exact expansion headcount or territory map disclosed.
+
+INTERPRETATION / PHVS TRANSFER
+1. Historical launch success included targeted physician mapping and access support,
+   not merely first-oral demand. Benchmark PHVS's actual plans against these functions.
+2. High-volume practices and broader treaters both mattered. Model prescriber reach,
+   activation and additional patients per prescriber separately without double counting.
+3. Distinguish probability of trying from retention after trying. Stable injectable
+   patients may be hard to recruit but good persisters once they choose an oral.
+4. Paid conversion, temporary free supply, net revenue per paid patient and retention
+   require separate definitions and linked transitions. Do not multiply selected paid
+   retention by an unrelated paid-stock fraction and call it a measured funnel.
+5. Early versus mature discontinuation hazards should differ. Do not apply cumulative
+   six/twelve-month retention repeatedly each year.
+6. No national switching rate is identified: we lack the eligible incumbent denominator.
+   Orladeyo first-oral appeal does not identify PHVS improved-oral capture. No model
+   coefficients changed; these disclosures inform design and historical calibration.
+
+NEXT CHECKS
+Match PHVS hiring/issuer disclosures to targeting, access coordination and patient
+onboarding. Reconstruct Orladeyo quarterly metrics with consistent denominators;
+compare Ekterly with its rescue-specific refill economics. Verify ambiguous definitions
+against issuer releases/presentations before quantitative use. No new web pass made.

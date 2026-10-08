@@ -338,6 +338,22 @@
         "research/alphasense_commercial_experts_2026-10-08.json",
         "output/PHVS_commercial_expert_search_2026-10-08.txt"
       ]
+    },
+    {
+      "id": "G18",
+      "logged_on": "2026-10-08",
+      "event_date": "2026-10-08",
+      "record_type": "contemporaneous",
+      "objective": "Recover historical Orladeyo launch execution and cohort evidence.",
+      "user_contribution": "Supplied Archive 2.zip following commercial-source discussion.",
+      "ai_method_and_sources": "Inventoried23 PDFs, extracted searchable text locally, selectively read commercial pages in2020\u201322 earnings calls; retained hashes and page provenance.",
+      "snapshot": "30\u201350 planned US reps; top200 access relationships; roughly half of Q1 2022 new prescriptions outside top500. Selected post-authorization switchers had78%/73% six-month retention from Takhzyro/Haegarda.",
+      "thesis_effect": "Separates willingness to switch from conditional persistence; strong stable-switcher retention and operational support challenge a simple saturated-market short.",
+      "limitations_and_checks": "Management disclosures, not independent cohort verification. Paid stock versus conversion, conditional retention, discontinued-patient denominator and overlapping prescriber splits flagged. No full slide audit, numerical model change or additional agents.",
+      "artifacts": [
+        "research/biocryst_archive_manifest_2026-10-08.json",
+        "output/BioCryst_launch_archive_first_pass_2026-10-08.txt"
+      ]
     }
   ]
 }
