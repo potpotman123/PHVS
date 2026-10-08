@@ -371,6 +371,26 @@
         "models/patient_adoption/README.txt",
         "CURRENT_RESEARCH.md"
       ]
+    },
+    {
+      "id": "G20",
+      "logged_on": "2026-10-08",
+      "event_date": "2026-10-08",
+      "record_type": "contemporaneous",
+      "objective": "Assess PHVS commercial strategy and begin evidence-led adoption calibration.",
+      "user_contribution": "Specified seven operational questions, demanded historical HAE calibration and denominator discipline, and requested architecture/parameter deliverables.",
+      "prompt_excerpt": "A job posting demonstrates intended hiring, not a filled position.",
+      "ai_method_and_sources": "Reused claims and expert ledgers, selectively extended supplied BioCryst archive, ran six initial targeted queries and three lead follow-ups; retrieved management conference transcripts, issuer recruitment and comparator support documents. No new agents or paid collection.",
+      "snapshot": "Saved26-parameter ledger and13-row historical table. Planned field scale fits comparator range; management retention illustration is materially stronger than historical first-year checkpoints. Prior oral experience and opt-in lists become overlapping attributes, not additive TAM.",
+      "thesis_effect": "Disconfirms an unsupported undersized-salesforce short; shifts scrutiny toward conversion, retention and net economics. Symmetric treatment of credible shared infrastructure and unproven dual-product capture.",
+      "limitations_and_checks": "Third-party conference transcription not audio-verified; job roles cached with posting/fill dates unknown; claims cohorts selective and possibly overlapping. Source/units/unknown-state checks and revenue sums are arithmetic, not external validation. National forecast not fitted because material stocks/transitions/prices unresolved.",
+      "artifacts": [
+        "output/PHVS_commercial_calibration_2026-10-08.txt",
+        "research/PHVS_commercial_calibration_2026-10-08.json",
+        "models/patient_adoption/parameter_ledger.json",
+        "models/patient_adoption/flow.mmd",
+        "models/patient_adoption/calibration/check_results.json"
+      ]
     }
   ]
 }

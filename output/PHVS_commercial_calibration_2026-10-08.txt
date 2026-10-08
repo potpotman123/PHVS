@@ -1,0 +1,177 @@
+PHVS commercial preparation and adoption calibration
+8 October 2026 | US first | bounded evidence pass
+
+DECISION
+PHVS has a coherent launch design with direct HAE precedents. Public evidence does
+not support calling the planned field organization obviously inadequate. It also
+does not establish that PHVS can deliver the patient conversion and durable paid
+use required by valuation. Commercial plans are better evidenced than adoption rates.
+
+The sharper investment test is whether differentiated treatment can recruit and
+retain enough patients at an acceptable net price. A generic execution haircut or
+an assumption that satisfied incumbents never switch would discard relevant evidence.
+No new national peak-sales estimate or probability distribution is justified yet.
+
+WHAT CHANGED
+The evidence ledger now includes two September management conferences, issuer
+recruitment descriptions, additional BioCryst archive extraction and Ekterly support
+materials. The exact observations and source locations are saved in:
+research/PHVS_commercial_calibration_2026-10-08.json
+
+PHVS disclosure snapshot (P1/P2): roughly35 field staff; about70 commercial personnel
+for IR, increasing toward90 with XR; approximately2000 US physician targets. Intended
+territory continuity suggests shared infrastructure. Almost2000 information opt-ins
+were reported, with almost3000 targeted at launch. These are plans/contact counts.
+Management also used a hypothetical5% dropout example. None is a paid-adoption rate.
+
+READINESS SCORECARD
+1. Prescriber targeting — PARTLY SPECIFIED
+   The call universe is disclosed; exact specialty/volume tiers and regional account
+   lists are not. Historical BioCryst execution reached beyond major centers.
+   Evidence: P2; B2021-05-06; B2022-08-04. Model: reach/activation, not patient TAM.
+
+2. Concentration — HISTORICAL BENCHMARK, CURRENT MAP MISSING
+   BioCryst reported top500 physicians treating50% of HAE patients. In Q2 2022,
+   top120 represented30% of its opportunity and32% of new prescriptions; the next
+   approximately1400 represented40% of opportunity and48% of prescriptions. This
+   supports a core plus broader-practice strategy; it is not a current national
+   census. These groups overlap the top500 segmentation and cannot be summed.
+   Evidence: B2022-08-04 p5. Model: consider two reach strata, avoid tiny fitted cells.
+
+3. Field operation — PLAUSIBLE PLAN, DEPLOYMENT UNVERIFIED
+   Compare P01 with BioCryst's planned30–50 US reps. Similar scale is a feasibility
+   check, not productivity proof. P2 describes avoiding territory disruption between
+   launches. Exact account ownership, vacancies and operating territory maps remain
+   unknown. Medical liaison postings do not count as sales hires.
+
+4. Proposition — IDENTIFIABLE, CONVERSION UNMEASURED
+   P1/P2 distinguish control/tolerability aspirations for XR and reliable rapid oral
+   rescue for IR. Management targets former oral users and injectable users as well
+   as entrants; commercial positioning does not establish comparative superiority.
+   E0/E1 support both treatment interest and stable-patient reluctance. Long-interval
+   injection preferences can compete with daily pills. No preference-to-share fit.
+
+5. Prescription-to-paid treatment — FUNCTIONS BEING BUILT, PERFORMANCE UNKNOWN
+   P3/P6 specify account, distribution and patient-service responsibilities. The
+   national account role seeks payer/PBM relationships and authorization knowledge.
+   A removed posting cannot tell us whether the role was filled. No named PHVS
+   dispensing/hub partner, service-level contract, conversion cohort, bridge terms
+   or negotiated price was verified. Comparator K3 offers coordinator and access
+   services; program existence is not measured success. Model: delay, abandonment
+   and price jointly, never a second generic access haircut.
+
+6. Persistence — IMPORTANT UPSIDE CLAIM, NO COMMERCIAL VALIDATION
+   Historical Orladeyo benchmarks differ:61% at12months in a45-day-gap claims cohort;
+   70% among selected paid patients in the2022 company disclosure; selected switchers
+   had78%/73% at6months after authorization. These cannot be pooled as a statistical
+   interval or applied repeatedly each year. Half of disclosed discontinuations
+   occurred within two shipments, supporting distinct initiation/mature hazards.
+   Evidence: A04; B2022-05-05 pp5–6. PHVS's much stronger retention illustration is
+   a testable hypothesis, not a calibrated base case. No observed PHVS persistence.
+
+7. New patients — CHANNEL INTENT, INCREMENTAL DIAGNOSIS NOT MEASURED
+   Disease education and consented outreach may generate treatment discussions with
+   existing patients. They do not prove additional diagnoses. P03's150–250 annual
+   entrant estimate has no independently verified ascertainment method. Do not
+   import Japan's historical underdiagnosis opportunity into the US, or count AAE
+   expansion inside the existing HAE population. Model: diagnosis flow, eligibility
+   and capture are separate. Family-screening/referral yields remain unknown.
+
+HISTORICAL CALIBRATION TABLE
+Period      Net sales $m   Execution / adoption observation                 Source
+2020 prep   —             Database; top200 access contacts;30–50 reps       B2020-11-05
+2021 Q1     10.9 US        Broad top500 reach, minority prescribing          B2021-05-06
+2021 Q2     28.5 global    Coverage and overseas rollout                     B2021-08-05
+2021 Q3     37.0 global    Prescribers+25%; average paid supply within30d     B2021-11-03
+2021 Q4     46.2 global    Policies broaden; first-year retention claims     B2022-02-23
+2022 Q1     49.7 global    Half new Rx outside top500; early-dropout support B2022-05-05
+2022 Q2     65.2 global    Median paid shipment<3weeks;60% top500 activated  B2022-08-04
+2022 Q3     66.0 global    Paid patients+9%; field/access expansion planned  B2022-11-01
+2022 Q4     70.7 global    Paid/free conversion disappointed expectations    R0 / prior audit
+Ekterly     49.1 global    Jul–Dec2025 sales; Q4 refills>half of revenue      K2
+
+Orladeyo's2021/2022 quarterly values reconcile to122.6m/251.6m. US operational
+metrics are not automatically denominators for global revenue. Calls report
+contemporaneous actions and outcomes; no causal attribution is estimated.
+The JSON table adds2023/2025 stock checkpoints and Ekterly's dated forms/prescribers.
+Ekterly's holiday pull-forward caveat prevents assuming every refill represents
+immediate consumption. Its forms and annual revenue have mismatched dates/geography.
+Recovered injectable histories validate mature revenue scale, not a switching matrix.
+Use I0 for that separate comparison; do not infer patient counts from worldwide sales.
+
+CALIBRATION DECISIONS
+- Use a composite prescription-attempt rate per coarse source cohort for now.
+  Keep physician reach as an execution diagnostic until independent component rates
+  can be estimated. Multiplying multiple unsupported rates adds false precision.
+- Add prior oral-treatment experience to every current regimen. A former Orladeyo
+  user now taking an injectable belongs in that injectable stock, not an extra pool.
+- Keep opt-in status as a marketing flag, never an additional disease population.
+- Add explicit pending, bridge/free, paid and discontinued states. Reauthorization
+  can temporarily move paid patients to free supply without ending treatment.
+- Separate initial rescue stock from refills; choose inventory accounting OR an
+  empirical composite dispensing rate. Claims doses averaged across all LTP users
+  already incorporate people with zero claims, so do not multiply by rescue-claim
+  prevalence again. Successful prevention lowers demand; oral rescue can increase
+  the fraction treated or reduce redosing. Model those mechanisms together.
+- Keep subtype/age/label eligibility explicit. Neither a corporate population
+  estimate nor a small subgroup efficacy signal establishes the reimbursable pool.
+- Shared sales infrastructure can reduce incremental costs; it does not prove
+  same-patient dual-product use. IR adoption can affect subsequent XR consideration.
+  Paid IR volume can then decline as prevention improves. Couple these transitions.
+
+WHAT CAN ENTER NOW
+Historical revenue and dated prescriber/access/persistence checkpoints can enter
+analogue calibration and reconciliation. PHVS operational targets can enter the
+readiness scorecard. The source-tagged26-parameter ledger preserves all unknowns.
+Neither the management retention illustration nor its diagnosis estimate is observed
+PHVS uptake. No probability distribution or empirically fitted base case is assigned.
+
+Arithmetic diagnostics: in identical hypothetical100-start cohorts, applying95%
+instead of61% retention leaves34 more patients at12months, a56% stock difference.
+Versus70%, the difference is25 patients or36%. These are assumption sensitivities,
+not head-to-head outcomes or annual revenue uplifts. They explain why retention
+deserves as much scrutiny as initial switching. The check file also shows a gross
+five-year ceiling of750–1250 entrants under management's flow estimate, assuming
+100% eligibility/capture and zero exits. That hypothetical flow cannot alone be
+treated as the whole launch opportunity; existing-patient recruitment still matters.
+
+PRIORITY UNKNOWNS / CONCRETE RESOLUTION
+1. Current eligible treatment stocks and history: need deduplicated US age/subtype,
+   current regimen, prior oral exposure and confirmed diagnosis date. Manufacturer
+   stocks plus a consistent claims panel can help; current public sources do not
+   reconcile a national partition. Do not silently use9000 as a validated denominator.
+2. Attempted and successful switches: need considered/submitted/denied/approved,
+   first-supply dates and free/paid status by prior regimen. Hub plus pharmacy records
+   can answer; claims alone miss free supply and unsubmitted prescriptions.
+3. Persistence: need inception cohorts, gaps, restarts, competing destinations and
+   reasons, plus at-risk counts. Longer follow-up must identify mature survival.
+4. IR economics: need pack size, price concessions, first and repeat shipments,
+   prophylaxis background and observation time. Diaries can distinguish inventory
+   from consumption; dispensing alone cannot establish attacks treated.
+5. Execution milestone verification: target/territory deployment, filled field and
+   access roles, partner/service agreements, payer terms and onboarding readiness.
+   Company primary disclosures can advance this without proprietary patient records.
+
+These missing inputs have higher information value than more unweighted doctor
+opinions. Linked commercial records would require a separately scoped access/paid
+data decision. No such collection was initiated. The next quantitative use is a
+conditional threshold/sensitivity build with explicit user-selected assumptions,
+not an allegedly data-calibrated national forecast.
+
+VALUATION CONNECTION
+Retain the dated reverse-DCF hurdle as conditional worldwide success-case revenue.
+Before converting it into US share, specify ex-US economics and realized net prices.
+XR required paid patient-years = US XR revenue / annual net price per paid patient.
+IR required paid packs = US IR revenue / net pack price; required users additionally
+depend on refill intensity. No current price refresh or reverse-DCF change was made.
+An end-year patient count is not patient-years, and a single broker ramp is not Street.
+
+PROVENANCE / STOPPING RULE
+Six initial targeted queries across issuer strategy, recruitment and comparator
+operations; three narrow follow-ups on concrete staffing/patient-service leads.
+Existing claims, expert and historical revenue work was reused. Some issuer pages
+failed; indexed role descriptions are explicitly labeled. Conference transcripts
+are third-party renderings of management speech, not independent commercial evidence;
+audio not checked. Same management claims repeated across events are not independent.
+No new agents, paid research, bulk scraping or national model fitting. JSON references,
+historical source-page citations and numerical checks are saved beside the architecture.

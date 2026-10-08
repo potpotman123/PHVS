@@ -1,0 +1,712 @@
+{
+  "as_of": "2026-10-08",
+  "status": "calibration-ready specification; not national forecast",
+  "source_resolver": {
+    "new": "research/PHVS_commercial_calibration_2026-10-08.json",
+    "Axx": "research/PHVS_adoption_evidence_2026-10-07.json observations",
+    "Exx": "existing AlphaSense ledgers"
+  },
+  "parameters": [
+    {
+      "id": "N1",
+      "name": "Current diagnosed eligible stock",
+      "unit": "patients",
+      "value": null,
+      "status": "unknown",
+      "source_refs": [
+        "A22",
+        "A23"
+      ],
+      "population": "Age/subtype/label-aligned HAE",
+      "geography": "US unless source explicitly says global",
+      "period": "Launch-date snapshot",
+      "numerator": null,
+      "denominator": "Unique diagnosed patients",
+      "transformation": "None",
+      "PHVS_transferability": "2020 treated projection6595/8694 and2026 issuer~9000 are different definitions, not a confidence interval.",
+      "defensible_range": null,
+      "dependencies": [
+        "age",
+        "label",
+        "data capture"
+      ],
+      "double_counting_risk": "Do not add diagnosed to treated; untreated remains a subset.",
+      "numerical_use": "not_ready",
+      "definition": "Current diagnosed eligible stock for Age/subtype/label-aligned HAE over Launch-date snapshot"
+    },
+    {
+      "id": "N2",
+      "name": "Current treatment partition",
+      "unit": "patients",
+      "value": null,
+      "status": "unknown",
+      "source_refs": [
+        "A01"
+      ],
+      "population": "All eligible patients by exclusive prevention state",
+      "geography": "US unless source explicitly says global",
+      "period": "Launch date",
+      "numerator": null,
+      "denominator": "N1",
+      "transformation": "None",
+      "PHVS_transferability": "Orladeyo>1600 YE2025 is only a dated lower bound.",
+      "defensible_range": null,
+      "dependencies": [
+        "N1",
+        "competition"
+      ],
+      "double_counting_risk": "Do not use claims study index-drug mix as market share.",
+      "numerical_use": "not_ready",
+      "definition": "Current treatment partition for All eligible patients by exclusive prevention state over Launch date"
+    },
+    {
+      "id": "N3",
+      "name": "New diagnosis flow",
+      "unit": "patients/year",
+      "value": [
+        150,
+        250
+      ],
+      "status": "management_estimate",
+      "source_refs": [
+        "P03"
+      ],
+      "population": "New HAE entrants as described by management",
+      "geography": "US unless source explicitly says global",
+      "period": "Annual, undated definition",
+      "numerator": null,
+      "denominator": "Not supplied",
+      "transformation": "None",
+      "PHVS_transferability": "Hypothesis range only; definition and capture must be verified.",
+      "defensible_range": [
+        150,
+        250
+      ],
+      "dependencies": [
+        "N1",
+        "referral",
+        "diagnostic delay"
+      ],
+      "double_counting_risk": "Do not count first prescription as new diagnosis.",
+      "numerical_use": "scenario_only",
+      "definition": "New diagnosis flow for New HAE entrants as described by management over Annual, undated definition"
+    },
+    {
+      "id": "N4",
+      "name": "Prior Orladeyo exposure history",
+      "unit": "patients",
+      "value": 1900,
+      "status": "management_estimate",
+      "source_refs": [
+        "P04"
+      ],
+      "population": "Prior users within existing treatment states",
+      "geography": "US unless source explicitly says global",
+      "period": "September2026 comment",
+      "numerator": null,
+      "denominator": "Not supplied",
+      "transformation": "Reported upper estimate",
+      "PHVS_transferability": "Not independently established.",
+      "defensible_range": {
+        "operator": "up_to",
+        "value": 1900
+      },
+      "dependencies": [
+        "N2"
+      ],
+      "double_counting_risk": "History flag, not an additive patient pool.",
+      "numerical_use": "scenario_only",
+      "definition": "Prior Orladeyo exposure history for Prior users within existing treatment states over September2026 comment"
+    },
+    {
+      "id": "R1",
+      "name": "Target clinicians",
+      "unit": "clinicians",
+      "value": 2000,
+      "status": "plan",
+      "source_refs": [
+        "P06"
+      ],
+      "population": "PHVS US commercial call universe",
+      "geography": "US unless source explicitly says global",
+      "period": "Planned launch",
+      "numerator": null,
+      "denominator": "Not supplied",
+      "transformation": "Approximate",
+      "PHVS_transferability": "Planning anchor; observed reach missing.",
+      "defensible_range": null,
+      "dependencies": [
+        "R2",
+        "territories"
+      ],
+      "double_counting_risk": "Not extra multiplier if composite initiation is used.",
+      "numerical_use": "operational_plan",
+      "definition": "Target clinicians for PHVS US commercial call universe over Planned launch"
+    },
+    {
+      "id": "R2",
+      "name": "Field staffing",
+      "unit": "people",
+      "value": 35,
+      "status": "plan",
+      "source_refs": [
+        "P01"
+      ],
+      "population": "PHVS field organization",
+      "geography": "US unless source explicitly says global",
+      "period": "Planned launch",
+      "numerator": null,
+      "denominator": "Not supplied",
+      "transformation": "Approximate",
+      "PHVS_transferability": "Comparable scale to BioCryst30\u201350; deployment unknown.",
+      "defensible_range": null,
+      "dependencies": [
+        "hiring",
+        "territories"
+      ],
+      "double_counting_risk": "Do not count MSLs as sales reps.",
+      "numerical_use": "operational_plan",
+      "definition": "Field staffing for PHVS field organization over Planned launch"
+    },
+    {
+      "id": "R3",
+      "name": "Information opt-ins",
+      "unit": "contacts",
+      "value": 2000,
+      "status": "management_report",
+      "source_refs": [
+        "P02"
+      ],
+      "population": "Consented information recipients",
+      "geography": "US unless source explicitly says global",
+      "period": "Sep2026",
+      "numerator": null,
+      "denominator": "Deduplication/eligibility not disclosed",
+      "transformation": "Almost2000; targetalmost3000",
+      "PHVS_transferability": "May affect reach, not established prescription probability.",
+      "defensible_range": null,
+      "dependencies": [
+        "N2",
+        "contact quality"
+      ],
+      "double_counting_risk": "Overlay existing patients; no extra TAM.",
+      "numerical_use": "operational_plan",
+      "definition": "Information opt-ins for Consented information recipients over Sep2026"
+    },
+    {
+      "id": "R4",
+      "name": "Historical top500 concentration",
+      "unit": "fraction",
+      "value": 0.5,
+      "status": "observed",
+      "source_refs": [
+        "B2022-08-04"
+      ],
+      "population": "BioCryst-estimated HAE patient universe",
+      "geography": "US unless source explicitly says global",
+      "period": "2022 Q2",
+      "numerator": "Patients treated by top500",
+      "denominator": "Company total HAE patients",
+      "transformation": "As reported",
+      "PHVS_transferability": "Coarse core/long-tail hypothesis only; market has evolved.",
+      "defensible_range": null,
+      "dependencies": [
+        "practice attribution"
+      ],
+      "double_counting_risk": "Patient concentration is not share of new prescriptions.",
+      "numerical_use": "benchmark_only",
+      "definition": "Historical top500 concentration for BioCryst-estimated HAE patient universe over 2022 Q2"
+    },
+    {
+      "id": "R5",
+      "name": "Reach/review/prescription",
+      "unit": "monthly probability",
+      "value": null,
+      "status": "unknown",
+      "source_refs": [
+        "E0",
+        "E1"
+      ],
+      "population": "Each eligible source cohort",
+      "geography": "US unless source explicitly says global",
+      "period": "Each month",
+      "numerator": null,
+      "denominator": "Eligible remaining patients",
+      "transformation": "Choose composite rate OR conditional decomposition",
+      "PHVS_transferability": "Expert preferences cannot identify it.",
+      "defensible_range": null,
+      "dependencies": [
+        "R1",
+        "N2",
+        "competition"
+      ],
+      "double_counting_risk": "Never multiply composite attempt by its reach components.",
+      "numerical_use": "not_ready",
+      "definition": "Reach/review/prescription for Each eligible source cohort over Each month"
+    },
+    {
+      "id": "X1",
+      "name": "Prescription-to-start conversion",
+      "unit": "probability",
+      "value": null,
+      "status": "unknown",
+      "source_refs": [
+        "P09",
+        "K03"
+      ],
+      "population": "Submitted PHVS prescriptions",
+      "geography": "US unless source explicitly says global",
+      "period": "Cohort follow-up",
+      "numerator": null,
+      "denominator": "Submitted prescriptions",
+      "transformation": "Track pending/free/direct-paid starts",
+      "PHVS_transferability": "Support functions reported, actual transitions unknown.",
+      "defensible_range": null,
+      "dependencies": [
+        "payer",
+        "support",
+        "price"
+      ],
+      "double_counting_risk": "Stock paid share is not conversion.",
+      "numerical_use": "not_ready",
+      "definition": "Prescription-to-start conversion for Submitted PHVS prescriptions over Cohort follow-up"
+    },
+    {
+      "id": "X2",
+      "name": "Time to first paid supply",
+      "unit": "days",
+      "value": {
+        "2021_Q3_average": "within30",
+        "2022_Q2_median": "under21"
+      },
+      "status": "observed",
+      "source_refs": [
+        "B2021-11-03",
+        "B2022-08-04"
+      ],
+      "population": "Orladeyo new prescriptions",
+      "geography": "US unless source explicitly says global",
+      "period": "Historical launch",
+      "numerator": null,
+      "denominator": "Successful/censored treatment of pending cases undisclosed",
+      "transformation": "Keep mean and median separate",
+      "PHVS_transferability": "Process targets only; no delay distribution identified.",
+      "defensible_range": null,
+      "dependencies": [
+        "X1",
+        "payer",
+        "bridge"
+      ],
+      "double_counting_risk": "Do not also reduce starts for same delay.",
+      "numerical_use": "benchmark_only",
+      "definition": "Time to first paid supply for Orladeyo new prescriptions over Historical launch"
+    },
+    {
+      "id": "X3",
+      "name": "Free-to-paid conversion",
+      "unit": "probability by lag",
+      "value": null,
+      "status": "unknown",
+      "source_refs": [
+        "A03",
+        "B2022-05-05"
+      ],
+      "population": "PHVS free/bridge starters",
+      "geography": "US unless source explicitly says global",
+      "period": "Months since start",
+      "numerator": null,
+      "denominator": "Free starters at risk",
+      "transformation": "Track transitions separately",
+      "PHVS_transferability": "Free stock fractions do not identify transition rate.",
+      "defensible_range": null,
+      "dependencies": [
+        "price",
+        "payer",
+        "X1"
+      ],
+      "double_counting_risk": "Conversion not a new patient.",
+      "numerical_use": "not_ready",
+      "definition": "Free-to-paid conversion for PHVS free/bridge starters over Months since start"
+    },
+    {
+      "id": "X4",
+      "name": "Historical mature paid share",
+      "unit": "fraction",
+      "value": 0.81,
+      "status": "observed",
+      "source_refs": [
+        "A03"
+      ],
+      "population": "Orladeyo on therapy excluding QuickStart",
+      "geography": "US unless source explicitly says global",
+      "period": "YE2025",
+      "numerator": null,
+      "denominator": "Excludes QuickStart",
+      "transformation": "Source stock fraction",
+      "PHVS_transferability": "Output validation only.",
+      "defensible_range": null,
+      "dependencies": [
+        "retention",
+        "X3"
+      ],
+      "double_counting_risk": "Cannot multiply active count including QuickStart.",
+      "numerical_use": "benchmark_only",
+      "definition": "Historical mature paid share for Orladeyo on therapy excluding QuickStart over YE2025"
+    },
+    {
+      "id": "T1",
+      "name": "First-year claims persistence",
+      "unit": "fraction",
+      "value": {
+        "oral": 0.61,
+        "lanadelumab": 0.58,
+        "SC_C1INH": 0.53
+      },
+      "status": "observed",
+      "source_refs": [
+        "A04"
+      ],
+      "population": "357 initiators;90/189/78 respectively",
+      "geography": "US unless source explicitly says global",
+      "period": "12months after initiation",
+      "numerator": null,
+      "denominator": "Product-specific initiators",
+      "transformation": "45day gap definition",
+      "PHVS_transferability": "Separate historical checkpoints, not causal ranking or PHVS prediction.",
+      "defensible_range": null,
+      "dependencies": [
+        "gap definition",
+        "patient selection"
+      ],
+      "double_counting_risk": "Do not impose PDC as identical attrition.",
+      "numerical_use": "benchmark_only",
+      "definition": "First-year claims persistence for 357 initiators;90/189/78 respectively over 12months after initiation"
+    },
+    {
+      "id": "T2",
+      "name": "Selected switcher persistence",
+      "unit": "fraction",
+      "value": {
+        "Takhzyro": 0.78,
+        "Haegarda": 0.73
+      },
+      "status": "observed",
+      "source_refs": [
+        "B2022-05-05"
+      ],
+      "population": "Orladeyo switchers after PA completion",
+      "geography": "US unless source explicitly says global",
+      "period": "6months",
+      "numerator": null,
+      "denominator": "Post-authorization switchers with evaluable history",
+      "transformation": "As reported",
+      "PHVS_transferability": "Conditional process benchmark.",
+      "defensible_range": null,
+      "dependencies": [
+        "X1",
+        "selection"
+      ],
+      "double_counting_risk": "Not all incumbent patients, not switching probability.",
+      "numerical_use": "benchmark_only",
+      "definition": "Selected switcher persistence for Orladeyo switchers after PA completion over 6months"
+    },
+    {
+      "id": "T3",
+      "name": "Paid/free first-year persistence",
+      "unit": "fraction",
+      "value": {
+        "paid": 0.7,
+        "long_term_free": 0.6
+      },
+      "status": "observed",
+      "source_refs": [
+        "B2022-05-05"
+      ],
+      "population": "Orladeyo patients reaching paid versus long-term free",
+      "geography": "US unless source explicitly says global",
+      "period": "At least12months",
+      "numerator": null,
+      "denominator": "Separate selected groups",
+      "transformation": "As reported",
+      "PHVS_transferability": "Conditional benchmarks; no causal access effect.",
+      "defensible_range": null,
+      "dependencies": [
+        "X3",
+        "selection"
+      ],
+      "double_counting_risk": "Do not pool into one calibrated range.",
+      "numerical_use": "benchmark_only",
+      "definition": "Paid/free first-year persistence for Orladeyo patients reaching paid versus long-term free over At least12months"
+    },
+    {
+      "id": "T4",
+      "name": "PHVS dropout illustration",
+      "unit": "fraction",
+      "value": 0.05,
+      "status": "assumed",
+      "source_refs": [
+        "P07"
+      ],
+      "population": "Hypothetical PHVS initiators",
+      "geography": "US unless source explicitly says global",
+      "period": "Annual interpretation only for sensitivity",
+      "numerator": null,
+      "denominator": "Hypothetical initiators",
+      "transformation": "1-dropout=0.95 retention",
+      "PHVS_transferability": "Management illustration, not observed or formal guidance.",
+      "defensible_range": null,
+      "dependencies": [
+        "efficacy",
+        "tolerability",
+        "access"
+      ],
+      "double_counting_risk": "Do not perpetuate95% from year1 without a mature hazard.",
+      "numerical_use": "scenario_only",
+      "definition": "PHVS dropout illustration for Hypothetical PHVS initiators over Annual interpretation only for sensitivity"
+    },
+    {
+      "id": "T5",
+      "name": "Early timing of discontinuation",
+      "unit": "fraction",
+      "value": 0.5,
+      "status": "observed",
+      "source_refs": [
+        "B2022-05-05"
+      ],
+      "population": "Orladeyo discontinuers",
+      "geography": "US unless source explicitly says global",
+      "period": "By first2 shipments",
+      "numerator": null,
+      "denominator": "All discontinuations to date",
+      "transformation": "As reported",
+      "PHVS_transferability": "Supports front-loaded hazards, does not identify their absolute level.",
+      "defensible_range": null,
+      "dependencies": [
+        "T1",
+        "cohort maturity"
+      ],
+      "double_counting_risk": "Not50% of all starts.",
+      "numerical_use": "benchmark_only",
+      "definition": "Early timing of discontinuation for Orladeyo discontinuers over By first2 shipments"
+    },
+    {
+      "id": "T6",
+      "name": "Mature continuation hazard",
+      "unit": "monthly probability",
+      "value": null,
+      "status": "unknown",
+      "source_refs": [],
+      "population": "Survivors beyond first year",
+      "geography": "US unless source explicitly says global",
+      "period": "Cohort months13+",
+      "numerator": null,
+      "denominator": "Patients still treated",
+      "transformation": "None",
+      "PHVS_transferability": "Long-term survival not determined by first-year checkpoint.",
+      "defensible_range": null,
+      "dependencies": [
+        "T1",
+        "competition"
+      ],
+      "double_counting_risk": "Do not reuse first-year retention annually.",
+      "numerical_use": "not_ready",
+      "definition": "Mature continuation hazard for Survivors beyond first year over Cohort months13+"
+    },
+    {
+      "id": "I1",
+      "name": "Rescue dispensing on prophylaxis",
+      "unit": "doses/patient-year",
+      "value": {
+        "all_LTP": 11.8,
+        "minimal_gap_LTP": 8.0
+      },
+      "status": "observed",
+      "source_refs": [
+        "A08",
+        "A09"
+      ],
+      "population": "328 LTP initiators;147 minimal-gap subgroup",
+      "geography": "US unless source explicitly says global",
+      "period": "Post-index12months",
+      "numerator": null,
+      "denominator": "All group patients, not just rescue claimants",
+      "transformation": "Claims doses",
+      "PHVS_transferability": "Dispensing check only; not PHVS pack/attack estimate.",
+      "defensible_range": null,
+      "dependencies": [
+        "LTP",
+        "dose equivalence",
+        "inventory"
+      ],
+      "double_counting_risk": "Do not multiply by67.1% rescue-claim share again.",
+      "numerical_use": "benchmark_only",
+      "definition": "Rescue dispensing on prophylaxis for 328 LTP initiators;147 minimal-gap subgroup over Post-index12months"
+    },
+    {
+      "id": "I2",
+      "name": "Rescue product adoption",
+      "unit": "probability",
+      "value": null,
+      "status": "unknown",
+      "source_refs": [
+        "K02"
+      ],
+      "population": "Eligible patients by prevention/rescue state",
+      "geography": "US unless source explicitly says global",
+      "period": "Each month",
+      "numerator": null,
+      "denominator": "Unique at-risk patients",
+      "transformation": "None",
+      "PHVS_transferability": "Forms benchmark attention, not paid starts.",
+      "defensible_range": null,
+      "dependencies": [
+        "R5",
+        "X1",
+        "prior rescue"
+      ],
+      "double_counting_risk": "No automatic IR/XR shared capture.",
+      "numerical_use": "not_ready",
+      "definition": "Rescue product adoption for Eligible patients by prevention/rescue state over Each month"
+    },
+    {
+      "id": "I3",
+      "name": "Initial stock and refill intensity",
+      "unit": "packs",
+      "value": null,
+      "status": "unknown",
+      "source_refs": [
+        "K02",
+        "K4"
+      ],
+      "population": "PHVS IR supplied users",
+      "geography": "US unless source explicitly says global",
+      "period": "Since first supply",
+      "numerator": null,
+      "denominator": "Users / patient-time",
+      "transformation": "Inventory or empirical composite packs-per-user model",
+      "PHVS_transferability": "Refill revenue share proves recurring shipments, not intensity.",
+      "defensible_range": null,
+      "dependencies": [
+        "attacks",
+        "early treatment",
+        "dose",
+        "price"
+      ],
+      "double_counting_risk": "Do not add modeled attacks to already observed composite refills.",
+      "numerical_use": "not_ready",
+      "definition": "Initial stock and refill intensity for PHVS IR supplied users over Since first supply"
+    },
+    {
+      "id": "I4",
+      "name": "PHVS IR and XR overlap",
+      "unit": "fraction",
+      "value": null,
+      "status": "unknown",
+      "source_refs": [
+        "E0",
+        "P08"
+      ],
+      "population": "XR users choosing rescue",
+      "geography": "US unless source explicitly says global",
+      "period": "Each period",
+      "numerator": null,
+      "denominator": "XR users needing/holding rescue",
+      "transformation": "Conditional cross-use matrix",
+      "PHVS_transferability": "Commercial synergy not same as dual paid usage.",
+      "defensible_range": null,
+      "dependencies": [
+        "label",
+        "preference",
+        "attacks"
+      ],
+      "double_counting_risk": "Never add IR+XR as unique patients.",
+      "numerical_use": "not_ready",
+      "definition": "PHVS IR and XR overlap for XR users choosing rescue over Each period"
+    },
+    {
+      "id": "V1",
+      "name": "XR net price",
+      "unit": "USD/paid patient-month",
+      "value": null,
+      "status": "unknown",
+      "source_refs": [
+        "P08"
+      ],
+      "population": "Paid PHVS XR exposure",
+      "geography": "US unless source explicitly says global",
+      "period": "Each year",
+      "numerator": null,
+      "denominator": "Paid patient-months",
+      "transformation": "After rebates, consistent with free supply handling",
+      "PHVS_transferability": "Portfolio pricing under review, no net price disclosed.",
+      "defensible_range": null,
+      "dependencies": [
+        "payer",
+        "X3"
+      ],
+      "double_counting_risk": "Do not apply free product twice.",
+      "numerical_use": "not_ready",
+      "definition": "XR net price for Paid PHVS XR exposure over Each year"
+    },
+    {
+      "id": "V2",
+      "name": "IR net price",
+      "unit": "USD/paid pack",
+      "value": null,
+      "status": "unknown",
+      "source_refs": [
+        "P05",
+        "P08"
+      ],
+      "population": "Paid PHVS IR packs",
+      "geography": "US unless source explicitly says global",
+      "period": "Each year",
+      "numerator": null,
+      "denominator": "Paid packs",
+      "transformation": "Net pack revenue",
+      "PHVS_transferability": "No observed PHVS realized price.",
+      "defensible_range": null,
+      "dependencies": [
+        "payer",
+        "pack size",
+        "dose"
+      ],
+      "double_counting_risk": "WAC is not manufacturer net revenue.",
+      "numerical_use": "not_ready",
+      "definition": "IR net price for Paid PHVS IR packs over Each year"
+    },
+    {
+      "id": "V3",
+      "name": "US versus ex-US economics",
+      "unit": "fraction/territorial terms",
+      "value": null,
+      "status": "unknown",
+      "source_refs": [
+        "P1"
+      ],
+      "population": "Success-case product revenue",
+      "geography": "US unless source explicitly says global",
+      "period": "DCF forecast",
+      "numerator": null,
+      "denominator": "Worldwide product revenue",
+      "transformation": "Separate regions",
+      "PHVS_transferability": "Required before translating worldwide reverse-DCF into US patient share.",
+      "defensible_range": null,
+      "dependencies": [
+        "rights",
+        "price",
+        "launch"
+      ],
+      "double_counting_risk": "Do not divide worldwide revenue by US TAM.",
+      "numerical_use": "not_ready",
+      "definition": "US versus ex-US economics for Success-case product revenue over DCF forecast"
+    }
+  ],
+  "decisions": {
+    "initiation": "Use one composite monthly prescription hazard per coarse source group until reach, discussion and choice are separately observed. Keep operational reach scorecard diagnostic.",
+    "history": "Prior oral exposure and opt-in consent are overlapping flags on current treatment states.",
+    "retention": "Separate early, year1 and mature hazards; do not fit one exponential to a single checkpoint.",
+    "pricing": "Link access and realized net price; reflect IR-to-XR recruitment economics without assuming bundling discounts.",
+    "forecast_gate": "Missing current treatment partition, PHVS capture, paid conversion, mature survival, net prices and geography preclude a defensible central TAM/peak estimate."
+  }
+}

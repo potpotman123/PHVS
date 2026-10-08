@@ -66,3 +66,16 @@ outputs, disagreements and resolution rather than reporting only agreement.
 Maintain source dates and label retrospective versus contemporaneous records.
 Refresh model snapshots and thesis wording before building the deck; current numbers
 are dated scenarios, not live-market claims. Keep licensed source excerpts minimal.
+
+EXAMPLE4 — OPERATIONAL CLAIMS TO MODEL PARAMETERS (G20)
+Objective: Test commercialization using historical HAE operations.
+GenAI Method & Data Source: User specified operational questions and insisted on
+historical comparators. AI linked supplied BioCryst calls with PHVS management
+disclosures, recruitment and existing claims evidence.
+Snapshot of GenAI Output:26 source-tagged parameters; field-scale concern weakened;
+retention emerged as a more consequential unproven assumption.
+Interpretation & Relevance to Thesis: Converts narrative concerns into specific
+reach, conversion and persistence tests; preserves disconfirming evidence.
+Limitations & Bias Mitigation: Plans distinguished from implementation; expert
+opinions from measured rates; overlapping history/marketing groups not added to TAM.
+No national forecast or independent commercial validation claimed.

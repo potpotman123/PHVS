@@ -1,0 +1,26 @@
+flowchart TD
+    U[Undiagnosed reservoir] -->|Diagnosis flow; not direct sales| D[Diagnosed US population]
+    E[Existing diagnosed patients] --> D
+    D --> S[Mutually exclusive prevention states:<br/>Orladeyo; injectables; other; no prevention; PHVS XR]
+    S -.-> H[Attributes: prior oral experience; control;<br/>treatment burden; age and label eligibility]
+    S --> R[Reach and clinical review]
+    O[Consented information opt-ins<br/>Overlap existing states] -.-> R
+    R --> C[Consideration and prescription]
+    C --> A[Access pending]
+    A --> F[Free or bridge supply]
+    A --> P[Paid XR treatment]
+    A --> X[Abandoned, denied or deferred]
+    F --> P
+    F --> X
+    P --> V[Paid patient-months times net monthly price]
+    P --> Q[Age-dependent retention or exit]
+    Q -->|Continue| P
+    Q -->|Switch or stop| S
+    X -->|Later reattempt if supported| S
+    S --> B[Residual attack burden and current rescue regimen]
+    B --> I[PHVS IR prescription and access]
+    I --> T[Initial rescue stock<br/>Paid and free supply tracked separately]
+    T --> N[Use and replenishment;<br/>separate expiry if supported]
+    N --> T
+    T --> Z[Paid packs shipped times net pack price]
+    N --> Z

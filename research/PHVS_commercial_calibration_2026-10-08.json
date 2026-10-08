@@ -1,0 +1,656 @@
+{
+  "as_of": "2026-10-08",
+  "scope": "US commercial design and bounded calibration; no national forecast",
+  "sources": {
+    "P1": {
+      "title": "Pharvaris Morgan Stanley conference, management transcript",
+      "date": "2026-09-15",
+      "url": "https://stockanalysis.com/stocks/phvs/transcripts/739270-morgan-stanley-24th-annual-global-healthcare-conference/",
+      "type": "Management speech, third-party transcript; audio not independently checked",
+      "location": "Commercial preparation, salesforce and opt-in Q&A"
+    },
+    "P2": {
+      "title": "Pharvaris Cantor conference, management transcript",
+      "date": "2026-09-10",
+      "url": "https://stockanalysis.com/stocks/phvs/transcripts/747079-12th-annual-cantor-fitzgerald-global-healthcare-conference/",
+      "type": "Management speech, third-party transcript; audio not independently checked",
+      "location": "Launch campaign; LTP market; pricing; field-force and ex-US Q&A"
+    },
+    "P3": {
+      "title": "Pharvaris National Account Director, West Coast",
+      "date": null,
+      "url": "https://pharvaris.applytojob.com/apply/XVZwNrEEXU/National-Account-Director-West-Coast",
+      "type": "Issuer job description, search-index copy",
+      "access": "Direct open returned410; indexed description recovered. Posting date and hiring completion unknown."
+    },
+    "P4": {
+      "title": "Pharvaris Medical Science Liaison, Mid-Atlantic",
+      "date": null,
+      "url": "https://pharvaris.applytojob.com/apply/tXIv2uGNjS/Medical-Science-Liaison-MidAtlantic",
+      "type": "Issuer job description, indexed text",
+      "access": "Role indicates medical affairs, not sales staffing; dates unknown."
+    },
+    "P5": {
+      "title": "Pharvaris Q2 2026 business update",
+      "date": "2026-08-12",
+      "url": "https://pharvaris.gcs-web.com/news-releases/news-release-details/pharvaris-reports-second-quarter-2026-financial-results-and",
+      "type": "Issuer release"
+    },
+    "P6": {
+      "title": "Pharvaris corporate recruitment post",
+      "date": null,
+      "url": "https://www.linkedin.com/posts/pharvaris_bradykininmediateddiseases-herediataryangioedema-activity-7376259867889680384-hus7",
+      "type": "Issuer social post; indexed text",
+      "access": "Relative posting date not converted to a precise date."
+    },
+    "K1": {
+      "title": "KalVista March 2026 investor presentation",
+      "date": "2026-03",
+      "url": "https://ir.kalvista.com/static-files/5cb3e24e-4057-41c5-a225-f4c27a3e643f",
+      "type": "Issuer presentation",
+      "location": "PDF p16 / slide16, launch metrics; p17 / slide17 market assumptions"
+    },
+    "K2": {
+      "title": "KalVista March 25 release / 8-K",
+      "date": "2026-03-25",
+      "url": "https://ir.kalvista.com/node/12706/html",
+      "type": "Issuer release",
+      "location": "Commercial progress, Exhibit99.1"
+    },
+    "K3": {
+      "title": "KalVista Cares support overview",
+      "date": "2026-05",
+      "url": "https://www.ekterly.com/wp-content/themes/ekterly/assets/pdf/kalvista-cares-overview.pdf",
+      "type": "Manufacturer support-program description",
+      "location": "PDF pp1\u20132, version US-SEB-00117v2"
+    },
+    "K4": {
+      "title": "KalVista preliminary 2025 launch update",
+      "date": "2026-01",
+      "url": "https://ir.kalvista.com/node/12546/html",
+      "type": "Issuer disclosure; prior audit retained",
+      "location": "Commercial progress; refill/holiday pull-forward caveat"
+    },
+    "R0": {
+      "title": "Previously audited Orladeyo annual/quarterly revenue",
+      "local": "output/Orladeyo_launch_analogue_2026-10-07.txt",
+      "type": "Retained primary-source extraction; source URLs in original report"
+    },
+    "I0": {
+      "title": "Historical HAE injectable revenue audit",
+      "local": "research/hae_injectable_revenue_audit_2026-10-08.json",
+      "type": "Retained issuer histories; not adoption transitions"
+    },
+    "E0": {
+      "title": "Five physician interviews",
+      "local": "research/alphasense_calls_evidence_2026-10-07.json",
+      "type": "Selected expert observations, not representative survey"
+    },
+    "E1": {
+      "title": "Four commercial interviews",
+      "local": "research/alphasense_commercial_experts_2026-10-08.json",
+      "type": "Selected former employee observations"
+    },
+    "B2020-11-05": {
+      "title": "BioCryst earnings call 2020-11-05",
+      "date": "2020-11-05",
+      "local": "references/user_supplied/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._Earnings Call_2020-11-05_English.pdf",
+      "location": "PDF pages 5,10",
+      "type": "User-supplied transcript of management statements",
+      "hash_manifest": "research/biocryst_archive_manifest_2026-10-08.json"
+    },
+    "B2021-02-25": {
+      "title": "BioCryst earnings call 2021-02-25",
+      "date": "2021-02-25",
+      "local": "references/user_supplied/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._Earnings Call_2021-02-25_English.pdf",
+      "location": "PDF pages 5",
+      "type": "User-supplied transcript of management statements",
+      "hash_manifest": "research/biocryst_archive_manifest_2026-10-08.json"
+    },
+    "B2021-05-06": {
+      "title": "BioCryst earnings call 2021-05-06",
+      "date": "2021-05-06",
+      "local": "references/user_supplied/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._Earnings Call_2021-05-06_English.pdf",
+      "location": "PDF pages 5,7",
+      "type": "User-supplied transcript of management statements",
+      "hash_manifest": "research/biocryst_archive_manifest_2026-10-08.json"
+    },
+    "B2021-08-05": {
+      "title": "BioCryst earnings call 2021-08-05",
+      "date": "2021-08-05",
+      "local": "references/user_supplied/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._Earnings Call_2021-08-05_English.pdf",
+      "location": "PDF pages 5,6,19",
+      "type": "User-supplied transcript of management statements",
+      "hash_manifest": "research/biocryst_archive_manifest_2026-10-08.json"
+    },
+    "B2021-11-03": {
+      "title": "BioCryst earnings call 2021-11-03",
+      "date": "2021-11-03",
+      "local": "references/user_supplied/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._Earnings Call_2021-11-03_English.pdf",
+      "location": "PDF pages 5",
+      "type": "User-supplied transcript of management statements",
+      "hash_manifest": "research/biocryst_archive_manifest_2026-10-08.json"
+    },
+    "B2022-02-23": {
+      "title": "BioCryst earnings call 2022-02-23",
+      "date": "2022-02-23",
+      "local": "references/user_supplied/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._Earnings Call_2022-02-23_English.pdf",
+      "location": "PDF pages 5,7",
+      "type": "User-supplied transcript of management statements",
+      "hash_manifest": "research/biocryst_archive_manifest_2026-10-08.json"
+    },
+    "B2022-05-05": {
+      "title": "BioCryst earnings call 2022-05-05",
+      "date": "2022-05-05",
+      "local": "references/user_supplied/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._Earnings Call_2022-05-05_English.pdf",
+      "location": "PDF pages 5,6",
+      "type": "User-supplied transcript of management statements",
+      "hash_manifest": "research/biocryst_archive_manifest_2026-10-08.json"
+    },
+    "B2022-08-04": {
+      "title": "BioCryst earnings call 2022-08-04",
+      "date": "2022-08-04",
+      "local": "references/user_supplied/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._Earnings Call_2022-08-04_English.pdf",
+      "location": "PDF pages 5",
+      "type": "User-supplied transcript of management statements",
+      "hash_manifest": "research/biocryst_archive_manifest_2026-10-08.json"
+    },
+    "B2022-11-01": {
+      "title": "BioCryst earnings call 2022-11-01",
+      "date": "2022-11-01",
+      "local": "references/user_supplied/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._Earnings Call_2022-11-01_English.pdf",
+      "location": "PDF pages 5,12",
+      "type": "User-supplied transcript of management statements",
+      "hash_manifest": "research/biocryst_archive_manifest_2026-10-08.json"
+    },
+    "A_S1": {
+      "title": "BioCryst January 2026 JPM presentation",
+      "date": "2026-01-12",
+      "url": "https://ir.biocryst.com/static-files/5a7fc8c1-15d9-4c5b-a3db-b0f6e07fd632",
+      "location": "PDF pp.4\u20138; p.9 forecasts excluded",
+      "geography": "US",
+      "population": "Orladeyo company-reported commercial patients",
+      "source_type": "company disclosure",
+      "independence": "Slide 8 persistence recycles S2; not a second cohort",
+      "local_file": "research/raw/adoption_audit_2026-10-07/biocryst_jpm2026.pdf"
+    },
+    "A_S2": {
+      "title": "Zuraw et al. Adherence and persistence among patients with HAE receiving LTP in the US",
+      "date": "2025-04-29",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40300843/",
+      "doi": "10.2500/aap.2025.46.250029",
+      "location": "Abstract, Methods and Results",
+      "geography": "US",
+      "population": "357 linked EHR/claims patients aged >=12; initiated Jun 22 2017\u2013Sep 12 2023; >=12 months enrollment before and after; hierarchical reverse-approval cohort assignment",
+      "source_type": "original observational study abstract",
+      "independence": "BioCryst-affiliated authors; S1 repeats results. Patient overlap with other databases unknown.",
+      "local_file": "research/raw/adoption_audit_2026-10-07/persistence_2025_metadata.json"
+    },
+    "A_S3": {
+      "title": "O\u2019Connor et al. LTP compliance and impact on on-demand treatment claims",
+      "date": "2025-07-10/2025-07-13",
+      "url": "https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf",
+      "location": "Methods, Figures 2\u20133, Table 2",
+      "geography": "US",
+      "population": "328 commercially insured IQVIA PharMetrics Plus patients; Jan 2016\u2013Sep 2023; >=6 months pre-index and >=12 post; first non-androgen LTP claim; multiple index LTP and claims outliers excluded",
+      "source_type": "original conference poster",
+      "independence": "KalVista-associated study and funded writing; potential subsequent publication is not independent",
+      "local_file": null
+    },
+    "A_S4": {
+      "title": "Real-world treatment patterns and clinical burden of patients with HAE treated with LTP",
+      "date": "2026-05-19",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13361871/",
+      "doi": "10.1186/s13023-026-04391-6",
+      "location": "Methods, Table 2, Figure 3",
+      "geography": "US",
+      "population": "499 Komodo claims patients aged >=12; index Jan 2021\u2013Jan 2024; >=12 months baseline and >=30 days follow-up; pharmacy-fill requirement; 257 Orladeyo,185 Takhzyro,57 Haegarda",
+      "source_type": "original observational study",
+      "independence": "Ionis funded; overlaps with other claims populations cannot be ruled out",
+      "local_file": "research/raw/adoption_audit_2026-10-07/ltp_claims.txt"
+    },
+    "A_S5": {
+      "title": "PIONEER-HAE: LTP real-world treatment patterns in selected US allergy clinics",
+      "date": "2026-05-21",
+      "url": "https://karger.com/iaa/article/doi/10.1159/000551984/949357/Long-Term-Prophylaxis-for-Hereditary-Angioedema",
+      "doi": "10.1159/000551984",
+      "location": "Results, Tables 1\u20132 and treatment transitions",
+      "geography": "US",
+      "population": "179 type I/II patients in CIIC practices observed Apr 2021\u2013Mar 2024; historical index therapies 2009\u20132024; >=180 days before and after index",
+      "source_type": "original clinic registry study",
+      "independence": "Ionis funded; separate setting from claims; no proof of patient independence",
+      "local_file": null
+    },
+    "A_S6": {
+      "title": "Patient Preferences for LTP in HAE: A Discrete-Choice Experiment",
+      "date": "2026-01-21",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13124884/",
+      "doi": "10.1007/s40271-025-00798-8",
+      "location": "Results, Table 2 and latent-class analysis",
+      "geography": "US",
+      "population": "250 self-reported adult HAE respondents recruited through advocacy group; 81.6% female,85.2% white; selected voluntary sample",
+      "source_type": "original stated-preference study",
+      "independence": "Ionis funded, RTI conducted; not observed dispensing",
+      "local_file": "research/raw/adoption_audit_2026-10-07/preferences.txt"
+    },
+    "A_S7": {
+      "title": "BioCryst Q2 2026 results, Exhibit 99.1",
+      "date": "2026-08-05",
+      "url": "https://ir.biocryst.com/node/28256/html",
+      "location": "Business & Corporate Updates",
+      "geography": "US",
+      "population": "Orladeyo distribution channel",
+      "source_type": "company disclosure",
+      "independence": "Company report",
+      "local_file": null
+    },
+    "A_S8": {
+      "title": "2025 US treated-HAE claims prevalence study",
+      "date": "2025",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1081120625002583",
+      "doi": "10.1016/j.anai.2025.05.018",
+      "location": "Retained prior audit research/commercial.txt C9",
+      "geography": "US",
+      "population": "2020 projection from IQVIA, continuous enrollment, diagnosis algorithm plus >=1 HAE drug claim",
+      "source_type": "original observational projection; prior verified extraction retained",
+      "independence": "Not re-extracted this pass; access blocked",
+      "local_file": "research/commercial.txt"
+    },
+    "A_S9": {
+      "title": "KalVista January 2026 corporate update",
+      "date": "2026-01",
+      "url": "https://ir.kalvista.com/node/12546/html",
+      "location": "US diagnosed-patient estimate",
+      "geography": "US",
+      "population": "Company estimate of diagnosed HAE",
+      "source_type": "company estimate",
+      "independence": "Different definition and date from S8; not independent validation",
+      "local_file": null
+    },
+    "A_S10": {
+      "title": "KalVista March 25 2026 commercial update",
+      "date": "2026-03-25",
+      "url": "https://ir.kalvista.com/node/12706/html",
+      "location": "Retained prior audit research/commercial.txt C4",
+      "geography": "US forms; global revenue",
+      "population": "Ekterly commercial launch",
+      "source_type": "company disclosure; prior verified extraction retained",
+      "independence": "Forms, prescriptions and revenue are not separate confirmation of paid-patient count",
+      "local_file": "research/commercial.txt"
+    }
+  },
+  "new_facts": [
+    {
+      "id": "P01",
+      "source": "P1",
+      "status": "plan",
+      "metric": "US staffing",
+      "value": {
+        "field": 35,
+        "commercial_IR_approx": 70,
+        "commercial_XR_approx": 90
+      },
+      "note": "Not filled positions."
+    },
+    {
+      "id": "P02",
+      "source": "P1",
+      "status": "management_report",
+      "metric": "Information opt-ins",
+      "value": {
+        "current_almost": 2000,
+        "launch_target_almost": 3000
+      },
+      "note": "Not starts or additional TAM."
+    },
+    {
+      "id": "P03",
+      "source": "P1",
+      "status": "management_estimate",
+      "metric": "Annual new HAE patients",
+      "value": [
+        150,
+        250
+      ],
+      "note": "Definition unverified; not biological incidence."
+    },
+    {
+      "id": "P04",
+      "source": "P1",
+      "status": "management_estimate",
+      "metric": "Former Orladeyo users",
+      "value": {
+        "up_to": 1900
+      },
+      "note": "Unverified, overlapping current regimens; cannot subtract published lower bounds."
+    },
+    {
+      "id": "P05",
+      "source": "P1",
+      "status": "positioning",
+      "metric": "IR value proposition",
+      "value": "Rapid control and single-dose durability",
+      "note": "No head-to-head superiority assumed."
+    },
+    {
+      "id": "P06",
+      "source": "P2",
+      "status": "plan",
+      "metric": "Physician targets",
+      "value": {
+        "US_approx": 2000
+      },
+      "note": "Stable territories across IR/XR; support scales with patients."
+    },
+    {
+      "id": "P07",
+      "source": "P2",
+      "status": "illustrative_management_scenario",
+      "metric": "Dropout illustration",
+      "value": 0.05,
+      "note": "Not measured or formal guidance; annual interpretation is a scenario."
+    },
+    {
+      "id": "P08",
+      "source": "P2",
+      "status": "strategy",
+      "metric": "Recruitment and pricing",
+      "value": "Deflate HAE; icatibant users; portfolio pricing; IR familiarity before XR",
+      "note": "No disclosed rebate or guaranteed cross-use."
+    },
+    {
+      "id": "P09",
+      "source": "P3",
+      "status": "role_intent",
+      "metric": "Access responsibilities",
+      "value": "PBM, government and managed-care accounts; PA/reauthorization; Optum/CVS/ESI experience sought",
+      "note": "No contract or hire completion inferred."
+    },
+    {
+      "id": "P10",
+      "source": "P4",
+      "status": "role_intent",
+      "metric": "Medical engagement",
+      "value": "KOL scientific exchange and advocacy conferences",
+      "note": "Not representative-count evidence."
+    },
+    {
+      "id": "P11",
+      "source": "P6",
+      "status": "role_intent",
+      "metric": "Operating functions",
+      "value": "Trade/distribution, patient services and account lead report to access leadership",
+      "note": "Hiring intent; partner identities and service levels missing."
+    },
+    {
+      "id": "P12",
+      "source": "P5",
+      "status": "company_report",
+      "metric": "Financial/organizational readiness",
+      "value": "Cash runway into2028 after May financing; R&D/commercial unified under president",
+      "note": "Runway is management expectation, not proof of launch conversion."
+    },
+    {
+      "id": "K01",
+      "source": "K1",
+      "status": "company_report",
+      "metric": "Prescriber depth",
+      "value": {
+        "repeat_among_top30": 29
+      },
+      "note": "Not market share."
+    },
+    {
+      "id": "K02",
+      "source": "K2",
+      "status": "company_report",
+      "metric": "Ekterly launch",
+      "value": {
+        "US_forms_to_2026_02_28": 1702,
+        "US_prescribers_to_2026_02_28": 724,
+        "global_revenue_to_2025_12_31_USDm": 49.1,
+        "Q4_refill_revenue_share": ">50%"
+      },
+      "note": "Forms are not paid users; periods/geographies differ."
+    },
+    {
+      "id": "K03",
+      "source": "K3",
+      "status": "program_available",
+      "metric": "Patient support",
+      "value": "Care manager; insurance/pharmacy assistance; new-patient QuickStart; eligible commercial co-pay assistance",
+      "note": "Not demonstrated conversion speed; government-insured co-pay eligibility excluded."
+    }
+  ],
+  "historical_calibration": [
+    {
+      "period": "2020 prelaunch",
+      "revenue_USDm": null,
+      "geography": "US operations; global revenue",
+      "actions": "Database assembled from >10 sources; dedicated coordinator; access relationships in top200 practices",
+      "metrics": {
+        "planned_US_reps": [
+          30,
+          50
+        ]
+      },
+      "sources": [
+        "B2020-11-05"
+      ],
+      "limitations": "Plans, not staffing productivity or conversion outcomes."
+    },
+    {
+      "period": "2021 Q1",
+      "revenue_USDm": 10.9,
+      "geography": "US revenue and operations",
+      "actions": "QuickStart and medical exceptions; experienced HAE launch leadership",
+      "metrics": {
+        "top500_reached": "nearly all",
+        "top500_prescribed": "minority",
+        "share_new_starts_prior_injectable": ">50%"
+      },
+      "sources": [
+        "B2021-02-25",
+        "B2021-05-06",
+        "R0"
+      ],
+      "limitations": "Reach is not prescribing; trial/early-access conversions mix with commercial starts."
+    },
+    {
+      "period": "2021 Q2",
+      "revenue_USDm": 28.5,
+      "geography": "US operations; global revenue",
+      "actions": "Coverage establishment and international launch",
+      "metrics": {},
+      "sources": [
+        "B2021-08-05",
+        "R0"
+      ],
+      "limitations": "Global revenue predominantly US; not a pure US series."
+    },
+    {
+      "period": "2021 Q3",
+      "revenue_USDm": 37.0,
+      "geography": "US operations; global revenue",
+      "actions": "QuickStart followed by reimbursement",
+      "metrics": {
+        "prescriber_growth_qoq": 0.25,
+        "top500_ever_prescribed": "nearly half",
+        "average_time_to_paid": "within30days"
+      },
+      "sources": [
+        "B2021-11-03",
+        "R0"
+      ],
+      "limitations": "No start counts; average timing may condition on successful access, censoring undisclosed."
+    },
+    {
+      "period": "2021 Q4 / year-end",
+      "revenue_USDm": 46.2,
+      "geography": "US operations; global revenue",
+      "actions": "Broader payer policies",
+      "metrics": {
+        "overall_retention": 0.7,
+        "coverage_population_share": ">=80%",
+        "full_year_revenue_USDm": 122.6
+      },
+      "sources": [
+        "B2022-02-23",
+        "R0"
+      ],
+      "limitations": "Retention follow-up and coverage denominator differ from paid conversion."
+    },
+    {
+      "period": "2022 Q1",
+      "revenue_USDm": 49.7,
+      "geography": "US operations; global revenue",
+      "actions": "Patient education/early support; reauthorization seasonality",
+      "metrics": {
+        "source_prior_prophylaxis_stock_share": 0.5,
+        "Takhzyro_share_of_prior_prophylaxis": 0.5,
+        "post_PA_6m_retention": {
+          "Takhzyro_switchers": 0.78,
+          "Haegarda_switchers": 0.73
+        },
+        "12m_retention_paid": 0.7,
+        "12m_retention_long_term_free": 0.6,
+        "paid_stock_share": "nearly80%",
+        "new_Rx_outside_top500": 0.5,
+        "discontinuations_first_two_shipments_share": 0.5
+      },
+      "sources": [
+        "B2022-05-05",
+        "R0"
+      ],
+      "limitations": "Conditional retention and discontinued-patient denominator; free/paid cohorts nonrandom; QuickStart stock inclusion unresolved."
+    },
+    {
+      "period": "2022 Q2",
+      "revenue_USDm": 65.2,
+      "geography": "US operations; global revenue",
+      "actions": "Broaden/deepen prescribers; improve access",
+      "metrics": {
+        "top500_patient_share": 0.5,
+        "top500_ever_prescribed_share": 0.6,
+        "top500_new_Rx_share": "two-thirds",
+        "top120_opportunity_share": 0.3,
+        "top120_new_Rx_share": 0.32,
+        "next1400_opportunity_share": 0.4,
+        "next1400_new_Rx_share": 0.48,
+        "median_time_paid_shipment": "<3weeks"
+      },
+      "sources": [
+        "B2022-08-04",
+        "R0"
+      ],
+      "limitations": "Company targeting model, not independent national claims census. Overlapping top500/top120 groupings cannot be summed."
+    },
+    {
+      "period": "2022 Q3",
+      "revenue_USDm": 66.0,
+      "geography": "US operations; global revenue",
+      "actions": "Plan incremental top500 sales and broader-practice access hires",
+      "metrics": {
+        "paid_patient_growth_qoq": 0.09,
+        "prescriber_growth_qoq": 0.11,
+        "top500_new_Rx_share": 0.54,
+        "12m_overall_retention": "mid60s"
+      },
+      "sources": [
+        "B2022-11-01",
+        "R0"
+      ],
+      "limitations": "Growth rates lack levels; overall cohort retention not mature hazard."
+    },
+    {
+      "period": "2022 Q4",
+      "revenue_USDm": 70.7,
+      "geography": "US operations; global revenue",
+      "actions": "Paid/free conversion affected monetization",
+      "metrics": {
+        "full_year_revenue_USDm": 251.6
+      },
+      "sources": [
+        "R0"
+      ],
+      "limitations": "Patient/revenue divergence is prior audited finding; no channel causality estimated."
+    },
+    {
+      "period": "2023 year-end",
+      "revenue_USDm": 326.0,
+      "geography": "US operations; global revenue",
+      "actions": "Maturing launch",
+      "metrics": {
+        "US_active_excluding_QuickStart": 1104,
+        "paid_share_same_denominator": 0.715
+      },
+      "sources": [
+        "R0"
+      ],
+      "limitations": "Global annual revenue cannot be divided by US year-end stock."
+    },
+    {
+      "period": "2025 year-end",
+      "revenue_USDm": null,
+      "geography": "US operations; global revenue",
+      "actions": "Mature oral-prevention benchmark",
+      "metrics": {
+        "US_active_including_QuickStart": ">1600",
+        "paid_share_excluding_QuickStart": 0.81
+      },
+      "sources": [
+        "A_S1"
+      ],
+      "limitations": "Do not multiply unmatched denominators. Not October2026 stock."
+    },
+    {
+      "period": "Ekterly launch Jul\u2013Dec2025",
+      "revenue_USDm": 49.1,
+      "geography": "US operations; global revenue",
+      "actions": "Initial supply followed by refills",
+      "metrics": {
+        "US_forms_Dec31": 1318,
+        "US_prescribers_Dec31": 580,
+        "Q4_refill_revenue_share": ">50%"
+      },
+      "sources": [
+        "K4",
+        "K2"
+      ],
+      "limitations": "Potential holiday pull-forward; no inference of consumed attacks."
+    },
+    {
+      "period": "Ekterly through Feb2026",
+      "revenue_USDm": null,
+      "geography": "US operations; global revenue",
+      "actions": "Broader and repeat prescribing",
+      "metrics": {
+        "US_forms": 1702,
+        "US_prescribers": 724,
+        "repeat_top30": 29
+      },
+      "sources": [
+        "K1",
+        "K2"
+      ],
+      "limitations": "Same-date forms/prescriber descriptive ratio possible; paid conversion not identified."
+    }
+  ],
+  "search_audit": {
+    "initial_queries": 6,
+    "lead_queries": 3,
+    "families": [
+      "issuer releases/transcripts",
+      "issuer recruitment",
+      "comparator operational disclosures"
+    ],
+    "method": "Existing claims/physician ledgers and supplied BioCryst archive reused; targeted conference transcript leads read directly. No further claims sweep repeated after prior bounded failure.",
+    "access_failures": [
+      "Pharvaris IR403",
+      "West Coast NAD direct410; cached issuer description used",
+      "Guessed Pharvaris events/leadership paths failed; no claim of absence"
+    ],
+    "agents": "None; current assignment retains authorization condition",
+    "stop": "No aligned current national treatment stocks, PHVS conversion or observed PHVS commercial persistence. Further general searches unlikely to resolve. No paid collection."
+  }
+}

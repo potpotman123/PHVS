@@ -1,0 +1,55 @@
+{
+  "as_of": "2026-10-08",
+  "status": "Arithmetic and source-definition checks only; no external validation or national forecast",
+  "conditional_12m_retained_per_100_starts": {
+    "claims_oral_benchmark": 61.0,
+    "selected_paid_benchmark": 70.0,
+    "management_dropout_illustration_if_annual": 95.0,
+    "caution": "Different underlying populations/definitions. Alternative scenario checkpoints, not treatment comparisons."
+  },
+  "relative_retained_stock_if_same_starts_and_other_conditions": {
+    "95_vs_61": 1.5573770491803278,
+    "95_vs_70": 1.3571428571428572,
+    "caution": "Not annual revenue uplift, causal efficacy benefit or evidence PHVS achieves95%."
+  },
+  "five_year_new_entry_gross_ceiling": {
+    "patients": [
+      750,
+      1250
+    ],
+    "assumptions": "Constant management-estimated entry flow;100% eligible and captured; zero exits. Ceiling for this hypothetical flow only, not entire PHVS opportunity."
+  },
+  "coarse_target_load": {
+    "clinicians_per_planned_field_member": 57.142857142857146,
+    "caution": "Simple workload scale only; no geography, call frequency, travel, account effort or filled-position verification."
+  },
+  "historical_paid_stock_same_denominator_2023": {
+    "active": 1104,
+    "paid_fraction": 0.715,
+    "approx_paid": 789.36,
+    "approx_long_term_free": 314.64000000000004,
+    "caution": "Rounded company stock, excludes QuickStart. No similar YE2025 multiplication allowed."
+  },
+  "checks": [
+    "2021 revenue sums to122.6m",
+    "2022 revenue sums to251.6m",
+    "Source IDs resolve",
+    "Unknown parameters remain unset",
+    "No observed first-year endpoint auto-converted to mature annual hazard"
+  ],
+  "forecast_ready": false,
+  "unresolved_parameters": [
+    "N1",
+    "N2",
+    "R5",
+    "X1",
+    "X3",
+    "T6",
+    "I2",
+    "I3",
+    "I4",
+    "V1",
+    "V2",
+    "V3"
+  ]
+}

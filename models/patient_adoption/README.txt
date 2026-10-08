@@ -1,3 +1,9 @@
+LATEST CALIBRATION PASS (8 October 2026)
+parameter_ledger.json:26 definitions with source/denominator/transferability and
+unknown inputs preserved. flow.mmd: expanded diagram. calibration/check_calibration.py
+reproduces arithmetic and source checks; it does not implement a national forecast.
+Full assessment: output/PHVS_commercial_calibration_2026-10-08.txt.
+
 START HERE: ARCHITECTURE.txt is the canonical expanded patient-flow design and
 research handoff. The executable sensitivity remains illustrative only.
 

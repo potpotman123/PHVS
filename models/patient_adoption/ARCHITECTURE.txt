@@ -124,3 +124,17 @@ FIRST RESEARCH TASK / FILE MAP
 6. Implement monthly transitions only after definitions and minimum inputs reconcile.
 Compare resulting sales to reverse-DCF requirements on matched geography, launch age
 and success/probability basis. One broker trajectory is not consensus.
+
+CALIBRATION DECISIONS — 8 OCTOBER 2026
+See parameter_ledger.json, flow.mmd and calibration/check_results.json; detailed
+assessment at output/PHVS_commercial_calibration_2026-10-08.txt. Numerical national
+forecast remains uncalibrated. Select a composite prescription hazard per coarse
+source group pending separately identifiable reach/discussion/choice rates.
+Use prior-Orladeyo history and information opt-in as overlapping attributes, not
+new population states. Preserve genotype/age/label gates and competing destinations.
+Treat shared IR/XR field organization as a cost/reach link, not automatic dual capture.
+Keep pricing/access and IR-to-XR migration linked rather than independent upside.
+Claims rescue doses averaged across all LTP patients include zero-claim users; do
+not multiply those means by rescue-claim prevalence again. New research records
+operational plans, historical calibration checkpoints and management scenarios
+separately. No fitted first-year or mature PHVS persistence parameter is established.

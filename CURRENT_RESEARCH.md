@@ -13,6 +13,8 @@ not independent investment evidence.
 
 ## Investment question
 
+8 October commercial calibration: [assessment](output/PHVS_commercial_calibration_2026-10-08.txt), [source/history table](research/PHVS_commercial_calibration_2026-10-08.json), [26-parameter ledger](models/patient_adoption/parameter_ledger.json) and [updated flow](models/patient_adoption/flow.mmd). PHVS disclosed a focused field organization and integrated launch plans. Evidence supports credible design, not proven conversion/persistence. Management dropout illustration is explicitly a scenario, not measured retention. Current national treatment partition, paid transitions, mature survival and net prices remain unset; no central TAM/peak forecast or reverse-DCF change. Arithmetic checks are separate from market validation. Process log G20.
+
 Patient-adoption architecture: read [canonical design and handoff](models/patient_adoption/ARCHITECTURE.txt) first. Includes new diagnoses/untreated patients, XR cohorts, IR inventory and replenishment, access states, commercial parameter mapping and accounting rules. Expanded design is documented, not yet implemented or calibrated.
 
 8 October user BioCryst archive: [bounded first-pass extraction](output/BioCryst_launch_archive_first_pass_2026-10-08.txt),23 PDFs indexed locally with hash manifest. Recovered planned30–50US reps, top200 access relationships, broader-prescriber contribution and conditional switcher retention. Management disclosures require denominator matching; no adoption coefficients changed. Process log G18.
