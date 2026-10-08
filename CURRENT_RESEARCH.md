@@ -13,6 +13,13 @@ not independent investment evidence.
 
 ## Investment question
 
+8 October methodological correction: user identified that slower early adoption
+and higher later peak sales can yield the same valuation. The reverse model has
+no independently fitted S-curve; it scales a fixed Guggenheim annual path. Four-year
+XR outperformance is conditional, not uniquely priced-in expectations or sufficient
+short evidence. Ramp-speed/peak tradeoff and independent patient-based ceilings
+remain to be implemented. See process event G12 and reverse-model README.
+
 Latest framing: [IR/XR patient segmentation, access, interactions and historical analogue screen](output/PHVS_SOTP_patient_segmentation_framework_2026-10-07.txt). This is a research/modeling structure, not a completed TAM estimate. [Historical prophylaxis comparator analysis](output/Orladeyo_historical_comparator_delta_2026-10-07.txt) compares the launch-era clinical propositions and documents early switching concerns.
 
 Can a clinically attractive oral HAE drug generate enough sustained, reimbursed demand to exceed the expectations embedded in PHVS? The developing short case focuses on commercial differentiation, access, persistence, treatment intensity and execution. A successful approval or efficacy readout alone does not resolve valuation. Conversely, commercial friction alone does not establish an overvalued stock.

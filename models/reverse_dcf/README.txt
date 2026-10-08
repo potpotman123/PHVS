@@ -1,5 +1,16 @@
 PHVS reverse SOTP / DCF skeleton — 7 October 2026
 
+8 OCTOBER INTERPRETATION AUDIT — USER-IDENTIFIED SHAPE LIMITATION
+No S-curve was independently fitted. Default mode scales the supplied Guggenheim
+annual IR/XR paths by one multiplier and holds2036 sales until generic exposure.
+Thus early cumulative revenue and relative product mix are conditional on imposed
+shape. They cannot independently identify market expectations or establish a short.
+Slower early adoption and higher later peaks may support the same price. Next
+methodological extension: vary adoption speed/time-to-peak and solve peak sales,
+separately challenge IR/XR allocation, keep entry dates fixed, and constrain peaks
+with patient/price economics. This frontier is not yet implemented. Do not describe
+the existing normalization as an exact broker replication or consensus inference.
+
 IR LAUNCH COMPARISON UPDATE
 Launch comparison55–76 now shows Ekterly Q3 2025USD13.7m, Q4~35.4m (derived
 from rounded FY49.1 lessQ3), Q1 2026USD39.2m; cumulative88.3m over~9 commercial

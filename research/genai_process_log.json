@@ -236,6 +236,24 @@
         "models/reverse_dcf/verification.json",
         "models/reverse_dcf/README.txt"
       ]
+    },
+    {
+      "id": "G12",
+      "logged_on": "2026-10-08",
+      "event_date": "2026-10-08",
+      "record_type": "contemporaneous",
+      "objective": "Audit whether launch comparisons identify the expectations supporting valuation.",
+      "user_contribution": "Identified that slower early adoption with higher later peak sales can support the same target, challenging any short conclusion based on four-year revenue alone.",
+      "prompt_excerpt": "the curve ramps slower in the first four years and peak sales are much higher",
+      "ai_method_and_sources": "Checked annual source arrays and common-scaling formulas in the builder; no independently fitted S-curve exists.",
+      "snapshot": "Model uses Guggenheim annual2026\u201336 paths, scales both by a common multiplier by default, then holds2036 revenue until assumed generic exposure. Early cumulative sales and IR/XR mix are imposed by that shape.",
+      "thesis_effect": "Downgrades the four-year outperformance comparison from evidence of uniquely priced-in expectations to a conditional scenario. A slower ramp/higher peak tradeoff must be tested before using it as a short argument.",
+      "value_add": "User exposed an identification problem beyond arithmetic correctness; AI made implementation and conclusion limits explicit.",
+      "limitations_and_checks": "No adoption curve was statistically fitted. Proposed ramp-speed/peak frontier with patient-based bounds is not yet implemented; no new valuation result claimed.",
+      "artifacts": [
+        "models/reverse_dcf/build.mjs",
+        "models/reverse_dcf/README.txt"
+      ]
     }
   ]
 }
