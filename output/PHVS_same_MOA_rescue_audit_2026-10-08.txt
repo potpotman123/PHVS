@@ -1,0 +1,34 @@
+Same mechanism prevention/rescue audit | 8 October 2026
+User hypothesis: Can a documented rule against same-mechanism rescue after a preventive breakthrough justify lower PHVS IR/XR co-prescribing?
+Finding: No general prohibition established in bounded search. Direct HAE evidence contradicts categorical exclusion. Real restrictions exist for specific drugs/exposure, but are not evidence that a breakthrough renders the target ineffective. Prior audit was incomplete: PHVS-specific combination evidence was publicly available.
+
+EVIDENCE HIERARCHY
+1. HAE direct same-target clinical evidence: KONFIDENT-S interim open-label analysis, September2024 cutoff, published2026.35LTP users treated382attacks with sebetralstat:16berotralstat patients/178attacks;13lanadelumab/80;6C1INH/124. Berotralstat and lanadelumab inhibit plasma kallikrein, as does sebetralstat.29same-target prophylaxis patients treated258attacks; median initial symptom relief1.3h. No serious/severe treatment-related TEAEs reported overall. These are repeated attacks in few selected participants, not258independent people; nonrandomized subgroup comparison cannot establish equivalence across preventive drugs. Sponsor-linked evidence; no commercial paid-dispensing inference. Strong evidence against biological impossibility or a universal clinical exclusion.
+https://www.sciencedirect.com/science/article/pii/S2772829326001128
+https://pmc.ncbi.nlm.nih.gov/articles/PMC13355760/
+
+2. PHVS-specific April20 2026 issuer disclosure: conference analysis estimated safety margins for XR40mg plus one/two IR20mg capsules using clinical/nonclinical exposure data. This is exposure/safety-margin analysis, not a prospective randomized XR+IR breakthrough-rescue efficacy trial. Separate CHAPTER-1 post-hoc analysis compared durations of attacks treated with one icatibant dose on preventive deucrictibant vs placebo; issuer reports comparable mean total durations. Both drugs antagonize B2. CHAPTER-1 prevention formulation/regimen is not the eventual XR commercial regimen. Selection of single-dose icatibant attacks can exclude harder-to-treat episodes; numerical subgroup denominators and selection impacts not verified this pass. Signals support feasibility, not definitive equivalence or eventual label. Prior claim of entirely unresolved evidence was too broad.
+https://ir.pharvaris.com/news-releases/news-release-details/evidence-supporting-combined-use-deucrictibant-ir-deucrictibant
+https://pubmed.ncbi.nlm.nih.gov/41865746/
+
+3. Migraine positive analogue: TANDEM atogepant60mg/day prevention plus ubrogepant100mg PRN rescue, both oral CGRP receptor antagonists.218entered12week combination period;188in utilization analysis received ubrogepant. No new safety signals reported. Open-label safety study, limited duration/use, not definitive comparative efficacy or PHVS safety evidence. Shows same-target acute+preventive regimen can be deliberately studied and used.
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12129246/
+https://clinicaltrials.gov/study/NCT05264129
+
+4. Asthma guideline counterexample: GINA maintenance-and-reliever therapy uses the same ICS-formoterol combination daily and as-needed. Explicit guideline support for same drugs serving both functions, with dose/regimen restrictions. Disease and pharmacology differ substantially from HAE; refutes general rule only.
+https://ginasthma.org/wp-content/uploads/2025/07/GINA-2025-Strategy-Report_25_05_25-WMS-2.pdf
+
+5. Real restrictive analogue: frovatriptan has trial evidence for short-term menstrual migraine prevention (off-label US). Current label contraindicates another triptan within24h because of additive vasospastic effects. Thus preventive frovatriptan can restrict acute triptan choices. This is safety/exposure restriction, not evidence that preventive breakthrough means the whole mechanism failed. It is not a blanket same-molecule ban; label permits limited frovatriptan repeat dosing in specified circumstances.
+https://pubmed.ncbi.nlm.nih.gov/15277618/
+https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03a58215-dba7-4f63-8b98-d74d054a574a&version=7
+
+6. HAE drug-specific restriction: Orladeyo is not an acute rescue drug; additional dosing above recommended daily exposure risks QT prolongation. That does not forbid sebetralstat rescue on berotralstat. This is particularly useful distinction between same molecule, same target and same therapeutic pathway.
+https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3527ece1-e7e0-40b1-b0c5-6baeb0deabeb
+
+7. Guideline search: International/Canadian HAE guideline and WAO/NHS algorithm surfaced. No universal mechanism-switch rule recovered. Absence in a bounded search does not prove no local policy or physician preference exists.
+https://link.springer.com/article/10.1186/s13223-025-00999-8
+
+MECHANISM AND MODEL IMPLICATION
+A preventive breakthrough can reflect inadequate exposure at that moment, missed doses or increased disease activity rather than target independence. Fast additional inhibition may still work. Conversely, adequate-exposure failure, poor response, drug interactions or a narrow safety margin may favor alternate rescue. Establish these separately.
+Do not impose categorical IR exclusion for XR patients, or convert a small expert sample's preference into population percentage. Retain conditional co-prescribing parameter unknown. Do not automatically credit dual-product capture. Strong prevention still reduces number of breakthrough attacks and therefore consumption regardless of target. Preserve separate redosing/fraction-treated inquiry.
+Next highest-value evidence: prospective XR+IR attack outcomes and exposure data; final labels; denominated physician prescribing preference (actual selections where possible), not more broad analogues. Stop cross-disease expansion: direct HAE data carry more information. No model numeric inputs changed; source-level disconfirmation only.

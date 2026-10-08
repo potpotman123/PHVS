@@ -13,6 +13,9 @@ not independent investment evidence.
 
 ## Investment question
 
+8 October same-MOA audit: [evidence](output/PHVS_same_MOA_rescue_audit_2026-10-08.txt). Direct same-target HAE rescue evidence and PHVS April2026 combination analyses weaken categorical XR-to-IR exclusion. Prior audit missed the PHVS disclosure. Specific drug safety restrictions are not proof of class failure after breakthrough. No numeric adoption changes; prospective XR+IR and observed preference remain unresolved. Process G23.
+
+
 8 October revenue-comparability audit: [note](output/PHVS_revenue_comparability_audit_2026-10-08.txt). XR/Orladeyo and IR/Ekterly are useful paired analogues, conditional on setting, paid use, dosing/pack, age, launch era, access/net price and geography/accounting. User redirected next work toward observed adoption inputs, rather than more hypothetical thresholds. No model coefficients changed. Process G22.
 
 

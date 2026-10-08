@@ -424,6 +424,19 @@
       "thesis_effect": "Better rescue could lower redosing while increasing share; later entrant can benefit from market education. Neither automatic short nor automatic dual-product capture.",
       "limitations": "PHVS final commercial terms and comparative utilization unverified; no empirical adoption coefficients changed.",
       "remaining_work": "Populate diagram using observed switching, paid persistence and IR dispensing by prophylaxis status."
+    },
+    {
+      "id": "G23",
+      "logged_on": "2026-10-08",
+      "record_type": "contemporaneous",
+      "objective": "Test same-mechanism prevention/rescue prescribing exclusion using historical rules and counterexamples.",
+      "user_contribution": "Requested concrete clinical algorithms or prescribing proof points rather than theoretical concern.",
+      "prompt_excerpt": "We want a proof point.",
+      "ai_method_and_sources": "Bounded guideline/label/primary trial search across HAE, migraine and asthma; concrete PHVS lead followed. See output/PHVS_same_MOA_rescue_audit_2026-10-08.txt.",
+      "snapshot": "29kallikrein-prevention users treated258attacks with sebetralstat; same-target combination supported. PHVS April2026 exposure analysis and icatibant post-hoc evidence recovered. Triptan restrictions reflect additive vasospasm rather than preventive target failure.",
+      "thesis_effect": "Weakens categorical same-MOA short argument; corrects omission of existing PHVS-specific evidence in prior audit.",
+      "limitations": "Small repeated-attack HAE cohort; industry-linked evidence; PHVS exposure model is not prospective combination efficacy; no physician share inferred.",
+      "remaining_work": "Check prospective XR+IR data/final labels and actual co-prescribing decisions; calibrate rescue consumption independently."
     }
   ]
 }
