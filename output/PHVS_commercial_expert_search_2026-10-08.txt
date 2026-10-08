@@ -1,0 +1,68 @@
+PHVS — AlphaSense commercial-expert search, 8 October 2026
+
+Result: four full interviews add opposing commercial mechanisms, but no defensible
+numerical PHVS switching or paid-conversion estimate. Existing physician evidence
+is complemented by pricing/contracting and field-sales perspectives.
+
+LONG: The BioCryst VP (January2024) anticipated switching to a better oral if
+covered. The regulatory SVP (May2022) described researching convenience appeal even
+among satisfied injectable users. This challenges treating stable patients as
+permanently inaccessible. Neither supplies measured conversion rates; the former
+relied partly on a quick PHVS press-release review.
+
+SHORT: The Takeda pricing/contracting director (April2025) described incumbent
+contracting strength and payer reluctance to disrupt stable patients. This supports
+access friction as a mechanism, not an automatic denial rate or permanent TAM cut.
+The expert explicitly could not quantify switching back.
+
+EXECUTION: The CSL field manager (December2024) described hub complexity, access
+frustration, and a launch waitlist; preferred streamlining access over more marketing.
+Haegarda's efficacy/safety positioning did not remove convenience competition.
+These are recollections, not causal estimates of lost sales. Some remarks concerned
+Kcentra and cannot be imported into outpatient HAE economics.
+
+MODEL IMPLICATIONS (inferences, not fitted coefficients)
+1. Separate stable/satisfied, dissatisfied and untreated/newly diagnosed patients.
+   Keep nonzero potential switching among stable patients; estimate its size later.
+2. Separate physician reach, willingness to try, prescription submission, successful
+   access/first fill, time to paid therapy and continued use. Clinical attractiveness
+   cannot substitute for evidence on each transition.
+3. Link payer access to negotiated net price and support-service execution; do not
+   independently impose overlapping access/abandonment discounts on the same loss.
+4. Historical launches need supply, pandemic and access context before their revenue
+   slopes can calibrate PHVS. A launch waitlist can confound inference about demand.
+
+WHAT THESE CALLS DO NOT ANSWER
+Exact PHVS or comparator sales headcount/territories, prescriber concentration,
+account ownership, hub service levels, paid conversion by segment, and comparative
+unit economics remain open. No direct Ekterly operations interview was recovered
+in this bounded pass. No additional uploads needed to use the four calls found.
+Next useful work: issuer launch disclosures/earnings calls and PHVS hiring evidence
+for concrete organization plans; then targeted Ekterly and hub-operator evidence
+only where the public record leaves a material gap.
+
+METHOD / BIAS CONTROL
+One focused AlphaSense Expert Insights query returned15 documents; read four full
+transcripts and biographies. All Dates. Result scope is not a library census.
+Read transcripts rather than relying on generated summaries. Generic VP titles
+were corrected to actual functions; regulatory experience is not sales ownership.
+Former-employee incentives, selection bias, mixed geographies/products and stale
+expectations limit transfer. Cross-trial superiority statements remain opinions.
+No paid commission, bulk scrape, new agent, model update or numerical calibration.
+Source dates, URLs, timecodes and claim limitations are in the evidence JSON.
+
+Former Vice President Is Bullish on BCRX's Orladeyo for the Prevention of Hereditary Angioedema Attacks Though PHVS' Deucrictibant Is a Strong Competitor
+Interview 2024-01-16; published 2024-01-18
+https://research.alpha-sense.com/search?docid=EC-011124-149794
+
+Former Sr. Director Believes TAKHZYRO Is Well-Positioned in Terms of Market Access but That New Entrants in HAE Could Be a Threat
+Interview 2025-04-30; published 2025-05-05
+https://research.alpha-sense.com/search?docid=EC-042625-184594
+
+Former VP at BioCryst Pharmaceuticals Believes ORLADEYO Could Become a Market Leader in HAE Treatment
+Interview 2022-05-25; published 2022-06-08
+https://research.alpha-sense.com/search?docid=EC-1000000-34354
+
+Former Regional Manager Believes CSL.AU's Lackluster Market Access Capabilities Are Hurting the Company
+Interview 2024-12-02; published 2024-12-11
+https://research.alpha-sense.com/search?docid=EC-112324-174325

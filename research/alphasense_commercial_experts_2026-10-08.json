@@ -1,0 +1,128 @@
+{
+  "as_of": "2026-10-08",
+  "method": {
+    "source": "AlphaSense Expert Insights, authenticated user browser",
+    "query": "(Orladeyo OR BioCryst OR Takhzyro OR KalVista) AND (commercial OR \"sales force\" OR \"market access\")",
+    "scope": "All Dates; 15 results screened, four full transcripts read, selected by role and relevance. Search proximity/settings can omit relevant documents; no KalVista result in this query is not absence from library.",
+    "storage": "Paraphrased notes only, no full licensed transcript reproduced.",
+    "agents": "None launched",
+    "validation": "Original transcript and biography inspected beyond generated Smart Summary. No external operational corroboration completed this pass."
+  },
+  "interviews": [
+    {
+      "id": "EC-011124-149794",
+      "title": "Former Vice President Is Bullish on BCRX's Orladeyo for the Prevention of Hereditary Angioedema Attacks Though PHVS' Deucrictibant Is a Strong Competitor",
+      "interview_date": "2024-01-16",
+      "published": "2024-01-18",
+      "role": "Former BioCryst VP; product design/commercialization responsibilities; field-sales or launch ownership not established",
+      "observations": [
+        [
+          "05:14\u201308:43",
+          "First-oral benefit and improved-oral competitive threat; expert acknowledges limited PHVS familiarity and quick press-release review."
+        ],
+        [
+          "10:13",
+          "COVID made launch expectations uncertain; expert viewed execution favorably."
+        ],
+        [
+          "11:27\u201312:22",
+          "Expected switching to a materially better oral if covered; expressed limited brand loyalty."
+        ]
+      ],
+      "limitations": "Opinion, not observed switching rate. Cross-trial efficacy headlines are not superiority evidence; dated 2024.",
+      "url": "https://research.alpha-sense.com/search?docid=EC-011124-149794"
+    },
+    {
+      "id": "EC-042625-184594",
+      "title": "Former Sr. Director Believes TAKHZYRO Is Well-Positioned in Terms of Market Access but That New Entrants in HAE Could Be a Threat",
+      "interview_date": "2025-04-30",
+      "published": "2025-05-05",
+      "role": "Former Takeda senior director, US rare-disease pricing/contracting and payer marketing; direct relevant access experience",
+      "observations": [
+        [
+          "09:31\u201311:20",
+          "Incumbent contracts, share and payer reluctance to disrupt stable patients can protect Takhzyro."
+        ],
+        [
+          "11:35\u201312:43",
+          "Inadequate control or route preference can create switch opportunities. General 3\u20136 month payer-review estimate is not a PHVS-specific observed lag."
+        ],
+        [
+          "12:58\u201314:17",
+          "Convenience appeals to patients; payers need clinical/economic justification."
+        ],
+        [
+          "15:19\u201315:56",
+          "Cannot quantify switching back or explain clinical reasons; some impressions from public market research."
+        ]
+      ],
+      "limitations": "No contracts, rebate sizes or measured switching denominators supplied. Does not establish a numerical access haircut.",
+      "url": "https://research.alpha-sense.com/search?docid=EC-042625-184594"
+    },
+    {
+      "id": "EC-1000000-34354",
+      "title": "Former VP at BioCryst Pharmaceuticals Believes ORLADEYO Could Become a Market Leader in HAE Treatment",
+      "interview_date": "2022-05-25",
+      "published": "2022-06-08",
+      "role": "Former BioCryst regulatory-affairs SVP, 2007\u2013April2021; not a commercial-field leader",
+      "observations": [
+        [
+          "02:26\u201304:08;14:06",
+          "Described market research exploring oral interest among patients already satisfied on injectables."
+        ],
+        [
+          "02:26",
+          "Direct commercialization versus regional partnerships selected by market."
+        ],
+        [
+          "15:05",
+          "Discussed longstanding HAE advocacy relationships."
+        ]
+      ],
+      "limitations": "Regulatory role and historical expectations. Apparent approval-date/drug-name errors in transcript; do not reuse clinical/timeline claims. No quantified study results supplied.",
+      "url": "https://research.alpha-sense.com/search?docid=EC-1000000-34354"
+    },
+    {
+      "id": "EC-112324-174325",
+      "title": "Former Regional Manager Believes CSL.AU's Lackluster Market Access Capabilities Are Hurting the Company",
+      "interview_date": "2024-12-02",
+      "published": "2024-12-11",
+      "role": "Former CSL rare-disease regional manager; seven years including Haegarda and Kcentra; South Florida office-access experience discussed",
+      "observations": [
+        [
+          "02:26",
+          "Described restricted provider access and hybrid virtual/in-person engagement."
+        ],
+        [
+          "03:19\u201305:45",
+          "Reported complicated hub processes, customer frustration and incomplete remediation. Believed service scope/resources mattered."
+        ],
+        [
+          "07:35\u201309:56",
+          "Described Takhzyro convenience/device advantages; Haegarda messaging emphasized efficacy/safety. Comparative superiority claims are unvalidated sales opinions."
+        ],
+        [
+          "13:24\u201314:27",
+          "Perceived weak coordination with contracting teams; considered streamlining access more useful than extra marketing."
+        ],
+        [
+          "14:27",
+          "Recalled competitor manufacturing disruption producing excess launch demand and a waitlist; timing/magnitude not independently verified."
+        ],
+        [
+          "17:01\u201317:32",
+          "Reported compensation/retention concerns; no turnover statistics."
+        ]
+      ],
+      "limitations": "Single former employee, mixed products and regional experience. Do not extrapolate Kcentra hospital-budget anecdotes to HAE. Hub causality, relative pricing and launch supply history need issuer/operational corroboration. Speculation on legal need for outsourcing excluded.",
+      "url": "https://research.alpha-sense.com/search?docid=EC-112324-174325"
+    }
+  ],
+  "model_status": "Qualitative mechanism evidence only; no numerical adoption assumptions changed.",
+  "remaining_gaps": [
+    "PHVS and comparator rep counts, territories, physician target lists and account ownership",
+    "Time from prescription to covered first fill, abandonment, bridge-to-paid conversion and retention by patient segment",
+    "Direct Ekterly commercial-operations interview and specialty-pharmacy/hub operator evidence",
+    "Comparable launch execution and payer claims independently checked against issuer disclosures"
+  ]
+}

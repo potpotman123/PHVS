@@ -321,6 +321,23 @@
         "models/patient_adoption/sensitivity.py",
         "models/patient_adoption/illustrative_sensitivity.json"
       ]
+    },
+    {
+      "id": "G17",
+      "logged_on": "2026-10-08",
+      "event_date": "2026-10-08",
+      "record_type": "contemporaneous",
+      "objective": "Find historical HAE commercial execution evidence beyond physician enthusiasm.",
+      "user_contribution": "Requested historical HAE comparators and explicitly authorized direct AlphaSense searches for former commercial leaders.",
+      "prompt_excerpt": "feel free to just open up alphaesense urself and search",
+      "ai_method_and_sources": "Screened15 AlphaSense Expert Insights results, read four original interviews/biographies and retained paraphrased timecoded provenance; no new agents.",
+      "snapshot": "BioCryst VP expected improved-oral switching if covered; Takeda contracting director emphasized incumbent access protection; CSL field manager described hub friction and launch waitlist. Regulatory SVP described research among satisfied injectable patients.",
+      "thesis_effect": "Preserves credible long and short mechanisms; undermines assuming either zero stable-patient switching or automatic efficacy-to-sales conversion.",
+      "limitations_and_checks": "Checked transcript versus AI summary and actual expert function. No measured adoption rates or causal validation; dated opinions, role limits, sales claims and product mixing flagged. No numerical model change.",
+      "artifacts": [
+        "research/alphasense_commercial_experts_2026-10-08.json",
+        "output/PHVS_commercial_expert_search_2026-10-08.txt"
+      ]
     }
   ]
 }

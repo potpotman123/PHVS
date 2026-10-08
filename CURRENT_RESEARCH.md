@@ -13,6 +13,8 @@ not independent investment evidence.
 
 ## Investment question
 
+8 October AlphaSense commercial search: [four-interview synthesis](output/PHVS_commercial_expert_search_2026-10-08.txt) and [timecoded evidence](research/alphasense_commercial_experts_2026-10-08.json). Former BioCryst, Takeda and CSL perspectives support competing switching/access mechanisms; CSL hub friction adds prescription-to-fill execution risk. Qualitative only: no adoption coefficients changed. Exact territories/headcount, conversion rates and Ekterly operations evidence remain open. Process log G17.
+
 8 October resumed adoption work: [segment specification and evidence mapping](models/patient_adoption/README.txt).
 Initial cohort sensitivity is illustrative only, not a calibrated forecast; national
 stocks, PHVS paid transitions, net prices and geography remain to be estimated.
