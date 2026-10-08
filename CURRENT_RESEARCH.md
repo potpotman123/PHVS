@@ -1,5 +1,16 @@
 # Current research state — 7 October 2026
 
+## GenAI process documentation — added 8 October 2026
+
+User requested ongoing documentation for a pitch competition. See
+[structured process log](research/genai_process_log.json) and
+[rubric-organized pitch notes](research/genai_pitch_notes.txt).
+Repository [working instructions](AGENTS.md) require selective updates for substantive
+research turns, crediting the user's hypotheses and pushback and recording corrections,
+validation and limitations. Backfilled events are labeled retrospective; unknown model
+settings, dates and efficiency gains are not invented. These records document method,
+not independent investment evidence.
+
 ## Investment question
 
 Latest framing: [IR/XR patient segmentation, access, interactions and historical analogue screen](output/PHVS_SOTP_patient_segmentation_framework_2026-10-07.txt). This is a research/modeling structure, not a completed TAM estimate. [Historical prophylaxis comparator analysis](output/Orladeyo_historical_comparator_delta_2026-10-07.txt) compares the launch-era clinical propositions and documents early switching concerns.

@@ -6,6 +6,10 @@ The current priority is auditing comparative clinical efficacy before using diff
 
 ## Start here
 
+[GenAI research-process log](research/genai_process_log.json) and
+[pitch-competition method notes](research/genai_pitch_notes.txt) record user guidance,
+AI contributions, corrections and limitations. Future-work instructions: [AGENTS.md](AGENTS.md).
+
 **Latest:** [IR/XR cross-trial clinical audit](output/PHVS_cross_trial_clinical_audit_2026-10-07.txt), including the FDA correction to Ekterly's placebo median and the newly recovered CHAPTER-3 protocol.
 
 1. [Current conclusions, corrections and unresolved questions](CURRENT_RESEARCH.md).

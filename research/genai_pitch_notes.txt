@@ -1,0 +1,68 @@
+PHVS — working notes for GenAI pitch-competition disclosure
+Created8 October2026. Supporting log: research/genai_process_log.json.
+These are process notes, not a final pitch or independently verified investment thesis.
+
+OVERALL FRAMING
+The investor drove the questions and challenged the assumptions. GenAI assisted
+with retrieval, cross-document synthesis, data extraction, model implementation
+and checks. Do not claim any calculation was impossible without AI. The defensible
+benefit is the breadth and iteration of a traceable workflow; time saved is unmeasured.
+Interface: Codex desktop. System identifies GPT-6 family; exact version/settings
+and historical configuration not verified. Do not invent those for a methods slide.
+
+EXAMPLE1 — CHALLENGING THE INITIAL CLINICAL SHORT (log G01/G02)
+Objective: Determine whether missing paired observations and placebo differences
+undermine efficacy, before assuming the commercial differentiation is real.
+GenAI Method & Data Source: User-originated questions drove comparisons of registry,
+CTIS, FDA and publication evidence; aggregate arithmetic and document-rule checks.
+Snapshot of GenAI Output:134 randomized reconciles to88 paired +25 single-attack
++21 without a treated attack. FDA's sebetralstat placebo median was not estimable
+under revised censoring, unlike the commonly quoted publication median.
+Interpretation & Relevance to Thesis: Initial bearish interpretations weakened.
+The useful outcome was discarding weak arguments, not manufacturing a short.
+Limitations & Bias Mitigation: Patient-level causal adjustment unavailable; do not
+claim superiority or absence of bias. Include the assistant's earlier oversimplified
+placebo comparison and its correction. Same primary source repeated is not independent
+corroboration. Evidence locations are in the log and current research state.
+
+EXAMPLE2 — USER-DRIVEN SHIFT FROM SALES FALLOFF TO P x Q (G06/G07/G08)
+Objective: Make post-generic valuation assumptions economically interpretable.
+GenAI Method & Data Source: User challenged terminal value and analogue fit, proposed
+broader aggregation and P/Q, then chose50/50. AI audited company reports, CMS data,
+pooled research and publisher appendix, and implemented a reconciled model.
+Snapshot of GenAI Output: Medicare Kuvan units-88.2% versus gross spending/unit-3.9%
+over2020–24. The decline need not come primarily from price cuts.50/50 model retains
+47.7/36.2/28.7/21.8% revenue across post-entry years1–4. Required peak sales at the
+dated$31.83snapshot rise from~1.585bn to~1.623bn under unchanged other assumptions.
+Interpretation & Relevance to Thesis: Separates mechanisms with different implications
+for switching, payer leverage and valuation; quantifies rather than exaggerates impact.
+Limitations & Bias Mitigation: Public CMS data are gross and unrepresentative of all
+patients. The implemented study P x Q is synthetic, NOT a measured average revenue
+curve. Kuvan net P is assumed flat and Q is inferred. User-selected50/50 is not an
+estimated probability. The user's competitive-HAE flat-price hypothesis remains open.
+
+EXAMPLE3 — REVERSE VALUATION AS AN EXPECTATIONS TEST (G04/G05/G09)
+Objective: Translate clinical/commercial arguments into required reimbursed sales.
+GenAI Method & Data Source: User proposed separate IR/XR SOTP and reverse DCF, supplied
+sell-side files, and challenged the IR-heavy result. AI audited source consistency,
+implemented formulas, independently recalculated cash flows and retrieved launch data.
+Snapshot of GenAI Output: Larger IR contribution follows an inherited62/38 source mix,
+not an independent TAM conclusion. PHVS IR first full-calendar128m compares with an
+Ekterly Q1annualized157m benchmark, not a verified matched first-year actual.
+Interpretation & Relevance to Thesis: Exposes what is assumed versus implied; suggests
+early IR ramp alone is insufficient evidence of excessive optimism. Later ramp,
+net price, spending, adoption and product mix still require underwriting.
+Limitations & Bias Mitigation: Single price does not uniquely identify two ramps;
+PoS, timing, fixed mix and source probability basis are conditional. Arithmetic tests
+and scenario checks do not independently validate demand or identify buy-side beliefs.
+
+PRESENTATION GUARDRAILS / NEXT CAPTURE
+Use a short user prompt beside an output snapshot and a specific resulting decision.
+Show at least one disconfirming result and one corrected assistant assumption.
+Do not present expert interviews as representative surveys or hypotheses as findings.
+No systematic multi-prompt replication experiment has been run; repeated conversational
+challenges are not such an experiment. If later performed, log prompts, source freeze,
+outputs, disagreements and resolution rather than reporting only agreement.
+Maintain source dates and label retrospective versus contemporaneous records.
+Refresh model snapshots and thesis wording before building the deck; current numbers
+are dated scenarios, not live-market claims. Keep licensed source excerpts minimal.
