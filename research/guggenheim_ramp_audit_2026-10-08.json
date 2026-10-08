@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-08",
+  "method": "First subsequent full calendar year normalized to100; global nominal reported sales. Not exact months-since-launch matching, adoption estimates, curve fitting or statistical validation. Exclude partial launch calendar year. PHVS precise launch month unknown. No currency conversion needed for within-series ratios.",
+  "series": [
+    {
+      "name": "Guggenheim IR",
+      "status": "forecast",
+      "unit": "EURm",
+      "first_calendar_year": 2028,
+      "sales": [
+        109.336,
+        219.809,
+        303.809,
+        416.439
+      ],
+      "index_first_year_100": [
+        100.0,
+        201.03991366064244,
+        277.8673081144363,
+        380.8800395112315
+      ],
+      "growth_percent": [
+        101.03991366064244,
+        38.214995746307046,
+        37.07263445125062
+      ]
+    },
+    {
+      "name": "Guggenheim XR",
+      "status": "forecast",
+      "unit": "EURm",
+      "first_calendar_year": 2029,
+      "sales": [
+        146.126,
+        220.893,
+        289.175,
+        350.867
+      ],
+      "index_first_year_100": [
+        100.0,
+        151.16611691280127,
+        197.89428301602726,
+        240.11264251399479
+      ],
+      "growth_percent": [
+        51.166116912801286,
+        30.911798925271516,
+        21.333794415146535
+      ]
+    },
+    {
+      "name": "Orladeyo",
+      "status": "observed",
+      "unit": "USDm",
+      "first_calendar_year": 2021,
+      "sales": [
+        122.6,
+        251.6,
+        326,
+        437.7
+      ],
+      "index_first_year_100": [
+        100.0,
+        205.22022838499186,
+        265.905383360522,
+        357.0146818923328
+      ],
+      "growth_percent": [
+        105.22022838499186,
+        29.570747217806037,
+        34.26380368098159
+      ]
+    },
+    {
+      "name": "Cerdelga",
+      "status": "observed",
+      "unit": "EURm",
+      "first_calendar_year": 2015,
+      "sales": [
+        66,
+        106,
+        126,
+        159
+      ],
+      "index_first_year_100": [
+        100.0,
+        160.6060606060606,
+        190.9090909090909,
+        240.9090909090909
+      ],
+      "growth_percent": [
+        60.606060606060595,
+        18.867924528301884,
+        26.190476190476186
+      ]
+    },
+    {
+      "name": "Trikafta/Kaftrio",
+      "status": "observed",
+      "unit": "USDm",
+      "first_calendar_year": 2020,
+      "sales": [
+        3863.8,
+        5697.2,
+        7687
+      ],
+      "index_first_year_100": [
+        100.0,
+        147.45069620580776,
+        198.9492209741705
+      ],
+      "growth_percent": [
+        47.45069620580775,
+        34.92592852629362
+      ]
+    }
+  ],
+  "sources": {
+    "guggenheim": "research/raw/sellside_2026-10-07/124306319.txt; September 9 2026, PDF pp1-3",
+    "orladeyo": "output/Orladeyo_launch_analogue_2026-10-07.txt and https://ir.biocryst.com/news-releases/news-release-details/biocryst-reports-fourth-quarter-and-full-year-2024-financial",
+    "cerdelga_2015": "https://www.sanofi.com/assets/dotcom/content-app/publications/annual-report-on-form-20-f/2015-01-01-form-20-f-2015-en.pdf",
+    "cerdelga_2016": "https://www.globenewswire.com/news-release/2017/02/08/914925/0/en/Sanofi-Delivers-2016-Sales-and-Business-EPS-1-Growth-at-CER-2.html",
+    "cerdelga_2017": "https://www.sanofi.com/assets/dotcom/content-app/events/quaterly-results/2017/q4-results-2017/Press_release_Q4_FY_2017.pdf",
+    "cerdelga_2018": "https://www.sanofi.com/assets/dotcom/content-app/events/quaterly-results/2018/q4-2018-en/Q42018results.pdf",
+    "trikafta_2020_21": "https://www.sec.gov/Archives/edgar/data/875320/000087532022000007/vrtx-20211231.htm",
+    "trikafta_2022": "https://investors.vrtx.com/news-releases/news-release-details/vertex-reports-fourth-quarter-and-full-year-financial-2022"
+  },
+  "late_forecast": {
+    "IR_2035_2036_EURm": [
+      765.304,
+      854.76
+    ],
+    "XR_2035_2036_EURm": [
+      495.304,
+      529.535
+    ],
+    "growth_percent": [
+      11.688949750687305,
+      6.911109137014848
+    ]
+  },
+  "limitations": [
+    "Small purposive successful-launch sample; not an unbiased distribution or confidence interval.",
+    "Geography, pricing, labels, patient eligibility and channel inventory differ.",
+    "No independently measured peak or net patient adoption.",
+    "Kuvan/Xenazine/Orfadin prior evidence concerns generic erosion, not launch.",
+    "Ekterly quarterly history is too short for this four-year comparison."
+  ]
+}

@@ -254,6 +254,23 @@
         "models/reverse_dcf/build.mjs",
         "models/reverse_dcf/README.txt"
       ]
+    },
+    {
+      "id": "G13",
+      "logged_on": "2026-10-08",
+      "event_date": "2026-10-08",
+      "record_type": "contemporaneous",
+      "objective": "Audit Guggenheim early ramp shape and distinguish inherited forecast endpoints from independent peak demand.",
+      "user_contribution": "Requested historical launch-shape audit and challenged where peak sales originate.",
+      "prompt_excerpt": "how do you even determine what peak sales looks like?",
+      "ai_method_and_sources": "Reused source broker forecasts and analogue screen, checked primary company reports, extended Cerdelga to2018 and Trikafta to2022, normalized first-full-calendar revenues and calculated growth.",
+      "snapshot": "IR index100/201/278/381 versus Orladeyo100/205/266/357; XR100/151/198/240 versus Cerdelga100/161/191/241. Guggenheim2036 still grows11.7%IR/6.9%XR.",
+      "thesis_effect": "Disconfirms an obvious early-shape anomaly; does not validate initial scale or peak. Our2036plateau is an assumption; patient/price underwriting remains necessary.",
+      "limitations_and_checks": "Successful purposive comparables, partial-year age differences, global mix and labels confound transfer. Confirmed2018Cerdelga159global versus156GBU. No fitted curve, statistical confidence, new peak estimate or workbook change.",
+      "artifacts": [
+        "output/Guggenheim_ramp_audit_2026-10-08.txt",
+        "research/guggenheim_ramp_audit_2026-10-08.json"
+      ]
     }
   ]
 }

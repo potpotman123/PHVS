@@ -13,6 +13,13 @@ not independent investment evidence.
 
 ## Investment question
 
+8 October ramp audit: [results](output/Guggenheim_ramp_audit_2026-10-08.txt) and
+[inputs/provenance](research/guggenheim_ramp_audit_2026-10-08.json). IR early shape
+resembles Orladeyo; XR resembles Cerdelga after normalization. No obvious shape
+anomaly established. Guggenheim2036 still grows11.7%IR/6.9%XR; our plateau is an
+assumption, not independently estimated peak demand. Workbook unchanged.
+
+
 8 October methodological correction: user identified that slower early adoption
 and higher later peak sales can yield the same valuation. The reverse model has
 no independently fitted S-curve; it scales a fixed Guggenheim annual path. Four-year

@@ -1,0 +1,80 @@
+Guggenheim ramp and peak-sales audit — 8 October 2026
+
+RESULT
+No clear early-shape anomaly in this bounded comparison. IR resembles Orladeyo;
+XR resembles Cerdelga. This is a plausibility check, not validation of PHVS sales,
+market share, the opening revenue level or eventual peak. Do not reject a broker
+curve merely because it differs from one analogue or because a short is preferred.
+
+METHOD
+Reused existing screened analogues and source forecasts. Extended Cerdelga through
+2018 from Sanofi and Trikafta through2022 from Vertex. Compared first subsequent
+full calendar years, excluding partial launch years. This approximates commercial
+age; launch months differ and PHVS within-year timing is unknown. Normalize each
+series to100 in its own first full calendar year to remove starting scale/currency.
+Compare growth rates as well as levels. No logistic/S-curve was statistically fit.
+
+FIRST FULL CALENDAR YEAR =100 (year4 is NOT peak)
+Series                  Years       Year1  Year2  Year3  Year4
+Guggenheim IR           2028–31       100    201    278    381
+Guggenheim XR           2029–32       100    151    198    240
+Orladeyo actual         2021–24       100    205    266    357
+Cerdelga actual         2015–18       100    161    191    241
+Trikafta/Kaftrio actual  2020–22       100    147    199    n/a
+
+IR annual growth101.0%,38.2%,37.1%; Orladeyo105.2%,29.6%,34.3%.
+XR annual growth51.2%,30.9%,21.3%; Cerdelga60.6%,18.9%,26.2%.
+Raw Cerdelga EURm66,106,126,159:2018 global franchise159, NOT156 GBU subtotal.
+Raw Orladeyo USDm122.6,251.6,326.0,437.7. Raw Trikafta USDm3863.8,5697.2,7687.
+The same four-year endpoint ratio does not prove the same intervening curve.
+
+INTERPRETATION
+XR is already more front-loaded relative to its fourth full year than Orladeyo:
+year1 is41.6% of year4 versus28.0%. Thus slower percentage growth after a strong
+first year is consistent with the existing model's higher opening XR revenue.
+IR year1 is26.3% of year4, close to Orladeyo28.0%. This removes one proposed
+critique (obviously exceptional normalized early growth), not the commercial debate.
+
+Cerdelga is a useful later-oral rare-disease comparison but its earlier oral had
+limitations, eligibility is pharmacogenetic, and Sanofi had an established franchise.
+Trikafta is only a long-case context check: expanded genotypes, pediatric labels,
+regional launches and an incumbent franchise confound a pure switching story.
+All series are global reported revenue: access/geographic expansion, net price,
+FX and stocking can move revenue without equivalent patient-adoption changes.
+The sample was purposively selected and mostly successful. It cannot establish a
+normal distribution, probability of success or optimal PHVS curve. No p-values or
+fitted confidence interval are appropriate here. Scemblix has a later-line/first-line
+label break; Ekterly lacks a four-year actual history. Prior Kuvan/Xenazine/Orfadin
+work was about generic erosion and cannot be repurposed as launch evidence.
+
+WHAT PEAK MEANS IN THE CURRENT MODEL
+Guggenheim IR2036EUR854.760m and XR2036EUR529.535m are still growing11.7% and6.9%
+versus2035. They are forecast endpoints, not demonstrated saturation. The supplied
+report does not disclose enough patient/price detail to reconstruct demand drivers.
+Our model holds these endpoints flat until assumed generic entry, scales both with
+a common valuation-solving multiplier, then applies our erosion assumptions.
+At the dated31.83spot scenario and90%/90%PoS, resulting plateaus are about
+USD1.002bnIR and0.621bnXR. These are required conditional sales, not independent
+peak-demand forecasts. Guggenheim itself reports a-5% terminal growth assumption;
+our explicit plateau/generic erosion extension is not its exact terminal method.
+
+INDEPENDENT PEAK UNDERWRITING
+XR annual revenue = sum by geography/segment of persistent paid patient-years x
+net annual revenue per paid patient. IR = residual treated attacks x PHVS share x
+paid doses per attack x net revenue per dose, plus paid inventory change/expiry
+replacement. Prevention patients retain rescue need; improved prevention reduces
+consumption, not necessarily the rescue patient count. Avoid counting free supply
+as paid treatment or one-time stocking as recurring attack demand.
+Project these flows annually with launch timing, switches, persistence, coverage,
+net price and competition. Peak is the maximum attainable annual sales within the
+commercial/exclusivity horizon; saturation need not occur before generic entry.
+Use independent demand estimates to constrain reverse-solved requirements.
+
+MODEL DECISION
+Retain source curve as one transparent reference, not a calibrated central truth.
+Do not replace it opportunistically. Next model extension should vary speed and
+peak separately for IR/XR, hold generic dates fixed, and solve required sales across
+plausible timing alternatives; test results against patient/price ceilings. No such
+frontier or new independent peak estimate is claimed completed by this audit.
+Workbook numbers are unchanged. Full inputs, formulas for normalization, limitations
+and primary-source URLs: research/guggenheim_ramp_audit_2026-10-08.json.
