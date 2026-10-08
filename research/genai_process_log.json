@@ -411,6 +411,19 @@
         "output/PHVS_conditional_thresholds_2026-10-08.txt",
         "output/PHVS_conditional_thresholds_2026-10-08.png"
       ]
+    },
+    {
+      "id": "G22",
+      "logged_on": "2026-10-08",
+      "record_type": "contemporaneous",
+      "objective": "Audit revenue comparability before empirical adoption calibration.",
+      "user_contribution": "Rejected further hypothetical thresholds as the central task; requested audit of positioning, refill rates and other revenue differences.",
+      "prompt_excerpt": "maybe they're targeting different positions, they have different refill rates",
+      "ai_method_and_sources": "Bounded primary label and issuer disclosure verification plus existing commercial architecture. See output/PHVS_revenue_comparability_audit_2026-10-08.txt.",
+      "snapshot": "XR/Orladeyo and IR/Ekterly remain relevant paired analogues; dose/pack, paid use, age, launch-era position, access/net price and geography/accounting need adjustment.",
+      "thesis_effect": "Better rescue could lower redosing while increasing share; later entrant can benefit from market education. Neither automatic short nor automatic dual-product capture.",
+      "limitations": "PHVS final commercial terms and comparative utilization unverified; no empirical adoption coefficients changed.",
+      "remaining_work": "Populate diagram using observed switching, paid persistence and IR dispensing by prophylaxis status."
     }
   ]
 }
