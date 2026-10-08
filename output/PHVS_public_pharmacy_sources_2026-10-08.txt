@@ -1,0 +1,43 @@
+PUBLIC PHARMACY / CLAIMS DISCOVERY — 8 October 2026
+
+Best new lead: published Optime Care dispensing study and its supplement.
+1,919 had >=1dispensing;1,746 had >=2;173/1,919=9.02% had one only.
+This is descriptive repeat dispensing, not abandonment or paid conversion:
+unequal follow-up, free/paid supply mixed, includes subsequently excluded patients.
+Final efficacy cohort701 selected for refill, observation, diagnosis and assessments.
+C1INH subgroup390:54.1%LTP-naive; interval attrition3.9–6.8% is selected90day
+analysis-interval discontinuation, not universal quarterly churn.
+Underlying records distinguish QuickStart, PAP and paid supply, making Optime
+an identified source for the missing aggregate paid-conversion cohort table.
+Raw data are licensed; public paper and supplement do not equal open microdata.
+
+Less obvious public operational source: state Medicaid DUR committee packets.
+OklahomaFY2024:22requests,3unique people;9approved/9incomplete/4denied.
+FY2025:12requests;6approved/5incomplete/1denied. Not drug-specific patient rates.
+These records show why incomplete requests, repeat submissions and approvals
+must be tracked separately from people and ultimate paid shipments.
+
+Rescue cross-check: ISPOR2026 IQVIA abstract reports17,652standardizedODdoses
+in2021 versus17,658in2024; LTPclaimshare64%to68%. Aggregate stable rescue
+volume despite risingLTP does not establish zero patient-level cannibalization.
+Mean14ODdoses/patient-year refers to annual OD users, not all3,647ever-treated
+people overfouryears. No national prevalence extrapolation adopted.
+
+Open government datasets: Medicaid state/NDC quarterly utilization can check
+paid-volume/geographic patterns. Medicare PartD NPI/drug/year can check prescriber
+concentration. Neither supports person-level switches or free-to-paid conversion.
+Suppression and population selection are material in HAE. No bulk download needed
+for the requested conversion question.
+
+Existing work: launch-call audit offers selected retention; Komodo499 gives pooled
+switching, not origin-destination hazards. A cost comparison requiring6/18months
+persistence and excluding comparator use cannot estimate switching incidence.
+
+Recommended next source request: deidentified aggregate Optime referral/initiation
+cohorts, prior therapy x starting payment type, first paid fill timing, paid status
+at3/6/12months, explicit follow-up/censoring. Separate an all-referral denominator
+from an all-first-shipment denominator. No outreach or paid access performed.
+
+Evidence register and exact URLs:
+research/PHVS_public_pharmacy_sources_2026-10-08.json
+No PHVS forecast coefficients or valuation changed. Benchmark links added to ledger.

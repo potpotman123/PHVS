@@ -476,6 +476,19 @@
       "thesis_effect": "Qualifies stickiness and efficacy-only adoption arguments; supports history attributes and heterogeneous refill use without inventing national rates.",
       "limitations": "Different health systems, selection, follow-up and gap definitions; nonexclusive reasons; missing package counts; industry-funded Sweden; no causal superiority claim. Arithmetic checked, not independent validation.",
       "remaining_work": "US denominator-based movement and first-paid/repeat-paid cohort conversion."
+    },
+    {
+      "id": "G27",
+      "logged_on": "2026-10-08",
+      "record_type": "contemporaneous",
+      "objective": "Find public operational data for switching and paid adoption.",
+      "user_contribution": "Challenged reliance on investor calls and requested creative public pharmacy/claims sourcing.",
+      "prompt_excerpt": "Maybe do a little more creative thinking about where you might be able to find public datasets",
+      "ai_method_and_sources": "Bounded searches of primary pharmacy/claims studies, supplements, ISPOR, Medicaid DUR and government dictionaries; recovered and visually inspected Optime supplementary cohort flow. research/PHVS_public_pharmacy_sources_2026-10-08.json",
+      "snapshot": "173/1919one-dispensing users; Oklahoma22requests from3people illustrates request/person denominator trap; Optime records paymenttype but rawdata licensed.",
+      "thesis_effect": "Adds descriptive refill and administrative evidence without inventing paid conversion; public open aggregates cannot identify patient switching.",
+      "limitations": "Censoring, payment mix, selected efficacy sample, tiny state cohort and nonindependent sponsored studies. No paid data, outreach or agents.",
+      "remaining_work": "Obtain aggregate matched Optime referral/payment cohorts or origin-destination claims table."
     }
   ]
 }

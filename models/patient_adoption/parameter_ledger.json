@@ -5,7 +5,8 @@
     "new": "research/PHVS_commercial_calibration_2026-10-08.json",
     "Axx": "research/PHVS_adoption_evidence_2026-10-07.json observations",
     "Exx": "existing AlphaSense ledgers",
-    "Fxx": "research/PHVS_adoption_flow_evidence_2026-10-08.json observations"
+    "Fxx": "research/PHVS_adoption_flow_evidence_2026-10-08.json observations",
+    "PHSx": "research/PHVS_public_pharmacy_sources_2026-10-08.json sources"
   },
   "parameters": [
     {
@@ -219,7 +220,10 @@
       ],
       "double_counting_risk": "Patient concentration is not share of new prescriptions.",
       "numerical_use": "benchmark_only",
-      "definition": "Historical top500 concentration for BioCryst-estimated HAE patient universe over 2022 Q2"
+      "definition": "Historical top500 concentration for BioCryst-estimated HAE patient universe over 2022 Q2",
+      "public_data_discovery_refs": [
+        "PHS6"
+      ]
     },
     {
       "id": "R5",
@@ -273,7 +277,12 @@
       ],
       "double_counting_risk": "Stock paid share is not conversion.",
       "numerical_use": "not_ready",
-      "definition": "Prescription-to-start conversion for Submitted PHVS prescriptions over Cohort follow-up"
+      "definition": "Prescription-to-start conversion for Submitted PHVS prescriptions over Cohort follow-up",
+      "public_data_discovery_refs": [
+        "PHS1",
+        "PHS2",
+        "PHS3"
+      ]
     },
     {
       "id": "X2",
@@ -303,7 +312,11 @@
       ],
       "double_counting_risk": "Do not also reduce starts for same delay.",
       "numerical_use": "benchmark_only",
-      "definition": "Time to first paid supply for Orladeyo new prescriptions over Historical launch"
+      "definition": "Time to first paid supply for Orladeyo new prescriptions over Historical launch",
+      "public_data_discovery_refs": [
+        "PHS2",
+        "PHS3"
+      ]
     },
     {
       "id": "X3",
@@ -330,7 +343,10 @@
       ],
       "double_counting_risk": "Conversion not a new patient.",
       "numerical_use": "not_ready",
-      "definition": "Free-to-paid conversion for PHVS free/bridge starters over Months since start"
+      "definition": "Free-to-paid conversion for PHVS free/bridge starters over Months since start",
+      "public_data_discovery_refs": [
+        "PHS1"
+      ]
     },
     {
       "id": "X4",
@@ -500,7 +516,10 @@
       ],
       "double_counting_risk": "Not50% of all starts.",
       "numerical_use": "benchmark_only",
-      "definition": "Early timing of discontinuation for Orladeyo discontinuers over By first2 shipments"
+      "definition": "Early timing of discontinuation for Orladeyo discontinuers over By first2 shipments",
+      "public_data_discovery_refs": [
+        "PHS1"
+      ]
     },
     {
       "id": "T6",
@@ -557,6 +576,9 @@
       "supplemental_historical_benchmarks": [
         "F02",
         "F05"
+      ],
+      "public_data_discovery_refs": [
+        "PHS4"
       ]
     },
     {

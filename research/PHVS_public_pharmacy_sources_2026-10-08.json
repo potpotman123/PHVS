@@ -1,0 +1,127 @@
+{
+  "as_of": "2026-10-08",
+  "scope": "Bounded discovery of public pharmacy/claims and administrative records; no paid access or outreach.",
+  "sources": {
+    "PHS1": {
+      "url": "https://link.springer.com/article/10.1186/s13223-025-01005-x",
+      "title": "Attack rate reductions following berotralstat initiation among US patients with hereditary angioedema in the real-world",
+      "published": "2026-01-25",
+      "owner": "Optime Care; study uses licensed data, not open microdata",
+      "supplement_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs13223-025-01005-x/MediaObjects/13223_2025_1005_MOESM1_ESM.docx",
+      "local": "research/raw/pharmacy_discovery_2026-10-08/optime_supplement.docx",
+      "location": "Supplementary Figure1 visually inspected; main Methods and Results",
+      "period": "2020-12-15 to2024-01-08",
+      "observed": {
+        "at_least_one_dispensing": 1919,
+        "at_least_two": 1746,
+        "one_only": 173,
+        "final_C1INH_cohort": 390,
+        "final_normal_C1INH_cohort": 311,
+        "C1INH_LTP_naive_percent": 54.1,
+        "C1INH_interval_discontinuation_percent_range": [
+          3.9,
+          6.8
+        ]
+      },
+      "derived": {
+        "one_only_fraction": 0.09015112037519542,
+        "at_least_two_fraction": 0.9098488796248045
+      },
+      "exclusions": "After >=2dispensings and primaryD84.1,462excluded with overlapping reasons:343<90dayfollow-up,112prelaunch/EAP,32QuickStart-only withnormalC1INH,7age<12. Further158missingassessments and368undeterminedtype.",
+      "limitations": "Crude second-fill fraction mixes follow-up lengths and payment types, includes patients later excluded; no written-Rx denominator. Interval attrition is selected, not national paid survival. Prior treatment self-reported with unreliable timing. Supplement footnote says100QuickStart nontransitioners but starting QuickStart denominator not provided; do not use as conversion probability.",
+      "model_use": "Historical first-to-second dispensing benchmark; owner identified for matched paid cohorts."
+    },
+    "PHS2": {
+      "url": "https://oklahoma.gov/content/dam/ok/en/okhca/docs/about/boards-and-committees/dur/2024/november/11132024%20DUR%20Packet.pdf",
+      "location": "PDFpage132, HAE PA table",
+      "period": "FY2024",
+      "observed": {
+        "requests": 22,
+        "unique_members": 3,
+        "approved": 9,
+        "incomplete": 9,
+        "denied": 4
+      },
+      "model_use": "Administrative rework and incomplete-state evidence; request outcomes not patient conversion, repeated requests/renewals possible; allHAEdrugs, tiny state sample."
+    },
+    "PHS3": {
+      "url": "https://oklahoma.gov/content/dam/ok/en/okhca/docs/about/boards-and-committees/dur/2025/october/10082025%20DUR%20Packet.pdf",
+      "location": "PDFpage248, HAE PA table",
+      "period": "FY2025",
+      "observed": {
+        "requests": 12,
+        "approved": 6,
+        "incomplete": 5,
+        "denied": 1
+      },
+      "model_use": "Request-level corroboration only. No linkage to ultimate paid fill or prior drug."
+    },
+    "PHS4": {
+      "url": "https://www.ispor.org/heor-resources/presentations-database/presentation-cti/ispor-2026/poster-session-2-4/recent-trends-in-on-demand-treatment-prescriptions-for-hereditary-angioedema-a-us-claims-database-analysis",
+      "title": "Recent trends in on-demand treatment prescriptions for HAE",
+      "period": "2021-2024",
+      "owner": "IQVIA PharMetrics Plus; KalVista-associated analysis",
+      "observed": {
+        "unique_ever_OD_or_LTP": 3647,
+        "unique_ever_OD": 3024,
+        "OD_standardized_doses_2021": 17652,
+        "OD_standardized_doses_2024": 17658,
+        "reported_mean_annual_OD_doses_per_patient": 14.0,
+        "LTP_claim_share_2021": 0.64,
+        "LTP_claim_share_2024": 0.68
+      },
+      "limitations": "Abstract-derived; annual patients differ from4yearunique count. Standardized dose mixes vial/syringe assumptions, not attacks. No Ekterly-era demand. No paired switching/paid-conversion. National prevalence extrapolation not adopted; PDF text garbled."
+    },
+    "PHS5": {
+      "url": "https://data.medicaid.gov/dataset/d890d3a9-6b00-43fd-8b31-fcba4c8e2909",
+      "type": "Open aggregate State Drug Utilization Data",
+      "capability": "Quarterly state/NDC units,Rx,reimbursement; test geographic volumes",
+      "limitation": "No longitudinal patient ID, small-cell suppression, paid claims only, no free supply or prescription abandonment."
+    },
+    "PHS6": {
+      "url": "https://data.cms.gov/sites/default/files/2024-06/MUP_DPR_RY24_20240510_Methodology_508.pdf",
+      "type": "Open aggregate Medicare PartD prescriber data",
+      "capability": "NPI/drug/year fills and prescriber concentration",
+      "limitation": "Small-cell suppression<11claims; original/refills combined; selected Medicare population; cannot identify patient switches."
+    }
+  },
+  "existing_evidence_reused": [
+    "research/PHVS_adoption_evidence_2026-10-07.json S2/S4",
+    "output/BioCryst_launch_archive_first_pass_2026-10-08.txt"
+  ],
+  "priorities": [
+    "Optime deidentified aggregate cohort tabulation: allnewreferrals and firstdispensings, priorLTP, initialpaymenttype, time-to-paid, repeatpaidat3/6/12m, explicitcensoring",
+    "US claims origin-to-destination matrix with at-risk patientmonths; do not exclude switchers or require futurepersistence",
+    "StateDUR annual committee records for administrativefriction, not a poolednationalconversion rate"
+  ],
+  "negative_findings": [
+    "No unrestricted patient-level US HAE pharmacy dataset recovered.",
+    "No denominator-matched prior-therapy to firstpaid to paidretention table recovered.",
+    "MarketScan cost paper PMC11963383 requires6/18monthpersistence and excludesotherdruguse; unsuitable forestimating switching/persistence.",
+    "Existing Komodo499study reports pooled56switches, no origin-destination annual probabilities.",
+    "Public aggregate data cannot repair missing patient linkage."
+  ],
+  "next_data_specification": {
+    "unit": "Unique person, with separately reported requests",
+    "time": "Initiation quarter; >=12m potential followup or censoring-adjusted survival",
+    "strata": [
+      "priorOrladeyo",
+      "priorTakhzyro",
+      "priorHaegarda",
+      "otherLTP",
+      "noLTP",
+      "HAEtype",
+      "initialfree_or_paid"
+    ],
+    "outcomes": [
+      "newreferral",
+      "firstshipment",
+      "firstpaidshipment",
+      "paidat3_6_12m",
+      "timepaid",
+      "abandoned",
+      "switchdestination"
+    ],
+    "access": "Request only aggregate deidentified results; no contact or purchase made."
+  }
+}
