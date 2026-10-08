@@ -13,6 +13,9 @@ not independent investment evidence.
 
 ## Investment question
 
+8 October redosing expert follow-up: [note](output/PHVS_redosing_expert_followup_2026-10-08.txt). Supplied June25doctor discussed single-capsule results but called comparable tosebetralstat; management emphasizes pricing/payer value. Final465attack RAPIDe2poster supports low repeat use, not independent head-to-head gap. No model changes. ProcessG25.
+
+
 8 October redosing audit: [note](output/PHVS_redosing_audit_2026-10-08.txt), [arithmetic](output/PHVS_redosing_arithmetic_2026-10-08.json). Matched12h observed PHVS17%vsEkterly38% implies15.2%conditional dose-volume gap, not a proven sales haircut. Long-term Ekterly19.3%is a median trend summary, not pooled average; mixed-dose PHVS extension also not directly comparable. No model coefficients changed. Process G24.
 
 

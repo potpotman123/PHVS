@@ -450,6 +450,19 @@
       "thesis_effect": "Supports potential lower consumption but weakens permanent haircut based on pivotal comparison; no numeric model change.",
       "limitations": "Cross-trial rule/population differences; extension selection/mixed doses; prices and paid replenishment unknown; local visualPDFretrieval failed, text sources inspected.",
       "remaining_work": "Matched-window dose totals and paid dispensing by prevention status."
+    },
+    {
+      "id": "G25",
+      "logged_on": "2026-10-08",
+      "record_type": "contemporaneous",
+      "objective": "Check whether experts and calls independently corroborate repeat-dose advantage.",
+      "user_contribution": "Asked to push clinical consumption observation using expert/call evidence.",
+      "prompt_excerpt": "did they ever talk about this repeat dosing thing?",
+      "ai_method_and_sources": "Searched five supplied transcripts and saved notes; followed public management and primary extension-poster leads. See output/PHVS_redosing_expert_followup_2026-10-08.txt.",
+      "snapshot": "June25expert directly discussed83%single-capsule result but called comparable tosebetralstat. FinalRAPIDe2:63/457nonrescueattacks two doses;8rescueattack dose splitunknown. Management explicitly links single-dose value topricing/payers.",
+      "thesis_effect": "Absolute low PHVSredosing strengthened; independent proof of large comparative gap remains absent. Fewer units can improve payer value and offset via price/access.",
+      "limitations": "Management testimony not payer contracts; third-party transcript comparator anomaly; extension overlaps prior data,19patients,mixed doses; no freshAlphaSenselibrarysearch.",
+      "remaining_work": "Matched20mgcomparative utilization and actual pricing/access."
     }
   ]
 }
