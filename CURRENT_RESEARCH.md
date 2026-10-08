@@ -13,6 +13,8 @@ not independent investment evidence.
 
 ## Investment question
 
+Patient-adoption architecture: read [canonical design and handoff](models/patient_adoption/ARCHITECTURE.txt) first. Includes new diagnoses/untreated patients, XR cohorts, IR inventory and replenishment, access states, commercial parameter mapping and accounting rules. Expanded design is documented, not yet implemented or calibrated.
+
 8 October user BioCryst archive: [bounded first-pass extraction](output/BioCryst_launch_archive_first_pass_2026-10-08.txt),23 PDFs indexed locally with hash manifest. Recovered planned30–50US reps, top200 access relationships, broader-prescriber contribution and conditional switcher retention. Management disclosures require denominator matching; no adoption coefficients changed. Process log G18.
 
 8 October AlphaSense commercial search: [four-interview synthesis](output/PHVS_commercial_expert_search_2026-10-08.txt) and [timecoded evidence](research/alphasense_commercial_experts_2026-10-08.json). Former BioCryst, Takeda and CSL perspectives support competing switching/access mechanisms; CSL hub friction adds prescription-to-fill execution risk. Qualitative only: no adoption coefficients changed. Exact territories/headcount, conversion rates and Ekterly operations evidence remain open. Process log G17.

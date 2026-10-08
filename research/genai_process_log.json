@@ -354,6 +354,23 @@
         "research/biocryst_archive_manifest_2026-10-08.json",
         "output/BioCryst_launch_archive_first_pass_2026-10-08.txt"
       ]
+    },
+    {
+      "id": "G19",
+      "logged_on": "2026-10-08",
+      "event_date": "2026-10-08",
+      "record_type": "contemporaneous",
+      "objective": "Make expanded adoption architecture discoverable by the next research pass.",
+      "user_contribution": "Requested confirmation that model architecture is durably saved before calibration.",
+      "ai_method_and_sources": "Inspected existing README and implementation status; consolidated discussed flow into canonical architecture and linked entry points.",
+      "snapshot": "New diagnosis reservoir, mutually exclusive prevention states, overlapping rescue attributes, paid/free transitions, cohort revenue and commercial parameter mapping saved.",
+      "thesis_effect": "No numerical change; prevents omitted entrants and IR/XR or access double counting.",
+      "limitations_and_checks": "Design specification only; existing executable remains a hypothetical sensitivity. No national calibration or new evidence collection.",
+      "artifacts": [
+        "models/patient_adoption/ARCHITECTURE.txt",
+        "models/patient_adoption/README.txt",
+        "CURRENT_RESEARCH.md"
+      ]
     }
   ]
 }

@@ -1,3 +1,6 @@
+START HERE: ARCHITECTURE.txt is the canonical expanded patient-flow design and
+research handoff. The executable sensitivity remains illustrative only.
+
 Patient adoption build — resumed 8 October 2026
 
 Question: can incremental clinical benefit, tolerability and convenience generate

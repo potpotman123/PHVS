@@ -1,0 +1,126 @@
+PHVS patient-adoption architecture — canonical design / research handoff
+Updated 8 October 2026
+
+STATUS
+This is the agreed working design to investigate and calibrate, not an implemented
+or validated national forecast. README.txt maps existing evidence. sensitivity.py
+implements only the explicitly hypothetical closed-cohort example. Do not mistake
+its assumed rates for calibrated inputs or claim the expanded model already runs.
+
+SCOPE
+US patients first; monthly transitions, annual revenue aggregation. IR = deucrictibant
+on-demand; XR = deucrictibant prophylaxis. Worldwide DCF requires a separately
+identified ex-US build and territorial economics. No automatic US-to-world scaling.
+
+COMBINED FLOW
+Undiagnosed HAE reservoir
+  -> new diagnoses -> diagnosed treatment states below
+Existing diagnosed patients --------------------------------------+
+                                                                 |
+  [Orladeyo | injectable prevention | other prevention |           |
+   rescue-only without prevention | no current active treatment] <-+
+  -> assess prevention eligibility / unmet need / preferences
+  -> clinician reach and discussion
+  -> consideration -> prescription -> treatment initiation
+                                |            |
+                                |            +-> bridge/free -> paid or discontinued
+                                +-> delayed / denied / abandoned
+  -> paid XR patient-months -> retained / discontinued / switched
+                                      -> other states or later reattempt
+
+Across ALL prevention states, including XR and no prevention:
+  current rescue regimen + residual attack burden
+  -> rescue discussion/choice -> IR prescription/access
+  -> initial supply -> paid replenishment / replacement / discontinuation
+
+Eligibility can differ between prevention and rescue. Diagnosis does not imply
+immediate treatment, PHVS eligibility or PHVS capture. First-time therapy in an
+already diagnosed person is not a new diagnosis. Add new entrants once only.
+
+PATIENT STATES AND ATTRIBUTES
+Maintain mutually exclusive primary prevention states at each month-end:
+Orladeyo; injectable prevention (split by drug if data permit); other prevention;
+no prevention; PHVS XR. Keep unknown status explicit. Subdivide no prevention
+into rescue-only and no active treatment for reporting. Separately track rescue
+regimen, including PHVS IR, competitor, multiple rescue products, none or unknown.
+These rescue attributes overlap prevention; never sum IR and XR users as unique
+patients. Short switching overlaps may be allowed explicitly, not silently counted
+twice as full preventive patient-months.
+
+Within states, clinical control, tolerability, route burden and satisfaction are
+attributes, not additive populations. Use joint cells or a documented hierarchy.
+Track treatment vintage, paid/free status and prior treatment for cohort analysis.
+Start with a coarse segmentation; only add cells supported by consequential evidence.
+
+XR TRANSITIONS / REVENUE
+For eligible source group g at month t, a conditional funnel can be:
+Rx[g,t] = N_eligible[g,t] * reach[g,t] * discussion_given_reach[g,t]
+          * prescription_given_discussion[g,t].
+If an observed composite prescription/adoption rate is used, omit its component
+multipliers. Apply access and start probabilities with appropriate lags to these
+prescription cohorts; do not apply paid-stock share as a conversion probability.
+Use pending, free-start and paid-start states so a later free-to-paid conversion is
+not another new patient. Record rejection, abandonment and reattempt separately.
+
+PaidActive[t] = PaidActive[t-1] + DirectPaidStarts[t] + FreeToPaid[t]
+                + PaidReturns[t] - Discontinuations[t] - PaidToFree[t] - OtherExits[t].
+Terms must be mutually exclusive; entrants remove patients from their prior state.
+Use cohort age-dependent discontinuation: initiation hazards versus mature hazards.
+Deaths/other exits and diagnosis inflows maintain population accounting if material.
+
+XR annual revenue = sum(monthly paid patient-equivalents * monthly net price).
+Use average exposure within each month or explicit start timing, not year-end
+patients multiplied by full-year price. Net pricing and free supply must have
+consistent definitions; do not discount the same free product twice.
+
+IR DISPENSING / REVENUE
+IR annual revenue = sum(paid packs dispensed * net revenue per pack).
+Separate initial stocking from repeat dispensing. A demand-based implementation
+can use attacks * proportion treated * PHVS share of treated attacks * units per
+attack, linked to inventory and pack size; consumption alone is not paid shipments.
+Inventory_end = inventory_start + units supplied - units consumed - units expired.
+Alternatively use observed packs/patient as a composite dispensing benchmark;
+do not add consumption-based replenishment to it again. Replacement from expiration
+is an explicit assumption until supported. Carrying rescue does not require frequent
+attacks. Track free packs separately from paid packs and align revenue recognition.
+
+IR/XR LINK
+Prevention influences residual attacks and thus replenishment, not automatically
+rescue possession. PHVS XR users can choose competing rescue; other-prevention
+users can choose PHVS IR. Same-drug dual use depends on evidence/label and preferences.
+Do not assume full cross-selling or one-for-one cannibalization. Joint transition
+rules should keep diagnoses, unique patients and total rescue demand reconciled.
+
+COMMERCIAL EXECUTION -> MODEL PARAMETER
+Targeting / territories -> reachable practices and patient exposure.
+Prescriber activation / repeat prescribing -> initiation timing and depth.
+Messaging / differentiation -> consideration and prescription conditional on reach.
+Hub / field access -> time to start, authorization completion and abandonment.
+Contracting -> access and net price jointly.
+Onboarding -> early persistence; refill support -> ongoing dispensing.
+Diagnosis / referrals -> inflows, with lags and separate PHVS capture.
+Choose either explicit physician-level reach or a composite observed adoption rate;
+do not layer both. No arbitrary additional execution haircut.
+
+CALIBRATION AND CHECKS
+For every parameter record definition, units, population, period, numerator,
+denominator, source/page, observed/derived/proxy/assumed/unknown label, range and
+transferability. Source mix != switch rate; paid share != approval probability;
+survey preference != adoption; selected switcher persistence != switching odds.
+Aggregate first by cohort/source, then reconcile active/paid/free patient stocks,
+starts/exits and revenue. Compare historical model outputs with withheld periods
+where possible; arithmetic reconciliation is not independent demand validation.
+Keep access, price, persistence and IR/XR overlap dependencies explicit. Use scenarios
+until ranges are defensible; defer Monte Carlo distributions and fitting.
+
+FIRST RESEARCH TASK / FILE MAP
+1. Read this file and README.txt before calibration or further architecture changes.
+2. Read research/PHVS_adoption_evidence_2026-10-07.json and existing AlphaSense evidence.
+3. Read output/BioCryst_launch_archive_first_pass_2026-10-08.txt and the source manifest;
+   extend historical extraction before duplicating external searches.
+4. Read output/PHVS_commercial_expert_search_2026-10-08.txt for competing mechanisms.
+5. Build aligned US treatment stocks, historical initiation/access/persistence ranges,
+   and PHVS readiness evidence. Keep missing originating denominators unknown.
+6. Implement monthly transitions only after definitions and minimum inputs reconcile.
+Compare resulting sales to reverse-DCF requirements on matched geography, launch age
+and success/probability basis. One broker trajectory is not consensus.
