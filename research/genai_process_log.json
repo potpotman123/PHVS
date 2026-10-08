@@ -271,6 +271,39 @@
         "output/Guggenheim_ramp_audit_2026-10-08.txt",
         "research/guggenheim_ramp_audit_2026-10-08.json"
       ]
+    },
+    {
+      "id": "G14",
+      "logged_on": "2026-10-08",
+      "event_date": "2026-10-08",
+      "record_type": "contemporaneous",
+      "objective": "Test ultimate forecast revenue height against mature same-disease injectables.",
+      "user_contribution": "Redirected comparator work to longer HAE injectable histories before building patient demand.",
+      "prompt_excerpt": "compare to historical injectables in HAE",
+      "ai_method_and_sources": "Reconstructed TakedaFY2019\u201325 brand sales and FX from four issuer reports; checked ViroPharma/Shire history and CSL standalone Haegarda disclosure; distinguished observed highs from lifetime peaks.",
+      "snapshot": "Takhzyro~627m to1493m USD overFY2019\u201325; GuggenheimXR2036~614m versus Cinryze2017~699m and HaegardaFY2025 490m. IR~992m versus Firazyr2017 663m.",
+      "thesis_effect": "Disconfirms an unprecedented XR height claim; IR requires relatively more historical expansion. Competition/destocking challenge a smooth permanent plateau.",
+      "limitations_and_checks": "Period-average FX translations derived, fiscal versus calendar years and geography differ; historical nominal dollars not inflation-adjusted; historical peak not fully certified, no causal switching estimate or workbook change.",
+      "artifacts": [
+        "research/hae_injectable_revenue_audit_2026-10-08.json",
+        "output/HAE_injectable_revenue_audit_2026-10-08.txt"
+      ]
+    },
+    {
+      "id": "G15",
+      "logged_on": "2026-10-08",
+      "event_date": "2026-10-08",
+      "record_type": "contemporaneous",
+      "objective": "Interpret injectable benchmarks without overstating consensus or FX comparability.",
+      "user_contribution": "Questioned historical versus current exchange rates and clarified the goal of aggregated Street ramp expectations.",
+      "ai_method_and_sources": "Synthesized saved broker forecasts and primary-source injectable histories; separated curve speed, endpoint size, persistence and broker-versus-market identification.",
+      "snapshot": "XR height is historically plausible; IR endpoint requires a larger franchise than recovered Firazyr2017 benchmark. Historical period-average FX supports nominal USD scale, not constant-currency demand growth. One Guggenheim trajectory is not consensus.",
+      "thesis_effect": "Historical evidence does not establish a short based on an implausible ramp; sustained competitive share and late-stage durability remain key tests.",
+      "limitations_and_checks": "No new consensus extraction, statistical fit or currency-neutral launch series claimed. Aggregate broker comparison must standardize probability weighting, geography, currency and launch dates; stock reverse solve remains underdetermined.",
+      "artifacts": [
+        "research/hae_injectable_revenue_audit_2026-10-08.json",
+        "output/HAE_injectable_revenue_audit_2026-10-08.txt"
+      ]
     }
   ]
 }

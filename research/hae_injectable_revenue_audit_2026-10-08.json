@@ -1,0 +1,158 @@
+{
+  "date": "2026-10-08",
+  "sources": {
+    "takeda2019": "https://assets-dam.takeda.com/raw/upload/v1675192495/legacy-dotcom/siteassets/system/investors/quarterly-announcements/fy2019/qr2019_q4_d_en.pdf",
+    "takeda2021": "https://assets-dam.takeda.com/raw/upload/v1662727332/legacy-dotcom/siteassets/system/investors/report/quarterlyannouncements/fy2021/qr2021_q4_qfr_en.pdf",
+    "takeda2023": "https://assets-dam.takeda.com/image/upload/v1715219694/Global/Investor/Financial-Results/FY2023/Q4/qr2023_q4_f_en.pdf",
+    "takeda2025": "https://assets-dam.takeda.com/image/upload/v1780626052/Global/Investor/Financial-Results/FY2025/Q4_0605/qr2025_q4_qfr_en_20260605.pdf",
+    "viro2009_2010": "https://www.sec.gov/Archives/edgar/data/946840/000119312511045119/d10k.htm",
+    "viro2012US": "https://www.takeda.com/newsroom/shire-news-releases/2013/shire-to-acquire-viropharma/",
+    "shire2014": "https://www.takeda.com/newsroom/shire-news-releases/2015/shire-delivers-record-revenues-and-non-gaap-earnings-per-ads-in-2014-and-enters-2015-with/",
+    "shire2017": "https://assets-dam.takeda.com/image/upload/v1687364168/Global/Investor/Legacy-Shire/2017/FY2017_Q4_Press_Release.pdf",
+    "shire2018": "https://www.sec.gov/Archives/edgar/data/1395064/000119312519041569/d657624d6k.htm",
+    "csl2025presentation": "https://company-announcements.afr.com/asx/csl/30260eed-7c7c-11f0-a14a-aaf2b0bbb5d6.pdf",
+    "csl2025release": "https://investors.csl.com/pdf/56bf77f4-8eff-40ff-bb67-c890e3a3476e/CSL-FY25-Results-and-Major-Strategic-Initiatives.pdf?Platform=ListPage",
+    "takeda2025Q3": "https://assets-dam.takeda.com/image/upload/v1769652878/Global/Investor/Financial-Results/FY2025/Q3/qr2025_q3_p01_en.pdf"
+  },
+  "takhzyro_global": [
+    {
+      "fiscal_year": 2019,
+      "period_end": "2020-03-31",
+      "sales_JPYbn": 68.3,
+      "JPY_per_USD": 109,
+      "derived_USDm": 626.605504587156
+    },
+    {
+      "fiscal_year": 2020,
+      "period_end": "2021-03-31",
+      "sales_JPYbn": 86.718,
+      "JPY_per_USD": 106,
+      "derived_USDm": 818.0943396226415
+    },
+    {
+      "fiscal_year": 2021,
+      "period_end": "2022-03-31",
+      "sales_JPYbn": 103.242,
+      "JPY_per_USD": 112,
+      "derived_USDm": 921.8035714285714
+    },
+    {
+      "fiscal_year": 2022,
+      "period_end": "2023-03-31",
+      "sales_JPYbn": 151.8,
+      "JPY_per_USD": 137,
+      "derived_USDm": 1108.029197080292
+    },
+    {
+      "fiscal_year": 2023,
+      "period_end": "2024-03-31",
+      "sales_JPYbn": 178.7,
+      "JPY_per_USD": 144,
+      "derived_USDm": 1240.9722222222222
+    },
+    {
+      "fiscal_year": 2024,
+      "period_end": "2025-03-31",
+      "sales_JPYbn": 223.2,
+      "JPY_per_USD": 152,
+      "derived_USDm": 1468.421052631579
+    },
+    {
+      "fiscal_year": 2025,
+      "period_end": "2026-03-31",
+      "sales_JPYbn": 223.9,
+      "JPY_per_USD": 150,
+      "derived_USDm": 1492.6666666666667
+    }
+  ],
+  "cinryze_selected_observations": [
+    {
+      "year": 2009,
+      "USDm": 97.3,
+      "geography": "US"
+    },
+    {
+      "year": 2010,
+      "USDm": 176.8,
+      "geography": "US"
+    },
+    {
+      "year": 2012,
+      "USDm": 321,
+      "geography": "US"
+    },
+    {
+      "year": 2014,
+      "USDm": 503,
+      "geography": "Shire reported global; acquisition January2014"
+    },
+    {
+      "year": 2016,
+      "USDm": 680.2,
+      "geography": "global; inherited prior verified Shire evidence"
+    },
+    {
+      "year": 2017,
+      "USDm": 699,
+      "geography": "global; rounded company release"
+    },
+    {
+      "fiscal_year": 2019,
+      "JPYbn": 24.3,
+      "derived_USDm": 222.93577981651376,
+      "geography": "global"
+    },
+    {
+      "fiscal_year": 2025,
+      "JPYbn": 13.3,
+      "derived_USDm": 88.66666666666667,
+      "geography": "global"
+    }
+  ],
+  "firazyr_selected_global": [
+    {
+      "year": 2014,
+      "USDm": 364
+    },
+    {
+      "year": 2017,
+      "USDm": 663
+    },
+    {
+      "fiscal_year": 2019,
+      "JPYbn": 32.7,
+      "derived_USDm": 300.00000000000006
+    },
+    {
+      "fiscal_year": 2025,
+      "JPYbn": 16,
+      "derived_USDm": 106.66666666666667
+    }
+  ],
+  "haegarda": {
+    "fiscal_year": 2025,
+    "period_end": "2025-06-30",
+    "reported_product_sales_USDm": 490,
+    "growth": "stable; CSL company narrative; not inferred prior-year actual",
+    "source_page": 30
+  },
+  "comparison": {
+    "Guggenheim_XR_2036_USDm_at_1_16": 614.2606,
+    "Guggenheim_IR_2036_USDm_at_1_16": 991.5215999999999,
+    "XR_to_Takhzyro_FY2025": 0.4115189370254577,
+    "XR_to_Cinryze_2017": 0.8787705293276108,
+    "XR_to_Haegarda_FY2025": 1.2535930612244897,
+    "IR_to_Firazyr_2017": 1.4955076923076922
+  },
+  "limitations": [
+    "Historical revenue achieved is not a confirmed lifetime peak.",
+    "Takeda fiscal years end next March; annual JPY sales divided by rounded reported period-average JPY/USD. These USD values are derived approximations, not constant-currency growth or official USD product accounts.",
+    "Historical nominal dollars versus forecast2036 dollars; no inflation or net-price normalization.",
+    "Cinryze earlier US figures and later global figures not a homogeneous geographic series.",
+    "Haegarda standalone older annual series not reconstructed; no reverse calculation of history from rounded growth.",
+    "Do not sum product highs across different years or attribute all incumbent losses to one competitor.",
+    "Company commentary documents competition/destocking; does not causally quantify switches.",
+    "Takeda acquisition makes FY2018 reported comparison partial ownership; excluded from full-year launch ramp.",
+    "No patient-model or workbook changes."
+  ]
+}

@@ -1,0 +1,28 @@
+HAE injectable revenue-height audit — 8 October 2026
+
+RESULT: XR2036 forecast ~USD614m is below historical sales achieved by Takhzyro and Cinryze, and above FY2025 Haegarda490m. Absolute XR height is not unprecedented in HAE. IR2036~USD992m is about1.50x Firazyr2017 sales663m; requires more explanation, not automatically impossible. These compare Guggenheim unscaled endpoints, not reverse-solved plateaus.
+
+TAKHZYRO global annual sales; FY runs April–following March. USD is derived using company period-average FX, rounded:
+FY2019: JPY68.300bn / 109 JPY per USD = USD626.6m
+FY2020: JPY86.718bn / 106 JPY per USD = USD818.1m
+FY2021: JPY103.242bn / 112 JPY per USD = USD921.8m
+FY2022: JPY151.800bn / 137 JPY per USD = USD1108.0m
+FY2023: JPY178.700bn / 144 JPY per USD = USD1241.0m
+FY2024: JPY223.200bn / 152 JPY per USD = USD1468.4m
+FY2025: JPY223.900bn / 150 JPY per USD = USD1492.7m
+
+Seven full fiscal years show growth to~USD1.5bn, with FY2025 almost flat in reported yen (+0.3%). This is recent flattening, not proof of a permanent peak. FY2025 US sales fell6.4% in reported yen while Europe/Canada and growth/emerging markets grew; global totals can conceal regional dynamics. Takeda January2026 presentation discusses emerging competitive headwinds (company interpretation).
+
+CINRYZE: selected anchors US2009 97.3m,2010 176.8m,2012 321m; Shire-reported global2014~503m,2017~699m; Takeda globalFY2019JPY24.3bn (~223m USD),FY2025JPY13.3bn (~89m USD). About nine launch calendar years to the2017 high in these observations. Do not call it natural saturation: Shire reports2017 supply constraints,2018 competition and significant Q4destocking. Later decline illustrates displacement risk; not a calibrated PHVS erosion forecast.
+
+FIRAZYR: global2014~364m,2017~663m,then TakedaFY2019JPY32.7bn (~300m USD),FY2025JPY16bn (~107m USD). Closest mature injectable benchmark for IR.2017 is a recovered high benchmark, not a certified lifetime peak. Full decomposition of generic entry, prevention reducing attacks, competition and inventory not performed.
+
+HAEGARDA: CSLFY2025(endJune2025)490m USD; company describes stable sales as competition increased. Direct brand disclosure avoids using all specialty-product revenue as HAE sales. Older standalone time series not reconstructed in this bounded pass; no fitted plateau implied.
+
+INTERPRETATION: same-disease mature prevention analogues weaken a simple XR absolute-height short. They do not establish the share left for a late entrant, willingness to switch or paid net price. Nor should their historical highs be added into a market total: product competition, overlapping patient demand, different years and geography matter.
+
+CURRENT MODEL IMPLICATION: retain separate questions of opening scale, ramp speed, ultimate share and commercial duration. Source XR grows to614m over2028–36; source IR to992m over2027–36. Both still grow at endpoint. No automatic PHVS plateau date can be imported from the injectable histories. Patient demand model and ramp-speed/peak frontier remain required.
+
+METHOD/LIMITS: reviewed existing evidence, primary issuer reports/SEC and company presentation. Four Takeda reports reconstruct2019–25 full-year global series and FX; partial ownershipFY2018 excluded. Approximate USD conversions, nominal-dollar vintages, age/geography expansions and inventory confound comparisons. Findings enter analogue/sensitivity context, not independently calibrated adoption rates. Workbook unchanged.
+
+Sources and numerical provenance: research/hae_injectable_revenue_audit_2026-10-08.json.

@@ -13,6 +13,12 @@ not independent investment evidence.
 
 ## Investment question
 
+8 October injectable extension: [revenue-height audit](output/HAE_injectable_revenue_audit_2026-10-08.txt).
+Takhzyro reached~$1.5bn; Cinryze~$699m recovered2017 high; HaegardaFY2025$490m.
+GuggenheimXR~$614m is not unprecedented in HAE; IR~$992m exceeds Firazyr2017$663m.
+These are historical benchmarks, not certified lifetime peaks or patient-demand validation.
+
+
 8 October ramp audit: [results](output/Guggenheim_ramp_audit_2026-10-08.txt) and
 [inputs/provenance](research/guggenheim_ramp_audit_2026-10-08.json). IR early shape
 resembles Orladeyo; XR resembles Cerdelga after normalization. No obvious shape
