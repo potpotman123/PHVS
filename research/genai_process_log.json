@@ -437,6 +437,19 @@
       "thesis_effect": "Weakens categorical same-MOA short argument; corrects omission of existing PHVS-specific evidence in prior audit.",
       "limitations": "Small repeated-attack HAE cohort; industry-linked evidence; PHVS exposure model is not prospective combination efficacy; no physician share inferred.",
       "remaining_work": "Check prospective XR+IR data/final labels and actual co-prescribing decisions; calibrate rescue consumption independently."
+    },
+    {
+      "id": "G24",
+      "logged_on": "2026-10-08",
+      "record_type": "contemporaneous",
+      "objective": "Quantify repeat-dose consumption difference and commercial relevance.",
+      "user_contribution": "Highlighted possibility that better rescue efficacy reduces revenue-generating redosing and requested evidence.",
+      "prompt_excerpt": "Can you, uh, can you do some research into this?",
+      "ai_method_and_sources": "Reused local protocols and FDA review; verified primary labels and sponsor posters; separated endpoints, windows, conditional denominators and trend medians. See output/PHVS_redosing_audit_2026-10-08.txt.",
+      "snapshot": "12hPHVS17%vsEkterly38%implies1.17vs1.38doses,15.2%conditionalvolumegap. KON-S19.3%is median attack-position trend, not pooled refill forecast.",
+      "thesis_effect": "Supports potential lower consumption but weakens permanent haircut based on pivotal comparison; no numeric model change.",
+      "limitations": "Cross-trial rule/population differences; extension selection/mixed doses; prices and paid replenishment unknown; local visualPDFretrieval failed, text sources inspected.",
+      "remaining_work": "Matched-window dose totals and paid dispensing by prevention status."
     }
   ]
 }

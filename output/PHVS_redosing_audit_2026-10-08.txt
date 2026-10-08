@@ -1,0 +1,28 @@
+HAE oral rescue redosing audit | 8 October 2026
+DECISION: Direct evidence supports lower observed pivotal-trial redosing for PHVS. A permanent commercial haircut of that magnitude is not established. No adoption or valuation coefficients changed.
+
+MATCHED 12-HOUR EVIDENCE
+RAPIDe-3 sponsor poster Figure6: deucrictibant second study dose17.0%; other rescue6.8%;88paired attacks per arm. Placebo67.0%and36.4%, respectively. These are separate endpoints, potentially overlapping; do not sum.17%consistent with15/88; integer count inferred, not printed. Saved CTIS p21 gives24h rescue9.1%, a different endpoint/window, not redosing. CTIS60.2%one-dose resolution is NOT a60.2%single-dose consumption rate: lack of resolution need not imply redosing.
+https://ir.pharvaris.com/static-files/2ceba996-1cde-409c-9930-da480237edb4
+
+KONFIDENT approved600mg: FDA label reports38%second dose within12h and39%within24h; efficacy group93. EU product information reports37.6%at12h. Sponsor conventional-rescue12h8.6%in safety-based disclosure. FDA review Table17 shows39/95attacks(41.1%)receiving2doses over exposure observation,93safety subjects; some timing extends beyond24h, with dosing deviations. Do not replace12hlabel38%with41.1%. These are differing sets/windows, not necessarily contradictory. FDA review locally saved research/raw/cross_trial_audit/ekterly_fda_review.txt lines2838ff and Table17lines3663ff.
+https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=1d145e2f-8e7e-2e90-e063-6294a90a4449
+https://www.ema.europa.eu/en/documents/product-information/ekterly-epar-product-information_en.pdf
+https://www.sec.gov/Archives/edgar/data/1348911/000119312524032859/d785380dex991.htm
+
+RULES: PHVS second capsule >=4h for persistent/progressing nonlaryngeal attacks; sebetralstat >=3h if needed. Both pivotal protocols restrict laryngeal redosing. Earlier option, severity, onset-to-treatment time, selection/analysis populations and background prophylaxis prevent causal cross-trial inference. PHVS rescue generally follows second dose but allowed any time for safety. Numerically lower PHVS placebo-adjusted redosing does not remove these differences. Rapid initial relief is not absence of later redosing; do not use conditional96%initial-response-before-second-dose claim as96%all-attacks single-dose use.
+
+LONGER-TERM COUNTEREVIDENCE
+KONFIDENT-S WSAAI2026poster:2464treated attacks/136participants, cutoff9July2025. Reports a MEDIAN19.3%second administration rate within12h across first30attack positions, with decreasing LOESS trend. This is not explicitly a pooled total repeat-dose numerator divided by2464; do not use it as a population-weighted mean. Only24participants treated>=30attacks: changing composition and selective continued participation can affect trend.5.1%conventional-rescue metric is also a median trend summary. Does not prove learning causes decline. Supports warning against automatically carrying pivotal38%into mature commercial utilization.
+https://www.kalvista.com/wp-content/uploads/2026/01/WSAAI-2026_KON-S-Trends-poster_Final.pdf
+
+RAPIDe-2 poster: dose-blinded10/20/30mgPartA, noLTP, small selected rollover population. Efficacy265attacks/17participants;4usedotherrescue, including1aftersecond dose. Among261attackswithoutotherrescue,36(13.8%)usedtwo doses,225one. Thus if categories are exhaustive as presented, all265attacks imply37second-dose attacks(36withoutrescue+1withrescue)=14.0%; this is a derived historical mixed-dose extension estimate, NOT20mg-specific matched12h rate. Separately90.2%(202/224)single-dose among24h-resolved attacks is conditional on resolution and cannot be the overall rate. Later337attack/19participant snapshot is a separate cutoff; do not merge. Do not use this extension versusKON-S median as a head-to-head estimate.
+https://ir.pharvaris.com/static-files/1ef70602-7d9b-4a0d-8a35-b855005dc827
+
+ECONOMIC ARITHMETIC
+Within12h, at most2doses: expected dose count=1+redosing fraction.
+PHVS1.17 vsEkterly1.38 using rounded reported figures implies15.2%less dose consumption per treated attack. An additional17.9%treated attacks OR17.9%net revenue per dose offsets this, other factors equal. These are conditional translations of trial figures, not causal annual-sales estimates. A complete dose is20mgPHVS vs600mgEkterly; do not compare pill or milligram counts. JSON contains reproducible values.
+Under fixed price per pack, fewer used doses may delay future replenishment. Under pricing aligned to attack treatment, a per-dose premium could offset; actual PHVS price/pack/discount unknown. Additional injectable rescue generates no extra oral units. Initial inventory, expiration, free supply, quantity limits and paid replenishment separate consumption from sales. All-case attack rate and fraction treated could dominate this modest per-attack effect.
+
+NEXT/STOPPING RULE
+Need PHVS20mg-specific all-attack24/48h repeat doses and second-dose+rescue cross-tabs; sebetralstat pooled dose counts over comparable windows stratified by LTP; actual paid dispensing and net price. Do not obtain these by extrapolating graphical LOESS medians. Bounded public pass found useful direction but not an annual revenue haircut. Source text/chart labels recovered via web PDF parsing; attempted localPDF retrieval stalled and was stopped; no local visual verification claimed. Existing primary protocol/FDA review cross-checks used. No paid data, agents or extensive fitting.

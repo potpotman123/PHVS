@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-08",
+  "classification": "derived conditional consumption arithmetic, not estimated revenue effect",
+  "deucrictibant_12h_redose": 0.17,
+  "sebetralstat_12h_redose_rounded_label": 0.38,
+  "deucrictibant_doses_per_attack": 1.17,
+  "sebetralstat_doses_per_attack": 1.38,
+  "dose_volume_reduction": 0.15217391304347827,
+  "treated_attack_or_price_uplift_to_offset": 0.17948717948717952,
+  "assumptions": [
+    "One initial dose and at most one repeat in window",
+    "A dose means20mg PHVS or600mg sebetralstat, not equal tablet counts",
+    "Equal net revenue per complete dose; same attacks and product treatment share",
+    "No inference of long-term paid pack sales or causal comparative effect"
+  ]
+}

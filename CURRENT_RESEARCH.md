@@ -13,6 +13,9 @@ not independent investment evidence.
 
 ## Investment question
 
+8 October redosing audit: [note](output/PHVS_redosing_audit_2026-10-08.txt), [arithmetic](output/PHVS_redosing_arithmetic_2026-10-08.json). Matched12h observed PHVS17%vsEkterly38% implies15.2%conditional dose-volume gap, not a proven sales haircut. Long-term Ekterly19.3%is a median trend summary, not pooled average; mixed-dose PHVS extension also not directly comparable. No model coefficients changed. Process G24.
+
+
 8 October same-MOA audit: [evidence](output/PHVS_same_MOA_rescue_audit_2026-10-08.txt). Direct same-target HAE rescue evidence and PHVS April2026 combination analyses weaken categorical XR-to-IR exclusion. Prior audit missed the PHVS disclosure. Specific drug safety restrictions are not proof of class failure after breakthrough. No numeric adoption changes; prospective XR+IR and observed preference remain unresolved. Process G23.
 
 
