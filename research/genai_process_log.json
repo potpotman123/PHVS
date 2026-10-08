@@ -489,6 +489,19 @@
       "thesis_effect": "Adds descriptive refill and administrative evidence without inventing paid conversion; public open aggregates cannot identify patient switching.",
       "limitations": "Censoring, payment mix, selected efficacy sample, tiny state cohort and nonindependent sponsored studies. No paid data, outreach or agents.",
       "remaining_work": "Obtain aggregate matched Optime referral/payment cohorts or origin-destination claims table."
+    },
+    {
+      "id": "G28",
+      "logged_on": "2026-10-08",
+      "record_type": "contemporaneous",
+      "objective": "TestXRswitching,XRretentionandIRconsumption departuresfromcomparables.",
+      "user_contribution": "Directedcomparison-firstwork andcreative sourcingincludingRAPIDe3trialdata.",
+      "prompt_excerpt": "maybe you\u2019re just going to find the data directly in the Rapid E3",
+      "ai_method_and_sources": "Publicpreferencepaper/tablevisualinspection;FrenchBerolifecause-specificdiscontinuation;recoveredKON-SprimaryXML;reusedPHVSclinicalaudit. research/PHVS_three_adoption_hypotheses_2026-10-08.json",
+      "snapshot": "54%simulatedoralchoice;20/80OrladeyostartersstoppedforefficacyorAEs;KON-SLTP22.3%redosingand75.8%oral-firstattacks.",
+      "thesis_effect": "SupportstargetedXRimprovementsbutweakensautomaticoralconversionandpermanent18%IRoffset.",
+      "limitations": "Surveyintentionnotadoption;Frenchvariablefollowup;clusteredselectedtrialattacks;sponsoredsources;arithmeticnotcausalvalidation.",
+      "remaining_work": "Usecompositepaidstartsandreason-specificretentionassumptionsanchoredtohistoricalUSlaunches;IRstratificationandinventory."
     }
   ]
 }

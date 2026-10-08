@@ -1,3 +1,5 @@
+Latest three-hypothesis audit: [XR switching/retention and IR consumption](output/PHVS_three_adoption_hypotheses_2026-10-08.txt). New H1–H4 links; KON-S LTP22.3% repeat dosing qualifies permanent38%assumption. Berolife20/80efficacy/AE exits notPHVSretentionuplift. ProcessG28.
+
 Latest public-data discovery: [pharmacy/claims source audit](output/PHVS_public_pharmacy_sources_2026-10-08.txt). Optime supplement1919first/1746repeat dispensings; descriptive only, notpaidconversion. StateDUR requests differ from patients. SourcesPHS1–6 linked in ledger; processG27.
 
 Latest adoption update (8 October): [flow calibration](output/PHVS_adoption_flow_calibration_2026-10-08.txt); F01-F05 benchmarks linked in patient-adoption ledger. PHVS13.8%extension vsEkterly38%pivotal redosing retained with denominator/window caveats. No national transition probabilities or valuation changed. GenAI logG26.

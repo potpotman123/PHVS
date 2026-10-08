@@ -1,0 +1,119 @@
+{
+  "as_of": "2026-10-08",
+  "scope": "Comparables-first investigation of XR switching, XR persistence and IR consumption. Historical observations, not fitted PHVS forecasts.",
+  "sources": {
+    "H1": {
+      "title": "Long-term prophylactic treatment preferences and willingness to switch therapy in individuals with HAE",
+      "doi": "10.1016/j.anai.2025.12.011",
+      "url": "https://www.rtihs.org/sites/default/files/35409_Poulos_2026_Long-term%20prophylactic%20treatment%20preferences%20and%20willingness%20to%20switch%20therapy%20in%20individuals%20with%20hereditary%20angioedema.pdf",
+      "local": "research/raw/three_hypotheses_2026-10-08/preference.pdf",
+      "location": "Table2/Figure3, PDFpage6 visually inspected; methods/results",
+      "survey_period": "October12-27,2023,US",
+      "observations": {
+        "respondents": 150,
+        "on_LTP": 139,
+        "oral_simulated_share_equal_effectiveness": 0.54,
+        "injection_share": 0.46,
+        "lanadelumab_users": 76,
+        "lanadelumab_user_simulated_oral_share": 0.53,
+        "SC_C1INH_users": 32,
+        "SC_C1INH_user_simulated_oral_share": 0.569,
+        "willingness_next6m_percent": {
+          "not_at_all_0_to_2": 29,
+          "somewhat_3_to_7": 56,
+          "extremely_8_to_10": 15
+        }
+      },
+      "limitations": "Online panel,2023landscape,9berotralstat users in treatment-specific table; simulated preference and stated intention not paid switch rates. Equal efficacy scenario3attacks/3months. Burden/control influence willingness; no PHVS-specific profile estimate."
+    },
+    "H2": {
+      "title": "Berotralstat Tolerability and Effectiveness in Hereditary Angioedema: Berolife Study Results",
+      "doi": "10.1002/clt2.70193",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/clt2.70193",
+      "published": "2026-08-15",
+      "population": "France20centers,September2021-January2024 treated,cutoffAugust23,2024;82enrolled80treated",
+      "observations": {
+        "treated": 80,
+        "first_year_stopped": 30,
+        "insufficient_perceived_efficacy": 13,
+        "adverse_events": 7,
+        "poor_adherence": 9,
+        "pregnancy": 1,
+        "AE_stops_0_5_to_4_5_months": 6,
+        "prior_lanadelumab": 8
+      },
+      "derived": {
+        "reported_stop_fraction": 0.375,
+        "efficacy_or_AE_exit_fraction_all_starters": 0.25,
+        "other_exit_fraction": 0.125
+      },
+      "limitations": "Foreign retrospective care and earlier treatment mix,variablefollowup(mean11.5months,range0-27);37.5%reportedfirstyeardiscontinuation is not KM annual survival. Effectiveness subset requires>=6months,notallstarters. Reasons not proved preventable byPHVS. AE categories not allGI. No random comparison."
+    },
+    "H3": {
+      "title": "Sebetralstat for breakthrough attacks in patients with hereditary angioedema receiving long-term prophylaxis in KONFIDENT-S",
+      "doi": "10.1016/j.jacig.2026.100750",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13355760/",
+      "retrieval": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13355760/fullTextXML",
+      "local": "research/raw/three_hypotheses_2026-10-08/kon_s_ltp.xml",
+      "cutoff": "2024-09-14",
+      "observations": {
+        "participants": 35,
+        "breakthrough_attacks": 504,
+        "oral_first": 382,
+        "injectable_first": 114,
+        "untreated": 8,
+        "second_dose_within12h_fraction": 0.223,
+        "redosing_by_LTP": {
+          "berotralstat": 0.213,
+          "lanadelumab": 0.113,
+          "C1INH": 0.306
+        },
+        "oral_attacks_by_LTP": {
+          "berotralstat": 178,
+          "lanadelumab": 80,
+          "C1INH": 124
+        },
+        "conventional_rescue_after_oral_within12h": 20
+      },
+      "limitations": "Selected openlabelLTPsubgroup,clusteredattacks,trialaccess,heterogeneousbackground severity andtime-to-treatment. Percentages not causal drugcomparison. Not independent ofKON-Sumbrella or earliercutoffs. No paid dispensing."
+    },
+    "H4": {
+      "title": "CHAPTER-3 sponsor topline, existing clinical audit rechecked",
+      "url": "https://pharvaris.gcs-web.com/news-releases/news-release-details/pharvaris-announces-positive-topline-data-chapter-3-pivotal",
+      "date": "2026-09-08",
+      "observations": {
+        "XR_active": 55,
+        "placebo": 30,
+        "weeks": 24,
+        "AE_discontinuations_active": 1,
+        "AE_discontinuations_placebo": 1
+      },
+      "limitations": "AE-specific cessation not allcause commercial persistence. Use research/clinical.txt for numericSAEimbalance and longer-termIR20mgBID extension limitations."
+    }
+  },
+  "findings": {
+    "XR_switching": "Retain historical paid-start benchmark. Differentialcapture should reflect residualburden andoralhistory; oralroute alone doesnotjustify automaticlargeconversion. Survey54%simulatedpreference isnotcapture.",
+    "XR_retention": "Separate efficacy/AE exits from adherence/access/otherexits. Berolife20of80efficacyorAEexits is an observed opportunity category,not25ppPHVSretention uplift. KeepUSclaims61%12mpersistence as its own benchmark; do not spliceFrenchcause fractions intoit as measured.",
+    "IR_consumption": "Stratify bypreventive regimen andoral-first share. Use17%vs38%pivotal as onehistoricalcomparison,22.3%LTPextension as sensitivityanchor,13.8%PHVSmixeddoseextension as supportiveabsoluteevidence only."
+  },
+  "arithmetic": {
+    "kon_s_oral_first_fraction": 0.7579365079365079,
+    "kon_s_any_treated_fraction": 0.9841269841269841,
+    "kon_s_injectable_first_fraction": 0.2261904761904762,
+    "conditional_dose_offset_pivotal": 0.17948717948717952,
+    "conditional_dose_offset_using_LTP_extension": 0.04529914529914536,
+    "definition": "Offset = additionalPHVStreatedattacks ornetrevenueperdose neededtooffsetunitdifference;12hmax2doses. Cross-population sensitivity,notpredictedpricing orcausalefficacy."
+  },
+  "model_rules": [
+    "Actualpaidstarts remaincomposite ratebyorigin; do not multiplysurveywillingnessbyunrelatedapprovalshare.",
+    "Keepstocking/expiry/paidsupply apartfrom consumption.",
+    "No doublecounting overlap among poorcontrol,tolerability,priororalexposure.",
+    "Do notinfer treatmentintensity uplift bycomparing98.4%trialtreatment tohistorical50%withoutmatchedpopulations."
+  ],
+  "bounded_search_notes": [
+    "Publicsurvey supplement/table andFrenchmulticenterretention differentiateddrivers.",
+    "EAACIOptimeswitcherabstract still inaccessible; no denominator fabricated.",
+    "PMCbrowser blocked; EuropePMCprimaryfulltext recovered.",
+    "No authorscontacted,paiddata,agents orfitting."
+  ]
+}

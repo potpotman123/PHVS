@@ -1,0 +1,47 @@
+THREE ADOPTION HYPOTHESES — evidence update,8October2026
+
+Decision: comparator-based calibration is viable, but differentiation should be
+applied to specific mechanisms rather than an across-the-board PHVS uplift.
+
+XR SWITCHING
+New US survey150people,October2023: equal-efficacy simulated choice54%oral/46%
+injection. Among76Takhzyro users oralshare53%;32SCC1INH users56.9%. Figure3:
+29%notwilling/56%somewhat/15%extremelywillingtoswitchwithin6months. These are
+stated intentions, not paid starts. Controlled/satisfied patients are less willing;
+route alone does not unlock allinjectableusers. Align hypothesis with residual
+burden, tolerability andpriororalhistory. No independentnationalcaptureestimate.
+
+XR RETENTION
+Berolife,France80treated:30reportedstopsduringfirstyear. Reasons13efficacy,
+7AEs,9pooradherence,1pregnancy. Thus20/80=25%ofstarters stopped forcategories
+potentiallyaddressedbybetterefficacy/tolerability; not25%morePHVSpersistence.
+6of7AEexits by4.5months favors separatingearlyattritionfrommatureretention.
+Variablefollowup andforeignprior-treatmentmix limittransfer;30/80isnotKM.
+CHAPTER3:1/55activevs1/30placeboAEdiscontinuationover24wk supports tolerability
+but cannotestablish commercialretention. Existingclinicalaudit retainsnumeric
+SAEimbalance and limitedlong-termXRdata; no broad safety-superiorityconclusion.
+UseexistingUS61%oral12mpersistence as standalonehistoricalbenchmark. Frenchcause
+mix informs whichimprovementstotest, not ameasuredadjustmenttotheUScohort.
+
+IR CONSUMPTION
+PrimaryKON-SLTPanalysis35people/504attacks:382oralfirst,114injectablefirst,8untreated.
+Oralfirst75.8%;anytreatment98.4%. Access tooralrescue doesnotmeanallattacksuseit.
+Secondoral dosewithin12h22.3%of382; bybackgroundLTP21.3%berotralstat,
+11.3%lanadelumab,30.6%C1INH. Attacksclustered; smallgroups withdifferentseverity.
+ThisprovidesapooledLTPattackrate ratherthanthe19.3%attack-positionmedianfrom
+anotherKON-Sanalysis. Sameextensionumbrella,notindependentreplication.
+KeepingPHVSpivotal17%asafixedillustrativecomparator,offsetfor1.223vs1.17doses
+is4.5%,versus17.9%for1.38vs1.17. NOTamoreaccuratehead-to-headestimate:
+shows prior18%commercialoffsetisunstabletopopulation/cutoffchoice.
+Do notreplacepivotal38%with22.3%forallEkterlypatients. PHVS13.8%extensionremains
+mixed-dose,smallselectedcohort,conditionaldenominator.
+
+MODEL IMPLEMENTATION GUIDANCE
+Keeponepaid-startparameterperoriginstate. Addhistory/controlattributesonlyto
+justifyadjustments,notadditiveTAM. Splitretentionimprovementbyreason, with
+nonclinicalexitsremaining. IRuse = attacks x treatedfraction x oral-firstshare x
+(1+repeatdosefraction), stratifiedbypreventiveregimen. Paidshipmentsrequire
+additionalinventory/free-supplyaccounting. No forecastcoefficientschanged.
+
+Sources/definitions/calculations:
+research/PHVS_three_adoption_hypotheses_2026-10-08.json
