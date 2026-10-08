@@ -1,0 +1,63 @@
+PHVS adoption-flow calibration — 8 October 2026
+
+New observations and source-level records:
+research/PHVS_adoption_flow_evidence_2026-10-08.json
+Existing US claims and preferences:
+research/PHVS_adoption_evidence_2026-10-07.json
+
+WHAT ENTERS THE MODEL NOW
+The new data enter as historical benchmarks, not estimated PHVS conversion rates.
+Parameter-ledger links added for N4/T1/T2/T3/I1/I3. No valuation assumptions changed.
+
+1. Current treatment stock -> prior oral history -> next choice
+Swedish27berotralstat starters included19stoppers across variable follow-up;
+11went to lanadelumab. Former oral users demonstrably exist inside injectable
+and rescue groups. Preserve this attribute without counting them twice. Neither
+stopping nor return to injections establishes dissatisfaction or willingness to
+try PHVS. Foreign access rules and product-specific dispensing-gap definitions
+preclude importing70% as a US annual discontinuation rate.
+
+2. Existing treatment -> switch
+US chart review:50prior LTP courses in46people who subsequently received
+lanadelumab. Reasons: preference33/50, insufficient efficacy13/50,
+noncompliance6/50, adverse reactions6/50. Reasons overlap. This distinguishes
+switch motivations; it does not identify the fraction of all patients who switch.
+It weakens an efficacy-only adoption model and absolute claims of stickiness.
+
+3. Initiation -> persistence -> destination
+Existing US claims benchmark:12month persistence61%oral/58%lanadelumab/53%SC-C1INH
+with45day gap definition (ledgerT1); do not blend with Sweden's different gaps.
+Existing PIONEER observation:83cessations ->41different LTP,7same-LTP restarts,
+35without subsequent LTP observed. Last category is not proven rescue-only.
+New US chart evidence:7of8lanadelumab discontinuers had insurance change recorded;
+this supports ongoing access loss, not a reliable probability from eight people.
+
+4. Preventive state -> residual attacks -> treated attacks -> rescue dispensing
+Swedish selected long-term lanadelumab users:46/59had ODT dispensing;200events
+across59patients in their latest12months =3.39events/all-user-year or4.35among
+positive users. These are alternative denominators: do not multiply3.39by78%.
+Berotralstat:52events/9selected users =5.78/all-user-year, too small for a stable
+comparative estimate. Event counts are not doses or packs; missing package counts
+were imputed in the publication. Preserve zero-refill and positive-refill groups.
+US chart review recorded ODT for152/371pre-index and18/39post-index attacks;
+missing chart capture can mimic undertreatment. Use as a prompt to measure the
+treated-attack fraction, not a national41% assumption.
+
+5. Redosing note explicitly retained
+PHVS final RAPIDe2 PartA63/457=13.8% among non-other-rescue attacks,19patients,
+mixed doses;8other-rescue attacks excluded from that denominator. Ekterly38% is
+KONFIDENT600mg within12hours. Not like-for-like. Prior~18%offset arithmetic used
+PHVS17% versus38%, not13.8%. Sources and caveats retained in evidence JSON.
+
+NEXT MOST VALUABLE EVIDENCE
+US patient movement by origin therapy and prior oral exposure, with a denominator
+and time-at-risk; then new prescriptions -> first paid shipment -> repeat paid
+shipment. Existing paid-stock shares and reason-for-switch surveys cannot supply
+these probabilities. Reuse archived launch disclosures before new collection.
+
+THESIS IMPLICATION
+Switching is real and prior oral failure does not eliminate the injectable pool
+from PHVS's opportunity. But efficacy alone cannot determine adoption; preferences,
+access and persistence matter. Rescue sales require actual paid replenishment,
+not merely the number of people with rescue available. National adoption remains
+unidentified; the evidence now makes the flow more specific and testable.

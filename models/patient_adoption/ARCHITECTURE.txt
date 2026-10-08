@@ -147,3 +147,8 @@ piecewise hazard, and all prescriptions are unique first attempts. Existing vers
 newly diagnosed sources are assigned explicitly; current-regimen subgroups, retries,
 free/paid recycling and mature competitive destinations remain uncalibrated.
 All scenario choices are separate from the evidence ledger. See threshold_inputs.json.
+
+8 October evidence overlay: output/PHVS_adoption_flow_calibration_2026-10-08.txt
+Historical benchmarks F01-F05 are linked in parameter_ledger.json. They identify
+prior oral history, switch reasons, access loss and rescue dispensing structure;
+none is a national PHVS transition-rate estimate. Redosing caveats in linked JSON.

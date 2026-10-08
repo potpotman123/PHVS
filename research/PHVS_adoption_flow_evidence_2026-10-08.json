@@ -1,0 +1,108 @@
+{
+  "as_of": "2026-10-08",
+  "purpose": "Historical observations mapped to adoption flow; no PHVS national transition probabilities inferred.",
+  "sources": {
+    "F1": {
+      "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1828443/full",
+      "title": "The evolving treatment landscape for hereditary angioedema in Sweden",
+      "published": "2026-07-29",
+      "funding": "CSL",
+      "limitations": "Swedish dispensing Jan2020-May2025; no switch reasons; variable follow-up; allowable LTP gaps differ by product; dispensing not attacks, doses or US paid packs."
+    },
+    "F2": {
+      "url": "https://link.springer.com/article/10.1007/s40801-025-00505-x",
+      "title": "Treatment Patterns and Characteristics of Patients with Hereditary Angioedema Treated with Lanadelumab: A US Retrospective Chart Review",
+      "published": "2025-07-16",
+      "limitations": "Physician-panel chart review of selected lanadelumab initiators; >=3 months follow-up. Reasons refer to50 prior LTP courses in46 people, not50 independent patients. Nonexclusive reasons."
+    }
+  },
+  "observations": [
+    {
+      "id": "F01",
+      "source": "F1",
+      "stage": "Prior oral history and exit destinations",
+      "observed": {
+        "oral_initiators": 27,
+        "stopped": 19,
+        "stoppers_to_lanadelumab": 11,
+        "stoppers_to_ODT": 6,
+        "remaining_complex_histories": 2
+      },
+      "window": "Jan2021-May2025 variable follow-up",
+      "use": "History attribute within current injectable/rescue states; not additional TAM or annual discontinuation hazard."
+    },
+    {
+      "id": "F02",
+      "source": "F1",
+      "stage": "Rescue dispensing while on prevention",
+      "observed": {
+        "lanadelumab_selected_users": 59,
+        "users_with_ODT_dispensing": 46,
+        "ODT_events_12m": 200,
+        "berotralstat_selected_users": 9,
+        "berotralstat_users_with_ODT_dispensing": 8,
+        "berotralstat_ODT_events_12m": 52
+      },
+      "derived": {
+        "lanadelumab_events_per_all_user_year": 3.389830508474576,
+        "lanadelumab_events_per_positive_user_year": 4.3478260869565215,
+        "berotralstat_events_per_all_user_year": 5.777777777777778
+      },
+      "selection": ">=12m LTP, prior dispensing requirement intended to separate emergency stocking; each latest12m window. Package counts partly imputed; use events here.",
+      "use": "Separate zero dispensers and refill intensity; not comparative efficacy or PHVS paid pack forecast."
+    },
+    {
+      "id": "F03",
+      "source": "F2",
+      "stage": "Drivers among treatment switches",
+      "observed": {
+        "prior_LTP_courses": 50,
+        "unique_prior_LTP_users": 46,
+        "preference": 33,
+        "lack_effectiveness": 13,
+        "noncompliance": 6,
+        "adverse_reactions": 6
+      },
+      "use": "Nonexclusive reasons conditional on selected switch events; not choice weights or marketwide willingness."
+    },
+    {
+      "id": "F04",
+      "source": "F2",
+      "stage": "Access-related loss after initiation",
+      "observed": {
+        "part1_initiators": 186,
+        "discontinuers": 8,
+        "discontinuers_with_insurance_change": 7
+      },
+      "use": "Supports access-loss pathway during retention; tiny selected denominator and variable follow-up, no annual hazard."
+    },
+    {
+      "id": "F05",
+      "source": "F2",
+      "stage": "Attacks actually treated",
+      "observed": {
+        "preindex_attacks": 371,
+        "preindex_attacks_given_ODT": 152,
+        "postindex_attacks": 39,
+        "postindex_attacks_given_ODT": 18
+      },
+      "use": "Chart-recorded treatment fractions41.0% and46.2%; not complete national utilization. Keep treatment propensity separate from attack incidence."
+    }
+  ],
+  "redosing_note": {
+    "PHVS": "63/457=13.8% final RAPIDe2 PartA attacks without other rescue within24h;19patients, mixed10/20/30mg.465total attacks;8other-rescue attacks have unknown repeat-dose split.",
+    "Ekterly": "KONFIDENT600mg38% second dose within12h;39%within24h.",
+    "comparison": "Different populations, windows and conditional denominators. Do not substitute this extension comparison into the prior matched12h17%vs38% arithmetic.",
+    "audit": "output/PHVS_redosing_expert_followup_2026-10-08.txt",
+    "sources": [
+      "https://ir.pharvaris.com/static-files/c2a617b9-4bc1-4559-a31a-e46617976775",
+      "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=1d145e2f-8e7e-2e90-e063-6294a90a4449"
+    ]
+  },
+  "unresolved": [
+    "US denominator-based transition rates by current therapy and prior oral history",
+    "Prescription-to-paid conversion and time distribution",
+    "PHVS-specific pack size, net price, inventory and refill behavior"
+  ],
+  "stopping_rule": "Bounded primary-source discovery completed. EAACI2026 berotralstat-switch abstract full denominator unavailable; not used. No paid data or bulk collection."
+}

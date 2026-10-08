@@ -463,6 +463,19 @@
       "thesis_effect": "Absolute low PHVSredosing strengthened; independent proof of large comparative gap remains absent. Fewer units can improve payer value and offset via price/access.",
       "limitations": "Management testimony not payer contracts; third-party transcript comparator anomaly; extension overlaps prior data,19patients,mixed doses; no freshAlphaSenselibrarysearch.",
       "remaining_work": "Matched20mgcomparative utilization and actual pricing/access."
+    },
+    {
+      "id": "G26",
+      "logged_on": "2026-10-08",
+      "record_type": "contemporaneous",
+      "objective": "Populate adoption flow with observed historical transitions and dispensing.",
+      "user_contribution": "Requested recording13-14%vs38%redosing and explicitly encouraged idiosyncratic quantification.",
+      "prompt_excerpt": "could be idiosyncratic even",
+      "ai_method_and_sources": "Bounded discovery across claims, primary chart review, national dispensing and launch disclosures; mapped observations to existing ledger. research/PHVS_adoption_flow_evidence_2026-10-08.json",
+      "snapshot": "Swedish19/27oral stoppers include11switches tolanadelumab; US switch reasons refer to50courses in46people;59selectedlanadelumab users generated200ODTevents in12months.",
+      "thesis_effect": "Qualifies stickiness and efficacy-only adoption arguments; supports history attributes and heterogeneous refill use without inventing national rates.",
+      "limitations": "Different health systems, selection, follow-up and gap definitions; nonexclusive reasons; missing package counts; industry-funded Sweden; no causal superiority claim. Arithmetic checked, not independent validation.",
+      "remaining_work": "US denominator-based movement and first-paid/repeat-paid cohort conversion."
     }
   ]
 }

@@ -4,7 +4,8 @@
   "source_resolver": {
     "new": "research/PHVS_commercial_calibration_2026-10-08.json",
     "Axx": "research/PHVS_adoption_evidence_2026-10-07.json observations",
-    "Exx": "existing AlphaSense ledgers"
+    "Exx": "existing AlphaSense ledgers",
+    "Fxx": "research/PHVS_adoption_flow_evidence_2026-10-08.json observations"
   },
   "parameters": [
     {
@@ -116,7 +117,10 @@
       ],
       "double_counting_risk": "History flag, not an additive patient pool.",
       "numerical_use": "scenario_only",
-      "definition": "Prior Orladeyo exposure history for Prior users within existing treatment states over September2026 comment"
+      "definition": "Prior Orladeyo exposure history for Prior users within existing treatment states over September2026 comment",
+      "supplemental_historical_benchmarks": [
+        "F01"
+      ]
     },
     {
       "id": "R1",
@@ -380,7 +384,10 @@
       ],
       "double_counting_risk": "Do not impose PDC as identical attrition.",
       "numerical_use": "benchmark_only",
-      "definition": "First-year claims persistence for 357 initiators;90/189/78 respectively over 12months after initiation"
+      "definition": "First-year claims persistence for 357 initiators;90/189/78 respectively over 12months after initiation",
+      "supplemental_historical_benchmarks": [
+        "F01"
+      ]
     },
     {
       "id": "T2",
@@ -408,7 +415,10 @@
       ],
       "double_counting_risk": "Not all incumbent patients, not switching probability.",
       "numerical_use": "benchmark_only",
-      "definition": "Selected switcher persistence for Orladeyo switchers after PA completion over 6months"
+      "definition": "Selected switcher persistence for Orladeyo switchers after PA completion over 6months",
+      "supplemental_historical_benchmarks": [
+        "F03"
+      ]
     },
     {
       "id": "T3",
@@ -436,7 +446,10 @@
       ],
       "double_counting_risk": "Do not pool into one calibrated range.",
       "numerical_use": "benchmark_only",
-      "definition": "Paid/free first-year persistence for Orladeyo patients reaching paid versus long-term free over At least12months"
+      "definition": "Paid/free first-year persistence for Orladeyo patients reaching paid versus long-term free over At least12months",
+      "supplemental_historical_benchmarks": [
+        "F04"
+      ]
     },
     {
       "id": "T4",
@@ -540,7 +553,11 @@
       ],
       "double_counting_risk": "Do not multiply by67.1% rescue-claim share again.",
       "numerical_use": "benchmark_only",
-      "definition": "Rescue dispensing on prophylaxis for 328 LTP initiators;147 minimal-gap subgroup over Post-index12months"
+      "definition": "Rescue dispensing on prophylaxis for 328 LTP initiators;147 minimal-gap subgroup over Post-index12months",
+      "supplemental_historical_benchmarks": [
+        "F02",
+        "F05"
+      ]
     },
     {
       "id": "I2",
@@ -594,7 +611,10 @@
       ],
       "double_counting_risk": "Do not add modeled attacks to already observed composite refills.",
       "numerical_use": "not_ready",
-      "definition": "Initial stock and refill intensity for PHVS IR supplied users over Since first supply"
+      "definition": "Initial stock and refill intensity for PHVS IR supplied users over Since first supply",
+      "supplemental_historical_benchmarks": [
+        "F02"
+      ]
     },
     {
       "id": "I4",
@@ -708,5 +728,6 @@
     "retention": "Separate early, year1 and mature hazards; do not fit one exponential to a single checkpoint.",
     "pricing": "Link access and realized net price; reflect IR-to-XR recruitment economics without assuming bundling discounts.",
     "forecast_gate": "Missing current treatment partition, PHVS capture, paid conversion, mature survival, net prices and geography preclude a defensible central TAM/peak estimate."
-  }
+  },
+  "redosing_evidence_note": "research/PHVS_adoption_flow_evidence_2026-10-08.json redosing_note"
 }

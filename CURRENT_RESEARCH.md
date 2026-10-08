@@ -1,3 +1,5 @@
+Latest adoption update (8 October): [flow calibration](output/PHVS_adoption_flow_calibration_2026-10-08.txt); F01-F05 benchmarks linked in patient-adoption ledger. PHVS13.8%extension vsEkterly38%pivotal redosing retained with denominator/window caveats. No national transition probabilities or valuation changed. GenAI logG26.
+
 # Current research state — 7 October 2026
 
 ## GenAI process documentation — added 8 October 2026
