@@ -304,6 +304,23 @@
         "research/hae_injectable_revenue_audit_2026-10-08.json",
         "output/HAE_injectable_revenue_audit_2026-10-08.txt"
       ]
+    },
+    {
+      "id": "G16",
+      "logged_on": "2026-10-08",
+      "event_date": "2026-10-08",
+      "record_type": "contemporaneous",
+      "objective": "Resume adoption underwriting after reverse valuation detour.",
+      "user_contribution": "Requested continuation of pre-DCF commercial adoption work; proposed efficacy differentiation versus established therapies as central debate.",
+      "ai_method_and_sources": "Reused adoption ledger and expert-call evidence, selectively reopened original preference/claims sources, built explicit segment specification and a small hypothetical cohort sensitivity.",
+      "snapshot": "Per1000 initial incumbents,80%initial paid probability,61%initiation retention and90%later retention, annual attempt assumptions5/10/20/30% produce year5active89/160/257/309. All rates hypothetical except historical61%benchmark, whose transfer is assumed.",
+      "thesis_effect": "Makes the gap between willingness and sustained paid demand explicit without assuming short conclusion or converting preference weights into market shares.",
+      "limitations_and_checks": "Not a calibrated forecast: annual start-of-year cohorts, no reattempt/new diagnosis/bridge conversion; year-end stocks not patient-years; current segment stocks and US/worldwide split remain unknown. PubMed revisit did not return full abstract; retained prior sourced extraction.",
+      "artifacts": [
+        "models/patient_adoption/README.txt",
+        "models/patient_adoption/sensitivity.py",
+        "models/patient_adoption/illustrative_sensitivity.json"
+      ]
     }
   ]
 }

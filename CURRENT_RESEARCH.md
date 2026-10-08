@@ -13,6 +13,11 @@ not independent investment evidence.
 
 ## Investment question
 
+8 October resumed adoption work: [segment specification and evidence mapping](models/patient_adoption/README.txt).
+Initial cohort sensitivity is illustrative only, not a calibrated forecast; national
+stocks, PHVS paid transitions, net prices and geography remain to be estimated.
+
+
 8 October injectable extension: [revenue-height audit](output/HAE_injectable_revenue_audit_2026-10-08.txt).
 Takhzyro reached~$1.5bn; Cinryze~$699m recovered2017 high; HaegardaFY2025$490m.
 GuggenheimXR~$614m is not unprecedented in HAE; IR~$992m exceeds Firazyr2017$663m.

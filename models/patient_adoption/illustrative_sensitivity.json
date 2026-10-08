@@ -1,0 +1,525 @@
+{
+  "status": "Hypothetical mechanics only. NOT fitted PHVS forecast or scenario probabilities.",
+  "population": "1000 initially eligible incumbent patients; no geography implied",
+  "timing": "Each annual cohort is treated as entering at the start of its year; year-end active counts are NOT annual patient-years.",
+  "retention_note": "61% is an Orladeyo initiation-cohort benchmark, not PHVS retention or paid-only estimate. Applying it to paid starts is a scenario assumption. Subsequent90% is hypothetical.",
+  "access_note": "60/80/100% are hypothetical initial-paid probabilities, NOT Orladeyo observed stock paid share. No free-to-paid lag modeled.",
+  "rows": [
+    {
+      "annual_attempt_probability": 0.05,
+      "initial_paid_probability": 0.6,
+      "first_year_retention": 0.61,
+      "subsequent_retention": 0.9,
+      "result": [
+        {
+          "year": 1,
+          "attempts": 50.0,
+          "initial_paid_starts": 30.0,
+          "year_end_active_paid": 18.3,
+          "remaining_never_attempted": 950.0
+        },
+        {
+          "year": 2,
+          "attempts": 47.5,
+          "initial_paid_starts": 28.5,
+          "year_end_active_paid": 33.855000000000004,
+          "remaining_never_attempted": 902.5
+        },
+        {
+          "year": 3,
+          "attempts": 45.125,
+          "initial_paid_starts": 27.075,
+          "year_end_active_paid": 46.98525,
+          "remaining_never_attempted": 857.375
+        },
+        {
+          "year": 4,
+          "attempts": 42.868750000000006,
+          "initial_paid_starts": 25.72125,
+          "year_end_active_paid": 57.9766875,
+          "remaining_never_attempted": 814.50625
+        },
+        {
+          "year": 5,
+          "attempts": 40.7253125,
+          "initial_paid_starts": 24.4351875,
+          "year_end_active_paid": 67.084483125,
+          "remaining_never_attempted": 773.7809375
+        }
+      ]
+    },
+    {
+      "annual_attempt_probability": 0.05,
+      "initial_paid_probability": 0.8,
+      "first_year_retention": 0.61,
+      "subsequent_retention": 0.9,
+      "result": [
+        {
+          "year": 1,
+          "attempts": 50.0,
+          "initial_paid_starts": 40.0,
+          "year_end_active_paid": 24.4,
+          "remaining_never_attempted": 950.0
+        },
+        {
+          "year": 2,
+          "attempts": 47.5,
+          "initial_paid_starts": 38.0,
+          "year_end_active_paid": 45.14,
+          "remaining_never_attempted": 902.5
+        },
+        {
+          "year": 3,
+          "attempts": 45.125,
+          "initial_paid_starts": 36.1,
+          "year_end_active_paid": 62.647000000000006,
+          "remaining_never_attempted": 857.375
+        },
+        {
+          "year": 4,
+          "attempts": 42.868750000000006,
+          "initial_paid_starts": 34.29500000000001,
+          "year_end_active_paid": 77.30225000000002,
+          "remaining_never_attempted": 814.50625
+        },
+        {
+          "year": 5,
+          "attempts": 40.7253125,
+          "initial_paid_starts": 32.58025,
+          "year_end_active_paid": 89.44597750000001,
+          "remaining_never_attempted": 773.7809375
+        }
+      ]
+    },
+    {
+      "annual_attempt_probability": 0.05,
+      "initial_paid_probability": 1.0,
+      "first_year_retention": 0.61,
+      "subsequent_retention": 0.9,
+      "result": [
+        {
+          "year": 1,
+          "attempts": 50.0,
+          "initial_paid_starts": 50.0,
+          "year_end_active_paid": 30.5,
+          "remaining_never_attempted": 950.0
+        },
+        {
+          "year": 2,
+          "attempts": 47.5,
+          "initial_paid_starts": 47.5,
+          "year_end_active_paid": 56.425,
+          "remaining_never_attempted": 902.5
+        },
+        {
+          "year": 3,
+          "attempts": 45.125,
+          "initial_paid_starts": 45.125,
+          "year_end_active_paid": 78.30875,
+          "remaining_never_attempted": 857.375
+        },
+        {
+          "year": 4,
+          "attempts": 42.868750000000006,
+          "initial_paid_starts": 42.868750000000006,
+          "year_end_active_paid": 96.6278125,
+          "remaining_never_attempted": 814.50625
+        },
+        {
+          "year": 5,
+          "attempts": 40.7253125,
+          "initial_paid_starts": 40.7253125,
+          "year_end_active_paid": 111.807471875,
+          "remaining_never_attempted": 773.7809375
+        }
+      ]
+    },
+    {
+      "annual_attempt_probability": 0.1,
+      "initial_paid_probability": 0.6,
+      "first_year_retention": 0.61,
+      "subsequent_retention": 0.9,
+      "result": [
+        {
+          "year": 1,
+          "attempts": 100.0,
+          "initial_paid_starts": 60.0,
+          "year_end_active_paid": 36.6,
+          "remaining_never_attempted": 900.0
+        },
+        {
+          "year": 2,
+          "attempts": 90.0,
+          "initial_paid_starts": 54.0,
+          "year_end_active_paid": 65.88,
+          "remaining_never_attempted": 810.0
+        },
+        {
+          "year": 3,
+          "attempts": 81.0,
+          "initial_paid_starts": 48.6,
+          "year_end_active_paid": 88.938,
+          "remaining_never_attempted": 729.0
+        },
+        {
+          "year": 4,
+          "attempts": 72.9,
+          "initial_paid_starts": 43.74,
+          "year_end_active_paid": 106.7256,
+          "remaining_never_attempted": 656.1
+        },
+        {
+          "year": 5,
+          "attempts": 65.61,
+          "initial_paid_starts": 39.366,
+          "year_end_active_paid": 120.0663,
+          "remaining_never_attempted": 590.49
+        }
+      ]
+    },
+    {
+      "annual_attempt_probability": 0.1,
+      "initial_paid_probability": 0.8,
+      "first_year_retention": 0.61,
+      "subsequent_retention": 0.9,
+      "result": [
+        {
+          "year": 1,
+          "attempts": 100.0,
+          "initial_paid_starts": 80.0,
+          "year_end_active_paid": 48.8,
+          "remaining_never_attempted": 900.0
+        },
+        {
+          "year": 2,
+          "attempts": 90.0,
+          "initial_paid_starts": 72.0,
+          "year_end_active_paid": 87.84,
+          "remaining_never_attempted": 810.0
+        },
+        {
+          "year": 3,
+          "attempts": 81.0,
+          "initial_paid_starts": 64.8,
+          "year_end_active_paid": 118.584,
+          "remaining_never_attempted": 729.0
+        },
+        {
+          "year": 4,
+          "attempts": 72.9,
+          "initial_paid_starts": 58.32000000000001,
+          "year_end_active_paid": 142.30080000000004,
+          "remaining_never_attempted": 656.1
+        },
+        {
+          "year": 5,
+          "attempts": 65.61,
+          "initial_paid_starts": 52.488,
+          "year_end_active_paid": 160.08840000000004,
+          "remaining_never_attempted": 590.49
+        }
+      ]
+    },
+    {
+      "annual_attempt_probability": 0.1,
+      "initial_paid_probability": 1.0,
+      "first_year_retention": 0.61,
+      "subsequent_retention": 0.9,
+      "result": [
+        {
+          "year": 1,
+          "attempts": 100.0,
+          "initial_paid_starts": 100.0,
+          "year_end_active_paid": 61.0,
+          "remaining_never_attempted": 900.0
+        },
+        {
+          "year": 2,
+          "attempts": 90.0,
+          "initial_paid_starts": 90.0,
+          "year_end_active_paid": 109.8,
+          "remaining_never_attempted": 810.0
+        },
+        {
+          "year": 3,
+          "attempts": 81.0,
+          "initial_paid_starts": 81.0,
+          "year_end_active_paid": 148.23,
+          "remaining_never_attempted": 729.0
+        },
+        {
+          "year": 4,
+          "attempts": 72.9,
+          "initial_paid_starts": 72.9,
+          "year_end_active_paid": 177.876,
+          "remaining_never_attempted": 656.1
+        },
+        {
+          "year": 5,
+          "attempts": 65.61,
+          "initial_paid_starts": 65.61,
+          "year_end_active_paid": 200.1105,
+          "remaining_never_attempted": 590.49
+        }
+      ]
+    },
+    {
+      "annual_attempt_probability": 0.2,
+      "initial_paid_probability": 0.6,
+      "first_year_retention": 0.61,
+      "subsequent_retention": 0.9,
+      "result": [
+        {
+          "year": 1,
+          "attempts": 200.0,
+          "initial_paid_starts": 120.0,
+          "year_end_active_paid": 73.2,
+          "remaining_never_attempted": 800.0
+        },
+        {
+          "year": 2,
+          "attempts": 160.0,
+          "initial_paid_starts": 96.0,
+          "year_end_active_paid": 124.44000000000001,
+          "remaining_never_attempted": 640.0
+        },
+        {
+          "year": 3,
+          "attempts": 128.0,
+          "initial_paid_starts": 76.8,
+          "year_end_active_paid": 158.844,
+          "remaining_never_attempted": 512.0
+        },
+        {
+          "year": 4,
+          "attempts": 102.4,
+          "initial_paid_starts": 61.44,
+          "year_end_active_paid": 180.43800000000002,
+          "remaining_never_attempted": 409.6
+        },
+        {
+          "year": 5,
+          "attempts": 81.92000000000002,
+          "initial_paid_starts": 49.15200000000001,
+          "year_end_active_paid": 192.37692,
+          "remaining_never_attempted": 327.68
+        }
+      ]
+    },
+    {
+      "annual_attempt_probability": 0.2,
+      "initial_paid_probability": 0.8,
+      "first_year_retention": 0.61,
+      "subsequent_retention": 0.9,
+      "result": [
+        {
+          "year": 1,
+          "attempts": 200.0,
+          "initial_paid_starts": 160.0,
+          "year_end_active_paid": 97.6,
+          "remaining_never_attempted": 800.0
+        },
+        {
+          "year": 2,
+          "attempts": 160.0,
+          "initial_paid_starts": 128.0,
+          "year_end_active_paid": 165.92000000000002,
+          "remaining_never_attempted": 640.0
+        },
+        {
+          "year": 3,
+          "attempts": 128.0,
+          "initial_paid_starts": 102.4,
+          "year_end_active_paid": 211.79200000000003,
+          "remaining_never_attempted": 512.0
+        },
+        {
+          "year": 4,
+          "attempts": 102.4,
+          "initial_paid_starts": 81.92000000000002,
+          "year_end_active_paid": 240.58400000000003,
+          "remaining_never_attempted": 409.6
+        },
+        {
+          "year": 5,
+          "attempts": 81.92000000000002,
+          "initial_paid_starts": 65.53600000000002,
+          "year_end_active_paid": 256.50256,
+          "remaining_never_attempted": 327.68
+        }
+      ]
+    },
+    {
+      "annual_attempt_probability": 0.2,
+      "initial_paid_probability": 1.0,
+      "first_year_retention": 0.61,
+      "subsequent_retention": 0.9,
+      "result": [
+        {
+          "year": 1,
+          "attempts": 200.0,
+          "initial_paid_starts": 200.0,
+          "year_end_active_paid": 122.0,
+          "remaining_never_attempted": 800.0
+        },
+        {
+          "year": 2,
+          "attempts": 160.0,
+          "initial_paid_starts": 160.0,
+          "year_end_active_paid": 207.39999999999998,
+          "remaining_never_attempted": 640.0
+        },
+        {
+          "year": 3,
+          "attempts": 128.0,
+          "initial_paid_starts": 128.0,
+          "year_end_active_paid": 264.74,
+          "remaining_never_attempted": 512.0
+        },
+        {
+          "year": 4,
+          "attempts": 102.4,
+          "initial_paid_starts": 102.4,
+          "year_end_active_paid": 300.73,
+          "remaining_never_attempted": 409.6
+        },
+        {
+          "year": 5,
+          "attempts": 81.92000000000002,
+          "initial_paid_starts": 81.92000000000002,
+          "year_end_active_paid": 320.62820000000005,
+          "remaining_never_attempted": 327.68
+        }
+      ]
+    },
+    {
+      "annual_attempt_probability": 0.3,
+      "initial_paid_probability": 0.6,
+      "first_year_retention": 0.61,
+      "subsequent_retention": 0.9,
+      "result": [
+        {
+          "year": 1,
+          "attempts": 300.0,
+          "initial_paid_starts": 180.0,
+          "year_end_active_paid": 109.8,
+          "remaining_never_attempted": 700.0
+        },
+        {
+          "year": 2,
+          "attempts": 210.0,
+          "initial_paid_starts": 126.0,
+          "year_end_active_paid": 175.68,
+          "remaining_never_attempted": 490.0
+        },
+        {
+          "year": 3,
+          "attempts": 147.0,
+          "initial_paid_starts": 88.2,
+          "year_end_active_paid": 211.91400000000002,
+          "remaining_never_attempted": 343.0
+        },
+        {
+          "year": 4,
+          "attempts": 102.89999999999999,
+          "initial_paid_starts": 61.739999999999995,
+          "year_end_active_paid": 228.38400000000001,
+          "remaining_never_attempted": 240.10000000000002
+        },
+        {
+          "year": 5,
+          "attempts": 72.03,
+          "initial_paid_starts": 43.217999999999996,
+          "year_end_active_paid": 231.90858,
+          "remaining_never_attempted": 168.07000000000002
+        }
+      ]
+    },
+    {
+      "annual_attempt_probability": 0.3,
+      "initial_paid_probability": 0.8,
+      "first_year_retention": 0.61,
+      "subsequent_retention": 0.9,
+      "result": [
+        {
+          "year": 1,
+          "attempts": 300.0,
+          "initial_paid_starts": 240.0,
+          "year_end_active_paid": 146.4,
+          "remaining_never_attempted": 700.0
+        },
+        {
+          "year": 2,
+          "attempts": 210.0,
+          "initial_paid_starts": 168.0,
+          "year_end_active_paid": 234.24,
+          "remaining_never_attempted": 490.0
+        },
+        {
+          "year": 3,
+          "attempts": 147.0,
+          "initial_paid_starts": 117.60000000000001,
+          "year_end_active_paid": 282.552,
+          "remaining_never_attempted": 343.0
+        },
+        {
+          "year": 4,
+          "attempts": 102.89999999999999,
+          "initial_paid_starts": 82.32,
+          "year_end_active_paid": 304.51200000000006,
+          "remaining_never_attempted": 240.10000000000002
+        },
+        {
+          "year": 5,
+          "attempts": 72.03,
+          "initial_paid_starts": 57.624,
+          "year_end_active_paid": 309.21144000000004,
+          "remaining_never_attempted": 168.07000000000002
+        }
+      ]
+    },
+    {
+      "annual_attempt_probability": 0.3,
+      "initial_paid_probability": 1.0,
+      "first_year_retention": 0.61,
+      "subsequent_retention": 0.9,
+      "result": [
+        {
+          "year": 1,
+          "attempts": 300.0,
+          "initial_paid_starts": 300.0,
+          "year_end_active_paid": 183.0,
+          "remaining_never_attempted": 700.0
+        },
+        {
+          "year": 2,
+          "attempts": 210.0,
+          "initial_paid_starts": 210.0,
+          "year_end_active_paid": 292.8,
+          "remaining_never_attempted": 490.0
+        },
+        {
+          "year": 3,
+          "attempts": 147.0,
+          "initial_paid_starts": 147.0,
+          "year_end_active_paid": 353.19,
+          "remaining_never_attempted": 343.0
+        },
+        {
+          "year": 4,
+          "attempts": 102.89999999999999,
+          "initial_paid_starts": 102.89999999999999,
+          "year_end_active_paid": 380.64,
+          "remaining_never_attempted": 240.10000000000002
+        },
+        {
+          "year": 5,
+          "attempts": 72.03,
+          "initial_paid_starts": 72.03,
+          "year_end_active_paid": 386.5143,
+          "remaining_never_attempted": 168.07000000000002
+        }
+      ]
+    }
+  ]
+}
