@@ -138,3 +138,12 @@ Claims rescue doses averaged across all LTP patients include zero-claim users; d
 not multiply those means by rescue-claim prevalence again. New research records
 operational plans, historical calibration checkpoints and management scenarios
 separately. No fitted first-year or mature PHVS persistence parameter is established.
+
+CONDITIONAL IMPLEMENTATION
+threshold_analysis.py now provides a limited monthly-cohort revenue inversion and
+IR dispensing thresholds. It is not the full state-transition model above.
+Access is a fixed eventual-paid fraction/lag, retention follows an assumed
+piecewise hazard, and all prescriptions are unique first attempts. Existing versus
+newly diagnosed sources are assigned explicitly; current-regimen subgroups, retries,
+free/paid recycling and mature competitive destinations remain uncalibrated.
+All scenario choices are separate from the evidence ledger. See threshold_inputs.json.

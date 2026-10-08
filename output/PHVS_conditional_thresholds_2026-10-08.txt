@@ -1,0 +1,132 @@
+PHVS conditional adoption thresholds — 8 October 2026
+Hypothetical scenarios; no calibrated central forecast or recommended position.
+
+HURDLE AND METHOD
+Saved $31.83 scenario:2036 worldwide success-case XR $620.8m; IR $1002.0m.
+This is the latest50/50 post-generic case, not the superseded Kuvan-only scenario.
+90% approval probabilities are already in valuation. Do not probability-adjust patient requirements again.
+No current stock-price refresh. The inherited shape and product mix remain assumptions.
+
+ILLUSTRATIVE REFERENCE — NOT A BASE CASE
+80% US revenue; XR $418k net/paid patient-year (broker assumption);80% conversion;
+80% year1 retention;95% annual retention thereafter;1-month access delay;
+January2028 first prescriptions;200 new diagnoses/year with50% prescription capture;
+6000 initially eligible existing patients. These are scenarios, not observed PHVS inputs.
+Monthly first-attempt prescriptions minimize adjacent-month changes subject to exact annual sales.
+This is a transparent allocation convention, not an empirically fitted adoption curve.
+Paid starts occur at month-start after the delay; exact integrated survival yields patient-years.
+60% of first-year log hazard falls in months1–3; this shape is assumed, not calibrated.
+Converted users have survival measured from first paid supply. No retries, returns,
+subsequent free-to-paid recycling or reauthorization interruptions are modeled.
+
+REFERENCE OUTPUT
+2036 US XR revenue $496.6m needs 1,188 paid patient-years.
+Smooth allocation2028–36 requires 2,314 unique first prescriptions, including
+1,414 existing-patient attempts (23.6% of assumed6000).
+Absolute mathematical minimum all-source first prescriptions: 2,209; this permits lumpy recruitment.
+Existing-patient attempts include previously diagnosed rescue-only/untreated entrants to prevention,
+not just switching from incumbent prophylaxis. No current-regimen allocation is inferred.
+
+YEAR-BY-YEAR XR REQUIREMENT
+Year | US sales $m | Paid patient-years | All first Rx | Existing-patient Rx | Remaining existing pool
+2028 | 60.9 | 146 | 390 | 290 | 5710
+2029 | 137.0 | 328 | 247 | 147 | 5563
+2030 | 207.2 | 496 | 290 | 190 | 5373
+2031 | 271.2 | 649 | 259 | 159 | 5214
+2032 | 329.0 | 787 | 256 | 156 | 5057
+2033 | 380.6 | 911 | 239 | 139 | 4918
+2034 | 425.8 | 1019 | 227 | 127 | 4791
+2035 | 464.5 | 1111 | 209 | 109 | 4683
+2036 | 496.6 | 1188 | 197 | 97 | 4586
+
+RETENTION x ACCESS: REQUIRED EXISTING-PATIENT FIRST ATTEMPTS THROUGH2036
+Year1 retention | Eventual paid conversion | Existing attempts | % of6000 | First exhaustion year
+61% | 60% | 3092 | 51.5% | none
+61% | 80% | 2094 | 34.9% | none
+61% | 95% | 1621 | 27.0% | none
+80% | 60% | 2186 | 36.4% | none
+80% | 80% | 1414 | 23.6% | none
+80% | 95% | 1049 | 17.5% | none
+95% | 60% | 1718 | 28.6% | none
+95% | 80% | 1064 | 17.7% | none
+95% | 95% | 754 | 12.6% | none
+
+NET PRICE x US MIX:2036 PAID PATIENT-YEARS / CUMULATIVE EXISTING ATTEMPTS
+$300,000; US60%: 1242 / 1518
+$300,000; US80%: 1655 / 2325
+$300,000; US90%: 1862 / 2728
+$418,000; US60%: 891 / 836
+$418,000; US80%: 1188 / 1414
+$418,000; US90%: 1337 / 1704
+$500,000; US60%: 745 / 551
+$500,000; US80%: 993 / 1035
+$500,000; US90%: 1117 / 1277
+
+ONE-AT-A-TIME SENSITIVITIES: CUMULATIVE EXISTING ATTEMPTS / FIRST EXHAUSTION
+mature_annual_retention=0.9: 1803 / none
+mature_annual_retention=0.98: 1173 / none
+paid_delay_months=0: 1398 / none
+paid_delay_months=3: 1447 / none
+xr_first_prescription_month=7: 1592 / none
+existing_eligible_pool=4000: 1414 / none
+existing_eligible_pool=8000: 1414 / none
+constant_year1_hazard=see inputs: 1402 / none
+no_new_diagnosis_capture=see inputs: 2314 / none
+
+JOINT SCENARIOS — NOT PROBABILITY ESTIMATES
+Stress:90%US, $300knet,60%conversion,61%year1,90%mature,4000existing eligibles.
+Discount/access: $300knet with95%conversion; other reference assumptions unchanged.
+stacked_stress_not_probability_weighted: 6365 existing attempts; 159.1% of assumed pool; first exhaustion 2033
+discount_with_better_access: 1815 existing attempts; 30.3% of assumed pool; first exhaustion none
+
+IR: ANNUAL PAID USERS, NOT RESCUE OWNERS
+US share | Net annual sales per paid user |2036 annual paid users required
+60% | $50,000 | 12,024
+60% | $100,000 | 6,012
+60% | $150,000 | 4,008
+60% | $200,000 | 3,006
+80% | $50,000 | 16,032
+80% | $100,000 | 8,016
+80% | $150,000 | 5,344
+80% | $200,000 | 4,008
+90% | $50,000 | 18,036
+90% | $100,000 | 9,018
+90% | $150,000 | 6,012
+90% | $200,000 | 4,509
+
+At80%US mix, required net annual revenue per paid user:
+2,000 users -> $400,804
+4,000 users -> $200,402
+6,000 users -> $133,601
+9,000 users -> $89,068
+
+Equivalent pack grid is saved in threshold_results.json. Pack definition, price and
+utilization are arbitrary arithmetic scenarios, not PHVS dosing assumptions.
+A paid user here has annual paid dispensing; a person carrying old/free stock may generate
+no sales this year. IR users can overlap XR patients; do not sum them as unique HAE patients.
+Run inventory/replenishment modeling before interpreting pack counts as attacks.
+
+WHAT THE THRESHOLDS DO AND DO NOT ESTABLISH
+A required pool above the assumed eligible stock is infeasible under these no-return rules.
+A required pool below it is only arithmetically possible, not evidence of achievable capture.
+Compare requirements to a future validated eligible stock, not all diagnosed patients blindly.
+The same annual sales can result from different starts, persistence and prices. Revenue alone
+cannot identify each. Low conversion can increase cumulative unique recruitment dramatically.
+Later launch/delay can concentrate initial prescriptions. Smoothness and recruitment timing
+affect cumulative requirements; the linear-program minimum all-source count is a lower bound.
+Discounts may improve access; these grids isolate effects, not independent random distributions.
+First-year survival61% is an observed analogue in a different population;95% is a management
+illustration. Applying either to post-conversion PHVS cohorts is hypothetical.
+IR/XR mix is inherited, not independently identified by the stock price: a different mix can
+support the same valuation. This pass does not solve that product-allocation frontier.
+The prescribed ramp is held fixed through2036. No faster/slower ramp is revalued; plateau and
+generic-era patient dynamics remain outside this bridge. Ex-US economics also remain assumed.
+No annual spend, paid conversion, pool size or retention is selected as the most likely case.
+
+REPRODUCIBILITY
+Inputs: models/patient_adoption/threshold_inputs.json
+Source: models/reverse_dcf/verification.json, base.sales (2027 onward)
+Engine: models/patient_adoption/threshold_analysis.py
+Results: models/patient_adoption/threshold_results.json
+Checks: models/patient_adoption/threshold_validation.json
+Run threshold_analysis.py, then validate_thresholds.py. Existing DCF files are read only.

@@ -1,0 +1,98 @@
+{
+  "status": "Hypothetical conditional threshold analysis; no calibrated base case or scenario probabilities",
+  "valuation_source": "models/reverse_dcf/verification.json",
+  "valuation_case": "base",
+  "valuation_snapshot": "2026-10-07, $31.83;90% approval probability for each formulation already applied in DCF",
+  "first_source_year": 2027,
+  "last_preplateau_year": 2036,
+  "illustrative_reference": {
+    "us_revenue_fraction": 0.8,
+    "xr_annual_net_price_usd": 418000,
+    "prescription_to_paid_probability": 0.8,
+    "first_year_retention": 0.8,
+    "mature_annual_retention": 0.95,
+    "first_three_months_log_hazard_share": 0.6,
+    "paid_delay_months": 1,
+    "xr_launch_year": 2028,
+    "xr_first_prescription_month": 1,
+    "annual_new_diagnoses": 200,
+    "new_diagnosis_prescription_capture": 0.5,
+    "existing_eligible_pool": 6000
+  },
+  "sensitivity_values": {
+    "first_year_retention": [
+      0.61,
+      0.8,
+      0.95
+    ],
+    "prescription_to_paid_probability": [
+      0.6,
+      0.8,
+      0.95
+    ],
+    "xr_annual_net_price_usd": [
+      300000,
+      418000,
+      500000
+    ],
+    "us_revenue_fraction": [
+      0.6,
+      0.8,
+      0.9
+    ],
+    "mature_annual_retention": [
+      0.9,
+      0.95,
+      0.98
+    ],
+    "paid_delay_months": [
+      0,
+      1,
+      3
+    ],
+    "xr_first_prescription_month": [
+      1,
+      7
+    ],
+    "existing_eligible_pool": [
+      4000,
+      6000,
+      8000
+    ],
+    "ir_annual_net_revenue_per_paid_user_usd": [
+      50000,
+      100000,
+      150000,
+      200000
+    ],
+    "ir_net_revenue_per_paid_pack_usd": [
+      10000,
+      20000,
+      30000
+    ],
+    "ir_paid_packs_per_user_year": [
+      2,
+      4,
+      8,
+      12
+    ],
+    "ir_paid_user_counts": [
+      2000,
+      4000,
+      6000,
+      9000
+    ]
+  },
+  "provenance": {
+    "418000": "Wedbush September2026 modeled XR net annual price; saved in models/reverse_dcf/build.mjs Street evidence note C68; not PHVS realized price",
+    "0.61": "Historical Orladeyo claims first-year persistence; transferring to converted PHVS starters is hypothetical and changes population",
+    "0.95": "PHVS management5% dropout illustration interpreted as first-year survival scenario; not guidance or measured retention",
+    "200": "Midpoint of management150\u2013250 new-HAE-patient estimate, definition unverified",
+    "all_other_rates_prices_and_pool_sizes": "Explicit scenario choices, not observed PHVS rates or probabilities",
+    "timing": "Within-year launch timing unknown; January/July scenarios. Nonnegative month-start cohorts allocated by minimum adjacent-month changes under exact annual patient-year constraints; not statistical calibration.",
+    "retention_shape": "60% of year1 cumulative log hazard in first3months;40% in months4\u201312. Illustrative, not derived from the share of discontinuers leaving early.",
+    "access": "Constant eventual paid-conversion probability and fixed lag; excludes later returns, reauthorization pauses and time-varying contracts. Nonconverters exit this simplified demand calculation.",
+    "recruitment": "Every prescription is a unique first attempt; no repeat attempts or return of discontinued users. New diagnoses enter only via specified capture; remaining required prescriptions are assigned to previously diagnosed eligible patients. Source subgroups not calibrated.",
+    "IR": "Net annual spend and pack grids are arithmetic units, not assumed PHVS pack size, dose pricing, treated attacks or coverage policy. Annual paid users can overlap XR users."
+  }
+}

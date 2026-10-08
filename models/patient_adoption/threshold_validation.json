@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "checks": [
+    "Monthly treated-time integration agrees with independent fine-grid integration",
+    "Zero-attrition monthly cohort result equals closed-form6.5 patient-years",
+    "All scenario years reconcile to saved revenue hurdle within$1",
+    "All monthly prescriptions are finite/nonnegative",
+    "Existing plus newly diagnosed prescriptions conserve total unique attempts",
+    "Smooth allocations never use fewer prescriptions than the linear-program minimum",
+    "IR users x packs x net price and users x annual spend reconcile",
+    "Undersized eligible pool correctly flags recruitment infeasibility"
+  ],
+  "scenario_count": 30,
+  "max_absolute_revenue_reconciliation_error_USD": 2.682209014892578e-06,
+  "market_validation": false,
+  "DCF_repriced": false,
+  "correction": "Initial year-flat prescription inversion caused alternating cohorts and a missed revenue target. Replaced before delivery with nonnegative monthly allocation and exact annual constraints."
+}

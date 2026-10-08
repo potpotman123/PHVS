@@ -391,6 +391,26 @@
         "models/patient_adoption/flow.mmd",
         "models/patient_adoption/calibration/check_results.json"
       ]
+    },
+    {
+      "id": "G21",
+      "logged_on": "2026-10-08",
+      "event_date": "2026-10-08",
+      "record_type": "contemporaneous",
+      "objective": "Translate saved valuation revenue hurdle into conditional recruitment and paid dispensing thresholds.",
+      "user_contribution": "Authorized conditional threshold analysis after requesting operationally grounded adoption calibration.",
+      "prompt_excerpt": "lets do that conditional threshold analysis.",
+      "ai_method_and_sources": "Read latest50/50 reverse-DCF verification; built30 small deterministic XR allocation scenarios with exact annual revenue constraints and an IR unit-economics grid. Used monthly integrated survival, nonnegative smooth recruitment and minimum-total-prescription bounds; no empirical fitting, new agents or paid evidence.",
+      "snapshot": "Illustrative reference:1188US XR paid patient-years2036;2314cumulative first prescriptions including1414existing plus900assumed captured diagnoses.80%US IR allocation needs~$802m, or~$200kannual net spend at4000paid users.",
+      "thesis_effect": "XR hurdle is not inherently implausible under favorable explicit inputs; IR inherited allocation demands substantial recurring spend or broad paid-user capture. Neither supports an automatic short; product mix remains conditional.",
+      "limitations_and_checks": "Initial year-flat inversion oscillated and missed2035target; replaced before delivery by exact nonnegative monthly allocation.30scenarios reconcile within$1; numerical integration, no-attrition identity, population accounting, IR price-volume identities and exhaustion checks pass. This is arithmetic verification, not independent market validation. No national segment calibration, new DCF solve or post2036 patient path.",
+      "artifacts": [
+        "models/patient_adoption/threshold_inputs.json",
+        "models/patient_adoption/threshold_results.json",
+        "models/patient_adoption/threshold_validation.json",
+        "output/PHVS_conditional_thresholds_2026-10-08.txt",
+        "output/PHVS_conditional_thresholds_2026-10-08.png"
+      ]
     }
   ]
 }

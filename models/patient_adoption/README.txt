@@ -1,3 +1,15 @@
+CONDITIONAL THRESHOLDS (8 October 2026)
+threshold_inputs.json contains explicit scenarios; threshold_analysis.py reads the
+saved DCF verification without changing valuation.30 XR allocations solve monthly
+nonnegative first prescriptions against every annual2028–36 revenue target.
+Minimum month-to-month changes defines the illustrative path; a linear-program
+minimum total prescription count is also reported. No empirical adoption fit.
+IR requirements are annual paid users/dispensing at assumed net prices.
+Report: output/PHVS_conditional_thresholds_2026-10-08.txt; chart alongside.
+Run with dependencies in threshold_requirements.txt, then validate_thresholds.py.
+Results and checks saved as threshold_results.json / threshold_validation.json.
+No national TAM or scenario probabilities calibrated; DCF not repriced.
+
 LATEST CALIBRATION PASS (8 October 2026)
 parameter_ledger.json:26 definitions with source/denominator/transferability and
 unknown inputs preserved. flow.mmd: expanded diagram. calibration/check_calibration.py
