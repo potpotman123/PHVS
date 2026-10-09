@@ -1,0 +1,30 @@
+{
+  "as_of": "2026-10-09",
+  "question": "Find additional observable PHVS contact sources beyond travel and prior vendor work.",
+  "findings": [
+    {
+      "source": "https://convention.bio.org/participating-companies/pharvaris",
+      "observed": "Organizer lists PHVS among partnering companies for BIO2026,June22-25,SanDiego.",
+      "interpretation": "Verified participation listing; no evidence of actual meeting count,counterparties or change over time."
+    },
+    {
+      "source": "https://haei.org/wp-content/uploads/2026/06/Global-Perspectives-2-2026-FINAL-FINAL-web.pdf",
+      "observed": "Indexed June2026 association report describes Pharvaris industry session. Prior association accounts show separate pharma meetings and sponsor overlap.",
+      "interpretation": "Event reporting offers dated activities but does not establish bilateral contact."
+    },
+    {
+      "source": "https://investor.roivant.com/static-files/b4edef38-9c13-49c7-a21c-904d73da2297",
+      "observed": "Indexed exhibit table appeared to say Eisai license with Pharvaris7GmbH.",
+      "verification_source": "https://www.sec.gov/Archives/edgar/data/1635088/000119312522039433/d12341dex101.htm",
+      "resolution": "Executed agreement is with Pharmavant7GmbH,a Roivant subsidiary. Reject apparent PHVS-Eisai link as name/extraction error; do not claim which stage introduced typo."
+    }
+  ],
+  "source_priorities": [
+    "Organizer partnering directories establish participation; public named meeting recaps needed for counterparties. Do not access private meeting schedules.",
+    "Patient-organization dated minutes and meeting reports can identify actual attendees; shared sponsorship insufficient.",
+    "Original counterparty contracts verify apparent links and entity identities; indexes can mislead.",
+    "Existing expert transcripts from named commercial/business-development leaders may contain firsthand descriptions, kept distinct from speculative opinions."
+  ],
+  "decision": "No PHVS-big-pharma contact trend established and no probability update. Stop broad repeated web searches without a specific new record.",
+  "method": "Bounded discovery with concrete follow-up to apparent Eisai/Roivant contract; verified against originalSEC exhibit. No private-person tracking or private calendar access."
+}

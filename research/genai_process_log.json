@@ -755,6 +755,17 @@
       "thesis_effect": "Broader demonstrated buyer pool, tempered by valuation discipline; no PHVS contact or Takeda identity verified.",
       "limitations": "Anonymous parties not identified; deal histories retrospective and selected; registry screen limited and official assignment link inaccessible. No numerical takeover probability inferred.",
       "remaining_work": "Stop absent specific fresh lead; maintain separate takeover valuation scenario."
+    },
+    {
+      "id": "G52",
+      "logged_on": "2026-10-09",
+      "objective": "Extend public contact-source discovery.",
+      "user_contribution": "Requested other interesting sources for PHVS-big-pharma contact patterns.",
+      "ai_method_and_sources": "Organizer directories,advocacy reports and counterparty contracts; verified apparent Eisai link against signed agreement. research/PHVS_contact_source_extension_2026-10-09.json",
+      "snapshot": "BIO2026 lists PHVS as partnering company; no named meetings. Apparent Pharvaris7-Eisai contract is Pharmavant7,not PHVS.",
+      "thesis_effect": "No contact-frequency or acquisition-probability update; strong entity-resolution false-positive check.",
+      "limitations": "Participation listing not completed meetings; no historical series or private schedules.",
+      "remaining_work": "Prefer specific public named meeting records or existing firsthand expert interviews over repeated generic queries."
     }
   ]
 }
