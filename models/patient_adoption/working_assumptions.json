@@ -7,10 +7,10 @@
     "clinical_exit_share_definition": "French Berolife efficacy or AE stops / all reported stops. Applying this cause mix to US claims discontinuation is an explicit cross-cohort proxy.",
     "fraction_of_clinical_exits_avoided": {
       "no_improvement": 0,
-      "working": 0.5,
-      "optimistic": 1
+      "working": 0,
+      "optimistic": 0.5
     },
-    "working_choice_rationale": "50% is an analyst-selected partial improvement assumption, not estimated PHVS effect. Adherence/access and other exits remain. Full removal is an optimistic stress case.",
+    "working_choice_rationale": "No incremental efficacy/AE retention benefit underwritten. Prior50%working improvement superseded;50%remains upside judgment only, not observed switching.",
     "mature_annual_retention": 0.9,
     "mature_status": "Inherited unmeasured assumption; no repeated first-year benefit.",
     "formula": "R1 = R0 + (1-R0) * clinical_exit_share_proxy * fraction_of_clinical_exits_avoided"

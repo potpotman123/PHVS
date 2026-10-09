@@ -1,0 +1,144 @@
+{
+  "as_of": "2026-10-09",
+  "question": "Calibrate geography and phase-in; audit50%retention benefit, switching and price premium; prioritize uncertainty.",
+  "geography_observations": [
+    {
+      "drug": "Orladeyo",
+      "year": 2022,
+      "US": 226.358,
+      "worldwide": 251.633,
+      "unit": "USDm",
+      "ratio": 1.1116594067804098,
+      "source": "https://ir.biocryst.com/static-files/99047ae6-7679-4210-82f1-5a64a2afdd39",
+      "location": "Note2,pdfpage94",
+      "limitation": "Reported product/collaboration/royalty revenue, not uniform end-market drug sales. Years2-4not established mature peak.2025excluded because European business sold October1,2025."
+    },
+    {
+      "drug": "Orladeyo",
+      "year": 2023,
+      "US": 288.361,
+      "worldwide": 325.99,
+      "unit": "USDm",
+      "ratio": 1.1304926810491016,
+      "source": "https://ir.biocryst.com/static-files/99047ae6-7679-4210-82f1-5a64a2afdd39",
+      "location": "Note2,pdfpage94",
+      "limitation": "Reported product/collaboration/royalty revenue, not uniform end-market drug sales. Years2-4not established mature peak.2025excluded because European business sold October1,2025."
+    },
+    {
+      "drug": "Orladeyo",
+      "year": 2024,
+      "US": 385.961,
+      "worldwide": 437.66,
+      "unit": "USDm",
+      "ratio": 1.1339487668443184,
+      "source": "https://ir.biocryst.com/static-files/99047ae6-7679-4210-82f1-5a64a2afdd39",
+      "location": "Note2,pdfpage94",
+      "limitation": "Reported product/collaboration/royalty revenue, not uniform end-market drug sales. Years2-4not established mature peak.2025excluded because European business sold October1,2025."
+    },
+    {
+      "drug": "Takhzyro",
+      "fiscal_year": 2021,
+      "US": 79.1,
+      "worldwide": 103.2,
+      "unit": "JPYbn",
+      "ratio": 1.3046776232616941,
+      "source": "https://assets-dam.takeda.com/raw/upload/v1662727332/legacy-dotcom/siteassets/system/investors/report/quarterlyannouncements/fy2021/qr2021_q4_qfr_en.pdf",
+      "location": "Product sales analysis;FY2025 PDFpage50;local text same table",
+      "limitation": "Takeda global infrastructure materially different;20%weight only in centralXR anchor;not evidence of oralPHVSaccess. FY2025endsMarch2026. Current web openingfailed;previouslydownloadedprimaryPDF/textused. Samecurrencyperiodratio no currentFXconversion."
+    },
+    {
+      "drug": "Takhzyro",
+      "fiscal_year": 2025,
+      "US": 140.7,
+      "worldwide": 223.9,
+      "unit": "JPYbn",
+      "ratio": 1.5913290689410093,
+      "source": "https://assets-dam.takeda.com/image/upload/v1780626052/Global/Investor/Financial-Results/FY2025/Q4_0605/qr2025_q4_qfr_en_20260605.pdf",
+      "location": "Product sales analysis;FY2025 PDFpage50;local text same table",
+      "limitation": "Takeda global infrastructure materially different;20%weight only in centralXR anchor;not evidence of oralPHVSaccess. FY2025endsMarch2026. Current web openingfailed;previouslydownloadedprimaryPDF/textused. Samecurrencyperiodratio no currentFXconversion."
+    }
+  ],
+  "other_geography_checks": [
+    {
+      "source": "https://assets-dam.takeda.com/image/upload/v1687364168/Global/Investor/Legacy-Shire/2017/FY2017_Q4_Press_Release.pdf",
+      "location": "PDFpage9 HAEfranchise",
+      "US_USDm": 1305.2,
+      "worldwide_USDm": 1429.6,
+      "ratio": 1.0953110634385534,
+      "use": "Historicallowanchoronly;pooledCinryze/Firazyr/Kalbitor not Firazyr-specific."
+    },
+    {
+      "source": "https://assets-dam.takeda.com/image/upload/v1780626052/Global/Investor/Financial-Results/FY2025/Q4_0605/qr2025_q4_qfr_en_20260605.pdf",
+      "Firazyr_world_JPYbn": 16,
+      "Firazyr_US_JPYbn": 9.1,
+      "use": "Rejected as central anchor:postgeneric geography ratios distorted by asynchronous erosion."
+    }
+  ],
+  "retention_audit": {
+    "prior_formula": "0.61+0.39*(20/30)*0.5=0.74",
+    "meaning": "Preventing half the clinical discontinuations;not50%of dissatisfiedpatients switching. Not empirically calibrated.",
+    "cause_counts": {
+      "efficacy": 13,
+      "AE": 7,
+      "other": 10,
+      "all_stops": 30
+    },
+    "source": "https://onlinelibrary.wiley.com/doi/10.1002/clt2.70193",
+    "new_working": 0.61,
+    "upside_only": 0.74,
+    "efficacy_only_50pct_sensitivity": 0.6945,
+    "justification": "No numerical benefit underwritten absent credible real-world PHVS persistence comparison. Do not substitute another arbitrary25%benefit as empirical.74retained only for comparability/upside;87removed from main optimisticcase.",
+    "safety_caution": "PresenceofAEsdoesnotproveequal tolerability. Need treatment-related symptom type,severity,discontinuation,exposure. CHAPTER3 active1/55AEdiscontinuation over24weeks doesnot measure annual commercialretention.",
+    "clinical_source": "https://pharvaris.gcs-web.com/news-releases/news-release-details/pharvaris-announces-positive-topline-data-chapter-3-pivotal"
+  },
+  "switching_audit": {
+    "Orladeyo_annual_Rx_range": [
+      0.05,
+      0.1,
+      0.15
+    ],
+    "observation": "50/328anyLTPswitches within12months;mixednewinitiators,notstableOrladeyo",
+    "source": "https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf",
+    "transformation": "1/3,2/3,1times15.24%,rounded;judgmentalPHVSallocation plusseparatepaidconversion.10%Rx*80%conversion=8%eventualpaid among initialavailablepeople beforetiming/retry/retention. Not8%annualnetmarketshare.",
+    "injectable_range": [
+      0.02,
+      0.04,
+      0.06
+    ],
+    "IR_range": [
+      0.05,
+      0.1,
+      0.15
+    ],
+    "IR_note": "5/10/15%allengagedorigins from attenuation of Ekterly launchforms~20%market/~8months;not observedEkterly-to-PHVSswitch. CurrentIRmodeldoesnotseparatelytrackEkterlyincumbents.",
+    "decision": "Retain evidence-informed ranges; do notpretend a precise fast-followercapturecoefficient wasfound."
+  },
+  "pricing": {
+    "working_XR_net_annual": 418000,
+    "working_IR_net_dose": 14000,
+    "basis": "Prior datedsellsideanchors;seePHVS_multiyear_revenue_bridges_2026-10-09.json. No added efficacy multiplier.",
+    "audit": "14000/EkterlyWAC16720=0.8373 is notnet-netdiscount proof;comparablenetEkterlypriceunobserved.418kXRnot demonstratedpremiumorparityversusOrladeyonet.",
+    "rule": "No automaticpremium for cross-trial superiority. Use currentnetprice scenarios and payerconversionseparately. Any futurebenefitshould enter specificacquisition/retention/quantitychannels,notgenericrevenueuplift plusprice pluscapture. Rebatebenefitsaccess maycorrelate withlowernetprice."
+  },
+  "fast_follower_check": {
+    "candidate": "Austedoaftertetrabenazine",
+    "source": "https://ir.tevapharm.com/news-and-events/press-releases/press-release-details/2025/Teva-Delivers-Second-Consecutive-Year-of-Growth-Announces-Strong-Financial-Results-in-Fourth-Quarter-and-Full-Year-2024-Led-by-Generics-Performance-and-Innovative-Portfolio-Growth/default.aspx",
+    "FDA": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/216354s006lbl.pdf",
+    "observed": "Issuerreports2024Austedo sales>1.6bn. FDAHDpivotalstudywasplacebo-controlled;labelalsoincludesTD.",
+    "inference": "Lateroralcancommerciallysucceed;secondoralstatusaloneinsufficientshortthesis.",
+    "exclusion": "SalescombineHDandTDplusformulationevolution;notHDswitchrate,nothead-to-head superiorityelasticity,nottransferablePHVSrevenuepremium.",
+    "discovery_stop": "No clean matchedrare-diseaseoral-to-oral superior-efficacy commercialconversioncoefficient established in boundedpass. Galafoldroute/eligibilityandAustedoindicationconfounding makeforced numericalpooling less defensible than HAEclaims."
+  },
+  "implementation": [
+    "models/patient_adoption/global_ramp_inputs.json",
+    "models/patient_adoption/global_ramp.py",
+    "models/patient_adoption/global_ramp_results.json"
+  ],
+  "limitations": [
+    "Maturemultipliers/scenario weights andcommercialphaseyearsare underwritingchoices,notstatisticalestimates.",
+    "IRgeographyevidence weakerthanXR.",
+    "Globaloutputisdirect-sales-equivalentproductdemand;futurePHVSrecognizedroyaltyrevenue/costscoulddiffer.",
+    "Priorreversecomparisonremains historicalsnapshot;notregeneratedasnewfairvalue.",
+    "NoMoCarlo distributionorcorrelationestimated;one-variable sensitivitiesnotconfidenceintervals."
+  ]
+}

@@ -613,6 +613,17 @@
       "snapshot": "Year5~flat;year10combined-19%,XR+28%,IR-49%;10yrrevenue-7.6%.",
       "limitations": "Saved31.83snapshotnotlive;80%USassumed;earlytimingnotexact;noPVrecalculationandnewyear10notpeak.",
       "remaining_work": "Calendarmonthalignmentandexplicitgeography/tailneededbeforeequityvaluation."
+    },
+    {
+      "id": "G39",
+      "logged_on": "2026-10-09",
+      "objective": "Calibrate globaloverlay,audit50%retentionandpremiumassumptions,prioritizesensitivities.",
+      "user_contribution": "Challenged50%capture/AEresolution;requestedhistoricalfastfollowersandexplicitlywarnednottoequallyweightTakhzyrogivenTakedaglobalcapabilities.",
+      "ai_method_and_sources": "Readmodel,evidenceregisterandprimarygeographytables;boundedclinical/issuersearch;implementedgeographylagoverlayandone-variable sensitivities. research/PHVS_geography_retention_audit_2026-10-09.json",
+      "snapshot": "50%wasretentionimprovementnotcapture;removedfromworkingbase. USyear10~952m,global~1159mwithIR1.20/XR1.25maturemultipliersand1yearlag. Orladeyo80%/Takhzyro20%centralXRanchor weightingisjudgment.",
+      "thesis_effect": "MoreconservativeXRretentionlowersrevenue;largefastfollowerscanstillwin,sosecondoralnotautomaticfailure. Noidentifieduniversalpremium.",
+      "limitations": "NoempiricalPHVSswitchorretentioneffect,newglobalmultipliersnotfitted,IRgeo/partnerrevenueuncertain. Arithmeticchecked,notindependentdemandvalidation.",
+      "remaining_work": "PrioritizeIRacquisition/retention,netpriceandpaidconversion;calendaralignandaccountforpartnertermsbeforeDCF. Noagentsused."
     }
   ]
 }

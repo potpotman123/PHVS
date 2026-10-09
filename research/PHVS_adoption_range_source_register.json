@@ -118,20 +118,21 @@
       "parameter": "XR first-year retention",
       "values": [
         0.61,
-        0.74,
-        0.87
+        0.6945,
+        0.74
       ],
       "classification": "Historical benchmark plus derived assumptions",
       "evidence_files": [
         "research/PHVS_adoption_evidence_2026-10-07.json:A04",
         "research/PHVS_three_adoption_hypotheses_2026-10-08.json:H2",
-        "models/patient_adoption/working_assumptions.json:xr"
+        "models/patient_adoption/working_assumptions.json:xr",
+        "research/PHVS_geography_retention_audit_2026-10-09.json"
       ],
       "source_urls": [
         "https://pubmed.ncbi.nlm.nih.gov/40300843/",
         "https://onlinelibrary.wiley.com/doi/10.1002/clt2.70193"
       ],
-      "adjustment": "0.61+(1-0.61)*(20/30)*f, with analystf=0/.5/1.",
+      "adjustment": "Working61%no benefit;69.45%efficacy-only half-exits-avoided sensitivity;74%priorworking now upsideonly. No automaticAEbenefit.",
       "limitation": "French cessation cause mix transferred toUSclaims; improvement not measuredPHVSretention."
     },
     {
@@ -448,6 +449,43 @@
       ],
       "adjustment": "HistoricalroughlylinearnetOrladeyoactivity motivates noarbitraryS-curve; pooldepletionandcohortretentioncreateslowing.12monthretryfitsannualreviewmechanism fromexpertcalls.",
       "limitation": "Notfittedlaunchshape; nominationtiming,competition,reattemptsandstablepatientstickinessuncertain. Failedaccessretrydiffersfrompaid-discontinuerrecapture."
+    },
+    {
+      "parameter": "Global geographic overlay, mature and timing",
+      "classification": "HistoricalHAEgeography plusjudgment",
+      "evidence_files": [
+        "research/PHVS_geography_retention_audit_2026-10-09.json",
+        "models/patient_adoption/global_ramp_inputs.json"
+      ],
+      "source_urls": [
+        "https://ir.biocryst.com/static-files/99047ae6-7679-4210-82f1-5a64a2afdd39",
+        "https://assets-dam.takeda.com/image/upload/v1780626052/Global/Investor/Financial-Results/FY2025/Q4_0605/qr2025_q4_qfr_en_20260605.pdf",
+        "https://assets-dam.takeda.com/raw/upload/v1662727332/legacy-dotcom/siteassets/system/investors/report/quarterlyannouncements/fy2021/qr2021_q4_qfr_en.pdf",
+        "https://assets-dam.takeda.com/image/upload/v1687364168/Global/Investor/Legacy-Shire/2017/FY2017_Q4_Press_Release.pdf"
+      ],
+      "values": {
+        "XR_mature": [
+          1.15,
+          1.25,
+          1.6
+        ],
+        "IR_mature": [
+          1.1,
+          1.2,
+          1.35
+        ],
+        "lag_years": [
+          0,
+          1,
+          2
+        ],
+        "rollout_years": [
+          3,
+          4,
+          6
+        ]
+      },
+      "limitation": "Low/higharejointgeographyscenarios,notCI;Takeda20%centralXRweight only. ProductdemandnotguaranteedPHVSrecognizedsales."
     }
   ],
   "multiyear_revenue_extension": "research/PHVS_multiyear_revenue_bridges_2026-10-09.json"

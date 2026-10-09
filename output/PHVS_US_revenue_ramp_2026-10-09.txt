@@ -1,3 +1,5 @@
+UPDATE 9 October2026: Working XR retention is now61%, not74%. For current revenues and geographic assumptions see output/PHVS_global_ramp_audit_2026-10-09.txt and research/PHVS_geography_retention_audit_2026-10-09.json. Figures below preserve the earlier snapshot.
+
 PHVS — linked US patient-adoption and revenue ramp, 9 October 2026
 
 WHAT IS NOW BUILT

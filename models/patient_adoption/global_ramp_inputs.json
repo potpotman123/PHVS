@@ -1,0 +1,28 @@
+{
+  "as_of": "2026-10-09",
+  "formula": "exUS_product(t)=(mature_multiplier-1)*US_product(t-lag)*clamp((product_age-lag)/phase_years,0,1). Worldwide=US+exUS. At growing US sales effective same-year ratio is below mature multiplier.",
+  "cases": {
+    "low": {
+      "IR_mature_multiplier": 1.1,
+      "XR_mature_multiplier": 1.15,
+      "lag_years": 2,
+      "phase_years": 6
+    },
+    "working": {
+      "IR_mature_multiplier": 1.2,
+      "XR_mature_multiplier": 1.25,
+      "lag_years": 1,
+      "phase_years": 4
+    },
+    "high": {
+      "IR_mature_multiplier": 1.35,
+      "XR_mature_multiplier": 1.6,
+      "lag_years": 0,
+      "phase_years": 3
+    }
+  },
+  "basis": "XR midpoint:80%weight on Orladeyo2024 worldwide/US1.13395 and20%on TakhzyroFY2025 1.59133 gives1.22542,rounded1.25. Weights and rounding are judgment, not fitted. IR1.20 conservative cross-product transfer; weaker evidence, no mature Ekterly geography yet. Takhzyro high scenario only; Takeda global infrastructure not assumed for PHVS.",
+  "timing_basis": "PHVSIR EMA validation July2026 and US PDUFA April2027 support potential near-parallel regulatory timing, not paid market access.1year weighted commercial delay and4year country rollout are assumptions;0-2years and3-6year rollout sensitivity. Orladeyo foreignrevenue fraction still small in years2-4;Takhzyro expanded over years.",
+  "accounting": "Models worldwide direct-sales-equivalent demand. No verified future partner terms; royalties/milestones cannot be equated to overseas product sales. Do not use as PHVSrecognized revenue without route-to-market costs/rights review.",
+  "evidence": "research/PHVS_geography_retention_audit_2026-10-09.json"
+}
