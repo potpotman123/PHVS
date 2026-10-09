@@ -1,0 +1,56 @@
+{
+  "as_of": "2026-10-09",
+  "question": "Which public digital footprints could distinguish actual transaction activity from strategic fit?",
+  "method": "Bounded six-query discovery plus existing20-F review; source ideas ranked by specificity, alternative explanations and likely timing. No personal travel reconstruction or private-system access.",
+  "verified_observations": [
+    {
+      "observation": "PHVS20-F records Annick Deschoolmeester joinedSeptember2021 after Takeda rolesJanuary2019-September2021.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1830487/000183048726000013/phvs-20251231.htm",
+      "interpretation": "Historical network link, not current negotiations or new signal."
+    },
+    {
+      "observation": "September2024 license amendment search excerpt explicitly ties BRAIN royalty assignment to Royalty Pharma monetization.",
+      "source": "https://ir.pharvaris.com/node/9686/html",
+      "interpretation": "Named financing explanation; not evidence of pharmaceutical buyer deal preparation. Full amendment was not reviewed this turn."
+    },
+    {
+      "observation": "CSL July27,2026 release says Andembry approved in over40countries and pediatric development progressing.",
+      "source": "https://newsroom.csl.com/2026-07-27-CSL-Reports-Positive-Top-Line-Phase-3b-Results-Supporting-Planned-Expanded-Pediatric-Filing-for-ANDEMBRY-R-garadacimab-gxii-in-Children-with-Hereditary-Angioedema-HAE",
+      "interpretation": "Candidate strategic-fit screen, not buyer intent; existing franchise investment is competing explanation."
+    }
+  ],
+  "priority_leads": [
+    {
+      "rank": 1,
+      "source": "Public merger-background histories from adjacent completed or failed transactions",
+      "test": "Find identified unsuccessful bidders and explicit unmet acquisition goals; do not identify anonymized parties from suggestive clues."
+    },
+    {
+      "rank": 2,
+      "source": "Dated material license amendments and public patent/trademark assignment records",
+      "test": "Counterparty-specific assignment consent, acquisition option, rights consolidation or lien release; compare routine financing/IP housekeeping."
+    },
+    {
+      "rank": 3,
+      "source": "Public job postings and archived corporate career pages on target and candidate buyer",
+      "test": "Synchronized HAE commercial role changes, integration-oriented roles or target discontinuation of planned hiring; generic business-development roles and deleted ads insufficient."
+    },
+    {
+      "rank": 4,
+      "source": "Corporate registries and disclosed subsidiary/guarantee changes",
+      "test": "Named corporate ownership or capital changes tied to relevant entities; do not treat generic merger-shell formation as target-specific."
+    },
+    {
+      "rank": 5,
+      "source": "Clinical registries, public regulatory records and trademark correspondence",
+      "test": "Named buyer assumes sponsor/applicant responsibilities; contractor updates are competing explanation and ownership transfers usually late."
+    },
+    {
+      "rank": 6,
+      "source": "Public corporate domains, certificates and website legal notices",
+      "test": "Substantive named ownership/content link; registrar,hosting,agency reuse and defensive domains are weak and easily misleading."
+    }
+  ],
+  "decision": "No new evidence justifying higher takeover probability. Lead inventory does not assert any footprint exists. Prefer rights-chain audit and named-bidder history over web-infrastructure noise.",
+  "limits": "No systematic archive/job/registry scrape performed. Strategic-fit candidates are not rumored bidders. No numeric signal weights or probabilities calibrated."
+}
