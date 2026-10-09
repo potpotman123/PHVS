@@ -502,6 +502,18 @@
       "thesis_effect": "SupportstargetedXRimprovementsbutweakensautomaticoralconversionandpermanent18%IRoffset.",
       "limitations": "Surveyintentionnotadoption;Frenchvariablefollowup;clusteredselectedtrialattacks;sponsoredsources;arithmeticnotcausalvalidation.",
       "remaining_work": "Usecompositepaidstartsandreason-specificretentionassumptionsanchoredtohistoricalUSlaunches;IRstratificationandinventory."
+    },
+    {
+      "id": "G29",
+      "logged_on": "2026-10-08",
+      "record_type": "contemporaneous",
+      "objective": "Implement evidence-informed model adjustments and prioritize missing inputs.",
+      "user_contribution": "Explicitly requested model adjustment following three-hypothesis audit.",
+      "ai_method_and_sources": "Updated runnable normalized cohort sensitivity with separate observed benchmarks and analyst assumptions; added IR comparison arithmetic.",
+      "snapshot": "XRworkingR1=74% from61%benchmark plus assumed50%removalofclinicalexitproxy;61/87%stresscases. IR22.3%LTPextension comparator retained alongside38%.",
+      "thesis_effect": "Allows partial retention upside without eliminatingnonclinicalexits; avoids permanent pivotalredosinghaircut.",
+      "limitations": "Cross-cohortcause proxy and50%repair areassumptions; no nationalcapture,paidpricing orrevenueforecast identified.",
+      "remaining_work": "Origin-treatment stocks, historical netpaidstarts versuspool, netrevenueperpatient and rescue paidreplenishment."
     }
   ]
 }

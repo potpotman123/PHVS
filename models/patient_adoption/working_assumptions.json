@@ -1,0 +1,45 @@
+{
+  "status": "Working assumptions for normalized cohort model; not a calibrated national forecast.",
+  "evidence": "research/PHVS_three_adoption_hypotheses_2026-10-08.json",
+  "xr": {
+    "historical_first_year_retention": 0.61,
+    "clinical_exit_share_proxy": 0.6666666666666666,
+    "clinical_exit_share_definition": "French Berolife efficacy or AE stops / all reported stops. Applying this cause mix to US claims discontinuation is an explicit cross-cohort proxy.",
+    "fraction_of_clinical_exits_avoided": {
+      "no_improvement": 0,
+      "working": 0.5,
+      "optimistic": 1
+    },
+    "working_choice_rationale": "50% is an analyst-selected partial improvement assumption, not estimated PHVS effect. Adherence/access and other exits remain. Full removal is an optimistic stress case.",
+    "mature_annual_retention": 0.9,
+    "mature_status": "Inherited unmeasured assumption; no repeated first-year benefit.",
+    "formula": "R1 = R0 + (1-R0) * clinical_exit_share_proxy * fraction_of_clinical_exits_avoided"
+  },
+  "switching": {
+    "paid_start_rate_by_origin": null,
+    "status": "Uncalibrated; existing attempt/access grid retained as mechanics only. Do not multiply survey54%preference or15%extremelywilling by access.",
+    "segmentation": [
+      "current preventive therapy",
+      "prior oral exposure",
+      "control/tolerability/burden attributes without double counting"
+    ]
+  },
+  "ir": {
+    "phvs_pivotal_repeat_within12h": 0.17,
+    "ekterly_comparators": {
+      "pivotal": 0.38,
+      "LTP_extension": 0.223
+    },
+    "ekterly_LTP_extension_strata": {
+      "berotralstat": 0.213,
+      "lanadelumab": 0.113,
+      "C1INH": 0.306
+    },
+    "oral_first_attacks": 382,
+    "all_attacks": 504,
+    "any_treated_attacks": 496,
+    "status": "LTP extension benchmark applies only to that selected population. No universal commercial redosing chosen. PHVS17%is not an LTP-matched comparator.",
+    "consumption_formula": "attacks * fraction treated * PHVS share conditional on treated * (1+repeat-dose fraction)",
+    "paid_supply": "Inventory, free supply, pack size and net price required before revenue. Do not apply an additional consumption haircut to observed dispensing."
+  }
+}

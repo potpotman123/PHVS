@@ -1,3 +1,13 @@
+LATEST WORKING MODEL UPDATE — 8 October2026
+working_assumptions.json now drives sensitivity.py and illustrative_sensitivity.json.
+XR R1=61%+39%*(20/30)*fraction_of_clinical_exits_avoided:61/74/87% for0/50/100%
+assumed repair.74%is the working normalized-cohort case, not measured PHVSretention.
+French cause mix transferred toUSclaims is a proxy. Mature90% remains assumed.
+IR17%vs38% and17%vs22.3% are parallel cross-population comparisons; no universal
+paid-revenue haircut. Survey rates are not conversion. Original threshold inversion
+is archived unchanged; national adoption and reverseDCF have not been repriced.
+This supersedes the older fixed61% sensitivity description below.
+
 CONDITIONAL THRESHOLDS (8 October 2026)
 threshold_inputs.json contains explicit scenarios; threshold_analysis.py reads the
 saved DCF verification without changing valuation.30 XR allocations solve monthly

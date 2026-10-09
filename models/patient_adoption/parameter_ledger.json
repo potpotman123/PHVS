@@ -768,5 +768,6 @@
     "pricing": "Link access and realized net price; reflect IR-to-XR recruitment economics without assuming bundling discounts.",
     "forecast_gate": "Missing current treatment partition, PHVS capture, paid conversion, mature survival, net prices and geography preclude a defensible central TAM/peak estimate."
   },
-  "redosing_evidence_note": "research/PHVS_adoption_flow_evidence_2026-10-08.json redosing_note"
+  "redosing_evidence_note": "research/PHVS_adoption_flow_evidence_2026-10-08.json redosing_note",
+  "working_model_assumptions": "models/patient_adoption/working_assumptions.json"
 }

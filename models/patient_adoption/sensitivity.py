@@ -20,12 +20,36 @@ def simulate(n=1000,attempt=.10,paid=.80,first_retention=.61,later_retention=.90
     assert 0 <= sum(cohorts) <= n
     return out
 
-rows=[]
-for attempt in [.05,.10,.20,.30]:
-    for paid in [.60,.80,1.0]:
-        result=simulate(attempt=attempt,paid=paid)
-        rows.append(dict(annual_attempt_probability=attempt,initial_paid_probability=paid,first_year_retention=.61,subsequent_retention=.90,result=result))
 base=Path(__file__).parent
-(base/'illustrative_sensitivity.json').write_text(json.dumps({'status':'Hypothetical mechanics only. NOT fitted PHVS forecast or scenario probabilities.','population':'1000 initially eligible incumbent patients; no geography implied','timing':'Each annual cohort is treated as entering at the start of its year; year-end active counts are NOT annual patient-years.','retention_note':'61% is an Orladeyo initiation-cohort benchmark, not PHVS retention or paid-only estimate. Applying it to paid starts is a scenario assumption. Subsequent90% is hypothetical.','access_note':'60/80/100% are hypothetical initial-paid probabilities, NOT Orladeyo observed stock paid share. No free-to-paid lag modeled.','rows':rows},indent=2)+'\n')
-for x in rows:
-    if x['initial_paid_probability']==.8:print(x['annual_attempt_probability'],round(x['result'][-1]['year_end_active_paid'],1))
+assumptions=json.loads((base/'working_assumptions.json').read_text())
+xr=assumptions['xr']
+retentions={name: xr['historical_first_year_retention'] +
+    (1-xr['historical_first_year_retention'])*xr['clinical_exit_share_proxy']*effect
+    for name,effect in xr['fraction_of_clinical_exits_avoided'].items()}
+rows=[]
+for name,retention in retentions.items():
+    for attempt in [.05,.10,.20,.30]:
+        for paid in [.60,.80,1.0]:
+            result=simulate(attempt=attempt,paid=paid,first_retention=retention,
+                            later_retention=xr['mature_annual_retention'])
+            rows.append(dict(retention_case=name,annual_attempt_probability=attempt,
+                initial_paid_probability=paid,first_year_retention=retention,
+                subsequent_retention=xr['mature_annual_retention'],result=result))
+ir=assumptions['ir'];phvs=1+ir['phvs_pivotal_repeat_within12h']
+comparisons={name:dict(comparator_doses_per_100_treated_attacks=100*(1+rate),
+    phvs_doses_per_100_treated_attacks=100*phvs,
+    phvs_conditional_volume_difference=phvs/(1+rate)-1,
+    extra_treated_attacks_or_net_price_per_dose_to_offset=(1+rate)/phvs-1)
+    for name,rate in ir['ekterly_comparators'].items()}
+output={'status':assumptions['status'],'population':'1000 hypothetical eligible incumbents',
+ 'timing':'Annual cohorts enter at year start. Year-end active patients are NOT annual patient-years.',
+ 'retention_cases':retentions,'retention_note':xr['working_choice_rationale'],
+ 'access_note':'Attempt/access grid unmeasured. Not stock paid share or survey intention.',
+ 'rows':rows,'IR_comparisons':comparisons,
+ 'IR_note':ir['status'],
+ 'LTP_extension_oral_first_fraction':ir['oral_first_attacks']/ir['all_attacks'],
+ 'LTP_extension_any_treated_fraction':ir['any_treated_attacks']/ir['all_attacks']}
+(base/'illustrative_sensitivity.json').write_text(json.dumps(output,indent=2)+'\n')
+for row in rows:
+    if row['annual_attempt_probability']==.10 and row['initial_paid_probability']==.80:
+        print(row['retention_case'],row['first_year_retention'],round(row['result'][-1]['year_end_active_paid'],1))
