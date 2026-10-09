@@ -1,3 +1,5 @@
+Population simplification: working1.5%net annual growth,0–3%scenario range, anchored to HAE historical treated1.53%/diagnosed2.63%CAGRs. Supersedes detailed demographic proposal; do not stack separate diagnosis/death flows. population_growth.py supplies net scaling only. ProcessG33.
+
 Full-text prevalence audit: research/PHVS_prevalence_fulltext_audit_2026-10-08.json. Historical medication-ascertained population, not undiagnosed reservoir; statisticalCIs retained. Demographic exits added to architecture, not yet national runnable model. ProcessG32.
 
 Latest adoption reconciliation: [population/payment gaps and monthly cohort results](output/PHVS_adoption_reconciliation_2026-10-08.txt). Conditional359–549paid/PAP state entries explain~255net growth; not observed prescriptions. Provisional population grid and MonteCarlo dependency register added. ProcessG31.

@@ -50,5 +50,33 @@
     "monthly_reconciliation": "reconcile_adoption.py",
     "population_scenarios": "reconciliation_inputs.json (provisional, not selected current counts)",
     "uncertainty": "uncertainty_register.json"
+  },
+  "population_growth": {
+    "method": "Single net annual rate for diagnosed/addressable population; detailed demographics superseded by user request",
+    "working_annual_rate": 0.015,
+    "scenario_annual_rates": [
+      0,
+      0.015,
+      0.03
+    ],
+    "historical_HAE_anchors": {
+      "treated_2019": 8010,
+      "treated_2023": 8511,
+      "treated_CAGR": 0.015282776118284103,
+      "diagnosed_2019": 10035,
+      "diagnosed_2023": 11135,
+      "diagnosed_CAGR": 0.026344622385736205,
+      "source": "https://ir.biocryst.com/static-files/4e1f4dca-2e8e-48b6-869f-46bd74b8b1ba",
+      "location": "November4,2024 presentation,slide12"
+    },
+    "interpretation": "Analyst-selected1.5%net growth anchored to treated HAE history;0\u20133%scenario range, not confidence interval or causal estimate of company case-finding",
+    "formula": "N(t)=N(0)*(1+g)^t",
+    "guardrails": [
+      "Do not additionally add150\u2013250new diagnoses or subtract separate population mortality.",
+      "Rate grows diagnosed/addressable population, not assumed genetic incidence or PHVS market share.",
+      "Keep changes in prevention uptake separate from total population growth.",
+      "No separate mortality haircut layered on net market growth; patient-level all-cause retention remains a different flow.",
+      "Historical cohorts/claims capture may change; rates are issuer-derived estimates, not independent census validation."
+    ]
   }
 }

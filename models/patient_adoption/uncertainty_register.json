@@ -60,9 +60,10 @@
   ],
   "reported_intervals": "Label future Monte Carlo percentiles model-implied uncertainty intervals conditional on inputs. Reserve statistical confidence intervals for supported sampling models.",
   "demographics": {
-    "mortality_rate": null,
-    "rule": "Age-specific calibration pending; distinguish deaths, migration, reclassification, eligibility and treatment/payment exits. Net diagnosed growth is not gross diagnosis flow.",
-    "prevalence_evidence": "research/PHVS_prevalence_fulltext_audit_2026-10-08.json",
-    "CI_use": "Paper provides historical statistical CIs conditional on ascertainment; retain separate structural underdiagnosis/selection uncertainty."
+    "status": "Detailed demographic approach superseded by user direction2026-10-08",
+    "method": "Single net population growth;working1.5%,scenarios0/1.5/3%",
+    "distribution": null,
+    "source": "working_assumptions.json population_growth",
+    "rule": "Do not also add separate new diagnosis or death flows; no sampling confidence claimed."
   }
 }

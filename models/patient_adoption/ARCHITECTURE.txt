@@ -176,3 +176,14 @@ Use age-specific mortality when calibrated; no numerical mortality assumption ad
 Do not double-count mortality inside all-cause retention or subtract it again from a
 net diagnosis-growth assumption. Decompose those rates before adding explicit deaths.
 The monthly historical reconciliation does NOT yet implement these national flows.
+
+USER SIMPLIFICATION — 8 October 2026 (supersedes detailed demographic extension)
+Use N(t)=N(0)*(1+g)^t; working net annual growth1.5%, sensitivity0–3%.
+Anchors: issuer2019–2023treated growth1.53%CAGR; diagnosed growth2.63%.
+Do not separately add diagnoses or subtract deaths from this net assumption.
+Prevalence is a cross-check on initial diagnosed/addressable stock, not an automatic
+count of PHVS-eligible patients. Treat case ascertainment, age and subtype explicitly
+where material; do not add an arbitrary undiagnosed multiplier.
+Partition current treatment states as LTP, acute-only and untreated. Rescue use is
+an overlay across both LTP and acute-only populations, not the complement of LTP.
+Current LTP claims share68%is a proxy, not maximum future prevention eligibility.

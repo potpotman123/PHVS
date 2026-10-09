@@ -551,6 +551,16 @@
       "thesis_effect": "Strengthens historical anchor without treating it as total biological prevalence or current TAM.",
       "limitations": "Small selected case sample, Medicaid/uninsured gap, no incidence or mortality estimate;2019CI narrative/table typo flagged.",
       "remaining_work": "Implement dynamic national cohorts; age-specific mortality and gross diagnosis calibration without double counting all-cause retention."
+    },
+    {
+      "id": "G33",
+      "logged_on": "2026-10-08",
+      "objective": "Simplify population evolution and clarify overlapping IR/XR populations.",
+      "user_contribution": "Rejected granular demographics in favor of modest historically anchored net growth; asked how prevalence becomes treatment pools.",
+      "ai_method_and_sources": "Calculated2019\u20132023HAE treated1.53%and diagnosed2.63%CAGRs from BioCrystslide12; adopted1.5%working/0\u20133%scenario growth and net scaling helper.",
+      "snapshot": "Treatment-stock baseline grows~7.7%in5years at1.5%; currentLTP share is not XRceiling and rescue overlays LTP.",
+      "limitations": "Issuer claims estimates; no causal case-finding estimate, true prevalence bound, current age/subtype eligibility or probability distribution identified. Scaling helper not integrated PHVS adoption/revenue forecast.",
+      "remaining_work": "Calibrate prevention uptake and origin capture; paid supply and price for rescue."
     }
   ]
 }
