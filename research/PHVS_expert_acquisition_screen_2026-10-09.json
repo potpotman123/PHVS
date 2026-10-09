@@ -1,0 +1,105 @@
+{
+  "as_of": "2026-10-09",
+  "question": "Do existing expert interviews or company calls mention acquisitions relevant to PHVS takeover thesis?",
+  "method": "Bounded keyword screen and contextual reading of supplied physician texts and BioCryst archive; reopened four previously reviewed commercial expert originals in authenticated AlphaSense. Original transcript checked beyond AI summary. No agents.",
+  "scope": {
+    "physician_texts": [
+      "references/user_supplied/alphasense_new_oral_prophylactic.txt",
+      "references/user_supplied/alphasense_optum_highly_optimistic.txt",
+      "references/user_supplied/alphasense_optum_optimistic.txt",
+      "references/user_supplied/alphasense_potential_in_pharvaris.txt",
+      "references/user_supplied/alphasense_promising_future.txt"
+    ],
+    "biocryst_archive": [
+      "research/raw/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._Company Conference Presentation_2022-01-10_English.txt",
+      "research/raw/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._Company Conference Presentation_2022-05-10_English.txt",
+      "research/raw/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._EP_2020-09-30_English.txt",
+      "research/raw/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._EP_2020-12-31_English.txt",
+      "research/raw/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._EP_2021-06-30_English.txt",
+      "research/raw/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._EP_2021-09-30_English.txt",
+      "research/raw/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._EP_2021-12-31_English.txt",
+      "research/raw/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._EP_2022-03-31_English.txt",
+      "research/raw/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._EP_2022-06-30_English.txt",
+      "research/raw/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._EP_2022-09-30_English.txt",
+      "research/raw/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._Earnings Call_2020-11-05_English.txt",
+      "research/raw/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._Earnings Call_2021-02-25_English.txt",
+      "research/raw/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._Earnings Call_2021-05-06_English.txt",
+      "research/raw/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._Earnings Call_2021-08-05_English.txt",
+      "research/raw/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._Earnings Call_2021-11-03_English.txt",
+      "research/raw/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._Earnings Call_2022-02-23_English.txt",
+      "research/raw/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._Earnings Call_2022-05-05_English.txt",
+      "research/raw/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._Earnings Call_2022-08-04_English.txt",
+      "research/raw/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._Earnings Call_2022-11-01_English.txt",
+      "research/raw/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._IP_2021-03-22_English.txt",
+      "research/raw/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._IP_2022-01-10_English.txt",
+      "research/raw/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._Special Call_2021-03-22_English.txt",
+      "research/raw/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._Special Call_2022-12-15_English.txt"
+    ],
+    "commercial_experts": [
+      "EC-011124-149794",
+      "EC-042625-184594",
+      "EC-1000000-34354",
+      "EC-112324-174325"
+    ]
+  },
+  "findings": [
+    {
+      "source": "EC-042625-184594",
+      "url": "https://research.alpha-sense.com/search?docid=EC-042625-184594",
+      "interview_date": "2025-04-30",
+      "timestamps": [
+        "19:28",
+        "21:47"
+      ],
+      "speaker": "Former Takeda senior director, market access/pricing/contracting",
+      "paraphrase": "Mature products require internal innovation or external assets. Expert expects flat growth unless a major acquisition materially changes business trajectory. Notes investment focus in GI/inflammation.",
+      "classification": "Expert strategic opinion; no named PHVS target, contact or transaction knowledge.",
+      "model_use": "Qualitative buyer-motivation context only; no numerical takeover probability update."
+    },
+    {
+      "source": "BioCryst Pharmaceuticals Inc._Special Call_2022-12-15_English.txt",
+      "locator": "PDF p5; extracted lines114-128",
+      "speaker": "Cowen analyst Ken Cacciatore, then CEO Jon Stonehouse",
+      "paraphrase": "Analyst asks whether Orladeyo could be monetized in a Biohaven-like structure while retaining R&D, or whether a strategic buyer would want both. CEO says open to creative ideas/maximizing shareholder value while continuing to build company and drive revenue.",
+      "classification": "Analyst transaction proposal plus general management openness; not disclosed negotiations.",
+      "model_use": "Counterexample to treating commercial buildout as evidence against strategic optionality; not PHVS-specific evidence."
+    },
+    {
+      "source": "EC-1000000-34354",
+      "url": "https://research.alpha-sense.com/search?docid=EC-1000000-34354",
+      "interview_date": "2022-05-25",
+      "timestamps": [
+        "02:26",
+        "08:12-11:21",
+        "12:38"
+      ],
+      "paraphrase": "Describes direct sales or regional partners for Orladeyo; historical RAPIVAB partnership and disappointment with commercialization; historical Takeda/Shire acquisition.",
+      "classification": "Historical licensing and acquisition background, not PHVS takeover intelligence.",
+      "model_use": "Regional partnering is a separate outcome from whole-company acquisition; larger partner does not guarantee superior execution."
+    },
+    {
+      "source": "BioCryst Pharmaceuticals Inc._Company Conference Presentation_2022-01-10_English.txt",
+      "locator": "PDF p11; extracted lines397-408",
+      "paraphrase": "CEO open to BCX9930 partner if it can execute better or more broadly, but sees no need at that point.",
+      "classification": "Different asset, general partnering posture; no HAE deal signal."
+    },
+    {
+      "source": "BioCryst Pharmaceuticals Inc._Earnings Call_2020-11-05_English.txt; Special Call_2021-03-22",
+      "locator": "lines262-275; lines1168-1182",
+      "paraphrase": "BCX9930 partnering/financing possibilities and ability to develop independently.",
+      "classification": "Non-HAE pipeline financing context."
+    }
+  ],
+  "negative_and_false_positive_results": [
+    "Five supplied physician interviews: no relevant PHVS acquisition discussion identified. Acquired angioedema and Invitae/Labcorp are unrelated hits.",
+    "January2024 former BioCryst VP original transcript: no transaction keyword hits.",
+    "December2024 former CSL regional manager original: no PHVS acquisition discussion; operational commercial observations."
+  ],
+  "conclusion": "Existing calls add strategic rationale and a historic monetization discussion, but no direct PHVS-buyer contact or takeover evidence. Keep acquisition as separate scenario, not evidence-backed probability uplift.",
+  "limitations": [
+    "Bounded screen of existing corpus, not entire AlphaSense library or all PHVS/Takeda earnings calls.",
+    "Keyword screening can miss indirect language.",
+    "Interviews dated2022-25 and BioCryst calls2020-22 are historical; silence is not evidence against private talks.",
+    "No claim that commercial former employees know board-level transactions. No full licensed transcripts reproduced."
+  ]
+}

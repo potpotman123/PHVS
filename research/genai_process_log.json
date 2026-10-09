@@ -766,6 +766,22 @@
       "thesis_effect": "No contact-frequency or acquisition-probability update; strong entity-resolution false-positive check.",
       "limitations": "Participation listing not completed meetings; no historical series or private schedules.",
       "remaining_work": "Prefer specific public named meeting records or existing firsthand expert interviews over repeated generic queries."
+    },
+    {
+      "id": "G53",
+      "logged_on": "2026-10-09",
+      "objective": "Do existing expert interviews or company calls mention acquisitions relevant to PHVS takeover thesis?",
+      "user_contribution": "User suggested going through expert and earnings calls for acquisition mentions.",
+      "ai_method_and_sources": "Bounded keyword screen and contextual reading of supplied physician texts and BioCryst archive; reopened four previously reviewed commercial expert originals in authenticated AlphaSense. Original transcript checked beyond AI summary. No agents. research/PHVS_expert_acquisition_screen_2026-10-09.json",
+      "snapshot": "Takeda former executive19:28/21:47 cites external innovation/growth need; BioCrystDec15,2022p5 discusses Orladeyo monetization proposal. No PHVS contact evidence.",
+      "thesis_effect": "Existing calls add strategic rationale and a historic monetization discussion, but no direct PHVS-buyer contact or takeover evidence. Keep acquisition as separate scenario, not evidence-backed probability uplift.",
+      "limitations": [
+        "Bounded screen of existing corpus, not entire AlphaSense library or all PHVS/Takeda earnings calls.",
+        "Keyword screening can miss indirect language.",
+        "Interviews dated2022-25 and BioCryst calls2020-22 are historical; silence is not evidence against private talks.",
+        "No claim that commercial former employees know board-level transactions. No full licensed transcripts reproduced."
+      ],
+      "remaining_work": "No expansion absent specific lead; preserve strategic rationale separately from transaction likelihood."
     }
   ]
 }
