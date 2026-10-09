@@ -1,0 +1,26 @@
+{
+  "as_of": "2026-10-09",
+  "question": "Does independentcommercialbuildoutmeaningfullymitigatePHVStakeoverriskforashort?",
+  "conclusion": "No. Crediblecommercialplanspreserveindependencebutarecompatiblewithsale;HAEhasrecentactualtransactions. Plausiblestrategictargetnotestablishedsaleprocessoracquisitionprobability.",
+  "sources": {
+    "PHVSplans": "https://ir.pharvaris.com/news-releases/news-release-details/pharvaris-reports-second-quarter-2026-financial-results-and",
+    "KalVista_terms": "https://www.chiesi.com/en/media-hub/press-release/chiesi-group-to-acquire-kalvista-pharmaceuticals-expanding-its-global-rare-disease-portfolio.html",
+    "KalVista_close": "https://www.chiesi.com/en/media-hub/press-releases/chiesi-group-completes-acquisition-of-kalvista-pharmaceuticals",
+    "Astria": "https://ir.biocryst.com/news-releases/news-release-details/biocryst-acquire-astria-therapeutics-strengthening-presence-hae",
+    "CEO_history": "https://ir.pharvaris.com/node/7946/html"
+  },
+  "observed": [
+    "Aug12,2026PHVSreport:precommercialactivitiesforUSlaunch;May132.3mUSDfinancingextendsrunwayinto2028;PengLuPresidentfromJune2026combinesresearch,developmentandcommercialfunctions.",
+    "ChiesiannouncedKalVistaacquisitionApr29,2026at27USD/share,~1.9bnUSDequity,36%premiumto30dayVWAPasofApr28. ClosedJune11,2026. EKTERLYalreadylaunchedJuly2025;independentcommercializationdidnotpreventsale.",
+    "BioCrystannouncedAstriaacquisitionOct14,2025:13USDimpliedvalue/sharebasedoncash8.55plus0.59BCRXsharesand20dayVWAP;~700mUSDenterprisevalue,notcomparableequityvaluetoKalVista.",
+    "HistoricalPHVSfilingdocumentsCEOBerndtModigCFOroleatJeriniuntilShiresale2008andProsensauntilBioMarinacquisition2015. Transactionexperienceisnotcurrentdealintent."
+  ],
+  "inferences": [
+    "PotentialIR/XRportfolioandspecialistoverlapmayinterestbuyer;largercommercialnetworkcouldimproveexUSreachandreduceincrementaloverhead.",
+    "Standaloneexecutionweaknessmaybeacquirer-specificopportunity;diseaseTAM,clinicaluncertaintyandpayerconstraintsremain.",
+    "Fundingcanreduceforcedsalepressurewithouteliminatingstrategicsale;launchspendingmaintainscrediblealternative.",
+    "Portfoliooverlapandpricehurdlescanlimitbuyers;noidentifiedbidderasserted."
+  ],
+  "model_treatment": "Keepstandalonepatientflowforecastseparatefromtakeoverscenario. Buyer-specificcashflow/SG&A/geographyassumptionsplusdealpriceandholding-periodprobabilityneeded;notgenericPoSincrease. Noprobability,targetpriceornewDCFassumptionassigned.",
+  "limitation": "Boundedprimary-sourcepassdoesnotidentifyongoingPHVSsaleprocess. RecentdealsnotstatisticalestimateofPHVSacquisitionodds."
+}
