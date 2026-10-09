@@ -1,0 +1,44 @@
+{
+  "as_of": "2026-10-09",
+  "scope": "Public search-engine discovery of vendor portfolios, recruitment, integration/transition content and premature transaction pages; selective primary vendor and employer page reads. Additional queries followed concrete PhaseII and Mentus leads.",
+  "findings": [
+    {
+      "source": "https://phase-ii.com/case-studies/strategically-creative-branding-building-a-cohesive-corporate-brand-identity-for-pharvaris/",
+      "date": "2025-09-25 displayed publication date",
+      "fact": "Corporate branding guide including scientific posters, presentation and advertising templates.",
+      "assessment": "Ordinary branding work; no acquirer or integration identified."
+    },
+    {
+      "source": "https://mentus.com/work/pharvaris/",
+      "date": "Undated; accessed2026-10-09",
+      "fact": "Corporate website case study explains commission through existing client relationship with Maggie at a prior company.",
+      "assessment": "Actual vendor footprint but ordinary client-following relationship, not transaction evidence."
+    },
+    {
+      "source": "https://onyxipca.com/about-us/client-testimonials/",
+      "date": "Undated; accessed2026-10-09",
+      "fact": "Pharvaris testimonial describes years of collaboration and commercial manufacturing capability.",
+      "assessment": "Manufacturing relationship; no buyer link or transfer disclosed."
+    },
+    {
+      "source": "https://pharvaris.applytojob.com/apply/ZOi83HCQ65/US-Field-Operations-And-Excellence-Lead",
+      "date": "Search index content accessible; live open returned410 on2026-10-09",
+      "fact": "Indexed posting describes building US field capabilities from scratch, integration of data sources.",
+      "assessment": "Integration means data integration. Removal has unknown cause/date; cannot infer hiring freeze."
+    },
+    {
+      "source": "https://pharvaris.applytojob.com/",
+      "date": "Snapshot2026-10-09",
+      "fact": "25 listed openings:21 Area Business Managers plus MSL West, National Account Director West Coast, Patient Digital Marketing Lead, Thought Leader Liaison Central.",
+      "assessment": "No current companywide hiring freeze evident from page. Ads do not prove hiring completed or absence of negotiations."
+    }
+  ],
+  "rejected_noise": [
+    "LinkedIn search result titles combine profile employer with reshared posts; cannot infer bilateral company activity.",
+    "Job aggregators combine unrelated employers and integration roles on a single page.",
+    "Medical-writing vendors and clinician conflict disclosures mention multiple competitors; not evidence of a joint project."
+  ],
+  "coverage_gap": "Public certificate-transparency lookup crt.sh for wildcard pharvaris.com returnedHTTP502; no certificate/domain finding claimed. No archived hiring time series, full DNS/domain census or private content inspected.",
+  "conclusion": "No corroborated buyer-specific operational footprint or premature deal content identified. Actual vendor and recruitment observations mainly concern independent launch. No takeover probability change; one snapshot cannot establish trend.",
+  "stopping_rule": "Concrete discovered vendor pages exhausted without transaction clue; no bulk weak-proxy scraping."
+}
