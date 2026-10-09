@@ -1,0 +1,56 @@
+{
+  "as_of": "2026-10-09",
+  "objective": "Qualitative priorities1/2: unsuccessful HAE bidders and named buyer acquisition criteria; no new valuation calculations.",
+  "method": "Reused existing deal-history register; verified specific original KalVista passages; five targeted web queries and selective primary-source reading. No agents or bulk scraping.",
+  "findings": [
+    {
+      "buyer": "Anonymous KalVista Parties B and D",
+      "source": "https://www.sec.gov/Archives/edgar/data/1348911/000114036126021078/ny20073033x1_sc14d9.htm",
+      "date": "2026-03-20/21",
+      "observed": "Both withdrew on valuation grounds and indicated willingness to re-engage below mid20s/share if lead process failed. PartyB had submitted19/share February25.",
+      "inference": "Observed demand beyond winning buyer, but no proof their needs remain unfilled or they want PHVS.",
+      "counterevidence": "Initial Feb-Apr2024 outreach to18strategics produced no serious transaction interest/proposals in that initial round; later PartyA offer must not be conflated with initial outreach. Successful-deal selection cannot estimate base rate."
+    },
+    {
+      "buyer": "Chiesi",
+      "source": "https://www.chiesi.com/en/media-hub/press-release/chiesi-group-to-acquire-kalvista-pharmaceuticals-expanding-its-global-rare-disease-portfolio.html",
+      "date": "2026-04-29",
+      "observed": "Approximately1.9bn equity acquisition, largest to date; emphasizes rare immunology, global commercialization, US expansion and2030revenue target. ClosedJune11percompletionrelease.",
+      "inference": "Direct validation of willingness to buy oral HAE; its need may now be filled. Not automatically another PHVS bidder."
+    },
+    {
+      "buyer": "Sanofi",
+      "source": "https://www.sanofi.com/en/media-room/press-releases/2025/2025-06-02-05-00-00-3091541",
+      "date": "2025-06-02",
+      "observed": "Blueprint9.1bn upfront equity and up to9.5bn includingCVR; oral marketed Ayvakit plus oral pipeline. CEO emphasizes rare/immunology,differentiatedmedicines,returns; says early-stage remains main interest and sizeable further acquisition capacity at that date.",
+      "inference": "Demonstrated adjacent asset appetite, stronger than generic rare-disease statement. Mast-cell biology is not bradykinin HAE. Capacity statement historical, not verified current dry powder; no PHVS contact."
+    },
+    {
+      "buyer": "Takeda",
+      "source": "https://www.takeda.com/our-impact/our-stories/our-approach-to-business-development/",
+      "date": "2025-01-11",
+      "observed": "BD leadership cites Shire acquisition, oralTYK2Nimbus acquisition and late-stage licensing transactions.",
+      "inference": "Proven use of acquisitions and licenses; combined with existing HAE franchise gives plausible fit. No explicit PHVS interest or HAE acquisition mandate.",
+      "prior_record": "research/PHVS_Takeda_strategic_fit_2026-10-09.json"
+    },
+    {
+      "buyer": "CSL",
+      "source": "https://investors.csl.com/annualreport/2026/16/",
+      "date": "FY2026 annual report",
+      "observed": "Explicit commitment to expand HAE portfolio/full range of patients, with current focus on expanding homegrownAndembry.",
+      "inference": "Disease commitment, not oral acquisition mandate; own launch provides competing capital priority and product overlap."
+    }
+  ],
+  "decision": "Material strategic optionality and demonstrated sector demand, not evidence of high PHVS takeover probability within a specified horizon. No numeric probability change. Failed bidders anonymous; do not identify them from weak clues.",
+  "model_architecture_only": [
+    "Acquisition replaces standalone outcome at defined horizon rather than adding full purchase price to standalone value.",
+    "Retain necessary development,manufacturing,medical affairs and commercial costs; remove only avoidable/duplicate costs.",
+    "Buyer value not equal shareholder consideration; bargaining shares synergies.",
+    "Acquisition probability and price should depend on clinical/commercial outcomes rather than be an independent upside draw."
+  ],
+  "sources_reused": [
+    "research/PHVS_contact_buyer_history_audit_2026-10-09.json",
+    "research/PHVS_Takeda_strategic_fit_2026-10-09.json"
+  ],
+  "stop_rule": "Bounded pass complete; further probability upgrade requires PHVS-specific interest/process evidence or a better-defined empirical base rate, not more generic fit."
+}

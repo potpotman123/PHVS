@@ -782,6 +782,17 @@
         "No claim that commercial former employees know board-level transactions. No full licensed transcripts reproduced."
       ],
       "remaining_work": "No expansion absent specific lead; preserve strategic rationale separately from transaction likelihood."
+    },
+    {
+      "id": "G54",
+      "logged_on": "2026-10-09",
+      "objective": "Qualitative priorities1/2: unsuccessful HAE bidders and named buyer acquisition criteria; no new valuation calculations.",
+      "user_contribution": "User proposed MonteCarlo acquisition branch and requested qualitative evidence supporting high acquisition probability, without more math.",
+      "ai_method_and_sources": "Reused existing deal-history register; verified specific original KalVista passages; five targeted web queries and selective primary-source reading. No agents or bulk scraping. research/PHVS_buyer_appetite_2026-10-09.json",
+      "snapshot": "Unsuccessful KalVista bidders retained price-dependent interest; SanofiBlueprint demonstrates adjacent oral rare-immunology acquisition appetite.",
+      "thesis_effect": "Material strategic optionality and demonstrated sector demand, not evidence of high PHVS takeover probability within a specified horizon. No numeric probability change. Failed bidders anonymous; do not identify them from weak clues.",
+      "limitations": "Selected successful transactions, anonymous bidders, historical criteria and no PHVS-specific contact; strategic fit not acquisition timing/probability.",
+      "remaining_work": "Bounded pass complete; further probability upgrade requires PHVS-specific interest/process evidence or a better-defined empirical base rate, not more generic fit."
     }
   ]
 }
