@@ -700,6 +700,17 @@
       "thesis_effect": "Strategic fit remains plausible but acquisition probability not updated.",
       "limitations": "No personal travel reconstruction; no full exhibit redline or exhaustive holdings audit. Absence of public evidence is not absence of private talks.",
       "remaining_work": "Highest-value deeper lead is contract-change comparison or retrospective HAE merger-process calibration; avoid rumor and weak-proxy expansion."
+    },
+    {
+      "id": "G47",
+      "logged_on": "2026-10-09",
+      "objective": "Perform dated compensation/governance comparison and calibrate against actual HAE deal chronology.",
+      "user_contribution": "Exact request: \"Perform that dated comparison.\"",
+      "ai_method_and_sources": "Compared three annual20-F employment summaries, equity-plan references,2026 6-K covers and interim awards; read Chiesi tender-offer timeline. research/PHVS_dated_transaction_comparison_2026-10-09.json",
+      "snapshot": "CEO1.5x terms and one-month-before/12-month-after window already inApril2024;2026 special60k options/20kRSUs tied40/60 to IR/XR FDA approvals.",
+      "thesis_effect": "No new deal-preparation compensation signal. KalVista launch emphasis coexisted with buyer pursuit, so independent launch is weak counterevidence.",
+      "limitations": "Post-announcement deal history not ex-ante predictive validation; annual disclosure comparison not full contract redline; no probability change.",
+      "remaining_work": "Preserve separate buyer economics; stop low-yield signal expansion."
     }
   ]
 }

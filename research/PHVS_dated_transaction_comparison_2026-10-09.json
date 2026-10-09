@@ -1,0 +1,116 @@
+{
+  "as_of": "2026-10-09",
+  "conclusion": "No newly enhanced takeover severance identified in compared annual disclosures. Actual H1 2026 special awards vest on FDA approvals, not a disclosed transaction condition. No takeover probability update.",
+  "sources": {
+    "20f2023": {
+      "filed": "2024-04-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1830487/000095017024043358/phvs-20231231.htm"
+    },
+    "20f2024": {
+      "filed": "2025-04-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/1830487/000095017025051347/phvs-20241231.htm"
+    },
+    "20f2025": {
+      "filed": "2026-04-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1830487/000183048726000013/phvs-20251231.htm"
+    },
+    "interim2026": {
+      "filed": "2026-08-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1830487/000119312526345702/phvs-ex99_3.htm",
+      "locator": "Note18 Share-based payments, printed pages13-14"
+    },
+    "agm": {
+      "filed": "2026-06-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/1830487/000119312526284389/annual_general_meeting_2.htm"
+    },
+    "kalvista": {
+      "filed": "2026-05-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/1348911/000114036126020935/ny20071872x1_exa1a.htm",
+      "locator": "Section10, printed pages14-16"
+    }
+  },
+  "comparison": [
+    {
+      "item": "CEO transaction-related termination benefit",
+      "2024_filing": "1.5x base salary plus target bonus sum",
+      "2025_filing": "Same",
+      "2026_filing": "Same",
+      "classification": "Pre-existing, not a new signal"
+    },
+    {
+      "item": "Other specified executives transaction-related termination benefit",
+      "2024_filing": "1x annual salary plus target bonus",
+      "2025_filing": "Same economics; covered executive roster changed",
+      "2026_filing": "Same economics",
+      "classification": "Personnel changes do not equal richer deal protection"
+    },
+    {
+      "item": "Qualifying window",
+      "2024_filing": "Without Cause/Good Reason notice within one month before or 12 months after change of control",
+      "2025_filing": "Same",
+      "2026_filing": "Same",
+      "classification": "Requires qualifying termination as well as transaction, not automatic payment for sale alone"
+    },
+    {
+      "item": "2021 equity plan",
+      "2025_filing": "References original February9,2021 S-8 plan; annual share pool increase lesser of4% outstanding shares or Board-selected amount",
+      "2026_filing": "Same plan reference and pool mechanism",
+      "classification": "No replacement deal-specific plan identified; not full award-by-award legal audit"
+    },
+    {
+      "item": "H1 2026 milestone awards",
+      "finding": "60,000 options granted June1,2026 and20,000 RSUs issued duringH1 to an existing key-management member. Both vest40% on FDA IR approval and60% on FDA XR approval. Recipient not named in note; do not infer from promotion timing.",
+      "classification": "Concrete new awards, regulatory incentives not disclosed sale bonuses"
+    },
+    {
+      "item": "2026 AGM",
+      "finding": "Auditor, accounts, director discharge, share repurchase authorization extension and Bjork reappointment; no new transaction compensation plan among reported resolutions.",
+      "classification": "Ordinary governance; no full committee-minutes access"
+    }
+  ],
+  "normalized_transaction_severance_excerpts": {
+    "2023": "The Employment agreements with Mr. Modig, Dr. Lu, Dr. Conn, Dr. Souverijns, Ms. Schmidt, Ms. Deschoolmeester and Dr. Abele, also provide that in the event that a notice of termination is served by the Company without Cause, or by the Employee for Good Reason, in each case (i) within one month prior to the consummation of a Change of Control or (ii) within 12 months following the consummation of a Change of Control, the member of senior management shall be entitled to receive (subject to execution of a general release of claims in favor of the Company): (i) (x) 1.5 times the sum of base salary and bonus target with respect to Mr. Modig, and (y) the sum of the annual base salary and bonus target with respect to Dr. Lu, Dr. Conn, Dr. Souverijns, Ms. Schmidt, Ms. Deschoolmeester and Dr. Abele; (ii) with respect to Dr. Lu, Dr. Conn and Ms. Schmidt, for one year after termination, the right to continue health care benefits under COBRA at active employee rates, (iii) any unpaid discretionary bonus for the prior year and (iv) a pro rata discretionary bonus for the current year, subject to Board approval. In the case of Mr. Modig, Dr. Souverijns, Ms. Deschoolmeester and Dr. Abele, the severance amount is reduced by any base salary paid during a notice period during which the member of senior management is released from an obligation to work.",
+    "2024": "The Employment agreements with Mr. Modig, Dr. Lu, Dr. Souverijns, Ms. Deschoolmeester, Dr. Abele and Mr. Nassif also provide that in the event that a notice of termination is served by the Company without Cause, or by the Employee for Good Reason, in each case (i) within one month prior to the consummation of a Change of Control or (ii) within 12 months following the consummation of a Change of Control, the member of senior management shall be entitled to receive (subject to execution of a general release of claims in favor of the Company): (i) (x) 1.5 times the sum of base salary and bonus target with respect to Mr. Modig, and (y) the sum of the annual base salary and bonus target with respect to Dr. Lu, Dr. Souverijns, Ms. Deschoolmeester, Dr. Abele and Mr. Nassif; (ii) with respect to Dr. Lu and Mr. Nassif, for one year after termination, the right to continue health care benefits under COBRA at active employee rates, (iii) any unpaid discretionary bonus for the prior year and (iv) a pro rata discretionary bonus for the current year, subject to Board approval. In the case of Mr. Modig, Dr. Souverijns, Ms. Deschoolmeester and Dr. Abele, the severance amount is reduced by any base salary paid during a notice period during which the member of senior management is released from an obligation to work.",
+    "2025": "The Employment agreements with Mr. Modig, Dr. Lu, Dr. Souverijns, Ms. Deschoolmeester, Dr. Abele and Mr. Nassif also provide that in the event that a notice of termination is served by the Company without Cause, or by the Employee for Good Reason, in each case (i) within one month prior to the consummation of a Change of Control or (ii) within 12 months following the consummation of a Change of Control, the member of senior management shall be entitled to receive (subject to execution of a general release of claims in favor of the Company): (i) (x) 1.5 times the sum of base salary and bonus target with respect to Mr. Modig, and (y) the sum of the annual base salary and bonus target with respect to Dr. Lu, Dr. Souverijns, Ms. Deschoolmeester, Dr. Abele and Mr. Nassif; (ii) with respect to Dr. Lu and Mr. Nassif, for one year after termination, the right to continue health care benefits under COBRA at active employee rates, (iii) any unpaid discretionary bonus for the prior year and (iv) a pro rata discretionary bonus for the current year, subject to Board approval. In the case of Mr. Modig, Dr. Souverijns, Ms. Deschoolmeester and Dr. Abele, the severance amount is reduced by any base salary paid during a notice period during which the member of senior management is released from an obligation to work."
+  },
+  "normalized_2024_2025_word_diff": [],
+  "kalvista_timeline": [
+    {
+      "event_date": "2026-01-13/15",
+      "event": "JPM business-development meeting; Chiesi indicated interest while KalVista emphasized launch."
+    },
+    {
+      "event_date": "2026-01-23",
+      "event": "Mutual confidentiality agreement covering possible business combination."
+    },
+    {
+      "event_date": "2026-02-05",
+      "event": "Phone call; KalVista emphasized launch and required substantial premium."
+    },
+    {
+      "event_date": "2026-02-19",
+      "event": "Written24USD/share proposal."
+    },
+    {
+      "event_date": "2026-03-01",
+      "event": "Buyer granted virtual data-room access."
+    },
+    {
+      "event_date": "2026-04-17/28",
+      "event": "Deal drafting negotiations included transaction bonus pools and280G gross-ups."
+    },
+    {
+      "event_date": "2026-04-29",
+      "event": "Agreement announced27USD/share."
+    }
+  ],
+  "kalvista_interpretation": "Timeline disclosed after announcement; not demonstrated public pre-announcement signals. No need for repeated CEO travel in documented early phone/virtual interactions. Management independent-launch posture compatible with deal. One selected successful transaction does not calibrate probability.",
+  "scope": "FY2023/2024/2025 20-F employment summaries and equity plan/exhibit references; FY2024/2025 Dutch reports; 9 listed2026 6-K cover reports throughSeptember8 and H1 equity note; one HAE completed-deal primary chronology. Sources retrieved locally with standard library; normalized whitespace/page headers for comparison.",
+  "limitations": [
+    "No private agreements or board minutes. Annual summary comparison is not full underlying employment-contract legal redline.",
+    "6-K cover/exhibit inventory inspected; not every clinical exhibit read. SEC recent-feed latest available datedSeptember25; not proof no later unindexed records.",
+    "Milestone note may omit underlying award change-of-control treatment; cannot conclude no acceleration under master plan.",
+    "No anonymous bidder attribution and no acquisition probability assigned."
+  ],
+  "next_step": "No further expansion needed for this question; use evidence to reject new-golden-parachute claim while maintaining separate strategic-fit scenario."
+}
