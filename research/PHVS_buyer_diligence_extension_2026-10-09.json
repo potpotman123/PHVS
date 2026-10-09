@@ -1,0 +1,38 @@
+{
+  "as_of": "2026-10-09",
+  "method": "Six bounded targeted queries; selective company releases and original local KalVista/Astria merger backgrounds. No agents, no calculations.",
+  "findings": [
+    {
+      "source": "https://www.sec.gov/Archives/edgar/data/1348911/000114036126021078/ny20073033x1_sc14d9.htm",
+      "locator": "Background; June26,2024",
+      "observed": "PartyA identified ex-US sebetralstat pricing and impact of prophylactic drugs on market share as two primary diligence areas before proposing acquisition.",
+      "inference": "PHVS IR/XR portfolio potentially addresses a buyer concern about rescue-only exposure, but cannibalization,relativeefficacy,pricing and development costs remain. No buyer stated PHVS preference."
+    },
+    {
+      "source": "https://www.sec.gov/Archives/edgar/data/1348911/000114036126021078/ny20073033x1_sc14d9.htm",
+      "locator": "Background; January13-26,2026",
+      "observed": "Chiesi,PartyB,PartyD expressed strategic interest atJPM. KalVista said it focused on launch and was not interested in strategic alternatives. MutualNDAs withChiesiJan23andPartyDJan26followed.",
+      "inference": "Strong historical example that launch focus does not rule out transaction; not proof PHVS talks."
+    },
+    {
+      "source": "https://ir.biocryst.com/node/27331",
+      "locator": "October14,2025; Strategic/FinancialBenefits",
+      "observed": "Buyer explicitly cited existing commercial infrastructure,patient services,data analytics and stakeholder relationships to accelerate navenibart launch; expected nonGAAPoperatingprofit accretion first full revenueyear and operating synergies.",
+      "inference": "Primary-source precedent for buyer execution uplift and cost reuse; forward-looking management claims not validated realized outcomes. Modality diversification differs from competingoral-to-oral acquisition."
+    },
+    {
+      "source": "https://www.sec.gov/Archives/edgar/data/882796/000114036125045461/ny20057110x2_s4a.htm",
+      "locator": "Background; April23,2025",
+      "observed": "AnonymousParty1CEO raised businesscombination withAstria to expand itspipeline.",
+      "inference": "Another actual buyer motive beyond existingHAEsynergy; no evidence target specifically sought oraldrug."
+    },
+    {
+      "source": "https://ir.pharvaris.com/news-releases/news-release-details/pharvaris-outlines-2026-strategic-priorities",
+      "observed": "2026prioritiesrelease emphasizes clinical development and commercialpreparedness; no identified buyer/process signal inreviewedrelease.",
+      "inference": "Consistentwithstandaloneexecution; neither positive nor dispositivenegative takeover evidence."
+    }
+  ],
+  "counterevidence": "KalVistaPartyC declined afterinternaldiscussion withoutNDA/diligence;18initialoutreachnot18bidders. Winner and unsuccessfulbidder evidence selected fromcompleteddeal,notdenominatorforPHVStakeoverprobability.",
+  "decision": "Strengthens mechanism for strategicvalue, especially buyer-owned launch and portfolio breadth. Does not establish high near-termPHVSacquisitionprobability or justify numericalchange.",
+  "next_step": "Further high-signal advance requires PHVS-specific partneringQ&A or named buyerintent, rather than repeatedgenericsearch."
+}
