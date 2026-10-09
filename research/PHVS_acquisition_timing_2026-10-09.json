@@ -1,0 +1,47 @@
+{
+  "as_of": "2026-10-09",
+  "timeline": [
+    {
+      "date": "2024-08-03",
+      "event": "AnonymousPartyA best/final23USD cash proposal; KalVista authorized confirmatorydiligenceAug4; mergeragreement drafts exchangedAug15-26."
+    },
+    {
+      "date": "2024-08-26",
+      "event": "PartyA board did not approve proposal after confirmatorydiligence presentation; buyer withdrew. Specific reason not disclosed in reviewed passage."
+    },
+    {
+      "date": "2025-07-03",
+      "event": "FDAapproval ofEkterly; announcedJuly7."
+    },
+    {
+      "date": "2025-07-07",
+      "event": "USlaunch initiated; separatequarterlyreport places commercialavailability midJuly."
+    },
+    {
+      "date": "2025-09-04",
+      "event": "KalVista terminatedJefferiesengagement given absence ofthirdparty interest andoperationsfocus."
+    },
+    {
+      "date": "2026-01",
+      "event": "Renewedstrategicinterest andconfidentialityagreements."
+    },
+    {
+      "date": "2026-04-29",
+      "event": "Chiesideal announced27USD/share about10monthsafterFDAapproval."
+    },
+    {
+      "date": "2026-06-11",
+      "event": "Acquisitioncompleted about11monthsafterFDAapproval."
+    }
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1348911/000114036126021078/ny20073033x1_sc14d9.htm",
+    "https://www.fda.gov/drugs/drug-approvals-and-databases/drug-trials-snapshots-ekterly",
+    "https://ir.kalvista.com/node/12706/html",
+    "https://www.chiesi.com/en/media-hub/press-release/chiesi-group-to-acquire-kalvista-pharmaceuticals-expanding-its-global-rare-disease-portfolio.html",
+    "https://www.chiesi.com/en/media-hub/press-release/chiesi-group-completes-acquisition-of-kalvista-pharmaceuticals.html"
+  ],
+  "correction_to_prior_summary": "Earlier register stopped at21/22.50offersrejectedonprice. Full2024sequenceadvancedto23,confirmatorydiligenceanddraftagreementsbeforebuyerboarddeclined. Do not characterizewhole2024failureaspriceonly. FilingcontainsAugust6,2025dateembeddedinAugust2024sequence; preserveasapparentsourcedateinconsistency,notcorrectedfact.",
+  "interpretation": "Preapprovalapproachescredible;successfuldealafterapprovalandlaunchdoesnotproveapprovalcausedtransaction. September2025lackofinterestshowsapprovalnotinstanttrigger.90percentPoSisuser/modelassumption,notFDAorbuyerassessment. Priceupsideoncatalystnotautomatic;buyerandsellerbothanticipateapproval;waitingbuysregulatory/commercialinformation.",
+  "model_guidance": "Eventuallydistinguishpreapprovalvsfirstlaunchyear timing qualitatively;no empiricalmostlikelywindow establishedfromtwo selecteddeals. No newprobabilityorvaluationcalculation."
+}

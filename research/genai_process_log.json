@@ -804,6 +804,17 @@
       "thesis_effect": "Strengthens mechanism for strategicvalue, especially buyer-owned launch and portfolio breadth. Does not establish high near-termPHVSacquisitionprobability or justify numericalchange.",
       "limitations": "KalVistaPartyC declined afterinternaldiscussion withoutNDA/diligence;18initialoutreachnot18bidders. Winner and unsuccessfulbidder evidence selected fromcompleteddeal,notdenominatorforPHVStakeoverprobability.",
       "remaining_work": "Further high-signal advance requires PHVS-specific partneringQ&A or named buyerintent, rather than repeatedgenericsearch."
+    },
+    {
+      "id": "G56",
+      "logged_on": "2026-10-09",
+      "objective": "VerifyKalVistaacquisitiontimingandtestbuy-beforeapprovalintuition",
+      "user_contribution": "User hypothesized90percentPoScreatesincentivetoacquirebeforeapprovalrepricing.",
+      "ai_method_and_sources": "PrimaryFDAapproval,companylaunch/dealreleasesandoriginalmergerbackground. research/PHVS_acquisition_timing_2026-10-09.json",
+      "snapshot": "Preapproval23offeradvancedtodraftagreementsbutbuyerboarddeclinedAug2024;approvalJuly2025;dealApril2026closedJune2026.",
+      "thesis_effect": "Supportsplausibilityofearlybidsbutrejectsmechanicalapprovaltimingrule.",
+      "limitations": "Earlier register stopped at21/22.50offersrejectedonprice. Full2024sequenceadvancedto23,confirmatorydiligenceanddraftagreementsbeforebuyerboarddeclined. Do not characterizewhole2024failureaspriceonly. FilingcontainsAugust6,2025dateembeddedinAugust2024sequence; preserveasapparentsourcedateinconsistency,notcorrectedfact.",
+      "remaining_work": "Retainconditionaltimingassumptions;notakeoverprobabilityupgrade."
     }
   ]
 }
