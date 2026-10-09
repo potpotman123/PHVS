@@ -1,0 +1,30 @@
+{
+  "status": "Conditional calibration and provisional population scenarios; neither measured paid conversion nor a national PHVS revenue forecast",
+  "historical_first_year_retention": [0.61, 0.70],
+  "prevalent_annual_retention": [0.80, 0.90, 0.95],
+  "opening_paid_share": [0.65, 0.715, 0.80],
+  "entry_paid_share": [0.50, 0.70, 0.90],
+  "phvs_first_year_retention": [0.61, 0.74, 0.87],
+  "acquisition_multipliers": [0.5, 0.75, 1.0, 1.25],
+  "diagnosed_scenarios": [9000, 10000, 11135],
+  "treated_scenarios": [8000, 8500, 9000],
+  "ltp_share_of_treated": [0.60, 0.68, 0.70],
+  "oral_prevention_scenarios": [1600, 1700, 1800],
+  "provenance": {
+    "first_year_retention": "61% claims benchmark from existing A04;70% alternative historical selected paid cohort T3. Applying either to mixed paid/PAP state entrants is a proxy.",
+    "prevalent_retention": "80/90/95% analyst assumptions, not estimated; ages of opening stock unknown.",
+    "payment_inputs": "Analyst assumptions testing identifiability; fitted monthly conversions are not evidence of real access speed.",
+    "population": "Diagnosed9000and11135 are conflicting dated issuer estimates;10000 is illustrative. Treated8000-9000 brackets historical8511, not an observed2026range. LTP68% is annual claims share in2024;60/70% analyst alternatives. Oral1600is a lower-edge scenario anchored to >1600YE2025 allstatus,1700/1800assumed. Dates, ages, subtypes and pharmacy capture differ.",
+    "phvs": "Retention61/74/87% comes from working_assumptions.json; acquisition50/75/100/125%are analyst stress cases versus conditional2023Orladeyo state-entry activity. No launch-year alignment asserted."
+  },
+  "limitations": [
+    "Paid/PAP entry is not a new prescription: may include QuickStart transition or reactivation. QuickStart is excluded from the calibrated state.",
+    "Annual321net additions includingQuickStart cannot identify QuickStart conversion or abandonment without opening and ending QuickStart stocks.",
+    "Model assumes uniform monthly entries, exponential first-year survival, equal paid/free hazards, one-way free-to-paid transfer, and no reactivation. These simplify underidentified histories.",
+    "All opening patients use assumed prevalent retention; they are not known to be mature users.",
+    "PHVS scenarios are constant-activity five-year comparisons without origin depletion, launch ramp, changing competition or paid pricing. Cannot infer peak or fair value.",
+    "Population scenarios are provisional whole-market accounting, not clinically eligible PHVS TAM; no individual-injectable allocation is justified.",
+    "Acute-only proxy means treated minus LTP under a partition assumption; annual claims can overlap and do not directly identify point-in-time states.",
+    "No probability distribution or confidence interval is assigned to scenario ranges."
+  ]
+}

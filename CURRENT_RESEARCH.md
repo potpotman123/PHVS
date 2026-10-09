@@ -1,3 +1,5 @@
+Latest adoption reconciliation: [population/payment gaps and monthly cohort results](output/PHVS_adoption_reconciliation_2026-10-08.txt). Conditional359–549paid/PAP state entries explain~255net growth; not observed prescriptions. Provisional population grid and MonteCarlo dependency register added. ProcessG31.
+
 Latest population/launch calibration: [dated patient pools and net additions](output/PHVS_population_launch_calibration_2026-10-08.txt). OrladeyoYE2023~789paid;~255net paid+PAP additions,321includingQuickStart. Origin52/32/17 is historical trier mix, not conversion. Runnable market_calibration.py; no national forecast selected. ProcessG30.
 
 Latest runnable adoption adjustment: working_assumptions.json drives normalized cohort sensitivity; XR61/74/87%first-year retention scenarios,74%working assumption; IRpivotal andLTPextension comparisons keptseparate. No nationalforecast orDCF repricing. ProcessG29.

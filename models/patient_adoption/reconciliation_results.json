@@ -1,0 +1,1890 @@
+{
+  "status": "Conditional calibration and provisional population scenarios; neither measured paid conversion nor a national PHVS revenue forecast",
+  "reference_opening_paid_plus_PAP": 849.2307692307692,
+  "reference_annual_entries": 439.5251969996684,
+  "historical_reconciliations": [
+    {
+      "first_year_retention": 0.61,
+      "prevalent_retention": 0.8,
+      "inferred_annual_entries_paid_plus_PAP": 549.4064962495854,
+      "inferred_exits": 294.6372654803545,
+      "net_growth": 254.76923076923083,
+      "retained_opening": 679.3846153846154
+    },
+    {
+      "first_year_retention": 0.61,
+      "prevalent_retention": 0.9,
+      "inferred_annual_entries_paid_plus_PAP": 439.5251969996684,
+      "inferred_exits": 184.75596623043765,
+      "net_growth": 254.76923076923083,
+      "retained_opening": 764.3076923076923
+    },
+    {
+      "first_year_retention": 0.61,
+      "prevalent_retention": 0.95,
+      "inferred_annual_entries_paid_plus_PAP": 384.5845473747092,
+      "inferred_exits": 129.81531660547844,
+      "net_growth": 254.76923076923083,
+      "retained_opening": 806.7692307692307
+    },
+    {
+      "first_year_retention": 0.7,
+      "prevalent_retention": 0.8,
+      "inferred_annual_entries_paid_plus_PAP": 512.4096584004808,
+      "inferred_exits": 257.6404276312499,
+      "net_growth": 254.76923076923083,
+      "retained_opening": 679.3846153846154
+    },
+    {
+      "first_year_retention": 0.7,
+      "prevalent_retention": 0.9,
+      "inferred_annual_entries_paid_plus_PAP": 409.92772672038467,
+      "inferred_exits": 155.1584959511537,
+      "net_growth": 254.76923076923083,
+      "retained_opening": 764.3076923076923
+    },
+    {
+      "first_year_retention": 0.7,
+      "prevalent_retention": 0.95,
+      "inferred_annual_entries_paid_plus_PAP": 358.68676088033595,
+      "inferred_exits": 103.9175301111053,
+      "net_growth": 254.76923076923083,
+      "retained_opening": 806.7692307692307
+    }
+  ],
+  "payment_reconciliations": [
+    {
+      "first": 0.61,
+      "mature": 0.8,
+      "opening_paid_share": 0.65,
+      "entry_paid_share": 0.5,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.03956483910404529,
+      "result": {
+        "month": 12,
+        "active": 1104.0,
+        "paid": 789.3600000000116,
+        "free": 314.63999999998845,
+        "cumulative_entries": 549.4064962495855,
+        "cumulative_direct_paid_entries": 274.70324812479276,
+        "cumulative_free_to_paid": 157.9841851098483,
+        "cumulative_paid_exits": 195.32743323462918,
+        "cumulative_free_exits": 99.30983224572526,
+        "cumulative_paid_patient_years": 698.1847211431591,
+        "cumulative_all_patient_years": 1013.6141197360607
+      }
+    },
+    {
+      "first": 0.61,
+      "mature": 0.8,
+      "opening_paid_share": 0.65,
+      "entry_paid_share": 0.7,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.015058470878031471,
+      "result": {
+        "month": 12,
+        "active": 1104.0000000000005,
+        "paid": 789.3599999999924,
+        "free": 314.640000000008,
+        "cumulative_entries": 549.4064962495855,
+        "cumulative_direct_paid_entries": 384.58454737470964,
+        "cumulative_free_to_paid": 58.204242833263024,
+        "cumulative_paid_exits": 205.42879020798057,
+        "cumulative_free_exits": 89.20847527237385,
+        "cumulative_paid_patient_years": 700.0971841126802,
+        "cumulative_all_patient_years": 1013.6141197360607
+      }
+    },
+    {
+      "first": 0.61,
+      "mature": 0.8,
+      "opening_paid_share": 0.65,
+      "entry_paid_share": 0.9,
+      "feasible": false,
+      "reason": "Cannot match paid target with nonnegative one-way free-to-paid conversion; requires different assumptions or reverse transfers."
+    },
+    {
+      "first": 0.61,
+      "mature": 0.8,
+      "opening_paid_share": 0.715,
+      "entry_paid_share": 0.5,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.0290602269902962,
+      "result": {
+        "month": 12,
+        "active": 1104.0000000000002,
+        "paid": 789.3599999999852,
+        "free": 314.640000000015,
+        "cumulative_entries": 549.4064962495855,
+        "cumulative_direct_paid_entries": 274.70324812479276,
+        "cumulative_free_to_paid": 106.5552967596689,
+        "cumulative_paid_exits": 199.09854488447647,
+        "cumulative_free_exits": 95.53872059587785,
+        "cumulative_paid_patient_years": 720.936692678949,
+        "cumulative_all_patient_years": 1013.6141197360606
+      }
+    },
+    {
+      "first": 0.61,
+      "mature": 0.8,
+      "opening_paid_share": 0.715,
+      "entry_paid_share": 0.7,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.0020833191267541906,
+      "result": {
+        "month": 12,
+        "active": 1104.0000000000002,
+        "paid": 789.3599999999883,
+        "free": 314.64000000001187,
+        "cumulative_entries": 549.4064962495855,
+        "cumulative_direct_paid_entries": 384.58454737470964,
+        "cumulative_free_to_paid": 7.333350701488803,
+        "cumulative_paid_exits": 209.75789807621024,
+        "cumulative_free_exits": 84.87936740414416,
+        "cumulative_paid_patient_years": 724.4426266030057,
+        "cumulative_all_patient_years": 1013.6141197360607
+      }
+    },
+    {
+      "first": 0.61,
+      "mature": 0.8,
+      "opening_paid_share": 0.715,
+      "entry_paid_share": 0.9,
+      "feasible": false,
+      "reason": "Cannot match paid target with nonnegative one-way free-to-paid conversion; requires different assumptions or reverse transfers."
+    },
+    {
+      "first": 0.61,
+      "mature": 0.8,
+      "opening_paid_share": 0.8,
+      "entry_paid_share": 0.5,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.01220276442721513,
+      "result": {
+        "month": 12,
+        "active": 1104.0,
+        "paid": 789.3599999999847,
+        "free": 314.64000000001533,
+        "cumulative_entries": 549.4064962495855,
+        "cumulative_direct_paid_entries": 274.70324812479276,
+        "cumulative_free_to_paid": 39.229755747361665,
+        "cumulative_paid_exits": 203.95761925678485,
+        "cumulative_free_exits": 90.67964622356939,
+        "cumulative_paid_patient_years": 752.7804759441939,
+        "cumulative_all_patient_years": 1013.6141197360607
+      }
+    },
+    {
+      "first": 0.61,
+      "mature": 0.8,
+      "opening_paid_share": 0.8,
+      "entry_paid_share": 0.7,
+      "feasible": false,
+      "reason": "Cannot match paid target with nonnegative one-way free-to-paid conversion; requires different assumptions or reverse transfers."
+    },
+    {
+      "first": 0.61,
+      "mature": 0.8,
+      "opening_paid_share": 0.8,
+      "entry_paid_share": 0.9,
+      "feasible": false,
+      "reason": "Cannot match paid target with nonnegative one-way free-to-paid conversion; requires different assumptions or reverse transfers."
+    },
+    {
+      "first": 0.61,
+      "mature": 0.9,
+      "opening_paid_share": 0.65,
+      "entry_paid_share": 0.5,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.03430548555151347,
+      "result": {
+        "month": 12,
+        "active": 1104.0,
+        "paid": 789.3599999999957,
+        "free": 314.64000000000436,
+        "cumulative_entries": 439.5251969996685,
+        "cumulative_direct_paid_entries": 219.76259849983424,
+        "cumulative_free_to_paid": 135.28274570156475,
+        "cumulative_paid_exits": 117.68534420140323,
+        "cumulative_free_exits": 67.07062202903418,
+        "cumulative_paid_patient_years": 693.452701021549,
+        "cumulative_all_patient_years": 1007.9934595971847
+      }
+    },
+    {
+      "first": 0.61,
+      "mature": 0.9,
+      "opening_paid_share": 0.65,
+      "entry_paid_share": 0.7,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.015514778876067226,
+      "result": {
+        "month": 12,
+        "active": 1104.0000000000002,
+        "paid": 789.3600000000368,
+        "free": 314.6399999999634,
+        "cumulative_entries": 439.5251969996685,
+        "cumulative_direct_paid_entries": 307.6676378997679,
+        "cumulative_free_to_paid": 59.49715489086298,
+        "cumulative_paid_exits": 129.80479279059415,
+        "cumulative_free_exits": 54.951173439843465,
+        "cumulative_paid_patient_years": 695.6783722959195,
+        "cumulative_all_patient_years": 1007.9934595971849
+      }
+    },
+    {
+      "first": 0.61,
+      "mature": 0.9,
+      "opening_paid_share": 0.65,
+      "entry_paid_share": 0.9,
+      "feasible": false,
+      "reason": "Cannot match paid target with nonnegative one-way free-to-paid conversion; requires different assumptions or reverse transfers."
+    },
+    {
+      "first": 0.61,
+      "mature": 0.9,
+      "opening_paid_share": 0.715,
+      "entry_paid_share": 0.5,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.022401775630541465,
+      "result": {
+        "month": 12,
+        "active": 1104.0000000000002,
+        "paid": 789.3600000000091,
+        "free": 314.6399999999912,
+        "cumulative_entries": 439.5251969996685,
+        "cumulative_direct_paid_entries": 219.76259849983424,
+        "cumulative_free_to_paid": 80.80482892209679,
+        "cumulative_paid_exits": 118.40742742192192,
+        "cumulative_free_exits": 66.34853880851546,
+        "cumulative_paid_patient_years": 716.9165939659105,
+        "cumulative_all_patient_years": 1007.993459597185
+      }
+    },
+    {
+      "first": 0.61,
+      "mature": 0.9,
+      "opening_paid_share": 0.715,
+      "entry_paid_share": 0.7,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.0015921288424607383,
+      "result": {
+        "month": 12,
+        "active": 1104.0000000000002,
+        "paid": 789.3599999999582,
+        "free": 314.640000000042,
+        "cumulative_entries": 439.5251969996685,
+        "cumulative_direct_paid_entries": 307.6676378997679,
+        "cumulative_free_to_paid": 5.545884108308654,
+        "cumulative_paid_exits": 131.05352200811842,
+        "cumulative_free_exits": 53.70244422231907,
+        "cumulative_paid_patient_years": 720.4270510148036,
+        "cumulative_all_patient_years": 1007.993459597185
+      }
+    },
+    {
+      "first": 0.61,
+      "mature": 0.9,
+      "opening_paid_share": 0.715,
+      "entry_paid_share": 0.9,
+      "feasible": false,
+      "reason": "Cannot match paid target with nonnegative one-way free-to-paid conversion; requires different assumptions or reverse transfers."
+    },
+    {
+      "first": 0.61,
+      "mature": 0.9,
+      "opening_paid_share": 0.8,
+      "entry_paid_share": 0.5,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.0028643753799002525,
+      "result": {
+        "month": 12,
+        "active": 1104.0000000000005,
+        "paid": 789.3600000000067,
+        "free": 314.63999999999373,
+        "cumulative_entries": 439.5251969996685,
+        "cumulative_direct_paid_entries": 219.76259849983424,
+        "cumulative_free_to_paid": 8.98971708223093,
+        "cumulative_paid_exits": 118.77693096667402,
+        "cumulative_free_exits": 65.97903526376334,
+        "cumulative_paid_patient_years": 749.9688199127696,
+        "cumulative_all_patient_years": 1007.9934595971849
+      }
+    },
+    {
+      "first": 0.61,
+      "mature": 0.9,
+      "opening_paid_share": 0.8,
+      "entry_paid_share": 0.7,
+      "feasible": false,
+      "reason": "Cannot match paid target with nonnegative one-way free-to-paid conversion; requires different assumptions or reverse transfers."
+    },
+    {
+      "first": 0.61,
+      "mature": 0.9,
+      "opening_paid_share": 0.8,
+      "entry_paid_share": 0.9,
+      "feasible": false,
+      "reason": "Cannot match paid target with nonnegative one-way free-to-paid conversion; requires different assumptions or reverse transfers."
+    },
+    {
+      "first": 0.61,
+      "mature": 0.95,
+      "opening_paid_share": 0.65,
+      "entry_paid_share": 0.5,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.03182799417858462,
+      "result": {
+        "month": 12,
+        "active": 1104.0000000000005,
+        "paid": 789.3600000000213,
+        "free": 314.6399999999791,
+        "cumulative_entries": 384.5845473747093,
+        "cumulative_direct_paid_entries": 192.29227368735465,
+        "cumulative_free_to_paid": 124.61714293794863,
+        "cumulative_paid_exits": 79.54941662528246,
+        "cumulative_free_exits": 50.26589998019601,
+        "cumulative_paid_patient_years": 690.7548423873435,
+        "cumulative_all_patient_years": 1004.5420128891209
+      }
+    },
+    {
+      "first": 0.61,
+      "mature": 0.95,
+      "opening_paid_share": 0.65,
+      "entry_paid_share": 0.7,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.015726951608868944,
+      "result": {
+        "month": 12,
+        "active": 1104.0,
+        "paid": 789.3600000000334,
+        "free": 314.6399999999667,
+        "cumulative_entries": 384.5845473747093,
+        "cumulative_direct_paid_entries": 269.2091831622964,
+        "cumulative_free_to_paid": 60.03561975983482,
+        "cumulative_paid_exits": 91.88480292209796,
+        "cumulative_free_exits": 37.930513683380525,
+        "cumulative_paid_patient_years": 693.0185171589529,
+        "cumulative_all_patient_years": 1004.5420128891211
+      }
+    },
+    {
+      "first": 0.61,
+      "mature": 0.95,
+      "opening_paid_share": 0.65,
+      "entry_paid_share": 0.9,
+      "feasible": false,
+      "reason": "Cannot match paid target with nonnegative one-way free-to-paid conversion; requires different assumptions or reverse transfers."
+    },
+    {
+      "first": 0.61,
+      "mature": 0.95,
+      "opening_paid_share": 0.715,
+      "entry_paid_share": 0.5,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.01924111848656196,
+      "result": {
+        "month": 12,
+        "active": 1103.9999999999998,
+        "paid": 789.3599999999798,
+        "free": 314.64000000002005,
+        "cumulative_entries": 384.5845473747093,
+        "cumulative_direct_paid_entries": 192.29227368735465,
+        "cumulative_free_to_paid": 68.76789245341381,
+        "cumulative_paid_exits": 78.90016614078846,
+        "cumulative_free_exits": 50.91515046468997,
+        "cumulative_paid_patient_years": 714.5720380240256,
+        "cumulative_all_patient_years": 1004.5420128891209
+      }
+    },
+    {
+      "first": 0.61,
+      "mature": 0.95,
+      "opening_paid_share": 0.715,
+      "entry_paid_share": 0.7,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.001362594516578497,
+      "result": {
+        "month": 12,
+        "active": 1103.9999999999998,
+        "paid": 789.3599999999958,
+        "free": 314.64000000000397,
+        "cumulative_entries": 384.5845473747093,
+        "cumulative_direct_paid_entries": 269.2091831622964,
+        "cumulative_free_to_paid": 4.718238064594717,
+        "cumulative_paid_exits": 91.76742122689522,
+        "cumulative_free_exits": 38.047895378583256,
+        "cumulative_paid_patient_years": 717.9711020353328,
+        "cumulative_all_patient_years": 1004.5420128891205
+      }
+    },
+    {
+      "first": 0.61,
+      "mature": 0.95,
+      "opening_paid_share": 0.715,
+      "entry_paid_share": 0.9,
+      "feasible": false,
+      "reason": "Cannot match paid target with nonnegative one-way free-to-paid conversion; requires different assumptions or reverse transfers."
+    },
+    {
+      "first": 0.61,
+      "mature": 0.95,
+      "opening_paid_share": 0.8,
+      "entry_paid_share": 0.5,
+      "feasible": false,
+      "reason": "Cannot match paid target with nonnegative one-way free-to-paid conversion; requires different assumptions or reverse transfers."
+    },
+    {
+      "first": 0.61,
+      "mature": 0.95,
+      "opening_paid_share": 0.8,
+      "entry_paid_share": 0.7,
+      "feasible": false,
+      "reason": "Cannot match paid target with nonnegative one-way free-to-paid conversion; requires different assumptions or reverse transfers."
+    },
+    {
+      "first": 0.61,
+      "mature": 0.95,
+      "opening_paid_share": 0.8,
+      "entry_paid_share": 0.9,
+      "feasible": false,
+      "reason": "Cannot match paid target with nonnegative one-way free-to-paid conversion; requires different assumptions or reverse transfers."
+    },
+    {
+      "first": 0.7,
+      "mature": 0.8,
+      "opening_paid_share": 0.65,
+      "entry_paid_share": 0.5,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.03924462690297048,
+      "result": {
+        "month": 12,
+        "active": 1104.0000000000002,
+        "paid": 789.3600000000263,
+        "free": 314.639999999974,
+        "cumulative_entries": 512.4096584004808,
+        "cumulative_direct_paid_entries": 256.2048292002404,
+        "cumulative_free_to_paid": 155.10882965294437,
+        "cumulative_paid_exits": 173.9536588531587,
+        "cumulative_free_exits": 83.68676877809116,
+        "cumulative_paid_patient_years": 694.3615816440048,
+        "cumulative_all_patient_years": 1007.2984278593478
+      }
+    },
+    {
+      "first": 0.7,
+      "mature": 0.8,
+      "opening_paid_share": 0.65,
+      "entry_paid_share": 0.7,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.014982207194904618,
+      "result": {
+        "month": 12,
+        "active": 1104.0000000000002,
+        "paid": 789.3600000000084,
+        "free": 314.63999999999174,
+        "cumulative_entries": 512.4096584004808,
+        "cumulative_direct_paid_entries": 358.6867608803364,
+        "cumulative_free_to_paid": 57.50856041225104,
+        "cumulative_paid_exits": 178.83532129257904,
+        "cumulative_free_exits": 78.80510633867071,
+        "cumulative_paid_patient_years": 695.515006373006,
+        "cumulative_all_patient_years": 1007.298427859348
+      }
+    },
+    {
+      "first": 0.7,
+      "mature": 0.8,
+      "opening_paid_share": 0.65,
+      "entry_paid_share": 0.9,
+      "feasible": false,
+      "reason": "Cannot match paid target with nonnegative one-way free-to-paid conversion; requires different assumptions or reverse transfers."
+    },
+    {
+      "first": 0.7,
+      "mature": 0.8,
+      "opening_paid_share": 0.715,
+      "entry_paid_share": 0.5,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.028803348537635998,
+      "result": {
+        "month": 12,
+        "active": 1104.0000000000002,
+        "paid": 789.3600000000125,
+        "free": 314.63999999998765,
+        "cumulative_entries": 512.4096584004808,
+        "cumulative_direct_paid_entries": 256.2048292002404,
+        "cumulative_free_to_paid": 104.39013587350365,
+        "cumulative_paid_exits": 178.4349650737315,
+        "cumulative_free_exits": 79.20546255751853,
+        "cumulative_paid_patient_years": 717.291376884867,
+        "cumulative_all_patient_years": 1007.2984278593476
+      }
+    },
+    {
+      "first": 0.7,
+      "mature": 0.8,
+      "opening_paid_share": 0.715,
+      "entry_paid_share": 0.7,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.0020716499118549336,
+      "result": {
+        "month": 12,
+        "active": 1104.0,
+        "paid": 789.360000000004,
+        "free": 314.6399999999961,
+        "cumulative_entries": 512.4096584004808,
+        "cumulative_direct_paid_entries": 358.6867608803364,
+        "cumulative_free_to_paid": 7.233999913006755,
+        "cumulative_paid_exits": 183.76076079333924,
+        "cumulative_free_exits": 73.87966683791053,
+        "cumulative_paid_patient_years": 719.9992463032149,
+        "cumulative_all_patient_years": 1007.2984278593475
+      }
+    },
+    {
+      "first": 0.7,
+      "mature": 0.8,
+      "opening_paid_share": 0.715,
+      "entry_paid_share": 0.9,
+      "feasible": false,
+      "reason": "Cannot match paid target with nonnegative one-way free-to-paid conversion; requires different assumptions or reverse transfers."
+    },
+    {
+      "first": 0.7,
+      "mature": 0.8,
+      "opening_paid_share": 0.8,
+      "entry_paid_share": 0.5,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.012078205345247284,
+      "result": {
+        "month": 12,
+        "active": 1104.0,
+        "paid": 789.359999999998,
+        "free": 314.6400000000019,
+        "cumulative_entries": 512.4096584004808,
+        "cumulative_direct_paid_entries": 256.2048292002404,
+        "cumulative_free_to_paid": 38.28255235955622,
+        "cumulative_paid_exits": 184.51199694441388,
+        "cumulative_free_exits": 73.12843068683596,
+        "cumulative_paid_patient_years": 749.418623223314,
+        "cumulative_all_patient_years": 1007.2984278593478
+      }
+    },
+    {
+      "first": 0.7,
+      "mature": 0.8,
+      "opening_paid_share": 0.8,
+      "entry_paid_share": 0.7,
+      "feasible": false,
+      "reason": "Cannot match paid target with nonnegative one-way free-to-paid conversion; requires different assumptions or reverse transfers."
+    },
+    {
+      "first": 0.7,
+      "mature": 0.8,
+      "opening_paid_share": 0.8,
+      "entry_paid_share": 0.9,
+      "feasible": false,
+      "reason": "Cannot match paid target with nonnegative one-way free-to-paid conversion; requires different assumptions or reverse transfers."
+    },
+    {
+      "first": 0.7,
+      "mature": 0.9,
+      "opening_paid_share": 0.65,
+      "entry_paid_share": 0.5,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.034090734585007,
+      "result": {
+        "month": 12,
+        "active": 1104.0,
+        "paid": 789.3599999999827,
+        "free": 314.6400000000173,
+        "cumulative_entries": 409.92772672038456,
+        "cumulative_direct_paid_entries": 204.96386336019228,
+        "cumulative_free_to_paid": 133.30259329854462,
+        "cumulative_paid_exits": 100.90645665875428,
+        "cumulative_free_exits": 54.252039292399495,
+        "cumulative_paid_patient_years": 690.4652159497246,
+        "cumulative_all_patient_years": 1002.9409060958146
+      }
+    },
+    {
+      "first": 0.7,
+      "mature": 0.9,
+      "opening_paid_share": 0.65,
+      "entry_paid_share": 0.7,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.015454874145845565,
+      "result": {
+        "month": 12,
+        "active": 1104.0,
+        "paid": 789.3599999999788,
+        "free": 314.64000000002113,
+        "cumulative_entries": 409.92772672038456,
+        "cumulative_direct_paid_entries": 286.9494087042693,
+        "cumulative_free_to_paid": 58.93685528400729,
+        "cumulative_paid_exits": 108.52626398829763,
+        "cumulative_free_exits": 46.63223196285621,
+        "cumulative_paid_patient_years": 692.0110171532722,
+        "cumulative_all_patient_years": 1002.9409060958143
+      }
+    },
+    {
+      "first": 0.7,
+      "mature": 0.9,
+      "opening_paid_share": 0.65,
+      "entry_paid_share": 0.9,
+      "feasible": false,
+      "reason": "Cannot match paid target with nonnegative one-way free-to-paid conversion; requires different assumptions or reverse transfers."
+    },
+    {
+      "first": 0.7,
+      "mature": 0.9,
+      "opening_paid_share": 0.715,
+      "entry_paid_share": 0.5,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.022247475974054964,
+      "result": {
+        "month": 12,
+        "active": 1103.9999999999998,
+        "paid": 789.3600000000188,
+        "free": 314.63999999998106,
+        "cumulative_entries": 409.92772672038456,
+        "cumulative_direct_paid_entries": 204.96386336019228,
+        "cumulative_free_to_paid": 79.47323353194496,
+        "cumulative_paid_exits": 102.2770968921182,
+        "cumulative_free_exits": 52.88139905903559,
+        "cumulative_paid_patient_years": 714.0885954284809,
+        "cumulative_all_patient_years": 1002.9409060958143
+      }
+    },
+    {
+      "first": 0.7,
+      "mature": 0.9,
+      "opening_paid_share": 0.715,
+      "entry_paid_share": 0.7,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.00158530055647077,
+      "result": {
+        "month": 12,
+        "active": 1104.0,
+        "paid": 789.3600000000208,
+        "free": 314.6399999999792,
+        "cumulative_entries": 409.92772672038456,
+        "cumulative_direct_paid_entries": 286.9494087042693,
+        "cumulative_free_to_paid": 5.486355389799414,
+        "cumulative_paid_exits": 110.27576409404764,
+        "cumulative_free_exits": 44.88273185710609,
+        "cumulative_paid_patient_years": 716.876770054731,
+        "cumulative_all_patient_years": 1002.9409060958146
+      }
+    },
+    {
+      "first": 0.7,
+      "mature": 0.9,
+      "opening_paid_share": 0.715,
+      "entry_paid_share": 0.9,
+      "feasible": false,
+      "reason": "Cannot match paid target with nonnegative one-way free-to-paid conversion; requires different assumptions or reverse transfers."
+    },
+    {
+      "first": 0.7,
+      "mature": 0.9,
+      "opening_paid_share": 0.8,
+      "entry_paid_share": 0.5,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.0028412419944601197,
+      "result": {
+        "month": 12,
+        "active": 1104.0,
+        "paid": 789.3600000000266,
+        "free": 314.6399999999734,
+        "cumulative_entries": 409.92772672038456,
+        "cumulative_direct_paid_entries": 204.96386336019228,
+        "cumulative_free_to_paid": 8.810787875171243,
+        "cumulative_paid_exits": 103.79926661995222,
+        "cumulative_free_exits": 51.359229331201476,
+        "cumulative_paid_patient_years": 747.4037859095321,
+        "cumulative_all_patient_years": 1002.9409060958144
+      }
+    },
+    {
+      "first": 0.7,
+      "mature": 0.9,
+      "opening_paid_share": 0.8,
+      "entry_paid_share": 0.7,
+      "feasible": false,
+      "reason": "Cannot match paid target with nonnegative one-way free-to-paid conversion; requires different assumptions or reverse transfers."
+    },
+    {
+      "first": 0.7,
+      "mature": 0.9,
+      "opening_paid_share": 0.8,
+      "entry_paid_share": 0.9,
+      "feasible": false,
+      "reason": "Cannot match paid target with nonnegative one-way free-to-paid conversion; requires different assumptions or reverse transfers."
+    },
+    {
+      "first": 0.7,
+      "mature": 0.95,
+      "opening_paid_share": 0.65,
+      "entry_paid_share": 0.5,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.03165665610852386,
+      "result": {
+        "month": 12,
+        "active": 1104.0,
+        "paid": 789.3599999999836,
+        "free": 314.64000000001636,
+        "cumulative_entries": 358.6867608803359,
+        "cumulative_direct_paid_entries": 179.34338044016795,
+        "cumulative_free_to_paid": 123.01626511616554,
+        "cumulative_paid_exits": 64.99964555635002,
+        "cumulative_free_exits": 38.91788455475532,
+        "cumulative_paid_patient_years": 688.1704645829171,
+        "cumulative_all_patient_years": 1000.12102857542
+      }
+    },
+    {
+      "first": 0.7,
+      "mature": 0.95,
+      "opening_paid_share": 0.65,
+      "entry_paid_share": 0.7,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.01567503453425445,
+      "result": {
+        "month": 12,
+        "active": 1103.9999999999998,
+        "paid": 789.3600000000397,
+        "free": 314.63999999996,
+        "cumulative_entries": 358.6867608803359,
+        "cumulative_direct_paid_entries": 251.08073261623522,
+        "cumulative_free_to_paid": 59.54415658427296,
+        "cumulative_paid_exits": 73.26488920046832,
+        "cumulative_free_exits": 30.652640910637007,
+        "cumulative_paid_patient_years": 689.8090274506627,
+        "cumulative_all_patient_years": 1000.1210285754196
+      }
+    },
+    {
+      "first": 0.7,
+      "mature": 0.95,
+      "opening_paid_share": 0.65,
+      "entry_paid_share": 0.9,
+      "feasible": false,
+      "reason": "Cannot match paid target with nonnegative one-way free-to-paid conversion; requires different assumptions or reverse transfers."
+    },
+    {
+      "first": 0.7,
+      "mature": 0.95,
+      "opening_paid_share": 0.715,
+      "entry_paid_share": 0.5,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.01912677113146799,
+      "result": {
+        "month": 12,
+        "active": 1103.9999999999998,
+        "paid": 789.359999999993,
+        "free": 314.64000000000675,
+        "cumulative_entries": 358.6867608803359,
+        "cumulative_direct_paid_entries": 179.34338044016795,
+        "cumulative_free_to_paid": 67.76924494410233,
+        "cumulative_paid_exits": 64.95262538427717,
+        "cumulative_free_exits": 38.9649047268281,
+        "cumulative_paid_patient_years": 712.134669739203,
+        "cumulative_all_patient_years": 1000.1210285754199
+      }
+    },
+    {
+      "first": 0.7,
+      "mature": 0.95,
+      "opening_paid_share": 0.715,
+      "entry_paid_share": 0.7,
+      "feasible": true,
+      "monthly_free_to_paid_assumed_model_fit": 0.001357588892474837,
+      "result": {
+        "month": 12,
+        "active": 1104.0,
+        "paid": 789.3599999999755,
+        "free": 314.64000000002466,
+        "cumulative_entries": 358.6867608803359,
+        "cumulative_direct_paid_entries": 251.08073261623522,
+        "cumulative_free_to_paid": 4.674098243778225,
+        "cumulative_paid_exits": 73.59483086003819,
+        "cumulative_free_exits": 30.32269925106715,
+        "cumulative_paid_patient_years": 714.8663845854946,
+        "cumulative_all_patient_years": 1000.1210285754202
+      }
+    },
+    {
+      "first": 0.7,
+      "mature": 0.95,
+      "opening_paid_share": 0.715,
+      "entry_paid_share": 0.9,
+      "feasible": false,
+      "reason": "Cannot match paid target with nonnegative one-way free-to-paid conversion; requires different assumptions or reverse transfers."
+    },
+    {
+      "first": 0.7,
+      "mature": 0.95,
+      "opening_paid_share": 0.8,
+      "entry_paid_share": 0.5,
+      "feasible": false,
+      "reason": "Cannot match paid target with nonnegative one-way free-to-paid conversion; requires different assumptions or reverse transfers."
+    },
+    {
+      "first": 0.7,
+      "mature": 0.95,
+      "opening_paid_share": 0.8,
+      "entry_paid_share": 0.7,
+      "feasible": false,
+      "reason": "Cannot match paid target with nonnegative one-way free-to-paid conversion; requires different assumptions or reverse transfers."
+    },
+    {
+      "first": 0.7,
+      "mature": 0.95,
+      "opening_paid_share": 0.8,
+      "entry_paid_share": 0.9,
+      "feasible": false,
+      "reason": "Cannot match paid target with nonnegative one-way free-to-paid conversion; requires different assumptions or reverse transfers."
+    }
+  ],
+  "phvs_activity_scenarios": [
+    {
+      "first_year_retention": 0.61,
+      "entry_activity_vs_reference": 0.5,
+      "status": "Conditional active-treatment comparison; paid status deliberately unspecified",
+      "annual_state_entries": 219.7625984998342,
+      "annual_snapshots": [
+        {
+          "month": 12,
+          "active": 169.84615384615398,
+          "cumulative_entries": 219.76259849983424,
+          "cumulative_all_patient_years": 100.98485958870762
+        },
+        {
+          "month": 24,
+          "active": 296.52315451484566,
+          "cumulative_entries": 439.52519699966825,
+          "cumulative_all_patient_years": 344.4056228127555
+        },
+        {
+          "month": 36,
+          "active": 410.53245511666813,
+          "cumulative_entries": 659.2877954995023,
+          "cumulative_all_patient_years": 708.0583342934856
+        },
+        {
+          "month": 48,
+          "active": 513.1408256583085,
+          "cumulative_entries": 879.0503939993363,
+          "cumulative_all_patient_years": 1179.9197992052311
+        },
+        {
+          "month": 60,
+          "active": 605.4883591457847,
+          "cumulative_entries": 1098.8129924991704,
+          "cumulative_all_patient_years": 1749.169142204893
+        }
+      ]
+    },
+    {
+      "first_year_retention": 0.61,
+      "entry_activity_vs_reference": 0.75,
+      "status": "Conditional active-treatment comparison; paid status deliberately unspecified",
+      "annual_state_entries": 329.6438977497513,
+      "annual_snapshots": [
+        {
+          "month": 12,
+          "active": 254.76923076923103,
+          "cumulative_entries": 329.6438977497513,
+          "cumulative_all_patient_years": 151.47728938306147
+        },
+        {
+          "month": 24,
+          "active": 444.7847317722686,
+          "cumulative_entries": 659.2877954995023,
+          "cumulative_all_patient_years": 516.6084342191334
+        },
+        {
+          "month": 36,
+          "active": 615.798682675002,
+          "cumulative_entries": 988.9316932492533,
+          "cumulative_all_patient_years": 1062.087501440233
+        },
+        {
+          "month": 48,
+          "active": 769.7112384874625,
+          "cumulative_entries": 1318.5755909990044,
+          "cumulative_all_patient_years": 1769.8796988078482
+        },
+        {
+          "month": 60,
+          "active": 908.232538718677,
+          "cumulative_entries": 1648.2194887487553,
+          "cumulative_all_patient_years": 2623.7537133073265
+        }
+      ]
+    },
+    {
+      "first_year_retention": 0.61,
+      "entry_activity_vs_reference": 1.0,
+      "status": "Conditional active-treatment comparison; paid status deliberately unspecified",
+      "annual_state_entries": 439.5251969996684,
+      "annual_snapshots": [
+        {
+          "month": 12,
+          "active": 339.69230769230796,
+          "cumulative_entries": 439.5251969996685,
+          "cumulative_all_patient_years": 201.96971917741524
+        },
+        {
+          "month": 24,
+          "active": 593.0463090296913,
+          "cumulative_entries": 879.0503939993365,
+          "cumulative_all_patient_years": 688.811245625511
+        },
+        {
+          "month": 36,
+          "active": 821.0649102333363,
+          "cumulative_entries": 1318.5755909990046,
+          "cumulative_all_patient_years": 1416.1166685869712
+        },
+        {
+          "month": 48,
+          "active": 1026.281651316617,
+          "cumulative_entries": 1758.1007879986726,
+          "cumulative_all_patient_years": 2359.8395984104623
+        },
+        {
+          "month": 60,
+          "active": 1210.9767182915693,
+          "cumulative_entries": 2197.6259849983408,
+          "cumulative_all_patient_years": 3498.338284409786
+        }
+      ]
+    },
+    {
+      "first_year_retention": 0.61,
+      "entry_activity_vs_reference": 1.25,
+      "status": "Conditional active-treatment comparison; paid status deliberately unspecified",
+      "annual_state_entries": 549.4064962495855,
+      "annual_snapshots": [
+        {
+          "month": 12,
+          "active": 424.615384615385,
+          "cumulative_entries": 549.4064962495855,
+          "cumulative_all_patient_years": 252.46214897176924
+        },
+        {
+          "month": 24,
+          "active": 741.3078862871141,
+          "cumulative_entries": 1098.8129924991706,
+          "cumulative_all_patient_years": 861.0140570318878
+        },
+        {
+          "month": 36,
+          "active": 1026.3311377916705,
+          "cumulative_entries": 1648.2194887487556,
+          "cumulative_all_patient_years": 1770.1458357337083
+        },
+        {
+          "month": 48,
+          "active": 1282.8520641457706,
+          "cumulative_entries": 2197.6259849983408,
+          "cumulative_all_patient_years": 2949.7994980130766
+        },
+        {
+          "month": 60,
+          "active": 1513.7208978644608,
+          "cumulative_entries": 2747.0324812479257,
+          "cumulative_all_patient_years": 4372.922855512234
+        }
+      ]
+    },
+    {
+      "first_year_retention": 0.74,
+      "entry_activity_vs_reference": 0.5,
+      "status": "Conditional active-treatment comparison; paid status deliberately unspecified",
+      "annual_state_entries": 219.7625984998342,
+      "annual_snapshots": [
+        {
+          "month": 12,
+          "active": 187.3910984576123,
+          "cumulative_entries": 219.76259849983424,
+          "cumulative_all_patient_years": 107.50897549730992
+        },
+        {
+          "month": 24,
+          "active": 341.06483697373,
+          "cumulative_entries": 439.52519699966825,
+          "cumulative_all_patient_years": 382.2228587335428
+        },
+        {
+          "month": 36,
+          "active": 479.3712016382361,
+          "cumulative_entries": 659.2877954995023,
+          "cumulative_all_patient_years": 802.7918923139463
+        },
+        {
+          "month": 48,
+          "active": 603.8469298362911,
+          "cumulative_entries": 879.0503939993363,
+          "cumulative_all_patient_years": 1354.6305612041083
+        },
+        {
+          "month": 60,
+          "active": 715.8750852145406,
+          "cumulative_entries": 1098.8129924991704,
+          "cumulative_all_patient_years": 2024.6119018730496
+        }
+      ]
+    },
+    {
+      "first_year_retention": 0.74,
+      "entry_activity_vs_reference": 0.75,
+      "status": "Conditional active-treatment comparison; paid status deliberately unspecified",
+      "annual_state_entries": 329.6438977497513,
+      "annual_snapshots": [
+        {
+          "month": 12,
+          "active": 281.0866476864185,
+          "cumulative_entries": 329.6438977497513,
+          "cumulative_all_patient_years": 161.26346324596486
+        },
+        {
+          "month": 24,
+          "active": 511.5972554605952,
+          "cumulative_entries": 659.2877954995023,
+          "cumulative_all_patient_years": 573.3342881003156
+        },
+        {
+          "month": 36,
+          "active": 719.056802457354,
+          "cumulative_entries": 988.9316932492533,
+          "cumulative_all_patient_years": 1204.1878384709223
+        },
+        {
+          "month": 48,
+          "active": 905.770394754437,
+          "cumulative_entries": 1318.5755909990044,
+          "cumulative_all_patient_years": 2031.9458418061542
+        },
+        {
+          "month": 60,
+          "active": 1073.8126278218112,
+          "cumulative_entries": 1648.2194887487553,
+          "cumulative_all_patient_years": 3036.917852809565
+        }
+      ]
+    },
+    {
+      "first_year_retention": 0.74,
+      "entry_activity_vs_reference": 1.0,
+      "status": "Conditional active-treatment comparison; paid status deliberately unspecified",
+      "annual_state_entries": 439.5251969996684,
+      "annual_snapshots": [
+        {
+          "month": 12,
+          "active": 374.7821969152246,
+          "cumulative_entries": 439.5251969996685,
+          "cumulative_all_patient_years": 215.01795099461984
+        },
+        {
+          "month": 24,
+          "active": 682.12967394746,
+          "cumulative_entries": 879.0503939993365,
+          "cumulative_all_patient_years": 764.4457174670856
+        },
+        {
+          "month": 36,
+          "active": 958.7424032764721,
+          "cumulative_entries": 1318.5755909990046,
+          "cumulative_all_patient_years": 1605.5837846278926
+        },
+        {
+          "month": 48,
+          "active": 1207.6938596725822,
+          "cumulative_entries": 1758.1007879986726,
+          "cumulative_all_patient_years": 2709.2611224082166
+        },
+        {
+          "month": 60,
+          "active": 1431.7501704290812,
+          "cumulative_entries": 2197.6259849983408,
+          "cumulative_all_patient_years": 4049.2238037460993
+        }
+      ]
+    },
+    {
+      "first_year_retention": 0.74,
+      "entry_activity_vs_reference": 1.25,
+      "status": "Conditional active-treatment comparison; paid status deliberately unspecified",
+      "annual_state_entries": 549.4064962495855,
+      "annual_snapshots": [
+        {
+          "month": 12,
+          "active": 468.4777461440309,
+          "cumulative_entries": 549.4064962495855,
+          "cumulative_all_patient_years": 268.7724387432749
+        },
+        {
+          "month": 24,
+          "active": 852.6620924343252,
+          "cumulative_entries": 1098.8129924991706,
+          "cumulative_all_patient_years": 955.5571468338569
+        },
+        {
+          "month": 36,
+          "active": 1198.4280040955898,
+          "cumulative_entries": 1648.2194887487556,
+          "cumulative_all_patient_years": 2006.9797307848728
+        },
+        {
+          "month": 48,
+          "active": 1509.6173245907278,
+          "cumulative_entries": 2197.6259849983408,
+          "cumulative_all_patient_years": 3386.576403010279
+        },
+        {
+          "month": 60,
+          "active": 1789.687713036352,
+          "cumulative_entries": 2747.0324812479257,
+          "cumulative_all_patient_years": 5061.52975468263
+        }
+      ]
+    },
+    {
+      "first_year_retention": 0.87,
+      "entry_activity_vs_reference": 0.5,
+      "status": "Conditional active-treatment comparison; paid status deliberately unspecified",
+      "annual_state_entries": 219.7625984998342,
+      "annual_snapshots": [
+        {
+          "month": 12,
+          "active": 203.95850863122996,
+          "cumulative_entries": 219.76259849983424,
+          "cumulative_all_patient_years": 113.48452720263225
+        },
+        {
+          "month": 24,
+          "active": 384.62898499477365,
+          "cumulative_entries": 439.52519699966825,
+          "cumulative_all_patient_years": 418.50709013416014
+        },
+        {
+          "month": 36,
+          "active": 547.2324137219631,
+          "cumulative_entries": 659.2877954995023,
+          "cumulative_all_patient_years": 895.0080054973519
+        },
+        {
+          "month": 48,
+          "active": 693.5754995764335,
+          "cumulative_entries": 879.0503939993363,
+          "cumulative_all_patient_years": 1525.8394380490365
+        },
+        {
+          "month": 60,
+          "active": 825.2842768454569,
+          "cumulative_entries": 1098.8129924991704,
+          "cumulative_all_patient_years": 2295.5683360703697
+        }
+      ]
+    },
+    {
+      "first_year_retention": 0.87,
+      "entry_activity_vs_reference": 0.75,
+      "status": "Conditional active-treatment comparison; paid status deliberately unspecified",
+      "annual_state_entries": 329.6438977497513,
+      "annual_snapshots": [
+        {
+          "month": 12,
+          "active": 305.937762946845,
+          "cumulative_entries": 329.6438977497513,
+          "cumulative_all_patient_years": 170.22679080394846
+        },
+        {
+          "month": 24,
+          "active": 576.9434774921605,
+          "cumulative_entries": 659.2877954995023,
+          "cumulative_all_patient_years": 627.760635201241
+        },
+        {
+          "month": 36,
+          "active": 820.8486205829447,
+          "cumulative_entries": 988.9316932492533,
+          "cumulative_all_patient_years": 1342.5120082460278
+        },
+        {
+          "month": 48,
+          "active": 1040.3632493646503,
+          "cumulative_entries": 1318.5755909990044,
+          "cumulative_all_patient_years": 2288.7591570735613
+        },
+        {
+          "month": 60,
+          "active": 1237.9264152681856,
+          "cumulative_entries": 1648.2194887487553,
+          "cumulative_all_patient_years": 3443.352504105568
+        }
+      ]
+    },
+    {
+      "first_year_retention": 0.87,
+      "entry_activity_vs_reference": 1.0,
+      "status": "Conditional active-treatment comparison; paid status deliberately unspecified",
+      "annual_state_entries": 439.5251969996684,
+      "annual_snapshots": [
+        {
+          "month": 12,
+          "active": 407.9170172624599,
+          "cumulative_entries": 439.5251969996685,
+          "cumulative_all_patient_years": 226.9690544052645
+        },
+        {
+          "month": 24,
+          "active": 769.2579699895473,
+          "cumulative_entries": 879.0503939993365,
+          "cumulative_all_patient_years": 837.0141802683203
+        },
+        {
+          "month": 36,
+          "active": 1094.4648274439262,
+          "cumulative_entries": 1318.5755909990046,
+          "cumulative_all_patient_years": 1790.0160109947037
+        },
+        {
+          "month": 48,
+          "active": 1387.150999152867,
+          "cumulative_entries": 1758.1007879986726,
+          "cumulative_all_patient_years": 3051.678876098073
+        },
+        {
+          "month": 60,
+          "active": 1650.5685536909139,
+          "cumulative_entries": 2197.6259849983408,
+          "cumulative_all_patient_years": 4591.136672140739
+        }
+      ]
+    },
+    {
+      "first_year_retention": 0.87,
+      "entry_activity_vs_reference": 1.25,
+      "status": "Conditional active-treatment comparison; paid status deliberately unspecified",
+      "annual_state_entries": 549.4064962495855,
+      "annual_snapshots": [
+        {
+          "month": 12,
+          "active": 509.8962715780748,
+          "cumulative_entries": 549.4064962495855,
+          "cumulative_all_patient_years": 283.7113180065809
+        },
+        {
+          "month": 24,
+          "active": 961.5724624869341,
+          "cumulative_entries": 1098.8129924991706,
+          "cumulative_all_patient_years": 1046.2677253354043
+        },
+        {
+          "month": 36,
+          "active": 1368.0810343049077,
+          "cumulative_entries": 1648.2194887487556,
+          "cumulative_all_patient_years": 2237.520013743377
+        },
+        {
+          "month": 48,
+          "active": 1733.9387489410835,
+          "cumulative_entries": 2197.6259849983408,
+          "cumulative_all_patient_years": 3814.598595122604
+        },
+        {
+          "month": 60,
+          "active": 2063.210692113642,
+          "cumulative_entries": 2747.0324812479257,
+          "cumulative_all_patient_years": 5738.920840175923
+        }
+      ]
+    }
+  ],
+  "population_scenarios": [
+    {
+      "diagnosed": 9000,
+      "oral_prevention": 1600,
+      "other_prevention": 3200.0,
+      "acute_only_proxy": 3200.0,
+      "diagnosed_untreated": 1000
+    },
+    {
+      "diagnosed": 9000,
+      "oral_prevention": 1700,
+      "other_prevention": 3100.0,
+      "acute_only_proxy": 3200.0,
+      "diagnosed_untreated": 1000
+    },
+    {
+      "diagnosed": 9000,
+      "oral_prevention": 1800,
+      "other_prevention": 3000.0,
+      "acute_only_proxy": 3200.0,
+      "diagnosed_untreated": 1000
+    },
+    {
+      "diagnosed": 9000,
+      "oral_prevention": 1600,
+      "other_prevention": 3840.0,
+      "acute_only_proxy": 2559.9999999999995,
+      "diagnosed_untreated": 1000
+    },
+    {
+      "diagnosed": 9000,
+      "oral_prevention": 1700,
+      "other_prevention": 3740.0,
+      "acute_only_proxy": 2559.9999999999995,
+      "diagnosed_untreated": 1000
+    },
+    {
+      "diagnosed": 9000,
+      "oral_prevention": 1800,
+      "other_prevention": 3640.0,
+      "acute_only_proxy": 2559.9999999999995,
+      "diagnosed_untreated": 1000
+    },
+    {
+      "diagnosed": 9000,
+      "oral_prevention": 1600,
+      "other_prevention": 4000.0,
+      "acute_only_proxy": 2400.0000000000005,
+      "diagnosed_untreated": 1000
+    },
+    {
+      "diagnosed": 9000,
+      "oral_prevention": 1700,
+      "other_prevention": 3900.0,
+      "acute_only_proxy": 2400.0000000000005,
+      "diagnosed_untreated": 1000
+    },
+    {
+      "diagnosed": 9000,
+      "oral_prevention": 1800,
+      "other_prevention": 3800.0,
+      "acute_only_proxy": 2400.0000000000005,
+      "diagnosed_untreated": 1000
+    },
+    {
+      "diagnosed": 9000,
+      "oral_prevention": 1600,
+      "other_prevention": 3500.0,
+      "acute_only_proxy": 3400.0,
+      "diagnosed_untreated": 500
+    },
+    {
+      "diagnosed": 9000,
+      "oral_prevention": 1700,
+      "other_prevention": 3400.0,
+      "acute_only_proxy": 3400.0,
+      "diagnosed_untreated": 500
+    },
+    {
+      "diagnosed": 9000,
+      "oral_prevention": 1800,
+      "other_prevention": 3300.0,
+      "acute_only_proxy": 3400.0,
+      "diagnosed_untreated": 500
+    },
+    {
+      "diagnosed": 9000,
+      "oral_prevention": 1600,
+      "other_prevention": 4180.0,
+      "acute_only_proxy": 2719.9999999999995,
+      "diagnosed_untreated": 500
+    },
+    {
+      "diagnosed": 9000,
+      "oral_prevention": 1700,
+      "other_prevention": 4080.0,
+      "acute_only_proxy": 2719.9999999999995,
+      "diagnosed_untreated": 500
+    },
+    {
+      "diagnosed": 9000,
+      "oral_prevention": 1800,
+      "other_prevention": 3980.0,
+      "acute_only_proxy": 2719.9999999999995,
+      "diagnosed_untreated": 500
+    },
+    {
+      "diagnosed": 9000,
+      "oral_prevention": 1600,
+      "other_prevention": 4350.0,
+      "acute_only_proxy": 2550.0000000000005,
+      "diagnosed_untreated": 500
+    },
+    {
+      "diagnosed": 9000,
+      "oral_prevention": 1700,
+      "other_prevention": 4250.0,
+      "acute_only_proxy": 2550.0000000000005,
+      "diagnosed_untreated": 500
+    },
+    {
+      "diagnosed": 9000,
+      "oral_prevention": 1800,
+      "other_prevention": 4150.0,
+      "acute_only_proxy": 2550.0000000000005,
+      "diagnosed_untreated": 500
+    },
+    {
+      "diagnosed": 9000,
+      "oral_prevention": 1600,
+      "other_prevention": 3800.0,
+      "acute_only_proxy": 3600.0,
+      "diagnosed_untreated": 0
+    },
+    {
+      "diagnosed": 9000,
+      "oral_prevention": 1700,
+      "other_prevention": 3700.0,
+      "acute_only_proxy": 3600.0,
+      "diagnosed_untreated": 0
+    },
+    {
+      "diagnosed": 9000,
+      "oral_prevention": 1800,
+      "other_prevention": 3600.0,
+      "acute_only_proxy": 3600.0,
+      "diagnosed_untreated": 0
+    },
+    {
+      "diagnosed": 9000,
+      "oral_prevention": 1600,
+      "other_prevention": 4520.0,
+      "acute_only_proxy": 2879.9999999999995,
+      "diagnosed_untreated": 0
+    },
+    {
+      "diagnosed": 9000,
+      "oral_prevention": 1700,
+      "other_prevention": 4420.0,
+      "acute_only_proxy": 2879.9999999999995,
+      "diagnosed_untreated": 0
+    },
+    {
+      "diagnosed": 9000,
+      "oral_prevention": 1800,
+      "other_prevention": 4320.0,
+      "acute_only_proxy": 2879.9999999999995,
+      "diagnosed_untreated": 0
+    },
+    {
+      "diagnosed": 9000,
+      "oral_prevention": 1600,
+      "other_prevention": 4700.0,
+      "acute_only_proxy": 2700.0000000000005,
+      "diagnosed_untreated": 0
+    },
+    {
+      "diagnosed": 9000,
+      "oral_prevention": 1700,
+      "other_prevention": 4600.0,
+      "acute_only_proxy": 2700.0000000000005,
+      "diagnosed_untreated": 0
+    },
+    {
+      "diagnosed": 9000,
+      "oral_prevention": 1800,
+      "other_prevention": 4500.0,
+      "acute_only_proxy": 2700.0000000000005,
+      "diagnosed_untreated": 0
+    },
+    {
+      "diagnosed": 10000,
+      "oral_prevention": 1600,
+      "other_prevention": 3200.0,
+      "acute_only_proxy": 3200.0,
+      "diagnosed_untreated": 2000
+    },
+    {
+      "diagnosed": 10000,
+      "oral_prevention": 1700,
+      "other_prevention": 3100.0,
+      "acute_only_proxy": 3200.0,
+      "diagnosed_untreated": 2000
+    },
+    {
+      "diagnosed": 10000,
+      "oral_prevention": 1800,
+      "other_prevention": 3000.0,
+      "acute_only_proxy": 3200.0,
+      "diagnosed_untreated": 2000
+    },
+    {
+      "diagnosed": 10000,
+      "oral_prevention": 1600,
+      "other_prevention": 3840.0,
+      "acute_only_proxy": 2559.9999999999995,
+      "diagnosed_untreated": 2000
+    },
+    {
+      "diagnosed": 10000,
+      "oral_prevention": 1700,
+      "other_prevention": 3740.0,
+      "acute_only_proxy": 2559.9999999999995,
+      "diagnosed_untreated": 2000
+    },
+    {
+      "diagnosed": 10000,
+      "oral_prevention": 1800,
+      "other_prevention": 3640.0,
+      "acute_only_proxy": 2559.9999999999995,
+      "diagnosed_untreated": 2000
+    },
+    {
+      "diagnosed": 10000,
+      "oral_prevention": 1600,
+      "other_prevention": 4000.0,
+      "acute_only_proxy": 2400.0000000000005,
+      "diagnosed_untreated": 2000
+    },
+    {
+      "diagnosed": 10000,
+      "oral_prevention": 1700,
+      "other_prevention": 3900.0,
+      "acute_only_proxy": 2400.0000000000005,
+      "diagnosed_untreated": 2000
+    },
+    {
+      "diagnosed": 10000,
+      "oral_prevention": 1800,
+      "other_prevention": 3800.0,
+      "acute_only_proxy": 2400.0000000000005,
+      "diagnosed_untreated": 2000
+    },
+    {
+      "diagnosed": 10000,
+      "oral_prevention": 1600,
+      "other_prevention": 3500.0,
+      "acute_only_proxy": 3400.0,
+      "diagnosed_untreated": 1500
+    },
+    {
+      "diagnosed": 10000,
+      "oral_prevention": 1700,
+      "other_prevention": 3400.0,
+      "acute_only_proxy": 3400.0,
+      "diagnosed_untreated": 1500
+    },
+    {
+      "diagnosed": 10000,
+      "oral_prevention": 1800,
+      "other_prevention": 3300.0,
+      "acute_only_proxy": 3400.0,
+      "diagnosed_untreated": 1500
+    },
+    {
+      "diagnosed": 10000,
+      "oral_prevention": 1600,
+      "other_prevention": 4180.0,
+      "acute_only_proxy": 2719.9999999999995,
+      "diagnosed_untreated": 1500
+    },
+    {
+      "diagnosed": 10000,
+      "oral_prevention": 1700,
+      "other_prevention": 4080.0,
+      "acute_only_proxy": 2719.9999999999995,
+      "diagnosed_untreated": 1500
+    },
+    {
+      "diagnosed": 10000,
+      "oral_prevention": 1800,
+      "other_prevention": 3980.0,
+      "acute_only_proxy": 2719.9999999999995,
+      "diagnosed_untreated": 1500
+    },
+    {
+      "diagnosed": 10000,
+      "oral_prevention": 1600,
+      "other_prevention": 4350.0,
+      "acute_only_proxy": 2550.0000000000005,
+      "diagnosed_untreated": 1500
+    },
+    {
+      "diagnosed": 10000,
+      "oral_prevention": 1700,
+      "other_prevention": 4250.0,
+      "acute_only_proxy": 2550.0000000000005,
+      "diagnosed_untreated": 1500
+    },
+    {
+      "diagnosed": 10000,
+      "oral_prevention": 1800,
+      "other_prevention": 4150.0,
+      "acute_only_proxy": 2550.0000000000005,
+      "diagnosed_untreated": 1500
+    },
+    {
+      "diagnosed": 10000,
+      "oral_prevention": 1600,
+      "other_prevention": 3800.0,
+      "acute_only_proxy": 3600.0,
+      "diagnosed_untreated": 1000
+    },
+    {
+      "diagnosed": 10000,
+      "oral_prevention": 1700,
+      "other_prevention": 3700.0,
+      "acute_only_proxy": 3600.0,
+      "diagnosed_untreated": 1000
+    },
+    {
+      "diagnosed": 10000,
+      "oral_prevention": 1800,
+      "other_prevention": 3600.0,
+      "acute_only_proxy": 3600.0,
+      "diagnosed_untreated": 1000
+    },
+    {
+      "diagnosed": 10000,
+      "oral_prevention": 1600,
+      "other_prevention": 4520.0,
+      "acute_only_proxy": 2879.9999999999995,
+      "diagnosed_untreated": 1000
+    },
+    {
+      "diagnosed": 10000,
+      "oral_prevention": 1700,
+      "other_prevention": 4420.0,
+      "acute_only_proxy": 2879.9999999999995,
+      "diagnosed_untreated": 1000
+    },
+    {
+      "diagnosed": 10000,
+      "oral_prevention": 1800,
+      "other_prevention": 4320.0,
+      "acute_only_proxy": 2879.9999999999995,
+      "diagnosed_untreated": 1000
+    },
+    {
+      "diagnosed": 10000,
+      "oral_prevention": 1600,
+      "other_prevention": 4700.0,
+      "acute_only_proxy": 2700.0000000000005,
+      "diagnosed_untreated": 1000
+    },
+    {
+      "diagnosed": 10000,
+      "oral_prevention": 1700,
+      "other_prevention": 4600.0,
+      "acute_only_proxy": 2700.0000000000005,
+      "diagnosed_untreated": 1000
+    },
+    {
+      "diagnosed": 10000,
+      "oral_prevention": 1800,
+      "other_prevention": 4500.0,
+      "acute_only_proxy": 2700.0000000000005,
+      "diagnosed_untreated": 1000
+    },
+    {
+      "diagnosed": 11135,
+      "oral_prevention": 1600,
+      "other_prevention": 3200.0,
+      "acute_only_proxy": 3200.0,
+      "diagnosed_untreated": 3135
+    },
+    {
+      "diagnosed": 11135,
+      "oral_prevention": 1700,
+      "other_prevention": 3100.0,
+      "acute_only_proxy": 3200.0,
+      "diagnosed_untreated": 3135
+    },
+    {
+      "diagnosed": 11135,
+      "oral_prevention": 1800,
+      "other_prevention": 3000.0,
+      "acute_only_proxy": 3200.0,
+      "diagnosed_untreated": 3135
+    },
+    {
+      "diagnosed": 11135,
+      "oral_prevention": 1600,
+      "other_prevention": 3840.0,
+      "acute_only_proxy": 2559.9999999999995,
+      "diagnosed_untreated": 3135
+    },
+    {
+      "diagnosed": 11135,
+      "oral_prevention": 1700,
+      "other_prevention": 3740.0,
+      "acute_only_proxy": 2559.9999999999995,
+      "diagnosed_untreated": 3135
+    },
+    {
+      "diagnosed": 11135,
+      "oral_prevention": 1800,
+      "other_prevention": 3640.0,
+      "acute_only_proxy": 2559.9999999999995,
+      "diagnosed_untreated": 3135
+    },
+    {
+      "diagnosed": 11135,
+      "oral_prevention": 1600,
+      "other_prevention": 4000.0,
+      "acute_only_proxy": 2400.0000000000005,
+      "diagnosed_untreated": 3135
+    },
+    {
+      "diagnosed": 11135,
+      "oral_prevention": 1700,
+      "other_prevention": 3900.0,
+      "acute_only_proxy": 2400.0000000000005,
+      "diagnosed_untreated": 3135
+    },
+    {
+      "diagnosed": 11135,
+      "oral_prevention": 1800,
+      "other_prevention": 3800.0,
+      "acute_only_proxy": 2400.0000000000005,
+      "diagnosed_untreated": 3135
+    },
+    {
+      "diagnosed": 11135,
+      "oral_prevention": 1600,
+      "other_prevention": 3500.0,
+      "acute_only_proxy": 3400.0,
+      "diagnosed_untreated": 2635
+    },
+    {
+      "diagnosed": 11135,
+      "oral_prevention": 1700,
+      "other_prevention": 3400.0,
+      "acute_only_proxy": 3400.0,
+      "diagnosed_untreated": 2635
+    },
+    {
+      "diagnosed": 11135,
+      "oral_prevention": 1800,
+      "other_prevention": 3300.0,
+      "acute_only_proxy": 3400.0,
+      "diagnosed_untreated": 2635
+    },
+    {
+      "diagnosed": 11135,
+      "oral_prevention": 1600,
+      "other_prevention": 4180.0,
+      "acute_only_proxy": 2719.9999999999995,
+      "diagnosed_untreated": 2635
+    },
+    {
+      "diagnosed": 11135,
+      "oral_prevention": 1700,
+      "other_prevention": 4080.0,
+      "acute_only_proxy": 2719.9999999999995,
+      "diagnosed_untreated": 2635
+    },
+    {
+      "diagnosed": 11135,
+      "oral_prevention": 1800,
+      "other_prevention": 3980.0,
+      "acute_only_proxy": 2719.9999999999995,
+      "diagnosed_untreated": 2635
+    },
+    {
+      "diagnosed": 11135,
+      "oral_prevention": 1600,
+      "other_prevention": 4350.0,
+      "acute_only_proxy": 2550.0000000000005,
+      "diagnosed_untreated": 2635
+    },
+    {
+      "diagnosed": 11135,
+      "oral_prevention": 1700,
+      "other_prevention": 4250.0,
+      "acute_only_proxy": 2550.0000000000005,
+      "diagnosed_untreated": 2635
+    },
+    {
+      "diagnosed": 11135,
+      "oral_prevention": 1800,
+      "other_prevention": 4150.0,
+      "acute_only_proxy": 2550.0000000000005,
+      "diagnosed_untreated": 2635
+    },
+    {
+      "diagnosed": 11135,
+      "oral_prevention": 1600,
+      "other_prevention": 3800.0,
+      "acute_only_proxy": 3600.0,
+      "diagnosed_untreated": 2135
+    },
+    {
+      "diagnosed": 11135,
+      "oral_prevention": 1700,
+      "other_prevention": 3700.0,
+      "acute_only_proxy": 3600.0,
+      "diagnosed_untreated": 2135
+    },
+    {
+      "diagnosed": 11135,
+      "oral_prevention": 1800,
+      "other_prevention": 3600.0,
+      "acute_only_proxy": 3600.0,
+      "diagnosed_untreated": 2135
+    },
+    {
+      "diagnosed": 11135,
+      "oral_prevention": 1600,
+      "other_prevention": 4520.0,
+      "acute_only_proxy": 2879.9999999999995,
+      "diagnosed_untreated": 2135
+    },
+    {
+      "diagnosed": 11135,
+      "oral_prevention": 1700,
+      "other_prevention": 4420.0,
+      "acute_only_proxy": 2879.9999999999995,
+      "diagnosed_untreated": 2135
+    },
+    {
+      "diagnosed": 11135,
+      "oral_prevention": 1800,
+      "other_prevention": 4320.0,
+      "acute_only_proxy": 2879.9999999999995,
+      "diagnosed_untreated": 2135
+    },
+    {
+      "diagnosed": 11135,
+      "oral_prevention": 1600,
+      "other_prevention": 4700.0,
+      "acute_only_proxy": 2700.0000000000005,
+      "diagnosed_untreated": 2135
+    },
+    {
+      "diagnosed": 11135,
+      "oral_prevention": 1700,
+      "other_prevention": 4600.0,
+      "acute_only_proxy": 2700.0000000000005,
+      "diagnosed_untreated": 2135
+    },
+    {
+      "diagnosed": 11135,
+      "oral_prevention": 1800,
+      "other_prevention": 4500.0,
+      "acute_only_proxy": 2700.0000000000005,
+      "diagnosed_untreated": 2135
+    }
+  ],
+  "limitations": [
+    "Paid/PAP entry is not a new prescription: may include QuickStart transition or reactivation. QuickStart is excluded from the calibrated state.",
+    "Annual321net additions includingQuickStart cannot identify QuickStart conversion or abandonment without opening and ending QuickStart stocks.",
+    "Model assumes uniform monthly entries, exponential first-year survival, equal paid/free hazards, one-way free-to-paid transfer, and no reactivation. These simplify underidentified histories.",
+    "All opening patients use assumed prevalent retention; they are not known to be mature users.",
+    "PHVS scenarios are constant-activity five-year comparisons without origin depletion, launch ramp, changing competition or paid pricing. Cannot infer peak or fair value.",
+    "Population scenarios are provisional whole-market accounting, not clinically eligible PHVS TAM; no individual-injectable allocation is justified.",
+    "Acute-only proxy means treated minus LTP under a partition assumption; annual claims can overlap and do not directly identify point-in-time states.",
+    "No probability distribution or confidence interval is assigned to scenario ranges."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "as_of": "2026-10-08",
+  "scope": "Bounded issuer, pharmacy and claims discovery followed by conditional cohort calibration. No bulk collection, paid data, outreach or agents.",
+  "sources": {
+    "GAP1": {
+      "url": "https://ir.biocryst.com/news-releases/news-release-details/biocryst-reports-second-quarter-2024-financial-results-and",
+      "date": "2024-08-05",
+      "location": "ORLADEYO program updates",
+      "finding": "74.4%paid share; more than60%of paid users remain at least one year. Absolute current denominator not disclosed.",
+      "model_use": "Qualitative consistency of61%first-year benchmark; payment mix is independently important. Not a paid-start conversion cohort."
+    },
+    "GAP2": {
+      "url": "https://www.ispor.org/heor-resources/presentations-database/presentation-cti/ispor-2026/poster-session-2-4/recent-trends-in-on-demand-treatment-prescriptions-for-hereditary-angioedema-a-us-claims-database-analysis",
+      "date": "2026-05",
+      "location": "Methods and Results",
+      "finding": "2021\u20132024claims;3647patients ever on HAE treatment; annual any-LTP claim share64%to68%.",
+      "model_use": "68%central proxy for LTP among treated in a provisional partition,60\u201370%assumed sensitivity. Not current population or exclusive point-in-time shares.",
+      "limitations": "Selected insured sample; standardized dispensing quantity changes do not equal patient share changes.6,715prevalence estimate is census/prevalence-derived, not a newly observed patient census."
+    },
+    "GAP3": {
+      "url": "https://ir.kalvista.com/node/12706/html",
+      "date": "2026-03-25",
+      "location": "EKTERLY Commercial Progress",
+      "finding": "1702USstart forms throughFeb28; majorityQ4revenuefromrefills; no aligned paid patient count.",
+      "model_use": "No valid paid-conversion estimate; do not infer it from revenue/forms."
+    },
+    "GAP4": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1348911/000119312525155885/d98157dex992.htm",
+      "date": "2025",
+      "location": "Access and product support / launch metrics",
+      "finding": "QuickStart, assistance and bridge services; paid prescriptions identified as a launch metric but no paired numerical referral-to-paid cohort in retrieved material.",
+      "model_use": "Distinguish referral, free shipment, paid shipment and repeat paid supply."
+    }
+  },
+  "discovery_log": [
+    "Checked prior BioCryst archive, pharmacy-source audit and population calibration first.",
+    "Searched issuer2026paid/patient disclosures, KalVista paid conversion, HAE claims treatment share and Takeda patient-count disclosures.",
+    "Selected BioCrystQ22024,ISPOR2026abstract,KalVistaMarch2026filing and launch presentation.",
+    "ISPORposter text encoding unreadable; abstract supports retained share. No new poster-specific numbers asserted.",
+    "Issuer HTML direct fetch timed out; browser source excerpts used.",
+    "Stopped after follow-up found repeated stock/forms indicators, not matched paid cohorts."
+  ],
+  "gap_outcomes": {
+    "current_treatment_partition": "Partially addressed with provisional mutually exclusive scenarios; actual current unique injectable counts remain unknown.",
+    "paid_starts": "Not empirically closed. Reconciled histories conditional on retention/payment assumptions; explicitly underidentified."
+  },
+  "model_artifacts": [
+    "models/patient_adoption/reconcile_adoption.py",
+    "models/patient_adoption/reconciliation_inputs.json",
+    "models/patient_adoption/reconciliation_results.json",
+    "models/patient_adoption/uncertainty_register.json"
+  ],
+  "interpretation": "Improved retention can compensate for lower acquisition. However retention uplift, historical entry inference and payment paths are assumptions, not proof of PHVS adoption or revenue."
+}

@@ -46,6 +46,9 @@
     "evidence": "research/PHVS_population_launch_calibration_2026-10-08.json",
     "calculation": "market_calibration.py",
     "use": "Historical aggregate stock-growth and origin-mix checks; no automatic replacement of PHVS switching probabilities.",
-    "national_origin_stocks": null
+    "national_origin_stocks": null,
+    "monthly_reconciliation": "reconcile_adoption.py",
+    "population_scenarios": "reconciliation_inputs.json (provisional, not selected current counts)",
+    "uncertainty": "uncertainty_register.json"
   }
 }

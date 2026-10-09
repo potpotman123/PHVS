@@ -1,0 +1,78 @@
+PHVS adoption calibration — population gaps, payment gaps and monthly reconciliation
+8 October 2026. All model ranges below are assumptions, not confidence intervals.
+
+WHAT CHANGED
+Implemented monthly entrants, cohort-specific attrition, free-to-paid transfers,
+paid/free exits and integrated treatment-years. Separate population scenarios
+preserve accounting without claiming exact contemporary drug-level counts.
+Source record: research/PHVS_population_paid_gap_followup_2026-10-08.json.
+Run: python3 models/patient_adoption/reconcile_adoption.py.
+
+GAP1: CURRENT TREATMENT POPULATIONS
+Retain empirical dated anchors, but use provisional whole-market scenario inputs:
+ diagnosed:9,000 /10,000 /11,135; treated:8,000 /8,500 /9,000;
+ LTP among treated:60% /68% /70%; Orladeyo:1,600 /1,700 /1,800.
+Only selected anchors are observed issuer estimates; the grid is analyst-chosen.
+The68%comes from annual2024claims, not a current exclusive patient census.
+An illustrative middle combination gives1,700oral prevention +4,080other prevention
++2,720acute-only proxy +1,500diagnosed untreated =10,000diagnosed.
+Across coherent grid combinations, other prevention spans3,000–4,700; acute-only
+2,400–3,600. These are planning sensitivities, not independently measured ranges.
+Do not split other prevention by injectable brand without evidence. Clinical
+eligibility, age, subtype and prior oral exposure remain overlays to be estimated.
+Undiagnosed patients are excluded from this diagnosed stock; future diagnosis is a flow.
+
+GAP2: PAID STARTS
+No matched national referral-to-paid cohort recovered. New source checking confirms
+BioCrystQ22024paid share74.4%and >60%one-year retention among paid users; no aligned
+absolute patient denominator. Ekterly forms/refill disclosures remain insufficient.
+Therefore implement payment states explicitly; do not call paid-stock share conversion.
+Under54conditional payment/retention combinations,28can match the target with
+nonnegative one-way free-to-paid conversion. They imply widely differing flows.
+Other combinations require changed assumptions or reverse paid-to-free transfers.
+Neither the feasible fraction nor the modeled transfer rates have probabilistic meaning.
+
+HISTORICAL RECONCILIATION
+Opening paid+PAP stock~849 (=1104/1.30); ending1104; net increase~255.
+First-year retention61%or70%is a cross-cohort proxy. Prevalent retention80/90/95%
+is assumed because the ages of the opening cohort are unknown. Monthly entries
+are uniform and survival exponential. QuickStart is excluded from this state.
+Fitted annual state entries359–549; exits104–295. Reference61%/90%:
+ 849opening +440entries -185exits =1104ending (rounded).
+Entries can include QuickStart-to-PAP/paid transitions and reactivation, not just
+new prescriptions. The public321net all-status additions does not identify those
+flows. This corrects the earlier shorthand that treated the inverse as gross starts.
+Paid/free histories also reconcile to~789paid at year-end; they are not measured
+conversion rates. Approximate direct-paid entries179–385 across feasible cases do
+not bound all real-world possibilities and are not uniquely identified people.
+
+PHVS COMPARISON: RETENTION VERSUS ACQUISITION
+Illustrative five-year constant-activity cohorts, starting from zero, mature
+retention90%. Activity reference is the conditional440annual state entries above.
+This is NOT a reconstructed five-yearOrladeyo launch or an estimatedPHVS forecast.
+                                 Year5active   Five-year treatment-years
+61%first-year,100%entry activity      1,211             3,498
+74%first-year, 75%entry activity      1,074             3,037
+87%first-year, 75%entry activity      1,238             3,443
+The74%and87%retentions are existing analyst scenarios;87%assumes removal of all
+clinical-cause exits under a cross-cohort proxy, so it is an optimistic stress case.
+A25%acquisition slowdown is partly offset at74%retention, and almost offset in
+cumulative exposure at87%. Paid mix and net price can change the revenue comparison.
+No fair-value conclusion follows; no population depletion, changing competition,
+launch-year ramp or geographic revenue conversion has been estimated here.
+
+UNCERTAINTY / MONTE CARLO PREPARATION
+uncertainty_register.json identifies empirical proxies, assumptions and dependencies.
+Historical entries must be re-solved when retention changes. Population segments
+must sum to the same total. Clinical-benefit assumptions should not independently
+inflate both retention and acquisition without acknowledging their dependence.
+No Monte Carlo distribution has been selected or run. Future output percentiles
+will be model-implied uncertainty intervals, not empirical confidence intervals.
+
+CHECKS AND STOPPING RULE
+Verified monthly total/paid/free identities, historical fit residuals, population
+accounting, zero-entry behavior and no-attrition treatment-year integration.
+These validate implementation and calibration, not the commercial hypothesis.
+Stopped source expansion after selected issuer/pharmacy/claims follow-ups yielded
+repeated proxies rather than aligned cohorts. Preserved gaps instead of fabricating
+precise current populations or conversion observations. ExistingDCF unchanged.

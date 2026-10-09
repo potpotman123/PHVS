@@ -8,7 +8,8 @@
     "Fxx": "research/PHVS_adoption_flow_evidence_2026-10-08.json observations",
     "PHSx": "research/PHVS_public_pharmacy_sources_2026-10-08.json sources",
     "H1-H4": "research/PHVS_three_adoption_hypotheses_2026-10-08.json sources",
-    "L1-L6": "research/PHVS_population_launch_calibration_2026-10-08.json"
+    "L1-L6": "research/PHVS_population_launch_calibration_2026-10-08.json",
+    "GAP1-GAP4": "research/PHVS_population_paid_gap_followup_2026-10-08.json"
   },
   "parameters": [
     {
@@ -50,7 +51,8 @@
       "source_refs": [
         "A01",
         "L2",
-        "L4"
+        "L4",
+        "GAP2"
       ],
       "population": "All eligible patients by exclusive prevention state",
       "geography": "US unless source explicitly says global",
@@ -67,7 +69,8 @@
       "double_counting_risk": "Do not use claims study index-drug mix as market share.",
       "numerical_use": "not_ready",
       "definition": "Current treatment partition for All eligible patients by exclusive prevention state over Launch date",
-      "additional_calibration": "Launch-toJune2024 origin mix52/32/17 is a gross-trier history benchmark, not current market shares."
+      "additional_calibration": "Launch-toJune2024 origin mix52/32/17 is a gross-trier history benchmark, not current market shares.",
+      "scenario_specification": "reconciliation_inputs.json; grouped other prevention only, no measured injectable split"
     },
     {
       "id": "N3",
@@ -295,7 +298,8 @@
       ],
       "differentiation_evidence_refs": [
         "H1"
-      ]
+      ],
+      "reconciliation_note": "Monthly paid/free model demonstrates nonidentifiability; fitted conversion is not observed transition evidence. See reconciliation_results.json."
     },
     {
       "id": "X2",
@@ -329,7 +333,8 @@
       "public_data_discovery_refs": [
         "PHS2",
         "PHS3"
-      ]
+      ],
+      "reconciliation_note": "Monthly paid/free model demonstrates nonidentifiability; fitted conversion is not observed transition evidence. See reconciliation_results.json."
     },
     {
       "id": "X3",
@@ -359,7 +364,8 @@
       "definition": "Free-to-paid conversion for PHVS free/bridge starters over Months since start",
       "public_data_discovery_refs": [
         "PHS1"
-      ]
+      ],
+      "reconciliation_note": "Monthly paid/free model demonstrates nonidentifiability; fitted conversion is not observed transition evidence. See reconciliation_results.json."
     },
     {
       "id": "X4",

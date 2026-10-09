@@ -1,0 +1,62 @@
+{
+  "status": "Monte Carlo preparation only; no distributions, probabilities or confidence levels assigned",
+  "user_direction": "Use ranges for unclear inputs and tune through Monte Carlo; distinguish assumption ranges from statistical confidence intervals.",
+  "parameters": [
+    {
+      "name": "Whole-market populations",
+      "type": "Epistemic scenario anchors",
+      "input_file": "reconciliation_inputs.json",
+      "rule": "Choose coherent diagnosed/treated totals; derive prevention and untreated residuals; enforce treated<=diagnosed and oral<=totalLTP. No separate independent sampling of resulting segment counts."
+    },
+    {
+      "name": "Historical first-year/prevalent retention",
+      "type": "Proxy and assumed sensitivity",
+      "values": [
+        [
+          0.61,
+          0.7
+        ],
+        [
+          0.8,
+          0.9,
+          0.95
+        ]
+      ],
+      "rule": "For each sampled retention pair, re-solve entries against historical stock. Do not independently draw fitted historical entries."
+    },
+    {
+      "name": "PHVS first-year retention",
+      "type": "Mechanism-based assumption",
+      "formula": "0.61+(1-0.61)*(20/30)*fraction_clinical_exits_avoided",
+      "fraction_clinical_exits_avoided_range": [
+        0,
+        1
+      ],
+      "rule": "Draw the improvement fraction once; derive retention. Clinical cause share is a French cross-cohort proxy. Shared efficacy/tolerability beliefs may also affect acquisition; correlation unknown, scenario-test rather than invent."
+    },
+    {
+      "name": "Relative acquisition",
+      "type": "Analyst stress grid, not empirical confidence bounds",
+      "values": [
+        0.5,
+        0.75,
+        1,
+        1.25
+      ],
+      "rule": "Applied to conditional historical state entries; not total market capture or newRx. Separate from future origin-specific capture model."
+    },
+    {
+      "name": "Payment transitions",
+      "type": "Underidentified inverse problem",
+      "rule": "Choose opening/entry paid assumptions; fit one-way conversion only if feasible. Infeasibility rejects that simplified specification, not the observed data. Do not treat equal scenario weights as probability."
+    }
+  ],
+  "dependency_checks": [
+    "Population accounting",
+    "State-entry/retention coupling in calibration",
+    "Paid/free stock identities",
+    "Shared clinical benefit assumptions",
+    "Geography/date/age/subtype alignment before revenue"
+  ],
+  "reported_intervals": "Label future Monte Carlo percentiles model-implied uncertainty intervals conditional on inputs. Reserve statistical confidence intervals for supported sampling models."
+}
