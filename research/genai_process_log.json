@@ -624,6 +624,16 @@
       "thesis_effect": "MoreconservativeXRretentionlowersrevenue;largefastfollowerscanstillwin,sosecondoralnotautomaticfailure. Noidentifieduniversalpremium.",
       "limitations": "NoempiricalPHVSswitchorretentioneffect,newglobalmultipliersnotfitted,IRgeo/partnerrevenueuncertain. Arithmeticchecked,notindependentdemandvalidation.",
       "remaining_work": "PrioritizeIRacquisition/retention,netpriceandpaidconversion;calendaralignandaccountforpartnertermsbeforeDCF. Noagentsused."
+    },
+    {
+      "id": "G40",
+      "logged_on": "2026-10-09",
+      "objective": "Separate efficacy-related retention benefit from adverse-event discontinuations.",
+      "user_contribution": "Clarified efficacy benefit remains plausible and requested efficacy-only upside; prior response overcorrected by treating objections as applying equally to both causes.",
+      "ai_method_and_sources": "Reused Berolife13efficacy and7AE stops outof30; recalculated0.61+0.39*(13/30)*0.50 and reran existing cohort/global models. No new clinical evidence.",
+      "snapshot": "Working61%unchanged; upside69.45% replaces74%. No AE benefit.",
+      "limitations": "50%avoided efficacy exits remains analystjudgment; cross-country cause-mix transfer; no claim equal comparative safety or proven superiority.",
+      "remaining_work": "Empirical PHVS persistence and comparative netpricing remain unobserved."
     }
   ]
 }

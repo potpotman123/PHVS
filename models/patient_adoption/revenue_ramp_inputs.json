@@ -67,7 +67,7 @@
       "conversion": 0.9,
       "delay_months": 1,
       "population_growth": 0.015,
-      "XR_first_retention": 0.74,
+      "XR_first_retention": 0.6945,
       "XR_net_annual_price": 500000,
       "IR_annual_prescription_rate": 0.15,
       "IR_annual_retention": 0.9,
@@ -90,5 +90,5 @@
     "Historical90%Daybuepaidconversion is an outsideHAEproxy; observedover-timeconversion definition incompletely specified and competitive landscape differs.",
     "No current fair value inferred; USonly,exUScosts/tax/royalties/PoS/discounting excluded."
   ],
-  "retention_revision": "2026-10-09: working uses historical61%without automatic PHVS improvement;74%is upside only;87%all-clinical-exits-avoided removed from main cases. Prior outputs preserved in Git history and reverse_comparison_2026-10-09.json."
+  "retention_revision": "2026-10-09 user clarification: working61%; upside69.45% assumes avoiding half of efficacy-related exits only. No AE-related improvement.74%combined-cause scenario superseded."
 }

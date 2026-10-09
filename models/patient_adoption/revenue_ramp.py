@@ -86,7 +86,7 @@ def main():
     cfg=json.loads((BASE/'revenue_ramp_inputs.json').read_text())
     results={k:simulate(cfg,k) for k in cfg['cases']}
     sensitivities={}
-    for key,values in {'conversion':[.65,.9],'dual_use_share':[0.,1.], 'IR_doses_LTP':[6.,11.8], 'IR_doses_nonLTP':[10.,18.], 'IR_annual_retention':[.8,.95], 'XR_first_retention':[.61,.6945,.74], 'XR_rate_orladeyo':[.05,.15], 'XR_rate_other_prevention':[.02,.06], 'IR_annual_prescription_rate':[.05,.15], 'XR_net_annual_price':[300000,500000], 'IR_net_dose_price':[12500,16000]}.items():
+    for key,values in {'conversion':[.65,.9],'dual_use_share':[0.,1.], 'IR_doses_LTP':[6.,11.8], 'IR_doses_nonLTP':[10.,18.], 'IR_annual_retention':[.8,.95], 'XR_first_retention':[.61,.6945], 'XR_rate_orladeyo':[.05,.15], 'XR_rate_other_prevention':[.02,.06], 'IR_annual_prescription_rate':[.05,.15], 'XR_net_annual_price':[300000,500000], 'IR_net_dose_price':[12500,16000]}.items():
         for v in values:sensitivities[f'{key}={v}']=simulate(cfg,'working',{key:v})
     # Independent edge cases and directional checks, not empirical validation.
     zero=simulate(cfg,'working',{'conversion':0.});assert all(x['combined_revenue']==0 for x in zero)

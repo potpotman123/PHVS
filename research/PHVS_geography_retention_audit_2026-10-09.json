@@ -85,11 +85,12 @@
     },
     "source": "https://onlinelibrary.wiley.com/doi/10.1002/clt2.70193",
     "new_working": 0.61,
-    "upside_only": 0.74,
+    "upside_only": 0.6945,
     "efficacy_only_50pct_sensitivity": 0.6945,
-    "justification": "No numerical benefit underwritten absent credible real-world PHVS persistence comparison. Do not substitute another arbitrary25%benefit as empirical.74retained only for comparability/upside;87removed from main optimisticcase.",
+    "justification": "User clarified efficacy-related retention improvement remains plausible; use half of efficacy-only exits avoided as upside, no AE improvement. Working61%unchanged. 50% is judgment, not measured effect.",
     "safety_caution": "PresenceofAEsdoesnotproveequal tolerability. Need treatment-related symptom type,severity,discontinuation,exposure. CHAPTER3 active1/55AEdiscontinuation over24weeks doesnot measure annual commercialretention.",
-    "clinical_source": "https://pharvaris.gcs-web.com/news-releases/news-release-details/pharvaris-announces-positive-topline-data-chapter-3-pivotal"
+    "clinical_source": "https://pharvaris.gcs-web.com/news-releases/news-release-details/pharvaris-announces-positive-topline-data-chapter-3-pivotal",
+    "superseded_upside": 0.74
   },
   "switching_audit": {
     "Orladeyo_annual_Rx_range": [

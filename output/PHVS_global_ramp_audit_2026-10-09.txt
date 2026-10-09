@@ -2,7 +2,7 @@ PHVS GLOBAL RAMP AND ASSUMPTION AUDIT — 9 October2026
 Supersedes prior74%workingXRretention; historicalcomparisonfilesareunchanged snapshots.
 All revenue conditional on approval; USDm; noDCFvaluation.
 
-50%wasavoidedclinicaldiscontinuations, notswitching. Workingfirstyearretentionnow61%;74%upsideonly. AnnualRxrangesremain5/10/15%Orladeyo,2/4/6%otherprevention. Noautomaticpricepremium.
+50%wasavoidedclinicaldiscontinuations, notswitching. Workingfirstyearretention61%;69.45%efficacy-only upside. No AE benefit.74%combined-cause upside superseded. AnnualRxrangesremain5/10/15%Orladeyo,2/4/6%otherprevention. Noautomaticpricepremium.
 
 MATURE GEOGRAPHY: IR1.20x (1.10–1.35);XR1.25x (1.15–1.60). WorkingexUS1yearlag and4yearrollout; separately appliedfromeachproductlaunch.
 Orladeyo2024reportedworld/US1.134;TakhzyroFY2025 1.591. UserwarnedTakeda infrastructureisnotPHVS:80/20weight yields1.225,rounded1.25XR. Weightsnotempirical. IRproxyweaker.
@@ -35,7 +35,6 @@ IR_annual_retention=0.95: +136.7
 IR_annual_prescription_rate=0.15: +133.2
 XR_net_annual_price=500000: +129.6
 IR_doses_LTP=11.8: +124.7
-XR_first_retention=0.74: +119.4
 XR_rate_other_prevention=0.02: -112.5
 conversion=0.9: +103.1
 XR_rate_other_prevention=0.06: +97.3
@@ -56,3 +55,5 @@ Austedoqualitativesanitycheckonly:2024>1.6bnsalescombinesHDandTD,notmatchedHDeff
 NoautomaticAEbenefit;bothdrugshavingAEsdoesnotestablishequaltolerability. NoassertionPHVScomparativesuperiorityestablished.
 ProductdemandnotPHVSrecognizedrevenueifpartnerships;nocosts,PoS,LOEorvaluationupdated.
 Citations,definitions,adjustments andexclusions:research/PHVS_geography_retention_audit_2026-10-09.json;centralregisterlinksallpriorpriceandclaimsanchors.
+
+Efficacy-only upside:61%+39%*(13/30)*50%=69.45%. Holding every other working assumption fixed, year10worldwide sales=1236.5m.50%isassumed avoided efficacy exits,not switching; noAEimprovement.
