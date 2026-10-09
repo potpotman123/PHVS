@@ -9,22 +9,50 @@
   },
   "population_status": "Illustrative middle partition from prior model:10000diagnosed,8500treated,68%LTP,1700Orladeyo. Includes unknown age/subtype eligibility; prescription probabilities are composite across the entire pool. Other prevention includes unknown older therapies and new injectables.",
   "annual_prescription_probability": {
-    "orladeyo": [0.05, 0.10, 0.15],
-    "other_prevention": [0.02, 0.04, 0.06],
-    "acute_only": [0.02, 0.04, 0.06],
-    "diagnosed_untreated": [0.005, 0.01, 0.02]
+    "orladeyo": [
+      0.05,
+      0.1,
+      0.15
+    ],
+    "other_prevention": [
+      0.02,
+      0.04,
+      0.06
+    ],
+    "acute_only": [
+      0.02,
+      0.04,
+      0.06
+    ],
+    "diagnosed_untreated": [
+      0.005,
+      0.01,
+      0.02
+    ]
   },
   "cases": {
-    "cautious": {"rate_index": 0, "first_paid_probability": 0.65, "days_to_paid_conditional": 90},
-    "working": {"rate_index": 1, "first_paid_probability": 0.80, "days_to_paid_conditional": 30},
-    "optimistic": {"rate_index": 2, "first_paid_probability": 0.90, "days_to_paid_conditional": 21}
+    "cautious": {
+      "rate_index": 0,
+      "first_paid_probability": 0.65,
+      "days_to_paid_conditional": 90
+    },
+    "working": {
+      "rate_index": 1,
+      "first_paid_probability": 0.8,
+      "days_to_paid_conditional": 30
+    },
+    "optimistic": {
+      "rate_index": 2,
+      "first_paid_probability": 0.9,
+      "days_to_paid_conditional": 21
+    }
   },
   "paid_probability_definition": "Fraction of distinct PHVS prescriptions that ultimately reach first paid supply within12months of prescribing. Includes denial, nonstart and pre-paid discontinuation losses. No additional pre-paid retention haircut.",
   "delay_definition": "Fixed conditional delay among successfully converted prescriptions; a transparent approximation, not observed delay distribution. All unsuccessful prescriptions remain nonconverters in this12-month conversion window; no paid revenue assigned.",
   "retention_source": "working_assumptions.json:61/74/87%first-paid-year retention scenarios; working74%is analyst proxy. Retention clock starts at first paid fill for this module.",
   "growth_source": "working_assumptions.json:net1.5%annual pool growth; distributed proportionately across origin pools as approximation. Do not add separate diagnosis flows or deaths.",
   "rate_basis": {
-    "orladeyo": "Highest composite rate to test same-route efficacy/tolerability substitution, but5/10/15%are analyst choices. Berolife25%clinical exits in new starters is NOT dissatisfaction prevalence among incumbent survivors. Upper15%resembles historical any-LTP switch frequency in initiators only in magnitude, not denominator or destination; PHVS capturing this much of stable incumbents is deliberately optimistic.",
+    "orladeyo": "Evidence anchor:50/328=15.24%switched to another LTP within12months inUSclaims. Rough one-third/two-thirds/full-benchmark scenarios yield5.1/10.2/15.2%,rounded5/10/15%. Attenuation is analyst judgment for competition and different populations, not independently measured capture. See orladeyo_switching_evidence_bridge.",
     "other_prevention": "2/4/6%analyst annual prescriptions; clinical control, inertia, prior oral failures and injectable competitors constrain transfer. Survey54%oral preference is not used as a conversion multiplier.",
     "acute_only": "2/4/6%analyst first-prevention PHVS prescriptions; compound of clinical suitability and choice. Better rescue may reduce demand. Historical32%Orladeyo entrant origin mix is not an annual probability.",
     "diagnosed_untreated": "0.5/1/2%analyst effective prescriptions reflects weak observed engagement and uncertain need. Lowest evidence quality; naive historical17%does not mean newly diagnosed or currently untreated.",
@@ -38,5 +66,29 @@
     "Source-population movement among non-PHVS drugs is not explicitly modeled during this year; composite probabilities absorb competing choices. No all-exits-go-to-PHVS assumption.",
     "No origin-specific payer segmentation identified; keep access independent as a sensitivity dimension, not assert similar reimbursement in practice.",
     "Historical inferred439.5Orladeyo paid/PAP entries differ from PHVS prescriptions and paid starts. Do not equate them as a calibration target."
-  ]
+  ],
+  "orladeyo_switching_evidence_bridge": {
+    "source": "https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf",
+    "location": "Figure2definition,Figure3/Table2counts;2025HAEASummit",
+    "observed_any_LTP_12m_switch_rate": 0.1524390243902439,
+    "population": "328UScommerciallyinsurednon-androgenLTPinitiators;39indexberotralstat;2016\u2013Sep2023claims",
+    "benchmark_multipliers": [
+      0.3333333333333333,
+      0.6666666666666666,
+      1
+    ],
+    "unrounded_rates": [
+      0.0508130081300813,
+      0.1016260162601626,
+      0.1524390243902439
+    ],
+    "rounded_model_rates": [
+      0.05,
+      0.1,
+      0.15
+    ],
+    "judgment": "Apply approximately one-third/two-thirds/full observed annual switching benchmark to construct a practical PHVS prescription scenario. Multipliers jointly reflect competition and transfer from newLTPinitiators to prevalentoralusers; not estimated PHVScapture shares or extra mechanistic funnel factors.",
+    "support": "Berolife clinical-cause cessation and physician better-oral interest support possible substitution, without treating starter attrition as incumbent dissatisfaction.",
+    "limitation": "Any-drug paid-claim switch in mixed initiators differs from PHVS-specific prescriptions in currentOrladeyo users.15%is optimistic reference magnitude, not ceiling or a claim all historical switches go toPHVS.5/10/15%remain judgmental evidence-anchored scenarios."
+  }
 }
