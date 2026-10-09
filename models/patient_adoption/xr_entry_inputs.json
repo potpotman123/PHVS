@@ -49,7 +49,7 @@
   },
   "paid_probability_definition": "Fraction of distinct PHVS prescriptions that ultimately reach first paid supply within12months of prescribing. Includes denial, nonstart and pre-paid discontinuation losses. No additional pre-paid retention haircut.",
   "delay_definition": "Fixed conditional delay among successfully converted prescriptions; a transparent approximation, not observed delay distribution. All unsuccessful prescriptions remain nonconverters in this12-month conversion window; no paid revenue assigned.",
-  "retention_source": "working_assumptions.json:61/74/87%first-paid-year retention scenarios; working74%is analyst proxy. Retention clock starts at first paid fill for this module.",
+  "retention_source": "working_assumptions.json: currentworking61%,efficacy-onlyupside69.45%;old61/74/87description superseded. Retentionclockstartsfirstpaidfill.",
   "growth_source": "working_assumptions.json:net1.5%annual pool growth; distributed proportionately across origin pools as approximation. Do not add separate diagnosis flows or deaths.",
   "rate_basis": {
     "orladeyo": "Evidence anchor:50/328=15.24%switched to another LTP within12months inUSclaims. Rough one-third/two-thirds/full-benchmark scenarios yield5.1/10.2/15.2%,rounded5/10/15%. Attenuation is analyst judgment for competition and different populations, not independently measured capture. See orladeyo_switching_evidence_bridge.",

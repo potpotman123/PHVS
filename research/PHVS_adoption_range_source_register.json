@@ -485,6 +485,23 @@
         ]
       },
       "limitation": "Low/higharejointgeographyscenarios,notCI;Takeda20%centralXRweight only. ProductdemandnotguaranteedPHVSrecognizedsales."
+    },
+    {
+      "parameter": "Tolerability and oral/injectable preference audit",
+      "classification": "Evidence interpretation, no numerical change",
+      "evidence_files": [
+        "research/PHVS_tolerability_preference_audit_2026-10-09.json"
+      ],
+      "source_urls": [
+        "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=3527ece1-e7e0-40b1-b0c5-6baeb0deabeb",
+        "https://ir.pharvaris.com/node/12691/html",
+        "https://doi.org/10.1016/S2352-3026(26)00004-9",
+        "https://ir.biocryst.com/news-releases/news-release-details/biocryst-presents-new-real-world-evidence-showing-high-adherence",
+        "https://pubmed.ncbi.nlm.nih.gov/41429313/",
+        "https://pubmed.ncbi.nlm.nih.gov/41565919/"
+      ],
+      "adjustment": "NoAEretentionuplift. Preferencehelpsorderingoriginratesonly,notanestimatedconversionfactor.",
+      "limitation": "Nohead-to-head tolerability,predictedchoiceisnotpaidbehavior."
     }
   ],
   "multiyear_revenue_extension": "research/PHVS_multiyear_revenue_bridges_2026-10-09.json"

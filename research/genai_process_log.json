@@ -634,6 +634,17 @@
       "snapshot": "Working61%unchanged; upside69.45% replaces74%. No AE benefit.",
       "limitations": "50%avoided efficacy exits remains analystjudgment; cross-country cause-mix transfer; no claim equal comparative safety or proven superiority.",
       "remaining_work": "Empirical PHVS persistence and comparative netpricing remain unobserved."
+    },
+    {
+      "id": "G41",
+      "logged_on": "2026-10-09",
+      "objective": "Audit tolerability premise and preference-survey incorporation.",
+      "user_contribution": "ChallengedwhetherPHVSreallylackssideeffectadvantageandaskedwhereBCRXroutepreference studyenteredmodel.",
+      "ai_method_and_sources": "VerifiedcurrentOrladeyolabel,CHAPTER3slide11,localCHAPTER1paper,andBioCryst150personsurvey;tracedinputlineage. research/PHVS_tolerability_preference_audit_2026-10-09.json",
+      "snapshot": "PHVS1/55AEdiscontinuationvsOrladeyo~1/40notcrediblecomparativeeffect.54/46oral/injectionpreferencequalitativelyinforms2/4/6%injectable-originrange;exactratenotfitted.",
+      "thesis_effect": "ZeroAEupliftnotclaimofequaltolerability;oralpreferenceconditionalandmodestnotuniversalswitchdriver.",
+      "limitations": "Separate250personDCEnotindependentreplicationof150personsurvey;commercialpersistenceunknown;nonumericalforecastchange.",
+      "remaining_work": "AwaitdetailedXR safety andrealworldbehavior ratherforceadditionalmodelhaircut."
     }
   ]
 }

@@ -1,0 +1,104 @@
+{
+  "as_of": "2026-10-09",
+  "question": "Audit comparative tolerability and actual model use of route-preference evidence.",
+  "sources": {
+    "Orladeyo_label": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=3527ece1-e7e0-40b1-b0c5-6baeb0deabeb",
+    "CHAPTER3": "https://ir.pharvaris.com/node/12691/html",
+    "CHAPTER1": "https://doi.org/10.1016/S2352-3026(26)00004-9",
+    "BioCryst_preference": "https://ir.biocryst.com/news-releases/news-release-details/biocryst-presents-new-real-world-evidence-showing-high-adherence",
+    "Poulos": "https://pubmed.ncbi.nlm.nih.gov/41429313/",
+    "other_DCE": "https://pubmed.ncbi.nlm.nih.gov/41565919/"
+  },
+  "safety": {
+    "Orladeyo_150mg_24wk": {
+      "n": 40,
+      "placebo_n": 39,
+      "abdominal_pain_pct": [
+        23,
+        10
+      ],
+      "vomiting_pct": [
+        15,
+        3
+      ],
+      "diarrhea_pct": [
+        15,
+        0
+      ],
+      "adverse_reaction_discontinuation_pct": [
+        3,
+        3
+      ],
+      "GI_discontinuations_active": 0,
+      "note": "Label6.1:GI generally early,less frequent over time,typically self-resolving. AE rates do not equal discontinuation rates."
+    },
+    "CHAPTER3_XR_24wk": {
+      "active_n": 55,
+      "placebo_n": 30,
+      "any_TEAE": [
+        42,
+        17
+      ],
+      "investigator_related_TEAE": [
+        11,
+        3
+      ],
+      "AE_discontinuation": [
+        1,
+        1
+      ],
+      "SAE": [
+        1,
+        0
+      ],
+      "related_SAE": [
+        0,
+        0
+      ],
+      "maximum_grade3": [
+        3,
+        0
+      ],
+      "maximum_grade4": [
+        1,
+        0
+      ],
+      "location": "Slide11",
+      "note": "No individual event diagnoses in topline table; any-event numerical excess does not establish causal toxicity or comparative inferiority. Severe grade is different from serious classification."
+    },
+    "CHAPTER1": {
+      "total_n": 34,
+      "active_n": 23,
+      "duration_weeks": 12,
+      "related_events": "20mg group nausea and postural dizziness;40mg group mild GGT elevation;placebo headache. NoAEdiscontinuation.",
+      "local": "research/raw/cross_trial_audit/chapter1_paper_2026.txt",
+      "limitation": "Smallphase2IRregimen notcommercialXR formulation. No head-to-headberotralstat trial;doesnotproveGIsuperiority."
+    },
+    "conclusion": "No basis to callPHVSpoor or equal tolerability. GIadvantage plausible from earlyevidence but unquantified; lessAE-drivencommercialdiscontinuation notestablished. ZeroAE-retention benefit isconservativeunderwriting,not clinical equivalence."
+  },
+  "preference": {
+    "identity": "LikelyBioCryst/BCRX-fundedPoulosstudy,notECRX",
+    "n": 150,
+    "USsurvey_year": 2023,
+    "oral_vs_biweekly_or_monthly_equal_efficacy": [
+      54,
+      46
+    ],
+    "oral_vs_quarterly_equal_efficacy": [
+      52,
+      48
+    ],
+    "willingness_extreme_pct": 15,
+    "willingness_somewhat_pct": 56,
+    "interpretation": "Modestaggregateoralpreference,not universaloralpreference or categoricalinjectablepreference. Surveyshare notpaidconversion orfixedTAMceiling. Respondentsselfselected andselfreported;fundedbyoralmanufacturer.",
+    "model_trace": [
+      "research/PHVS_three_adoption_hypotheses_2026-10-08.json:H1",
+      "research/PHVS_XR_entry_access_2026-10-09.json:XR03/XR04",
+      "models/patient_adoption/xr_entry_inputs.json:rate_basis.other_prevention",
+      "models/patient_adoption/revenue_ramp_inputs.json:XR_annual_prescription_rates.other_prevention"
+    ],
+    "actual_use": "Qualitativesupportfor2/4/6%otherpreventionvs5/10/15%Orladeyoorigin prescriptions;exactratesnotestimatedfromsurvey. No54%multiplier, no46%permanentexclusion.",
+    "additional_DCE": "Separate250personstudy:relativeattributeimportanceattackfrequency31.7%,GI18.5%,oralvsinjection18.1%.Conditionalonattributelevels;notadoptionweights. Previouslysavedpreferences.txt isthisseparatepaper,notPoulos150personsurvey."
+  },
+  "decision": "No numerical model changes. Retain61%working/69.45%efficacy-onlyupside;strengthen explicitpreferenceprovenance. Fulltype-specificXRPhase3AEtablesandlongtermcommercialpersistence neededforAEbenefitestimate."
+}
