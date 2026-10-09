@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-09",
+  "verdict": "Audited standalone engine and analyst-prior sampler ready for separateagent simulation; no productionMonteCarlo run.",
+  "verified": "engine.py imports segmented_adoption.py; source stock, rates, product clocks and net growth reach dated financial outputs.",
+  "readiness": [
+    {
+      "area": "Origin-specific acquisition",
+      "status": "Implemented; remaining uncertainty is calibration or simulation design",
+      "remaining": "See INTEGRATION.txt and canonical input bounds; former integration gap superseded."
+    },
+    {
+      "area": "Launch source stocks",
+      "status": "Implemented; remaining uncertainty is calibration or simulation design",
+      "remaining": "See INTEGRATION.txt and canonical input bounds; former integration gap superseded."
+    },
+    {
+      "area": "Choice and switching timepaths",
+      "status": "Implemented; remaining uncertainty is calibration or simulation design",
+      "remaining": "See INTEGRATION.txt and canonical input bounds; former integration gap superseded."
+    },
+    {
+      "area": "Newlytreated patients",
+      "status": "Implemented; remaining uncertainty is calibration or simulation design",
+      "remaining": "See INTEGRATION.txt and canonical input bounds; former integration gap superseded."
+    },
+    {
+      "area": "Coverage endpoint",
+      "status": "Implemented; remaining uncertainty is calibration or simulation design",
+      "remaining": "See INTEGRATION.txt and canonical input bounds; former integration gap superseded."
+    },
+    {
+      "area": "Retention and consumption",
+      "status": "Implemented; remaining uncertainty is calibration or simulation design",
+      "remaining": "See INTEGRATION.txt and canonical input bounds; former integration gap superseded."
+    },
+    {
+      "area": "Financial backbone",
+      "status": "Implemented; remaining uncertainty is calibration or simulation design",
+      "remaining": "See INTEGRATION.txt and canonical input bounds; former integration gap superseded."
+    },
+    {
+      "area": "Monte Carlo priors/dependence",
+      "status": "Design interface only; simulation not run",
+      "remaining": "Specify analyst priors and dependence packages, then verify zero-volatility equivalence before simulation."
+    }
+  ],
+  "minimum_checks": [
+    "SumjointpatientstateswithoutIR/XRdoublecounting",
+    "Onecoherentlaunchcalendarperproduct",
+    "Casesreproducechosenstartbenchmarkswithconversiononce",
+    "Varyonlylaunchshareandconfirmmatureconditionalshare60inallcases",
+    "Monthlyratesandpending/retryflowsconservepeople",
+    "Noextradiagnosisflowonnetgrowth",
+    "Clinicalriskappliedonce;funding/cashflowsreconcile",
+    "Zero-volatilityMonteCarloreproducesdeterministicbasebeforebatchsimulation"
+  ],
+  "scope_control": "Deterministic integration completed; remaining broad ranges are underwriting uncertainty, not a reason for another exhaustive data hunt.",
+  "three_mechanics_resolution": "adoption_calibration/FINAL_MECHANICS.txt",
+  "validation_files": [
+    "validation.json",
+    "mc_preflight_results.json"
+  ],
+  "next_agent": "MONTE_CARLO_HANDOFF.txt",
+  "scope": "Standalone only; acquisitionremoved byuser."
+}

@@ -2,6 +2,21 @@
   "as_of": "2026-10-09",
   "changes": [
     {
+      "change": "User-selected pivotal redosing quantity stress; remove explicit efficacy premium scenarios",
+      "before_target": 31.699962276747666,
+      "after_target": 28.311616928946087,
+      "multiplier": 0.8478260869565217,
+      "limitation": "Cross-trial dose ratio transferred onto claims-derived budgets, not a validated paid-utilization estimate."
+    },
+    {
+      "change": "Integrate segmented origin flows, share timepaths and joint launch stocks",
+      "before_target": 21.501399507276812,
+      "after_target": 31.699962276747666,
+      "method": "Primitive inputs drive all rates; old mode retained as regression counterfactual",
+      "pricing": "No added efficacy price premium working; isolated premium and redosing-offset sensitivities",
+      "historical_entries": "Older numerical change decompositions below refer to original blended calibration, not current targets."
+    },
+    {
       "change": "Establish one canonical engine",
       "before": "Several working modules, stale guidance and broker-shaped reverse valuation",
       "after": "Independent monthly population-to-financial model in models/finalized",

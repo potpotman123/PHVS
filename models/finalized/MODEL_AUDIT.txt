@@ -1,0 +1,119 @@
+PHVS PATIENT ADOPTION / FINANCIAL MODEL AUDIT — 9 October 2026
+
+VERDICT
+Ready for a bounded Monte Carlo of explicit analyst assumptions. This means
+mechanical readiness, not empirical validation of a revenue forecast or a short.
+The user selects a standalone short pitch, fixes the redosing discount in every
+case, excludes efficacy pricing premiums, and has removed acquisition entirely.
+No production Monte Carlo has run. A separate agent will run it.
+
+SCOPE COMPLETED
+Reviewed every canonical parameter's role, bounds and source trail; all source
+formulas; joint starting stock, net growth, switching, access, retention, rescue
+quantity, overlap, geographic economics, clinical branches, cost/financing, LOE
+and terminal value. Rechecked key claims, launch forms and entrant-mix primary
+sources. Reused prior source audits rather than re-scraping every financial filing.
+Reviewed MC dependencies, unknown overrides, boundary cases and handoff provenance.
+No paid data, bulk scraping or newly launched research agents.
+
+FIXES
+F01. Both-fail shutdown previously used the original XR decision regardless of
+     delays. It now follows the latest delayed IR/XR decision plus winddown.
+     Test includes an IR delay long enough to make IR the last decision.
+F02. Existing oral rescue switching borrowed the LTP switch benchmark with no
+     separate transfer sensitivity. Added ir_oral_switch_relative, mode1 and
+     analyst range0.5-1.5. Base unchanged; XR remains unchanged when it varies.
+F03. Generic SEGMENTED references obscured individual source provenance. Replaced
+     key parameter source IDs with the actual claim, preference, forms or
+     comparator audit source. Corrected MIX to the exact issuer slide deck.
+F04. Fixed redosing, zero efficacy pricing premium and60%matureoralchoice now
+     have explicit engine guards and sampler constraints. Unknown input names
+     are rejected. Active no-discount scenarios were already removed.
+F05. Mature cohorts had identical behavior but were iterated separately forever.
+     Exact aggregation after month12 sharply reduced repeated computation.
+     Month-by-month working outputs across four clinical states match to <3e-12.
+F06. Removed active acquisition parameter, functions and tests. Old acquisition
+     specification is explicitly retired under archive/; not a forecast branch.
+
+EVIDENCE AUDIT: STRONGEST ANCHORS AND TRANSFER LIMITS
+Population:10,000 and origin proportions are underwriting proxies. Published
+prevalence is not the same as diagnosed, age/subtype-eligible, reachable users.
+Net growth1.5% is close to the treated-count2019-23CAGR; it includes net diagnosis
+and exits. New-choice diagnostic rows are disabled; there is no extra inflow.
+
+Switching:50/328=15.24% was any non-index LTP claim in12months among commercially
+insured LTP initiators (2016-2023); only39had indexberotralstat. It is not annual
+switching among all established users, nor an observed Ekterly switching hazard.
+Use as a transfer anchor with broad ranges, not a measured PHVS rate. The new
+IR transfer parameter exposes the weakest setting transfer independently.
+
+Preference:54/46 came from a150-person stated preference study at equal efficacy.
+It is not realized national switching, a universal ceiling, or rescue preference.
+84%oral rescue preference is a different survey and setting. Do not multiply
+that onto Ekterly's observed forms benchmark, which already reflects oral uptake.
+
+Brand choice:40%launch to60%mature is an underwriting schedule. Historical oral
+followers show time/line dependence; they do not identify a causal60%efficacy
+premium. The60%capture of all incumbent-oral departures is a distinct assumption.
+Source bridges already embed route/willingness; do not add another satisfaction,
+AE, efficacy,71%willingness or54%preference haircut onto composite rates.
+
+Entrant mix:52/32/17 is cumulative trier history, rounded to101%. The model uses
+32/52 and17/32 ratios, not those percentages as annual transition probabilities.
+The untreated reach factor and static normalization to80%paid conversion are
+assumptions. Monthly delay/depletion means static proportions are not exact
+annual paid-start calibration targets.
+
+Ekterly stock:1,702forms throughFebruary2026 is verified. Projection toPHVSlaunch
+requires assumed future forms, uniqueness, paid conversion and annual survival.
+Approximate3072activeoral stock inMay2027 is not observed. Primary rescue is not
+backup possession. The joint prevention/rescue cross-tab is proportionally
+allocated and unmeasured; origin tags remain fixed as the simulation runs.
+
+Retention:61%first-year comparator persistence and PDC0.73 are real anchors,
+but69.45%PHVSretention is a user-selected efficacy allowance using a separate
+French exit-cause proxy. No AE uplift remains.90%matureXR and90%IRcontinuation
+are forecasts, not measurements. IRmembership does not mean monthly refill.
+
+Paid doses:8LTP doses is the all-patient mean in the minimal-gap subgroup;
+11.8is all-LTP and includes nondispensers. No67.1%extra claimant haircut.
+14non-LTP doses comes from a broader on-demand claimant proxy, not an exact
+acute-only population. Applying the fixed1.17/1.38redosing ratio to these claims
+budgets is an additional user-chosen transfer, not a measured dispensing effect.
+This is a key thesis assumption. Preserve it in every draw, and disclose it.
+Initial stock is retained inside the budget; no second price or volume penalty.
+
+Access/price:80%conversion is a practical transfer assumption, not a measured
+PHVS payer approval rate. WACs are public comparator anchors; net fractions are
+assumed. Use coherent access/rebate packages. No efficacy-based price multiplier.
+
+Overlap:mean-field within each joint origin approximates simultaneousXR/IR use;
+it is not observed prescribing. dual_use50% is unmeasured; same-drug prescribing
+may evolve. It is a paid-rescue allocation, not a second disease population.
+
+Financials:modeled costs, international ratios, taxes, financing and LOE timing
+are underwriting choices with sourced anchors. They are not a negotiated budget,
+firm reimbursement contract, legal patent opinion or assured financing. Post-LOE
+synthetic pooled P x Q plus rare-disease revenue proxy is retained at user50/50.
+The forecast contains no fitted broker ramp, terminal exit multiple or acquisition.
+
+WHAT REMAINS UNCERTAIN (NOT A MECHANICAL BLOCKER)
+Current eligible patient census and origin mix; actual incumbent-oral rescue
+switching; commercial PHVS retention and dispensing; payer contracts; future
+competition, marketing productivity, overseas rights and funding availability.
+These can materially change the investment conclusion. Do not present Monte
+Carlo percentiles as clinical confidence intervals or proven probabilities of
+stock returns. Broad audited priors are appropriate; more random draws alone
+will not resolve these questions.
+
+SOURCE / TEST TRAIL
+assumptions_audit.json inventories every canonical parameter and sampler treatment.
+audit_findings.json records fixes and evidence. validation.json and
+mc_preflight_results.json record mechanical checks and current code hashes.
+The sampler's zero-volatility result must reproduce$28.3116169289 at12months.
+Working value today$25.825555267; peak both-success revenue$1.551bn in2038.
+MONTE_CARLO_HANDOFF.txt is the instruction document for the next agent.
+
+FINAL VALIDATION
+152 deterministic model checks and72boundedpreparation checks passed.
+Working expectedtarget unchanged$28.3116169289. No productionMonteCarlo.

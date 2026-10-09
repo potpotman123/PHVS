@@ -1,0 +1,249 @@
+{
+  "as_of": "2026-10-09",
+  "status": "Proposed underwriting, not fitted PHVS estimates",
+  "annualized_Ekterly_forms_proxy": 0.2697996708420819,
+  "annualization_caveat": "Constant-hazard equivalent of forms / broad9000population; not measured injectable-only annual acquisition; eight-month approximation.",
+  "access_normalization": 0.8,
+  "cases": [
+    {
+      "group": "XR_orladeyo",
+      "case": "cautious",
+      "period": "one year",
+      "completed_start_proxy": 0.04000000000000001,
+      "static_Rx_equivalent": 0.05000000000000001,
+      "paid_starts_per_1000": 40.00000000000001
+    },
+    {
+      "group": "XR_injectable_prevention",
+      "case": "cautious",
+      "period": "one year",
+      "completed_start_proxy": 0.027000000000000003,
+      "static_Rx_equivalent": 0.03375,
+      "paid_starts_per_1000": 27.000000000000004
+    },
+    {
+      "group": "XR_older_prevention",
+      "case": "cautious",
+      "period": "one year",
+      "completed_start_proxy": 0.027000000000000003,
+      "static_Rx_equivalent": 0.03375,
+      "paid_starts_per_1000": 27.000000000000004
+    },
+    {
+      "group": "XR_rescue_only",
+      "case": "cautious",
+      "period": "one year",
+      "completed_start_proxy": 0.024923076923076926,
+      "static_Rx_equivalent": 0.031153846153846157,
+      "paid_starts_per_1000": 24.923076923076927
+    },
+    {
+      "group": "XR_diagnosed_untreated",
+      "case": "cautious",
+      "period": "one year",
+      "completed_start_proxy": 0.006002307692307693,
+      "static_Rx_equivalent": 0.007502884615384616,
+      "paid_starts_per_1000": 6.002307692307693
+    },
+    {
+      "group": "IR_injectable_rescue",
+      "case": "cautious",
+      "period": "one year",
+      "completed_start_proxy": 0.08093990125262457,
+      "static_Rx_equivalent": 0.10117487656578071,
+      "paid_starts_per_1000": 80.93990125262457
+    },
+    {
+      "group": "IR_ekterly",
+      "case": "cautious",
+      "period": "one year",
+      "completed_start_proxy": 0.04000000000000001,
+      "static_Rx_equivalent": 0.05000000000000001,
+      "paid_starts_per_1000": 40.00000000000001
+    },
+    {
+      "group": "IR_no_current_rescue",
+      "case": "cautious",
+      "period": "one year",
+      "completed_start_proxy": 0.033600000000000005,
+      "static_Rx_equivalent": 0.042,
+      "paid_starts_per_1000": 33.6
+    },
+    {
+      "group": "NEW_XR_given_prevention_selection",
+      "case": "cautious",
+      "period": "selection event",
+      "completed_start_proxy": 0.2,
+      "static_Rx_equivalent": 0.25,
+      "paid_starts_per_1000": 200.0
+    },
+    {
+      "group": "NEW_IR_given_rescue_selection",
+      "case": "cautious",
+      "period": "selection event",
+      "completed_start_proxy": 0.336,
+      "static_Rx_equivalent": 0.42,
+      "paid_starts_per_1000": 336.0
+    },
+    {
+      "group": "XR_orladeyo",
+      "case": "working",
+      "period": "one year",
+      "completed_start_proxy": 0.09146341463414634,
+      "static_Rx_equivalent": 0.11432926829268292,
+      "paid_starts_per_1000": 91.46341463414635
+    },
+    {
+      "group": "XR_injectable_prevention",
+      "case": "working",
+      "period": "one year",
+      "completed_start_proxy": 0.04939024390243903,
+      "static_Rx_equivalent": 0.06173780487804878,
+      "paid_starts_per_1000": 49.390243902439025
+    },
+    {
+      "group": "XR_older_prevention",
+      "case": "working",
+      "period": "one year",
+      "completed_start_proxy": 0.04939024390243903,
+      "static_Rx_equivalent": 0.06173780487804878,
+      "paid_starts_per_1000": 49.390243902439025
+    },
+    {
+      "group": "XR_rescue_only",
+      "case": "working",
+      "period": "one year",
+      "completed_start_proxy": 0.04559099437148218,
+      "static_Rx_equivalent": 0.056988742964352725,
+      "paid_starts_per_1000": 45.59099437148218
+    },
+    {
+      "group": "XR_diagnosed_untreated",
+      "case": "working",
+      "period": "one year",
+      "completed_start_proxy": 0.021959662288930582,
+      "static_Rx_equivalent": 0.027449577861163227,
+      "paid_starts_per_1000": 21.95966228893058
+    },
+    {
+      "group": "IR_injectable_rescue",
+      "case": "working",
+      "period": "one year",
+      "completed_start_proxy": 0.12950384200419932,
+      "static_Rx_equivalent": 0.16187980250524914,
+      "paid_starts_per_1000": 129.50384200419933
+    },
+    {
+      "group": "IR_ekterly",
+      "case": "working",
+      "period": "one year",
+      "completed_start_proxy": 0.09146341463414634,
+      "static_Rx_equivalent": 0.11432926829268292,
+      "paid_starts_per_1000": 91.46341463414635
+    },
+    {
+      "group": "IR_no_current_rescue",
+      "case": "working",
+      "period": "one year",
+      "completed_start_proxy": 0.08064,
+      "static_Rx_equivalent": 0.1008,
+      "paid_starts_per_1000": 80.64
+    },
+    {
+      "group": "NEW_XR_given_prevention_selection",
+      "case": "working",
+      "period": "selection event",
+      "completed_start_proxy": 0.27999999999999997,
+      "static_Rx_equivalent": 0.35,
+      "paid_starts_per_1000": 279.99999999999994
+    },
+    {
+      "group": "NEW_IR_given_rescue_selection",
+      "case": "working",
+      "period": "selection event",
+      "completed_start_proxy": 0.4032,
+      "static_Rx_equivalent": 0.504,
+      "paid_starts_per_1000": 403.2
+    },
+    {
+      "group": "XR_orladeyo",
+      "case": "stronger",
+      "period": "one year",
+      "completed_start_proxy": 0.16000000000000003,
+      "static_Rx_equivalent": 0.20000000000000004,
+      "paid_starts_per_1000": 160.00000000000003
+    },
+    {
+      "group": "XR_injectable_prevention",
+      "case": "stronger",
+      "period": "one year",
+      "completed_start_proxy": 0.0756,
+      "static_Rx_equivalent": 0.0945,
+      "paid_starts_per_1000": 75.6
+    },
+    {
+      "group": "XR_older_prevention",
+      "case": "stronger",
+      "period": "one year",
+      "completed_start_proxy": 0.0756,
+      "static_Rx_equivalent": 0.0945,
+      "paid_starts_per_1000": 75.6
+    },
+    {
+      "group": "XR_rescue_only",
+      "case": "stronger",
+      "period": "one year",
+      "completed_start_proxy": 0.06978461538461539,
+      "static_Rx_equivalent": 0.08723076923076924,
+      "paid_starts_per_1000": 69.78461538461539
+    },
+    {
+      "group": "XR_diagnosed_untreated",
+      "case": "stronger",
+      "period": "one year",
+      "completed_start_proxy": 0.050419384615384616,
+      "static_Rx_equivalent": 0.06302423076923076,
+      "paid_starts_per_1000": 50.419384615384615
+    },
+    {
+      "group": "IR_injectable_rescue",
+      "case": "stronger",
+      "period": "one year",
+      "completed_start_proxy": 0.1888597695894573,
+      "static_Rx_equivalent": 0.23607471198682162,
+      "paid_starts_per_1000": 188.8597695894573
+    },
+    {
+      "group": "IR_ekterly",
+      "case": "stronger",
+      "period": "one year",
+      "completed_start_proxy": 0.16000000000000003,
+      "static_Rx_equivalent": 0.20000000000000004,
+      "paid_starts_per_1000": 160.00000000000003
+    },
+    {
+      "group": "IR_no_current_rescue",
+      "case": "stronger",
+      "period": "one year",
+      "completed_start_proxy": 0.14112,
+      "static_Rx_equivalent": 0.1764,
+      "paid_starts_per_1000": 141.12
+    },
+    {
+      "group": "NEW_XR_given_prevention_selection",
+      "case": "stronger",
+      "period": "selection event",
+      "completed_start_proxy": 0.36000000000000004,
+      "static_Rx_equivalent": 0.45,
+      "paid_starts_per_1000": 360.00000000000006
+    },
+    {
+      "group": "NEW_IR_given_rescue_selection",
+      "case": "stronger",
+      "period": "selection event",
+      "completed_start_proxy": 0.4704,
+      "static_Rx_equivalent": 0.588,
+      "paid_starts_per_1000": 470.4
+    }
+  ]
+}

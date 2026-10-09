@@ -1,0 +1,36 @@
+THREE REMAINING ADOPTION MECHANICS — RESOLVED UNDERWRITING
+9 October 2026
+
+1. IR launch mix, beginning May2027
+Population10,125 after10months of1.5%netgrowth onJuly2026baseline10,000.
+Working Ekterly3,072; injectable rescue5,535; no current rescue1,519.
+Ekterly projection range1,413-4,278, NOT a confidence interval.
+Projection uses datedforms,100/192/250futureforms/month,65/80/90%conversion,
+80/90/95%continuation andone-monthdelay. Earlierformsarenotactivepatients.
+Working uniqueformfraction100%,lower90%;notanobserveddeduplicationrate.
+Ekterly use allocatedproportionallyacrosstreatedLTP/nonLTPstates. Backupinjections
+notcountedasnewpeople. Primaryrescueaccessforalltreatedisanassumptionconsistent
+withguidelinestarget,notverifiedcoverage;stress10%LTPwithoutrescue. Extra20%
+Ekterlystockstressallowsunobservedfree/PAPoralusers,subtractingfrominjectables.
+
+2. Switching versus choice
+Working: no extra forcedperpatientswitch-hazardtaper. Oralchoiceshareimproves
+25/40/60%atlaunchto60%byyear5. Patientpooldepletioncreatesadoptiontaper.
+Counterevidence:Orladeyo2025newprescriptionsstrongestyearsinceinitiallaunch;
+Ekterlylasttwoobservedbimonthlyincrements381and384.
+Stress annualcategoryswitchpropensityto50%or125%initialbyyear5separately.
+In1000initialinjectablepreventivepatienttimingcheck,workingnewpaidstartsare
+31.7year1,39.3year3,43.3year5,43.8year6,38.9year10. Includes1.5%growth,
+80%conversion,1monthdelayand12monthfailedaccessretry;notanactivepatientor
+revenueforecast. Showsimprovingshareandlaterdecliningstartsarecompatible.
+
+3. Net inflow
+Retain1.5%netgrowth(0-3%stress),anchoredto1.53%historicaltreatedHAECAGR.
+Addonce,allocatebyjointoriginweights,applyordinaryoriginhazards. Disable
+separateNEWselectioneventrowsintheworkingintegration. Do notaddgrossdiagnoses
+ordeathsorcountnewdiagnosesintheuntreatedpoolagain. Netgrowthisnotgrossincidence.
+
+Sources,assumptionsandlimitations: final_mechanics_provenance.json.
+Reproduce: python3 models/finalized/adoption_calibration/final_mechanics.py
+Checks: jointstockrow/columnsums,capacity,monthlyconservationincludingpending/
+failedaccess,zero-growthandone-yearnetgrowth. Fullfinancialintegrationpending.

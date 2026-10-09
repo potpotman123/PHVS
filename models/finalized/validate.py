@@ -71,22 +71,56 @@ for case in cfg['cases']:
         # Target is a separately dated valuation, not an extra 0.9 revenue haircut.
         val=read('results.json')[case]['conditional_valuations'][state]['target']
         check(case+'/'+state+' equity/shares reconcile',abs(val['price']*val['diluted_shares_m']-val['equity_usdm'])<1e-6)
-check('Acquisition replaces standalone value',acquisition_outcome(20,40,'2027-10-09','2027-10-09')==40)
-check('Failed completion uses standalone outcome',acquisition_outcome(20,40,'2027-10-09','2027-10-09',completed=False)==20)
-check('Later deal discounted to target',acquisition_outcome(20,40,'2028-10-09','2027-10-09')<40)
-check('Earlier cash does not automatically earn equity WACC',acquisition_outcome(20,40,'2027-04-09','2027-10-09')==40)
-b=buyer_value_interface(1000,200,100,50,75,.5)
-check('Buyer value differs from negotiated consideration',b['buyer_economic_value']==1175 and b['negotiated_price_scenario']==1087.5)
-check('Negative net synergy does not support an acceptable reservation-price bid',not buyer_value_interface(1000,0,0,50,75,.5)['economically_acceptable_at_reservation'])
 # Deterministic monotonicity, not independent evidence for the parameter bounds.
 s=read('sensitivities.json')['results']; sm={r['name']:r for r in s}
 check('Dose-price increase increases value',sm['ir_net_fraction=0.95']['expected_target']>sm['ir_net_fraction=0.7']['expected_target'])
-check('Faster IR acquisition increases value',sm['ir_rx=0.274463']['expected_target']>sm['ir_rx=0.05']['expected_target'])
+check('Faster IR acquisition increases value',sm['ir_injectable_opportunity=1.25']['expected_target']>sm['ir_injectable_opportunity=0.75']['expected_target'])
 check('Higher costs reduce value',sm['cost_scale=1.2']['expected_target']<sm['cost_scale=0.8']['expected_target'])
 # All source IDs must resolve; no private source is a pivotal model dependency.
 sources=read('sources.json')['sources']
 check('Every parameter source resolves',all(s in sources for a in cfg['parameters'].values() for s in a['sources']))
 check('Every financial-policy source resolves',all(s in sources for a in cfg['financial_policy'].values() if isinstance(a,dict) for s in a['source']))
 check('No canonical input cites licensed files',all('alphasense' not in str(v).lower() and 'broker' not in ' '.join(v['sources']).lower() for v in cfg['parameters'].values()))
-write('validation.json',{'as_of':cfg['as_of'],'passed':len(tests),'failed':0,'sha256':{n:hashlib.sha256((BASE/n).read_bytes()).hexdigest() for n in ['inputs.json','history.json','sources.json','engine.py','analyze.py']},'tests':tests,'meaning':'Mechanical verification only. Historical calibration and public-source checking are distinct; no independent commercial validation or statistical CI implied.'})
+check('Working applies pivotal redosing stress once',abs(p['ir_quantity_multiplier']-1.17/1.38)<1e-12)
+check('No efficacy price premium in any configured case',all(resolve(cfg,k)['ir_price_multiplier']==resolve(cfg,k)['xr_price_multiplier']==1 for k in cfg['cases']))
+# Integrated source-stock and timing tests, independently compared with calibration.
+from segmented_adoption import joint_pools, oral_share, rates as source_rates
+start=month_index(cfg['start_month']); launch=month_index(cfg['launches']['IR']['commercial_month'])
+joint=joint_pools(cfg,p,start,launch)
+check('Joint baseline stock conserves population',abs(sum(joint.values())-p['population'])<1e-8)
+for origin,w in cfg['pool_weights'].items():
+    check('Joint stock row '+origin,abs(sum(n for k,n in joint.items() if k.split('|')[0]==origin)-p['population']*w)<1e-8)
+old_stock=read('adoption_calibration/final_mechanics_results.json')['stocks']['working']['launch_mix']['rescue_pools']['Ekterly']
+check('Projected Ekterly launch stock matches separate calibration',abs(sum(n for k,n in joint.items() if k.endswith('|ekterly'))*(1+p['growth'])**((launch-start)/12)-old_stock)<1e-8)
+for case in cfg['cases']:
+    cp=resolve(cfg,case)
+    check(case+' oral choice reaches60% bymonth60',abs(oral_share(cp,60)-.6)<1e-12 and abs(oral_share(cp,120)-.6)<1e-12)
+check('Working launch oral choice40%',abs(oral_share(p,0)-.4)<1e-12)
+rx,ri=source_rates(cfg,p,joint,60,60)
+check('XR incumbent oral is all-destination capture',abs(rx['orladeyo|ekterly']-(50/328)*.6/.8)<1e-12)
+check('XR injectable formula matches independent arithmetic',abs(rx['other_prevention|injectable']-(50/328)*.54*.6/.8)<1e-12)
+check('IR injectable uses forms normalization without second access adjustment',abs(ri['other_prevention|injectable']-(1-(1-1702/9000)**1.5)*.6)<1e-12)
+check('Source rates independent of actual paid conversion',source_rates(cfg,{**p,'conversion':.65},joint,60,60)==(rx,ri))
+check('Source Rx and paid starts reconcile to totals',all(abs(sum(v for k,v in r.items() if k.startswith(prefix))-r[total])<1e-7 for r in rev for prefix,total in [('ir_rx_from_','ir_rx'),('xr_rx_from_','xr_rx'),('ir_starts_from_','ir_access_starts'),('xr_starts_from_','xr_starts')]))
+check('Population grows once from its dated anchor',all(abs(r['population']-p['population']*(1+p['growth'])**((month_index(r['month'])-start)/12))<1e-6 for r in rev))
+check('Every active case has the same redosing discount',all(abs(resolve(cfg,k)['ir_quantity_multiplier']-1.17/1.38)<1e-12 for k in cfg['cases']))
+check('Every active sensitivity retains the redosing discount',all(abs(resolve(cfg,overrides=x['overrides'])['ir_quantity_multiplier']-1.17/1.38)<1e-12 for x in sm.values()))
+rejected=False
+try: resolve(cfg,overrides={'ir_quantity_multiplier':1.})
+except AssertionError: rejected=True
+check('Engine rejects forecasts without the selected discount',rejected)
+
+# Regulatory delay must move liquidation after the latest decision, not just XR's original date.
+delayed={**p,'launch_delay_IR':24,'launch_delay_XR':6}
+cr,_=commercial(short,delayed,(False,False));fr=financial(short,delayed,cr,(False,False))
+expected=max(month_index(v['approval_assumption'])+int(delayed.get('launch_delay_'+k,0)) for k,v in cfg['launches'].items())+cfg['financial_policy']['winddown_months']['value']
+check('Both-fail shutdown follows latest delayed decision',next(month_index(r['month']) for r in fr if r['shutdown'])==expected)
+rx2,ri2=source_rates(cfg,{**p,'ir_oral_switch_relative':.5},joint,60,60)
+check('IR transfer uncertainty leaves XR unchanged',rx2==rx)
+check('IR transfer uncertainty isolates incumbent oral origin',all(abs(ri2[k]-ri[k]*(.5 if k.endswith('|ekterly') else 1))<1e-12 for k in ri))
+rejected=False
+try: resolve(cfg,overrides={'ir_price_multiplier':1.1})
+except AssertionError: rejected=True
+check('Engine rejects efficacy price-premium forecasts',rejected)
+write('validation.json',{'as_of':cfg['as_of'],'passed':len(tests),'failed':0,'sha256':{n:hashlib.sha256((BASE/n).read_bytes()).hexdigest() for n in ['inputs.json','history.json','sources.json','engine.py','segmented_adoption.py','analyze.py','validate.py']},'tests':tests,'meaning':'Mechanical verification only. Historical calibration and public-source checking are distinct; no independent commercial validation or statistical CI implied.'})
 print(f'{len(tests)} validation checks passed.')

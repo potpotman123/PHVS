@@ -1,70 +1,15 @@
-PHVS HANDOFF — 9 October 2026
+CURRENT HANDOFF — 9 October 2026
 
-User’s working thesis remains short on standalone economics; acquisition is a
-separate risk to that short. The faster-adoption case is the long steelman,
-not a change in the user’s position.
+Read MONTE_CARLO_HANDOFF.txt first; this is the detailed next-agent instruction.
+The model is standalone only. User removed acquisition from this pitch.
+No productionMonteCarlo has run; the separate agent will implement and run it.
 
-Ready for Excel implementation and deterministic underwriting. The calculation
-engine, sources, calendar financials and tests are complete. Monte Carlo and
-an acquisition branch have explicit interfaces; neither a simulation nor a
-PHVS takeover probability has been fitted. This is not a final investment call.
+Working:today$25.83; expected12months$28.31; both-approvedtarget$31.50;
+conditionalpeakrecognizedsales$1.551bn in2038. No live marketquote claimed.
+Fixed redosing quantity multiplier1.17/1.38, pricing multipliers1.0, matureoral
+choice60%. No no-redosing or efficacy-premium cases. Historical values superseded.
 
-Working case snapshot (nominal USD):
-  Both-success revenue: $1.27bn peak in 2038; year-ten sales are not the peak.
-  Standalone expected value today: $19.44/share.
-  Expected 12-month value: $21.50/share, using today’s clinical probabilities.
-  Conditional both-approval 12-month value: $23.99/share.
-  No acquisition premium. No live market-price or excess-return claim.
-  Faster-adoption bundled challenge: $56.27/share at 12 months.
-  Cautious bundle approaches zero equity value and is not sustainably fundable
-  under unchanged spending. It is a business-failure stress, not a percentile.
-
-What changed:
-  Public comparator list prices now anchor explicit net-price assumptions.
-  The 69.45% efficacy-only first-year XR retention allowance remains. A separate
-  claims-based paid-exposure calibration removes perfect refill adherence.
-  No AE retention benefit or extra rescue redosing haircut was introduced.
-  Calendar dates, BRAIN royalties, operating costs, tax and cash requirements
-  now enter valuation. Geography distinguishes demand from recognized revenue.
-  Constant acquisition hazards, re-entry, other prevention migration and flat
-  post-patent pricing have quantified stresses. The 50/50 PxQ blend remains.
-
-The three issues the team must defend:
-  1. Reachable patients and capture: 10,000 is a broad diagnosed proxy. IR10%
-     annual capture produces about36% of Ekterly’s first-eight-month forms.
-     Raising IR capture to the first-mover challenge changes target value from
-     $21.50 to $37.06; that possibility cannot be ruled out by entry order.
-  2. Durable paid use and price: IR8/14 doses use different source denominators;
-     IR90% continuation and XR90% mature retention remain assumptions. Net
-     discounts are not public contract data. Test access/price packages together.
-  3. Commercial spending and capital: the working both-success plan needs about
-     $336m net funding in2027–28, before positive annual FCF in2030. Budgets are
-     comparator-supported judgments. A20% fixed-cost change moves target value
-     across $17.67–$25.69.
-
-Useful structural results:
-  Halving capture after year5: $17.10 target.
-  Re-entry stress: $21.80; other-prevention migration: $21.07.
-  All foreign business licensed at assumed20% royalty: $17.99.
-  Flat post-generic price cap: $21.08.
-  These are underwriting scenarios, not measured probabilities or additive effects.
-
-Remaining choices, already parameterized:
-  Select commercial priors and dependence cases before running Monte Carlo.
-  Select a foreign route and commercial budget. The dated funding table uses
-  a hypothetical$25 issue price; post-target DCF instead assumes fair issuance
-  and charges funding fees. If discounted future placements are central to the
-  thesis, add an explicit ownership-event model; do not double-count dilution.
-  Choose buyer savings, integration/cannibalization, negotiated consideration
-  and conditional completion probability as separate acquisition assumptions.
-  Current public evidence supports strategic plausibility, not a high verified
-  PHVS-specific takeover probability.
-
-Validation and scope:
-  Run engine.py, analyze.py and validate.py as specified in README.txt.
-  Source checks, benchmark calibration and arithmetic tests are distinguished.
-  The forecast is an economic pro forma, not a full IFRS consolidation. Historical
-  financials remain reported EUR; future costs assume cash compensation instead
-  of unmodeled future share grants. No historical tax-loss asset is fabricated.
-  No proprietary transcript or broker formula is needed to reproduce the model.
-  No Excel, deck, outreach, paid data or research agents were used in this pass.
+Audit fixes and evidence:MODEL_AUDIT.txt/audit_findings.json/assumptions_audit.json.
+Current inputs:inputs.json; proposed sampler:monte_carlo_priors.json/mc_prepare.py.
+Tests:validation.json, mc_preflight_results.json. Reproduce usingREADME.txt.
+The research favors testing a short, not forcing simulations to support it.

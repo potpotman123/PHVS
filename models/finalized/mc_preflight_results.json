@@ -1,0 +1,390 @@
+{
+  "as_of": "2026-10-09",
+  "status": "Passed bounded preflight only; no investment distribution estimated.",
+  "checks_passed": 72,
+  "checks": [
+    "No unknown sampler inputs",
+    "No overlapping sampled and hard-fixed parameters",
+    "population prior within recorded underwriting bounds",
+    "population endpoints",
+    "growth prior within recorded underwriting bounds",
+    "growth endpoints",
+    "category_switch prior within recorded underwriting bounds",
+    "category_switch endpoints",
+    "oral_launch_share prior within recorded underwriting bounds",
+    "oral_launch_share endpoints",
+    "choice_months prior within recorded underwriting bounds",
+    "choice_months endpoints",
+    "oral_destination_capture prior within recorded underwriting bounds",
+    "oral_destination_capture endpoints",
+    "prevention_oral_preference prior within recorded underwriting bounds",
+    "prevention_oral_preference endpoints",
+    "untreated_xr_reach prior within recorded underwriting bounds",
+    "untreated_xr_reach endpoints",
+    "ir_injectable_opportunity prior within recorded underwriting bounds",
+    "ir_injectable_opportunity endpoints",
+    "ir_no_rescue_opportunity prior within recorded underwriting bounds",
+    "ir_no_rescue_opportunity endpoints",
+    "ir_oral_switch_relative prior within recorded underwriting bounds",
+    "ir_oral_switch_relative endpoints",
+    "switch_mature_multiplier prior within recorded underwriting bounds",
+    "switch_mature_multiplier endpoints",
+    "ekterly_future_forms prior within recorded underwriting bounds",
+    "ekterly_future_forms endpoints",
+    "ekterly_paid_conversion prior within recorded underwriting bounds",
+    "ekterly_paid_conversion endpoints",
+    "ekterly_continuation prior within recorded underwriting bounds",
+    "ekterly_continuation endpoints",
+    "ekterly_unique_fraction prior within recorded underwriting bounds",
+    "ekterly_unique_fraction endpoints",
+    "xr_first_retention prior within recorded underwriting bounds",
+    "xr_first_retention endpoints",
+    "xr_mature_retention prior within recorded underwriting bounds",
+    "xr_mature_retention endpoints",
+    "ir_retention prior within recorded underwriting bounds",
+    "ir_retention endpoints",
+    "ir_doses_ltp prior within recorded underwriting bounds",
+    "ir_doses_ltp endpoints",
+    "ir_doses_other prior within recorded underwriting bounds",
+    "ir_doses_other endpoints",
+    "dual_use prior within recorded underwriting bounds",
+    "dual_use endpoints",
+    "xr_paid_intensity prior within recorded underwriting bounds",
+    "xr_paid_intensity endpoints",
+    "ir_exus_ratio prior within recorded underwriting bounds",
+    "ir_exus_ratio endpoints",
+    "xr_exus_ratio prior within recorded underwriting bounds",
+    "xr_exus_ratio endpoints",
+    "exus_lag prior within recorded underwriting bounds",
+    "exus_lag endpoints",
+    "exus_phase prior within recorded underwriting bounds",
+    "exus_phase endpoints",
+    "cost_scale prior within recorded underwriting bounds",
+    "cost_scale endpoints",
+    "Zero volatility resolves to deterministic working inputs",
+    "Zero volatility reproduces current working target",
+    "Seeded draws reproducible",
+    "Boundary 0.0/working: conservation and finite revenue",
+    "Boundary 0.0/rebate_for_access: conservation and finite revenue",
+    "Boundary 0.0/restricted_high_net: conservation and finite revenue",
+    "Boundary 1.0/working: conservation and finite revenue",
+    "Boundary 1.0/rebate_for_access: conservation and finite revenue",
+    "Boundary 1.0/restricted_high_net: conservation and finite revenue",
+    "128 seeded draws x2dependence modes preserve joint-stock capacity and probabilities",
+    "Financial smoke draw0: state weights and finite equity",
+    "Financial smoke draw1: state weights and finite equity",
+    "Financial smoke draw2: state weights and finite equity",
+    "Financial smoke draw3: state weights and finite equity"
+  ],
+  "boundary_cases": [
+    {
+      "quantile_endpoint": 0.0,
+      "access": "working",
+      "max_population_error": 1.3642420526593924e-12
+    },
+    {
+      "quantile_endpoint": 0.0,
+      "access": "rebate_for_access",
+      "max_population_error": 1.8189894035458565e-12
+    },
+    {
+      "quantile_endpoint": 0.0,
+      "access": "restricted_high_net",
+      "max_population_error": 1.1368683772161603e-12
+    },
+    {
+      "quantile_endpoint": 1.0,
+      "access": "working",
+      "max_population_error": 1.8189894035458565e-12
+    },
+    {
+      "quantile_endpoint": 1.0,
+      "access": "rebate_for_access",
+      "max_population_error": 2.2737367544323206e-12
+    },
+    {
+      "quantile_endpoint": 1.0,
+      "access": "restricted_high_net",
+      "max_population_error": 2.2737367544323206e-12
+    }
+  ],
+  "zero_volatility_target": 28.311616928946084,
+  "zero_volatility_runtime_seconds": 0.26675825000000003,
+  "financial_smoke_draws": [
+    {
+      "draw_id": 0,
+      "overrides": {
+        "ir_quantity_multiplier": 0.8478260869565217,
+        "ir_price_multiplier": 1.0,
+        "xr_price_multiplier": 1.0,
+        "oral_mature_share": 0.6,
+        "segmented_adoption": true,
+        "hazard_year6_multiplier": 1.0,
+        "population": 11042.447618952381,
+        "growth": 0.01688253650512848,
+        "category_switch": 0.17806671998849766,
+        "oral_launch_share": 0.42150442779532876,
+        "choice_months": 47,
+        "oral_destination_capture": 0.6585336635919177,
+        "prevention_oral_preference": 0.5188793087035222,
+        "untreated_xr_reach": 0.4068060086345453,
+        "ir_injectable_opportunity": 0.9854338433887054,
+        "ir_no_rescue_opportunity": 0.2658829118930804,
+        "ir_oral_switch_relative": 0.9235374891322817,
+        "switch_mature_multiplier": 0.7363269324441594,
+        "ekterly_future_forms": 188.96934745377663,
+        "ekterly_paid_conversion": 0.7862096704139577,
+        "ekterly_continuation": 0.8923495287186309,
+        "ekterly_unique_fraction": 0.9811175132123316,
+        "xr_first_retention": 0.6929142633980313,
+        "xr_mature_retention": 0.9052621249628786,
+        "ir_retention": 0.9127788274943226,
+        "ir_doses_ltp": 9.67458490533921,
+        "ir_doses_other": 11.289422409114158,
+        "dual_use": 0.1378295712963427,
+        "xr_paid_intensity": 0.9177998792241824,
+        "ir_exus_ratio": 0.1351435350984398,
+        "xr_exus_ratio": 0.36564849158462864,
+        "exus_lag": 12,
+        "exus_phase": 55,
+        "cost_scale": 0.9283559266976364,
+        "conversion": 0.8,
+        "delay": 1,
+        "xr_net_fraction": 0.66,
+        "ir_net_fraction": 0.84
+      },
+      "elapsed_seconds": 0.26349625,
+      "expected_target": 33.5657508558041,
+      "clinical_outcomes": [
+        {
+          "clinical_state": "both",
+          "probability": 0.8526315789473685,
+          "target_price": 37.21991257189103
+        },
+        {
+          "clinical_state": "IR_only",
+          "probability": 0.047368421052631504,
+          "target_price": 15.761650480179577
+        },
+        {
+          "clinical_state": "XR_only",
+          "probability": 0.047368421052631504,
+          "target_price": 21.45178618038663
+        },
+        {
+          "clinical_state": "neither",
+          "probability": 0.052631578947368474,
+          "target_price": 1.2945896011335059
+        }
+      ]
+    },
+    {
+      "draw_id": 1,
+      "overrides": {
+        "ir_quantity_multiplier": 0.8478260869565217,
+        "ir_price_multiplier": 1.0,
+        "xr_price_multiplier": 1.0,
+        "oral_mature_share": 0.6,
+        "segmented_adoption": true,
+        "hazard_year6_multiplier": 1.0,
+        "population": 11110.682171874108,
+        "growth": 0.026012483113356875,
+        "category_switch": 0.1422727746750735,
+        "oral_launch_share": 0.42440846791869224,
+        "choice_months": 52,
+        "oral_destination_capture": 0.5421247487812834,
+        "prevention_oral_preference": 0.5211095185444046,
+        "untreated_xr_reach": 0.5296523937371892,
+        "ir_injectable_opportunity": 1.0106172225129368,
+        "ir_no_rescue_opportunity": 0.17761399116080864,
+        "ir_oral_switch_relative": 1.06617296795464,
+        "switch_mature_multiplier": 0.8961815467989395,
+        "ekterly_future_forms": 167.44515497032575,
+        "ekterly_paid_conversion": 0.7755328618721113,
+        "ekterly_continuation": 0.8900445012653885,
+        "ekterly_unique_fraction": 0.9855141469233192,
+        "xr_first_retention": 0.6842629409438843,
+        "xr_mature_retention": 0.8405364523779224,
+        "ir_retention": 0.8841036197127375,
+        "ir_doses_ltp": 7.270220001598571,
+        "ir_doses_other": 16.13166987471924,
+        "dual_use": 0.5003682015853906,
+        "xr_paid_intensity": 0.9270036832623813,
+        "ir_exus_ratio": 0.24365719842575254,
+        "xr_exus_ratio": 0.3791832893916883,
+        "exus_lag": 18,
+        "exus_phase": 51,
+        "cost_scale": 1.0424750011302482,
+        "conversion": 0.8,
+        "delay": 1,
+        "xr_net_fraction": 0.66,
+        "ir_net_fraction": 0.84
+      },
+      "elapsed_seconds": 0.29140849999999996,
+      "expected_target": 28.919050391306598,
+      "clinical_outcomes": [
+        {
+          "clinical_state": "both",
+          "probability": 0.8526315789473685,
+          "target_price": 32.19605244101401
+        },
+        {
+          "clinical_state": "IR_only",
+          "probability": 0.047368421052631504,
+          "target_price": 15.572748457691434
+        },
+        {
+          "clinical_state": "XR_only",
+          "probability": 0.047368421052631504,
+          "target_price": 14.595889229613789
+        },
+        {
+          "clinical_state": "neither",
+          "probability": 0.052631578947368474,
+          "target_price": 0.7341339718237346
+        }
+      ]
+    },
+    {
+      "draw_id": 2,
+      "overrides": {
+        "ir_quantity_multiplier": 0.8478260869565217,
+        "ir_price_multiplier": 1.0,
+        "xr_price_multiplier": 1.0,
+        "oral_mature_share": 0.6,
+        "segmented_adoption": true,
+        "hazard_year6_multiplier": 1.0,
+        "population": 9296.16977462122,
+        "growth": 0.013649219135986034,
+        "category_switch": 0.14458107471359705,
+        "oral_launch_share": 0.4101712239883085,
+        "choice_months": 53,
+        "oral_destination_capture": 0.6862772997323552,
+        "prevention_oral_preference": 0.5596736274859313,
+        "untreated_xr_reach": 0.42687176756595263,
+        "ir_injectable_opportunity": 0.9211462936748726,
+        "ir_no_rescue_opportunity": 0.11398527720531383,
+        "ir_oral_switch_relative": 0.8373154872211002,
+        "switch_mature_multiplier": 0.9777370534404595,
+        "ekterly_future_forms": 197.14621419254559,
+        "ekterly_paid_conversion": 0.763065545829881,
+        "ekterly_continuation": 0.8914968854860297,
+        "ekterly_unique_fraction": 0.9788448807921406,
+        "xr_first_retention": 0.6315276074435399,
+        "xr_mature_retention": 0.9095517195022604,
+        "ir_retention": 0.8501238321026808,
+        "ir_doses_ltp": 7.292839968910957,
+        "ir_doses_other": 12.70218088648559,
+        "dual_use": 0.7109722978436375,
+        "xr_paid_intensity": 0.9225905009881669,
+        "ir_exus_ratio": 0.22464293758913512,
+        "xr_exus_ratio": 0.4526362133210882,
+        "exus_lag": 9,
+        "exus_phase": 54,
+        "cost_scale": 1.1319094362392537,
+        "conversion": 0.8,
+        "delay": 1,
+        "xr_net_fraction": 0.66,
+        "ir_net_fraction": 0.84
+      },
+      "elapsed_seconds": 0.29502958300000004,
+      "expected_target": 18.415075306069085,
+      "clinical_outcomes": [
+        {
+          "clinical_state": "both",
+          "probability": 0.8526315789473685,
+          "target_price": 20.664827430199683
+        },
+        {
+          "clinical_state": "IR_only",
+          "probability": 0.047368421052631504,
+          "target_price": 2.6430859597906147
+        },
+        {
+          "clinical_state": "XR_only",
+          "probability": 0.047368421052631504,
+          "target_price": 13.627145294093072
+        },
+        {
+          "clinical_state": "neither",
+          "probability": 0.052631578947368474,
+          "target_price": 0.4730183175823676
+        }
+      ]
+    },
+    {
+      "draw_id": 3,
+      "overrides": {
+        "ir_quantity_multiplier": 0.8478260869565217,
+        "ir_price_multiplier": 1.0,
+        "xr_price_multiplier": 1.0,
+        "oral_mature_share": 0.6,
+        "segmented_adoption": true,
+        "hazard_year6_multiplier": 1.0,
+        "population": 10524.79130524745,
+        "growth": 0.021413511234489875,
+        "category_switch": 0.16156474151963557,
+        "oral_launch_share": 0.5417239333308491,
+        "choice_months": 69,
+        "oral_destination_capture": 0.6611896926430328,
+        "prevention_oral_preference": 0.5524262268108289,
+        "untreated_xr_reach": 0.5511361701335538,
+        "ir_injectable_opportunity": 1.0249820468302966,
+        "ir_no_rescue_opportunity": 0.16074729874880422,
+        "ir_oral_switch_relative": 0.8811576250707398,
+        "switch_mature_multiplier": 0.7250281178840046,
+        "ekterly_future_forms": 222.71806467990126,
+        "ekterly_paid_conversion": 0.7979079779743847,
+        "ekterly_continuation": 0.8996029015600797,
+        "ekterly_unique_fraction": 0.9884677127056133,
+        "xr_first_retention": 0.6926343938461672,
+        "xr_mature_retention": 0.8732202669420208,
+        "ir_retention": 0.9034723437691855,
+        "ir_doses_ltp": 11.0282041509824,
+        "ir_doses_other": 14.334331429351291,
+        "dual_use": 0.3994763859955295,
+        "xr_paid_intensity": 0.9609916918608362,
+        "ir_exus_ratio": 0.22724707921311177,
+        "xr_exus_ratio": 0.29628231085365025,
+        "exus_lag": 16,
+        "exus_phase": 58,
+        "cost_scale": 0.9144498547192158,
+        "conversion": 0.8,
+        "delay": 1,
+        "xr_net_fraction": 0.66,
+        "ir_net_fraction": 0.84
+      },
+      "elapsed_seconds": 0.295284667,
+      "expected_target": 36.34130746816232,
+      "clinical_outcomes": [
+        {
+          "clinical_state": "both",
+          "probability": 0.8526315789473685,
+          "target_price": 40.326221236546125
+        },
+        {
+          "clinical_state": "IR_only",
+          "probability": 0.047368421052631504,
+          "target_price": 19.81742189528354
+        },
+        {
+          "clinical_state": "XR_only",
+          "probability": 0.047368421052631504,
+          "target_price": 20.07096027577889
+        },
+        {
+          "clinical_state": "neither",
+          "probability": 0.052631578947368474,
+          "target_price": 1.300513909080625
+        }
+      ]
+    }
+  ],
+  "sha256": {
+    "inputs.json": "e08bd37fe820e5d7263d1cc7a29a0e1246c2fb518a300637ce04d703caa875f7",
+    "engine.py": "9aac9e988fc754bd75e028afffab575cb139262b80e4c5703b7636be1cc99022",
+    "segmented_adoption.py": "11847f677d59989c50622665611a62c35d20aaa1b7a86ae190a4fb6be3191c35",
+    "monte_carlo_priors.json": "4c78a96a08260ac6093773a380cf1aacd9bc1e0e9a5fafaa0ab975f210cb8065",
+    "mc_prepare.py": "1d14e213f85c3f5838142f57d91cac182042681619edc5471121bd1efdb07db7"
+  }
+}

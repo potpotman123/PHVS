@@ -1,0 +1,166 @@
+PHVS — HANDOFF TO THE STANDALONE MONTE CARLO AGENT
+As of 9 October 2026. Repository: https://github.com/potpotman123/PHVS
+
+OBJECTIVE AND USER DECISIONS
+We are preparing a SHORT pitch based on standalone commercial economics.
+Your job is to quantify sensitivity honestly, not choose priors to guarantee a short.
+The user has explicitly removed acquisition from the assignment. Do not implement
+buyer synergies, bid probabilities, an acquisition branch, or an acquisition premium.
+The user wants YOU to build/run Monte Carlo. This handoff includes audited inputs,
+a calculation engine, a sampler scaffold, and small implementation checks only.
+There is no production Monte Carlo distribution to quote yet.
+
+Mandatory constants in every active case and draw:
+  IR redosing quantity multiplier = 1.17/1.38 = 0.8478260869565217.
+  IR and XR efficacy pricing multipliers = 1.0.
+  Mature PHVS share of the modeled oral pair = 60%, including bearish launches.
+  Segmented acquisition enabled. Use the working case as the draw baseline.
+Do not introduce a no-redosing case. Archived numbers are provenance only.
+Normal net-rebate uncertainty in named access packages is distinct from an
+extra clinical-efficacy price multiplier. Report packages separately.
+
+WHAT HAPPENED
+1. Old blended rates produced a $21.50 expected 12-month value per share.
+2. Source-specific acquisition and improving choice shares raised that value
+   to $31.70. This was an adoption change; neither case had a pricing premium.
+3. The user fixed the pivotal redosing stress in every active case. Current
+   expected 12-month value is $28.31; today's value is $25.83. No acquisition.
+4. A 13.8% PHVS extension redosing observation is historical clinical context,
+   not the active coefficient. The active comparison is 17% versus 38%.
+5. This audit corrected delayed-failure shutdown timing, isolated uncertainty
+   in transferring LTP switching to incumbent oral rescue, improved source IDs,
+   enforced fixed policies, and made mature-cohort calculation faster without
+   changing working cash flows. See MODEL_AUDIT.txt and audit_findings.json.
+
+READ IN THIS ORDER
+  1. MODEL_AUDIT.txt, assumptions_audit.json, INTEGRATION.txt.
+  2. inputs.json, sources.json, history.json; these are input authority.
+  3. ARCHITECTURE.txt, segmented_adoption.py, engine.py.
+  4. monte_carlo_priors.json, monte_carlo_spec.json, mc_prepare.py.
+  5. validation.json, mc_preflight_results.json, cohort_optimization_check.json.
+  6. EXCEL_SPEC.txt for a later workbook; do not use a broker spreadsheet.
+Previous calibration tables explain the research history. They are not a second
+live source of input values and may describe obsolete constant-choice scenarios.
+
+HOW THE PATIENT ENGINE WORKS
+One US population, 10,000 at July 2026, with 1.5% annual net growth in working.
+Four prevention origins (Orladeyo, other prevention, acute only, untreated) are
+crossed with primary rescue origins (Ekterly, injectable, none). Same population
+underlies both IR and XR; do not add their counts. Net growth enters once.
+Ekterly launch stock is projected from forms with assumed conversion, survival
+and unique-form fraction. It is not an observed active-patient count.
+Annualized source propensities derive from switching, route preference, choice
+and historical entrant-mix assumptions. Convert to monthly probabilities once.
+Pending access, unsuccessful attempts, retry cooldown, active and retired users
+conserve the original joint stock. Retention starts from paid activation.
+Oral choice rises from 40% at working launch to 60% after 60 months; cautious
+launch starts at25%, stronger at60%. Each product uses its own launch clock.
+Choice share is conditional on selecting an oral. It is not total market share.
+Annual opportunity can taper while choice improves; available pools also deplete.
+IR rescue quantity reflects prevention background and estimated XR overlap.
+Initial rescue stock is INSIDE the annual dose budget and is preserved when
+applying the fixed redosing multiplier. Do not apply another 15.2% haircut.
+
+FIRST IMPLEMENTATION STEPS
+Run, from the repo root with Python3 (standard library only):
+  python3 models/finalized/engine.py
+  python3 models/finalized/analyze.py
+  python3 models/finalized/validate.py
+  python3 models/finalized/mc_preflight.py
+The last command checks a few financial draws; it is not a production simulation.
+Reproduce the $28.3116169289 working expected target before adding a runner.
+Zero-volatility overrides must reproduce exactly the working resolved inputs.
+Use a module entrypoint guarded by if __name__ == '__main__' for worker processes.
+
+SAMPLING CONTRACT
+monte_carlo_priors.json specifies tentative triangular analyst priors. They are
+transparent choices over uncertainty, not empirical or clinical confidence intervals.
+The 28 sampled primitive inputs have recorded bounds, modes, sources and rationales.
+Everything else stays fixed unless selected as an explicitly named structural stratum.
+mc_prepare.draws generates stable seeded quantiles; overrides_at maps those to inputs.
+Keep the shared primitives shared. Never also sample their derived source rates,
+source-pool counts, final revenues, PDC and its derived paid-intensity factor, or
+an extra efficacy/adoption multiplier. Do not interpret a stock as a flow.
+The IR oral-switch transfer multiplier is separate because its LTP proxy is weak.
+First-year XR retention's mode is its upper bound69.45%; its prior mean will be
+lower. The deterministic working case need not equal the Monte Carlo mean/median.
+Do not silently recenter distributions to recover a preferred price target.
+
+ACCESS, DEPENDENCE AND STRUCTURE
+Primary run: working access package, primary structure, primitive-independent
+quantiles. Shared inputs and derived formulas still create material dependence.
+Then use identical quantiles/common random numbers for rebate-for-access and
+restricted-high-net packages. Do not weight them into a combined result without
+explicit analyst weights and rationale. Never select their favorable endpoints
+independently and call that a coherent package.
+An alternative commercial-rank-linked mode uses one quantile for selected demand
+inputs. This is an upper-dependence stress, not an estimated correlation matrix.
+Structural alternatives include delay, LOE timing, foreign licensing, initial
+free stock, re-entry and rescue mix. Start one at a time, not a full Cartesian grid.
+Do not independently sample both switch_mature_multiplier and the obsolete
+hazard_year6_multiplier. The latter is fixed1 in the primary sampler.
+
+CLINICAL RISK: TWO DIFFERENT OUTPUTS
+Keep current IR/XR marginal PoS90%, shared gate95% in primary. For EACH commercial
+draw, engine.evaluate gives four conditional clinical-state values and weights.
+A. Expected-value uncertainty: sum(weight * conditional value) within each draw,
+   then calculate quantiles of those expectations across commercial draws.
+B. Shareholder outcome distribution: each clinical state's price retains weight
+   state_probability / number_of_commercial_draws. Calculate a weighted CDF.
+Do NOT multiply state prices by PoS before outcome quantiles. Do NOT draw approval
+and then use the already risk-adjusted expectation as the terminal payoff.
+Both-success revenue forecasts are conditional and not risk-adjusted sales.
+At the 12-month target IR's decision is expected to have occurred; these are
+ex-ante target outcomes using today's beliefs, not a future posterior forecast.
+
+VALUATION AND FINANCING
+Monthly population and cash calculations feed an independent calendar DCF.
+No sell-side S-curve is imported. The funding plan uses a hypothetical$25 issue
+price; post-target valuation assumes fair funding and deducts financing costs.
+Do not divide DCF value by all future diagnostic shares: negative FCF already
+charges the capital need. Zero equity in bad scenarios is not proof that funding
+would remain available; report required capital alongside those outcomes.
+Keep the existing 50/50 post-LOE P x Q framework. Do not add an exit multiple on
+top. Prices, costs and shares use documented units and dates.
+
+REQUIRED OUTPUTS AND VALIDATION
+Record seed, priors, package/dependence label, code/input hashes, timing and draws.
+Save compact per-draw inputs, state values/weights, expected value, peak sales,
+IR/XR2030 revenue, and funding; do not save every monthly path for every draw.
+Report mean/median/p10/p90 separately for expected values and weighted outcomes.
+Show main input rank associations, clearly labelled as prior-dependent and not
+causal attribution. Use paired scenario differences to explain named mechanisms.
+Report sampling convergence using a fixed-seed prefix (e.g.256/512/1024 draws),
+and a second seed if tails are unstable. More draws cannot cure weak assumptions.
+Return/downside probabilities require a verified dated market-price benchmark;
+none is embedded here. Do not invent a current quote or claim statistical alpha.
+Test conservation, probability bounds, hard-fixed policies, clinical weight sums,
+source-to-total reconciliation, nonnegative quantities, cash/stock accounting,
+reproducibility, and the zero-volatility equivalence. Reject invalid draws with
+logged reasons; do not silently clip, hide failed draws, or redraw to get a short.
+
+COMPUTE BUDGET
+The engine aggregates mature cohorts exactly; the audit matched all four working
+state monthly outputs to the old engine within3e-12. Benchmark your own machine.
+Start a bounded64-draw pilot, then512. Expand only if convergence warrants it.
+No fresh browsing, prompt calls, or transcript retrieval inside a draw loop.
+Use modest process parallelism if useful. No paid data, bulk scrape or new agent
+fan-out is needed. Do not replace the engine with an approximate response surface
+without a held-out error audit.
+
+THESIS DISCIPLINE
+The intended short asks whether capture, durable paid use and dose economics
+support the valuation despite clinical differentiation. 54/46 prevention
+preference is a heterogeneous-choice observation, not a measured PHVS switch
+rate. The fixed redosing hypothesis lowers revenue/member; it does not prove
+that real paid dispensing will fall by exactly15.2%. The better-drug commercial
+allowances remain in retention and mature brand choice. Report long outcomes
+if the assumptions produce them; do not optimize the model toward the pitch.
+No acquisition material belongs in current outputs.
+
+PUSH / HANDOFF
+When you finish, update the GenAI process log, document differences from this
+snapshot, rerun checks, and commit/push the model artifacts. Keep source material
+and prior results as historical provenance. Do not upload unrelated attachments,
+node_modules, temporary renders, or licensed transcripts. The user has authorized
+this repository workflow; no new PR or new chat is required for these edits.

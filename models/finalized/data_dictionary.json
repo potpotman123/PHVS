@@ -1,7 +1,7 @@
 {
   "units_default": "USDmillions forfinancialamounts; actualpatientcounts anddoses; sharesmillions. Inputmetadata ininputs.json.",
   "outputs": {
-    "population": "End-month disease count; one shared universe, not additive byproduct.",
+    "population": "Shared monthly population after opening-month netgrowth; July2026 is the unchanged anchor. Held constant inside each monthly interval; never additive by product.",
     "xr_rx": "Prescription attempts this month; can recur after failed access.",
     "ir_rx": "Prescription attempts this month, not necessarily unique cumulative users.",
     "xr_starts": "New paid-access XR cohort activations this month.",
@@ -37,6 +37,8 @@
     "risk_adjusted_value_today": "Clinical-state-weighted sharevalue onvaluationdate; no acquisitionpremium.",
     "expected_12month_value": "Clinical-state-weighted sharevalue ontargetdate, conditional oncommercialcase.",
     "conditional_peak": "Maximum recognizedannualrevenue in explicit forecast assumingbothapprovals.",
-    "IR_free_units": "Unpaid initial doses after any post-generic volume erosion; no revenue, but manufacturing cost retained."
+    "IR_free_units": "Unpaid initial doses after any post-generic volume erosion; no revenue, but manufacturing cost retained.",
+    "*_rx_from_*": "Source-origin monthly prescription attempts; sum to product total. Fixed origins, not current competing regimen.",
+    "*_starts_from_*": "Source-origin monthly paid access starts, sum to product total."
   }
 }

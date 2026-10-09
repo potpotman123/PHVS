@@ -1,170 +1,200 @@
 [
   {
-    "parameter": "ir_rx",
-    "target_low": 14.036326845147466,
-    "target_high": 37.056150302684394,
-    "span": 23.01982345753693
+    "parameter": "switch_mature_multiplier",
+    "target_low": 17.38306086918105,
+    "target_high": 32.95116999019691,
+    "span": 15.568109121015858
+  },
+  {
+    "parameter": "category_switch",
+    "target_low": 20.066273113767583,
+    "target_high": 34.831342775027885,
+    "span": 14.765069661260302
   },
   {
     "parameter": "population",
-    "target_low": 16.087610339993525,
-    "target_high": 26.855674199774814,
-    "span": 10.76806385978129
-  },
-  {
-    "parameter": "conversion",
-    "target_low": 15.769249834049099,
-    "target_high": 25.063001206067284,
-    "span": 9.293751372018185
+    "target_low": 21.82394546975385,
+    "target_high": 34.77223010625485,
+    "span": 12.948284636501004
   },
   {
     "parameter": "xr_net_fraction",
-    "target_low": 16.921725422166602,
-    "target_high": 25.487253534538475,
-    "span": 8.565528112371872
+    "target_low": 22.634959045191135,
+    "target_high": 33.25707270852198,
+    "span": 10.622113663330847
   },
   {
-    "parameter": "cost_scale",
-    "target_low": 17.667325571236304,
-    "target_high": 25.69025820266523,
-    "span": 8.022932631428926
-  },
-  {
-    "parameter": "ir_retention",
-    "target_low": 16.977288440371275,
-    "target_high": 24.64728925510906,
-    "span": 7.6700008147377865
+    "parameter": "conversion",
+    "target_low": 21.84946603603377,
+    "target_high": 32.29909519541993,
+    "span": 10.44962915938616
   },
   {
     "parameter": "discount_rate",
-    "target_low": 17.458023186374323,
-    "target_high": 24.88249688929263,
-    "span": 7.424473702918306
+    "target_low": 23.02613332256426,
+    "target_high": 32.726779689443234,
+    "span": 9.700646366878974
   },
   {
-    "parameter": "ir_doses_ltp",
-    "target_low": 19.28164277239143,
-    "target_high": 25.69699558846196,
-    "span": 6.415352816070531
+    "parameter": "ir_retention",
+    "target_low": 23.231733791186414,
+    "target_high": 31.833887563287337,
+    "span": 8.602153772100923
   },
   {
-    "parameter": "xr_other_prevention",
-    "target_low": 18.265727487371628,
-    "target_high": 24.41350113417472,
-    "span": 6.147773646803092
+    "parameter": "cost_scale",
+    "target_low": 24.223916932304572,
+    "target_high": 32.80447176623207,
+    "span": 8.580554833927497
   },
   {
     "parameter": "growth",
-    "target_low": 18.67157298112625,
-    "target_high": 24.588355600492573,
-    "span": 5.916782619366323
+    "target_low": 24.8135814256652,
+    "target_high": 32.14189754486652,
+    "span": 7.328316119201318
   },
   {
     "parameter": "loe_year",
-    "target_low": 21.501399507276812,
-    "target_high": 27.233046848272416,
-    "span": 5.731647340995604
+    "target_low": 28.311616928946084,
+    "target_high": 35.560100573894374,
+    "span": 7.248483644948291
+  },
+  {
+    "parameter": "ir_doses_ltp",
+    "target_low": 26.06117512254589,
+    "target_high": 32.57328336234663,
+    "span": 6.512108239800739
+  },
+  {
+    "parameter": "oral_launch_share",
+    "target_low": 25.444168035936446,
+    "target_high": 31.944533003790855,
+    "span": 6.500364967854409
   },
   {
     "parameter": "xr_mature_retention",
-    "target_low": 18.347003398262537,
-    "target_high": 23.570548535270255,
-    "span": 5.223545137007719
+    "target_low": 24.488580635391482,
+    "target_high": 30.800565587070547,
+    "span": 6.311984951679065
   },
   {
-    "parameter": "ir_net_fraction",
-    "target_low": 18.646324078189302,
-    "target_high": 23.711083786524977,
-    "span": 5.064759708335675
-  },
-  {
-    "parameter": "xr_orladeyo",
-    "target_low": 18.80433962747073,
-    "target_high": 23.601473848225865,
-    "span": 4.797134220755137
+    "parameter": "oral_destination_capture",
+    "target_low": 25.058092290004932,
+    "target_high": 30.993305167001484,
+    "span": 5.935212876996552
   },
   {
     "parameter": "xr_exus_ratio",
-    "target_low": 20.45314324285652,
-    "target_high": 25.16594702438491,
-    "span": 4.71280378152839
+    "target_low": 27.00545730511499,
+    "target_high": 32.88258931871779,
+    "span": 5.8771320136028
+  },
+  {
+    "parameter": "ir_net_fraction",
+    "target_low": 25.129139743649848,
+    "target_high": 30.805393950852373,
+    "span": 5.6762542072025255
   },
   {
     "parameter": "ir_doses_other",
-    "target_low": 19.2250433423331,
-    "target_high": 23.767475691813342,
-    "span": 4.54243234948024
+    "target_low": 25.469763856445745,
+    "target_high": 31.145109774796683,
+    "span": 5.6753459183509385
   },
   {
-    "parameter": "xr_acute_only",
-    "target_low": 19.466363094682837,
-    "target_high": 23.333252688413655,
-    "span": 3.866889593730818
+    "parameter": "ir_oral_switch_relative",
+    "target_low": 26.086727026764088,
+    "target_high": 29.974662414630966,
+    "span": 3.8879353878668788
   },
   {
-    "parameter": "manufacture_rate",
-    "target_low": 19.741215002714394,
-    "target_high": 22.375831767267492,
-    "span": 2.6346167645530976
+    "parameter": "ir_injectable_opportunity",
+    "target_low": 26.34226510473238,
+    "target_high": 29.94993330281296,
+    "span": 3.607668198080578
   },
   {
     "parameter": "tax_rate",
-    "target_low": 20.15515056335148,
-    "target_high": 22.661868815148758,
-    "span": 2.5067182517972775
+    "target_low": 26.47690378575346,
+    "target_high": 29.892730171926377,
+    "span": 3.415826386172917
+  },
+  {
+    "parameter": "manufacture_rate",
+    "target_low": 26.227978590140868,
+    "target_high": 29.35543771279691,
+    "span": 3.1274591226560418
   },
   {
     "parameter": "ir_exus_ratio",
-    "target_low": 20.522744860429036,
-    "target_high": 22.968600727327555,
-    "span": 2.445855866898519
-  },
-  {
-    "parameter": "xr_paid_intensity",
-    "target_low": 20.987368424586496,
-    "target_high": 23.01932544916028,
-    "span": 2.031957024573785
+    "target_low": 27.199097467912058,
+    "target_high": 29.975625382730506,
+    "span": 2.7765279148184483
   },
   {
     "parameter": "xr_pos",
-    "target_low": 20.178356081219857,
-    "target_high": 22.16292122030529,
-    "span": 1.9845651390854329
+    "target_low": 26.533187941481327,
+    "target_high": 29.200831422678462,
+    "span": 2.6676434811971355
+  },
+  {
+    "parameter": "xr_paid_intensity",
+    "target_low": 27.675582352423763,
+    "target_high": 30.196739309417833,
+    "span": 2.5211569569940693
+  },
+  {
+    "parameter": "ir_no_rescue_opportunity",
+    "target_low": 26.97425039107479,
+    "target_high": 29.36292069853376,
+    "span": 2.3886703074589697
   },
   {
     "parameter": "ir_pos",
-    "target_low": 20.18080810965923,
-    "target_high": 22.1616952060856,
-    "span": 1.9808870964263683
+    "target_low": 26.792522668551893,
+    "target_high": 29.07116405914318,
+    "span": 2.278641390591286
   },
   {
     "parameter": "xr_first_retention",
-    "target_low": 19.65127067091274,
-    "target_high": 21.501399507276812,
-    "span": 1.850128836364071
+    "target_low": 26.036082830279806,
+    "target_high": 28.311616928946084,
+    "span": 2.2755340986662773
   },
   {
     "parameter": "dual_use",
-    "target_low": 20.83494353907489,
-    "target_high": 22.16766010989234,
-    "span": 1.3327165708174498
+    "target_low": 27.441197215338626,
+    "target_high": 29.181923721021548,
+    "span": 1.7407265056829218
   },
   {
     "parameter": "license_rate",
-    "target_low": 20.621513334839076,
-    "target_high": 21.936003713392704,
-    "span": 1.3144903785536286
+    "target_low": 27.267389943357205,
+    "target_high": 28.833672594863835,
+    "span": 1.5662826515066293
+  },
+  {
+    "parameter": "untreated_xr_reach",
+    "target_low": 27.59387149127946,
+    "target_high": 28.985104508296924,
+    "span": 1.3912330170174627
   },
   {
     "parameter": "issue_price",
-    "target_low": 20.839771623706007,
-    "target_high": 21.89287119568937,
-    "span": 1.0530995719833633
+    "target_low": 27.447110640086635,
+    "target_high": 28.82301488662426,
+    "span": 1.375904246537626
   },
   {
     "parameter": "nwc_fraction",
-    "target_low": 21.131681637005762,
-    "target_high": 21.743665544242,
-    "span": 0.6119839072362367
+    "target_low": 27.867459474747086,
+    "target_high": 28.612138622349264,
+    "span": 0.7446791476021772
+  },
+  {
+    "parameter": "ekterly_future_forms",
+    "target_low": 28.171663758824987,
+    "target_high": 28.533607423351096,
+    "span": 0.36194366452610893
   }
 ]

@@ -1,13 +1,15 @@
 {
   "as_of": "2026-10-09",
-  "passed": 133,
+  "passed": 152,
   "failed": 0,
   "sha256": {
-    "inputs.json": "46e0e350c3a19097b62729e43bb51c6b0c068b726accbaf06b29a1dfcf858a6c",
+    "inputs.json": "e08bd37fe820e5d7263d1cc7a29a0e1246c2fb518a300637ce04d703caa875f7",
     "history.json": "ffc2d30b142873a0cea3e6debabf9af3ba92dbf67c02af1804e7c673630b8273",
-    "sources.json": "68dbb1e4f02db24f5b7a9ad3a42ebec8bc6dd11fa8abab1db1d031c03597b117",
-    "engine.py": "2f99dcb979a749e4a18d82b2a1636dd295cc5737d8a6e601820349f012b0d731",
-    "analyze.py": "ac0147e75371e822215cd94bd0147dcb15c9c14452d8efb22eec8b66e37362ef"
+    "sources.json": "b59064570580decfad1c4a62ed98275be37f58b749b428ed037db094146c5ebb",
+    "engine.py": "9aac9e988fc754bd75e028afffab575cb139262b80e4c5703b7636be1cc99022",
+    "segmented_adoption.py": "11847f677d59989c50622665611a62c35d20aaa1b7a86ae190a4fb6be3191c35",
+    "analyze.py": "b84fbd73ac4a5c23df29320fe226b41275d8af96f0a11e2d26dce80337385cef",
+    "validate.py": "0d8144b868aced66708c46ad887fd54f11b08dcc7ef7d258400af713096b31dc"
   },
   "tests": [
     {
@@ -619,36 +621,6 @@
       "detail": ""
     },
     {
-      "test": "Acquisition replaces standalone value",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "test": "Failed completion uses standalone outcome",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "test": "Later deal discounted to target",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "test": "Earlier cash does not automatically earn equity WACC",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "test": "Buyer value differs from negotiated consideration",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "test": "Negative net synergy does not support an acceptable reservation-price bid",
-      "passed": true,
-      "detail": ""
-    },
-    {
       "test": "Dose-price increase increases value",
       "passed": true,
       "detail": ""
@@ -675,6 +647,131 @@
     },
     {
       "test": "No canonical input cites licensed files",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Working applies pivotal redosing stress once",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No efficacy price premium in any configured case",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Joint baseline stock conserves population",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Joint stock row orladeyo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Joint stock row other_prevention",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Joint stock row acute_only",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Joint stock row diagnosed_untreated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Projected Ekterly launch stock matches separate calibration",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "working oral choice reaches60% bymonth60",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "cautious oral choice reaches60% bymonth60",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "upside_challenge oral choice reaches60% bymonth60",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Working launch oral choice40%",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "XR incumbent oral is all-destination capture",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "XR injectable formula matches independent arithmetic",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "IR injectable uses forms normalization without second access adjustment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source rates independent of actual paid conversion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Source Rx and paid starts reconcile to totals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Population grows once from its dated anchor",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Every active case has the same redosing discount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Every active sensitivity retains the redosing discount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Engine rejects forecasts without the selected discount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Both-fail shutdown follows latest delayed decision",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "IR transfer uncertainty leaves XR unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "IR transfer uncertainty isolates incumbent oral origin",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Engine rejects efficacy price-premium forecasts",
       "passed": true,
       "detail": ""
     }

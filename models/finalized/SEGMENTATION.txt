@@ -1,0 +1,63 @@
+PATIENT ORIGIN AND MOTIVATION SEGMENTATION — 9 October 2026
+
+Purpose: replace blanket second-oral acquisition discounts with distinct patient
+transitions. Read segmentation_spec.json and the linked switching evidence bridge.
+This is the current segmentation design, not a recalibrated revenue forecast.
+
+XR
+1. Current Orladeyo (inherited1,700): meaningful control problems / remaining users.
+   Same oral route: no convenience uplift from changing pill to pill. Better control
+   is the primary proposed differentiator; adverse-event superiority is not assumed.
+2. Injectable prevention: meaningful control problems / remaining users. Draw from
+   inherited4,080other-prevention pool, which also contains older therapies.
+   Equal-efficacy survey54%oral versus46%injection supports heterogeneous preferences,
+   not an automatic oral advantage, annualswitching rate or54%addressable-pool carveout.
+3. Older prevention: mutually exclusive remainder within4,080, if separately sized.
+4. Rescue-only (2,720): initiation of prevention based on burden and preference.
+5. Diagnosed untreated (1,500): first treatment selection, conditional on suitability.
+These counts are existing assumptions; within-pool splits remain unknown.
+
+IR
+Primary injectable rescue / primary Ekterly rescue / no current rescue.
+Cross these with preventive background; do not add them to XR people.
+Injectable-to-oral and oral-to-oral are different motivations. The survey84%oral
+rescue preference supports the former, not the latter. The54/46prevention survey
+must not be transferred to rescue. Backup rescue possession is not another patient.
+
+EVIDENCE TRANSLATION
+Claims50/328switchers establish a mixed-initiator any-LTP-switch benchmark, not
+PHVS-specific demand. Higher pre-index rescue dispensing among later switchers
+supports burden-sensitive acquisition, without identifying its magnitude.
+OASISplus includes controlled patients who chose to switch; dissatisfaction cannot
+be the only entry route. The11formerOrladeyo participants are selected switchers,
+not an estimate of dissatisfied users in the national installed base.
+Expert calls distinguish control, administration preference and office/access
+friction. Their percentages have no shared horizon/denominator and are not averaged.
+Berolife13/80efficacy cessations among starters inform retention mechanisms, not
+16.25%poorcontrol prevalence among continuingOrladeyo users.
+
+FORMULAS AND ACCESS
+Per source group: available people x monthly prescription probability -> attempts;
+then paid conversion and delay -> paid starters -> retention/quantity -> revenue.
+Use one mutually exclusive control-status partition; avoid stacking preference,
+dissatisfaction and historical switching percentages from unrelated populations.
+Maintain80%paidconversion and1monthdelay as shared provisional assumptions. Route
+preference is not a coverage adjustment. Historical filled-switch rates include access.
+Net population growth remains1.5%; newly diagnosed patients are not added twice.
+
+IMPLEMENTATION STATUS
+segmentation_spec.json records the groups, motivating evidence, boundaries and
+unknown fields. engine.py still runs legacy blended acquisition. Existing price
+targets must be labeled legacy sensitivities pending subgroup calibration; they
+are not outputs of this new structure. No numerical subgroup sizes, capture rates,
+or taper coefficients were invented in this update.
+
+FIRST NUMERIC CALIBRATION: INJECTABLE_XR_CALIBRATION.txt and
+injectable_xr_calibration.json propose4.939%annualcompletedstarts frominjectables
+(2.70-7.56%scenarios),using15.24%historicalswitch x54%oral x60%PHVSoralshare.
+This bridges motivations without inventing poorcontrol subgroupcounts. Not yet
+wiredintoengine; static equivalent6.174%Rx at80%paidconversion.
+
+ALL-GROUP NUMERIC BRIDGES: adoption_calibration/README.txt, provenance.json,
+results.json and build.py now provide practical scenarios for every origin group.
+These supplement segmentation_spec.json; no full-engine integration yet.

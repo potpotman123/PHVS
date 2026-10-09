@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-09",
+  "findings": [
+    {
+      "id": "F01",
+      "status": "fixed",
+      "title": "Delayed failure liquidation",
+      "resolution": "Shutdown now follows latest delayed regulatory decision plus winddown."
+    },
+    {
+      "id": "F02",
+      "status": "fixed",
+      "title": "Forced LTP/IR switching transfer",
+      "resolution": "Added independent IRtransfer factor, working1;0.5-1.5underwriting range."
+    },
+    {
+      "id": "F03",
+      "status": "fixed",
+      "title": "Source granularity",
+      "resolution": "Source IDs improved and exact patient-mix deck cited."
+    },
+    {
+      "id": "F04",
+      "status": "fixed",
+      "title": "Scenario policy and invalid input control",
+      "resolution": "Reject absentredosing, efficacypricepremium, changed60%matureshare, unknowninputs and invalidprobabilities."
+    },
+    {
+      "id": "F05",
+      "status": "fixed",
+      "title": "Repeated maturecohort work",
+      "resolution": "Exact aggregation, equivalence within3e-12; benchmark in preflight."
+    },
+    {
+      "id": "F06",
+      "status": "retired",
+      "title": "Acquisition",
+      "resolution": "Removed canonical parameter/functions/tests and active specification; userremovedscope."
+    },
+    {
+      "id": "F07",
+      "status": "disclosed",
+      "title": "Weak evidence transfer",
+      "resolution": "No new measuredswitch/retention/access denominator; ranges remain analystpriors."
+    },
+    {
+      "id": "F08",
+      "status": "disclosed",
+      "title": "Fixed origin/midpoint overlap",
+      "resolution": "No explicit competitor-to-competitor flow or measuredcross-tab; aggregate approximation."
+    },
+    {
+      "id": "F09",
+      "status": "disclosed",
+      "title": "Redosing baseline mismatch",
+      "resolution": "Claims dose budgets not an Ekterlyattack baseline; fixed userhypothesis disclosed."
+    },
+    {
+      "id": "F10",
+      "status": "prepared",
+      "title": "MC outcome versus expectedvalue",
+      "resolution": "Documented exactstate enumeration, weightedCDF, no doublePoShaircut, zero-volatility check."
+    }
+  ],
+  "valuation_effect": "Working unchanged$28.3116169289; delayed-regulatory-failure branch corrected in delay scenarios.",
+  "open_mechanical_blockers": [],
+  "production_monte_carlo": "Not run. User assigns simulation to separate agent."
+}

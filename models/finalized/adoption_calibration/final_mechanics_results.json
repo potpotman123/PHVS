@@ -1,0 +1,894 @@
+{
+  "as_of": "2026-10-09",
+  "PHVS_IR_launch": "2027-05",
+  "stocks": {
+    "lower_Ekterly": {
+      "assumptions": {
+        "future_forms_monthly": 100.0,
+        "paid_conversion": 0.65,
+        "annual_continuation": 0.8,
+        "unique_form_fraction": 0.9
+      },
+      "launch_mix": {
+        "population": 10124.844654122362,
+        "prevention_pools": {
+          "orladeyo": 1721.2235912008016,
+          "other_prevention": 4130.936618881924,
+          "acute_only": 2753.9577459212824,
+          "diagnosed_untreated": 1518.7266981183543
+        },
+        "rescue_pools": {
+          "Ekterly": 1412.521430437259,
+          "injectable_rescue": 7193.596525566749,
+          "no_current_rescue": 1518.7266981183543
+        },
+        "joint_cells": {
+          "orladeyo": {
+            "Ekterly": 282.50428608745176,
+            "injectable_rescue": 1438.71930511335,
+            "no_current_rescue": 0.0
+          },
+          "other_prevention": {
+            "Ekterly": 678.0102866098842,
+            "injectable_rescue": 3452.92633227204,
+            "no_current_rescue": 0.0
+          },
+          "acute_only": {
+            "Ekterly": 452.0068577399228,
+            "injectable_rescue": 2301.9508881813595,
+            "no_current_rescue": 0.0
+          },
+          "diagnosed_untreated": {
+            "Ekterly": 0.0,
+            "injectable_rescue": 0.0,
+            "no_current_rescue": 1518.7266981183543
+          }
+        }
+      },
+      "ekterly_projection": [
+        {
+          "month_index": 0,
+          "forms": 230.0,
+          "paid_starts": 0.0,
+          "active_end": 0.0
+        },
+        {
+          "month_index": 1,
+          "forms": 230.0,
+          "paid_starts": 134.55,
+          "active_end": 134.55
+        },
+        {
+          "month_index": 2,
+          "forms": 238.5,
+          "paid_starts": 134.55,
+          "active_end": 266.62112209451334
+        },
+        {
+          "month_index": 3,
+          "forms": 238.5,
+          "paid_starts": 139.5225,
+          "active_end": 401.23153581657823
+        },
+        {
+          "month_index": 4,
+          "forms": 190.5,
+          "paid_starts": 139.5225,
+          "active_end": 533.3619586027528
+        },
+        {
+          "month_index": 5,
+          "forms": 190.5,
+          "paid_starts": 111.44250000000001,
+          "active_end": 634.9780804919577
+        },
+        {
+          "month_index": 6,
+          "forms": 192.0,
+          "paid_starts": 111.44250000000001,
+          "active_end": 734.7220807951916
+        },
+        {
+          "month_index": 7,
+          "forms": 192.0,
+          "paid_starts": 112.32000000000001,
+          "active_end": 833.5059504885664
+        },
+        {
+          "month_index": 8,
+          "forms": 100.0,
+          "paid_starts": 112.32000000000001,
+          "active_end": 930.4698785096901
+        },
+        {
+          "month_index": 9,
+          "forms": 100.0,
+          "paid_starts": 58.5,
+          "active_end": 971.827394499593
+        },
+        {
+          "month_index": 10,
+          "forms": 100.0,
+          "paid_starts": 58.5,
+          "active_end": 1012.4229615291599
+        },
+        {
+          "month_index": 11,
+          "forms": 100.0,
+          "paid_starts": 58.5,
+          "active_end": 1052.2706173422996
+        },
+        {
+          "month_index": 12,
+          "forms": 100.0,
+          "paid_starts": 58.5,
+          "active_end": 1091.3841410589648
+        },
+        {
+          "month_index": 13,
+          "forms": 100.0,
+          "paid_starts": 58.5,
+          "active_end": 1129.7770579399037
+        },
+        {
+          "month_index": 14,
+          "forms": 100.0,
+          "paid_starts": 58.5,
+          "active_end": 1167.462644063627
+        },
+        {
+          "month_index": 15,
+          "forms": 100.0,
+          "paid_starts": 58.5,
+          "active_end": 1204.4539309172098
+        },
+        {
+          "month_index": 16,
+          "forms": 100.0,
+          "paid_starts": 58.5,
+          "active_end": 1240.7637099025142
+        },
+        {
+          "month_index": 17,
+          "forms": 100.0,
+          "paid_starts": 58.5,
+          "active_end": 1276.4045367593922
+        },
+        {
+          "month_index": 18,
+          "forms": 100.0,
+          "paid_starts": 58.5,
+          "active_end": 1311.3887359073976
+        },
+        {
+          "month_index": 19,
+          "forms": 100.0,
+          "paid_starts": 58.5,
+          "active_end": 1345.728404707509
+        },
+        {
+          "month_index": 20,
+          "forms": 100.0,
+          "paid_starts": 58.5,
+          "active_end": 1379.4354176453364
+        },
+        {
+          "month_index": 21,
+          "forms": 100.0,
+          "paid_starts": 58.5,
+          "active_end": 1412.5214304372587
+        }
+      ]
+    },
+    "working": {
+      "assumptions": {
+        "future_forms_monthly": 192.0,
+        "paid_conversion": 0.8,
+        "annual_continuation": 0.9,
+        "unique_form_fraction": 1.0
+      },
+      "launch_mix": {
+        "population": 10124.844654122362,
+        "prevention_pools": {
+          "orladeyo": 1721.2235912008016,
+          "other_prevention": 4130.936618881924,
+          "acute_only": 2753.9577459212824,
+          "diagnosed_untreated": 1518.7266981183543
+        },
+        "rescue_pools": {
+          "Ekterly": 3071.5876896603886,
+          "injectable_rescue": 5534.53026634362,
+          "no_current_rescue": 1518.7266981183543
+        },
+        "joint_cells": {
+          "orladeyo": {
+            "Ekterly": 614.3175379320777,
+            "injectable_rescue": 1106.906053268724,
+            "no_current_rescue": 0.0
+          },
+          "other_prevention": {
+            "Ekterly": 1474.3620910369864,
+            "injectable_rescue": 2656.5745278449376,
+            "no_current_rescue": 0.0
+          },
+          "acute_only": {
+            "Ekterly": 982.9080606913242,
+            "injectable_rescue": 1771.0496852299582,
+            "no_current_rescue": 0.0
+          },
+          "diagnosed_untreated": {
+            "Ekterly": 0.0,
+            "injectable_rescue": 0.0,
+            "no_current_rescue": 1518.7266981183543
+          }
+        }
+      },
+      "ekterly_projection": [
+        {
+          "month_index": 0,
+          "forms": 230.0,
+          "paid_starts": 0.0,
+          "active_end": 0.0
+        },
+        {
+          "month_index": 1,
+          "forms": 230.0,
+          "paid_starts": 184.0,
+          "active_end": 184.0
+        },
+        {
+          "month_index": 2,
+          "forms": 238.5,
+          "paid_starts": 184.0,
+          "active_end": 366.3915435843358
+        },
+        {
+          "month_index": 3,
+          "forms": 238.5,
+          "paid_starts": 190.8,
+          "active_end": 553.9886912532307
+        },
+        {
+          "month_index": 4,
+          "forms": 190.5,
+          "paid_starts": 190.8,
+          "active_end": 739.9459376409934
+        },
+        {
+          "month_index": 5,
+          "forms": 190.5,
+          "paid_starts": 152.4,
+          "active_end": 885.8776181266276
+        },
+        {
+          "month_index": 6,
+          "forms": 192.0,
+          "paid_starts": 152.4,
+          "active_end": 1030.5336206354912
+        },
+        {
+          "month_index": 7,
+          "forms": 192.0,
+          "paid_starts": 153.60000000000002,
+          "active_end": 1175.1250966481607
+        },
+        {
+          "month_index": 8,
+          "forms": 192.0,
+          "paid_starts": 153.60000000000002,
+          "active_end": 1318.452610230162
+        },
+        {
+          "month_index": 9,
+          "forms": 192.0,
+          "paid_starts": 153.60000000000002,
+          "active_end": 1460.5272104493256
+        },
+        {
+          "month_index": 10,
+          "forms": 192.0,
+          "paid_starts": 153.60000000000002,
+          "active_end": 1601.3598497868293
+        },
+        {
+          "month_index": 11,
+          "forms": 192.0,
+          "paid_starts": 153.60000000000002,
+          "active_end": 1740.9613849815214
+        },
+        {
+          "month_index": 12,
+          "forms": 192.0,
+          "paid_starts": 153.60000000000002,
+          "active_end": 1879.342577866863
+        },
+        {
+          "month_index": 13,
+          "forms": 192.0,
+          "paid_starts": 153.60000000000002,
+          "active_end": 2016.514096200554
+        },
+        {
+          "month_index": 14,
+          "forms": 192.0,
+          "paid_starts": 153.60000000000002,
+          "active_end": 2152.486514486907
+        },
+        {
+          "month_index": 15,
+          "forms": 192.0,
+          "paid_starts": 153.60000000000002,
+          "active_end": 2287.270314792031
+        },
+        {
+          "month_index": 16,
+          "forms": 192.0,
+          "paid_starts": 153.60000000000002,
+          "active_end": 2420.8758875518924
+        },
+        {
+          "month_index": 17,
+          "forms": 192.0,
+          "paid_starts": 153.60000000000002,
+          "active_end": 2553.3135323733077
+        },
+        {
+          "month_index": 18,
+          "forms": 192.0,
+          "paid_starts": 153.60000000000002,
+          "active_end": 2684.593458827938
+        },
+        {
+          "month_index": 19,
+          "forms": 192.0,
+          "paid_starts": 153.60000000000002,
+          "active_end": 2814.72578723934
+        },
+        {
+          "month_index": 20,
+          "forms": 192.0,
+          "paid_starts": 153.60000000000002,
+          "active_end": 2943.720549463141
+        },
+        {
+          "month_index": 21,
+          "forms": 192.0,
+          "paid_starts": 153.60000000000002,
+          "active_end": 3071.587689660388
+        }
+      ]
+    },
+    "higher_Ekterly": {
+      "assumptions": {
+        "future_forms_monthly": 250.0,
+        "paid_conversion": 0.9,
+        "annual_continuation": 0.95,
+        "unique_form_fraction": 1.0
+      },
+      "launch_mix": {
+        "population": 10124.844654122362,
+        "prevention_pools": {
+          "orladeyo": 1721.2235912008016,
+          "other_prevention": 4130.936618881924,
+          "acute_only": 2753.9577459212824,
+          "diagnosed_untreated": 1518.7266981183543
+        },
+        "rescue_pools": {
+          "Ekterly": 4277.694987184423,
+          "injectable_rescue": 4328.422968819585,
+          "no_current_rescue": 1518.7266981183543
+        },
+        "joint_cells": {
+          "orladeyo": {
+            "Ekterly": 855.5389974368845,
+            "injectable_rescue": 865.6845937639171,
+            "no_current_rescue": 0.0
+          },
+          "other_prevention": {
+            "Ekterly": 2053.293593848523,
+            "injectable_rescue": 2077.643025033401,
+            "no_current_rescue": 0.0
+          },
+          "acute_only": {
+            "Ekterly": 1368.8623958990154,
+            "injectable_rescue": 1385.095350022267,
+            "no_current_rescue": 0.0
+          },
+          "diagnosed_untreated": {
+            "Ekterly": 0.0,
+            "injectable_rescue": 0.0,
+            "no_current_rescue": 1518.7266981183543
+          }
+        }
+      },
+      "ekterly_projection": [
+        {
+          "month_index": 0,
+          "forms": 230.0,
+          "paid_starts": 0.0,
+          "active_end": 0.0
+        },
+        {
+          "month_index": 1,
+          "forms": 230.0,
+          "paid_starts": 207.0,
+          "active_end": 207.0
+        },
+        {
+          "month_index": 2,
+          "forms": 238.5,
+          "paid_starts": 207.0,
+          "active_end": 413.117079013045
+        },
+        {
+          "month_index": 3,
+          "forms": 238.5,
+          "paid_starts": 214.65,
+          "active_end": 626.0050029785997
+        },
+        {
+          "month_index": 4,
+          "forms": 190.5,
+          "paid_starts": 214.65,
+          "active_end": 837.9848920845482
+        },
+        {
+          "month_index": 5,
+          "forms": 190.5,
+          "paid_starts": 171.45000000000002,
+          "active_end": 1005.8606193890279
+        },
+        {
+          "month_index": 6,
+          "forms": 192.0,
+          "paid_starts": 171.45000000000002,
+          "active_end": 1173.020303201539
+        },
+        {
+          "month_index": 7,
+          "forms": 192.0,
+          "paid_starts": 172.8,
+          "active_end": 1340.8169976758336
+        },
+        {
+          "month_index": 8,
+          "forms": 250.0,
+          "paid_starts": 172.8,
+          "active_end": 1507.8979857583743
+        },
+        {
+          "month_index": 9,
+          "forms": 250.0,
+          "paid_starts": 225.0,
+          "active_end": 1726.4663201650733
+        },
+        {
+          "month_index": 10,
+          "forms": 250.0,
+          "paid_starts": 225.0,
+          "active_end": 1944.1023909508472
+        },
+        {
+          "month_index": 11,
+          "forms": 250.0,
+          "paid_starts": 225.0,
+          "active_end": 2160.810174517224
+        },
+        {
+          "month_index": 12,
+          "forms": 250.0,
+          "paid_starts": 225.0,
+          "active_end": 2376.5936303051117
+        },
+        {
+          "month_index": 13,
+          "forms": 250.0,
+          "paid_starts": 225.0,
+          "active_end": 2591.45670086714
+        },
+        {
+          "month_index": 14,
+          "forms": 250.0,
+          "paid_starts": 225.0,
+          "active_end": 2805.4033119396963
+        },
+        {
+          "month_index": 15,
+          "forms": 250.0,
+          "paid_starts": 225.0,
+          "active_end": 3018.4373725146493
+        },
+        {
+          "month_index": 16,
+          "forms": 250.0,
+          "paid_starts": 225.0,
+          "active_end": 3230.5627749107716
+        },
+        {
+          "month_index": 17,
+          "forms": 250.0,
+          "paid_starts": 225.0,
+          "active_end": 3441.7833948448565
+        },
+        {
+          "month_index": 18,
+          "forms": 250.0,
+          "paid_starts": 225.0,
+          "active_end": 3652.1030915025285
+        },
+        {
+          "month_index": 19,
+          "forms": 250.0,
+          "paid_starts": 225.0,
+          "active_end": 3861.5257076087555
+        },
+        {
+          "month_index": 20,
+          "forms": 250.0,
+          "paid_starts": 225.0,
+          "active_end": 4070.055069498059
+        },
+        {
+          "month_index": 21,
+          "forms": 250.0,
+          "paid_starts": 225.0,
+          "active_end": 4277.694987184423
+        }
+      ]
+    }
+  },
+  "ten_percent_LTP_no_rescue_stress": {
+    "population": 10124.844654122362,
+    "prevention_pools": {
+      "orladeyo": 1721.2235912008016,
+      "other_prevention": 4130.936618881924,
+      "acute_only": 2753.9577459212824,
+      "diagnosed_untreated": 1518.7266981183543
+    },
+    "rescue_pools": {
+      "Ekterly": 3071.5876896603886,
+      "injectable_rescue": 4949.314245335347,
+      "no_current_rescue": 2103.942719126627
+    },
+    "joint_cells": {
+      "orladeyo": {
+        "Ekterly": 593.2250902777575,
+        "injectable_rescue": 955.876141802964,
+        "no_current_rescue": 172.12235912008018
+      },
+      "other_prevention": {
+        "Ekterly": 1423.740216666618,
+        "injectable_rescue": 2294.1027403271137,
+        "no_current_rescue": 413.0936618881924
+      },
+      "acute_only": {
+        "Ekterly": 1054.6223827160134,
+        "injectable_rescue": 1699.335363205269,
+        "no_current_rescue": 0.0
+      },
+      "diagnosed_untreated": {
+        "Ekterly": 0.0,
+        "injectable_rescue": 0.0,
+        "no_current_rescue": 1518.7266981183543
+      }
+    }
+  },
+  "twenty_percent_extra_Ekterly_stock_for_free_supply_stress": {
+    "population": 10124.844654122362,
+    "prevention_pools": {
+      "orladeyo": 1721.2235912008016,
+      "other_prevention": 4130.936618881924,
+      "acute_only": 2753.9577459212824,
+      "diagnosed_untreated": 1518.7266981183543
+    },
+    "rescue_pools": {
+      "Ekterly": 3685.905227592467,
+      "injectable_rescue": 4920.212728411541,
+      "no_current_rescue": 1518.7266981183543
+    },
+    "joint_cells": {
+      "orladeyo": {
+        "Ekterly": 737.1810455184933,
+        "injectable_rescue": 984.0425456823083,
+        "no_current_rescue": 0.0
+      },
+      "other_prevention": {
+        "Ekterly": 1769.234509244384,
+        "injectable_rescue": 2361.70210963754,
+        "no_current_rescue": 0.0
+      },
+      "acute_only": {
+        "Ekterly": 1179.4896728295894,
+        "injectable_rescue": 1574.468073091693,
+        "no_current_rescue": 0.0
+      },
+      "diagnosed_untreated": {
+        "Ekterly": 0.0,
+        "injectable_rescue": 0.0,
+        "no_current_rescue": 1518.7266981183543
+      }
+    }
+  },
+  "timing_per1000_initial_injectable_prevention": {
+    "depletion_only": [
+      {
+        "year": 1,
+        "rx": 43.40223047566983,
+        "paid": 31.738313131329683,
+        "net_additions": 14.999999999999494,
+        "available_end": 971.5977695243298,
+        "cumulative_paid": 31.738313131329683,
+        "population": 1014.9999999999997
+      },
+      {
+        "year": 2,
+        "rx": 46.44239578632365,
+        "paid": 36.948768874443154,
+        "net_additions": 15.224999999999481,
+        "available_end": 949.0608198331398,
+        "cumulative_paid": 68.68708200577284,
+        "population": 1030.224999999999
+      },
+      {
+        "year": 3,
+        "rx": 49.36321817520701,
+        "paid": 39.30480634610826,
+        "net_additions": 15.45337499999946,
+        "available_end": 924.4394558151969,
+        "cumulative_paid": 107.9918883518811,
+        "population": 1045.6783749999981
+      },
+      {
+        "year": 4,
+        "rx": 51.98662029563278,
+        "paid": 41.42372120291673,
+        "net_additions": 15.685175624999443,
+        "available_end": 898.0106547796049,
+        "cumulative_paid": 149.4156095547978,
+        "population": 1061.3635506249975
+      },
+      {
+        "year": 5,
+        "rx": 54.30177634091342,
+        "paid": 43.296651010228295,
+        "net_additions": 15.920453259374424,
+        "available_end": 870.0266557571922,
+        "cumulative_paid": 192.7122605650261,
+        "population": 1077.284003884372
+      },
+      {
+        "year": 6,
+        "rx": 54.62247863202397,
+        "paid": 43.79425094614494,
+        "net_additions": 16.159260058265033,
+        "available_end": 842.4237924516158,
+        "cumulative_paid": 236.50651151117103,
+        "population": 1093.4432639426368
+      },
+      {
+        "year": 7,
+        "rx": 52.932660136545095,
+        "paid": 42.45520392852629,
+        "net_additions": 16.401648959138996,
+        "available_end": 816.8172770006144,
+        "cumulative_paid": 278.96171543969734,
+        "population": 1109.8449129017756
+      },
+      {
+        "year": 8,
+        "rx": 51.348519615540546,
+        "paid": 41.181535195588545,
+        "net_additions": 16.647673693526073,
+        "available_end": 792.7029631059088,
+        "cumulative_paid": 320.143250635286,
+        "population": 1126.4925865953016
+      },
+      {
+        "year": 9,
+        "rx": 49.85737268748939,
+        "paid": 39.982551709976725,
+        "net_additions": 16.897388798928954,
+        "available_end": 770.0126831404565,
+        "cumulative_paid": 360.12580234526274,
+        "population": 1143.3899753942308
+      },
+      {
+        "year": 10,
+        "rx": 48.454901160157405,
+        "paid": 38.85479109425213,
+        "net_additions": 17.15084963091288,
+        "available_end": 748.6801061487101,
+        "cumulative_paid": 398.9805934395149,
+        "population": 1160.5408250251432
+      }
+    ],
+    "extra_taper": [
+      {
+        "year": 1,
+        "rx": 41.3723529515582,
+        "paid": 30.388514492866193,
+        "net_additions": 14.999999999999494,
+        "available_end": 973.6276470484416,
+        "cumulative_paid": 30.388514492866193,
+        "population": 1014.9999999999997
+      },
+      {
+        "year": 2,
+        "rx": 39.70113700049182,
+        "paid": 31.88381471599489,
+        "net_additions": 15.224999999999481,
+        "available_end": 957.425980638261,
+        "cumulative_paid": 62.27232920886109,
+        "population": 1030.224999999999
+      },
+      {
+        "year": 3,
+        "rx": 37.48133957516648,
+        "paid": 30.153694990845455,
+        "net_additions": 15.45337499999946,
+        "available_end": 943.3382434631922,
+        "cumulative_paid": 92.42602419970659,
+        "population": 1045.6783749999981
+      },
+      {
+        "year": 4,
+        "rx": 34.603360728504036,
+        "paid": 27.89382947419076,
+        "net_additions": 15.685175624999443,
+        "available_end": 931.9163262747206,
+        "cumulative_paid": 120.31985367389733,
+        "population": 1061.3635506249975
+      },
+      {
+        "year": 5,
+        "rx": 31.104846796541118,
+        "paid": 25.135613878314956,
+        "net_additions": 15.920453259374424,
+        "available_end": 923.6526048832546,
+        "cumulative_paid": 145.45546755221227,
+        "population": 1077.284003884372
+      },
+      {
+        "year": 6,
+        "rx": 28.889472729164222,
+        "paid": 23.146874512788873,
+        "net_additions": 16.159260058265033,
+        "available_end": 917.1433615716636,
+        "cumulative_paid": 168.60234206500118,
+        "population": 1093.4432639426368
+      },
+      {
+        "year": 7,
+        "rx": 28.683323448934242,
+        "paid": 22.960271771238013,
+        "net_additions": 16.401648959138996,
+        "available_end": 910.6395816277012,
+        "cumulative_paid": 191.56261383623922,
+        "population": 1109.8449129017756
+      },
+      {
+        "year": 8,
+        "rx": 28.485989713137627,
+        "paid": 22.80156309027205,
+        "net_additions": 16.647673693526073,
+        "available_end": 904.5379302978765,
+        "cumulative_paid": 214.3641769265113,
+        "population": 1126.4925865953016
+      },
+      {
+        "year": 9,
+        "rx": 28.30115484446094,
+        "paid": 22.652868249648158,
+        "net_additions": 16.897388798928954,
+        "available_end": 898.8313621949721,
+        "cumulative_paid": 237.01704517615946,
+        "population": 1143.3899753942308
+      },
+      {
+        "year": 10,
+        "rx": 28.128620658104154,
+        "paid": 22.514026628936,
+        "net_additions": 17.15084963091288,
+        "available_end": 893.5138221366734,
+        "cumulative_paid": 259.53107180509545,
+        "population": 1160.5408250251432
+      }
+    ],
+    "expanding_consideration": [
+      {
+        "year": 1,
+        "rx": 44.41783924270875,
+        "paid": 32.41369894585664,
+        "net_additions": 14.999999999999494,
+        "available_end": 970.5821607572909,
+        "cumulative_paid": 32.41369894585664,
+        "population": 1014.9999999999997
+      },
+      {
+        "year": 2,
+        "rx": 49.804411497977576,
+        "paid": 39.47600190443827,
+        "net_additions": 15.224999999999481,
+        "available_end": 944.8863171078544,
+        "cumulative_paid": 71.8897008502949,
+        "population": 1030.224999999999
+      },
+      {
+        "year": 3,
+        "rx": 55.23361576392584,
+        "paid": 43.83077820990331,
+        "net_additions": 15.45337499999946,
+        "available_end": 915.0669586435238,
+        "cumulative_paid": 115.7204790601982,
+        "population": 1045.6783749999981
+      },
+      {
+        "year": 4,
+        "rx": 60.43172399867848,
+        "paid": 48.00808891334623,
+        "net_additions": 15.685175624999443,
+        "available_end": 881.3671334226299,
+        "cumulative_paid": 163.72856797354441,
+        "population": 1061.3635506249975
+      },
+      {
+        "year": 5,
+        "rx": 65.28684879053156,
+        "paid": 51.91843854243655,
+        "net_additions": 15.920453259374424,
+        "available_end": 844.0870826912085,
+        "cumulative_paid": 215.64700651598102,
+        "population": 1077.284003884372
+      },
+      {
+        "year": 6,
+        "rx": 66.36894370006564,
+        "paid": 53.25273633620184,
+        "net_additions": 16.159260058265033,
+        "available_end": 806.9347688075142,
+        "cumulative_paid": 268.8997428521828,
+        "population": 1093.4432639426368
+      },
+      {
+        "year": 7,
+        "rx": 63.530915169352355,
+        "paid": 51.00660837410103,
+        "net_additions": 16.401648959138996,
+        "available_end": 773.0792913373136,
+        "cumulative_paid": 319.9063512262838,
+        "population": 1109.8449129017756
+      },
+      {
+        "year": 8,
+        "rx": 60.90425093468333,
+        "paid": 48.89289376495263,
+        "net_additions": 16.647673693526073,
+        "available_end": 741.528897130027,
+        "cumulative_paid": 368.7992449912364,
+        "population": 1126.4925865953016
+      },
+      {
+        "year": 9,
+        "rx": 58.45751365654456,
+        "paid": 46.92384039242202,
+        "net_additions": 16.897388798928954,
+        "available_end": 712.149622459348,
+        "cumulative_paid": 415.7230853836585,
+        "population": 1143.3899753942308
+      },
+      {
+        "year": 10,
+        "rx": 56.1800212202401,
+        "paid": 45.090878658733374,
+        "net_additions": 17.15084963091288,
+        "available_end": 684.8119536013297,
+        "cumulative_paid": 460.8139640423919,
+        "population": 1160.5408250251432
+      }
+    ]
+  },
+  "net_growth": 0.015,
+  "inflow_rule": "Add only N*((1+g)^(1/12)-1) once per month; allocate to existing joint origin proportions. Separate NEW conditional-choice rows disabled, not additive.",
+  "validation": "Stock row/column sums; Ekterly capacity; monthly pending/failed-access/paid conservation; zero-growth case; annual1.5%addition verified.",
+  "status": "Three mechanics resolved as reproducible underwriting choices; no updated DCF or full segmented-engine integration."
+}

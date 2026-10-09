@@ -1,36 +1,36 @@
 {
   "ir_first8months": {
-    "forms": 607.4912719603875,
-    "paid_access_starts": 426.77313098219156,
-    "US_revenue_m": 27.848612854751877,
+    "forms": 730.7182472478711,
+    "paid_access_starts": 512.1557183987533,
+    "US_revenue_m": 30.24629675480489,
     "Ekterly_forms": 1702,
-    "forms_ratio": 0.3569278918686178
+    "forms_ratio": 0.4293291699458702
   },
-  "comparability": "Population grows from July2026 until May2027 launch, so ratio differs slightly from legacy35%. Forms include attempts, not proven unique people. Paid starts lag. No per-patient revenue inferred from cumulativeforms.",
+  "comparability": "Segmented origins with projected Ekterly launch stock and rising PHVS oral choice; ratio is an output, not an imposed first-mover discount. Forms include attempts, not proven unique people. Paid starts lag. No per-patient revenue inferred from cumulativeforms.",
   "IR_full_launch_years": [
     {
       "launch_year": 1,
-      "US_revenue_m": 55.176764564131574,
-      "forms": 898.3224962968958,
-      "paid_doses": 3928.625866095037
+      "US_revenue_m": 59.33327706884015,
+      "forms": 1090.2729737438178,
+      "paid_doses": 4224.572586924709
     },
     {
       "launch_year": 2,
-      "US_revenue_m": 133.30715736116773,
-      "forms": 834.1609359556331,
-      "paid_doses": 9491.566797759153
+      "US_revenue_m": 143.41616321919435,
+      "forms": 1065.7768845157552,
+      "paid_doses": 10211.335385280985
     },
     {
       "launch_year": 3,
-      "US_revenue_m": 203.17034805534456,
-      "forms": 783.594119027126,
-      "paid_doses": 14465.876912120113
+      "US_revenue_m": 223.60774731168647,
+      "forms": 1044.6945158340488,
+      "paid_doses": 15921.034639986792
     },
     {
       "launch_year": 4,
-      "US_revenue_m": 259.51032367764236,
-      "forms": 737.1891438205719,
-      "paid_doses": 18477.324253648494
+      "US_revenue_m": 291.5320376173245,
+      "forms": 1016.0241878498373,
+      "paid_doses": 20757.293633040303
     }
   ]
 }

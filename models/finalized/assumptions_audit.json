@@ -1,0 +1,2623 @@
+{
+  "as_of": "2026-10-09",
+  "scope": "All74canonical parameters plus financial-policy, launch, pool and LOE structures below. Source-chain/logic audit, not fresh independent verification of every external datum.",
+  "parameters": [
+    {
+      "parameter": "population",
+      "working_value": 10000,
+      "recorded_bounds": [
+        8500,
+        11500
+      ],
+      "units": "people",
+      "denominator": "US diagnosed broadHAE proxy",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "POP"
+      ],
+      "sources": [
+        {
+          "id": "POP",
+          "title": "Population and paidgap evidence register",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1081120625002583",
+          "locator": "USadministrativeclaimsprevalence; research/PHVS_population_paid_gap_followup_2026-10-08.json"
+        }
+      ],
+      "bridge": "Maintain existing8500treated+1500untreated. Pools not age/genotype validated; composite rates include eligible reach. No addedAAE/pediatric growth.",
+      "key_limitation": "Broad diagnosed proxy, not exact age/subtype-eligible reachable census.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "growth",
+      "working_value": 0.015,
+      "recorded_bounds": [
+        0,
+        0.03
+      ],
+      "units": "annual fraction",
+      "denominator": "diagnosedpopulation",
+      "period": "Annual rate applied monthly",
+      "evidence_classification": "derived from evidence plus transfer assumptions",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "POP"
+      ],
+      "sources": [
+        {
+          "id": "POP",
+          "title": "Population and paidgap evidence register",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1081120625002583",
+          "locator": "USadministrativeclaimsprevalence; research/PHVS_population_paid_gap_followup_2026-10-08.json"
+        }
+      ],
+      "bridge": "Modest netgrowth; births/deaths/diagnosis included, not modeledagain.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "ir_rx",
+      "working_value": 0.1,
+      "recorded_bounds": [
+        0.05,
+        0.274463
+      ],
+      "units": "annual probability",
+      "denominator": "availableperson at start",
+      "period": "Annual rate applied monthly",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "inactive legacy input",
+      "source_ids": [
+        "KALVFORM"
+      ],
+      "sources": [
+        {
+          "id": "KALVFORM",
+          "title": "KalVista launchupdate",
+          "url": "https://ir.kalvista.com/node/12706/html",
+          "locator": "February28,2026 startforms"
+        }
+      ],
+      "bridge": "LEGACY MODE ONLY. Legacy10% unchanged; first8m~35%Ekterly; high matches firstmoverforms only as challenge, not estimatedceiling.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "ir_untreated_relative",
+      "working_value": 0.2,
+      "recorded_bounds": [
+        0.1,
+        0.4
+      ],
+      "units": "multiplier",
+      "denominator": "IRrx rate foruntreated",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "inactive legacy input",
+      "source_ids": [
+        "MIX"
+      ],
+      "sources": [
+        {
+          "id": "MIX",
+          "title": "BioCryst investor patient history mix",
+          "url": "https://ir.biocryst.com/static-files/1a9b298c-7e8e-4cf8-b5af-ffa6ef61586a",
+          "locator": "Slide8 patient origins52/32/17; slide9 population2019/2023; slide11 persistence benchmark"
+        }
+      ],
+      "bridge": "LEGACY MODE ONLY. Access/reachdiscount among diagnoseduntreated; weak transfer, retain explicit.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "xr_orladeyo",
+      "working_value": 0.1,
+      "recorded_bounds": [
+        0.05,
+        0.15
+      ],
+      "units": "annual probability",
+      "denominator": "available originpool",
+      "period": "Annual rate applied monthly",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "inactive legacy input",
+      "source_ids": [
+        "SWITCH",
+        "MIX",
+        "PREFERENCE"
+      ],
+      "sources": [
+        {
+          "id": "SWITCH",
+          "title": "HAEA2025 LTP claims poster",
+          "url": "https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf",
+          "locator": "12month switching among328 LTPinitiators"
+        },
+        {
+          "id": "MIX",
+          "title": "BioCryst investor patient history mix",
+          "url": "https://ir.biocryst.com/static-files/1a9b298c-7e8e-4cf8-b5af-ffa6ef61586a",
+          "locator": "Slide8 patient origins52/32/17; slide9 population2019/2023; slide11 persistence benchmark"
+        },
+        {
+          "id": "PREFERENCE",
+          "title": "HAE treatment preference survey",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41429313/",
+          "locator": "150participant survey"
+        }
+      ],
+      "bridge": "LEGACY MODE ONLY. AnyLTPswitch15.24% timesjudgment1/3,2/3,1.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "xr_other_prevention",
+      "working_value": 0.04,
+      "recorded_bounds": [
+        0.02,
+        0.06
+      ],
+      "units": "annual probability",
+      "denominator": "available originpool",
+      "period": "Annual rate applied monthly",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "inactive legacy input",
+      "source_ids": [
+        "SWITCH",
+        "MIX",
+        "PREFERENCE"
+      ],
+      "sources": [
+        {
+          "id": "SWITCH",
+          "title": "HAEA2025 LTP claims poster",
+          "url": "https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf",
+          "locator": "12month switching among328 LTPinitiators"
+        },
+        {
+          "id": "MIX",
+          "title": "BioCryst investor patient history mix",
+          "url": "https://ir.biocryst.com/static-files/1a9b298c-7e8e-4cf8-b5af-ffa6ef61586a",
+          "locator": "Slide8 patient origins52/32/17; slide9 population2019/2023; slide11 persistence benchmark"
+        },
+        {
+          "id": "PREFERENCE",
+          "title": "HAE treatment preference survey",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41429313/",
+          "locator": "150participant survey"
+        }
+      ],
+      "bridge": "LEGACY MODE ONLY. 13/26/39% destinationallocation of15.24% benchmark; preferenceheterogeneity. No oralconvenience premium.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "xr_acute_only",
+      "working_value": 0.04,
+      "recorded_bounds": [
+        0.02,
+        0.06
+      ],
+      "units": "annual probability",
+      "denominator": "available originpool",
+      "period": "Annual rate applied monthly",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "inactive legacy input",
+      "source_ids": [
+        "SWITCH",
+        "MIX",
+        "PREFERENCE"
+      ],
+      "sources": [
+        {
+          "id": "SWITCH",
+          "title": "HAEA2025 LTP claims poster",
+          "url": "https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf",
+          "locator": "12month switching among328 LTPinitiators"
+        },
+        {
+          "id": "MIX",
+          "title": "BioCryst investor patient history mix",
+          "url": "https://ir.biocryst.com/static-files/1a9b298c-7e8e-4cf8-b5af-ffa6ef61586a",
+          "locator": "Slide8 patient origins52/32/17; slide9 population2019/2023; slide11 persistence benchmark"
+        },
+        {
+          "id": "PREFERENCE",
+          "title": "HAE treatment preference survey",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41429313/",
+          "locator": "150participant survey"
+        }
+      ],
+      "bridge": "LEGACY MODE ONLY. Historical32/52entrantmix implies~3.69%, rounded4.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "xr_diagnosed_untreated",
+      "working_value": 0.01,
+      "recorded_bounds": [
+        0.005,
+        0.02
+      ],
+      "units": "annual probability",
+      "denominator": "available originpool",
+      "period": "Annual rate applied monthly",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "inactive legacy input",
+      "source_ids": [
+        "SWITCH",
+        "MIX",
+        "PREFERENCE"
+      ],
+      "sources": [
+        {
+          "id": "SWITCH",
+          "title": "HAEA2025 LTP claims poster",
+          "url": "https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf",
+          "locator": "12month switching among328 LTPinitiators"
+        },
+        {
+          "id": "MIX",
+          "title": "BioCryst investor patient history mix",
+          "url": "https://ir.biocryst.com/static-files/1a9b298c-7e8e-4cf8-b5af-ffa6ef61586a",
+          "locator": "Slide8 patient origins52/32/17; slide9 population2019/2023; slide11 persistence benchmark"
+        },
+        {
+          "id": "PREFERENCE",
+          "title": "HAE treatment preference survey",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41429313/",
+          "locator": "150participant survey"
+        }
+      ],
+      "bridge": "LEGACY MODE ONLY. Historical17/32naive/acute ratio with25%reachadjustment, approximate1%.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "conversion",
+      "working_value": 0.8,
+      "recorded_bounds": [
+        0.65,
+        0.9
+      ],
+      "units": "fraction",
+      "denominator": "prescription attempts",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "ACCESS"
+      ],
+      "sources": [
+        {
+          "id": "ACCESS",
+          "title": "Neuren investor presentation",
+          "url": "https://www.neurenpharma.com/pdf/bcba55f5-1338-49f2-a297-7512f59e2c2e/Investor-roadshow-presentation-19-August-2024.pdf",
+          "locator": "Daybue over-time paid conversion90%; archived bridge register"
+        }
+      ],
+      "bridge": "90%outsideHAEproxy less10ppworkingcompetitiveadjustment. Failedattemptreturns aftercooldown. Not empiricalHAE rate.",
+      "key_limitation": "Assumed practical access transfer, not measured PHVS approval rate.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "delay",
+      "working_value": 1,
+      "recorded_bounds": [
+        1,
+        3
+      ],
+      "units": "months",
+      "denominator": "prescription tofirstpaidstart",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "JUDGMENT",
+        "IRPRICE"
+      ],
+      "sources": [
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        },
+        {
+          "id": "IRPRICE",
+          "title": "KalVista FDA approval presentation",
+          "url": "https://www.sec.gov/Archives/edgar/data/1348911/000119312525155885/d98157dex992.htm",
+          "locator": "Slides17-20"
+        }
+      ],
+      "bridge": "Commercialavailability then paidaccess; pending stock distinct fromactive.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "retry_months",
+      "working_value": 12,
+      "recorded_bounds": [
+        6,
+        24
+      ],
+      "units": "months",
+      "denominator": "failedpaidattempt",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Oneannual re-review assumption; no overlap with paidcohorts.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "reentry_fraction",
+      "working_value": 0,
+      "recorded_bounds": [
+        0,
+        0.25
+      ],
+      "units": "fraction",
+      "denominator": "discontinuedPHVSusers",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Base exclusion from reacquisition;25%returnafter24months is structuralstress, not calibratedrate.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "reentry_delay",
+      "working_value": 24,
+      "recorded_bounds": [
+        12,
+        36
+      ],
+      "units": "months",
+      "denominator": "discontinuedusers allowedreturn",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Testpermanentexclusion, avoidnewunmeasuredbaseprobability.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "hazard_year6_multiplier",
+      "working_value": 1,
+      "recorded_bounds": [
+        0.5,
+        1
+      ],
+      "units": "multiplier",
+      "denominator": "remaining-pool capture after60launchmonths",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "hard-fixed user/model constraint",
+      "source_ids": [
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Constant remaining-pool probabilities base; halvingafteryear5 stress tests exhaustionofeasywins.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "nonphvs_ltp_shift",
+      "working_value": 0,
+      "recorded_bounds": [
+        0,
+        0.2
+      ],
+      "units": "fraction by10years",
+      "denominator": "originalacute/untreated outsidePHVSXR",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Structuralstress up to20%move tootherprevention, rescuebudgetonly. Origincohortcapture remains compositehistoricalproxy.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "xr_first_retention",
+      "working_value": 0.6945,
+      "recorded_bounds": [
+        0.61,
+        0.6945
+      ],
+      "units": "12monthsurvival",
+      "denominator": "firstpaidXR cohort",
+      "period": "Annual rate applied monthly",
+      "evidence_classification": "derived from evidence plus transfer assumptions",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "XRPERSIST",
+        "FRENCH"
+      ],
+      "sources": [
+        {
+          "id": "XRPERSIST",
+          "title": "Zuraw et al. US HAE long-term prophylaxis adherence and persistence",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40300843/",
+          "locator": "Abstract Methods and Results; research/PHVS_adoption_evidence_2026-10-07.json A04/A05"
+        },
+        {
+          "id": "FRENCH",
+          "title": "French real-world berotralstat study",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1002/clt2.70193",
+          "locator": "Reasons for30discontinuations; saved tolerability audit"
+        }
+      ],
+      "bridge": "0.61+0.39*(13/30)*0.5; user-selected efficacyallowance. No AEuplift.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "xr_mature_retention",
+      "working_value": 0.9,
+      "recorded_bounds": [
+        0.8,
+        0.95
+      ],
+      "units": "12monthsurvival",
+      "denominator": "XR afterfirst12months",
+      "period": "Annual rate applied monthly",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "XRPERSIST",
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "XRPERSIST",
+          "title": "Zuraw et al. US HAE long-term prophylaxis adherence and persistence",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40300843/",
+          "locator": "Abstract Methods and Results; research/PHVS_adoption_evidence_2026-10-07.json A04/A05"
+        },
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Selectionofpersistentusers motivates higherthaninitiation61%, exact90%notobserved.",
+      "key_limitation": "Survivor selection can support higher persistence, but90%not observed.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "ir_retention",
+      "working_value": 0.9,
+      "recorded_bounds": [
+        0.8,
+        0.95
+      ],
+      "units": "12monthsurvival",
+      "denominator": "IR rescue membership",
+      "period": "Annual rate applied monthly",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "JUDGMENT",
+        "PERSIST"
+      ],
+      "sources": [
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        },
+        {
+          "id": "PERSIST",
+          "title": "Orladeyo dispensing experience",
+          "url": "https://link.springer.com/article/10.1186/s13223-025-01005-x",
+          "locator": "1746/1919 repeat dispensers"
+        }
+      ],
+      "bridge": "Operationalcarryover; repeatdispensing91%cannot establishannual90%.",
+      "key_limitation": "No validated annual IR continuation; not equivalent to monthly refill.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "ir_doses_ltp",
+      "working_value": 8,
+      "recorded_bounds": [
+        6,
+        11.8
+      ],
+      "units": "doses/year",
+      "denominator": "allLTP member-equivalents inclzero dispensers",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "CLAIMS"
+      ],
+      "sources": [
+        {
+          "id": "CLAIMS",
+          "title": "O\u2019Connor et al. LTP compliance and on-demand treatment claims",
+          "url": "https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf",
+          "locator": "Methods, Figures2-3, Table2; existingadoptionevidenceA07-A09"
+        }
+      ],
+      "bridge": "MinimalgapLTP8 vsall11.8; no additionalzero-user67.1%haircut.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "ir_doses_other",
+      "working_value": 14,
+      "recorded_bounds": [
+        10,
+        18
+      ],
+      "units": "doses/year",
+      "denominator": "nonLTPIR member-equivalents",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "IRDOSE"
+      ],
+      "sources": [
+        {
+          "id": "IRDOSE",
+          "title": "ISPOR2026 on-demand claims trends",
+          "url": "https://www.ispor.org/heor-resources/presentations-database/presentation-cti/ispor-2026/poster-session-2-4/recent-trends-in-on-demand-treatment-prescriptions-for-hereditary-angioedema-a-us-claims-database-analysis",
+          "locator": "2021-2024 OD-use analysis; saved IR calibration"
+        }
+      ],
+      "bridge": "BroaderODusers14 transferredtoacuteonly, not exactcohort measurement.",
+      "key_limitation": "Claims user denominator differs from pure non-LTP member stock.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "ir_initial_doses",
+      "working_value": 2,
+      "recorded_bounds": [
+        2,
+        2
+      ],
+      "units": "doses",
+      "denominator": "monetizednewIRmember",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "IRPRICE"
+      ],
+      "sources": [
+        {
+          "id": "IRPRICE",
+          "title": "KalVista FDA approval presentation",
+          "url": "https://www.sec.gov/Archives/edgar/data/1348911/000119312525155885/d98157dex992.htm",
+          "locator": "Slides17-20"
+        }
+      ],
+      "bridge": "Two-dose comparator stock benchmark included inside the annual dispensing budget; actual PHVS pack size unknown. Free fraction handled separately.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "dual_use",
+      "working_value": 0.5,
+      "recorded_bounds": [
+        0,
+        1
+      ],
+      "units": "allocation fraction",
+      "denominator": "IRrescuevolume onPHVSXR overlap",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Mean-field withinorigin. No sameMOAprohibition established. Applyonce toquantity,not againretention.",
+      "key_limitation": "Same-molecule paid rescue allocation is hypothetical, not a clinical prescribing prohibition.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "xr_wac_28days",
+      "working_value": 48487.92,
+      "recorded_bounds": [
+        48487.92,
+        48487.92
+      ],
+      "units": "USD/28days",
+      "denominator": "Orladeyo capsulepack",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "observed comparator anchor, transferred toPHVS",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "XRPRICE"
+      ],
+      "sources": [
+        {
+          "id": "XRPRICE",
+          "title": "BioCryst WAC change 8-K",
+          "url": "https://ir.biocryst.com/node/27676/html",
+          "locator": "Item7.01"
+        }
+      ],
+      "bridge": "Publiclistanchor transferredatparity; PHVSfuturepriceunknown.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "xr_net_fraction",
+      "working_value": 0.66,
+      "recorded_bounds": [
+        0.5,
+        0.8
+      ],
+      "units": "fraction oflist",
+      "denominator": "paidXRunits",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "XRPRICE",
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "XRPRICE",
+          "title": "BioCryst WAC change 8-K",
+          "url": "https://ir.biocryst.com/node/27676/html",
+          "locator": "Item7.01"
+        },
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "~34%GTNunderwriting yields417169.28/year; replacementfor418kbrokeranchor. No measurednetfraction.",
+      "key_limitation": "No actual PHVSnetcontract price.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "ir_wac_dose",
+      "working_value": 16720,
+      "recorded_bounds": [
+        16720,
+        16720
+      ],
+      "units": "USD/dose",
+      "denominator": "600mgEkterly therapeuticdose",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "observed comparator anchor, transferred toPHVS",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "IRPRICE"
+      ],
+      "sources": [
+        {
+          "id": "IRPRICE",
+          "title": "KalVista FDA approval presentation",
+          "url": "https://www.sec.gov/Archives/edgar/data/1348911/000119312525155885/d98157dex992.htm",
+          "locator": "Slides17-20"
+        }
+      ],
+      "bridge": "Listparitybenchmark pertherapeuticdose, nottablet.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "ir_net_fraction",
+      "working_value": 0.84,
+      "recorded_bounds": [
+        0.7,
+        0.95
+      ],
+      "units": "fraction oflist",
+      "denominator": "paidIRdoses",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "IRPRICE",
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "IRPRICE",
+          "title": "KalVista FDA approval presentation",
+          "url": "https://www.sec.gov/Archives/edgar/data/1348911/000119312525155885/d98157dex992.htm",
+          "locator": "Slides17-20"
+        },
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "16%GTNassumption yields14044.80net; notobservedPHVSnet.",
+      "key_limitation": "No actual PHVSnetcontract price.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "ir_exus_ratio",
+      "working_value": 0.2,
+      "recorded_bounds": [
+        0.1,
+        0.35
+      ],
+      "units": "ratio",
+      "denominator": "matureexUS endmarket /US",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "GEO",
+        "TAK"
+      ],
+      "sources": [
+        {
+          "id": "GEO",
+          "title": "BioCryst2024 Form10-K",
+          "url": "https://ir.biocryst.com/static-files/99047ae6-7679-4210-82f1-5a64a2afdd39",
+          "locator": "Note2 PDFp94; saved geography audit"
+        },
+        {
+          "id": "TAK",
+          "title": "TakedaFY2025 results",
+          "url": "https://assets-dam.takeda.com/image/upload/v1780626052/Global/Investor/Financial-Results/FY2025/Q4_0605/qr2025_q4_qfr_en_20260605.pdf",
+          "locator": "Takhzyro geography table"
+        }
+      ],
+      "bridge": "Heuristic demandmultiplier; Takeda20%weightXR only. Rights/accountingconversion separate.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "xr_exus_ratio",
+      "working_value": 0.25,
+      "recorded_bounds": [
+        0.15,
+        0.6
+      ],
+      "units": "ratio",
+      "denominator": "matureexUS endmarket /US",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "GEO",
+        "TAK"
+      ],
+      "sources": [
+        {
+          "id": "GEO",
+          "title": "BioCryst2024 Form10-K",
+          "url": "https://ir.biocryst.com/static-files/99047ae6-7679-4210-82f1-5a64a2afdd39",
+          "locator": "Note2 PDFp94; saved geography audit"
+        },
+        {
+          "id": "TAK",
+          "title": "TakedaFY2025 results",
+          "url": "https://assets-dam.takeda.com/image/upload/v1780626052/Global/Investor/Financial-Results/FY2025/Q4_0605/qr2025_q4_qfr_en_20260605.pdf",
+          "locator": "Takhzyro geography table"
+        }
+      ],
+      "bridge": "Heuristic demandmultiplier; Takeda20%weightXR only. Rights/accountingconversion separate.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "exus_lag",
+      "working_value": 12,
+      "recorded_bounds": [
+        0,
+        24
+      ],
+      "units": "months",
+      "denominator": "relativeUS commercialage",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "GEO",
+        "IRREG"
+      ],
+      "sources": [
+        {
+          "id": "GEO",
+          "title": "BioCryst2024 Form10-K",
+          "url": "https://ir.biocryst.com/static-files/99047ae6-7679-4210-82f1-5a64a2afdd39",
+          "locator": "Note2 PDFp94; saved geography audit"
+        },
+        {
+          "id": "IRREG",
+          "title": "RAPIDe-3 publication announcement",
+          "url": "https://ir.pharvaris.com/news-releases/news-release-details/phase-3-study-results-highlighting-deucrictibants-rapid-and",
+          "locator": "Regulatory paragraph"
+        }
+      ],
+      "bridge": "Weightedcountryaccesslag, not firstregulatoryapproval.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "exus_phase",
+      "working_value": 48,
+      "recorded_bounds": [
+        36,
+        72
+      ],
+      "units": "months",
+      "denominator": "countryrolloutafterlag",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "GEO"
+      ],
+      "sources": [
+        {
+          "id": "GEO",
+          "title": "BioCryst2024 Form10-K",
+          "url": "https://ir.biocryst.com/static-files/99047ae6-7679-4210-82f1-5a64a2afdd39",
+          "locator": "Note2 PDFp94; saved geography audit"
+        }
+      ],
+      "bridge": "LaggedUSvolume phased towardratio.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "exus_direct_fraction",
+      "working_value": 1,
+      "recorded_bounds": [
+        0,
+        1
+      ],
+      "units": "fraction",
+      "denominator": "exUSendmarketnet sales",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "F25",
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "F25",
+          "title": "Pharvaris FY2025 Form 20-F",
+          "url": "https://www.sec.gov/Archives/edgar/data/1830487/000183048726000013/phvs-20251231.htm",
+          "locator": "F-4 to F-7; notes 13, 18, 21; Intellectual Property"
+        },
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Directcommercializationbase with overseascommercialcost; partneralternative isstructuralnotobservedcontract.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "partner_royalty",
+      "working_value": 0.2,
+      "recorded_bounds": [
+        0.15,
+        0.25
+      ],
+      "units": "fraction",
+      "denominator": "partnerendmarketnet sales",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Hypotheticallicensingterm,no upfrontor milestones credited.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "manufacture_rate",
+      "working_value": 0.04,
+      "recorded_bounds": [
+        0.02,
+        0.08
+      ],
+      "units": "fraction",
+      "denominator": "directproductsales",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "COST2"
+      ],
+      "sources": [
+        {
+          "id": "COST2",
+          "title": "BioCryst Q22026 financial results",
+          "url": "https://ir.biocryst.com/news-releases/news-release-details/biocryst-reports-second-quarter-2026-financial-results",
+          "locator": "Sixmonthexpense reconciliation"
+        }
+      ],
+      "bridge": "ORLADEYO~2.1%H126;4%allowanceforPHVSscaleup; excludeslicense royalty.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "license_rate",
+      "working_value": 0.03,
+      "recorded_bounds": [
+        0.02,
+        0.05
+      ],
+      "units": "fraction",
+      "denominator": "worldwideendmarketnet sales",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "F25"
+      ],
+      "sources": [
+        {
+          "id": "F25",
+          "title": "Pharvaris FY2025 Form 20-F",
+          "url": "https://www.sec.gov/Archives/edgar/data/1830487/000183048726000013/phvs-20251231.htm",
+          "locator": "F-4 to F-7; notes 13, 18, 21; Intellectual Property"
+        }
+      ],
+      "bridge": "Midpointlow-mid-single-digit BRAINroyalty. Appliedalsoindirectsales;postgenericreductionnotassumed.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "commercial_variable_us",
+      "working_value": 0.08,
+      "recorded_bounds": [
+        0.05,
+        0.12
+      ],
+      "units": "fraction",
+      "denominator": "USsales",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "COST",
+        "COST2"
+      ],
+      "sources": [
+        {
+          "id": "COST",
+          "title": "KalVista first commercial quarter",
+          "url": "https://ir.kalvista.com/news-releases/news-release-details/kalvista-pharmaceuticals-provides-operational-update-and-7",
+          "locator": "Financial results"
+        },
+        {
+          "id": "COST2",
+          "title": "BioCryst Q22026 financial results",
+          "url": "https://ir.biocryst.com/news-releases/news-release-details/biocryst-reports-second-quarter-2026-financial-results",
+          "locator": "Sixmonthexpense reconciliation"
+        }
+      ],
+      "bridge": "Incrementalfield/access/support abovefixedcommercialplatform.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "commercial_variable_exus",
+      "working_value": 0.18,
+      "recorded_bounds": [
+        0.12,
+        0.25
+      ],
+      "units": "fraction",
+      "denominator": "exUSdirectsales",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "COST2",
+        "GEO"
+      ],
+      "sources": [
+        {
+          "id": "COST2",
+          "title": "BioCryst Q22026 financial results",
+          "url": "https://ir.biocryst.com/news-releases/news-release-details/biocryst-reports-second-quarter-2026-financial-results",
+          "locator": "Sixmonthexpense reconciliation"
+        },
+        {
+          "id": "GEO",
+          "title": "BioCryst2024 Form10-K",
+          "url": "https://ir.biocryst.com/static-files/99047ae6-7679-4210-82f1-5a64a2afdd39",
+          "locator": "Note2 PDFp94; saved geography audit"
+        }
+      ],
+      "bridge": "Countrylaunch/marketaccesspremium; zero onpartnersales.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "cost_scale",
+      "working_value": 1,
+      "recorded_bounds": [
+        0.8,
+        1.2
+      ],
+      "units": "multiplier",
+      "denominator": "fixedRD/commercial/GA",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "H126",
+        "COST",
+        "COST2"
+      ],
+      "sources": [
+        {
+          "id": "H126",
+          "title": "Pharvaris June 2026 interim financial statements",
+          "url": "https://www.sec.gov/Archives/edgar/data/1830487/000119312526345702/phvs-20260630.htm",
+          "locator": "Exhibit financial statements pp2-6, notes 13 and 18"
+        },
+        {
+          "id": "COST",
+          "title": "KalVista first commercial quarter",
+          "url": "https://ir.kalvista.com/news-releases/news-release-details/kalvista-pharmaceuticals-provides-operational-update-and-7",
+          "locator": "Financial results"
+        },
+        {
+          "id": "COST2",
+          "title": "BioCryst Q22026 financial results",
+          "url": "https://ir.biocryst.com/news-releases/news-release-details/biocryst-reports-second-quarter-2026-financial-results",
+          "locator": "Sixmonthexpense reconciliation"
+        }
+      ],
+      "bridge": "Absoluteannualschedule withnamedcostbuild inarchitecture;no brokermargintemplate.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "cost_inflation",
+      "working_value": 0.02,
+      "recorded_bounds": [
+        0,
+        0.03
+      ],
+      "units": "annualfraction",
+      "denominator": "fixedcosts after2031 untilLOE",
+      "period": "Annual rate applied monthly",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Nominalexpenseinflation; no preLOEpriceinflation.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "tax_rate",
+      "working_value": 0.2,
+      "recorded_bounds": [
+        0.15,
+        0.258
+      ],
+      "units": "fraction",
+      "denominator": "positive taxableprofit",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "F25",
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "F25",
+          "title": "Pharvaris FY2025 Form 20-F",
+          "url": "https://www.sec.gov/Archives/edgar/data/1830487/000183048726000013/phvs-20251231.htm",
+          "locator": "F-4 to F-7; notes 13, 18, 21; Intellectual Property"
+        },
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Normalizedmixedjurisdictionrate; no recognitionofunverifiedhistoricalNOL. Prospectiveforecastlosses tracked,80%utilizationcapproxy.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "nwc_fraction",
+      "working_value": 0.12,
+      "recorded_bounds": [
+        0.08,
+        0.18
+      ],
+      "units": "fraction",
+      "denominator": "annualizeddirectsales",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Approx60daysreceivable+inventory-payables; total12%assumption; baselinecurrentNWCpreserved.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "capex_fraction",
+      "working_value": 0.005,
+      "recorded_bounds": [
+        0,
+        0.01
+      ],
+      "units": "fraction",
+      "denominator": "directsales",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "F25",
+        "H126"
+      ],
+      "sources": [
+        {
+          "id": "F25",
+          "title": "Pharvaris FY2025 Form 20-F",
+          "url": "https://www.sec.gov/Archives/edgar/data/1830487/000183048726000013/phvs-20251231.htm",
+          "locator": "F-4 to F-7; notes 13, 18, 21; Intellectual Property"
+        },
+        {
+          "id": "H126",
+          "title": "Pharvaris June 2026 interim financial statements",
+          "url": "https://www.sec.gov/Archives/edgar/data/1830487/000119312526345702/phvs-20260630.htm",
+          "locator": "Exhibit financial statements pp2-6, notes 13 and 18"
+        }
+      ],
+      "bridge": "Outsourcedmanufacturing;0.5mfixedplus0.5%revenue.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "discount_rate",
+      "working_value": 0.12,
+      "recorded_bounds": [
+        0.1,
+        0.15
+      ],
+      "units": "annualfraction",
+      "denominator": "unleverednominalUSDcashflows",
+      "period": "Annual rate applied monthly",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Independent12%time/commercialriskscenario; clinicalsuccessweightedseparately once.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "ir_pos",
+      "working_value": 0.9,
+      "recorded_bounds": [
+        0.8,
+        0.95
+      ],
+      "units": "probability",
+      "denominator": "IRapproval",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "IRREG",
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "IRREG",
+          "title": "RAPIDe-3 publication announcement",
+          "url": "https://ir.pharvaris.com/news-releases/news-release-details/phase-3-study-results-highlighting-deucrictibants-rapid-and",
+          "locator": "Regulatory paragraph"
+        },
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Highpostpivotalunderwriting; not empiricalestimatedprobability.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "xr_pos",
+      "working_value": 0.9,
+      "recorded_bounds": [
+        0.8,
+        0.95
+      ],
+      "units": "probability",
+      "denominator": "XRapproval",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "XRREG",
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "XRREG",
+          "title": "CHAPTER-3 topline announcement",
+          "url": "https://ir.pharvaris.com/news-releases/news-release-details/pharvaris-announces-positive-topline-data-chapter-3-pivotal",
+          "locator": "Development timeline and trial design"
+        },
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Positivepivotalresult;marketingapplicationstillpending.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "shared_success",
+      "working_value": 0.95,
+      "recorded_bounds": [
+        0.95,
+        1
+      ],
+      "units": "probability",
+      "denominator": "sharedmolecule/CMCgate",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Conditionalindependence aftersharedgate;0.95illustrativedependence not estimatedcorrelation.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "fx",
+      "working_value": 1.1186,
+      "recorded_bounds": [
+        1.05,
+        1.25
+      ],
+      "units": "USD/EUR",
+      "denominator": "planningandopeningbalanceconversion",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "observed comparator anchor, transferred toPHVS",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "FX"
+      ],
+      "sources": [
+        {
+          "id": "FX",
+          "title": "ECB reference rate",
+          "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.de.html",
+          "locator": "Table dated8October2026 USD"
+        }
+      ],
+      "bridge": "FreezeOct8snapshot;nativeEURhistoryretained.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "loe_year",
+      "working_value": 2039,
+      "recorded_bounds": [
+        2039,
+        2043
+      ],
+      "units": "calendar year",
+      "denominator": "firstfullgenericexposure bothproducts",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "F25"
+      ],
+      "sources": [
+        {
+          "id": "F25",
+          "title": "Pharvaris FY2025 Form 20-F",
+          "url": "https://www.sec.gov/Archives/edgar/data/1830487/000183048726000013/phvs-20251231.htm",
+          "locator": "F-4 to F-7; notes 13, 18, 21; Intellectual Property"
+        }
+      ],
+      "bridge": "2038Novpatent then2039full-yearentry; laterformulation/exclusivityonlysensitivity.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "loe_price_cap",
+      "working_value": false,
+      "recorded_bounds": [
+        false,
+        true
+      ],
+      "units": "boolean",
+      "denominator": "effectiveblendedP index",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "JUDGMENT",
+        "LOE"
+      ],
+      "sources": [
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        },
+        {
+          "id": "LOE",
+          "title": "Health Affairs generic-entry appendix",
+          "url": "https://www.healthaffairs.org/doi/suppl/10.1377/hlthaff.2026.00257/suppl_file/2026-00257_suppl_appendix.pdf",
+          "locator": "pp8-9 FiguresS4/S5; formulationanalysis452definitions in271compoundstudy"
+        }
+      ],
+      "bridge": "UserhypothesiscrowdedHAEflatP tested; basepreserveshistorical50/50PxQframework.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "minimum_cash_m",
+      "working_value": 75,
+      "recorded_bounds": [
+        50,
+        100
+      ],
+      "units": "USDm",
+      "denominator": "quarterlyliquiditybuffer",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "H126",
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "H126",
+          "title": "Pharvaris June 2026 interim financial statements",
+          "url": "https://www.sec.gov/Archives/edgar/data/1830487/000119312526345702/phvs-20260630.htm",
+          "locator": "Exhibit financial statements pp2-6, notes 13 and 18"
+        },
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Raise to150m atmonthend ifbelow75; fundingdiagnostic not guarantee.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "issue_price",
+      "working_value": 25,
+      "recorded_bounds": [
+        15,
+        40
+      ],
+      "units": "USD/share",
+      "denominator": "illustrativecashfundingplan",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Notmarketquote. Fixedscenario for statementsharebridge; posttargetvaluationassumesfairissuance, seefinancingspec.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "issue_fee",
+      "working_value": 0.05,
+      "recorded_bounds": [
+        0.03,
+        0.07
+      ],
+      "units": "fraction",
+      "denominator": "grosscapitalraised",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "H126"
+      ],
+      "sources": [
+        {
+          "id": "H126",
+          "title": "Pharvaris June 2026 interim financial statements",
+          "url": "https://www.sec.gov/Archives/edgar/data/1830487/000119312526345702/phvs-20260630.htm",
+          "locator": "Exhibit financial statements pp2-6, notes 13 and 18"
+        }
+      ],
+      "bridge": "May2026fees7.9m on132.2mgross~6%;5%planning.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "xr_paid_intensity",
+      "working_value": 0.925221320319973,
+      "recorded_bounds": [
+        0.9,
+        1.0
+      ],
+      "units": "fraction",
+      "denominator": "survival-weighted XR patient-years",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "derived from evidence plus transfer assumptions",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "XRPERSIST"
+      ],
+      "sources": [
+        {
+          "id": "XRPERSIST",
+          "title": "Zuraw et al. US HAE long-term prophylaxis adherence and persistence",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40300843/",
+          "locator": "Abstract Methods and Results; research/PHVS_adoption_evidence_2026-10-07.json A04/A05"
+        }
+      ],
+      "bridge": "Orladeyo first-year persistence61% implies0.789continuous patient-years under an exponential exit curve; observedPDC0.73/0.789 gives~0.925 paid-exposure intensity. Apply once after survival, preserving PHVS69.45%retention allowance. Not a separately measured conditionaladherence rate; returningusers and cohortdefinitions confound transfer. No additionalPDC haircut.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "ir_initial_paid_fraction",
+      "working_value": 1.0,
+      "recorded_bounds": [
+        0.0,
+        1.0
+      ],
+      "units": "fraction",
+      "denominator": "initial stock doses at access activation",
+      "period": "Per event or unit as stated; calendar schedule in architecture",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "IRPRICE",
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "IRPRICE",
+          "title": "KalVista FDA approval presentation",
+          "url": "https://www.sec.gov/Archives/edgar/data/1348911/000119312525155885/d98157dex992.htm",
+          "locator": "Slides17-20"
+        },
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Default initial stock paid once access activates. Zero sensitivity supplies initial two doses free and deducts them from subsequent first-year dispensing budget; no free-product revenue. Not paid-start conversion.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "segmented_adoption",
+      "working_value": true,
+      "recorded_bounds": [
+        false,
+        true
+      ],
+      "units": "mode",
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "hard-fixed user/model constraint",
+      "source_ids": [
+        "SEGMENTED"
+      ],
+      "sources": [
+        {
+          "id": "SEGMENTED",
+          "title": "Segmented adoption calibration and source bridge",
+          "url": "https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf",
+          "locator": "adoption_calibration/provenance.json; final_mechanics_provenance.json; research/PHVS_choice_share_comparable_audit_2026-10-09.json"
+        }
+      ],
+      "bridge": "Enable source-specific acquisition; legacy rates only in explicit counterfactual.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "category_switch",
+      "working_value": 0.1524390243902439,
+      "recorded_bounds": [
+        0.1,
+        0.2
+      ],
+      "units": "annual probability",
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "evidence_classification": "derived from evidence plus transfer assumptions",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "SWITCH"
+      ],
+      "sources": [
+        {
+          "id": "SWITCH",
+          "title": "HAEA2025 LTP claims poster",
+          "url": "https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf",
+          "locator": "12month switching among328 LTPinitiators"
+        }
+      ],
+      "bridge": "50/328 observed LTP switch benchmark; borrowed for IR oral departures, not measured IR switching.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "oral_launch_share",
+      "working_value": 0.4,
+      "recorded_bounds": [
+        0.25,
+        0.6
+      ],
+      "units": "conditional fraction",
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "CHOICEAUDIT",
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "CHOICEAUDIT",
+          "title": "Public later-oral comparator choice audit",
+          "url": null,
+          "locator": "research/PHVS_choice_share_comparable_audit_2026-10-09.json"
+        },
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Judgment informed by follower analogues; not a fitted causal efficacy premium.",
+      "key_limitation": "Comparable launches inform uncertainty, not an estimatedPHVSshare.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "oral_mature_share",
+      "working_value": 0.6,
+      "recorded_bounds": [
+        0.6,
+        0.6
+      ],
+      "units": "conditional fraction",
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "hard-fixed user/model constraint",
+      "source_ids": [
+        "CHOICEAUDIT",
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "CHOICEAUDIT",
+          "title": "Public later-oral comparator choice audit",
+          "url": null,
+          "locator": "research/PHVS_choice_share_comparable_audit_2026-10-09.json"
+        },
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "User-selected common mature oral-pair choice; default all cases60%.",
+      "key_limitation": "Fixed user-selected60%; not empirical convergence estimate.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "choice_months",
+      "working_value": 60,
+      "recorded_bounds": [
+        36,
+        84
+      ],
+      "units": "months",
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "CHOICEAUDIT",
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "CHOICEAUDIT",
+          "title": "Public later-oral comparator choice audit",
+          "url": null,
+          "locator": "research/PHVS_choice_share_comparable_audit_2026-10-09.json"
+        },
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Linear transition to mature oral choice on each product own launch clock.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "oral_destination_capture",
+      "working_value": 0.6,
+      "recorded_bounds": [
+        0.4,
+        0.8
+      ],
+      "units": "fraction of all departures",
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "SWITCH",
+        "CHOICEAUDIT",
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "SWITCH",
+          "title": "HAEA2025 LTP claims poster",
+          "url": "https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf",
+          "locator": "12month switching among328 LTPinitiators"
+        },
+        {
+          "id": "CHOICEAUDIT",
+          "title": "Public later-oral comparator choice audit",
+          "url": null,
+          "locator": "research/PHVS_choice_share_comparable_audit_2026-10-09.json"
+        },
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "PHVS capture of existing oral users leaving treatment; distinct from oral-pair choice.",
+      "key_limitation": "Not a measured PHVS share of departures;60%assumption distinct from oral pair share.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "prevention_oral_preference",
+      "working_value": 0.54,
+      "recorded_bounds": [
+        0.46,
+        0.62
+      ],
+      "units": "fraction",
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "evidence_classification": "derived from evidence plus transfer assumptions",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "PREFERENCE"
+      ],
+      "sources": [
+        {
+          "id": "PREFERENCE",
+          "title": "HAE treatment preference survey",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41429313/",
+          "locator": "150participant survey"
+        }
+      ],
+      "bridge": "Survey preference under its study framing; transfer to switching opportunity is an assumption.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "untreated_xr_reach",
+      "working_value": 0.5,
+      "recorded_bounds": [
+        0.25,
+        0.75
+      ],
+      "units": "relative reach",
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "MIX",
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "MIX",
+          "title": "BioCryst investor patient history mix",
+          "url": "https://ir.biocryst.com/static-files/1a9b298c-7e8e-4cf8-b5af-ffa6ef61586a",
+          "locator": "Slide8 patient origins52/32/17; slide9 population2019/2023; slide11 persistence benchmark"
+        },
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Access/reach discount to historical naive entrant mix, before paid conversion.",
+      "key_limitation": "Historical naive entrants are not the current untreated stock.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "ir_injectable_opportunity",
+      "working_value": 1.0,
+      "recorded_bounds": [
+        0.75,
+        1.25
+      ],
+      "units": "multiplier",
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "KALVFORM",
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "KALVFORM",
+          "title": "KalVista launchupdate",
+          "url": "https://ir.kalvista.com/node/12706/html",
+          "locator": "February28,2026 startforms"
+        },
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Apply first oral Ekterly annualized forms propensity to injectable source, then PHVS oral choice.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "ir_no_rescue_opportunity",
+      "working_value": 0.2,
+      "recorded_bounds": [
+        0.1,
+        0.3
+      ],
+      "units": "annual probability",
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "RESCUEPREF",
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "RESCUEPREF",
+          "title": "HAE patient experience and rescue preferences",
+          "url": "https://link.springer.com/article/10.1007/s12325-026-03790-2",
+          "locator": null
+        },
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Assumed opportunity to select rescue; multiplied by84% oral preference and PHVS oral choice.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "switch_mature_multiplier",
+      "working_value": 1.0,
+      "recorded_bounds": [
+        0.5,
+        1.25
+      ],
+      "units": "multiplier",
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "KALVFORM",
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "KALVFORM",
+          "title": "KalVista launchupdate",
+          "url": "https://ir.kalvista.com/node/12706/html",
+          "locator": "February28,2026 startforms"
+        },
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Category opportunity linearly changes to this bymonth60; depletion already endogenous.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "ekterly_future_forms",
+      "working_value": 192.0,
+      "recorded_bounds": [
+        100.0,
+        250.0
+      ],
+      "units": "forms per month",
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "KALVFORM",
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "KALVFORM",
+          "title": "KalVista launchupdate",
+          "url": "https://ir.kalvista.com/node/12706/html",
+          "locator": "February28,2026 startforms"
+        },
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Continue last observed two-month pace afterFeb2026; projected not observed.",
+      "key_limitation": "Observed latest interval extended into future; active launch stock not reported.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "ekterly_paid_conversion",
+      "working_value": 0.8,
+      "recorded_bounds": [
+        0.65,
+        0.9
+      ],
+      "units": "fraction",
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Launch-stock projection assumption; distinct from PHVS conversion.",
+      "key_limitation": "No public filled-active denominator; assumed.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "ekterly_continuation",
+      "working_value": 0.9,
+      "recorded_bounds": [
+        0.8,
+        0.95
+      ],
+      "units": "annual survival",
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Projection assumption; forms do not establish active patient count.",
+      "key_limitation": "Continuation for rescue membership unmeasured.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "ekterly_unique_fraction",
+      "working_value": 1.0,
+      "recorded_bounds": [
+        0.9,
+        1.0
+      ],
+      "units": "fraction",
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "KALVFORM",
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "KALVFORM",
+          "title": "KalVista launchupdate",
+          "url": "https://ir.kalvista.com/node/12706/html",
+          "locator": "February28,2026 startforms"
+        },
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Stock projection assumes unique forms working; stress duplicate forms.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "ekterly_free_stock_multiplier",
+      "working_value": 1.0,
+      "recorded_bounds": [
+        1.0,
+        1.2
+      ],
+      "units": "multiplier",
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Stress extra oral patients supplied free, unknown actual stock.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "ltp_no_rescue_fraction",
+      "working_value": 0.0,
+      "recorded_bounds": [
+        0.0,
+        0.1
+      ],
+      "units": "fraction",
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "fixed primary; may appear in named scenario or deterministic sensitivity",
+      "source_ids": [
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "LTP baseline users with no primary rescue; guideline not access observation.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "ir_price_multiplier",
+      "working_value": 1.0,
+      "recorded_bounds": [
+        1.0,
+        1.0
+      ],
+      "units": "net-price multiplier",
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "hard-fixed user/model constraint",
+      "source_ids": [
+        "IRPRICE",
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "IRPRICE",
+          "title": "KalVista FDA approval presentation",
+          "url": "https://www.sec.gov/Archives/edgar/data/1348911/000119312525155885/d98157dex992.htm",
+          "locator": "Slides17-20"
+        },
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "User excludes efficacy-based pricing premium; fixed1.0. Underlying comparator WAC and assumed net fractions unchanged.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "xr_price_multiplier",
+      "working_value": 1.0,
+      "recorded_bounds": [
+        1.0,
+        1.0
+      ],
+      "units": "net-price multiplier",
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "hard-fixed user/model constraint",
+      "source_ids": [
+        "XRPRICE",
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "XRPRICE",
+          "title": "BioCryst WAC change 8-K",
+          "url": "https://ir.biocryst.com/node/27676/html",
+          "locator": "Item7.01"
+        },
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "User excludes efficacy-based pricing premium; fixed1.0. Underlying comparator WAC and assumed net fractions unchanged.",
+      "key_limitation": "Retain source-population, period and denominator limits; numerical bounds are not empirical confidence intervals.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "ir_quantity_multiplier",
+      "working_value": 0.8478260869565217,
+      "recorded_bounds": [
+        0.8478260869565217,
+        0.8478260869565217
+      ],
+      "units": "dose-budget multiplier",
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "hard-fixed user/model constraint",
+      "source_ids": [
+        "REDOSE"
+      ],
+      "sources": [
+        {
+          "id": "REDOSE",
+          "title": "Pivotal redosing comparison and extension sensitivity",
+          "url": "https://ir.pharvaris.com/static-files/2ceba996-1cde-409c-9930-da480237edb4",
+          "locator": "RAPIDe3Figure6; Ekterlylabel; output/PHVS_redosing_audit_2026-10-08.txt; output/PHVS_redosing_expert_followup_2026-10-08.txt"
+        }
+      ],
+      "bridge": "Fixed1.17/1.38 in every active case per user. Apply once to annual IRdosebudgets preserving initial stock. Cross-trial-to-commercial transfer remains an assumption.",
+      "key_limitation": "Fixed user hypothesis; cross-trial ratio applied to claims budgets not directly measured.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    },
+    {
+      "parameter": "ir_oral_switch_relative",
+      "working_value": 1.0,
+      "recorded_bounds": [
+        0.5,
+        1.5
+      ],
+      "units": "multiplier",
+      "denominator": "Borrowed LTP category-switch probability applied to incumbent oral rescue",
+      "period": "Annual propensity before monthly conversion",
+      "evidence_classification": "underwriting assumption with source context",
+      "mc_treatment": "sampled primitive",
+      "source_ids": [
+        "SWITCH",
+        "JUDGMENT"
+      ],
+      "sources": [
+        {
+          "id": "SWITCH",
+          "title": "HAEA2025 LTP claims poster",
+          "url": "https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf",
+          "locator": "12month switching among328 LTPinitiators"
+        },
+        {
+          "id": "JUDGMENT",
+          "title": "Analyst underwriting choice",
+          "url": null,
+          "locator": "inputs.json parameter rationale"
+        }
+      ],
+      "bridge": "Working1 preserves existing bridge. Half-to1.5x tests unobserved LTP-to-IR transfer without forcing preventive switching to change. Bounds analyst-selected; not confidence interval.",
+      "key_limitation": "Preventive-to-rescue switch transfer unobserved. Range is deliberate underwriting uncertainty.",
+      "source_ids_resolve": true,
+      "mode_in_bounds": true
+    }
+  ],
+  "financial_policy": {
+    "status": "Underwriting simplifications; deterministic structural scenarios, not measured transition rates.",
+    "rd_IR_fraction": {
+      "value": 0.35,
+      "bounds": [
+        0.25,
+        0.5
+      ],
+      "source": [
+        "JUDGMENT"
+      ],
+      "definition": "Share of R&D avoided after IR failure; XR share is1-minus this value."
+    },
+    "single_product_platform_fraction": {
+      "value": 0.7,
+      "bounds": [
+        0.6,
+        0.85
+      ],
+      "source": [
+        "COST",
+        "JUDGMENT"
+      ],
+      "definition": "Fixed commercial/G&A retained with one viable product; shared infrastructure prevents a50% cost reduction."
+    },
+    "winddown_platform_fraction": {
+      "value": 0.15,
+      "bounds": [
+        0.1,
+        0.3
+      ],
+      "source": [
+        "JUDGMENT"
+      ],
+      "definition": "Fixed platform retained temporarily after both clinical failures."
+    },
+    "winddown_months": {
+      "value": 6,
+      "bounds": [
+        3,
+        12
+      ],
+      "source": [
+        "JUDGMENT"
+      ],
+      "definition": "Months after the XR decision until liquidation in neither-success case."
+    },
+    "remaining_milestone_eurm": {
+      "value": 7,
+      "bounds": [
+        0,
+        7
+      ],
+      "source": [
+        "F25",
+        "H126"
+      ],
+      "definition": "EUR8m potentialremaining atFY2025 lessEUR1m licensepayment inH1; timing assumed atIRapproval."
+    },
+    "capex_fixed_usdm": {
+      "value": 0.5,
+      "bounds": [
+        0.2,
+        2.0
+      ],
+      "source": [
+        "F25",
+        "H126"
+      ],
+      "definition": "Annual fixed capex plus variable capexfraction; CDMO model, noownedfactory assumed."
+    },
+    "depreciation_months": {
+      "value": 60,
+      "bounds": [
+        36,
+        84
+      ],
+      "source": [
+        "JUDGMENT"
+      ],
+      "definition": "Rolling depreciation proxy forforecastPPE."
+    },
+    "tax_floor_usdm": {
+      "value": 1,
+      "bounds": [
+        0,
+        2
+      ],
+      "source": [
+        "F25"
+      ],
+      "definition": "Annualcash taxfloor reflectingcost-plus subsidiaries despiteconsolidatedlosses; exact futuremix unknown."
+    },
+    "nol_utilization_cap": {
+      "value": 0.8,
+      "bounds": [
+        0.5,
+        1.0
+      ],
+      "source": [
+        "JUDGMENT"
+      ],
+      "definition": "Pooledforecast-loss utilization cap; not a jurisdiction-specific legalmodel."
+    },
+    "cash_raise_target_multiple": {
+      "value": 2,
+      "bounds": [
+        1.5,
+        3
+      ],
+      "source": [
+        "JUDGMENT"
+      ],
+      "definition": "Raise cash to thismultipleofminimumcash."
+    }
+  },
+  "structures": {
+    "pool_weights": {
+      "orladeyo": 0.17,
+      "other_prevention": 0.408,
+      "acute_only": 0.272,
+      "diagnosed_untreated": 0.15
+    },
+    "launches": {
+      "IR": {
+        "approval_assumption": "2027-04-23",
+        "commercial_month": "2027-05",
+        "source": "IRREG"
+      },
+      "XR": {
+        "approval_assumption": "2028-05-31",
+        "commercial_month": "2028-06",
+        "source": "XRREG"
+      }
+    },
+    "segmented_constants": {
+      "reference_paid_conversion": 0.8,
+      "rescue_oral_preference": 0.84,
+      "ekterly_first8_forms": 1702,
+      "ekterly_launch_addressable": 9000,
+      "ekterly_monthly_forms_Jul2025_Feb2026": [
+        230,
+        230,
+        238.5,
+        238.5,
+        190.5,
+        190.5,
+        192,
+        192
+      ],
+      "entrant_rescue_to_prevention_ratio": 0.6153846153846154,
+      "entrant_naive_to_rescue_ratio": 0.53125,
+      "note": "Normalization conversion stays80% while actual access varies. Entrant-mix ratios do not themselves measure annual switch rates. New conditional-choice rows disabled; only net growth enters."
+    },
+    "cost_schedule_usdm": {
+      "2026": {
+        "rd": 144,
+        "commercial_fixed": 0,
+        "ga": 72
+      },
+      "2027": {
+        "rd": 130,
+        "commercial_fixed": 100,
+        "ga": 45
+      },
+      "2028": {
+        "rd": 105,
+        "commercial_fixed": 120,
+        "ga": 50
+      },
+      "2029": {
+        "rd": 85,
+        "commercial_fixed": 120,
+        "ga": 50
+      },
+      "2030": {
+        "rd": 70,
+        "commercial_fixed": 120,
+        "ga": 50
+      },
+      "2031": {
+        "rd": 60,
+        "commercial_fixed": 120,
+        "ga": 50
+      }
+    },
+    "loe": {
+      "study_weight": 0.5,
+      "study_p": [
+        1.375,
+        1.75,
+        2.0,
+        2.15625
+      ],
+      "study_q": [
+        0.24,
+        0.13,
+        0.09,
+        0.08
+      ],
+      "rare_p": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "rare_revenue": [
+        0.6243740441337121,
+        0.4972187022066856,
+        0.39494647148787415,
+        0.26436530478479353
+      ],
+      "tail_growth": -0.24909233225475447,
+      "interpretation": "PooledstudyPxQ synthetic;rareQ inferredfromrevenue/assumedP; weightedrevenue andQ theneffectiveP=R/Q. Year5+Pflat,Qdeclines."
+    }
+  },
+  "critical_weak_inputs": {
+    "ir_oral_switch_relative": "Preventive-to-rescue switch transfer unobserved. Range is deliberate underwriting uncertainty.",
+    "oral_destination_capture": "Not a measured PHVS share of departures;60%assumption distinct from oral pair share.",
+    "ekterly_future_forms": "Observed latest interval extended into future; active launch stock not reported.",
+    "ekterly_paid_conversion": "No public filled-active denominator; assumed.",
+    "ekterly_continuation": "Continuation for rescue membership unmeasured.",
+    "ir_retention": "No validated annual IR continuation; not equivalent to monthly refill.",
+    "xr_mature_retention": "Survivor selection can support higher persistence, but90%not observed.",
+    "dual_use": "Same-molecule paid rescue allocation is hypothetical, not a clinical prescribing prohibition.",
+    "ir_doses_other": "Claims user denominator differs from pure non-LTP member stock.",
+    "ir_quantity_multiplier": "Fixed user hypothesis; cross-trial ratio applied to claims budgets not directly measured.",
+    "population": "Broad diagnosed proxy, not exact age/subtype-eligible reachable census.",
+    "untreated_xr_reach": "Historical naive entrants are not the current untreated stock.",
+    "conversion": "Assumed practical access transfer, not measured PHVS approval rate.",
+    "ir_net_fraction": "No actual PHVSnetcontract price.",
+    "xr_net_fraction": "No actual PHVSnetcontract price.",
+    "oral_launch_share": "Comparable launches inform uncertainty, not an estimatedPHVSshare.",
+    "oral_mature_share": "Fixed user-selected60%; not empirical convergence estimate."
+  },
+  "sampling_manifest": "monte_carlo_priors.json",
+  "public_primary_sources_rechecked_this_pass": [
+    "SWITCH",
+    "CLAIMS",
+    "KALVFORM",
+    "MIX"
+  ],
+  "retrieval_limit": "PubMed persistence page did not expose abstract through web tool; retained prior reviewed study extraction. No invented new verification.",
+  "judgment": "Mechanically ready for analyst sensitivity MonteCarlo. Does not establish a short or probability of stock return."
+}

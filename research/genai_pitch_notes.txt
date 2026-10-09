@@ -96,3 +96,15 @@ Stronger-adoption and access scenarios test the short; they are not empirical
 probabilities. Public sources replace pivotal licensed dependencies. Mechanical
 checks verify arithmetic, not commercial accuracy. Exact settings and time
 saved are unknown. The user explicitly reaffirmed the standalone short framing.
+
+EXAMPLE6 — AUDIT AND USER-DEFINED STANDALONE MONTE CARLO SCOPE (G68-G71)
+Objective:Test a standalone short using traceable adoption and unit economics.
+GenAI Method & Data Source:User challenged price/adoption attribution, fixed
+redosing and removed acquisition. AI reconciled source-denominator transfers,
+repaired timing, programmed controls and prepared28primitive analyst priors.
+Snapshot of GenAI Output:$21.50blended->$31.70segmented->$28.31withredosing;
+all had no efficacy pricing premium.72boundedpreflight checks; no productionMC.
+Interpretation & Relevance to Thesis:Better adoption calibration weakened the
+short; redosing reduced value but did not alone establish a short. Document both.
+Limitations & Bias Mitigation:Assumedpriorsnotconfidenceintervals; retained
+counterevidence in history; no agents or fullrandomoutcome simulation claimed.

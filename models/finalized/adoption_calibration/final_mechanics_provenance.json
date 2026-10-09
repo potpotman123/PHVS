@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-09",
+  "status": "Resolved as explicit underwriting choices with reproducible stock/flow checks. Not empirical estimates or full integratedDCF.",
+  "sources": {
+    "Ekterly_forms": {
+      "url": "https://ir.kalvista.com/node/12706/html",
+      "observed": "1702patientstartformsthroughFeb28,2026;earlier937Oct31,1318Dec31. IncrementDec-Feb384=192/month.",
+      "limits": "Formsnotunique/paid/active;noverifiedlateractivecountfoundinboundedpass."
+    },
+    "Orladeyo_demand": {
+      "url": "https://ir.biocryst.com/news-releases/news-release-details/biocryst-reports-full-year-2025-financial-results-and-provides",
+      "observed": "2025highestnewUSpatientprescriptionssinceinitiallaunch."
+    },
+    "Orladeyo_later": {
+      "url": "https://ir.biocryst.com/news-releases/news-release-details/biocryst-reports-second-quarter-2026-financial-results",
+      "observed": "NewpatientprescriptionmomentummaintainedQ22026;notnumericpatientcount.",
+      "limits": "Companyreportedactivitydoesnotidentifynationalperpatienthazard."
+    },
+    "population": {
+      "url": "https://ir.biocryst.com/static-files/4e1f4dca-2e8e-48b6-869f-46bd74b8b1ba",
+      "location": "Nov4,2024presentation slide12;existingprojectextraction",
+      "observed": "Treated8010in2019,8511in2023:1.53%CAGR;diagnosed10035to11135:2.63%.",
+      "limits": "Issuerestimates,changingclaimsascertainment;notdemographiccensus.1.5%workingnetgrowth,0-3%sensitivity."
+    },
+    "rescue_access": {
+      "url": "https://www.haea.org/pages/p/treatment_guidelines",
+      "observed": "AllC1INHdeficientHAEpatientsshouldhaveatleasttwostandarddosesofacuteHAEtherapy.",
+      "limits": "Recommendationnotobservedaccess. Cannotuse67%withannualclaimsas67%withrescueavailable."
+    }
+  },
+  "decisions": {
+    "IR_launch_stock": {
+      "date": "beginningMay2027",
+      "method": "ProjecteachmonthlyformcohortJuly2025-April2027;one-monthpaidactivationdelay;annualcontinuationsurvival. Distributeobservedtwo-monthincrementsuniformly;projectionMar2026-Apr2027uses100/192/250newformspermonth.",
+      "working": {
+        "forms_future_per_month": 192,
+        "paid_conversion": 0.8,
+        "annual_continuation": 0.9,
+        "unique_fraction": 1.0,
+        "Ekterly": 3071.5876896603886
+      },
+      "range": "Ekterly~1413-4278 acrossbundledassumptions;notstatisticalCI. Paid/freeconversionandcontinuationnotmeasuredEkterlycohorts.",
+      "joint_assignment": "ProportionalEkterlyallocationacrosstreatedpreventiverows;noobservedrescueregimen-byLTPjointtable. Basealltreatedhaveprimaryrescue,all1500untreatednone;10%LTPwithoutrescuestressincluded.",
+      "free_supply_limit": "PaidpersistentEkterlyismodeledasprimaryEkterlystockproxy. Assumesunconverted/discontinuedrevertorretainpreviousrescue. Free/PAPpersistentoraluserscouldraisethetrueEkterlystock;useadditional20%Ekterlystockstructuralstressfundedbyinjectableresidual,notnewpeople.20%isjudgmentnotobserved."
+    },
+    "switching_vs_choice": {
+      "working": "Constantperavailablepatientcategoryswitchpropensity,oral-choice25/40/60atlaunchto60byyear5,pooldepletionendogenouslyreducesnewstarts. Noextracalendarhazardtaperworking.",
+      "rationale": "Ekterlylasttwoobserved2monthincrementssimilar;Orladeyo2025newRxstrongafteryearsmarketed. Do notimposeunfoundedlargeearlyswitchcollapse.",
+      "stress": "Scaleannualswitchpropensitylinearlyto50%initialbyyear5inextra-tapercase;125%inexpandingconsiderationcase. Thesearejudgmentalstructuralstresses.",
+      "distinction": "Choiceconvergenceisnotpatient-switchhazardconvergence;newstartsneednotdeclineuntilimprovingchoiceisoutweighedbypooldepletion."
+    },
+    "new_patients": {
+      "working": "Preserve1.5%netmarketgrowth;monthlydelta=N*((1+.015)^(1/12)-1),allocateoncebyjointoriginweights. Applyordinaryoriginhazards.",
+      "disabled": "SeparateNEWconditionalchoiceeventrowsdisabledforworkingintegration. Theyarealternativeroutingresearch,notadditionalpatients orautomaticbonus.",
+      "meaning": "Netadditiontomodeledaddressablemarket,notgrossnewdiagnoses. Noadditional150-250diagnoses,deathflowor35/40%newchoicefactor. Simplificationretainedperuserpopulationpreference.",
+      "checks": "1000initial->1015after1year;zero-growth->1000. IR/XRledgersreferthesamepeopleandcannotbesummed."
+    }
+  },
+  "limitations": "Modelmechanicsresolvedwithpracticalassumptions;sourceuncertaintyremains. Clinicaleligibilityabsorbedincompositerateaslegacy;noindependentpediatricTAMaddition. Fulljoint-engineconsumption/retentionandcashflowintegrationstillrequired.",
+  "files": [
+    "final_mechanics.py",
+    "final_mechanics_results.json"
+  ]
+}

@@ -117,10 +117,10 @@
     "MIX": {
       "title": "BioCryst investor patient history mix",
       "date": null,
-      "url": "https://ir.biocryst.com/static-files/4e1f4dca-2e8e-48b6-869f-46bd74b8b1ba",
-      "locator": "Patient history:52%priorLTP,32%ODonly,17%naive",
+      "url": "https://ir.biocryst.com/static-files/1a9b298c-7e8e-4cf8-b5af-ffa6ef61586a",
+      "locator": "Slide8 patient origins52/32/17; slide9 population2019/2023; slide11 persistence benchmark",
       "facts": "Historical entrant mix informs relative XR rates.",
-      "limitation": "Cumulative treatmenthistory, not immediatelypriorregimen or causalflow."
+      "limitation": "Issuer specialty-pharmacy history of triers, not incident annual switch probability. Rounded shares total101%; use ratios, not summed population shares."
     },
     "GEO": {
       "title": "BioCryst2024 Form10-K",
@@ -233,6 +233,33 @@
       "locator": "Net product revenue table",
       "facts": "Kuvan2020revenue457.7m; USgenericentryOctober2020.",
       "limitation": "Partialgenericexposure inbaseyear."
+    },
+    "SEGMENTED": {
+      "title": "Segmented adoption calibration and source bridge",
+      "locator": "adoption_calibration/provenance.json; final_mechanics_provenance.json; research/PHVS_choice_share_comparable_audit_2026-10-09.json",
+      "url": "https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf",
+      "facts": "50/328 LTP switching; supporting registry contains primary sources for preferences, entrant mix, forms, and population growth.",
+      "limitation": "Destination shares, launch timing, active Ekterly projection, and transfer to IR are underwriting assumptions, not measured PHVS behavior."
+    },
+    "REDOSE": {
+      "title": "Pivotal redosing comparison and extension sensitivity",
+      "url": "https://ir.pharvaris.com/static-files/2ceba996-1cde-409c-9930-da480237edb4",
+      "comparator_url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=1d145e2f-8e7e-2e90-e063-6294a90a4449",
+      "locator": "RAPIDe3Figure6; Ekterlylabel; output/PHVS_redosing_audit_2026-10-08.txt; output/PHVS_redosing_expert_followup_2026-10-08.txt",
+      "facts": "PHVS17%second study dose;Ekterly38%within12h. PHVSextension13.8%conditional mixed-dose subset is distinct.",
+      "limitation": "Different trials, redosing eligibility, populations and timing. Original8/14claims dose budgets do not measureEkterly1.38doses/attack; multiplier is user-selected stress, not an independently validated correction."
+    },
+    "RESCUEPREF": {
+      "title": "HAE patient experience and rescue preferences",
+      "url": "https://link.springer.com/article/10.1007/s12325-026-03790-2",
+      "facts": "84%oral rescue preference in2023-24 multinational survey",
+      "limitation": "Stated preference not realized access, switch hazard or PHVSbrand preference."
+    },
+    "CHOICEAUDIT": {
+      "title": "Public later-oral comparator choice audit",
+      "locator": "research/PHVS_choice_share_comparable_audit_2026-10-09.json",
+      "facts": "Comparator launch shares differ by line, time and denominator;60%PHVS mature share not identified empirically.",
+      "limitation": "Supports range and uncertainty, not fitted efficacy-to-share coefficient."
     }
   },
   "existing_evidence_registers": [

@@ -1,0 +1,150 @@
+{
+  "as_of": "2026-10-09",
+  "status": "All origin groups now have candidate composite numeric bridges; motivation-specific splits remain unmeasured. Engine.py still uses legacy blended rates. See adoption_calibration.",
+  "evidence_register": "research/PHVS_switching_evidence_bridge_2026-10-09.json",
+  "population_accounting": {
+    "total": 10000,
+    "orladeyo": 1700,
+    "other_prevention_combined": 4080,
+    "rescue_only": 2720,
+    "diagnosed_untreated": 1500,
+    "status": "Inherited underwriting pools, not new observed counts. Other prevention cannot all be labeled injectables.",
+    "growth": "Preserve net1.5% total growth; do not add gross new diagnoses on top. Newly diagnosed is an inflow, not another starting pool."
+  },
+  "XR_segments": [
+    {
+      "id": "xr_orladeyo_burden",
+      "parent_pool": "orladeyo",
+      "size": null,
+      "prescription_probability": null,
+      "motivation": "Meaningful residual attack burden or poor perceived control",
+      "sources": [
+        "claims",
+        "oasisplus",
+        "expert_optimistic"
+      ],
+      "translation_limit": "Claims15.24% is all-destination switching among mixed initiators, not prevalence of poor control. OASISplus11formerberotralstat users selected for switching."
+    },
+    {
+      "id": "xr_orladeyo_remaining",
+      "parent_pool": "orladeyo",
+      "size": null,
+      "prescription_probability": null,
+      "motivation": "Acceptable control; possible incremental benefit or non-efficacy preference",
+      "sources": [
+        "expert_practical",
+        "expert_two_oral_users",
+        "oasisplus"
+      ],
+      "translation_limit": "No new oral-route advantage over Orladeyo. AE superiority not assumed. Stable users can still switch."
+    },
+    {
+      "id": "xr_injectable_burden",
+      "parent_pool": "other_prevention_combined",
+      "size": null,
+      "prescription_probability": null,
+      "motivation": "Better perceived control with acceptable route/schedule",
+      "sources": [
+        "claims",
+        "preferences",
+        "oasisplus"
+      ],
+      "translation_limit": "Higher burden supports consideration; PHVS superiority versus effective injectables is not established."
+    },
+    {
+      "id": "xr_injectable_remaining",
+      "parent_pool": "other_prevention_combined",
+      "size": null,
+      "prescription_probability": null,
+      "motivation": "Convenience preference despite acceptable control",
+      "sources": [
+        "preferences",
+        "injectable_to_oral",
+        "expert_practical"
+      ],
+      "translation_limit": "54%oral/46%injection in equal-efficacy simulated choice is not incremental preference, patient allocation, annual switching or PHVS share. No automatic oral acquisition premium."
+    },
+    {
+      "id": "xr_older_prevention",
+      "parent_pool": "other_prevention_combined",
+      "size": null,
+      "prescription_probability": null,
+      "motivation": "Potential efficacy, tolerability or burden improvement",
+      "sources": [
+        "expert_optimistic"
+      ],
+      "translation_limit": "Separate mutually exclusive remainder of4080 only if data support size; cannot add on top of injectables."
+    },
+    {
+      "id": "xr_rescue_only",
+      "parent_pool": "rescue_only",
+      "size": null,
+      "prescription_probability": null,
+      "motivation": "Attack burden justifies starting prevention",
+      "sources": [
+        "expert_optimistic",
+        "adelphi"
+      ],
+      "translation_limit": "Prevention initiation, not competing-prophylaxis switch. Low attack burden may discourage prevention; no imported injection preference multiplier."
+    },
+    {
+      "id": "xr_untreated",
+      "parent_pool": "diagnosed_untreated",
+      "size": null,
+      "prescription_probability": null,
+      "motivation": "First preventive choice if warranted",
+      "sources": [
+        "expert_practical",
+        "expert_optimistic"
+      ],
+      "translation_limit": "Eligibility and clinician/patient selection unresolved. New diagnoses enter existing total growth once."
+    }
+  ],
+  "IR_segments": [
+    {
+      "id": "ir_injectable_rescue",
+      "size": null,
+      "prescription_probability": null,
+      "motivation": "Oral administration and reliable rapid relief",
+      "sources": [
+        "adelphi",
+        "launch"
+      ],
+      "translation_limit": "84%oralrescue preference is pre-Ekterly multinational stated preference, not paid capture. Ekterly earlyforms anchor category conversion, not PHVS share."
+    },
+    {
+      "id": "ir_ekterly",
+      "size": null,
+      "prescription_probability": null,
+      "motivation": "Incremental response, durability or tolerability versus existing oral rescue",
+      "sources": [
+        "launch"
+      ],
+      "translation_limit": "No oral convenience premium; no public observed Ekterly-to-PHVS transition. Redosing percentages alone do not identify dissatisfied patients or annual switching."
+    },
+    {
+      "id": "ir_no_current_rescue",
+      "size": null,
+      "prescription_probability": null,
+      "motivation": "First rescue selection or provision of missing rescue",
+      "sources": [
+        "expert_practical"
+      ],
+      "translation_limit": "Do not equate this solely with diagnoseduntreated: some prophylaxis users may have no current rescue. No claim can mean stock at home, not no rescue."
+    }
+  ],
+  "rules": [
+    "Use joint states: current prevention origin x primary rescue origin. Row sums match prevention pools; all joint cells sum to diagnosed population. IR/XR are overlapping treatment ledgers, not additive unique patients.",
+    "For patients holding multiple rescue products, assign one primary strategy with a declared rule; preserve backup possession as an attribute, never two people. Current shares are unknown.",
+    "Within Orladeyo/injectables, classify meaningful control burden first; remaining is the complement. Convenience preference can exist in either class but cannot form a second additive patient pool.",
+    "Prior oral failure, tolerability concerns and access are overlapping attributes. FormerOrladeyo patients now on injections remain in injection pool.",
+    "Observed54/46preference applies to simulated dailyoral prevention versus specified injection schedules at equal efficacy, not rescue. Long-interval schedules and currentuser preferences require their own comparisons.",
+    "XR Rx attempts=sum_g available_g*q_g(t); q=1-(1-annual_p)^(1/12). Apply paidconversion once after attempts and access delay. No multiply by54%,71%,15% survey figures.",
+    "IR acquisition uses currentrescue origin; prophylaxis background determines8/14dose assumptions and changes with PHVSXR initiation. Do not use prevention origin as a substitute for rescue origin.",
+    "Finite highinterest pools can deplete faster and cause taper; time-varying reach/access can offset that. No empirical decay coefficient established. New netentrants allocated once, not duplicated.",
+    "Working80%paidconversion and1monthdelay are inherited assumptions shared acrosssegments until distinct evidence; preprescription access friction included in Rx propensity. Filledclaims benchmark already incorporates historicalaccess.",
+    "Existing10%IR,10%Orladeyo,4%otherprevention are legacy aggregate references, not assigned as identical subgroup forecasts. No new marketshare or confidenceinterval inferred."
+  ],
+  "numeric_calibration": "adoption_calibration/results.json",
+  "numeric_provenance": "adoption_calibration/provenance.json"
+}

@@ -27,7 +27,10 @@ Suggested tabs, in dependency order:
   valuation cutoff; financing occurs at month-end.
 
 06 XR Cohorts / 07 IR Cohorts
-  Separate matrices for four origin groups; one row per activation cohort.
+  Separate matrices for nonzero prevention-origin x primary-rescue-origin cells;
+  one row per activation cohort. Import segmented_adoption.py formulas and
+  inputs.json segmented_constants. Rates depend on each product launch age.
+  Do not use legacy ir_rx/xr_* acquisition parameters in segmented mode.
   Track available people, growth, attempts, pending access, failures, cooldown
   returns, active members, exits and retired members. Follow Population.step
   in engine.py. Monthly acquisition = 1-(1-annual probability)^(1/12).
@@ -41,7 +44,9 @@ Suggested tabs, in dependency order:
   Implement the budget, initial stock and replacement formulas in ARCHITECTURE.
   Deduct all initial stock from the annual first-year supply budget, including
   stock supplied free. Free stock generates no revenue. Do not apply additional
-  rescue-claimant or redosing discounts to the claims dispensing benchmarks.
+  rescue-claimant discounts. Redosing quantity_multiplier=1.17/1.38 in every case;
+  fix this input and preserve initial stock. Net-price multipliers
+  are fixed1 and must not alter paid units or adoption mechanically.
   Do not sum overlapping IR/XR users to infer unique disease patients.
 
 09 Revenue / Geography
@@ -99,17 +104,17 @@ Suggested tabs, in dependency order:
   Weight clinical-state equity/share outcomes. Do not apply another 90%
   haircut to both revenue and equity. Show conditional and expected values.
 
-16 Sensitivities / 17 Monte Carlo and Acquisition
+16 Sensitivities / 17 Standalone Monte Carlo
   Match deterministic outputs first. Follow monte_carlo_spec.json for sampling
-  dependencies and acquisition_spec.json for mutually exclusive outcomes.
+  dependencies. Acquisition has been removed from the scope.
   Ranges and simulation quantiles are underwriting, not statistical confidence
-  intervals. Do not hide capital requirements behind a takeover premium.
+  intervals. Report standalone capital requirements.
 
 Acceptance criteria:
   - Reproduce annual revenues within $0.01m and prices within $0.01/share.
   - Reconcile monthly, quarterly and annual flows; preserve stock balances.
   - Match zero-conversion, delayed-launch, survival, supply-budget, geographic,
-    clinical-weight, patent and acquisition tests in validate.py.
+    clinical-weight and patent tests in validate.py.
   - Retain precision in calculations and round only display cells.
   - Resolve every source ID. Record deviations in a reconciliation table;
     never change the Python benchmark silently to match an Excel error.

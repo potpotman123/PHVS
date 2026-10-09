@@ -7,6 +7,7 @@ import copy
 import datetime as dt
 import json
 import math
+from segmented_adoption import joint_pools, rates as segmented_rates
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parent
@@ -28,10 +29,26 @@ def dates(m):
     return dt.date(y, mo, 1), dt.date(y, mo, calendar.monthrange(y, mo)[1])
 
 def resolve(cfg, case='working', overrides=None):
+    allowed = set(cfg['parameters']) | {'launch_delay_IR', 'launch_delay_XR', 'loe_year_IR', 'loe_year_XR'}
+    assert set(overrides or {}) <= allowed, 'Unknown model override; possible misspelled input'
     p = {k: v['value'] for k, v in cfg['parameters'].items()}
     p.update(cfg['cases'][case])
     p.update(overrides or {})
-    assert p['shared_success'] >= max(p['ir_pos'], p['xr_pos'])
+    assert abs(p['ir_quantity_multiplier'] - 1.17 / 1.38) < 1e-12, 'All active forecasts require the selected redosing discount'
+    assert 0 < p['shared_success'] <= 1
+    assert 0 <= p['ir_pos'] <= p['shared_success'] and 0 <= p['xr_pos'] <= p['shared_success']
+    assert p['oral_mature_share'] == .6, 'Mature oral choice is fixed60% in active forecasts'
+    assert p['ir_price_multiplier'] == p['xr_price_multiplier'] == 1., 'Efficacy price premiums are excluded'
+    assert p['population'] > 0 and p['growth'] > -1
+    assert 0 <= p['conversion'] <= 1
+    assert 0 <= p['reentry_fraction'] <= 1 and 0 <= p['dual_use'] <= 1
+    assert all(0 < p[k] <= 1 for k in ['ir_retention', 'xr_first_retention', 'xr_mature_retention'])
+    assert p['choice_months'] > 0 and p['exus_phase'] > 0
+    assert p['delay'] >= 0 and p['retry_months'] >= 1 and p['reentry_delay'] >= 1
+    assert p['issue_price'] > 0 and 0 <= p['issue_fee'] < 1
+    assert abs(sum(cfg['pool_weights'].values()) - 1.) < 1e-10 and min(cfg['pool_weights'].values()) > 0
+    assert p['ir_doses_ltp']*p['ir_quantity_multiplier'] >= p['ir_initial_doses']
+    assert p['ir_doses_other']*p['ir_quantity_multiplier'] >= p['ir_initial_doses']
     assert p['discount_rate'] > cfg['loe']['tail_growth']
     return p
 
@@ -89,6 +106,16 @@ class Population:
             if p['reentry_fraction']:
                 self.cooldown.append((m + int(p['reentry_delay']), k, exits * p['reentry_fraction']))
             c[1], c[2] = survivors, age + 1
+        # After year one every cohort in an origin has the same survival and dose
+        # rules. Merge mature counts exactly; retain first-year ages individually.
+        # This preserves cash-flow arithmetic while avoiding quadratic MC runtime.
+        young, mature_counts = [], {}
+        for k, n, age in self.cohorts:
+            if age >= 12:
+                mature_counts[k] = mature_counts.get(k, 0.) + n
+            else:
+                young.append([k, n, age])
+        self.cohorts = young + [[k, n, 12] for k, n in mature_counts.items()]
         for k in self.total:
             accounted = self.available[k] + self.retired[k] + out[k]['active']
             accounted += sum(n for _, origin, n in self.pending + self.cooldown if origin == k)
@@ -118,6 +145,8 @@ def commercial(cfg, p, success=(True, True)):
     finish = (cfg['end_year'] + 1) * 12
     launch = {k: month_index(v['commercial_month']) + int(p.get('launch_delay_' + k, 0)) for k, v in cfg['launches'].items()}
     pools = {k: p['population'] * w for k, w in cfg['pool_weights'].items()}
+    if p['segmented_adoption']:
+        pools = joint_pools(cfg, p, start, launch['IR'])
     xr, ir = Population(pools), Population(pools)
     g = (1 + p['growth']) ** (1 / 12) - 1
     rows, history = [], {}
@@ -128,10 +157,13 @@ def commercial(cfg, p, success=(True, True)):
         age_ir, age_xr = m - launch['IR'], m - launch['XR']
         ir_factor = p['hazard_year6_multiplier'] if age_ir >= 60 else 1.
         xr_factor = p['hazard_year6_multiplier'] if age_xr >= 60 else 1.
-        rates_xr = {k: p['xr_' + k] * xr_factor for k in pools}
+        rates_xr = {k: p['xr_' + k.split('|')[0]] * xr_factor for k in pools}
         rates_ir = {k: p['ir_rx'] * ir_factor * (p['ir_untreated_relative'] if k == 'diagnosed_untreated' else 1) for k in pools}
-        xs = xr.step(m, g, rates_xr, p, p['xr_first_retention'], p['xr_mature_retention'], age_xr >= 0 and success[1])
-        ins = ir.step(m, g, rates_ir, p, p['ir_retention'], p['ir_retention'], age_ir >= 0 and success[0])
+        if p['segmented_adoption']:
+            rates_xr, rates_ir = segmented_rates(cfg, p, pools, age_ir, age_xr)
+        month_growth = 0. if p['segmented_adoption'] and m == start else g
+        xs = xr.step(m, month_growth, rates_xr, p, p['xr_first_retention'], p['xr_mature_retention'], age_xr >= 0 and success[1])
+        ins = ir.step(m, month_growth, rates_ir, p, p['ir_retention'], p['ir_retention'], age_ir >= 0 and success[0])
         r = dict(month=month_string(m), year=y, quarter=f'{y}Q{m % 12 // 3 + 1}',
                  population=sum(xr.total.values()), xr_rx=0., ir_rx=0., xr_starts=0., ir_access_starts=0.,
                  xr_patient_years=0., ir_member_years=0., ir_initial_doses=0., ir_free_initial_doses=0., ir_replacement_doses=0.,
@@ -140,8 +172,10 @@ def commercial(cfg, p, success=(True, True)):
             x, i = xs[k], ins[k]
             overlap = min(1., x['py'] * 12 / xr.total[k])
             migration = p['nonphvs_ltp_shift'] * min(1., max(0, age_ir + 1) / 120)
-            baseline = p['ir_doses_ltp'] if k in ('orladeyo', 'other_prevention') else (1 - migration) * p['ir_doses_other'] + migration * p['ir_doses_ltp']
+            origin = k.split('|')[0]
+            baseline = p['ir_doses_ltp'] if origin in ('orladeyo', 'other_prevention') else (1 - migration) * p['ir_doses_other'] + migration * p['ir_doses_ltp']
             budget = (1 - overlap) * baseline + overlap * p['ir_doses_ltp'] * p['dual_use']
+            budget *= p['ir_quantity_multiplier']
             initial = p['ir_initial_doses'] * (1 - overlap + overlap * p['dual_use'])
             assert budget >= initial - 1e-10
             r['ir_initial_doses'] += i['starts'] * initial * p['ir_initial_paid_fraction']
@@ -150,6 +184,9 @@ def commercial(cfg, p, success=(True, True)):
             for dest, value in [('xr_rx', x['rx']), ('ir_rx', i['rx']), ('xr_starts', x['starts']), ('ir_access_starts', i['starts']), ('xr_patient_years', x['py']), ('ir_member_years', i['py']), ('xr_active', x['active']), ('ir_access_active', i['active'])]:
                 r[dest] += value
             r['overlap_members'] += overlap * i['py'] * 12
+            rescue = k.split('|')[1] if '|' in k else 'legacy'
+            for label, value in [('xr_rx_from_'+origin, x['rx']), ('xr_starts_from_'+origin, x['starts']), ('ir_rx_from_'+rescue, i['rx']), ('ir_starts_from_'+rescue, i['starts'])]:
+                r[label] = r.get(label, 0.) + value
         raw_units = {'IR': r['ir_initial_doses'] + r['ir_replacement_doses'], 'XR': r['xr_patient_years'] * p['xr_paid_intensity']}
         history[m] = {**raw_units, 'IR_free': r['ir_free_initial_doses']}
         for prod in ('IR', 'XR'):
@@ -159,6 +196,7 @@ def commercial(cfg, p, success=(True, True)):
             if y >= entry:
                 units = sum(history[n][prod] for n in range((entry - 1) * 12, entry * 12)) / 12 * loe_q
             price = p['ir_wac_dose'] * p['ir_net_fraction'] if prod == 'IR' else p['xr_wac_28days'] * 365 / 28 * p['xr_net_fraction']
+            price *= p[prod.lower() + '_price_multiplier']
             r[prod + '_price_usd'] = price * loe_p
             r[prod + '_units'] = units
             if prod == 'IR':
@@ -204,7 +242,7 @@ def financial(cfg, p, rows, success):
     other = opening['other_net_assets_eurm'] * p['fx']
     equity = opening['equity_eurm'] * p['fx']
     shares = opening['shares_m']; nol = 0.
-    last_failure = month_index(cfg['launches']['XR']['approval_assumption'])
+    last_failure = max(month_index(v['approval_assumption']) + int(p.get('launch_delay_' + k, 0)) for k, v in cfg['launches'].items())
     shutdown = last_failure + policy['winddown_months'] if not any(success) else None
     out = []
     for a in rows:
@@ -352,6 +390,7 @@ def value_at(cfg, p, rows, when, success):
                 future_funding_net_usdm=sum(r['funding_net'] for r in rows if dates(month_index(r['month']))[1] >= date))
 
 def clinical_weights(p, mode='shared_gate'):
+    assert mode in ('shared_gate', 'independent', 'perfect_positive')
     ir, xr = p['ir_pos'], p['xr_pos']
     both = ir * xr / p['shared_success'] if mode == 'shared_gate' else ir * xr if mode == 'independent' else min(ir, xr)
     return {'both': both, 'IR_only': ir - both, 'XR_only': xr - both, 'neither': 1 - ir - xr + both}
@@ -395,26 +434,6 @@ def evaluate(cfg, case='working', overrides=None, retain=False):
     if retain:
         out['monthly_by_clinical_state'] = months
     return out
-
-def acquisition_outcome(standalone_target, consideration_per_share, close_date, target_date, discount_rate=.12, reinvestment_rate=0., completed=True):
-    """One terminal outcome replaces standalone; no asserted probability or price.
-    If incomplete, caller must use separate completion/failure scenarios. Later
-    completion is discounted back; early cash may earn explicit reinvestment.
-    """
-    if not completed:
-        return standalone_target
-    days = (dt.date.fromisoformat(close_date) - dt.date.fromisoformat(target_date)).days
-    if days > 0:
-        return consideration_per_share / (1 + discount_rate) ** (days / 365.25)
-    return consideration_per_share * (1 + reinvestment_rate) ** (-days / 365.25)
-
-def buyer_value_interface(standalone_equity, incremental_revenue_pv, avoidable_cost_pv, integration_pv, incumbent_cannibalization_pv, shareholder_synergy_share):
-    """All PVs at same transaction date, after tax and funding. No automatic bid."""
-    net_synergy = incremental_revenue_pv + avoidable_cost_pv - integration_pv - incumbent_cannibalization_pv
-    return {'buyer_economic_value': standalone_equity + net_synergy,
-            'negotiated_price_scenario': standalone_equity + shareholder_synergy_share * max(0., net_synergy),
-            'net_synergy': net_synergy,
-            'economically_acceptable_at_reservation': net_synergy >= 0}
 
 if __name__ == '__main__':
     cfg = read('inputs.json')

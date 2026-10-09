@@ -1,0 +1,129 @@
+{
+  "as_of": "2026-10-09",
+  "question": "Connect observed burden, preference, actual switching and expert expectations to PHVS acquisition assumptions; do not presume a short conclusion.",
+  "verdict": "Evidence supports burden-sensitive switching, but neither dissatisfaction-only TAM nor a uniform second-oral acquisition discount. No empirically identified PHVS capture or taper rate.",
+  "sources": [
+    {
+      "id": "claims",
+      "url": "https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf",
+      "population": "328 commercially insured US non-androgen LTP initiators, 2016-Sep2023;39 berotralstat",
+      "observed": {
+        "any_nonindex_LTP_claim_12m": 50,
+        "annual_switch_fraction": 0.1524390243902439,
+        "preswitch_rescue_doses_switchers": 18.5,
+        "preswitch_rescue_doses_no_gap": 13.6,
+        "preswitch_rescue_doses_gap": 10.5
+      },
+      "interpretation": "Higher prior rescue use among later switchers supports residual-burden targeting. Association does not estimate P(switch|poor control). Switch includes return to original drug. Different initiator population; not Orladeyo-specific. Source sponsored by KalVista."
+    },
+    {
+      "id": "preferences",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41429313/",
+      "existing_extraction": "research/PHVS_three_adoption_hypotheses_2026-10-08.json",
+      "population": "150 US survey respondents in October2023;139 on LTP;only9 berotralstat in treatment-specific table",
+      "observed": {
+        "equal_efficacy_oral_preference": 0.54,
+        "willing_next6m": 0.71,
+        "extremely_willing": 0.15
+      },
+      "interpretation": "Control and burden affect interest; route preference exists independently. Not national paid switching. Do not multiply by claims switch rate or general access conversion as if one cohort."
+    },
+    {
+      "id": "oasisplus",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13466153/",
+      "retrieval": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13466153/fullTextXML",
+      "raw": "research/raw/switching_bridge_2026-10-09/PMC13466153.xml",
+      "published": "2026-03-14",
+      "population": "65 enrolled switch volunteers;64 treated;11 prior berotralstat;Ionis funded",
+      "observed": {
+        "well_controlled_baseline_treated": 42,
+        "poorly_controlled_baseline_treated": 22,
+        "prior_berotralstat_mean_monthly_attacks": 1.8,
+        "prior_berotralstat_discontinuations": 0,
+        "prior_berotralstat_attack_reduction_52w": 0.831
+      },
+      "interpretation": "An oral incumbent can be displaced by injection. Controlled patients also chose to switch. Neither 22/64 poor control nor11/11 continuing identifies national dissatisfaction or capture. Open label, selected switchers, reasons not collected, no comparator; not proof of PHVS outcome."
+    },
+    {
+      "id": "adelphi",
+      "url": "https://link.springer.com/article/10.1007/s12325-026-03790-2",
+      "published": "2026-09-28",
+      "population": "Jan2023-Jan2024 multinational physician survey1131 records;279 adult patient questionnaires;pre-Ekterly",
+      "observed": {
+        "LTP_satisfied_or_completely_satisfied": 163,
+        "LTP_satisfaction_denominator": 178,
+        "ODT_satisfied_or_completely_satisfied": 207,
+        "ODT_satisfaction_denominator": 230,
+        "oral_ODT_preference_reported": 0.84
+      },
+      "interpretation": "High satisfaction coexists at sample level with strong oral-rescue interest; no joint cross-tab proves individual overlap. Not US Orladeyo-specific and not post-Ekterly oral-to-oral interest. Pharvaris supported analysis/interpretation/publication; original Adelphi survey independent of Pharvaris design/data collection. No automatic market shares."
+    },
+    {
+      "id": "expert_practical",
+      "path": "references/user_supplied/alphasense_new_oral_prophylactic.txt",
+      "location": "10:41;12:17",
+      "finding": "Small practice would not proactively move well-controlled users; administrative friction. Supports lower stable-user hazard, not zero nationwide switching."
+    },
+    {
+      "id": "expert_optimistic",
+      "path": "references/user_supplied/alphasense_optum_highly_optimistic.txt",
+      "location": "26:28 onward, transcript lines175-198",
+      "finding": "20-25%, up to25-30% possible overall switching;33-40% new-start preference; no defined horizon or paid endpoint. Clinical factual inaccuracies elsewhere and speculative dual coverage mean use as opinion only; do not average with other potentially repeat Optum calls."
+    },
+    {
+      "id": "expert_two_oral_users",
+      "path": "references/user_supplied/alphasense_potential_in_pharvaris.txt",
+      "location": "13:40",
+      "finding": "Perceived efficacy benefit but only two current Orladeyo users, uncertain whether they would switch. Does not quantify capture."
+    },
+    {
+      "id": "injectable_to_oral",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38006972/",
+      "population": "34 selected US APeX-S injectable-to-berotralstat switchers",
+      "finding": "Maintained low attack rates and improved satisfaction; selected success demonstrates feasibility, not market frequency."
+    },
+    {
+      "id": "launch",
+      "urls": [
+        "https://ir.kalvista.com/node/12266/html",
+        "https://ir.kalvista.com/node/12456/html",
+        "https://ir.kalvista.com/node/12546/html",
+        "https://ir.kalvista.com/node/12706/html"
+      ],
+      "cumulative_forms": [
+        460,
+        937,
+        1318,
+        1702
+      ],
+      "dates": [
+        "2025-08-31",
+        "2025-10-31",
+        "2025-12-31",
+        "2026-02-28"
+      ],
+      "incremental_forms": [
+        460,
+        477,
+        381,
+        384
+      ],
+      "interpretation": "Company forms, not paid starts. About20% slowdown then stable across last two intervals. Annual27.4% is PHVS model calibration, not reported Ekterly hazard. No multi-year taper identified."
+    }
+  ],
+  "architecture_recommendation": {
+    "XR": "Within each current-treatment pool, separate meaningful efficacy/control burden from remaining patients with possible convenience preference. Treat these as mutually exclusive states; former oral users remain in current-treatment stock. p_rx(t)=d(t)*p_rx_burden(t)+(1-d(t))*p_rx_remaining(t). Paid starts=N_available*p_rx*paid_conversion, with delay. d and conditional hazards not identified by current sources.",
+    "IR": "Separate injectable-rescue incumbents, established Ekterly users, and newly treated entrants. Route preference informs injectable-to-oral opportunity; oral-to-oral choice needs incremental benefit and access evidence. Background prophylaxis is a separate consumption attribute, not a competing rescue-origin bucket.",
+    "access": "80% conversion and1month delay remain assumptions. Pre-prescription access friction embedded in composite Rx probability; avoid another generic haircut. Historical filled-claim switching includes access and cannot be treated as Rx then discounted again without explicit mapping.",
+    "taper": "High-interest incumbent depletion and low-interest residual patients can create endogenous declining aggregate hazard. Physician reach and access can initially offset it. Do not impose a numeric decay from the first eight months; new-patient flow separate."
+  },
+  "diagnostic_not_validation": {
+    "current_XR_orladeyo_rx": 0.1,
+    "paid_conversion": 0.8,
+    "implied_paid_start_fraction": 0.08,
+    "relative_to_mixed_claims_any_switch": 0.5248,
+    "meaning": "About52.5% of historical any-switch incidence after conversion, with mismatched populations/endpoints. Shows10% is not automatically tiny; cannot establish actual destination share or best estimate."
+  },
+  "model_action": "No forecast coefficients or valuation changed. Current10% acquisition remains provisional; retire claims that it is empirically calibrated. Research bridge supplements canonical handoff.",
+  "stopping_rule": "Existing evidence plus five targeted queries and selective primary full-text follow-up. No paid data, outreach, agents or fitting. No public joint dataset linking established Orladeyo control/satisfaction to subsequent PHVS choice identified. Do not replace unknown with average of incompatible studies."
+}

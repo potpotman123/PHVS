@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-09",
+  "question": "Can later oral-drug comparables empirically calibrate a60%PHVSchoice share or causal efficacy premium?",
+  "answer": "No common numerical efficacy-to-choice coefficient identified. Comparables constrain plausibility and timing, but denominators, treatmentline, ownership, efficacy evidence and access differ.60%is an assumed favorable commercial share,not a measured efficacy premium.",
+  "comparables": [
+    {
+      "pair": "Attruby versus tafamidis",
+      "clinical": "Oral ATTR-CM stabilizers; differential clinical efficacy not established by randomized headtohead. Later realworld comparative studies confounded.",
+      "commercial": "IssuerAug5,2025Q2call estimates18-20%NBRxshare about8monthsafterNov2024approval; management uncertain about competingknockdowns denominator.",
+      "sources": [
+        "https://s205.q4cdn.com/224494602/files/doc_events/2025/Aug/05/Q2-Earnings-Final-Transcript.pdf",
+        "https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Reports-Second-Quarter-2026-Financial-Results-and-Corporate-Updates/default.aspx"
+      ],
+      "location": "Q22025transcriptPDFpage12;2026releasefirstlineshareclimbingwithoutexactnumber",
+      "transfer": "Closestrareoralcompetitive-launchanalogue;public18-20%isallNBRxnotstrictoralpairshare,andnottafamidisswitchprobability. Do notassert20%oralpairshare orinfer60%premium.",
+      "weight": "early-launch challenge,not pointestimate"
+    },
+    {
+      "pair": "Scemblix versus established oral CML TKIs",
+      "clinical": "ASC4FIRST48weekMMR68%vs49%investigatorselectedTKIs;FDAOct29,2024firstlineapproval. Differentbindingmode;notpuresamemechanismcopy.",
+      "commercial": "Feb4,2026Q4deckslide11 reports US1L23%,2L57%,3L+59%;footnote2 specifies September rolling3months (2025),about11monthsafterOct29,2024firstlineapproval. Laterlinebrandlaunchearlier;differentchoicegroups.",
+      "sources": [
+        "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-asciminib-newly-diagnosed-chronic-myeloid-leukemia",
+        "https://www.novartis.com/sites/novartiscom/files/q4-2025-investor-presentation.pdf"
+      ],
+      "location": "PDFpage11;referencesPDFpage86",
+      "transfer": "Quantifiedheadtoheadefficacyandcommercialshare. Not60%ofexistingpatientsannuallyswitching;manycompetitors/generics,oncologyprogression,intolerance andlineeligibilitynotHAE. Laterlinehighsharecannotbeattributedsolelytoefficacyorsharegrowthwithtime.",
+      "weight": "strongboundaryexample:groupandtimingmatter"
+    },
+    {
+      "pair": "Brukinsa versus Imbruvica/Calquence",
+      "clinical": "ALPINEsuperiorPFSvsibrutinib;notheadtoheadsuperiorityvsacalabrutinib. Safetyalsodifferentiates.",
+      "commercial": "Issuer2025reportsleadingnewpatientshareintheBTKclass;noexactshareverifiedinboundedpass.",
+      "sources": [
+        "https://ir.beonemedicines.com/news/beigene-announces-first-quarter-2025-financial-results-and-business-updates/a293fea7-3ff1-4bb7-9db3-c0b4bb8f6cb6",
+        "https://www.sec.gov/Archives/edgar/data/1651308/000165130825000031/bgne-20241231.htm"
+      ],
+      "transfer": "Leadershipwith3+competitorsdoesnotmean>50%or60%. Lateroralcandominatebutnoelasticityidentified.",
+      "weight": "directionalupsidecheckonly"
+    },
+    {
+      "pair": "Trikafta versus earlier Vertex CF modulators",
+      "clinical": "HeadtoheadppFEV1+10ppversustezacaftor/ivacaftorinF508delhomozygotes;transformativebenefit.",
+      "commercial": "VertexQ12020disclosuremajorityof~18000eligibleinitiatedafterOct2019approval.",
+      "sources": [
+        "https://vrtx.gcs-web.com/node/27286/pdf",
+        "https://pubmed.ncbi.nlm.nih.gov/31679946/"
+      ],
+      "transfer": "Sameownerpromotion,expandedeligiblepopulationincludingpreviouslyineligible,notcompetitivedestinationchoicebetweenindependentbrands. LargeuptakecannotcalibratePHVS60%.",
+      "weight": "upper-boundmechanismexample,excludequantitativepooling"
+    }
+  ],
+  "parameter_corrections": [
+    "60%oforalchoices(PHVSvsOrladeyo/Ekterly) differs from60%ofALLdepartures(outofOrladeyo/Ekterly) and35%ofnewpreventivestarts. Do nottie orcallallsameefficacypremium.",
+    "50%baselineassumesequalcommercialposition;efficacyaloneisnot50-to60conversion.60vs50is+10pp,+20%relativechoice,+50%choiceodds. Nonecausallyestimated.",
+    "Use time-and-segment-specific choice inputs;launchaccess/physicianexperienceaffectnewbrandchoicewhileannualswitchhazardgovernswhetherchoiceoccurs.",
+    "Noaverageof18-20%,23%,57%,59%,majorityandmarketleader;incompatibledenominators andselectedsuccesses.",
+    "Existing60%keptvisibleaslegacyunderwritingcase;notreplacedwithfalselyprecisecomparatoraverage. Broadenlowsharechallengesto25/40%alongside60/80%withoutcallingthemempiricalquantiles."
+  ],
+  "injectable_XR_choice_only_sensitivity": [
+    {
+      "PHVS_share_of_oral_choices": 0.25,
+      "completed_start_proxy": 0.020579268292682928,
+      "per1000": 20.57926829268293
+    },
+    {
+      "PHVS_share_of_oral_choices": 0.4,
+      "completed_start_proxy": 0.032926829268292684,
+      "per1000": 32.926829268292686
+    },
+    {
+      "PHVS_share_of_oral_choices": 0.6,
+      "completed_start_proxy": 0.04939024390243903,
+      "per1000": 49.39024390243903
+    },
+    {
+      "PHVS_share_of_oral_choices": 0.8,
+      "completed_start_proxy": 0.06585365853658537,
+      "per1000": 65.85365853658537
+    }
+  ],
+  "method": "Recoveredprioranalogueaudit;primaryissuer/FDA searchesandselectivereads;PDFtextandwebscreenshotrequests. LocalPDFdownload403;didnotinferunreadablechartvalues. Noagents,paiddata,bulkscrapingorcurvefit.",
+  "stopping": "Publicrecordsidentifycommercialshareoutcomesbutnotcounterfactualequal-efficacyshareorconditionalPHVS-stylepairchoice. Noadditionalweakanaloguepooling."
+}

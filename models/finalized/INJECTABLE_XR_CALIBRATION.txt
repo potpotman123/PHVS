@@ -1,0 +1,22 @@
+INJECTABLE PREVENTION -> PHVS XR: PRACTICAL FIRST CALIBRATION
+9 October2026
+
+Working: historical50/328annualswitch x54%oralpreference x60%PHVSoralshare
+=4.939%completed-start proxy,49.4per1000availableinjectablepatients.
+Cautious:10% x54% x50%=2.70%. Stronger:20% x54% x70%=7.56%.
+Observed inputs and transfer assumptions are detailed in injectable_xr_calibration.json.
+60/40 oralchoice gives a modest assumed efficacy premium;noAEpremium.
+Survey preference conditional on actualswitching is unobserved; this is a crude
+underwriting bridge across different populations,not an empirical PHVS estimate.
+
+Coverage: benchmark uses filledclaims and therefore includes historicalaccess.
+At working80%conversion,the static equivalent is6.174%attempts;do not apply
+another80%haircut directly to4.939%. Engine timing/retriesrequirecalibration.
+Existing4%otherpreventionRx implied3.2%paid; this candidate is more bullish.
+Applyonly toinjectables,not all4080otherprevention users. Ratesper1000avoid
+inventing injectable/older-treatment split. No totalrevenue orDCFchanged.
+
+This aggregate motivation bridge avoids inventing a national poor-control
+fraction. Do not multiply by another dissatisfaction or willingness haircut.
+Orladeyo-to-PHVS and IR require their own paths. Historicalswitch is not an
+annualrate provenstable indefinitely; launchaccess andtaper remain separate.

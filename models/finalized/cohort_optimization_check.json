@@ -1,0 +1,6 @@
+{
+  "comparison": "Old individual cohorts versus exact mature-cohort aggregation, working allfour clinicalstates",
+  "max_monthly_numeric_delta": 2.7284841053187847e-12,
+  "target": 28.311616928946084,
+  "scope": "Monthly population, attempts, paid starts, exposure, sales, FCF, cash and shares; first-year ages preserved."
+}

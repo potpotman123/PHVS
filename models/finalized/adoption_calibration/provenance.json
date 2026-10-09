@@ -1,0 +1,183 @@
+{
+  "as_of": "2026-10-09",
+  "scope": "Practical one-year origin-group calibration; no price target or full engine integration. Cases vary demand with80%access heldfixed; no statistical confidence intervals.",
+  "sources": {
+    "SWITCH": {
+      "url": "https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf",
+      "fact": "50/328mixedLTPinitiators had>=1nonindexclaimwithin12months;39indexberotralstat;2016-Sep2023UScommercialclaims.",
+      "status": "observed;transfer tocurrentpatients assumed;includesaccess andpossibletemporaryswitches"
+    },
+    "PREF": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41429313/",
+      "fact": "150USrespondents;54%oralpreferenceatequalefficacy;15%extremelyand56%somewhatwillingtoswitch6months.",
+      "status": "statedpreference,notpaidcapture;use54%once"
+    },
+    "MIX": {
+      "url": "https://ir.biocryst.com/static-files/1a9b298c-7e8e-4cf8-b5af-ffa6ef61586a",
+      "location": "slide8",
+      "fact": "CumulativeOrladeyotrierorigins52%priorprevention,32%rescueonly,17%naive;rounded101%total;dataJune3,2024.",
+      "status": "mixoftriersnotpopulationprobability;ratiospreserved;firstoralhistory"
+    },
+    "FORMS": {
+      "url": "https://ir.kalvista.com/node/12706/html",
+      "fact": "1702formsJuly2025-Feb2026,issuerUSpopulation~9000;monthlyincrements460/477/381/384.",
+      "status": "formsnotpaid/uniqueactive;9000notinjectablerescuecensus"
+    },
+    "RESCUE_PREF": {
+      "url": "https://link.springer.com/article/10.1007/s12325-026-03790-2",
+      "fact": "84%oralrescuepreference;2023-24multinationalsurvey;Pharvaris-supportedanalysis.",
+      "status": "notEkterly-toPHVSchoice;notadditionalfactoronobservedoralforms"
+    },
+    "EFFICACY_PREF": {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13124884/",
+      "fact": "250respondents;attackreduction31.7%conditionalimportancevs18.1%oralmode.",
+      "status": "directionofefficacybenefit,not60%shareestimate"
+    },
+    "KON_S_SAT": {
+      "url": "https://www.kalvista.com/wp-content/uploads/2026/03/HAEi-GALC-2026_KONFIDENT-S_Switch_poster_FINAL_04Mar2026.pdf",
+      "fact": "107patients;1089attacks;highmedian satisfactionafterinjectable-tooraltransition.",
+      "status": "selectedtrial,attacklevel;cannotderivepatientdissatisfactionfromrepeatdosingorLikertscores"
+    },
+    "EXPERT": {
+      "path": "research/alphasense_calls_evidence_2026-10-07.json",
+      "fact": "Somephysicians20-30%eventualswitching,33-40%newLTPstarts;othersreluctanttoswitchstableusers.",
+      "status": "smallpracticeopinion,horizonsunclear;potentialrepeatedexperts"
+    },
+    "OASIS": {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13466153/",
+      "fact": "Selectedswitchersinclude11berotralstatand42/64wellcontrolledpatients.",
+      "status": "demonstratesfeasibilitynotnationalfrequency;injectablecompetitionfororalusers"
+    }
+  },
+  "bridges": [
+    {
+      "group": "XR_orladeyo",
+      "formula": "annual_any_LTP_switch[10%,15.24%,20%] * PHVS_share_of_ALL_departures[40%,60%,80%]",
+      "sources": [
+        "SWITCH",
+        "EXPERT",
+        "OASIS"
+      ],
+      "judgment": "Preservingoralroute pluspotentialefficacymotivates60%PHVSdestination;40%otherdestinationsincludesinjectables. This60%isnotonlyoralshare. No54%multiplier.10/20boundsand40/60/80destinationalljudgment.",
+      "strength": "moderateanchor,substantialdestinationjudgment"
+    },
+    {
+      "group": "XR_injectable_prevention",
+      "formula": "annual_any_LTP_switch *54%oral *[50%,60%,70%]PHVSoralshare",
+      "sources": [
+        "SWITCH",
+        "PREF",
+        "EFFICACY_PREF"
+      ],
+      "judgment": "Aspriorapprovedcalibration. Differentpopulationsconditionalmappingassumed.",
+      "strength": "moderateanchor,conditionalpreferenceproxy"
+    },
+    {
+      "group": "XR_older_prevention",
+      "formula": "same pooledLTP switch andoralchoice bridge asinjectableprevention",
+      "sources": [
+        "SWITCH",
+        "PREF"
+      ],
+      "judgment": "Borrowingproxy,notempiricalolderdrugrate;noadditionaltoxicityswitchpremium. OlderoraldrugusersdoNOTgainneworalroutebenefit;54%hereapproximatesoralDESTINATIONchoiceamongallreplacementoptions. Smallsubgroupunsupportedsoavoidextrafittedcoefficients.",
+      "strength": "weaktransfer;explicitsharedfallback"
+    },
+    {
+      "group": "XR_rescue_only",
+      "formula": "4080*nonOrladeyo_prevention_paid_rate*(32/52)/2720",
+      "sources": [
+        "MIX"
+      ],
+      "judgment": "UsehistoricalsourceVOLumeratio,not32%annualcapture. BecausebothnonOrladeyopreventiongroupssharesamerate,noinjectable/oldersplitneededforthisbridge. OralOrladeyo-toPHVSopportunityexcludedfromhistorical52%anchor. Assumesequalpaidconversionacrosshistoricalorigins. Firstoraltriermixmayoverstatefollowonexpansion.",
+      "strength": "indirecthistoricalmixproxy"
+    },
+    {
+      "group": "XR_diagnosed_untreated",
+      "formula": "2720*rescue_only_paid_rate*(17/32)*engagement_transfer[25%,50%,75%]/1500",
+      "sources": [
+        "MIX"
+      ],
+      "judgment": "Historicalnaiveentrantsnotcurrentuntreatedstock;transferfactorisjudgmenttoavoidassumingallareequallyreachable. Working50%replacesold25%factoraswidersymmetricpracticalunderwritingnotnewobservation.",
+      "strength": "weaktransfer;factorunmeasured"
+    },
+    {
+      "group": "IR_injectable_rescue",
+      "formula": "[1-(1-1702/9000)^(12/8)]*category_activity[75%,100%,125%]*PHVSoralshare[50%,60%,70%]*80%paidconversion",
+      "sources": [
+        "FORMS",
+        "EFFICACY_PREF"
+      ],
+      "judgment": "Firstoralformsannualizedascategorybenchmark,thenallocatebetweenoralcompetitors. Noextra84%preferencehaircut:observedoraladoptionalreadyreflectsroutechoice. RemaininginjectionusersatPHVSlaunchmaybeselectedsticky;categoryactivityrangeallowsfrictionanddifferentiation. Notactualinjectable-denominatorrate or27.4%legacyenginecalibration.",
+      "strength": "launchanchor;origin/markettransferjudgment"
+    },
+    {
+      "group": "IR_ekterly",
+      "formula": "borrowannual_HAE_LTP_switch[10%,15.24%,20%]*PHVS_share_of_departures[40%,60%,80%]",
+      "sources": [
+        "SWITCH",
+        "KON_S_SAT",
+        "EXPERT"
+      ],
+      "judgment": "WEAKESTIMPORTANTbridge:borrowspreventiveannualswitchingbecauseoralrescueobservedhazardunavailable.Noevidenceprovestheseratessimilar.60%assumesdifferentiatedoralwinsmajorityofdepartures;restinjectableorotherchoice. Ekterlyhighsatisfactionarguesagainsttreatingredosingasfailure. Nooralconveniencebonusandnotvalidatednationalestimate.",
+      "strength": "weakcross-settingplaceholder;stressindependently"
+    },
+    {
+      "group": "IR_no_current_rescue",
+      "formula": "annualclinicalengagement[10%,20%,30%]*84%oralpreference*[50%,60%,70%]PHVSoralshare*80%paid",
+      "sources": [
+        "RESCUE_PREF",
+        "EXPERT"
+      ],
+      "judgment": "Engagementassumed;stockincludesdiagnosedpreviouslyuntreatedandpossibleLTPuserswithoutrescue.Noabsenceofclaim=absenceofrescuestockassumption.",
+      "strength": "preferenceanchor,engagementjudgment"
+    },
+    {
+      "group": "NEW_XR_given_prevention_selection",
+      "formula": "PHVSinitialRxshare[25%,35%,45%]*80%paid",
+      "sources": [
+        "EXPERT"
+      ],
+      "judgment": "Conditionalonstartingprevention,NOTallnewdiagnoses.35%near33-40%expertnewstartopinion;boundsjudgment.No54%extraasexpertsharealreadyalloptions.",
+      "strength": "expertopiniononly"
+    },
+    {
+      "group": "NEW_IR_given_rescue_selection",
+      "formula": "84%oralpreference*[50%,60%,70%]PHVSoralshare*80%paid",
+      "sources": [
+        "RESCUE_PREF"
+      ],
+      "judgment": "Conditionalonengagedfirstrescueselection;notannualacquisitionofalluntreated.",
+      "strength": "preferenceproxyplusbrandchoicejudgment"
+    }
+  ],
+  "common_rules": [
+    "Completed-startproxiesuseclaimsaccessimplicitly. Forclaimedfilledbenchmarksdivideby80%tobackoutSTATICattemptprobability,thenapplyaccessonceinengine. This80%normalizationisassumed,notobservedhistoricalaccess.",
+    "Forms-basedIRapplies80%oncebecauseformsareprepayment. Accessisheldconstantacrossdemandcases;varyseparatelyusingcorrelatedprice/accesspackages.",
+    "Currentratesarelaunch-year/matureaccessreferences;donotfreezeovertime. Pooldepletion,launchreach,coverage,taperneedseparatecalendarimplementation.",
+    "Low/working/strongercasesarenotconfidenceintervals;correlatedinputsandsharedsourcesmustnotbesampledindependentlyasifindependentevidence.",
+    "Noextra54%,dissatisfactionfractionor71%willingnessfilterontopofthesecomposites. Burdenmotivationscanguidewithinpoolallocationwithoutduplicatingtotal.",
+    "NEWrowsareconditionalchoiceevents. DoNOTaddthemto1.5%netgrowthandlegacyproportionalinflows. Event-routingmustreplaceexistinginflowallocationorstaydisabled.",
+    "IRcurrentrescuemixcrossedwithpreventivebackgroundisunknown;doNOTinferEkterlyactivepaidsharefrom1702cumulativeforms. NoallgroupnationaltotalornewDCFclaimed.",
+    "Existing10000/1700/4080/2720/1500areunderwritingpoolestimates. Splitting4080intooldervsinjectabledoesnotchangecombinedXRoutputwhenbothusepooledfallbackrate.",
+    "Clinicaldifferentiationremainscross-trial;noheadtoheadsuperiorityorautomaticAEpremiumassumed."
+  ],
+  "implementation": "Reproduciblebuild.pyandresults.jsoncalibrationmodule;doesnotmutateengine.pyorinputs.json. Existingvaluationremainlegacyblendedreference.",
+  "choice_share_audit": "research/PHVS_choice_share_comparable_audit_2026-10-09.json",
+  "choice_share_warning": "60%isnotempiricallycalibratedefficacypremium. Oral-pairshare,all-destinationshareandnewstartsharemustbeindependentparameterswithtime/groupdefinition. Comparatorauditadds25/40%lowsharechallenges;existingoutputsareunderwritingonly.",
+  "current_oral_choice_schedule": {
+    "launch": {
+      "cautious": 0.25,
+      "working": 0.4,
+      "stronger": 0.6
+    },
+    "mature": 0.6,
+    "convergence_months": 60,
+    "authority": "User explicitly requested mature60%eveninbearcases;fiveyearlinearconvergence is analystimplementationjudgment.",
+    "files": [
+      "choice_share_schedule.py",
+      "choice_share_timepath.json"
+    ],
+    "scope": "Conditionaloralchoicesonly;notall-destinationsharesoraggregatepatientpenetration.",
+    "validation": "Monotonicity,launchanchors,matureplateauandprobabilityboundschecked."
+  }
+}

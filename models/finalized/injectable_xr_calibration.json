@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-09",
+  "status": "Proposed evidence-anchored underwriting calibration for injectable-prevention to PHVS XR; not observed PHVS switching and not yet integrated into engine.",
+  "formula": "N_injectable_available * annual_any_switch_proxy * oral_destination_proxy * PHVS_share_of_oral_choices",
+  "sources": {
+    "annual_any_switch": {
+      "url": "https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf",
+      "observed": 0.1524390243902439,
+      "population": "328 mixed US commercially insured LTP initiators;not established injectable-only users",
+      "judgment": "Transfer15.24% to incumbentinjectables as working rate;10-20%scenario bounds are judgments, not confidence limits."
+    },
+    "oral_preference": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41429313/",
+      "observed": 0.54,
+      "population": "150USsurveyrespondents; equal-efficacy hypotheticaloralvsinjection choice;lanadelumabsubgroup53%,SC-C1INH56.9% in prior extraction",
+      "judgment": "Use54% as destination proxy among switchers; conditional preference among actualswitchers not measured. No extra oral premium or patient-pool haircut."
+    },
+    "efficacy_direction": {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13124884/",
+      "observed": "250respondents; attackfrequency31.7% conditionalrelativeimportance;GI18.5%;oraltabletvsinjections18.1%",
+      "judgment": "Supports direction of efficacy preference only. PHVS60%vsOrladeyo40% oralchoice split is analystjudgment,10ppabove parity. Do not convert attributeimportance toshare. NoAEpremium or provenheadtoheadsuperiority assumed."
+    }
+  },
+  "cases": [
+    {
+      "case": "cautious",
+      "annual_any_switch_proxy": 0.1,
+      "oral_destination_proxy": 0.54,
+      "PHVS_share_of_oral_choices_assumed": 0.5,
+      "annual_completed_PHVS_start_proxy": 0.027000000000000003,
+      "per1000": 27.000000000000004,
+      "static_attempt_equivalent_at80pct_conversion": 0.03375
+    },
+    {
+      "case": "working",
+      "annual_any_switch_proxy": 0.1524390243902439,
+      "oral_destination_proxy": 0.54,
+      "PHVS_share_of_oral_choices_assumed": 0.6,
+      "annual_completed_PHVS_start_proxy": 0.04939024390243903,
+      "per1000": 49.390243902439025,
+      "static_attempt_equivalent_at80pct_conversion": 0.06173780487804878
+    },
+    {
+      "case": "stronger_capture",
+      "annual_any_switch_proxy": 0.2,
+      "oral_destination_proxy": 0.54,
+      "PHVS_share_of_oral_choices_assumed": 0.7,
+      "annual_completed_PHVS_start_proxy": 0.0756,
+      "per1000": 75.6,
+      "static_attempt_equivalent_at80pct_conversion": 0.0945
+    }
+  ],
+  "access_accounting": {
+    "endpoint": "Historicalswitch benchmark already reflects filledclaims; product is completed-start proxy at benchmark-like access. Not raw prescription probability.",
+    "simple_calibration": "At working80%conversion,4.939%completedstarts corresponds to6.174%Rxattempts in staticone-year arithmetic. This division backsout attempts; do not multiply4.939%by80%again.",
+    "access_stress": "Keep impliedattempt propensity fixed and varyconversion/delay to model access changes. Assumed benchmarkaccess80% is normalization, not observed historical approval rate.",
+    "engine_limit": "Monthly depletion,delay,retries andpaidtiming mean static6.174% is only starting calibration, not exact yearone engine output."
+  },
+  "implementation_rules": [
+    "Apply to injectable origin only;4080otherprevention includesoldertherapies and must not be silently relabeled allinjectable. Reportper1000 until originmixselected.",
+    "Workingrate isfirstannual/matureaccess reference, not empirically fixed everyyear or launchmonth. Needlaunch/taper separately.",
+    "Do not multiply again by dissatisfaction,54%routepreference,71%statedwillingness,orhistoricalswitchrate. This composite uses allmotivations. Burden split may redistribute total only; no doublecount.",
+    "OrladeyotoPHVS needs different path:alreadyoral, so54%doesnotapply; dissatisfiedOrladeyo users may also switch toinjectables.",
+    "IRinjectablevsEkterly requires separatecalibration;thisXRpreference is not anIRcoefficient.",
+    "Two-stagechoice is approximation:efficacy can alter routepreference aswellasbrandchoice;do not interpret54%as permanenthardceiling.",
+    "Comparativeefficacy support doesnot identify60%;future marketstructure mayincludeotherorals. Competinginjectables represented in46%nonoral residual."
+  ],
+  "comparison_to_legacy": {
+    "legacy_other_prevention_Rx": 0.04,
+    "legacy_paid_static": 0.032,
+    "candidate_injectable_Rx_static": 0.06173780487804878,
+    "candidate_paid": 0.04939024390243903,
+    "interpretation": "Candidate is higherthanold4%Rx/3.2%paid,weakeningthispartofthe short; origins notidentical. NoDCFupdated."
+  }
+}

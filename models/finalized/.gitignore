@@ -1,2 +1,5 @@
 __pycache__/
 *_monthly.json
+
+# Reproducible historical monthly calibration grid; regenerate with its script.
+adoption_calibration/choice_share_timepath.json

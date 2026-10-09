@@ -6,8 +6,11 @@ from engine import BASE, read, write, evaluate, resolve, aggregate, month_index,
 cfg = read('inputs.json')
 base = read('results.json')['working']
 variables = {
-    'population':[8500,11500], 'ir_rx':[.05,.274463], 'xr_orladeyo':[.05,.15],
-    'xr_other_prevention':[.02,.06], 'xr_acute_only':[.02,.06],
+    'population':[8500,11500], 'ir_oral_switch_relative':[.5,1.5], 'category_switch':[.10,.20],
+    'oral_launch_share':[.25,.60],
+    'oral_destination_capture':[.40,.80], 'ir_injectable_opportunity':[.75,1.25],
+    'untreated_xr_reach':[.25,.75], 'ir_no_rescue_opportunity':[.10,.30],
+    'ekterly_future_forms':[100,250], 'switch_mature_multiplier':[.50,1.25],
     'xr_first_retention':[.61,.6945], 'xr_mature_retention':[.8,.95],
     'ir_retention':[.8,.95], 'ir_doses_ltp':[6,11.8], 'ir_doses_other':[10,18],
     'dual_use':[0,1], 'xr_paid_intensity':[.9,1], 'cost_scale':[.8,1.2],
@@ -30,8 +33,9 @@ scenarios.update({
     'no_refill_intensity_adjustment':{'xr_paid_intensity':1},
     'old_prices_only':{'ir_net_fraction':14000/16720, 'xr_net_fraction':418000/(48487.92*365/28)},
     'omit_license_royalty_cost_counterfactual':{'license_rate':0},
-    'faster_IR_50pct_Ekterly_forms':{'ir_rx':.1408047},
-    'faster_IR_75pct_Ekterly_forms':{'ir_rx':.208553},
+    'redose_plus_better_IR_capture':{'ir_quantity_multiplier':1.17/1.38,'ir_injectable_opportunity':1.25},
+    'LTP_ten_percent_no_rescue':{'ltp_no_rescue_fraction':.10},
+    'extra_Ekterly_free_stock':{'ekterly_free_stock_multiplier':1.2},
     'rebate_for_access':cfg['access_packages']['rebate_for_access'],
     'restricted_high_net':cfg['access_packages']['restricted_high_net'],
 })
@@ -66,7 +70,7 @@ for r in base['annual_both_success'][1:]:
 write('financial_tables.json',{'history_and_forecast':reports,'quarterly_2026H2_to_2028':[r for r in quarters if str(r['quarter'])[:4] in ['2026','2027','2028']],'forecast_warning':'Working operating statements conditional on both products succeeding; valuation separately branches four clinical outcomes.'})
 monthly=read('working_monthly.json')['both']; launch=month_index(cfg['launches']['IR']['commercial_month'])
 window=[r for r in monthly if launch<=month_index(r['month'])<launch+8]
-launch_checks={'ir_first8months':{'forms':sum(r['ir_rx'] for r in window),'paid_access_starts':sum(r['ir_access_starts'] for r in window),'US_revenue_m':sum(r['IR_US'] for r in window),'Ekterly_forms':1702,'forms_ratio':sum(r['ir_rx'] for r in window)/1702},'comparability':'Population grows from July2026 until May2027 launch, so ratio differs slightly from legacy35%. Forms include attempts, not proven unique people. Paid starts lag. No per-patient revenue inferred from cumulativeforms.'}
+launch_checks={'ir_first8months':{'forms':sum(r['ir_rx'] for r in window),'paid_access_starts':sum(r['ir_access_starts'] for r in window),'US_revenue_m':sum(r['IR_US'] for r in window),'Ekterly_forms':1702,'forms_ratio':sum(r['ir_rx'] for r in window)/1702},'comparability':'Segmented origins with projected Ekterly launch stock and rising PHVS oral choice; ratio is an output, not an imposed first-mover discount. Forms include attempts, not proven unique people. Paid starts lag. No per-patient revenue inferred from cumulativeforms.'}
 launch_checks['IR_full_launch_years']=[]
 for i in range(4):
     window=[r for r in monthly if launch+i*12<=month_index(r['month'])<launch+(i+1)*12]

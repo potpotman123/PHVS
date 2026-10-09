@@ -13,19 +13,51 @@ all four groups from fixed weights. Do not sample the counts independently.
 
 Net diagnosed-population growth is 1.5% annually, tested at 0-3%. It includes
 new diagnoses and exits; do not add another diagnosis inflow or death outflow.
-New entrants are allocated proportionately to the four original groups. This
+Net additions are allocated proportionately to the joint baseline-origin cells. This
 is a compact net-growth assumption, not a demographic incidence model.
 
 IR and XR maintain separate membership ledgers within the SAME population.
 They are overlapping treatments, so their patient counts must never be added
 as the number of unique people with HAE. Origin is the pre-PHVS treatment group,
-not a continuously updated treatment label. Composite capture is deliberately
-used instead of invented reach/preference/prescription probabilities.
+not a continuously updated treatment label. Each prevention origin is crossed
+with primary rescue origin: Ekterly, injectable, or none. Zero cells are omitted.
+Joint rescue allocation is proportional within eligible prevention rows; actual
+cross-tabulation is unknown. Other prevention pools older and injectable treatments
+at a shared fallback rate. Mean-field overlap is computed inside each joint cell.
 
 For annual acquisition probability a, monthly q = 1-(1-a)^(1/12).
 Prescription attempts = available people * q. Rates apply to the remaining
-available pool, not the original population every year. IR working a=10% for
-treated groups, 2% for diagnosed untreated. XR a=10%,4%,4%,1% respectively.
+available pool, not the original population every year. Source rates now come
+from segmented_adoption.py and canonical inputs, not old blended10/4/4/1%.
+Let s=50/328 category switching; o=oral choice40%atlaunch rising linearly to60%
+by60months; p=54%oral preventive preference; c=60%capture of all departures
+from an incumbent oral. These fractions are distinct and not additive.
+XR annualized Rx propensities:
+  Orladeyo: s*c/0.8.
+  Other prevention: s*p*o/0.8.
+  Acute only: (4080/2720)*s*p*o*(32/52)/0.8.
+  Untreated: (2720/1500)*acute completed-start propensity*(17/32)*0.5/0.8.
+IR annualized Rx propensities:
+  Injectable: [1-(1-1702/9000)^(12/8)]*oral choice*opportunity multiplier.
+  Ekterly: s*c/0.8; this borrows a LTP switching proxy, a material limitation.
+  No current rescue:20%opportunity*84%oral preference*oral choice.
+The0.8 above is fixed normalization of completed-start proxies; actual access
+conversion remains separate and is applied once in Population.step. It is an
+approximate static translation, not an exact annual paid-start calibration.
+Each product has its own launch clock. Opportunity is constant in working;
+optional linear multiplier toyear5 tests taper/expansion alongside depletion.
+Category switching, destination capture and brand share are analyst transfers.
+The60%mature assumption is favorable underwriting, not causal validation.
+
+Starting rescue stock is projected from Ekterly monthly forms Jul2025-Feb2026,
+then192forms/month to the month before PHVS launch, with80%conversion,90%
+annual survival, one-month lag and100%unique forms. May2027 yields3072Ekterly,
+5535injectable and1519none. Absolute Ekterly stock is held when population is
+sensitized; residual injectables change. Launch delays extend this projection.
+Launch mix is expressed back atJuly2026 using population growth; this is a
+fixed launch-origin classification, not a claim about actualJuly2026 Ekterly use.
+No extra growth in the anchor month. Netgrowth1.5%is applied once thereafter.
+Separate NEW conditional-choice diagnostic rows are disabled in the engine.
 
 Each monthly sequence:
   (i) add net population growth to available people;
@@ -83,7 +115,7 @@ joint prescribing. IR active patients and XR active patients cannot be used to
 infer a preference/safety rule about simultaneous use of the same molecule.
 
 For XR share x and same-drug rescue allocation d:
-  budget = (1-x)*prior-treatment dose budget + x*LTP budget*d.
+  budget = quantity_multiplier*((1-x)*prior-treatment dose budget + x*LTP budget*d).
   initial stock per new member = 2*((1-x)+x*d).
   replacement doses = first-year member-years*(budget-initial stock)
                     + mature member-years*budget.
@@ -92,8 +124,10 @@ For XR share x and same-drug rescue allocation d:
 
 Initial stock is inside the annual total, not added to it. If an early user
 stops, previously dispensed stock is not clawed back; first-year revenue can
-therefore be front-loaded relative to consumed attacks. No further redosing
-haircut is applied to claims-derived dispensing. Study redose rates are not
+therefore be front-loaded relative to consumed attacks. User-selected working
+redosing multiplier is now1.17/1.38=0.847826 on the annual dose budget,
+preserving initial stock. This stress transfers a cross-trial difference onto
+claims-derived budgets; it is not an empirically validated correction. Study redose rates are not
 interchangeable with commercial paid prescriptions. Pack rounding, expiration
 and channel inventories are excluded until observed.
 
@@ -110,7 +144,11 @@ Assumed paid-unit net fraction66% gives approximately$417,169/year.
 IR comparator WAC=$16,720/dose; assumed84% net gives$14,044.80/dose.
 These are independently sourced list-price anchors and explicit net discounts,
 not observed PHVS prices or verified manufacturer gross-to-net percentages.
-No efficacy price premium or annual list-price inflation is assumed.
+No efficacy price premium or annual list-price inflation is assumed. Explicit
+IR/XR net-price multipliers fixed1.0; user excluded efficacy premium scenarios.
+Redosing quantity_multiplier is fixed1.17/1.38 in every active case. It
+preserves initial stock and changes
+the replacement budget. Cross-trial differences are not paid-dispensing effects.
 
 Conversion determines whether an attempt ever becomes paid; net fraction
 reduces revenue on paid units. Free supply never earns list-price revenue; free initial IR units retain a

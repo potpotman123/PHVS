@@ -1,0 +1,456 @@
+{
+  "version": 1,
+  "as_of": "2026-10-09",
+  "purpose": "Prepare standalone-short research Monte Carlo; no random valuation batch run by this file. Do not target a desired short probability.",
+  "seed": 7202609,
+  "hard_fixed": {
+    "ir_quantity_multiplier": 0.8478260869565217,
+    "ir_price_multiplier": 1.0,
+    "xr_price_multiplier": 1.0,
+    "oral_mature_share": 0.6,
+    "segmented_adoption": true,
+    "hazard_year6_multiplier": 1.0
+  },
+  "priors": {
+    "population": {
+      "distribution": "triangular",
+      "min": 8500,
+      "mode": 10000,
+      "max": 11500,
+      "round_integer": false,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "Maintain existing8500treated+1500untreated. Pools not age/genotype validated; composite rates include eligible reach. No addedAAE/pediatric growth.",
+      "sources": [
+        "POP"
+      ]
+    },
+    "growth": {
+      "distribution": "triangular",
+      "min": 0,
+      "mode": 0.015,
+      "max": 0.03,
+      "round_integer": false,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "Modest netgrowth; births/deaths/diagnosis included, not modeledagain.",
+      "sources": [
+        "POP"
+      ]
+    },
+    "category_switch": {
+      "distribution": "triangular",
+      "min": 0.1,
+      "mode": 0.1524390243902439,
+      "max": 0.2,
+      "round_integer": false,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "50/328 observed LTP switch benchmark; borrowed for IR oral departures, not measured IR switching.",
+      "sources": [
+        "SWITCH"
+      ]
+    },
+    "oral_launch_share": {
+      "distribution": "triangular",
+      "min": 0.25,
+      "mode": 0.4,
+      "max": 0.6,
+      "round_integer": false,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "Judgment informed by follower analogues; not a fitted causal efficacy premium.",
+      "sources": [
+        "CHOICEAUDIT",
+        "JUDGMENT"
+      ]
+    },
+    "choice_months": {
+      "distribution": "triangular",
+      "min": 36,
+      "mode": 60,
+      "max": 84,
+      "round_integer": true,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "Linear transition to mature oral choice on each product own launch clock.",
+      "sources": [
+        "CHOICEAUDIT",
+        "JUDGMENT"
+      ]
+    },
+    "oral_destination_capture": {
+      "distribution": "triangular",
+      "min": 0.4,
+      "mode": 0.6,
+      "max": 0.8,
+      "round_integer": false,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "PHVS capture of existing oral users leaving treatment; distinct from oral-pair choice.",
+      "sources": [
+        "SWITCH",
+        "CHOICEAUDIT",
+        "JUDGMENT"
+      ]
+    },
+    "prevention_oral_preference": {
+      "distribution": "triangular",
+      "min": 0.46,
+      "mode": 0.54,
+      "max": 0.62,
+      "round_integer": false,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "Survey preference under its study framing; transfer to switching opportunity is an assumption.",
+      "sources": [
+        "PREFERENCE"
+      ]
+    },
+    "untreated_xr_reach": {
+      "distribution": "triangular",
+      "min": 0.25,
+      "mode": 0.5,
+      "max": 0.75,
+      "round_integer": false,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "Access/reach discount to historical naive entrant mix, before paid conversion.",
+      "sources": [
+        "MIX",
+        "JUDGMENT"
+      ]
+    },
+    "ir_injectable_opportunity": {
+      "distribution": "triangular",
+      "min": 0.75,
+      "mode": 1.0,
+      "max": 1.25,
+      "round_integer": false,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "Apply first oral Ekterly annualized forms propensity to injectable source, then PHVS oral choice.",
+      "sources": [
+        "KALVFORM",
+        "JUDGMENT"
+      ]
+    },
+    "ir_no_rescue_opportunity": {
+      "distribution": "triangular",
+      "min": 0.1,
+      "mode": 0.2,
+      "max": 0.3,
+      "round_integer": false,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "Assumed opportunity to select rescue; multiplied by84% oral preference and PHVS oral choice.",
+      "sources": [
+        "RESCUEPREF",
+        "JUDGMENT"
+      ]
+    },
+    "ir_oral_switch_relative": {
+      "distribution": "triangular",
+      "min": 0.5,
+      "mode": 1.0,
+      "max": 1.5,
+      "round_integer": false,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "Working1 preserves existing bridge. Half-to1.5x tests unobserved LTP-to-IR transfer without forcing preventive switching to change. Bounds analyst-selected; not confidence interval.",
+      "sources": [
+        "SWITCH",
+        "JUDGMENT"
+      ]
+    },
+    "switch_mature_multiplier": {
+      "distribution": "triangular",
+      "min": 0.5,
+      "mode": 1.0,
+      "max": 1.25,
+      "round_integer": false,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "Category opportunity linearly changes to this bymonth60; depletion already endogenous.",
+      "sources": [
+        "KALVFORM",
+        "JUDGMENT"
+      ]
+    },
+    "ekterly_future_forms": {
+      "distribution": "triangular",
+      "min": 100.0,
+      "mode": 192.0,
+      "max": 250.0,
+      "round_integer": false,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "Continue last observed two-month pace afterFeb2026; projected not observed.",
+      "sources": [
+        "KALVFORM",
+        "JUDGMENT"
+      ]
+    },
+    "ekterly_paid_conversion": {
+      "distribution": "triangular",
+      "min": 0.65,
+      "mode": 0.8,
+      "max": 0.9,
+      "round_integer": false,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "Launch-stock projection assumption; distinct from PHVS conversion.",
+      "sources": [
+        "JUDGMENT"
+      ]
+    },
+    "ekterly_continuation": {
+      "distribution": "triangular",
+      "min": 0.8,
+      "mode": 0.9,
+      "max": 0.95,
+      "round_integer": false,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "Projection assumption; forms do not establish active patient count.",
+      "sources": [
+        "JUDGMENT"
+      ]
+    },
+    "ekterly_unique_fraction": {
+      "distribution": "triangular",
+      "min": 0.9,
+      "mode": 1.0,
+      "max": 1.0,
+      "round_integer": false,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "Stock projection assumes unique forms working; stress duplicate forms.",
+      "sources": [
+        "KALVFORM",
+        "JUDGMENT"
+      ]
+    },
+    "xr_first_retention": {
+      "distribution": "triangular",
+      "min": 0.61,
+      "mode": 0.6945,
+      "max": 0.6945,
+      "round_integer": false,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "0.61+0.39*(13/30)*0.5; user-selected efficacyallowance. No AEuplift.",
+      "sources": [
+        "XRPERSIST",
+        "FRENCH"
+      ]
+    },
+    "xr_mature_retention": {
+      "distribution": "triangular",
+      "min": 0.8,
+      "mode": 0.9,
+      "max": 0.95,
+      "round_integer": false,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "Selectionofpersistentusers motivates higherthaninitiation61%, exact90%notobserved.",
+      "sources": [
+        "XRPERSIST",
+        "JUDGMENT"
+      ]
+    },
+    "ir_retention": {
+      "distribution": "triangular",
+      "min": 0.8,
+      "mode": 0.9,
+      "max": 0.95,
+      "round_integer": false,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "Operationalcarryover; repeatdispensing91%cannot establishannual90%.",
+      "sources": [
+        "JUDGMENT",
+        "PERSIST"
+      ]
+    },
+    "ir_doses_ltp": {
+      "distribution": "triangular",
+      "min": 6,
+      "mode": 8,
+      "max": 11.8,
+      "round_integer": false,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "MinimalgapLTP8 vsall11.8; no additionalzero-user67.1%haircut.",
+      "sources": [
+        "CLAIMS"
+      ]
+    },
+    "ir_doses_other": {
+      "distribution": "triangular",
+      "min": 10,
+      "mode": 14,
+      "max": 18,
+      "round_integer": false,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "BroaderODusers14 transferredtoacuteonly, not exactcohort measurement.",
+      "sources": [
+        "IRDOSE"
+      ]
+    },
+    "dual_use": {
+      "distribution": "triangular",
+      "min": 0,
+      "mode": 0.5,
+      "max": 1,
+      "round_integer": false,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "Mean-field withinorigin. No sameMOAprohibition established. Applyonce toquantity,not againretention.",
+      "sources": [
+        "JUDGMENT"
+      ]
+    },
+    "xr_paid_intensity": {
+      "distribution": "triangular",
+      "min": 0.9,
+      "mode": 0.925221320319973,
+      "max": 1.0,
+      "round_integer": false,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "Orladeyo first-year persistence61% implies0.789continuous patient-years under an exponential exit curve; observedPDC0.73/0.789 gives~0.925 paid-exposure intensity. Apply once after survival, preserving PHVS69.45%retention allowance. Not a separately measured conditionaladherence rate; returningusers and cohortdefinitions confound transfer. No additionalPDC haircut.",
+      "sources": [
+        "XRPERSIST"
+      ]
+    },
+    "ir_exus_ratio": {
+      "distribution": "triangular",
+      "min": 0.1,
+      "mode": 0.2,
+      "max": 0.35,
+      "round_integer": false,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "Heuristic demandmultiplier; Takeda20%weightXR only. Rights/accountingconversion separate.",
+      "sources": [
+        "GEO",
+        "TAK"
+      ]
+    },
+    "xr_exus_ratio": {
+      "distribution": "triangular",
+      "min": 0.15,
+      "mode": 0.25,
+      "max": 0.6,
+      "round_integer": false,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "Heuristic demandmultiplier; Takeda20%weightXR only. Rights/accountingconversion separate.",
+      "sources": [
+        "GEO",
+        "TAK"
+      ]
+    },
+    "exus_lag": {
+      "distribution": "triangular",
+      "min": 0,
+      "mode": 12,
+      "max": 24,
+      "round_integer": true,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "Weightedcountryaccesslag, not firstregulatoryapproval.",
+      "sources": [
+        "GEO",
+        "IRREG"
+      ]
+    },
+    "exus_phase": {
+      "distribution": "triangular",
+      "min": 36,
+      "mode": 48,
+      "max": 72,
+      "round_integer": true,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "LaggedUSvolume phased towardratio.",
+      "sources": [
+        "GEO"
+      ]
+    },
+    "cost_scale": {
+      "distribution": "triangular",
+      "min": 0.8,
+      "mode": 1,
+      "max": 1.2,
+      "round_integer": false,
+      "status": "Analyst prior over transfer/forecast uncertainty; not fitted confidence interval",
+      "rationale": "Absoluteannualschedule withnamedcostbuild inarchitecture;no brokermargintemplate.",
+      "sources": [
+        "H126",
+        "COST",
+        "COST2"
+      ]
+    }
+  },
+  "primary_fixed_rest": "Every other input stays at working; do not automatically sample all input bounds.",
+  "access_strata": {
+    "working": {
+      "conversion": 0.8,
+      "delay": 1,
+      "xr_net_fraction": 0.66,
+      "ir_net_fraction": 0.84
+    },
+    "rebate_for_access": {
+      "conversion": 0.9,
+      "delay": 1,
+      "xr_net_fraction": 0.58,
+      "ir_net_fraction": 0.76
+    },
+    "restricted_high_net": {
+      "conversion": 0.65,
+      "delay": 3,
+      "xr_net_fraction": 0.78,
+      "ir_net_fraction": 0.94
+    }
+  },
+  "access_mixture_weights": null,
+  "access_rule": "Run each package separately with identical quantiles/common random numbers. No invented probabilities for package mix. Never resample conversion or net fractions on top of a package. Net fraction uncertainty is commercial rebate uncertainty, not an efficacy pricing multiplier.",
+  "structural_strata": {
+    "primary": {},
+    "six_month_delay": {
+      "launch_delay_IR": 6,
+      "launch_delay_XR": 6
+    },
+    "lower_discount_rate": {
+      "discount_rate": 0.1
+    },
+    "higher_discount_rate": {
+      "discount_rate": 0.15
+    },
+    "later_LOE": {
+      "loe_year": 2043
+    },
+    "licensed_overseas": {
+      "exus_direct_fraction": 0.0
+    },
+    "initial_stock_free": {
+      "ir_initial_paid_fraction": 0.0
+    },
+    "some_discontinuers_return": {
+      "reentry_fraction": 0.25
+    },
+    "no_rescue_in_10pct_LTP": {
+      "ltp_no_rescue_fraction": 0.1
+    },
+    "extra_Ekterly_free_supply": {
+      "ekterly_free_stock_multiplier": 1.2
+    }
+  },
+  "structural_weights": null,
+  "structural_rule": "Run one structural variation at a time around primary; no Cartesian product. Same sampled draws. Delay shifts clinical decisions and Ekterly stock horizon.",
+  "dependence_modes": {
+    "primitive_independent": "Independent primitive quantiles only; shared derived rates, source anchors, joint stocks and access package preserve structural dependencies. Not a claim of empirical independence.",
+    "commercial_rank_linked": "Same quantile for commercial family below; upper dependence stress, not fitted correlation."
+  },
+  "commercial_rank_linked": [
+    "category_switch",
+    "oral_launch_share",
+    "oral_destination_capture",
+    "untreated_xr_reach",
+    "ir_injectable_opportunity",
+    "ir_no_rescue_opportunity",
+    "switch_mature_multiplier"
+  ],
+  "clinical": "Keep marginalIR/XR90%, sharedgate95%primary. Enumerate four states exactly per commercial draw; probabilities applied once. Report expected-value uncertainty AND state-weighted shareholder-outcome distribution separately.",
+  "market_reference": {
+    "price": null,
+    "timestamp": null,
+    "rule": "No probability of positive/negative stock return until a verified dated market-price input and horizon are supplied."
+  },
+  "compute_plan": {
+    "smoke_financial_draws": 4,
+    "initial_pilot_draws": 64,
+    "production_start_draws": 512,
+    "runtime_rule": "Benchmark pilot before expansion; cache identical draw/scenario results, no per-draw source retrieval or narrative. If projected batch exceeds10minutes, optimize/reuse branch arrays and report timing before bulk run. Do not substitute a fitted response surface without held-out error checks.",
+    "convergence_rule": "Compare512and1024usingprefixseedsequence; continueonlyifquantile movements or MonteCarloerror justify. Draw count reduces simulation error, not assumption error.",
+    "outputs": "Save compact draws and input hashes; avoid per-month every-draw JSON."
+  },
+  "readiness": "Prepared priors and preflight module; no production Monte Carlo results yet.",
+  "scope": "Standalone only. User explicitly removed acquisition on9October2026; do not implement acquisition branches, premiums, buyer synergies or takeover probabilities."
+}

@@ -1,0 +1,59 @@
+POLICY UPDATE: Every active case and future MonteCarlo draw must retain
+1.17/1.38redosing discount; no pricing uplift. Nonmatching sensitivity cases
+removed. Historical snapshots below are provenance, not forecast alternatives.
+
+CURRENT SEGMENTED MODEL — REDOSING UPDATE, 9 October 2026
+
+User requested zero efficacy pricing premium and the original redosing stress.
+Working IRquantity_multiplier=1.17/1.38=0.847826; IR/XR price multipliers1.0.
+Net prices unchanged:$14,044.80/IRdose; $417,169.28/XRyear before adherence.
+Segmented stocks, source acquisition, retention, access and netgrowth unchanged.
+
+Correct clinical figures:17%PHVS RAPIDe3 versus38%Ekterly KONFIDENT within12h.
+13.8%PHVS is a selected, mixed-dose extension subset with a different observation
+window/denominator. No verified12%figure. The13.8%extension remains historical evidence only; active cases all use
+the same17%versus38%discount.
+
+Doses per attack:1.17 versus1.38. This implies15.22%less quantity, not21%less
+revenue. Annual IRdose budgets change8->6.783 and14->11.870. Initial two-dose
+stock is retained within that budget, so its initial paid allocation is unchanged;
+subsequent replacement quantities fall. Apply once, no further dose haircut.
+
+RESULTS (standalone, risk-adjusted value; both-success operating forecasts)
+Expected12month value:31.70->28.31USD/share (-10.7%).
+Value today:25.83USD/share.
+Both-success target:31.50USD/share.
+Peak global recognized sales:$1,655m->$1,551m in2038.
+2038IRsales:$682.6m->$578.8m; XRunchanged$972.5m.
+2030IRsales:$344.7m->$292.4m; totalrevenue$603.6m->$551.3m.
+No acquisition premium or new market quote. About15%less mature IRrevenue does
+not mean15%less total sales because XR is unaffected. Fewer administrations
+reduce revenue/member and contribution dollars, not necessarily gross margin%.
+
+INTERPRETATION / LIMITATION
+This is a user-selected underwriting stress, not established commercial unit
+economics. The8/14budgets originally came from mixed dispensing proxies; they
+were not specifically an Ekterly baseline of1.38doses/attack. Applying this ratio
+assumes they can represent comparator-like paid utilization. The user fixes this assumption across all active forecasts. Trial protocols differ; prescribing, rescue stock,
+expiry and treatment frequency also influence paid shipments. Ekterly extension
+evidence suggests less repeat dosing than pivotal38%in selected observations.
+The redosing stress is meaningful but does not alone establish an investment short.
+Retained efficacy allowances:69.45%first-yearXRretention and favorable mature
+oralchoice60%. These are underwriting assumptions, not empirical causal uplifts.
+
+REPRODUCTION / SOURCES
+inputs.json is canonical; segmented_adoption.py and engine.py implement flows.
+Run engine.py, analyze.py, validate.py. Current outputs:sensitivities.json,
+results.json, launch_checks.json, summary.txt, validation.json.
+No-premium policy removes explicit premium scenarios from current sensitivity
+outputs; underlying net discount/access scenarios remain uncertain estimates.
+Pre-change values preserved in archive/pre_redosing_snapshot.json; older blended in
+archive/legacy_blended_snapshot.json. This was the pre-audit update; current audit/handoff supersedes it.
+
+Sources: sources.json REDOSE; output/PHVS_redosing_audit_2026-10-08.txt and
+output/PHVS_redosing_expert_followup_2026-10-08.txt. Primaryposter Figure6:
+https://ir.pharvaris.com/static-files/2ceba996-1cde-409c-9930-da480237edb4
+Ekterlylabel rechecked9October2026:
+https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=1d145e2f-8e7e-2e90-e063-6294a90a4449
+Segmentation provenance:adoption_calibration/provenance.json and
+final_mechanics_provenance.json; choice-share comparable audit in research/.

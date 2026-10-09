@@ -1,3 +1,28 @@
+Current audit and handoff — 9 October 2026: **standalone short only; acquisition removed**.
+Audited patient-to-financial engine; fixed redosing in every case and no efficacy pricing premium.
+Working12month value remains$28.31. No productionMonteCarlo run; a separateagent will run it.
+Start with [MonteCarlo handoff](models/finalized/MONTE_CARLO_HANDOFF.txt),
+[audit](models/finalized/MODEL_AUDIT.txt), and [assumption inventory](models/finalized/assumptions_audit.json).
+Earlier acquisition scope, unintegrated statuses and superseded values below are historical.
+
+Current redosing update — 9 October 2026: user-selected17%versus38%quantity
+stress is now in working; **$28.31**expected12month value, no efficacy pricing
+premium. The$31.70segmented value below is the no-redosing counterfactual.
+See [current model note](models/finalized/INTEGRATION.txt).
+
+Current model update — 9 October 2026: segmented acquisition is now INTEGRATED.
+Working expected12month value **$31.70** supersedes the old$21.50blended result;
+no acquisition or efficacy pricing premium. See [integration and thesis audit](models/finalized/INTEGRATION.txt), [handoff](models/finalized/HANDOFF.txt), and validation.json (152checks).
+Earlier notices below about pending integration are historical and superseded.
+
+Three mechanics resolved (9 October): models/finalized/adoption_calibration/FINAL_MECHANICS.txt specifiesMay2027rescuestockprojection,choice-plus-depletiontimingandnetinflowrouting. WorkingEkterly3072/injectable5535/norescue1519;allassumedprojections. SeparateNEWeventrowsdisabled;noextraannualhazardtaperworking. Standaloneflowcheckscomplete;fullDCF integrationpending. G67.
+
+Latest oral-choice timing (9 October): models/finalized/adoption_calibration/choice_share_schedule.py and choice_share_timepath.json implement25/40/60%launchshares converging to common60%byyear5. User-directedmatureassumption;convergencetimingjudgmental. Overridesstaticoral-choicefactorsforintendedimplementation;financialengineintegrationpending. G65.
+
+All-group adoption calibration (9 October): models/finalized/adoption_calibration/README.txt has reproducible cautious/working/stronger assumptions, formulas and source/status register. Origin-level estimates are provisional; Ekterly-to-PHVS uses an explicitly weak LTP-switching proxy. Conditional new-treatment choice is not an extra population flow. Full valuation engine unchanged. Process G63.
+
+Current adoption update (9 October): models/finalized/SEGMENTATION.txt and segmentation_spec.json map evidence to prevention/rescue origins and control-related motivations. No automatic XR oral premium; 54/46 preference is not a switching rate. Current financial engine still uses legacy blended acquisition pending subgroup calibration. See research/PHVS_switching_evidence_bridge_2026-10-09.json; process G60–G61.
+
 # Current model — 9 October 2026
 
 Use [models/finalized/README.txt](models/finalized/README.txt), its [handoff](models/finalized/HANDOFF.txt), inputs and generated results as the single current financial-model authority. It links monthly cohorts to dated cash flows, clinical risk and valuation; preserves the efficacy-only retention allowance; replaces broker pricing support with public anchors; and specifies Monte Carlo/acquisition interfaces. See process event G59.

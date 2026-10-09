@@ -93,7 +93,7 @@
       "sources": [
         "KALVFORM"
       ],
-      "translation": "Legacy10% unchanged; first8m~35%Ekterly; high matches firstmoverforms only as challenge, not estimatedceiling.",
+      "translation": "LEGACY MODE ONLY. Legacy10% unchanged; first8m~35%Ekterly; high matches firstmoverforms only as challenge, not estimatedceiling.",
       "distribution_proposal": "triangular only after team selects mode",
       "uncertainty": "epistemic",
       "dependencies": [],
@@ -112,7 +112,7 @@
       "sources": [
         "MIX"
       ],
-      "translation": "Access/reachdiscount among diagnoseduntreated; weak transfer, retain explicit.",
+      "translation": "LEGACY MODE ONLY. Access/reachdiscount among diagnoseduntreated; weak transfer, retain explicit.",
       "distribution_proposal": "scenario",
       "uncertainty": "epistemic",
       "dependencies": [],
@@ -133,7 +133,7 @@
         "MIX",
         "PREFERENCE"
       ],
-      "translation": "AnyLTPswitch15.24% timesjudgment1/3,2/3,1.",
+      "translation": "LEGACY MODE ONLY. AnyLTPswitch15.24% timesjudgment1/3,2/3,1.",
       "distribution_proposal": "scenario",
       "uncertainty": "epistemic",
       "dependencies": [],
@@ -154,7 +154,7 @@
         "MIX",
         "PREFERENCE"
       ],
-      "translation": "13/26/39% destinationallocation of15.24% benchmark; preferenceheterogeneity. No oralconvenience premium.",
+      "translation": "LEGACY MODE ONLY. 13/26/39% destinationallocation of15.24% benchmark; preferenceheterogeneity. No oralconvenience premium.",
       "distribution_proposal": "scenario",
       "uncertainty": "epistemic",
       "dependencies": [],
@@ -175,7 +175,7 @@
         "MIX",
         "PREFERENCE"
       ],
-      "translation": "Historical32/52entrantmix implies~3.69%, rounded4.",
+      "translation": "LEGACY MODE ONLY. Historical32/52entrantmix implies~3.69%, rounded4.",
       "distribution_proposal": "scenario",
       "uncertainty": "epistemic",
       "dependencies": [],
@@ -196,7 +196,7 @@
         "MIX",
         "PREFERENCE"
       ],
-      "translation": "Historical17/32naive/acute ratio with25%reachadjustment, approximate1%.",
+      "translation": "LEGACY MODE ONLY. Historical17/32naive/acute ratio with25%reachadjustment, approximate1%.",
       "distribution_proposal": "scenario",
       "uncertainty": "epistemic",
       "dependencies": [],
@@ -1048,26 +1048,6 @@
       "definition": "issue fee; grosscapitalraised",
       "period": "Per event or unit as stated; calendar schedule in architecture"
     },
-    "takeover_probability": {
-      "value": 0,
-      "bounds": [
-        0,
-        0.3
-      ],
-      "units": "probability",
-      "denominator": "completedacceptabledeal bytarget",
-      "status": "assumed",
-      "sources": [
-        "MNA",
-        "JUDGMENT"
-      ],
-      "translation": "Unweightedstandalonebase;0/10/20/30%onlyscenario, no highPHVSspecificprobabilityinferred.",
-      "distribution_proposal": "scenario",
-      "uncertainty": "epistemic",
-      "dependencies": [],
-      "definition": "takeover probability; completedacceptabledeal bytarget",
-      "period": "Per event or unit as stated; calendar schedule in architecture"
-    },
     "xr_paid_intensity": {
       "value": 0.925221320319973,
       "bounds": [
@@ -1110,6 +1090,422 @@
       ],
       "definition": "ir initial paid fraction; initial stock doses at access activation",
       "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "segmented_adoption": {
+      "value": true,
+      "bounds": [
+        false,
+        true
+      ],
+      "units": "mode",
+      "status": "underwriting assumption or proxy; see translation",
+      "sources": [
+        "SEGMENTED"
+      ],
+      "translation": "Enable source-specific acquisition; legacy rates only in explicit counterfactual.",
+      "distribution_proposal": "scenario; not a statistical confidence interval",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "definition": "Enable source-specific acquisition; legacy rates only in explicit counterfactual."
+    },
+    "category_switch": {
+      "value": 0.1524390243902439,
+      "bounds": [
+        0.1,
+        0.2
+      ],
+      "units": "annual probability",
+      "status": "underwriting assumption or proxy; see translation",
+      "sources": [
+        "SWITCH"
+      ],
+      "translation": "50/328 observed LTP switch benchmark; borrowed for IR oral departures, not measured IR switching.",
+      "distribution_proposal": "scenario; not a statistical confidence interval",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "definition": "50/328 observed LTP switch benchmark; borrowed for IR oral departures, not measured IR switching."
+    },
+    "oral_launch_share": {
+      "value": 0.4,
+      "bounds": [
+        0.25,
+        0.6
+      ],
+      "units": "conditional fraction",
+      "status": "underwriting assumption or proxy; see translation",
+      "sources": [
+        "CHOICEAUDIT",
+        "JUDGMENT"
+      ],
+      "translation": "Judgment informed by follower analogues; not a fitted causal efficacy premium.",
+      "distribution_proposal": "scenario; not a statistical confidence interval",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "definition": "Judgment informed by follower analogues; not a fitted causal efficacy premium."
+    },
+    "oral_mature_share": {
+      "value": 0.6,
+      "bounds": [
+        0.6,
+        0.6
+      ],
+      "units": "conditional fraction",
+      "status": "underwriting assumption or proxy; see translation",
+      "sources": [
+        "CHOICEAUDIT",
+        "JUDGMENT"
+      ],
+      "translation": "User-selected common mature oral-pair choice; default all cases60%.",
+      "distribution_proposal": "Fixed user-selected60% mature share in all active cases",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "definition": "User-selected common mature oral-pair choice; default all cases60%."
+    },
+    "choice_months": {
+      "value": 60,
+      "bounds": [
+        36,
+        84
+      ],
+      "units": "months",
+      "status": "underwriting assumption or proxy; see translation",
+      "sources": [
+        "CHOICEAUDIT",
+        "JUDGMENT"
+      ],
+      "translation": "Linear transition to mature oral choice on each product own launch clock.",
+      "distribution_proposal": "scenario; not a statistical confidence interval",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "definition": "Linear transition to mature oral choice on each product own launch clock."
+    },
+    "oral_destination_capture": {
+      "value": 0.6,
+      "bounds": [
+        0.4,
+        0.8
+      ],
+      "units": "fraction of all departures",
+      "status": "underwriting assumption or proxy; see translation",
+      "sources": [
+        "SWITCH",
+        "CHOICEAUDIT",
+        "JUDGMENT"
+      ],
+      "translation": "PHVS capture of existing oral users leaving treatment; distinct from oral-pair choice.",
+      "distribution_proposal": "scenario; not a statistical confidence interval",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "definition": "PHVS capture of existing oral users leaving treatment; distinct from oral-pair choice."
+    },
+    "prevention_oral_preference": {
+      "value": 0.54,
+      "bounds": [
+        0.46,
+        0.62
+      ],
+      "units": "fraction",
+      "status": "underwriting assumption or proxy; see translation",
+      "sources": [
+        "PREFERENCE"
+      ],
+      "translation": "Survey preference under its study framing; transfer to switching opportunity is an assumption.",
+      "distribution_proposal": "scenario; not a statistical confidence interval",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "definition": "Survey preference under its study framing; transfer to switching opportunity is an assumption."
+    },
+    "untreated_xr_reach": {
+      "value": 0.5,
+      "bounds": [
+        0.25,
+        0.75
+      ],
+      "units": "relative reach",
+      "status": "underwriting assumption or proxy; see translation",
+      "sources": [
+        "MIX",
+        "JUDGMENT"
+      ],
+      "translation": "Access/reach discount to historical naive entrant mix, before paid conversion.",
+      "distribution_proposal": "scenario; not a statistical confidence interval",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "definition": "Access/reach discount to historical naive entrant mix, before paid conversion."
+    },
+    "ir_injectable_opportunity": {
+      "value": 1.0,
+      "bounds": [
+        0.75,
+        1.25
+      ],
+      "units": "multiplier",
+      "status": "underwriting assumption or proxy; see translation",
+      "sources": [
+        "KALVFORM",
+        "JUDGMENT"
+      ],
+      "translation": "Apply first oral Ekterly annualized forms propensity to injectable source, then PHVS oral choice.",
+      "distribution_proposal": "scenario; not a statistical confidence interval",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "definition": "Apply first oral Ekterly annualized forms propensity to injectable source, then PHVS oral choice."
+    },
+    "ir_no_rescue_opportunity": {
+      "value": 0.2,
+      "bounds": [
+        0.1,
+        0.3
+      ],
+      "units": "annual probability",
+      "status": "underwriting assumption or proxy; see translation",
+      "sources": [
+        "RESCUEPREF",
+        "JUDGMENT"
+      ],
+      "translation": "Assumed opportunity to select rescue; multiplied by84% oral preference and PHVS oral choice.",
+      "distribution_proposal": "scenario; not a statistical confidence interval",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "definition": "Assumed opportunity to select rescue; multiplied by84% oral preference and PHVS oral choice."
+    },
+    "switch_mature_multiplier": {
+      "value": 1.0,
+      "bounds": [
+        0.5,
+        1.25
+      ],
+      "units": "multiplier",
+      "status": "underwriting assumption or proxy; see translation",
+      "sources": [
+        "KALVFORM",
+        "JUDGMENT"
+      ],
+      "translation": "Category opportunity linearly changes to this bymonth60; depletion already endogenous.",
+      "distribution_proposal": "scenario; not a statistical confidence interval",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "definition": "Category opportunity linearly changes to this bymonth60; depletion already endogenous."
+    },
+    "ekterly_future_forms": {
+      "value": 192.0,
+      "bounds": [
+        100.0,
+        250.0
+      ],
+      "units": "forms per month",
+      "status": "underwriting assumption or proxy; see translation",
+      "sources": [
+        "KALVFORM",
+        "JUDGMENT"
+      ],
+      "translation": "Continue last observed two-month pace afterFeb2026; projected not observed.",
+      "distribution_proposal": "scenario; not a statistical confidence interval",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "definition": "Continue last observed two-month pace afterFeb2026; projected not observed."
+    },
+    "ekterly_paid_conversion": {
+      "value": 0.8,
+      "bounds": [
+        0.65,
+        0.9
+      ],
+      "units": "fraction",
+      "status": "underwriting assumption or proxy; see translation",
+      "sources": [
+        "JUDGMENT"
+      ],
+      "translation": "Launch-stock projection assumption; distinct from PHVS conversion.",
+      "distribution_proposal": "scenario; not a statistical confidence interval",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "definition": "Launch-stock projection assumption; distinct from PHVS conversion."
+    },
+    "ekterly_continuation": {
+      "value": 0.9,
+      "bounds": [
+        0.8,
+        0.95
+      ],
+      "units": "annual survival",
+      "status": "underwriting assumption or proxy; see translation",
+      "sources": [
+        "JUDGMENT"
+      ],
+      "translation": "Projection assumption; forms do not establish active patient count.",
+      "distribution_proposal": "scenario; not a statistical confidence interval",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "definition": "Projection assumption; forms do not establish active patient count."
+    },
+    "ekterly_unique_fraction": {
+      "value": 1.0,
+      "bounds": [
+        0.9,
+        1.0
+      ],
+      "units": "fraction",
+      "status": "underwriting assumption or proxy; see translation",
+      "sources": [
+        "KALVFORM",
+        "JUDGMENT"
+      ],
+      "translation": "Stock projection assumes unique forms working; stress duplicate forms.",
+      "distribution_proposal": "scenario; not a statistical confidence interval",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "definition": "Stock projection assumes unique forms working; stress duplicate forms."
+    },
+    "ekterly_free_stock_multiplier": {
+      "value": 1.0,
+      "bounds": [
+        1.0,
+        1.2
+      ],
+      "units": "multiplier",
+      "status": "underwriting assumption or proxy; see translation",
+      "sources": [
+        "JUDGMENT"
+      ],
+      "translation": "Stress extra oral patients supplied free, unknown actual stock.",
+      "distribution_proposal": "scenario; not a statistical confidence interval",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "definition": "Stress extra oral patients supplied free, unknown actual stock."
+    },
+    "ltp_no_rescue_fraction": {
+      "value": 0.0,
+      "bounds": [
+        0.0,
+        0.1
+      ],
+      "units": "fraction",
+      "status": "underwriting assumption or proxy; see translation",
+      "sources": [
+        "JUDGMENT"
+      ],
+      "translation": "LTP baseline users with no primary rescue; guideline not access observation.",
+      "distribution_proposal": "scenario; not a statistical confidence interval",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "definition": "LTP baseline users with no primary rescue; guideline not access observation."
+    },
+    "ir_price_multiplier": {
+      "value": 1.0,
+      "bounds": [
+        1.0,
+        1.0
+      ],
+      "units": "net-price multiplier",
+      "status": "underwriting assumption or proxy; see translation",
+      "sources": [
+        "IRPRICE",
+        "JUDGMENT"
+      ],
+      "translation": "User excludes efficacy-based pricing premium; fixed1.0. Underlying comparator WAC and assumed net fractions unchanged.",
+      "distribution_proposal": "scenario; not a statistical confidence interval",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "definition": "User excludes efficacy-based pricing premium; fixed1.0. Underlying comparator WAC and assumed net fractions unchanged."
+    },
+    "xr_price_multiplier": {
+      "value": 1.0,
+      "bounds": [
+        1.0,
+        1.0
+      ],
+      "units": "net-price multiplier",
+      "status": "underwriting assumption or proxy; see translation",
+      "sources": [
+        "XRPRICE",
+        "JUDGMENT"
+      ],
+      "translation": "User excludes efficacy-based pricing premium; fixed1.0. Underlying comparator WAC and assumed net fractions unchanged.",
+      "distribution_proposal": "scenario; not a statistical confidence interval",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "definition": "User excludes efficacy-based pricing premium; fixed1.0. Underlying comparator WAC and assumed net fractions unchanged."
+    },
+    "ir_quantity_multiplier": {
+      "value": 0.8478260869565217,
+      "bounds": [
+        0.8478260869565217,
+        0.8478260869565217
+      ],
+      "units": "dose-budget multiplier",
+      "status": "User-selected cross-trial stress applied to working dose budgets",
+      "sources": [
+        "REDOSE"
+      ],
+      "translation": "Fixed1.17/1.38 in every active case per user. Apply once to annual IRdosebudgets preserving initial stock. Cross-trial-to-commercial transfer remains an assumption.",
+      "distribution_proposal": "Fixed user-selected assumption in every active forecast; not sampled.",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "denominator": "As defined in translation; fixed origin available population for acquisition probabilities",
+      "period": "Annual probability converted monthly, or per-unit/one-time quantity as units specify",
+      "definition": "Fixed1.17/1.38 in every active case per user. Apply once to annual IRdosebudgets preserving initial stock. Cross-trial-to-commercial transfer remains an assumption."
+    },
+    "ir_oral_switch_relative": {
+      "value": 1.0,
+      "bounds": [
+        0.5,
+        1.5
+      ],
+      "units": "multiplier",
+      "denominator": "Borrowed LTP category-switch probability applied to incumbent oral rescue",
+      "period": "Annual propensity before monthly conversion",
+      "status": "Assumed transfer uncertainty; not observed",
+      "sources": [
+        "SWITCH",
+        "JUDGMENT"
+      ],
+      "translation": "Working1 preserves existing bridge. Half-to1.5x tests unobserved LTP-to-IR transfer without forcing preventive switching to change. Bounds analyst-selected; not confidence interval.",
+      "distribution_proposal": "triangular analyst prior with mode1",
+      "uncertainty": "epistemic",
+      "dependencies": [
+        "category_switch",
+        "oral_destination_capture"
+      ],
+      "definition": "IR oral switching relative to borrowed preventive benchmark"
     }
   },
   "cost_schedule_usdm": {
@@ -1183,7 +1579,13 @@
       "xr_net_fraction": 0.55,
       "cost_scale": 1.1,
       "ir_exus_ratio": 0.1,
-      "xr_exus_ratio": 0.15
+      "xr_exus_ratio": 0.15,
+      "category_switch": 0.1,
+      "oral_launch_share": 0.25,
+      "oral_destination_capture": 0.4,
+      "untreated_xr_reach": 0.25,
+      "ir_injectable_opportunity": 0.75,
+      "ir_no_rescue_opportunity": 0.1
     },
     "upside_challenge": {
       "ir_rx": 0.274463,
@@ -1199,7 +1601,13 @@
       "ir_doses_ltp": 8,
       "ir_doses_other": 14,
       "ir_exus_ratio": 0.35,
-      "xr_exus_ratio": 0.4
+      "xr_exus_ratio": 0.4,
+      "category_switch": 0.2,
+      "oral_launch_share": 0.6,
+      "oral_destination_capture": 0.8,
+      "untreated_xr_reach": 0.75,
+      "ir_injectable_opportunity": 1.25,
+      "ir_no_rescue_opportunity": 0.3
     }
   },
   "loe": {
@@ -1353,5 +1761,24 @@
       ],
       "definition": "Raise cash to thismultipleofminimumcash."
     }
+  },
+  "segmented_constants": {
+    "reference_paid_conversion": 0.8,
+    "rescue_oral_preference": 0.84,
+    "ekterly_first8_forms": 1702,
+    "ekterly_launch_addressable": 9000,
+    "ekterly_monthly_forms_Jul2025_Feb2026": [
+      230,
+      230,
+      238.5,
+      238.5,
+      190.5,
+      190.5,
+      192,
+      192
+    ],
+    "entrant_rescue_to_prevention_ratio": 0.6153846153846154,
+    "entrant_naive_to_rescue_ratio": 0.53125,
+    "note": "Normalization conversion stays80% while actual access varies. Entrant-mix ratios do not themselves measure annual switch rates. New conditional-choice rows disabled; only net growth enters."
   }
 }

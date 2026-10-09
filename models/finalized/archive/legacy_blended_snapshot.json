@@ -1,0 +1,26 @@
+{
+  "working": {
+    "risk_adjusted_value_today": 19.4427688127261,
+    "expected_12month_value": 21.501399507276812,
+    "conditional_peak": {
+      "year": 2038,
+      "recognized_revenue_usdm": 1268.0732571558747
+    }
+  },
+  "cautious": {
+    "risk_adjusted_value_today": 0.023588462681701304,
+    "expected_12month_value": 0.026444204505074054,
+    "conditional_peak": {
+      "year": 2038,
+      "recognized_revenue_usdm": 280.84204917614045
+    }
+  },
+  "upside_challenge": {
+    "risk_adjusted_value_today": 51.97772723398194,
+    "expected_12month_value": 56.27456842255848,
+    "conditional_peak": {
+      "year": 2038,
+      "recognized_revenue_usdm": 2364.49533809445
+    }
+  }
+}
