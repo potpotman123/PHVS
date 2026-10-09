@@ -1,0 +1,54 @@
+{
+  "as_of": "2026-10-09",
+  "question": "Is5/10/15%annualIRacquisition defensible specificallybecausePHVSisasecondoral despitepotentialefficacybenefit?",
+  "verdict": "No universalentry-orderpenaltyfound.5%isadownsideassumption,10%working;15%notempiricallydefensibleasupperbound. Evidenceweakensblanketshortthesis;doesnotidentifycorrectPHVScapture.",
+  "sources": {
+    "Trikafta_uptake": "https://investors.vrtx.com/news-releases/news-release-details/vertex-reports-second-quarter-2020-financial-results",
+    "Trikafta_comparative": "https://pubmed.ncbi.nlm.nih.gov/31679946/",
+    "Trikafta_expansion": "https://investors.vrtx.com/static-files/57498dbe-f440-42be-8fa2-b02ecacf61b3",
+    "Brukinsa": "https://www.sec.gov/Archives/edgar/data/1651308/000165130825000031/bgne-20241231.htm",
+    "Attruby_Q2": "https://s205.q4cdn.com/224494602/files/doc_events/2025/Aug/05/Q2-Earnings-Final-Transcript.pdf",
+    "Attruby_yearend": "https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Announces-Commercial-Progress-Program-Updates-and-2026-Milestones-at-the-44th-Annual-J-P--Morgan-Healthcare-Conference/",
+    "Cerdelga": "https://dotcom.prod.accelerator.sanofi/assets/dotcom/content-app/publications/half-year-financial-reports/2016-01-01-sanofi-half-year-financial-report-2016-en.pdf"
+  },
+  "comparables": [
+    {
+      "drug": "Trikafta after Symdeko/Orkambi/Kalydeco",
+      "fit": "Rare-diseaseoral-to-oral,strongestconfirmed efficacy improvementexample",
+      "clinical": "Head-to-head2019F508delhomozygoustrial:ppFEV1difference10.0percentagepointsversustezacaftor/ivacaftor,95%CI7.4\u201312.6. NotcomparableunittoHAEattackreduction.",
+      "commercial": "July30,2020Q2release:majorityof~18000eligiblepatientsinitiatedfollowingOct2019approval,roughly9months. Lowerbound>50%,notexactshare.",
+      "limitations": "Samecompanyownedpredecessors,reusedinfrastructure;labelnewlyenabled~6000patients. Totalinitiationsnotincumbentswitchrate;newcombinationratherthansimpleme-too. StrongtransformativebenefitmayexceedHAEincrement."
+    },
+    {
+      "drug": "Brukinsa after Imbruvica/Calquence",
+      "fit": "Differentcompany,lateroral,sameclass,active-comparatorsuperiority",
+      "clinical": "ALPINE demonstratedsuperiorPFSversusibrutinibinR/RCLL;notclaimsuperiortoacalabrutinibheadtohead. Lowercardiactoxicityalsomatters.",
+      "commercial": "2024SEC10KstatesU.S.newpatientstartleadershipinfrontlineandR/RCLLwithinlessthan2yearsofCLLapproval,despitethirdentry. Global2024sales2.6bnacrossindications.",
+      "limitations": "Newstartshare\u2260prevalentpatientpenetration;exactshare/denominatornotreportedhere. Oncologyprogression/treatmentlinesandmortalitystakesdifferfromstableHAE. RevenueacrossindicationsnotCLLswitching."
+    },
+    {
+      "drug": "Attruby after tafamidis",
+      "fit": "Separatecompany,secondoralstabilizer,specialistlaunch;comparisonbasedondifferentiationwithoutmatchedhead-to-headoutcomes",
+      "clinical": "Do notclassifybiomarkerstabilizationorcross-trialmarketingasprovenclinicalsuperiorityovertafamidis.",
+      "commercial": "Aug5,2025issuer-hostedQ2transcriptreports3751uniquepatientprescriptionsand1074prescribers,~8monthsafterNov2024approval. Managementestimates18\u201320%NBRxshare,explicitlyuncertain. January12,2026disclosure6629uniquepatientprescriptionsthroughDec31,2025.",
+      "limitations": "Managementsaysgrowthpredominantlytreatmentnaive;not18\u201320%ofprevalenttafamidispatients. Rxnotpaid. Expandingdiagnosis,Medicarepopulationandaccessprogramsdiffer. Transcriptcontainsobvioustranscriptionerrors;usedclearcountandsharepassagesonly."
+    }
+  ],
+  "screened_not_pooled": [
+    {
+      "drug": "Cerdelga after Zavesca",
+      "result": "RareoralcomparatorbutretrievedSanofiH12016sales49mEURvs26mpriorperioddonotidentifyoral-to-oralswitchdenominator;firstlineeligibility/ERTswitchingconfound. NotusedtonumericallycalibratePHVS."
+    },
+    {
+      "drug": "Austedo after tetrabenazine",
+      "result": "PreviousauditshowedHD/TDindicationmixprecludesisolatingrarediseaseoral-switchrate. Notrepeatedsearch."
+    }
+  ],
+  "bias_control": "Thesearepurposivecounterexamplesselectedtochallengeasecondoralpenalty,notrepresentativecohortofallentrants. Cannotaveragetheirpenetrationnumbersorclaimlaterdrugsusuallywin.",
+  "model_action": "Keepcurrentworking10%forcontinuity,butflagasunvalidatedconservativeassumptionandadd50/75/100%Ekterlysame-windowchallengegrid. Do notlabellegacy15%asexhaustiveupside.",
+  "artifacts": [
+    "models/patient_adoption/follower_challenge.py",
+    "models/patient_adoption/follower_challenge_results.json"
+  ],
+  "next_inference": "Needdifferentprobabilitiesfornew-to-classpatients,priororalincumbentsandinjectablerescueusers. ComparatorcountsalonedonotidentifythesePHVStransitionrates. Distinguishmechanisticbenefitfromprovencomparativeclinicalbenefit."
+}

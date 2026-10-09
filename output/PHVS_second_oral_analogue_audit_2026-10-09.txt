@@ -1,0 +1,21 @@
+PHVS SECOND-ORAL ACQUISITION AUDIT — 9 October2026
+Conclusion:laterentryalone doesnotjustifya65%workinglaunchdiscountor83%downside.5%annualRxisthedownside,notworking10%;legacy15%notcompleteupsidebound.
+Currentworkingcaseunchanged;challengescenariosadded,notempiricallycalibratednewbase.
+
+Relevantcounterexamples:
+Trikafta:majorityof~18000eligibleUSpatientsinitiatedbyQ22020afterOct2019approval;10ppFEV1head-to-headbenefitvsSymdeko. Sameissuerand~6000newlyeligibleconfoundpureoral-switchinference.
+Brukinsa:thirdentrantbecameUSnew-startleaderinCLLwithin2years;ALPINEhead-to-headPFSbenefitvsibrutinib. New-startshareisnotprevalentstockpenetration.
+Attruby:3751uniquepatientprescriptionsbyAug2025call;management18–20%NBRxestimate. Muchgrowthtreatmentnaive;notprovenhead-to-headsuperiorityortafamidisswitchrate.
+
+Challenge | AnnualIRRxprobability | First8mRx | Year10worldwiderevenueUSDm
+legacy_low | 5.00% | 297 | 1037.3
+working | 10.00% | 600 | 1236.5
+legacy_high | 15.00% | 908 | 1368.6
+50pct_Ekterly_forms | 14.08% | 851 | 1348.3
+75pct_Ekterly_forms | 20.86% | 1277 | 1465.1
+100pct_Ekterly_forms | 27.45% | 1702 | 1525.8
+
+50/75/100%targetsarejudgmentalEkterly-relativebenchmarks;notmeansdrawnfromanalogues. Ratescontinue10years,which8monthcalibrationdoesnotvalidate.
+Keepprice,conversion,retention,quantity,geographyconstant;noextraefficacypremiumonpriceorretention. XRretentionworking69.45%unchanged.
+NoDCFvaluationupdateorclaimofstockovervaluation. Winnersselectedforfalsification,notbase-rateestimation.
+Sourcesanddenominators:research/PHVS_second_oral_analogue_audit_2026-10-09.json.

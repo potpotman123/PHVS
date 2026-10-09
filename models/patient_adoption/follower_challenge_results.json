@@ -1,0 +1,61 @@
+{
+  "status": "Illustrative challenge scenarios;50/75/100%ofEkterlysame-windowforms are judgments,not analog-derived probabilities. Workingcaseunchanged.",
+  "method": "Solve annualconstantprobability for first8mforms, thenmaintainsameprobability10years. Calibrationof8monthsdoesnotvalidatepersistentlongrunhazard. Allotherworkingparametersheldfixed.",
+  "rows": [
+    {
+      "scenario": "legacy_low",
+      "annual_IR_Rx_probability": 0.05,
+      "first8m_Rx": 297.43043900212905,
+      "first8m_Ekterly_form_ratio": 0.17475348942545774,
+      "year10_IR_US": 247427001.7534641,
+      "year10_global_total": 1037288070.9299865
+    },
+    {
+      "scenario": "working",
+      "annual_IR_Rx_probability": 0.1,
+      "first8m_Rx": 600.0005854045829,
+      "first8m_Ekterly_form_ratio": 0.35252678343395,
+      "year10_IR_US": 413442194.7540663,
+      "year10_global_total": 1236505513.553236
+    },
+    {
+      "scenario": "legacy_high",
+      "annual_IR_Rx_probability": 0.15,
+      "first8m_Rx": 908.0936718905994,
+      "first8m_Ekterly_form_ratio": 0.5335450481143357,
+      "year10_IR_US": 522471137.54256254,
+      "year10_global_total": 1368574915.7531657
+    },
+    {
+      "scenario": "50pct_Ekterly_forms",
+      "annual_IR_Rx_probability": 0.14080469735287893,
+      "first8m_Rx": 850.9999999999972,
+      "first8m_Ekterly_form_ratio": 0.49999999999999833,
+      "year10_IR_US": 505813979.1195429,
+      "year10_global_total": 1348305360.859901
+    },
+    {
+      "scenario": "75pct_Ekterly_forms",
+      "annual_IR_Rx_probability": 0.20855298775486203,
+      "first8m_Rx": 1276.5000000000064,
+      "first8m_Ekterly_form_ratio": 0.7500000000000038,
+      "year10_IR_US": 601253787.9376972,
+      "year10_global_total": 1465146954.5098083
+    },
+    {
+      "scenario": "100pct_Ekterly_forms",
+      "annual_IR_Rx_probability": 0.27446324533611444,
+      "first8m_Rx": 1701.9999999999989,
+      "first8m_Ekterly_form_ratio": 0.9999999999999993,
+      "year10_IR_US": 649868127.7360635,
+      "year10_global_total": 1525769623.8534431
+    }
+  ],
+  "limitations": [
+    "Noempiricalreasonsecondoralshouldcapannualacquisitionat15%.",
+    "Purposivelyselectedsuccessfulanaloguesfalsifyblanketpenaltybutcannotestablishmeanentrantperformance.",
+    "Historicaleligibilityandmarketdenominatorsdiffer;formsnotpaidpatients.",
+    "ComparativePHVSsuperioritynotprovenheadtohead;clinicaldifferentiationmayaffectprice/access/retentiontoo.",
+    "NoDCFvaluationrecalculation."
+  ]
+}

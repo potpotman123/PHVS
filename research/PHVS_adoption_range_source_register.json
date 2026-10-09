@@ -515,6 +515,25 @@
         "https://ir.kalvista.com/node/12546/html"
       ],
       "adjustment": "Working600modeledRx/1702historicalforms atapproximately8months=35.3%. Noaddedgenericsecondoralhaircut.90%IRretentionworkingand80\u201395%rangeunchanged,notempiricalconfidenceinterval."
+    },
+    {
+      "parameter": "Second-oral acquisition challenge",
+      "classification": "Historicalcounterexamplesplusillustrativescenarios,notfittedcapture",
+      "evidence_files": [
+        "research/PHVS_second_oral_analogue_audit_2026-10-09.json",
+        "models/patient_adoption/follower_challenge_results.json"
+      ],
+      "source_urls": [
+        "https://investors.vrtx.com/news-releases/news-release-details/vertex-reports-second-quarter-2020-financial-results",
+        "https://pubmed.ncbi.nlm.nih.gov/31679946/",
+        "https://investors.vrtx.com/static-files/57498dbe-f440-42be-8fa2-b02ecacf61b3",
+        "https://www.sec.gov/Archives/edgar/data/1651308/000165130825000031/bgne-20241231.htm",
+        "https://s205.q4cdn.com/224494602/files/doc_events/2025/Aug/05/Q2-Earnings-Final-Transcript.pdf",
+        "https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Announces-Commercial-Progress-Program-Updates-and-2026-Milestones-at-the-44th-Annual-J-P--Morgan-Healthcare-Conference/",
+        "https://dotcom.prod.accelerator.sanofi/assets/dotcom/content-app/publications/half-year-financial-reports/2016-01-01-sanofi-half-year-financial-report-2016-en.pdf"
+      ],
+      "adjustment": "50/75/100%Ekterly8mforms=>14.08/20.86/27.45%annualIRhazardsunderexistingpools. NotempiricalPHVSprobabilities.",
+      "limitation": "No universalentrydiscount;winnerselection,heterogeneousdenominators,head-to-headevidenceandindicationslimittransfer."
     }
   ],
   "multiyear_revenue_extension": "research/PHVS_multiyear_revenue_bridges_2026-10-09.json"
