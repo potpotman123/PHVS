@@ -1,0 +1,1357 @@
+{
+  "as_of": "2026-10-09",
+  "canonical": true,
+  "valuation_date": "2026-10-09",
+  "target_date": "2027-10-09",
+  "start_month": "2026-07",
+  "end_year": 2055,
+  "history_years": [
+    2024,
+    2025
+  ],
+  "forecast_years": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030
+  ],
+  "full_forecast_years": [
+    2027,
+    2028,
+    2029,
+    2030,
+    2031
+  ],
+  "population_anchor_month": "2026-07",
+  "pool_weights": {
+    "orladeyo": 0.17,
+    "other_prevention": 0.408,
+    "acute_only": 0.272,
+    "diagnosed_untreated": 0.15
+  },
+  "launches": {
+    "IR": {
+      "approval_assumption": "2027-04-23",
+      "commercial_month": "2027-05",
+      "source": "IRREG"
+    },
+    "XR": {
+      "approval_assumption": "2028-05-31",
+      "commercial_month": "2028-06",
+      "source": "XRREG"
+    }
+  },
+  "parameters": {
+    "population": {
+      "value": 10000,
+      "bounds": [
+        8500,
+        11500
+      ],
+      "units": "people",
+      "denominator": "US diagnosed broadHAE proxy",
+      "status": "assumed",
+      "sources": [
+        "POP"
+      ],
+      "translation": "Maintain existing8500treated+1500untreated. Pools not age/genotype validated; composite rates include eligible reach. No addedAAE/pediatric growth.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "population; US diagnosed broadHAE proxy",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "growth": {
+      "value": 0.015,
+      "bounds": [
+        0,
+        0.03
+      ],
+      "units": "annual fraction",
+      "denominator": "diagnosedpopulation",
+      "status": "assumed",
+      "sources": [
+        "POP"
+      ],
+      "translation": "Modest netgrowth; births/deaths/diagnosis included, not modeledagain.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "growth; diagnosedpopulation",
+      "period": "Annual rate applied monthly"
+    },
+    "ir_rx": {
+      "value": 0.1,
+      "bounds": [
+        0.05,
+        0.274463
+      ],
+      "units": "annual probability",
+      "denominator": "availableperson at start",
+      "status": "assumed",
+      "sources": [
+        "KALVFORM"
+      ],
+      "translation": "Legacy10% unchanged; first8m~35%Ekterly; high matches firstmoverforms only as challenge, not estimatedceiling.",
+      "distribution_proposal": "triangular only after team selects mode",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "ir rx; availableperson at start",
+      "period": "Annual rate applied monthly"
+    },
+    "ir_untreated_relative": {
+      "value": 0.2,
+      "bounds": [
+        0.1,
+        0.4
+      ],
+      "units": "multiplier",
+      "denominator": "IRrx rate foruntreated",
+      "status": "assumed",
+      "sources": [
+        "MIX"
+      ],
+      "translation": "Access/reachdiscount among diagnoseduntreated; weak transfer, retain explicit.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "ir untreated relative; IRrx rate foruntreated",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "xr_orladeyo": {
+      "value": 0.1,
+      "bounds": [
+        0.05,
+        0.15
+      ],
+      "units": "annual probability",
+      "denominator": "available originpool",
+      "status": "assumed",
+      "sources": [
+        "SWITCH",
+        "MIX",
+        "PREFERENCE"
+      ],
+      "translation": "AnyLTPswitch15.24% timesjudgment1/3,2/3,1.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "xr orladeyo; available originpool",
+      "period": "Annual rate applied monthly"
+    },
+    "xr_other_prevention": {
+      "value": 0.04,
+      "bounds": [
+        0.02,
+        0.06
+      ],
+      "units": "annual probability",
+      "denominator": "available originpool",
+      "status": "assumed",
+      "sources": [
+        "SWITCH",
+        "MIX",
+        "PREFERENCE"
+      ],
+      "translation": "13/26/39% destinationallocation of15.24% benchmark; preferenceheterogeneity. No oralconvenience premium.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "xr other prevention; available originpool",
+      "period": "Annual rate applied monthly"
+    },
+    "xr_acute_only": {
+      "value": 0.04,
+      "bounds": [
+        0.02,
+        0.06
+      ],
+      "units": "annual probability",
+      "denominator": "available originpool",
+      "status": "assumed",
+      "sources": [
+        "SWITCH",
+        "MIX",
+        "PREFERENCE"
+      ],
+      "translation": "Historical32/52entrantmix implies~3.69%, rounded4.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "xr acute only; available originpool",
+      "period": "Annual rate applied monthly"
+    },
+    "xr_diagnosed_untreated": {
+      "value": 0.01,
+      "bounds": [
+        0.005,
+        0.02
+      ],
+      "units": "annual probability",
+      "denominator": "available originpool",
+      "status": "assumed",
+      "sources": [
+        "SWITCH",
+        "MIX",
+        "PREFERENCE"
+      ],
+      "translation": "Historical17/32naive/acute ratio with25%reachadjustment, approximate1%.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "xr diagnosed untreated; available originpool",
+      "period": "Annual rate applied monthly"
+    },
+    "conversion": {
+      "value": 0.8,
+      "bounds": [
+        0.65,
+        0.9
+      ],
+      "units": "fraction",
+      "denominator": "prescription attempts",
+      "status": "assumed",
+      "sources": [
+        "ACCESS"
+      ],
+      "translation": "90%outsideHAEproxy less10ppworkingcompetitiveadjustment. Failedattemptreturns aftercooldown. Not empiricalHAE rate.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [
+        "access package"
+      ],
+      "definition": "conversion; prescription attempts",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "delay": {
+      "value": 1,
+      "bounds": [
+        1,
+        3
+      ],
+      "units": "months",
+      "denominator": "prescription tofirstpaidstart",
+      "status": "assumed",
+      "sources": [
+        "JUDGMENT",
+        "IRPRICE"
+      ],
+      "translation": "Commercialavailability then paidaccess; pending stock distinct fromactive.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "delay; prescription tofirstpaidstart",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "retry_months": {
+      "value": 12,
+      "bounds": [
+        6,
+        24
+      ],
+      "units": "months",
+      "denominator": "failedpaidattempt",
+      "status": "assumed",
+      "sources": [
+        "JUDGMENT"
+      ],
+      "translation": "Oneannual re-review assumption; no overlap with paidcohorts.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "retry months; failedpaidattempt",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "reentry_fraction": {
+      "value": 0,
+      "bounds": [
+        0,
+        0.25
+      ],
+      "units": "fraction",
+      "denominator": "discontinuedPHVSusers",
+      "status": "assumed",
+      "sources": [
+        "JUDGMENT"
+      ],
+      "translation": "Base exclusion from reacquisition;25%returnafter24months is structuralstress, not calibratedrate.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "reentry fraction; discontinuedPHVSusers",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "reentry_delay": {
+      "value": 24,
+      "bounds": [
+        12,
+        36
+      ],
+      "units": "months",
+      "denominator": "discontinuedusers allowedreturn",
+      "status": "assumed",
+      "sources": [
+        "JUDGMENT"
+      ],
+      "translation": "Testpermanentexclusion, avoidnewunmeasuredbaseprobability.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "reentry delay; discontinuedusers allowedreturn",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "hazard_year6_multiplier": {
+      "value": 1,
+      "bounds": [
+        0.5,
+        1
+      ],
+      "units": "multiplier",
+      "denominator": "remaining-pool capture after60launchmonths",
+      "status": "assumed",
+      "sources": [
+        "JUDGMENT"
+      ],
+      "translation": "Constant remaining-pool probabilities base; halvingafteryear5 stress tests exhaustionofeasywins.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "hazard year6 multiplier; remaining-pool capture after60launchmonths",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "nonphvs_ltp_shift": {
+      "value": 0,
+      "bounds": [
+        0,
+        0.2
+      ],
+      "units": "fraction by10years",
+      "denominator": "originalacute/untreated outsidePHVSXR",
+      "status": "assumed",
+      "sources": [
+        "JUDGMENT"
+      ],
+      "translation": "Structuralstress up to20%move tootherprevention, rescuebudgetonly. Origincohortcapture remains compositehistoricalproxy.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "nonphvs ltp shift; originalacute/untreated outsidePHVSXR",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "xr_first_retention": {
+      "value": 0.6945,
+      "bounds": [
+        0.61,
+        0.6945
+      ],
+      "units": "12monthsurvival",
+      "denominator": "firstpaidXR cohort",
+      "status": "derived scenario",
+      "sources": [
+        "XRPERSIST",
+        "FRENCH"
+      ],
+      "translation": "0.61+0.39*(13/30)*0.5; user-selected efficacyallowance. No AEuplift.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "xr first retention; firstpaidXR cohort",
+      "period": "Annual rate applied monthly"
+    },
+    "xr_mature_retention": {
+      "value": 0.9,
+      "bounds": [
+        0.8,
+        0.95
+      ],
+      "units": "12monthsurvival",
+      "denominator": "XR afterfirst12months",
+      "status": "assumed",
+      "sources": [
+        "XRPERSIST",
+        "JUDGMENT"
+      ],
+      "translation": "Selectionofpersistentusers motivates higherthaninitiation61%, exact90%notobserved.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "xr mature retention; XR afterfirst12months",
+      "period": "Annual rate applied monthly"
+    },
+    "ir_retention": {
+      "value": 0.9,
+      "bounds": [
+        0.8,
+        0.95
+      ],
+      "units": "12monthsurvival",
+      "denominator": "IR rescue membership",
+      "status": "assumed",
+      "sources": [
+        "JUDGMENT",
+        "PERSIST"
+      ],
+      "translation": "Operationalcarryover; repeatdispensing91%cannot establishannual90%.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "ir retention; IR rescue membership",
+      "period": "Annual rate applied monthly"
+    },
+    "ir_doses_ltp": {
+      "value": 8,
+      "bounds": [
+        6,
+        11.8
+      ],
+      "units": "doses/year",
+      "denominator": "allLTP member-equivalents inclzero dispensers",
+      "status": "assumed",
+      "sources": [
+        "CLAIMS"
+      ],
+      "translation": "MinimalgapLTP8 vsall11.8; no additionalzero-user67.1%haircut.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "ir doses ltp; allLTP member-equivalents inclzero dispensers",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "ir_doses_other": {
+      "value": 14,
+      "bounds": [
+        10,
+        18
+      ],
+      "units": "doses/year",
+      "denominator": "nonLTPIR member-equivalents",
+      "status": "assumed",
+      "sources": [
+        "IRDOSE"
+      ],
+      "translation": "BroaderODusers14 transferredtoacuteonly, not exactcohort measurement.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "ir doses other; nonLTPIR member-equivalents",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "ir_initial_doses": {
+      "value": 2,
+      "bounds": [
+        2,
+        2
+      ],
+      "units": "doses",
+      "denominator": "monetizednewIRmember",
+      "status": "assumed",
+      "sources": [
+        "IRPRICE"
+      ],
+      "translation": "Two-dose comparator stock benchmark included inside the annual dispensing budget; actual PHVS pack size unknown. Free fraction handled separately.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "ir initial doses; monetizednewIRmember",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "dual_use": {
+      "value": 0.5,
+      "bounds": [
+        0,
+        1
+      ],
+      "units": "allocation fraction",
+      "denominator": "IRrescuevolume onPHVSXR overlap",
+      "status": "assumed",
+      "sources": [
+        "JUDGMENT"
+      ],
+      "translation": "Mean-field withinorigin. No sameMOAprohibition established. Applyonce toquantity,not againretention.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "dual use; IRrescuevolume onPHVSXR overlap",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "xr_wac_28days": {
+      "value": 48487.92,
+      "bounds": [
+        48487.92,
+        48487.92
+      ],
+      "units": "USD/28days",
+      "denominator": "Orladeyo capsulepack",
+      "status": "observed comparator",
+      "sources": [
+        "XRPRICE"
+      ],
+      "translation": "Publiclistanchor transferredatparity; PHVSfuturepriceunknown.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "xr wac 28days; Orladeyo capsulepack",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "xr_net_fraction": {
+      "value": 0.66,
+      "bounds": [
+        0.5,
+        0.8
+      ],
+      "units": "fraction oflist",
+      "denominator": "paidXRunits",
+      "status": "assumed",
+      "sources": [
+        "XRPRICE",
+        "JUDGMENT"
+      ],
+      "translation": "~34%GTNunderwriting yields417169.28/year; replacementfor418kbrokeranchor. No measurednetfraction.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [
+        "access package"
+      ],
+      "definition": "xr net fraction; paidXRunits",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "ir_wac_dose": {
+      "value": 16720,
+      "bounds": [
+        16720,
+        16720
+      ],
+      "units": "USD/dose",
+      "denominator": "600mgEkterly therapeuticdose",
+      "status": "observed comparator",
+      "sources": [
+        "IRPRICE"
+      ],
+      "translation": "Listparitybenchmark pertherapeuticdose, nottablet.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "ir wac dose; 600mgEkterly therapeuticdose",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "ir_net_fraction": {
+      "value": 0.84,
+      "bounds": [
+        0.7,
+        0.95
+      ],
+      "units": "fraction oflist",
+      "denominator": "paidIRdoses",
+      "status": "assumed",
+      "sources": [
+        "IRPRICE",
+        "JUDGMENT"
+      ],
+      "translation": "16%GTNassumption yields14044.80net; notobservedPHVSnet.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [
+        "access package"
+      ],
+      "definition": "ir net fraction; paidIRdoses",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "ir_exus_ratio": {
+      "value": 0.2,
+      "bounds": [
+        0.1,
+        0.35
+      ],
+      "units": "ratio",
+      "denominator": "matureexUS endmarket /US",
+      "status": "assumed",
+      "sources": [
+        "GEO",
+        "TAK"
+      ],
+      "translation": "Heuristic demandmultiplier; Takeda20%weightXR only. Rights/accountingconversion separate.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "ir exus ratio; matureexUS endmarket /US",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "xr_exus_ratio": {
+      "value": 0.25,
+      "bounds": [
+        0.15,
+        0.6
+      ],
+      "units": "ratio",
+      "denominator": "matureexUS endmarket /US",
+      "status": "assumed",
+      "sources": [
+        "GEO",
+        "TAK"
+      ],
+      "translation": "Heuristic demandmultiplier; Takeda20%weightXR only. Rights/accountingconversion separate.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "xr exus ratio; matureexUS endmarket /US",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "exus_lag": {
+      "value": 12,
+      "bounds": [
+        0,
+        24
+      ],
+      "units": "months",
+      "denominator": "relativeUS commercialage",
+      "status": "assumed",
+      "sources": [
+        "GEO",
+        "IRREG"
+      ],
+      "translation": "Weightedcountryaccesslag, not firstregulatoryapproval.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "exus lag; relativeUS commercialage",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "exus_phase": {
+      "value": 48,
+      "bounds": [
+        36,
+        72
+      ],
+      "units": "months",
+      "denominator": "countryrolloutafterlag",
+      "status": "assumed",
+      "sources": [
+        "GEO"
+      ],
+      "translation": "LaggedUSvolume phased towardratio.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "exus phase; countryrolloutafterlag",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "exus_direct_fraction": {
+      "value": 1,
+      "bounds": [
+        0,
+        1
+      ],
+      "units": "fraction",
+      "denominator": "exUSendmarketnet sales",
+      "status": "assumed",
+      "sources": [
+        "F25",
+        "JUDGMENT"
+      ],
+      "translation": "Directcommercializationbase with overseascommercialcost; partneralternative isstructuralnotobservedcontract.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "exus direct fraction; exUSendmarketnet sales",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "partner_royalty": {
+      "value": 0.2,
+      "bounds": [
+        0.15,
+        0.25
+      ],
+      "units": "fraction",
+      "denominator": "partnerendmarketnet sales",
+      "status": "assumed",
+      "sources": [
+        "JUDGMENT"
+      ],
+      "translation": "Hypotheticallicensingterm,no upfrontor milestones credited.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "partner royalty; partnerendmarketnet sales",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "manufacture_rate": {
+      "value": 0.04,
+      "bounds": [
+        0.02,
+        0.08
+      ],
+      "units": "fraction",
+      "denominator": "directproductsales",
+      "status": "assumed",
+      "sources": [
+        "COST2"
+      ],
+      "translation": "ORLADEYO~2.1%H126;4%allowanceforPHVSscaleup; excludeslicense royalty.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "manufacture rate; directproductsales",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "license_rate": {
+      "value": 0.03,
+      "bounds": [
+        0.02,
+        0.05
+      ],
+      "units": "fraction",
+      "denominator": "worldwideendmarketnet sales",
+      "status": "assumed",
+      "sources": [
+        "F25"
+      ],
+      "translation": "Midpointlow-mid-single-digit BRAINroyalty. Appliedalsoindirectsales;postgenericreductionnotassumed.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "license rate; worldwideendmarketnet sales",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "commercial_variable_us": {
+      "value": 0.08,
+      "bounds": [
+        0.05,
+        0.12
+      ],
+      "units": "fraction",
+      "denominator": "USsales",
+      "status": "assumed",
+      "sources": [
+        "COST",
+        "COST2"
+      ],
+      "translation": "Incrementalfield/access/support abovefixedcommercialplatform.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "commercial variable us; USsales",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "commercial_variable_exus": {
+      "value": 0.18,
+      "bounds": [
+        0.12,
+        0.25
+      ],
+      "units": "fraction",
+      "denominator": "exUSdirectsales",
+      "status": "assumed",
+      "sources": [
+        "COST2",
+        "GEO"
+      ],
+      "translation": "Countrylaunch/marketaccesspremium; zero onpartnersales.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "commercial variable exus; exUSdirectsales",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "cost_scale": {
+      "value": 1,
+      "bounds": [
+        0.8,
+        1.2
+      ],
+      "units": "multiplier",
+      "denominator": "fixedRD/commercial/GA",
+      "status": "assumed",
+      "sources": [
+        "H126",
+        "COST",
+        "COST2"
+      ],
+      "translation": "Absoluteannualschedule withnamedcostbuild inarchitecture;no brokermargintemplate.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "cost scale; fixedRD/commercial/GA",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "cost_inflation": {
+      "value": 0.02,
+      "bounds": [
+        0,
+        0.03
+      ],
+      "units": "annualfraction",
+      "denominator": "fixedcosts after2031 untilLOE",
+      "status": "assumed",
+      "sources": [
+        "JUDGMENT"
+      ],
+      "translation": "Nominalexpenseinflation; no preLOEpriceinflation.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "cost inflation; fixedcosts after2031 untilLOE",
+      "period": "Annual rate applied monthly"
+    },
+    "tax_rate": {
+      "value": 0.2,
+      "bounds": [
+        0.15,
+        0.258
+      ],
+      "units": "fraction",
+      "denominator": "positive taxableprofit",
+      "status": "assumed",
+      "sources": [
+        "F25",
+        "JUDGMENT"
+      ],
+      "translation": "Normalizedmixedjurisdictionrate; no recognitionofunverifiedhistoricalNOL. Prospectiveforecastlosses tracked,80%utilizationcapproxy.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "tax rate; positive taxableprofit",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "nwc_fraction": {
+      "value": 0.12,
+      "bounds": [
+        0.08,
+        0.18
+      ],
+      "units": "fraction",
+      "denominator": "annualizeddirectsales",
+      "status": "assumed",
+      "sources": [
+        "JUDGMENT"
+      ],
+      "translation": "Approx60daysreceivable+inventory-payables; total12%assumption; baselinecurrentNWCpreserved.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "nwc fraction; annualizeddirectsales",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "capex_fraction": {
+      "value": 0.005,
+      "bounds": [
+        0,
+        0.01
+      ],
+      "units": "fraction",
+      "denominator": "directsales",
+      "status": "assumed",
+      "sources": [
+        "F25",
+        "H126"
+      ],
+      "translation": "Outsourcedmanufacturing;0.5mfixedplus0.5%revenue.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "capex fraction; directsales",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "discount_rate": {
+      "value": 0.12,
+      "bounds": [
+        0.1,
+        0.15
+      ],
+      "units": "annualfraction",
+      "denominator": "unleverednominalUSDcashflows",
+      "status": "assumed",
+      "sources": [
+        "JUDGMENT"
+      ],
+      "translation": "Independent12%time/commercialriskscenario; clinicalsuccessweightedseparately once.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "discount rate; unleverednominalUSDcashflows",
+      "period": "Annual rate applied monthly"
+    },
+    "ir_pos": {
+      "value": 0.9,
+      "bounds": [
+        0.8,
+        0.95
+      ],
+      "units": "probability",
+      "denominator": "IRapproval",
+      "status": "assumed",
+      "sources": [
+        "IRREG",
+        "JUDGMENT"
+      ],
+      "translation": "Highpostpivotalunderwriting; not empiricalestimatedprobability.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "ir pos; IRapproval",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "xr_pos": {
+      "value": 0.9,
+      "bounds": [
+        0.8,
+        0.95
+      ],
+      "units": "probability",
+      "denominator": "XRapproval",
+      "status": "assumed",
+      "sources": [
+        "XRREG",
+        "JUDGMENT"
+      ],
+      "translation": "Positivepivotalresult;marketingapplicationstillpending.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "xr pos; XRapproval",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "shared_success": {
+      "value": 0.95,
+      "bounds": [
+        0.95,
+        1
+      ],
+      "units": "probability",
+      "denominator": "sharedmolecule/CMCgate",
+      "status": "assumed",
+      "sources": [
+        "JUDGMENT"
+      ],
+      "translation": "Conditionalindependence aftersharedgate;0.95illustrativedependence not estimatedcorrelation.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [
+        ">=max(ir_pos,xr_pos)"
+      ],
+      "definition": "shared success; sharedmolecule/CMCgate",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "fx": {
+      "value": 1.1186,
+      "bounds": [
+        1.05,
+        1.25
+      ],
+      "units": "USD/EUR",
+      "denominator": "planningandopeningbalanceconversion",
+      "status": "observed snapshot",
+      "sources": [
+        "FX"
+      ],
+      "translation": "FreezeOct8snapshot;nativeEURhistoryretained.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "fx; planningandopeningbalanceconversion",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "loe_year": {
+      "value": 2039,
+      "bounds": [
+        2039,
+        2043
+      ],
+      "units": "calendar year",
+      "denominator": "firstfullgenericexposure bothproducts",
+      "status": "assumed",
+      "sources": [
+        "F25"
+      ],
+      "translation": "2038Novpatent then2039full-yearentry; laterformulation/exclusivityonlysensitivity.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "loe year; firstfullgenericexposure bothproducts",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "loe_price_cap": {
+      "value": false,
+      "bounds": [
+        false,
+        true
+      ],
+      "units": "boolean",
+      "denominator": "effectiveblendedP index",
+      "status": "assumed",
+      "sources": [
+        "JUDGMENT",
+        "LOE"
+      ],
+      "translation": "UserhypothesiscrowdedHAEflatP tested; basepreserveshistorical50/50PxQframework.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "loe price cap; effectiveblendedP index",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "minimum_cash_m": {
+      "value": 75,
+      "bounds": [
+        50,
+        100
+      ],
+      "units": "USDm",
+      "denominator": "quarterlyliquiditybuffer",
+      "status": "assumed",
+      "sources": [
+        "H126",
+        "JUDGMENT"
+      ],
+      "translation": "Raise to150m atmonthend ifbelow75; fundingdiagnostic not guarantee.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "minimum cash m; quarterlyliquiditybuffer",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "issue_price": {
+      "value": 25,
+      "bounds": [
+        15,
+        40
+      ],
+      "units": "USD/share",
+      "denominator": "illustrativecashfundingplan",
+      "status": "assumed",
+      "sources": [
+        "JUDGMENT"
+      ],
+      "translation": "Notmarketquote. Fixedscenario for statementsharebridge; posttargetvaluationassumesfairissuance, seefinancingspec.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "issue price; illustrativecashfundingplan",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "issue_fee": {
+      "value": 0.05,
+      "bounds": [
+        0.03,
+        0.07
+      ],
+      "units": "fraction",
+      "denominator": "grosscapitalraised",
+      "status": "assumed",
+      "sources": [
+        "H126"
+      ],
+      "translation": "May2026fees7.9m on132.2mgross~6%;5%planning.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "issue fee; grosscapitalraised",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "takeover_probability": {
+      "value": 0,
+      "bounds": [
+        0,
+        0.3
+      ],
+      "units": "probability",
+      "denominator": "completedacceptabledeal bytarget",
+      "status": "assumed",
+      "sources": [
+        "MNA",
+        "JUDGMENT"
+      ],
+      "translation": "Unweightedstandalonebase;0/10/20/30%onlyscenario, no highPHVSspecificprobabilityinferred.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [],
+      "definition": "takeover probability; completedacceptabledeal bytarget",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "xr_paid_intensity": {
+      "value": 0.925221320319973,
+      "bounds": [
+        0.9,
+        1.0
+      ],
+      "units": "fraction",
+      "denominator": "survival-weighted XR patient-years",
+      "status": "derived proxy",
+      "sources": [
+        "XRPERSIST"
+      ],
+      "translation": "Orladeyo first-year persistence61% implies0.789continuous patient-years under an exponential exit curve; observedPDC0.73/0.789 gives~0.925 paid-exposure intensity. Apply once after survival, preserving PHVS69.45%retention allowance. Not a separately measured conditionaladherence rate; returningusers and cohortdefinitions confound transfer. No additionalPDC haircut.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [
+        "xr_first_retention; do not multiply by0.73again"
+      ],
+      "definition": "xr paid intensity; survival-weighted XR patient-years",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    },
+    "ir_initial_paid_fraction": {
+      "value": 1.0,
+      "bounds": [
+        0.0,
+        1.0
+      ],
+      "units": "fraction",
+      "denominator": "initial stock doses at access activation",
+      "status": "assumed",
+      "sources": [
+        "IRPRICE",
+        "JUDGMENT"
+      ],
+      "translation": "Default initial stock paid once access activates. Zero sensitivity supplies initial two doses free and deducts them from subsequent first-year dispensing budget; no free-product revenue. Not paid-start conversion.",
+      "distribution_proposal": "scenario",
+      "uncertainty": "epistemic",
+      "dependencies": [
+        "conversion counts access-approved starts only; ir_initial_doses remains in total supply budget"
+      ],
+      "definition": "ir initial paid fraction; initial stock doses at access activation",
+      "period": "Per event or unit as stated; calendar schedule in architecture"
+    }
+  },
+  "cost_schedule_usdm": {
+    "2026": {
+      "rd": 144,
+      "commercial_fixed": 0,
+      "ga": 72
+    },
+    "2027": {
+      "rd": 130,
+      "commercial_fixed": 100,
+      "ga": 45
+    },
+    "2028": {
+      "rd": 105,
+      "commercial_fixed": 120,
+      "ga": 50
+    },
+    "2029": {
+      "rd": 85,
+      "commercial_fixed": 120,
+      "ga": 50
+    },
+    "2030": {
+      "rd": 70,
+      "commercial_fixed": 120,
+      "ga": 50
+    },
+    "2031": {
+      "rd": 60,
+      "commercial_fixed": 120,
+      "ga": 50
+    }
+  },
+  "access_packages": {
+    "working": {
+      "conversion": 0.8,
+      "delay": 1,
+      "xr_net_fraction": 0.66,
+      "ir_net_fraction": 0.84
+    },
+    "rebate_for_access": {
+      "conversion": 0.9,
+      "delay": 1,
+      "xr_net_fraction": 0.58,
+      "ir_net_fraction": 0.76
+    },
+    "restricted_high_net": {
+      "conversion": 0.65,
+      "delay": 3,
+      "xr_net_fraction": 0.78,
+      "ir_net_fraction": 0.94
+    }
+  },
+  "cases": {
+    "working": {},
+    "cautious": {
+      "ir_rx": 0.05,
+      "xr_orladeyo": 0.05,
+      "xr_other_prevention": 0.02,
+      "xr_acute_only": 0.02,
+      "xr_diagnosed_untreated": 0.005,
+      "xr_first_retention": 0.61,
+      "ir_retention": 0.8,
+      "xr_mature_retention": 0.8,
+      "ir_doses_ltp": 6,
+      "ir_doses_other": 10,
+      "conversion": 0.65,
+      "delay": 3,
+      "ir_net_fraction": 0.75,
+      "xr_net_fraction": 0.55,
+      "cost_scale": 1.1,
+      "ir_exus_ratio": 0.1,
+      "xr_exus_ratio": 0.15
+    },
+    "upside_challenge": {
+      "ir_rx": 0.274463,
+      "xr_orladeyo": 0.15,
+      "xr_other_prevention": 0.06,
+      "xr_acute_only": 0.06,
+      "xr_diagnosed_untreated": 0.02,
+      "ir_retention": 0.95,
+      "xr_mature_retention": 0.95,
+      "conversion": 0.9,
+      "ir_net_fraction": 0.76,
+      "xr_net_fraction": 0.58,
+      "ir_doses_ltp": 8,
+      "ir_doses_other": 14,
+      "ir_exus_ratio": 0.35,
+      "xr_exus_ratio": 0.4
+    }
+  },
+  "loe": {
+    "study_weight": 0.5,
+    "study_p": [
+      1.375,
+      1.75,
+      2.0,
+      2.15625
+    ],
+    "study_q": [
+      0.24,
+      0.13,
+      0.09,
+      0.08
+    ],
+    "rare_p": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "rare_revenue": [
+      0.6243740441337121,
+      0.4972187022066856,
+      0.39494647148787415,
+      0.26436530478479353
+    ],
+    "tail_growth": -0.24909233225475447,
+    "interpretation": "PooledstudyPxQ synthetic;rareQ inferredfromrevenue/assumedP; weightedrevenue andQ theneffectiveP=R/Q. Year5+Pflat,Qdeclines."
+  },
+  "financial_conventions": {
+    "currency": "USDmillions in forecasts; nativeEURmillions in history",
+    "sbc": "Projected expense schedules represent cash compensation and other cash operating costs; unrecognized expense on pre-existing share awards is excluded because existing options/RSUs enter dilution. Future employee incentives assumed cash-settled within budgets, with no SBC addback or future grant dilution. This is an economic pro forma, not an IFRS forecast.",
+    "tax": "No openinghistoricalNOL credited; forecastnegativeEBT accumulates pooledplanningNOL with80%positiveprofitutilizationcap; taxfloorhistoricalcostplus1m/year ifoperating. Jurisdictionlegalrulesnotmodeled.",
+    "financing": "Monthlycashfundingplan for liquidity; futureposttargetfairissuance assumedinDCF. NegativeFCF and futuredilution notbothcharged for samefunding. Fixedissuepriceusedonly realizedforecastsharebridge up tovaluation/target andstatementEPS;explicitdiscountedissuancestressseparate.",
+    "future_value": "DCF atvaluationandtarget computed directly, includingpartialmonths. Targetsuccess/failureprobabilities remain todaysprobabilities for expectedoutcome, notclaimofposteriorafterknownapproval."
+  },
+  "financial_policy": {
+    "status": "Underwriting simplifications; deterministic structural scenarios, not measured transition rates.",
+    "rd_IR_fraction": {
+      "value": 0.35,
+      "bounds": [
+        0.25,
+        0.5
+      ],
+      "source": [
+        "JUDGMENT"
+      ],
+      "definition": "Share of R&D avoided after IR failure; XR share is1-minus this value."
+    },
+    "single_product_platform_fraction": {
+      "value": 0.7,
+      "bounds": [
+        0.6,
+        0.85
+      ],
+      "source": [
+        "COST",
+        "JUDGMENT"
+      ],
+      "definition": "Fixed commercial/G&A retained with one viable product; shared infrastructure prevents a50% cost reduction."
+    },
+    "winddown_platform_fraction": {
+      "value": 0.15,
+      "bounds": [
+        0.1,
+        0.3
+      ],
+      "source": [
+        "JUDGMENT"
+      ],
+      "definition": "Fixed platform retained temporarily after both clinical failures."
+    },
+    "winddown_months": {
+      "value": 6,
+      "bounds": [
+        3,
+        12
+      ],
+      "source": [
+        "JUDGMENT"
+      ],
+      "definition": "Months after the XR decision until liquidation in neither-success case."
+    },
+    "remaining_milestone_eurm": {
+      "value": 7,
+      "bounds": [
+        0,
+        7
+      ],
+      "source": [
+        "F25",
+        "H126"
+      ],
+      "definition": "EUR8m potentialremaining atFY2025 lessEUR1m licensepayment inH1; timing assumed atIRapproval."
+    },
+    "capex_fixed_usdm": {
+      "value": 0.5,
+      "bounds": [
+        0.2,
+        2.0
+      ],
+      "source": [
+        "F25",
+        "H126"
+      ],
+      "definition": "Annual fixed capex plus variable capexfraction; CDMO model, noownedfactory assumed."
+    },
+    "depreciation_months": {
+      "value": 60,
+      "bounds": [
+        36,
+        84
+      ],
+      "source": [
+        "JUDGMENT"
+      ],
+      "definition": "Rolling depreciation proxy forforecastPPE."
+    },
+    "tax_floor_usdm": {
+      "value": 1,
+      "bounds": [
+        0,
+        2
+      ],
+      "source": [
+        "F25"
+      ],
+      "definition": "Annualcash taxfloor reflectingcost-plus subsidiaries despiteconsolidatedlosses; exact futuremix unknown."
+    },
+    "nol_utilization_cap": {
+      "value": 0.8,
+      "bounds": [
+        0.5,
+        1.0
+      ],
+      "source": [
+        "JUDGMENT"
+      ],
+      "definition": "Pooledforecast-loss utilization cap; not a jurisdiction-specific legalmodel."
+    },
+    "cash_raise_target_multiple": {
+      "value": 2,
+      "bounds": [
+        1.5,
+        3
+      ],
+      "source": [
+        "JUDGMENT"
+      ],
+      "definition": "Raise cash to thismultipleofminimumcash."
+    }
+  }
+}

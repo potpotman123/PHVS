@@ -1,0 +1,88 @@
+{
+  "as_of": "2026-10-09",
+  "changes": [
+    {
+      "change": "Establish one canonical engine",
+      "before": "Several working modules, stale guidance and broker-shaped reverse valuation",
+      "after": "Independent monthly population-to-financial model in models/finalized",
+      "effect": "New absolute valuation is not an isolated change to the old reverse exercise; no claim of a like-for-like price-target revision."
+    },
+    {
+      "change": "Source pricing independently",
+      "before": "$418,000 XR and $14,000 IR justified partly with sell-side inputs",
+      "after": "Public WAC times assumed net fractions: $417,169.28/year XR; $14,044.80/dose IR",
+      "counterfactual": "old_prices_only",
+      "counterfactual_target": 21.484944406438366,
+      "working_target": 21.501399507276812,
+      "working_minus_counterfactual": 0.016455100838445702
+    },
+    {
+      "change": "Allow imperfect XR paid supply",
+      "before": "Survival exposure implicitly filled continuously",
+      "after": "PDC/persistence bridge gives about92.5% paid intensity; efficacy-only69.45% survival retained",
+      "counterfactual": "no_refill_intensity_adjustment",
+      "counterfactual_target": 23.01932544916028,
+      "working_target": 21.501399507276812,
+      "working_minus_counterfactual": -1.517925941883469
+    },
+    {
+      "change": "Include existing license economics",
+      "before": "Standalone financial costs not linked",
+      "after": "3% royalty reserve on worldwide end-market sales plus EUR7m remaining milestone reserve",
+      "counterfactual": "omit_license_royalty_cost_counterfactual",
+      "note": "Counterfactual isolates royalty only, not milestone reserve.",
+      "counterfactual_target": 22.81548481072506,
+      "working_target": 21.501399507276812,
+      "working_minus_counterfactual": -1.3140853034482483
+    },
+    {
+      "change": "Do not cap second-oral upside",
+      "before": "5/10/15% IR scenarios could be misread as validated bounds",
+      "after": "10% working preserved;27.4463% first-mover form-count challenge allowed. Entry order alone does not estimate the discount.",
+      "counterfactual": "ir_rx=0.274463",
+      "counterfactual_target": 37.056150302684394,
+      "working_target": 21.501399507276812,
+      "working_minus_counterfactual": -15.554750795407582
+    },
+    {
+      "change": "Test structural simplifications",
+      "before": "Constant hazards, permanently retired users, no competitor migration",
+      "after": "Quantify hazard decay,25% delayed re-entry,20% non-PHVS prevention migration",
+      "counterfactual": "hazards_halved_after_year5",
+      "counterfactual_target": 17.101322884394044,
+      "working_target": 21.501399507276812,
+      "working_minus_counterfactual": 4.400076622882768
+    },
+    {
+      "change": "Separate geography and accounting",
+      "before": "Worldwide direct-sales-equivalent demand",
+      "after": "Explicit direct sales vs partner royalties and matching overseas commercial cost",
+      "counterfactual": "partner_all_overseas",
+      "counterfactual_target": 17.991996581391426,
+      "working_target": 21.501399507276812,
+      "working_minus_counterfactual": 3.509402925885386
+    },
+    {
+      "change": "Preserve and test post-patent blend",
+      "before": "50/50 pooled study and Kuvan with PxQ",
+      "after": "Same evidence/blend, explicit2039 generic scenario,2055 extension; flat-price cap stress",
+      "counterfactual": "generic_price_capped_flat",
+      "counterfactual_target": 21.08044123206302,
+      "working_target": 21.501399507276812,
+      "working_minus_counterfactual": 0.4209582752137919
+    },
+    {
+      "change": "Calendar and capital",
+      "before": "Relative full launch years, no dated cash/share model",
+      "after": "Observed IR milestone and assumed XR timeline, monthly exposure, native financial history, costs, tax, funding and shares",
+      "effect": "Working both-success case requires about$336m additional net equity funding under the diagnostic plan before positive annual FCF in2030. Financing is not assured."
+    },
+    {
+      "change": "Separate clinical risk and acquisition",
+      "before": "Unlinked revenue model and proposed outcome branches",
+      "after": "Four clinical states with shared dependence; separate acquisition payoff interface",
+      "effect": "No double PoS haircut or takeover value added to standalone. No precise takeover probability asserted."
+    }
+  ],
+  "attribution": "One-variable differences are not additive; interactions, financing thresholds and clinical states matter."
+}

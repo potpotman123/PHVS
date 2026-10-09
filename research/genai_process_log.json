@@ -826,6 +826,74 @@
       "thesis_effect": "Actualhistoricalcashacquisitioninterestverified;cannotinferrecentpostapprovalpricedwholecompanybids. Interestdidnottranslateintoacceptablepremiumandcompleteddeal.",
       "limitations": "Boundedpublicscreen;privatetalksmaybeundisclosed.2026takeoverrumorarticlesfoundbutnotcorroboratedandnotusedasconfirmedbids.2016clinical/financingcontextdifferentfromPHVS2026.",
       "remaining_work": "NoPHVSprobabilitychange;usehistoricalinterestandcompletionasseparateevidence."
+    },
+    {
+      "id": "G58",
+      "logged_on": "2026-10-09",
+      "objective": "Competition readiness review of existing patient adoption model, not fresh empirical validation or model recalibration.",
+      "user_contribution": "Userprovidedcompetitionbriefandaskedwhetheradoptionmodelwouldsurvivescrutinybeforedeck/MonteCarlo.",
+      "ai_method_and_sources": "Readbrief,canonicalinputs,cohortcode,evidencebridges,savedonevariablesensitivitiesandfollowerchallenge;noexternalresearch. research/PHVS_competition_model_readiness_2026-10-09.json",
+      "snapshot": "Architecturedefensible;IRspeed/monetizationandXRcapturepersistencearepriority;staledocs/reversecomparisonfound.",
+      "thesis_effect": "Do nottreatconservativefollowerassumptionorMonteCarloprecisionasvalidatedshort;keepacquisitionoptional.",
+      "limitations": "Readinessassessmentnotfullcodeaudit,freshsourceverificationorDCFimpacttest.",
+      "remaining_work": "Freezeonecanonicalinputset;repairtop3economics;historicalcheckwithoutclaimingfitisvalidation;buildindependentrequiredfinancialworkbook;deterministicrangesbeforeMonteCarlo. Acquisitionseparateupside/riskunlessstrongerprobabilityevidence. No distribution probabilities assigned."
+    },
+    {
+      "id": "G59",
+      "logged_on": "2026-10-09",
+      "objective": "Finalize an independent, reproducible patient-adoption-to-valuation specification for another agent to implement in Excel, with Monte Carlo and acquisition interfaces.",
+      "user_contribution": {
+        "summary": "User requested evidence-supported practical assumptions, public-source replacements, precisely documented calculations and a long steelman. User originated the IR/XR split, efficacy-only retention allowance, P\u00d7Q erosion blend, adoption skepticism and separate takeover outcome.",
+        "prompt_excerpt": "wait stop im still short lol, atleast w.o the acquisition",
+        "interpretation": "Working thesis remains a standalone short; acquisition is a separate risk. The faster-adoption challenge tests what breaks the short and does not change the user\u2019s position."
+      },
+      "model_and_workflow": {
+        "interface": "Codex desktop",
+        "model_family": "GPT-6 as identified by system context",
+        "exact_model_version_and_reasoning_settings": "Unknown from reliable task metadata",
+        "agents_launched": 0,
+        "work": "Recovered existing models and evidence; bounded primary-source checks of pricing, financial statements and regulatory milestones; independent Python monthly cohorts, cash accounting, clinical branches and dated valuation; deterministic sensitivities and mechanical tests. No workbook, slides, paid collection or outreach.",
+        "usage_or_time_saved": "Not measured; no estimate claimed."
+      },
+      "sources_and_artifacts": [
+        "models/finalized/README.txt",
+        "models/finalized/sources.json",
+        "models/finalized/inputs.json",
+        "models/finalized/history.json",
+        "models/finalized/validation.json",
+        "models/finalized/monte_carlo_spec.json",
+        "models/finalized/acquisition_spec.json"
+      ],
+      "snapshot": {
+        "working_expected_12month_usd": 21.501399507276812,
+        "working_both_success_target_usd": 23.985647120072215,
+        "working_conditional_peak_usdm": 1268.0732571558747,
+        "peak_year": 2038,
+        "working_net_funding_requirement_usdm": 335.5736333512901,
+        "first_positive_annual_FCF": 2030,
+        "stronger_adoption_challenge_target_usd": 56.27456842255848,
+        "retention": "Preserved69.45% first-year XR efficacy-only survival; no AE premium. Added PDC/persistence supply calibration with explicit transfer limitations."
+      },
+      "corrections_and_disconfirming_findings": [
+        "Second-oral entry alone does not establish a capture discount or cap upside at15%.",
+        "AnnualIR90% continuation remains an assumption; a repeat-dispensing fraction is not annual persistence.",
+        "Public pricing anchors replace broker justification but net fractions remain underwriting.",
+        "BRAIN royalties, calendar launch timing, commercial costs and financing are explicit.",
+        "Paid survival does not imply full refill adherence; the transfer from Orladeyo PDC is calibration, not PHVS validation.",
+        "Re-entry and competitor-prevention migration had smaller value effects than capture; do not inflate those short arguments.",
+        "Old74% retention and relative-year reverse comparisons are clearly marked superseded.",
+        "Acquisition is not a free add-on to standalone value, and no high PHVS-specific probability is inferred."
+      ],
+      "thesis_effect": "Supports testing the user\u2019s standalone short against a strong long steelman. The range is broad; no final recommendation, empirical long/short probability or live-price comparison is claimed.",
+      "limitations_and_bias_checks": [
+        "Public evidence, transformations and unsupported judgments separated in inputs/sources.",
+        "Mechanical checks are not independent market validation.",
+        "Native EUR history is retained; USD forecast uses a dated planning FX rate.",
+        "Future fair-value funding assumption is distinct from the diagnostic fixed-price issuance plan; discounted future issuance needs explicit ownership modeling.",
+        "No proprietary transcripts or broker formulas required for canonical calculations.",
+        "Monte Carlo priors and buyer-specific negotiation/completion assumptions remain judgment calls."
+      ],
+      "next_step": "Another agent can implement the Excel specification and reproduce golden outputs. Choose and record Monte Carlo priors; specify buyer costs, consideration and completion scenarios before simulation."
     }
   ]
 }

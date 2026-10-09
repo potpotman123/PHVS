@@ -79,3 +79,20 @@ reach, conversion and persistence tests; preserves disconfirming evidence.
 Limitations & Bias Mitigation: Plans distinguished from implementation; expert
 opinions from measured rates; overlapping history/marketing groups not added to TAM.
 No national forecast or independent commercial validation claimed.
+
+EXAMPLE5 — TURNING THE USER’S ADOPTION THESIS INTO AUDITABLE ECONOMICS (G59)
+Objective: Defend or challenge the standalone short; treat acquisition separately.
+GenAI Method & Data Source: User’s modeling choices guided public filing/claims
+checks and an independent monthly cohort, financial and valuation engine.
+Snapshot of GenAI Output: Working expected12month value$21.50 versus$56.27 in a
+faster-adoption challenge; approximately$336m additional net funding in the
+working both-success plan. Neither case includes a takeover premium.
+Interpretation & Relevance to Thesis: Identifies capture, durable paid use and
+cost/funding as the core claims to defend. Connecting persistence with PDC
+exposed an implicit perfect-refill assumption; addressing it reduced target
+value by about$1.52 while preserving the user’s efficacy-retention allowance.
+Limitations & Bias Mitigation: No assumption range is a statistical interval.
+Stronger-adoption and access scenarios test the short; they are not empirical
+probabilities. Public sources replace pivotal licensed dependencies. Mechanical
+checks verify arithmetic, not commercial accuracy. Exact settings and time
+saved are unknown. The user explicitly reaffirmed the standalone short framing.

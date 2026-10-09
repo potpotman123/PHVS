@@ -1,0 +1,116 @@
+EXCEL IMPLEMENTATION CONTRACT
+
+Build a new workbook from these JSON inputs and equations. This is a calculation
+contract, not a prescribed layout. Do not reuse a broker workbook.
+
+Suggested tabs, in dependency order:
+
+01 Readme / 02 Sources / 03 Inputs
+  Display valuation and target dates, currencies, units and scenario selector.
+  Import source IDs, URLs, dates, locators, observations and limitations. Each
+  input needs its value, units, denominator, bounds, status and rationale.
+  Keep scenario overrides separate from observed facts. Link every assumption
+  to a canonical input cell; do not hardcode the same assumption twice.
+
+04 History
+  Import 2024/2025 annual actuals and H1 2026 from history.json in EUR millions.
+  Preserve the reported cash-flow, balance-sheet, SBC and FX fields. Forecasts
+  start from June 30, 2026 balances. If historical dollar financials are wanted,
+  obtain historical average and balance-date FX separately; do not use the
+  frozen forecast FX rate to calculate historical dollar growth.
+
+05 Calendar
+  One column per month, July 2026–December 2055. Identify year, quarter, launch
+  flags, clinical decisions, commercial age, generic-entry age and days from
+  both valuation dates. Use actual days/365.25 for discounting and 1/12 year
+  for monthly cohort exposure. Operating flows are prorated at a partial-month
+  valuation cutoff; financing occurs at month-end.
+
+06 XR Cohorts / 07 IR Cohorts
+  Separate matrices for four origin groups; one row per activation cohort.
+  Track available people, growth, attempts, pending access, failures, cooldown
+  returns, active members, exits and retired members. Follow Population.step
+  in engine.py. Monthly acquisition = 1-(1-annual probability)^(1/12).
+  Survivor = opening members * annual retention^(1/12).
+  Exposure = (opening-survivor)/(-LN(retention)); at retention=1 use opening/12.
+  Change XR retention after cohort age 12 months, not each January.
+  IR membership is access/preference, not a monthly dispensing prescription.
+
+08 Rescue / Overlap
+  Within each origin, XR share = XR patient-years * 12 / population.
+  Implement the budget, initial stock and replacement formulas in ARCHITECTURE.
+  Deduct all initial stock from the annual first-year supply budget, including
+  stock supplied free. Free stock generates no revenue. Do not apply additional
+  rescue-claimant or redosing discounts to the claims dispensing benchmarks.
+  Do not sum overlapping IR/XR users to infer unique disease patients.
+
+09 Revenue / Geography
+  XR paid exposure = survival exposure * paid-intensity adjustment.
+  IR paid doses = paid initial stock + replacement doses.
+  XR annual price = 28-day WAC * 365/28 * net fraction; IR = WAC/dose * net fraction.
+  Revenue in USDm = quantity * net price / 1,000,000.
+  Overseas demand uses lagged US sales and a rollout phase. Separate direct
+  sales from partner royalties; never recognize both on the same sales.
+
+10 Post-patent Economics
+  Use separate IR/XR generic-entry dates and protected-year quantity anchors.
+  Blend revenue indices and quantity indices 50/50; effective price = R/Q.
+  Do not multiply simple averages of price and quantity indices. Freeze the
+  foreign anchor separately. After exposure year 4, hold price flat and let
+  quantity decline. Operating cost runoff follows with a one-year lag.
+  Raw cohort patient fields become counterfactual after generic entry. Use
+  IR_units / XR_units, including erosion, to calculate monetized revenue.
+
+11 Costs / 12 Financial Statements
+  Import the explicit annual R&D, commercial and G&A budgets. Add variable
+  commercial costs, manufacturing and BRAIN royalties separately. Calculate
+  milestone reserves, capex, depreciation, working capital and taxes.
+  Forecasts use cash-compensation equivalents; do not add back assumed SBC
+  while also omitting future employee compensation or existing award dilution.
+  Show 2026 actual/forecast bridge, full 2027–2031 forecasts and at least 2027
+  and 2028 quarterly. Keep the annual extension through 2055 for valuation.
+  Flows sum; stocks take the last period. Calculate patient-years directly
+  from cohorts rather than averaging year-end patient counts.
+  CFO = net income + D&A - change in NWC; FCF = CFO - capex.
+  Cash + PPE + NWC + other net assets must reconcile to equity.
+
+13 Funding / Shares
+  Show opening cash, ordinary shares, options and RSUs; required new capital;
+  gross/net proceeds, fees and issued shares. Shares issued = gross proceeds /
+  assumed issue price. Funding is a requirement, not a financing commitment.
+  Before the target, scenario financing enters cash and shares. Beyond the
+  target, the DCF assumes fair-value funding and already deducts operating
+  cash losses; do not charge all diagnostic future dilution again.
+  A future discounted-placement assumption requires an explicit ownership
+  event module replacing fair issuance, not an extra blanket dilution haircut.
+
+14 Clinical Outcomes
+  Separate both-success, IR-only, XR-only and neither-success cases. Branch
+  costs as well as revenue; retain necessary development and commercial costs.
+  Use clinical_weights to preserve marginal PoS. No revenue from a failed
+  product and no PoS haircut to cash. Neither-success winds down and returns
+  residual cash; no indefinitely burning shell.
+
+15 Valuation
+  Calculate directly at October 9, 2026 and October 9, 2027. Include partial
+  months, explicit patent erosion and the declining residual after 2055.
+  Terminal value = FCF_2055*(1+g)/(discount rate-g), discounted from end-2055.
+  Apply option treasury-stock algebra at model value, not loss-period EPS.
+  Weight clinical-state equity/share outcomes. Do not apply another 90%
+  haircut to both revenue and equity. Show conditional and expected values.
+
+16 Sensitivities / 17 Monte Carlo and Acquisition
+  Match deterministic outputs first. Follow monte_carlo_spec.json for sampling
+  dependencies and acquisition_spec.json for mutually exclusive outcomes.
+  Ranges and simulation quantiles are underwriting, not statistical confidence
+  intervals. Do not hide capital requirements behind a takeover premium.
+
+Acceptance criteria:
+  - Reproduce annual revenues within $0.01m and prices within $0.01/share.
+  - Reconcile monthly, quarterly and annual flows; preserve stock balances.
+  - Match zero-conversion, delayed-launch, survival, supply-budget, geographic,
+    clinical-weight, patent and acquisition tests in validate.py.
+  - Retain precision in calculations and round only display cells.
+  - Resolve every source ID. Record deviations in a reconciliation table;
+    never change the Python benchmark silently to match an Excel error.
+  - Passing checks demonstrates arithmetic consistency, not market accuracy.

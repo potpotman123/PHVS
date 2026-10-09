@@ -1,8 +1,8 @@
 # Pharvaris (NASDAQ: PHVS) research
 
-Research archive and working investment debate, updated **7 October 2026**. The asset is **deucrictibant**; immediate-release on-demand treatment and extended-release prophylaxis must be modeled separately while recognizing shared molecule and regulatory risks.
+Research archive and working investment debate, updated **9 October 2026**. The asset is **deucrictibant**; immediate-release on-demand treatment and extended-release prophylaxis must be modeled separately while recognizing shared molecule and regulatory risks.
 
-The current priority is auditing comparative clinical efficacy before using differentiation in commercial modeling, with a rigorous long case alongside the prospective short. This repository does not contain a completed PHVS valuation or price target. Reference-company models are examples, not PHVS forecasts.
+The current model is the [independent patient-to-financial engine](models/finalized/README.txt). It includes dated financial forecasts, conditional valuations, clinical risk, sensitivities and Monte Carlo/acquisition specifications. Read the [handoff](models/finalized/HANDOFF.txt) for readiness and remaining underwriting choices. These are scenarios, not a final investment recommendation. Earlier reverse valuations and research snapshots are retained as historical work.
 
 ## Start here
 
@@ -10,7 +10,7 @@ The current priority is auditing comparative clinical efficacy before using diff
 [pitch-competition method notes](research/genai_pitch_notes.txt) record user guidance,
 AI contributions, corrections and limitations. Future-work instructions: [AGENTS.md](AGENTS.md).
 
-**Latest:** [IR/XR cross-trial clinical audit](output/PHVS_cross_trial_clinical_audit_2026-10-07.txt), including the FDA correction to Ekterly's placebo median and the newly recovered CHAPTER-3 protocol.
+**Clinical reference:** [IR/XR cross-trial clinical audit](output/PHVS_cross_trial_clinical_audit_2026-10-07.txt), including the FDA correction to Ekterly's placebo median and the newly recovered CHAPTER-3 protocol.
 
 1. [Current conclusions, corrections and unresolved questions](CURRENT_RESEARCH.md).
    The latest [patient-based IR/XR SOTP framework and analogue screen](output/PHVS_SOTP_patient_segmentation_framework_2026-10-07.txt) records the user's neutral long/short modeling direction, patient segments and evidence requirements.
@@ -53,4 +53,4 @@ This was imported into the user's **private** repository at their request. Suppl
 
 The import includes all available files from this research workspace (excluding transient editor locks and caches), plus the twelve specifically identified original attachments. It is not a verbatim export of the chat. The SLGL article was supplied inline rather than as a local attachment; its analytical takeaways and original URL are preserved in the reference audit/current research guide. No unrelated attachments from other chats were collected.
 
-No patient-level trial data, complete prescription claims panel, payer rebate contracts, final signed RAPIDe-3 SAP, or completed PHVS valuation is present. Research dates describe the analysis as performed; external facts require refreshing before investment use.
+No patient-level trial data, complete prescription claims panel, payer rebate contracts or final signed RAPIDe-3 SAP is present; the canonical valuation is explicitly assumption-based. Research dates describe the analysis as performed; external facts require refreshing before investment use.

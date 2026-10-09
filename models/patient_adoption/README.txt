@@ -1,3 +1,8 @@
+ARCHIVED WORKING MATERIAL — superseded for current valuation on 9 October 2026.
+Canonical inputs, calculations and handoff: models/finalized/README.txt.
+Older retention, timing and pricing statements below describe historical work.
+Do not treat them as competing current assumptions.
+
 Linked US revenue ramp (9October): output/PHVS_US_revenue_ramp_2026-10-09.txt; models/patient_adoption/revenue_ramp.py with inputs/results/table. Practical evidence bridges in research/PHVS_multiyear_revenue_bridges_2026-10-09.json. Relative full model years,IRone-yearlead,notfairvalue. ProcessG37.
 
 Central range/citation register: research/PHVS_adoption_range_source_register.json; readable index: output/PHVS_adoption_range_sources.txt. Includes source URLs, evidence locations, adjustments and explicit source gaps.

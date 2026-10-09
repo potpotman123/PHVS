@@ -1,0 +1,242 @@
+PHVS MODEL ARCHITECTURE AND DATA DICTIONARY
+As of 2026-10-09; valuation today 2026-10-09; target 2027-10-09.
+
+1. Disease population and acquisition
+
+One US diagnosed population, working 10,000 at July 2026, is partitioned into
+1,700 Orladeyo, 4,080 other prevention, 2,720 acute-only and 1,500 diagnosed but
+untreated. These are proxy starting pools, not a census of label-eligible users.
+Age >=12 and relevant HAE subtype eligibility are absorbed into composite
+capture rates: no unsupported pediatric fraction or additional AAE population
+is added. The 8,500-11,500 population sensitivity changes the total and derives
+all four groups from fixed weights. Do not sample the counts independently.
+
+Net diagnosed-population growth is 1.5% annually, tested at 0-3%. It includes
+new diagnoses and exits; do not add another diagnosis inflow or death outflow.
+New entrants are allocated proportionately to the four original groups. This
+is a compact net-growth assumption, not a demographic incidence model.
+
+IR and XR maintain separate membership ledgers within the SAME population.
+They are overlapping treatments, so their patient counts must never be added
+as the number of unique people with HAE. Origin is the pre-PHVS treatment group,
+not a continuously updated treatment label. Composite capture is deliberately
+used instead of invented reach/preference/prescription probabilities.
+
+For annual acquisition probability a, monthly q = 1-(1-a)^(1/12).
+Prescription attempts = available people * q. Rates apply to the remaining
+available pool, not the original population every year. IR working a=10% for
+treated groups, 2% for diagnosed untreated. XR a=10%,4%,4%,1% respectively.
+
+Each monthly sequence:
+  (i) add net population growth to available people;
+  (ii) return access failures whose cooldown expires;
+  (iii) move new attempts out of available;
+  (iv) after the access delay, activate conversion*attempts;
+  (v) failed attempts return after 12 months from attempt;
+  (vi) attrition moves active members to retired, with an optional re-entry
+       stress returning 25% after 24 months.
+
+Available + pending approval/payment + failed-access cooldown + active +
+retired + re-entry cooldown = total for each product/origin/month. Retired
+means no longer buying that product, not deceased or outside the disease pool.
+Attempts can recur after a failure; cumulative forms are not unique patients.
+No separate free-to-paid hazard is multiplied onto the conversion assumption.
+
+2. Exposure and retention
+
+For annual survival s, h=-ln(s), end members=start members*exp(-h/12).
+Patient-years for that month=(start-end)/h; if h=0, start/12.
+Cohort age is months since paid/access activation, not calendar year.
+
+XR first 12 months: s=0.6945 =0.61+0.39*(13/30)*0.5. This retains the user's
+assumed avoidance of half the efficacy-related exits. It adds 8.45 percentage
+points, or 13.85% relative to 61%; it is not a measured PHVS retention rate.
+No adverse-event retention benefit is assumed. Mature annual survival is 90%,
+with 80-95% stress bounds; selected survivors can be more durable, but 90% is
+not measured by the available initiation-cohort study.
+
+Paid XR treatment-years = survival-integrated patient-years * paid_intensity.
+The public Orladeyo study reports persistence61% and mean PDC0.73. Exponential
+61% survival implies0.789 patient-years in year1. Paid_intensity=0.73/0.789,
+approximately0.925, reconciles the comparator and avoids perfect refill supply.
+That is a calibration transfer, not a measured conditional adherence parameter:
+refill gaps/returns confound interpretation. Test0.9-1.0. Do not multiply again
+by0.73. PHVS retains its efficacy-related survival improvement.
+
+IR annual membership survival is90%, tested80-95%. Membership means maintaining
+access/preference for the rescue product, not receiving monthly prescriptions.
+The cited 91% repeat-dispensing statistic for Orladeyo is NOT evidence of90%
+annual IR survival; it is context only. No PoS haircut occurs in cohort code.
+
+3. Rescue demand, inventory and overlap
+
+Doses are therapeutic administrations, not tablets, packs, attacks or Rxforms.
+LTP budget8 doses/year transfers a minimal-gap prevention claims average that
+includes people with no rescue claims;11.8 is the all-LTP alternative. Do not
+multiply again by the67.1% rescue-claimant proportion. Non-LTP budget14 uses a
+broader on-demand claimant benchmark, not a pure acute-only cohort. The missing
+adopter-specific denominator is a major uncertainty, tested at10-18.
+
+Within origin, mean XR share = XR patient-years this month*12 / population.
+This mean-field share estimates overlap with IR membership. It is not observed
+joint prescribing. IR active patients and XR active patients cannot be used to
+infer a preference/safety rule about simultaneous use of the same molecule.
+
+For XR share x and same-drug rescue allocation d:
+  budget = (1-x)*prior-treatment dose budget + x*LTP budget*d.
+  initial stock per new member = 2*((1-x)+x*d).
+  replacement doses = first-year member-years*(budget-initial stock)
+                    + mature member-years*budget.
+  paid initial doses = new access activations*initial stock*paid-stock fraction.
+  free initial doses = same stock*(1-paid-stock fraction), revenue zero.
+
+Initial stock is inside the annual total, not added to it. If an early user
+stops, previously dispensed stock is not clawed back; first-year revenue can
+therefore be front-loaded relative to consumed attacks. No further redosing
+haircut is applied to claims-derived dispensing. Study redose rates are not
+interchangeable with commercial paid prescriptions. Pack rounding, expiration
+and channel inventories are excluded until observed.
+
+Non-PHVS prophylaxis migration is a structural stress: up to20% of original
+non-LTP users gradually adopt other prevention over10years, lowering their
+IR dose budget. It does not fabricate additional drug-specific switching
+transitions. Constant acquisition rates and no re-entry remain transparent
+base choices; dedicated valuation stresses test both simplifications.
+
+4. Price, access and geography
+
+XR comparator WAC = $48,487.92 per28days, annualized*365/28 (not*12).
+Assumed paid-unit net fraction66% gives approximately$417,169/year.
+IR comparator WAC=$16,720/dose; assumed84% net gives$14,044.80/dose.
+These are independently sourced list-price anchors and explicit net discounts,
+not observed PHVS prices or verified manufacturer gross-to-net percentages.
+No efficacy price premium or annual list-price inflation is assumed.
+
+Conversion determines whether an attempt ever becomes paid; net fraction
+reduces revenue on paid units. Free supply never earns list-price revenue; free initial IR units retain a
+manufacturing-cost allowance and shrink with brand volume after generic entry.
+Do not subtract free supply from paid revenue a second time. Test paired access
+packages: rebate_for_access and restricted_high_net. Univariate price/access
+runs isolate arithmetic; do not sample their most favorable endpoints together
+as if independent clinical evidence established both.
+
+Commercial IR starts May2027, after the April23PDUFA; XR starts June2028,
+after assumed May2028 approval following planned1H2027 applications. Both are
+assumptions. First paid activation follows the separate1month access delay.
+A six-month joint delay is a stress, not a promised regulatory date.
+
+ExUS net end-market demand = mature exUS/US ratio * lagged US sales * rollout.
+Ratios20%IR/25%XR,12month lag,48month rollout. Historical Orladeyo is the main
+anchor; Takeda has only20%weight in the XR rationale, reflecting its stronger
+global infrastructure. US and foreign net price differences are implicit in
+the demand ratio; do not convert currencies again.
+
+Base: all exUS direct sales, with overseas commercial costs. Alternative:
+recognized foreign revenue = direct fraction*demand +
+(1-direct fraction)*demand*partner royalty. No full partner sales plus royalty;
+no unverified upfront payment/milestones. Geography ratio is a heuristic,
+not a claim that comparator reported royalties equal end-market sales.
+
+5. Calendar financials and cash
+
+Internally monthly July2026-December2055. Quarter/year flows sum; stocks take
+the last month. Exposures use standardized1/12year monthly fractions; discount
+exponents use actual days/365.25. Within-month valuation/target cutoff prorates
+operating cash flow; funding occurs at month-end. No elapsed burn is charged
+twice. Historical2024/2025 and1H2026 remain native EUR. Opening June2026 balance
+is translated once at the frozen Oct8 reference rate1.1186USD/EUR.
+
+All operating forecasts are economic cash-compensation equivalents, not a
+complete IFRS forecast. Pre-existing awards enter option/RSU dilution; their
+future noncash amortization is excluded from the cash budgets. Future staff
+incentives are cash-settled within budgets, so no additional SBC addback or
+new-grant dilution is applied. This avoids giving SBC a free economic value.
+
+R&D/commercial/G&A annual USDm budgets are explicit in inputs.json. For2026
+only H2 is forecast;2026 annualized RD144/GA72 approximates reported1H runrates.
+2027 RD130, commercial fixed100, GA45;2028 RD105/commercial120/GA50. R&D then
+falls85/70/60 by2031 while ongoing medical/development work is retained.
+Commercial also costs8%US direct sales+18%foreign direct sales. Fixed costs
+inflate2% after2031 untilLOE. KalVista launch SG&A and BioCryst mature expenses
+are reasonableness anchors, not a fitted PHVS margin or copied broker model.
+
+Manufacturing/distribution costs4% of direct sales; separate BRAIN royalty3%
+of worldwide direct/indirect end-market sales. Low-to-mid-single-digit range
+comes from the filing; exact tiers unknown. No post-generic royalty relief
+credited. Remaining EUR7m milestone reserve (EUR8m atFY2025 lessEUR1m inH1)
+is conservatively paid at assumed IR approval; exact due dates are unknown.
+
+Capex=$0.5m/year plus0.5%direct sales; assets depreciate over a rolling5-year
+proxy. NWC=opening operating NWC+12% annualized monthly direct sales. Opening
+negative NWC is retained, not magically released at launch. One-month sales
+annualization is a compact receivables/inventory/payables proxy.
+
+Taxes:20% normalized positive taxable profit. No historical unrecognized NOL
+asset credited. Forecast losses accumulate a pooled NOL with80% utilization
+cap, plus$1m/year operating tax floor. This is a planning proxy, not a legal
+jurisdiction-by-jurisdiction tax opinion. Sensitivity15-25.8%.
+
+FCF=net income+D&A-capex-change inNWC (no forecast interest/FX). Cash rolls
+from opening cash+FCF+net financing; net assets= cash+PPE+NWC+other net assets.
+Net assets reconcile to equity plus net income and capital contributions.
+Term debt0. Small leases remain in opening other net assets and operating
+budgets, not deducted twice from equity.
+
+Financing: when modeled cash falls below$75m, raise to$150m. Gross proceeds=
+needednet/(1-5%fee). Illustrative issuance$25/share determines statement share
+counts and realized pre-target dilution. This is a funding requirement, not
+committed or assured capital. Cautious losses can imply uneconomic continued
+funding; zero equity value and required capital must both be shown.
+
+DCF AFTER the valuation/target date assumes future funding at fair value;
+future operating losses are already deducted from EV. It charges financing
+fees, but does not divide again by ALL future diagnostic shares: that would
+charge the same cash need twice. The diagnostic fixed-price financing table
+beyond the target is not the DCF capital-pricing assumption. If modeling
+future discounted placements, implement an explicit ownership/issuance event
+and replace fair funding; do not simply add a dilution haircut to negativeFCF.
+
+6. Clinical risk, equity value and post-patent economics
+
+Clinical states: both, IRonly, XRonly, neither. MarginalPoS90%each; sharedgate95%
+is a dependence scenario, not empirical correlation. P(both)=.9*.9/.95;
+remaining weights follow marginals. Independent and perfectly correlated
+alternatives are reported. Failed products earn no sales. Product-linked R&D
+and shared platform costs are reduced following decision dates; necessary
+costs remain. Neither-success branch winds down6months after XRdecision and
+returns residual cash after liabilities; it does not retain an infinite shell.
+
+Risk-adjusted equity/share = sum(stateprobability * state equity/share).
+Cash is not multiplied byPoS. Costs are branch-specific, not universally
+multiplied by90%. Do not haircut revenue AND final equity again. The target
+is an expected distribution of future clinical outcomes using today's beliefs,
+not a claim that approval probability will remain90% after an FDA decision.
+
+DCF uses nominalUSD12% discounting, no terminal exit multiple. Equity=operating
+PV+cash-fees; zero floor. Existing RSUs1.545152m are included conservatively.
+Existing options4.455397m at EUR12.56 use treasury-stock algebra at model price:
+if in the money, price=(equity+options*strike)/(ordinary+RSUs+options).
+Loss-period accounting diluted EPS does not eliminate economic dilution.
+
+First full generic exposure assumed2039 for both products, separately editable.
+Last protected annual volume becomes the fixed anchor. Preserve the user’s
+50/50 study/rare-disease framework: blend revenue indices and volume indices,
+then effective price=blendedrevenue/blendedvolume. Do not multiply two simple
+averageindices. Rare-disease numeric anchor is Kuvan; Xenazine/Orfadin are
+qualitative crosschecks, not secretly equal-weighted clean cohorts.
+
+Study pooledP*Q is synthetic; Kuvan global Q is inferred assumingflatnetP.
+Postgeneric year1-4 retainedrevenue roughly47.7%,36.2%,28.7%,21.8%. A separate
+flat-price cap tests the crowdedHAE hypothesis without silently destroying
+the chosen historical framework. Afteryear4, holdPflat and declineQ at the
+Kuvan2021-24CAGR. Freeze US and foreign anchors separately; no launchlag
+accidentally delays foreign generic erosion. Fixed costs shrink with a1yearlag.
+Explicit forecast ends2055;2056onward decliningperpetuity usesFCF2055*(1+g)/(r-g).
+Report its small present-value contribution. Calendar2036/year10 sales are not
+peak; actual model peak is searched across the full explicit forecast.
+
+Limitations that remain: current market census and destination-specific capture,
+IR adopter-specific dispensing/annual continuation, net rebates and future
+commercial budgets, foreign rights, tax and funding terms. Their numerical
+choices are underwriting, not validated commercial truths. No precise Monte
+Carlo probability should disguise those limitations.

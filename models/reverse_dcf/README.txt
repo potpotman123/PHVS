@@ -1,3 +1,8 @@
+ARCHIVED WORKING MATERIAL — superseded for current valuation on 9 October 2026.
+Canonical inputs, calculations and handoff: models/finalized/README.txt.
+Older retention, timing and pricing statements below describe historical work.
+Do not treat them as competing current assumptions.
+
 PHVS reverse SOTP / DCF skeleton — 7 October 2026
 
 8 OCTOBER INTERPRETATION AUDIT — USER-IDENTIFIED SHAPE LIMITATION

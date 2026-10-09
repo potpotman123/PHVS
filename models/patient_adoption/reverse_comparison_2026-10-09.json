@@ -1,4 +1,6 @@
 {
+  "superseded_by": "models/finalized/inputs.json",
+  "archive_notice": "Historical working snapshot; not current Monte Carlo parameters or current reverse comparison.",
   "date": "2026-10-09",
   "reverse_target_snapshot": 31.83,
   "target_date": "2026-10-07;notliveprice",

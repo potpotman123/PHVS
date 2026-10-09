@@ -1,0 +1,247 @@
+{
+  "as_of": "2026-10-09",
+  "sources": {
+    "F25": {
+      "title": "Pharvaris FY2025 Form 20-F",
+      "date": "2026-04-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1830487/000183048726000013/phvs-20251231.htm",
+      "locator": "F-4 to F-7; notes 13, 18, 21; Intellectual Property",
+      "facts": "2024/2025 financial statements in EUR; BRAIN royalty low to medium single digits, EUR8m remaining milestones at year end; licensed patent expiration November 23, 2038 or later.",
+      "limitation": "Milestone timing and tier thresholds not disclosed. Generic entry is not certain at patent expiry."
+    },
+    "H126": {
+      "title": "Pharvaris June 2026 interim financial statements",
+      "date": "2026-08-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1830487/000119312526345702/phvs-20260630.htm",
+      "locator": "Exhibit financial statements pp2-6, notes 13 and 18",
+      "facts": "Cash EUR318.282453m; issued shares70.204506m; options4.455397m at weighted EUR12.56; RSUs1.545152m; no term debt in balance sheet.",
+      "limitation": "Latest reported balance sheet, not October cash or exact October share count."
+    },
+    "IRREG": {
+      "title": "RAPIDe-3 publication announcement",
+      "date": "2026-10-08",
+      "url": "https://ir.pharvaris.com/news-releases/news-release-details/phase-3-study-results-highlighting-deucrictibants-rapid-and",
+      "locator": "Regulatory paragraph",
+      "facts": "IR PDUFA April23,2027; EMA review underway.",
+      "limitation": "Approval and commercial availability not guaranteed."
+    },
+    "XRREG": {
+      "title": "CHAPTER-3 topline announcement",
+      "date": "2026-09-08",
+      "url": "https://ir.pharvaris.com/news-releases/news-release-details/pharvaris-announces-positive-topline-data-chapter-3-pivotal",
+      "locator": "Development timeline and trial design",
+      "facts": "XR marketing applications planned from first half2027; adolescents/adults; 85 participants.",
+      "limitation": "June2028 launch is an underwriting date, not company guidance."
+    },
+    "XRPRICE": {
+      "title": "BioCryst WAC change 8-K",
+      "date": "2026-01-09",
+      "url": "https://ir.biocryst.com/node/27676/html",
+      "locator": "Item7.01",
+      "facts": "ORLADEYO WAC $48,487.92 per28daypack, from $44,484.33.",
+      "limitation": "List price, not manufacturer net price or PHVS announced price."
+    },
+    "IRPRICE": {
+      "title": "KalVista FDA approval presentation",
+      "date": "2025-07-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/1348911/000119312525155885/d98157dex992.htm",
+      "locator": "Slides17-20",
+      "facts": "Ekterly WAC $16,720 per dose;2 doses/4 tablets perpack;32 reps;1000 clinicians account for90% HAEclaims.",
+      "limitation": "PHVS capsule dose is not two Ekterly tablets. No public netprice deduced."
+    },
+    "FX": {
+      "title": "ECB reference rate",
+      "date": "2026-10-08",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.de.html",
+      "locator": "Table dated8October2026 USD",
+      "facts": "USD1.1186/EUR.",
+      "limitation": "Dated snapshot frozen for planning; history kept in nativeEUR, no restated historicalUSD growth."
+    },
+    "SWITCH": {
+      "title": "HAEA2025 LTP claims poster",
+      "date": "2025-07",
+      "url": "https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf",
+      "locator": "12month switching among328 LTPinitiators",
+      "facts": "50/328 switched to another LTP within12months.",
+      "limitation": "Any destination/newinitiators differs from PHVS capture from prevalent cohorts."
+    },
+    "FRENCH": {
+      "title": "French real-world berotralstat study",
+      "date": null,
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/clt2.70193",
+      "locator": "Reasons for30discontinuations; saved tolerability audit",
+      "facts": "13 efficacy,7 AE,10 other discontinuations.",
+      "limitation": "Avoiding half efficacy exits is judgment, not observed PHVS persistence."
+    },
+    "CLAIMS": {
+      "title": "O\u2019Connor et al. LTP compliance and on-demand treatment claims",
+      "date": "2025-07-10/2025-07-13",
+      "url": "https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf",
+      "locator": "Methods, Figures2-3, Table2; existingadoptionevidenceA07-A09",
+      "facts": "LTPall11.8 ODdoses/year; minimalgapLTP8; includes patients withoutrescueclaims.",
+      "limitation": "Selection, definitions and products differ; no PHVS annual continuation measure."
+    },
+    "IRDOSE": {
+      "title": "ISPOR2026 on-demand claims trends",
+      "date": "2026",
+      "url": "https://www.ispor.org/heor-resources/presentations-database/presentation-cti/ispor-2026/poster-session-2-4/recent-trends-in-on-demand-treatment-prescriptions-for-hereditary-angioedema-a-us-claims-database-analysis",
+      "locator": "2021-2024 OD-use analysis; saved IR calibration",
+      "facts": "Approx14annual doses among broader ODusers used as proxy.",
+      "limitation": "Not pure acute-only PHVS adopters. Dispensing, not attack consumption."
+    },
+    "PERSIST": {
+      "title": "Orladeyo dispensing experience",
+      "date": "2025",
+      "url": "https://link.springer.com/article/10.1186/s13223-025-01005-x",
+      "locator": "1746/1919 repeat dispensers",
+      "facts": "Repeat dispensing91% under variablefollowup.",
+      "limitation": "Not annualIRretention. Context only; cannot identify90%."
+    },
+    "PREFERENCE": {
+      "title": "HAE treatment preference survey",
+      "date": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41429313/",
+      "locator": "150participant survey",
+      "facts": "Heterogeneous preferences for dailyoral vs longer interval injectable.",
+      "limitation": "No numericalPHVS switching inference or extra54%multiplier."
+    },
+    "ACCESS": {
+      "title": "Neuren investor presentation",
+      "date": "2024-08-19",
+      "url": "https://www.neurenpharma.com/pdf/bcba55f5-1338-49f2-a297-7512f59e2c2e/Investor-roadshow-presentation-19-August-2024.pdf",
+      "locator": "Daybue over-time paid conversion90%; archived bridge register",
+      "facts": "OutsideHAE paid conversion benchmark90%.",
+      "limitation": "Originallink previouslyunavailable; historicalsavedextraction. 65-90%PHVSrange judgment; no true HAEconversion denominator.",
+      "alternate_url": "https://neurenpharma.com/pdf/d9c7e8d8-869c-453c-b708-a6474327f27b/Investor-roadshow-presentation-19-August-2024.pdf?Platform=ListPage"
+    },
+    "MIX": {
+      "title": "BioCryst investor patient history mix",
+      "date": null,
+      "url": "https://ir.biocryst.com/static-files/4e1f4dca-2e8e-48b6-869f-46bd74b8b1ba",
+      "locator": "Patient history:52%priorLTP,32%ODonly,17%naive",
+      "facts": "Historical entrant mix informs relative XR rates.",
+      "limitation": "Cumulative treatmenthistory, not immediatelypriorregimen or causalflow."
+    },
+    "GEO": {
+      "title": "BioCryst2024 Form10-K",
+      "date": "2025",
+      "url": "https://ir.biocryst.com/static-files/99047ae6-7679-4210-82f1-5a64a2afdd39",
+      "locator": "Note2 PDFp94; saved geography audit",
+      "facts": "2024US385.961m/WW437.660m.",
+      "limitation": "Includes differing commercialrights androyalties; not pure endmarket multiplier."
+    },
+    "TAK": {
+      "title": "TakedaFY2025 results",
+      "date": "2026-06-05",
+      "url": "https://assets-dam.takeda.com/image/upload/v1780626052/Global/Investor/Financial-Results/FY2025/Q4_0605/qr2025_q4_qfr_en_20260605.pdf",
+      "locator": "Takhzyro geography table",
+      "facts": "US140.7/WW223.9 JPYbn.",
+      "limitation": "Large global infrastructure;20%weight only in XRcentral reasoning."
+    },
+    "COST": {
+      "title": "KalVista first commercial quarter",
+      "date": "2025-09",
+      "url": "https://ir.kalvista.com/news-releases/news-release-details/kalvista-pharmaceuticals-provides-operational-update-and-7",
+      "locator": "Financial results",
+      "facts": "QuarterSG&A44.7m,R&D15.2m. Commercialavailability midJuly2025.",
+      "limitation": "Mixed launchspend, not PHVS runrate; lowinitialCOGS distortmargin."
+    },
+    "COST2": {
+      "title": "BioCryst Q22026 financial results",
+      "date": "2026-08-05",
+      "url": "https://ir.biocryst.com/news-releases/news-release-details/biocryst-reports-second-quarter-2026-financial-results",
+      "locator": "Sixmonthexpense reconciliation",
+      "facts": "ORLADEYO cost6.433m on306.549m revenue;exSBC adjustedS&M71.418m,G&A42.115m.",
+      "limitation": "Manufacturingmargin excludesfinancingroyalties; PHVS4%manufacture plus3%license reserve is assumption."
+    },
+    "LOE": {
+      "title": "Health Affairs generic-entry appendix",
+      "date": "2026",
+      "url": "https://www.healthaffairs.org/doi/suppl/10.1377/hlthaff.2026.00257/suppl_file/2026-00257_suppl_appendix.pdf",
+      "locator": "pp8-9 FiguresS4/S5; formulationanalysis452definitions in271compoundstudy",
+      "facts": "P indices pre64,post88/112/128/138;Qpre100,post24/13/9/8.",
+      "limitation": "Rounded pooledP timespooledQ synthetic, not measuredmeanmanufacturerrevenue."
+    },
+    "KUVAN": {
+      "title": "BioMarin financial results",
+      "date": "2025-02",
+      "url": "https://www.biomarin.com/news/press-releases/biomarin-reports-fourth-quarter-and-full-year-2024-results-sets-full-year-2025-guidance/",
+      "locator": "Kuvan revenue; 2021-23 see10-Knote12",
+      "facts": "2020anchor457.7m;2021-24:285.776/227.577/180.767/121m.",
+      "limitation": "Globalmixedgenericdates;2020partlyexposed;assumedflatnetP meansQinferred,notobserved."
+    },
+    "KUVAN23": {
+      "title": "BioMarin2023 Form10-K",
+      "date": "2024",
+      "url": "https://www.sec.gov/Archives/edgar/data/1048477/000104847724000016/bmrn-20231231.htm",
+      "locator": "Note12",
+      "facts": "2021-23Kuvanrevenues as inKUVAN.",
+      "limitation": "Rare-disease erosionproxy not interchangeablewithHAE."
+    },
+    "KALVFORM": {
+      "title": "KalVista launchupdate",
+      "date": "2026-03-25",
+      "url": "https://ir.kalvista.com/node/12706/html",
+      "locator": "February28,2026 startforms",
+      "facts": "1702forms afterfirst8months.",
+      "limitation": "Forms not necessarilyuniquecommercialusers; no directPHVS secondoral discount."
+    },
+    "KALVREV": {
+      "title": "KalVista Q12026 results",
+      "date": "2026-05",
+      "url": "https://ir.kalvista.com/node/12821/html",
+      "locator": "Netproductrevenue",
+      "facts": "Q12026 revenue39.2m; launchthrough2025 49.1m;Q32025 13.7m.",
+      "limitation": "USplusearlyGermany, stocking andfreebridging; comparisons not pureuserretention."
+    },
+    "MNA": {
+      "title": "KalVista Schedule14D9",
+      "date": "2026-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1348911/000114036126021078/ny20073033x1_sc14d9.htm",
+      "locator": "Background of transaction; existingbuyerhistoryregisters",
+      "facts": "Actualbids,withdrawals and priceobjections; selected successfuldeal not PHVSprobability.",
+      "limitation": "No verifiedPHVS-specificcontact orbid."
+    },
+    "POP": {
+      "title": "Population and paidgap evidence register",
+      "date": "2026-10-08",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1081120625002583",
+      "locator": "USadministrativeclaimsprevalence; research/PHVS_population_paid_gap_followup_2026-10-08.json",
+      "facts": "Diseaseprevalence broaderthan diagnosedtreatedmarket.",
+      "limitation": "10000diagnosedworkingpool is proxy; age/subtypeeligibility retained within compositecapture; not fullprevalence multiplied into bothmarkets."
+    },
+    "JUDGMENT": {
+      "title": "Analyst underwriting choice",
+      "date": "2026-10-09",
+      "url": null,
+      "locator": "inputs.json parameter rationale",
+      "facts": "Explicitly chosen assumptions and structuralstress values.",
+      "limitation": "Not statisticallyestimated, not confidenceintervals."
+    },
+    "XRPERSIST": {
+      "title": "Zuraw et al. US HAE long-term prophylaxis adherence and persistence",
+      "date": "2025-04-29",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40300843/",
+      "locator": "Abstract Methods and Results; research/PHVS_adoption_evidence_2026-10-07.json A04/A05",
+      "facts": "Berotralstat n90:61%12-month persistence, no gap>=45days; meanPDC0.73. Total357 patients>=12 years.",
+      "limitation": "New initiators, not prevalent stableusers; PDC and persistence do not identify each individual refillpath."
+    },
+    "KUVAN20": {
+      "title": "BioMarin2020 Form10K",
+      "date": "2021-02-26",
+      "url": "https://investors.biomarin.com/files/doc_financials/2020/q4/BMRN-BioMarin-Pharmaceutical-Inc-10-K-2021-02-26-pdf_.pdf",
+      "locator": "Net product revenue table",
+      "facts": "Kuvan2020revenue457.7m; USgenericentryOctober2020.",
+      "limitation": "Partialgenericexposure inbaseyear."
+    }
+  },
+  "existing_evidence_registers": [
+    "research/PHVS_adoption_range_source_register.json",
+    "research/PHVS_multiyear_revenue_bridges_2026-10-09.json",
+    "research/PHVS_second_oral_analogue_audit_2026-10-09.json",
+    "research/PHVS_geography_retention_audit_2026-10-09.json",
+    "research/PHVS_IR_priority_calibration_2026-10-09.json",
+    "research/PHVS_buyer_diligence_extension_2026-10-09.json"
+  ],
+  "public_evidence_policy": "No licensed interview or broker model is required to reproduce this model. Prior interview hypotheses are contextual only. Unknown precise publication dates remain null."
+}

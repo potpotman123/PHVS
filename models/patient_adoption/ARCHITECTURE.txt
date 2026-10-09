@@ -1,3 +1,8 @@
+ARCHIVED WORKING MATERIAL — superseded for current valuation on 9 October 2026.
+Canonical inputs, calculations and handoff: models/finalized/README.txt.
+Older retention, timing and pricing statements below describe historical work.
+Do not treat them as competing current assumptions.
+
 LATEST WORKING MODEL UPDATE — 8 October2026
 working_assumptions.json now drives sensitivity.py and illustrative_sensitivity.json.
 XR R1=61%+39%*(20/30)*fraction_of_clinical_exits_avoided:61/74/87% for0/50/100%

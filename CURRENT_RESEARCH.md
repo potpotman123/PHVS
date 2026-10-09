@@ -1,3 +1,11 @@
+# Current model — 9 October 2026
+
+Use [models/finalized/README.txt](models/finalized/README.txt), its [handoff](models/finalized/HANDOFF.txt), inputs and generated results as the single current financial-model authority. It links monthly cohorts to dated cash flows, clinical risk and valuation; preserves the efficacy-only retention allowance; replaces broker pricing support with public anchors; and specifies Monte Carlo/acquisition interfaces. See process event G59.
+
+The entries below are a retained historical research log. Older “latest” or “canonical” labels, 74% retention and relative-year reverse comparisons are superseded for current modeling.
+
+---
+
 Linked US revenue ramp (9October): output/PHVS_US_revenue_ramp_2026-10-09.txt; models/patient_adoption/revenue_ramp.py with inputs/results/table. Practical evidence bridges in research/PHVS_multiyear_revenue_bridges_2026-10-09.json. Relative full model years,IRone-yearlead,notfairvalue. ProcessG37.
 
 Central range/citation register: research/PHVS_adoption_range_source_register.json; readable index: output/PHVS_adoption_range_sources.txt. Includes source URLs, evidence locations, adjustments and explicit source gaps.

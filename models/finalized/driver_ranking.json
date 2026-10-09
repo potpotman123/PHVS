@@ -1,0 +1,170 @@
+[
+  {
+    "parameter": "ir_rx",
+    "target_low": 14.036326845147466,
+    "target_high": 37.056150302684394,
+    "span": 23.01982345753693
+  },
+  {
+    "parameter": "population",
+    "target_low": 16.087610339993525,
+    "target_high": 26.855674199774814,
+    "span": 10.76806385978129
+  },
+  {
+    "parameter": "conversion",
+    "target_low": 15.769249834049099,
+    "target_high": 25.063001206067284,
+    "span": 9.293751372018185
+  },
+  {
+    "parameter": "xr_net_fraction",
+    "target_low": 16.921725422166602,
+    "target_high": 25.487253534538475,
+    "span": 8.565528112371872
+  },
+  {
+    "parameter": "cost_scale",
+    "target_low": 17.667325571236304,
+    "target_high": 25.69025820266523,
+    "span": 8.022932631428926
+  },
+  {
+    "parameter": "ir_retention",
+    "target_low": 16.977288440371275,
+    "target_high": 24.64728925510906,
+    "span": 7.6700008147377865
+  },
+  {
+    "parameter": "discount_rate",
+    "target_low": 17.458023186374323,
+    "target_high": 24.88249688929263,
+    "span": 7.424473702918306
+  },
+  {
+    "parameter": "ir_doses_ltp",
+    "target_low": 19.28164277239143,
+    "target_high": 25.69699558846196,
+    "span": 6.415352816070531
+  },
+  {
+    "parameter": "xr_other_prevention",
+    "target_low": 18.265727487371628,
+    "target_high": 24.41350113417472,
+    "span": 6.147773646803092
+  },
+  {
+    "parameter": "growth",
+    "target_low": 18.67157298112625,
+    "target_high": 24.588355600492573,
+    "span": 5.916782619366323
+  },
+  {
+    "parameter": "loe_year",
+    "target_low": 21.501399507276812,
+    "target_high": 27.233046848272416,
+    "span": 5.731647340995604
+  },
+  {
+    "parameter": "xr_mature_retention",
+    "target_low": 18.347003398262537,
+    "target_high": 23.570548535270255,
+    "span": 5.223545137007719
+  },
+  {
+    "parameter": "ir_net_fraction",
+    "target_low": 18.646324078189302,
+    "target_high": 23.711083786524977,
+    "span": 5.064759708335675
+  },
+  {
+    "parameter": "xr_orladeyo",
+    "target_low": 18.80433962747073,
+    "target_high": 23.601473848225865,
+    "span": 4.797134220755137
+  },
+  {
+    "parameter": "xr_exus_ratio",
+    "target_low": 20.45314324285652,
+    "target_high": 25.16594702438491,
+    "span": 4.71280378152839
+  },
+  {
+    "parameter": "ir_doses_other",
+    "target_low": 19.2250433423331,
+    "target_high": 23.767475691813342,
+    "span": 4.54243234948024
+  },
+  {
+    "parameter": "xr_acute_only",
+    "target_low": 19.466363094682837,
+    "target_high": 23.333252688413655,
+    "span": 3.866889593730818
+  },
+  {
+    "parameter": "manufacture_rate",
+    "target_low": 19.741215002714394,
+    "target_high": 22.375831767267492,
+    "span": 2.6346167645530976
+  },
+  {
+    "parameter": "tax_rate",
+    "target_low": 20.15515056335148,
+    "target_high": 22.661868815148758,
+    "span": 2.5067182517972775
+  },
+  {
+    "parameter": "ir_exus_ratio",
+    "target_low": 20.522744860429036,
+    "target_high": 22.968600727327555,
+    "span": 2.445855866898519
+  },
+  {
+    "parameter": "xr_paid_intensity",
+    "target_low": 20.987368424586496,
+    "target_high": 23.01932544916028,
+    "span": 2.031957024573785
+  },
+  {
+    "parameter": "xr_pos",
+    "target_low": 20.178356081219857,
+    "target_high": 22.16292122030529,
+    "span": 1.9845651390854329
+  },
+  {
+    "parameter": "ir_pos",
+    "target_low": 20.18080810965923,
+    "target_high": 22.1616952060856,
+    "span": 1.9808870964263683
+  },
+  {
+    "parameter": "xr_first_retention",
+    "target_low": 19.65127067091274,
+    "target_high": 21.501399507276812,
+    "span": 1.850128836364071
+  },
+  {
+    "parameter": "dual_use",
+    "target_low": 20.83494353907489,
+    "target_high": 22.16766010989234,
+    "span": 1.3327165708174498
+  },
+  {
+    "parameter": "license_rate",
+    "target_low": 20.621513334839076,
+    "target_high": 21.936003713392704,
+    "span": 1.3144903785536286
+  },
+  {
+    "parameter": "issue_price",
+    "target_low": 20.839771623706007,
+    "target_high": 21.89287119568937,
+    "span": 1.0530995719833633
+  },
+  {
+    "parameter": "nwc_fraction",
+    "target_low": 21.131681637005762,
+    "target_high": 21.743665544242,
+    "span": 0.6119839072362367
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "status": "Interface specified and mechanically tested; no PHVS offer, buyer contact, transaction probability or bid price asserted.",
+  "evidence": [
+    "research/PHVS_buyer_diligence_extension_2026-10-09.json",
+    "research/PHVS_buyer_appetite_2026-10-09.json",
+    "research/PHVS_acquisition_timing_2026-10-09.json",
+    "research/PHVS_Takeda_strategic_fit_2026-10-09.json",
+    "research/BCRX_acquisition_proposals_2026-10-09.json"
+  ],
+  "outcomes": [
+    "Standalone",
+    "Acceptable transaction completed within horizon"
+  ],
+  "default_probability": 0,
+  "probability_scenarios": [
+    0,
+    0.1,
+    0.2,
+    0.3
+  ],
+  "default_meaning": "No unverified takeover premium in standalone value, not a belief that acquisition is impossible.",
+  "buyer_economics": {
+    "calculation": "PV of product/geography cash flows under buyer execution minus necessary development/manufacturing/medical/commercial costs plus avoidable overhead saving minus integration and incumbent franchise cannibalization, all at the same date.",
+    "required_costs": [
+      "BRAIN royalty and commitments",
+      "Manufacturing/distribution and regulatory quality",
+      "Medical affairs and safety surveillance",
+      "Remaining regulatory/development/clinical costs",
+      "Customer support, access and variable selling costs"
+    ],
+    "saving_limits": "Only incremental avoidable expenses, with a phase-in. No elimination of all R&D or SG&A. Buying PHVS may reduce but not eliminate incumbent HAE sales losses; subtract a documented counterfactual lost profit."
+  },
+  "negotiation": {
+    "shareholder_price": "Separate scenario within seller reservation and buyer economic ceiling. A chosen premium or share of net synergies is a bargaining assumption, not an observed bid.",
+    "integration_payment": "Acquirer integration costs reduce buyer economic value, not automatically shareholder cash consideration; distinguish payers.",
+    "form": "Cash default; stock consideration requires acquirer share price/exchange ratio and taxes only if specifically modeled. No invented CVR cash added atfacevalue."
+  },
+  "timing": {
+    "completed_before_target": "Shareholder cash consideration carried to target at an explicit cash reinvestment rate, default0.",
+    "completed_at_target": "Use consideration/share, replacing standalone target.",
+    "completed_after_target": "Outside default horizon. In a separate extended-horizon scenario discount consideration back to target; do not label it already received bytarget.",
+    "announced_not_completed": "At target show completion probability*discounted consideration + failure probability*standalone break value less costs. Announcement alone is not the completed-acquisition terminal state."
+  },
+  "dependencies": [
+    "Conditional on clinical state, commercial outcomes, buyer capacity and acceptable negotiated price.",
+    "Asset-only transaction probability is0 if bothprogramsfail; no universal generous bailout.",
+    "A buyer with HAE infrastructure may have larger savings and larger cannibalization; model both.",
+    "Strategic fit supports plausibility, not high empirical PHVS-specific probability.",
+    "No add-on acquisition premium in both productNPV and terminalbranch."
+  ],
+  "function_contract": {
+    "buyer_value_interface": "Inputs are after-tax PVs at transaction date; outputs buyer value and a negotiation scenario, not an executeddeal. Reject proposals above buyer ceiling.",
+    "acquisition_outcome": "Returns one target-date per-share payoff, never standalone+purchaseprice."
+  },
+  "remaining_judgments": [
+    "Acceptable-price bargaining share or explicit consideration scenario",
+    "Conditional probability and completion timing",
+    "Buyer cost synergies/integration/cannibalization support"
+  ]
+}

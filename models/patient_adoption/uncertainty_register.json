@@ -1,4 +1,6 @@
 {
+  "superseded_by": "models/finalized/inputs.json",
+  "archive_notice": "Historical working snapshot; not current Monte Carlo parameters or current reverse comparison.",
   "status": "Monte Carlo preparation only; no distributions, probabilities or confidence levels assigned",
   "user_direction": "Use ranges for unclear inputs and tune through Monte Carlo; distinguish assumption ranges from statistical confidence intervals.",
   "parameters": [

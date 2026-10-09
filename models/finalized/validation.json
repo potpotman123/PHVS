@@ -1,0 +1,683 @@
+{
+  "as_of": "2026-10-09",
+  "passed": 133,
+  "failed": 0,
+  "sha256": {
+    "inputs.json": "46e0e350c3a19097b62729e43bb51c6b0c068b726accbaf06b29a1dfcf858a6c",
+    "history.json": "ffc2d30b142873a0cea3e6debabf9af3ba92dbf67c02af1804e7c673630b8273",
+    "sources.json": "68dbb1e4f02db24f5b7a9ad3a42ebec8bc6dd11fa8abab1db1d031c03597b117",
+    "engine.py": "2f99dcb979a749e4a18d82b2a1636dd295cc5737d8a6e601820349f012b0d731",
+    "analyze.py": "ac0147e75371e822215cd94bd0147dcb15c9c14452d8efb22eec8b66e37362ef"
+  },
+  "tests": [
+    {
+      "test": "Origin weights conserve disease population",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Twelve-month survival matches chosen retention",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Mature retention applies after month12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Patient-year integration matches analytic survival",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Actual cohort initial stock is inside first-year dose budget",
+      "passed": true,
+      "detail": {
+        "initial": 2.0,
+        "replacement": 6.0
+      }
+    },
+    {
+      "test": "Refill proxy exactly reconciles benchmark PDC",
+      "passed": true,
+      "detail": "Calibration identity, not validation of PHVS paid exposure."
+    },
+    {
+      "test": "Zero paid conversion gives zero revenue",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Zero conversion and failed-access retries conserve patients",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Free initial supply never earns revenue",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Free initial supply still reduces replacement budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Free-stock revenue reduction equals withheld paid initial units",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "IR no revenue before paid-access date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "IR net price units reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "XR no revenue before paid-access date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "XR net price units reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Overlap does not create more unique users than disease patients",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Partner route recognizes royalties only, no gross overseas double count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "shared_gate clinical weights/marginals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "independent clinical weights/marginals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "perfect_positive clinical weights/marginals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "LOE price times volume 2038",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "LOE price times volume 2039",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "LOE price times volume 2040",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "LOE price times volume 2041",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "LOE price times volume 2042",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "LOE price times volume 2043",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "LOE price times volume 2044",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "LOE price times volume 2045",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "LOE price times volume 2046",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "LOE price times volume 2047",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "LOE price times volume 2048",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "LOE price times volume 2049",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "LOE price times volume 2050",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "LOE price times volume 2051",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "LOE price times volume 2052",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "LOE price times volume 2053",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "LOE price times volume 2054",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "LOE price times volume 2055",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "LOE first-year blend retains original framework",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Flat-price stress cannot exceed original erosion revenue",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "2024 reported cash rollforward",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "2024 reported balance sheet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "2024 historical P&L",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "2025 reported cash rollforward",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "2025 reported balance sheet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "2025 historical P&L",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "H1_2026 reported cash rollforward",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "H1_2026 reported balance sheet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "H1_2026 historical P&L",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "working/both full population/balance checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "working/both operating cash identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "working/both cash financing identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "working/both funding/share units",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "working/both monthly quarterly annual revenue reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "working/both equity/shares reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "working/IR_only full population/balance checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "working/IR_only operating cash identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "working/IR_only cash financing identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "working/IR_only funding/share units",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "working/IR_only monthly quarterly annual revenue reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "working/IR_only equity/shares reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "working/XR_only full population/balance checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "working/XR_only operating cash identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "working/XR_only cash financing identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "working/XR_only funding/share units",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "working/XR_only monthly quarterly annual revenue reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "working/XR_only equity/shares reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "working/neither full population/balance checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "working/neither operating cash identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "working/neither cash financing identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "working/neither funding/share units",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "working/neither monthly quarterly annual revenue reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "working/neither equity/shares reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "cautious/both full population/balance checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "cautious/both operating cash identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "cautious/both cash financing identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "cautious/both funding/share units",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "cautious/both monthly quarterly annual revenue reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "cautious/both equity/shares reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "cautious/IR_only full population/balance checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "cautious/IR_only operating cash identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "cautious/IR_only cash financing identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "cautious/IR_only funding/share units",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "cautious/IR_only monthly quarterly annual revenue reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "cautious/IR_only equity/shares reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "cautious/XR_only full population/balance checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "cautious/XR_only operating cash identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "cautious/XR_only cash financing identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "cautious/XR_only funding/share units",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "cautious/XR_only monthly quarterly annual revenue reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "cautious/XR_only equity/shares reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "cautious/neither full population/balance checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "cautious/neither operating cash identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "cautious/neither cash financing identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "cautious/neither funding/share units",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "cautious/neither monthly quarterly annual revenue reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "cautious/neither equity/shares reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "upside_challenge/both full population/balance checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "upside_challenge/both operating cash identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "upside_challenge/both cash financing identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "upside_challenge/both funding/share units",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "upside_challenge/both monthly quarterly annual revenue reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "upside_challenge/both equity/shares reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "upside_challenge/IR_only full population/balance checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "upside_challenge/IR_only operating cash identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "upside_challenge/IR_only cash financing identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "upside_challenge/IR_only funding/share units",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "upside_challenge/IR_only monthly quarterly annual revenue reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "upside_challenge/IR_only equity/shares reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "upside_challenge/XR_only full population/balance checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "upside_challenge/XR_only operating cash identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "upside_challenge/XR_only cash financing identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "upside_challenge/XR_only funding/share units",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "upside_challenge/XR_only monthly quarterly annual revenue reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "upside_challenge/XR_only equity/shares reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "upside_challenge/neither full population/balance checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "upside_challenge/neither operating cash identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "upside_challenge/neither cash financing identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "upside_challenge/neither funding/share units",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "upside_challenge/neither monthly quarterly annual revenue reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "upside_challenge/neither equity/shares reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Acquisition replaces standalone value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Failed completion uses standalone outcome",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Later deal discounted to target",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Earlier cash does not automatically earn equity WACC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Buyer value differs from negotiated consideration",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Negative net synergy does not support an acceptable reservation-price bid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Dose-price increase increases value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Faster IR acquisition increases value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Higher costs reduce value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Every parameter source resolves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Every financial-policy source resolves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No canonical input cites licensed files",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "meaning": "Mechanical verification only. Historical calibration and public-source checking are distinct; no independent commercial validation or statistical CI implied."
+}

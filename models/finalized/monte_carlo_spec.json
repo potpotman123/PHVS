@@ -1,0 +1,53 @@
+{
+  "status": "Ready for implementation under explicit underwriting priors; no Monte Carlo run or empirical distributions claimed.",
+  "horizon": {
+    "as_of": "2026-10-09",
+    "target": "2027-10-09",
+    "clinical_timing": "Revealed on product decision dates, with approval/commercial/access distinct."
+  },
+  "uncertainty_register": "inputs.json:parameters. Every parameter has value, bounds, units, denominator, period, status, source/translation and distribution proposal.",
+  "sampling_order": [
+    "Choose market/commercial scenario or draw IR capture and joint XR cohort-capture factor; pool counts derived from population and fixed weights.",
+    "Choose one access-price package. Conversion, access delay and net-price fractions come from the same package. Do not independently choose four favorable endpoints.",
+    "Draw retention/dispensing/pricing residual assumptions only where the chosen prior is explicitly documented. Paid intensity is one parameter, not independently resampled PDC and persistence that were used to derive it.",
+    "Choose launch-date, geography route and structural cohort scenario. Keep their selected uncertainties separate from numerical rate uncertainty.",
+    "Draw shared clinical gate first; if it passes draw IR and XR conditional successes at marginalPoS/sharedPoS. Compute each state exactly once with no further PoS multiplier.",
+    "Run dated financials and funding. Clinical decisions may change costs. Avoid allowing future unknowable outcomes to set a predecision financing price; use a common predecision information set if replacing the fixed-price diagnostic financing assumption.",
+    "Select standalone or completed acquisition within the horizon, conditional on clinical/commercial state. Value shareholder consideration at target date. Never add the entire acquired value to standalone.",
+    "Aggregate per-share target outcomes, funding need, clinical states and commercial units; report conditional and unconditional distributions separately."
+  ],
+  "suggested_underwriting_priors": {
+    "continuous": "Triangular(min, working mode, max) is an optional transparent analyst prior for IR acquisition, population, dose intensity, mature retention and cost scale; not an empirical confidence distribution.",
+    "xr_capture": "Draw a shared commercial factor on [-1,1] and map each XR origin rate linearly from working to its chosen low/high. This defines a scenario dependence, not an estimated numerical correlation; compare with independent origin draws as a sensitivity.",
+    "retention": "First-year XR working value is the user-selected efficacy allowance, at the upper end of its61-69.45%scenario range. Do not add AE benefit or secretly recentre a symmetric distribution above it.",
+    "structural": "Use discrete scenarios for re-entry, hazard decay, non-PHVS migration, foreign rights and generic-price cap. Weights are analyst choices; unassigned until recorded.",
+    "acquisition": "Do not convert selected successful deals or anecdotal contact into a fitted beta prior. Show0/10/20/30%scenario probabilities; working standalone excludes acquisition. Conditional failed-program probability is0 for this asset-only branch.",
+    "clinical": "Use categorical four-state weights from engine.clinical_weights; compare shared-gate, independent and perfect-positive alternatives.",
+    "timing": "Use explicit discrete6month-delay scenarios, not a fabricated continuous regulator probability distribution."
+  },
+  "controls": [
+    "Fixed seed and recorded draw count; serial deterministic engine first.",
+    "Separate epistemic ranges from within-patient randomness: this aggregated model does not simulate individual attacks.",
+    "No arbitrary numeric correlation matrix. Shared scenario factors and conditional gates are documented.",
+    "No independently sampled derived WAC annualization, source-pool counts or net-price components already chosen by access package.",
+    "No second efficacy multiplier on prescribing and retention unless separately justified.",
+    "No second redosing haircut on claims dispensing.",
+    "Record chosen priors, mixture weights and effective constraints with output; no false precision from many draws.",
+    "Monte Carlo quantiles are conditional on priors, not market-estimated probability of a long/short return."
+  ],
+  "outputs": [
+    "Expected12monthprice and median/quantiles labelled scenario distribution",
+    "Conditionalcommercialsuccess values vs approval failures",
+    "Acquired vs standalone mix and acquisition contribution",
+    "Probabilityofrequiredadditionalcapital under chosen assumptions",
+    "Attribution to patientcapture, paiduse/unit economics andcost/funding families"
+  ],
+  "implementation_entrypoints": [
+    "engine.resolve",
+    "engine.commercial",
+    "engine.financial",
+    "engine.value_at",
+    "engine.clinical_weights",
+    "engine.acquisition_outcome"
+  ]
+}
