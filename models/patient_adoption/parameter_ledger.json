@@ -9,7 +9,8 @@
     "PHSx": "research/PHVS_public_pharmacy_sources_2026-10-08.json sources",
     "H1-H4": "research/PHVS_three_adoption_hypotheses_2026-10-08.json sources",
     "L1-L6": "research/PHVS_population_launch_calibration_2026-10-08.json",
-    "GAP1-GAP4": "research/PHVS_population_paid_gap_followup_2026-10-08.json"
+    "GAP1-GAP4": "research/PHVS_population_paid_gap_followup_2026-10-08.json",
+    "XR01-XR07": "research/PHVS_XR_entry_access_2026-10-09.json"
   },
   "parameters": [
     {
@@ -262,8 +263,10 @@
         "competition"
       ],
       "double_counting_risk": "Never multiply composite attempt by its reach components.",
-      "numerical_use": "not_ready",
-      "definition": "Reach/review/prescription for Each eligible source cohort over Each month"
+      "numerical_use": "scenario_only; not observed probability",
+      "definition": "Reach/review/prescription for Each eligible source cohort over Each month",
+      "scenario_inputs": "xr_entry_inputs.json",
+      "additional_note": "R5origin-specific prescriptions5\u201315%oral,2\u20136%otherLTP/acute-only,0.5\u20132%untreated; X1first-paid65\u201390%; X2conditional21\u201390days. Analyst ranges, not confidence intervals."
     },
     {
       "id": "X1",
@@ -289,7 +292,7 @@
         "price"
       ],
       "double_counting_risk": "Stock paid share is not conversion.",
-      "numerical_use": "not_ready",
+      "numerical_use": "scenario_only; not observed probability",
       "definition": "Prescription-to-start conversion for Submitted PHVS prescriptions over Cohort follow-up",
       "public_data_discovery_refs": [
         "PHS1",
@@ -299,7 +302,9 @@
       "differentiation_evidence_refs": [
         "H1"
       ],
-      "reconciliation_note": "Monthly paid/free model demonstrates nonidentifiability; fitted conversion is not observed transition evidence. See reconciliation_results.json."
+      "reconciliation_note": "Monthly paid/free model demonstrates nonidentifiability; fitted conversion is not observed transition evidence. See reconciliation_results.json.",
+      "scenario_inputs": "xr_entry_inputs.json",
+      "additional_note": "R5origin-specific prescriptions5\u201315%oral,2\u20136%otherLTP/acute-only,0.5\u20132%untreated; X1first-paid65\u201390%; X2conditional21\u201390days. Analyst ranges, not confidence intervals."
     },
     {
       "id": "X2",
@@ -328,13 +333,15 @@
         "bridge"
       ],
       "double_counting_risk": "Do not also reduce starts for same delay.",
-      "numerical_use": "benchmark_only",
+      "numerical_use": "scenario_only; not observed probability",
       "definition": "Time to first paid supply for Orladeyo new prescriptions over Historical launch",
       "public_data_discovery_refs": [
         "PHS2",
         "PHS3"
       ],
-      "reconciliation_note": "Monthly paid/free model demonstrates nonidentifiability; fitted conversion is not observed transition evidence. See reconciliation_results.json."
+      "reconciliation_note": "Monthly paid/free model demonstrates nonidentifiability; fitted conversion is not observed transition evidence. See reconciliation_results.json.",
+      "scenario_inputs": "xr_entry_inputs.json",
+      "additional_note": "R5origin-specific prescriptions5\u201315%oral,2\u20136%otherLTP/acute-only,0.5\u20132%untreated; X1first-paid65\u201390%; X2conditional21\u201390days. Analyst ranges, not confidence intervals."
     },
     {
       "id": "X3",

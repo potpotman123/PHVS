@@ -1,0 +1,65 @@
+{
+  "as_of": "2026-10-09",
+  "scope": "Bounded XR origin-specific prescription and access work; no agent, bulk collection, paid data or outreach",
+  "findings": [
+    {
+      "id": "XR01",
+      "source": "research/PHVS_adoption_evidence_2026-10-07.json:A06",
+      "observation": "50/328LTPinitiators switched to any alternativeLTP within12months",
+      "use": "Magnitude check only; not annual incumbent switching or PHVS destination share. No direct rate copied."
+    },
+    {
+      "id": "XR02",
+      "source": "research/PHVS_three_adoption_hypotheses_2026-10-08.json:H2",
+      "observation": "20/80Frenchberotralstat starters stopped for efficacy/AEs",
+      "use": "Identifies potential differentiation; does not measure dissatisfaction in currentUSoral stock. Surviving prevalent users are selected; no25%stock haircut."
+    },
+    {
+      "id": "XR03",
+      "source": "research/PHVS_three_adoption_hypotheses_2026-10-08.json:H1",
+      "observation": "150-person preference study;54%simulated oral preference,15%extremely willing to switch",
+      "use": "Heterogeneous preferences; not revealed choice or conversion. No multiplication of survey share by payer approval."
+    },
+    {
+      "id": "XR04",
+      "source": "research/alphasense_calls_evidence_2026-10-07.json:E1/E2/E3/E4/E5",
+      "observation": "Physicians disagree on inertia vs better oral switching; small practices, differing denominators and potentially repeated experts",
+      "use": "Oral substitution vs stable-injectable/long-interval competition motivates rate ordering, not numerical calibration. No averaging expert market shares."
+    },
+    {
+      "id": "XR05",
+      "source": "research/PHVS_commercial_calibration_2026-10-08.json:2021Q3,2022Q2; original supplied BioCryst transcripts",
+      "observation": "Company described within30dayaverage paid access and later<3weekmedian",
+      "use": "21/30day successful-access delay reference; conditional population not disclosed.90daylaunch stress assumed. Does not identify conversion probability."
+    },
+    {
+      "id": "XR06",
+      "source": "https://ir.ionispharma.com/static-files/13388a04-bd7b-4577-b19e-4f373fc325c2",
+      "date": "2025-11-06/10",
+      "location": "OASISplusACAAIposterR082,Tables1-2",
+      "observation": "64dosedvoluntaryswitchers:31priorlanadelumab,11berotralstat,22C1INH;65enrolled,54completed1year",
+      "use": "Competing product can attract switchers across same origin groups. No unswitched denominator and trial access, so no commercial probability or unbiased comparative efficacy inferred."
+    },
+    {
+      "id": "XR07",
+      "source": "research/raw/adoption_audit_2026-10-07/ltp_claims.txt:Table2",
+      "observation": "56/499switched and152/499discontinued acrossvariablefollowup;mean18monthdataavailability",
+      "use": "Switching and cessation differ. Do not annualize11.2%by dividing bymeanfollowup or assign all exits toPHVS."
+    }
+  ],
+  "search_outcome": "Reused nine expert calls and prior pharmacy/claims/launch audits. Six targeted queries across switch studies, on-demand-to-LTP and issuer/access disclosures yielded no matched incumbent-origin->PHVS or Rx->paid empirical rates. New primary competitor switch poster supports competition mechanism, not capture magnitude. PMC access blocked; existing saved claims fulltext and primary poster used. Stopped low-yield expansion.",
+  "decision": "Implement a transparent underwriting grid plus first-commercial-year flow calculation. Numerical prescription/access ranges are analyst assumptions, not fitted data or confidence intervals. No selected fair value or probability-weighted case.",
+  "artifacts": [
+    "models/patient_adoption/xr_entry_inputs.json",
+    "models/patient_adoption/xr_entry_model.py",
+    "models/patient_adoption/xr_entry_results.json"
+  ],
+  "transfer_limits": [
+    "PHVS rates span entire provisional origin pools; implicit eligibility/reach/choice, not biologically eligible population estimates.",
+    "New-starter attrition cannot represent prevalent-user dissatisfaction.",
+    "HistoricalOrladeyo entrant history is not immediate origin and not net-growth mix.",
+    "Prescription attempts, trial starts, paid/PAP entries and paid patients are distinct metrics.",
+    "The model conditions on approval and launch; no clinicalPoS inside adoption.",
+    "No evidence establishes low/high scenarios as true bounds; outcomes outside grid possible."
+  ]
+}

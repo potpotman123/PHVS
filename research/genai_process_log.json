@@ -561,6 +561,18 @@
       "snapshot": "Treatment-stock baseline grows~7.7%in5years at1.5%; currentLTP share is not XRceiling and rescue overlays LTP.",
       "limitations": "Issuer claims estimates; no causal case-finding estimate, true prevalence bound, current age/subtype eligibility or probability distribution identified. Scaling helper not integrated PHVS adoption/revenue forecast.",
       "remaining_work": "Calibrate prevention uptake and origin capture; paid supply and price for rescue."
+    },
+    {
+      "id": "G34",
+      "logged_on": "2026-10-09",
+      "objective": "Develop XR prescriptions by origin and first-paid conversion/delay scenarios.",
+      "user_contribution": "Authorized the proposed XR acquisition/access work package after requesting prioritization of missing numbers.",
+      "prompt_excerpt": "All right, let's do that.",
+      "ai_method_and_sources": "Reused expert and claims/launch ledgers; bounded search; primaryOASISpluscompetitorposter; daily-timed first-year prescriptions/payment/retention arithmetic. research/PHVS_XR_entry_access_2026-10-09.json",
+      "snapshot": "Workinghypothesis:460prescriptions,338firstpaid,295yearendactive,141paidpatientyears. Originrates and65\u201390%paidconversion explicitlyassumed, notempirical.",
+      "thesis_effect": "Separates entry, payment and exposure; survivorselectionqualifies oral dissatisfaction, and injectablecompetitorscanwinunmetneed. No long/short verdict.",
+      "limitations": "No matched commercial conversion dataset; illustrativewholemarketpools,1year only, no empirical calibration or probability distribution; tested arithmetic, not realworld demand.",
+      "remaining_work": "Challenge origin-rate ranges and access scenarios; extend surviving cohorts and residual pools across years before linking USnetprice/worldwidevaluation."
     }
   ]
 }

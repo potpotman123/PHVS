@@ -1,0 +1,404 @@
+{
+  "status": "First commercial-year underwriting scenarios, conditional on approval/launch; not empirically estimated PHVS capture rates or a selected valuation forecast",
+  "cases": {
+    "cautious": {
+      "rate_index": 0,
+      "conversion": 0.65,
+      "delay_days": 90,
+      "retention": 0.74,
+      "growth": 0.015,
+      "by_origin": [
+        {
+          "origin": "orladeyo",
+          "initial_pool": 1700,
+          "annual_composite_prescription_probability": 0.05,
+          "prescriptions": 85.63591808482985,
+          "eventual_paid": 55.66334675513945,
+          "first_paid": 41.861060504629044,
+          "pending_paid": 13.802286250510397,
+          "active": 37.46028723994728,
+          "exits": 4.400773264681761,
+          "patient_years": 14.615406282217318,
+          "nonconverters": 29.972571329690403
+        },
+        {
+          "origin": "other_prevention",
+          "initial_pool": 4080,
+          "annual_composite_prescription_probability": 0.02,
+          "prescriptions": 82.21048136143673,
+          "eventual_paid": 53.43681288493383,
+          "first_paid": 40.186618084443886,
+          "pending_paid": 13.250194800489982,
+          "active": 35.96187575034938,
+          "exits": 4.224742334094485,
+          "patient_years": 14.030790030928623,
+          "nonconverters": 28.773668476502905
+        },
+        {
+          "origin": "acute_only",
+          "initial_pool": 2720,
+          "annual_composite_prescription_probability": 0.02,
+          "prescriptions": 54.80698757429108,
+          "eventual_paid": 35.624541923289236,
+          "first_paid": 26.791078722962585,
+          "pending_paid": 8.833463200326651,
+          "active": 23.974583833566292,
+          "exits": 2.8164948893963255,
+          "patient_years": 9.353860020619079,
+          "nonconverters": 19.182445651001842
+        },
+        {
+          "origin": "diagnosed_untreated",
+          "initial_pool": 1500,
+          "annual_composite_prescription_probability": 0.005,
+          "prescriptions": 7.556110419249697,
+          "eventual_paid": 4.911471772512302,
+          "first_paid": 3.6936229857025613,
+          "pending_paid": 1.217848786809741,
+          "active": 3.305319462348289,
+          "exits": 0.38830352335427254,
+          "patient_years": 1.2895946719603508,
+          "nonconverters": 2.644638646737395
+        }
+      ],
+      "totals": {
+        "prescriptions": 230.20949743980736,
+        "eventual_paid": 149.63617333587482,
+        "first_paid": 112.53238029773807,
+        "pending_paid": 37.10379303813677,
+        "active": 100.70206628621123,
+        "exits": 11.830314011526845,
+        "patient_years": 39.289651005725375,
+        "nonconverters": 80.57332410393253
+      }
+    },
+    "working": {
+      "rate_index": 1,
+      "conversion": 0.8,
+      "delay_days": 30,
+      "retention": 0.74,
+      "growth": 0.015,
+      "by_origin": [
+        {
+          "origin": "orladeyo",
+          "initial_pool": 1700,
+          "annual_composite_prescription_probability": 0.1,
+          "prescriptions": 171.2718361696597,
+          "eventual_paid": 137.01746893572783,
+          "first_paid": 125.67865470264617,
+          "pending_paid": 11.338814233081667,
+          "active": 109.84215158075422,
+          "exits": 15.836503121891976,
+          "patient_years": 52.59460401507233,
+          "nonconverters": 34.25436723393187
+        },
+        {
+          "origin": "other_prevention",
+          "initial_pool": 4080,
+          "annual_composite_prescription_probability": 0.04,
+          "prescriptions": 164.42096272287347,
+          "eventual_paid": 131.53677017829872,
+          "first_paid": 120.65150851454038,
+          "pending_paid": 10.885261663758397,
+          "active": 105.44846551752404,
+          "exits": 15.203042997016283,
+          "patient_years": 50.49081985446945,
+          "nonconverters": 32.884192544574745
+        },
+        {
+          "origin": "acute_only",
+          "initial_pool": 2720,
+          "annual_composite_prescription_probability": 0.04,
+          "prescriptions": 109.61397514858216,
+          "eventual_paid": 87.69118011886583,
+          "first_paid": 80.43433900969359,
+          "pending_paid": 7.2568411091722655,
+          "active": 70.29897701168267,
+          "exits": 10.135361998010865,
+          "patient_years": 33.66054656964635,
+          "nonconverters": 21.922795029716326
+        },
+        {
+          "origin": "diagnosed_untreated",
+          "initial_pool": 1500,
+          "annual_composite_prescription_probability": 0.01,
+          "prescriptions": 15.112220838499393,
+          "eventual_paid": 12.08977667079952,
+          "first_paid": 11.089293061998195,
+          "pending_paid": 1.0004836088013234,
+          "active": 9.691954551243025,
+          "exits": 1.3973385107551752,
+          "patient_years": 4.640700354271086,
+          "nonconverters": 3.0224441676998737
+        }
+      ],
+      "totals": {
+        "prescriptions": 460.41899487961473,
+        "eventual_paid": 368.3351959036919,
+        "first_paid": 337.85379528887836,
+        "pending_paid": 30.48140061481365,
+        "active": 295.28154866120394,
+        "exits": 42.5722466276743,
+        "patient_years": 141.38667079345922,
+        "nonconverters": 92.08379897592282
+      }
+    },
+    "optimistic": {
+      "rate_index": 2,
+      "conversion": 0.9,
+      "delay_days": 21,
+      "retention": 0.74,
+      "growth": 0.015,
+      "by_origin": [
+        {
+          "origin": "orladeyo",
+          "initial_pool": 1700,
+          "annual_composite_prescription_probability": 0.15,
+          "prescriptions": 256.9077542544898,
+          "eventual_paid": 231.21697882904078,
+          "first_paid": 217.82054614255057,
+          "pending_paid": 13.396432686490163,
+          "active": 189.7040999517618,
+          "exits": 28.116446190788675,
+          "patient_years": 93.37751789859466,
+          "nonconverters": 25.690775425449033
+        },
+        {
+          "origin": "other_prevention",
+          "initial_pool": 4080,
+          "annual_composite_prescription_probability": 0.06,
+          "prescriptions": 246.63144408431026,
+          "eventual_paid": 221.96829967587908,
+          "first_paid": 209.10772429684846,
+          "pending_paid": 12.860575379030553,
+          "active": 182.1159359536915,
+          "exits": 26.991788343157104,
+          "patient_years": 89.64241718265086,
+          "nonconverters": 24.66314440843118
+        },
+        {
+          "origin": "acute_only",
+          "initial_pool": 2720,
+          "annual_composite_prescription_probability": 0.06,
+          "prescriptions": 164.42096272287347,
+          "eventual_paid": 147.978866450586,
+          "first_paid": 139.40514953123233,
+          "pending_paid": 8.573716919353704,
+          "active": 121.41062396912753,
+          "exits": 17.994525562104748,
+          "patient_years": 59.76161145510063,
+          "nonconverters": 16.442096272287472
+        },
+        {
+          "origin": "diagnosed_untreated",
+          "initial_pool": 1500,
+          "annual_composite_prescription_probability": 0.02,
+          "prescriptions": 30.224441676998786,
+          "eventual_paid": 27.201997509298895,
+          "first_paid": 25.625946605005932,
+          "pending_paid": 1.5760509042929602,
+          "active": 22.318129406089643,
+          "exits": 3.3078171989163114,
+          "patient_years": 10.985590341011141,
+          "nonconverters": 3.0224441676998914
+        }
+      ],
+      "totals": {
+        "prescriptions": 698.1846027386723,
+        "eventual_paid": 628.3661424648047,
+        "first_paid": 591.9593665756373,
+        "pending_paid": 36.406775889167385,
+        "active": 515.5487892806705,
+        "exits": 76.41057729496684,
+        "patient_years": 253.7671368773573,
+        "nonconverters": 69.81846027386757
+      }
+    }
+  },
+  "one_variable_sensitivities": [
+    {
+      "axis": "rate_index",
+      "value": 0,
+      "totals": {
+        "prescriptions": 230.20949743980736,
+        "eventual_paid": 184.16759795184595,
+        "first_paid": 168.92689764443918,
+        "pending_paid": 15.240700307406826,
+        "active": 147.64077433060197,
+        "exits": 21.28612331383715,
+        "patient_years": 70.69333539672961,
+        "nonconverters": 46.04189948796141
+      }
+    },
+    {
+      "axis": "rate_index",
+      "value": 1,
+      "totals": {
+        "prescriptions": 460.41899487961473,
+        "eventual_paid": 368.3351959036919,
+        "first_paid": 337.85379528887836,
+        "pending_paid": 30.48140061481365,
+        "active": 295.28154866120394,
+        "exits": 42.5722466276743,
+        "patient_years": 141.38667079345922,
+        "nonconverters": 92.08379897592282
+      }
+    },
+    {
+      "axis": "rate_index",
+      "value": 2,
+      "totals": {
+        "prescriptions": 698.1846027386723,
+        "eventual_paid": 558.5476821909377,
+        "first_paid": 512.3253394643166,
+        "pending_paid": 46.22234272662114,
+        "active": 447.7683002674274,
+        "exits": 64.55703919688906,
+        "patient_years": 214.40035636732446,
+        "nonconverters": 139.63692054773458
+      }
+    },
+    {
+      "axis": "conversion",
+      "value": 0.65,
+      "totals": {
+        "prescriptions": 460.41899487961473,
+        "eventual_paid": 299.27234667174963,
+        "first_paid": 274.5062086722137,
+        "pending_paid": 24.76613799953609,
+        "active": 239.91625828722815,
+        "exits": 34.58995038498536,
+        "patient_years": 114.8766700196856,
+        "nonconverters": 161.14664820786507
+      }
+    },
+    {
+      "axis": "conversion",
+      "value": 0.8,
+      "totals": {
+        "prescriptions": 460.41899487961473,
+        "eventual_paid": 368.3351959036919,
+        "first_paid": 337.85379528887836,
+        "pending_paid": 30.48140061481365,
+        "active": 295.28154866120394,
+        "exits": 42.5722466276743,
+        "patient_years": 141.38667079345922,
+        "nonconverters": 92.08379897592282
+      }
+    },
+    {
+      "axis": "conversion",
+      "value": 0.9,
+      "totals": {
+        "prescriptions": 460.41899487961473,
+        "eventual_paid": 414.3770953916533,
+        "first_paid": 380.0855196999879,
+        "pending_paid": 34.29157569166535,
+        "active": 332.19174224385443,
+        "exits": 47.89377745613359,
+        "patient_years": 159.06000464264162,
+        "nonconverters": 46.041899487961416
+      }
+    },
+    {
+      "axis": "delay_days",
+      "value": 21,
+      "totals": {
+        "prescriptions": 460.41899487961473,
+        "eventual_paid": 368.3351959036919,
+        "first_paid": 346.99429921445096,
+        "pending_paid": 21.340896689240974,
+        "active": 302.20400410616196,
+        "exits": 44.790295108289065,
+        "patient_years": 148.75303069161757,
+        "nonconverters": 92.08379897592282
+      }
+    },
+    {
+      "axis": "delay_days",
+      "value": 30,
+      "totals": {
+        "prescriptions": 460.41899487961473,
+        "eventual_paid": 368.3351959036919,
+        "first_paid": 337.85379528887836,
+        "pending_paid": 30.48140061481365,
+        "active": 295.28154866120394,
+        "exits": 42.5722466276743,
+        "patient_years": 141.38667079345922,
+        "nonconverters": 92.08379897592282
+      }
+    },
+    {
+      "axis": "delay_days",
+      "value": 90,
+      "totals": {
+        "prescriptions": 460.41899487961473,
+        "eventual_paid": 368.3351959036919,
+        "first_paid": 277.00278227135533,
+        "pending_paid": 91.33241363233671,
+        "active": 247.88200931990454,
+        "exits": 29.120772951450682,
+        "patient_years": 96.71298709101636,
+        "nonconverters": 92.08379897592282
+      }
+    },
+    {
+      "axis": "retention",
+      "value": 0.61,
+      "totals": {
+        "prescriptions": 460.41899487961473,
+        "eventual_paid": 368.3351959036919,
+        "first_paid": 337.85379528887836,
+        "pending_paid": 30.48140061481365,
+        "active": 271.742333179087,
+        "exits": 66.11146210979133,
+        "patient_years": 133.74864265035797,
+        "nonconverters": 92.08379897592282
+      }
+    },
+    {
+      "axis": "retention",
+      "value": 0.74,
+      "totals": {
+        "prescriptions": 460.41899487961473,
+        "eventual_paid": 368.3351959036919,
+        "first_paid": 337.85379528887836,
+        "pending_paid": 30.48140061481365,
+        "active": 295.28154866120394,
+        "exits": 42.5722466276743,
+        "patient_years": 141.38667079345922,
+        "nonconverters": 92.08379897592282
+      }
+    },
+    {
+      "axis": "retention",
+      "value": 0.87,
+      "totals": {
+        "prescriptions": 460.41899487961473,
+        "eventual_paid": 368.3351959036919,
+        "first_paid": 337.85379528887836,
+        "pending_paid": 30.48140061481365,
+        "active": 317.1996591921255,
+        "exits": 20.654136096752705,
+        "patient_years": 148.3112845602798,
+        "nonconverters": 92.08379897592282
+      }
+    }
+  ],
+  "population_growth_note": "working_assumptions.json:net1.5%annual pool growth; distributed proportionately across origin pools as approximation. Do not add separate diagnosis flows or deaths.",
+  "limitations": [
+    "Working case is an arithmetic reference, not an empirical expected value; bundled cases are not percentiles or confidence bounds.",
+    "Rates combine eligibility, reach, consideration and PHVS-specific choice; do not multiply additional awareness or preference haircuts on top without redefining them.",
+    "One-year model; not a five-year launch curve or peak sales forecast. No clinical uptake curve within the year: prescriptions uniform daily except modest population scaling.",
+    "Uniform timing, fixed delay, conditional exponential paid retention and no reattempts within year are simplifications.",
+    "Source-population movement among non-PHVS drugs is not explicitly modeled during this year; composite probabilities absorb competing choices. No all-exits-go-to-PHVS assumption.",
+    "No origin-specific payer segmentation identified; keep access independent as a sensitivity dimension, not assert similar reimbursement in practice.",
+    "Historical inferred439.5Orladeyo paid/PAP entries differ from PHVS prescriptions and paid starts. Do not equate them as a calibration target."
+  ],
+  "definitions": {
+    "first_paid": "Actual first-paid entrants within first calendar launch year",
+    "eventual_paid": "Successful prescriptions, including conversions after year-end",
+    "active": "Paid survivors at year-end",
+    "patient_years": "Integrated paid exposure; multiply net annual realized revenue per paid-treatment year only when estimated"
+  }
+}

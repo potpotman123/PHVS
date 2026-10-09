@@ -65,5 +65,12 @@
     "distribution": null,
     "source": "working_assumptions.json population_growth",
     "rule": "Do not also add separate new diagnosis or death flows; no sampling confidence claimed."
+  },
+  "XR_first_year_module": {
+    "inputs": "xr_entry_inputs.json",
+    "results": "xr_entry_results.json",
+    "rule": "Bundled cautious/working/optimistic cases are not probabilities; one-variable sweeps separate acquisition, conversion, delay and retention. Do not automatically draw all independently for MonteCarlo.",
+    "dependence": "Origin rates share prescriber reach/competitive positioning; worse access may lower conversion and lengthen delay; do not compound pre-paid dropout twice. Retention begins first paid fill here.",
+    "distribution": null
   }
 }

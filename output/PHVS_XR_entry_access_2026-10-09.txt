@@ -1,0 +1,84 @@
+PHVS XR — first-year origin and paid-access model
+9 October2026. Conditional on launch. US only. No valuation or PoS changed.
+
+RESULT
+We now have an explicit origin-based first-year model, with calibrated facts
+separated from unmeasured underwriting choices. Public evidence does not identify
+PHVS-specific annual switching or prescription-to-paid conversion; the ranges
+below are hypotheses for challenge, not new empirical estimates or confidence bounds.
+
+INPUT GRID
+Origin                         Initial pool      AnnualPHVS prescription fraction
+Orladeyo                            1700                 5% /10% /15%
+Other prevention                    4080                 2% / 4% / 6%
+Acute-only                          2720                 2% / 4% / 6%
+Diagnosed untreated                 1500               0.5% / 1% / 2%
+Pools are the existing illustrative10000diagnosed/8500treated partition, not a
+new census. Rates combine eligibility, reach, clinical choice and competition.
+Do not add separate unmeasured preference/reach multipliers to these rates.
+Population grows1.5%net annually, without additional diagnosis/death adjustments.
+
+WHY THESE DIRECTIONS, AND WHAT IS NOT KNOWN
+Oral users are a potential same-route efficacy/tolerability substitution group.
+However20/80clinical-cause exits among FrenchOrladeyo NEW STARTERS do not establish
+25%dissatisfaction among remainingUSusers; survivors are selected responders.
+The5/10/15%rates are analyst choices.15%is a deliberately strong PHVS-destination
+case relative to15.2%ANY-LTPswitching in a different initiation cohort, not a bound.
+Injectable/other-prevention users include satisfied users, prior oral failures and
+patients preferring longer intervals. Survey54%oral preference is not conversion.
+Acute-only patients may initiate prevention, but better oral rescue and other
+preventives compete;32%historicalOrladeyo entrants fromacute-only is not an annualrate.
+Untreated patients have weakest engagement/eligibility evidence; lowest scenario
+rates reflect this judgment, not measured first-treatment incidence.
+New competitor evidence: OASISplus included64dosed switchers from lanadelumab31,
+berotralstat11 andC1INH22. It demonstrates competing switch destinations, not
+commercial capture rates. Selected trial participants lack an unswitched denominator.
+
+ACCESS AND TIMING
+Cautious:65%reach firstpaid,90dayconditional delay.
+Working:80%,30days. Optimistic:90%,21days.
+Conversion values are assumed, NOT inferred from Orladeyo71.5/81%paid stock.
+PriorBioCryst disclosures support21/30days as successful-access timing references;
+90daysis a launch stress. Their timing population/censoring is incompletely defined.
+Use one common access scenario across origins; no evidence supports differential
+payer mix yet. First-paid probability already includes pre-paid nonstart/abandonment;
+do not additionally apply a pre-paid clinical dropout multiplier.
+
+WORKING CASE BY ORIGIN (rounded, includes modest pool growth)
+Origin                     Prescriptions     First paid within year     Year-end paid
+Orladeyo                        171                    126                    110
+Other prevention                164                    121                    105
+Acute-only                      110                     80                     70
+Diagnosed untreated              15                     11                     10
+Total                           460                    338                    295
+
+ALL CASES — common74%first-paid-year retention assumption
+Case          Prescriptions  Eventualpaid  Firstpaidinyear  YEpaid  Paidpatientyears
+Cautious           230           150            112          101          39
+Working            460           368            338          295         141
+Optimistic         698           628            592          515         254
+Rounded values may not add. Eventualpaid includes later conversions after year-end.
+141paidpatientyears, not460prescriptions or295endingpatients, is the relevant
+first-year exposure for future net-revenue calculations. This still excludes net
+price, adherence-related supply effects, inventory and quarterly shipment accounting.
+
+IMPLEMENTATION / VALIDATION
+xr_entry_model.py uses daily midpoint prescription cohorts across the first365days,
+fixed access delay and exponential paid retention. Retention clock starts at first
+paid fill; empirical61%claims proxy and74/87%assumptions remain separately visible.
+One-variable sweeps isolate origin activity, conversion, lag and retention rather
+than treating bundled cases as probability quantiles. Tests cover prescription
+and paid stock identities, exposure bounds, spillover, zero conversion, no attrition,
+and monotonicity. These verify mechanics, not external commercial validity.
+HistoricalOrladeyo~440inferred paid/PAPentries are NOT the same unit as460modeled
+PHVSprescriptions; numerical proximity is not independent validation or fitting.
+
+LIMITATION / NEXT DECISION
+This is a one-year conditional underwriting worksheet, not a selected expected
+forecast, five-year adoption curve, national state-transition engine or peak-sales
+estimate. No evidence establishes the low/high cases as strict bounds. Competition,
+within-year reviews and changing origin stocks are represented by composite annual
+rates. No systematic intra-year launch maturation or reattempt process is estimated.
+Next: challenge which origin rates are supportable, then extend residual pools and
+surviving cohorts over multiple years before attaching netprice and the reverseDCF.
+Detailed evidence: research/PHVS_XR_entry_access_2026-10-09.json.

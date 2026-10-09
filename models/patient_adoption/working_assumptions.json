@@ -17,12 +17,13 @@
   },
   "switching": {
     "paid_start_rate_by_origin": null,
-    "status": "Uncalibrated; existing attempt/access grid retained as mechanics only. Do not multiply survey54%preference or15%extremelywilling by access.",
+    "status": "Uncalibrated empirical rates; explicit origin-specific underwriting ranges and prescription-to-paid timing implemented in xr_entry_model.py. Older attempt/access grid remains separate illustrative mechanics.",
     "segmentation": [
       "current preventive therapy",
       "prior oral exposure",
       "control/tolerability/burden attributes without double counting"
-    ]
+    ],
+    "first_year_scenario_inputs": "xr_entry_inputs.json"
   },
   "ir": {
     "phvs_pivotal_repeat_within12h": 0.17,

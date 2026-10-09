@@ -1,3 +1,5 @@
+Latest XR origin/access work (9 October): [first-year underwriting ranges and paid-flow results](output/PHVS_XR_entry_access_2026-10-09.txt). xr_entry_model.py:working~460Rx->338firstpaid->295yearendactive/141paidpatientyears. Rates explicitlyassumed; new empiricalcapture notidentified. ProcessG34.
+
 Population simplification: working1.5%net annual growth,0–3%scenario range, anchored to HAE historical treated1.53%/diagnosed2.63%CAGRs. Supersedes detailed demographic proposal; do not stack separate diagnosis/death flows. population_growth.py supplies net scaling only. ProcessG33.
 
 Full-text prevalence audit: research/PHVS_prevalence_fulltext_audit_2026-10-08.json. Historical medication-ascertained population, not undiagnosed reservoir; statisticalCIs retained. Demographic exits added to architecture, not yet national runnable model. ProcessG32.
