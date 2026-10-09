@@ -678,6 +678,17 @@
       "thesis_effect": "Commercialbuildoutdoesnotde-riskshorttakeoverexposure;buyerexecutioncouldunderminestandalonecommercialweaknessargument.",
       "limitations": "Nobidder,saleprocess,priceorprobabilityidentified;nochangeofpatientmodel.",
       "remaining_work": "Separatebuyer-economics/takeoverstressscenariofromstandaloneDCF;originsegmentationremainsnextcommercialmodelstep."
+    },
+    {
+      "id": "G45",
+      "logged_on": "2026-10-09",
+      "objective": "Test Takeda-specific acquisition hypothesis.",
+      "user_contribution": "User proposed Takeda because it already commercializes injectable HAE therapies globally; exact excerpt: \"find some interesting idiosyncratic evidence\".",
+      "ai_method_and_sources": "Bounded primary-source search, founder-history verification and geographic/product financial extraction. research/PHVS_Takeda_strategic_fit_2026-10-09.json",
+      "snapshot": "Jerini/Firazyr-Shire-Takeda lineage; Takhzyro 37.2% ex-US revenue; shrinking JPY16bn Firazyr vs JPY223.9bn Takhzyro.",
+      "thesis_effect": "Specific buyer may overcome standalone geographic execution weakness; IR rebuild and XR franchise defense have different economics.",
+      "limitations": "Strategic fit is not transaction evidence. FX-qualified revenue changes, cannibalization and leverage checked. No takeover probability or patient-model change.",
+      "remaining_work": "Buyer-specific combined-portfolio cash flow scenario if needed; no further low-yield rumor search."
     }
   ]
 }

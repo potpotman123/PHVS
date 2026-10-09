@@ -1,0 +1,64 @@
+{
+  "as_of": "2026-10-09",
+  "question": "Is there Takeda-specific evidence supporting PHVS as a strategic acquisition candidate?",
+  "conclusion": "Credible strategic fit and historical lineage; no current bid, discussions, stake or sale process identified in a bounded public-source pass. No acquisition probability assigned.",
+  "sources": {
+    "financial_report": "https://assets-dam.takeda.com/image/upload/v1780626052/Global/Investor/Financial-Results/FY2025/Q4_0605/qr2025_q4_qfr_en_20260605.pdf",
+    "financial_release": "https://www.takeda.com/newsroom/newsreleases/2026/takeda-reports-fourth-quarter-fy2025-results/",
+    "founder_history": "https://ir.pharvaris.com/static-files/0dfb2cef-f1c3-44f9-93bc-31fb3578ecae",
+    "firazyr_target": "https://www.takeda.com/newsroom/shire-news-releases/2018/arphbc/",
+    "business_development": "https://www.takeda.com/our-impact/our-stories/our-approach-to-business-development/"
+  },
+  "observed": [
+    {
+      "fact": "Modig was CFO at Jerini through its 2008 sale to Shire. Jerini developed icatibant/Firazyr, a B2 antagonist. Takeda acquired Shire in 2019.",
+      "sources": [
+        "founder_history",
+        "firazyr_target",
+        "business_development"
+      ],
+      "interpretation": "Same target and asset lineage; does not establish current personal relationships or negotiations."
+    },
+    {
+      "fact": "FY2025 ended March 31, 2026: Takhzyro global JPY223.9bn; US140.7bn; Japan3.4bn; Europe/Canada58.7bn; growth/emerging21.1bn.",
+      "source": "financial_report",
+      "locator": "Product geographic revenue table, printed page 49 / PDF page 50",
+      "derived_ex_us_share": 0.3715944618133096,
+      "derived_worldwide_us_ratio": 1.5913290689410093
+    },
+    {
+      "fact": "Takhzyro US revenue fell 6.4% in reported JPY; worldwide rose 0.3%. FY2026 guidance JPY239bn, +7% reported but 0% constant currency.",
+      "source": "financial_report",
+      "caution": "Reported geographic changes include FX; not patient losses or evidence oral competition caused decline."
+    },
+    {
+      "fact": "Firazyr FY2025 global revenue JPY16.0bn versus18.0bn prior year, -11.2% reported; US9.1bn.",
+      "source": "financial_report",
+      "interpretation": "IR could rebuild a smaller shrinking rescue business; XR has larger existing franchise overlap."
+    },
+    {
+      "fact": "Adjusted net debt/EBITDA 2.6x versus capital allocation target 2x.",
+      "source": "financial_report",
+      "interpretation": "Capital allocation constraint, not proof inability to transact."
+    },
+    {
+      "fact": "Takeda BD statement January11,2025 highlights Shire acquisition, Nimbus oral TYK2 acquisition and licensing transactions; criteria include strategic fit and investment returns.",
+      "source": "business_development",
+      "interpretation": "Acquisition and licensing are both available structures; no HAE-specific acquisition mandate."
+    }
+  ],
+  "inferences": [
+    "Takeda could use existing HAE specialist relationships, access infrastructure and international organization; magnitude of synergy unmeasured.",
+    "Ex-US execution discount in standalone PHVS model should be reconsidered in a separate Takeda ownership scenario, not erased in standalone case.",
+    "IR complements Takhzyro at a portfolio level; efficacy and safety of a particular combination still require evidence. Same-B2 lineage applies to Firazyr, not Takhzyro.",
+    "Buying PHVS could retain patients who otherwise migrate to competitor orals. Must compare combined portfolio under ownership with realistic no-deal erosion; cannot assume all PHVS sales incremental while Takhzyro stays unchanged."
+  ],
+  "counterarguments": [
+    "Purchase price and competing capital needs may outweigh synergies.",
+    "Cannibalization of Takhzyro; potential competition review needs specialist assessment, not an assumed prohibition.",
+    "Regional licensing could achieve strategic goals without buying PHVS.",
+    "Clinical and commercial superiority is not established by cross-trial headlines."
+  ],
+  "model_treatment": "No standalone model change. Buyer scenario should explicitly vary ex-US execution, acquisition costs, SG&A reuse and net portfolio cannibalization; do not mechanically apply current Takhzyro geographic ratio to PHVS.",
+  "limitation": "Public strategic fit cannot identify confidential discussions. No deal rumor treated as evidence; no probability or premium calibrated. Bounded primary-source search and existing local financial data reused."
+}
