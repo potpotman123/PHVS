@@ -744,6 +744,17 @@
       "thesis_effect": "Resolves previously unknown drug-specific Onyx link but does not support buyer transfer or supplier decline. No probability uplift.",
       "limitations": "Registration not production; disclosure date not contract date; archive unavailable; no private procurement data.",
       "remaining_work": "Stop absent buyer-specific lead; supplier baseline saved."
+    },
+    {
+      "id": "G51",
+      "logged_on": "2026-10-09",
+      "objective": "Execute four authorized acquisition-evidence workstreams.",
+      "user_contribution": "Requested contact evidence plus transaction-support vendors, public records and backwards buyer histories.",
+      "ai_method_and_sources": "Screened public contact/vendor/patent evidence; read full KalVista14D9 and AstriaS4/A backgrounds. research/PHVS_contact_buyer_history_audit_2026-10-09.json",
+      "snapshot": "KalVista PartyA21/22.50 bids in2024,PartyB19 in2026; B/D exited over price. Astria had anonymous competing all-stock offer and Japan licensing bidders.",
+      "thesis_effect": "Broader demonstrated buyer pool, tempered by valuation discipline; no PHVS contact or Takeda identity verified.",
+      "limitations": "Anonymous parties not identified; deal histories retrospective and selected; registry screen limited and official assignment link inaccessible. No numerical takeover probability inferred.",
+      "remaining_work": "Stop absent specific fresh lead; maintain separate takeover valuation scenario."
     }
   ]
 }

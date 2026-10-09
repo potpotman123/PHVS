@@ -1,0 +1,71 @@
+{
+  "as_of": "2026-10-09",
+  "objective": "Test dated company contact, transaction-support vendors, explicit public records and backwards buyer histories.",
+  "result": "New evidence of multiple actual buyers evaluating HAE assets, including unsuccessful bidders; no PHVS-specific buyer contact or transaction footprint verified.",
+  "workstreams": {
+    "contact": {
+      "status": "Not verified",
+      "finding": "Search results mostly clinician disclosures and advocacy events. HAEi August2025 describes separate Pharvaris Patient Council participation and virtual meetings with Astria,CSL,Takeda; does not describe PHVS-Takeda bilateral meeting.",
+      "source": "https://haei.org/news-from-central-eastern-europe-and-middle-east-0825/"
+    },
+    "vendors": {
+      "status": "No transaction-specific engagement identified",
+      "finding": "Searched PHVS with named compensation/transaction-communications vendors and general integration/benefits terms. Public disclosure mentions compensation benchmarking for late-stage development, not a named acquisition mandate.",
+      "source": "https://ir.pharvaris.com/static-files/be46e335-e0a8-45c1-9e40-f7e51a3d749f",
+      "limitation": "Indexed web screen, not private client lists or exhaustive vendor census."
+    },
+    "public_records": {
+      "status": "Limited screen; no buyer link found",
+      "finding": "Patent co-mentions of Takeda/PHVS arise in citations. US12629363B2 lists Pharvaris GmbH as original/current assignee on Google Patents; this is a secondary-index lead, not legal title verification. Official assignment link failed to load.",
+      "source": "https://patents.google.com/patent/US12629363B2/en",
+      "limitation": "No exhaustive patent/trademark/company-register audit. No legal ownership conclusion or absence claim."
+    },
+    "buyer_histories": {
+      "status": "New observed evidence",
+      "sources": {
+        "KalVista": "https://www.sec.gov/Archives/edgar/data/1348911/000114036126021078/ny20073033x1_sc14d9.htm",
+        "Astria": "https://www.sec.gov/Archives/edgar/data/882796/000114036125045461/ny20057110x2_s4a.htm"
+      },
+      "kalvista": [
+        {
+          "date": "2024-02/04",
+          "fact": "Jefferies engaged18strategic parties including PartyA following pivotal data; outreach is not18bids."
+        },
+        {
+          "date": "2024-07-17",
+          "fact": "PartyA proposed21USD/share cash; revised22.50July30. Target rejected price."
+        },
+        {
+          "date": "2026-02-25",
+          "fact": "PartyB proposed19USD/share cash."
+        },
+        {
+          "date": "2026-03-20/21",
+          "fact": "PartyB and PartyD withdrew because they could not justify even mid20s/share; expressed willingness to re-engage lower if lead transaction failed."
+        },
+        {
+          "date": "2026-04-29",
+          "fact": "Chiesi signed27USD/share deal; other parties remain anonymized in reviewed background."
+        }
+      ],
+      "astria": [
+        {
+          "date": "2024-H2/2025",
+          "fact": "Kaken and second unnamed Japanese company submitted Japan licensing term sheets; Kaken negotiations advanced."
+        },
+        {
+          "date": "2025-07-18",
+          "fact": "Unnamed publicly held biopharma Party1 proposed all-stock merger leaving Astria shareholders35-36% combined ownership."
+        },
+        {
+          "date": "2025-09-26",
+          "fact": "Astria informed Party1 it had signed exclusivity with another party; BioCryst ultimately acquired Astria."
+        }
+      ],
+      "interpretation": "Sector acquisition demand not limited to winning buyers. Failed parties are plausible buyer-pool hypotheses, not identified PHVS counterparties. Price discipline is meaningful counterevidence to automatic premium. Selected successful deals cannot calibrate unconditional takeover odds."
+    }
+  },
+  "model_decision": "Strengthens qualitative buyer-pool rationale; no numeric probability adjustment, named Takeda inference or valuation change. No per-share cross-company valuation comparison.",
+  "method": "Targeted public searches across four source families; follow-ups justified by full KalVista/Astria histories; reused prior vendor findings and filings. No agents, private tracking or bulk archive scraping.",
+  "next_step": "Retain takeover scenario; only extend signal search on a specific new buyer-identifying or PHVS-specific record."
+}
