@@ -1,0 +1,93 @@
+{
+  "as_of": "2026-10-09",
+  "status": "First linked US revenue underwriting scenarios; conditional on launch, no PoS discount, no MonteCarlo or valuation conclusion",
+  "years": 10,
+  "IR_launch_month": 0,
+  "XR_launch_month": 12,
+  "IR_initial_doses": 2,
+  "origin_pools": {
+    "orladeyo": 1700,
+    "other_prevention": 4080,
+    "acute_only": 2720,
+    "diagnosed_untreated": 1500
+  },
+  "XR_annual_prescription_rates": {
+    "orladeyo": [
+      0.05,
+      0.1,
+      0.15
+    ],
+    "other_prevention": [
+      0.02,
+      0.04,
+      0.06
+    ],
+    "acute_only": [
+      0.02,
+      0.04,
+      0.06
+    ],
+    "diagnosed_untreated": [
+      0.005,
+      0.01,
+      0.02
+    ]
+  },
+  "cases": {
+    "cautious": {
+      "rate_index": 0,
+      "conversion": 0.65,
+      "delay_months": 3,
+      "population_growth": 0.015,
+      "XR_first_retention": 0.61,
+      "XR_net_annual_price": 300000,
+      "IR_annual_prescription_rate": 0.05,
+      "IR_annual_retention": 0.9,
+      "IR_doses_LTP": 6,
+      "IR_doses_nonLTP": 10,
+      "IR_net_dose_price": 12500,
+      "dual_use_share": 0.5
+    },
+    "working": {
+      "rate_index": 1,
+      "conversion": 0.8,
+      "delay_months": 1,
+      "population_growth": 0.015,
+      "XR_first_retention": 0.74,
+      "XR_net_annual_price": 418000,
+      "IR_annual_prescription_rate": 0.1,
+      "IR_annual_retention": 0.9,
+      "IR_doses_LTP": 8,
+      "IR_doses_nonLTP": 14,
+      "IR_net_dose_price": 14000,
+      "dual_use_share": 0.5
+    },
+    "optimistic": {
+      "rate_index": 2,
+      "conversion": 0.9,
+      "delay_months": 1,
+      "population_growth": 0.015,
+      "XR_first_retention": 0.87,
+      "XR_net_annual_price": 500000,
+      "IR_annual_prescription_rate": 0.15,
+      "IR_annual_retention": 0.9,
+      "IR_doses_LTP": 11.8,
+      "IR_doses_nonLTP": 18,
+      "IR_net_dose_price": 16000,
+      "dual_use_share": 0.5
+    }
+  },
+  "limitations": [
+    "Model years are relative full commercial years;1yearIRlead is scenario timing,not updated regulatory forecast.",
+    "Population pools remain whole-market proxies; origin-specific composite rates implicitly include reach/eligibility.",
+    "Constant annual acquisition probabilities among remaining available patients; no imposed S-curve or sales-force acceleration. Rejected prescriptions retry after12months; discontinued paid users retire from reacquisition for model horizon, not from disease population.",
+    "Net1.5%population growth allocated to original groups. Origin tracks prior treatment, not current treatment. XR adoption alone changes rescue intensity for initially nonLTPgroups; other nonPHVS market migrations not modeled.",
+    "Rescue users are an overlapping membership population, not additional unique patients; retention90%is an operational carryover assumption, not measured continuous dispensing.",
+    "Within-origin XR/IR overlap uses proportional mixing, not observed joint adoption.50%dual-use share allocates rescue volume of PHVSXRusers toPHVSIR; remaining volume belongs to other rescue products. It is a prescribing scenario,not a clinical prohibition or demonstrated safety/compatibility finding.",
+    "IRdispensing8/14peryear uses historical proxies,includes nondispensers; no additional redosing haircut or zero-user multiplier. Initial2doses are inside annual budget,not on top. Actual packsize/freefirststock/expiry unknown.",
+    "XR418kannualnet and IR12.5\u201316knet/dose are pricing assumptions from dated sellside/comparator anchors,notPHVSannouncedprices. No futurepriceinflation,inventoryswings or additionalGTN applied.",
+    "Cautious/working/optimistic are bundled scenarios,not probability quantiles orconfidenceintervals.",
+    "Historical90%Daybuepaidconversion is an outsideHAEproxy; observedover-timeconversion definition incompletely specified and competitive landscape differs.",
+    "No current fair value inferred; USonly,exUScosts/tax/royalties/PoS/discounting excluded."
+  ]
+}

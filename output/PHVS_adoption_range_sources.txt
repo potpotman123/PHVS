@@ -1,7 +1,6 @@
-PATIENT-ADOPTION RANGE SOURCE REGISTER — 9 October2026
-Canonical machine-readable record: research/PHVS_adoption_range_source_register.json
-Reported confidence intervals, observed benchmarks and analyst ranges are distinct.
-Source gaps are explicitly marked; contextual sources do not validate invented endpoints.
+PATIENT-ADOPTION RANGE SOURCE REGISTER — updated9October2026
+Canonical:research/PHVS_adoption_range_source_register.json
+New multiyear bridge:research/PHVS_multiyear_revenue_bridges_2026-10-09.json
 
 Orladeyo-origin annual PHVS prescriptions
 Evidence-anchored assumption
@@ -11,39 +10,39 @@ Evidence: research/PHVS_adoption_evidence_2026-10-07.json:A06; models/patient_ad
 Sources: https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf
 
 other_prevention annual PHVS prescriptions
-Assumption with contextual evidence; endpoints not empirically estimated
-Method: 2/4/6%analyst annual prescriptions; clinical control, inertia, prior oral failures and injectable competitors constrain transfer. Survey54%oral preference is not used as a conversion multiplier.
-Limit: Cited studies motivate mechanisms; do not claim they measured these range endpoints.
+Historical benchmark plus judgmental allocation
+Method: Apply roughly13/26/39%of benchmark forPHVSdestination among establishedinjectable/otherusers,rounded2/4/6%; equivalent to40%oforal5/10/15scenario. Stablecontrol,routeheterogeneity andcompetition motivate discount, not estimated magnitude.
+Limit: Any destination initiators vs currenttherapy; not an empirical capture fraction.
 Evidence: models/patient_adoption/xr_entry_inputs.json:rate_basis.other_prevention; research/PHVS_XR_entry_access_2026-10-09.json; research/alphasense_calls_evidence_2026-10-07.json
-Sources: https://www.rtihs.org/sites/default/files/35409_Poulos_2026_Long-term%20prophylactic%20treatment%20preferences%20and%20willingness%20to%20switch%20therapy%20in%20individuals%20with%20hereditary%20angioedema.pdf; https://ir.biocryst.com/static-files/4e1f4dca-2e8e-48b6-869f-46bd74b8b1ba
+Sources: https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf
 
 acute_only annual PHVS prescriptions
-Assumption with contextual evidence; endpoints not empirically estimated
-Method: 2/4/6%analyst first-prevention PHVS prescriptions; compound of clinical suitability and choice. Better rescue may reduce demand. Historical32%Orladeyo entrant origin mix is not an annual probability.
-Limit: Cited studies motivate mechanisms; do not claim they measured these range endpoints.
+Historical benchmark plus judgmental allocation
+Method: Apply32/52toother-preventionPHVSprescriptions:4080x[2/4/6%]x32/52 /2720 =>1.85/3.69/5.54%,rounded2/4/6%. Oral-origin subgroup is new second-oral opportunity and excluded from this historicalmix allocation.
+Limit: Historicalcumulativegrossorigin mix, not immediatepriorregimen; used as approximate relativevolume allocation,notmeasuredrate.
 Evidence: models/patient_adoption/xr_entry_inputs.json:rate_basis.acute_only; research/PHVS_XR_entry_access_2026-10-09.json; research/alphasense_calls_evidence_2026-10-07.json
-Sources: https://www.rtihs.org/sites/default/files/35409_Poulos_2026_Long-term%20prophylactic%20treatment%20preferences%20and%20willingness%20to%20switch%20therapy%20in%20individuals%20with%20hereditary%20angioedema.pdf; https://ir.biocryst.com/static-files/4e1f4dca-2e8e-48b6-869f-46bd74b8b1ba
+Sources: https://ir.biocryst.com/static-files/4e1f4dca-2e8e-48b6-869f-46bd74b8b1ba
 
 diagnosed_untreated annual PHVS prescriptions
-Assumption with contextual evidence; endpoints not empirically estimated
-Method: 0.5/1/2%analyst effective prescriptions reflects weak observed engagement and uncertain need. Lowest evidence quality; naive historical17%does not mean newly diagnosed or currently untreated.
-Limit: Cited studies motivate mechanisms; do not claim they measured these range endpoints.
+Historical benchmark plus judgmental allocation
+Method: Apply17/32toacute-onlyprescriptions then25%representativenessdiscount; divide1500untreatedpool ->~0.5/1.0/1.4%,upperroundedup2%stress. Discountacknowledgesnaivehistorydoesnotidentifycurrentlyuntreatedstock.
+Limit: Weakest XR origin bridge; discount and upperstress are judgment, not measurement.
 Evidence: models/patient_adoption/xr_entry_inputs.json:rate_basis.diagnosed_untreated; research/PHVS_XR_entry_access_2026-10-09.json; research/alphasense_calls_evidence_2026-10-07.json
-Sources: https://www.rtihs.org/sites/default/files/35409_Poulos_2026_Long-term%20prophylactic%20treatment%20preferences%20and%20willingness%20to%20switch%20therapy%20in%20individuals%20with%20hereditary%20angioedema.pdf; https://ir.biocryst.com/static-files/4e1f4dca-2e8e-48b6-869f-46bd74b8b1ba
+Sources: https://ir.biocryst.com/static-files/4e1f4dca-2e8e-48b6-869f-46bd74b8b1ba
 
 Prescription-to-first-paid probability
-Assumption; no direct conversion-rate source
-Method: Analyst stress range; source gap retained explicitly.
-Limit: Paid stock shares71.5/81%do not substantiate this conversion range.
+Outside-HAE comparable anchored assumption
+Method: Use90%asoptimisticoutsideHAEanchor; subtract10ppforworking80%,25ppfor65%stress duecompetitiveHAEandlaunchfriction.
+Limit: Retrieved indexed primary-deck text; directNeurenPDFopens404. OriginalAcadiadeck indexedmirror corroborates wording, not independent observation. Conversiondenominator/timewindow incompletelydefined; firstRetttherapy differs materially fromHAEfollow-on. No paid-stock percentage substituted.
 Evidence: models/patient_adoption/xr_entry_inputs.json; research/PHVS_population_paid_gap_followup_2026-10-08.json
-Sources: local supplied sources above, or explicitly unsourced assumption.
+Sources: https://www.neurenpharma.com/pdf/bcba55f5-1338-49f2-a297-7512f59e2c2e/Investor-roadshow-presentation-19-August-2024.pdf; https://reportify-1252068037.cos.ap-beijing.myqcloud.com/media/production/s_4711212_6fd3d6902695a1248599e0983a416bff.pdf
 
 Conditional days to paid
 Historical timing proxies plus assumed slow case
 Method: Company reported within30dayaverage and<3weekmedian; model rounds to30/21days;90daysassumed.
 Limit: Supplied transcript sources retained locally; see archive manifest for originals. Censoring/conditioning unspecified, fixed delay model approximation.
 Evidence: research/PHVS_commercial_calibration_2026-10-08.json:historical_calibration; research/raw/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._Earnings Call_2021-11-03_English.txt; research/raw/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._Earnings Call_2022-08-04_English.txt
-Sources: local supplied sources above, or explicitly unsourced assumption.
+Sources:
 
 XR first-year retention
 Historical benchmark plus derived assumptions
@@ -93,3 +92,52 @@ Method: Historical1104paid+PAP and71.5%paid constrain endpoints; assumed retenti
 Limit: Fitted359–549entryrange is model-derived, not reported by company or an independent confidence interval.
 Evidence: models/patient_adoption/reconciliation_inputs.json; models/patient_adoption/uncertainty_register.json; models/patient_adoption/sensitivity.py; research/PHVS_population_launch_calibration_2026-10-08.json
 Sources: https://ir.biocryst.com/node/25731
+
+IR annual prescriptions
+Observed comparator plus stated judgment
+Method: Use20%asfirstoralreference magnitude,withoutannualizing; secondoralPHVSone-quarter/one-half/three-quarteractivity =>5/10/15%annually. Untreateduses20%ofthisrate toreflectengagement.
+Limit: Formsnotuniqueactiveorpaidusers; denominator~9000vsmodel10000; noactualoralvsinjectableoriginsplit. Relativecapture and persistence of hazard across years assumed.
+Evidence: research/PHVS_multiyear_revenue_bridges_2026-10-09.json
+Sources: https://ir.kalvista.com/node/12706/html
+
+IR annual dose supply
+Observed comparator plus stated judgment
+Method: LTPworking8,low6=25%below,high11.8allLTPbenchmark. NonLTP14borrowsbroaderODuseraverage,10/18~30%stress.
+Limit: 14isnotpureacute-onlycohort;8includesnondispensers; adoptedPHVSIRusersmaydiffer. Doseequivalentsfrominjectablesnotoralpacks. Noadditionalredosingorzero-userhaircut.
+Evidence: research/PHVS_multiyear_revenue_bridges_2026-10-09.json
+Sources: https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf; https://www.ispor.org/heor-resources/presentations-database/presentation-cti/ispor-2026/poster-session-2-4/recent-trends-in-on-demand-treatment-prescriptions-for-hereditary-angioedema-a-us-claims-database-analysis
+
+IR initial supply and net unit price
+Observed comparator plus stated judgment
+Method: Working14000~16%belowEkterlyWAC; rangeusesMSold/newPHVSestimates. Initial2insidefirst-yearannualsupplybudget.
+Limit: PHVSpacksize/pricingnotannounced; netrealizationassumed,notmeasuredpayercontract. NoadditionalGTNhaircutafterusingnetprice.
+Evidence: research/PHVS_multiyear_revenue_bridges_2026-10-09.json
+Sources: https://www.sec.gov/Archives/edgar/data/1348911/000119312525155885/d98157dex992.htm
+
+XR net annual price
+Observed comparator plus stated judgment
+Method: Retain418kworking;300kdownside~28%below,500kupside~20%above.
+Limit: Sellsideforecast,notrealizedPHVSprice; scenarioincludesassumedpaid-supplyeconomics.
+Evidence: research/PHVS_multiyear_revenue_bridges_2026-10-09.json
+Sources:
+
+IR membership retention
+Observed comparator plus stated judgment
+Method: ~91%repeatdispensingservesasweakcontinuationreference; choose90%annualIRmembership,stress80–95%.
+Limit: OrladeyoXR,variablefollowupandmixedpaid/free; NOTa12mIRsurvivalestimate. Membershipmeansongoingproductaccess/use,notmonthlyrefilling. Sensitivityimportant.
+Evidence: research/PHVS_multiyear_revenue_bridges_2026-10-09.json
+Sources: https://link.springer.com/article/10.1186/s13223-025-01005-x
+
+XR/IR dual-use and cohort overlap
+Observed comparator plus stated judgment
+Method: SplitrescuevolumeamongPHVSXRusers50%toPHVSIR,50%otherrescue;test0/100%.Proportionalwithin-originmixingtoestimateoverlap.
+Limit: Expert disagreementonly; judgmentalmidpointnotclinicalcompatibilityevidence. Jointpatient-leveladoptionunknown.
+Evidence: research/PHVS_multiyear_revenue_bridges_2026-10-09.json
+Sources:
+
+Multiyear adoption mechanics
+Observed comparator plus stated judgment
+Method: HistoricalroughlylinearnetOrladeyoactivity motivates noarbitraryS-curve; pooldepletionandcohortretentioncreateslowing.12monthretryfitsannualreviewmechanism fromexpertcalls.
+Limit: Notfittedlaunchshape; nominationtiming,competition,reattemptsandstablepatientstickinessuncertain. Failedaccessretrydiffersfrompaid-discontinuerrecapture.
+Evidence: research/PHVS_multiyear_revenue_bridges_2026-10-09.json
+Sources: https://ir.biocryst.com/static-files/4e1f4dca-2e8e-48b6-869f-46bd74b8b1ba

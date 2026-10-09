@@ -53,10 +53,10 @@
   "growth_source": "working_assumptions.json:net1.5%annual pool growth; distributed proportionately across origin pools as approximation. Do not add separate diagnosis flows or deaths.",
   "rate_basis": {
     "orladeyo": "Evidence anchor:50/328=15.24%switched to another LTP within12months inUSclaims. Rough one-third/two-thirds/full-benchmark scenarios yield5.1/10.2/15.2%,rounded5/10/15%. Attenuation is analyst judgment for competition and different populations, not independently measured capture. See orladeyo_switching_evidence_bridge.",
-    "other_prevention": "2/4/6%analyst annual prescriptions; clinical control, inertia, prior oral failures and injectable competitors constrain transfer. Survey54%oral preference is not used as a conversion multiplier.",
-    "acute_only": "2/4/6%analyst first-prevention PHVS prescriptions; compound of clinical suitability and choice. Better rescue may reduce demand. Historical32%Orladeyo entrant origin mix is not an annual probability.",
-    "diagnosed_untreated": "0.5/1/2%analyst effective prescriptions reflects weak observed engagement and uncertain need. Lowest evidence quality; naive historical17%does not mean newly diagnosed or currently untreated.",
-    "payment": "65/80/90%analyst uncertainty range, NOT calibrated from71.5/81%paid stock. Common probability across origins until payer-mix evidence supports differences.21/30day delay loosely anchored to prior Orladeyo disclosures;90day launch stress assumed."
+    "other_prevention": "Apply roughly13/26/39%of benchmark forPHVSdestination among establishedinjectable/otherusers,rounded2/4/6%; equivalent to40%oforal5/10/15scenario. Stablecontrol,routeheterogeneity andcompetition motivate discount, not estimated magnitude. See research/PHVS_multiyear_revenue_bridges_2026-10-09.json for sources and limits.",
+    "acute_only": "Apply32/52toother-preventionPHVSprescriptions:4080x[2/4/6%]x32/52 /2720 =>1.85/3.69/5.54%,rounded2/4/6%. Oral-origin subgroup is new second-oral opportunity and excluded from this historicalmix allocation. See research/PHVS_multiyear_revenue_bridges_2026-10-09.json for sources and limits.",
+    "diagnosed_untreated": "Apply17/32toacute-onlyprescriptions then25%representativenessdiscount; divide1500untreatedpool ->~0.5/1.0/1.4%,upperroundedup2%stress. Discountacknowledgesnaivehistorydoesnotidentifycurrentlyuntreatedstock. See research/PHVS_multiyear_revenue_bridges_2026-10-09.json for sources and limits.",
+    "payment": "Use90%asoptimisticoutsideHAEanchor; subtract10ppforworking80%,25ppfor65%stress duecompetitiveHAEandlaunchfriction. See research/PHVS_multiyear_revenue_bridges_2026-10-09.json for sources and limits."
   },
   "limitations": [
     "Working case is an arithmetic reference, not an empirical expected value; bundled cases are not percentiles or confidence bounds.",

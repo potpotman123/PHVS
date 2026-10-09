@@ -10,7 +10,8 @@
     "H1-H4": "research/PHVS_three_adoption_hypotheses_2026-10-08.json sources",
     "L1-L6": "research/PHVS_population_launch_calibration_2026-10-08.json",
     "GAP1-GAP4": "research/PHVS_population_paid_gap_followup_2026-10-08.json",
-    "XR01-XR07": "research/PHVS_XR_entry_access_2026-10-09.json"
+    "XR01-XR07": "research/PHVS_XR_entry_access_2026-10-09.json",
+    "multiyear_revenue_bridges": "research/PHVS_multiyear_revenue_bridges_2026-10-09.json"
   },
   "parameters": [
     {
@@ -263,10 +264,12 @@
         "competition"
       ],
       "double_counting_risk": "Never multiply composite attempt by its reach components.",
-      "numerical_use": "scenario_only; not observed probability",
+      "numerical_use": "Evidence-plus-judgment scenario, not observed PHVS value",
       "definition": "Reach/review/prescription for Each eligible source cohort over Each month",
       "scenario_inputs": "xr_entry_inputs.json",
-      "additional_note": "R5origin-specific prescriptions5\u201315%oral,2\u20136%otherLTP/acute-only,0.5\u20132%untreated; X1first-paid65\u201390%; X2conditional21\u201390days. Analyst ranges, not confidence intervals."
+      "additional_note": "R5origin-specific prescriptions5\u201315%oral,2\u20136%otherLTP/acute-only,0.5\u20132%untreated; X1first-paid65\u201390%; X2conditional21\u201390days. Analyst ranges, not confidence intervals.",
+      "multiyear_model": "revenue_ramp_inputs.json",
+      "multiyear_evidence": "research/PHVS_multiyear_revenue_bridges_2026-10-09.json"
     },
     {
       "id": "X1",
@@ -292,7 +295,7 @@
         "price"
       ],
       "double_counting_risk": "Stock paid share is not conversion.",
-      "numerical_use": "scenario_only; not observed probability",
+      "numerical_use": "Evidence-plus-judgment scenario, not observed PHVS value",
       "definition": "Prescription-to-start conversion for Submitted PHVS prescriptions over Cohort follow-up",
       "public_data_discovery_refs": [
         "PHS1",
@@ -304,7 +307,9 @@
       ],
       "reconciliation_note": "Monthly paid/free model demonstrates nonidentifiability; fitted conversion is not observed transition evidence. See reconciliation_results.json.",
       "scenario_inputs": "xr_entry_inputs.json",
-      "additional_note": "R5origin-specific prescriptions5\u201315%oral,2\u20136%otherLTP/acute-only,0.5\u20132%untreated; X1first-paid65\u201390%; X2conditional21\u201390days. Analyst ranges, not confidence intervals."
+      "additional_note": "R5origin-specific prescriptions5\u201315%oral,2\u20136%otherLTP/acute-only,0.5\u20132%untreated; X1first-paid65\u201390%; X2conditional21\u201390days. Analyst ranges, not confidence intervals.",
+      "multiyear_model": "revenue_ramp_inputs.json",
+      "multiyear_evidence": "research/PHVS_multiyear_revenue_bridges_2026-10-09.json"
     },
     {
       "id": "X2",
@@ -333,7 +338,7 @@
         "bridge"
       ],
       "double_counting_risk": "Do not also reduce starts for same delay.",
-      "numerical_use": "scenario_only; not observed probability",
+      "numerical_use": "Evidence-plus-judgment scenario, not observed PHVS value",
       "definition": "Time to first paid supply for Orladeyo new prescriptions over Historical launch",
       "public_data_discovery_refs": [
         "PHS2",
@@ -341,7 +346,9 @@
       ],
       "reconciliation_note": "Monthly paid/free model demonstrates nonidentifiability; fitted conversion is not observed transition evidence. See reconciliation_results.json.",
       "scenario_inputs": "xr_entry_inputs.json",
-      "additional_note": "R5origin-specific prescriptions5\u201315%oral,2\u20136%otherLTP/acute-only,0.5\u20132%untreated; X1first-paid65\u201390%; X2conditional21\u201390days. Analyst ranges, not confidence intervals."
+      "additional_note": "R5origin-specific prescriptions5\u201315%oral,2\u20136%otherLTP/acute-only,0.5\u20132%untreated; X1first-paid65\u201390%; X2conditional21\u201390days. Analyst ranges, not confidence intervals.",
+      "multiyear_model": "revenue_ramp_inputs.json",
+      "multiyear_evidence": "research/PHVS_multiyear_revenue_bridges_2026-10-09.json"
     },
     {
       "id": "X3",
@@ -607,7 +614,7 @@
         "inventory"
       ],
       "double_counting_risk": "Do not multiply by67.1% rescue-claim share again.",
-      "numerical_use": "benchmark_only",
+      "numerical_use": "Evidence-plus-judgment scenario, not observed PHVS value",
       "definition": "Rescue dispensing on prophylaxis for 328 LTP initiators;147 minimal-gap subgroup over Post-index12months",
       "supplemental_historical_benchmarks": [
         "F02",
@@ -618,7 +625,9 @@
       ],
       "differentiation_evidence_refs": [
         "H3"
-      ]
+      ],
+      "multiyear_model": "revenue_ramp_inputs.json",
+      "multiyear_evidence": "research/PHVS_multiyear_revenue_bridges_2026-10-09.json"
     },
     {
       "id": "I2",
@@ -643,8 +652,10 @@
         "prior rescue"
       ],
       "double_counting_risk": "No automatic IR/XR shared capture.",
-      "numerical_use": "not_ready",
-      "definition": "Rescue product adoption for Eligible patients by prevention/rescue state over Each month"
+      "numerical_use": "Evidence-plus-judgment scenario, not observed PHVS value",
+      "definition": "Rescue product adoption for Eligible patients by prevention/rescue state over Each month",
+      "multiyear_model": "revenue_ramp_inputs.json",
+      "multiyear_evidence": "research/PHVS_multiyear_revenue_bridges_2026-10-09.json"
     },
     {
       "id": "I3",
@@ -671,14 +682,16 @@
         "price"
       ],
       "double_counting_risk": "Do not add modeled attacks to already observed composite refills.",
-      "numerical_use": "not_ready",
+      "numerical_use": "Evidence-plus-judgment scenario, not observed PHVS value",
       "definition": "Initial stock and refill intensity for PHVS IR supplied users over Since first supply",
       "supplemental_historical_benchmarks": [
         "F02"
       ],
       "differentiation_evidence_refs": [
         "H3"
-      ]
+      ],
+      "multiyear_model": "revenue_ramp_inputs.json",
+      "multiyear_evidence": "research/PHVS_multiyear_revenue_bridges_2026-10-09.json"
     },
     {
       "id": "I4",
@@ -704,8 +717,10 @@
         "attacks"
       ],
       "double_counting_risk": "Never add IR+XR as unique patients.",
-      "numerical_use": "not_ready",
-      "definition": "PHVS IR and XR overlap for XR users choosing rescue over Each period"
+      "numerical_use": "Evidence-plus-judgment scenario, not observed PHVS value",
+      "definition": "PHVS IR and XR overlap for XR users choosing rescue over Each period",
+      "multiyear_model": "revenue_ramp_inputs.json",
+      "multiyear_evidence": "research/PHVS_multiyear_revenue_bridges_2026-10-09.json"
     },
     {
       "id": "V1",
@@ -729,8 +744,10 @@
         "X3"
       ],
       "double_counting_risk": "Do not apply free product twice.",
-      "numerical_use": "not_ready",
-      "definition": "XR net price for Paid PHVS XR exposure over Each year"
+      "numerical_use": "Evidence-plus-judgment scenario, not observed PHVS value",
+      "definition": "XR net price for Paid PHVS XR exposure over Each year",
+      "multiyear_model": "revenue_ramp_inputs.json",
+      "multiyear_evidence": "research/PHVS_multiyear_revenue_bridges_2026-10-09.json"
     },
     {
       "id": "V2",
@@ -756,8 +773,10 @@
         "dose"
       ],
       "double_counting_risk": "WAC is not manufacturer net revenue.",
-      "numerical_use": "not_ready",
-      "definition": "IR net price for Paid PHVS IR packs over Each year"
+      "numerical_use": "Evidence-plus-judgment scenario, not observed PHVS value",
+      "definition": "IR net price for Paid PHVS IR packs over Each year",
+      "multiyear_model": "revenue_ramp_inputs.json",
+      "multiyear_evidence": "research/PHVS_multiyear_revenue_bridges_2026-10-09.json"
     },
     {
       "id": "V3",

@@ -1,3 +1,5 @@
+Linked US revenue ramp (9October): output/PHVS_US_revenue_ramp_2026-10-09.txt; models/patient_adoption/revenue_ramp.py with inputs/results/table. Practical evidence bridges in research/PHVS_multiyear_revenue_bridges_2026-10-09.json. Relative full model years,IRone-yearlead,notfairvalue. ProcessG37.
+
 Central range/citation register: research/PHVS_adoption_range_source_register.json; readable index: output/PHVS_adoption_range_sources.txt. Includes source URLs, evidence locations, adjustments and explicit source gaps.
 
 Latest XR origin/access work (9 October): [first-year underwriting ranges and paid-flow results](output/PHVS_XR_entry_access_2026-10-09.txt). xr_entry_model.py:working~460Rx->338firstpaid->295yearendactive/141paidpatientyears. Rates explicitlyassumed; new empiricalcapture notidentified. ProcessG34.

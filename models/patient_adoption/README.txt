@@ -1,3 +1,5 @@
+Linked US revenue ramp (9October): output/PHVS_US_revenue_ramp_2026-10-09.txt; models/patient_adoption/revenue_ramp.py with inputs/results/table. Practical evidence bridges in research/PHVS_multiyear_revenue_bridges_2026-10-09.json. Relative full model years,IRone-yearlead,notfairvalue. ProcessG37.
+
 Central range/citation register: research/PHVS_adoption_range_source_register.json; readable index: output/PHVS_adoption_range_sources.txt. Includes source URLs, evidence locations, adjustments and explicit source gaps.
 
 XR first-year module (9October): xr_entry_model.py uses xr_entry_inputs.json and existing growth/retention assumptions; writes xr_entry_results.json. Distinguishes prescriptions, first paid fills, pending conversions, paid exits and exposure. Underwriting rates, not an observed PHVS forecast.
