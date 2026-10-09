@@ -1,3 +1,5 @@
+Central range/citation register: research/PHVS_adoption_range_source_register.json; readable index: output/PHVS_adoption_range_sources.txt. Includes source URLs, evidence locations, adjustments and explicit source gaps.
+
 XR first-year module (9October): xr_entry_model.py uses xr_entry_inputs.json and existing growth/retention assumptions; writes xr_entry_results.json. Distinguishes prescriptions, first paid fills, pending conversions, paid exits and exposure. Underwriting rates, not an observed PHVS forecast.
 
 NEW monthly calibration: reconcile_adoption.py reads reconciliation_inputs.json and writes reconciliation_results.json. See output/PHVS_adoption_reconciliation_2026-10-08.txt. Population grid is provisional; paid conversion remains underidentified. uncertainty_register.json prepares dependent ranges for later Monte Carlo; no distributions chosen.

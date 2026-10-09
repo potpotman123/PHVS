@@ -583,6 +583,16 @@
       "snapshot": "Retained existing numerical range; now explicit observed benchmark and judgmental attenuation.",
       "limitations": "Mixed initiators vs prevalentOrladeyo; anydestinationpaidclaims vs PHVSprescriptions; adjustments not estimated and notconfidencebounds. Other assumptions not declared newlyvalidated.",
       "remaining_work": "Use practical source-plus-adjustment standard for remaining consequential assumptions; no further switching search needed for this assumption."
+    },
+    {
+      "id": "G36",
+      "logged_on": "2026-10-09",
+      "objective": "Store citations and derivations for all current adoption ranges.",
+      "user_contribution": "Requested durableGitHubsource storage for ranges andconfidenceintervals.",
+      "ai_method_and_sources": "Consolidated existing verified source ledgers without fresh research intoPHVS_adoption_range_source_register.json.",
+      "snapshot": "13parameter groups linked to URLs/local sources, adjustments and limitations; unsourced numeric endpoints explicitly labeled.",
+      "limitations": "Source register documents evidence quality; it does not validate every assumption.",
+      "remaining_work": "Maintain register when changing inputs or assigning MonteCarlo distributions."
     }
   ]
 }

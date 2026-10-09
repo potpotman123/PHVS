@@ -1,0 +1,95 @@
+PATIENT-ADOPTION RANGE SOURCE REGISTER — 9 October2026
+Canonical machine-readable record: research/PHVS_adoption_range_source_register.json
+Reported confidence intervals, observed benchmarks and analyst ranges are distinct.
+Source gaps are explicitly marked; contextual sources do not validate invented endpoints.
+
+Orladeyo-origin annual PHVS prescriptions
+Evidence-anchored assumption
+Method: 50/328=15.24%anyLTPswitches/12months; judgmental1/3,2/3,1multipliers,rounded5/10/15%.
+Limit: Mixed newLTPusers and any destination differ from prevalentOrladeyo and PHVS prescriptions. Not a confidence interval.
+Evidence: research/PHVS_adoption_evidence_2026-10-07.json:A06; models/patient_adoption/xr_entry_inputs.json:orladeyo_switching_evidence_bridge
+Sources: https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf
+
+other_prevention annual PHVS prescriptions
+Assumption with contextual evidence; endpoints not empirically estimated
+Method: 2/4/6%analyst annual prescriptions; clinical control, inertia, prior oral failures and injectable competitors constrain transfer. Survey54%oral preference is not used as a conversion multiplier.
+Limit: Cited studies motivate mechanisms; do not claim they measured these range endpoints.
+Evidence: models/patient_adoption/xr_entry_inputs.json:rate_basis.other_prevention; research/PHVS_XR_entry_access_2026-10-09.json; research/alphasense_calls_evidence_2026-10-07.json
+Sources: https://www.rtihs.org/sites/default/files/35409_Poulos_2026_Long-term%20prophylactic%20treatment%20preferences%20and%20willingness%20to%20switch%20therapy%20in%20individuals%20with%20hereditary%20angioedema.pdf; https://ir.biocryst.com/static-files/4e1f4dca-2e8e-48b6-869f-46bd74b8b1ba
+
+acute_only annual PHVS prescriptions
+Assumption with contextual evidence; endpoints not empirically estimated
+Method: 2/4/6%analyst first-prevention PHVS prescriptions; compound of clinical suitability and choice. Better rescue may reduce demand. Historical32%Orladeyo entrant origin mix is not an annual probability.
+Limit: Cited studies motivate mechanisms; do not claim they measured these range endpoints.
+Evidence: models/patient_adoption/xr_entry_inputs.json:rate_basis.acute_only; research/PHVS_XR_entry_access_2026-10-09.json; research/alphasense_calls_evidence_2026-10-07.json
+Sources: https://www.rtihs.org/sites/default/files/35409_Poulos_2026_Long-term%20prophylactic%20treatment%20preferences%20and%20willingness%20to%20switch%20therapy%20in%20individuals%20with%20hereditary%20angioedema.pdf; https://ir.biocryst.com/static-files/4e1f4dca-2e8e-48b6-869f-46bd74b8b1ba
+
+diagnosed_untreated annual PHVS prescriptions
+Assumption with contextual evidence; endpoints not empirically estimated
+Method: 0.5/1/2%analyst effective prescriptions reflects weak observed engagement and uncertain need. Lowest evidence quality; naive historical17%does not mean newly diagnosed or currently untreated.
+Limit: Cited studies motivate mechanisms; do not claim they measured these range endpoints.
+Evidence: models/patient_adoption/xr_entry_inputs.json:rate_basis.diagnosed_untreated; research/PHVS_XR_entry_access_2026-10-09.json; research/alphasense_calls_evidence_2026-10-07.json
+Sources: https://www.rtihs.org/sites/default/files/35409_Poulos_2026_Long-term%20prophylactic%20treatment%20preferences%20and%20willingness%20to%20switch%20therapy%20in%20individuals%20with%20hereditary%20angioedema.pdf; https://ir.biocryst.com/static-files/4e1f4dca-2e8e-48b6-869f-46bd74b8b1ba
+
+Prescription-to-first-paid probability
+Assumption; no direct conversion-rate source
+Method: Analyst stress range; source gap retained explicitly.
+Limit: Paid stock shares71.5/81%do not substantiate this conversion range.
+Evidence: models/patient_adoption/xr_entry_inputs.json; research/PHVS_population_paid_gap_followup_2026-10-08.json
+Sources: local supplied sources above, or explicitly unsourced assumption.
+
+Conditional days to paid
+Historical timing proxies plus assumed slow case
+Method: Company reported within30dayaverage and<3weekmedian; model rounds to30/21days;90daysassumed.
+Limit: Supplied transcript sources retained locally; see archive manifest for originals. Censoring/conditioning unspecified, fixed delay model approximation.
+Evidence: research/PHVS_commercial_calibration_2026-10-08.json:historical_calibration; research/raw/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._Earnings Call_2021-11-03_English.txt; research/raw/biocryst_launch_archive_2026-10-08/BioCryst Pharmaceuticals Inc._Earnings Call_2022-08-04_English.txt
+Sources: local supplied sources above, or explicitly unsourced assumption.
+
+XR first-year retention
+Historical benchmark plus derived assumptions
+Method: 0.61+(1-0.61)*(20/30)*f, with analystf=0/.5/1.
+Limit: French cessation cause mix transferred toUSclaims; improvement not measuredPHVSretention.
+Evidence: research/PHVS_adoption_evidence_2026-10-07.json:A04; research/PHVS_three_adoption_hypotheses_2026-10-08.json:H2; models/patient_adoption/working_assumptions.json:xr
+Sources: https://pubmed.ncbi.nlm.nih.gov/40300843/; https://onlinelibrary.wiley.com/doi/10.1002/clt2.70193
+
+Prevalent retention and alternate historical first-year retention
+Proxy/assumption mix
+Method: 61%claims;70%selected historicalpaidcohort;80/90/95%prevalentretention assumed.
+Limit: No empirical mature-retention range. Different populations and follow-up definitions.
+Evidence: models/patient_adoption/reconciliation_inputs.json; research/PHVS_commercial_calibration_2026-10-08.json:2022Q1
+Sources: https://pubmed.ncbi.nlm.nih.gov/40300843/
+
+Net annual population growth
+Historical-growth-anchored assumption
+Method: 2019–2023treatedCAGR1.53%,diagnosed2.63%; choose1.5%,stress0–3%.
+Limit: Issuer estimates, not a growth CI or causal diagnosis-program effect.
+Evidence: models/patient_adoption/working_assumptions.json:population_growth
+Sources: https://ir.biocryst.com/static-files/4e1f4dca-2e8e-48b6-869f-46bd74b8b1ba
+
+Diagnosed/treated/LTP/oral population scenarios
+See explicit per-input provenance
+Method: Combine explicitly dated source anchors with scenario totals; residualgroups calculated arithmetically.
+Limit: Mixed dates, selection and case definitions; not a current census or confidence interval.
+Evidence: models/patient_adoption/reconciliation_inputs.json; research/PHVS_population_launch_calibration_2026-10-08.json; research/PHVS_population_paid_gap_followup_2026-10-08.json
+Sources: https://ir.biocryst.com/static-files/5a7fc8c1-15d9-4c5b-a3db-b0f6e07fd632; https://ir.kalvista.com/node/12546/html; https://ir.biocryst.com/static-files/4e1f4dca-2e8e-48b6-869f-46bd74b8b1ba; https://www.ispor.org/heor-resources/presentations-database/presentation-cti/ispor-2026/poster-session-2-4/recent-trends-in-on-demand-treatment-prescriptions-for-hereditary-angioedema-a-us-claims-database-analysis
+
+Reported prevalence95%confidence intervals
+Source-reported statistical confidence intervals
+Method: Transcribed tables;2019expertupper9041fromvisuallycheckedTable6.
+Limit: Narrative says9401; discrepancy recorded. CIs omit structural underdiagnosis/coverage uncertainty.
+Evidence: research/PHVS_prevalence_fulltext_audit_2026-10-08.json; /Users/kwu/Downloads/1-s2.0-S1081120625002583-main.pdf
+Sources: https://doi.org/10.1016/j.anai.2025.05.018
+
+IR repeat dosing and oral-first fractions
+Observed study benchmarks; cross-trial comparisons are scenarios
+Method: Separate17/38%pivotal and22.3%LTPextension; no blended universal revenue haircut.
+Limit: Population/window/conditioning differences; inspect clinical audit before reuse.
+Evidence: research/PHVS_three_adoption_hypotheses_2026-10-08.json; research/PHVS_adoption_flow_evidence_2026-10-08.json; output/PHVS_redosing_expert_followup_2026-10-08.txt
+Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC13355760/; https://ir.pharvaris.com/static-files/c2a617b9-4bc1-4559-a31a-e46617976775; https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=1d145e2f-8e7e-2e90-e063-6294a90a4449
+
+Reconciliation and illustrative sensitivity grids
+Analyst mechanics/stress grids, not sourced probability intervals
+Method: Historical1104paid+PAP and71.5%paid constrain endpoints; assumed retention/payment choices generate conditionalentryranges.
+Limit: Fitted359–549entryrange is model-derived, not reported by company or an independent confidence interval.
+Evidence: models/patient_adoption/reconciliation_inputs.json; models/patient_adoption/uncertainty_register.json; models/patient_adoption/sensitivity.py; research/PHVS_population_launch_calibration_2026-10-08.json
+Sources: https://ir.biocryst.com/node/25731
