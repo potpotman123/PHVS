@@ -733,6 +733,17 @@
       "thesis_effect": "No buyer-specific clue; rejected integration-word and shared-vendor false positives. Useful commercialization snapshot retained.",
       "limitations": "No historical hiring series; postings not hires; certificate source unavailable; no probability adjustment.",
       "remaining_work": "Stop absent new specific lead; use25-role snapshot in commercial execution diligence if useful."
+    },
+    {
+      "id": "G50",
+      "logged_on": "2026-10-09",
+      "objective": "Pursue concrete manufacturing footprint rather than weak vendor publicity.",
+      "user_contribution": "Asked for creative rigorous investigation of any useful signal.",
+      "ai_method_and_sources": "Found MHRA drug-specificAPI registration, compared three annual manufacturing sections, attempted bounded archive lookup. research/PHVS_manufacturing_footprint_2026-10-09.json",
+      "snapshot": "Onyx UKAPI21540 datedMay12,2026 names deucrictibant monohydrate; API manufacturer count remains two; latest annual adds commercial packaging.",
+      "thesis_effect": "Resolves previously unknown drug-specific Onyx link but does not support buyer transfer or supplier decline. No probability uplift.",
+      "limitations": "Registration not production; disclosure date not contract date; archive unavailable; no private procurement data.",
+      "remaining_work": "Stop absent buyer-specific lead; supplier baseline saved."
     }
   ]
 }

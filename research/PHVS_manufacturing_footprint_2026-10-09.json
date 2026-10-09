@@ -1,0 +1,39 @@
+{
+  "as_of": "2026-10-09",
+  "question": "Find concrete supplier changes or buyer-specific operational signals.",
+  "finding": "New primary regulatory source establishes Onyx registration specifically for deucrictibant; no buyer-specific takeover signal found.",
+  "sources": {
+    "mhra": "https://cms.mhra.gov.uk/mhra/api-reg/uk-api-21540",
+    "mhra_pdf": "https://cms.mhra.gov.uk/print/pdf/node/1018436",
+    "2023": "https://www.sec.gov/Archives/edgar/data/1830487/000095017024043358/phvs-20231231.htm",
+    "2024": "https://www.sec.gov/Archives/edgar/data/1830487/000095017025051347/phvs-20241231.htm",
+    "2025": "https://www.sec.gov/Archives/edgar/data/1830487/000183048726000013/phvs-20251231.htm"
+  },
+  "observations": [
+    {
+      "status": "Observed",
+      "date": "2026-05-12",
+      "fact": "MHRA UK API21540 names Onyx Scientific at Wayfarer Road,Sunderland and deucrictibant monohydrate. Scope includes chemical synthesis, intermediates, crude API, recrystallisation, finishing, packaging and QC.",
+      "limit": "Registration is not order volume, proof of current batches, first registration date, FDA approval or named commercial supply contract."
+    },
+    {
+      "status": "Observed",
+      "date": "Annual filingsApril2024/April2025/April2026",
+      "fact": "All three describe two API CDMOs plus IR and XR drug-product CDMOs. FY2024 report describes further clinical packaging/distribution CDMO. FY2025 report adds commercial finished-product packaging/labeling organization.",
+      "limit": "Number consistency does not identify suppliers or rule out replacement. Disclosure changes do not date contract signing."
+    }
+  ],
+  "normalized_manufacturing_excerpts": {
+    "2023": "Manufacturing and Supply We currently have two CDMOs for the production of deucrictibant API. A robust and scalable synthetic route has been established. All raw materials can be purchased from multiple suppliers. We also collaborate with a leading CDMO for the manufacturing of the on-demand treatment product PHVS416. Another well-established CDMO produces the prophylactic treatment product PHVS719. The two CDMOs that manufacture both PHVS416 and PHVS719 are responsible for packaging and worldwide distribution of other commercial drug products. ",
+    "2024": "Manufacturing and Supply We currently have two CDMOs for the production of deucrictibant API. A robust and scalable synthetic route has been established. All raw materials can be purchased from multiple suppliers. We also partner with a leading CDMO for the manufacturing of the on-demand treatment product, deucrictibant IR capsules. Another well-established CDMO produces the prophylactic treatment product, deucrictibant XR tablets. A further CDMO with a global footprint is responsible for packaging and worldwide distribution of Clinical Trial Material. ",
+    "2025": "Manufacturing and Supply We currently have two CDMOs for the production of deucrictibant active pharmaceutical ingredient (API). A robust and scalable synthetic route has been established. All raw materials can be purchased from multiple suppliers. We also partner with a leading CDMO for the manufacturing of the on-demand treatment product, deucrictibant IR capsules. Another well-established CDMO produces the prophylactic treatment product, deucrictibant XR tablets. A CDMO with a global footprint is responsible for packaging and worldwide distribution of Clinical Trial Material. We partnered with a further Commercial Packaging Organization (CPO) with a global footprint for the packaging and labeling of commercial finished drug product. "
+  },
+  "hypotheses": {
+    "buyer_transfer": "No named acquirer facility, transfer announcement or termination identified.",
+    "launch_scaleup": "Added commercial packaging function is consistent with ordinary launch preparation.",
+    "supplier_reduction": "No evidence of reduced Onyx purchasing; unobservable from these records."
+  },
+  "method": "Six initial queries plus three follow-ups to concrete MHRA lead; retrieved official registration, compared existing three annual filings. Wayback CDX attempt for Onyx testimonial2023-2026 timed out. No bulk scraping.",
+  "decision": "No acquisition-probability adjustment. Upgrade confidence in identifying Onyx drug-specific registered scope; retain dated baseline for any future actual counterparty change.",
+  "limits": "No full international manufacturer census, historical registration series, procurement volumes or private communications. Cannot infer activity level from registration."
+}
