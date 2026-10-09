@@ -1,0 +1,44 @@
+PHVS CURRENT WORKING MODEL / IR PRIORITY PASS — 9 October2026
+User-selectedXRworkingretention69.45%;downside61%.8.45percentagepoints/13.85%relative retentionuplift. NoAEbenefit.
+Thissupersedesworking61%descriptionsinearlierglobal/tolerabilityaudit snapshots. Nochangeofunderlyingclinicalevidence.
+USDm;conditionalsales,noPoSorequityvaluation. Worldwideisdirect-sales-equivalentproductdemand,partnerrevenuerecognitionunresolved.
+
+Year | US | Worldwide
+1 | 54.3 | 54.3
+2 | 195.6 | 198.3
+3 | 376.7 | 393.8
+4 | 523.8 | 575.9
+5 | 647.4 | 748.8
+6 | 750.8 | 897.7
+7 | 837.0 | 1008.0
+8 | 908.4 | 1099.5
+9 | 967.0 | 1174.9
+10 | 1014.8 | 1236.5
+
+IRfirst8monthprescribingcomparison(notpaidpatients):
+Case | PHVSRx | Ekterlyforms | Ratio
+cautious | 297 | 1702 | 17.5%
+working | 600 | 1702 | 35.3%
+optimistic | 908 | 1702 | 53.4%
+
+Ekterlyforms460Aug2025,937Oct,1318Dec,1702Feb2026;notannualizedhazards. Model600workingRx8fullmonthsroughlycompareswithJuly7-Feb28.
+No publicmatchedpaid-patientretentionrecovered. MajorityQ4revenuerefilldoesnotestimate90%annualretention.
+IRannualmembershipretention | Year10IRUS | Year10worldwidetotal
+0.8 | 260.6 | 1056.0
+0.9 | 413.4 | 1236.5
+0.95 | 529.0 | 1372.0
+
+Largestone-at-a-timeyear10worldwidechangesUSDm;range-dependent,notvarianceattribution:
+XR_net_annual_price=300000: -209.7
+IR_annual_prescription_rate=0.05: -199.2
+conversion=0.65: -181.5
+IR_annual_retention=0.8: -180.5
+XR_net_annual_price=500000: +145.7
+IR_annual_retention=0.95: +135.5
+IR_annual_prescription_rate=0.15: +132.1
+XR_rate_other_prevention=0.02: -126.5
+IR_doses_LTP=11.8: +124.1
+conversion=0.9: +110.7
+
+Evidence/sources:research/PHVS_IR_priority_calibration_2026-10-09.json;centralregister;priorgeographyandpricingledgers.
+Nextpriority:netpriceandpaidconversion. Revenue/formsalonecannotseparateprice,paidconversion,quantity. No new precisionclaimed for thoseinputs.

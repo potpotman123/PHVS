@@ -1,0 +1,57 @@
+{
+  "as_of": "2026-10-09",
+  "scope": "First priority pass:IRacquisition/continuedpaiduse,withXRretentionbase change.",
+  "observations": [
+    {
+      "period_end": "2025-08-31",
+      "US_forms": 460,
+      "source": "https://ir.kalvista.com/news-releases/news-release-details/kalvista-pharmaceuticals-provides-operational-update-and-7/"
+    },
+    {
+      "period_end": "2025-10-31",
+      "US_forms": 937,
+      "source": "https://ir.kalvista.com/news-releases/news-release-details/kalvista-pharmaceuticals-provides-operational-update-and-8"
+    },
+    {
+      "period_end": "2025-12-31",
+      "US_forms": 1318,
+      "refill_revenue_share": ">50%ofQ4",
+      "source": "https://ir.kalvista.com/node/12546/html",
+      "caveat": "Possibleholidaypullforward;revenueweightednotpatientcohort."
+    },
+    {
+      "period_end": "2026-02-28",
+      "US_forms": 1702,
+      "source": "https://ir.kalvista.com/node/12706/html",
+      "caveat": "Noalignedpaidpatientcount;source8monthfinancialperiodMay-Dec2025isnot8monthlaunchperiodJuly-Feb."
+    }
+  ],
+  "calculations": {
+    "successive_forms_added": [
+      460,
+      477,
+      381,
+      384
+    ],
+    "interpretation": "Approximately192forms/monthDec-Febincrement,notfuturesteady-stateforecast. Initialstrongprescribingdidnotdisappearat6months.",
+    "same_window": "Model8fullmonths approximatesJuly7-Feb28. PHVSworking600Rx/1702Ekterlyforms=35.3%;low17.5%,high53.4%. Differentpopulationsandfuturelandscape;model10000baselineversusissuer9000;notmeasuredrelativecapture.",
+    "retention": "90%annualongoingIRmembershipimplies59.0%survivalat5years;80%->32.8%,95%->77.4%. Do not confuse withannualpaidrefill probability."
+  },
+  "discovery": [
+    "Checkedexistingfailedsearchesandfourtargetedqueriesacrossissuer,postacquisitionowner,clinical/realworldsources.",
+    "ChiesiacquisitioncompletedJune11,2026;standalonepublicreportingaccesschanged. No newdatedpaidpatientcohort beyondMarch2026disclosuresidentified; notclaimnoneexists."
+  ],
+  "ownership_source": "https://www.chiesi.com/en/media-hub/press-releases/chiesi-group-completes-acquisition-of-kalvista-pharmaceuticals",
+  "decisions": [
+    "Keep5/10/15%IRacquisitionrange;replacevaguehalf-firstoral languagewithactualsame-windowoutputcomparison. No empiricallyestimatedfollowoncoefficient.",
+    "Keep90%IRmembershipworkingand80\u201395%sensitivity;historicalOrladeyorepeatfillproxydoesnotvalidateIRannualsurvival.",
+    "Do notderivepaidconversionfromforms/refillrevenues,orannualsupplyfrominitialhighburdenadopters.",
+    "Noadditionalnetpricepremiumorsecondoralpenaltyadded. Pricing418kXR/14kIRandconversion80%remainpreviouslylabeledassumptions.",
+    "XRuser-selectedworking69.45%retention;61%downside. NoAEuplift."
+  ],
+  "priority_remaining": "Netprice/paidconversionthenXRorigincaptureandIRdoseintensity. Publicformsandaggregatesalesalonecannotidentifyallthreeconversion,quantityandnetprice. Noexpensivecollectioninitiated.",
+  "artifacts": [
+    "models/patient_adoption/ir_launch_calibration.py",
+    "models/patient_adoption/ir_launch_calibration_results.json"
+  ]
+}

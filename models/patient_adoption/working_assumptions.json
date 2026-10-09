@@ -7,10 +7,10 @@
     "clinical_exit_share_definition": "Eligible improvement share: efficacy-only13/30 reported Berolife stops; AE7/30 excluded. Cross-cohort proxy applied to historicalUS all-cause discontinuation.",
     "fraction_of_clinical_exits_avoided": {
       "no_improvement": 0,
-      "working": 0,
+      "working": 0.5,
       "optimistic": 0.5
     },
-    "working_choice_rationale": "Working no uplift; upside assumes50%of efficacy-only exits avoided, giving69.45%. No AE benefit;50% remains judgment, not an empirical drug effect.",
+    "working_choice_rationale": "User selects half of efficacy-only discontinuations avoided as working assumption:61%+39%*(13/30)*50%=69.45%. Downside61%; noAEbenefit. Premium8.45pp or13.85%relative; notmeasuredPHVSretention.",
     "mature_annual_retention": 0.9,
     "mature_status": "Inherited unmeasured assumption; no repeated first-year benefit.",
     "formula": "R1 = R0 + (1-R0) * clinical_exit_share_proxy * fraction_of_clinical_exits_avoided",

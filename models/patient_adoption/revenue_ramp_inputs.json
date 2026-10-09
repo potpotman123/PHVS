@@ -53,7 +53,7 @@
       "conversion": 0.8,
       "delay_months": 1,
       "population_growth": 0.015,
-      "XR_first_retention": 0.61,
+      "XR_first_retention": 0.6945,
       "XR_net_annual_price": 418000,
       "IR_annual_prescription_rate": 0.1,
       "IR_annual_retention": 0.9,
@@ -90,7 +90,7 @@
     "Historical90%Daybuepaidconversion is an outsideHAEproxy; observedover-timeconversion definition incompletely specified and competitive landscape differs.",
     "No current fair value inferred; USonly,exUScosts/tax/royalties/PoS/discounting excluded."
   ],
-  "retention_revision": "2026-10-09 user clarification: working61%; upside69.45% assumes avoiding half of efficacy-related exits only. No AE-related improvement.74%combined-cause scenario superseded.",
+  "retention_revision": "2026-10-09 user-selected working69.45%efficacy-only premium; downside61%. Optimisticretentionalso69.45%pendingevidenceforadditionaluplift. NoAEbenefit. This is scenario selection,not empiricalvalidation.",
   "preference_evidence_use": {
     "source": "https://pubmed.ncbi.nlm.nih.gov/41429313/",
     "support": "Routeheterogeneity supports lowerinjectable-originacquisition;doesnotnumericallyidentify2/4/6%.54%notmultipliedagain.",

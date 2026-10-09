@@ -131,7 +131,7 @@
         "https://pubmed.ncbi.nlm.nih.gov/40300843/",
         "https://onlinelibrary.wiley.com/doi/10.1002/clt2.70193"
       ],
-      "adjustment": "Working61%; upside0.61+0.39*(13/30)*0.50=69.45%. AE-related7/30exits receive zero improvement. Prior74%combinedcause upside superseded.",
+      "adjustment": "User-selected working69.45% =61%+39%*(13/30)*50%; downside61%; noAEbenefit.69.45alsoheldinoptimisticbundle pending strongerretentionevidence.8.45ppor13.85%relative uplift.",
       "limitation": "French cessation cause mix transferred toUSclaims; improvement not measuredPHVSretention."
     },
     {
@@ -502,6 +502,19 @@
       ],
       "adjustment": "NoAEretentionuplift. Preferencehelpsorderingoriginratesonly,notanestimatedconversionfactor.",
       "limitation": "Nohead-to-head tolerability,predictedchoiceisnotpaidbehavior."
+    },
+    {
+      "parameter": "IR same-window acquisition and retention audit",
+      "evidence_files": [
+        "research/PHVS_IR_priority_calibration_2026-10-09.json",
+        "models/patient_adoption/ir_launch_calibration_results.json"
+      ],
+      "classification": "Observedcomparatorforms,scenarioPHVSRx,unidentifiedpaidretention",
+      "source_urls": [
+        "https://ir.kalvista.com/node/12706/html",
+        "https://ir.kalvista.com/node/12546/html"
+      ],
+      "adjustment": "Working600modeledRx/1702historicalforms atapproximately8months=35.3%. Noaddedgenericsecondoralhaircut.90%IRretentionworkingand80\u201395%rangeunchanged,notempiricalconfidenceinterval."
     }
   ],
   "multiyear_revenue_extension": "research/PHVS_multiyear_revenue_bridges_2026-10-09.json"

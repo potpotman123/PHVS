@@ -1,3 +1,5 @@
+SUPERSEDED WORKING CASE: user selected69.45%XRretention. Current outputs:output/PHVS_current_model_priority_update_2026-10-09.txt. Below is earlier61%working snapshot.
+
 PHVS GLOBAL RAMP AND ASSUMPTION AUDIT — 9 October2026
 Supersedes prior74%workingXRretention; historicalcomparisonfilesareunchanged snapshots.
 All revenue conditional on approval; USDm; noDCFvaluation.

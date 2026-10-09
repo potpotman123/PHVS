@@ -166,5 +166,6 @@
     }
   ],
   "search_scope": "Bounded issuer/access and rescue launch searches; followed one rare-disease paid-conversion lead. Reused claims,expertandsellsidearchives.Noagentsorpaiddata.",
-  "status": "Practical observed-benchmark-plus-judgment provenance; no empiricalPHVSfit."
+  "status": "Practical observed-benchmark-plus-judgment provenance; no empiricalPHVSfit.",
+  "latest_IR_calibration": "research/PHVS_IR_priority_calibration_2026-10-09.json: same-window600/1702working. Previous half-firstoral wording is magnitudeheuristic,not actualsame-window50%capture."
 }

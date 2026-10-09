@@ -1,0 +1,147 @@
+{
+  "window_caveat": "July7 launch to monthends approximately2/4/6/8months;modelusesfullmonths. Dates8months2026Feb vs no paid-stock match.",
+  "observed_forms": {
+    "2": 460,
+    "4": 937,
+    "6": 1318,
+    "8": 1702
+  },
+  "cases": {
+    "cautious": {
+      "windows": [
+        {
+          "month": 2,
+          "PHVS_Rx": 75.00583274365233,
+          "PHVS_paid_starts": 0.0,
+          "PHVS_active": 0.0,
+          "Ekterly_forms": 460,
+          "PHVS_Rx_over_Ekterly_forms": 0.16305615813837465
+        },
+        {
+          "month": 4,
+          "PHVS_Rx": 149.57673637893555,
+          "PHVS_paid_starts": 24.412404291239458,
+          "PHVS_active": 24.199000550456677,
+          "Ekterly_forms": 937,
+          "PHVS_Rx_over_Ekterly_forms": 0.15963365675446697
+        },
+        {
+          "month": 6,
+          "PHVS_Rx": 223.71689016091278,
+          "PHVS_paid_starts": 73.0245026472116,
+          "PHVS_active": 71.75400067382323,
+          "Ekterly_forms": 1318,
+          "PHVS_Rx_over_Ekterly_forms": 0.1697396738701918
+        },
+        {
+          "month": 8,
+          "PHVS_Rx": 297.43043900212905,
+          "PHVS_paid_starts": 121.35525814303041,
+          "PHVS_active": 118.20355854616099,
+          "Ekterly_forms": 1702,
+          "PHVS_Rx_over_Ekterly_forms": 0.17475348942545774
+        }
+      ],
+      "first12m_Rx": 443.59413156929344
+    },
+    "working": {
+      "windows": [
+        {
+          "month": 2,
+          "PHVS_Rx": 153.28548124364102,
+          "PHVS_paid_starts": 61.537829284236246,
+          "PHVS_active": 60.99988952163691,
+          "Ekterly_forms": 460,
+          "PHVS_Rx_over_Ekterly_forms": 0.33322930705139353
+        },
+        {
+          "month": 4,
+          "PHVS_Rx": 304.35454337711445,
+          "PHVS_paid_starts": 183.27566558420443,
+          "PHVS_active": 180.0823661766355,
+          "Ekterly_forms": 937,
+          "PHVS_Rx_over_Ekterly_forms": 0.32481808257963124
+        },
+        {
+          "month": 6,
+          "PHVS_Rx": 453.2466511625478,
+          "PHVS_paid_starts": 303.2562214987096,
+          "PHVS_active": 295.35772610606836,
+          "Ekterly_forms": 1318,
+          "PHVS_Rx_over_Ekterly_forms": 0.34388972015367814
+        },
+        {
+          "month": 8,
+          "PHVS_Rx": 600.0005854045829,
+          "PHVS_paid_starts": 421.51079405295343,
+          "PHVS_active": 406.9231263014737,
+          "Ekterly_forms": 1702,
+          "PHVS_Rx_over_Ekterly_forms": 0.35252678343395
+        }
+      ],
+      "first12m_Rx": 887.2457079439156
+    },
+    "optimistic": {
+      "windows": [
+        {
+          "month": 2,
+          "PHVS_Rx": 235.17877287451128,
+          "PHVS_paid_starts": 106.46171729866991,
+          "PHVS_active": 105.53107038447601,
+          "Ekterly_forms": 460,
+          "PHVS_Rx_over_Ekterly_forms": 0.5112582019011115
+        },
+        {
+          "month": 4,
+          "PHVS_Rx": 464.8220030316743,
+          "PHVS_paid_starts": 315.61463417278264,
+          "PHVS_active": 310.10712353056306,
+          "Ekterly_forms": 937,
+          "PHVS_Rx_over_Ekterly_forms": 0.49607470974565027
+        },
+        {
+          "month": 6,
+          "PHVS_Rx": 689.0786430642274,
+          "PHVS_paid_starts": 519.8530443808648,
+          "PHVS_active": 506.27205279367445,
+          "Ekterly_forms": 1318,
+          "PHVS_Rx_over_Ekterly_forms": 0.5228214287285489
+        },
+        {
+          "month": 8,
+          "PHVS_Rx": 908.0936718905994,
+          "PHVS_paid_starts": 719.3092049949533,
+          "PHVS_active": 694.30279301872,
+          "Ekterly_forms": 1702,
+          "PHVS_Rx_over_Ekterly_forms": 0.5335450481143357
+        }
+      ],
+      "first12m_Rx": 1330.959577491688
+    }
+  },
+  "retention_annual_scenarios": {
+    "0.8": {
+      "year5_cohort_survival": 0.3276800000000001,
+      "year10_IR_US": 260553866.2564409,
+      "year10_global_total": 1056002254.057302
+    },
+    "0.9": {
+      "year5_cohort_survival": 0.5904900000000001,
+      "year10_IR_US": 413442194.7540663,
+      "year10_global_total": 1236505513.553236
+    },
+    "0.95": {
+      "year5_cohort_survival": 0.7737809374999998,
+      "year10_IR_US": 529031466.84291154,
+      "year10_global_total": 1371994170.2009897
+    }
+  },
+  "rules": [
+    "No annualized20%penetration treated as measuredannualhazard.",
+    "No>50%refillrevenue interpreted as>50%patientretention.",
+    "90%membershipretention implies59%cohortsurvivalafter5years,not90%paidrefillprobability.",
+    "NoactualformsorclaimsidentifyPHVSsecondoralcapture;rangeisunderwritingassumption.",
+    "Revenue/forms cannot separate netprice, conversion anddoseintensity.",
+    "10%IRworkingratealready implies a material same-window discounttofirstoralforms;do not add genericsecondoralhaircut again."
+  ]
+}
