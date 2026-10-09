@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-08",
+  "source": "/Users/kwu/Downloads/1-s2.0-S1081120625002583-main.pdf",
+  "doi": "10.1016/j.anai.2025.05.018",
+  "published": 2025,
+  "data_years": [
+    2018,
+    2019,
+    2020
+  ],
+  "verification": "Full text extracted; Table6 and limitations visually checked onPDFpage7.",
+  "estimates": {
+    "2018": {
+      "algorithm_projected": 9559,
+      "expert_projected": 7602,
+      "expert_95CI": [
+        6193,
+        9236
+      ]
+    },
+    "2019": {
+      "algorithm_projected": 9341,
+      "expert_projected": 7275,
+      "expert_95CI": [
+        5779,
+        9041
+      ]
+    },
+    "2020": {
+      "algorithm_projected": 8694,
+      "algorithm_95CI": [
+        6965,
+        10722
+      ],
+      "expert_projected": 6595,
+      "expert_95CI": [
+        5102,
+        8390
+      ]
+    }
+  },
+  "definition": "National projection from diagnosis-code/medication-claim algorithm;24months continuous enrollment, commercial claims with Medicare adjustment. Expert review excluded32of154unique algorithm cases;122retained. Not full population ascertainment.",
+  "limitations": [
+    "Undiagnosed, untreated, assistance/trial-only patients can be missed.",
+    "Medicaid and uninsured representation unresolved.",
+    "Claims expert adjudication is not laboratory confirmation.",
+    "Continuous enrollment selection may overestimate prevalence; missing cases may underestimate it. Not a strict lower bound.",
+    "Annual case counts127/104/87are small and overlapping; no independent annual observations or incidence/mortality series.",
+    "2019expertCI upper bound9041inTable6 vs9401in narrative; use visually verified table value and retain discrepancy.",
+    "Published2025butdataend2020; notcurrent2026stock.",
+    "Includes all HAE types without subtype allocation; not identical to PHVS clinically eligible population.",
+    "Reported statistical CIs do not cover all selection/misclassification or undiagnosed-population uncertainty."
+  ],
+  "model_use": "Historical diagnosis-and-treatment-ascertained prevalence anchor; not undiagnosed reservoir, annual diagnosis flow or mortality.",
+  "demographic_rules": [
+    "Total disease population changes through affected births and migration minus deaths; diagnosis transfers people from undiagnosed to diagnosed.",
+    "Diagnosed population changes through new diagnoses, diagnosed migration, deaths and diagnostic reclassification.",
+    "Stopping a drug or losing coverage changes treatment/payment status, not disease status.",
+    "Aging into a label changes eligibility, not total disease prevalence.",
+    "Do not add a mortality haircut to all-cause retention without reconciling deaths already included.",
+    "Historical275/year diagnosed-stock growth is net; subtracting deaths again without deriving gross diagnoses double-counts exits."
+  ],
+  "implementation": "Architecture extension only; no mortality value selected and national demographic engine remains unimplemented."
+}

@@ -540,6 +540,17 @@
       "thesis_effect": "Weakens comparison based solely on new-patient acquisition; persistent exposure matters. Does not establish PHVS retention uplift or fair value.",
       "limitations": "No matched empirical paid-start series found; provisional market partition is cross-date proxy; exact stock reconciliation is calibration, not independent validation. Uniform entry timing and assumed prevalent retention matter.",
       "remaining_work": "Select explicit probability assumptions and dependencies before Monte Carlo; clinically eligible origin pools, paid net price and IR supply remain unresolved."
+    },
+    {
+      "id": "G32",
+      "logged_on": "2026-10-08",
+      "objective": "Audit user-supplied prevalence paper and demographic exits.",
+      "user_contribution": "Supplied full paper and pointed out deaths/outflows as counterpart to diagnoses.",
+      "ai_method_and_sources": "Full-text extraction and visual verification ofTable6; durable demographic bookkeeping rules. research/PHVS_prevalence_fulltext_audit_2026-10-08.json",
+      "snapshot": "2020expert6595(95%CI5102\u20138390);algorithm8694(6965\u201310722). Claims medication requirement misses unseen disease.",
+      "thesis_effect": "Strengthens historical anchor without treating it as total biological prevalence or current TAM.",
+      "limitations": "Small selected case sample, Medicaid/uninsured gap, no incidence or mortality estimate;2019CI narrative/table typo flagged.",
+      "remaining_work": "Implement dynamic national cohorts; age-specific mortality and gross diagnosis calibration without double counting all-cause retention."
     }
   ]
 }

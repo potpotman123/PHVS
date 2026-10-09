@@ -162,3 +162,17 @@ All scenario choices are separate from the evidence ledger. See threshold_inputs
 Historical benchmarks F01-F05 are linked in parameter_ledger.json. They identify
 prior oral history, switch reasons, access loss and rescue dispensing structure;
 none is a national PHVS transition-rate estimate. Redosing caveats in linked JSON.
+
+
+DEMOGRAPHIC STOCK/FLOW CLARIFICATION — 8 October 2026
+Full-text source: research/PHVS_prevalence_fulltext_audit_2026-10-08.json.
+Total disease stock: prior stock + affected births + immigration - deaths - emigration.
+Undiagnosed stock: prior stock + undiagnosed entrants - diagnoses - deaths - emigration.
+Diagnosed stock: prior stock + diagnoses + diagnosed immigration - deaths - emigration
+- diagnostic reclassification (separate recorded diagnosis from underlying true disease).
+Treatment and payment transfers do not change underlying disease stock. Label-age
+transitions change eligibility only. Track deaths as terminal exits, not switchers.
+Use age-specific mortality when calibrated; no numerical mortality assumption adopted.
+Do not double-count mortality inside all-cause retention or subtract it again from a
+net diagnosis-growth assumption. Decompose those rates before adding explicit deaths.
+The monthly historical reconciliation does NOT yet implement these national flows.

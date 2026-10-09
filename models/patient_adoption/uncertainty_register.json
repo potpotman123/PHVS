@@ -58,5 +58,11 @@
     "Shared clinical benefit assumptions",
     "Geography/date/age/subtype alignment before revenue"
   ],
-  "reported_intervals": "Label future Monte Carlo percentiles model-implied uncertainty intervals conditional on inputs. Reserve statistical confidence intervals for supported sampling models."
+  "reported_intervals": "Label future Monte Carlo percentiles model-implied uncertainty intervals conditional on inputs. Reserve statistical confidence intervals for supported sampling models.",
+  "demographics": {
+    "mortality_rate": null,
+    "rule": "Age-specific calibration pending; distinguish deaths, migration, reclassification, eligibility and treatment/payment exits. Net diagnosed growth is not gross diagnosis flow.",
+    "prevalence_evidence": "research/PHVS_prevalence_fulltext_audit_2026-10-08.json",
+    "CI_use": "Paper provides historical statistical CIs conditional on ascertainment; retain separate structural underdiagnosis/selection uncertainty."
+  }
 }
