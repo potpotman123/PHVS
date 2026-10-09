@@ -603,6 +603,16 @@
       "snapshot": "Workingmodelyear5XR366m+IR299m=665mUS;year10~1.049bn;notfairvalueorprobabilityweighted.",
       "limitations": "Conditionalrelativeyears;provisionalpools,constantcompositehazards,weakIRretention/dual-useproxies. DirectNeurenPDF404,indexedprimarytextandoriginaldeckmirrorrecorded. USonly,noPoSorDCFlink.",
       "remaining_work": "ReviewpricingandIRmembership/intensitysensitivities;actualjointoriginadoptioncouldchangeoverlap. MonteCarloandworldwideDCFbridgepending."
+    },
+    {
+      "id": "G38",
+      "logged_on": "2026-10-09",
+      "objective": "CompareworkingadoptionrampwithsavedreverseDCFrequirements.",
+      "user_contribution": "Requestedcomparisonbeforefurthersensitivityrefinement.",
+      "ai_method_and_sources": "Usedlatestverification.jsonsuccesssales,assumed80%USandordinalyearmapping;recordedpartial/fulllaunchmismatch. models/patient_adoption/reverse_comparison_2026-10-09.json",
+      "snapshot": "Year5~flat;year10combined-19%,XR+28%,IR-49%;10yrrevenue-7.6%.",
+      "limitations": "Saved31.83snapshotnotlive;80%USassumed;earlytimingnotexact;noPVrecalculationandnewyear10notpeak.",
+      "remaining_work": "Calendarmonthalignmentandexplicitgeography/tailneededbeforeequityvaluation."
     }
   ]
 }

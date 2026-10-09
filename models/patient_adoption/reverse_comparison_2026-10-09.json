@@ -1,0 +1,160 @@
+{
+  "date": "2026-10-09",
+  "reverse_target_snapshot": 31.83,
+  "target_date": "2026-10-07;notliveprice",
+  "US_share_assumption": 0.8,
+  "PoS_note": "ReverseDCFalreadyuses90%PoS; sales compared here are conditional-on-success, not probability-weighted.",
+  "timing_note": "Ordinalmodelyear1comparedwithreverse2027 throughyear10/2036. NewmodelusesfullIRyear1/XRyear2;reverseincludespartiallaunchyears. Approximateearlyalignment,notprecisecalendarcomparison.",
+  "annual": [
+    {
+      "model_year": 1,
+      "reverse_calendar_year": 2027,
+      "reverse_worldwide_USDm": 63.75393966728139,
+      "reverse_US80_USDm": 51.00315173382511,
+      "new_US_USDm": 54.32257383123087,
+      "difference_fraction": 0.06508268576673726,
+      "reverse_XR_US80_USDm": 0.0,
+      "reverse_IR_US80_USDm": 51.00315173382511,
+      "new_XR_USDm": 0.0,
+      "new_IR_USDm": 54.32257383123087
+    },
+    {
+      "model_year": 2,
+      "reverse_calendar_year": 2028,
+      "reverse_worldwide_USDm": 204.34670407247387,
+      "reverse_US80_USDm": 163.4773632579791,
+      "new_US_USDm": 196.82363384131872,
+      "difference_fraction": 0.20398096665357146,
+      "reverse_XR_US80_USDm": 60.94025563695301,
+      "reverse_IR_US80_USDm": 102.53710762102608,
+      "new_XR_USDm": 65.79752067525666,
+      "new_IR_USDm": 131.02611316606206
+    },
+    {
+      "model_year": 3,
+      "reverse_calendar_year": 2029,
+      "reverse_worldwide_USDm": 428.97486277735806,
+      "reverse_US80_USDm": 343.17989022188647,
+      "new_US_USDm": 383.5974561856536,
+      "difference_fraction": 0.1177737015348852,
+      "reverse_XR_US80_USDm": 137.03937759045562,
+      "reverse_IR_US80_USDm": 206.14051263143085,
+      "new_XR_USDm": 184.01033251664242,
+      "new_IR_USDm": 199.58712366901113
+    },
+    {
+      "model_year": 4,
+      "reverse_calendar_year": 2030,
+      "reverse_worldwide_USDm": 615.0927581373887,
+      "reverse_US80_USDm": 492.074206509911,
+      "new_US_USDm": 536.628756084745,
+      "difference_fraction": 0.09054437112410718,
+      "reverse_XR_US80_USDm": 207.15710574496336,
+      "reverse_IR_US80_USDm": 284.91710076494763,
+      "new_XR_USDm": 281.8718761184811,
+      "new_IR_USDm": 254.75687996626385
+    },
+    {
+      "model_year": 5,
+      "reverse_calendar_year": 2031,
+      "reverse_worldwide_USDm": 827.1705871911206,
+      "reverse_US80_USDm": 661.7364697528965,
+      "new_US_USDm": 665.2216316502476,
+      "difference_fraction": 0.005266691585930738,
+      "reverse_XR_US80_USDm": 271.1930937322585,
+      "reverse_IR_US80_USDm": 390.543376020638,
+      "new_XR_USDm": 366.2933092762802,
+      "new_IR_USDm": 298.9283223739675
+    },
+    {
+      "model_year": 6,
+      "reverse_calendar_year": 2032,
+      "reverse_worldwide_USDm": 1000.1731184434461,
+      "reverse_US80_USDm": 800.138494754757,
+      "new_US_USDm": 772.916226258073,
+      "difference_fraction": -0.034021945794555974,
+      "reverse_XR_US80_USDm": 329.04887081717425,
+      "reverse_IR_US80_USDm": 471.08962393758276,
+      "new_XR_USDm": 438.8727748350546,
+      "new_IR_USDm": 334.0434514230185
+    },
+    {
+      "model_year": 7,
+      "reverse_calendar_year": 2033,
+      "reverse_worldwide_USDm": 1166.3542067441506,
+      "reverse_US80_USDm": 933.0833653953205,
+      "new_US_USDm": 862.7194057892823,
+      "difference_fraction": -0.07541015327845546,
+      "reverse_XR_US80_USDm": 380.62127718191647,
+      "reverse_IR_US80_USDm": 552.462088213404,
+      "new_XR_USDm": 501.0428776502285,
+      "new_IR_USDm": 361.67652813905374
+    },
+    {
+      "model_year": 8,
+      "reverse_calendar_year": 2034,
+      "reverse_worldwide_USDm": 1325.5942804862455,
+      "reverse_US80_USDm": 1060.4754243889963,
+      "new_US_USDm": 937.188062546919,
+      "difference_fraction": -0.11625668922324206,
+      "reverse_XR_US80_USDm": 425.80715300869156,
+      "reverse_IR_US80_USDm": 634.6682713803049,
+      "new_XR_USDm": 554.076194566257,
+      "new_IR_USDm": 383.111867980662
+    },
+    {
+      "model_year": 9,
+      "reverse_calendar_year": 2035,
+      "reverse_worldwide_USDm": 1477.7737680627426,
+      "reverse_US80_USDm": 1182.2190144501942,
+      "new_US_USDm": 998.5065726534219,
+      "difference_fraction": -0.1553962840651908,
+      "reverse_XR_US80_USDm": 464.50427629623084,
+      "reverse_IR_US80_USDm": 717.7147381539634,
+      "new_XR_USDm": 599.1025728261257,
+      "new_IR_USDm": 399.4039998272963
+    },
+    {
+      "model_year": 10,
+      "reverse_calendar_year": 2036,
+      "reverse_worldwide_USDm": 1622.7684087840269,
+      "reverse_US80_USDm": 1298.2147270272217,
+      "new_US_USDm": 1048.5488813701543,
+      "difference_fraction": -0.19231475383796992,
+      "reverse_XR_US80_USDm": 496.60667377716436,
+      "reverse_IR_US80_USDm": 801.6080532500572,
+      "new_XR_USDm": 637.1245720718916,
+      "new_IR_USDm": 411.4243092982627
+    }
+  ],
+  "cumulative": {
+    "5": {
+      "reverse_US80_USDm": 1711.471081476498,
+      "new_US_USDm": 1836.5940515931957
+    },
+    "10": {
+      "reverse_US80_USDm": 6985.602107492989,
+      "new_US_USDm": 6456.473200211047
+    }
+  },
+  "year10_geography_sensitivity": {
+    "0.6": {
+      "reverse_US_USDm": 973.661045270416,
+      "difference_fraction": 0.07691366154937374
+    },
+    "0.8": {
+      "reverse_US_USDm": 1298.2147270272217,
+      "difference_fraction": -0.19231475383796992
+    },
+    "1.0": {
+      "reverse_US_USDm": 1622.7684087840269,
+      "difference_fraction": -0.3538518030703758
+    }
+  },
+  "limits": [
+    "80%USshareisassumed,notnewgeographicforecast.",
+    "ReverseIR/XRsplitinheritedfromsellside,notuniquelyimpliedbystockprice.",
+    "NoDCFvaluationrerun;differenttiming,margins,costs,andpostyear10growth/tailmaychangePV.",
+    "Newyear10revenueisnotestablishedpeak."
+  ]
+}
