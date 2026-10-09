@@ -41,5 +41,11 @@
     "status": "LTP extension benchmark applies only to that selected population. No universal commercial redosing chosen. PHVS17%is not an LTP-matched comparator.",
     "consumption_formula": "attacks * fraction treated * PHVS share conditional on treated * (1+repeat-dose fraction)",
     "paid_supply": "Inventory, free supply, pack size and net price required before revenue. Do not apply an additional consumption haircut to observed dispensing."
+  },
+  "market_calibration": {
+    "evidence": "research/PHVS_population_launch_calibration_2026-10-08.json",
+    "calculation": "market_calibration.py",
+    "use": "Historical aggregate stock-growth and origin-mix checks; no automatic replacement of PHVS switching probabilities.",
+    "national_origin_stocks": null
   }
 }

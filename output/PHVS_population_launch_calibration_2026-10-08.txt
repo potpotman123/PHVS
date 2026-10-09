@@ -1,0 +1,58 @@
+PHVS population and launch calibration — 8 October 2026
+
+Decision: use historical net patient growth and entrant origins to constrain the
+adoption model. Do not translate prescriptions or cumulative drug exposure into
+current paid patients. Sources and definitions: research/PHVS_population_launch_calibration_2026-10-08.json.
+
+DATED US POPULATION ANCHORS
+BioCryst claims estimates: 2019 diagnosed10,035 = treated8,010 + untreated2,025;
+2023 diagnosed11,135 = treated8,511 + untreated2,624. These are company estimates
+from administrative claims, not independently adjudicated current PHVS eligibility.
+The prior KalVista~9,000 diagnosed estimate is a different, unresolved definition.
+Do not average them or call their spread a statistical confidence interval.
+OrladeyoYE2025 >1,600 on therapy includes QuickStart, paid and assistance patients.
+Current unique Takhzyro/Haegarda/other-prevention/acute-only stocks remain unknown.
+Undiagnosed patients remain a separate latent population; not all become treated.
+No mixing dates to manufacture an exact contemporary prevention partition.
+
+HISTORICAL LAUNCH CHECKS
+YE2023:1,104 paid+PAP patients x71.5% = approximately789 paid.
+Reported30%year-over-year growth implies roughly849 paid+PAP atYE2022 and255
+net additions in2023. Rounded percentage limits precision. Including QuickStart,
+reported net additions were321. Neither number is gross starts or net paid starts.
+YE2024 paid share73.5%; no aligned patient denominator recovered.
+YE2025 paid share81% excludes QuickStart; cannot multiply by the >1,600 count.
+TheNovember2024deck's~200annual net additions for2024–29 is a management FORECAST.
+Ekterly1,702USstart forms throughFeb2026 do not identify paid users. Its49.1mglobal
+revenue throughDec2025 has a different geography/window; division cannot yield
+paid conversion. More thanhalfQ4revenuefromrefills is not patient persistence.
+
+ENTRANT ORIGIN BENCHMARK
+BioCryst launch-toJune3,2024 history:52%prior prophylaxis,32%on-demand only,
+17%treatment-naive. Rounding totals101%. These describe people trying Orladeyo,
+not successful paid starts, a contemporary market partition or switching rates.
+Compare our cumulative modeled starters' origins with this mix. Do not allocate
+321net additions by these percentages. Prior prophylaxis can mean historical
+experience rather than immediate prior treatment; naive does not mean newly diagnosed.
+
+MODEL IMPLEMENTATION
+market_calibration.py reproduces historical checks and accounting identities.
+Working assumptions and parameter ledger now point to this evidence. Current
+PHVS origin-specific switching rates remain uncalibrated; no national revenue
+forecast or DCF was changed. Existing61/74/87%XRretention scenarios remain intact.
+For calibration, keep gross starts, exits, paid/free transfers and active stock
+separate. Annual revenue requires paid patient-years, not year-end stock.
+
+IMPLICATION
+Orladeyo is evidence that a convenient oral can recruit from beyond existing
+prophylaxis. PHVS must win a mix of switches and new prevention users in a changed
+market; it cannot simply inherit Orladeyo's historical origin mix. Historical
+net growth now provides a concrete check on proposed PHVS trajectories.
+
+REMAINING LIMITATION / STOP
+The bounded search recovered useful net-stock and origin benchmarks but not an
+aligned annual paid-start series or current unique drug-level population split.
+Do not fill those gaps with cumulative prescribed counts, issuer forecasts, or
+survey preference. Next quantitative work should reconcile modeled gross starts,
+retention and payment transitions to these historical aggregates, then explicitly
+vary PHVS differentiation and competition. Access and net price still matter.

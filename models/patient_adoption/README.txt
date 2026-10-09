@@ -1,3 +1,5 @@
+Historical calibration added8October2026: market_calibration.py -> market_calibration_results.json. Source ledger: research/PHVS_population_launch_calibration_2026-10-08.json. Preserves unknown current populations/paid starts.
+
 LATEST WORKING MODEL UPDATE — 8 October2026
 working_assumptions.json now drives sensitivity.py and illustrative_sensitivity.json.
 XR R1=61%+39%*(20/30)*fraction_of_clinical_exits_avoided:61/74/87% for0/50/100%

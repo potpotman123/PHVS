@@ -514,6 +514,19 @@
       "thesis_effect": "Allows partial retention upside without eliminatingnonclinicalexits; avoids permanent pivotalredosinghaircut.",
       "limitations": "Cross-cohortcause proxy and50%repair areassumptions; no nationalcapture,paidpricing orrevenueforecast identified.",
       "remaining_work": "Origin-treatment stocks, historical netpaidstarts versuspool, netrevenueperpatient and rescue paidreplenishment."
+    },
+    {
+      "id": "G30",
+      "logged_on": "2026-10-08",
+      "record_type": "contemporaneous",
+      "objective": "Calibrate treatment populations and historical launch additions.",
+      "user_contribution": "Authorized comparison-led population and adoption calibration; earlier rejected false precision at every transition.",
+      "prompt_excerpt": "Let's do that.",
+      "ai_method_and_sources": "Bounded primary issuer search plus prior claims/pharmacy ledger; followed BioCryst2024deck; implemented reproducible aggregate checks. research/PHVS_population_launch_calibration_2026-10-08.json",
+      "snapshot": "YE2023~789paid;~255net paid+PAP additions vs321includingQuickStart. Origin52/32/17. Companydiagnosed11135in2023 conflictswith~9000otherissuer estimate.",
+      "thesis_effect": "Orladeyo growth sourced substantially beyond prior prophylaxis; supports broader opportunity but undermines simple switch-rate inference.",
+      "limitations": "No paid-addition series identified; forecasts separated from actuals, denominator/date/geography mismatches preserved; sponsored estimates not independent validation. No agents or paiddata.",
+      "remaining_work": "Joint historical stock/start/exit reconciliation and PHVS scenario selection; net paid price and rescue replenishment remain open."
     }
   ]
 }

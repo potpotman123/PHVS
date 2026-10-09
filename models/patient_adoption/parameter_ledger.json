@@ -7,7 +7,8 @@
     "Exx": "existing AlphaSense ledgers",
     "Fxx": "research/PHVS_adoption_flow_evidence_2026-10-08.json observations",
     "PHSx": "research/PHVS_public_pharmacy_sources_2026-10-08.json sources",
-    "H1-H4": "research/PHVS_three_adoption_hypotheses_2026-10-08.json sources"
+    "H1-H4": "research/PHVS_three_adoption_hypotheses_2026-10-08.json sources",
+    "L1-L6": "research/PHVS_population_launch_calibration_2026-10-08.json"
   },
   "parameters": [
     {
@@ -18,7 +19,9 @@
       "status": "unknown",
       "source_refs": [
         "A22",
-        "A23"
+        "A23",
+        "L2",
+        "L6"
       ],
       "population": "Age/subtype/label-aligned HAE",
       "geography": "US unless source explicitly says global",
@@ -35,7 +38,8 @@
       ],
       "double_counting_risk": "Do not add diagnosed to treated; untreated remains a subset.",
       "numerical_use": "not_ready",
-      "definition": "Current diagnosed eligible stock for Age/subtype/label-aligned HAE over Launch-date snapshot"
+      "definition": "Current diagnosed eligible stock for Age/subtype/label-aligned HAE over Launch-date snapshot",
+      "additional_calibration": "Company2023 diagnosed11135 differs from2026~9000; unresolved definitions, no single current eligible stock selected."
     },
     {
       "id": "N2",
@@ -44,7 +48,9 @@
       "value": null,
       "status": "unknown",
       "source_refs": [
-        "A01"
+        "A01",
+        "L2",
+        "L4"
       ],
       "population": "All eligible patients by exclusive prevention state",
       "geography": "US unless source explicitly says global",
@@ -60,7 +66,8 @@
       ],
       "double_counting_risk": "Do not use claims study index-drug mix as market share.",
       "numerical_use": "not_ready",
-      "definition": "Current treatment partition for All eligible patients by exclusive prevention state over Launch date"
+      "definition": "Current treatment partition for All eligible patients by exclusive prevention state over Launch date",
+      "additional_calibration": "Launch-toJune2024 origin mix52/32/17 is a gross-trier history benchmark, not current market shares."
     },
     {
       "id": "N3",
@@ -72,7 +79,8 @@
       ],
       "status": "management_estimate",
       "source_refs": [
-        "P03"
+        "P03",
+        "L2"
       ],
       "population": "New HAE entrants as described by management",
       "geography": "US unless source explicitly says global",
@@ -92,7 +100,8 @@
       ],
       "double_counting_risk": "Do not count first prescription as new diagnosis.",
       "numerical_use": "scenario_only",
-      "definition": "New diagnosis flow for New HAE entrants as described by management over Annual, undated definition"
+      "definition": "New diagnosis flow for New HAE entrants as described by management over Annual, undated definition",
+      "additional_calibration": "2019-2023 net diagnosed stock change1100 or275/year; not gross new diagnoses and not replacement for150-250management scenario."
     },
     {
       "id": "N4",
@@ -359,7 +368,9 @@
       "value": 0.81,
       "status": "observed",
       "source_refs": [
-        "A03"
+        "A03",
+        "L1",
+        "L3"
       ],
       "population": "Orladeyo on therapy excluding QuickStart",
       "geography": "US unless source explicitly says global",
@@ -375,7 +386,8 @@
       ],
       "double_counting_risk": "Cannot multiply active count including QuickStart.",
       "numerical_use": "benchmark_only",
-      "definition": "Historical mature paid share for Orladeyo on therapy excluding QuickStart over YE2025"
+      "definition": "Historical mature paid share for Orladeyo on therapy excluding QuickStart over YE2025",
+      "additional_calibration": "YE2023 aligned1104x71.5%=~789paid; missingYE2024/25 aligned denominator prevents paid-addition series."
     },
     {
       "id": "T1",

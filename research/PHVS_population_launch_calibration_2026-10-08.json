@@ -1,0 +1,132 @@
+{
+  "as_of": "2026-10-08",
+  "status": "Dated historical calibration; not a current national forecast",
+  "sources": {
+    "L1": {
+      "url": "https://ir.biocryst.com/node/25731",
+      "date": "2024-02-26",
+      "location": "ORLADEYO program updates",
+      "type": "Issuer actuals"
+    },
+    "L2": {
+      "url": "https://ir.biocryst.com/static-files/4e1f4dca-2e8e-48b6-869f-46bd74b8b1ba",
+      "date": "2024-11-04",
+      "location": "PDF pages8-12",
+      "type": "Issuer claims estimates, pharmacy history and management forecasts; not independent validation"
+    },
+    "L3": {
+      "url": "https://ir.biocryst.com/news-releases/news-release-details/biocryst-reports-fourth-quarter-and-full-year-2024-financial",
+      "date": "2025-02-24",
+      "type": "Issuer actuals"
+    },
+    "L4": {
+      "url": "https://ir.biocryst.com/static-files/5a7fc8c1-15d9-4c5b-a3db-b0f6e07fd632",
+      "date": "2026-01-12",
+      "type": "Previously audited issuer disclosure; A01/A03"
+    },
+    "L5": {
+      "url": "https://ir.kalvista.com/node/12706/html",
+      "date": "2026-03-25",
+      "type": "Issuer disclosure; prior commercial calibration K02"
+    },
+    "L6": {
+      "url": "https://ir.kalvista.com/node/12546/html",
+      "date": "2026-01",
+      "type": "Previously audited management population estimate A23"
+    }
+  },
+  "population_anchors": [
+    {
+      "period": "2019",
+      "diagnosed": 10035,
+      "treated": 8010,
+      "not_treated": 2025,
+      "source": "L2",
+      "status": "Company claims-derived estimate"
+    },
+    {
+      "period": "2023",
+      "diagnosed": 11135,
+      "treated": 8511,
+      "not_treated": 2624,
+      "source": "L2",
+      "status": "Company claims-derived estimate; treatment-window and age/subtype eligibility not fully disclosed"
+    },
+    {
+      "period": "January2026",
+      "diagnosed_approx": 9000,
+      "source": "L6",
+      "status": "Management estimate with unreconciled definition; do not average with L2"
+    },
+    {
+      "period": "YE2025",
+      "orladeyo_on_therapy_lower_bound_exclusive": 1600,
+      "includes": [
+        "paid",
+        "PAP",
+        "QuickStart"
+      ],
+      "source": "L4",
+      "status": "Observed lower bound; not current eligible oral-switch pool"
+    }
+  ],
+  "unknown_current_stocks": [
+    "Age/subtype-aligned diagnosed population",
+    "Current total LTP",
+    "Takhzyro active unique users",
+    "Haegarda active unique users",
+    "Other LTP including newly launched injectables",
+    "Acute-only",
+    "Diagnosed untreated",
+    "Undiagnosed",
+    "Orladeyo dissatisfied versus satisfied"
+  ],
+  "orladeyo_history": {
+    "YE2023_paid_plus_PAP": 1104,
+    "YE2023_paid_fraction": 0.715,
+    "YE2023_growth_yoy_rounded": 0.3,
+    "FY2023_net_additions_including_QuickStart": 321,
+    "source": "L1",
+    "YE2024_paid_fraction": 0.735,
+    "YE2024_source": "L3",
+    "YE2024_total_same_denominator": null,
+    "YE2025_paid_fraction_excluding_QuickStart": 0.81,
+    "YE2025_source": "L4",
+    "YE2025_total_same_denominator": null,
+    "caveat": "L3 retrospectively says71.4%forYE2023 vs contemporaneous71.5%; retain original, not spurious exact count."
+  },
+  "orladeyo_origin_mix": {
+    "source": "L2",
+    "period": "Launch through June3,2024",
+    "raw_percent": {
+      "prior_prevention": 52,
+      "on_demand_only": 32,
+      "treatment_naive": 17
+    },
+    "status": "Observed company-reported specialty-pharmacy patient history supplemented with claims; rounded percentages total101",
+    "denominator": "Patients trying Orladeyo, not entire origin-treatment pools or retained paid stock",
+    "use": "Compare model cumulative gross starts by history; do not apply as origin-specific conversion probabilities. Prior prevention may not mean immediate last treatment. Treatment naive does not necessarily mean newly diagnosed."
+  },
+  "forecast_not_actual": {
+    "source": "L2",
+    "annual_net_patient_additions_2024_2029_approx": 200,
+    "paid_share_goal": 0.85,
+    "use": "Management expectation comparator only; not empirical annual acquisition rate"
+  },
+  "ekterly_history": {
+    "source": "L5",
+    "US_start_forms_through_2026_02_28": 1702,
+    "paid_patients_same_date": null,
+    "global_revenue_through_2025_12_31_USDm": 49.1,
+    "Q42025_refill_revenue_share_lower_bound_exclusive": 0.5,
+    "use": "Submitted-demand and repeat-shipment checks only; different dates/geography/units prevent conversion or paid-patient reconstruction"
+  },
+  "model_rules": [
+    "Annual net stock change = gross additions minus exits; net additions cannot calibrate gross switching without exits.",
+    "Paid stock changes include free-to-paid transitions and paid-to-free transitions as well as new starts and exits.",
+    "Annual revenue requires paid patient-years and net realized price, not year-end paid stock.",
+    "Keep dated stocks separate; never subtract 2025 oral counts from a 2023 market total as if contemporaneous.",
+    "Do not multiply52/32/17by321: origin mix is cumulative gross trials,321is annual net all-status additions.",
+    "No current national pool allocation selected; retain unknowns rather than invent drug-specific counts."
+  ]
+}

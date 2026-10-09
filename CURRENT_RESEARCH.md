@@ -1,3 +1,5 @@
+Latest population/launch calibration: [dated patient pools and net additions](output/PHVS_population_launch_calibration_2026-10-08.txt). OrladeyoYE2023~789paid;~255net paid+PAP additions,321includingQuickStart. Origin52/32/17 is historical trier mix, not conversion. Runnable market_calibration.py; no national forecast selected. ProcessG30.
+
 Latest runnable adoption adjustment: working_assumptions.json drives normalized cohort sensitivity; XR61/74/87%first-year retention scenarios,74%working assumption; IRpivotal andLTPextension comparisons keptseparate. No nationalforecast orDCF repricing. ProcessG29.
 
 Latest three-hypothesis audit: [XR switching/retention and IR consumption](output/PHVS_three_adoption_hypotheses_2026-10-08.txt). New H1–H4 links; KON-S LTP22.3% repeat dosing qualifies permanent38%assumption. Berolife20/80efficacy/AE exits notPHVSretentionuplift. ProcessG28.

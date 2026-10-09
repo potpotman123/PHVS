@@ -1,0 +1,12 @@
+{
+  "status": "Historical checks; arithmetic validation only, not independent market validation",
+  "YE2023_paid_patients_approx": 789,
+  "YE2022_paid_plus_PAP_approx_from_rounded_growth": 849,
+  "FY2023_net_paid_plus_PAP_additions_approx": 255,
+  "FY2023_net_all_status_additions_observed": 321,
+  "2019_2023_average_annual_net_diagnosed_stock_change": 275.0,
+  "2019_2023_average_annual_net_treated_stock_change": 125.25,
+  "FY2023_net_paid_additions": null,
+  "FY2023_gross_paid_starts": null,
+  "note": "Net diagnosis stock change is not incident diagnosis. Paid additions cannot be identified without prior aligned paid stock; gross starts additionally require exits and payment transitions."
+}
