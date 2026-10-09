@@ -1,0 +1,51 @@
+{
+  "as_of": "2026-10-09",
+  "question": "Find observable transaction preparation rather than strategic fit.",
+  "scope": "Six targeted queries across transaction disclosures, governance/compensation, ownership and partnerships; selective primary-source reads and annual-report keyword comparison. No personal travel tracking.",
+  "sources": {
+    "2025_report": "https://www.sec.gov/Archives/edgar/data/1830487/000119312526266666/phvs-ex99_4.htm",
+    "2024_report": "https://www.sec.gov/Archives/edgar/data/1830487/000095017025084094/phvs-ex99_4.htm",
+    "interim_mda": "https://www.sec.gov/Archives/edgar/data/1830487/000119312526345702/phvs-ex99_2.htm",
+    "old_equity_plan": "https://ir.pharvaris.com/node/6661/html"
+  },
+  "findings": [
+    {
+      "status": "Observed; non-signal",
+      "finding": "Annual-report excerpts concerning ownership concentration/change in control, Nasdaq issuance exemptions/change of control and Modig/Takeda history were the same in 2024 and 2025.",
+      "limit": "Targeted keyword comparison, not a full contract/exhibit redline. Does not establish absence of other changes."
+    },
+    {
+      "status": "Observed; non-signal",
+      "finding": "Interim MD&A identifies Morgan Stanley and Leerink as May2026 offering underwriters; no basis to relabel as M&A advisers. Net proceeds USD124.3m; bank fees USD7.9m.",
+      "limit": "Does not exclude other undisclosed mandates."
+    },
+    {
+      "status": "Not identified",
+      "finding": "No current named bid, strategic review, Takeda stake or disclosed bilateral acquisition process found.",
+      "limit": "Search-screen result, not comprehensive ownership audit or proof of no discussions. Secondary ownership pages not treated as verified evidence."
+    }
+  ],
+  "ranked_next_sources": [
+    {
+      "source": "New compensation/severance and retention agreement exhibits compared with historical versions",
+      "signal": "Transaction-contingent bonus or unusual coordinated change; ordinary annual refresh is competing explanation."
+    },
+    {
+      "source": "Disclosed special committee, strategic-review mandate, advisory engagement or bidder stake/rights",
+      "signal": "Direct transaction preparation or buyer-specific optionality; distinguish financing and passive holdings."
+    },
+    {
+      "source": "Public merger background filings for completed HAE deals",
+      "signal": "Reveals what contemporaneous signals were actually visible and bidder motives; anonymous bidders cannot be assigned to Takeda."
+    },
+    {
+      "source": "Corporate licensing, patent assignments and regional-rights announcements",
+      "signal": "Buyer-specific contractual link; partnership may substitute for acquisition."
+    },
+    {
+      "source": "Archived public commercial hiring and corporate spending disclosures",
+      "signal": "Abrupt coordinated change may justify investigation; trial timing, outsourcing and financing are alternative explanations."
+    }
+  ],
+  "decision": "No probability increase or valuation change based on this screen. Preserve strategic-fit thesis separately. Stop before expensive archives or weak-proxy collection."
+}
