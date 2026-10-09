@@ -815,6 +815,17 @@
       "thesis_effect": "Supportsplausibilityofearlybidsbutrejectsmechanicalapprovaltimingrule.",
       "limitations": "Earlier register stopped at21/22.50offersrejectedonprice. Full2024sequenceadvancedto23,confirmatorydiligenceanddraftagreementsbeforebuyerboarddeclined. Do not characterizewhole2024failureaspriceonly. FilingcontainsAugust6,2025dateembeddedinAugust2024sequence; preserveasapparentsourcedateinconsistency,notcorrectedfact.",
       "remaining_work": "Retainconditionaltimingassumptions;notakeoverprobabilityupgrade."
+    },
+    {
+      "id": "G57",
+      "logged_on": "2026-10-09",
+      "objective": "DidBioCrystreceiveacquisitionproposals?",
+      "user_contribution": "UserhypothesizedBCRXmusthavereceivedacquisitionoffers.",
+      "ai_method_and_sources": "Fiveboundedqueriesandselectivereadingoforiginal2018mergerproxy,terminationreleaseand2025Europeanbusinesssale. Noagents. research/BCRX_acquisition_proposals_2026-10-09.json",
+      "snapshot": "2016CompanyBcashproposalverified;buyerwithdrewoverpremium.2018Ideradealfailedshareholdervote.",
+      "thesis_effect": "Actualhistoricalcashacquisitioninterestverified;cannotinferrecentpostapprovalpricedwholecompanybids. Interestdidnottranslateintoacceptablepremiumandcompleteddeal.",
+      "limitations": "Boundedpublicscreen;privatetalksmaybeundisclosed.2026takeoverrumorarticlesfoundbutnotcorroboratedandnotusedasconfirmedbids.2016clinical/financingcontextdifferentfromPHVS2026.",
+      "remaining_work": "NoPHVSprobabilitychange;usehistoricalinterestandcompletionasseparateevidence."
     }
   ]
 }

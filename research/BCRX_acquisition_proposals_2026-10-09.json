@@ -1,0 +1,33 @@
+{
+  "as_of": "2026-10-09",
+  "question": "DidBioCrystreceiveacquisitionproposals?",
+  "method": "Fiveboundedqueriesandselectivereadingoforiginal2018mergerproxy,terminationreleaseand2025Europeanbusinesssale. Noagents.",
+  "findings": [
+    {
+      "source": "https://www.sec.gov/Archives/edgar/data/882796/000104746918002332/a2235143zdefm14a.htm",
+      "locator": "BackgroundoftheMergers,printedp52-53",
+      "observed": "LargepublicbiopharmaCompanyBCEOproposedcashacquisitioninJune22/July26,2016meetings;NDAJuly27andpreliminarydiligencefollowed. EarlyAugustwithdrewbecauseunwillingtopaymeaningfulpremiumfinancialadvisorbelievednecessary.",
+      "classification": "Disclosedcashacquisitionproposal/discussions;noformalwrittenpricedbididentifiedinpassage. Anonymousbuyer."
+    },
+    {
+      "source": "https://www.sec.gov/Archives/edgar/data/882796/000104746918002332/a2235143zdefm14a.htm",
+      "locator": "printedp52-57",
+      "observed": "CompanyAstockmergerdiscussions2016and2017;CompanyC/D/Ealsoexploredtransactionswithvaryingdepth. Clinicaldataandrelativevaluationconstraintsrecurring.",
+      "classification": "Notallcontactsarebids;notcontemporaryOrladeyolaunch-evidence."
+    },
+    {
+      "source": "https://ir.biocryst.com/news-releases/news-release-details/biocryst-pharmaceuticals-announces-termination-merger-agreement",
+      "date": "2018-07-10",
+      "observed": "SignedIderamergerterminatedafterBioCrystshareholdersfailedtoapprove.",
+      "classification": "Agreedstockcombinationnotcompletedcashbuyout."
+    },
+    {
+      "source": "https://ir.biocryst.com/news-releases/news-release-details/biocryst-completes-sale-european-orladeyor-berotralstat-business",
+      "date": "2025-10-01",
+      "observed": "EuropeanOrladeyobusinesssoldtoNeopharmedGentilifor250mupfrontplusupto14mmilestones.",
+      "classification": "Regionalassettransaction,notBioCrysttakeover."
+    }
+  ],
+  "conclusion": "Actualhistoricalcashacquisitioninterestverified;cannotinferrecentpostapprovalpricedwholecompanybids. Interestdidnottranslateintoacceptablepremiumandcompleteddeal.",
+  "limitations": "Boundedpublicscreen;privatetalksmaybeundisclosed.2026takeoverrumorarticlesfoundbutnotcorroboratedandnotusedasconfirmedbids.2016clinical/financingcontextdifferentfromPHVS2026."
+}
