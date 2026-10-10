@@ -589,7 +589,7 @@ put(wsVal, r, 2, 'Neither'); put(wsVal, r, 4, '=1-ir_pos-xr_pos+w_both', f_norm,
 put(wsVal, r, 2, 'Check: sum'); put(wsVal, r, 4, '=w_both+w_IR_only+w_XR_only+w_neither', f_norm, PCT); r += 2
 VALROW = {}
 for tag, dlabel in (('val', 'Valuation date'), ('tgt', 'Target date')):
-    band(wsVal, r, f'{dlabel}: =TEXT({"valuation_date" if tag=="val" else "target_date"},"d mmm yyyy")', 2, 8); wsVal.cell(r, 2).value = f'="{dlabel}: "&TEXT({"valuation_date" if tag=="val" else "target_date"},"d mmm yyyy")'; r += 1
+    band(wsVal, r, '', 2, 8); wsVal.cell(r, 2).value = ('="Value today, "&TEXT(valuation_date,"d mmm yyyy")' if tag == 'val' else '="12-month price target, "&TEXT(target_date,"d mmm yyyy")&": the same DCF rolled forward one year; cash flows before that date accrue to cash, the rest are discounted to it"'); r += 1
     heads = ['USD millions', 'Both', 'IR only', 'XR only', 'Neither']
     for i, h in enumerate(heads): put(wsVal, r, 2 + i, h, f_hdr, fill=fill_hdr)
     r += 1; R0 = r
@@ -636,27 +636,42 @@ put(wsVal, r, 2, 'CAPM cost of equity'); put(wsVal, r, 3, '=rf_rate+beta*erp', f
 put(wsVal, r, 2, 'Debt weight'); put(wsVal, r, 3, 0, f_input, PCT); put(wsVal, r, 5, 'no term debt; leases are inside other net assets', f_sub); r += 1
 put(wsVal, r, 2, 'Single-asset and financing premium'); put(wsVal, r, 3, f'=discount_rate-C{r-2}', f_norm, PCT); put(wsVal, r, 5, 'implied by the 12% used: binary regulatory and launch outcomes sit in the branch weights, so the premium is for execution and funding risk, not approval risk', f_sub); r += 1
 put(wsVal, r, 2, 'Discount rate used (Inputs)', f_bold); put(wsVal, r, 3, '=discount_rate', f_bold, PCT, fill=fill_key); put(wsVal, r, 5, 'nominal USD; 10% and 15% are the published stresses', f_sub); r += 2
-band(wsVal, r, 'DCF walk, both products approved: cash flows after the target date, discounted on actual days to 9 October 2027', 2, 8); r += 1
+band(wsVal, r, 'Risk-adjusted DCF walk at the target date: product cash flows weighted by the branch probabilities (85.3% both, 4.7% IR only, 4.7% XR only); the 5.3% neither branch enters as liquidation value', 2, 8); r += 1
 DY = list(range(2027, END_YEAR + 1)); DC0 = 3
 put(wsVal, r, 2, 'Year', f_hdr, fill=fill_hdr)
 for i, y in enumerate(DY):
     put(wsVal, r, DC0 + i, y, f_hdr, fill=fill_hdr, align=Alignment(horizontal='right')); wsVal.column_dimensions[CL(DC0 + i)].width = max(wsVal.column_dimensions[CL(DC0 + i)].width or 0, 9.5)
     if y >= 2032: wsVal.column_dimensions[CL(DC0 + i)].outlineLevel = 1; wsVal.column_dimensions[CL(DC0 + i)].hidden = True
 DYR = r; r += 1
-fcfB = mrng('Fin Monthly', RF[('both', 'fcf')]); yrs = mrng('Fin Monthly', 3); fr = mrng('Calendar', CAL['frac_tgt']); dfr = mrng('Calendar', CAL['df_tgt'])
-put(wsVal, r, 2, 'Free cash flow after the target date, USD m'); [put(wsVal, r, DC0 + i, f"=SUMPRODUCT({fcfB},1-{fr},--({yrs}={CL(DC0+i)}${DYR}))", f_norm, NUM) for i in range(len(DY))]; W_FCF = r; r += 1
-put(wsVal, r, 2, 'Present value, USD m'); [put(wsVal, r, DC0 + i, f"=SUMPRODUCT({fcfB},1-{fr},{dfr},--({yrs}={CL(DC0+i)}${DYR}))", f_norm, NUM) for i in range(len(DY))]; W_PV = r; r += 1
+yrs = mrng('Fin Monthly', 3); fr = mrng('Calendar', CAL['frac_tgt']); dfr = mrng('Calendar', CAL['df_tgt'])
+WN = {'both': 'w_both', 'IR_only': 'w_IR_only', 'XR_only': 'w_XR_only'}
+def wsum(key, extra=''):
+    return '+'.join(f"{WN[st]}*SUMPRODUCT({mrng('Fin Monthly', RF[(st, key)])}{extra})" for st in WN)
+def wrow(label, key, extra, fmt=NUM, bold=False):
+    global r; put(wsVal, r, 2, label, f_bold if bold else f_norm)
+    for i in range(len(DY)): put(wsVal, r, DC0 + i, '=' + wsum(key, extra.replace('YY', f'{CL(DC0+i)}${DYR}')), f_bold if bold else f_norm, fmt)
+    r += 1; return r - 1
+W_REV = wrow('Expected revenue, USD m', 'revenue', f",--({yrs}=YY)")
+W_OPX = wrow('Expected operating costs and tax, USD m', 'revenue', f",--({yrs}=YY)")
+for i in range(len(DY)):
+    L = CL(DC0 + i); wsVal.cell(W_OPX, DC0 + i).value = '=' + '+'.join(f"{WN[st]}*(SUMPRODUCT({mrng('Fin Monthly', RF[(st,'revenue')])},--({yrs}={L}${DYR}))-SUMPRODUCT({mrng('Fin Monthly', RF[(st,'ni')])},--({yrs}={L}${DYR})))" for st in WN)
+W_FCF = wrow('Expected free cash flow after the target date, USD m', 'fcf', f",1-{fr},--({yrs}=YY)", bold=True)
+W_PV = wrow('Present value at the target date, USD m', 'fcf', f",1-{fr},{dfr},--({yrs}=YY)")
 put(wsVal, r, 2, 'Effective discount factor'); [put(wsVal, r, DC0 + i, f"=IF({CL(DC0+i)}{W_FCF}=0,\"\",{CL(DC0+i)}{W_PV}/{CL(DC0+i)}{W_FCF})", f_norm, NUM3) for i in range(len(DY))]; r += 1
 put(wsVal, r, 2, 'Cumulative present value, USD m'); [put(wsVal, r, DC0 + i, f"=SUM($C${W_PV}:{CL(DC0+i)}${W_PV})", f_norm, NUM) for i in range(len(DY))]; r += 2
+wv = lambda key: f"=w_both*C{VALROW[('tgt',key)]}+w_IR_only*D{VALROW[('tgt',key)]}+w_XR_only*E{VALROW[('tgt',key)]}"
 put(wsVal, r, 2, 'Sum of present values, 2027-2055'); put(wsVal, r, 3, f"=SUM(C{W_PV}:{CL(DC0+len(DY)-1)}{W_PV})", f_norm, NUM); WS0 = r; r += 1
-put(wsVal, r, 2, 'Residual after 2055 (FCF 2055 declining at the Kuvan rate, discounted)'); put(wsVal, r, 3, f"=C{VALROW[('tgt','tv')]}", f_norm, NUM); r += 1
-put(wsVal, r, 2, 'Cash at the target date'); put(wsVal, r, 3, f"=C{VALROW[('tgt','cash')]}", f_norm, NUM); r += 1
-put(wsVal, r, 2, 'Less present value of issuance fees'); put(wsVal, r, 3, f"=-C{VALROW[('tgt','fees')]}", f_norm, NUM); r += 1
-put(wsVal, r, 2, 'Equity value', f_bold); put(wsVal, r, 3, f"=MAX(0,SUM(C{WS0}:C{r-1}))", f_bold, NUM); r += 1
-put(wsVal, r, 2, 'Diluted shares, millions'); put(wsVal, r, 3, f"=C{VALROW[('tgt','diluted')]}", f_norm, NUM3); r += 1
-put(wsVal, r, 2, 'Value per share, both approved', f_bold); put(wsVal, r, 3, f"=C{r-2}/C{r-1}", f_bold, USD); r += 1
-put(wsVal, r, 2, 'Check against the branch table above'); put(wsVal, r, 3, f"=C{r-1}-C{VALROW[('tgt','price')]}", f_norm, NUM3); r += 1
-put(wsVal, r, 2, 'The 2027 column holds only the cash flows after 9 October 2027. Terminal value is small by construction: after the 2039 generic entry, cash flows run off and the residual uses a declining perpetuity, not an exit multiple. Years after 2031 are grouped.', f_sub)
+put(wsVal, r, 2, 'Expected residual after 2055 (declining perpetuity)'); put(wsVal, r, 3, wv('tv'), f_norm, NUM); r += 1
+put(wsVal, r, 2, 'Expected value if neither is approved (liquidation proceeds to current holders)'); put(wsVal, r, 3, f"=w_neither*F{VALROW[('tgt','equity')]}", f_norm, NUM); r += 1
+put(wsVal, r, 2, 'Expected cash at the target date'); put(wsVal, r, 3, wv('cash'), f_norm, NUM); r += 1
+put(wsVal, r, 2, 'Less expected issuance fees'); put(wsVal, r, 3, '=-(' + wv('fees')[1:] + ')', f_norm, NUM); r += 1
+put(wsVal, r, 2, 'Expected equity value', f_bold); put(wsVal, r, 3, f"=SUM(C{WS0}:C{r-1})", f_bold, NUM); WEQ = r; r += 1
+put(wsVal, r, 2, 'Check: equals the probability-weighted branch equity'); put(wsVal, r, 3, f"=C{WEQ}-({wv('equity')[1:]}+w_neither*F{VALROW[('tgt','equity')]})", f_norm, NUM3); r += 1
+put(wsVal, r, 2, 'Expected diluted shares, millions'); put(wsVal, r, 3, wv('diluted') + f"+w_neither*F{VALROW[('tgt','diluted')]}", f_norm, NUM3); r += 1
+put(wsVal, r, 2, 'Expected equity per expected share'); put(wsVal, r, 3, f"=C{WEQ}/C{r-1}", f_norm, USD); r += 1
+put(wsVal, r, 2, 'Probability-weighted value per share (headline, branch by branch)', f_bold); put(wsVal, r, 3, '=value_target', f_bold, USD, fill=fill_key); r += 1
+put(wsVal, r, 2, 'Difference: option dilution and the zero floor are applied within each branch'); put(wsVal, r, 3, f"=C{r-1}-C{r-2}", f_norm, USD); r += 1
+put(wsVal, r, 2, 'Expected revenue is the product cash flow weighted by the four branch probabilities; costs are weighted the same way, so a failed product carries neither its revenue nor its commercial spend. Discounting is linear, so this walk equals the weighted sum of the branch DCFs above. Years after 2031 are grouped.', f_sub); wsVal.cell(r, 2).alignment = Alignment(wrap_text=True, vertical='top'); wsVal.merge_cells(start_row=r, start_column=2, end_row=r, end_column=8); wsVal.row_dimensions[r].height = 40
 widths(wsVal, {'A': 2, 'B': 52, 'C': 14, 'D': 14, 'E': 14, 'F': 14})
 
 # ================================================================== analyst rationale for inputs (overrides the imported text)
@@ -1387,9 +1402,11 @@ r += 1; SB0 = r
 for ci_, s_ in enumerate(('both', 'IR_only', 'XR_only', 'neither')):
     L = CL(3 + ci_); put(wsSu, r, 2, SNAME[s_]); put(wsSu, r, 3, f'=w_{s_}', f_norm, PCT); put(wsSu, r, 4, f"=Valuation!{L}{VALROW[('val','price')]}", f_norm, USD); put(wsSu, r, 5, f"=Valuation!{L}{VALROW[('tgt','price')]}", f_norm, USD); put(wsSu, r, 6, f"=Valuation!{L}{VALROW[('val','funding')]}", f_norm, NUM); put(wsSu, r, 7, f'=C{r}*E{r}', f_norm, USD); r += 1
 put(wsSu, r, 2, 'Probability-weighted', f_bold); put(wsSu, r, 3, f'=SUM(C{SB0}:C{r-1})', f_bold, PCT); put(wsSu, r, 4, '=value_today', f_bold, USD); put(wsSu, r, 5, '=value_target', f_bold, USD); put(wsSu, r, 7, f'=SUM(G{SB0}:G{r-1})', f_bold, USD); r += 2
-band(wsSu, r, 'Equity bridge, both products approved, at the target date', 2, 7); r += 1
-for k, lab in (('cash', 'Cash at the target date'), ('pv', 'PV of free cash flow, 2027-2055'), ('tv', 'PV of the declining residual after 2055'), ('fees', 'Less PV of issuance fees'), ('equity', 'Equity value'), ('diluted', 'Diluted shares, millions'), ('price', 'Value per share')):
-    put(wsSu, r, 2, lab, f_bold if k in ('equity', 'price') else f_norm); put(wsSu, r, 4, f"=Valuation!C{VALROW[('tgt', k)]}" + ('*-1' if k == 'fees' else ''), f_bold if k in ('equity', 'price') else f_norm, USD if k == 'price' else (NUM3 if k == 'diluted' else NUM)); r += 1
+band(wsSu, r, 'Equity bridge at the target date, risk-adjusted across the four clinical branches', 2, 7); r += 1
+wvs = lambda key: f"=w_both*Valuation!C{VALROW[('tgt',key)]}+w_IR_only*Valuation!D{VALROW[('tgt',key)]}+w_XR_only*Valuation!E{VALROW[('tgt',key)]}"
+for k, lab in (('cash', 'Expected cash at the target date'), ('pv', 'PV of expected free cash flow, 2027-2055'), ('tv', 'PV of the expected residual after 2055'), ('liq', 'Expected value if neither is approved'), ('fees', 'Less PV of expected issuance fees'), ('equity', 'Expected equity value'), ('diluted', 'Expected diluted shares, millions'), ('price', 'Probability-weighted value per share')):
+    v = '=value_target' if k == 'price' else ('=-(' + wvs(k)[1:] + ')' if k == 'fees' else (f"=w_neither*Valuation!F{VALROW[('tgt','equity')]}" if k == 'liq' else (wvs(k) + f"+w_neither*Valuation!F{VALROW[('tgt','diluted')]}" if k == 'diluted' else wvs(k))))
+    put(wsSu, r, 2, lab, f_bold if k in ('equity', 'price') else f_norm); put(wsSu, r, 4, v, f_bold if k in ('equity', 'price') else f_norm, USD if k == 'price' else (NUM3 if k == 'diluted' else NUM)); r += 1
 r += 1; wsSu.row_breaks.append(Break(id=r - 1)); band(wsSu, r, 'Headline financials, both products approved (USD millions unless the row says otherwise)', 2, 11); r += 1
 HY = [2026, 2027, 2028, 2029, 2030, 2031, 2033, 2035, 2038]
 put(wsSu, r, 2, 'Fiscal year', f_hdr, fill=fill_hdr); [put(wsSu, r, 3 + i, f'{y}E' if y > 2026 else '2026A/E', f_hdr, fill=fill_hdr, align=Alignment(horizontal='right')) for i, y in enumerate(HY)]; HYR = r; r += 1
