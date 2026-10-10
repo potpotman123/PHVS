@@ -63,7 +63,6 @@ def band(ws, r, text, c1=1, c2=12):
 
 def title(ws, text, sub=None):
     ws.cell(1, 2, text).font = f_title
-    if sub: ws.cell(2, 2, sub).font = f_sub
 
 def widths(ws, spec):
     for col, w in spec.items(): ws.column_dimensions[col].width = w
@@ -1361,7 +1360,7 @@ def write_dataset(ws, r, ds, level=0):
             if u_: c.hyperlink = u_
             r += 1
     return r + 1
-wsD = sheet('Alt Data ->', '0070C0'); put(wsD, 2, 2, 'Reference datasets', f_title); put(wsD, 3, 2, 'Quantified evidence gathered during the research: launch analogues, benchmarks, Street figures and clinical comparisons. Values only; no forecast cell depends on these tabs.', f_sub)
+wsD = sheet('Alt Data ->', '0070C0'); put(wsD, 2, 2, 'Reference datasets', f_title)
 ALT_TABS = [('Street Targets', [ALT_A['street_targets']]), ('Street Revenue Path', [ALT_A['guggenheim_revenue_path']]), ('Orladeyo Launch', [ALT_B['orladeyo_launch']]), ('Ekterly Launch', [ALT_B['ekterly_launch']]), ('HAE Injectables', [ALT_A['hae_injectable_revenues']]), ('Generic Erosion', [ALT_A['generic_erosion_panel']]), ('Clinical Cross-Trial', [ALT_A['clinical_cross_trial']]), ('Second-Oral Analogues', [ALT_A['second_oral_analogues']]), ('Persistence Benchmarks', [ALT_B['persistence_switching_benchmarks']]), ('Payer Policies', [ALT_B['payer_policies']]), ('HAE Population', [ALT_B['hae_population']]), ('Company Facts', [ALT_B['phvs_company_facts']])]
 for nm_, dss in ALT_TABS:
     ws_ = sheet(nm_, '7F7F7F'); title(ws_, nm_); r = 4
