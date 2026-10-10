@@ -1405,7 +1405,7 @@ put(wsSu, r, 2, 'Probability-weighted', f_bold); put(wsSu, r, 3, f'=SUM(C{SB0}:C
 band(wsSu, r, 'Equity bridge at the target date, risk-adjusted across the four clinical branches', 2, 7); r += 1
 wvs = lambda key: f"=w_both*Valuation!C{VALROW[('tgt',key)]}+w_IR_only*Valuation!D{VALROW[('tgt',key)]}+w_XR_only*Valuation!E{VALROW[('tgt',key)]}"
 for k, lab in (('cash', 'Expected cash at the target date'), ('pv', 'PV of expected free cash flow, 2027-2055'), ('tv', 'PV of the expected residual after 2055'), ('liq', 'Expected value if neither is approved'), ('fees', 'Less PV of expected issuance fees'), ('equity', 'Expected equity value'), ('diluted', 'Expected diluted shares, millions'), ('price', 'Probability-weighted value per share')):
-    v = '=value_target' if k == 'price' else ('=-(' + wvs(k)[1:] + ')' if k == 'fees' else (f"=w_neither*Valuation!F{VALROW[('tgt','equity')]}" if k == 'liq' else (wvs(k) + f"+w_neither*Valuation!F{VALROW[('tgt','diluted')]}" if k == 'diluted' else wvs(k))))
+    v = '=value_target' if k == 'price' else ('=-(' + wvs(k)[1:] + ')' if k == 'fees' else (f"=w_neither*Valuation!F{VALROW[('tgt','equity')]}" if k == 'liq' else (wvs(k) + f"+w_neither*Valuation!F{VALROW[('tgt',k)]}" if k in ('diluted', 'equity') else wvs(k))))
     put(wsSu, r, 2, lab, f_bold if k in ('equity', 'price') else f_norm); put(wsSu, r, 4, v, f_bold if k in ('equity', 'price') else f_norm, USD if k == 'price' else (NUM3 if k == 'diluted' else NUM)); r += 1
 r += 1; wsSu.row_breaks.append(Break(id=r - 1)); band(wsSu, r, 'Headline financials, both products approved (USD millions unless the row says otherwise)', 2, 11); r += 1
 HY = [2026, 2027, 2028, 2029, 2030, 2031, 2033, 2035, 2038]
