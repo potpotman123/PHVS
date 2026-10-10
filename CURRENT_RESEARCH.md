@@ -1,3 +1,10 @@
+MonteCarlo merged and verified — 9 October 2026. PR#1 (45863c9) contains the production standalone simulation.
+Primary4,096draws: mean expected12month value$26.38, median$25.98, P10–P90$17.84–$35.27.
+These are analyst-prior sensitivity outcomes, not an empirical confidence interval or stock-return forecast.
+Independent local review passed8runner tests and verified22,528storedrows/56exactreplays.
+See [current results](models/monte_carlo/results/REPORT.md). Fixedredosing, no efficacypricing premium and no acquisition branch are preserved.
+Earlier statements below that productionMonteCarlo had not run are historical.
+
 Current audit and handoff — 9 October 2026: **standalone short only; acquisition removed**.
 Audited patient-to-financial engine; fixed redosing in every case and no efficacy pricing premium.
 Working12month value remains$28.31. No productionMonteCarlo run; a separateagent will run it.
