@@ -1,0 +1,17 @@
+{
+  "received": "2026-10-10",
+  "references": [
+    {
+      "file": "2L Capital - Daniel Bao.xlsx",
+      "bytes": 282175,
+      "sha256": "ad3a440b6561dd93e09082e36f534986ea7fb30ff323d8153f58ee9d48071e44",
+      "purpose": "User-supplied layout reference only; no PHVS financial authority"
+    },
+    {
+      "file": "TeamBDCModel.xlsx",
+      "bytes": 2613265,
+      "sha256": "2523e6b48aab43f0ce1f1d39d7e98d5259455c0eb81992f9447edeb825e51fd5",
+      "purpose": "User-supplied layout reference only; no PHVS financial authority"
+    }
+  ]
+}

@@ -1,3 +1,7 @@
+CURRENT EXCEL BUILD ENTRY POINT — 10 October 2026
+Read ../../EXCEL_BUILD_HANDOFF.md. Production Monte Carlo is complete in
+../monte_carlo/results/REPORT.md. Statements below that it has not run are historical.
+
 PHVS CANONICAL STANDALONE MODEL — 9 October 2026
 
 Current task: evidence-led SHORT pitch; no acquisition modeling.

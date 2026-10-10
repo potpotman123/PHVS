@@ -1,3 +1,8 @@
+Excel build handoff — 10 October 2026: [Start here](EXCEL_BUILD_HANDOFF.md).
+Includes current architecture, exact acceptance values, live-versus-saved Monte Carlo behavior,
+and the two user-supplied example workbooks under references/model_layout_examples/.
+No economic assumptions or Monte Carlo results changed. Separate agent builds the workbook.
+
 MonteCarlo merged and verified — 9 October 2026. PR#1 (45863c9) contains the production standalone simulation.
 Primary4,096draws: mean expected12month value$26.38, median$25.98, P10–P90$17.84–$35.27.
 These are analyst-prior sensitivity outcomes, not an empirical confidence interval or stock-return forecast.

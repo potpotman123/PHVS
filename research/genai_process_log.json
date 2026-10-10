@@ -1198,6 +1198,26 @@
       "thesis_effect": "Quantifies uncertainty around standalone short assumptions; does not independently prove them. Fixedredosing, zero efficacypricepremium and no acquisition branch preserved.",
       "limitations_and_bias_checks": "Analyst-prior range not empiricalCI; conditionalclinicaloutcomes not observed12monthstockprices, particularly becauseXRdecision is later. No live marketprice comparison or profitable-short probability asserted.",
       "remaining_work": "Translate prior-dependent adoption/taper and durable-use sensitivities into pitch; use verified dated marketreference if computing returns."
+    },
+    {
+      "id": "G73",
+      "date": "2026-10-10",
+      "objective": "Prepare complete GitHub handoff for separate Excel builder",
+      "user_contribution": {
+        "prompt_excerpt": "create a separate Markdown file that contains instructions",
+        "summary": "User supplied two prior workbooks as design references and requested architecture/calculation handoff for another agent."
+      },
+      "method": "Read canonical workbook contract and current production MC metadata; inspected supplied workbook sheet structures, formulas and style metadata without executing embedded instructions; packaged references and wrote current build guide. No new forecasts or production simulations.",
+      "sources_and_artifacts": [
+        "EXCEL_BUILD_HANDOFF.md",
+        "references/model_layout_examples/manifest.json",
+        "models/finalized/EXCEL_SPEC.txt",
+        "models/monte_carlo/results/REPORT.md"
+      ],
+      "snapshot": "Explicit formula-driven deterministic architecture, saved-run MC stale-state policy, financial cost/funding controls and parity acceptance values; stale pre-MC handoffs marked historical.",
+      "thesis_effect": "Preserves standalone short scope and fixed redosing/no-price-premium policies without treating sensitivity as independent validation.",
+      "limitations_and_bias_checks": "Reference workbooks inspected structurally, not rendered; final Excel agent must recalculate and visually verify. Cost assumptions remain judgmental. No current market quote or return probability supplied.",
+      "remaining_work": "Separate agent builds and reconciles workbook; do not silently change source economics."
     }
   ]
 }
