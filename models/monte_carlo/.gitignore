@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+# Full checkpoints are regenerated locally; compact output tables are committed.
+results/**/draws.jsonl
+results/**/draws.jsonl.gz
+results/**/failure.json
