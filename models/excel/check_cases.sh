@@ -10,7 +10,8 @@ for CASE in working cautious upside_challenge; do
   python3 - "$CASE" "$LABEL" <<'PY'
 import sys, openpyxl, warnings; warnings.filterwarnings('ignore')
 case, label = sys.argv[1], sys.argv[2]
-wb = openpyxl.load_workbook('models/excel/PHVS_Crimson_Capital_Model.xlsx'); wb['Inputs']['D4'] = label; wb.save(f'/tmp/phvs_{case}.xlsx')
+wb = openpyxl.load_workbook('models/excel/PHVS_Crimson_Capital_Model.xlsx')
+sh, cell = wb.defined_names['case_selector'].attr_text.split('!'); wb[sh.strip("'")][cell.replace('$', '')] = label; wb.save(f'/tmp/phvs_{case}.xlsx')
 PY
   python3 "$RECALC" /tmp/phvs_$CASE.xlsx 900 > /dev/null
   echo "=== $CASE ==="; python3 models/excel/reconcile.py $CASE /tmp/phvs_$CASE.xlsx | grep -v '^OK ' 

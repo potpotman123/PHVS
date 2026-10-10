@@ -17,9 +17,17 @@ Requires Python 3.9+ with openpyxl (the agents' data tables are read from two JS
 
 The Inputs tab has a price-target basis switch. "Monte Carlo" (default) uses the mean of the 4,096 saved draws ($26.38, -15.2% against $31.10); "Working" uses the deterministic point case ($28.31, -9.0%). No working assumption was changed to reach the larger discount; the Street Bridge and Sensitivities tabs show which single changes would reach it (launch oral share 30%, XR net 60%, conversion 75%, IR continuation 85%, restricted access package).
 
+## Reverse DCF
+
+The Reverse DCF tab carries the 7 October 2026 solve from `models/reverse_dcf` (required success-case ramps at the $31.83 snapshot and the $44 Guggenheim target, with the Street ramp shape, 90/90 approval odds, 12.5% discount rate and 50/50 erosion held fixed) and rescales it live to the current share price. Because equity value is linear in the common revenue scale, the two saved solves identify the slope and intercept exactly; the live row applies them to the share price on Inputs. The Street Bridge tab compares our path with Guggenheim's published path; the Reverse DCF tab compares it with what the price requires.
+
+## Net price escalator
+
+`price_growth` on Inputs (default 0 in every case) applies annual net price growth to both products after 2027. It exists only in the workbook; the Python engine holds net price flat, so a non-zero value flags the Monte Carlo as stale and breaks engine parity by design. At 2% a year the working point rises from $28.31 to $34.85.
+
 ## Three statements
 
-The Three Statements tab lays out the income statement, condensed economic balance sheet and cash flow statement for 2024A-2055E with balance and cash checks that are zero in every year. It is driven by the same monthly engine as the Annual tab; the chain is Adoption Build and Quantity & Price (the revenue projection), Revenue, Fin Monthly, Three Statements, Valuation. Monte Carlo wraps the engine inputs and reports the distribution of the valuation; it does not feed the statements.
+The Three Statements tab lays out the income statement (revenue by product and geography, COGS, royalty, R&D with the milestone, fixed and variable selling, G&A, EBITDA, EBIT, tax, EPS), the condensed economic balance sheet, the cash flow statement, and supporting schedules for revenue build, operating expense build, working capital, PP&E, equity funding and share count, NOL and tax, and ratios, for 2024A-2055E. Balance, cash, PP&E and NOL checks are zero in every year. It is driven by the same monthly engine as the Annual tab; the chain is Adoption Build and Quantity & Price (the revenue projection), Revenue, Fin Monthly, Three Statements, Valuation. Monte Carlo wraps the engine inputs and reports the distribution of the valuation; it does not feed the statements.
 
 ## What recalculates and what is saved
 
@@ -28,6 +36,8 @@ Live formulas: Inputs (case selector, overrides), Adoption Build, XR Engine, IR 
 Saved engine results, labelled as such: Sensitivities (one-variable ranges, structural stresses, cases), Street Bridge value waterfall (four engine runs, one with the redosing haircut relaxed for sizing only), Monte Carlo (4,096-draw run on commit e7594c4, seed 7202609). The Monte Carlo tab flags when live inputs no longer match the simulated baseline. Refresh the simulation with `models/monte_carlo/run.py`, then rebuild.
 
 ## Reconciliation, 10 October 2026
+
+Valuation carries a cost-of-equity build (risk-free rate, beta and equity risk premium are yellow placeholders to verify on the price date; the 12% used is the Inputs assumption and the gap to CAPM is shown as a single-asset and financing premium) and an annual DCF walk whose sum reconciles to the branch table. Cover holds the case selector, the price-target basis switch and the model-check status; Model Map is a diagram of how the tabs connect.
 
 Recalculated in LibreOffice 25.x (soffice at /opt/homebrew/bin) with 298,145 formulas and zero errors. Working, Cautious and Upside cases reproduce the engine's monthly patient-years, active members, doses, units, revenue, costs, taxes, cash, shares, equity and liquidation distributions in all four clinical branches within 1e-6, and all eight branch prices within 1e-6 per share. Control totals on the Checks tab: value today $25.8256, 12-month value $28.3116, both-approved target $31.4954, peak revenue $1,551.2m in 2038.
 

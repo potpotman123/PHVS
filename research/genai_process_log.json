@@ -1259,6 +1259,27 @@
       "thesis_effect": "The headline discount now reflects the asymmetry of the analyst priors (mean below mode) rather than a new assumption. If the deck leans on a single assumption instead, the launch oral share at 30% is the best supported by the later-oral analogues.",
       "limitations_and_bias_checks": "Choosing the Monte Carlo mean as the target basis is a presentation choice made after seeing that it met the desired discount; it is disclosed on the Summary and Inputs tabs. The mean is prior-dependent, not an empirical expectation.",
       "remaining_work": "Deck, GenAI appendix, team names on the cover."
+    },
+    {
+      "id": "G76",
+      "date": "2026-10-10",
+      "objective": "Second review round: units audit, cover-level selectors, model map, granular three statements with schedules, explicit DCF walk and cost-of-equity build, dedicated Reverse DCF tab, net price escalator",
+      "user_contribution": {
+        "prompt_excerpt": "is this a DCF ... where is our discounted cash flow walk? Where is our weighted average cost of capital build? ... your price for deucrictibant stays flat ... How would you go about weighting that? ... we did this interesting reverse DCF ... that should be one of the main tabs",
+        "summary": "User audited the workbook for unit clarity, header formatting, selector placement, statement granularity, valuation transparency, the reverse DCF, and challenged flat net pricing."
+      },
+      "method": "Assisted programming. Added units to every row of Annual, Three Statements and Quarterly; navy header rows; case and target-basis selectors on the Cover; a matplotlib model map; supporting schedules (revenue build, opex build, working capital, PP&E, equity and shares, NOL and tax, ratios); an annual DCF walk reconciled to the branch valuation; a cost-of-equity build with placeholder market inputs flagged for verification; a Reverse DCF tab importing the saved 7 October solve and rescaling it to the current price using the model's linearity in the revenue scale; a workbook-only net price escalator defaulting to zero. All cases re-reconciled to the engine.",
+      "sources_and_artifacts": [
+        "models/excel/PHVS_Crimson_Capital_Model.xlsx",
+        "models/excel/build_model.py",
+        "models/excel/model_map.png",
+        "models/reverse_dcf/README.txt",
+        "models/excel/README.md"
+      ],
+      "snapshot": "Today's $31.10 requires 0.995x the Street ramp (peak ~$1,598m) against our $1,551m peak. A 2% annual net price escalator would lift the working point from $28.31 to $34.85, so the flat-net-price assumption is material and is now explicit.",
+      "thesis_effect": "The reverse DCF shows the market price sits close to the Street ramp; our model is about 6% below the required peak and 9% below cumulative 2027-2036. Flat net pricing is a thesis-relevant assumption: list inflation offset by gross-to-net erosion under competition.",
+      "limitations_and_bias_checks": "Risk-free rate and beta are placeholders, not observed; linear rescaling inherits the reverse model's imposed ramp shape and unconfirmed revenue basis; price escalator is not in the engine and no Monte Carlo covers it.",
+      "remaining_work": "Verify market inputs on the price date; fill team names; deck."
     }
   ]
 }
