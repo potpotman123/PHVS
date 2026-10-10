@@ -1,0 +1,534 @@
+{
+  "expected_target": {
+    "mean": 24.23673278865813,
+    "median": 23.803859277633407,
+    "p10": 16.41441104410918,
+    "p90": 32.74841220975066,
+    "min": 5.813004816211882,
+    "max": 49.50120797490224,
+    "mean_mc_se": 0.19988733726811583
+  },
+  "value_today": {
+    "mean": 21.97090550944034,
+    "median": 21.603859477188266,
+    "p10": 14.656175968294175,
+    "p90": 30.009861355092912,
+    "min": 4.552684878434602,
+    "max": 44.56580633632276,
+    "mean_mc_se": 0.18736950136504352
+  },
+  "clinical_outcomes_target": {
+    "mean": 24.23673278865813,
+    "median": 25.049832117616546,
+    "p10": 11.516191910628786,
+    "p90": 35.688160790713326,
+    "probability_zero_equity": 4.625822368421045e-05,
+    "clinical_weights": {
+      "both": 0.8526315789473685,
+      "IR_only": 0.047368421052631504,
+      "XR_only": 0.047368421052631504,
+      "neither": 0.052631578947368474
+    }
+  },
+  "clinical_outcomes_today": {
+    "mean": 21.97090550944034,
+    "median": 22.695384988861242,
+    "p10": 10.06385420381859,
+    "p90": 32.63319015511192,
+    "probability_zero_equity": 0.0002775493421052627,
+    "clinical_weights": {
+      "both": 0.8526315789473685,
+      "IR_only": 0.047368421052631504,
+      "XR_only": 0.047368421052631504,
+      "neither": 0.052631578947368474
+    }
+  },
+  "both_success_peak_usdm": {
+    "mean": 1442.128906651727,
+    "median": 1424.814457958004,
+    "p10": 1101.6859956227888,
+    "p90": 1804.949056312801,
+    "min": 802.1732672310302,
+    "max": 2427.305400946878,
+    "mean_mc_se": 8.27963129241431
+  },
+  "both_success_2030_IR_usdm": {
+    "mean": 259.46163424663274,
+    "median": 254.75732210993147,
+    "p10": 203.07271568322267,
+    "p90": 324.6074787711315,
+    "min": 147.55927728286375,
+    "max": 426.97722212879427,
+    "mean_mc_se": 1.4518397533206415
+  },
+  "both_success_2030_XR_usdm": {
+    "mean": 228.4734336924309,
+    "median": 226.17929772692858,
+    "p10": 175.62081047470457,
+    "p90": 282.62028990731943,
+    "min": 127.14827449603884,
+    "max": 381.4472045361652,
+    "mean_mc_se": 1.316874628722468
+  },
+  "states": {
+    "both": {
+      "target_price": {
+        "mean": 27.014543919353788,
+        "median": 26.53421931105913,
+        "p10": 18.353936359220636,
+        "p90": 36.42639240693126,
+        "min": 6.700989148912759,
+        "max": 54.95051978551588,
+        "mean_mc_se": 0.2206806794460617
+      },
+      "future_net_funding_today_usdm": {
+        "mean": 387.5215455619607,
+        "median": 407.69521405815453,
+        "p10": 261.94815411232224,
+        "p90": 503.2070050311264,
+        "min": 156.43749018311894,
+        "max": 618.6510422500531,
+        "mean_mc_se": 2.540945719988247
+      }
+    },
+    "IR_only": {
+      "target_price": {
+        "mean": 10.832108034802829,
+        "median": 10.47982702495404,
+        "p10": 5.466086255388785,
+        "p90": 16.695808505858952,
+        "min": 0.0,
+        "max": 25.32801550411224,
+        "mean_mc_se": 0.13475950927804214
+      },
+      "future_net_funding_today_usdm": {
+        "mean": 294.38254274748164,
+        "median": 273.3062545582992,
+        "p10": 237.58065992689697,
+        "p90": 362.36211007244265,
+        "min": 153.34697591010192,
+        "max": 508.79566036793045,
+        "mean_mc_se": 2.115043597223548
+      }
+    },
+    "XR_only": {
+      "target_price": {
+        "mean": 13.621819857476833,
+        "median": 13.329792530382429,
+        "p10": 7.31245512893874,
+        "p90": 20.09151797227033,
+        "min": 1.4464520108332015,
+        "max": 36.22709197330775,
+        "mean_mc_se": 0.15613160076983543
+      },
+      "future_net_funding_today_usdm": {
+        "mean": 371.2015394543671,
+        "median": 390.52589684308055,
+        "p10": 254.4953006936458,
+        "p90": 482.3779951410579,
+        "min": 234.11531425399414,
+        "max": 595.2978591989455,
+        "mean_mc_se": 2.227079929417074
+      }
+    },
+    "neither": {
+      "target_price": {
+        "mean": 0.8537763879214678,
+        "median": 0.7580328008521221,
+        "p10": 0.5106375980342428,
+        "p90": 1.290592466389292,
+        "min": 0.47069721832992206,
+        "max": 1.3044378477804028,
+        "mean_mc_se": 0.00863807258473976
+      },
+      "future_net_funding_today_usdm": {
+        "mean": 157.80157613741514,
+        "median": 164.5275386934369,
+        "p10": 85.80478217695355,
+        "p90": 177.39776525784436,
+        "min": 75.0004571452821,
+        "max": 271.2594722157832,
+        "mean_mc_se": 1.1209612949156933
+      }
+    }
+  },
+  "rank_associations_prior_dependent_not_causal": [
+    {
+      "parameter": "switch_mature_multiplier",
+      "spearman": 0.4412196463057006
+    },
+    {
+      "parameter": "category_switch",
+      "spearman": 0.37693447804162794
+    },
+    {
+      "parameter": "population",
+      "spearman": 0.356235281363994
+    },
+    {
+      "parameter": "ir_retention",
+      "spearman": 0.27795433311279594
+    },
+    {
+      "parameter": "cost_scale",
+      "spearman": -0.2689858446284243
+    },
+    {
+      "parameter": "oral_launch_share",
+      "spearman": 0.23936182363564837
+    },
+    {
+      "parameter": "growth",
+      "spearman": 0.22086472265932336
+    },
+    {
+      "parameter": "ir_doses_ltp",
+      "spearman": 0.17983979373793005
+    },
+    {
+      "parameter": "oral_destination_capture",
+      "spearman": 0.1773288860775338
+    },
+    {
+      "parameter": "ir_doses_other",
+      "spearman": 0.17085089809384163
+    },
+    {
+      "parameter": "xr_exus_ratio",
+      "spearman": 0.15970640959158858
+    },
+    {
+      "parameter": "xr_mature_retention",
+      "spearman": 0.14829887436520992
+    },
+    {
+      "parameter": "xr_paid_intensity",
+      "spearman": 0.12363407258064515
+    },
+    {
+      "parameter": "prevention_oral_preference",
+      "spearman": 0.11633067868893499
+    },
+    {
+      "parameter": "ir_oral_switch_relative",
+      "spearman": 0.0869887481224519
+    },
+    {
+      "parameter": "ir_no_rescue_opportunity",
+      "spearman": 0.07242880963450397
+    },
+    {
+      "parameter": "ir_injectable_opportunity",
+      "spearman": 0.07059205350118017
+    },
+    {
+      "parameter": "choice_months",
+      "spearman": 0.059401026607005775
+    },
+    {
+      "parameter": "xr_first_retention",
+      "spearman": 0.055618093305199914
+    },
+    {
+      "parameter": "untreated_xr_reach",
+      "spearman": 0.053188892514841574
+    },
+    {
+      "parameter": "exus_lag",
+      "spearman": -0.0490596312592434
+    },
+    {
+      "parameter": "ir_exus_ratio",
+      "spearman": 0.0481153552142193
+    },
+    {
+      "parameter": "ekterly_continuation",
+      "spearman": -0.04336763956440884
+    },
+    {
+      "parameter": "ekterly_paid_conversion",
+      "spearman": -0.041771444281524926
+    },
+    {
+      "parameter": "ekterly_unique_fraction",
+      "spearman": -0.03225088960017166
+    },
+    {
+      "parameter": "dual_use",
+      "spearman": 0.020678085437379302
+    },
+    {
+      "parameter": "ekterly_future_forms",
+      "spearman": -0.015466011909019384
+    },
+    {
+      "parameter": "exus_phase",
+      "spearman": -0.002182301766056801
+    }
+  ],
+  "clinical_dependence_reweighting": {
+    "independent": {
+      "mean": 24.091171848860952,
+      "median": 24.49966174858084,
+      "p10": 11.685999107145593,
+      "p90": 35.535070082694475,
+      "probability_zero_equity": 8.789062499999997e-05,
+      "clinical_weights": {
+        "both": 0.81,
+        "IR_only": 0.08999999999999997,
+        "XR_only": 0.08999999999999997,
+        "neither": 0.010000000000000009
+      }
+    },
+    "perfect_positive": {
+      "mean": 24.398467166210555,
+      "median": 25.61680202632718,
+      "p10": 1.3044378477804028,
+      "p90": 35.98944396363426,
+      "probability_zero_equity": 0.0,
+      "clinical_weights": {
+        "both": 0.9,
+        "IR_only": 0.0,
+        "XR_only": 0.0,
+        "neither": 0.09999999999999998
+      }
+    }
+  },
+  "prefix_convergence": [
+    {
+      "draws": 64,
+      "expected_target": {
+        "mean": 23.20615194804712,
+        "median": 21.50734472435505,
+        "p10": 16.018072679901966,
+        "p90": 32.69767685550529,
+        "min": 12.2823621985316,
+        "max": 41.88871945096322,
+        "mean_mc_se": 0.87805732471569
+      },
+      "clinical_outcomes_target": {
+        "mean": 23.206151948047122,
+        "median": 22.782768955756698,
+        "p10": 10.432161981522375,
+        "p90": 35.673995945045476,
+        "probability_zero_equity": 0.0,
+        "clinical_weights": {
+          "both": 0.8526315789473685,
+          "IR_only": 0.047368421052631504,
+          "XR_only": 0.047368421052631504,
+          "neither": 0.052631578947368474
+        }
+      }
+    },
+    {
+      "draws": 128,
+      "expected_target": {
+        "mean": 23.853862496225847,
+        "median": 22.418510690050592,
+        "p10": 16.29026752858999,
+        "p90": 32.69767685550529,
+        "min": 12.2823621985316,
+        "max": 41.88871945096322,
+        "mean_mc_se": 0.5888718424558946
+      },
+      "clinical_outcomes_target": {
+        "mean": 23.853862496225847,
+        "median": 23.77935284406928,
+        "p10": 11.436765136363062,
+        "p90": 35.535070082694475,
+        "probability_zero_equity": 0.0,
+        "clinical_weights": {
+          "both": 0.8526315789473685,
+          "IR_only": 0.047368421052631504,
+          "XR_only": 0.047368421052631504,
+          "neither": 0.052631578947368474
+        }
+      }
+    },
+    {
+      "draws": 256,
+      "expected_target": {
+        "mean": 24.002032706776692,
+        "median": 23.595129329205204,
+        "p10": 16.42954208862775,
+        "p90": 32.97090210559113,
+        "min": 5.813004816211882,
+        "max": 41.88871945096322,
+        "mean_mc_se": 0.4095525702455371
+      },
+      "clinical_outcomes_target": {
+        "mean": 24.002032706776692,
+        "median": 24.49966174858084,
+        "p10": 11.202532576868009,
+        "p90": 35.673995945045476,
+        "probability_zero_equity": 0.0,
+        "clinical_weights": {
+          "both": 0.8526315789473685,
+          "IR_only": 0.047368421052631504,
+          "XR_only": 0.047368421052631504,
+          "neither": 0.052631578947368474
+        }
+      }
+    },
+    {
+      "draws": 512,
+      "expected_target": {
+        "mean": 24.14510316012167,
+        "median": 23.948599285192067,
+        "p10": 15.998360072325987,
+        "p90": 33.0887951570058,
+        "min": 5.813004816211882,
+        "max": 44.74310967160267,
+        "mean_mc_se": 0.2885060807464067
+      },
+      "clinical_outcomes_target": {
+        "mean": 24.14510316012167,
+        "median": 24.950326256871175,
+        "p10": 11.356829971957794,
+        "p90": 36.00178056774477,
+        "probability_zero_equity": 0.0,
+        "clinical_weights": {
+          "both": 0.8526315789473685,
+          "IR_only": 0.047368421052631504,
+          "XR_only": 0.047368421052631504,
+          "neither": 0.052631578947368474
+        }
+      }
+    },
+    {
+      "draws": 1024,
+      "expected_target": {
+        "mean": 24.23673278865813,
+        "median": 23.803859277633407,
+        "p10": 16.41441104410918,
+        "p90": 32.74841220975066,
+        "min": 5.813004816211882,
+        "max": 49.50120797490224,
+        "mean_mc_se": 0.19988733726811583
+      },
+      "clinical_outcomes_target": {
+        "mean": 24.23673278865813,
+        "median": 25.049832117616546,
+        "p10": 11.516191910628786,
+        "p90": 35.688160790713326,
+        "probability_zero_equity": 4.625822368421045e-05,
+        "clinical_weights": {
+          "both": 0.8526315789473685,
+          "IR_only": 0.047368421052631504,
+          "XR_only": 0.047368421052631504,
+          "neither": 0.052631578947368474
+        }
+      }
+    }
+  ],
+  "prefix_stability": {
+    "prefixes": [
+      512,
+      1024
+    ],
+    "rule": "Absolute movement <= max($0.50, 2% of later estimate); a diagnostic, not proof of convergence.",
+    "comparisons": [
+      {
+        "family": "expected_target",
+        "metric": "mean",
+        "absolute_change": 0.0916296285364595,
+        "tolerance": 0.5,
+        "within_tolerance": true
+      },
+      {
+        "family": "expected_target",
+        "metric": "p10",
+        "absolute_change": 0.41605097178319284,
+        "tolerance": 0.5,
+        "within_tolerance": true
+      },
+      {
+        "family": "expected_target",
+        "metric": "median",
+        "absolute_change": 0.14474000755866,
+        "tolerance": 0.5,
+        "within_tolerance": true
+      },
+      {
+        "family": "expected_target",
+        "metric": "p90",
+        "absolute_change": 0.3403829472551365,
+        "tolerance": 0.6549682441950132,
+        "within_tolerance": true
+      },
+      {
+        "family": "clinical_outcomes_target",
+        "metric": "mean",
+        "absolute_change": 0.0916296285364595,
+        "tolerance": 0.5,
+        "within_tolerance": true
+      },
+      {
+        "family": "clinical_outcomes_target",
+        "metric": "p10",
+        "absolute_change": 0.15936193867099213,
+        "tolerance": 0.5,
+        "within_tolerance": true
+      },
+      {
+        "family": "clinical_outcomes_target",
+        "metric": "median",
+        "absolute_change": 0.09950586074537071,
+        "tolerance": 0.5009966423523309,
+        "within_tolerance": true
+      },
+      {
+        "family": "clinical_outcomes_target",
+        "metric": "p90",
+        "absolute_change": 0.31361977703144106,
+        "tolerance": 0.7137632158142665,
+        "within_tolerance": true
+      }
+    ],
+    "all_within_tolerance": true
+  },
+  "batch_quantile_mc_se_approximate": {
+    "p10": {
+      "expected_target": 0.27238687760420316,
+      "clinical_outcomes_target": 0.25145732385962666
+    },
+    "median": {
+      "expected_target": 0.17992258110709305,
+      "clinical_outcomes_target": 0.19991336666425125
+    },
+    "p90": {
+      "expected_target": 0.3543337973027938,
+      "clinical_outcomes_target": 0.3876554984157534
+    }
+  },
+  "max_errors": {
+    "population": 2.2737367544323206e-11,
+    "balance": 2.546585164964199e-11,
+    "cash": 9.094947017729282e-13,
+    "source_totals": 4.263256414560601e-14
+  },
+  "invalid_draws": 0,
+  "failed_draw_policy": "Fail immediately, log inputs; never clip or replace an invalid draw.",
+  "hashes": {
+    "models/finalized/engine.py": "9aac9e988fc754bd75e028afffab575cb139262b80e4c5703b7636be1cc99022",
+    "models/finalized/segmented_adoption.py": "11847f677d59989c50622665611a62c35d20aaa1b7a86ae190a4fb6be3191c35",
+    "models/finalized/mc_prepare.py": "1d14e213f85c3f5838142f57d91cac182042681619edc5471121bd1efdb07db7",
+    "models/finalized/inputs.json": "e08bd37fe820e5d7263d1cc7a29a0e1246c2fb518a300637ce04d703caa875f7",
+    "models/finalized/history.json": "ffc2d30b142873a0cea3e6debabf9af3ba92dbf67c02af1804e7c673630b8273",
+    "models/finalized/sources.json": "b59064570580decfad1c4a62ed98275be37f58b749b428ed037db094146c5ebb",
+    "models/finalized/monte_carlo_priors.json": "4c78a96a08260ac6093773a380cf1aacd9bc1e0e9a5fafaa0ab975f210cb8065",
+    "models/monte_carlo/run.py": "52481024b24ca75b185bb09081d02853aa8d1ca69fa5ceb9de04ec8a0aa3474a"
+  },
+  "seed": 7202609,
+  "access": "restricted_high_net",
+  "structural": "primary",
+  "dependence": "primitive_independent",
+  "draws": 1024,
+  "new_draws_this_execution": 1024,
+  "execution_seconds": 71.02184937498532,
+  "python_version": "3.12.14",
+  "workers": 4,
+  "valuation_date": "2026-10-09",
+  "target_date": "2027-10-09",
+  "scope": "Standalone; conditional on stated analyst priors and fixed policies. No current-market-return claim."
+}

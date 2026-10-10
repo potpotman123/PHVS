@@ -1,0 +1,163 @@
+{
+  "passed": true,
+  "artifact_hashes_verified": 32,
+  "scenario_checks": [
+    {
+      "scenario": "seed_7202609/rebate_for_access__primary__primitive_independent",
+      "rows": 1024,
+      "replayed_draw_ids": [
+        0,
+        36,
+        153,
+        642
+      ],
+      "passed": true
+    },
+    {
+      "scenario": "seed_7202609/restricted_high_net__primary__primitive_independent",
+      "rows": 1024,
+      "replayed_draw_ids": [
+        0,
+        153,
+        642,
+        971
+      ],
+      "passed": true
+    },
+    {
+      "scenario": "seed_7202609/working__extra_Ekterly_free_supply__primitive_independent",
+      "rows": 1024,
+      "replayed_draw_ids": [
+        0,
+        153,
+        244,
+        642
+      ],
+      "passed": true
+    },
+    {
+      "scenario": "seed_7202609/working__higher_discount_rate__primitive_independent",
+      "rows": 1024,
+      "replayed_draw_ids": [
+        0,
+        153,
+        642,
+        694
+      ],
+      "passed": true
+    },
+    {
+      "scenario": "seed_7202609/working__initial_stock_free__primitive_independent",
+      "rows": 1024,
+      "replayed_draw_ids": [
+        0,
+        153,
+        454,
+        642
+      ],
+      "passed": true
+    },
+    {
+      "scenario": "seed_7202609/working__later_LOE__primitive_independent",
+      "rows": 4096,
+      "replayed_draw_ids": [
+        0,
+        2100,
+        2732,
+        3927
+      ],
+      "passed": true
+    },
+    {
+      "scenario": "seed_7202609/working__licensed_overseas__primitive_independent",
+      "rows": 1024,
+      "replayed_draw_ids": [
+        0,
+        153,
+        642,
+        969
+      ],
+      "passed": true
+    },
+    {
+      "scenario": "seed_7202609/working__lower_discount_rate__primitive_independent",
+      "rows": 1024,
+      "replayed_draw_ids": [
+        0,
+        153,
+        165,
+        642
+      ],
+      "passed": true
+    },
+    {
+      "scenario": "seed_7202609/working__no_rescue_in_10pct_LTP__primitive_independent",
+      "rows": 1024,
+      "replayed_draw_ids": [
+        0,
+        153,
+        605,
+        642
+      ],
+      "passed": true
+    },
+    {
+      "scenario": "seed_7202609/working__primary__commercial_rank_linked",
+      "rows": 2048,
+      "replayed_draw_ids": [
+        0,
+        1631,
+        1636,
+        1686
+      ],
+      "passed": true
+    },
+    {
+      "scenario": "seed_7202609/working__primary__primitive_independent",
+      "rows": 4096,
+      "replayed_draw_ids": [
+        0,
+        1714,
+        2732,
+        3094
+      ],
+      "passed": true
+    },
+    {
+      "scenario": "seed_7202609/working__six_month_delay__primitive_independent",
+      "rows": 1024,
+      "replayed_draw_ids": [
+        0,
+        153,
+        642,
+        871
+      ],
+      "passed": true
+    },
+    {
+      "scenario": "seed_7202609/working__some_discontinuers_return__primitive_independent",
+      "rows": 1024,
+      "replayed_draw_ids": [
+        0,
+        153,
+        642,
+        667
+      ],
+      "passed": true
+    },
+    {
+      "scenario": "seed_7202610/working__primary__primitive_independent",
+      "rows": 2048,
+      "replayed_draw_ids": [
+        0,
+        393,
+        499,
+        925
+      ],
+      "passed": true
+    }
+  ],
+  "total_output_rows_checked": 22528,
+  "exact_engine_replays": 56,
+  "verification_file_note": "This file is generated after artifact_manifest.json and is not self-hashed."
+}
