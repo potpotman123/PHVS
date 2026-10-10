@@ -13,6 +13,14 @@ python3 models/excel/reconcile.py working    # every monthly series and branch p
 
 Requires Python 3.9+ with openpyxl (the agents' data tables are read from two JSON files compiled from the research archive; see `altdata` under the scratch folder recorded in the build script, or regenerate from the repo files listed on each Alt Data tab).
 
+## Price target basis
+
+The Inputs tab has a price-target basis switch. "Monte Carlo" (default) uses the mean of the 4,096 saved draws ($26.38, -15.2% against $31.10); "Working" uses the deterministic point case ($28.31, -9.0%). No working assumption was changed to reach the larger discount; the Street Bridge and Sensitivities tabs show which single changes would reach it (launch oral share 30%, XR net 60%, conversion 75%, IR continuation 85%, restricted access package).
+
+## Three statements
+
+The Three Statements tab lays out the income statement, condensed economic balance sheet and cash flow statement for 2024A-2055E with balance and cash checks that are zero in every year. It is driven by the same monthly engine as the Annual tab; the chain is Adoption Build and Quantity & Price (the revenue projection), Revenue, Fin Monthly, Three Statements, Valuation. Monte Carlo wraps the engine inputs and reports the distribution of the valuation; it does not feed the statements.
+
 ## What recalculates and what is saved
 
 Live formulas: Inputs (case selector, overrides), Adoption Build, XR Engine, IR Engine, Revenue, Fin Monthly (four clinical branches), Valuation, Annual, Quarterly, Quantity & Price, Checks, LOE, Calendar. Changing any input recalculates patients, revenue, cash, funding and value.

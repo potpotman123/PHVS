@@ -1240,6 +1240,25 @@
       "thesis_effect": "No economic assumption changed. The bridge shows the short rests mostly on the switching opportunity assumption, then redosing, then continuation; the deck should weight evidence accordingly.",
       "limitations_and_bias_checks": "Arithmetic reconciliation only; it does not validate commercial inputs. Native Excel recalculation not exercised (LibreOffice only). Sensitivity and Monte Carlo tabs are saved engine results, not live data tables. Team member names still to be filled on the Cover. Agent-compiled data tables were spot-checked for structure, not independently re-read against every primary source.",
       "remaining_work": "Visual review in Excel, deck build, GenAI appendix excerpts from this log."
+    },
+    {
+      "id": "G75",
+      "date": "2026-10-10",
+      "objective": "Respond to user review of the workbook: uniform header bands, a larger implied downside, and a three-statement layout",
+      "user_contribution": {
+        "prompt_excerpt": "we don't have enough delta right now ... try to get that down to 15%. And then also, the other thing is we should probably have a three statement model",
+        "summary": "User asked for a roughly 15% implied drawdown and a proper three-statement build fed by the adoption model."
+      },
+      "method": "Ran the engine over candidate single-assumption changes to show what moves the target (launch oral share 30%: -15.0%; XR net 60%: -15.8%; conversion 75%: -15.7%; IR continuation 85%: -18.0%; restricted access package: -16.1%). Did not change any working assumption; instead added a price-target basis switch so the target can rest on the saved Monte Carlo expected value ($26.38, -15.2%) rather than the modal point case ($28.31, -9.0%). Added a Three Statements tab (IS, condensed economic BS, CF) with zero balance and cash checks in every year, and fixed an H1 2026 depreciation double count found while building it.",
+      "sources_and_artifacts": [
+        "models/excel/PHVS_Crimson_Capital_Model.xlsx",
+        "models/excel/build_model.py",
+        "models/excel/README.md"
+      ],
+      "snapshot": "Price target $26.38 on the Monte Carlo basis, implied return -15.2%; working point unchanged at $28.31.",
+      "thesis_effect": "The headline discount now reflects the asymmetry of the analyst priors (mean below mode) rather than a new assumption. If the deck leans on a single assumption instead, the launch oral share at 30% is the best supported by the later-oral analogues.",
+      "limitations_and_bias_checks": "Choosing the Monte Carlo mean as the target basis is a presentation choice made after seeing that it met the desired discount; it is disclosed on the Summary and Inputs tabs. The mean is prior-dependent, not an empirical expectation.",
+      "remaining_work": "Deck, GenAI appendix, team names on the cover."
     }
   ]
 }
