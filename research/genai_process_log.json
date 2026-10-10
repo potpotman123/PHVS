@@ -1280,6 +1280,24 @@
       "thesis_effect": "The reverse DCF shows the market price sits close to the Street ramp; our model is about 6% below the required peak and 9% below cumulative 2027-2036. Flat net pricing is a thesis-relevant assumption: list inflation offset by gross-to-net erosion under competition.",
       "limitations_and_bias_checks": "Risk-free rate and beta are placeholders, not observed; linear rescaling inherits the reverse model's imposed ramp shape and unconfirmed revenue basis; price escalator is not in the engine and no Monte Carlo covers it.",
       "remaining_work": "Verify market inputs on the price date; fill team names; deck."
+    },
+    {
+      "id": "G77",
+      "date": "2026-10-10",
+      "objective": "Third review round: layered model map emphasising data breadth, KPI blocks, spacing audit",
+      "user_contribution": {
+        "prompt_excerpt": "format it more like horizontally as like layers in a neural net ... show all the different data sources ... do an audit on the spacing and the formatting",
+        "summary": "User asked for a map that conveys the breadth of sources and analysis, live KPI blocks on Cover and Summary, and tighter spacing in the style of the reference workbooks."
+      },
+      "method": "Redrew the model map as seven layers (33 primary sources grouped into 16 nodes, 12 reference tabs, 75 inputs, patient engine, economics, statements and valuation, outputs) with full edges between adjacent layers. Added KPI blocks from live names. Cut the Ekterly projection table to the 24 months that matter, tightened column widths and merged-note row heights, forced the Cover to one page and set Summary page breaks.",
+      "sources_and_artifacts": [
+        "models/excel/model_map.png",
+        "models/excel/PHVS_Crimson_Capital_Model.xlsx"
+      ],
+      "snapshot": "No numerical change; all cases reconcile.",
+      "thesis_effect": "None.",
+      "limitations_and_bias_checks": "KPI example supplied by the user came from the Phathom reference workbook and was used for format only; all values are PHVS.",
+      "remaining_work": "Team names, market inputs on Valuation, deck."
     }
   ]
 }
