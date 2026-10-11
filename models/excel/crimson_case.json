@@ -1,0 +1,9 @@
+{
+ "label": "Crimson Capital underwriting, 11 October 2026",
+ "overrides": {"oral_launch_share": 0.30, "ir_retention": 0.85},
+ "priors": {"oral_launch_share": {"min": 0.20, "mode": 0.30, "max": 0.45}, "ir_retention": {"min": 0.78, "mode": 0.85, "max": 0.92}},
+ "rationale": {
+  "oral_launch_share": "Research mode was 40%. Later-oral analogues in the evidence register launched well below parity: Attruby about 18-20% of new prescriptions, Scemblix 23% in first line. 30% keeps the 60% mature share and the five-year ramp; 20-45% prior.",
+  "ir_retention": "Research mode was 90%, which the model audit describes as a forecast, not a measurement; the 91% repeat-dispensing statistic is not annual continuation and the comparator prevention persistence is 61% at twelve months. 85% with a 78-92% prior."
+ }
+}

@@ -7,8 +7,10 @@ maps = json.loads((ROOT / 'models/excel/rowmap.json').read_text()); MC0, NM = ma
 case = sys.argv[1] if len(sys.argv) > 1 else 'working'
 path = sys.argv[2] if len(sys.argv) > 2 else str(ROOT / 'models/excel/PHVS_Crimson_Capital_Model.xlsx')
 wb = openpyxl.load_workbook(path, data_only=True)
-monthly = json.loads((ROOT / f'models/finalized/{case}_monthly.json').read_text())
-res = json.loads((ROOT / 'models/finalized/results.json').read_text())[case]
+if case == 'working':
+    monthly = json.loads((ROOT / 'models/excel/crimson_monthly.json').read_text()); res = json.loads((ROOT / 'models/excel/crimson_results.json').read_text())['base']
+else:
+    monthly = json.loads((ROOT / f'models/finalized/{case}_monthly.json').read_text()); res = json.loads((ROOT / 'models/finalized/results.json').read_text())[case]
 OFFS = maps.get('OFFS', {})
 class _Sheet:
     def __init__(self, logical):

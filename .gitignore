@@ -5,3 +5,6 @@ __pycache__/
 .env
 .env.*
 !.env.example
+models/excel/crimson_monthly.json
+models/reverse_dcf/node_modules/
+models/excel/mc_expected_path.progress
