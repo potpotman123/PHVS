@@ -1248,7 +1248,8 @@ put(wsM, r, 2, '12-month value: the price target is the mean', f_bold); put(wsM,
 put(wsM, r, 2, 'Fair value today'); put(wsM, r, 3, sum(vt) / NDRAW, f_input, USD); [put(wsM, r, 4 + i, qtl(vt, pp), f_input, USD) for i, pp in enumerate((0.5, 0.1, 0.9))]; r += 1
 put(wsM, r, 2, '12-month clinical outcomes, four branches weighted once'); put(wsM, r, 3, sum(v * w for v, w in pairs), f_input, USD); [put(wsM, r, 4 + i, wq(pp), f_input, USD) for i, pp in enumerate((0.5, 0.1, 0.9))]; r += 1
 put(wsM, r, 2, 'Share of draws below the share price'); put(wsM, r, 3, sum(1 for v in et if v < PRICE) / NDRAW, f_input, PCT); put(wsM, r, 4, 'a sensitivity statistic under these priors, not a probability of a profitable short', f_sub); r += 1
-put(wsM, r, 2, 'Live inputs versus the simulated priors', f_bold); put(wsM, r, 3, f'=IF(SUMPRODUCT(--(Inputs!$H$9:$H${max(INPUT_ROW.values())}<>Inputs!$E$9:$E${max(INPUT_ROW.values())}))+ABS(launch_delay_IR)+ABS(launch_delay_XR)+ABS(loe_year_IR-loe_year)+ABS(loe_year_XR-loe_year)+ABS(discount_rate-{P['discount_rate']['value']})=0,"Inputs match the simulated baseline","STALE: live inputs differ from the simulated baseline")', f_flag); r += 2
+MC_DISC = P['discount_rate']['value']
+put(wsM, r, 2, 'Live inputs versus the simulated priors', f_bold); put(wsM, r, 3, f'=IF(SUMPRODUCT(--(Inputs!$H$9:$H${max(INPUT_ROW.values())}<>Inputs!$E$9:$E${max(INPUT_ROW.values())}))+ABS(launch_delay_IR)+ABS(launch_delay_XR)+ABS(loe_year_IR-loe_year)+ABS(loe_year_XR-loe_year)+ABS(discount_rate-{MC_DISC})=0,"Inputs match the simulated baseline","STALE: live inputs differ from the simulated baseline")', f_flag); r += 2
 band(wsM, r, 'Clinical branches', 2, 7); r += 1
 for i, h in enumerate(['Branch', 'Weight', 'Median value, 12 months', 'Median funding, USD m', '', '']): put(wsM, r, 2 + i, h, f_hdr, fill=fill_hdr, align=Alignment(wrap_text=True, vertical='center'))
 wsM.row_dimensions[r].height = 27
