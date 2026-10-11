@@ -9,13 +9,18 @@ path = sys.argv[2] if len(sys.argv) > 2 else str(ROOT / 'models/excel/PHVS_Crims
 wb = openpyxl.load_workbook(path, data_only=True)
 monthly = json.loads((ROOT / f'models/finalized/{case}_monthly.json').read_text())
 res = json.loads((ROOT / 'models/finalized/results.json').read_text())[case]
+OFFS = maps.get('OFFS', {})
+class _Sheet:
+    def __init__(self, logical):
+        phys, self.off = OFFS.get(logical, [logical, 0]); self.ws = wb[phys]
+    def cell(self, r, c): return self.ws.cell(r + self.off, c)
 def row(ws, r): return [ws.cell(r, MC0 + j).value for j in range(NM)]
 def cmp(label, got, exp, tol=1e-6):
     bad = [(j, g, e) for j, (g, e) in enumerate(zip(got, exp)) if g is None or abs((g or 0) - e) > tol]
     mx = max(abs((g or 0) - e) for g, e in zip(got, exp) if g is not None) if got else None
     print(f"{'OK ' if not bad else 'BAD'} {label:42s} max|diff|={mx!s:>12} first_bad={bad[0] if bad else ''}")
     return not bad
-X, I, V, Fn = wb['XR Engine'], wb['IR Engine'], wb['Revenue'], wb['Fin Monthly']
+X, I, V, Fn = _Sheet('XR Engine'), _Sheet('IR Engine'), _Sheet('Revenue'), _Sheet('Fin Monthly')
 b = monthly['both']
 ok = True
 ok &= cmp('XR patient-years', row(X, maps['RX']['tot_py']), [r['xr_patient_years'] for r in b])
@@ -37,7 +42,7 @@ for st in ('both', 'IR_only', 'XR_only', 'neither'):
     m = monthly[st]
     for key, ek in (('revenue', 'revenue'), ('rd', 'rd'), ('commercial', 'commercial'), ('ga', 'ga'), ('manufacture', 'manufacture'), ('license', 'license'), ('capex', 'capex'), ('dep', 'depreciation'), ('ebit', 'operating_income'), ('tax', 'tax'), ('ni', 'net_income'), ('dnwc', 'delta_nwc'), ('fcf', 'fcf'), ('fund_net', 'funding_net'), ('cash', 'cash_end'), ('shares', 'shares_end'), ('equity', 'equity_end'), ('dist', 'distribution')):
         ok &= cmp(f'{st}: {key}', row(Fn, maps['RF'][str((st, key))]), [r[ek] for r in m])
-W = wb['Valuation']
+W = _Sheet('Valuation')
 for tag, d in (('val', 'valuation'), ('tgt', 'target')):
     for ci, st in enumerate(('both', 'IR_only', 'XR_only', 'neither')):
         got = W.cell(maps['VALROW'][str((tag, 'price'))], 3 + ci).value; exp = res['conditional_valuations'][st][d]['price']

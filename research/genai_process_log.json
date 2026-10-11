@@ -1298,6 +1298,26 @@
       "thesis_effect": "None.",
       "limitations_and_bias_checks": "KPI example supplied by the user came from the Phathom reference workbook and was used for format only; all values are PHVS.",
       "remaining_work": "Team names, market inputs on Valuation, deck."
+    },
+    {
+      "id": "G78",
+      "date": "2026-10-10",
+      "objective": "Consolidate the workbook to twelve tabs and remove the case and target-basis selectors",
+      "user_contribution": {
+        "prompt_excerpt": "there's too many tabs ... DCF is going to be one tab. Three statement model is going to be one tab. Reverse DCF is going to be one tab ... this case selector thing is kind of stupid ... obviously, we'll just use the Monte Carlo mean 12 month value",
+        "summary": "User judged the 34-tab layout unreadable, asked for consolidation modelled on the reference workbooks, dropped the case selector, and asked how the Monte Carlo relates to the deterministic DCF."
+      },
+      "method": "Assisted programming. The builder still constructs logical sheets, then stacks them into twelve physical tabs and rewrites every cell reference, defined name and chart series with a single-pass regex (fixed two bugs: a range's second cell being offset twice, and unquoted sheet names absorbing operators). Annual was reduced to operating drivers with financial lines re-pointed to Three Statements. Removed the case selector (Working is the base; overrides remain) and the price-target basis switch (Monte Carlo mean only). Explained to the user that each Monte Carlo draw runs the full engine and DCF, and that the mean differs from the modal point case because of asymmetric priors and nonlinearity.",
+      "sources_and_artifacts": [
+        "models/excel/PHVS_Crimson_Capital_Model.xlsx",
+        "models/excel/build_model.py",
+        "models/excel/reconcile.py",
+        "models/excel/check_cases.sh"
+      ],
+      "snapshot": "Twelve tabs, 303,647 formulas, zero errors; Working, Cautious and Upside still reconcile to the engine within 1e-6 via the override column.",
+      "thesis_effect": "None; presentation only. Price target $26.38, implied return -15.2%.",
+      "limitations_and_bias_checks": "Stacked tabs share one column-width set, so the source register was re-laid out to fit; chart anchors are offset by an estimate of chart height.",
+      "remaining_work": "Team names, market inputs on DCF, deck."
     }
   ]
 }
