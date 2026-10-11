@@ -1407,6 +1407,26 @@
       "verification": "LibreOffice recalculation: 306,466 formulas, 0 errors. Checks tab: all control totals and identities pass. Working, Cautious and Upside cases reconcile to the Python engine at 1e-6 after the override column is populated. Price target unchanged at the Monte Carlo mean of $22.72 (-26.9%).",
       "ai_role": "Diagnosis, code patches, rebuild, recalculation, rendering and visual review.",
       "human_review": "Rendered pages reviewed; numbers unchanged from G80."
+    },
+    {
+      "id": "G83",
+      "date": "2026-10-11",
+      "objective": "KPI blocks rewritten in the vocabulary of the user's reference model",
+      "user_contribution": {
+        "prompt_excerpt": "some of these KPIs read a little useless to me ... we definitely need a peak penetration, we need a gross px drop post-LOE, the pricing is important, some of the preference things are also important, the redosing thing is important",
+        "summary": "User supplied the KPI list from the reference workbook (peak penetration, post-LOE price drop, GTN, PoS, capture and adherence) and asked the Cover and Summary KPIs to follow it."
+      },
+      "method": "Programming: Cover headline KPIs and the Summary driver and output blocks now show peak XR and IR penetration of diagnosed US patients (live from the annual engine rows), WAC and gross-to-net discount for each product, the brand revenue drop in years one and four after generic entry (live from the LOE indices), oral preference and PHVS share of oral choices, paid access conversion, retention, membership continuation, the redosing multiplier, approval odds, and the discount rate beside the WACC build.",
+      "sources_and_artifacts": [
+        "models/excel/build_model.py"
+      ],
+      "snapshot": "Central case peak penetration of diagnosed US patients: XR 17.5%, IR 28.8%. XR WAC $48,488 per 28 days at a 34% gross-to-net discount; IR $16,720 per dose at 16%. Brand revenue falls 52% in the first generic year (2039) and 78% by year four.",
+      "thesis_effect": "Presentation only; no valuation change.",
+      "limitations_and_bias_checks": "Penetration is active patients over the diagnosed population in the same year; it is a central-case figure, not the Monte Carlo mean. Zero-guarded against the blank 2024-2025 history columns.",
+      "remaining_work": "User review of the Cover in Excel.",
+      "verification": "LibreOffice recalculation: 306,466 formulas, 0 errors. Checks tab: all control totals and identities pass. Working, Cautious and Upside cases reconcile to the Python engine at 1e-6 after the override column is populated. Price target unchanged at the Monte Carlo mean of $22.72 (-26.9%).",
+      "ai_role": "Diagnosis, code patches, rebuild, recalculation, rendering and visual review.",
+      "human_review": "Rendered pages reviewed; numbers unchanged from G80."
     }
   ]
 }
