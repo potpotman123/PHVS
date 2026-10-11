@@ -641,7 +641,7 @@ DY = list(range(2027, END_YEAR + 1)); DC0 = 3
 put(wsVal, r, 2, 'Year', f_hdr, fill=fill_hdr)
 for i, y in enumerate(DY):
     put(wsVal, r, DC0 + i, y, f_hdr, fill=fill_hdr, align=Alignment(horizontal='right')); wsVal.column_dimensions[CL(DC0 + i)].width = max(wsVal.column_dimensions[CL(DC0 + i)].width or 0, 9.5)
-    if y >= 2032: wsVal.column_dimensions[CL(DC0 + i)].outlineLevel = 1; wsVal.column_dimensions[CL(DC0 + i)].hidden = True
+    if y >= 2032: wsVal.column_dimensions[CL(DC0 + i)].outlineLevel = 1; wsVal.column_dimensions[CL(DC0 + i)].hidden = False
 DYR = r; r += 1
 yrs = mrng('Fin Monthly', 3); fr = mrng('Calendar', CAL['frac_tgt']); dfr = mrng('Calendar', CAL['df_tgt'])
 WN = {'both': 'w_both', 'IR_only': 'w_IR_only', 'XR_only': 'w_XR_only'}
@@ -671,7 +671,7 @@ put(wsVal, r, 2, 'Expected diluted shares, millions'); put(wsVal, r, 3, wv('dilu
 put(wsVal, r, 2, 'Expected equity per expected share'); put(wsVal, r, 3, f"=C{WEQ}/C{r-1}", f_norm, USD); r += 1
 put(wsVal, r, 2, 'Probability-weighted value per share (headline, branch by branch)', f_bold); put(wsVal, r, 3, '=value_target', f_bold, USD, fill=fill_key); r += 1
 put(wsVal, r, 2, 'Difference: option dilution and the zero floor are applied within each branch'); put(wsVal, r, 3, f"=C{r-1}-C{r-2}", f_norm, USD); r += 1
-put(wsVal, r, 2, 'Expected revenue is the product cash flow weighted by the four branch probabilities; costs are weighted the same way, so a failed product carries neither its revenue nor its commercial spend. Discounting is linear, so this walk equals the weighted sum of the branch DCFs above. Years after 2031 are grouped.', f_sub); wsVal.cell(r, 2).alignment = Alignment(wrap_text=True, vertical='top'); wsVal.merge_cells(start_row=r, start_column=2, end_row=r, end_column=8); wsVal.row_dimensions[r].height = 40
+put(wsVal, r, 2, 'Expected revenue is the product cash flow weighted by the four branch probabilities; costs are weighted the same way, so a failed product carries neither its revenue nor its commercial spend. Discounting is linear, so this walk equals the weighted sum of the branch DCFs above. ', f_sub); wsVal.cell(r, 2).alignment = Alignment(wrap_text=True, vertical='top'); wsVal.merge_cells(start_row=r, start_column=2, end_row=r, end_column=8); wsVal.row_dimensions[r].height = 40
 widths(wsVal, {'A': 2, 'B': 52, 'C': 14, 'D': 14, 'E': 14, 'F': 14})
 
 # ================================================================== analyst rationale for inputs (overrides the imported text)
@@ -764,8 +764,9 @@ for i, y in enumerate(YEARS):
     c = YC0 + i; lab = f'{y}A' if y < 2026 else ('2026A/E' if y == 2026 else f'{y}E')
     put(wsAn, 4, c, y, f_norm, '0'); put(wsAn, 5, c, lab, f_hdr, fill=fill_hdr, align=Alignment(horizontal='right'))
     wsAn.column_dimensions[CL(c)].width = 10
-    if y >= 2032: wsAn.column_dimensions[CL(c)].outlineLevel = 1; wsAn.column_dimensions[CL(c)].hidden = True
+    if y >= 2032: wsAn.column_dimensions[CL(c)].outlineLevel = 1; wsAn.column_dimensions[CL(c)].hidden = False
 put(wsAn, 6, 2, 'Currency', f_sub); [put(wsAn, 6, YC0 + i, 'EUR' if y < 2026 else 'USD', f_sub, align=Alignment(horizontal='right')) for i, y in enumerate(YEARS)]
+put(wsAn, 7, 2, 'Exclusivity', f_sub); [put(wsAn, 7, YC0 + i, f'=IF({CL(YC0+i)}$4<2027,"",IF({CL(YC0+i)}$4<loe_year,"protected","generic"))', f_sub, align=Alignment(horizontal='right')) for i, y in enumerate(YEARS)]
 AN = {}; r = 8
 def arow(key, label, fin=None, hist=None, kind='flow', sheet_name='Fin Monthly', fmt=NUM, bold=False, calc=None, unit='', h1=True, indent=0):
     """fin: monthly row to aggregate; hist: History key for 2024/25 (and H1 2026 when h1); calc: fn(col letter)->formula using AN rows."""
@@ -838,7 +839,7 @@ arow('bs_check', 'Check: assets less equity', calc=lambda L, y: f"={L}{AN['bs_ca
 arow('nol', 'NOL pool, year end', fin=FINB('nol'), kind='stock')
 r += 1
 put(wsAn, r, 2, 'Reported 2024-2025 are IFRS EUR figures and include finance income and non-cash share-based compensation; forecasts are economic cash-compensation equivalents with no interest or FX. 2026 net income adds the reported H1 loss (EUR x 1.1186) to the H2 forecast.', f_sub); r += 1
-put(wsAn, r, 2, 'Years after 2031 are grouped; expand the outline to see the explicit forecast through 2055 and the generic erosion from 2039.', f_sub)
+put(wsAn, r, 2, 'Explicit forecast runs to 2055; generic erosion begins in the first full generic year on Inputs (2039), after which units follow the LOE volume index and price the LOE price index. Columns can be collapsed with the outline above the headers.', f_sub)
 widths(wsAn, {'A': 2, 'B': 40, 'C': 8}); wsAn.freeze_panes = 'D6'
 name('rev_2030', f"Annual!${CL(YC0+YEARS.index(2030))}${AN['revenue']}")
 
@@ -849,8 +850,9 @@ TS_UNITS = {'growth': '%', 'gm': '%', 'om': '%', 'em': '%', 'sh': 'million share
 put(wsT, 5, 2, 'Fiscal year', f_hdr, fill=fill_hdr); put(wsT, 5, 3, 'Units', f_hdr, fill=fill_hdr)
 for i, y in enumerate(YEARS):
     c = YC0 + i; put(wsT, 4, c, y, f_norm, '0'); put(wsT, 5, c, f'{y}A' if y < 2026 else ('2026A/E' if y == 2026 else f'{y}E'), f_hdr, fill=fill_hdr, align=Alignment(horizontal='right')); wsT.column_dimensions[CL(c)].width = 10
-    if y >= 2032: wsT.column_dimensions[CL(c)].outlineLevel = 1; wsT.column_dimensions[CL(c)].hidden = True
+    if y >= 2032: wsT.column_dimensions[CL(c)].outlineLevel = 1; wsT.column_dimensions[CL(c)].hidden = False
 put(wsT, 6, 2, 'Currency', f_sub); [put(wsT, 6, YC0 + i, 'EUR' if y < 2026 else 'USD', f_sub, align=Alignment(horizontal='right')) for i, y in enumerate(YEARS)]
+put(wsT, 7, 2, 'Exclusivity', f_sub); [put(wsT, 7, YC0 + i, f'=IF({CL(YC0+i)}$4<2027,"",IF({CL(YC0+i)}$4<loe_year,"protected","generic"))', f_sub, align=Alignment(horizontal='right')) for i, y in enumerate(YEARS)]
 TS = {}; r = 8
 def trow(key, label, fin=None, hist=None, kind='flow', fmt=NUM, bold=False, calc=None, h1=True, indent=0, histcalc=None):
     global r; TS[key] = r; put(wsT, r, 2, ('   ' * indent) + label, f_bold if bold else f_norm); put(wsT, r, 3, TS_UNITS.get(key, 'millions'), f_sub)
@@ -971,8 +973,8 @@ trow('fcf_m', 'Free cash flow margin', calc=lambda L, y: f"=IF({L}{TS['revenue']
 trow('runway', 'Cash runway at the year\'s operating burn', calc=lambda L, y: f"=IF({L}{TS['cfo']}<0,{L}{TS['cash']}/-{L}{TS['cfo']},\"\")", histcalc=lambda H, L: f"=IF({L}{TS['cfo']}<0,{L}{TS['cash']}/-{L}{TS['cfo']},\"\")", fmt=NUM2, indent=1)
 r += 1
 put(wsT, r, 2, 'Reported 2024-2025 follow IFRS and include finance income and non-cash share-based compensation. From H2 2026 the forecast is an economic cash-compensation view: existing awards enter dilution at valuation, future incentives sit inside the cash budgets, and there is no interest or FX. The 2026 column adds the reported H1 (EUR x 1.1186) to the H2 forecast, so its opening cash is the reported 31 December 2025 balance translated at the same rate.', f_sub); r += 1
-put(wsT, r, 2, 'Working capital is carried net (12% of annualised sales plus the opening balance); liabilities beyond payables are inside other net assets. Debt is zero throughout. Years after 2031 are grouped.', f_sub)
-widths(wsT, {'A': 2, 'B': 56, 'C': 15}); wsT.freeze_panes = 'D6'; wsT.print_area = f"B4:{CL(YC0+YEARS.index(2031))}{TS['runway']}"
+put(wsT, r, 2, 'Working capital is carried net (12% of annualised sales plus the opening balance); liabilities beyond payables are inside other net assets. Debt is zero throughout. Explicit forecast runs to 2055; the Valuation tab adds a declining residual beyond it.', f_sub)
+widths(wsT, {'A': 2, 'B': 56, 'C': 15}); wsT.freeze_panes = 'D6'; wsT.print_area = f"B4:{CL(YC0+len(YEARS)-1)}{TS['runway']}"
 
 # ================================================================== QUARTERLY
 wsQ = sheet('Quarterly', '0070C0'); title(wsQ, 'Quarterly financials, 2026 H2 to 2029', 'Units stated row by row; money in USD millions. Both products approved. Flows sum the monthly engine; balances take the quarter-end month.')
@@ -1006,8 +1008,8 @@ widths(wsQ, {'A': 2, 'B': 40, 'C': 14}); wsQ.freeze_panes = 'D6'
 
 # ================================================================== ADOPTION BUILD: annual summary table
 r = ADOPT_ANNUAL_ROW; band(wsA, r, 'Annual adoption by origin, both products approved (prescriptions and patients are counts; patient-years are exposure)', 2, 14); r += 1
-AYRS = list(range(2027, 2038)); put(wsA, r, 2, 'Year', f_hdr, fill=fill_hdr); put(wsA, r, 3, '', f_hdr, fill=fill_hdr)
-for i, y in enumerate(AYRS): put(wsA, r, 4 + i, y, f_hdr, fill=fill_hdr, align=Alignment(horizontal='right'))
+AYRS = list(range(2027, END_YEAR + 1)); put(wsA, r, 2, 'Year', f_hdr, fill=fill_hdr); put(wsA, r, 3, '', f_hdr, fill=fill_hdr)
+for i, y in enumerate(AYRS): put(wsA, r, 4 + i, y, f_hdr, fill=fill_hdr, align=Alignment(horizontal='right')); wsA.column_dimensions[CL(4 + i)].width = max(wsA.column_dimensions[CL(4 + i)].width or 0, 9)
 r += 1
 def arow2(label, ws_name, row, kind='flow', fmt=NUM0, bold=False):
     global r; put(wsA, r, 2, label, f_bold if bold else f_norm)
@@ -1041,7 +1043,7 @@ for lab, base in (('On prevention (Orladeyo, other prevention)', 'ir_doses_ltp')
     put(wsP, r, 2, lab); put(wsP, r, 5, f'={base}', f_norm, NUM2); put(wsP, r, 6, f'=E{r}*ir_quantity_multiplier', f_norm, NUM2); put(wsP, r, 7, '=ir_initial_doses', f_norm, NUM2); put(wsP, r, 8, f'=F{r}-G{r}', f_norm, NUM2); put(wsP, r, 9, f'=F{r}', f_norm, NUM2); r += 1
 put(wsP, r, 2, 'A PHVS XR user who also carries PHVS rescue gets the prevention budget times the same-drug allocation (dual use). The overlap share is the XR patient-years in each origin cell divided by its population, so it rises as XR penetrates. Free initial doses earn nothing but still cost manufacturing.', f_sub); r += 2
 band(wsP, r, 'Annual quantities and revenue, both products approved (units as labelled; revenue in USD millions)', 2, 16); r += 1
-PYRS = list(range(2027, 2041)); put(wsP, r, 2, 'Year', f_hdr, fill=fill_hdr); put(wsP, r, 3, '', f_hdr, fill=fill_hdr)
+PYRS = list(range(2027, END_YEAR + 1)); put(wsP, r, 2, 'Year', f_hdr, fill=fill_hdr); put(wsP, r, 3, '', f_hdr, fill=fill_hdr)
 for i, y in enumerate(PYRS): put(wsP, r, 4 + i, y, f_hdr, fill=fill_hdr, align=Alignment(horizontal='right')); wsP.column_dimensions[CL(4 + i)].width = 10
 PYH = r; r += 1
 def prow(label, ws_name, row, kind='flow', fmt=NUM0, bold=False, calc=None):
@@ -1158,7 +1160,7 @@ yrs_ = [row_[0] for row_ in rr['rows']]
 put(wsRD, r, 2, 'Calendar year', f_hdr, fill=fill_hdr); put(wsRD, r, 3, '', f_hdr, fill=fill_hdr)
 for i, y in enumerate(yrs_):
     put(wsRD, r, 4 + i, y, f_hdr, fill=fill_hdr, align=Alignment(horizontal='right')); wsRD.column_dimensions[CL(4 + i)].width = 9.5
-    if y > 2036: wsRD.column_dimensions[CL(4 + i)].outlineLevel = 1; wsRD.column_dimensions[CL(4 + i)].hidden = True
+    if y > 2036: wsRD.column_dimensions[CL(4 + i)].outlineLevel = 1; wsRD.column_dimensions[CL(4 + i)].hidden = False
 RDY = r; r += 1
 def rdrow(label, vals=None, fn=None, bold=False, fmt=NUM, font=None):
     global r; put(wsRD, r, 2, label, f_bold if bold else f_norm)
@@ -1538,7 +1540,7 @@ for ws_ in wb.worksheets: unify_bands(ws_)
 wb._sheets = [wb[n] for n in ORDER]
 for n in ('Calendar', 'XR Engine', 'IR Engine', 'Revenue', 'Fin Monthly'):
     ws_ = wb[n]; ws_.page_setup.fitToWidth = 1; ws_.page_setup.fitToHeight = 0; ws_.sheet_properties.pageSetUpPr = PageSetupProperties(fitToPage=True); ws_.print_title_rows = '1:6'; ws_.print_area = f'A1:{mcol(23)}{ws_.max_row}'
-wb['Annual'].print_area = f"B4:{CL(YC0+YEARS.index(2031))}{AN['nol']}"
+wb['Annual'].print_area = f"B4:{CL(YC0+len(YEARS)-1)}{AN['nol']}"
 wb.active = 0
 wb.save(OUT); print('saved', OUT)
 _maps = {'RX': {str(k): v for k, v in RX.items()}, 'RI': {str(k): v for k, v in RI.items()}, 'RV': {str(k): v for k, v in RV.items()}, 'RF': {str(k): v for k, v in RF.items()}, 'CAL': CAL, 'VALROW': {str(k): v for k, v in VALROW.items()}, 'MC0': MC0, 'NM': NM, 'AN': AN, 'QR': QR, 'TS': TS}
