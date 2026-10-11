@@ -1382,6 +1382,31 @@
       "verification": "LibreOffice recalculation: 306,466 formulas, 0 errors. Checks tab: all control totals and identities pass. Working, Cautious and Upside cases reconcile to the Python engine at 1e-6 after the override column is populated. Price target unchanged at the Monte Carlo mean of $22.72 (-26.9%).",
       "ai_role": "Diagnosis, code patches, rebuild, recalculation, rendering and visual review.",
       "human_review": "Rendered pages reviewed; numbers unchanged from G80."
+    },
+    {
+      "id": "G82",
+      "date": "2026-10-11",
+      "objective": "WACC build from public data on the DCF tab, and formatting fixes the user asked for",
+      "user_contribution": {
+        "prompt_excerpt": "can you make a more elaborate WACC build with damodaran or whatever? ... also genuinely why is my cash from investing always negative",
+        "summary": "User asked for a sourced discount-rate build and for spacing and colour fixes, and questioned the investing cash flow line."
+      },
+      "method": "Assisted search and extraction: Damodaran January 2026 pages (Betas by Sector, implied ERP history, synthetic ratings), the US Treasury daily par yield curve for October 2026, and Yahoo's traded PHVS beta. Built CAPM and WACC rows (risk-free 5.24%, ERP 4.23%, cash-corrected biotech unlevered beta 1.08 relevered at zero debt) with the 12% used shown as the market build plus a labelled premium, beside the Street range and the engine's 10%/15% sensitivity. Added four entries to the source register. Removed wrapped text on the Inputs tab so rows keep one height; widened Monte Carlo headers; DCF bands span the cash-flow table.",
+      "sources_and_artifacts": [
+        "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/Betas.html",
+        "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histimpl.html",
+        "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/ratings.html",
+        "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
+        "models/finalized/sources.json",
+        "models/excel/build_model.py"
+      ],
+      "snapshot": "CAPM cost of equity and WACC 9.81%; premium to the 12% used 2.19%; Street 10.0%/12.0%/15.0% (low/median/high); central case $27.59 at 10% and $19.19 at 15%. Price target unchanged at $22.72.",
+      "thesis_effect": "Neutral on the target. Shows the 12% is above a market-data build, so the short does not rest on an aggressive discount rate; at the CAPM rate the central case would be worth more, which the premium row makes explicit.",
+      "limitations_and_bias_checks": "Industry beta is an average of 496 firms of mixed stage; the traded PHVS beta is negative and unusable, so no company-specific beta exists. The ERP is a January point estimate. The synthetic D rating is mechanical for a loss-making company and carries zero weight. The premium is a residual, not an independently estimated figure. Cash from investing is capex only because the model holds deposits as cash; history is on the same basis.",
+      "remaining_work": "User to confirm the 12% stays as the rate inside the draws, or re-run the Monte Carlo at another rate.",
+      "verification": "LibreOffice recalculation: 306,466 formulas, 0 errors. Checks tab: all control totals and identities pass. Working, Cautious and Upside cases reconcile to the Python engine at 1e-6 after the override column is populated. Price target unchanged at the Monte Carlo mean of $22.72 (-26.9%).",
+      "ai_role": "Diagnosis, code patches, rebuild, recalculation, rendering and visual review.",
+      "human_review": "Rendered pages reviewed; numbers unchanged from G80."
     }
   ]
 }

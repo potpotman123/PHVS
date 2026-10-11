@@ -260,6 +260,38 @@
       "locator": "research/PHVS_choice_share_comparable_audit_2026-10-09.json",
       "facts": "Comparator launch shares differ by line, time and denominator;60%PHVS mature share not identified empirically.",
       "limitation": "Supports range and uncertainty, not fitted efficacy-to-share coefficient."
+    },
+    "DAMODARAN_BETAS": {
+      "title": "Damodaran, Betas by Sector (US), January 2026",
+      "date": "2026-01-09",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/Betas.html",
+      "locator": "Drugs (Biotechnology) row",
+      "facts": "Drugs (Biotechnology): 496 firms, levered beta 1.14, D/E 13.04%, unlevered beta 1.03, cash 4.20% of firm value, unlevered beta corrected for cash 1.08. Drugs (Pharmaceutical): 228 firms, 0.98 levered, 0.92 cash-corrected.",
+      "limitation": "An industry average across sizes and stages; the regression betas behind it are noisy for small single-asset companies, which is why the traded PHVS beta is not used."
+    },
+    "DAMODARAN_ERP": {
+      "title": "Damodaran, implied equity risk premium, January 2026 update",
+      "date": "2026-01-09",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histimpl.html",
+      "locator": "2025 row of the historical implied premium table",
+      "facts": "Implied ERP 4.23% on a 4.18% T-bond rate (earnings yield 3.97%, dividend yield 1.15%); 4.33% for 2024 and 4.60% for 2023. Mature-market premium 4.23% after removing the 0.23% US default spread.",
+      "limitation": "A point estimate that moves with the index level; a 50 bp change in the premium moves the CAPM cost of equity by about 55 bp at a 1.08 beta."
+    },
+    "DAMODARAN_RATINGS": {
+      "title": "Damodaran, synthetic ratings and default spreads, January 2026",
+      "date": "2026-01-09",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/ratings.html",
+      "locator": "Large non-financial service firms table",
+      "facts": "Interest coverage below 0.2 maps to D with a 19.00% default spread; 0.8 to 1.25 maps to Caa/CCC at 8.85%; above 8.5 maps to Aaa/AAA at 0.40%.",
+      "limitation": "Built from rated US firms; a pre-revenue company with negative EBIT sits at the bottom of the table by construction. Used only to show that debt is not a realistic funding source."
+    },
+    "UST_PAR_2026_10": {
+      "title": "US Treasury daily par yield curve, October 2026",
+      "date": "2026-10-09",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
+      "locator": "10 Yr column, 10/01/2026 to 10/09/2026",
+      "facts": "10-year par yield 5.24% on 9 October 2026 (5.22% on 8 October, 5.31% on 5 October); 20-year 5.65%, 30-year 5.60% on 9 October. No row for 10 October, a Saturday.",
+      "limitation": "The yield moved 60 bp over the summer; the WACC build uses the last close before the price date rather than an average."
     }
   },
   "existing_evidence_registers": [

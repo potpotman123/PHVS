@@ -49,7 +49,7 @@ Saved engine results, labelled as such: Sensitivities (one-variable ranges, stru
 
 ## Reconciliation, 10 October 2026
 
-Valuation carries a cost-of-equity build (risk-free rate, beta and equity risk premium are yellow placeholders to verify on the price date; the 12% used is the Inputs assumption and the gap to CAPM is shown as a single-asset and financing premium) and an annual DCF walk whose sum reconciles to the branch table. Cover holds the case selector, the price-target basis switch and the model-check status; Model Map is a diagram of how the tabs connect.
+The DCF tab carries a WACC build from public data: the 10-year Treasury par yield on 9 October 2026 (5.24%), Damodaran's January 2026 implied equity risk premium (4.23%) and his cash-corrected unlevered beta for US biotechnology (1.08), relevered at Pharvaris's zero debt, giving a CAPM cost of equity and WACC of about 9.8%. The 12% used in every Monte Carlo draw and in the central case is the Inputs assumption; the gap is shown as a premium for single-asset execution and funding risk, alongside the Street's 10% to 13% range and the engine's 10%/15% sensitivity. The annual DCF walk sums to the Monte Carlo mean.
 
 Recalculated in LibreOffice 25.x (soffice at /opt/homebrew/bin) with 298,145 formulas and zero errors. Working, Cautious and Upside cases reproduce the engine's monthly patient-years, active members, doses, units, revenue, costs, taxes, cash, shares, equity and liquidation distributions in all four clinical branches within 1e-6, and all eight branch prices within 1e-6 per share. Control totals on the Checks tab: value today $25.8256, 12-month value $28.3116, both-approved target $31.4954, peak revenue $1,551.2m in 2038.
 

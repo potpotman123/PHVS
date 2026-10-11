@@ -862,9 +862,12 @@
       "denominator": "unleverednominalUSDcashflows",
       "status": "assumed",
       "sources": [
-        "JUDGMENT"
+        "JUDGMENT",
+        "DAMODARAN_BETAS",
+        "DAMODARAN_ERP",
+        "UST_PAR_2026_10"
       ],
-      "translation": "Independent12%time/commercialriskscenario; clinicalsuccessweightedseparately once.",
+      "translation": "12% used in every draw and in the central case. The DCF tab builds a CAPM cost of equity from Damodaran January 2026 data and the 9 October 2026 Treasury yield and treats the balance as a single-asset execution and funding premium; brokers use 10% to 13%.",
       "distribution_proposal": "scenario",
       "uncertainty": "epistemic",
       "dependencies": [],

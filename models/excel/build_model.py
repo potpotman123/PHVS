@@ -245,9 +245,7 @@ put(wsI, r, 2, 'Target date (12 months)'); put(wsI, r, 5, dt.date.fromisoformat(
 put(wsI, r, 2, 'Share price'); put(wsI, r, 5, PRICE, f_input, USD); name('share_price', f'Inputs!$E${r}'); put(wsI, r, 14, f'NASDAQ close reference supplied by the team, {PRICE_DATE}.', f_sub); r += 1
 put(wsI, r, 2, 'Price date'); put(wsI, r, 5, dt.date.fromisoformat(PRICE_DATE), f_input, 'd-mmm-yy'); name('price_date', f'Inputs!$E${r}'); r += 1
 put(wsI, r, 2, 'Last explicit forecast year'); put(wsI, r, 5, END_YEAR, f_input, '0'); name('end_year', f'Inputs!$E${r}'); r += 1
-widths(wsI, {'A': 2, 'B': 44, 'C': 24, 'D': 16, 'E': 11, 'F': 11, 'G': 11, 'H': 11, 'I': 10, 'J': 9, 'K': 9, 'L': 24, 'M': 18, 'N': 80})
-for rr_ in range(8, wsI.max_row + 1):
-    if wsI.cell(rr_, 14).value: wsI.cell(rr_, 14).alignment = Alignment(wrap_text=True, vertical='top')
+widths(wsI, {'A': 2, 'B': 44, 'C': 24, 'D': 16, 'E': 11, 'F': 11, 'G': 11, 'H': 11, 'I': 10, 'J': 9, 'K': 9, 'L': 24, 'M': 18, 'N': 120})
 wsI.freeze_panes = 'C8'
 
 # ================================================================== HISTORY
@@ -1242,7 +1240,7 @@ def spearman(x, y):
 sp = sorted(((k_, spearman([d['inputs'][k_] for d in PD], et)) for k_ in priors['priors']), key=lambda t: -abs(t[1]))
 wsM = sheet('Monte Carlo', '0070C0'); title(wsM, 'Monte Carlo')
 r = 4; band(wsM, r, '4,096 draws of the 28 uncertain inputs through the patient engine, financials and four-branch DCF (seed 7202609, 11 October 2026, Crimson priors)', 2, 7); r += 1
-for i, h in enumerate(['USD per share', 'Mean', 'Median', 'P10', 'P90']): put(wsM, r, 2 + i, h, f_hdr, fill=fill_hdr)
+for i, h in enumerate(['USD per share', 'Mean', 'Median', 'P10', 'P90', '']): put(wsM, r, 2 + i, h, f_hdr, fill=fill_hdr)
 r += 1
 put(wsM, r, 2, '12-month value: the price target is the mean', f_bold); put(wsM, r, 3, sum(et) / NDRAW, f_input, USD, fill=fill_key); name('mc_mean_target', f"'Monte Carlo'!$C${r}"); [put(wsM, r, 4 + i, qtl(et, pp), f_input, USD) for i, pp in enumerate((0.5, 0.1, 0.9))]; r += 1
 put(wsM, r, 2, 'Fair value today'); put(wsM, r, 3, sum(vt) / NDRAW, f_input, USD); [put(wsM, r, 4 + i, qtl(vt, pp), f_input, USD) for i, pp in enumerate((0.5, 0.1, 0.9))]; r += 1
@@ -1250,7 +1248,8 @@ put(wsM, r, 2, '12-month clinical outcomes, four branches weighted once'); put(w
 put(wsM, r, 2, 'Share of draws below the share price'); put(wsM, r, 3, sum(1 for v in et if v < PRICE) / NDRAW, f_input, PCT); put(wsM, r, 4, 'a sensitivity statistic under these priors, not a probability of a profitable short', f_sub); r += 1
 put(wsM, r, 2, 'Live inputs versus the simulated priors', f_bold); put(wsM, r, 3, f'=IF(SUMPRODUCT(--(Inputs!$H$9:$H${max(INPUT_ROW.values())}<>Inputs!$E$9:$E${max(INPUT_ROW.values())}))+ABS(launch_delay_IR)+ABS(launch_delay_XR)+ABS(loe_year_IR-loe_year)+ABS(loe_year_XR-loe_year)=0,"Inputs match the simulated baseline","STALE: live inputs differ from the simulated baseline")', f_flag); r += 2
 band(wsM, r, 'Clinical branches', 2, 7); r += 1
-for i, h in enumerate(['Branch', 'Weight', 'Median 12-month value', 'Median funding after today, USD m']): put(wsM, r, 2 + i, h, f_hdr, fill=fill_hdr)
+for i, h in enumerate(['Branch', 'Weight', 'Median value, 12 months', 'Median funding, USD m', '', '']): put(wsM, r, 2 + i, h, f_hdr, fill=fill_hdr, align=Alignment(wrap_text=True, vertical='center'))
+wsM.row_dimensions[r].height = 27
 r += 1
 for s_ in ST4: put(wsM, r, 2, SNAME[s_]); put(wsM, r, 3, W_[s_], f_input, PCT2); put(wsM, r, 4, qtl([d['state_target'][s_] for d in PD], 0.5), f_input, USD); put(wsM, r, 5, qtl([d['state_funding'][s_] for d in PD], 0.5), f_input, NUM); r += 1
 r += 1; band(wsM, r, 'The 28 sampled inputs: triangular priors (minimum, most likely, maximum)', 2, 7); r += 1
@@ -1279,25 +1278,26 @@ r += 1
 for x in CR['sensitivities']:
     k_ = x['parameter']; put(wsM, r, 9, LABELS.get(k_, k_), f_bold if k_ in THESIS else f_norm); put(wsM, r, 10, x['low'], f_norm, NUM3); put(wsM, r, 11, x['high'], f_norm, NUM3); put(wsM, r, 12, x['target_low'], f_input, USD); put(wsM, r, 13, x['target_high'], f_input, USD); put(wsM, r, 14, abs(x['target_high'] - x['target_low']), f_norm, USD); r += 1
 put(wsM, r, 9, 'Spans are chosen bounds, not statistical importance; the central case is the point at every most-likely value.', f_sub)
-widths(wsM, {'A': 2, 'B': 50, 'C': 13, 'D': 13, 'E': 13, 'F': 14, 'G': 44, 'H': 3, 'I': 44, 'J': 10, 'K': 10, 'L': 12, 'M': 12, 'N': 10, 'O': 3, 'P': 36, 'Q': 12})
+widths(wsM, {'A': 2, 'B': 50, 'C': 13, 'D': 14, 'E': 14, 'F': 17, 'G': 44, 'H': 3, 'I': 44, 'J': 10, 'K': 10, 'L': 12, 'M': 12, 'N': 10, 'O': 3, 'P': 36, 'Q': 17})
 wsM.print_area = f'B1:Q{max(MC_LEFT_END, r) + 1}'
 
 # ---- DCF walk on the expected cash flows
 wsW = sheet('DCF Walk', '0070C0'); title(wsW, 'Discounted cash flow')
+DLC = 3 + (END_YEAR - 2027)
 EXA = MCX['expected']['annual']; MS = MCX['states']; W3 = {s_: W_[s_] for s_ in ('both', 'IR_only', 'XR_only')}
 def ex3(y, key): return sum(W3[s_] * MS[s_]['annual'][str(y)][key] for s_ in W3)
 def ex4(y, key): return sum(W_[s_] * MS[s_]['annual'][str(y)][key] for s_ in ST4)
 def exv3(key): return sum(W3[s_] * MS[s_]['target'][key] for s_ in W3)
-r = 4; band(wsW, r, 'Price target', 2, 8); r += 1
+r = 4; band(wsW, r, 'Price target', 2, DLC); r += 1
 put(wsW, r, 2, '12-month price target: mean value across the 4,096 Monte Carlo draws', f_bold); put(wsW, r, 3, '=mc_mean_target', f_bold, USD, fill=fill_key); name('price_target', f"'DCF Walk'!$C${r}"); r += 1
 put(wsW, r, 2, 'Share price'); put(wsW, r, 3, '=share_price', f_norm, USD); put(wsW, r, 4, '=TEXT(price_date,"d mmm yyyy")', f_sub); r += 1
 put(wsW, r, 2, 'Implied 12-month return', f_bold); put(wsW, r, 3, '=price_target/share_price-1', f_bold, PCT); name('implied_return', f"'DCF Walk'!$C${r}"); r += 1
 put(wsW, r, 2, 'Each draw samples the 28 uncertain inputs, runs the patient engine, the financials and a dated DCF for the four clinical branches, and returns one value. Discounting is linear, so the mean of those values is the DCF of the mean cash flows shown below; only the per-share step (option dilution and the zero floor inside each branch) is applied draw by draw.', f_sub); wsW.cell(r, 2).alignment = Alignment(wrap_text=True, vertical='top'); wsW.merge_cells(start_row=r, start_column=2, end_row=r, end_column=10); wsW.row_dimensions[r].height = 40; r += 2
-band(wsW, r, 'Clinical branches (probabilities applied once, inside the expected cash flows)', 2, 8); r += 1
+band(wsW, r, 'Clinical branches (probabilities applied once, inside the expected cash flows)', 2, DLC); r += 1
 for s_, lab in (('both', 'Both approved'), ('IR_only', 'IR approved, XR fails'), ('XR_only', 'XR approved, IR fails'), ('neither', 'Neither approved')):
     put(wsW, r, 2, lab); put(wsW, r, 3, f'=w_{s_}', f_norm, PCT); r += 1
 put(wsW, r, 2, 'P(both) = P(IR) x P(XR) / shared molecule gate; the marginals stay at 90% each.', f_sub); r += 2
-band(wsW, r, 'Expected cash flows: probability-weighted across branches and averaged over draws, USD millions', 2, 8); r += 1
+band(wsW, r, 'Expected cash flows: probability-weighted across branches and averaged over draws, USD millions', 2, DLC); r += 1
 DY = list(range(2027, END_YEAR + 1)); DC0 = 3
 put(wsW, r, 2, 'Year', f_hdr, fill=fill_hdr)
 for i, y in enumerate(DY): put(wsW, r, DC0 + i, y, f_hdr, fill=fill_hdr, align=Alignment(horizontal='right')); wsW.column_dimensions[CL(DC0 + i)].width = 9.5
@@ -1326,13 +1326,33 @@ put(wsW, r, 2, 'Expected equity per expected share'); put(wsW, r, 3, f'=C{WEQ}/C
 put(wsW, r, 2, 'Price target: mean of the per-draw values', f_bold); put(wsW, r, 3, '=price_target', f_bold, USD, fill=fill_key); r += 1
 put(wsW, r, 2, 'Difference: option dilution and the zero floor applied within each draw and branch'); put(wsW, r, 3, f'=C{r-1}-C{r-2}', f_norm, USD); r += 1
 put(wsW, r, 2, 'Expected revenue is below the central case for two reasons: it carries the 15% probability that one or both products fail, and the priors are lopsided (several inputs can only disappoint from their most-likely value). The central case on Three Statements is the live engine; this walk is the Monte Carlo mean of that engine.', f_sub); wsW.cell(r, 2).alignment = Alignment(wrap_text=True, vertical='top'); wsW.merge_cells(start_row=r, start_column=2, end_row=r, end_column=12); wsW.row_dimensions[r].height = 40; r += 2
-band(wsW, r, 'Discount rate: cost of equity build (no debt, so WACC equals the cost of equity)', 2, 8); r += 1
-put(wsW, r, 2, 'Risk-free rate (10-year US Treasury)'); put(wsW, r, 3, 0.041, f_input, PCT, fill=fill_in); put(wsW, r, 5, 'placeholder; enter the yield on the price date before submission', f_sub); name('rf_rate', f"'DCF Walk'!$C${r}"); r += 1
-put(wsW, r, 2, 'Equity risk premium'); put(wsW, r, 3, 0.05, f_input, PCT, fill=fill_in); put(wsW, r, 5, 'mature-market premium; analyst choice', f_sub); name('erp', f"'DCF Walk'!$C${r}"); r += 1
-put(wsW, r, 2, 'Equity beta'); put(wsW, r, 3, 1.3, f_input, NUM2, fill=fill_in); put(wsW, r, 5, 'placeholder for a pre-commercial single-asset biotech; replace with an observed regression beta', f_sub); name('beta', f"'DCF Walk'!$C${r}"); r += 1
-put(wsW, r, 2, 'CAPM cost of equity'); put(wsW, r, 3, '=rf_rate+beta*erp', f_norm, PCT); r += 1
-put(wsW, r, 2, 'Single-asset and financing premium'); put(wsW, r, 3, f'=discount_rate-C{r-1}', f_norm, PCT); put(wsW, r, 5, 'implied by the 12% used; approval risk sits in the branch weights, so the premium is for execution and funding risk', f_sub); r += 1
-put(wsW, r, 2, 'Discount rate used (Inputs)', f_bold); put(wsW, r, 3, '=discount_rate', f_bold, PCT, fill=fill_key); r += 1
+SENSW = {x['parameter']: x for x in CR['sensitivities']}
+band(wsW, r, 'Discount rate: WACC build from public data (Damodaran, January 2026; US Treasury par yields, October 2026)', 2, DLC); r += 1
+def wl(label, val, fmt, note='', nm=None, bold=False, fill=None):
+    global r; put(wsW, r, 2, label, f_bold if bold else f_norm)
+    put(wsW, r, 3, val, (f_bold if bold else f_norm) if (isinstance(val, str) and val.startswith('=')) else f_input, fmt, fill=fill)
+    if note: put(wsW, r, 5, note, f_sub)
+    if nm: name(nm, f"'DCF Walk'!$C${r}")
+    r += 1; return r - 1
+R_RF = wl('Risk-free rate: 10-year Treasury par yield, 9 October 2026', 0.0524, PCT2, 'US Treasury daily par yield curve, last close before the 10 October price date (a Saturday); the ten-year tenor matches the cash-flow horizon.', 'rf_rate')
+R_ERP = wl('Equity risk premium: implied, S&P 500, January 2026', 0.0423, PCT2, 'Damodaran implied premium from the index level and expected cash flows, on a 4.18% T-bond; equals his mature-market premium after the 0.23% US default spread.', 'erp')
+R_BU = wl('Unlevered beta corrected for cash: Drugs (Biotechnology), 496 US firms', 1.08, NUM2, 'Damodaran Betas by Sector, January 2026: levered 1.14, D/E 13.0%, unlevered 1.03, cash 4.2% of firm value. Cash-corrected because cash is added separately above.', 'beta_unlevered')
+R_D = wl('Debt, USD m', 0, NUM, 'June 2026 interim: no term debt; leases are immaterial.', 'debt_usdm')
+R_E = wl('Market capitalisation at the price date, USD m', '=share_price*open_shares_m', NUM, 'share price times basic shares; options enter through the treasury-stock dilution in the per-share step.')
+R_DE = wl('Debt to equity', f'=IF(C{R_E}=0,0,C{R_D}/C{R_E})', PCT2)
+R_T = wl('Marginal tax rate', '=tax_rate', PCT, 'Inputs; applied once the NOL pool is used.')
+R_BL = wl('Relevered beta', f'=C{R_BU}*(1+(1-C{R_T})*C{R_DE})', NUM2, 'levered beta = unlevered beta x (1 + (1 - t) x D/E); equals the unlevered beta with no debt. The traded five-year beta is negative on a short history and is not usable.', 'beta')
+R_KE = wl('Cost of equity (CAPM)', '=rf_rate+beta*erp', PCT2, 'risk-free rate + beta x equity risk premium', 'cost_of_equity', bold=True)
+R_SPR = wl('Default spread if Pharvaris borrowed: synthetic rating on negative EBIT', 0.19, PCT2, 'Damodaran ratings table, January 2026: interest cover below 0.2 maps to D with a 19.00% spread; no investment-grade debt capacity, so the model funds with equity.')
+R_KD = wl('Pre-tax cost of debt', f'=rf_rate+C{R_SPR}', PCT2)
+R_KDA = wl('After-tax cost of debt', f'=C{R_KD}*(1-C{R_T})', PCT2)
+R_WE = wl('Equity weight', f'=IF(C{R_D}+C{R_E}=0,1,C{R_E}/(C{R_D}+C{R_E}))', PCT)
+R_WD = wl('Debt weight', f'=1-C{R_WE}', PCT)
+R_W = wl('WACC', f'=C{R_WE}*C{R_KE}+C{R_WD}*C{R_KDA}', PCT2, 'all-equity capital structure, so WACC equals the cost of equity', 'wacc', bold=True)
+R_PR = wl('Premium for single-asset execution and funding risk', f'=discount_rate-C{R_W}', PCT2, 'gap between the 12% used and the market build; approval risk sits in the branch weights, so this covers launch execution, expected equity raises and thin trading history.')
+wl('Discount rate used (Inputs)', '=discount_rate', PCT, 'the rate inside every Monte Carlo draw and the central case', bold=True, fill=fill_key)
+wl('Street discount rates, September 2026 notes: lowest / median / highest', f"=TEXT(MIN('Street Bridge'!G{ST0}:G{ST1}),\"0.0%\")&\" / \"&TEXT(MEDIAN('Street Bridge'!G{ST0}:G{ST1}),\"0.0%\")&\" / \"&TEXT(MAX('Street Bridge'!G{ST0}:G{ST1}),\"0.0%\")", GEN, 'from the broker table on the Reverse DCF tab; Guggenheim uses a 12.5% WACC')
+if 'discount_rate' in SENSW: wl('Central case 12-month value at a 10% and a 15% discount rate (engine runs)', f"${SENSW['discount_rate']['target_low']:.2f} / ${SENSW['discount_rate']['target_high']:.2f}", GEN, 'the saved one-variable sensitivity on the Monte Carlo tab; the price target itself is fixed at the 12% used in the draws')
 widths(wsW, {'A': 2, 'B': 66, 'C': 12}); wsW.print_area = f'B1:AE{r}'
 
 # ---- Checks: control totals from the Crimson central case
