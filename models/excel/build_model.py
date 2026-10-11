@@ -117,7 +117,8 @@ def mrow(ws, r, label, fn, unit='', fmt=NUM, font=None, pad=0, note=''):
 def lag(ws_name, r, j, lag_expr):
     """value of row r at month j minus lag (lag is a name/expr), 0 if before model."""
     o = PAD + j + 1
-    return f"IF({o}-({lag_expr})<1,0,INDEX({rng(ws_name, r)},1,{o}-({lag_expr})))"
+    back = f"'{ws_name}'!${FIRSTPAD}${r}:${CL(MC0 + j - 1)}${r}"      # ends at the previous month so Excel sees no circular dependency
+    return f"IF({o}-({lag_expr})<1,0,INDEX({back},1,{o}-({lag_expr})))"
 
 # ================================================================== INPUTS
 wsI = sheet('Inputs', 'FFC000'); title(wsI, 'Inputs', 'One row per assumption. Blue = hardcoded input. Change the case selector or type an override; every forecast recalculates.')
@@ -1729,7 +1730,10 @@ for gname, parts in GROUPS:
         if L in first.column_dimensions and first.column_dimensions[L].outlineLevel: tmp.column_dimensions[L].outlineLevel = first.column_dimensions[L].outlineLevel
     tmp.freeze_panes = first.freeze_panes
     if first.print_title_rows: tmp.print_title_rows = first.print_title_rows
-    if gname in ('Patient Engine', 'Financial Engine'): tmp.page_setup.fitToWidth = 1; tmp.print_area = f'A1:{mcol(23)}{tmp.max_row}'
+    if gname in ('Patient Engine', 'Financial Engine'):
+        tmp.page_setup.fitToWidth = 1; tmp.print_area = f'A1:{mcol(23)}{tmp.max_row}'
+        for cc in range(5, 17): tmp.column_dimensions[CL(cc)].hidden = True; tmp.column_dimensions[CL(cc)].outlineLevel = 1
+        put(tmp, 1, 17, 'Columns E to P are hidden placeholders: the month formulas look up to twelve columns back, so the first year needs blank columns to point at. Expand the group to see them.', f_sub)
     else: tmp.print_area = f"A1:{CL(maxcol)}{max(tmp.max_row, _chart_bottom(tmp))}"
     for pn in parts: wb.remove(wb[pn])
     tmp.title = gname

@@ -1495,6 +1495,42 @@
       "verification": "LibreOffice recalculation: 306,466 formulas, 0 errors. Checks tab: all control totals and identities pass. Working, Cautious and Upside cases reconcile to the Python engine at 1e-6 after the override column is populated. Price target unchanged at the Monte Carlo mean of $22.72 (-26.9%).",
       "ai_role": "Diagnosis, code patches, rebuild, recalculation, rendering and visual review.",
       "human_review": "Rendered pages reviewed; numbers unchanged from G80."
+    },
+    {
+      "id": "G87",
+      "date": "2026-10-11",
+      "objective": "Package clinical-credit slide for Claude PowerPoint",
+      "user_contribution": {
+        "prompt_excerpt": "all the info id need to create this slide (including numbers, context, design, etc.)",
+        "summary": "User requested graphical audit findings and explicit provenance of the61%retention anchor and modeled uplift."
+      },
+      "method": "Reused clinical audits and source register, checked cohort and retention arithmetic, and wrote a portable Markdown brief separating visible copy, graphics, speaker notes and sources. Presentation skill used; no PowerPoint authored.",
+      "sources_and_artifacts": [
+        "pitch/clinical_credit_slide_brief.md",
+        "output/PHVS_cross_trial_clinical_audit_2026-10-07.txt",
+        "models/finalized/inputs.json"
+      ],
+      "snapshot": "Three audit visuals; separate rescue/prevention comparisons;61%+39%\u00d713/30\u00d750%=69.45%retention bridge;90%PoS and60%conditionaloral-choice assumptions.",
+      "thesis_effect": "Makes favorable clinical underwriting explicit without claiming cross-trial superiority or validating commercial uptake.",
+      "limitations_and_bias_checks": "Prior-source synthesis, not a new full clinical audit.50%avoidance analyst assumption; two historical cohorts differ. Exact visual fit awaits Claude slide implementation.",
+      "remaining_work": "User supplies Markdown to Claude; render and check resulting slide."
+    },
+    {
+      "id": "G87",
+      "date": "2026-10-11",
+      "objective": "Remove the Excel circular-reference warning and hide the engine pad columns",
+      "user_contribution": {
+        "prompt_excerpt": "there's just a lot of like blanks ... one, two, three ... twelve things ... it keeps telling me there's some circular reference or something, so you can just audit that as well",
+        "summary": "User reported Excel's circular-reference warning and asked about the empty numbered columns on the engine tabs."
+      },
+      "method": "Built a cell-level dependency graph of all 306,853 formulas (ranges and defined names expanded) and ran a strongly-connected-components search: ten cycles, all in the XR and IR retry rows, where INDEX over the whole month row made each cell reference a range containing cells downstream of itself. The lag helper now ends its lookup range at the previous month's column; values are unchanged (engine parity holds at 1e-6) and the search finds zero cycles. The twelve pad columns E to P (lookup placeholders for the first year) are hidden with a note.",
+      "sources_and_artifacts": [
+        "models/excel/build_model.py"
+      ],
+      "snapshot": "Cycles before 10 (3,539 formula cells each), after 0. Price target $24.46 unchanged; all checks pass.",
+      "thesis_effect": "None.",
+      "limitations_and_bias_checks": "LibreOffice never flagged the cycles because it resolves INDEX lazily; the graph search is the check that matches Excel's behaviour. Not yet opened in native Excel on this machine.",
+      "remaining_work": "User to confirm Excel opens without the warning."
     }
   ]
 }
