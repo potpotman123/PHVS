@@ -1464,10 +1464,12 @@ wsCo = sheet('Cover', '002060');
 put(wsCo, 3, 2, 'Pharvaris N.V. (NASDAQ: PHVS)', Font(name='Arial', size=20, bold=True, color=NAVY))
 put(wsCo, 4, 2, 'Point72 Academy Case Competition, October 2026', Font(name='Arial', size=12, color='595959'))
 r = 6
-for lab, v, fmt in (('Team', TEAM, GEN), ('Team members', 'Kendall Wu and team (fill in)', GEN), ('Ticker', 'NASDAQ: PHVS', GEN), ('Recommendation', '=IF(implied_return<0,"SHORT","LONG")', GEN), ('Share price', '=share_price', USD), ('Price date', '=price_date', 'd mmm yyyy'), ('12-month price target', '=price_target', USD), ('Implied return', '=implied_return', PCT), ('Valuation date', '=valuation_date', 'd mmm yyyy'), ('Target date', '=target_date', 'd mmm yyyy'), ('Price target basis', 'Mean 12-month value across 4,096 Monte Carlo draws of the patient model, financials and DCF', GEN)):
-    put(wsCo, r, 2, lab, f_bold); put(wsCo, r, 4, v, f_input if lab in ('Team', 'Team members', 'Ticker') else (f_sub if lab == 'Price target basis' else f_bold), fmt); r += 1
-wsCo.cell(7, 4).fill = fill_in
-r += 1; band(wsCo, r, 'Headline KPIs (live)', 2, 8); r += 1
+for lab, v, fmt in (('Team', TEAM, GEN), ('Ticker', 'NASDAQ: PHVS', GEN), ('Recommendation', '=IF(implied_return<0,"SHORT","LONG")', GEN), ('Share price', '=share_price', USD), ('Price date', '=price_date', 'd mmm yyyy'), ('12-month price target', '=price_target', USD), ('Implied return', '=implied_return', PCT), ('Valuation date', '=valuation_date', 'd mmm yyyy'), ('Time Horizon', '12 Months', GEN), ('Price target basis', 'Mean 12-month value across 4,096 Monte Carlo draws of the patient model, financials and DCF', GEN)):
+    put(wsCo, r, 2, lab, f_bold); put(wsCo, r, 4, v, f_input if lab in ('Team', 'Ticker') else (f_sub if lab == 'Price target basis' else f_bold), fmt, align=Alignment(horizontal='right') if lab == 'Time Horizon' else None); r += 1
+put(wsCo, 6, 10, 'READ ME !!!', Font(name='Arial', size=26, bold=True), align=Alignment(horizontal='left')); wsCo.row_dimensions[6].height = 33
+put(wsCo, 7, 10, 'Model Map', Font(name='Arial', size=11, bold=True, color='FFFFFF'), fill=PatternFill('solid', fgColor='001F60'))
+_img2 = XLImage(str(MAP_PNG)); _img2.width, _img2.height = 1616, 695; wsCo.add_image(_img2, 'I8')
+r += 2; band(wsCo, r, 'Headline KPIs (live)', 2, 8); r += 1
 put(wsCo, r, 2, 'Model checks', f_bold); put(wsCo, r, 4, '=IF(AND(checks_controls="OK",checks_identities="OK"),"All checks pass","See Checks tab")', f_norm, align=Alignment(horizontal='right')); r += 1
 for lab, f_, fm in (('Peak revenue and year', f'=TEXT(MAX({REV}),"$#,##0")&"m in "&INDEX({YRS},1,MATCH(MAX({REV}),{REV},0))', GEN), ('Revenue 2030', '=' + aref('revenue', CL(YC0+YEARS.index(2030))), NUM), ('PHVS share of oral choices, launch to mature', '=TEXT(oral_launch_share,"0%")&" to "&TEXT(oral_mature_share,"0%")', GEN), ('Redosing quantity multiplier', '=ir_quantity_multiplier', NUM3), ('XR first-year retention', '=xr_first_retention', PCT), ('Net price, XR per year and IR per dose', '=TEXT(xr_wac_28days*365/28*xr_net_fraction,"$#,##0")&" / "&TEXT(ir_wac_dose*ir_net_fraction,"$#,##0")', GEN), ('Equity funding needed after today, USD m', f"=Valuation!C{VALROW[('val','funding')]}", NUM), ('Value if both approved, 12 months', '=price_both_target', USD)):
     put(wsCo, r, 2, lab, f_bold); put(wsCo, r, 4, f_, f_norm, fm, align=Alignment(horizontal='right')); r += 1
@@ -1475,7 +1477,8 @@ r += 1; band(wsCo, r, 'Contents', 2, 8); r += 1
 TOC = [('Summary', 'Recommendation, branch values, risk-adjusted bridge, headline financials, thesis assumptions, KPIs, Monte Carlo'), ('DCF', 'Branch probabilities, dated DCF per branch, cost of equity, risk-adjusted cash flow walk'), ('Three Statements', 'Income statement, balance sheet, cash flow, schedules, and 2026 H2 to 2029 by quarter'), ('Reverse DCF', 'Sell-side targets, Guggenheim path, the ramp the share price requires, value of the thesis assumptions'), ('Operating Build', 'Patient pools, Ekterly stock, propensities, retention, dose budgets, net prices, annual drivers'), ('Monte Carlo', '4,096-draw simulation, drivers, branches, priors, scenarios, and one-variable sensitivities'), ('Inputs', 'Every assumption with override, bounds, source and rationale; reported financials; generic erosion; source register'), ('Patient Engine', 'Monthly calendar and the XR and IR patient ledgers by origin cell'), ('Financial Engine', 'Monthly units, prices, revenue and financials for the four clinical branches'), ('Reference Data', 'Launch histories, benchmarks, clinical comparisons, erosion panel, payers, population, Street notes'), ('Checks', 'Live workbook against the saved engine; accounting and population identities')]
 for nm_, desc in TOC:
     c = put(wsCo, r, 2, nm_, f_bold); sh = nm_.split(' / ')[0]
-    c.hyperlink = f"#'{sh}'!A1"; c.font = Font(name='Arial', size=10, bold=True, color='0563C1', underline='single')
+    from openpyxl.worksheet.hyperlink import Hyperlink as _HL
+    c.hyperlink = _HL(ref=c.coordinate, location=f"'{sh}'!A1"); c.font = Font(name='Arial', size=10, bold=True, color='0563C1', underline='single')
     put(wsCo, r, 4, desc); wsCo.merge_cells(start_row=r, start_column=4, end_row=r, end_column=8); r += 1
 r += 1; band(wsCo, r, 'How to read the workbook', 2, 8); r += 1
 for lab, desc, font, fill in (('Blue text', 'Hardcoded input or saved result', f_input, None), ('Black text', 'Formula', f_norm, None), ('Green text', 'Link to another sheet', f_link, None), ('Yellow cell', 'Override column on Inputs', f_norm, fill_in), ('Orange label', 'Assumption that carries the thesis', f_bold, fill_key)):
@@ -1486,9 +1489,7 @@ for line in ('Type an override next to any assumption on the Inputs tab; every f
              'Monte Carlo, sensitivity and Street-bridge tables are saved results from the Python engine in the research repository (commit e7594c4, 9 October 2026); the Monte Carlo tab flags when live inputs no longer match that run.',
              'Public information only. Comparator list prices and claims benchmarks are anchors; net prices, switching and continuation are underwriting assumptions documented on Inputs.'):
     put(wsCo, r, 2, line, f_sub); wsCo.merge_cells(start_row=r, start_column=2, end_row=r, end_column=8); wsCo.cell(r, 2).alignment = Alignment(wrap_text=True, vertical='top'); wsCo.row_dimensions[r].height = 26; r += 1
-r += 1; wsCo.row_breaks.append(Break(id=r - 1)); band(wsCo, r, 'How the model fits together', 2, 8); r += 1
-_img2 = XLImage(str(MAP_PNG)); _img2.width, _img2.height = 1500, 695; wsCo.add_image(_img2, f'B{r}'); r += 38
-widths(wsCo, {'A': 2, 'B': 40, 'C': 2, 'D': 28, 'E': 16, 'F': 16, 'G': 16, 'H': 16}); wsCo.print_area = f'B1:X{r}'; wsCo.page_setup.fitToHeight = 0
+widths(wsCo, {'A': 2, 'B': 40, 'C': 2, 'D': 28, 'E': 16, 'F': 16, 'G': 16, 'H': 16}); wsCo.print_area = f'B1:AF{r}'; wsCo.page_setup.fitToHeight = 1
 
 # ================================================================== order, print setup, save
 GROUPS = [('Cover', ['Cover']), ('Summary', ['Summary']), ('DCF', ['Valuation']), ('Three Statements', ['Three Statements', 'Quarterly']), ('Reverse DCF', ['Street Bridge', 'Reverse DCF']),
@@ -1542,7 +1543,9 @@ for gname, parts in GROUPS:
                 if isinstance(v, str) and v.startswith('='): v = _rw(v, pn)
                 n.value = v
                 if c.has_style: n.font = _copy(c.font); n.fill = _copy(c.fill); n.number_format = c.number_format; n.alignment = _copy(c.alignment); n.border = _copy(c.border)
-                if c.hyperlink: n.hyperlink = c.hyperlink.target or c.hyperlink.location
+                if c.hyperlink:
+                    from openpyxl.worksheet.hyperlink import Hyperlink as _HL2
+                    n.hyperlink = _HL2(ref=n.coordinate, location=c.hyperlink.location) if c.hyperlink.location else c.hyperlink.target
                 maxcol = max(maxcol, c.column)
         for rr, d in ws.row_dimensions.items():
             if d.height: tmp.row_dimensions[rr + off].height = d.height
