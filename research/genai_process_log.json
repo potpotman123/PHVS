@@ -1474,6 +1474,27 @@
       "verification": "LibreOffice recalculation: 306,466 formulas, 0 errors. Checks tab: all control totals and identities pass. Working, Cautious and Upside cases reconcile to the Python engine at 1e-6 after the override column is populated. Price target unchanged at the Monte Carlo mean of $22.72 (-26.9%).",
       "ai_role": "Diagnosis, code patches, rebuild, recalculation, rendering and visual review.",
       "human_review": "Rendered pages reviewed; numbers unchanged from G80."
+    },
+    {
+      "id": "G86",
+      "date": "2026-10-11",
+      "objective": "Adopt the user's V3 cover and tab naming; move the supporting builds off Operating Build; make the generic-entry volume drop legible in the funnel",
+      "user_contribution": {
+        "prompt_excerpt": "I just saved a phvsv3 Make sure you work on that file ... for the protected to generic drop-off, you can't really follow it very well in the operating build because the amount of prescriptions written doesn't fall off ... bigger than halving drop of paid doses",
+        "summary": "User re-laid the Cover (values in column C, Px labels, no valuation-date row, map moved), renamed Three Statements to 3SM, rewrote the contents text, and asked why brand doses halve at generic entry while prescriptions and starts do not."
+      },
+      "method": "Diffed V3 against a fresh build and wrote the differences into the builder so they survive rebuilds. Operating Build now holds the funnel only; Adoption Build, Quantity & Price and Annual sit on a new Build Detail tab after Financial Engine (references follow through the consolidation map). The funnel gained three rows per product: paid volume from the patient ledger, the brand volume retained after generic entry (the LOE tab index), and brand paid volume, which is what the revenue uses.",
+      "sources_and_artifacts": [
+        "models/excel/PHVS V3.xlsx",
+        "models/excel/build_model.py"
+      ],
+      "snapshot": "2039 brand volume index 0.432, 2040 0.314: XR brand treatment-years 1,857 in 2038 to 803 in 2039; IR brand doses 26,368 to 11,396, while the patient ledger keeps 25,760 doses. Price target unchanged at $24.46; all checks pass.",
+      "thesis_effect": "None; presentation. The drop at generic entry is the engine's frozen-anchor convention (last protected year's volume times the retained-volume index), now visible on the funnel rather than only on the Financial Engine.",
+      "limitations_and_bias_checks": "The post-generic brand volume is an index on the frozen protected-year volume, not a patient-level exit model; the patient ledger keeps running and is not used for revenue after 2038. Recalculation zero errors.",
+      "remaining_work": "User review of the Build Detail tab layout.",
+      "verification": "LibreOffice recalculation: 306,466 formulas, 0 errors. Checks tab: all control totals and identities pass. Working, Cautious and Upside cases reconcile to the Python engine at 1e-6 after the override column is populated. Price target unchanged at the Monte Carlo mean of $22.72 (-26.9%).",
+      "ai_role": "Diagnosis, code patches, rebuild, recalculation, rendering and visual review.",
+      "human_review": "Rendered pages reviewed; numbers unchanged from G80."
     }
   ]
 }
