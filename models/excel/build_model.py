@@ -1578,6 +1578,7 @@ for gname, parts in GROUPS:
     else: tmp.print_area = f"A1:{CL(maxcol)}{tmp.max_row}"
     for pn in parts: wb.remove(wb[pn])
     tmp.title = gname
+wb['Cover'].print_area = f"A1:AF{wb['Cover'].max_row}"; wb['Cover'].page_setup.fitToHeight = 1
 for nm_ in list(wb.defined_names):
     dn = wb.defined_names[nm_]; dn.attr_text = _rw(dn.attr_text, '')
 wb._sheets = [wb[g] for g, _ in GROUPS]
