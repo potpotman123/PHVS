@@ -1318,6 +1318,25 @@
       "thesis_effect": "None; presentation only. Price target $26.38, implied return -15.2%.",
       "limitations_and_bias_checks": "Stacked tabs share one column-width set, so the source register was re-laid out to fit; chart anchors are offset by an estimate of chart height.",
       "remaining_work": "Team names, market inputs on DCF, deck."
+    },
+    {
+      "id": "G79",
+      "date": "2026-10-10",
+      "objective": "Replace the reverse DCF's 2036-2038 revenue plateau with the Street path carried at its own 2036 growth rates",
+      "user_contribution": {
+        "prompt_excerpt": "why does it plateau at 2036 before the actual patent expires, that's not accurate is it",
+        "summary": "User spotted that the saved reverse solve held Guggenheim's 2036 revenue flat through 2038 and challenged it."
+      },
+      "method": "Assisted programming and verification. Re-used the independent cash-flow replica (verify.py) to re-solve the common revenue scale with 2037-2038 extended at Guggenheim's 2036 growth (11.7% IR, 6.9% XR); the plateau variant reproduces the 7 October solve exactly (k 1.010578). Workbook tab now carries the extended solve with the plateau scale shown for reference.",
+      "sources_and_artifacts": [
+        "models/reverse_dcf/resolve_extended.py",
+        "models/excel/reverse_resolve.json",
+        "models/excel/PHVS_Crimson_Capital_Model.xlsx"
+      ],
+      "snapshot": "Spot scale 0.969 (was 1.011); $44 target scale 1.118 (was 1.166); required 2038 peak $1,878m (was a $1,623m plateau); required cumulative 2027-2036 $8,370m (was $8,732m).",
+      "thesis_effect": "The market price now implies slightly less than the Street ramp early and a higher late peak; our 2027-2036 cumulative is about 95% of what today's price requires rather than 92%, and our 2038 peak sits well below the required $1.85bn.",
+      "limitations_and_bias_checks": "Extension is a judgment (continuing a broker's last-year growth), not a forecast; the ramp shape is still imposed and the revenue basis still unconfirmed.",
+      "remaining_work": "None on this item."
     }
   ]
 }
