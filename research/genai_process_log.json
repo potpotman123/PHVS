@@ -1427,6 +1427,27 @@
       "verification": "LibreOffice recalculation: 306,466 formulas, 0 errors. Checks tab: all control totals and identities pass. Working, Cautious and Upside cases reconcile to the Python engine at 1e-6 after the override column is populated. Price target unchanged at the Monte Carlo mean of $22.72 (-26.9%).",
       "ai_role": "Diagnosis, code patches, rebuild, recalculation, rendering and visual review.",
       "human_review": "Rendered pages reviewed; numbers unchanged from G80."
+    },
+    {
+      "id": "G84",
+      "date": "2026-10-11",
+      "objective": "Make the WACC build drive the discount rate, and adopt the user's V2 cover edits",
+      "user_contribution": {
+        "prompt_excerpt": "am i seeing this wrong or do we not actually use our WACC in discount factor? i dont really understand where our WACC goes in",
+        "summary": "User spotted that the WACC build was a cross-check only and the 12% on Inputs was a hardcode; also saved PHVS V2 with cover, divider and tab-order edits."
+      },
+      "method": "Programming: the Working discount rate on Inputs is now ROUND(WACC + premium, 0.1%), where WACC comes from the DCF tab build and the 2.2% premium is a labelled input, so the rate that sets the Calendar discount factors is derived from the market data. Verified in a temporary copy that raising the risk-free rate by 100 bp moves the Inputs rate and the central-case value. Adopted V2: no price-target-basis row, basis text beside implied return, 'Implied Headline KPIs' band, read-me lines removed, 'SCRAP & DATA ------>' divider, Checks tab last.",
+      "sources_and_artifacts": [
+        "models/excel/build_model.py",
+        "models/excel/PHVS V2.xlsx"
+      ],
+      "snapshot": "WACC 9.81% + 2.2% premium = 12.01%, rounded to 12.0%; the Monte Carlo baseline still matches, price target $22.72.",
+      "thesis_effect": "None on the target; the discount rate is now traceable to public inputs rather than a hardcode.",
+      "limitations_and_bias_checks": "The premium is an analyst choice sized so the total stays at the 12% the draws used; rounding to 0.1% means small input moves do not change the rate. The user's mistake-spotting is credited: the first WACC block did not feed the model.",
+      "remaining_work": "User review in Excel.",
+      "verification": "LibreOffice recalculation: 306,466 formulas, 0 errors. Checks tab: all control totals and identities pass. Working, Cautious and Upside cases reconcile to the Python engine at 1e-6 after the override column is populated. Price target unchanged at the Monte Carlo mean of $22.72 (-26.9%).",
+      "ai_role": "Diagnosis, code patches, rebuild, recalculation, rendering and visual review.",
+      "human_review": "Rendered pages reviewed; numbers unchanged from G80."
     }
   ]
 }
