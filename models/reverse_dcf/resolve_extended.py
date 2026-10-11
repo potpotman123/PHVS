@@ -19,6 +19,9 @@ FX, POS_IR, POS_XR = a(29), a(16), a(17)
 g_ir, g_xr = ir[10] / ir[9] - 1, xr[10] / xr[9] - 1
 def series(extend):
     if not extend: return ir + [ir[-1]] * 2, xr + [xr[-1]] * 2          # plateau 2037-2038 (saved convention)
+    if extend == 'tapered':                                               # growth tapers into generic entry: 2/3 of the 2036 rate in 2037, 1/3 in 2038
+        return (ir + [ir[-1] * (1 + g_ir * 2 / 3), ir[-1] * (1 + g_ir * 2 / 3) * (1 + g_ir / 3)],
+                xr + [xr[-1] * (1 + g_xr * 2 / 3), xr[-1] * (1 + g_xr * 2 / 3) * (1 + g_xr / 3)])
     return ir + [ir[-1] * (1 + g_ir), ir[-1] * (1 + g_ir) ** 2], xr + [xr[-1] * (1 + g_xr), xr[-1] * (1 + g_xr) ** 2]
 def run(scale, extend, want_rows=False):
     IR, XR = series(extend); pv = 0; previous_wc = 0; previous_retention = [1, 1]; rows = []
@@ -50,7 +53,7 @@ def solve(target, extend):
         else: hi = mid
     return (lo + hi) / 2
 out = {'as_of': '2026-10-10', 'method': 'Independent cash-flow replica of the 7 October reverse DCF (verify.py), re-solved with the Guggenheim path extended through 2038 at its 2036 growth rates instead of held flat.', 'guggenheim_2036_growth': {'IR': g_ir, 'XR': g_xr}, 'discount_rate': a(20), 'variants': {}}
-for label, extend in (('plateau', False), ('extended', True)):
+for label, extend in (('plateau', False), ('extended', True), ('tapered', 'tapered')):
     k_spot = solve(a(9), extend); k_pt = solve(a(10) / (1 + a(20)), extend)
     _, rows_s = run(k_spot, extend, True); _, rows_p = run(k_pt, extend, True)
     req = [[y, s_ir, s_xr, s_ir + s_xr, (s_ir + s_xr) * 0.9, p_ir, p_xr, p_ir + p_xr, (p_ir + p_xr) * 0.9] for (y, s_ir, s_xr), (_, p_ir, p_xr) in zip(rows_s, rows_p) if y >= 2027]
@@ -63,7 +66,7 @@ for label, extend in (('plateau', False), ('extended', True)):
             ['Target horizon years', 0, 1, 'Broker target discounted one year at 12.5%'],
             ['Common IR/XR revenue scale (x Guggenheim path)', k_spot, k_pt, 'Multiplier on the Street ramp that reprices the target'],
             ['Normalised 1x reference value USD/share', run(1, extend), run(1, extend), 'Value of the unscaled Street path'],
-            ['Peak combined worldwide sales USDm', peak_s, peak_p, '2038 peak, success-case' if extend else '2036-2038 plateau, success-case'],
+            ['Peak combined worldwide sales USDm', peak_s, peak_p, ('2038 peak, growth tapering into generic entry' if extend == 'tapered' else '2038 peak, success-case') if extend else '2036-2038 plateau, success-case'],
             ['Cumulative sales 2027-2036 USDm', cum_s, cum_p, 'Undiscounted, success-case']]}}
     print(f"{label:9s} k_spot={k_spot:.6f} k_pt44={k_pt:.6f} peak_spot={peak_s:,.1f} cum_spot_27_36={cum_s:,.1f}")
 (root / 'models/excel/reverse_resolve.json').write_text(json.dumps(out, indent=1))

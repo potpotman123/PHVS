@@ -1448,6 +1448,32 @@
       "verification": "LibreOffice recalculation: 306,466 formulas, 0 errors. Checks tab: all control totals and identities pass. Working, Cautious and Upside cases reconcile to the Python engine at 1e-6 after the override column is populated. Price target unchanged at the Monte Carlo mean of $22.72 (-26.9%).",
       "ai_role": "Diagnosis, code patches, rebuild, recalculation, rendering and visual review.",
       "human_review": "Rendered pages reviewed; numbers unchanged from G80."
+    },
+    {
+      "id": "G85",
+      "date": "2026-10-11",
+      "objective": "Discount rate from the WACC build plus a cited size premium, Monte Carlo re-run at 11%, DCF tab split into live central case versus saved Monte Carlo, Reverse DCF rebuilt as four steps with a loss bridge, tapered Street carry-forward",
+      "user_contribution": {
+        "prompt_excerpt": "Let's do option three where you use a small cited size premium ... the central case is what's live and actually flows through the three statements ... that distinction needs to be very clear ... the probability of success is also quite unclear ... sell side price targets are basically completely useless ... quantifies loss and not gain ... in the final year of sales, there's like this big bump",
+        "summary": "User chose the size-premium route, asked for a clear live-versus-simulated split on the DCF tab, an explicit path from 90%/90% to the branch weights, a linear four-step reverse DCF without the broker table, a bridge framed as loss, and questioned the 2038 jump in the required path."
+      },
+      "method": "Kroll CRSP decile 6 size premium (1.16%, data as of 31 December 2022, reproduced in a public PUC filing) added to the 9.81% WACC build; Inputs rate = ROUND(WACC + size premium, 0.1%) = 11.0%, written into the Crimson case and run through the engine (central case) and the Monte Carlo (4,096 draws, seed 7202609). DCF tab rebuilt with section A (live both-approved walk from Three Statements tying to the Checks branch DCF to the cent), section B (branch weights derived from the approval odds and the shared-molecule gate, applied to live branch values), section C (saved Monte Carlo mean walk). Reverse DCF rebuilt as Step 1 Guggenheim path carried to 2038, Step 2 scale solve, Step 3 required path versus this model, Step 4 loss bridge (peak revenue, 2027-2038 revenue and free cash flow, and value removed by each assumption). The 2038 jump in the required path was the constant 2036 growth carried for two more years; the solver now tapers that growth (two-thirds in 2037, one-third in 2038) and was re-solved. Broker table moved to the Street Targets tab with median and discount-rate statistics.",
+      "sources_and_artifacts": [
+        "https://puc.sd.gov/commission/dockets/electric/2023/el23-020/AEBSch9.pdf",
+        "models/excel/crimson_case.json",
+        "models/excel/crimson_results.json",
+        "models/excel/mc_expected_path_crimson.json",
+        "models/reverse_dcf/resolve_extended.py",
+        "models/excel/reverse_resolve.json",
+        "models/excel/build_model.py"
+      ],
+      "snapshot": "Discount rate 11.0%. Monte Carlo mean 12-month value $24.46 (median $24.07, P10 $16.14, P90 $33.13), implied return -21.3% from $31.10. Central case live: $25.59 probability-weighted, $28.51 both approved. Reverse DCF scale at the spot price 0.988 (tapered), required peak $1,747m versus this model's $1,405m. Loss bridge: the thesis assumptions remove $768m of peak revenue, $5.9bn of 2027-2038 revenue, $3.8bn of 2027-2038 free cash flow and $26.83 per share from the Street-like starting point.",
+      "thesis_effect": "Implied downside narrows from 27% to 21% because the discount rate falls from 12% to 11%; the short no longer relies on a judgment discount rate.",
+      "limitations_and_bias_checks": "The size premium is a 2022 table applied to a 2026 date and is a practitioner convention Damodaran rejects; the choice to add it raises the hurdle rate and so favours the short, which is stated on the tab. The tapered carry-forward is a modelling choice, not a Guggenheim number. Section A ties to the branch DCF with a zero check; section B ties to the headline value with a zero check; LibreOffice recalculation reports zero errors.",
+      "remaining_work": "Three-case reconciliation running; user review in Excel.",
+      "verification": "LibreOffice recalculation: 306,466 formulas, 0 errors. Checks tab: all control totals and identities pass. Working, Cautious and Upside cases reconcile to the Python engine at 1e-6 after the override column is populated. Price target unchanged at the Monte Carlo mean of $22.72 (-26.9%).",
+      "ai_role": "Diagnosis, code patches, rebuild, recalculation, rendering and visual review.",
+      "human_review": "Rendered pages reviewed; numbers unchanged from G80."
     }
   ]
 }

@@ -13,8 +13,10 @@ case, label = sys.argv[1], sys.argv[2]
 import json
 wb = openpyxl.load_workbook('models/excel/PHVS_Crimson_Capital_Model.xlsx'); maps = json.load(open('models/excel/rowmap.json')); cfg = json.load(open('models/finalized/inputs.json'))
 phys, off = maps['OFFS'].get('Inputs', ['Inputs', 0]); ws = wb[phys]
-for k, v in cfg['cases'][case].items():
-    if k in maps['INPUT_ROW']: ws.cell(maps['INPUT_ROW'][k] + off, 9).value = (int(v) if isinstance(v, bool) else v)
+col = {'cautious': 6, 'upside_challenge': 7, 'working': 5}[case]
+for k, rr in maps['INPUT_ROW'].items():
+    v = ws.cell(rr + off, col).value
+    if v is not None and not (isinstance(v, str) and v.startswith('=')): ws.cell(rr + off, 9).value = v
 wb.save(f'/tmp/phvs_{case}.xlsx')
 PY
   python3 "$RECALC" /tmp/phvs_$CASE.xlsx 900 > /dev/null

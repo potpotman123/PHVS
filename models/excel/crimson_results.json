@@ -3,7 +3,8 @@
   "label": "Crimson Capital underwriting, 11 October 2026",
   "overrides": {
    "oral_launch_share": 0.3,
-   "ir_retention": 0.85
+   "ir_retention": 0.85,
+   "discount_rate": 0.11
   },
   "priors": {
    "oral_launch_share": {
@@ -19,7 +20,8 @@
   },
   "rationale": {
    "oral_launch_share": "Research mode was 40%. Later-oral analogues in the evidence register launched well below parity: Attruby about 18-20% of new prescriptions, Scemblix 23% in first line. 30% keeps the 60% mature share and the five-year ramp; 20-45% prior.",
-   "ir_retention": "Research mode was 90%, which the model audit describes as a forecast, not a measurement; the 91% repeat-dispensing statistic is not annual continuation and the comparator prevention persistence is 61% at twelve months. 85% with a 78-92% prior."
+   "ir_retention": "Research mode was 90%, which the model audit describes as a forecast, not a measurement; the 91% repeat-dispensing statistic is not annual continuation and the comparator prevention persistence is 61% at twelve months. 85% with a 78-92% prior.",
+   "discount_rate": "WACC build on the DCF tab: 10-year Treasury 5.24% (9 October 2026) + 1.08 cash-corrected biotech unlevered beta x 4.23% implied ERP (Damodaran, January 2026) = 9.81%, plus the Kroll CRSP decile 6 size premium of 1.16% (market cap up to $2,365m, data as of 31 December 2022), rounded to 11.0%. Replaces the 12% judgment rate."
   }
  },
  "base": {
@@ -34,50 +36,50 @@
    "both": {
     "valuation": {
      "date": "2026-10-09",
-     "price": 24.051535959823557,
-     "equity_usdm": 1770.25200367528,
-     "operating_pv_usdm": 1488.3902048891437,
+     "price": 26.158455365130262,
+     "equity_usdm": 1930.8099128372446,
+     "operating_pv_usdm": 1649.0508811828392,
      "cash_usdm": 296.97833257096124,
-     "terminal_pv_usdm": 0.2813464128539361,
-     "financing_fee_pv_usdm": 15.397880197678942,
+     "terminal_pv_usdm": 0.37584518973993153,
+     "financing_fee_pv_usdm": 15.59514610629579,
      "basic_shares_m": 70.204506,
-     "diluted_shares_m": 73.60245127930143,
+     "diluted_shares_m": 73.81207666455154,
      "future_funding_net_usdm": 344.00306390177786
     },
     "target": {
      "date": "2027-10-09",
-     "price": 26.478869052938585,
-     "equity_usdm": 2058.519995761476,
-     "operating_pv_usdm": 1946.4129335212383,
+     "price": 28.50536407775366,
+     "equity_usdm": 2220.854431351398,
+     "operating_pv_usdm": 2108.7151060929714,
      "cash_usdm": 124.10070573441001,
-     "terminal_pv_usdm": 0.3150835406521363,
-     "financing_fee_pv_usdm": 12.30872703482475,
+     "terminal_pv_usdm": 0.41715836170105114,
+     "financing_fee_pv_usdm": 12.378538837684626,
      "basic_shares_m": 74.10546340175057,
-     "diluted_shares_m": 77.74199085489356,
+     "diluted_shares_m": 77.91005318485342,
      "future_funding_net_usdm": 251.35532561020165
     }
    },
    "IR_only": {
     "valuation": {
      "date": "2026-10-09",
-     "price": 7.679835307881328,
-     "equity_usdm": 551.02555683681,
-     "operating_pv_usdm": 266.06881570198277,
+     "price": 8.371783916752861,
+     "equity_usdm": 600.6726328769182,
+     "operating_pv_usdm": 315.82764820024835,
      "cash_usdm": 296.97833257096124,
-     "terminal_pv_usdm": 0.07093452553996574,
-     "financing_fee_pv_usdm": 12.09252596167407,
+     "terminal_pv_usdm": 0.09476005021795485,
+     "financing_fee_pv_usdm": 12.22810794450928,
      "basic_shares_m": 70.204506,
      "diluted_shares_m": 71.749658,
      "future_funding_net_usdm": 264.672677956033
     },
     "target": {
      "date": "2027-10-09",
-     "price": 9.161753555376604,
-     "equity_usdm": 693.0922946234164,
-     "operating_pv_usdm": 577.5191658232828,
+     "price": 9.841393974950014,
+     "equity_usdm": 744.5075106160488,
+     "operating_pv_usdm": 628.9430221728944,
      "cash_usdm": 124.10070573441001,
-     "terminal_pv_usdm": 0.07944050622467039,
-     "financing_fee_pv_usdm": 8.60701744050112,
+     "terminal_pv_usdm": 0.10517614268519541,
+     "financing_fee_pv_usdm": 8.641393433940886,
      "basic_shares_m": 74.10546340175057,
      "diluted_shares_m": 75.65061540175057,
      "future_funding_net_usdm": 172.02493966445675
@@ -86,58 +88,58 @@
    "XR_only": {
     "valuation": {
      "date": "2026-10-09",
-     "price": 13.581406322210505,
-     "equity_usdm": 974.4612587776414,
-     "operating_pv_usdm": 691.6197492960661,
+     "price": 14.882593167929052,
+     "equity_usdm": 1071.5322139271057,
+     "operating_pv_usdm": 788.8449924319184,
      "cash_usdm": 296.97833257096124,
-     "terminal_pv_usdm": 0.19144186945799366,
-     "financing_fee_pv_usdm": 14.328264958843857,
+     "terminal_pv_usdm": 0.2557434623769727,
+     "financing_fee_pv_usdm": 14.546854538151155,
      "basic_shares_m": 70.204506,
-     "diluted_shares_m": 71.749658,
+     "diluted_shares_m": 71.9990260995767,
      "future_funding_net_usdm": 330.1854482294857
     },
     "target": {
      "date": "2027-10-09",
-     "price": 14.84320470168987,
-     "equity_usdm": 1068.5306136909833,
-     "operating_pv_usdm": 1011.4058002312952,
+     "price": 16.154421394138538,
+     "equity_usdm": 1168.451953855952,
+     "operating_pv_usdm": 1111.3571268837745,
      "cash_usdm": 72.9568271946172,
-     "terminal_pv_usdm": 0.21439826243387922,
-     "financing_fee_pv_usdm": 16.04641199736306,
+     "terminal_pv_usdm": 0.2838549666014193,
+     "financing_fee_pv_usdm": 16.14585518904117,
      "basic_shares_m": 70.204506,
-     "diluted_shares_m": 71.98786482876794,
+     "diluted_shares_m": 72.33016431525752,
      "future_funding_net_usdm": 330.1854482294857
     }
    },
    "neither": {
     "valuation": {
      "date": "2026-10-09",
-     "price": 0.836026556826701,
-     "equity_usdm": 59.98461953123336,
-     "operating_pv_usdm": -326.4810642186318,
+     "price": 0.8522559140183211,
+     "equity_usdm": 61.14907035929195,
+     "operating_pv_usdm": -328.9041204810436,
      "cash_usdm": 296.97833257096124,
      "terminal_pv_usdm": 0.0,
-     "financing_fee_pv_usdm": 7.629728108710294,
+     "financing_fee_pv_usdm": 7.715761336886574,
      "basic_shares_m": 70.204506,
      "diluted_shares_m": 71.749658,
      "future_funding_net_usdm": 167.07341474086667
     },
     "target": {
      "date": "2027-10-09",
-     "price": 0.936277114508397,
-     "equity_usdm": 67.17756275920432,
-     "operating_pv_usdm": -128.77866421244144,
+     "price": 0.9459364933948552,
+     "equity_usdm": 67.87061989080011,
+     "operating_pv_usdm": -129.25576763861764,
      "cash_usdm": 72.9568271946172,
      "terminal_pv_usdm": 0.0,
-     "financing_fee_pv_usdm": 8.544632655237123,
+     "financing_fee_pv_usdm": 8.563883339305505,
      "basic_shares_m": 70.204506,
      "diluted_shares_m": 71.749658,
      "future_funding_net_usdm": 167.07341474086667
     }
    }
   },
-  "risk_adjusted_value_today": 21.558211924897424,
-  "expected_12month_value": 23.76307464228807,
+  "risk_adjusted_value_today": 23.449903800281174,
+  "expected_12month_value": 25.58574044132547,
   "conditional_peak": {
    "year": 2038,
    "recognized_revenue_usdm": 1405.0067952296276
@@ -2328,46 +2330,55 @@
    "parameter": "switch_mature_multiplier",
    "low": 0.5,
    "high": 1.25,
-   "target_low": 13.44534379312293,
-   "target_high": 28.156889099019043,
-   "today_low": 11.852853806015515,
-   "today_high": 25.676601877588638
+   "target_low": 14.471717821484562,
+   "target_high": 30.310579653093917,
+   "today_low": 12.938899443446326,
+   "today_high": 27.916991394933966
   },
   {
    "parameter": "category_switch",
    "low": 0.1,
    "high": 0.2,
-   "target_low": 15.924817205647138,
-   "target_high": 29.9363365704143,
-   "today_low": 14.215992155403253,
-   "today_high": 27.33917181242785
+   "target_low": 17.224816120682732,
+   "target_high": 32.1647173543425,
+   "today_low": 15.54686263583332,
+   "today_high": 29.66455775012518
   },
   {
    "parameter": "population",
    "low": 8500,
    "high": 11500,
-   "target_low": 17.959516300587726,
-   "target_high": 29.50169420951697,
-   "today_low": 16.116538974117756,
-   "today_high": 26.93706293778281
+   "target_low": 19.393788990046765,
+   "target_high": 31.7160347172669,
+   "today_low": 17.591033481463363,
+   "today_high": 29.245912196502864
   },
   {
    "parameter": "xr_net_fraction",
    "low": 0.5,
    "high": 0.8,
-   "target_low": 18.306613260211584,
-   "target_high": 28.481373843636288,
-   "today_low": 16.449134618848927,
-   "today_high": 25.976287205178668
+   "target_low": 19.73704187228984,
+   "target_high": 30.649233812356233,
+   "today_low": 17.92320775730409,
+   "today_high": 28.23249850417117
   },
   {
    "parameter": "conversion",
    "low": 0.65,
    "high": 0.9,
-   "target_low": 17.883502032554684,
-   "target_high": 27.371194324883017,
-   "today_low": 16.04581446402662,
-   "today_high": 24.939975238566774
+   "target_low": 19.338733643566687,
+   "target_high": 29.419288797755026,
+   "today_low": 17.539661882410936,
+   "today_high": 27.073624537835013
+  },
+  {
+   "parameter": "cost_scale",
+   "low": 0.8,
+   "high": 1.2,
+   "target_low": 30.085093482631525,
+   "target_high": 21.442118195526902,
+   "today_low": 27.443944851387734,
+   "today_high": 19.383391255911853
   },
   {
    "parameter": "discount_rate",
@@ -2379,247 +2390,238 @@
    "today_high": 16.899050481856854
   },
   {
-   "parameter": "cost_scale",
-   "low": 0.8,
-   "high": 1.2,
-   "target_low": 28.015403607713143,
-   "target_high": 19.835761953204855,
-   "today_low": 25.381695515691575,
-   "today_high": 17.661338863329892
-  },
-  {
    "parameter": "ir_retention",
    "low": 0.78,
    "high": 0.92,
-   "target_low": 20.8576365606689,
-   "target_high": 27.682712529613134,
-   "today_low": 18.83056876323688,
-   "today_high": 25.238228171148588
+   "target_low": 22.463966725066847,
+   "target_high": 29.810503571632346,
+   "today_low": 20.492777018188956,
+   "today_high": 27.454759668586497
   },
   {
    "parameter": "growth",
    "low": 0,
    "high": 0.03,
-   "target_low": 20.526592920245722,
-   "target_high": 27.312097769990423,
-   "today_low": 18.523202216258838,
-   "today_high": 24.885543761287277
+   "target_low": 22.091173545321823,
+   "target_high": 29.42578733351698,
+   "today_low": 20.142377539436584,
+   "today_high": 27.08104648297531
   },
   {
    "parameter": "loe_year",
    "low": 2039,
    "high": 2043,
-   "target_low": 23.76307464228807,
-   "target_high": 30.099218122593143,
-   "today_low": 21.558211924897424,
-   "today_high": 27.495135792247257
+   "target_low": 25.58574044132547,
+   "target_high": 32.78979798368775,
+   "today_low": 23.449903800281174,
+   "today_high": 30.25932935269588
   },
   {
    "parameter": "xr_mature_retention",
    "low": 0.8,
    "high": 0.95,
-   "target_low": 20.131862887574044,
-   "target_high": 26.1143356321758,
-   "today_low": 18.157834844698705,
-   "today_high": 23.760257782086946
-  },
-  {
-   "parameter": "oral_destination_capture",
-   "low": 0.4,
-   "high": 0.8,
-   "target_low": 20.65973527821689,
-   "target_high": 26.282961017095527,
-   "today_low": 18.647769633159793,
-   "today_high": 23.92043701556851
+   "target_low": 21.63423307002383,
+   "target_high": 28.152774486546246,
+   "today_low": 19.71527773746029,
+   "today_high": 25.874246451305748
   },
   {
    "parameter": "xr_exus_ratio",
    "low": 0.15,
    "high": 0.6,
-   "target_low": 22.51210352610516,
-   "target_high": 28.133580106682498,
-   "today_low": 20.38517757893435,
-   "today_high": 25.650756013869717
+   "target_low": 24.233604722004042,
+   "target_high": 30.3172405401009,
+   "today_low": 22.171028822859338,
+   "today_high": 27.918959548574726
+  },
+  {
+   "parameter": "oral_destination_capture",
+   "low": 0.4,
+   "high": 0.8,
+   "target_low": 22.304824416320297,
+   "target_high": 28.24382419494698,
+   "today_low": 20.344447589647658,
+   "today_high": 25.962425954455433
   },
   {
    "parameter": "ir_doses_ltp",
    "low": 6,
    "high": 11.8,
-   "target_low": 21.8820056646487,
-   "target_high": 27.264488217408243,
-   "today_low": 19.792221371490523,
-   "today_high": 24.845130533847847
+   "target_low": 23.5927937358666,
+   "target_high": 29.29823341157745,
+   "today_low": 21.562084824807272,
+   "today_high": 26.96711789635328
   },
   {
    "parameter": "ir_net_fraction",
    "low": 0.7,
    "high": 0.95,
-   "target_low": 21.107409277925882,
-   "target_high": 25.81424214179561,
-   "today_low": 19.064619029933663,
-   "today_high": 23.483521247536512
+   "target_low": 22.77246020360738,
+   "target_high": 27.760511966832624,
+   "today_low": 20.784860097433004,
+   "today_high": 25.50935403973275
   },
   {
    "parameter": "ir_doses_other",
    "low": 10,
    "high": 18,
-   "target_low": 21.395110796355272,
-   "target_high": 26.088430311058882,
-   "today_low": 19.335080228546968,
-   "today_high": 23.741181356132312
+   "target_low": 23.076269315191503,
+   "target_high": 28.05226638440736,
+   "today_low": 21.072768938811244,
+   "today_high": 25.786185915970044
   },
   {
    "parameter": "oral_launch_share",
    "low": 0.2,
    "high": 0.45,
-   "target_low": 21.94131077486947,
-   "target_high": 26.34851823790834,
-   "today_low": 19.84876028185452,
-   "today_high": 23.98122028028712
+   "target_low": 23.697439595142857,
+   "target_high": 28.270327806435795,
+   "today_low": 21.66322611872713,
+   "today_high": 25.986444213854888
   },
   {
    "parameter": "ir_oral_switch_relative",
    "low": 0.5,
    "high": 1.5,
-   "target_low": 21.830669015750413,
-   "target_high": 25.165698996754852,
-   "today_low": 19.74367515150706,
-   "today_high": 22.87459081901638
+   "target_low": 23.55297488048415,
+   "target_high": 27.051864050748037,
+   "today_low": 21.524353615418807,
+   "today_high": 24.83782834556943
   },
   {
    "parameter": "ir_injectable_opportunity",
    "low": 0.75,
    "high": 1.25,
-   "target_low": 22.13085361467867,
-   "target_high": 25.094003120159794,
-   "today_low": 20.025678964642236,
-   "today_high": 22.80745765737984
-  },
-  {
-   "parameter": "manufacture_rate",
-   "low": 0.02,
-   "high": 0.08,
-   "target_low": 24.697135259591935,
-   "target_high": 21.85987222606724,
-   "today_low": 22.434850591995136,
-   "today_high": 19.77222652224561
+   "target_low": 23.869023158649824,
+   "target_high": 26.980277303975605,
+   "today_low": 21.82377868684651,
+   "today_high": 24.77037777812497
   },
   {
    "parameter": "tax_rate",
    "low": 0.15,
    "high": 0.258,
-   "target_low": 25.072361151215855,
-   "target_high": 22.243646228579347,
-   "today_low": 22.786739182105034,
-   "today_high": 20.13194530779056
+   "target_low": 26.999794642086663,
+   "target_high": 23.94522711912934,
+   "today_low": 24.78725536415533,
+   "today_high": 21.89809981877996
+  },
+  {
+   "parameter": "manufacture_rate",
+   "low": 0.02,
+   "high": 0.08,
+   "target_low": 26.58169059209538,
+   "target_high": 23.559875129967935,
+   "today_low": 24.391497528043796,
+   "today_high": 21.532856067120477
   },
   {
    "parameter": "xr_pos",
    "low": 0.8,
    "high": 0.95,
-   "target_low": 22.049311449954928,
-   "target_high": 24.61995623845464,
-   "today_low": 19.940127759106137,
-   "today_high": 22.36725400779306
+   "target_low": 23.73753019526647,
+   "target_high": 26.509845564354965,
+   "today_low": 21.691006835414314,
+   "today_high": 24.329352282714606
   },
   {
    "parameter": "xr_paid_intensity",
    "low": 0.9,
    "high": 1,
-   "target_low": 23.15636796386727,
-   "target_high": 25.56174374782892,
-   "today_low": 20.98840865229118,
-   "today_high": 23.243229765724013
+   "target_low": 24.934698915359235,
+   "target_high": 27.515903059885467,
+   "today_low": 22.83497155243504,
+   "today_high": 25.27298530513464
   },
   {
    "parameter": "ir_exus_ratio",
    "low": 0.1,
    "high": 0.35,
-   "target_low": 22.846322284478934,
-   "target_high": 25.137430221202262,
-   "today_low": 20.697560072490806,
-   "today_high": 22.848463533238014
+   "target_low": 24.60326690170821,
+   "target_high": 27.058703565048106,
+   "today_low": 22.519248842819557,
+   "today_high": 24.845177952881482
   },
   {
    "parameter": "xr_first_retention",
    "low": 0.61,
    "high": 0.6945,
-   "target_low": 21.566589755000138,
-   "target_high": 23.76307464228807,
-   "today_low": 19.500591257089205,
-   "today_high": 21.558211924897424
+   "target_low": 23.226073376924116,
+   "target_high": 25.58574044132547,
+   "today_low": 21.21848033254346,
+   "today_high": 23.449903800281174
   },
   {
    "parameter": "ir_no_rescue_opportunity",
    "low": 0.1,
    "high": 0.3,
-   "target_low": 22.647111181201566,
-   "target_high": 24.615275160540946,
-   "today_low": 20.510502365216386,
-   "today_high": 22.358197835726383
+   "target_low": 24.40330855926358,
+   "target_high": 26.484892510730177,
+   "today_low": 22.329887967746476,
+   "today_high": 24.30146996401861
   },
   {
    "parameter": "ir_pos",
    "low": 0.8,
    "high": 0.95,
-   "target_low": 22.617456564586256,
-   "target_high": 24.335883681138977,
-   "today_low": 20.530284860539055,
-   "today_high": 22.0721754570766
+   "target_low": 24.368832937185324,
+   "target_high": 26.19419419339554,
+   "today_low": 22.342087760531932,
+   "today_high": 24.003811820155796
   },
   {
    "parameter": "license_rate",
    "low": 0.02,
    "high": 0.05,
-   "target_low": 24.230144562129002,
-   "target_high": 22.828901995738295,
-   "today_low": 21.996783810859657,
-   "today_high": 20.680932398257948
+   "target_low": 26.08375166587631,
+   "target_high": 24.58971151961221,
+   "today_low": 23.920753932814204,
+   "today_high": 22.508071549655106
   },
   {
    "parameter": "dual_use",
    "low": 0,
    "high": 1,
-   "target_low": 23.088133413969075,
-   "target_high": 24.43790144029651,
-   "today_low": 20.92468809503514,
-   "today_high": 22.191628346402428
+   "target_low": 24.859464150966758,
+   "target_high": 26.31190635840563,
+   "today_low": 22.762057758609412,
+   "today_high": 24.137645308975888
   },
   {
    "parameter": "untreated_xr_reach",
    "low": 0.25,
    "high": 0.75,
-   "target_low": 23.083918592941362,
-   "target_high": 24.402143497904756,
-   "today_low": 20.920481219632933,
-   "today_high": 22.157633178183964
+   "target_low": 24.85546296737545,
+   "target_high": 26.272387294667585,
+   "today_low": 22.760250419337666,
+   "today_high": 24.098344674810413
   },
   {
    "parameter": "issue_price",
    "low": 15,
    "high": 40,
-   "target_low": 23.03592566049668,
-   "target_high": 24.193329148618133,
-   "today_low": 21.555693195409315,
-   "today_high": 21.55976787551163
+   "target_low": 24.80316157857151,
+   "target_high": 26.048787922393167,
+   "today_low": 23.447336175982013,
+   "today_high": 23.45148995577115
   },
   {
    "parameter": "nwc_fraction",
    "low": 0.08,
    "high": 0.18,
-   "target_low": 24.027089797620132,
-   "target_high": 23.33624979178572,
-   "today_low": 21.806039781399903,
-   "today_high": 21.156792519072937
+   "target_low": 25.846860400540756,
+   "target_high": 25.16276239928259,
+   "today_low": 23.69539007286549,
+   "today_high": 23.05135976463074
   },
   {
    "parameter": "ekterly_future_forms",
    "low": 100,
    "high": 250,
-   "target_low": 23.869453413156954,
-   "target_high": 23.69600388940035,
-   "today_low": 21.65809671335326,
-   "today_high": 21.49524005546341
+   "target_low": 25.70360013781332,
+   "target_high": 25.5114314532269,
+   "today_low": 23.561637175277983,
+   "today_high": 23.379462403026174
   }
  ],
  "scenarios": [
@@ -2628,9 +2630,9 @@
    "overrides": {
     "hazard_year6_multiplier": 0.5
    },
-   "value_today": 16.6037710321754,
-   "expected_target": 18.478039712621552,
-   "delta_target": -5.285034929666519,
+   "value_today": 17.979339733000565,
+   "expected_target": 19.803219540546152,
+   "delta_target": -5.782520900779318,
    "peak": {
     "year": 2038,
     "recognized_revenue_usdm": 1006.4108503465302
@@ -2641,9 +2643,9 @@
    "overrides": {
     "reentry_fraction": 0.25
    },
-   "value_today": 22.001483894000337,
-   "expected_target": 24.23515551936903,
-   "delta_target": 0.472080877080959,
+   "value_today": 23.93991396712653,
+   "expected_target": 26.103696214607286,
+   "delta_target": 0.5179557732818161,
    "peak": {
     "year": 2038,
     "recognized_revenue_usdm": 1446.5435416091814
@@ -2654,9 +2656,9 @@
    "overrides": {
     "nonphvs_ltp_shift": 0.2
    },
-   "value_today": 21.143460674997012,
-   "expected_target": 23.321291071320008,
-   "delta_target": -0.4417835709680631,
+   "value_today": 22.99967684294875,
+   "expected_target": 25.110448035020653,
+   "delta_target": -0.47529240630481695,
    "peak": {
     "year": 2038,
     "recognized_revenue_usdm": 1385.0091971415877
@@ -2667,9 +2669,9 @@
    "overrides": {
     "loe_price_cap": true
    },
-   "value_today": 21.108424383356034,
-   "expected_target": 23.284091591965467,
-   "delta_target": -0.47898305032260424,
+   "value_today": 22.934114008446716,
+   "expected_target": 25.04015938576636,
+   "delta_target": -0.5455810555591114,
    "peak": {
     "year": 2038,
     "recognized_revenue_usdm": 1405.0067952296276
@@ -2680,9 +2682,9 @@
    "overrides": {
     "ir_initial_paid_fraction": 0
    },
-   "value_today": 20.375205623229906,
-   "expected_target": 22.50409628120397,
-   "delta_target": -1.2589783610841003,
+   "value_today": 22.211560407099206,
+   "expected_target": 24.277692394663255,
+   "delta_target": -1.3080480466622149,
    "peak": {
     "year": 2038,
     "recognized_revenue_usdm": 1390.0881541205204
@@ -2693,9 +2695,9 @@
    "overrides": {
     "exus_direct_fraction": 0
    },
-   "value_today": 17.990694524441054,
-   "expected_target": 19.958047715260893,
-   "delta_target": -3.8050269270271784,
+   "value_today": 19.56789810718742,
+   "expected_target": 21.483287888312365,
+   "delta_target": -4.102452553013105,
    "peak": {
     "year": 2038,
     "recognized_revenue_usdm": 1197.1493528640024
@@ -2707,9 +2709,9 @@
     "launch_delay_IR": 6,
     "launch_delay_XR": 6
    },
-   "value_today": 18.368071346259686,
-   "expected_target": 20.378185494068422,
-   "delta_target": -3.3848891482196493,
+   "value_today": 20.131042726842356,
+   "expected_target": 22.0985601269957,
+   "delta_target": -3.4871803143297697,
    "peak": {
     "year": 2038,
     "recognized_revenue_usdm": 1391.0904387162939
@@ -2720,9 +2722,9 @@
    "overrides": {
     "xr_paid_intensity": 1
    },
-   "value_today": 23.243229765724013,
-   "expected_target": 25.56174374782892,
-   "delta_target": 1.7986691055408492,
+   "value_today": 25.27298530513464,
+   "expected_target": 27.515903059885467,
+   "delta_target": 1.9301626185599972,
    "peak": {
     "year": 2038,
     "recognized_revenue_usdm": 1482.5468718576556
@@ -2734,9 +2736,9 @@
     "ir_net_fraction": 0.8373205741626795,
     "xr_net_fraction": 0.6613142701245492
    },
-   "value_today": 21.55278075612133,
-   "expected_target": 23.757270855174664,
-   "delta_target": -0.005803787113407566,
+   "value_today": 23.444499840757736,
+   "expected_target": 25.580165348645888,
+   "delta_target": -0.005575092679581672,
    "peak": {
     "year": 2038,
     "recognized_revenue_usdm": 1405.4958081297964
@@ -2747,9 +2749,9 @@
    "overrides": {
     "license_rate": 0
    },
-   "value_today": 22.872382620026062,
-   "expected_target": 25.164074265691237,
-   "delta_target": 1.400999623403166,
+   "value_today": 24.862159674679436,
+   "expected_target": 27.079583951066326,
+   "delta_target": 1.4938435097408558,
    "peak": {
     "year": 2038,
     "recognized_revenue_usdm": 1405.0067952296276
@@ -2760,9 +2762,9 @@
    "overrides": {
     "ir_injectable_opportunity": 1.25
    },
-   "value_today": 22.80745765737984,
-   "expected_target": 25.094003120159794,
-   "delta_target": 1.3309284778717227,
+   "value_today": 24.77037777812497,
+   "expected_target": 26.980277303975605,
+   "delta_target": 1.3945368626501349,
    "peak": {
     "year": 2038,
     "recognized_revenue_usdm": 1421.9813742213066
@@ -2773,9 +2775,9 @@
    "overrides": {
     "ltp_no_rescue_fraction": 0.1
    },
-   "value_today": 21.34984254699066,
-   "expected_target": 23.541122080925263,
-   "delta_target": -0.2219525613628086,
+   "value_today": 23.228106511200547,
+   "expected_target": 25.351552377661367,
+   "delta_target": -0.23418806366410294,
    "peak": {
     "year": 2038,
     "recognized_revenue_usdm": 1400.39703383612
@@ -2786,9 +2788,9 @@
    "overrides": {
     "ekterly_free_stock_multiplier": 1.2
    },
-   "value_today": 21.490646720167426,
-   "expected_target": 23.69111142607104,
-   "delta_target": -0.07196321621703206,
+   "value_today": 23.37432422775126,
+   "expected_target": 25.506011005731146,
+   "delta_target": -0.07972943559432366,
    "peak": {
     "year": 2038,
     "recognized_revenue_usdm": 1400.623413068345
@@ -2802,9 +2804,9 @@
     "xr_net_fraction": 0.58,
     "ir_net_fraction": 0.76
    },
-   "value_today": 20.63541607089632,
-   "expected_target": 22.780346603029695,
-   "delta_target": -0.9827280392583759,
+   "value_today": 22.438035206905163,
+   "expected_target": 24.515549271152167,
+   "delta_target": -1.0701911701733025,
    "peak": {
     "year": 2038,
     "recognized_revenue_usdm": 1339.9625479992915
@@ -2818,9 +2820,9 @@
     "xr_net_fraction": 0.78,
     "ir_net_fraction": 0.94
    },
-   "value_today": 19.699996999166075,
-   "expected_target": 21.785896261338646,
-   "delta_target": -1.9771783809494252,
+   "value_today": 21.51938434178396,
+   "expected_target": 23.545530556402124,
+   "delta_target": -2.040209884923346,
    "peak": {
     "year": 2038,
     "recognized_revenue_usdm": 1412.7559902525445
@@ -2830,33 +2832,48 @@
  "bridge": [
   {
    "label": "Favourable bounds: no redosing haircut, switching at the top of its range, 92% rescue continuation, 45% launch share",
-   "both_target": 51.65136067569305,
-   "expected_target": 46.56638274811233,
-   "peak": 2173.2660349257376
+   "both_target": 55.33279087636894,
+   "expected_target": 49.885771660699895,
+   "peak": 2173.2660349257376,
+   "cum_revenue_2027_2038": 15752.802571700206,
+   "cum_fcf_2027_2038": 7776.138473121942,
+   "cum_net_income_2027_2038": 8079.18015188782
   },
   {
    "label": "Apply the redosing quantity haircut (1.17/1.38 doses per attack)",
-   "both_target": 47.06097465682925,
-   "expected_target": 42.410801675796804,
-   "peak": 2047.1237834413403
+   "both_target": 50.45765748618903,
+   "expected_target": 45.47219955698742,
+   "peak": 2047.1237834413403,
+   "cum_revenue_2027_2038": 14712.437393850812,
+   "cum_fcf_2027_2038": 7100.213311349147,
+   "cum_net_income_2027_2038": 7385.664878548845
   },
   {
    "label": "Switching opportunity at the claims benchmark (15.2%, flat)",
-   "both_target": 34.0000266086655,
-   "expected_target": 30.578018411055126,
-   "peak": 1626.8540504812527
+   "both_target": 36.49677596659111,
+   "expected_target": 32.824104694339454,
+   "peak": 1626.8540504812527,
+   "cum_revenue_2027_2038": 11578.09024540754,
+   "cum_fcf_2027_2038": 5073.567929204895,
+   "cum_net_income_2027_2038": 5301.166036989263
   },
   {
    "label": "Launch share of oral choices at 30%",
-   "both_target": 30.799506086723394,
-   "expected_target": 27.682712529613134,
-   "peak": 1607.0598939015147
+   "both_target": 33.16538983388623,
+   "expected_target": 29.810503571632346,
+   "peak": 1607.0598939015147,
+   "cum_revenue_2027_2038": 10942.141371308493,
+   "cum_fcf_2027_2038": 4653.379000670383,
+   "cum_net_income_2027_2038": 4877.962816917126
   },
   {
    "label": "Rescue continuation at 85%",
-   "both_target": 26.478869052938585,
-   "expected_target": 23.76307464228807,
-   "peak": 1405.0067952296276
+   "both_target": 28.50536407775366,
+   "expected_target": 25.58574044132547,
+   "peak": 1405.0067952296276,
+   "cum_revenue_2027_2038": 9877.977614921168,
+   "cum_fcf_2027_2038": 3971.4625206656747,
+   "cum_net_income_2027_2038": 4167.824148347421
   }
  ]
 }

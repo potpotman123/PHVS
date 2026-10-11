@@ -292,6 +292,14 @@
       "locator": "10 Yr column, 10/01/2026 to 10/09/2026",
       "facts": "10-year par yield 5.24% on 9 October 2026 (5.22% on 8 October, 5.31% on 5 October); 20-year 5.65%, 30-year 5.60% on 9 October. No row for 10 October, a Saturday.",
       "limitation": "The yield moved 60 bp over the summer; the WACC build uses the last close before the price date rather than an average."
+    },
+    "KROLL_SIZE_2022": {
+      "title": "Kroll Cost of Capital Navigator size premium by CRSP decile, data as of 31 December 2022 (reproduced in a public rate filing)",
+      "date": "2023-06-30",
+      "url": "https://puc.sd.gov/commission/dockets/electric/2023/el23-020/AEBSch9.pdf",
+      "locator": "Exhibit AEB-2, Schedule 9, notes [9]-[10]",
+      "facts": "Size premium by decile with the largest company in each: decile 5 $3,770m 0.93%; decile 6 $2,365m 1.16%; decile 7 $1,389m 1.37%; decile 10 $218m 4.83%. Pharvaris at $2,183m market cap sits in decile 6.",
+      "limitation": "A 2022 table used for a 2026 valuation date because the current Navigator table is subscription-only; Damodaran argues against any size premium, so the 1.16% is a practitioner convention rather than a measured risk."
     }
   },
   "existing_evidence_registers": [

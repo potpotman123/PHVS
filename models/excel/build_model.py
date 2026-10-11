@@ -169,13 +169,13 @@ for gname, keys in groups:
         if k in ('fx',): fmt = NUM3
         for i, c in enumerate(('working', 'cautious', 'upside_challenge')):
             cv = cases[c]
-            if k == 'discount_rate' and c == 'working': put(wsI, r, 5 + i, '=ROUND(wacc+single_asset_premium,3)', f_norm, fmt)
+            if k == 'discount_rate' and c == 'working': put(wsI, r, 5 + i, '=ROUND(wacc+size_premium,3)', f_norm, fmt)
             else: put(wsI, r, 5 + i, (int(cv) if isinstance(cv, bool) else cv), f_input, fmt)
         put(wsI, r, 8, f'=IF($I{r}<>"",$I{r},$E{r})', f_bold, fmt)
         wsI.cell(r, 9).fill = fill_in; wsI.cell(r, 9).font = f_input; wsI.cell(r, 9).number_format = fmt
         b = v.get('bounds') or ['', '']
         put(wsI, r, 10, b[0], f_sub, fmt); put(wsI, r, 11, b[1], f_sub, fmt)
-        put(wsI, r, 12, ('Crimson underwriting' if k in CRIM['overrides'] else ('WACC build plus premium (DCF tab)' if k == 'discount_rate' else v.get('status', ''))), f_sub); put(wsI, r, 13, ', '.join(v.get('sources', [])), f_sub)
+        put(wsI, r, 12, ('Crimson underwriting' if k in CRIM['overrides'] else ('WACC build plus size premium (DCF tab)' if k == 'discount_rate' else v.get('status', ''))), f_sub); put(wsI, r, 13, ', '.join(v.get('sources', [])), f_sub)
         put(wsI, r, 14, fix_spacing(v.get('translation', '')), f_sub)
         name('pop_growth' if k == 'growth' else k, f"Inputs!$H${r}"); INPUT_ROW[k] = r; r += 1
     r += 1
@@ -1098,71 +1098,57 @@ widths(wsP, {'A': 2, 'B': 46, 'C': 3})
 SPX = Path('/private/tmp/claude-501/-Users-kwu-Library-Application-Support-Claude-scratch-workspaces-665f01e2-9652-4512-9fda-0497b55d354c-06f88a99-9105-4941-a8cf-87e6b02aff65-scratch-2026-10-10-7ee708/b9401f11-15ac-4c44-8c9e-8eb278b73abd/scratchpad')
 ALT_A = json.loads((SPX / 'altdata_A.json').read_text())['datasets']; ALT_B = json.loads((SPX / 'altdata_B.json').read_text())['datasets']
 wsFn = build_funnel()
-bridge = [(b['label'], b['both_target'], b['expected_target'], b['peak']) for b in CR['bridge']]
-wsS = sheet('Street Bridge', '0070C0'); title(wsS, 'From the Street to our view', 'Where sell-side targets sit, how their revenue path compares with ours, and which assumptions carry the gap.')
-st = ALT_A['street_targets']; r = 4; band(wsS, r, 'Sell-side price targets, September 2026 notes', 2, 10); r += 1
-cols = ['Broker', 'Report date', 'Price target, USD', 'IR PoS', 'XR PoS', 'Discount rate', 'Method', 'Source page']
-for i, h in enumerate(cols): put(wsS, r, 2 + i, h, f_hdr, fill=fill_hdr)
-r += 1; ST0 = r
-for row_ in st['rows']:
-    for i, v in enumerate(row_[:8]): put(wsS, r, 2 + i, v, f_input if i == 2 else f_norm, USD if i == 2 else (PCT if i in (3, 4, 5) and isinstance(v, (int, float)) else GEN))
-    r += 1
-ST1 = r - 1
-put(wsS, r, 2, 'Median target', f_bold); put(wsS, r, 4, f'=MEDIAN(D{ST0}:D{ST1})', f_bold, USD); name('street_median', f"'Street Bridge'!$D${r}"); r += 1
-put(wsS, r, 2, 'Lowest / highest'); put(wsS, r, 4, f'=MIN(D{ST0}:D{ST1})', f_norm, USD); put(wsS, r, 5, f'=MAX(D{ST0}:D{ST1})', f_norm, USD); r += 1
-put(wsS, r, 2, 'Share price'); put(wsS, r, 4, '=share_price', f_norm, USD); put(wsS, r, 5, '=TEXT(price_date,"d mmm yyyy")', f_sub); r += 1
-put(wsS, r, 2, 'Our 12-month price target', f_bold); put(wsS, r, 4, '=price_target', f_bold, USD, fill=fill_key); r += 1
-put(wsS, r, 2, 'Targets transcribed from the supplied September 2026 notes (reverse-DCF research, 7 October 2026). Leerink and Morgan Stanley later updates supersede their earlier figures; Wells Fargo states no terminal growth, which is not no terminal value.', f_sub); r += 2
-gp = ALT_A['guggenheim_revenue_path']; band(wsS, r, 'Guggenheim published revenue path (as printed, USD at 1.16) against this model, both products approved. The reverse-solved ramps the share price requires are on the Reverse DCF tab.', 2, 16); r += 1
-gyears = [row_[0] for row_ in gp['rows']]; gcols = gp['columns']
-iIRu = [i for i, c in enumerate(gcols) if 'IR' in c and 'USD' in c][0]; iXRu = [i for i, c in enumerate(gcols) if 'XR' in c and 'USD' in c][0]
-put(wsS, r, 2, 'Calendar year', f_hdr, fill=fill_hdr); put(wsS, r, 3, '', f_hdr, fill=fill_hdr); [put(wsS, r, 4 + i, y, f_hdr, fill=fill_hdr, align=Alignment(horizontal='right')) for i, y in enumerate(gyears)]; GY = r; r += 1
-put(wsS, r, 2, 'Street IR revenue'); [put(wsS, r, 4 + i, row_[iIRu], f_input, NUM) for i, row_ in enumerate(gp['rows'])]; GIR = r; r += 1
-put(wsS, r, 2, 'Street XR revenue'); [put(wsS, r, 4 + i, row_[iXRu], f_input, NUM) for i, row_ in enumerate(gp['rows'])]; GXR = r; r += 1
-put(wsS, r, 2, 'Street total', f_bold); [put(wsS, r, 4 + i, f'={CL(4+i)}{GIR}+{CL(4+i)}{GXR}', f_bold, NUM) for i in range(len(gyears))]; GT = r; r += 1
-put(wsS, r, 2, 'Model IR revenue'); [put(wsS, r, 4 + i, f"=IF({CL(4+i)}${GY}<2026,0,INDEX({arange('ir_rev')},1,MATCH({CL(4+i)}${GY},{AYEARS},0)))", f_norm, NUM) for i in range(len(gyears))]; MIR = r; r += 1
-put(wsS, r, 2, 'Model XR revenue'); [put(wsS, r, 4 + i, f"=IF({CL(4+i)}${GY}<2026,0,INDEX({arange('xr_rev')},1,MATCH({CL(4+i)}${GY},{AYEARS},0)))", f_norm, NUM) for i in range(len(gyears))]; MXR = r; r += 1
-put(wsS, r, 2, 'Model total', f_bold); [put(wsS, r, 4 + i, f'={CL(4+i)}{MIR}+{CL(4+i)}{MXR}', f_bold, NUM) for i in range(len(gyears))]; MT = r; r += 1
-put(wsS, r, 2, 'Model as a share of Street'); [put(wsS, r, 4 + i, f'=IF({CL(4+i)}{GT}=0,"",{CL(4+i)}{MT}/{CL(4+i)}{GT})', f_norm, PCT) for i in range(len(gyears))]; r += 1
-put(wsS, r, 2, 'Guggenheim 9 September 2026 note (124306319 pp1-3): 90%/90% PoS, 12.5% WACC, -5% terminal growth. Printed EUR thousands converted to millions and to USD at 1.16; whether the printed revenues already carry probability of success is not disclosed. Our path is conditional on approval and recognises direct ex-US sales.', f_sub); r += 2
+bridge = [(b['label'], b['both_target'], b['expected_target'], b['peak'], b.get('cum_revenue_2027_2038', 0), b.get('cum_fcf_2027_2038', 0)) for b in CR['bridge']]
 from openpyxl.chart import LineChart, BarChart, Reference, Series
-ch = LineChart(); ch.title = 'Revenue path, USD m'; ch.height = 8; ch.width = 18; ch.y_axis.title = 'USD m'; ch.style = 2
-data = Reference(wsS, min_col=3, max_col=3 + len(gyears), min_row=GT, max_row=GT); ch.add_data(Reference(wsS, min_col=4, max_col=3 + len(gyears), min_row=GT), from_rows=True, titles_from_data=False); ch.add_data(Reference(wsS, min_col=4, max_col=3 + len(gyears), min_row=MT), from_rows=True, titles_from_data=False)
-ch.set_categories(Reference(wsS, min_col=4, max_col=3 + len(gyears), min_row=GY)); ch.series[0].tx = None; from openpyxl.chart.series import SeriesLabel; ch.series[0].tx = SeriesLabel(v='Street (Guggenheim)'); ch.series[1].tx = SeriesLabel(v='This model')
-CHART_S = ch
+from openpyxl.chart.series import SeriesLabel
 from openpyxl.worksheet.pagebreak import Break
-wsS.row_breaks.append(Break(id=r - 1))
-band(wsS, r, 'Value bridge: what the three thesis assumptions are worth (engine runs, 9 October 2026 inputs)', 2, 10); r += 1
-for i, h in enumerate(['Step', 'Both approved, 12-month value', 'Change', 'Probability-weighted 12-month value', 'Change', 'Peak revenue, USD m']): put(wsS, r, 2 + i, h, f_hdr, fill=fill_hdr)
-r += 1; BR0 = r
-for i, (lab, pb, pe, pk) in enumerate(bridge):
-    put(wsS, r, 2, lab); put(wsS, r, 3, pb, f_input, USD); put(wsS, r, 4, '' if i == 0 else f'=C{r}-C{r-1}', f_norm, USD); put(wsS, r, 5, pe, f_input, USD); put(wsS, r, 6, '' if i == 0 else f'=E{r}-E{r-1}', f_norm, USD); put(wsS, r, 7, pk, f_input, NUM); r += 1
-put(wsS, r, 2, 'Central case, live engine (equals the last step with no overrides)', f_bold); put(wsS, r, 3, '=price_both_target', f_bold, USD); put(wsS, r, 5, '=value_target', f_bold, USD); put(wsS, r, 7, f"=MAX({arange('revenue')})", f_bold, NUM); r += 1
-put(wsS, r, 2, 'Street median target for reference'); put(wsS, r, 3, '=street_median', f_norm, USD); r += 1
-put(wsS, r, 2, 'The first row relaxes the redosing haircut, which the engine refuses in active cases; it is shown only to size the assumption. Each later row restores one central-case assumption. Order matters because the effects interact; the end point is the central case, before the Monte Carlo averaging that sets the price target.', f_sub); r += 1
-wsS.add_chart(CHART_S, f'B{r+1}')
-for rr_ in range(BR0, BR0 + len(bridge) + 3): wsS.cell(rr_, 2).alignment = Alignment(wrap_text=True, vertical='top')
+wsS = sheet('Street Bridge', '0070C0'); title(wsS, 'Reverse DCF: what the share price requires')
+gp = ALT_A['guggenheim_revenue_path']; pp = gp['subtables']['parameters']
+r = 4; put(wsS, r, 2, 'Four steps. Take the Street revenue path and carry it to generic entry; apply the Street\'s own approval odds and discount rate; scale the path until the DCF equals the share price; compare that required path with this model; then show what each thesis assumption removes.', f_sub); wsS.cell(r, 2).alignment = Alignment(wrap_text=True, vertical='top'); wsS.merge_cells(start_row=r, start_column=2, end_row=r, end_column=16); wsS.row_dimensions[r].height = 26; r += 2
+band(wsS, r, 'Step 1. Guggenheim published revenue path, both products approved (USD m; EUR converted at 1.16), carried to generic entry', 2, 16); r += 1
+gyears = [row_[0] for row_ in gp['rows']]; gcols = gp['columns']; NG = len(gyears)
+iIRu = [i for i, c in enumerate(gcols) if 'IR' in c and 'USD' in c][0]; iXRu = [i for i, c in enumerate(gcols) if 'XR' in c and 'USD' in c][0]
+put(wsS, r, 2, 'Calendar year', f_hdr, fill=fill_hdr); put(wsS, r, 3, '', f_hdr, fill=fill_hdr)
+for i, y in enumerate(gyears + [gyears[-1] + 1, gyears[-1] + 2]): put(wsS, r, 4 + i, y, f_hdr, fill=fill_hdr, align=Alignment(horizontal='right'))
+GY = r; r += 1
+put(wsS, r, 2, 'Basis', f_sub); [put(wsS, r, 4 + i, 'published' if i < NG else 'carried', f_sub, align=Alignment(horizontal='right')) for i in range(NG + 2)]; r += 1
+L35, L36, L37 = CL(4 + NG - 2), CL(4 + NG - 1), CL(4 + NG)
+def gline(label, idx, bold=False):
+    global r; put(wsS, r, 2, label, f_bold if bold else f_norm)
+    for i, row_ in enumerate(gp['rows']): put(wsS, r, 4 + i, row_[idx], f_input, NUM)
+    put(wsS, r, 4 + NG, f'={L36}{r}*(1+({L36}{r}/{L35}{r}-1)*2/3)', f_norm, NUM); put(wsS, r, 5 + NG, f'={L37}{r}*(1+({L36}{r}/{L35}{r}-1)/3)', f_norm, NUM)
+    r += 1; return r - 1
+GIR = gline('Street IR revenue', iIRu); GXR = gline('Street XR revenue', iXRu)
+put(wsS, r, 2, 'Street total', f_bold); [put(wsS, r, 4 + i, f'={CL(4+i)}{GIR}+{CL(4+i)}{GXR}', f_bold, NUM) for i in range(NG + 2)]; GT = r; r += 1
+put(wsS, r, 2, 'Growth'); [put(wsS, r, 4 + i, f'=IF({CL(3+i)}{GT}=0,"",{CL(4+i)}{GT}/{CL(3+i)}{GT}-1)', f_norm, PCT) for i in range(1, NG + 2)]; r += 1
+put(wsS, r, 2, 'The published path ends in 2036 with IR still growing 11.7% and XR 6.9%. It is carried into the last two exclusivity years with that growth tapering to zero at generic entry (two-thirds of the 2036 rate in 2037, one-third in 2038), so the path slows into the cliff rather than plateauing or jumping. Generic erosion follows from 2039.', f_sub); wsS.cell(r, 2).alignment = Alignment(wrap_text=True, vertical='top'); wsS.merge_cells(start_row=r, start_column=2, end_row=r, end_column=16); wsS.row_dimensions[r].height = 26; r += 2
+put(wsS, r, 2, 'Guggenheim DCF assumptions, applied unchanged in the reverse model', f_bold); r += 1
+keep = ('IR PoS', 'XR PoS', 'Discount rate', 'Cash tax rate', 'First cash-tax year', 'Diluted shares (millions)', 'Guggenheim terminal growth (source)', 'Guggenheim published PT USD')
+for row_ in pp['rows']:
+    if row_[0] not in keep: continue
+    v = row_[1]; put(wsS, r, 2, row_[0]); put(wsS, r, 4, v, f_input, (PCT if isinstance(v, float) and abs(v) < 1 else (USD if 'PT' in row_[0] else (NUM3 if isinstance(v, float) else GEN)))); put(wsS, r, 5, row_[2] if len(row_) > 2 else '', f_sub); r += 1
+put(wsS, r, 2, 'Probability of success enters once: each product\'s revenue and its direct costs are weighted by that product\'s 90% approval odds, which is Guggenheim\'s own assumption. Taxes start in 2031 at 15%, generic erosion from 2039 uses the same pooled-study and Kuvan indices as this model, cash flows run to 2055 with a declining residual, and the 12.5% discount rate is Guggenheim\'s WACC so the solve stays on the Street\'s own terms.', f_sub); wsS.cell(r, 2).alignment = Alignment(wrap_text=True, vertical='top'); wsS.merge_cells(start_row=r, start_column=2, end_row=r, end_column=16); wsS.row_dimensions[r].height = 40; r += 1
 widths(wsS, {'A': 2, 'B': 64, 'C': 13, 'D': 11, 'E': 13, 'F': 11, 'G': 12, 'H': 11, 'I': 11, 'J': 11, 'K': 11, 'L': 11, 'M': 11, 'N': 11, 'O': 11, 'P': 11})
-wsS.print_area = f'B1:P{r+22}'
+wsS.print_area = f'B1:P{r}'
 
 
 # ================================================================== REVERSE DCF
-wsRD = sheet('Reverse DCF', '0070C0'); title(wsRD, 'Reverse DCF: what the share price requires', 'The revenue ramp that reprices the stock with the Street ramp shape, approval odds and discount rate held fixed. Saved solve of 7 October 2026, rescaled live to the current price.')
-RESOLVE = json.loads((ROOT / 'models/excel/reverse_resolve.json').read_text()); RV_EXT = RESOLVE['variants']['extended']; RV_PLAT = RESOLVE['variants']['plateau']
+wsRD = sheet('Reverse DCF', '0070C0')
+RESOLVE = json.loads((ROOT / 'models/excel/reverse_resolve.json').read_text()); RV_EXT = RESOLVE['variants'].get('tapered', RESOLVE['variants']['extended']); RV_PLAT = RESOLVE['variants']['plateau']
 rr = RV_EXT['required_ramps']; ss = RV_EXT['solve_summary']; pp = ALT_A['guggenheim_revenue_path']['subtables']['parameters']
-r = 4; band(wsRD, r, 'Method', 2, 12); r += 1
+r = 2; band(wsRD, r, 'Step 2. Scale the Street path until the DCF equals the share price', 2, 16); r += 1
 for line in ('Take the Guggenheim IR and XR revenue paths (9 September 2026 note) as the shape of the ramp. Build a normalised DCF around them: 90% approval odds for each product, 12.5% discount rate, 15% tax from 2031, 50/50 pooled-study and Kuvan erosion from 2039, explicit cash flows to 2055 and a declining residual.',
              'Equity value is linear in a common scale on both ramps: value = k x (PV of IR and XR contribution) + PV of shared costs + net cash. Solve k so that value equals the target price. k above 1 means the market needs more than the Street path; below 1 means less.',
-             'Two solves anchor the tab: the $31.83 spot snapshot (horizon 0) and the $44 Guggenheim target (one-year horizon). Because value is linear in k, those two points identify the line, and the live rows rescale the ramp to today\'s share price without re-running the solve. The Street path ends in 2036 and is carried to 2038 at its own 2036 growth rates before generic erosion starts in 2039.'):
+             'Two solves anchor the tab: the $31.83 spot snapshot (horizon 0) and the $44 Guggenheim target (one-year horizon). Because value is linear in k, those two points identify the line, and the live rows rescale the path to today\'s share price without re-running the solve. The Street path is carried to 2038 with growth tapering into generic entry, as shown in Step 1.'):
     put(wsRD, r, 2, line, f_sub); wsRD.cell(r, 2).alignment = Alignment(wrap_text=True, vertical='top'); wsRD.merge_cells(start_row=r, start_column=2, end_row=r, end_column=14); wsRD.row_dimensions[r].height = 26; r += 1
-r += 1; band(wsRD, r, 'Solve summary: Street path carried to 2038 at its 2036 growth rates (re-solved 10 October 2026 on the 7 October inputs)', 2, 12); r += 1
+r += 1; put(wsRD, r, 2, 'Solve summary (saved solve, 11 October 2026, on the 7 October inputs)', f_bold); r += 1
 for i, h in enumerate(ss['columns']): put(wsRD, r, 2 + i, h, f_hdr, fill=fill_hdr)
 r += 1; SS = {}
 for row_ in ss['rows']:
     put(wsRD, r, 2, row_[0]); put(wsRD, r, 3, row_[1], f_input, NUM3 if isinstance(row_[1], float) else GEN); put(wsRD, r, 4, row_[2], f_input, NUM3 if isinstance(row_[2], float) else GEN); put(wsRD, r, 5, row_[3], f_sub); SS[row_[0]] = r; r += 1
 k_spot_row = next(v for k_, v in SS.items() if 'scale' in k_.lower()); tp_row = next(v for k_, v in SS.items() if k_.startswith('Target price')); hz_row = next(v for k_, v in SS.items() if 'horizon' in k_.lower())
 rdisc = next((row_[1] for row_ in pp['rows'] if 'discount' in str(row_[0]).lower() or 'wacc' in str(row_[0]).lower()), 0.125)
-r += 1; band(wsRD, r, 'Live rescaling to the current share price', 2, 12); r += 1
+r += 1; put(wsRD, r, 2, 'Live rescaling to the current share price', f_bold); r += 1
 put(wsRD, r, 2, 'Discount rate in the reverse model'); put(wsRD, r, 3, rdisc, f_input, PCT); put(wsRD, r, 5, 'Guggenheim 12.5% WACC, kept so the saved solve stays comparable', f_sub); RD_R = r; r += 1
 put(wsRD, r, 2, 'Target equity PV per share, spot solve'); put(wsRD, r, 3, f'=C{tp_row}/(1+C{RD_R})^C{hz_row}', f_norm, USD); RD_P1 = r; r += 1
 put(wsRD, r, 2, 'Target equity PV per share, $44 solve'); put(wsRD, r, 3, f'=D{tp_row}/(1+C{RD_R})^D{hz_row}', f_norm, USD); RD_P2 = r; r += 1
@@ -1171,9 +1157,9 @@ put(wsRD, r, 2, 'Intercept (shared costs and net cash, in scale units)'); put(ws
 put(wsRD, r, 2, 'Share price today'); put(wsRD, r, 3, '=share_price', f_norm, USD); put(wsRD, r, 5, '=TEXT(price_date,"d mmm yyyy")', f_sub); r += 1
 put(wsRD, r, 2, 'Scale the current price requires on the Street ramp', f_bold); put(wsRD, r, 3, f'=C{RD_A}*C{r-1}-C{RD_B}', f_bold, NUM3, fill=fill_key); name('rd_k_live', f"'Reverse DCF'!$C${r}"); RD_K = r; r += 1
 put(wsRD, r, 2, 'Rescaling factor versus the spot solve'); put(wsRD, r, 3, f'=C{RD_K}/C{k_spot_row}', f_norm, NUM3); RD_F = r; r += 1
-put(wsRD, r, 2, 'For reference: spot scale under the 7 October convention (2036 revenue held flat to 2038)'); put(wsRD, r, 3, RV_PLAT['k_spot'], f_input, NUM3); put(wsRD, r, 5, f"Guggenheim 2036 growth of {RESOLVE['guggenheim_2036_growth']['IR']:.1%} (IR) and {RESOLVE['guggenheim_2036_growth']['XR']:.1%} (XR) carried two more years; all other inputs unchanged", f_sub); r += 1
+put(wsRD, r, 2, 'For reference: spot scale with 2036 revenue held flat to 2038 (7 October convention)'); put(wsRD, r, 3, RV_PLAT['k_spot'], f_input, NUM3); put(wsRD, r, 5, 'same inputs; carrying growth into 2037-2038 makes the Street path itself bigger, so the scale the price requires is lower', f_sub); r += 1
 put(wsRD, r, 2, 'The linear rescaling is exact inside the reverse model as long as the solved path stays profitable in every taxed year, which holds across the plausible range. It inherits every assumption of that model, including the imposed ramp shape.', f_sub); wsRD.cell(r, 2).alignment = Alignment(wrap_text=True, vertical='top'); wsRD.merge_cells(start_row=r, start_column=2, end_row=r, end_column=12); wsRD.row_dimensions[r].height = 28; r += 2
-band(wsRD, r, 'Required success-case worldwide revenue, USD millions, against this model (both products approved)', 2, 16); r += 1
+band(wsRD, r, 'Step 3. The revenue path today\'s share price requires, against this model (both products approved, USD millions)', 2, 16); r += 1
 yrs_ = [row_[0] for row_ in rr['rows']]
 put(wsRD, r, 2, 'Calendar year', f_hdr, fill=fill_hdr); put(wsRD, r, 3, '', f_hdr, fill=fill_hdr)
 for i, y in enumerate(yrs_):
@@ -1200,12 +1186,30 @@ R_PCT = rdrow('This model as a share of what today\'s price requires', fn=lambda
 r += 1
 put(wsRD, r, 2, 'Peak required, USD m'); put(wsRD, r, 4, f'=MAX(D{R_ST}:{CL(3+len(yrs_))}{R_ST})', f_norm, NUM); put(wsRD, r, 5, 'at $31.83', f_sub); put(wsRD, r, 7, f'=MAX(D{R_LT}:{CL(3+len(yrs_))}{R_LT})', f_norm, NUM); put(wsRD, r, 8, 'at today\'s price', f_sub); put(wsRD, r, 10, f'=MAX(D{R_MT}:{CL(3+len(yrs_))}{R_MT})', f_norm, NUM); put(wsRD, r, 11, 'this model', f_sub); r += 1
 put(wsRD, r, 2, 'Cumulative 2027-2036, USD m'); put(wsRD, r, 4, f'=SUM(D{R_ST}:M{R_ST})', f_norm, NUM); put(wsRD, r, 7, f'=SUM(D{R_LT}:M{R_LT})', f_norm, NUM); put(wsRD, r, 10, f'=SUM(D{R_MT}:M{R_MT})', f_norm, NUM); r += 1
-put(wsRD, r, 2, 'Required ramps are success-case worldwide revenues with the Street shape imposed, carried from 2036 to 2038 at the 2036 growth rates and eroded from 2039. The reverse model has no independently fitted S-curve, so a slower early ramp with a higher peak could support the same price. Source basis of the printed Guggenheim revenues (success-case or already probability-weighted) is not disclosed; the solve treats them as success-case. Replica solve: models/reverse_dcf/resolve_extended.py.', f_sub); wsRD.cell(r, 2).alignment = Alignment(wrap_text=True, vertical='top'); wsRD.merge_cells(start_row=r, start_column=2, end_row=r, end_column=14); wsRD.row_dimensions[r].height = 42; r += 2
+put(wsRD, r, 2, 'Required paths are success-case worldwide revenues with the Street shape imposed, carried from 2036 to 2038 with tapering growth and eroded from 2039. The reverse model has no independently fitted S-curve, so a slower early ramp with a higher peak could support the same price. Source basis of the printed Guggenheim revenues (success-case or already probability-weighted) is not disclosed; the solve treats them as success-case. Replica solve: models/reverse_dcf/resolve_extended.py.', f_sub); wsRD.cell(r, 2).alignment = Alignment(wrap_text=True, vertical='top'); wsRD.merge_cells(start_row=r, start_column=2, end_row=r, end_column=14); wsRD.row_dimensions[r].height = 42; r += 2
 chr_ = LineChart(); chr_.title = 'Required revenue versus this model, USD m'; chr_.height = 8; chr_.width = 20; chr_.style = 2
 for rowi, lab in ((R_ST, 'Required at $31.83'), (R_LT, "Required at today's price"), (R_MT, 'This model')):
     chr_.add_data(Reference(wsRD, min_col=4, max_col=3 + len(yrs_), min_row=rowi), from_rows=True, titles_from_data=False); chr_.series[-1].tx = SeriesLabel(v=lab)
 chr_.set_categories(Reference(wsRD, min_col=4, max_col=3 + len(yrs_), min_row=RDY)); wsRD.add_chart(chr_, f'B{r}')
-widths(wsRD, {'A': 2, 'B': 58, 'C': 13}); wsRD.print_area = f'B1:P{r+20}'
+r += 18; band(wsRD, r, 'Step 4. What the thesis assumptions remove (engine runs at the Crimson inputs; both products approved)', 2, 16); r += 1
+for i, h in enumerate(['Step', 'Peak revenue, USD m', 'Removed', 'Revenue 2027-2038, USD m', 'Removed', 'Free cash flow 2027-2038, USD m', 'Removed', '12-month value, USD per share', 'Removed']): put(wsRD, r, 2 + i, h, f_hdr, fill=fill_hdr, align=Alignment(wrap_text=True, vertical='center'))
+wsRD.row_dimensions[r].height = 40; r += 1; BR0 = r
+def brow(lab, c_, e_, g_, i_, first=False, bold=False):
+    global r; put(wsRD, r, 2, lab, f_bold if bold else f_norm); wsRD.cell(r, 2).alignment = Alignment(wrap_text=True, vertical='top')
+    for col, v, fmt in ((3, c_, NUM), (5, e_, NUM), (7, g_, NUM), (9, i_, USD)):
+        put(wsRD, r, col, v, (f_bold if bold else f_norm) if (isinstance(v, str) and v.startswith('=')) else f_input, fmt)
+        put(wsRD, r, col + 1, '' if first else f'={CL(col)}{r}-{CL(col)}{r-1}', f_bold if bold else f_norm, fmt)
+    r += 1; return r - 1
+for i, (lab, pb, pe, pk, cr_, cf_) in enumerate(bridge):
+    brow(('Street-like starting point. ' if i == 0 else '') + lab, pk, cr_, cf_, pb, first=(i == 0))
+ANN = f'(({AYEARS}>=2027)*({AYEARS}<=2038)*({AFLAG}="A"))'
+BRL = brow('Central case, live engine (equals the last step with no overrides)', f"=MAX({arange('revenue')})", f"=SUMPRODUCT({ANN}*{arange('revenue')})", f"=SUMPRODUCT({ANN}*{arange('fcf')})", '=price_both_target', bold=True)
+put(wsRD, r, 2, 'Removed in total from the Street-like starting point', f_bold); [put(wsRD, r, col + 1, f'={CL(col)}{BRL}-{CL(col)}{BR0}', f_bold, fmt) for col, fmt in ((3, NUM), (5, NUM), (7, NUM), (9, USD))]; r += 1
+put(wsRD, r, 2, 'Street median target, for reference'); put(wsRD, r, 9, '=street_median', f_norm, USD); r += 1
+put(wsRD, r, 2, 'The first row relaxes the redosing haircut, which the engine refuses in active cases; it is shown only to size the assumption. Each later row restores one central-case assumption, and the removed columns show what that assumption takes out of revenue, cash flow and value. Order matters because the effects interact. The end point is the central case, before the Monte Carlo averaging that sets the price target.', f_sub); wsRD.cell(r, 2).alignment = Alignment(wrap_text=True, vertical='top'); wsRD.merge_cells(start_row=r, start_column=2, end_row=r, end_column=16); wsRD.row_dimensions[r].height = 40; r += 1
+for rr_ in range(BR0, BRL + 1): wsRD.row_dimensions[rr_].height = 27
+widths(wsRD, {'A': 2, 'B': 58, 'C': 13}); wsRD.print_area = f'B1:P{r}'
+
 
 # ================================================================== MONTE CARLO (compact) and DCF WALK
 wsK = sheet('Checks', 'C00000'); title(wsK, 'Checks')
@@ -1248,7 +1252,7 @@ put(wsM, r, 2, '12-month value: the price target is the mean', f_bold); put(wsM,
 put(wsM, r, 2, 'Fair value today'); put(wsM, r, 3, sum(vt) / NDRAW, f_input, USD); [put(wsM, r, 4 + i, qtl(vt, pp), f_input, USD) for i, pp in enumerate((0.5, 0.1, 0.9))]; r += 1
 put(wsM, r, 2, '12-month clinical outcomes, four branches weighted once'); put(wsM, r, 3, sum(v * w for v, w in pairs), f_input, USD); [put(wsM, r, 4 + i, wq(pp), f_input, USD) for i, pp in enumerate((0.5, 0.1, 0.9))]; r += 1
 put(wsM, r, 2, 'Share of draws below the share price'); put(wsM, r, 3, sum(1 for v in et if v < PRICE) / NDRAW, f_input, PCT); put(wsM, r, 4, 'a sensitivity statistic under these priors, not a probability of a profitable short', f_sub); r += 1
-MC_DISC = P['discount_rate']['value']
+MC_DISC = CRIM['overrides'].get('discount_rate', P['discount_rate']['value'])
 put(wsM, r, 2, 'Live inputs versus the simulated priors', f_bold); put(wsM, r, 3, f'=IF(SUMPRODUCT(--(Inputs!$H$9:$H${max(INPUT_ROW.values())}<>Inputs!$E$9:$E${max(INPUT_ROW.values())}))+ABS(launch_delay_IR)+ABS(launch_delay_XR)+ABS(loe_year_IR-loe_year)+ABS(loe_year_XR-loe_year)+ABS(discount_rate-{MC_DISC})=0,"Inputs match the simulated baseline","STALE: live inputs differ from the simulated baseline")', f_flag); r += 2
 band(wsM, r, 'Clinical branches', 2, 7); r += 1
 for i, h in enumerate(['Branch', 'Weight', 'Median value, 12 months', 'Median funding, USD m', '', '']): put(wsM, r, 2 + i, h, f_hdr, fill=fill_hdr, align=Alignment(wrap_text=True, vertical='center'))
@@ -1295,13 +1299,52 @@ r = 4; band(wsW, r, 'Price target', 2, DLC); r += 1
 put(wsW, r, 2, '12-month price target: mean value across the 4,096 Monte Carlo draws', f_bold); put(wsW, r, 3, '=mc_mean_target', f_bold, USD, fill=fill_key); name('price_target', f"'DCF Walk'!$C${r}"); r += 1
 put(wsW, r, 2, 'Share price'); put(wsW, r, 3, '=share_price', f_norm, USD); put(wsW, r, 4, '=TEXT(price_date,"d mmm yyyy")', f_sub); r += 1
 put(wsW, r, 2, 'Implied 12-month return', f_bold); put(wsW, r, 3, '=price_target/share_price-1', f_bold, PCT); name('implied_return', f"'DCF Walk'!$C${r}"); r += 1
-put(wsW, r, 2, 'Each draw samples the 28 uncertain inputs, runs the patient engine, the financials and a dated DCF for the four clinical branches, and returns one value. Discounting is linear, so the mean of those values is the DCF of the mean cash flows shown below; only the per-share step (option dilution and the zero floor inside each branch) is applied draw by draw.', f_sub); wsW.cell(r, 2).alignment = Alignment(wrap_text=True, vertical='top'); wsW.merge_cells(start_row=r, start_column=2, end_row=r, end_column=10); wsW.row_dimensions[r].height = 40; r += 2
-band(wsW, r, 'Clinical branches (probabilities applied once, inside the expected cash flows)', 2, DLC); r += 1
-for s_, lab in (('both', 'Both approved'), ('IR_only', 'IR approved, XR fails'), ('XR_only', 'XR approved, IR fails'), ('neither', 'Neither approved')):
-    put(wsW, r, 2, lab); put(wsW, r, 3, f'=w_{s_}', f_norm, PCT); r += 1
-put(wsW, r, 2, 'P(both) = P(IR) x P(XR) / shared molecule gate; the marginals stay at 90% each.', f_sub); r += 2
-band(wsW, r, 'Expected cash flows: probability-weighted across branches and averaged over draws, USD millions', 2, DLC); r += 1
+put(wsW, r, 2, 'Central case, live: probability-weighted 12-month value'); put(wsW, r, 3, '=value_target', f_norm, USD); put(wsW, r, 4, 'section B; moves with every input', f_sub); r += 1
+put(wsW, r, 2, 'Two valuations sit on this tab. Section A is live: the central case flows from Three Statements through the monthly Financial Engine into a dated DCF, and every input change moves it. Section B turns the 90%/90% approval odds into four clinical branches and weights the live branch values into the central-case value. Section C is the saved Monte Carlo: 4,096 runs of the same engine with the 28 uncertain inputs drawn from their priors; its mean is the price target.', f_sub); wsW.cell(r, 2).alignment = Alignment(wrap_text=True, vertical='top'); wsW.merge_cells(start_row=r, start_column=2, end_row=r, end_column=12); wsW.row_dimensions[r].height = 40; r += 2
+band(wsW, r, 'A. Central case, live: both products approved, from Three Statements to a 12-month value (USD millions)', 2, DLC); r += 1
 DY = list(range(2027, END_YEAR + 1)); DC0 = 3
+put(wsW, r, 2, 'Year', f_hdr, fill=fill_hdr)
+for i, y in enumerate(DY): put(wsW, r, DC0 + i, y, f_hdr, fill=fill_hdr, align=Alignment(horizontal='right')); wsW.column_dimensions[CL(DC0 + i)].width = 9.5
+DYR_A = r; r += 1
+yrsF = mrng('Fin Monthly', 3); frT = mrng('Calendar', CAL['frac_tgt']); dfT = mrng('Calendar', CAL['df_tgt']); fcfB = mrng('Fin Monthly', RF[('both', 'fcf')])
+def arow_(label, fn, fmt=NUM, bold=False):
+    global r; put(wsW, r, 2, label, f_bold if bold else f_norm)
+    for i, y in enumerate(DY): put(wsW, r, DC0 + i, fn(i, y), f_bold if bold else f_norm, fmt)
+    r += 1; return r - 1
+A_REV = arow_('Revenue (Three Statements)', lambda i, y: '=' + aref('revenue', y))
+A_EBIT = arow_('Operating income', lambda i, y: '=' + aref('ebit', y))
+A_NI = arow_('Net income', lambda i, y: '=' + aref('ni', y))
+A_FCF = arow_('Free cash flow', lambda i, y: '=' + aref('fcf', y), bold=True)
+A_FA = arow_('Free cash flow after the target date (9 October 2027)', lambda i, y: f"=SUMPRODUCT({fcfB},1-{frT},--({yrsF}={CL(DC0+i)}${DYR_A}))")
+A_PV = arow_('Present value at the target date', lambda i, y: f"=SUMPRODUCT({fcfB},1-{frT},{dfT},--({yrsF}={CL(DC0+i)}${DYR_A}))")
+arow_('Discount factor (present value / cash flow; monthly discounting at the Inputs rate)', lambda i, y: f'=IF({CL(DC0+i)}{A_FA}=0,"",{CL(DC0+i)}{A_PV}/{CL(DC0+i)}{A_FA})', fmt=NUM3)
+arow_('Cumulative present value', lambda i, y: f'=SUM($C${A_PV}:{CL(DC0+i)}${A_PV})')
+r += 1
+VC = lambda key: f"Valuation!$C${VALROW[('tgt', key)]}"
+put(wsW, r, 2, 'Sum of present values, 2027-2055'); put(wsW, r, 3, f'=SUM(C{A_PV}:{CL(DC0+len(DY)-1)}{A_PV})', f_norm, NUM); A_S0 = r; r += 1
+put(wsW, r, 2, 'Residual after 2055 (declining perpetuity at the tail rate)'); put(wsW, r, 3, f'={VC("tv")}', f_norm, NUM); r += 1
+put(wsW, r, 2, 'Cash at the target date (opening cash, cash flows and equity raised before it)'); put(wsW, r, 3, f'={VC("cash")}', f_norm, NUM); r += 1
+put(wsW, r, 2, 'Less issuance fees on equity raised after the target date'); put(wsW, r, 3, f'=-{VC("fees")}', f_norm, NUM); r += 1
+put(wsW, r, 2, 'Equity value, both approved', f_bold); put(wsW, r, 3, f'=MAX(0,SUM(C{A_S0}:C{r-1}))', f_bold, NUM); A_EQ = r; r += 1
+put(wsW, r, 2, 'Check: equals the both-approved branch on the Checks tab'); put(wsW, r, 3, f'=C{A_EQ}-{VC("equity")}', f_norm, NUM3); r += 1
+put(wsW, r, 2, 'Diluted shares, millions (treasury-stock method on the options)'); put(wsW, r, 3, f'={VC("diluted")}', f_norm, NUM3); r += 1
+put(wsW, r, 2, 'Both approved: value per share at the target date', f_bold); put(wsW, r, 3, '=price_both_target', f_bold, USD, fill=fill_key); r += 1
+put(wsW, r, 2, 'Both approved: value per share today'); put(wsW, r, 3, '=price_both_today', f_norm, USD); put(wsW, r, 4, '=TEXT(valuation_date,"d mmm yyyy")', f_sub); r += 1
+put(wsW, r, 2, 'Every cell in this section is a formula on the live engine. The annual rows read Three Statements; the after-target and present-value rows sum the monthly both-approved cash flows on the Financial Engine with the Calendar discount factors, so they tie to the branch DCF on the Checks tab to the cent.', f_sub); wsW.cell(r, 2).alignment = Alignment(wrap_text=True, vertical='top'); wsW.merge_cells(start_row=r, start_column=2, end_row=r, end_column=12); wsW.row_dimensions[r].height = 28; r += 2
+band(wsW, r, 'B. From approval odds to the central-case value: four clinical branches, weighted once', 2, DLC); r += 1
+for lab, f_, note in (('Probability IR is approved', '=ir_pos', 'Inputs; PDUFA decision. 90% is the Guggenheim assumption and the Street norm after two positive Phase 3 trials.'), ('Probability XR is approved', '=xr_pos', 'Inputs; filing assumed in 1H 2027.'), ('Shared molecule gate', '=shared_success', 'IR and XR are the same molecule, so the two decisions are correlated: the gate is the chance that no molecule-level finding sinks both.'), ('Both approved', '=w_both', 'P(IR) x P(XR) / gate'), ('IR approved, XR fails', '=w_IR_only', 'P(IR) - P(both)'), ('XR approved, IR fails', '=w_XR_only', 'P(XR) - P(both)'), ('Neither approved', '=w_neither', '1 - P(IR) - P(XR) + P(both)'), ('Check: the four branches sum to 100%', '=w_both+w_IR_only+w_XR_only+w_neither', '')):
+    put(wsW, r, 2, lab, f_bold if lab.startswith('Both') else f_norm); put(wsW, r, 3, f_, f_bold if lab.startswith('Both') else f_norm, PCT); put(wsW, r, 5, note, f_sub); r += 1
+r += 1
+for i, h in enumerate(['Branch', 'Weight', '12-month value per share, live', 'Weighted value']): put(wsW, r, 2 + i, h, f_hdr, fill=fill_hdr)
+r += 1; B0 = r
+for lab, wname, col in (('Both approved (Three Statements and section A)', 'w_both', 'C'), ('IR approved, XR fails', 'w_IR_only', 'D'), ('XR approved, IR fails', 'w_XR_only', 'E'), ('Neither approved: liquidation value', 'w_neither', 'F')):
+    put(wsW, r, 2, lab); put(wsW, r, 3, f'={wname}', f_norm, PCT); put(wsW, r, 4, f"=Valuation!${col}${VALROW[('tgt', 'price')]}", f_norm, USD); put(wsW, r, 5, f'=C{r}*D{r}', f_norm, USD); r += 1
+put(wsW, r, 2, 'Central case: probability-weighted 12-month value (live)', f_bold); put(wsW, r, 5, f'=SUM(E{B0}:E{r-1})', f_bold, USD, fill=fill_key); r += 1
+put(wsW, r, 2, 'Check: equals the headline on the Checks tab'); put(wsW, r, 5, f'=E{r-1}-value_target', f_norm, NUM3); r += 1
+put(wsW, r, 2, 'Implied 12-month return on the central case'); put(wsW, r, 5, '=value_target/share_price-1', f_norm, PCT); r += 1
+put(wsW, r, 2, 'Each branch runs its own monthly cash flows on the Financial Engine: a failed product carries neither its revenue nor its commercial spend, and the neither branch is a wind-down and liquidation. The branch values are on the Checks tab (engine parity). Three Statements show the both-approved branch.', f_sub); wsW.cell(r, 2).alignment = Alignment(wrap_text=True, vertical='top'); wsW.merge_cells(start_row=r, start_column=2, end_row=r, end_column=12); wsW.row_dimensions[r].height = 28; r += 2
+band(wsW, r, 'C. Monte Carlo mean, saved run: the price target (USD millions, probability-weighted across branches and averaged over 4,096 draws)', 2, DLC); r += 1
+put(wsW, r, 2, 'Not live. Each draw samples the 28 uncertain inputs from their priors, runs this engine for the four branches and returns one value; the mean of those values is the price target. Discounting is linear, so that mean is the DCF of the mean cash flows below. Re-run with models/monte_carlo/expected_path.py when inputs change; the Monte Carlo tab flags when live inputs have moved from the simulated baseline.', f_sub); wsW.cell(r, 2).alignment = Alignment(wrap_text=True, vertical='top'); wsW.merge_cells(start_row=r, start_column=2, end_row=r, end_column=12); wsW.row_dimensions[r].height = 40; r += 1
 put(wsW, r, 2, 'Year', f_hdr, fill=fill_hdr)
 for i, y in enumerate(DY): put(wsW, r, DC0 + i, y, f_hdr, fill=fill_hdr, align=Alignment(horizontal='right')); wsW.column_dimensions[CL(DC0 + i)].width = 9.5
 DYR = r; r += 1
@@ -1310,7 +1353,7 @@ def wrow(label, vals, fmt=NUM, bold=False, font=None):
     for i, v in enumerate(vals): put(wsW, r, DC0 + i, v, font or (f_input if not (isinstance(v, str) and v.startswith('=')) else (f_bold if bold else f_norm)), fmt)
     r += 1; return r - 1
 W_REV = wrow('Expected revenue', [ex4(y, 'revenue') for y in DY])
-W_CEN = wrow('   Central case revenue, both approved (Three Statements, live)', ['=' + aref('revenue', y) for y in DY])
+W_CEN = wrow('   Central case revenue, both approved (section A, live)', ['=' + aref('revenue', y) for y in DY])
 W_COST = wrow('Expected operating costs and tax', [ex4(y, 'revenue') - ex4(y, 'net_income') for y in DY])
 W_NI = wrow('Expected net income', [ex4(y, 'net_income') for y in DY])
 W_FCF = wrow('Expected free cash flow after the target date (success branches)', [ex3(y, 'fcf_after_target') for y in DY], bold=True)
@@ -1352,11 +1395,11 @@ R_KDA = wl('After-tax cost of debt', f'=C{R_KD}*(1-C{R_T})', PCT2)
 R_WE = wl('Equity weight', f'=IF(C{R_D}+C{R_E}=0,1,C{R_E}/(C{R_D}+C{R_E}))', PCT)
 R_WD = wl('Debt weight', f'=1-C{R_WE}', PCT)
 R_W = wl('WACC', f'=C{R_WE}*C{R_KE}+C{R_WD}*C{R_KDA}', PCT2, 'all-equity capital structure, so WACC equals the cost of equity', 'wacc', bold=True)
-R_PR = wl('Premium for single-asset execution and funding risk', 0.022, PCT2, 'backed out, not estimated: sized so that WACC plus premium rounds to the 12% the Monte Carlo draws were run at. Damodaran would add nothing here and handle failure through probabilities, as the branch weights do; Kroll size tables put a $2bn company near 1.2%.', 'single_asset_premium')
-R_SUM = wl('WACC plus premium', f'=C{R_W}+C{R_PR}', PCT2)
-wl('Discount rate used: rounded to 0.1% and written to Inputs', '=discount_rate', PCT, 'Inputs takes ROUND(WACC + premium, 0.1%); it sets the Calendar discount factors for the central case and was the rate inside every Monte Carlo draw.', bold=True, fill=fill_key)
-wl('Street discount rates, September 2026 notes: lowest / median / highest', f"=TEXT(MIN('Street Bridge'!G{ST0}:G{ST1}),\"0.0%\")&\" / \"&TEXT(MEDIAN('Street Bridge'!G{ST0}:G{ST1}),\"0.0%\")&\" / \"&TEXT(MAX('Street Bridge'!G{ST0}:G{ST1}),\"0.0%\")", GEN, 'from the broker table on the Reverse DCF tab; Guggenheim uses a 12.5% WACC')
-if 'discount_rate' in SENSW: wl('Central case 12-month value at a 10% and a 15% discount rate (engine runs)', f"${SENSW['discount_rate']['target_low']:.2f} / ${SENSW['discount_rate']['target_high']:.2f}", GEN, 'the saved one-variable sensitivity on the Monte Carlo tab; the price target itself is fixed at the 12% used in the draws')
+R_PR = wl('Size premium: Kroll CRSP decile 6 (market capitalisation up to $2,365m), data as of 31 December 2022', 0.0116, PCT2, 'Kroll Cost of Capital Navigator size-premium table as reproduced in South Dakota PUC Docket EL23-020, Exhibit AEB-2, Schedule 9; Pharvaris sits in decile 6 at a $2.2bn market cap. The current table is subscription-only.', 'size_premium')
+R_SUM = wl('WACC plus size premium', f'=C{R_W}+C{R_PR}', PCT2)
+wl('Discount rate used: rounded to 0.1% and written to Inputs', '=discount_rate', PCT, 'Inputs takes ROUND(WACC + size premium, 0.1%); it sets the Calendar discount factors for the central case and is the rate inside every Monte Carlo draw.', bold=True, fill=fill_key)
+wl('Street discount rates, September 2026 notes: lowest / median / highest', '=street_discount_rates', GEN, 'from the broker table on the Street Targets tab; Guggenheim uses a 12.5% WACC')
+if 'discount_rate' in SENSW: wl('Central case 12-month value at a 10% and a 15% discount rate (engine runs)', f"${SENSW['discount_rate']['target_low']:.2f} / ${SENSW['discount_rate']['target_high']:.2f}", GEN, 'the saved one-variable sensitivity on the Monte Carlo tab; the price target itself is fixed at the rate used in the draws')
 widths(wsW, {'A': 2, 'B': 66, 'C': 12}); wsW.print_area = f'B1:AE{r}'
 
 # ---- Checks: control totals from the Crimson central case
@@ -1425,6 +1468,7 @@ for k, v in src.items():
 put(wsSo, r + 1, 2, 'Public filings, publications and company materials only; expert-call material is not an input.', f_sub)
 widths(wsSo, {'A': 2, 'B': 14, 'C': 40, 'D': 12, 'E': 3, 'F': 3, 'G': 3, 'H': 3, 'I': 3, 'J': 3, 'K': 3, 'L': 34, 'M': 8, 'N': 90}); wsSo.freeze_panes = 'C5'
 # ================================================================== ALT DATA TABS
+DS_SPAN = {}
 def write_dataset(ws, r, ds, level=0):
     """Generic writer for the agent-compiled datasets."""
     t = ds.get('title', ''); u = ds.get('unit', '')
@@ -1432,13 +1476,14 @@ def write_dataset(ws, r, ds, level=0):
     if u: put(ws, r, 2, u, f_sub); r += 1
     if ds.get('columns') and ds.get('rows') is not None:
         for i, h in enumerate(ds['columns']): put(ws, r, 2 + i, h, f_hdr, fill=fill_hdr, align=Alignment(wrap_text=True))
-        r += 1
+        r += 1; _first = r
         for row_ in ds['rows']:
             for i, v in enumerate(row_):
                 if isinstance(v, (list, dict)): v = json.dumps(v)
                 c = put(ws, r, 2 + i, v, f_input if isinstance(v, (int, float)) and not isinstance(v, bool) else f_norm, NUM2 if isinstance(v, float) else GEN)
                 c.alignment = Alignment(wrap_text=True, vertical='top')
             r += 1
+        DS_SPAN[id(ds)] = (_first, r - 1)
         r += 1
     for key in ('tables', 'subtables'):
         for sk, sd in (ds.get(key) or {}).items():
@@ -1459,6 +1504,12 @@ ALT_TABS = [('Street Targets', [ALT_A['street_targets']]), ('Street Revenue Path
 for nm_, dss in ALT_TABS:
     ws_ = sheet(nm_, '7F7F7F'); title(ws_, nm_); r = 4
     for ds in dss: r = write_dataset(ws_, r, ds)
+    if nm_ == 'Street Targets':
+        a_, b_ = DS_SPAN[id(dss[0])]
+        put(ws_, r, 2, 'Median price target', f_bold); put(ws_, r, 4, f'=MEDIAN(D{a_}:D{b_})', f_bold, USD); name('street_median', f"'Street Targets'!$D${r}"); r += 1
+        put(ws_, r, 2, 'Lowest / highest target'); put(ws_, r, 4, f'=TEXT(MIN(D{a_}:D{b_}),"$0")&" / "&TEXT(MAX(D{a_}:D{b_}),"$0")', f_norm, GEN); r += 1
+        put(ws_, r, 2, 'Discount rates used: lowest / median / highest'); put(ws_, r, 4, f'=TEXT(MIN(G{a_}:G{b_}),"0.0%")&" / "&TEXT(MEDIAN(G{a_}:G{b_}),"0.0%")&" / "&TEXT(MAX(G{a_}:G{b_}),"0.0%")', f_norm, GEN); name('street_discount_rates', f"'Street Targets'!$D${r}"); r += 1
+        put(ws_, r, 2, 'Leerink and Morgan Stanley later updates supersede their earlier figures; Wells Fargo states no terminal growth, which is not no terminal value.', f_sub); r += 1
     widths(ws_, {'A': 2, 'B': 44, 'C': 18, 'D': 14, 'E': 16, 'F': 22, 'G': 22, 'H': 22, 'I': 22, 'J': 22, 'K': 22, 'L': 22})
     ws_.page_setup.fitToWidth = 1
 
@@ -1499,7 +1550,7 @@ for k in ['ir_quantity_multiplier', 'category_switch', 'switch_mature_multiplier
     for c_ in range(2, 8): wsSu.cell(r, c_).alignment = Alignment(vertical='top', horizontal=wsSu.cell(r, c_).alignment.horizontal)
     wsSu.merge_cells(start_row=r, start_column=8, end_row=r, end_column=11); wsSu.row_dimensions[r].height = max(26, 13 * (len(RATIONALE[k]) // 62 + 1)); r += 1
 r += 1; band(wsSu, r, 'Key Drivers (most likely inputs for Monte Carlo)', 2, 6); band(wsSu, r, 'KPIs: key outputs (expected path unless stated)', 7, 11); r += 1
-KPI_L = [('US diagnosed HAE patients, July 2026', '=population', NUM0), ('Net population growth', '=pop_growth', PCT), ('Oral preference among preventive patients', '=prevention_oral_preference', PCT), ('Annual category switching opportunity', '=category_switch', PCT), ('PHVS share of oral choices, launch to mature', '=TEXT(oral_launch_share,"0%")&" to "&TEXT(oral_mature_share,"0%")', GEN), ('PHVS capture of departing oral users', '=oral_destination_capture', PCT), ('Paid access conversion', '=conversion', PCT), ('XR retention, first year and mature', '=TEXT(xr_first_retention,"0.0%")&" / "&TEXT(xr_mature_retention,"0%")', GEN), ('IR annual membership continuation', '=ir_retention', PCT), ('Redosing quantity multiplier (1.17/1.38)', '=ir_quantity_multiplier', NUM3), ('Rescue doses per year, prevention and no prevention', '=TEXT(ir_doses_ltp,"0.0")&" / "&TEXT(ir_doses_other,"0.0")', GEN), ('XR WAC per 28 days / gross-to-net discount', '=TEXT(xr_wac_28days,"$#,##0")&" / "&TEXT(1-xr_net_fraction,"0%")', GEN), ('IR WAC per dose / gross-to-net discount', '=TEXT(ir_wac_dose,"$#,##0")&" / "&TEXT(1-ir_net_fraction,"0%")', GEN), ('XR net price per treatment-year', '=xr_wac_28days*365/28*xr_net_fraction', USD0), ('IR net price per dose', '=ir_wac_dose*ir_net_fraction', USD0), ('Approval odds, IR and XR', '=TEXT(ir_pos,"0%")&" / "&TEXT(xr_pos,"0%")', GEN), ('First full generic year', '=loe_year', '0'), ('Brand revenue drop after generic entry, year 1 / year 4', '=TEXT(1-INDEX(xr_r_idx,MATCH(loe_year,loe_years,0)),"0%")&" / "&TEXT(1-INDEX(xr_r_idx,MATCH(loe_year+3,loe_years,0)),"0%")', GEN), ('Discount rate used / WACC build', '=TEXT(discount_rate,"0.0%")&" / "&TEXT(wacc,"0.0%")', GEN)]
+KPI_L = [('US diagnosed HAE patients, July 2026', '=population', NUM0), ('Net population growth', '=pop_growth', PCT), ('Oral preference among preventive patients', '=prevention_oral_preference', PCT), ('Annual category switching opportunity', '=category_switch', PCT), ('PHVS share of oral choices, launch to mature', '=TEXT(oral_launch_share,"0%")&" to "&TEXT(oral_mature_share,"0%")', GEN), ('PHVS capture of departing oral users', '=oral_destination_capture', PCT), ('Paid access conversion', '=conversion', PCT), ('XR retention, first year and mature', '=TEXT(xr_first_retention,"0.0%")&" / "&TEXT(xr_mature_retention,"0%")', GEN), ('IR annual membership continuation', '=ir_retention', PCT), ('Redosing quantity multiplier (1.17/1.38)', '=ir_quantity_multiplier', NUM3), ('Rescue doses per year, prevention and no prevention', '=TEXT(ir_doses_ltp,"0.0")&" / "&TEXT(ir_doses_other,"0.0")', GEN), ('XR WAC per 28 days / gross-to-net discount', '=TEXT(xr_wac_28days,"$#,##0")&" / "&TEXT(1-xr_net_fraction,"0%")', GEN), ('IR WAC per dose / gross-to-net discount', '=TEXT(ir_wac_dose,"$#,##0")&" / "&TEXT(1-ir_net_fraction,"0%")', GEN), ('XR net price per treatment-year', '=xr_wac_28days*365/28*xr_net_fraction', USD0), ('IR net price per dose', '=ir_wac_dose*ir_net_fraction', USD0), ('Approval odds, IR / XR; both approved', '=TEXT(ir_pos,"0%")&" / "&TEXT(xr_pos,"0%")&"; "&TEXT(w_both,"0%")&" both"', GEN), ('First full generic year', '=loe_year', '0'), ('Brand revenue drop after generic entry, year 1 / year 4', '=TEXT(1-INDEX(xr_r_idx,MATCH(loe_year,loe_years,0)),"0%")&" / "&TEXT(1-INDEX(xr_r_idx,MATCH(loe_year+3,loe_years,0)),"0%")', GEN), ('Discount rate used / WACC build', '=TEXT(discount_rate,"0.0%")&" / "&TEXT(wacc,"0.0%")', GEN)]
 cum = sum(EXA[str(y)]['revenue'] for y in range(2027, 2037)); first_pos = next((y for y in range(2027, END_YEAR + 1) if EXA[str(y)]['operating_income'] > 0), None)
 KPI_R = [('Expected peak revenue, USD m', XPEAK, NUM), ('Expected peak year', int(XPEAK_Y), '0'), ('Expected revenue 2030, USD m', EXA['2030']['revenue'], NUM), ('Expected revenue 2035, USD m', EXA['2035']['revenue'], NUM), ('Expected cumulative revenue 2027-2036, USD m', cum, NUM), ('XR share of expected peak-year revenue', EXA[XPEAK_Y]['XR_recognized'] / XPEAK, PCT), ('Peak XR penetration of diagnosed patients (central, live)', f'=SUMPRODUCT(MAX(({arange("pop")}>0)*{arange("xr_active")}/({arange("pop")}+({arange("pop")}=0))))', PCT), ('Peak IR penetration of diagnosed patients (central, live)', f'=SUMPRODUCT(MAX(({arange("pop")}>0)*{arange("ir_active")}/({arange("pop")}+({arange("pop")}=0))))', PCT), ('Expected XR active patients, 2031 / 2038', f"{EXA['2031']['xr_active']:,.0f} / {EXA['2038']['xr_active']:,.0f}", GEN), ('Expected IR active members, 2031 / 2038', f"{EXA['2031']['ir_access_active']:,.0f} / {EXA['2038']['ir_access_active']:,.0f}", GEN), ('First year of positive expected operating income', first_pos, '0'), ('Expected equity funding after today, USD m', MCX['expected']['valuation']['future_funding_net_usdm'], NUM), ('Expected shares after modelled funding, m', EXA['2031']['shares_end'], NUM2), ('Central case peak revenue, USD m (live)', f'=MAX({arange("revenue")})', NUM), ('Price target and implied return', '=TEXT(price_target,"$0.00")&" / "&TEXT(implied_return,"0.0%")', GEN), ("Required scale on the Street ramp, today's price", '=rd_k_live', NUM3), ('Monte Carlo 12-month value: median / P10 / P90', f"=TEXT('Monte Carlo'!D6,\"$0.00\")&\" / \"&TEXT('Monte Carlo'!E6,\"$0.00\")&\" / \"&TEXT('Monte Carlo'!F6,\"$0.00\")", GEN), ('Share of draws below the share price', f"='Monte Carlo'!C9", PCT)]
 for i in range(max(len(KPI_L), len(KPI_R))):
@@ -1567,10 +1618,10 @@ put(wsCo, 7, 10, 'Model Map', Font(name='Arial', size=11, bold=True, color='FFFF
 _img2 = XLImage(str(MAP_PNG)); _img2.width, _img2.height = 1616, 695; wsCo.add_image(_img2, 'I8')
 put(wsCo, 12, 5, 'Mean 12-month value across Monte Carlo draws', f_sub)
 r += 2; band(wsCo, r, 'Implied Headline KPIs', 2, 8); r += 1
-for lab, f_, fm in (('Expected peak revenue and year', f'${XPEAK:,.0f}m in {XPEAK_Y}', GEN), ('Peak XR penetration, diagnosed US patients', f'=SUMPRODUCT(MAX(({arange("pop")}>0)*{arange("xr_active")}/({arange("pop")}+({arange("pop")}=0))))', PCT), ('Peak IR penetration, diagnosed US patients', f'=SUMPRODUCT(MAX(({arange("pop")}>0)*{arange("ir_active")}/({arange("pop")}+({arange("pop")}=0))))', PCT), ('XR WAC per 28 days / gross-to-net discount', '=TEXT(xr_wac_28days,"$#,##0")&" / "&TEXT(1-xr_net_fraction,"0%")', GEN), ('IR WAC per dose / gross-to-net discount', '=TEXT(ir_wac_dose,"$#,##0")&" / "&TEXT(1-ir_net_fraction,"0%")', GEN), ('Brand revenue drop post-LOE, year 1 / year 4', '=TEXT(1-INDEX(xr_r_idx,MATCH(loe_year,loe_years,0)),"0%")&" / "&TEXT(1-INDEX(xr_r_idx,MATCH(loe_year+3,loe_years,0)),"0%")&" from "&TEXT(loe_year,"0")', GEN), ('Oral preference among preventive patients', '=prevention_oral_preference', PCT), ('PHVS share of oral choices, launch to mature', '=TEXT(oral_launch_share,"0%")&" to "&TEXT(oral_mature_share,"0%")', GEN), ('Paid access conversion', '=conversion', PCT), ('XR retention, first year / mature', '=TEXT(xr_first_retention,"0.0%")&" / "&TEXT(xr_mature_retention,"0%")', GEN), ('IR annual membership continuation', '=ir_retention', PCT), ('Redosing quantity multiplier (1.17/1.38)', '=ir_quantity_multiplier', NUM3), ('Approval odds, IR and XR', '=TEXT(ir_pos,"0%")&" / "&TEXT(xr_pos,"0%")', GEN), ('Discount rate used; WACC build', '=TEXT(discount_rate,"0.0%")&"; "&TEXT(wacc,"0.0%")', GEN), ('Expected equity funding after today, USD m', MCX['expected']['valuation']['future_funding_net_usdm'], NUM)):
+for lab, f_, fm in (('Expected peak revenue and year', f'${XPEAK:,.0f}m in {XPEAK_Y}', GEN), ('Peak XR penetration, diagnosed US patients', f'=SUMPRODUCT(MAX(({arange("pop")}>0)*{arange("xr_active")}/({arange("pop")}+({arange("pop")}=0))))', PCT), ('Peak IR penetration, diagnosed US patients', f'=SUMPRODUCT(MAX(({arange("pop")}>0)*{arange("ir_active")}/({arange("pop")}+({arange("pop")}=0))))', PCT), ('XR WAC per 28 days / gross-to-net discount', '=TEXT(xr_wac_28days,"$#,##0")&" / "&TEXT(1-xr_net_fraction,"0%")', GEN), ('IR WAC per dose / gross-to-net discount', '=TEXT(ir_wac_dose,"$#,##0")&" / "&TEXT(1-ir_net_fraction,"0%")', GEN), ('Brand revenue drop post-LOE, year 1 / year 4', '=TEXT(1-INDEX(xr_r_idx,MATCH(loe_year,loe_years,0)),"0%")&" / "&TEXT(1-INDEX(xr_r_idx,MATCH(loe_year+3,loe_years,0)),"0%")&" from "&TEXT(loe_year,"0")', GEN), ('Oral preference among preventive patients', '=prevention_oral_preference', PCT), ('PHVS share of oral choices, launch to mature', '=TEXT(oral_launch_share,"0%")&" to "&TEXT(oral_mature_share,"0%")', GEN), ('Paid access conversion', '=conversion', PCT), ('XR retention, first year / mature', '=TEXT(xr_first_retention,"0.0%")&" / "&TEXT(xr_mature_retention,"0%")', GEN), ('IR annual membership continuation', '=ir_retention', PCT), ('Redosing quantity multiplier (1.17/1.38)', '=ir_quantity_multiplier', NUM3), ('Approval odds, IR / XR; both approved', '=TEXT(ir_pos,"0%")&" / "&TEXT(xr_pos,"0%")&"; "&TEXT(w_both,"0%")&" both"', GEN), ('Discount rate used; WACC build', '=TEXT(discount_rate,"0.0%")&"; "&TEXT(wacc,"0.0%")', GEN), ('Expected equity funding after today, USD m', MCX['expected']['valuation']['future_funding_net_usdm'], NUM)):
     put(wsCo, r, 2, lab, f_bold); put(wsCo, r, 4, f_, f_norm if isinstance(f_, str) and f_.startswith('=') else f_input, fm, align=Alignment(horizontal='right')); r += 1
 r += 1; band(wsCo, r, 'Contents', 2, 8); r += 1
-TOC = [('Summary', 'Recommendation, how the target is built, expected financials, thesis assumptions, KPIs'), ('DCF', 'Price target, branch probabilities, expected cash flow walk, cost of equity'), ('Three Statements', 'Central case: income statement, balance sheet, cash flow and schedules, quarterly through 2031 inside the annual columns'), ('Reverse DCF', 'Sell-side targets, Guggenheim path, the ramp the share price requires, value of the thesis assumptions'), ('Operating Build', 'Funnel from diagnosed patients to revenue with its drivers, then the supporting builds'), ('Monte Carlo', '4,096 draws: distribution, branches, priors, drivers, stresses and one-variable sensitivities'), ('INPUTS ------>', 'Every assumption with override, bounds, source and rationale; reported financials; generic-erosion indices'), ('Patient Engine', 'Monthly calendar and the XR and IR patient ledgers by origin cell'), ('Financial Engine', 'Monthly units, prices, revenue and financials for the four clinical branches'), ('SCRAP & DATA ------>', 'Sources register, then one tab per evidence dataset: launches, benchmarks, clinical, analogues, injectables, erosion, Street, payers, population, company facts'), ('Checks', 'Live workbook against the saved engine; accounting and population identities')]
+TOC = [('Summary', 'Recommendation, how the target is built, expected financials, thesis assumptions, KPIs'), ('DCF', 'Price target; live central-case DCF from Three Statements; approval odds to branch weights; Monte Carlo mean walk; WACC build'), ('Three Statements', 'Central case: income statement, balance sheet, cash flow and schedules, quarterly through 2031 inside the annual columns'), ('Reverse DCF', 'Guggenheim path carried to generic entry, the scale the share price requires, required revenue against this model, what the thesis assumptions remove'), ('Operating Build', 'Funnel from diagnosed patients to revenue with its drivers, then the supporting builds'), ('Monte Carlo', '4,096 draws: distribution, branches, priors, drivers, stresses and one-variable sensitivities'), ('INPUTS ------>', 'Every assumption with override, bounds, source and rationale; reported financials; generic-erosion indices'), ('Patient Engine', 'Monthly calendar and the XR and IR patient ledgers by origin cell'), ('Financial Engine', 'Monthly units, prices, revenue and financials for the four clinical branches'), ('SCRAP & DATA ------>', 'Sources register, then one tab per evidence dataset: launches, benchmarks, clinical, analogues, injectables, erosion, Street, payers, population, company facts'), ('Checks', 'Live workbook against the saved engine; accounting and population identities')]
 for nm_, desc in TOC:
     c = put(wsCo, r, 2, nm_, f_bold); sh = nm_.split(' / ')[0]
     from openpyxl.worksheet.hyperlink import Hyperlink as _HL

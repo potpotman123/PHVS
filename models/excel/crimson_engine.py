@@ -29,7 +29,7 @@ bridge = []
 saved = E.resolve; E.resolve = relaxed
 try:
     for lab, o in steps:
-        r = ev(o); bridge.append({'label': lab, 'both_target': r['conditional_valuations']['both']['target']['price'], 'expected_target': r['expected_12month_value'], 'peak': r['conditional_peak']['recognized_revenue_usdm']})
+        r = ev(o); ab = [x for x in r['annual_both_success'] if 2027 <= x['year'] <= 2038]; bridge.append({'label': lab, 'both_target': r['conditional_valuations']['both']['target']['price'], 'expected_target': r['expected_12month_value'], 'peak': r['conditional_peak']['recognized_revenue_usdm'], 'cum_revenue_2027_2038': sum(x['revenue'] for x in ab), 'cum_fcf_2027_2038': sum(x['fcf'] for x in ab), 'cum_net_income_2027_2038': sum(x['net_income'] for x in ab)})
 finally: E.resolve = saved
 out['bridge'] = bridge
 (ROOT / 'models/excel/crimson_results.json').write_text(json.dumps(out, indent=1))

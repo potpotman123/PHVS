@@ -865,9 +865,10 @@
         "JUDGMENT",
         "DAMODARAN_BETAS",
         "DAMODARAN_ERP",
-        "UST_PAR_2026_10"
+        "UST_PAR_2026_10",
+        "KROLL_SIZE_2022"
       ],
-      "translation": "12% used in every draw and in the central case. The DCF tab builds a CAPM cost of equity from Damodaran January 2026 data and the 9 October 2026 Treasury yield and treats the balance as a single-asset execution and funding premium; brokers use 10% to 13%.",
+      "translation": "Research value 12% (judgment). The Crimson case uses 11.0%: the DCF tab builds a 9.81% CAPM cost of equity from Damodaran January 2026 data and the 9 October 2026 Treasury yield, adds the Kroll CRSP decile 6 size premium of 1.16%, and rounds to 0.1%. Brokers use 10% to 15%.",
       "distribution_proposal": "scenario",
       "uncertainty": "epistemic",
       "dependencies": [],
