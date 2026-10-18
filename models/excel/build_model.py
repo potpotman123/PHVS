@@ -1100,7 +1100,7 @@ put(wsP, r, 2, 'Ex-US demand equals the ex-US/US ratio times US sales twelve mon
 widths(wsP, {'A': 2, 'B': 46, 'C': 3})
 
 # ================================================================== STREET BRIDGE (engine counterfactuals + Street data)
-SPX = Path('/private/tmp/claude-501/-Users-kwu-Library-Application-Support-Claude-scratch-workspaces-665f01e2-9652-4512-9fda-0497b55d354c-06f88a99-9105-4941-a8cf-87e6b02aff65-scratch-2026-10-10-7ee708/b9401f11-15ac-4c44-8c9e-8eb278b73abd/scratchpad')
+SPX = ROOT / 'research/altdata'
 ALT_A = json.loads((SPX / 'altdata_A.json').read_text())['datasets']; ALT_B = json.loads((SPX / 'altdata_B.json').read_text())['datasets']
 wsFn = build_funnel()
 bridge = [(b['label'], b['both_target'], b['expected_target'], b['peak'], b.get('cum_revenue_2027_2038', 0), b.get('cum_fcf_2027_2038', 0)) for b in CR['bridge']]
@@ -1196,6 +1196,46 @@ chr_ = LineChart(); chr_.title = 'Required revenue versus this model, USD m'; ch
 for rowi, lab in ((R_ST, 'Required at $31.83'), (R_LT, "Required at today's price"), (R_MT, 'This model')):
     chr_.add_data(Reference(wsRD, min_col=4, max_col=3 + len(yrs_), min_row=rowi), from_rows=True, titles_from_data=False); chr_.series[-1].tx = SeriesLabel(v=lab)
 chr_.set_categories(Reference(wsRD, min_col=4, max_col=3 + len(yrs_), min_row=RDY)); wsRD.add_chart(chr_, f'B{r}')
+r += 18; wsRD.row_breaks.append(Break(id=r - 1))
+band(wsRD, r, 'Step 3b. Each product against launches in its own setting: USD m by year since the first full calendar year', 2, 16); r += 1
+put(wsRD, r, 2, 'The Street path fixes the IR/XR mix: Guggenheim puts 62% of 2036 revenue on IR. Most other notes and this model put the larger share on prophylaxis, so the required ramp is shown both ways, with the Street mix and with this model\'s mix applied to the same required total.', f_sub); wsRD.cell(r, 2).alignment = Alignment(wrap_text=True, vertical='top'); wsRD.merge_cells(start_row=r, start_column=2, end_row=r, end_column=16); wsRD.row_dimensions[r].height = 26; r += 1
+for i, h in enumerate(['Which setting carries the value', 'IR / on-demand, USD m', 'XR / prophylaxis, USD m', 'Prophylaxis share', 'Basis']): put(wsRD, r, 2 + i, h, f_hdr, fill=fill_hdr, align=Alignment(wrap_text=True, vertical='center'))
+wsRD.row_dimensions[r].height = 27; r += 1
+LASTY = CL(3 + len(yrs_))
+for lab, a_, b_, basis in (('Guggenheim, 9 September 2026', 991.5, 614.3, '2036 revenue, EUR at 1.16; the path this tab scales'), ('Leerink, 8 September 2026', 440.0, 1300.0, 'gross peak sales, IR 2037E and XR 2038E'), ('RBC, 9 September 2026', 348.0, 487.0, 'worldwide peak, EUR at 1.16: IR about 300m, XR as the 720m total less IR'), ('This model, central case (live)', f'=MAX(D{R_MIR}:{LASTY}{R_MIR})', f'=MAX(D{R_MXR}:{LASTY}{R_MXR})', 'peak-year revenue by product'), ('History: Firazyr against Takhzyro', 663.0, 1492.7, 'observed peaks of the on-demand and prophylaxis injectables')):
+    put(wsRD, r, 2, lab); put(wsRD, r, 3, a_, f_norm if isinstance(a_, str) else f_input, NUM); put(wsRD, r, 4, b_, f_norm if isinstance(b_, str) else f_input, NUM); put(wsRD, r, 5, f'=D{r}/(C{r}+D{r})', f_norm, PCT); put(wsRD, r, 6, basis, f_sub); r += 1
+r += 1
+YN = 8
+put(wsRD, r, 2, 'Years since the first full calendar year', f_hdr, fill=fill_hdr); put(wsRD, r, 3, 'Launch', f_hdr, fill=fill_hdr)
+for k in range(1, YN + 1): put(wsRD, r, 3 + k, f'Year {k}', f_hdr, fill=fill_hdr, align=Alignment(horizontal='right'))
+LCY = r; r += 1
+def lrow(label, launch, fn=None, vals=None, bold=False):
+    global r; put(wsRD, r, 2, label, f_bold if bold else f_norm); put(wsRD, r, 3, launch, f_sub)
+    for k in range(1, YN + 1):
+        v = fn(k) if fn else (vals[k - 1] if k - 1 < len(vals) else None)
+        if v is not None: put(wsRD, r, 3 + k, v, (f_bold if bold else f_norm) if (isinstance(v, str) and v.startswith('=')) else f_input, NUM)
+    r += 1; return r - 1
+put(wsRD, r, 2, 'On-demand: deucrictibant IR against on-demand launches', f_bold); r += 1
+IR1 = lrow("Required at today's price: IR, Street mix", '2027', fn=lambda k: f'={CL(3+k)}{R_LIR}', bold=True)
+IR2 = lrow("Required at today's price: IR, this model's mix", '2027', fn=lambda k: f'=IF({CL(3+k)}{R_MT}=0,"",{CL(3+k)}{R_LT}*{CL(3+k)}{R_MIR}/{CL(3+k)}{R_MT})')
+IR3 = lrow('Ekterly, oral on-demand: first twelve months', 'Jul 2025', vals=[127.5])
+IR4 = lrow('Firazyr, injectable on-demand', 'Oct 2011', vals=[116.3, 234.8, 364.2, 445.0, 578.5, 663.0])
+IR5 = lrow('Orladeyo, oral prophylaxis, for reference', 'Dec 2020', vals=[122.6, 251.6, 326.0, 437.7, 601.8])
+r += 1
+put(wsRD, r, 2, 'Prophylaxis: deucrictibant XR against prophylaxis launches', f_bold); r += 1
+XR1 = lrow("Required at today's price: XR, Street mix", '2028', fn=lambda k: f'={CL(4+k)}{R_LXR}', bold=True)
+XR2 = lrow("Required at today's price: XR, this model's mix", '2028', fn=lambda k: f'=IF({CL(4+k)}{R_MT}=0,"",{CL(4+k)}{R_LT}*{CL(4+k)}{R_MXR}/{CL(4+k)}{R_MT})')
+XR3 = lrow('Takhzyro, injectable prophylaxis (Takeda fiscal years)', 'Aug 2018', vals=[626.6, 818.1, 921.8, 1108.0, 1241.0, 1468.4, 1492.7])
+XR4 = lrow('Orladeyo, oral prophylaxis', 'Dec 2020', vals=[122.6, 251.6, 326.0, 437.7, 601.8])
+XR5 = lrow('Cinryze, injectable prophylaxis', 'Oct 2008', vals=[97.3, 176.8, None, 321.0, None, 503.0])
+put(wsRD, r, 2, 'Comparators are global reported sales from Shire 10-K filings (Firazyr 2012-2017), Takeda annual reports (Takhzyro, fiscal years ending March, period-average FX), BioCryst releases (Orladeyo 2021-2025), KalVista releases (Ekterly; the second quarter of 2026 is held at the first because Chiesi closed the acquisition before it was reported) and ViroPharma and Shire releases (Cinryze). Detail and links are on the HAE Injectables tab.', f_sub); wsRD.cell(r, 2).alignment = Alignment(wrap_text=True, vertical='top'); wsRD.merge_cells(start_row=r, start_column=2, end_row=r, end_column=16); wsRD.row_dimensions[r].height = 40; r += 2
+def lchart(title, rows_, labels):
+    c_ = LineChart(); c_.title = title; c_.height = 8; c_.width = 15; c_.style = 2; c_.y_axis.title = 'USD m'
+    for rowi, lab in zip(rows_, labels):
+        c_.add_data(Reference(wsRD, min_col=4, max_col=3 + YN, min_row=rowi), from_rows=True, titles_from_data=False); c_.series[-1].tx = SeriesLabel(v=lab)
+    c_.set_categories(Reference(wsRD, min_col=4, max_col=3 + YN, min_row=LCY)); return c_
+wsRD.add_chart(lchart('IR: what the price requires against on-demand launches, USD m', [IR1, IR2, IR3, IR4, IR5], ['Required, Street mix', "Required, this model's mix", 'Ekterly (first 12 months)', 'Firazyr', 'Orladeyo (reference)']), f'B{r}')
+wsRD.add_chart(lchart('XR: what the price requires against prophylaxis launches, USD m', [XR1, XR2, XR3, XR4, XR5], ['Required, Street mix', "Required, this model's mix", 'Takhzyro', 'Orladeyo', 'Cinryze']), f'J{r}')
 r += 18; band(wsRD, r, 'Step 4. What the thesis assumptions remove (engine runs at the Crimson inputs; both products approved)', 2, 16); r += 1
 for i, h in enumerate(['Step', 'Peak revenue, USD m', 'Removed', 'Revenue 2027-2038, USD m', 'Removed', 'Free cash flow 2027-2038, USD m', 'Removed', '12-month value, USD per share', 'Removed']): put(wsRD, r, 2 + i, h, f_hdr, fill=fill_hdr, align=Alignment(wrap_text=True, vertical='center'))
 wsRD.row_dimensions[r].height = 40; r += 1; BR0 = r
@@ -1674,7 +1714,7 @@ def _rw(text, own_sheet):
         def f_ref(m):
             sh = m.group(1) or m.group(2)
             if sh:
-                g, off = OFFS.get(sh, (sh, 0)); prefix = (f"'{g}'" if ' ' in g else g) + '!'
+                g, off = OFFS.get(sh, (sh, 0)); prefix = (f"'{g}'" if (' ' in g or not g[0].isalpha()) else g) + '!'
             else:
                 off = own_off; prefix = ''
             a_ = f"{m.group(3)}{m.group(4)}{int(m.group(5)) + off}"

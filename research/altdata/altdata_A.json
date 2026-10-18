@@ -1,0 +1,2974 @@
+{
+ "datasets": {
+  "street_targets": {
+   "title": "PHVS sell-side price targets, September 2026 notes (12 distinct brokers)",
+   "unit": "PT in USD per share; PoS and discount rate as decimal fractions; 'n.a.' = not stated in the supplied note",
+   "columns": [
+    "Broker",
+    "Note date",
+    "PT USD",
+    "IR PoS",
+    "XR PoS",
+    "Discount rate",
+    "Method / terminal note",
+    "Source ID / PDF page",
+    "Limitations"
+   ],
+   "rows": [
+    [
+     "Wolfe",
+     "2026-09-08",
+     42,
+     "n.a.",
+     "n.a.",
+     "n.a.",
+     "Narrative / multiple framework",
+     "124292892 p1,3",
+     "No numerical DCF or PoS in supplied note"
+    ],
+    [
+     "BofA",
+     "2026-09-08",
+     44,
+     "n.a.",
+     0.7,
+     0.1,
+     "DCF; terminal not disclosed",
+     "124292329 p1,3,4",
+     "XR $21/share; IR $14 derived; HAE total $35; $917m nominal XR peak"
+    ],
+    [
+     "Guggenheim",
+     "2026-09-09",
+     44,
+     0.9,
+     0.9,
+     0.125,
+     "2036; terminal g -5%",
+     "124306319 p1–3",
+     "Detailed ramps; printed tax / PV arithmetic requires normalization"
+    ],
+    [
+     "KBC",
+     "2026-09-08",
+     49,
+     "n.a.",
+     0.9,
+     "n.a.",
+     "6-month target convention",
+     "124291310 p1,3,4",
+     "Insufficient cash-flow detail for complete reconstruction"
+    ],
+    [
+     "Wedbush",
+     "2026-09-08",
+     50,
+     "n.a.",
+     "n.a.",
+     0.15,
+     "SOTP DCF; terminal undisclosed",
+     "124292125 p4,5,7",
+     "IR $24, XR $21, cash $5; PoS absent; table unit-heading inconsistency"
+    ],
+    [
+     "H.C. Wainwright",
+     "2026-09-08",
+     60,
+     0.95,
+     0.9,
+     0.12,
+     "Terminal multiple 6x",
+     "124292122 p1",
+     "AAE PoS 50%; multiple base not specified in supplied paragraph"
+    ],
+    [
+     "RBC",
+     "2026-09-09",
+     62,
+     0.9,
+     "n.a.",
+     0.105,
+     "DCF g1.5% plus 30x 2034 EPS",
+     "124298222 p3,6",
+     "Blended method; AAE PoS80%; do not treat as pure DCF"
+    ],
+    [
+     "Morgan Stanley",
+     "2026-09-09",
+     62,
+     0.9,
+     0.9,
+     0.125,
+     "Terminal g0%",
+     "124295137 p2,3",
+     "XR90% update supersedes stale70% sidebar; AAE70%"
+    ],
+    [
+     "Wells Fargo",
+     "2026-09-09",
+     65,
+     "n.a.",
+     0.9,
+     0.1,
+     "No terminal growth (not no TV)",
+     "124306208 p2",
+     "90% stated with liver-signal context; product mapping not fully specified"
+    ],
+    [
+     "Jones",
+     "2026-09-09",
+     65,
+     "n.a.",
+     0.9,
+     0.12,
+     "2035; terminal g0%",
+     "124307375 p3–5",
+     "Total revenue path available; IR/XR split not supplied"
+    ],
+    [
+     "Leerink",
+     "2026-09-08",
+     65,
+     0.95,
+     0.95,
+     0.13,
+     "2040; terminal g2%",
+     "124293821 p1,4–6",
+     "Updated note supersedes same-day $50 / XR60% follow-up appendix"
+    ],
+    [
+     "Cantor",
+     "2026-09-14",
+     65,
+     "n.a.",
+     "n.a.",
+     0.12,
+     "Beyond2040; terminal g4%",
+     "124381519 p3",
+     "PoS absent; terminal growth matters independently of adoption"
+    ]
+   ],
+   "notes": [
+    "Transcribed from the workbook 'Street evidence' sheet rows 7-18 (values, openpyxl data_only).",
+    "Range of 12 distinct PTs: USD 42-65. Closest to spot: Wolfe 42, BofA 44, Guggenheim 44, KBC 49, Wedbush 50.",
+    "Leerink: later 8-Sep note (124293821, PT 65, XR PoS 95%) supersedes same-day 124292103 (PT 50, PoS 50/60%); counted once.",
+    "Morgan Stanley: p2 XR PoS 90% update supersedes stale 70% on p3.",
+    "RBC blends DCF (g 1.5%) with 30x 2034 EPS; not a pure DCF. Wells Fargo 'no terminal growth' does not mean no terminal value.",
+    "Guggenheim additional stated assumptions (README): 15% tax from 2031; printed product revenues EUR thousands converted to EUR millions.",
+    "PTs are sell-side opinions, not buy-side consensus; a missing input is not zero."
+   ],
+   "sources": [
+    {
+     "name": "PHVS reverse SOTP/DCF workbook, 'Street evidence' sheet",
+     "date": "2026-10-07",
+     "path": "outputs/01a111f7-26b0-7fc2-b98f-41db76412d40/PHVS_reverse_SOTP_DCF.xlsx"
+    },
+    {
+     "name": "Reverse DCF README (source choice and audit section)",
+     "date": "2026-10-07",
+     "path": "models/reverse_dcf/README.txt"
+    },
+    {
+     "name": "Underlying broker PDFs (user supplied, Sep 2026)",
+     "date": "2026-09-08 to 2026-09-14",
+     "path": "references/user_supplied/sellside_2026-10-07/"
+    }
+   ]
+  },
+  "guggenheim_revenue_path": {
+   "title": "Guggenheim (9-Sep-2026, 124306319) PHVS IR/XR revenue path and model required ramps",
+   "unit": "Source path: EUR millions (printed in EUR thousands, converted). USD columns = EUR x 1.16 (derived). Required ramps: worldwide USD millions, success-case.",
+   "columns": [
+    "Calendar year",
+    "IR revenue EURm (source)",
+    "XR revenue EURm (source)",
+    "IR+XR EURm (derived)",
+    "IR USDm at 1.16 (derived)",
+    "XR USDm at 1.16 (derived)",
+    "R&D EURm (source, through 2030)",
+    "G&A EURm (source, through 2030)",
+    "Printed GAAP EBIT EURm",
+    "Printed taxes EURm"
+   ],
+   "rows": [
+    [
+     2026,
+     0,
+     0,
+     0,
+     0,
+     0,
+     138.343,
+     63.394,
+     -205.742,
+     0
+    ],
+    [
+     2027,
+     54.385,
+     0,
+     54.385,
+     63.0866,
+     0,
+     139.726,
+     69.734,
+     -159.2,
+     0
+    ],
+    [
+     2028,
+     109.336,
+     64.981,
+     174.317,
+     126.82976,
+     75.37796,
+     141.124,
+     73.22,
+     -44.276,
+     0
+    ],
+    [
+     2029,
+     219.809,
+     146.126,
+     365.935,
+     254.97844,
+     169.50616,
+     142.535,
+     73.952,
+     145.071,
+     0
+    ],
+    [
+     2030,
+     303.809,
+     220.893,
+     524.702,
+     352.41844,
+     256.23588,
+     135.408,
+     74.692,
+     310.094,
+     0
+    ],
+    [
+     2031,
+     416.439,
+     289.175,
+     705.614,
+     483.06924,
+     335.443,
+     null,
+     null,
+     503.665,
+     24.583
+    ],
+    [
+     2032,
+     502.326,
+     350.867,
+     853.193,
+     582.69816,
+     407.00572,
+     null,
+     null,
+     662.536,
+     99.38
+    ],
+    [
+     2033,
+     589.094,
+     405.859,
+     994.953,
+     683.34904,
+     470.79644,
+     null,
+     null,
+     814.359,
+     246.117
+    ],
+    [
+     2034,
+     676.751,
+     454.041,
+     1130.792,
+     785.03116,
+     526.68756,
+     null,
+     null,
+     959.153,
+     143.873
+    ],
+    [
+     2035,
+     765.304,
+     495.304,
+     1260.608,
+     887.75264,
+     574.55264,
+     null,
+     null,
+     1105.473,
+     165.821
+    ],
+    [
+     2036,
+     854.76,
+     529.535,
+     1384.295,
+     991.5216,
+     614.2606,
+     null,
+     null,
+     1243.994,
+     186.599
+    ]
+   ],
+   "subtables": {
+    "required_success_case_worldwide_sales_at_31_83_spot_and_44_g": {
+     "title": "Required success-case worldwide sales at $31.83 spot and $44 Guggenheim PT (common-scale solve, 90%/90% PoS)",
+     "unit": "USD millions, undiscounted; Risk-weighted = x0.9 PoS",
+     "columns": [
+      "Calendar year",
+      "Spot IR",
+      "Spot XR",
+      "Spot combined",
+      "Spot risk-weighted combined",
+      "PT44 IR",
+      "PT44 XR",
+      "PT44 combined",
+      "PT44 risk-weighted combined"
+     ],
+     "rows": [
+      [
+       2027,
+       63.75394,
+       0,
+       63.75394,
+       57.378546,
+       73.563077,
+       0,
+       73.563077,
+       66.206769
+      ],
+      [
+       2028,
+       128.171385,
+       76.17532,
+       204.346704,
+       183.912034,
+       147.891745,
+       87.895602,
+       235.787347,
+       212.208612
+      ],
+      [
+       2029,
+       257.675641,
+       171.299222,
+       428.974863,
+       386.077376,
+       297.321437,
+       197.655202,
+       494.976639,
+       445.478975
+      ],
+      [
+       2030,
+       356.146376,
+       258.946382,
+       615.092758,
+       553.583482,
+       410.942811,
+       298.787693,
+       709.730505,
+       638.757454
+      ],
+      [
+       2031,
+       488.17922,
+       338.991367,
+       827.170587,
+       744.453528,
+       563.290137,
+       391.148344,
+       954.438482,
+       858.994634
+      ],
+      [
+       2032,
+       588.86203,
+       411.311089,
+       1000.173118,
+       900.155807,
+       679.463935,
+       474.595128,
+       1154.059063,
+       1038.653157
+      ],
+      [
+       2033,
+       690.57761,
+       475.776596,
+       1166.354207,
+       1049.718786,
+       796.829404,
+       548.979255,
+       1345.808658,
+       1211.227793
+      ],
+      [
+       2034,
+       793.335339,
+       532.258941,
+       1325.59428,
+       1193.034852,
+       915.397366,
+       614.151934,
+       1529.5493,
+       1376.59437
+      ],
+      [
+       2035,
+       897.143423,
+       580.630345,
+       1477.773768,
+       1329.996391,
+       1035.177289,
+       669.965729,
+       1705.143018,
+       1534.628716
+      ],
+      [
+       2036,
+       1002.010067,
+       620.758342,
+       1622.768409,
+       1460.491568,
+       1156.178642,
+       716.267791,
+       1872.446434,
+       1685.201791
+      ],
+      [
+       2037,
+       1002.010067,
+       620.758342,
+       1622.768409,
+       1460.491568,
+       1156.178642,
+       716.267791,
+       1872.446434,
+       1685.201791
+      ],
+      [
+       2038,
+       1002.010067,
+       620.758342,
+       1622.768409,
+       1460.491568,
+       1156.178642,
+       716.267791,
+       1872.446434,
+       1685.201791
+      ],
+      [
+       2039,
+       478.1462,
+       296.217825,
+       774.364024,
+       696.927622,
+       551.713443,
+       341.793694,
+       893.507138,
+       804.156424
+      ],
+      [
+       2040,
+       363.087718,
+       224.93759,
+       588.025308,
+       529.222777,
+       418.952143,
+       259.546332,
+       678.498475,
+       610.648627
+      ],
+      [
+       2041,
+       288.051076,
+       178.451409,
+       466.502485,
+       419.852237,
+       332.370415,
+       205.90782,
+       538.278235,
+       484.450412
+      ],
+      [
+       2042,
+       218.871717,
+       135.593891,
+       354.465608,
+       319.019047,
+       252.547168,
+       156.456274,
+       409.003441,
+       368.103097
+      ],
+      [
+       2043,
+       164.35245,
+       101.818493,
+       266.170943,
+       239.553849,
+       189.639605,
+       117.484215,
+       307.12382,
+       276.411438
+      ],
+      [
+       2044,
+       123.413515,
+       76.456287,
+       199.869802,
+       179.882822,
+       142.401833,
+       88.219798,
+       230.621631,
+       207.559468
+      ],
+      [
+       2045,
+       92.672155,
+       57.411612,
+       150.083767,
+       135.07539,
+       106.930628,
+       66.244923,
+       173.175551,
+       155.857996
+      ],
+      [
+       2046,
+       69.588232,
+       43.11082,
+       112.699051,
+       101.429146,
+       80.295029,
+       49.743821,
+       130.038849,
+       117.034964
+      ],
+      [
+       2047,
+       52.254337,
+       32.372245,
+       84.626582,
+       76.163924,
+       60.294153,
+       37.353016,
+       97.647169,
+       87.882452
+      ],
+      [
+       2048,
+       39.238182,
+       24.308567,
+       63.546749,
+       57.192074,
+       45.275342,
+       28.048666,
+       73.324008,
+       65.991607
+      ],
+      [
+       2049,
+       29.464252,
+       18.253489,
+       47.717741,
+       42.945967,
+       33.997601,
+       21.061959,
+       55.05956,
+       49.553604
+      ],
+      [
+       2050,
+       22.124933,
+       13.706685,
+       35.831618,
+       32.248456,
+       25.529059,
+       15.815586,
+       41.344646,
+       37.210181
+      ],
+      [
+       2051,
+       16.613782,
+       10.292455,
+       26.906237,
+       24.215613,
+       19.169966,
+       11.876045,
+       31.046011,
+       27.94141
+      ],
+      [
+       2052,
+       12.475416,
+       7.728683,
+       20.204099,
+       18.183689,
+       14.394875,
+       8.917813,
+       23.312688,
+       20.981419
+      ],
+      [
+       2053,
+       9.367885,
+       5.803528,
+       15.171413,
+       13.654272,
+       10.809222,
+       6.696454,
+       17.505676,
+       15.755109
+      ],
+      [
+       2054,
+       7.034417,
+       4.357913,
+       11.39233,
+       10.253097,
+       8.116728,
+       5.028419,
+       13.145146,
+       11.830632
+      ],
+      [
+       2055,
+       5.282198,
+       3.272391,
+       8.554588,
+       7.699129,
+       6.094913,
+       3.775878,
+       9.870791,
+       8.883712
+      ]
+     ]
+    },
+    "solve_summary_at_spot_vs_44_pt": {
+     "title": "Solve summary at spot vs $44 PT",
+     "unit": "mixed; see row label",
+     "columns": [
+      "Metric",
+      "Spot $31.83",
+      "PT $44",
+      "Note"
+     ],
+     "rows": [
+      [
+       "Target price USD",
+       31.83,
+       44,
+       "Spot snapshot 7-Oct-2026 16:13 UTC vs Guggenheim PT (1-year horizon convention)"
+      ],
+      [
+       "Target horizon years",
+       0,
+       1,
+       "Inputs E7 convention: spot 0; broker 1"
+      ],
+      [
+       "Common IR/XR revenue scale (x Guggenheim path)",
+       1.010578,
+       1.166065,
+       "Multiplier on source ramps required to reprice target; derived"
+      ],
+      [
+       "Normalized 1x reference value USD/share",
+       31.334648,
+       35.251479,
+       "Value of unscaled source path under normalized DCF; derived"
+      ],
+      [
+       "Peak combined worldwide sales USDm",
+       1622.768409,
+       1872.446434,
+       "2036 plateau, success-case; derived"
+      ],
+      [
+       "Cumulative sales 2027-2036 USDm",
+       8732.002634,
+       10075.502521,
+       "Undiscounted success-case; derived"
+      ],
+      [
+       "Cumulative sales 2027-2055 USDm",
+       15203.671797,
+       17542.898226,
+       "Undiscounted success-case; derived"
+      ],
+      [
+       "Cumulative sales 2056 onward USDm",
+       25.788453,
+       29.756247,
+       "Geometric tail; derived"
+      ],
+      [
+       "Lifetime cumulative sales USDm",
+       15229.46025,
+       17572.654473,
+       "Undiscounted success-case; derived"
+      ],
+      [
+       "PV residual 2056 onward EURm",
+       0.252193,
+       0.303408,
+       "derived"
+      ],
+      [
+       "Residual / equity value",
+       0.000121,
+       0.000118,
+       "derived"
+      ]
+     ]
+    },
+    "parameters": {
+     "title": "Workbook parameters and PoS basis",
+     "unit": "mixed; see row label",
+     "columns": [
+      "Parameter",
+      "Value",
+      "Note"
+     ],
+     "rows": [
+      [
+       "USD per EUR",
+       1.16,
+       "Inputs E29; explicit FX assumption, not inferred from rounded PT"
+      ],
+      [
+       "IR PoS",
+       0.9,
+       "Inputs E16; Guggenheim p1"
+      ],
+      [
+       "XR PoS",
+       0.9,
+       "Inputs E17; Guggenheim p1"
+      ],
+      [
+       "Revenue basis switch (1 success / 2 risk-adjusted)",
+       1,
+       "Inputs E15; default treats printed revenues as success-case; source basis UNCONFIRMED"
+      ],
+      [
+       "Source basis confirmation flag",
+       0,
+       "Inputs E38; 0 = not verified"
+      ],
+      [
+       "Discount rate",
+       0.125,
+       "Inputs E20; Guggenheim 12.5% WACC"
+      ],
+      [
+       "Cash tax rate",
+       0.15,
+       "Inputs E23; Guggenheim 15% from 2031"
+      ],
+      [
+       "First cash-tax year",
+       2031,
+       "Inputs E24"
+      ],
+      [
+       "COGS / revenue",
+       0.1,
+       "Inputs E25; derived from Guggenheim p2"
+      ],
+      [
+       "Working capital / revenue",
+       0.05,
+       "Inputs E26; assumption"
+      ],
+      [
+       "Annual capex EURm",
+       0.6,
+       "Inputs E27; assumption"
+      ],
+      [
+       "Diluted shares (millions)",
+       76.125,
+       "Inputs E30; Guggenheim p3 projection (basic shares 70.204506m at 30-Jun-2026)"
+      ],
+      [
+       "Cash at 30-Jun-2026 EURm",
+       318.282453,
+       "Inputs E31; Pharvaris 6-K"
+      ],
+      [
+       "Estimated cash at valuation EURm",
+       270.890477,
+       "Inputs E37; derived"
+      ],
+      [
+       "Long-run annual revenue change after erosion year 4",
+       -0.249092,
+       "Inputs E21; Kuvan 2021-24 CAGR proxy"
+      ],
+      [
+       "IR / XR first full generic-exposed year",
+       "2039 / 2039",
+       "Inputs E54/E55; scenario after Nov-2038 patent date"
+      ],
+      [
+       "Guggenheim terminal growth (source)",
+       -0.05,
+       "Street evidence I9 / README; replaced in workbook by explicit erosion schedule"
+      ],
+      [
+       "Guggenheim published equity value EURm",
+       2932.074,
+       "Street evidence E46; not forced into normalized DCF"
+      ],
+      [
+       "Guggenheim published PT USD",
+       44,
+       "Street evidence E40"
+      ]
+     ]
+    },
+    "first_full_calendar_year_100_guggenheim_ramp_audit": {
+     "title": "First full calendar year = 100 (Guggenheim ramp audit)",
+     "unit": "index; first full calendar year = 100",
+     "columns": [
+      "Series",
+      "Status",
+      "Unit of raw series",
+      "First calendar year",
+      "Year1",
+      "Year2",
+      "Year3",
+      "Year4"
+     ],
+     "rows": [
+      [
+       "Guggenheim IR",
+       "forecast",
+       "EURm",
+       2028,
+       100,
+       201.039914,
+       277.867308,
+       380.88004
+      ],
+      [
+       "Guggenheim XR",
+       "forecast",
+       "EURm",
+       2029,
+       100,
+       151.166117,
+       197.894283,
+       240.112643
+      ],
+      [
+       "Orladeyo",
+       "observed",
+       "USDm",
+       2021,
+       100,
+       205.220228,
+       265.905383,
+       357.014682
+      ],
+      [
+       "Cerdelga",
+       "observed",
+       "EURm",
+       2015,
+       100,
+       160.606061,
+       190.909091,
+       240.909091
+      ],
+      [
+       "Trikafta/Kaftrio",
+       "observed",
+       "USDm",
+       2020,
+       100,
+       147.450696,
+       198.949221,
+       null
+      ]
+     ]
+    }
+   },
+   "notes": [
+    "Guggenheim p1-3: 90%/90% PoS, 12.5% WACC, -5% terminal growth, 15% tax from 2031. Whether printed product revenues already incorporate PoS is not unambiguously disclosed (README).",
+    "2031-2036 R&D and G&A are not disclosed by the source; the workbook holds 2030 levels flat.",
+    "Printed GAAP EBIT follows the p2 pre-tax income row; printed after-tax EBIT adds positive tax entries 2031-34 (source arithmetic flag).",
+    "Guggenheim 2036 endpoints at 1.16: IR USD 991.5m, XR USD 614.3m (HAE injectable audit JSON)."
+   ],
+   "sources": [
+    {
+     "name": "Workbook 'Street evidence' rows 23-37, 'Inputs', 'Reverse SOTP', 'DCF'",
+     "date": "2026-10-07",
+     "path": "outputs/01a111f7-26b0-7fc2-b98f-41db76412d40/PHVS_reverse_SOTP_DCF.xlsx"
+    },
+    {
+     "name": "Reverse DCF verification results (base + broker-target tests)",
+     "date": "2026-10-07",
+     "path": "models/reverse_dcf/verification.json"
+    },
+    {
+     "name": "Reverse DCF README",
+     "date": "2026-10-07",
+     "path": "models/reverse_dcf/README.txt"
+    },
+    {
+     "name": "Guggenheim ramp audit",
+     "date": "2026-10-08",
+     "path": "research/guggenheim_ramp_audit_2026-10-08.json"
+    },
+    {
+     "name": "Guggenheim note 124306319 extracted text",
+     "date": "2026-09-09",
+     "path": "research/raw/sellside_2026-10-07/124306319.txt"
+    }
+   ]
+  },
+  "hae_injectable_revenues": {
+   "title": "HAE injectable product revenue history (Takhzyro, Cinryze, Firazyr, Haegarda) with oral HAE launch references",
+   "unit": "Reported currency in column 4; USD m derived by dividing JPY by rounded period-average JPY/USD where flagged",
+   "columns": [
+    "Product",
+    "Period",
+    "Revenue (reported currency)",
+    "Currency",
+    "Revenue USD m",
+    "JPY per USD used",
+    "Geography / basis",
+    "Status",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Takhzyro",
+     "FY2019 (Apr-Mar, ends 2020-03-31)",
+     68300,
+     "JPY m",
+     626.605505,
+     109,
+     "Global; Takeda annual report",
+     "derived USD at period-average FX",
+     "Takeda FY reports (takeda2019/2021/2023/2025)"
+    ],
+    [
+     "Takhzyro",
+     "FY2020 (Apr-Mar, ends 2021-03-31)",
+     86718,
+     "JPY m",
+     818.09434,
+     106,
+     "Global; Takeda annual report",
+     "derived USD at period-average FX",
+     "Takeda FY reports (takeda2019/2021/2023/2025)"
+    ],
+    [
+     "Takhzyro",
+     "FY2021 (Apr-Mar, ends 2022-03-31)",
+     103242,
+     "JPY m",
+     921.803571,
+     112,
+     "Global; Takeda annual report",
+     "derived USD at period-average FX",
+     "Takeda FY reports (takeda2019/2021/2023/2025)"
+    ],
+    [
+     "Takhzyro",
+     "FY2022 (Apr-Mar, ends 2023-03-31)",
+     151800,
+     "JPY m",
+     1108.029197,
+     137,
+     "Global; Takeda annual report",
+     "derived USD at period-average FX",
+     "Takeda FY reports (takeda2019/2021/2023/2025)"
+    ],
+    [
+     "Takhzyro",
+     "FY2023 (Apr-Mar, ends 2024-03-31)",
+     178700,
+     "JPY m",
+     1240.972222,
+     144,
+     "Global; Takeda annual report",
+     "derived USD at period-average FX",
+     "Takeda FY reports (takeda2019/2021/2023/2025)"
+    ],
+    [
+     "Takhzyro",
+     "FY2024 (Apr-Mar, ends 2025-03-31)",
+     223200,
+     "JPY m",
+     1468.421053,
+     152,
+     "Global; Takeda annual report",
+     "derived USD at period-average FX",
+     "Takeda FY reports (takeda2019/2021/2023/2025)"
+    ],
+    [
+     "Takhzyro",
+     "FY2025 (Apr-Mar, ends 2026-03-31)",
+     223900,
+     "JPY m",
+     1492.666667,
+     150,
+     "Global; Takeda annual report",
+     "derived USD at period-average FX",
+     "Takeda FY reports (takeda2019/2021/2023/2025)"
+    ],
+    [
+     "Cinryze",
+     "2009",
+     97.3,
+     "USD m",
+     97.3,
+     null,
+     "US",
+     "reported",
+     "ViroPharma 10-K / Shire releases"
+    ],
+    [
+     "Cinryze",
+     "2010",
+     176.8,
+     "USD m",
+     176.8,
+     null,
+     "US",
+     "reported",
+     "ViroPharma 10-K / Shire releases"
+    ],
+    [
+     "Cinryze",
+     "2012",
+     321,
+     "USD m",
+     321,
+     null,
+     "US",
+     "reported",
+     "ViroPharma 10-K / Shire releases"
+    ],
+    [
+     "Cinryze",
+     "2014",
+     503,
+     "USD m",
+     503,
+     null,
+     "Shire reported global; acquisition January2014",
+     "reported",
+     "ViroPharma 10-K / Shire releases"
+    ],
+    [
+     "Cinryze",
+     "2016",
+     680.2,
+     "USD m",
+     680.2,
+     null,
+     "global; inherited prior verified Shire evidence",
+     "reported",
+     "ViroPharma 10-K / Shire releases"
+    ],
+    [
+     "Cinryze",
+     "2017",
+     699,
+     "USD m",
+     699,
+     null,
+     "global; rounded company release",
+     "reported",
+     "ViroPharma 10-K / Shire releases"
+    ],
+    [
+     "Cinryze",
+     "FY2019 (Takeda, Apr-Mar)",
+     24300,
+     "JPY m",
+     222.93578,
+     null,
+     "global",
+     "derived USD",
+     "Takeda FY reports"
+    ],
+    [
+     "Cinryze",
+     "FY2025 (Takeda, Apr-Mar)",
+     13300,
+     "JPY m",
+     88.666667,
+     null,
+     "global",
+     "derived USD",
+     "Takeda FY reports"
+    ],
+    [
+     "Firazyr",
+     "2014",
+     364,
+     "USD m",
+     364,
+     null,
+     "global",
+     "reported (rounded)",
+     "Shire releases"
+    ],
+    [
+     "Firazyr",
+     "2017",
+     663,
+     "USD m",
+     663,
+     null,
+     "global",
+     "reported (rounded)",
+     "Shire releases"
+    ],
+    [
+     "Firazyr",
+     "FY2019 (Takeda, Apr-Mar)",
+     32700,
+     "JPY m",
+     300,
+     null,
+     "global",
+     "derived USD",
+     "Takeda FY reports"
+    ],
+    [
+     "Firazyr",
+     "FY2025 (Takeda, Apr-Mar)",
+     16000,
+     "JPY m",
+     106.666667,
+     null,
+     "global",
+     "derived USD",
+     "Takeda FY reports"
+    ],
+    [
+     "Haegarda",
+     "FY2025 (CSL, ends 2025-06-30)",
+     490,
+     "USD m",
+     490,
+     null,
+     "global; CSL product disclosure",
+     "reported",
+     "CSL FY25 results (p30)"
+    ],
+    [
+     "Orladeyo (oral, for reference)",
+     "2021",
+     122.6,
+     "USD m",
+     122.6,
+     null,
+     "global; First full calendar year",
+     "reported",
+     "BioCryst FY2021 final"
+    ],
+    [
+     "Orladeyo (oral, for reference)",
+     "2022",
+     251.6,
+     "USD m",
+     251.6,
+     null,
+     "global; Second full calendar year",
+     "reported",
+     "BioCryst FY2022"
+    ],
+    [
+     "Orladeyo (oral, for reference)",
+     "2023",
+     326,
+     "USD m",
+     326,
+     null,
+     "global; Third full calendar year",
+     "reported",
+     "BioCryst FY2023"
+    ],
+    [
+     "Orladeyo (oral, for reference)",
+     "2024",
+     437.7,
+     "USD m",
+     437.7,
+     null,
+     "global; Fourth full calendar year",
+     "reported",
+     "BioCryst FY2024"
+    ],
+    [
+     "Ekterly (oral, for reference)",
+     "Jul7-Dec31 2025 launch period",
+     49.1,
+     "USD m",
+     49.1,
+     null,
+     "global",
+     "reported",
+     "KalVista FY2025"
+    ],
+    [
+     "Ekterly (oral, for reference)",
+     "Q3 2025",
+     13.7,
+     "USD m",
+     13.7,
+     null,
+     "global",
+     "reported",
+     "KalVista Q3 2025"
+    ],
+    [
+     "Ekterly (oral, for reference)",
+     "Q4 2025",
+     35.4,
+     "USD m",
+     35.4,
+     null,
+     "global",
+     "derived (49.1 less 13.7, rounded inputs)",
+     "KalVista"
+    ],
+    [
+     "Ekterly (oral, for reference)",
+     "Q1 2026",
+     39.2,
+     "USD m",
+     39.2,
+     null,
+     "global; product revenue only",
+     "reported",
+     "KalVista Q1 2026"
+    ]
+   ],
+   "subtables": {
+    "guggenheim_2036_endpoints_eur_x_1_16_vs_injectable_highs": {
+     "title": "Guggenheim 2036 endpoints (EUR x 1.16) vs injectable highs",
+     "unit": "USD m and ratios",
+     "columns": [
+      "Metric",
+      "Value"
+     ],
+     "rows": [
+      [
+       "Guggenheim_XR_2036_USDm_at_1_16",
+       614.2606
+      ],
+      [
+       "Guggenheim_IR_2036_USDm_at_1_16",
+       991.5216
+      ],
+      [
+       "XR_to_Takhzyro_FY2025",
+       0.411519
+      ],
+      [
+       "XR_to_Cinryze_2017",
+       0.878771
+      ],
+      [
+       "XR_to_Haegarda_FY2025",
+       1.253593
+      ],
+      [
+       "IR_to_Firazyr_2017",
+       1.495508
+      ]
+     ]
+    },
+    "launch_curves": {
+     "title": "Launch curves by year since the first full calendar year (USD m)",
+     "unit": "Year 1 is the first full calendar year after launch (Takhzyro: Takeda fiscal years ending March, FY2019 = year 1). Global reported sales; Ekterly year 1 is derived.",
+     "columns": [
+      "Product",
+      "Setting",
+      "Launch",
+      "Year 1",
+      "Year 2",
+      "Year 3",
+      "Year 4",
+      "Year 5",
+      "Year 6",
+      "Year 7",
+      "Basis"
+     ],
+     "rows": [
+      [
+       "Firazyr",
+       "injectable on-demand",
+       "Oct 2011",
+       116.3,
+       234.8,
+       364.2,
+       445.0,
+       578.5,
+       663.0,
+       null,
+       "calendar 2012-2017; Shire 10-K and results releases; 2017 rounded"
+      ],
+      [
+       "Ekterly",
+       "oral on-demand",
+       "Jul 2025",
+       127.5,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       "DERIVED first 12 months: Q3 2025 13.7 + Q4 2025 35.4 + Q1 2026 39.2 + Q2 2026 held at Q1; company acquired by Chiesi before reporting Q2"
+      ],
+      [
+       "Takhzyro",
+       "injectable prophylaxis",
+       "Aug 2018",
+       626.6,
+       818.1,
+       921.8,
+       1108.0,
+       1241.0,
+       1468.4,
+       1492.7,
+       "Takeda FY2019-FY2025 (April-March), derived USD at period-average FX"
+      ],
+      [
+       "Orladeyo",
+       "oral prophylaxis",
+       "Dec 2020",
+       122.6,
+       251.6,
+       326.0,
+       437.7,
+       601.8,
+       null,
+       null,
+       "calendar 2021-2025; BioCryst releases; 2025 excludes the European business sold 1 October 2025 for the fourth quarter"
+      ],
+      [
+       "Cinryze",
+       "injectable prophylaxis",
+       "Oct 2008",
+       97.3,
+       176.8,
+       null,
+       321.0,
+       null,
+       503.0,
+       null,
+       "US 2009-2012, Shire global 2014; gaps where not tabulated"
+      ]
+     ],
+     "sources": [
+      {
+       "name": "Shire FY2014 10-K (FIRAZYR 2013-2014)",
+       "date": "2015-02",
+       "url": "https://www.sec.gov/Archives/edgar/data/0000936402/000095010315001422/dp53559_10k.htm"
+      },
+      {
+       "name": "Shire FY2013 results (FIRAZYR 2012-2013)",
+       "date": "2014-02",
+       "url": "https://www.sec.gov/Archives/edgar/data/0000936402/000095010314001055/dp43946_ex9901.htm"
+      },
+      {
+       "name": "Shire FY2016 10-K (FIRAZYR 2015-2016)",
+       "date": "2017-02",
+       "url": "https://www.sec.gov/Archives/edgar/data/0000936402/000093640217000008/q410k-12312016.htm"
+      },
+      {
+       "name": "BioCryst full year 2025 results (ORLADEYO $601.8m)",
+       "date": "2026-02-26",
+       "url": "https://ir.biocryst.com/node/27811"
+      }
+     ]
+    }
+   },
+   "notes": [
+    "Takhzyro FY2025 nearly flat in yen (+0.3%); US sales fell 6.4% in reported yen. FY2018 (partial Takeda ownership) excluded.",
+    "Cinryze: 2009/2010/2012 are US figures; 2014 onward global. 2017 high followed by supply constraints (2017), competition and Q4 destocking (2018). 2016 value 680.2 inherited from prior verified Shire evidence.",
+    "Firazyr 2017 USD 663m is a recovered high benchmark, not a certified lifetime peak; later decline not decomposed.",
+    "Haegarda older standalone series not reconstructed. Historical highs are nominal dollars and should not be summed into a market total."
+   ],
+   "sources": [
+    {
+     "name": "HAE injectable revenue audit (JSON with URLs)",
+     "date": "2026-10-08",
+     "path": "research/hae_injectable_revenue_audit_2026-10-08.json"
+    },
+    {
+     "name": "HAE injectable revenue audit (text)",
+     "date": "2026-10-08",
+     "path": "output/HAE_injectable_revenue_audit_2026-10-08.txt"
+    },
+    {
+     "name": "Takeda FY2019 Q4 report",
+     "date": "2020",
+     "url": "https://assets-dam.takeda.com/raw/upload/v1675192495/legacy-dotcom/siteassets/system/investors/quarterly-announcements/fy2019/qr2019_q4_d_en.pdf"
+    },
+    {
+     "name": "Takeda FY2021 Q4 report",
+     "date": "2022",
+     "url": "https://assets-dam.takeda.com/raw/upload/v1662727332/legacy-dotcom/siteassets/system/investors/report/quarterlyannouncements/fy2021/qr2021_q4_qfr_en.pdf"
+    },
+    {
+     "name": "Takeda FY2023 Q4 report",
+     "date": "2024",
+     "url": "https://assets-dam.takeda.com/image/upload/v1715219694/Global/Investor/Financial-Results/FY2023/Q4/qr2023_q4_f_en.pdf"
+    },
+    {
+     "name": "Takeda FY2025 Q4 report",
+     "date": "2026-06-05",
+     "url": "https://assets-dam.takeda.com/image/upload/v1780626052/Global/Investor/Financial-Results/FY2025/Q4_0605/qr2025_q4_qfr_en_20260605.pdf"
+    },
+    {
+     "name": "ViroPharma 10-K (Cinryze 2009-2010)",
+     "date": "2011",
+     "url": "https://www.sec.gov/Archives/edgar/data/946840/000119312511045119/d10k.htm"
+    },
+    {
+     "name": "Shire acquisition release (Cinryze 2012 US)",
+     "date": "2013",
+     "url": "https://www.takeda.com/newsroom/shire-news-releases/2013/shire-to-acquire-viropharma/"
+    },
+    {
+     "name": "Shire FY2014 release",
+     "date": "2015",
+     "url": "https://www.takeda.com/newsroom/shire-news-releases/2015/shire-delivers-record-revenues-and-non-gaap-earnings-per-ads-in-2014-and-enters-2015-with/"
+    },
+    {
+     "name": "Shire FY2017 Q4 release",
+     "date": "2018",
+     "url": "https://assets-dam.takeda.com/image/upload/v1687364168/Global/Investor/Legacy-Shire/2017/FY2017_Q4_Press_Release.pdf"
+    },
+    {
+     "name": "Shire 2018 6-K",
+     "date": "2019",
+     "url": "https://www.sec.gov/Archives/edgar/data/1395064/000119312519041569/d657624d6k.htm"
+    },
+    {
+     "name": "CSL FY25 results release",
+     "date": "2025-08",
+     "url": "https://investors.csl.com/pdf/56bf77f4-8eff-40ff-bb67-c890e3a3476e/CSL-FY25-Results-and-Major-Strategic-Initiatives.pdf?Platform=ListPage"
+    },
+    {
+     "name": "Orladeyo/Ekterly launch revenue (workbook Street evidence rows 50-58, Launch comparison rows 55-59)",
+     "date": "2026-10-07",
+     "url": "https://ir.kalvista.com/node/12706/html"
+    },
+    {
+     "name": "Orladeyo launch analogue primary-source index",
+     "date": "2026-10-07",
+     "path": "output/Orladeyo_launch_analogue_2026-10-07.txt"
+    }
+   ]
+  },
+  "generic_erosion_panel": {
+   "title": "Post-generic erosion evidence panel: Kuvan / Xenazine / Orfadin revenue, Health Affairs P/Q labels, 50/50 blend, CMS Part D P x Q",
+   "unit": "see subtables",
+   "columns": [
+    "Brand",
+    "Year",
+    "Revenue m",
+    "Currency",
+    "Retained vs 2020 (derived)",
+    "Annual change (derived)",
+    "Status / coverage"
+   ],
+   "rows": [
+    [
+     "Kuvan",
+     2019,
+     463.4,
+     "USD m",
+     1.012454,
+     null,
+     "Reported"
+    ],
+    [
+     "Kuvan",
+     2020,
+     457.7,
+     "USD m",
+     1,
+     -0.0123,
+     "US generic entry Oct2020"
+    ],
+    [
+     "Kuvan",
+     2021,
+     285.776,
+     "USD m",
+     0.624374,
+     -0.375626,
+     "Reported"
+    ],
+    [
+     "Kuvan",
+     2022,
+     227.577,
+     "USD m",
+     0.497219,
+     -0.203653,
+     "Reported"
+    ],
+    [
+     "Kuvan",
+     2023,
+     180.767,
+     "USD m",
+     0.394946,
+     -0.205689,
+     "Reported"
+    ],
+    [
+     "Kuvan",
+     2024,
+     121,
+     "USD m",
+     0.264365,
+     -0.33063,
+     "Rounded company release"
+    ],
+    [
+     "Xenazine",
+     2015,
+     2201,
+     "DKK",
+     null,
+     null,
+     "Lundbeck product revenue"
+    ],
+    [
+     "Xenazine",
+     2016,
+     1571,
+     "DKK",
+     null,
+     -0.286234,
+     "First full year after Q3 2015 entry"
+    ],
+    [
+     "Xenazine",
+     2017,
+     1049,
+     "DKK",
+     null,
+     -0.332272,
+     "New branded competition also possible"
+    ],
+    [
+     "Orfadin",
+     2020,
+     665,
+     "SEK",
+     null,
+     null,
+     "Sobi worldwide; already post-entry"
+    ],
+    [
+     "Orfadin",
+     2021,
+     459,
+     "SEK",
+     null,
+     -0.309774,
+     "Generic competition and pricing erosion"
+    ]
+   ],
+   "subtables": {
+    "health_affairs_2026_00257_appendix_figures_s_4_s_5_452_formu": {
+     "title": "Health Affairs 2026.00257 appendix Figures S-4/S-5 (452 formulation-specific drug definitions): brand net-price and 30-day Rx index labels",
+     "unit": "index labels; price relative to pre-entry RETAIL price (divide by 64 for net-price retention); Rx index year -1 = 100; year 0 is partial exposure",
+     "columns": [
+      "Year relative to generic entry",
+      "Brand net-price index (rounded label)",
+      "Brand 30-day Rx index (rounded label)"
+     ],
+     "rows": [
+      [
+       -1,
+       64,
+       100
+      ],
+      [
+       0,
+       71,
+       73
+      ],
+      [
+       1,
+       88,
+       24
+      ],
+      [
+       2,
+       112,
+       13
+      ],
+      [
+       3,
+       128,
+       9
+      ],
+      [
+       4,
+       138,
+       8
+      ]
+     ]
+    },
+    "50_50_study_informed_synthetic_p_x_q_kuvan_post_generic_scen": {
+     "title": "50/50 study-informed synthetic P x Q / Kuvan post-generic scenario (pre-entry = 100%)",
+     "unit": "index fractions of pre-entry level; study P = label/64; study Q = label/100; study R = P x Q; Kuvan R = sales/2020 sales; rare P assumed flat 1.0; blend R = .5 study R + .5 Kuvan R; blend Q = .5 study Q + .5 rare Q; effective P = R/Q",
+     "columns": [
+      "Full post-entry year",
+      "Study net-price index",
+      "Study branded volume index",
+      "Study synthetic revenue index",
+      "Kuvan observed revenue index",
+      "Rare-disease assumed net-price index",
+      "Rare-disease implied volume index",
+      "Blended revenue index",
+      "Blended volume index",
+      "Effective blended net-price index"
+     ],
+     "rows": [
+      [
+       1,
+       1.375,
+       0.24,
+       0.33,
+       0.624374,
+       1,
+       0.624374,
+       0.477187,
+       0.432187,
+       1.104122
+      ],
+      [
+       2,
+       1.75,
+       0.13,
+       0.2275,
+       0.497219,
+       1,
+       0.497219,
+       0.362359,
+       0.313609,
+       1.155448
+      ],
+      [
+       3,
+       2,
+       0.09,
+       0.18,
+       0.394946,
+       1,
+       0.394946,
+       0.287473,
+       0.242473,
+       1.185587
+      ],
+      [
+       4,
+       2.15625,
+       0.08,
+       0.1725,
+       0.264365,
+       1,
+       0.264365,
+       0.218433,
+       0.172183,
+       1.26861
+      ]
+     ]
+    },
+    "cms_medicare_part_d_spending_by_drug_brand_rows_with_manufac": {
+     "title": "CMS Medicare Part D spending by drug, brand rows with manufacturer='Overall', 2020-2024",
+     "unit": "gross spending USD m (excludes confidential rebates); raw dosage units; gross USD per raw unit (derived)",
+     "columns": [
+      "Brand",
+      "Year",
+      "Gross spending USD m",
+      "Dosage units",
+      "Claims",
+      "Beneficiaries (blank = suppressed)",
+      "Gross USD per raw unit (derived)",
+      "CMS weighted spend per unit"
+     ],
+     "rows": [
+      [
+       "Kuvan",
+       2020,
+       30.637508,
+       346710,
+       2160,
+       179,
+       88.36638,
+       127.435163
+      ],
+      [
+       "Kuvan",
+       2021,
+       19.517146,
+       217140,
+       1231,
+       119,
+       89.882774,
+       135.96468
+      ],
+      [
+       "Kuvan",
+       2022,
+       10.325178,
+       114782,
+       668,
+       70,
+       89.954683,
+       131.275358
+      ],
+      [
+       "Kuvan",
+       2023,
+       6.80222,
+       74264,
+       426,
+       41,
+       91.595117,
+       136.055213
+      ],
+      [
+       "Kuvan",
+       2024,
+       3.460935,
+       40740,
+       229,
+       27,
+       84.951766,
+       126.922216
+      ],
+      [
+       "Orfadin",
+       2020,
+       0.111688,
+       1125,
+       41,
+       null,
+       99.277893,
+       99.277893
+      ],
+      [
+       "Orfadin",
+       2021,
+       0.334339,
+       2280,
+       49,
+       null,
+       146.639939,
+       176.288004
+      ],
+      [
+       "Orfadin",
+       2022,
+       0.41626,
+       2862,
+       59,
+       null,
+       145.443889,
+       176.507042
+      ],
+      [
+       "Orfadin",
+       2023,
+       0.317274,
+       2100,
+       37,
+       null,
+       151.083033,
+       203.213353
+      ],
+      [
+       "Orfadin",
+       2024,
+       0.242773,
+       2430,
+       49,
+       null,
+       99.906663,
+       111.928023
+      ],
+      [
+       "Xenazine",
+       2020,
+       22.369146,
+       108586,
+       847,
+       126,
+       206.003961,
+       208.402182
+      ],
+      [
+       "Xenazine",
+       2021,
+       14.981265,
+       63137,
+       524,
+       74,
+       237.281862,
+       242.012284
+      ],
+      [
+       "Xenazine",
+       2022,
+       10.860126,
+       39459,
+       332,
+       48,
+       275.225581,
+       269.191112
+      ],
+      [
+       "Xenazine",
+       2023,
+       9.064543,
+       28751,
+       222,
+       37,
+       315.277489,
+       310.556419
+      ],
+      [
+       "Xenazine",
+       2024,
+       5.647362,
+       18942,
+       151,
+       23,
+       298.13971,
+       291.076851
+      ]
+     ]
+    },
+    "cms_2020_to_2024_decomposition_derived": {
+     "title": "CMS 2020 to 2024 decomposition (derived)",
+     "unit": "fractional change",
+     "columns": [
+      "Brand",
+      "Gross spending change",
+      "Dosage units change",
+      "Gross spend per raw unit change"
+     ],
+     "rows": [
+      [
+       "Kuvan",
+       -0.887036,
+       -0.882495,
+       -0.038642
+      ],
+      [
+       "Orfadin",
+       1.17368,
+       1.16,
+       0.006333
+      ],
+      [
+       "Xenazine",
+       -0.747538,
+       -0.825558,
+       0.447252
+      ]
+     ]
+    }
+   },
+   "notes": [
+    "Kuvan: US generic entry October 2020; 2020 anchor already has ~3 months exposure. 2024 rounded to nearest USD m (company release). Retained 2021-24 vs 2020 = 62.44/49.72/39.49/26.44%; 2021-24 CAGR -24.91%.",
+    "Xenazine: Lundbeck total product revenue DKK m; generic entry Q3 2015 (2015 partly exposed); Austedo approval April 2017 adds branded competition.",
+    "Orfadin: Sobi worldwide SEK m; both 2020 and 2021 are post-entry years (corroboration of continuing erosion, not entry curve).",
+    "Health Affairs pooled P x pooled Q is a synthetic scenario, not measured mean revenue (different surviving samples; covariance omitted).",
+    "Pooled benchmarks (erosion audit text): Grabowski 2021 (356 NMEs) branded unit share after 1 year 23% overall / 18% for >$250m pre-entry; BMJ Public Health 2025 (530 substances) generic volume share ~90% after 5 entrants; Health Affairs 271-compound: >90% branded Rx loss, brand net price doubling years 1-4, 57% total net spending decline (not originator erosion)."
+   ],
+   "sources": [
+    {
+     "name": "Workbook 'Street evidence' rows 77-120 and 'Inputs' rows 66-88",
+     "date": "2026-10-07",
+     "path": "outputs/01a111f7-26b0-7fc2-b98f-41db76412d40/PHVS_reverse_SOTP_DCF.xlsx"
+    },
+    {
+     "name": "Reverse DCF README (post-generic calibration sections)",
+     "date": "2026-10-07/08",
+     "path": "models/reverse_dcf/README.txt"
+    },
+    {
+     "name": "Finalized model inputs, 'loe' block",
+     "date": "2026-10-09",
+     "path": "models/finalized/inputs.json"
+    },
+    {
+     "name": "Generic erosion audit",
+     "date": "2026-10-07",
+     "path": "output/PHVS_generic_erosion_audit_2026-10-07.txt"
+    },
+    {
+     "name": "CMS Part D P x Q evidence",
+     "date": "2026-10-07",
+     "url": "https://data.cms.gov/sites/default/files/2026-06/98218f98-166c-4723-8438-c344a4ef96a6/DSD_PTD_RY26_P04_V10_DY24_BGM.csv"
+    },
+    {
+     "name": "BioMarin 2020 10-K (Kuvan 2019/2020)",
+     "date": "2021-02-26",
+     "url": "https://investors.biomarin.com/files/doc_financials/2020/q4/BMRN-BioMarin-Pharmaceutical-Inc-10-K-2021-02-26-pdf_.pdf"
+    },
+    {
+     "name": "BioMarin 2023 10-K note 12 (Kuvan 2021-23)",
+     "date": "2024",
+     "url": "https://www.sec.gov/Archives/edgar/data/1048477/000104847724000016/bmrn-20231231.htm"
+    },
+    {
+     "name": "BioMarin FY2024 release (Kuvan 2024, rounded)",
+     "date": "2025",
+     "url": "https://www.biomarin.com/news/press-releases/biomarin-reports-fourth-quarter-and-full-year-2024-results-sets-full-year-2025-guidance/"
+    },
+    {
+     "name": "Lundbeck Q4 2016 release (Xenazine)",
+     "date": "2017",
+     "url": "https://www.lundbeck.com/content/dam/lundbeck-com/masters/global-site/global-site/investors/reports-and-presentations-/2016/Q4-2016-release.pdf"
+    },
+    {
+     "name": "Lundbeck Q4 2017 release (Xenazine)",
+     "date": "2018",
+     "url": "https://www.lundbeck.com/content/dam/lundbeck-com/masters/global-site/global-site/investors/reports-and-presentations-/2017/Q4-2017-release.pdf"
+    },
+    {
+     "name": "Sobi Q4 2021 report (Orfadin)",
+     "date": "2022-02",
+     "url": "https://www.sobi.com/sites/sobi/files/pr/202202097528-1.pdf"
+    },
+    {
+     "name": "Health Affairs 2026.00257 supplementary appendix pp8-9",
+     "date": "2026-10-05",
+     "url": "https://www.healthaffairs.org/doi/suppl/10.1377/hlthaff.2026.00257/suppl_file/2026-00257_suppl_appendix.pdf"
+    },
+    {
+     "name": "CMS Medicare Part D spending by drug (methodology page)",
+     "date": "2026-06",
+     "url": "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-part-d-spending-by-drug"
+    }
+   ]
+  },
+  "clinical_cross_trial": {
+   "title": "Cross-trial comparison: RAPIDe-3 vs KONFIDENT (on-demand) and CHAPTER-3 vs APeX-2/Orladeyo (prophylaxis)",
+   "unit": "see subtables",
+   "columns": [
+    "setting",
+    "trial",
+    "dose",
+    "endpoint",
+    "active_estimate",
+    "placebo_estimate",
+    "unit",
+    "analysis_population",
+    "source",
+    "comparability_status"
+   ],
+   "rows": [
+    [
+     "acute",
+     "RAPIDe-3",
+     "20mg IR",
+     "initial relief median",
+     "1.28",
+     "not estimable",
+     "hours; 12h window",
+     "88 paired patients",
+     "CTIS results",
+     "Not harmonized to KONFIDENT missingness/rescue/population"
+    ],
+    [
+     "acute",
+     "KONFIDENT",
+     "600mg",
+     "initial relief median FDA",
+     "1.99",
+     "not estimable",
+     "hours; 12h window",
+     "93 active attacks;84 placebo",
+     "FDA Table11 PDF56",
+     "FDA revised missingness"
+    ],
+    [
+     "acute",
+     "KONFIDENT",
+     "600mg",
+     "initial relief median publication",
+     "1.79",
+     "6.72",
+     "hours; 12h window",
+     "93 active attacks;84 placebo",
+     "NEJMoa2314192",
+     "Superseded by FDA analysis for regulatory comparison"
+    ],
+    [
+     "prevention",
+     "CHAPTER-3",
+     "40mg XR daily",
+     "adjusted attack rate",
+     "0.35",
+     "2.06",
+     "attacks/28days over24weeks",
+     "55 active;30 placebo",
+     "September8 2026 results slides",
+     "Protocol recovered; sensitivity results unavailable"
+    ],
+    [
+     "prevention",
+     "APeX-2",
+     "150mg daily",
+     "adjusted attack rate",
+     "1.31",
+     "2.35",
+     "attacks/28days over24weeks",
+     "40 active;40 placebo randomized",
+     "FDA Table28 PDF90",
+     "Negative-binomial analysis"
+    ]
+   ],
+   "subtables": {
+    "on_demand_deucrictibant_ir_rapide_3_vs_sebetralstat_ekterly_": {
+     "title": "On-demand: deucrictibant IR (RAPIDe-3) vs sebetralstat/Ekterly 600mg (KONFIDENT)",
+     "unit": "hours unless stated; fractions as decimals",
+     "columns": [
+      "Trial",
+      "Arm",
+      "Endpoint",
+      "Active estimate",
+      "Active 95% CI",
+      "Placebo estimate",
+      "Placebo 95% CI",
+      "Unit",
+      "Analysis population",
+      "Source",
+      "Status"
+     ],
+     "rows": [
+      [
+       "RAPIDe-3",
+       "deucrictibant 20mg IR",
+       "Median time to initial relief (12h window)",
+       1.28,
+       "1.05-1.52",
+       "not estimable",
+       "5.82-NE",
+       "hours",
+       "88 paired patients",
+       "CTIS results",
+       "reported"
+      ],
+      [
+       "KONFIDENT",
+       "sebetralstat 600mg",
+       "Median time to initial relief, FDA analysis (12h window)",
+       1.99,
+       "1.49-2.78",
+       "not estimable",
+       "3.60-NE",
+       "hours",
+       "93 active attacks / 84 placebo",
+       "FDA integrated review Table 11 (PDF p56)",
+       "reported; FDA revised missingness handling"
+      ],
+      [
+       "KONFIDENT",
+       "sebetralstat 600mg",
+       "Median time to initial relief, sponsor publication",
+       1.79,
+       null,
+       6.72,
+       null,
+       "hours",
+       "93 active attacks / 84 placebo",
+       "NEJMoa2314192",
+       "superseded by FDA analysis for regulatory comparison"
+      ],
+      [
+       "RAPIDe-3",
+       "deucrictibant 20mg IR",
+       "Median time to severity improvement",
+       2.41,
+       null,
+       "not estimable",
+       null,
+       "hours",
+       null,
+       "clinical audit",
+       "reported"
+      ],
+      [
+       "KONFIDENT",
+       "sebetralstat 600mg",
+       "Median time to severity improvement (FDA)",
+       9.14,
+       null,
+       "not estimable",
+       null,
+       "hours",
+       null,
+       "FDA integrated review",
+       "reported"
+      ],
+      [
+       "Cross-trial",
+       "IR vs 600mg",
+       "Active-arm median difference (descriptive only)",
+       0.71,
+       null,
+       null,
+       null,
+       "hours",
+       null,
+       "cross-trial arithmetic JSON",
+       "derived; not a causal treatment effect"
+      ],
+      [
+       "Cross-trial",
+       "IR vs 600mg",
+       "Active-arm median difference (descriptive only)",
+       42.6,
+       null,
+       null,
+       null,
+       "minutes",
+       null,
+       "cross-trial arithmetic JSON",
+       "derived"
+      ],
+      [
+       "RAPIDe-3",
+       "deucrictibant 20mg IR",
+       "Conventional rescue by 24h",
+       0.068182,
+       null,
+       0.363636,
+       null,
+       "fraction of attacks (6/88 vs 32/88)",
+       "88 paired",
+       "clinical audit",
+       "reported counts; fraction derived"
+      ],
+      [
+       "KONFIDENT",
+       "sebetralstat 600mg",
+       "Conventional rescue by 24h",
+       0.107527,
+       null,
+       0.321429,
+       null,
+       "fraction of attacks (10/93 vs 27/84)",
+       "93 / 84 attacks",
+       "clinical audit",
+       "reported counts; fraction derived"
+      ],
+      [
+       "KONFIDENT",
+       "placebo",
+       "Placebo relief fraction, all attacks (41/84)",
+       0.488095,
+       null,
+       null,
+       null,
+       "fraction",
+       "84 placebo attacks",
+       "cross-trial arithmetic JSON",
+       "derived; illustrates 50% median threshold"
+      ],
+      [
+       "KONFIDENT",
+       "placebo",
+       "Placebo relief fraction if 8 time-zero-censored attacks removed (41/76)",
+       0.539474,
+       null,
+       null,
+       null,
+       "fraction",
+       "76 attacks",
+       "cross-trial arithmetic JSON",
+       "derived"
+      ]
+     ]
+    },
+    "redosing_second_dose_rates_and_derived_dose_consumption": {
+     "title": "Redosing / second-dose rates and derived dose consumption",
+     "unit": "fractions as decimals",
+     "columns": [
+      "Trial / product",
+      "Measure",
+      "Value",
+      "Denominator / unit",
+      "Source",
+      "Status / caveat"
+     ],
+     "rows": [
+      [
+       "RAPIDe-3 (deucrictibant 20mg IR)",
+       "Second study dose within 12h",
+       0.17,
+       "fraction of 88 paired attacks (consistent with 15/88, count inferred)",
+       "sponsor poster Figure 6",
+       "pivotal; placebo 67.0%"
+      ],
+      [
+       "RAPIDe-3",
+       "Other rescue within 12h",
+       0.068,
+       "fraction; placebo 36.4%",
+       "sponsor poster Figure 6",
+       "separate endpoint; do not sum with redosing"
+      ],
+      [
+       "KONFIDENT (sebetralstat 600mg)",
+       "Second dose within 12h",
+       0.38,
+       "fraction; efficacy group 93",
+       "FDA label",
+       "pivotal; 39% within 24h; EU PI 37.6% at 12h"
+      ],
+      [
+       "KONFIDENT (FDA review Table 17)",
+       "Attacks receiving 2 doses over exposure observation",
+       0.411,
+       "39/95 attacks",
+       "FDA integrated review",
+       "different set/window; do not substitute for 38% label"
+      ],
+      [
+       "RAPIDe-2 Part A extension (deucrictibant 10/20/30mg dose-blinded)",
+       "Two doses among attacks without other rescue within 24h",
+       0.138,
+       "63/457 attacks; 19 participants; 465 total attacks, 8 other-rescue attacks excluded",
+       "sponsor final Part A poster",
+       "CAVEAT: mixed-dose open extension, not 20mg-specific matched 12h rate; selected rollover population; if 8 excluded attacks all redosed, overall bound 63-71/465 = 13.55-15.27%"
+      ],
+      [
+       "RAPIDe-2 Part A earlier snapshot",
+       "Two doses among attacks without other rescue",
+       0.138,
+       "36/261 attacks; 17 participants; 265 total (37/265 = 14.0% if exhaustive)",
+       "sponsor poster",
+       "separate cutoff; do not merge with 63/457"
+      ],
+      [
+       "KONFIDENT-S (sebetralstat open-label)",
+       "Median second-administration rate within 12h across first 30 attack positions",
+       0.193,
+       "2464 treated attacks / 136 participants, cutoff 9-Jul-2025",
+       "WSAAI 2026 poster",
+       "median trend summary, not pooled mean"
+      ],
+      [
+       "Derived",
+       "Expected doses per treated attack, deucrictibant (1 + 0.17)",
+       1.17,
+       "doses",
+       "redosing arithmetic JSON",
+       "derived"
+      ],
+      [
+       "Derived",
+       "Expected doses per treated attack, sebetralstat (1 + 0.38)",
+       1.38,
+       "doses",
+       "redosing arithmetic JSON",
+       "derived"
+      ],
+      [
+       "Derived",
+       "Dose-volume reduction per treated attack (1 - 1.17/1.38)",
+       0.152174,
+       "fraction",
+       "redosing arithmetic JSON",
+       "derived; conditional arithmetic"
+      ],
+      [
+       "Derived",
+       "Treated-attack or per-dose price uplift needed to offset (1.38/1.17 - 1)",
+       0.179487,
+       "fraction",
+       "redosing arithmetic JSON",
+       "derived"
+      ]
+     ]
+    },
+    "prophylaxis_deucrictibant_xr_40mg_chapter_3_vs_berotralstat_": {
+     "title": "Prophylaxis: deucrictibant XR 40mg (CHAPTER-3) vs berotralstat 150mg (APeX-2)",
+     "unit": "attacks per 28 days over 24 weeks; fractions as decimals",
+     "columns": [
+      "Trial",
+      "Arm",
+      "Measure",
+      "Active",
+      "Placebo",
+      "Unit",
+      "Source",
+      "Status"
+     ],
+     "rows": [
+      [
+       "CHAPTER-3",
+       "deucrictibant 40mg XR daily",
+       "Active / placebo N",
+       55,
+       30,
+       "n",
+       "sponsor Sep-8-2026 results slides",
+       "reported"
+      ],
+      [
+       "CHAPTER-3",
+       "deucrictibant 40mg XR daily",
+       "Baseline attacks per 28 days",
+       3.76,
+       3.47,
+       "attacks/28d",
+       "clinical audit",
+       "reported"
+      ],
+      [
+       "CHAPTER-3",
+       "deucrictibant 40mg XR daily",
+       "Adjusted on-study attack rate (24 weeks)",
+       0.35,
+       2.06,
+       "attacks/28d",
+       "sponsor results slides",
+       "reported; Poisson GLM with Pearson scaling per protocol"
+      ],
+      [
+       "CHAPTER-3",
+       "deucrictibant 40mg XR daily",
+       "Reduction vs placebo",
+       0.83,
+       null,
+       "fraction (95% CI 72-90%)",
+       "sponsor results slides",
+       "reported; type I/II subgroup 87% (not multiplicity adjusted)"
+      ],
+      [
+       "CHAPTER-3",
+       "deucrictibant 40mg XR daily",
+       "Placebo-relative rate ratio",
+       0.17,
+       null,
+       "ratio (95% CI 0.10-0.28)",
+       "sponsor results slides",
+       "reported"
+      ],
+      [
+       "APeX-2",
+       "berotralstat 150mg daily",
+       "Active / placebo N (randomized)",
+       40,
+       40,
+       "n",
+       "FDA multidisciplinary review Table 28 (PDF p90)",
+       "reported"
+      ],
+      [
+       "APeX-2",
+       "berotralstat 150mg daily",
+       "Baseline attacks per 28 days",
+       3.06,
+       2.91,
+       "attacks/28d",
+       "clinical audit",
+       "reported"
+      ],
+      [
+       "APeX-2",
+       "berotralstat 150mg daily",
+       "Adjusted on-study attack rate (24 weeks)",
+       1.31,
+       2.35,
+       "attacks/28d",
+       "FDA Table 28",
+       "reported; negative-binomial analysis"
+      ],
+      [
+       "APeX-2",
+       "berotralstat 150mg daily",
+       "Reduction vs placebo",
+       0.442,
+       null,
+       "fraction (95% CI 23.0-59.5%)",
+       "FDA Table 28",
+       "reported"
+      ],
+      [
+       "APeX-2",
+       "berotralstat 150mg daily",
+       "Placebo-relative rate ratio",
+       0.558,
+       null,
+       "ratio",
+       "cross-trial arithmetic JSON",
+       "derived from 44.2%"
+      ],
+      [
+       "Cross-trial",
+       "XR vs berotralstat",
+       "Ratio of placebo-relative rate ratios (0.17/0.558)",
+       0.304659,
+       null,
+       "ratio",
+       "cross-trial arithmetic JSON",
+       "derived; conditional on exchangeability; not validated superiority"
+      ],
+      [
+       "Cross-trial",
+       "XR vs berotralstat",
+       "Sampling-only approx 95% interval for ratio",
+       0.166064,
+       0.558925,
+       "ratio (low, high)",
+       "cross-trial arithmetic JSON",
+       "derived; excludes cross-trial bias; must not be quoted alone"
+      ],
+      [
+       "Cross-trial",
+       "XR vs berotralstat",
+       "Multiplicative bias factor to neutralize point ratio",
+       3.282353,
+       null,
+       "factor",
+       "cross-trial arithmetic JSON",
+       "derived sensitivity scale"
+      ]
+     ]
+    }
+   },
+   "notes": [
+    "FDA PLACEBO-MEDIAN CORRECTION (Ekterly): FDA-reviewed placebo median time to initial relief was NOT ESTIMABLE within 12h (95% CI 3.60-NE). The 6.72h figure is the sponsor publication's analysis; FDA kept attacks lacking two consecutive post-baseline assessments as unsuccessful through 12h instead of censoring at time zero (8 of 84 placebo attacks; 7 of 93 at 600mg). Earlier use of >12h vs 6.72h as evidence of a slow PHVS placebo arm was withdrawn.",
+    "Sebetralstat 600mg primary remained significant under FDA analysis (p=0.0004). Neither acute trial establishes superiority over the other; medians are not harmonized (population, rescue rules, assessment cadence, missingness).",
+    "Second study dose allowed from 4h (RAPIDe-3) vs 3h (KONFIDENT). Rescue within 12h counted as primary failure in RAPIDe-3; KONFIDENT counts rescue before relief event as failure.",
+    "Berotralstat 150mg (approved dose) used, not 110mg. CHAPTER-3 included 5 normal-C1-INH participants; APeX-2 type I/II only. Cross-trial ratio 0.305 is conditional arithmetic, not an approved sales-model efficacy input.",
+    "Expert-call content deliberately excluded from this dataset."
+   ],
+   "sources": [
+    {
+     "name": "Cross-trial evidence CSV",
+     "date": "2026-10-07",
+     "path": "output/PHVS_cross_trial_evidence_2026-10-07.csv"
+    },
+    {
+     "name": "Cross-trial arithmetic JSON",
+     "date": "2026-10-07",
+     "path": "output/PHVS_cross_trial_arithmetic_2026-10-07.json"
+    },
+    {
+     "name": "Redosing arithmetic JSON",
+     "date": "2026-10-08",
+     "path": "output/PHVS_redosing_arithmetic_2026-10-08.json"
+    },
+    {
+     "name": "Cross-trial clinical audit",
+     "date": "2026-10-07",
+     "path": "output/PHVS_cross_trial_clinical_audit_2026-10-07.txt"
+    },
+    {
+     "name": "Redosing audit",
+     "date": "2026-10-08",
+     "path": "output/PHVS_redosing_audit_2026-10-08.txt"
+    },
+    {
+     "name": "Adoption flow calibration (RAPIDe-2 63/457 note)",
+     "date": "2026-10-08",
+     "path": "output/PHVS_adoption_flow_calibration_2026-10-08.txt"
+    },
+    {
+     "name": "Ekterly FDA integrated review NDA 219301",
+     "date": "2025",
+     "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219301Orig1s000IntegratedR.pdf"
+    },
+    {
+     "name": "KONFIDENT publication NEJMoa2314192",
+     "date": "2024",
+     "url": "https://mediacenteratypon.nejmgroup-production.org/NEJMoa2314192.pdf"
+    },
+    {
+     "name": "RAPIDe-3 CTIS record",
+     "url": "https://euclinicaltrials.eu/ctis-public/view/2023-507268-37-00?lang=en"
+    },
+    {
+     "name": "RAPIDe-3 sponsor poster",
+     "date": "redosing Figure 6",
+     "url": "https://ir.pharvaris.com/static-files/2ceba996-1cde-409c-9930-da480237edb4"
+    },
+    {
+     "name": "RAPIDe-2 Part A poster",
+     "url": "https://ir.pharvaris.com/static-files/1ef70602-7d9b-4a0d-8a35-b855005dc827"
+    },
+    {
+     "name": "Ekterly US label",
+     "date": "DailyMed",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=1d145e2f-8e7e-2e90-e063-6294a90a4449"
+    },
+    {
+     "name": "KONFIDENT-S WSAAI 2026 poster",
+     "date": "2026-01",
+     "url": "https://www.kalvista.com/wp-content/uploads/2026/01/WSAAI-2026_KON-S-Trends-poster_Final.pdf"
+    },
+    {
+     "name": "Orladeyo FDA multidisciplinary review NDA 214094",
+     "date": "2020",
+     "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/214094Orig1s000MultidisciplineR.pdf"
+    },
+    {
+     "name": "CHAPTER-3 results presentation",
+     "date": "2026-09-08",
+     "url": "https://ir.pharvaris.com/node/12691/html"
+    },
+    {
+     "name": "CHAPTER-3 CTIS protocol Amendment 1.5",
+     "date": "2025-05-19",
+     "url": "https://euclinicaltrials.eu/ctis-public/view/2024-516247-62-00?lang=en"
+    }
+   ]
+  },
+  "second_oral_analogues": {
+   "title": "Later-oral / follower launch analogues (Cerdelga, Attruby, Scemblix, Brukinsa, Trikafta, Orladeyo)",
+   "unit": "see unit column; shares as stated with their denominators",
+   "columns": [
+    "Analogue",
+    "Measure",
+    "Value",
+    "Unit",
+    "Period / denominator",
+    "Caveat",
+    "Source",
+    "Status"
+   ],
+   "rows": [
+    [
+     "Cerdelga (eliglustat) after Zavesca (miglustat), Gaucher type 1",
+     "Global reported sales 2015",
+     66,
+     "EUR m",
+     "FY2015 Sanofi report says 66 (not inferred 67)",
+     "FDA approved 2014; first-line positioning, CYP2D6 eligibility, incumbent Sanofi ERT franchise",
+     "Sanofi FY2015 20-F / press release",
+     "reported"
+    ],
+    [
+     "Cerdelga after Zavesca",
+     "Global reported sales 2016",
+     106,
+     "EUR m",
+     "FY",
+     null,
+     "Sanofi FY2016 release",
+     "reported"
+    ],
+    [
+     "Cerdelga after Zavesca",
+     "Global reported sales 2017",
+     126,
+     "EUR m",
+     "FY",
+     null,
+     "Sanofi Q4 2017 release",
+     "reported"
+    ],
+    [
+     "Cerdelga after Zavesca",
+     "Global reported sales 2018",
+     159,
+     "EUR m",
+     "FY; global franchise 159, NOT 156 GBU subtotal",
+     null,
+     "Sanofi Q4 2018 release",
+     "reported (Guggenheim ramp audit extension)"
+    ],
+    [
+     "Cerdelga after Zavesca",
+     "H1 2016 sales vs prior period",
+     "49 vs 26",
+     "EUR m",
+     "half-year",
+     "does not identify oral-to-oral switch denominator",
+     "Sanofi H1 2016 report",
+     "reported; screened, not pooled"
+    ],
+    [
+     "Cerdelga after Zavesca",
+     "Index first full year = 100 (2015-18)",
+     "100 / 160.6 / 190.9 / 240.9",
+     "index",
+     "2015 = 100",
+     null,
+     "Guggenheim ramp audit",
+     "derived"
+    ],
+    [
+     "Attruby (acoramidis) after tafamidis, ATTR-CM",
+     "Unique patient prescriptions",
+     3751,
+     "patients",
+     "through ~Aug-5-2025 Q2 call, ~8 months after Nov-2024 approval; 1074 prescribers",
+     "Rx not paid; growth predominantly treatment-naive; not a tafamidis switch rate",
+     "BridgeBio Q2 2025 transcript (issuer-hosted)",
+     "reported"
+    ],
+    [
+     "Attruby after tafamidis",
+     "Management NBRx share estimate",
+     "18-20%",
+     "share of ALL new-to-brand Rx",
+     "~8 months post approval; management explicitly uncertain about denominator",
+     "not strict oral-pair share; do not infer 60% premium",
+     "BridgeBio Q2 2025 transcript PDF p12",
+     "reported estimate"
+    ],
+    [
+     "Attruby after tafamidis",
+     "Unique patient prescriptions",
+     6629,
+     "patients",
+     "through 31-Dec-2025",
+     null,
+     "BridgeBio JPM Jan-12-2026 release",
+     "reported"
+    ],
+    [
+     "Scemblix (asciminib) vs established oral CML TKIs",
+     "US share by line: 1L / 2L / 3L+",
+     "23% / 57% / 59%",
+     "share of line",
+     "September 2025 rolling 3 months, ~11 months after Oct-29-2024 1L approval; later-line brand launched earlier",
+     "ASC4FIRST 48-week MMR 68% vs 49%; oncology lines, many competitors/generics",
+     "Novartis Q4 2025 investor presentation slide 11",
+     "reported"
+    ],
+    [
+     "Brukinsa (zanubrutinib) after Imbruvica/Calquence, CLL",
+     "US new-patient-start leadership (frontline and R/R CLL)",
+     "leader within <2 years of CLL approval",
+     "qualitative",
+     "third entrant; no exact share verified",
+     "ALPINE superior PFS vs ibrutinib; new-start share is not prevalent-stock penetration",
+     "BeiGene 2024 10-K",
+     "reported (qualitative)"
+    ],
+    [
+     "Brukinsa",
+     "Global 2024 sales (all indications)",
+     2600,
+     "USD m",
+     "FY2024",
+     "revenue across indications, not CLL switching",
+     "BeiGene 2024 10-K",
+     "reported (rounded)"
+    ],
+    [
+     "Trikafta after Symdeko/Orkambi/Kalydeco, CF",
+     "Eligible US patients initiated",
+     "majority of ~18,000",
+     "patients (lower bound >50%)",
+     "by Q2 2020 release (Jul-30-2020), ~9 months after Oct-2019 approval",
+     "same owner; ~6,000 newly eligible; head-to-head ppFEV1 +10.0pp (95% CI 7.4-12.6) vs tezacaftor/ivacaftor",
+     "Vertex Q2 2020 release",
+     "reported"
+    ],
+    [
+     "Trikafta/Kaftrio",
+     "Global sales 2020 / 2021 / 2022",
+     "3863.8 / 5697.2 / 7687",
+     "USD m",
+     "FY",
+     "index 100 / 147.5 / 198.9",
+     "Vertex 2021 10-K; FY2022 release",
+     "reported"
+    ],
+    [
+     "Orladeyo (berotralstat), HAE prophylaxis (first oral)",
+     "Global net revenue 2021 / 2022 / 2023 / 2024",
+     "122.6 / 251.6 / 326.0 / 437.7",
+     "USD m",
+     "FY; US launch Dec-2020",
+     "annual growth 105.2% / 29.6% / 34.3% (derived)",
+     "BioCryst FY releases",
+     "reported"
+    ],
+    [
+     "Orladeyo",
+     "Quarterly net revenue 2021 Q1-Q4",
+     "10.9 / 28.5 / 37.0 / 46.2",
+     "USD m",
+     null,
+     null,
+     "BioCryst quarterly releases",
+     "reported"
+    ],
+    [
+     "Orladeyo",
+     "Quarterly net revenue 2022 Q1-Q4",
+     "49.7 / 65.2 / 66.0 / 70.7",
+     "USD m",
+     null,
+     null,
+     "BioCryst quarterly releases",
+     "reported"
+    ],
+    [
+     "Orladeyo",
+     "Q4 2023 / Q4 2024 net revenue",
+     "90.9 / 124.2",
+     "USD m",
+     null,
+     null,
+     "BioCryst FY releases",
+     "reported"
+    ],
+    [
+     "Orladeyo",
+     "US patients on paid or long-term free product, Dec-2023",
+     1104,
+     "patients",
+     "71.5% paid (~789 paid / ~315 free, derived)",
+     "net additions 321 use different denominator",
+     "BioCryst FY2023 release",
+     "reported"
+    ],
+    [
+     "Orladeyo",
+     "Paid rate Jun-2024",
+     0.744,
+     "fraction",
+     "+2.9pp vs YE2023; >60% of paid patients stay >=1 year",
+     null,
+     "BioCryst Q2 2024 release",
+     "reported"
+    ],
+    [
+     "Orladeyo",
+     "Starters remaining during first year (Jan-2022 disclosure)",
+     "~70%",
+     "fraction",
+     ">half of starts had prior prophylaxis",
+     "not a standardized 12-month survival curve",
+     "BioCryst Jan-2022 release",
+     "reported"
+    ]
+   ],
+   "subtables": {
+    "ir_annual_rx_acquisition_challenge_grid_second_oral_audit": {
+     "title": "IR annual Rx acquisition challenge grid (second-oral audit)",
+     "unit": "probability as decimal; Rx count; USD m",
+     "columns": [
+      "Scenario",
+      "Annual IR Rx probability",
+      "First 8-month Rx",
+      "Year-10 worldwide revenue USDm"
+     ],
+     "rows": [
+      [
+       "legacy_low",
+       0.05,
+       297,
+       1037.3
+      ],
+      [
+       "working",
+       0.1,
+       600,
+       1236.5
+      ],
+      [
+       "legacy_high",
+       0.15,
+       908,
+       1368.6
+      ],
+      [
+       "50pct_Ekterly_forms",
+       0.1408,
+       851,
+       1348.3
+      ],
+      [
+       "75pct_Ekterly_forms",
+       0.2086,
+       1277,
+       1465.1
+      ],
+      [
+       "100pct_Ekterly_forms",
+       0.2745,
+       1702,
+       1525.8
+      ]
+     ]
+    },
+    "injectable_to_xr_choice_only_sensitivity_choice_share_audit": {
+     "title": "Injectable-to-XR choice-only sensitivity (choice-share audit)",
+     "unit": "share as decimal; completed-start proxy fraction; per 1000",
+     "columns": [
+      "PHVS share of oral choices",
+      "Completed start proxy",
+      "Per 1000"
+     ],
+     "rows": [
+      [
+       0.25,
+       0.020579,
+       20.579268
+      ],
+      [
+       0.4,
+       0.032927,
+       32.926829
+      ],
+      [
+       0.6,
+       0.04939,
+       49.390244
+      ],
+      [
+       0.8,
+       0.065854,
+       65.853659
+      ]
+     ]
+    }
+   },
+   "notes": [
+    "Comparables are purposive counterexamples to a second-oral penalty, not a representative cohort; denominators (NBRx, line share, eligible-population initiation, unique Rx) are incompatible and must not be averaged.",
+    "No common efficacy-to-choice coefficient identified; 60% PHVS share of oral choices is an assumed favorable case, not a measured efficacy premium.",
+    "Livmarli/Bylvay screened but not selected (aggregated ALGS sales); Austedo/tetrabenazine not usable (HD/TD mix)."
+   ],
+   "sources": [
+    {
+     "name": "Second-oral analogue audit JSON",
+     "date": "2026-10-09",
+     "path": "research/PHVS_second_oral_analogue_audit_2026-10-09.json"
+    },
+    {
+     "name": "Choice-share comparable audit JSON",
+     "date": "2026-10-09",
+     "path": "research/PHVS_choice_share_comparable_audit_2026-10-09.json"
+    },
+    {
+     "name": "Second-oral analogue audit text",
+     "date": "2026-10-09",
+     "path": "output/PHVS_second_oral_analogue_audit_2026-10-09.txt"
+    },
+    {
+     "name": "Orladeyo launch analogue (with primary-source URL index)",
+     "date": "2026-10-07",
+     "path": "output/Orladeyo_launch_analogue_2026-10-07.txt"
+    },
+    {
+     "name": "Guggenheim ramp audit (Cerdelga 2018, Trikafta series)",
+     "date": "2026-10-08",
+     "path": "research/guggenheim_ramp_audit_2026-10-08.json"
+    },
+    {
+     "name": "Vertex Q2 2020 results",
+     "date": "2020-07-30",
+     "url": "https://investors.vrtx.com/news-releases/news-release-details/vertex-reports-second-quarter-2020-financial-results"
+    },
+    {
+     "name": "Trikafta head-to-head (PubMed)",
+     "date": "2019",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31679946/"
+    },
+    {
+     "name": "BeiGene 2024 10-K",
+     "date": "2025",
+     "url": "https://www.sec.gov/Archives/edgar/data/1651308/000165130825000031/bgne-20241231.htm"
+    },
+    {
+     "name": "BridgeBio Q2 2025 transcript",
+     "date": "2025-08-05",
+     "url": "https://s205.q4cdn.com/224494602/files/doc_events/2025/Aug/05/Q2-Earnings-Final-Transcript.pdf"
+    },
+    {
+     "name": "BridgeBio JPM 2026 release",
+     "date": "2026-01-12",
+     "url": "https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Announces-Commercial-Progress-Program-Updates-and-2026-Milestones-at-the-44th-Annual-J-P--Morgan-Healthcare-Conference/"
+    },
+    {
+     "name": "Sanofi H1 2016 report (Cerdelga)",
+     "date": "2016",
+     "url": "https://dotcom.prod.accelerator.sanofi/assets/dotcom/content-app/publications/half-year-financial-reports/2016-01-01-sanofi-half-year-financial-report-2016-en.pdf"
+    },
+    {
+     "name": "Novartis Q4 2025 investor presentation (Scemblix)",
+     "date": "2026-02-04",
+     "url": "https://www.novartis.com/sites/novartiscom/files/q4-2025-investor-presentation.pdf"
+    },
+    {
+     "name": "Sanofi FY2015 20-F (Cerdelga)",
+     "date": "2016",
+     "url": "https://www.sanofi.com/assets/dotcom/content-app/publications/annual-report-on-form-20-f/2015-01-01-form-20-f-2015-en.pdf"
+    },
+    {
+     "name": "Sanofi FY2016 release (Cerdelga)",
+     "date": "2017-02-08",
+     "url": "https://www.globenewswire.com/news-release/2017/02/08/914925/0/en/Sanofi-Delivers-2016-Sales-and-Business-EPS-1-Growth-at-CER-2.html"
+    },
+    {
+     "name": "Sanofi Q4 2017 release (Cerdelga)",
+     "date": "2018",
+     "url": "https://www.sanofi.com/assets/dotcom/content-app/events/quaterly-results/2017/q4-results-2017/Press_release_Q4_FY_2017.pdf"
+    },
+    {
+     "name": "Sanofi Q4 2018 release (Cerdelga)",
+     "date": "2019",
+     "url": "https://www.sanofi.com/assets/dotcom/content-app/events/quaterly-results/2018/q4-2018-en/Q42018results.pdf"
+    },
+    {
+     "name": "BioCryst FY2024 results (Orladeyo)",
+     "date": "2025",
+     "url": "https://ir.biocryst.com/news-releases/news-release-details/biocryst-reports-fourth-quarter-and-full-year-2024-financial"
+    },
+    {
+     "name": "BioCryst FY2023 results and patients (Orladeyo)",
+     "date": "2024",
+     "url": "https://ir.biocryst.com/node/25731"
+    },
+    {
+     "name": "BioCryst Q2 2024 results (Orladeyo paid rate)",
+     "date": "2024",
+     "url": "https://ir.biocryst.com/news-releases/news-release-details/biocryst-reports-second-quarter-2024-financial-results-and"
+    }
+   ]
+  }
+ }
+}

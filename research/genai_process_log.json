@@ -133,7 +133,7 @@
       "user_contribution": "Challenged perpetuity assumptions, requested comparable small-molecule falloff, rejected reliance on three weak analogues and proposed separating P x Q.",
       "prompt_excerpt": "aggregate many comparable small molecules revenue fall-off together",
       "ai_method_and_sources": "Audited BioMarin/Lundbeck/Sobi disclosures, discovered pooled generic-entry research and extracted CMS gross spending and dosage units with reproducible arithmetic.",
-      "snapshot": "CMS2020\u201324 Kuvan: units-88.2%, gross spending/unit-3.9%; Xenazine: units-82.6%, gross spending/unit+44.7%. Orfadin formulations confounded a clean erosion comparison.",
+      "snapshot": "CMS2020–24 Kuvan: units-88.2%, gross spending/unit-3.9%; Xenazine: units-82.6%, gross spending/unit+44.7%. Orfadin formulations confounded a clean erosion comparison.",
       "thesis_effect": "Changed the working mechanism from generic-driven price cuts to potentially dominant branded-volume loss; reduced confidence in a Kuvan-only base case.",
       "value_add": "Connected company revenue disclosures to a different operational data source to distinguish mechanisms hidden by revenue alone.",
       "limitations_and_checks": "Small Medicare samples, mixed strengths, gross prices before rebates. Never divide global manufacturer revenue by Medicare units to infer net price.",
@@ -154,7 +154,7 @@
       "user_contribution": "Asked why published pooled data could not be used, selected50/50 weighting and reiterated the P/Q requirement.",
       "prompt_excerpt": "lets just do 50/50, make sure u segment out pxq btw",
       "ai_method_and_sources": "After failed direct figure retrieval, recovered publisher appendix through browser download; visually checked numerical labels for452 formulation-specific definitions in the same271-compound paper. Added model formulas and scenario checks.",
-      "snapshot": "Blended revenue retention years1\u20134:47.7/36.2/28.7/21.8%. Effective P:110.4/115.5/118.6/126.9%; Q:43.2/31.4/24.2/17.2%. At dated$31.83 target, peak requirement increased from about$1.585bn to$1.623bn.",
+      "snapshot": "Blended revenue retention years1–4:47.7/36.2/28.7/21.8%. Effective P:110.4/115.5/118.6/126.9%; Q:43.2/31.4/24.2/17.2%. At dated$31.83 target, peak requirement increased from about$1.585bn to$1.623bn.",
       "thesis_effect": "Quantified that this erosion change raises required peak revenue modestly under the existing discount rate and timing assumptions.",
       "value_add": "Made a user-directed hypothesis into an editable and reconciled valuation scenario, with evidence and assumptions separated.",
       "limitations_and_checks": "Material qualification: study-side product of pooled P and Q is synthetic, not observed mean revenue; it omits covariance and has sample differences. Kuvan P assumed flat; Q implied.50/50 and post-year4 tail are assumptions. Native Excel not tested. Formulas, independent valuation and arithmetic identities checked.",
@@ -227,7 +227,7 @@
       "event_date": "2026-10-08",
       "record_type": "contemporaneous",
       "objective": "Test whether the reverse DCF requires outperforming both incumbent launch ramps.",
-      "user_contribution": "Proposed a unifying interpretation: at80\u201390%PoS, PHVS must ramp better than Orladeyo and Ekterly.",
+      "user_contribution": "Proposed a unifying interpretation: at80–90%PoS, PHVS must ramp better than Orladeyo and Ekterly.",
       "ai_method_and_sources": "Recomputed comparisons from saved verified model results, distinguishing stock snapshot, formulation, early launch and lifetime revenue.",
       "snapshot": "At90%/90%PoS and31.83dated spot, XR first four full-calendar ratios to Orladeyo are1.397/1.029/1.040/0.940. IR first full-calendar128.2m is below Ekterly Q1annualized156.8m; this is not an age-matched actual-year comparison.",
       "thesis_effect": "Rejects a blanket claim that the market requires outperforming both launches. Supports a higher first-year XR requirement, with later XR broadly comparable at90%PoS.",
@@ -246,7 +246,7 @@
       "user_contribution": "Identified that slower early adoption with higher later peak sales can support the same target, challenging any short conclusion based on four-year revenue alone.",
       "prompt_excerpt": "the curve ramps slower in the first four years and peak sales are much higher",
       "ai_method_and_sources": "Checked annual source arrays and common-scaling formulas in the builder; no independently fitted S-curve exists.",
-      "snapshot": "Model uses Guggenheim annual2026\u201336 paths, scales both by a common multiplier by default, then holds2036 revenue until assumed generic exposure. Early cumulative sales and IR/XR mix are imposed by that shape.",
+      "snapshot": "Model uses Guggenheim annual2026–36 paths, scales both by a common multiplier by default, then holds2036 revenue until assumed generic exposure. Early cumulative sales and IR/XR mix are imposed by that shape.",
       "thesis_effect": "Downgrades the four-year outperformance comparison from evidence of uniquely priced-in expectations to a conditional scenario. A slower ramp/higher peak tradeoff must be tested before using it as a short argument.",
       "value_add": "User exposed an identification problem beyond arithmetic correctness; AI made implementation and conclusion limits explicit.",
       "limitations_and_checks": "No adoption curve was statistically fitted. Proposed ramp-speed/peak frontier with patient-based bounds is not yet implemented; no new valuation result claimed.",
@@ -280,8 +280,8 @@
       "objective": "Test ultimate forecast revenue height against mature same-disease injectables.",
       "user_contribution": "Redirected comparator work to longer HAE injectable histories before building patient demand.",
       "prompt_excerpt": "compare to historical injectables in HAE",
-      "ai_method_and_sources": "Reconstructed TakedaFY2019\u201325 brand sales and FX from four issuer reports; checked ViroPharma/Shire history and CSL standalone Haegarda disclosure; distinguished observed highs from lifetime peaks.",
-      "snapshot": "Takhzyro~627m to1493m USD overFY2019\u201325; GuggenheimXR2036~614m versus Cinryze2017~699m and HaegardaFY2025 490m. IR~992m versus Firazyr2017 663m.",
+      "ai_method_and_sources": "Reconstructed TakedaFY2019–25 brand sales and FX from four issuer reports; checked ViroPharma/Shire history and CSL standalone Haegarda disclosure; distinguished observed highs from lifetime peaks.",
+      "snapshot": "Takhzyro~627m to1493m USD overFY2019–25; GuggenheimXR2036~614m versus Cinryze2017~699m and HaegardaFY2025 490m. IR~992m versus Firazyr2017 663m.",
       "thesis_effect": "Disconfirms an unprecedented XR height claim; IR requires relatively more historical expansion. Competition/destocking challenge a smooth permanent plateau.",
       "limitations_and_checks": "Period-average FX translations derived, fiscal versus calendar years and geography differ; historical nominal dollars not inflation-adjusted; historical peak not fully certified, no causal switching estimate or workbook change.",
       "artifacts": [
@@ -346,8 +346,8 @@
       "record_type": "contemporaneous",
       "objective": "Recover historical Orladeyo launch execution and cohort evidence.",
       "user_contribution": "Supplied Archive 2.zip following commercial-source discussion.",
-      "ai_method_and_sources": "Inventoried23 PDFs, extracted searchable text locally, selectively read commercial pages in2020\u201322 earnings calls; retained hashes and page provenance.",
-      "snapshot": "30\u201350 planned US reps; top200 access relationships; roughly half of Q1 2022 new prescriptions outside top500. Selected post-authorization switchers had78%/73% six-month retention from Takhzyro/Haegarda.",
+      "ai_method_and_sources": "Inventoried23 PDFs, extracted searchable text locally, selectively read commercial pages in2020–22 earnings calls; retained hashes and page provenance.",
+      "snapshot": "30–50 planned US reps; top200 access relationships; roughly half of Q1 2022 new prescriptions outside top500. Selected post-authorization switchers had78%/73% six-month retention from Takhzyro/Haegarda.",
       "thesis_effect": "Separates willingness to switch from conditional persistence; strong stable-switcher retention and operational support challenge a simple saturated-market short.",
       "limitations_and_checks": "Management disclosures, not independent cohort verification. Paid stock versus conversion, conditional retention, discontinued-patient denominator and overlapping prescriber splits flagged. No full slide audit, numerical model change or additional agents.",
       "artifacts": [
@@ -496,7 +496,7 @@
       "record_type": "contemporaneous",
       "objective": "TestXRswitching,XRretentionandIRconsumption departuresfromcomparables.",
       "user_contribution": "Directedcomparison-firstwork andcreative sourcingincludingRAPIDe3trialdata.",
-      "prompt_excerpt": "maybe you\u2019re just going to find the data directly in the Rapid E3",
+      "prompt_excerpt": "maybe you’re just going to find the data directly in the Rapid E3",
       "ai_method_and_sources": "Publicpreferencepaper/tablevisualinspection;FrenchBerolifecause-specificdiscontinuation;recoveredKON-SprimaryXML;reusedPHVSclinicalaudit. research/PHVS_three_adoption_hypotheses_2026-10-08.json",
       "snapshot": "54%simulatedoralchoice;20/80OrladeyostartersstoppedforefficacyorAEs;KON-SLTP22.3%redosingand75.8%oral-firstattacks.",
       "thesis_effect": "SupportstargetedXRimprovementsbutweakensautomaticoralconversionandpermanent18%IRoffset.",
@@ -536,7 +536,7 @@
       "user_contribution": "Requested work on both gaps and the next modeling step, then explicitly proposed uncertainty ranges for later Monte Carlo.",
       "prompt_excerpt": "work on those two gaps, also do that next modeling step",
       "ai_method_and_sources": "Bounded primary-source discovery, monthly cohort/payment implementation, scenario accounting and uncertainty dependency register. research/PHVS_population_paid_gap_followup_2026-10-08.json",
-      "snapshot": "359\u2013549conditional paid/PAP state entries explain255net growth; reference440minus185exits. Multiple payment paths match789paid. Better retention can offset slower acquisition in five-year treatment exposure.",
+      "snapshot": "359–549conditional paid/PAP state entries explain255net growth; reference440minus185exits. Multiple payment paths match789paid. Better retention can offset slower acquisition in five-year treatment exposure.",
       "thesis_effect": "Weakens comparison based solely on new-patient acquisition; persistent exposure matters. Does not establish PHVS retention uplift or fair value.",
       "limitations": "No matched empirical paid-start series found; provisional market partition is cross-date proxy; exact stock reconciliation is calibration, not independent validation. Uniform entry timing and assumed prevalent retention matter.",
       "remaining_work": "Select explicit probability assumptions and dependencies before Monte Carlo; clinically eligible origin pools, paid net price and IR supply remain unresolved."
@@ -547,7 +547,7 @@
       "objective": "Audit user-supplied prevalence paper and demographic exits.",
       "user_contribution": "Supplied full paper and pointed out deaths/outflows as counterpart to diagnoses.",
       "ai_method_and_sources": "Full-text extraction and visual verification ofTable6; durable demographic bookkeeping rules. research/PHVS_prevalence_fulltext_audit_2026-10-08.json",
-      "snapshot": "2020expert6595(95%CI5102\u20138390);algorithm8694(6965\u201310722). Claims medication requirement misses unseen disease.",
+      "snapshot": "2020expert6595(95%CI5102–8390);algorithm8694(6965–10722). Claims medication requirement misses unseen disease.",
       "thesis_effect": "Strengthens historical anchor without treating it as total biological prevalence or current TAM.",
       "limitations": "Small selected case sample, Medicaid/uninsured gap, no incidence or mortality estimate;2019CI narrative/table typo flagged.",
       "remaining_work": "Implement dynamic national cohorts; age-specific mortality and gross diagnosis calibration without double counting all-cause retention."
@@ -557,7 +557,7 @@
       "logged_on": "2026-10-08",
       "objective": "Simplify population evolution and clarify overlapping IR/XR populations.",
       "user_contribution": "Rejected granular demographics in favor of modest historically anchored net growth; asked how prevalence becomes treatment pools.",
-      "ai_method_and_sources": "Calculated2019\u20132023HAE treated1.53%and diagnosed2.63%CAGRs from BioCrystslide12; adopted1.5%working/0\u20133%scenario growth and net scaling helper.",
+      "ai_method_and_sources": "Calculated2019–2023HAE treated1.53%and diagnosed2.63%CAGRs from BioCrystslide12; adopted1.5%working/0–3%scenario growth and net scaling helper.",
       "snapshot": "Treatment-stock baseline grows~7.7%in5years at1.5%; currentLTP share is not XRceiling and rescue overlays LTP.",
       "limitations": "Issuer claims estimates; no causal case-finding estimate, true prevalence bound, current age/subtype eligibility or probability distribution identified. Scaling helper not integrated PHVS adoption/revenue forecast.",
       "remaining_work": "Calibrate prevention uptake and origin capture; paid supply and price for rescue."
@@ -569,7 +569,7 @@
       "user_contribution": "Authorized the proposed XR acquisition/access work package after requesting prioritization of missing numbers.",
       "prompt_excerpt": "All right, let's do that.",
       "ai_method_and_sources": "Reused expert and claims/launch ledgers; bounded search; primaryOASISpluscompetitorposter; daily-timed first-year prescriptions/payment/retention arithmetic. research/PHVS_XR_entry_access_2026-10-09.json",
-      "snapshot": "Workinghypothesis:460prescriptions,338firstpaid,295yearendactive,141paidpatientyears. Originrates and65\u201390%paidconversion explicitlyassumed, notempirical.",
+      "snapshot": "Workinghypothesis:460prescriptions,338firstpaid,295yearendactive,141paidpatientyears. Originrates and65–90%paidconversion explicitlyassumed, notempirical.",
       "thesis_effect": "Separates entry, payment and exposure; survivorselectionqualifies oral dissatisfaction, and injectablecompetitorscanwinunmetneed. No long/short verdict.",
       "limitations": "No matched commercial conversion dataset; illustrativewholemarketpools,1year only, no empirical calibration or probability distribution; tested arithmetic, not realworld demand.",
       "remaining_work": "Challenge origin-rate ranges and access scenarios; extend surviving cohorts and residual pools across years before linking USnetprice/worldwidevaluation."
@@ -843,9 +843,9 @@
       "logged_on": "2026-10-09",
       "objective": "Finalize an independent, reproducible patient-adoption-to-valuation specification for another agent to implement in Excel, with Monte Carlo and acquisition interfaces.",
       "user_contribution": {
-        "summary": "User requested evidence-supported practical assumptions, public-source replacements, precisely documented calculations and a long steelman. User originated the IR/XR split, efficacy-only retention allowance, P\u00d7Q erosion blend, adoption skepticism and separate takeover outcome.",
+        "summary": "User requested evidence-supported practical assumptions, public-source replacements, precisely documented calculations and a long steelman. User originated the IR/XR split, efficacy-only retention allowance, P×Q erosion blend, adoption skepticism and separate takeover outcome.",
         "prompt_excerpt": "wait stop im still short lol, atleast w.o the acquisition",
-        "interpretation": "Working thesis remains a standalone short; acquisition is a separate risk. The faster-adoption challenge tests what breaks the short and does not change the user\u2019s position."
+        "interpretation": "Working thesis remains a standalone short; acquisition is a separate risk. The faster-adoption challenge tests what breaks the short and does not change the user’s position."
       },
       "model_and_workflow": {
         "interface": "Codex desktop",
@@ -884,7 +884,7 @@
         "Old74% retention and relative-year reverse comparisons are clearly marked superseded.",
         "Acquisition is not a free add-on to standalone value, and no high PHVS-specific probability is inferred."
       ],
-      "thesis_effect": "Supports testing the user\u2019s standalone short against a strong long steelman. The range is broad; no final recommendation, empirical long/short probability or live-price comparison is claimed.",
+      "thesis_effect": "Supports testing the user’s standalone short against a strong long steelman. The range is broad; no final recommendation, empirical long/short probability or live-price comparison is claimed.",
       "limitations_and_bias_checks": [
         "Public evidence, transformations and unsupported judgments separated in inputs/sources.",
         "Mechanical checks are not independent market validation.",
@@ -1510,7 +1510,7 @@
         "output/PHVS_cross_trial_clinical_audit_2026-10-07.txt",
         "models/finalized/inputs.json"
       ],
-      "snapshot": "Three audit visuals; separate rescue/prevention comparisons;61%+39%\u00d713/30\u00d750%=69.45%retention bridge;90%PoS and60%conditionaloral-choice assumptions.",
+      "snapshot": "Three audit visuals; separate rescue/prevention comparisons;61%+39%×13/30×50%=69.45%retention bridge;90%PoS and60%conditionaloral-choice assumptions.",
       "thesis_effect": "Makes favorable clinical underwriting explicit without claiming cross-trial superiority or validating commercial uptake.",
       "limitations_and_bias_checks": "Prior-source synthesis, not a new full clinical audit.50%avoidance analyst assumption; two historical cohorts differ. Exact visual fit awaits Claude slide implementation.",
       "remaining_work": "User supplies Markdown to Claude; render and check resulting slide."
@@ -1531,6 +1531,51 @@
       "thesis_effect": "None.",
       "limitations_and_bias_checks": "LibreOffice never flagged the cycles because it resolves INDEX lazily; the graph search is the check that matches Excel's behaviour. Not yet opened in native Excel on this machine.",
       "remaining_work": "User to confirm Excel opens without the warning."
+    },
+    {
+      "id": "G88_slide6",
+      "date": "2026-10-11",
+      "objective": "Prepare source-specific patient adoption architecture slide brief",
+      "user_contribution": {
+        "prompt_excerpt": "make sure u add enough specifying detail",
+        "summary": "User requested named datasets and analogues behind a visual evidence-to-model flow."
+      },
+      "method": "Reviewed architecture, source registers, segmented equations and current Excel overrides; packaged visible copy, worked calculation, speaker notes, citations and limitations using presentation guidance. No new empirical research or model changes.",
+      "sources_and_artifacts": [
+        "pitch/patient_adoption_slide6_brief.md",
+        "models/excel/crimson_case.json",
+        "models/finalized/segmented_adoption.py"
+      ],
+      "snapshot": "Current30% launch oral choice and85%IR continuation supersede older40%/90%; example1000×50/328×54%×30%=24.7 reference completed starts, rising49.4 at60%.",
+      "thesis_effect": "Clarifies empirical anchors versus judgment and keeps favorable efficacy assumptions explicit.",
+      "limitations_and_bias_checks": "Reference-access normalization prevents second80% haircut; current IR engine uses claims dose budgets, not independently observed attacks; no new slide render or source re-audit.",
+      "remaining_work": "Claude designs slide; reconcile final slide with final workbook."
+    },
+    {
+      "id": "G88",
+      "date": "2026-10-17",
+      "objective": "Reverse DCF by product against launch comparators; check whether Guggenheim puts the value in prophylaxis; recover the alt-data inputs into the repository",
+      "user_contribution": {
+        "prompt_excerpt": "I was talking to a PM the other day, and he said that most of the value for Deucrictibant is going to come from prophylactic settings ... verify that Guggenheim says the same thing ... two graphs that show both IR and XR, how much the current price assumes that revenue will ramp compared to historical comparators like Orladeyo, Ekterly, Takhzyro",
+        "summary": "User relayed a PM's view that prophylaxis carries the value and asked for the Street-implied ramp by product against historical launches."
+      },
+      "method": "Read the broker texts for setting-specific peaks: Guggenheim's path puts 62% of 2036 revenue on IR; Leerink projects gross peaks of about $440m for on-demand (2037E) and about $1.3bn for prophylaxis (2038E); RBC sees about EUR 300m for IR within a EUR 720m total. Compiled launch curves from primary filings (Firazyr 2012-2017 from Shire 10-Ks and results releases; Takhzyro FY2019-FY2025 from Takeda; Orladeyo 2021-2025 from BioCryst; Cinryze from ViroPharma and Shire; Ekterly first twelve months derived from KalVista quarters). Added Step 3b to the Reverse DCF: a setting-split table, a launch-year-aligned table, and two charts, with the required ramp shown on the Street mix and on this model's mix. The alt-data JSON that the builder reads had lived in a temporary directory that was deleted; rebuilt it from the workbook tabs into research/altdata and moved the recalculation script into models/excel/tools so the build is self-contained. The builder now quotes the 3SM sheet name, which Excel had been adding on save.",
+      "sources_and_artifacts": [
+        "research/raw/sellside_2026-10-07/124306319.txt",
+        "research/raw/sellside_2026-10-07/124293821.txt",
+        "research/raw/sellside_2026-10-07/124298222.txt",
+        "https://www.sec.gov/Archives/edgar/data/0000936402/000095010315001422/dp53559_10k.htm",
+        "https://www.sec.gov/Archives/edgar/data/0000936402/000095010314001055/dp43946_ex9901.htm",
+        "https://www.sec.gov/Archives/edgar/data/0000936402/000093640217000008/q410k-12312016.htm",
+        "https://ir.biocryst.com/node/27811",
+        "research/altdata/altdata_A.json",
+        "research/altdata/altdata_B.json",
+        "models/excel/build_model.py"
+      ],
+      "snapshot": "Prophylaxis share of value: Guggenheim 38%, Leerink 75%, RBC about 58%, this model 68%, history (Takhzyro versus Firazyr peaks) 69%. Required IR at today's price on the Street mix: 61, 123, 248, 343, 470, 567 (years 1-6) against Firazyr 116, 235, 364, 445, 579, 663 and Ekterly 128 in year 1. Required XR on the Street mix: 73, 165, 249, 326, 396, 458; on this model's mix 32, 171, 286, 416, 535, 662; against Takhzyro 627 to 1,493 and Orladeyo 123 to 602. Price target unchanged at $24.46.",
+      "thesis_effect": "Guggenheim is the outlier on mix, so the Street-implied IR ramp is the demanding one (above Firazyr from year 3 and above the Ekterly run-rate), while the Street-implied XR ramp is below Orladeyo's actual curve from year 2. Re-mixed to this model's split, the XR requirement roughly matches Orladeyo and the IR requirement falls to Firazyr's path. The short case on the Street's own terms rests on IR; on the PM's mix it rests on XR reaching Orladeyo's curve against two incumbents.",
+      "limitations_and_bias_checks": "Comparators differ in geography, price and fiscal-year alignment (Takhzyro year 1 is a March fiscal year that starts eight months after launch; Orladeyo 2025 excludes the sold European business for one quarter; Ekterly year 1 is derived). The model-mix line applies this model's split to the Street total, which is a re-expression, not a re-solve. The alt-data reconstruction was checked by rebuilding and diffing every tab against the user's 12 October save: no differences beyond the new table.",
+      "remaining_work": "User review of the two charts and the setting split; decide whether the deck leads with the Street mix or the model mix."
     }
   ]
 }

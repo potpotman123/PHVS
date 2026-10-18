@@ -1,0 +1,1811 @@
+{
+ "datasets": {
+  "orladeyo_launch": {
+   "title": "Orladeyo (berotralstat, BioCryst) launch history: net revenue, patients, paid share, origin mix, field force",
+   "unit": "USD millions for revenue (global manufacturer net product revenue unless row says US); patients = count; shares = percent",
+   "subtables": {
+    "revenue_quarterly": {
+     "title": "Revenue quarterly",
+     "columns": [
+      "period",
+      "quarter_net_revenue_usdm",
+      "fy_net_revenue_usdm",
+      "geography",
+      "note"
+     ],
+     "rows": [
+      [
+       "2021 Q1",
+       10.9,
+       null,
+       "Global (predominantly US)",
+       "US launch Dec 2020"
+      ],
+      [
+       "2021 Q2",
+       28.5,
+       null,
+       "Global (predominantly US)",
+       null
+      ],
+      [
+       "2021 Q3",
+       37,
+       null,
+       "Global (predominantly US)",
+       null
+      ],
+      [
+       "2021 Q4",
+       46.2,
+       122.6,
+       "Global",
+       "Final FY2021 release supersedes preliminary FY 122 / Q4 45.6"
+      ],
+      [
+       "2022 Q1",
+       49.7,
+       null,
+       "Global",
+       "Q1 reauthorization/free-supply seasonality flagged by management"
+      ],
+      [
+       "2022 Q2",
+       65.2,
+       null,
+       "Global",
+       null
+      ],
+      [
+       "2022 Q3",
+       66,
+       null,
+       "Global",
+       null
+      ],
+      [
+       "2022 Q4",
+       70.7,
+       251.6,
+       "Global",
+       null
+      ],
+      [
+       "2023 Q4",
+       90.9,
+       326,
+       "Global",
+       "Q1-Q3 2023 quarterly values not tabulated in repo; final FY supersedes preliminary 325"
+      ],
+      [
+       "2024 Q4",
+       124.2,
+       437.7,
+       "Global",
+       "Q1-Q3 2024 quarterly values not tabulated in repo; final FY supersedes preliminary 437"
+      ],
+      [
+       "2024 FY (10-K split)",
+       null,
+       437.66,
+       "US 385.961 / WW 437.660",
+       "BioCryst 2024 10-K Note 2; includes differing commercial rights/royalties"
+      ],
+      [
+       "2026 H1",
+       null,
+       306.549,
+       "Global, six months",
+       "Orladeyo cost of product 6.433 on 306.549 revenue (BioCryst Q2 2026 release); not a full year"
+      ]
+     ]
+    },
+    "revenue_growth_derived": {
+     "title": "Revenue growth derived",
+     "columns": [
+      "year",
+      "fy_revenue_usdm",
+      "yoy_growth_pct",
+      "note"
+     ],
+     "rows": [
+      [
+       2021,
+       122.6,
+       null,
+       "launch year"
+      ],
+      [
+       2022,
+       251.6,
+       105.2,
+       "DERIVED in repo from FY values"
+      ],
+      [
+       2023,
+       326,
+       29.6,
+       "DERIVED in repo from FY values"
+      ],
+      [
+       2024,
+       437.7,
+       34.3,
+       "DERIVED in repo from FY values"
+      ]
+     ]
+    },
+    "patients_and_paid_share": {
+     "title": "Patients and paid share",
+     "columns": [
+      "as_of",
+      "metric",
+      "value",
+      "denominator_definition",
+      "note"
+     ],
+     "rows": [
+      [
+       "2021 (Jan 2022 disclosure)",
+       "First-year starters remaining on therapy",
+       "~70%",
+       "all 2021 starts; non-standard follow-up",
+       "Management disclosure, not a KM curve"
+      ],
+      [
+       "2022 Q1",
+       "Paid share of on-therapy stock",
+       "nearly 80%",
+       "on-therapy patients; QuickStart inclusion unresolved",
+       "vs ~two-thirds in H2 2021"
+      ],
+      [
+       "2022 Q1",
+       "12-month retention, paid vs long-term free",
+       "70% / 60%",
+       "patients reaching paid therapy vs long-term free product",
+       "non-random groups"
+      ],
+      [
+       "2022 Q1",
+       "6-month continuation after switch + PA",
+       "78% Takhzyro / 73% Haegarda switchers",
+       "evaluable switchers",
+       "selected entrants"
+      ],
+      [
+       "2022 Q3",
+       "Paid patients QoQ growth",
+       "+9%",
+       "paid patients",
+       "no level disclosed"
+      ],
+      [
+       "2022 Q3",
+       "12-month overall retention",
+       "mid-60s %",
+       "overall cohort",
+       "not a mature hazard"
+      ],
+      [
+       "2023-12-31",
+       "US patients on paid or long-term free product",
+       1104,
+       "paid + PAP, excludes QuickStart",
+       "L1 FY2023 release"
+      ],
+      [
+       "2023-12-31",
+       "Paid share",
+       "71.5%",
+       "same 1,104 denominator",
+       "FY2024 release retrospectively states 71.4%; retain contemporaneous 71.5%"
+      ],
+      [
+       "2023-12-31",
+       "Paid patients (derived)",
+       "~789",
+       "1,104 x 71.5%",
+       "DERIVED; rounding applies"
+      ],
+      [
+       "2023-12-31",
+       "Long-term free patients (derived)",
+       "~315",
+       "1,104 - ~789",
+       "DERIVED"
+      ],
+      [
+       "FY2023",
+       "Net patient additions",
+       321,
+       "all-status incl. short-term QuickStart",
+       "different denominator; do not subtract from 1,104"
+      ],
+      [
+       "2024-06-30",
+       "Paid share",
+       "74.4%",
+       "company paid-rate denominator",
+       "+2.9pp vs YE2023; >60% of paid users stay >=1 year"
+      ],
+      [
+       "2024-12-31",
+       "Paid share",
+       "73.5%",
+       "company paid-rate denominator",
+       "FY2024 release; aligned total count not disclosed"
+      ],
+      [
+       "2025-03-31",
+       "Paid share",
+       "84%",
+       "on-therapy patients excluding QuickStart; count undisclosed",
+       "BioCryst JPM Jan 2026 deck"
+      ],
+      [
+       "2025-12-31",
+       "Paid share",
+       "81%",
+       "on-therapy patients excluding QuickStart",
+       "BioCryst JPM Jan 2026 deck"
+      ],
+      [
+       "2025-12-31",
+       "US active patients",
+       ">1,600",
+       "all on-therapy incl. QuickStart, paid, PAP",
+       "lower bound; different denominator from paid share"
+      ],
+      [
+       "Launch to Jan 2026",
+       "Cumulative patients who have tried Orladeyo",
+       ">3,500",
+       "cumulative triers",
+       "do not divide >1,600 by >3,500 for persistence"
+      ],
+      [
+       "FY2025",
+       "New US patient prescriptions",
+       "highest since launch",
+       "qualitative",
+       "no count disclosed"
+      ]
+     ]
+    },
+    "prior_therapy_share_of_starts": {
+     "title": "Prior therapy share of starts",
+     "columns": [
+      "period",
+      "metric",
+      "value",
+      "denominator",
+      "note"
+     ],
+     "rows": [
+      [
+       "2021 starts (Jan 2022 disclosure)",
+       "Starts with previous prophylaxis",
+       ">50%",
+       "all starts since launch",
+       "mostly injectables; remainder mostly acute-only"
+      ],
+      [
+       "2022 Q1 stock",
+       "On-therapy patients who switched from prophylaxis",
+       "50%",
+       "on-therapy stock",
+       "half of those from Takhzyro => ~25% of stock ex-Takhzyro (DERIVED), not 25% of Takhzyro users"
+      ],
+      [
+       "Launch to 2024-06-03",
+       "Prior prevention",
+       "52%",
+       "patients who tried Orladeyo (specialty-pharmacy history + claims)",
+       "rounded shares sum to 101%"
+      ],
+      [
+       "Launch to 2024-06-03",
+       "On-demand only",
+       "32%",
+       "same",
+       null
+      ],
+      [
+       "Launch to 2024-06-03",
+       "Treatment naive",
+       "17%",
+       "same",
+       null
+      ]
+     ]
+    },
+    "commercial_infrastructure_and_targets": {
+     "title": "Commercial infrastructure and targets",
+     "columns": [
+      "disclosure_date",
+      "item",
+      "value",
+      "note"
+     ],
+     "rows": [
+      [
+       "2020-11-05",
+       "Planned US sales representatives",
+       "30-50",
+       "exact count withheld; plan not headcount"
+      ],
+      [
+       "2020-11-05",
+       "Field access relationships",
+       "top 200 HAE practices",
+       "dedicated care coordinator per practice"
+      ],
+      [
+       "2020-11-05",
+       "Payer research sample",
+       "16 qualitative (100m+ lives) then 56 quantitative (200m+ lives)",
+       "overlapping lives; stated preference"
+      ],
+      [
+       "2021 Q3",
+       "Average time to paid",
+       "within 30 days",
+       "conditioning/censoring unspecified"
+      ],
+      [
+       "2022-02-23",
+       "Payer policies covering US HAE population",
+       ">=80%",
+       "coverage availability, not paid share"
+      ],
+      [
+       "2022-02-23",
+       "Historical peak target",
+       "~2,000 US patients; up to $800m US + $200m ex-US",
+       "forward-looking target"
+      ],
+      [
+       "2022 Q2",
+       "Median time to paid shipment",
+       "<3 weeks",
+       null
+      ],
+      [
+       "2022-11-01",
+       "Top-500 prescribers share of new Rx",
+       "54%",
+       "Q3 2022"
+      ],
+      [
+       "2022-11-01",
+       "Prescriber base QoQ growth",
+       "+11%",
+       "Q3 2022"
+      ],
+      [
+       "2024-11-04",
+       "Management expected annual net patient additions 2024-2029",
+       "~200",
+       "forecast, not actual"
+      ],
+      [
+       "2024-11-04",
+       "Management paid-share goal",
+       "85%",
+       "forecast, not actual"
+      ]
+     ]
+    }
+   },
+   "notes": [
+    "Revenue is global manufacturer net product revenue; later periods include ex-US; not US-only unless stated.",
+    "Patient denominators differ across dates (paid+PAP vs incl. QuickStart); do not combine across rows.",
+    "No complete public monthly Rx/unique-paid-patient series exists in the repo."
+   ],
+   "sources": [
+    {
+     "name": "BioCryst quarterly/annual results releases (Q1 2021 - FY2024)",
+     "date": "2021-2025",
+     "url": "https://ir.biocryst.com/news-releases/news-release-details/biocryst-reports-fourth-quarter-and-full-year-2024-financial"
+    },
+    {
+     "name": "BioCryst FY2023 results / ORLADEYO program update (L1)",
+     "date": "2024-02-26",
+     "url": "https://ir.biocryst.com/node/25731"
+    },
+    {
+     "name": "BioCryst Q2 2024 results",
+     "date": "2024-08-05",
+     "url": "https://ir.biocryst.com/news-releases/news-release-details/biocryst-reports-second-quarter-2024-financial-results-and"
+    },
+    {
+     "name": "BioCryst Nov 2024 investor presentation (L2 / MIX)",
+     "date": "2024-11-04",
+     "url": "https://ir.biocryst.com/static-files/4e1f4dca-2e8e-48b6-869f-46bd74b8b1ba"
+    },
+    {
+     "name": "BioCryst JPM presentation (S1/A_S1)",
+     "date": "2026-01-12",
+     "url": "https://ir.biocryst.com/static-files/5a7fc8c1-15d9-4c5b-a3db-b0f6e07fd632"
+    },
+    {
+     "name": "BioCryst 2024 Form 10-K Note 2 (GEO)",
+     "date": "2025",
+     "url": "https://ir.biocryst.com/static-files/99047ae6-7679-4210-82f1-5a64a2afdd39"
+    },
+    {
+     "name": "BioCryst Q2 2026 results (COST2)",
+     "date": "2026-08-05",
+     "url": "https://ir.biocryst.com/news-releases/news-release-details/biocryst-reports-second-quarter-2026-financial-results"
+    },
+    {
+     "name": "BioCryst FY2025 results release",
+     "date": "2026",
+     "url": "https://ir.biocryst.com/news-releases/news-release-details/biocryst-reports-full-year-2025-financial-results-and-provides"
+    },
+    {
+     "name": "BioCryst earnings calls 2020-11-05 to 2022-11-01 (user-supplied issuer transcripts, summarized)",
+     "date": "2020-2022",
+     "path": "output/BioCryst_launch_archive_first_pass_2026-10-08.txt, research/PHVS_commercial_calibration_2026-10-08.json, research/biocryst_archive_manifest_2026-10-08.json"
+    }
+   ]
+  },
+  "ekterly_launch": {
+   "title": "Ekterly (sebetralstat, KalVista) launch: start forms, prescribers, revenue, addressable population, acquisition timeline",
+   "unit": "forms/prescribers = count; revenue = USD millions (global net product revenue); price = USD",
+   "subtables": {
+    "start_forms_cumulative": {
+     "title": "Start forms cumulative",
+     "columns": [
+      "as_of",
+      "cumulative_us_start_forms",
+      "incremental_forms_in_interval",
+      "interval_months",
+      "us_prescribers",
+      "note"
+     ],
+     "rows": [
+      [
+       "2025-08-31",
+       460,
+       460,
+       2,
+       null,
+       "launch ~Jul 7 2025; commercial availability mid-July"
+      ],
+      [
+       "2025-10-31",
+       937,
+       477,
+       2,
+       null,
+       null
+      ],
+      [
+       "2025-12-31",
+       1318,
+       381,
+       2,
+       580,
+       "Q4 refill revenue share >50%; possible holiday pull-forward"
+      ],
+      [
+       "2026-02-28",
+       1702,
+       384,
+       2,
+       724,
+       "29 of top-30 prescribers repeat prescribers (Mar 2026 deck)"
+      ]
+     ]
+    },
+    "modeled_monthly_forms": {
+     "title": "Modeled monthly forms",
+     "columns": [
+      "month",
+      "forms_per_month_model_input",
+      "note"
+     ],
+     "rows": [
+      [
+       "2025-07",
+       230,
+       "DERIVED: 460/2 uniform split of Jul-Aug increment"
+      ],
+      [
+       "2025-08",
+       230,
+       "DERIVED"
+      ],
+      [
+       "2025-09",
+       238.5,
+       "DERIVED: 477/2"
+      ],
+      [
+       "2025-10",
+       238.5,
+       "DERIVED"
+      ],
+      [
+       "2025-11",
+       190.5,
+       "DERIVED: 381/2"
+      ],
+      [
+       "2025-12",
+       190.5,
+       "DERIVED"
+      ],
+      [
+       "2026-01",
+       192,
+       "DERIVED: 384/2"
+      ],
+      [
+       "2026-02",
+       192,
+       "DERIVED; model projects 192/month forward (100/250 stress)"
+      ]
+     ]
+    },
+    "revenue_quarterly": {
+     "title": "Revenue quarterly",
+     "columns": [
+      "period",
+      "net_product_revenue_usdm",
+      "status",
+      "note"
+     ],
+     "rows": [
+      [
+       "2025 Q3",
+       13.7,
+       "reported",
+       "first commercial quarter; US"
+      ],
+      [
+       "2025 Q4",
+       35.4,
+       "DERIVED",
+       "FY2025 49.1 less Q3 13.7, rounded"
+      ],
+      [
+       "2025 FY (launch through Dec 31)",
+       49.1,
+       "reported",
+       "global; roughly six commercial months"
+      ],
+      [
+       "2026 Q1",
+       39.2,
+       "reported",
+       "US plus early Germany; stocking and free bridging included"
+      ],
+      [
+       "Jul 2025 - Mar 2026 cumulative",
+       88.3,
+       "DERIVED",
+       "49.1 + 39.2; ~9 commercial months"
+      ],
+      [
+       "2026 Q1 annualized",
+       156.8,
+       "DERIVED",
+       "39.2 x 4; arithmetic, not guidance"
+      ]
+     ]
+    },
+    "launch_parameters": {
+     "title": "Launch parameters",
+     "columns": [
+      "item",
+      "value",
+      "as_of",
+      "note"
+     ],
+     "rows": [
+      [
+       "US addressable diagnosed HAE patients (issuer estimate)",
+       "~9,000",
+       "2026-01",
+       "management estimate; definition unreconciled with claims studies"
+      ],
+      [
+       "Forms / addressable (derived)",
+       "18.9%",
+       "2026-02-28",
+       "DERIVED 1702/9000; forms not unique paid users"
+      ],
+      [
+       "WAC per dose",
+       16720,
+       "2025-07-07",
+       "2 doses / 4 tablets per pack"
+      ],
+      [
+       "Field force",
+       "32 reps",
+       "2025-07-07",
+       "approval-day presentation"
+      ],
+      [
+       "Clinician concentration",
+       "1,000 clinicians account for 90% of HAE claims",
+       "2025-07-07",
+       null
+      ],
+      [
+       "First commercial quarter SG&A / R&D",
+       "44.7 / 15.2",
+       "2025 Q3",
+       "USDm; mixed launch spend"
+      ],
+      [
+       "Q4 2025 refill share of revenue",
+       ">50%",
+       "2025-12-31",
+       null
+      ]
+     ]
+    },
+    "acquisition_timeline": {
+     "title": "Acquisition timeline",
+     "columns": [
+      "date",
+      "event",
+      "value",
+      "note"
+     ],
+     "rows": [
+      [
+       "2024-08-03",
+       "Anonymous Party A best/final cash proposal",
+       "USD 23/share",
+       "confirmatory diligence authorized Aug 4; merger drafts exchanged Aug 15-26"
+      ],
+      [
+       "2024-08-26",
+       "Party A board declined after diligence; buyer withdrew",
+       null,
+       "reason not disclosed"
+      ],
+      [
+       "2025-07-03",
+       "FDA approval of Ekterly (announced Jul 7)",
+       null,
+       null
+      ],
+      [
+       "2025-09-04",
+       "KalVista terminated Jefferies engagement",
+       null,
+       "absence of third-party interest"
+      ],
+      [
+       "2026-01-13/15",
+       "JPM meeting; Chiesi indicated interest",
+       null,
+       null
+      ],
+      [
+       "2026-01-23",
+       "Mutual confidentiality agreement",
+       null,
+       null
+      ],
+      [
+       "2026-02-19",
+       "Chiesi written proposal",
+       "USD 24/share",
+       null
+      ],
+      [
+       "2026-03-01",
+       "Data-room access granted",
+       null,
+       null
+      ],
+      [
+       "2026-04-29",
+       "Chiesi agreement announced",
+       "USD 27/share; ~USD 1.9bn equity; 36% premium to 30-day VWAP (Apr 28)",
+       "~10 months after FDA approval"
+      ],
+      [
+       "2026-06-11",
+       "Acquisition completed",
+       null,
+       "~11 months after FDA approval"
+      ]
+     ]
+    }
+   },
+   "notes": [
+    "Forms are submitted start forms, not unique, paid or active users; no aligned paid-patient count is public.",
+    "Revenue geography: US in 2025, US plus early Germany in Q1 2026.",
+    "No FY2026 Ekterly actual or later trajectory is in the repo."
+   ],
+   "sources": [
+    {
+     "name": "KalVista commercial updates (forms Aug 31 / Oct 31 / Dec 31 2025)",
+     "date": "2025-2026",
+     "url": "https://ir.kalvista.com/node/12266/html; https://ir.kalvista.com/node/12456/html; https://ir.kalvista.com/node/12546/html"
+    },
+    {
+     "name": "KalVista March 25 2026 release / 8-K (KALVFORM, K2)",
+     "date": "2026-03-25",
+     "url": "https://ir.kalvista.com/node/12706/html"
+    },
+    {
+     "name": "KalVista Q1 2026 results (KALVREV)",
+     "date": "2026-05",
+     "url": "https://ir.kalvista.com/node/12821/html"
+    },
+    {
+     "name": "KalVista March 2026 investor presentation (K1)",
+     "date": "2026-03",
+     "url": "https://ir.kalvista.com/static-files/5cb3e24e-4057-41c5-a225-f4c27a3e643f"
+    },
+    {
+     "name": "KalVista January 2026 corporate update (~9,000 diagnosed)",
+     "date": "2026-01",
+     "url": "https://ir.kalvista.com/node/12546/html"
+    },
+    {
+     "name": "KalVista FDA approval presentation, Exhibit 99.2 (IRPRICE)",
+     "date": "2025-07-07",
+     "url": "https://www.sec.gov/Archives/edgar/data/1348911/000119312525155885/d98157dex992.htm"
+    },
+    {
+     "name": "KalVista first commercial quarter operational update (COST)",
+     "date": "2025-09",
+     "url": "https://ir.kalvista.com/news-releases/news-release-details/kalvista-pharmaceuticals-provides-operational-update-and-7"
+    },
+    {
+     "name": "KalVista Schedule 14D-9 (MNA)",
+     "date": "2026-05",
+     "url": "https://www.sec.gov/Archives/edgar/data/1348911/000114036126021078/ny20073033x1_sc14d9.htm"
+    },
+    {
+     "name": "Chiesi announcement and completion releases",
+     "date": "2026-04-29 / 2026-06-11",
+     "url": "https://www.chiesi.com/en/media-hub/press-release/chiesi-group-to-acquire-kalvista-pharmaceuticals-expanding-its-global-rare-disease-portfolio.html"
+    },
+    {
+     "name": "Model constants",
+     "date": "2026-10-09",
+     "path": "models/finalized/inputs.json (segmented_constants), models/reverse_dcf/README.txt (IR launch comparison update)"
+    }
+   ]
+  },
+  "persistence_switching_benchmarks": {
+   "title": "Persistence, switching, dispensing and preference benchmarks transferred into the PHVS adoption model",
+   "unit": "percent or fraction as stated; doses per patient-year; counts",
+   "columns": [
+    "metric",
+    "value",
+    "numerator",
+    "denominator",
+    "population_and_period",
+    "source",
+    "url",
+    "transferability_caveat"
+   ],
+   "rows": [
+    [
+     "12-month persistence, berotralstat (no gap >=45 days)",
+     "61%",
+     null,
+     90,
+     "US linked EHR/claims initiators >=12y, Jun 2017-Sep 2023, 12m post-initiation",
+     "Zuraw et al. 2025, Allergy Asthma Proc (BioCryst-affiliated)",
+     "https://pubmed.ncbi.nlm.nih.gov/40300843/",
+     "New initiators with 45-day gap rule; not stable prevalent-user retention; rounded, numerator unavailable"
+    ],
+    [
+     "12-month persistence, lanadelumab",
+     "58%",
+     null,
+     189,
+     "same study",
+     "Zuraw et al. 2025, Allergy Asthma Proc (BioCryst-affiliated)",
+     "https://pubmed.ncbi.nlm.nih.gov/40300843/",
+     "Same; product ranking not causal"
+    ],
+    [
+     "12-month persistence, SC pdC1-INH",
+     "53%",
+     null,
+     78,
+     "same study",
+     "Zuraw et al. 2025, Allergy Asthma Proc (BioCryst-affiliated)",
+     "https://pubmed.ncbi.nlm.nih.gov/40300843/",
+     "Same"
+    ],
+    [
+     "Mean PDC, berotralstat (12m)",
+     0.73,
+     null,
+     90,
+     "same study (lanadelumab 0.78, SC pdC1-INH 0.74)",
+     "Zuraw et al. 2025, Allergy Asthma Proc (BioCryst-affiliated)",
+     "https://pubmed.ncbi.nlm.nih.gov/40300843/",
+     "PDC is adherence, not persistence or paid conversion"
+    ],
+    [
+     "Any LTP switch within 12 months",
+     "15.24%",
+     50,
+     328,
+     "US commercially insured non-androgen LTP initiators (IQVIA PharMetrics Plus), Jan 2016-Sep 2023; 39 index berotralstat; 12m post-index",
+     "O'Connor et al. HAEA 2025 LTP claims poster (KalVista)",
+     "https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf",
+     "Any destination incl. return to index drug; new initiators, not prevalent Orladeyo users; model uses 1/3, 2/3, 1x => 5/10/15% Orladeyo-origin PHVS Rx"
+    ],
+    [
+     ">=1 on-demand (rescue) claim within 12 months",
+     "67.1%",
+     220,
+     328,
+     "same cohort",
+     "O'Connor et al. HAEA 2025 LTP claims poster (KalVista)",
+     "https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf",
+     "Absence of claim does not prove no attacks or no stock; DERIVED fraction 220/328"
+    ],
+    [
+     "Mean rescue doses/patient-year, all LTP (post-index)",
+     11.8,
+     null,
+     328,
+     "same cohort; pre-index 13.1",
+     "O'Connor et al. HAEA 2025 LTP claims poster (KalVista)",
+     "https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf",
+     "Claims-dispensed doses, not consumed attacks; includes non-dispensers; model IR LTP dose high case"
+    ],
+    [
+     "Mean rescue doses/patient-year, minimal-gap LTP (post-index)",
+     8,
+     null,
+     147,
+     "subgroup with no gap >60d lanadelumab / >30d other LTP; pre-index 13.6",
+     "O'Connor et al. HAEA 2025 LTP claims poster (KalVista)",
+     "https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf",
+     "Selected persistent subgroup; model IR LTP working case (low 6)"
+    ],
+    [
+     "Mean rescue doses/patient-year, LTP switchers",
+     "18.5 pre / 23.9 post",
+     null,
+     50,
+     "switcher subgroup",
+     "O'Connor et al. HAEA 2025 LTP claims poster (KalVista)",
+     "https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf",
+     "Increase not significant (P=0.12); burden-targeting evidence only"
+    ],
+    [
+     "Berolife first-year stops, all causes",
+     "30 of 80 (37.5%)",
+     30,
+     80,
+     "France, 20 centers, treated Sep 2021-Jan 2024, cutoff Aug 23 2024; mean follow-up 11.5m",
+     "Berolife, Clin Transl Allergy 2026",
+     "https://onlinelibrary.wiley.com/doi/10.1002/clt2.70193",
+     "Foreign retrospective, variable follow-up; not KM survival"
+    ],
+    [
+     "Berolife stops for insufficient perceived efficacy",
+     "13 of 80 (16.25%); 13/30 of stops",
+     13,
+     80,
+     "same",
+     "Berolife, Clin Transl Allergy 2026",
+     "https://onlinelibrary.wiley.com/doi/10.1002/clt2.70193",
+     "Model upside retention 69.45% = 61% + 39% x (13/30) x 50%; transfer of French cause mix to US claims is judgment"
+    ],
+    [
+     "Berolife exit-cause mix",
+     "13 efficacy / 7 AE / 10 other (9 adherence, 1 pregnancy)",
+     30,
+     30,
+     "same; 6 of 7 AE stops at 0.5-4.5 months",
+     "Berolife, Clin Transl Allergy 2026",
+     "https://onlinelibrary.wiley.com/doi/10.1002/clt2.70193",
+     "Reasons not proven preventable by PHVS; AE categories not all GI"
+    ],
+    [
+     "Oral vs biweekly/monthly injection preference at equal efficacy",
+     "54% oral / 46% injection",
+     null,
+     150,
+     "US online survey Oct 12-27 2023; 139 on LTP; 76 lanadelumab users (53% oral), 32 SC C1-INH (56.9%)",
+     "Poulos et al. 2026 US LTP preference survey (likely BioCryst-funded)",
+     "https://pubmed.ncbi.nlm.nih.gov/41429313/",
+     "Simulated preference, not paid switching; only 9 berotralstat users; no 54% multiplier used in model"
+    ],
+    [
+     "Oral vs quarterly injection preference at equal efficacy",
+     "52% / 48%",
+     null,
+     150,
+     "same survey",
+     "Poulos et al. 2026 US LTP preference survey (likely BioCryst-funded)",
+     "https://pubmed.ncbi.nlm.nih.gov/41429313/",
+     "Same"
+    ],
+    [
+     "Willingness to switch LTP in next 6 months",
+     "15% extremely / 56% somewhat / 29% not at all",
+     null,
+     150,
+     "same survey",
+     "Poulos et al. 2026 US LTP preference survey (likely BioCryst-funded)",
+     "https://pubmed.ncbi.nlm.nih.gov/41429313/",
+     "Stated intention, no horizon-matched paid endpoint"
+    ],
+    [
+     "Oral on-demand (rescue) preference",
+     "84%",
+     null,
+     279,
+     "Adelphi multinational survey Jan 2023-Jan 2024; 1,131 physician records, 279 adult patient questionnaires; pre-Ekterly; Pharvaris-supported analysis",
+     "Adv Ther 2026 (Adelphi HAE DSP)",
+     "https://link.springer.com/article/10.1007/s12325-026-03790-2",
+     "Stated preference, not realized access or oral-to-oral choice; model rescue_oral_preference constant 0.84"
+    ],
+    [
+     "LTP satisfied or completely satisfied",
+     "163/178 (91.6%)",
+     163,
+     178,
+     "same Adelphi survey",
+     "Adv Ther 2026 (Adelphi HAE DSP)",
+     "https://link.springer.com/article/10.1007/s12325-026-03790-2",
+     "DERIVED fraction; high satisfaction coexists with oral interest at sample level"
+    ],
+    [
+     "Orladeyo entrant origin mix: prior prevention / on-demand only / naive",
+     "52% / 32% / 17%",
+     null,
+     null,
+     "US specialty-pharmacy history + claims, launch through Jun 3 2024; rounded total 101%",
+     "BioCryst investor presentation slide 8",
+     "https://ir.biocryst.com/static-files/1a9b298c-7e8e-4cf8-b5af-ffa6ef61586a",
+     "Cumulative triers mix, not annual origin-specific switch probabilities; model uses ratios 32/52 and 17/32"
+    ],
+    [
+     "Optime dispensing: patients with >=1 berotralstat dispensing",
+     1919,
+     1919,
+     null,
+     "US Optime Care specialty pharmacy, Dec 15 2020-Jan 8 2024",
+     "Optime Care real-world study, Allergy Asthma Clin Immunol 2026",
+     "https://link.springer.com/article/10.1186/s13223-025-01005-x",
+     "Licensed data; mixed paid/free and follow-up lengths; no written-Rx denominator"
+    ],
+    [
+     "Optime dispensing: patients with >=2 dispensings (repeat)",
+     "1,746 (91.0%)",
+     1746,
+     1919,
+     "same; 173 one-only dispensers (9.0%)",
+     "Optime Care real-world study",
+     "https://link.springer.com/article/10.1186/s13223-025-01005-x",
+     "DERIVED fraction; crude second-fill share, not 12m survival; model IR membership retention 90% (80-95% stress) cites this as weak reference"
+    ],
+    [
+     "Pooled 12-month KM persistence (gap >=90d or switch)",
+     "58.7% (95% CI 53.8-63.4)",
+     null,
+     499,
+     "Komodo claims, index Jan 2021-Jan 2024; 257 Orladeyo/185 Takhzyro/57 Haegarda",
+     "Orphanet J Rare Dis 2026 (Ionis-funded)",
+     "https://pmc.ncbi.nlm.nih.gov/articles/PMC13361871/",
+     "Different gap definition from 45-day study; do not average"
+    ],
+    [
+     "Observed switches to different LTP (variable follow-up)",
+     "11.2%",
+     56,
+     499,
+     "same Komodo cohort; mean data availability 18.0 months",
+     "Orphanet J Rare Dis 2026",
+     "https://pmc.ncbi.nlm.nih.gov/articles/PMC13361871/",
+     "Not a 12-month rate"
+    ],
+    [
+     "Outside-HAE paid conversion benchmark (Daybue)",
+     "~90%",
+     null,
+     null,
+     "Neuren/Acadia investor deck Aug 2024",
+     "Neuren investor presentation",
+     "https://www.neurenpharma.com/pdf/bcba55f5-1338-49f2-a297-7512f59e2c2e/Investor-roadshow-presentation-19-August-2024.pdf",
+     "Different disease; model uses 65/80/90% Rx-to-first-paid range"
+    ]
+   ],
+   "notes": [
+    "Expert-call material excluded by instruction.",
+    "Values marked DERIVED are repo arithmetic on source counts."
+   ],
+   "sources": [
+    {
+     "name": "Adoption range source register",
+     "date": "2026-10-09",
+     "path": "research/PHVS_adoption_range_source_register.json, output/PHVS_adoption_range_sources.txt"
+    },
+    {
+     "name": "Adoption evidence ledger A01-A26",
+     "date": "2026-10-07",
+     "path": "research/PHVS_adoption_evidence_2026-10-07.json"
+    },
+    {
+     "name": "Parameter ledger",
+     "date": "T1, I1 entries",
+     "path": "models/patient_adoption/parameter_ledger.json"
+    },
+    {
+     "name": "Finalized model sources (SWITCH, FRENCH, CLAIMS, PERSIST, PREFERENCE, RESCUEPREF, XRPERSIST, ACCESS, MIX)",
+     "date": "2026-10-09",
+     "path": "models/finalized/sources.json"
+    },
+    {
+     "name": "Switching evidence bridge",
+     "date": "2026-10-09",
+     "path": "research/PHVS_switching_evidence_bridge_2026-10-09.json"
+    },
+    {
+     "name": "Tolerability and preference audit",
+     "date": "2026-10-09",
+     "path": "research/PHVS_tolerability_preference_audit_2026-10-09.json"
+    },
+    {
+     "name": "Three adoption hypotheses (Poulos survey, Berolife extraction)",
+     "date": "2026-10-08",
+     "path": "research/PHVS_three_adoption_hypotheses_2026-10-08.json"
+    },
+    {
+     "name": "Public pharmacy sources (Optime counts)",
+     "date": "2026-10-08",
+     "path": "research/PHVS_public_pharmacy_sources_2026-10-08.json"
+    },
+    {
+     "name": "Geography/retention audit (69.45% formula)",
+     "date": "2026-10-09",
+     "path": "research/PHVS_geography_retention_audit_2026-10-09.json"
+    }
+   ]
+  },
+  "payer_policies": {
+   "title": "HAE payer policies reviewed (bounded audit, 6 Oct 2026)",
+   "unit": "policy attributes (text)",
+   "columns": [
+    "payer",
+    "product",
+    "policy_type",
+    "step_requirement_or_positioning",
+    "effective_date",
+    "url"
+   ],
+   "rows": [
+    [
+     "UnitedHealthcare (commercial)",
+     "Orladeyo",
+     "Medical necessity PA (P2232-9)",
+     "Age >=12: failure of all of Andembry, Haegarda, Takhzyro; typically excluded; plan/mandate/claims exceptions. History: Aug 2021 Haegarda/Takhzyro step + exclusion; Nov 2025 added Andembry; Jan 2026 age differentiation",
+     "2026-04-01",
+     "https://www.uhcprovider.com/content/dam/provider/docs/public/prior-auth/drugs-pharmacy/commercial/h-p/PA-Med-Nec-Orladeyo.pdf"
+    ],
+    [
+     "UnitedHealthcare (commercial)",
+     "Orladeyo",
+     "Notification PA (P1351-6)",
+     "Diagnosis, prevention use, no concurrent prevention; no failure step; still typically excluded; concurrently listed with strict policy, applicability/lives unknown",
+     "2026-06-01",
+     "https://www.uhcprovider.com/content/dam/provider/docs/public/prior-auth/drugs-pharmacy/commercial/h-p/PA-Notification-Orladeyo.pdf"
+    ],
+    [
+     "UnitedHealthcare (commercial)",
+     "Andembry",
+     "Medical necessity PA",
+     "No prior preventive failure criterion; diagnostic/specialist/clinical-benefit criteria; follow-up response and less acute use",
+     "2026-01-01",
+     "https://www.uhcprovider.com/content/dam/provider/docs/public/prior-auth/drugs-pharmacy/commercial/a-g/PA-Med-Nec-Andembry.pdf"
+    ],
+    [
+     "UnitedHealthcare (commercial)",
+     "Ekterly",
+     "Medical necessity PA",
+     "Adults: failure/contraindication/intolerance of BOTH generic icatibant AND one of Berinert/Ruconest; under 18: one of Berinert/Ruconest; typically excluded, plan-specific. Steps added Nov 2025",
+     "2026-02-01",
+     "https://www.uhcprovider.com/content/dam/provider/docs/public/prior-auth/drugs-pharmacy/commercial/a-g/PA-Med-Nec-Ekterly.pdf"
+    ],
+    [
+     "UnitedHealthcare (commercial)",
+     "Ekterly",
+     "Notification PA",
+     "No steps listed",
+     "2025-11-01",
+     "https://www.uhcprovider.com/content/dam/provider/docs/public/prior-auth/drugs-pharmacy/commercial/a-g/PA-Notification-Ekterly.pdf"
+    ],
+    [
+     "Cigna",
+     "HAE prophylaxis class (CNF 965)",
+     "Coverage position / preferred product criteria",
+     "Preferred: Andembry, Cinryze, Haegarda, Takhzyro; Dawnzera non-preferred requiring one preferred trial or continuation plus other PA criteria; explicitly does not target Orladeyo",
+     "2026-03-02",
+     "https://static.cigna.com/assets/chcp/pdf/coveragePolicies/cnf/cnf_965_coveragepositioncriteria_hereditary_angioedema_prophylaxis_medications_psm.pdf"
+    ],
+    [
+     "Cigna",
+     "Orladeyo (CNF 647)",
+     "Prior authorization",
+     "No injectable failure listed; requires type I/II with diagnostic labs and specialist; explicit normal-C1-INH exclusion",
+     "current (2026)",
+     "https://static.cigna.com/assets/chcp/pdf/coveragePolicies/cnf/cnf_647_coveragepositioncriteria_orladeyo_pa.pdf"
+    ],
+    [
+     "BCBS Mississippi",
+     "HAE (Andembry/Haegarda prevention pathways)",
+     "Regional medical policy",
+     "Prevention pathways with clinical burden thresholds; cannot generalize to all BCBS plans",
+     "2026-04-01",
+     "https://www.bcbsms.com/policy-search/medical/policy-detail/hereditary-angioedema-hae-revised-policy-effective-date-04-01-2026-notice"
+    ]
+   ],
+   "notes": [
+    "Bounded discovery across UHC, Cigna, Aetna, BCBS Mississippi; Aetna old policy not treated as current and not tabulated. No covered-life weighting."
+   ],
+   "sources": [
+    {
+     "name": "HAE payer access audit",
+     "date": "2026-10-06",
+     "path": "output/HAE_payer_access_audit_2026-10-06.txt"
+    }
+   ]
+  },
+  "hae_population": {
+   "title": "US HAE population and prevalence anchors used in the model",
+   "unit": "patients (count) unless stated; growth = CAGR percent",
+   "columns": [
+    "metric",
+    "value",
+    "period_or_as_of",
+    "status",
+    "source",
+    "url",
+    "note"
+   ],
+   "rows": [
+    [
+     "Diagnosed US HAE (issuer claims-derived)",
+     10035,
+     "2019",
+     "company estimate",
+     "BioCryst Nov 2024 presentation slide 12",
+     "https://ir.biocryst.com/static-files/4e1f4dca-2e8e-48b6-869f-46bd74b8b1ba",
+     "treated 8,010 / not treated 2,025"
+    ],
+    [
+     "Treated US HAE (issuer claims-derived)",
+     8010,
+     "2019",
+     "company estimate",
+     "BioCryst Nov 2024 presentation",
+     "https://ir.biocryst.com/static-files/4e1f4dca-2e8e-48b6-869f-46bd74b8b1ba",
+     null
+    ],
+    [
+     "Diagnosed US HAE (issuer claims-derived)",
+     11135,
+     "2023",
+     "company estimate",
+     "BioCryst Nov 2024 presentation",
+     "https://ir.biocryst.com/static-files/4e1f4dca-2e8e-48b6-869f-46bd74b8b1ba",
+     "treated 8,511 / not treated 2,624; treatment-window and eligibility not fully disclosed"
+    ],
+    [
+     "Treated US HAE (issuer claims-derived)",
+     8511,
+     "2023",
+     "company estimate",
+     "BioCryst Nov 2024 presentation",
+     "https://ir.biocryst.com/static-files/4e1f4dca-2e8e-48b6-869f-46bd74b8b1ba",
+     null
+    ],
+    [
+     "Treated CAGR 2019-2023",
+     "1.53%",
+     "2019-2023",
+     "DERIVED",
+     "repo arithmetic on 8,010 -> 8,511",
+     "https://ir.biocryst.com/static-files/4e1f4dca-2e8e-48b6-869f-46bd74b8b1ba",
+     "model working net growth 1.5%, stress 0-3%"
+    ],
+    [
+     "Diagnosed CAGR 2019-2023",
+     "2.63%",
+     "2019-2023",
+     "DERIVED",
+     "repo arithmetic on 10,035 -> 11,135",
+     "https://ir.biocryst.com/static-files/4e1f4dca-2e8e-48b6-869f-46bd74b8b1ba",
+     "net of deaths; do not subtract deaths again"
+    ],
+    [
+     "Company diagnosed US HAE estimate",
+     "~9,000",
+     "2026-01",
+     "company estimate",
+     "KalVista Jan 2026 corporate update",
+     "https://ir.kalvista.com/node/12546/html",
+     "unreconciled definition; do not average with BioCryst figures"
+    ],
+    [
+     "Treated HAE national projection, expert-adjudicated",
+     6595,
+     "2020",
+     "published claims projection",
+     "Ann Allergy Asthma Immunol 2025 (doi 10.1016/j.anai.2025.05.018)",
+     "https://www.sciencedirect.com/science/article/pii/S1081120625002583",
+     "95% CI 5,102-8,390; 2018: 7,602; 2019: 7,275"
+    ],
+    [
+     "Treated HAE national projection, algorithm-only",
+     8694,
+     "2020",
+     "published claims projection",
+     "same",
+     "https://www.sciencedirect.com/science/article/pii/S1081120625002583",
+     "95% CI 6,965-10,722; 2018: 9,559; 2019: 9,341; 24-month continuous enrollment"
+    ],
+    [
+     "Model working diagnosed proxy",
+     10000,
+     "2026-07 anchor",
+     "underwriting assumption",
+     "models/finalized/inputs.json (population)",
+     null,
+     "bounds 8,500-11,500; broad proxy, not age/subtype-eligible census"
+    ],
+    [
+     "Model treated / diagnosed-untreated split",
+     "8,500 / 1,500",
+     "2026-07 anchor",
+     "underwriting assumption",
+     "models/finalized/assumptions_audit.json",
+     null,
+     "treated scenarios 8,000/8,500/9,000; untreated is residual"
+    ],
+    [
+     "Pool weight: Orladeyo (oral prevention)",
+     "17% (1,700)",
+     "2026-07 anchor",
+     "scenario",
+     "models/finalized/inputs.json pool_weights; revenue_ramp_inputs.json",
+     null,
+     "oral scenarios 1,600/1,700/1,800 anchored to >1,600 YE2025 all-status"
+    ],
+    [
+     "Pool weight: other prevention (injectable LTP)",
+     "40.8% (4,080)",
+     "2026-07 anchor",
+     "scenario",
+     "same",
+     null,
+     "DERIVED residual: treated x LTP share minus oral"
+    ],
+    [
+     "Pool weight: acute-only",
+     "27.2% (2,720)",
+     "2026-07 anchor",
+     "scenario",
+     "same",
+     null,
+     "DERIVED residual of treated"
+    ],
+    [
+     "Pool weight: diagnosed untreated",
+     "15% (1,500)",
+     "2026-07 anchor",
+     "scenario",
+     "same",
+     null,
+     null
+    ],
+    [
+     "Annual any-LTP claim share among treated",
+     "68% (2024); 64% (2021)",
+     "2021-2024",
+     "published claims abstract",
+     "ISPOR 2026 on-demand trends poster (IQVIA PharMetrics Plus, 3,647 ever-treated)",
+     "https://www.ispor.org/heor-resources/presentations-database/presentation-cti/ispor-2026/poster-session-2-4/recent-trends-in-on-demand-treatment-prescriptions-for-hereditary-angioedema-a-us-claims-database-analysis",
+     "model LTP share scenarios 60/68/70%"
+    ],
+    [
+     ">=1 rescue (on-demand) claim among LTP initiators, 12m",
+     "67.1% (220/328)",
+     "2016-2023",
+     "DERIVED from poster counts",
+     "O'Connor et al. HAEA 2025 poster",
+     "https://www.kalvista.com/wp-content/uploads/2025/07/HAEA-2025_LTP-Claims-Poster_Final.pdf",
+     "cannot be used as share with rescue available"
+    ],
+    [
+     "Mean annual OD doses per OD user",
+     14,
+     "2021-2024",
+     "published claims abstract",
+     "ISPOR 2026 poster",
+     "https://www.ispor.org/heor-resources/presentations-database/presentation-cti/ispor-2026/poster-session-2-4/recent-trends-in-on-demand-treatment-prescriptions-for-hereditary-angioedema-a-us-claims-database-analysis",
+     "model non-LTP IR dose working 14 (10/18 stress)"
+    ],
+    [
+     "Population growth index (model helper)",
+     "100 -> 107.73 (yr5) -> 116.05 (yr10) at 1.5%; 115.93 / 134.39 at 3%",
+     "index",
+     "DERIVED",
+     "models/patient_adoption/population_growth_results.json",
+     null,
+     "net scaling, not PHVS forecast"
+    ]
+   ],
+   "notes": [
+    "Dated stocks from different sources use different definitions; keep separate.",
+    "Pool counts 1,700/4,080/2,720/1,500 sum to 10,000."
+   ],
+   "sources": [
+    {
+     "name": "BioCryst Nov 2024 investor presentation (L2), slide 12",
+     "date": "2024-11-04",
+     "url": "https://ir.biocryst.com/static-files/4e1f4dca-2e8e-48b6-869f-46bd74b8b1ba"
+    },
+    {
+     "name": "US treated-HAE claims prevalence study (full-text audit)",
+     "date": "2025",
+     "url": "https://www.sciencedirect.com/science/article/pii/S1081120625002583"
+    },
+    {
+     "name": "KalVista January 2026 update",
+     "date": "2026-01",
+     "url": "https://ir.kalvista.com/node/12546/html"
+    },
+    {
+     "name": "ISPOR 2026 on-demand trends (GAP2 / PHS4)",
+     "date": "2026-05",
+     "url": "https://www.ispor.org/heor-resources/presentations-database/presentation-cti/ispor-2026/poster-session-2-4/recent-trends-in-on-demand-treatment-prescriptions-for-hereditary-angioedema-a-us-claims-database-analysis"
+    },
+    {
+     "name": "Model population inputs",
+     "date": "2026-10-09",
+     "path": "models/finalized/inputs.json, models/finalized/assumptions_audit.json, models/finalized/sources.json (POP), models/patient_adoption/revenue_ramp_inputs.json, models/patient_adoption/population_growth_results.json, research/PHVS_adoption_range_source_register.json"
+    }
+   ]
+  },
+  "phvs_company_facts": {
+   "title": "Pharvaris company facts: EUR financials, capital structure, BRAIN license, IP, regulatory dates, price and FX anchors",
+   "unit": "EUR millions except shares/options/RSUs (millions) and strike (EUR); prices USD; FX USD per EUR",
+   "subtables": {
+    "financials_eur": {
+     "title": "Financials eur",
+     "columns": [
+      "line_item",
+      "2024",
+      "2025",
+      "H1_2026"
+     ],
+     "rows": [
+      [
+       "revenue",
+       0,
+       0,
+       0
+      ],
+      [
+       "rd",
+       98.563529,
+       124.478334,
+       65.16133
+      ],
+      [
+       "ga",
+       47.124638,
+       45.344598,
+       29.898958
+      ],
+      [
+       "opex",
+       145.688167,
+       169.822932,
+       95.060288
+      ],
+      [
+       "finance_income",
+       13.291664,
+       -3.888564,
+       8.892193
+      ],
+      [
+       "tax",
+       1.825024,
+       1.987901,
+       0.875307
+      ],
+      [
+       "net_income",
+       -134.221527,
+       -175.699397,
+       -87.043402
+      ],
+      [
+       "sbc",
+       16.208533,
+       19.050394,
+       11.529359
+      ],
+      [
+       "depreciation",
+       0.269562,
+       0.418353,
+       0.284025
+      ],
+      [
+       "cfo",
+       -120.130191,
+       -137.073634,
+       -86.566932
+      ],
+      [
+       "capex",
+       0.538086,
+       0.164619,
+       0.079004
+      ],
+      [
+       "cfi",
+       -0.538086,
+       -0.164619,
+       -0.079004
+      ],
+      [
+       "cff",
+       2.676555,
+       160.607219,
+       105.812502
+      ],
+      [
+       "cash_fx",
+       7.488122,
+       -12.418115,
+       7.436999
+      ],
+      [
+       "cash_begin",
+       391.231637,
+       280.728037,
+       291.678888
+      ],
+      [
+       "cash_end",
+       280.728037,
+       291.678888,
+       318.282453
+      ],
+      [
+       "total_assets",
+       291.374765,
+       301.454999,
+       328.667391
+      ],
+      [
+       "liabilities",
+       23.614024,
+       30.180665,
+       27.856887
+      ],
+      [
+       "equity",
+       267.760741,
+       271.274334,
+       300.810504
+      ],
+      [
+       "shares_end",
+       54.37949,
+       65.21059,
+       70.204506
+      ]
+     ]
+    },
+    "opening_balance_2026_06_30": {
+     "title": "Opening balance 2026 06 30",
+     "columns": [
+      "item",
+      "value",
+      "unit"
+     ],
+     "rows": [
+      [
+       "cash_eurm",
+       318.282453,
+       "EURm"
+      ],
+      [
+       "nwc_eurm",
+       -22.78664,
+       "EURm"
+      ],
+      [
+       "ppe_and_rou_eurm",
+       1.210051,
+       "EURm"
+      ],
+      [
+       "other_net_assets_eurm",
+       4.10464,
+       "EURm"
+      ],
+      [
+       "equity_eurm",
+       300.810504,
+       "EURm"
+      ],
+      [
+       "term_debt_eurm",
+       0,
+       "EURm"
+      ],
+      [
+       "shares_m",
+       70.204506,
+       "millions"
+      ],
+      [
+       "options_m",
+       4.455397,
+       "millions"
+      ],
+      [
+       "option_strike_eur",
+       12.56,
+       "EUR"
+      ],
+      [
+       "rsus_m",
+       1.545152,
+       "millions"
+      ]
+     ]
+    },
+    "capital_structure": {
+     "title": "Capital structure",
+     "columns": [
+      "item",
+      "value",
+      "as_of",
+      "note"
+     ],
+     "rows": [
+      [
+       "Issued shares (m)",
+       70.204506,
+       "2026-06-30",
+       "interim balance sheet"
+      ],
+      [
+       "Options outstanding (m)",
+       4.455397,
+       "2026-06-30",
+       "weighted strike EUR 12.56"
+      ],
+      [
+       "RSUs outstanding (m)",
+       1.545152,
+       "2026-06-30",
+       null
+      ],
+      [
+       "Term debt",
+       0,
+       "2026-06-30",
+       "none on balance sheet"
+      ],
+      [
+       "Cash (EURm)",
+       318.282453,
+       "2026-06-30",
+       "not October cash"
+      ],
+      [
+       "May 2026 financing (USDm)",
+       132.3,
+       "2026-05",
+       "runway into 2028 per Aug 12 2026 release"
+      ],
+      [
+       "Shares end FY2024 / FY2025 (m)",
+       "54.37949 / 65.21059",
+       "year-end",
+       "history.json"
+      ],
+      [
+       "H1 2026 milestone awards",
+       "60,000 options (granted 2026-06-01) + 20,000 RSUs",
+       "H1 2026",
+       "vest 40% on FDA IR approval, 60% on FDA XR approval; recipient unnamed"
+      ],
+      [
+       "2021 equity plan annual pool increase",
+       "lesser of 4% of outstanding shares or Board-selected amount",
+       "2026 filing",
+       null
+      ],
+      [
+       "CEO change-of-control termination benefit",
+       "1.5x (base salary + target bonus)",
+       "unchanged 2023-2025 filings",
+       "requires qualifying termination within 1 month before / 12 months after change of control"
+      ],
+      [
+       "Other executives change-of-control termination benefit",
+       "1x (base salary + target bonus)",
+       "unchanged",
+       null
+      ]
+     ]
+    },
+    "license_ip_regulatory_price_fx": {
+     "title": "License ip regulatory price fx",
+     "columns": [
+      "item",
+      "value",
+      "date",
+      "source_id",
+      "note"
+     ],
+     "rows": [
+      [
+       "BRAIN royalty rate",
+       "low to medium single digits (%)",
+       "FY2025 20-F",
+       "F25",
+       "tier thresholds not disclosed"
+      ],
+      [
+       "BRAIN remaining milestones",
+       "EUR 8m at year-end 2025",
+       "FY2025 20-F",
+       "F25",
+       "timing not disclosed"
+      ],
+      [
+       "Licensed patent expiration",
+       "November 23, 2038 or later",
+       "FY2025 20-F",
+       "F25",
+       "generic entry at expiry not certain"
+      ],
+      [
+       "IR (deucrictibant immediate release) PDUFA",
+       "2027-04-23",
+       "2026-10-08",
+       "IRREG",
+       "EMA review underway"
+      ],
+      [
+       "IR commercial month (model)",
+       "2027-05",
+       "model",
+       "inputs.json launches",
+       "assumption"
+      ],
+      [
+       "XR marketing applications",
+       "planned from H1 2027",
+       "2026-09-08",
+       "XRREG",
+       "CHAPTER-3: 85 participants, adolescents/adults"
+      ],
+      [
+       "XR approval assumption (model)",
+       "2028-05-31; commercial 2028-06",
+       "model",
+       "inputs.json launches",
+       "underwriting date, not company guidance"
+      ],
+      [
+       "Orladeyo WAC",
+       "USD 48,487.92 per 28-day pack (from 44,484.33)",
+       "2026-01-09",
+       "XRPRICE",
+       "list price"
+      ],
+      [
+       "Ekterly WAC",
+       "USD 16,720 per dose; 2 doses / 4 tablets per pack",
+       "2025-07-07",
+       "IRPRICE",
+       "list price"
+      ],
+      [
+       "ECB reference FX",
+       "USD 1.1186 per EUR",
+       "2026-10-08",
+       "FX",
+       "frozen planning rate; history kept in EUR"
+      ],
+      [
+       "Model XR net annual price scenarios",
+       "USD 300,000 / 418,000 / 500,000",
+       "2026-10-09",
+       "range register",
+       "418k working from sell-side (Wedbush Sep 8 2026: 45,000 gross monthly)"
+      ],
+      [
+       "Model IR net dose price scenarios",
+       "USD 12,500 / 14,000 / 16,000",
+       "2026-10-09",
+       "range register",
+       "working ~16% below Ekterly WAC"
+      ]
+     ]
+    }
+   },
+   "notes": [
+    "Historical EUR not converted at planning FX; forecast USD starts July 2026 in the model."
+   ],
+   "sources": [
+    {
+     "name": "Pharvaris FY2025 Form 20-F (F25)",
+     "date": "2026-04-02",
+     "url": "https://www.sec.gov/Archives/edgar/data/1830487/000183048726000013/phvs-20251231.htm"
+    },
+    {
+     "name": "Pharvaris June 2026 interim financial statements (H126)",
+     "date": "2026-08-12",
+     "url": "https://www.sec.gov/Archives/edgar/data/1830487/000119312526345702/phvs-20260630.htm"
+    },
+    {
+     "name": "Pharvaris interim 2026 Note 18 share-based payments",
+     "date": "2026-08-12",
+     "url": "https://www.sec.gov/Archives/edgar/data/1830487/000119312526345702/phvs-ex99_3.htm"
+    },
+    {
+     "name": "RAPIDe-3 publication announcement (IRREG)",
+     "date": "2026-10-08",
+     "url": "https://ir.pharvaris.com/news-releases/news-release-details/phase-3-study-results-highlighting-deucrictibants-rapid-and"
+    },
+    {
+     "name": "CHAPTER-3 topline announcement (XRREG)",
+     "date": "2026-09-08",
+     "url": "https://ir.pharvaris.com/news-releases/news-release-details/pharvaris-announces-positive-topline-data-chapter-3-pivotal"
+    },
+    {
+     "name": "BioCryst WAC change 8-K (XRPRICE)",
+     "date": "2026-01-09",
+     "url": "https://ir.biocryst.com/node/27676/html"
+    },
+    {
+     "name": "KalVista FDA approval presentation (IRPRICE)",
+     "date": "2025-07-07",
+     "url": "https://www.sec.gov/Archives/edgar/data/1348911/000119312525155885/d98157dex992.htm"
+    },
+    {
+     "name": "ECB euro reference rate (FX)",
+     "date": "2026-10-08",
+     "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.de.html"
+    },
+    {
+     "name": "Pharvaris Q2 2026 results release",
+     "date": "2026-08-12",
+     "url": "https://pharvaris.gcs-web.com/news-releases/news-release-details/pharvaris-reports-second-quarter-2026-financial-results-and"
+    },
+    {
+     "name": "Model launch and price inputs",
+     "date": "2026-10-09",
+     "path": "models/finalized/inputs.json, research/PHVS_adoption_range_source_register.json"
+    }
+   ]
+  }
+ }
+}
