@@ -1225,14 +1225,14 @@ r += 1
 put(wsRD, r, 2, 'Prophylaxis: deucrictibant XR against prophylaxis launches', f_bold); r += 1
 XR1 = lrow("Required at today's price: XR, Street mix", '2028', fn=lambda k: f'={CL(4+k)}{R_LXR}', bold=True)
 XR2 = lrow("Required at today's price: XR, this model's mix", '2028', fn=lambda k: f'=IF({CL(4+k)}{R_MT}=0,"",{CL(4+k)}{R_LT}*{CL(4+k)}{R_MXR}/{CL(4+k)}{R_MT})')
-XR3 = lrow('Takhzyro, injectable prophylaxis (Takeda fiscal years)', 'Aug 2018', vals=[626.6, 818.1, 921.8, 1108.0, 1241.0, 1468.4, 1492.7])
+XR3 = lrow('Takhzyro, injectable prophylaxis (Takeda fiscal years; year 1 starts eight months after launch)', 'Aug 2018', vals=[626.6, 818.1, 921.8, 1108.0, 1241.0, 1468.4, 1492.7])
 XR4 = lrow('Orladeyo, oral prophylaxis', 'Dec 2020', vals=[122.6, 251.6, 326.0, 437.7, 601.8])
 XR5 = lrow('Cinryze, injectable prophylaxis', 'Oct 2008', vals=[97.3, 176.8, None, 321.0, None, 503.0])
 put(wsRD, r, 2, 'Comparators are global reported sales from Shire 10-K filings (Firazyr 2012-2017), Takeda annual reports (Takhzyro, fiscal years ending March, period-average FX), BioCryst releases (Orladeyo 2021-2025), KalVista releases (Ekterly; the second quarter of 2026 is held at the first because Chiesi closed the acquisition before it was reported) and ViroPharma and Shire releases (Cinryze). Detail and links are on the HAE Injectables tab.', f_sub); wsRD.cell(r, 2).alignment = Alignment(wrap_text=True, vertical='top'); wsRD.merge_cells(start_row=r, start_column=2, end_row=r, end_column=16); wsRD.row_dimensions[r].height = 40; r += 2
 def lchart(title, rows_, labels):
     c_ = LineChart(); c_.title = title; c_.height = 8; c_.width = 15; c_.style = 2; c_.y_axis.title = 'USD m'
     for rowi, lab in zip(rows_, labels):
-        c_.add_data(Reference(wsRD, min_col=4, max_col=3 + YN, min_row=rowi), from_rows=True, titles_from_data=False); c_.series[-1].tx = SeriesLabel(v=lab)
+        c_.add_data(Reference(wsRD, min_col=4, max_col=3 + YN, min_row=rowi), from_rows=True, titles_from_data=False); c_.series[-1].tx = SeriesLabel(v=lab); c_.series[-1].marker.symbol = 'circle'; c_.series[-1].marker.size = 5; c_.series[-1].smooth = False
     c_.set_categories(Reference(wsRD, min_col=4, max_col=3 + YN, min_row=LCY)); return c_
 wsRD.add_chart(lchart('IR: what the price requires against on-demand launches, USD m', [IR1, IR2, IR3, IR4, IR5], ['Required, Street mix', "Required, this model's mix", 'Ekterly (first 12 months)', 'Firazyr', 'Orladeyo (reference)']), f'B{r}')
 wsRD.add_chart(lchart('XR: what the price requires against prophylaxis launches, USD m', [XR1, XR2, XR3, XR4, XR5], ['Required, Street mix', "Required, this model's mix", 'Takhzyro', 'Orladeyo', 'Cinryze']), f'J{r}')
